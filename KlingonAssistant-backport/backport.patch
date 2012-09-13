@@ -1,0 +1,142 @@
+diff --git a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
+--- a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
++++ b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
+@@ -18,15 +18,12 @@ package org.tlhInganHol.android.klingonassistant;
+ 
+ import java.util.regex.Matcher;
+ 
+-import android.app.ActionBar;
+ import android.app.Activity;
+ import android.app.SearchManager;
+ import android.content.ComponentName;
+-import android.content.Context;
+ import android.content.Intent;
+ import android.database.Cursor;
+ import android.net.Uri;
+-import android.os.Build;
+ import android.os.Bundle;
+ import android.text.Html;
+ import android.text.Spannable;
+@@ -42,7 +39,6 @@ import android.view.Menu;
+ import android.view.MenuInflater;
+ import android.view.MenuItem;
+ import android.view.View;
+-import android.widget.SearchView;
+ import android.widget.TextView;
+ 
+ /**
+@@ -56,10 +52,7 @@ public class EntryActivity extends Activity {
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.entry);
+ 
+-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
+-            ActionBar actionBar = getActionBar();
+-            actionBar.setDisplayHomeAsUpEnabled(true);
+-        }
++        // BACKPORT: No Action Bar.
+ 
+         TextView entryTitle = (TextView) findViewById(R.id.entry);
+         TextView entryText = (TextView) findViewById(R.id.definition);
+@@ -195,7 +188,7 @@ public class EntryActivity extends Activity {
+         }
+         if (entry.isVerb() && !entry.isPrefix() && !entry.isSuffix()) {
+             // Reduce the size of the transitivity information.
+-            ssb.setSpan(new AbsoluteSizeSpan(14, true), transitivityStart,
++            ssb.setSpan(new AbsoluteSizeSpan(14), transitivityStart,
+                 transitivityStart + transitivityHeader.length() +
+                 transitivity.length(), finalFlags);
+         }
+@@ -201,7 +194,7 @@ public class EntryActivity extends Activity {
+         }
+         if (!hiddenNotes.equals("")) {
+             // Reduce the size of the hidden notes.
+-            ssb.setSpan(new AbsoluteSizeSpan(14, true), hiddenNotesStart,
++            ssb.setSpan(new AbsoluteSizeSpan(14), hiddenNotesStart,
+                 hiddenNotesStart + hiddenNotesHeader.length() +
+                 hiddenNotes.length(), finalFlags);
+         }
+@@ -242,7 +235,7 @@ public class EntryActivity extends Activity {
+             // If linked entry is hypothetical or extended canon, insert a "?" in front.
+             if (linkedEntry.isHypothetical() || linkedEntry.isExtendedCanon()) {
+                 ssb.insert(m.start(), "?");
+-                ssb.setSpan(new AbsoluteSizeSpan(14, true), m.start(), m.start() + 1, intermediateFlags);
++                ssb.setSpan(new AbsoluteSizeSpan(14), m.start(), m.start() + 1, intermediateFlags);
+                 ssb.setSpan(new SuperscriptSpan(), m.start(), m.start() + 1, maybeFinalFlags);
+                 end++;
+             }
+@@ -291,12 +284,7 @@ public class EntryActivity extends Activity {
+         MenuInflater inflater = getMenuInflater();
+         inflater.inflate(R.menu.options_menu, menu);
+ 
+-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
+-            SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+-            SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
+-            searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+-            searchView.setIconifiedByDefault(false);
+-        }
++        // BACKPORT: No search view.
+ 
+         return true;
+     }
+@@ -307,11 +295,7 @@ public class EntryActivity extends Activity {
+             case R.id.search:
+                 onSearchRequested();
+                 return true;
+-            case android.R.id.home:
+-                Intent intent = new Intent(this, KlingonAssistant.class);
+-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+-                startActivity(intent);
+-                return true;
++            // BACKPORT: No handling of android.R.id.home.
+             default:
+                 return false;
+         }
+diff --git a/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java b/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
+--- a/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
++++ b/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
+@@ -24,7 +24,6 @@ import android.content.Intent;
+ import android.database.Cursor;
+ import android.graphics.Typeface;
+ import android.net.Uri;
+-import android.os.Build;
+ import android.os.Bundle;
+ import android.preference.PreferenceManager;
+ import android.text.Html;
+@@ -38,7 +37,6 @@ import android.view.ViewGroup;
+ import android.widget.AdapterView;
+ import android.widget.BaseAdapter;
+ import android.widget.ListView;
+-import android.widget.SearchView;
+ import android.widget.TextView;
+ import android.widget.TwoLineListItem;
+ 
+@@ -233,12 +231,7 @@ public class KlingonAssistant extends Activity {
+         MenuInflater inflater = getMenuInflater();
+         inflater.inflate(R.menu.options_menu, menu);
+ 
+-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
+-            SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+-            SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
+-            searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+-            searchView.setIconifiedByDefault(false);
+-        }
++        // BACKPORT: No search view.
+ 
+         return true;
+     }
+diff --git a/res/menu/options_menu.xml b/res/menu/options_menu.xml
+--- a/res/menu/options_menu.xml
++++ b/res/menu/options_menu.xml
+@@ -17,10 +17,9 @@
+ -->
+ <!-- Options Menu for SearchableActivity and EntryActivity.
+  -->
++<!-- BACKPORT: No action view. -->
+ <menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:id="@+id/search"
+           android:title="@string/menu_search"
+-          android:icon="@drawable/ic_menu_search"
+-          android:showAsAction="ifRoom"
+-          android:actionViewClass="android.widget.SearchView" />
++          android:icon="@drawable/ic_menu_search" />
+ </menu>
