@@ -2743,7 +2743,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{De'vID:n:name}</column>
-      <column name="notes">{tlhIngan Hol boQwI':n:nolink} "Klingon Language Assistant" - database version 2012.09.10j.
+      <column name="notes">{tlhIngan Hol boQwI':n:nolink} "Klingon Language Assistant" - database version 2012.09.28a.
       
 To begin searching, simply type into the search box.  On some devices, you may have to press the "Search" (magnifying glass) key or the "Menu" key to activate the search box.
 
@@ -6810,7 +6810,7 @@ An acceptable way to phrase this demand as a question is {nuq DaDab?:sen:nolink}
       <column name="definition">data, information</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qawHaq:n}, {mem:n}, {ngoD:n}, {potlh:n}, {Sov:n}, {ta:n}</column>
+      <column name="see_also">{qawHaq:n}, {mem:n}, {ngoD:n}, {potlh:n}, {Sov:n}, {ta:n}, {De'wI':n}</column>
       <column name="notes"></column>
       <column name="hidden_notes">If you're looking for someone named "Data", see {qoqyoq:n:hyp}.</column>
       <column name="components"></column>
@@ -6931,7 +6931,7 @@ An acceptable way to phrase this demand as a question is {nuq DaDab?:sen:nolink}
       <column name="definition">computer</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ghun:v:1}</column>
+      <column name="see_also">{ghun:v:1}, {qawHaq:n}, {De':n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components">{De':v:hyp,nolink}, {-wI':v}</column>
@@ -31226,12 +31226,12 @@ Do not confuse this with the similarly named {Qaj:n}.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">In the {paq'batlh:src}, the {qempa'QeH:n:nolink} are the enraged (see {QeH:v}) ancestral spirits populating {ghe'tor:n}.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components">{no':n:inhpl}</column>
       <column name="examples"></column>
-      <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="search_tags">qempa'QeH</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh:src}</column>
     </table>
     <table name="mem">
       <column name="_id">26290</column>
@@ -35489,7 +35489,7 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{Qum:n}, {De'wI':n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {BoP:src}</column>
@@ -41107,14 +41107,14 @@ The expression {jISum:sen:nolink} has an idiomatic philosophical meaning, "I'm i
       <column name="synonyms"></column>
       <column name="antonyms">{rIn:v}</column>
       <column name="see_also">{bI'reS:n}</column>
-      <column name="notes">The subject of this verb is the person or thing starting the process, and the object is the process.  For example: {Qu' DataghDI' 'aqtu' mellota' je tIqaw.:sen} "When you begin a mission, remember Aktuh and Mellota."
+      <column name="notes">The subject of this verb is the person or thing starting the process, and the object is the process.  For example: {Qu' DataghDI' 'aqtu' mellota' je tIqaw.:sen} "When you begin a mission, remember Aktuh and Mellota."[2]
 
-If the starter of the process is unknown, unclear, or indefinite, the process becomes the subject of the verb (in which case it takes no object): {taghbej mu'qaD veS:sen:nolink} "Curse-warfare has definitely begun."</column>
+If the starter of the process is unknown, unclear, or indefinite, the process becomes the subject of the verb (in which case it takes no object): {taghbej mu'qaD veS:sen:nolink} "Curse-warfare has definitely begun."[3]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">start</column>
-      <column name="source">[1] {TKDA:src}, [2] {TKW:src}</column>
+      <column name="source">[1] {TKDA:src}, [2] {TKW:src}, [3] {PK:src}</column>
     </table>
     <table name="mem">
       <column name="_id">31680</column>
@@ -49326,7 +49326,7 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{ya:n}, {De'wI':n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {BoP:src}</column>
