@@ -100,7 +100,7 @@ public class KlingonContentDatabase {
 
     // This should be kept in sync with the version number in the database
     // entry {boQwI':n}.
-    private static final int DATABASE_VERSION = 201209109;
+    private static final int DATABASE_VERSION = 201209280;
 
     private final KlingonDatabaseOpenHelper mDatabaseOpenHelper;
     private static final HashMap<String,String> mColumnMap = buildColumnMap();
@@ -126,7 +126,8 @@ public class KlingonContentDatabase {
             // Log.d(TAG, "2. Opening db.");
             mDatabaseOpenHelper.openDatabase();
         } catch(SQLException e) {
-            throw e;
+            // Possibly an attempt to write a readonly database.
+            // Do nothing.
         }
 
     }
@@ -712,8 +713,11 @@ public class KlingonContentDatabase {
                     SQLiteDatabase writeDB = this.getWritableDatabase();
                     writeDB.close();
                 } catch(SQLiteDiskIOException e) {
-                    // TODO(davinci): Log error or do something here.
+                    // TODO(davinci): Log error or do something here and below.
                     // Log.e(TAG, "SQLiteDiskIOException on getWritableDatabase().");
+                } catch(SQLiteException e) {
+                    // Possibly unable to get provider because no transaction is active.
+                    // Do nothing.
                 }
             }
 
