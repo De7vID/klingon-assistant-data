@@ -20485,7 +20485,7 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="definition">reason, motive, logical thinking</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mo':n:2}, {ngoQ:n}, {meq:v}</column>
+      <column name="see_also">{mo':n:2}, {ngoQ:n}, {meq:v}, {pon:v}</column>
       <column name="notes"></column>
       <column name="hidden_notes">This is defined as "reason" in {TKD:src} and as "motive" in the word lists in {KGT:src}.  It is also glossed as "logical thinking" (in the sense of "motive") in the body of {KGT:src} on p.154.</column>
       <column name="components"></column>
@@ -20500,7 +20500,7 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="definition">reason</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{meq:n}</column>
+      <column name="see_also">{meq:n}, {pon:v}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -28879,13 +28879,19 @@ For other units of time, {pIq:n:nolink} is used.</column>
       <column name="definition">persuade, convince</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ghoH:v}</column>
+      <column name="see_also">{ghoH:v}, {meq:n}, {meq:v}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {wejlogh choponlaHbe'chugh:sen:nolink}
+   {vaj ghopvam vItap:sen:nolink}
+   {'ej DaH naDev qaHoH:sen:nolink}
+  "Give me three good reasons
+   Not to squeeze this hand tight
+   And kill you where you stand!"[2]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh p.144-145:src}</column>
     </table>
     <table name="mem">
       <column name="_id">25110</column>
