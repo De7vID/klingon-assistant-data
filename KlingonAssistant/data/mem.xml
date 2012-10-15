@@ -7725,8 +7725,8 @@ Based on the example of {qawmoH:v}, the subject of {DoHmoH:v:nolink} does the dr
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{SuD:v:1}, {nguv:v}</column>
-      <column name="notes">This verb also covers colors which would be called "brown".  To differentiate a brown object from another object which could also be described using {Doq:v:nolink}, a phrase such as {Doq 'ej wovbe':v} is used.[2]</column>
-      <column name="hidden_notes">All natural languages found on Earth divide colours into "warm" and "cool" in the same way.  Klingon distinguishes between {Doq:v} and {SuD:v:1,nolink}, but it groups "yellow" with the "cool" colours rather than with the "warm" colours.</column>
+      <column name="notes">This verb also covers colors which would be called "brown".  To differentiate a brown object from another object which could also be described using {Doq:v:nolink}, a phrase such as {Doq 'ej wovbe':sen} is used.[2]</column>
+      <column name="hidden_notes">All natural languages found on Earth divide colours into "warm" and "cool" in the same way.  Klingon distinguishes between {Doq:v:nolink} and {SuD:v:1}, but it groups "yellow" with the "cool" colours rather than with the "warm" colours.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">brown</column>
@@ -7748,14 +7748,29 @@ Based on the example of {qawmoH:v}, the subject of {DoHmoH:v:nolink} does the dr
       <column name="source">[1] {KGT p.123:src}</column>
     </table>
     <table name="mem">
+      <column name="_id">13937</column>
+      <column name="entry_name">Doq 'ej Qaj wuS rur</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">to be a particular shade of brown</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">A kradge has brown lips.  This expression is used to describe an object which is a particular shade of brown (see {Doq 'ej wovbe':sen}).</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags">brown, brown-colour</column>
+      <column name="source">[1] {s.k 1998.02.21:src} (reprinted in {HQ 8.1, p.7, Mar. 1999:src})</column>
+    </table>
+    <table name="mem">
       <column name="_id">13940</column>
       <column name="entry_name">Doq 'ej wovbe'</column>
-      <column name="part_of_speech">v:is,deriv</column>
+      <column name="part_of_speech">sen:phr</column>
       <column name="definition">be brown</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Qaj:n}</column>
-      <column name="notes">To be more specific about the shade of brown, a comparison is used.  For example, one might say {Qaj wuS rur:sen} (kradge lips are a particular shade of brown).[1]</column>
+      <column name="notes">To be more specific about the shade of brown, a comparison is used.  For example, one might say {Doq 'ej Qaj wuS rur:sen} (kradge lips are a particular shade of brown).[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -26744,7 +26759,7 @@ Note that "then" in the sense of "subsequently" is {ghIq:adv}.[1]</column>
       <column name="see_also">{Doq:v}, {SuD:v:1}, {rItlh:n}</column>
       <column name="notes">This word is seldom used except in the question {chay' nguv?:sen:nolink} or when suffixed with {-moH:v} to form {nguvmoH:v}.[1, p.82]
       
-Besides {chIS:v} and {qIj:v}, there are only two known color words in Klingon, {Doq:v} and {SuD:v:1}.  The latter two words are suffixed with {-qu':v}, and/or combined with {wov:v} and {Hurgh:v}, to refer to more specific colors.  To be even more specific, comparisons are used, such as {Qaj wuS rur:sen}.</column>
+Besides {chIS:v} and {qIj:v}, there are only two known color words in Klingon, {Doq:v} and {SuD:v:1}.  The latter two words are suffixed with {-qu':v}, and/or combined with {wov:v} and {Hurgh:v}, to refer to more specific colors.  To be even more specific, comparisons are used, such as {Doq 'ej Qaj wuS rur:sen}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -33438,7 +33453,7 @@ Two out-of-fashion slang words with the same meaning are {Huv:v:2,slang} and {no
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">A kradge has brown lips.  The expression {Qaj wuS rur:sen} is used to describe an object which is a particular shade of brown (see {Doq 'ej wovbe':v}).[2]
+      <column name="notes">A kradge has brown lips.  The expression {Doq 'ej Qaj wuS rur:sen} is used to describe an object which is a particular shade of brown (see {Doq 'ej wovbe':sen}).[2]
 
 Do not confuse this with the similarly named {qa'raj:n}.</column>
       <column name="hidden_notes"></column>
@@ -33446,21 +33461,6 @@ Do not confuse this with the similarly named {qa'raj:n}.</column>
       <column name="examples"></column>
       <column name="search_tags">brown, brown-colour</column>
       <column name="source">[1] {KGT:src}, [2] {s.k 1998.02.21:src} (reprinted in {HQ 8.1, p.7, Mar. 1999:src})</column>
-    </table>
-    <table name="mem">
-      <column name="_id">27475</column>
-      <column name="entry_name">Qaj wuS rur</column>
-      <column name="part_of_speech">sen:phr</column>
-      <column name="definition">to be a particular shade of brown</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">A kradge has brown lips.  This expression is used to describe an object which is a particular shade of brown (see {Doq 'ej wovbe':v}).</column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="search_tags">brown, brown-colour</column>
-      <column name="source">[1] {s.k 1998.02.21:src} (reprinted in {HQ 8.1, p.7, Mar. 1999:src})</column>
     </table>
     <table name="mem">
       <column name="_id">27480</column>
