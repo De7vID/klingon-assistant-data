@@ -3555,11 +3555,11 @@ This word is used in the idioms {bo'Dagh'a' lo':sen} and {bo'DaghHom lo':sen}.</
     <table name="mem">
       <column name="_id">11760</column>
       <column name="entry_name">chanDoq</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:fic,food</column>
       <column name="definition">marinade</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{HaH:v}</column>
+      <column name="see_also">{HaH:v:2}, {Se'tu':n}</column>
       <column name="notes">This is kept in a large {bal:n}.</column>
       <column name="hidden_notes">{nach:n} is "head", and {qoD:sen:nolink} sounds like "cold".</column>
       <column name="components"></column>
@@ -3570,7 +3570,7 @@ This word is used in the idioms {bo'Dagh'a' lo':sen} and {bo'DaghHom lo':sen}.</
     <table name="mem">
       <column name="_id">11770</column>
       <column name="entry_name">chanDoq jeD</column>
-      <column name="part_of_speech">n:deriv,reg</column>
+      <column name="part_of_speech">n:food,deriv,reg</column>
       <column name="definition">thick marinade</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -9119,7 +9119,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n} has to do with how th
       <column name="definition">grapok sauce</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{Se'tu':n}</column>
       <column name="notes">This is a condiment which is often used to bring out the flavor in {qagh:n} or {raHta':n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -9334,7 +9334,7 @@ The object of this verb is the question asked.</column>
       <column name="definition">sauce for gagh</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qagh:n}, {qagh vIychorgh:n}</column>
+      <column name="see_also">{qagh:n}, {qagh vIychorgh:n}, {Se'tu':n}</column>
       <column name="notes">There is an idiom, {jeD; ghevI' rur}.</column>
       <column name="hidden_notes">This is "gravy".</column>
       <column name="components"></column>
@@ -13978,11 +13978,11 @@ Types of {HurDagh:n:nolink} include the {Supghew:n} (small), the {leSpal:n} (med
     <table name="mem">
       <column name="_id">17320</column>
       <column name="entry_name">Hurgh</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:food</column>
       <column name="definition">pickle (cucumber)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{HaH:v}, {peb'ot:n}</column>
+      <column name="see_also">{HaH:v:2}, {peb'ot:n}</column>
       <column name="notes">This is a fully marinated {peb'ot:n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -23350,7 +23350,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="definition">type of fruit</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{wIb:v}, {na':v:1}, {Su'ghar qut:n}, {HaQchor:n}</column>
+      <column name="see_also">{wIb:v}, {na':v:1}, {Su'ghar qut:n}, {HaQchor:n}, {tera' na'ran:n}, {tera' na'ran'a':n}, {tera' na'ran wIb:n}</column>
       <column name="notes">This fruit is sweet.  {na'ran rur} describes something sweet in taste.</column>
       <column name="hidden_notes">The Sanskrit word for orange is "naarang".</column>
       <column name="components"></column>
@@ -27474,16 +27474,16 @@ The {bIS'ub:n} of a {pa':n:1} is its {rav:n:1}, and its {'aqroS:n:1} is its {rav
     <table name="mem">
       <column name="_id">24350</column>
       <column name="entry_name">peb'ot</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:food</column>
       <column name="definition">type of fruit</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{HaH:v}, {Hurgh:n}, {tera' peb'ot:n}</column>
+      <column name="see_also">{HaH:v:2}, {Hurgh:n}, {tera' peb'ot:n}</column>
       <column name="notes">This is soaked in {chanDoq:n} and eaten.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">cucumber</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
@@ -30206,7 +30206,7 @@ There is an idiom, {ghung; qagh rur}.</column>
       <column name="definition">sauce for gagh</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ghevI':n}</column>
+      <column name="see_also">{ghevI':n}, {Se'tu':n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -31417,7 +31417,7 @@ Do not confuse with {Qeq:v}.</column>
       <column name="definition">type of sauce</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{Se'tu':n}</column>
       <column name="notes">This is sauce prepared by thickening {chanDoq:n}.</column>
       <column name="hidden_notes">This is "ketchup".</column>
       <column name="components"></column>
@@ -39109,7 +39109,7 @@ Some of the known regions of {Qo'noS:n} are:
       <column name="definition">saucepan</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{chanDoq:n}, {gha'poq:n}, {ghevI':n}, {qagh vIychorgh:n}, {qettlhup:n}, {tlhatlh vIychorgh:n}, {'uSu':n}</column>
       <column name="notes"></column>
       <column name="hidden_notes">This word is composed of {Se':n} and {tu':v}, which suggests that Klingons believe Terran saucepans to be satellite dishes.  According to the explanation by qe'San, this was apparently based on "set-to" because there was a heated discussion about it.</column>
       <column name="components"></column>
@@ -42235,7 +42235,7 @@ Note that a human ({Human:n}) is a member of the major indigenous language-capab
     </table>
     <table name="mem">
       <column name="_id">32311</column>
-      <column name="entry_name">tera' naran</column>
+      <column name="entry_name">tera' na'ran</column>
       <column name="part_of_speech">n:deriv,food</column>
       <column name="definition">orange</column>
       <column name="synonyms"></column>
@@ -42243,14 +42243,14 @@ Note that a human ({Human:n}) is a member of the major indigenous language-capab
       <column name="see_also"></column>
       <column name="notes">This is what Klingons would call the Terran fruit.</column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{tera':n}, {na'ran:n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
       <column name="_id">32312</column>
-      <column name="entry_name">tera' naran'a'</column>
+      <column name="entry_name">tera' na'ran'a'</column>
       <column name="part_of_speech">n:deriv,food</column>
       <column name="definition">grapefruit</column>
       <column name="synonyms"></column>
@@ -42258,14 +42258,14 @@ Note that a human ({Human:n}) is a member of the major indigenous language-capab
       <column name="see_also"></column>
       <column name="notes">This is what Klingons would call the Terran fruit.</column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{tera':n}, {na'ran:n}, {-'a':n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
       <column name="_id">32313</column>
-      <column name="entry_name">tera' naran wIb</column>
+      <column name="entry_name">tera' na'ran wIb</column>
       <column name="part_of_speech">n:deriv,food</column>
       <column name="definition">lemon</column>
       <column name="synonyms"></column>
@@ -42273,7 +42273,7 @@ Note that a human ({Human:n}) is a member of the major indigenous language-capab
       <column name="see_also"></column>
       <column name="notes">This is what Klingons would call the Terran fruit.</column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{tera':n}, {na'ran:n}, {wIb:v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TNK:src}</column>
@@ -42288,7 +42288,7 @@ Note that a human ({Human:n}) is a member of the major indigenous language-capab
       <column name="see_also"></column>
       <column name="notes">This is what Klingons would call the Terran fruit.</column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{tera':n}, {peb'ot:n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TNK:src}</column>
@@ -44487,7 +44487,7 @@ Note that "there are" is {lutu'lu':sen:nolink} (see {lu-:v}), but for unknown re
       <column name="definition">sauce for gladst</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'uSu':n}</column>
+      <column name="see_also">{'uSu':n}, {Se'tu':n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -50308,7 +50308,7 @@ To say that someone "lives at" a place, use {Dab:v}.</column>
       <column name="definition">be wet</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{HaH:v}, {QaD:v:1}, {char:v}</column>
+      <column name="see_also">{HaH:v:1}, {QaD:v:1}, {char:v}</column>
       <column name="notes"></column>
       <column name="hidden_notes">This is missing from the E-K side of {TKD:src}.</column>
       <column name="components"></column>
@@ -54041,7 +54041,7 @@ Three {'uj:n:nolink} is about 3'5", five {'uj:n:nolink} is about 5'8", and six {
       <column name="definition">sauce for gladst</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tlhatlh:n}, {tlhatlh vIychorgh:n}</column>
+      <column name="see_also">{tlhatlh:n}, {tlhatlh vIychorgh:n}, {Se'tu':n}</column>
       <column name="notes"></column>
       <column name="hidden_notes">The "yuzu" plant is used in the creation of some sauces in Asian cuisine.</column>
       <column name="components"></column>
@@ -54184,7 +54184,7 @@ Note that the noun with {-'a':n:suff,nolink} need not be better than the bare no
 ▶ {puyjaq'a':n}
 ▶ {qaryoq'a':n}
 ▶ {rop'a':n}
-▶ {tera' naran'a':n}
+▶ {tera' na'ran'a':n}
 ▶ {toy'wI''a':n}
 ▶ {van'a':n}
 ▶ {vaS'a':n}
