@@ -4367,7 +4367,7 @@ The following four examples illustrate the role of the object(s) and how to use 
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">The element {chem:n:hyp,nolink} is not known to appear by itself, but is found in the words {HoSchem:n}, {peQchem:n}, {pIvchem:n}, and {Surchem:n}.</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">In {TKDA:src}, {peQ chem:n:nolink} actually appears as two words (with a space).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -27740,10 +27740,10 @@ This verb can also be used with an object.  See {pegh:v:1} (def'n 1).</column>
       <column name="antonyms"></column>
       <column name="see_also">{HoSchem:n}, {pIvchem:n}, {Surchem:n}</column>
       <column name="notes"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is written as {peQ chem:n:nolink} (with a space) in {TKDA:src}.  The space has been removed for consistency with the other terms ending in {chem:n:hyp}.</column>
       <column name="components">{peQ:n}, {chem:n:hyp}</column>
       <column name="examples"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">peQ chem</column>
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
