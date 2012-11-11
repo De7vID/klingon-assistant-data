@@ -2744,7 +2744,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{De'vID:n:name}</column>
-      <column name="notes">{tlhIngan Hol boQwI':n:nolink} "Klingon Language Assistant" - database version 2012.10.15a.
+      <column name="notes">{tlhIngan Hol boQwI':n:nolink} "Klingon Language Assistant" - database version 2012.11.06a.
       
 To begin searching, simply type into the search box.  On some devices, you may have to press the "Search" (magnifying glass) key or the "Menu" key to activate the search box.
 
@@ -5111,8 +5111,8 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", the British expre
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {cha' vI' vagh choQmey lutoghlu':sen:nolink} "Number of Decks: 2.5" ({BoP:src})
-▶ {cha' choQmey naQ tu'lu' 'ej tep choQ bIngDaq lo' law' bID choQ tu'lu':sen:nolink} "2 Full Decks and a Half Utility Deck under the Cargo Deck" ({BoP:src})</column>
+▶ {cha' vI' vagh choQmey lutoghlu':sen:nolink} "Number of Decks: 2.5"[1]
+▶ {cha' choQmey naQ tu'lu' 'ej tep choQ bIngDaq lo' law' bID choQ tu'lu':sen:nolink} "2 Full Decks and a Half Utility Deck under the Cargo Deck"[1]</column>
       <column name="search_tags">level, floor</column>
       <column name="source">[1] {BoP:src}</column>
     </table>
@@ -18470,9 +18470,9 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples">{ja'chuq Dalopchu'. Qang Damoj.:sen:nolink} "Complete the Rite of Succession to become Chancellor." ({Klingon Monopoly:src})</column>
+      <column name="examples">{ja'chuq Dalopchu'. Qang Damoj.:sen:nolink} "Complete the Rite of Succession to become Chancellor."[3]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
       <column name="_id">19590</column>
@@ -22296,7 +22296,7 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet.  The v
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {Qo'noS tuqmey muvchuqmoH qeylIS:sen:nolink} "Kahless united the tribes of Kronos" ({paq'batlh p.179:src})</column>
+▶ {Qo'noS tuqmey muvchuqmoH qeylIS:sen:nolink} "Kahless united the tribes of Kronos"[1, p.179]</column>
       <column name="search_tags"></column>
       <column name="source">[1] {paq'batlh:src}</column>
     </table>
@@ -24395,7 +24395,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components">{nob:v}, {-Ha':v}</column>
-      <column name="examples">{Huch nobHa'bogh verenganpu''e' yIvoqQo'.:sen} ({TKW p.189:src})</column>
+      <column name="examples">{Huch nobHa'bogh verenganpu''e' yIvoqQo'.:sen}[1, p.189]</column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKW:src}, [2] {KGT:src}</column>
     </table>
@@ -26031,12 +26031,12 @@ Note that this exclamation is in clipped Klingon.  The grammatical way to ask "W
       <!-- Page number for volcano reference? -->
       <column name="notes">The shore of a lake is its {HeH:n}.
 
-The lava-filled area of a volcano is called its {qul ngeng:n:nolink}. ({paq'batlh:src})</column>
+The lava-filled area of a volcano is called its {qul ngeng:n:nolink}.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh:src}</column>
     </table>
     <table name="mem">
       <column name="_id">23660</column>
@@ -27729,9 +27729,9 @@ This verb can also be used with an object.  See {pegh:v:1} (def'n 1).</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples">{bISuvtaHvIS qarDaS bIghHa' peQ botjan Daveghchu'.:sen:nolink} "Fight your way beyond magnetic shield of Cardassian prison." ({Klingon Monopoly:src})</column>
+      <column name="examples">{bISuvtaHvIS qarDaS bIghHa' peQ botjan Daveghchu'.:sen:nolink} "Fight your way beyond magnetic shield of Cardassian prison."[2]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKDA:src}</column>
+      <column name="source">[1] {TKDA:src}, [2] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
       <column name="_id">24500</column>
@@ -28022,7 +28022,7 @@ The verb {roS:v:2} means "to use the third toe".  It is also homophonous with a 
       <column name="notes">Note that {ghaj:v} is used with this noun to indicate fault or blame.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples">{pIch vIghajbe'.:sen} "It's not my fault." ({TKD:src})</column>
+      <column name="examples">{pIch vIghajbe'.:sen} "It's not my fault."[1]</column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
@@ -29765,12 +29765,12 @@ For other units of time, {pIq:n:nolink} is used.</column>
       <column name="synonyms"></column>
       <column name="antonyms">{rech:v}</column>
       <column name="see_also">{jev:v:2}, {tlhov:v}, {tlhuH:v:1}, {tagh:n}, {ghIch:n}, {tlhon:n}</column>
-      <column name="notes">To say "to smoke" (as in inhale nicotine), use {tlhIch pur:sen:nolink}. ({TNK:src})</column>
+      <column name="notes">To say "to smoke" (as in inhale nicotine), use {tlhIch pur:sen:nolink}.</column>
       <column name="hidden_notes">The words for inhale and exhale together sound like "poor wretch" ({pur rech:sen:nolink}).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
-      <column name="source">[1] {HQ 12.4, Dec. 2003:src}</column>
+      <column name="source">[1] {HQ 12.4, Dec. 2003:src}, [2] {TNK:src}</column>
     </table>
     <table name="mem">
       <column name="_id">25570</column>
@@ -30572,7 +30572,7 @@ There is an idiom, {ghung; qagh rur}.</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components">{qarDaS:n}, {Qa':n:2,hyp}</column>
-      <column name="examples">{qarDaSQa'Daq ruDelya' rop'a' Hergh qengbogh yo' Dabot.:sen:nolink} "Intercept Rudellian plague relief convoy to Cardassian Union." ({Klingon Monopoly:src})</column>
+      <column name="examples">{qarDaSQa'Daq ruDelya' rop'a' Hergh qengbogh yo' Dabot.:sen:nolink} "Intercept Rudellian plague relief convoy to Cardassian Union."[1]</column>
       <column name="search_tags"></column>
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
@@ -33597,7 +33597,7 @@ Do not confuse this with the similarly named {qa'raj:n}.</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components">{Qap:v:2}, {-chu':v}, {-meH:v}, {chuq:n}</column>
-      <column name="examples">{Qapchu'meH 'aqroS chuq:n:nolink} "maximum effective range" ({BoP:src})</column>
+      <column name="examples">{Qapchu'meH 'aqroS chuq:n:nolink} "maximum effective range"[1]</column>
       <column name="search_tags"></column>
       <column name="source">[1] {BoP:src}</column>
     </table>
@@ -34589,12 +34589,12 @@ In {Klingon Monopoly:src}, {tlhIngan QaS:n:nolink} is the unit of currency used 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is the name of an outpost in the Klingon Empire near the Romulan border, where an important peace agreement was signed with the Federation. ({Star Trek VI:src})</column>
+      <column name="notes">This is the name of an outpost in the Klingon Empire near the Romulan border, where an important peace agreement was signed with the Federation.[3]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKDA:src}, [2] {Klingon Monopoly:src}</column>
+      <column name="source">[1] {TKDA:src}, [2] {Klingon Monopoly:src}, [3] {Star Trek VI:src}</column>
     </table>
     <table name="mem">
       <column name="_id">28100</column>
@@ -35141,9 +35141,9 @@ In the Krotmag region, speakers replace {b:sen:nolink} with {m:sen:nolink} and {
       <column name="notes"></column>
       <column name="hidden_notes">Be careful not to say this word by accident if you mean {Hotlh:v} instead.[2]</column>
       <column name="components"></column>
-      <column name="examples">{QaptaHvIS So'wI', Hoch jagh Dujmey DaQotlh.:sen:nolink} "Disable all enemy ships while cloaked." ({Klingon Monopoly:src})</column>
+      <column name="examples">{QaptaHvIS So'wI', Hoch jagh Dujmey DaQotlh.:sen:nolink} "Disable all enemy ships while cloaked."[3]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT p.189:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.189:src}, [3] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
       <column name="_id">28430</column>
@@ -35220,11 +35220,11 @@ In the Krotmag region, speakers replace {b:sen:nolink} with {m:sen:nolink} and {
    battling on through the Eternal Fight.</column>
       <column name="hidden_notes">The actors who performed this song on {KCD:src} mispronounced the first word of the fourth line {Say'moHchu':v:nolink} as {SeymoHchu':v:nolink}.
 
-The line {yoHbogh matlhbogh je SuvwI':sen:nolink} is not a mistake, but a deliberately poetic or archaic usage, which is mirrored by the English "warrior brave and true".  In standard Klingon, it would be {yoHbogh 'ej matlhbogh SuvwI':sen:nolink}. ({KLI mailing list 2000.12.01:src})</column>
+The line {yoHbogh matlhbogh je SuvwI':sen:nolink} is not a mistake, but a deliberately poetic or archaic usage, which is mirrored by the English "warrior brave and true".  In standard Klingon, it would be {yoHbogh 'ej matlhbogh SuvwI':sen:nolink}.[2]</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
-      <column name="source">[1] {KCD:src}</column>
+      <column name="source">[1] {KCD:src}, [2] {KLI mailing list 2000.12.01:src}</column>
     </table>
     <table name="mem">
       <column name="_id">28450</column>
@@ -36507,12 +36507,12 @@ According to a message on the {s.k:src} newsgroup, the first element of this wor
       <column name="components"></column>
       <column name="examples">
 ▶ {reH latlh qabDaq qul tuj law' Hoch tuj puS.:sen}
-▶ {reH no' yIquvmoH.:sen:nolink} "Always honor your ancestors." ({KGT:src})
+▶ {reH no' yIquvmoH.:sen:nolink} "Always honor your ancestors."[2]
 ▶ {reH tlhInganpu' taHjaj!:sen}
 ▶ {reH tlhIngan wo' taHjaj.:sen}
 ▶ {reH 'uQvam vIqawtaH.:sen}</column>
       <column name="search_tags">forever</column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
     </table>
     <table name="mem">
       <column name="_id">29170</column>
@@ -37063,9 +37063,9 @@ This verb is used with the suffix {-taH:v} to form {rIntaH:v}, a construction us
       <column name="hidden_notes">In {TKD:src} this is defined as "be injured".  The "be damaged" extension of the meaning is from {Klingon Monopoly:src}.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {Dumer DIvI' QaS 'ej DuHIv, vaj bIwunchoH 'ej bIrIQchoH.:sen:nolink} "Surprise attack by Federation leaves you unprotected and damaged." ({Klingon Monopoly:src})</column>
+▶ {Dumer DIvI' QaS 'ej DuHIv, vaj bIwunchoH 'ej bIrIQchoH.:sen:nolink} "Surprise attack by Federation leaves you unprotected and damaged."[2]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
       <column name="_id">29485</column>
@@ -37093,7 +37093,7 @@ This verb is used with the suffix {-taH:v} to form {rIntaH:v}, a construction us
       <column name="notes"></column>
       <column name="hidden_notes">An obvious extension of this is {rItHa':v:nolink} for "dismiss".</column>
       <column name="components"></column>
-      <column name="examples">{DurIt tlhIngan yejquv.:sen:nolink} "Summoned to the Klingon High Council." ({Klingon Monopoly:src})</column>
+      <column name="examples">{DurIt tlhIngan yejquv.:sen:nolink} "Summoned to the Klingon High Council."[1]</column>
       <column name="search_tags">call, dismiss</column>
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
@@ -37350,7 +37350,7 @@ This verb is used with the suffix {-taH:v} to form {rIntaH:v}, a construction us
       <column name="hidden_notes"></column>
       <column name="components">{rojmab:n}, {qep:n}</column>
       <column name="examples">
-▶ {DIvI' rojmab qep ghanglu' 'e' nIDlu', 'ach taH qep.:sen:nolink} "Despite efforts to halt them, peace talks with Federation continue." ({Klingon Monopoly:src})</column>
+▶ {DIvI' rojmab qep ghanglu' 'e' nIDlu', 'ach taH qep.:sen:nolink} "Despite efforts to halt them, peace talks with Federation continue."[1]</column>
       <column name="search_tags"></column>
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
@@ -38300,9 +38300,9 @@ Note that Klingon has words for "ten thousand" ({netlh:n:num}) and "hundred thou
    {HuDmey Sal ghIq ghIr:sen:nolink}
   "And Kahless traveled to
    His beloved Saq'sub
-   Over the mountains" ({paq'batlh:src})</column>
+   Over the mountains"[2]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh:src}</column>
     </table>
     <table name="mem">
       <column name="_id">30110</column>
@@ -38726,10 +38726,10 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {Segh - bI'rel tlharghDuj:sen:nolink} "Model - B'rel Scout" ({BoP:src})
+▶ {Segh - bI'rel tlharghDuj:sen:nolink} "Model - B'rel Scout"[2]
 ▶ {Hem tlhIngan Segh 'ej maHemtaH 'e' wIHech.:sen}</column>
       <column name="search_tags">model</column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {BoP:src}</column>
     </table>
     <table name="mem">
       <column name="_id">30370</column>
@@ -39208,7 +39208,7 @@ Some of the known regions of {Qo'noS:n} are:
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples">{chaw'vam yIpol 'ej SIbI'Ha' yIlo' pagh 'oH yImech.} "This card may be kept until needed or traded." ({Klingon Monopoly:src})</column>
+      <column name="examples">{chaw'vam yIpol 'ej SIbI'Ha' yIlo' pagh 'oH yImech.} "This card may be kept until needed or traded."[1]</column>
       <column name="search_tags">until</column>
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
@@ -43541,12 +43541,12 @@ The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This refers to a moment of clarity between two warriors on the field of battle. ({DS9 - Soldiers of the Empire:src})</column>
+      <column name="notes">This refers to a moment of clarity between two warriors on the field of battle.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">insight, clarity</column>
-      <column name="source">[1] {KGT:src}</column>
+      <column name="source">[1] {KGT:src}, [2] {DS9 - Soldiers of the Empire:src}</column>
     </table>
     <table name="mem">
       <column name="_id">32980</column>
@@ -44721,12 +44721,12 @@ Note that "there are" is {lutu'lu':sen:nolink} (see {lu-:v}), but for unknown re
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qul:n}, {meQ:v}, {pur:v}</column>
-      <column name="notes">To say "to smoke" (as in inhale nicotine), use {tlhIch pur:sen:nolink}. ({TNK:src})</column>
+      <column name="notes">To say "to smoke" (as in inhale nicotine), use {tlhIch pur:sen:nolink}.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {TNK:src}</column>
     </table>
     <table name="mem">
       <column name="_id">33615</column>
@@ -45185,9 +45185,9 @@ There is an idiom, {Hem; tlhIngan rur}.</column>
 The object of this verb is the person of whom the request is made, or {'e':n:pro} referring to the action which is requested.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples">{lutlhob; naDevvo' vaS'a'Daq majaHlaH'a'?:sen:nolink} "They ask him, can we get to the Great Hall from here?" ({PK:src})</column>
+      <column name="examples">{lutlhob; naDevvo' vaS'a'Daq majaHlaH'a'?:sen:nolink} "They ask him, can we get to the Great Hall from here?"[4]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}, [2] {TKDA:src}, [3] {HQ 7.4, p.3-4, Dec. 1998:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {TKDA:src}, [3] {HQ 7.4, p.3-4, Dec. 1998:src}, [4] {PK:src}</column>
     </table>
     <table name="mem">
       <column name="_id">33810</column>
@@ -46143,9 +46143,9 @@ The original line was to have been {logh veQDaq bachchugh, yoH 'e' toblaHbe' Suv
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples">{cha'maH vagh vatlhvI' Hong, QIt yIghoS.:sen:nolink} "Slow to one quarter impulse." ({Star Trek V:src})</column>
+      <column name="examples">{cha'maH vagh vatlhvI' Hong, QIt yIghoS.:sen:nolink} "Slow to one quarter impulse."[2]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Star Trek V:src}</column>
     </table>
     <table name="mem">
       <column name="_id">34350</column>
@@ -46716,14 +46716,15 @@ This verb is used to describe the laying of a carpet.  The person who lays a car
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{vergh:n}, {tengchaH:n}</column>
-      <column name="notes">The object is the vehicle that is docked. ({TNK:src})
+      <column name="notes">The object is the vehicle that is docked.[3]
 
 In {Klingon Monopoly:src}, "Free Parking" is translated as {vergh 'ach DIlnISbe':sen:nolink}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {nuqDaq puH Duj vIvergh?:sen:nolink} "Where can I park the car?"[3]</column>
       <column name="search_tags">park</column>
-      <column name="source">[1] {TKD:src}, [2] {Klingon Monopoly:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Klingon Monopoly:src}, [3] {TNK:src}</column>
     </table>
     <table name="mem">
       <column name="_id">34650</column>
@@ -47459,9 +47460,9 @@ This region has some vocabulary differences from {ta' Hol:n}.  Terms which have 
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <!-- Need page number, also double-check this sentence. -->
-      <column name="examples">{QIStaq qul bIQtIqHomDaq 'etlhDaj vo' nuch:sen:nolink} "The coward throws his sword into the fire streams of Kri'stak" ({paq'batlh:src})</column>
+      <column name="examples">{QIStaq qul bIQtIqHomDaq 'etlhDaj vo' nuch:sen:nolink} "The coward throws his sword into the fire streams of Kri'stak"[2]</column>
       <column name="search_tags">throw</column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh:src}</column>
     </table>
     <table name="mem">
       <column name="_id">35020</column>
@@ -49183,8 +49184,8 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {Dumer DIvI' QaS 'ej DuHIv, vaj bIwunchoH 'ej bIrIQchoH.:sen:nolink} "Surprise attack by Federation leaves you unprotected and damaged." ({Klingon Monopoly:src})
-▶ {DuHIv jagh Dangu'laHbe'bogh, vaj bIwunchoH 'ej bIpujchoH.:sen:nolink} "Attack by unknown enemy leaves you vulnerable and weak." ({Klingon Monopoly:src})</column>
+▶ {Dumer DIvI' QaS 'ej DuHIv, vaj bIwunchoH 'ej bIrIQchoH.:sen:nolink} "Surprise attack by Federation leaves you unprotected and damaged."[1]
+▶ {DuHIv jagh Dangu'laHbe'bogh, vaj bIwunchoH 'ej bIpujchoH.:sen:nolink} "Attack by unknown enemy leaves you vulnerable and weak."[1]</column>
       <column name="search_tags"></column>
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
@@ -50930,9 +50931,9 @@ The first and second {yu:n:nolink} are not an octave apart, but rather a nonave 
       <column name="notes">Humans eat {yuch ngoghmey:n:nolink}, which Maltz finds strange.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples">{nuqDaq yuch Dapol?:sen:nolink} "Where do you keep the chocolate?" ({TKD p.172:src}, {CK:src})</column>
+      <column name="examples">{nuqDaq yuch Dapol?:sen:nolink} "Where do you keep the chocolate?"[1, p.172; 2]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {CK:src}</column>
     </table>
     <table name="mem">
       <column name="_id">36880</column>
