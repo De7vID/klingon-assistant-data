@@ -128,11 +128,12 @@
 <sm_xml_export version="2.0">
   <database name="qawHaq.sqlite">
     <table name="mem">
-      <!-- Checked on: 2012.04.02. -->
+      <!-- Checked on: 2012.11.18. -->
       <column name="_id">10020</column>
       <column name="entry_name">bach</column>
       <column name="part_of_speech">v:t,weap</column>
       <column name="definition">shoot</column>
+      <column name="definition_de">schießen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bach:n}, {bachHa':v}</column>
@@ -143,12 +144,13 @@
       <column name="search_tags">disruptor, fire</column>
       <column name="source">[1] {TKD:src}, [2] {KGT p.56:src}</column>
     </table>
-    <!-- WORD SWEEP -->
     <table name="mem">
+      <!-- Checked on: 2012.11.18. -->
       <column name="_id">10030</column>
       <column name="entry_name">bach</column>
       <column name="part_of_speech">n:weap</column>
       <column name="definition">shot</column>
+      <column name="definition_de">Schuss</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bach:v}</column>
@@ -160,10 +162,12 @@
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2012.11.18. -->
       <column name="_id">10040</column>
       <column name="entry_name">bachHa'</column>
       <column name="part_of_speech">v:slang</column>
       <column name="definition">err, make a mistake</column>
+      <column name="definition_de">irren, einen Fehler machen</column>
       <column name="synonyms">{Qagh:v}</column>
       <column name="antonyms"></column>
       <column name="see_also">{bach:v}</column>
@@ -198,10 +202,12 @@
       <column name="source">[1] {SkyBox 14:src} (reprinted in {HQ 3.4, p.10-11, Dec. 1994:src})</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2012.11.18. -->
       <column name="_id">10050</column>
       <column name="entry_name">bagh</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">tie</column>
+      <column name="definition_de">binden</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{QeymoH:v}, {QeyHa'moH:v}, {tay':v}</column>
@@ -213,10 +219,12 @@
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2012.11.18. -->
       <column name="_id">10060</column>
       <column name="entry_name">baghneQ</column>
       <column name="part_of_speech">n:food</column>
       <column name="definition">spoon</column>
+      <column name="definition_de">Löffel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{puq chonnaQ:n}</column>
@@ -2104,6 +2112,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="antonyms">{'aqroS:n:1}</column>
       <column name="see_also">{bIng:n}, {rav:n:1}, {yor:n}</column>
       <column name="notes">For example, this word would be used to describe the inside bottom of a box.  The other face of the box's {bIS'ub:n:nolink} is its {pIrmuS:n}.</column>
+      <!-- TODO: Find the pun.  It is somehow related to {pIrmuS:n}. -->
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2744,7 +2753,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{De'vID:n:name}</column>
-      <column name="notes">{tlhIngan Hol boQwI':n:nolink} "Klingon Language Assistant" - database version 2012.11.06a.
+      <column name="notes">{tlhIngan Hol boQwI':n:nolink} "Klingon Language Assistant" - database version 2012.11.18a.
       
 To begin searching, simply type into the search box.  On some devices, you may have to press the "Search" (magnifying glass) key or the "Menu" key to activate the search box.
 
@@ -5229,12 +5238,12 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", the British expre
       <column name="definition">twilight</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{jajlo':n}</column>
+      <column name="see_also">{jajlo':n}, {ram:n}</column>
       <column name="notes">Note that there are two twilights in a day ({jaj:n}), one in the morning and one in the evening.</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is defined in {TKD:src} as "twilight" only.  However, in {TNK:src}, the Terran expression "Good evening" is translated into Klingon as {maj choS:excl:nolink} (see {maj:excl}), suggesting that this word can also mean "evening" to a Klingon, at least in context.</column>
       <column name="components"></column>
       <column name="examples"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">evening</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
@@ -7327,7 +7336,7 @@ An acceptable way to phrase this demand as a question is {nuq DaDab?:sen:nolink}
       <column name="antonyms"></column>
       <column name="see_also">{DIv:v}, {luH:v:2}, {HeS:v}</column>
       <column name="notes"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">To "dish (out)" is slang for giving away information.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -9411,6 +9420,7 @@ The object of this verb is the question asked.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Suto'vo'qor:n}, {QI'tu':n}</column>
+      <!-- TODO: Clarify sources. -->
       <column name="notes">This is also written {ghe''or:n:place,nolink}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -9428,7 +9438,7 @@ The object of this verb is the question asked.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{not:adv}, {paghlogh:adv}</column>
-      <column name="notes">This is similar to the Terran expression, "when pigs fly".</column>
+      <column name="notes">This is similar to the Terran expression "when pigs fly".</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -10039,7 +10049,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition">fight, battle, do battle, wage war</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{may':n}, {noH:n}</column>
       <column name="notes">This verb refers to a concrete fight.  For the concept of making war, see {Qoj:v}.
 
 It is probably significant that this word is homophonous with the word for ethics or virtue ({ghob:n}).[2]
@@ -10181,7 +10191,7 @@ In ascending order of ferocity, the verbs used to describe military confrontatio
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{QIch:n}, {wab:n}</column>
-      <column name="notes"></column>
+      <column name="notes">See under {QIch:n} for the names of the Klingon consonants and vowels.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -13994,7 +14004,7 @@ Types of {HurDagh:n:nolink} include the {Supghew:n} (small), the {leSpal:n} (med
       <column name="antonyms"></column>
       <column name="see_also">{HaH:v:2}, {peb'ot:n}</column>
       <column name="notes">This is a fully marinated {peb'ot:n}.</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">"Gherkin".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -19338,6 +19348,7 @@ The points in between the three cardinal directions are {tIng chan:n:nolink}, {'
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
+      <!-- Possibly a pun based on the tradition of accompanying oral tellings of stories with "lute" music. -->
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -19437,7 +19448,7 @@ The points in between the three cardinal directions are {tIng chan:n:nolink}, {'
     <table name="mem">
       <column name="_id">20110</column>
       <column name="entry_name">magh</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:1,t</column>
       <column name="definition">betray</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -19452,7 +19463,7 @@ The points in between the three cardinal directions are {tIng chan:n:nolink}, {'
     <table name="mem">
       <column name="_id">20120</column>
       <column name="entry_name">magh</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:2,t</column>
       <column name="definition">indicate, reveal</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -20116,7 +20127,7 @@ This word does not have the sense of "good" as used in a greeting, such as "good
       <column name="definition">battle</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{vIq:n}, {che'ron:n}, {Suv:v}, {yol:n}, {noH:n}</column>
+      <column name="see_also">{che'ron:n}, {Suv:v}, {yol:n}, {noH:n}, {ghob:v}</column>
       <column name="notes">This word refers to a specific (concrete) battle, whereas {vIq:n} refers to battle or combat as a concept.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -21045,7 +21056,7 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="antonyms"></column>
       <column name="see_also">{mIS:v}</column>
       <column name="notes">Shakespeare's play {paghmo' tIn mIS:sen:nolink}, literally "The Confusion is Great Because of Nothing", has been translated into English as "Much Ado About Nothing" by the {tlhIngan Hol yejHaD:n}.</column>
-      <column name="hidden_notes">Based on the definition of {mIS:v}, this noun seems to mean "the mixing up of one thing with another", not "the state of perplexity".</column>
+      <column name="hidden_notes">Based on the definition of {mIS:v}, this noun means "the mixing up of one thing with another", and not "the state of perplexity".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -21055,12 +21066,12 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="_id">20960</column>
       <column name="entry_name">mISmoH</column>
       <column name="part_of_speech">v:t,deriv</column>
-      <column name="definition">confuse</column>
+      <column name="definition">confuse, mix up</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
-      <column name="hidden_notes">Based on the definition of {mIS:v}, this verb seems to mean "to mix one thing up with another", not "to cause someone to become perplexed".</column>
+      <column name="hidden_notes">This is defined only as "confuse" in {TKD:src}.  The clarification "mix up" was added based on the definition of {mIS:v}, which implies that {mISmoH:v:nolink} means "to mix one thing up with another", and not "to cause someone to become perplexed".</column>
       <column name="components">{mIS:v}, {-moH:v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -21963,7 +21974,7 @@ It is also used for beating {'In:n} (compare to {tlhaw':v} and {weq:v}).[1, p.75
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
-      <column name="hidden_notes">This is similar to {magh:v}, and as the proverb goes, "a translator is a traitor".</column>
+      <column name="hidden_notes">This is similar to {magh:v:1}, and as the proverb goes, "a translator is a traitor".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -23662,7 +23673,7 @@ This adverbial can also follow a noun, in which case it means "only" or "alone".
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is smaller than a {SIla':n}.</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Moroni Olsen was the voice of the Magic Mirror in Disney's "Snow White and the Seven Dwarfs".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -24506,7 +24517,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="definition">war (an individual war)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{yol:n}</column>
+      <column name="see_also">{yol:n}, {may':n}, {ghob:v}</column>
       <column name="notes">Contrast this with {veS:n}, which refers to the concept of warfare.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -27481,6 +27492,7 @@ The {bIS'ub:n} of a {pa':n:1} is its {rav:n:1}, and its {'aqroS:n:1} is its {rav
       <column name="definition">interior face of external wall</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
+      <!-- TODO: Explain the relationship between this and {tlhoy':n}. -->
       <column name="see_also">{reD:n}, {tlhoy':n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
@@ -28008,7 +28020,8 @@ The verb {roS:v:2} means "to use the third toe".  It is also homophonous with a 
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {potlhbe'chugh yay qatlh pe''eghlu'?:sen}</column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
@@ -28477,7 +28490,7 @@ For other units of time, {pIq:n:nolink} is used.</column>
       <column name="antonyms">{yor:n}</column>
       <column name="see_also">{bIng:n}, {'aqroS:n:1}, {Hur:n}</column>
       <column name="notes">This refers to the underside of an object, and not to its interior bottom (which is its {bIS'ub:n}).</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is a reference to Pyramus, a character played by Nick Bottom in the play-within-a-play in Shakespeare's "A Midsummer Night's Dream".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">exterior, outside bottom</column>
@@ -33519,7 +33532,7 @@ Do not confuse this with the similarly named {qa'raj:n}.</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">"Crawl".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">bathe</column>
@@ -34288,7 +34301,9 @@ In {Klingon Monopoly:src}, {tlhIngan QaS:n:nolink} is the unit of currency used 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghogh:n}, {wab:n}</column>
-      <column name="notes">Do not confuse this word with {SoQ:n}.</column>
+      <column name="notes">Do not confuse this word with {SoQ:n}.
+
+The names of the Klingon consonants consist of the sound followed by {ay:sen:nolink}, and the names of the vowels consist of the sound preceded by {':sen:nolink} and followed by {t:sen:nolink}.  The glottal stop is an exception, being called {qaghwI':n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -34818,7 +34833,7 @@ Agreement is also expressed by the idiomatic expression {wa' DoS wIqIp.:sen:idio
       <column name="definition">make war</column>
       <column name="synonyms"></column>
       <column name="antonyms">{roj:v}</column>
-      <column name="see_also"></column>
+      <column name="see_also">{vIq:n}, {veS:n}</column>
       <column name="notes">This verb refers to the idea of war.  For concrete fighting, see {ghob:v}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -36807,7 +36822,7 @@ According to a message on the {s.k:src} newsgroup, the first element of this wor
       <column name="definition">design, map out, plan</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{pu'jIn:n}, {Qur:n}</column>
+      <column name="see_also">{pu'jIn:n}, {Qur:n}, {renwI':n}</column>
       <column name="notes">This word is used to describe the design of a physical object of some sort; it would not be used in the sense of making a plan to do something (which would be {nab:v}).  It differs from {'ogh:v}, which implies the creation of something which has not been created before.</column>
       <column name="hidden_notes">Christopher Wren and James Renwick, Jr., were the names of two famous architects.</column>
       <column name="components"></column>
@@ -36822,7 +36837,7 @@ According to a message on the {s.k:src} newsgroup, the first element of this wor
       <column name="definition">designer, architect</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{pu'jIn:n}, {qurbuSwI':n}</column>
+      <column name="see_also">{ren:v}, {pu'jIn:n}, {qurbuSwI':n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components">{ren:v}, {-wI':v}</column>
@@ -36992,7 +37007,7 @@ For other units of time, {ret:n:nolink} is used.</column>
       <column name="definition">use the thumb (child)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{rIl:v:2}</column>
       <column name="notes">This word is used by small children, or by adults talking to or about small children.  Adults typically use {Sen:v} instead.
 
 The reflexive form of this verb has a special meaning.  See the example below, and under {SIq:v} for an explanation.</column>
@@ -37010,7 +37025,7 @@ The reflexive form of this verb has a special meaning.  See the example below, a
       <column name="definition">play (a wind instrument)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{gheb:n}, {SuS:v}, {chu':v:3}</column>
+      <column name="see_also">{gheb:n}, {SuS:v}, {chu':v:3}, {rIl:v:1}</column>
       <column name="notes">The usage of this verb is restricted to the {gheb:n}, while {SuS:v} is a more general term that applies to all wind instruments.</column>
       <column name="hidden_notes">{gheb rIl:sen:nolink} is a reference to the horn of Gabriel.</column>
       <column name="components"></column>
@@ -37122,10 +37137,11 @@ This verb is used with the suffix {-taH:v} to form {rIntaH:v}, a construction us
       <column name="antonyms"></column>
       <column name="see_also">{rI':v}</column>
       <column name="notes"></column>
+      <!-- TODO: Make this into a separate entry. -->
       <column name="hidden_notes">An obvious extension of this is {rItHa':v:nolink} for "dismiss".</column>
       <column name="components"></column>
       <column name="examples">{DurIt tlhIngan yejquv.:sen:nolink} "Summoned to the Klingon High Council."[1]</column>
-      <column name="search_tags">call, dismiss</column>
+      <column name="search_tags">call, invite, dismiss</column>
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
@@ -39358,7 +39374,7 @@ Some of the known regions of {Qo'noS:n} are:
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is larger than a {neSlo':n}.</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is a reference to "Through the Looking-Glass, and What Alice Found There", the sequel to "Alice's Adventures in Wonderland".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -40382,7 +40398,7 @@ This word carries the idiomatic meaning of "matter, concern, affair".  For examp
       <column name="antonyms"></column>
       <column name="see_also">{Ho':n:2,slang}, {Sub:v:2} (def'n 2)</column>
       <column name="notes"></column>
-      <column name="hidden_notes">"Sub" is the opposite of "super" as in "superhero".</column>
+      <column name="hidden_notes">A "sub" (submarine sandwich) is also called a "hero" in some places.  Also, "sub" is the opposite of "super" as in "superhero".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -42626,7 +42642,7 @@ Similarly, the Terran months are:
       <column name="examples">
 ▶ {tlhIngan tIgh DaHaDrup'a'?} (one of several inscriptions used by MO when signing books or photos)
 ▶ {tlhIngan tIgh - SuvwI' DevmeH paq} "The Klingon Way - A Warrior's Guide"[2]</column>
-      <column name="search_tags">way, path</column>
+      <column name="search_tags">way, path, culture</column>
       <column name="source">[1] {TKD:src}, [2] {TKW:src}</column>
     </table>
     <table name="mem">
@@ -43590,7 +43606,8 @@ The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, 
       <column name="notes"></column>
       <column name="hidden_notes">"Toy".</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {wo' toy'taHvIS Hegh 'e' tul Hoch tlhIngan.:sen}</column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
@@ -45499,6 +45516,7 @@ The object of this verb is the person of whom the request is made, or {'e':n:pro
       <column name="definition">wall, interior wall, interior face of exterior wall, territorial wall</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
+      <!-- TODO: Explain the relationship between this and {pa' reD:n}. -->
       <column name="see_also">{pa' reD:n}, {reD:n}</column>
       <column name="notes">Also refers to floors/ceilings, see {tlhoy' SaS:n}.</column>
       <column name="hidden_notes"></column>
@@ -45510,14 +45528,14 @@ The object of this verb is the person of whom the request is made, or {'e':n:pro
     <table name="mem">
       <column name="_id">33970</column>
       <column name="entry_name">tlhoy' SaS</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">ceiling/floor between stories</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{beb:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{tlhoy':n}, {SaS:v:1}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {s.k 1998.12.07:src} (reprinted in {HQ 8.1, p.9, Mar. 1999:src})</column>
@@ -46764,7 +46782,7 @@ In {Klingon Monopoly:src}, "Free Parking" is translated as {vergh 'ach DIlnISbe'
       <column name="definition">war, warfare</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{vIq:n}, {Qoj:v}</column>
       <column name="notes">Contrast this with {noH:n}, which refers to a specific war.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -47053,7 +47071,7 @@ For an idiomatic expression used to tell someone not to move, see {taD:v}.</colu
       <column name="definition">battle, combat (abstract)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{veS:n}, {Qoj:v}</column>
       <column name="notes">This word refers to the abstract concept of combat.  A specific battle is a {may':n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -47813,7 +47831,7 @@ There is a Klingon idiom, {nong; vulqangan rur}, which is meant ironically.</col
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghogh:n}, {chuS:v}, {vID'Ir:n}, {'arlogh Qoylu'pu'?:sen}</column>
-      <column name="notes">The names of the Klingon consonants consist of the sound followed by {ay:sen:nolink}, and the names of the vowels consist of the sound preceded by {':sen:nolink} and followed by {t:sen:nolink}.  The glottal stop is an exception, being called {qaghwI':n}.</column>
+      <column name="notes">See under {QIch:n} for the names of the Klingon consonants and vowels.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">{wab qoSta' 'aplo':n}</column>
@@ -48635,6 +48653,22 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKDA:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">35665</column>
+      <column name="entry_name">weQmoQnaQ</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">World Wide Web</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is the closest thing Klingons have to the "World Wide Web".</column>
+      <!-- TODO: Find the pun. -->
+      <column name="hidden_notes">This word seems to be composed of {weQ:n}, {moQ:n}, and either {naQ:n:1} or {naQ:v}.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags">Internet</column>
+      <column name="source">[1] {Saarbrucken qepHom 2012:src}</column>
     </table>
     <table name="mem">
       <column name="_id">35670</column>
@@ -51466,6 +51500,7 @@ The first and second {yu:n:nolink} are not an octave apart, but rather a nonave 
       <column name="antonyms">{bIS'ub:n}</column>
       <column name="see_also">{Dung:n}, {rav'eq:n}, {pa' beb:n}, {raS:n}</column>
       <column name="notes">The other face of an object's {'aqroS:n:1,nolink} is its {yor:n}.[1]</column>
+      <!-- TODO: Add note about Greek word "across". -->
       <column name="hidden_notes">"Across".</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -52737,7 +52772,7 @@ See {rav:n:2} for an idiom related to sadness.</column>
       <column name="antonyms"></column>
       <column name="see_also">{DIS:n:2}, {jar:n}, {Hogh:n}, {jaj:n}</column>
       <column name="notes"></column>
-      <!-- I had "penum. for {DIS} + {jar}" in the note, what does this mean? -->
+      <!-- TODO: I had "penum. for {DIS} + {jar}" in the note, what does this mean? -->
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -54000,7 +54035,7 @@ Three {'uj:n:nolink} is about 3'5", five {'uj:n:nolink} is about 5'8", and six {
       <column name="definition">treason, commit treason</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{magh:v}, {bolwI':n}, {'urmang:n}</column>
+      <column name="see_also">{magh:v:1}, {bolwI':n}, {'urmang:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes">This is missing from the K-E side of {TKDA:src}.</column>
       <column name="components"></column>
@@ -54556,8 +54591,8 @@ For most words designating a fixed period of time, this suffix indicates the cur
       <column name="part_of_speech">n:suff</column>
       <column name="definition">locative (noun type 5)</column>
       <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{Daq:n}, {naDev:n}, {pa':n:2}, {Dat:n}</column>
+      <column name="antonyms">{-vo':n:suff}</column>
+      <column name="see_also">{Daq:n}, {naDev:n}, {pa':n:2}, {Dat:n}, {chegh:v}</column>
       <column name="notes">This suffix indicates that an action is occurring (or has occurred or will occur) in the vicinity of the noun to which it is attached.[1]  It can typically be used only for physical locations.[2]
 
 Some verbs have locative notions in their meanings, and care must be taken when using {-Daq:n:suff,nolink} with such verbs.  See {ghoS:v:1} and {jaH:v} for more details.  With verbs of shooting, such as {baH:v} and {bach:v}, {-Daq:n:suff,nolink} marks the target.
@@ -54575,8 +54610,8 @@ When a verb is used adjectivally, this suffix and the other type 5 noun suffixes
       <column name="part_of_speech">n:suff</column>
       <column name="definition">from (noun type 5)</column>
       <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="antonyms">{-Daq:n:suff}</column>
+      <column name="see_also">{chegh:v}</column>
       <column name="notes">This suffix is used when the action is in a direction away from the noun to which it is attached.[1]  It can typically be used only for physical locations.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>

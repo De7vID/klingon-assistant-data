@@ -291,6 +291,9 @@ public class KlingonContentProvider extends ContentProvider {
         private String mSearchTags = "";
         private String mSource = "";
 
+        // Localised definitions.
+        private String mDefinition_DE = "";
+
         // Part of speech metadata.
         private enum BasePartOfSpeechEnum {
             NOUN,
@@ -400,7 +403,11 @@ public class KlingonContentProvider extends ContentProvider {
             mId = cursor.getInt(KlingonContentDatabase.COLUMN_ID);
             mEntryName = cursor.getString(KlingonContentDatabase.COLUMN_ENTRY_NAME);
             mPartOfSpeech = cursor.getString(KlingonContentDatabase.COLUMN_PART_OF_SPEECH);
+
+            // TODO: Make this dependent on the chosen language.
             mDefinition = cursor.getString(KlingonContentDatabase.COLUMN_DEFINITION);
+            mDefinition_DE = cursor.getString(KlingonContentDatabase.COLUMN_DEFINITION_DE);
+
             mSynonyms = cursor.getString(KlingonContentDatabase.COLUMN_SYNONYMS);
             mAntonyms = cursor.getString(KlingonContentDatabase.COLUMN_ANTONYMS);
             mSeeAlso = cursor.getString(KlingonContentDatabase.COLUMN_SEE_ALSO);
@@ -726,6 +733,10 @@ public class KlingonContentProvider extends ContentProvider {
                 return mDefinition + " (name)";
             }
             return mDefinition;
+        }
+
+        public String getDefinition_DE() {
+            return mDefinition_DE;
         }
 
         public String getSynonyms() {

@@ -63,6 +63,8 @@ public class KlingonContentDatabase {
     public static final String KEY_EXAMPLES = "examples";
     public static final String KEY_SEARCH_TAGS = "search_tags";
     public static final String KEY_SOURCE = "source";
+    // Languages other than English.
+    public static final String KEY_DEFINITION_DE = "definition_de";
 
     // The order of the keys to access the columns.
     public static final int    COLUMN_ID = 0;
@@ -78,6 +80,7 @@ public class KlingonContentDatabase {
     public static final int    COLUMN_EXAMPLES = 10;
     public static final int    COLUMN_SEARCH_TAGS = 11;
     public static final int    COLUMN_SOURCE = 12;
+    public static final int    COLUMN_DEFINITION_DE = 13;
     public static final String[] ALL_KEYS = {
         KEY_ID,
         KEY_ENTRY_NAME,
@@ -92,6 +95,7 @@ public class KlingonContentDatabase {
         KEY_EXAMPLES,
         KEY_SEARCH_TAGS,
         KEY_SOURCE,
+        KEY_DEFINITION_DE,
         };
 
     // The name of the database and the database object for accessing it.
@@ -100,7 +104,7 @@ public class KlingonContentDatabase {
 
     // This should be kept in sync with the version number in the database
     // entry {boQwI':n}.
-    private static final int DATABASE_VERSION = 201209280;
+    private static final int DATABASE_VERSION = 201211060;
 
     private final KlingonDatabaseOpenHelper mDatabaseOpenHelper;
     private static final HashMap<String,String> mColumnMap = buildColumnMap();
@@ -543,6 +547,7 @@ public class KlingonContentDatabase {
             entry.getExamples(),
             entry.getSearchTags(),
             entry.getSource(),
+            entry.getDefinition_DE(),
         };
     }
 
@@ -561,6 +566,7 @@ public class KlingonContentDatabase {
             entry.getExamples(),
             entry.getSearchTags(),
             entry.getSource(),
+            entry.getDefinition_DE(),
         };
     }
 
