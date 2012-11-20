@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2012 De'vID jonpIn (David Yonge-Mallo)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<!--
+   Klingon, Star Trek, and related marks are trademarks of CBS Studios, Inc.
+-->
+<!--
+▶ {...:sen}
+    _id            = Must be in ascending order
+                     (sort order has space before any letter; however,
+                     suffixed words should be grouped with their stem)
+    entry_name     = tlhIngan Hol word or sentence; or, a source
+    part_of_speech = v (verb):
+                       ambi (ambitransitive): may be either i or v
+                       i (intransitive): must not take an object
+                       is (int. and stative): of the form "to be (something)",
+                                              can be used as an adjective
+                       t (transitive): may take an object
+                       pref: a verb prefix
+                       suff: a verb suffix
+                     n (noun):
+                       name: a proper name (of a person, not a place)
+                       num: a number or number-forming element
+                       pro: pronoun
+                       body: body parts (takes {-Du'})
+                       being: beings capable of language (takes {-pu'})
+                       place: is a place name (can add {-ngan} to form person)
+                       inhpl: inherent plural (takes singular suffixes)
+                       inhps: singular form of an inherent plural
+                              (inhpl and inhps entries must link to each other
+                              through their component columns)
+                       plural: this noun is already plural
+                       suff: a noun suffix
+                     adv (adverbial)
+                     conj: conjunction
+                     ques: question word
+                     sen (sentence):
+                       eu: Empire Union Day expression
+                       idiom: idiom, idiomatic expression
+                       mv: mu'qaD veS
+                       nt: nentay
+                       phr: general phrase
+                       prov: Klingon proverb
+                       Ql: QI'lop
+                       rej: rejection
+                       rp: Replacement Proverb
+                       sp: Secrecy Proverb
+                       toast: toast
+                       lyr: lyrics
+                     excl: stand-alone exclamations
+                     src: a source
+                       TKD - The Klingon Dictionary
+                       TKDA - The Klingon Dictionary Addendum
+                       TKW - The Klingon Way
+                       KGT - Klingon for the Galactic Traveler
+                       CK - Conversational Klingon
+                       PK - Power Klingon
+                       KCD - Star Trek: Klingon (CD game)
+                       TNK - Talk Now! Klingon from eurotalk
+                       HQ - HolQeD
+                       SkyBox - SkyBox card
+                       BoP - Bird of Prey poster
+                       msn - MSN expert forum
+                             msn.onstage.startrek.expert.okrand (discontinued late 1997)
+                       s.e - startrek.expertforum (replaced msn newsgroup in Jan. 1998)
+                       s.k - startrek.klingon newsgroup (starting Feb. 1998)
+                       FTG - Federation Travel Guide
+
+                     categories:
+                       anim: a type of animal (a specific animal, rather than a
+                             generic like "fish" or "bird"); assumed fictional
+                       archaic: {no' Hol}, obsolete, or used only ceremonially
+                       deriv: derived or constructed from other entries; enables
+                              grammar analysis link in entry
+                              (all sentences are implicitly derived)
+                       reg: regional
+                       food: related to eating or drinking
+                       inv: invectives, swear words
+                       slang: a slang word or phrase
+                       weap: weapons or weapon-related (for verbs, this marks
+                             those which are used exclusively for combat); if
+                             fictional, must mark as fic also
+                             TODO: rename to "fight" to be more generic
+                     metadata tags:
+                       alt: alternative spelling (immediately link to other
+                            entry, which is given in the definition field)
+                       fic (fictional): a fictional object or concept
+                       hyp: hypothesised (isn't known to exist from canon);
+                            typically entry name should end in "?"
+                       extcan: extended canon (appears in a Star Trek novel or
+                               other media, but not known to be from MO)
+                       nolink: used in definition of another entry to prevent
+                               linking
+
+    definition     = the definition in English of the entry
+                     - if "hyp", and meaning is uncertain, end with "?"
+                     - if "alt", then the definition is the primary entry_name in {}
+                    
+    synonyms       = synonymous entries in Klingon
+    antonyms       = antonymous entries in Klingon
+    see_also       = related words, etc.
+                     (should not include words already linked in the visible notes)
+    notes          = visible notes
+    hidden_notes   = normally invisible notes
+                     (use XML comments for *really* invisible notes)
+                     TODO: add option to hide them
+    components     = if entry is constructed, list components here
+    examples       = list examples (must exist as entries)
+
+    Note: Be careful to use American spellings, e.g., "honor", "color",
+          "-ization".  Canadian spellings should be added under "search_tags".
+-->
+
+<!-- Database: qawHaq.sqlite -->
+<sm_xml_export version="2.0">
+  <database name="qawHaq.sqlite">
+    <table name="mem">

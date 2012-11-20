@@ -1,8 +1,10 @@
-The latest data is to be found in mem.xml.  Edits should be made to this file,
-then copied into ../asserts/qawHaq.db, which is a SQLite3 database file.
+The latest data is to be found in mem-*.xml.  Edits should be made to these
+files, then reconstruct.sh should be run to generate the merged file mem.xml.
+The data should then be copied into ../asserts/qawHaq.db, which is a SQLite3
+database file.
 
-To do so, open the database file in SQLite Manager (a Firefox plugin), clear the
-"mem" table, then import the XML file.  Close the database, then be sure to open
-it in sqlitebrowser and compact it.
+To do so, open the database file in SQLite Manager (a Firefox plugin), clear
+the "mem" table, then import the XML file.  Close the database, then be sure to
+open it in sqlitebrowser and compact it.
 
 To run a .sql file on this database, use the sqlitebrowser.
