@@ -2596,12 +2596,13 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <!-- Checked on: 2012.11.19. -->
       <column name="_id">11200</column>
       <column name="entry_name">bol</column>
-      <column name="part_of_speech">v:t</column>
+      <!-- It says explicitly on {KGT p.147:src} that the non-slang meaning of this verb does not take an object. -->
+      <column name="part_of_speech">v:1,i</column>
       <column name="definition">drool</column>
       <column name="definition_de">sabbern</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tIl:v}, {tlhepQe':n}, {bolwI':n}</column>
+      <column name="see_also">{tIl:v}, {tlhepQe':n}, {bolwI':n}, {bol:v:2}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -2609,7 +2610,23 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
-    <!-- TODO: Should there be an entry for {bol:v} "betray"? de: "verraten" -->
+    <table name="mem">
+      <!-- Checked on: 2012.11.19. -->
+      <column name="_id">11201</column>
+      <column name="entry_name">bol</column>
+      <column name="part_of_speech">v:2,t,slang</column>
+      <column name="definition">betray</column>
+      <column name="definition_de">verraten</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{bol:v:1}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes">The slang definition of this verb appears in the discussion on {bolwI':n} on {KGT p.147:src}, but is not found in the word lists in that book.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {KGT p.147:src}</column>
+    </table>
     <table name="mem">
       <column name="_id">11205</column>
       <column name="entry_name">bolmaq</column>
@@ -2637,8 +2654,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="see_also">{maghwI':n}, {'urwI':n}</column>
       <column name="notes"></column>
       <column name="hidden_notes">Possibly from "boll weevil", from American Civil War history.</column>
-      <!-- Maybe point to a new entry {bol:v:2}? -->
-      <column name="components">{bol:v}, {-wI':v}</column>
+      <column name="components">{bol:v:2}, {-wI':v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
@@ -43039,7 +43055,7 @@ Similarly, the Terran months are:
       <column name="definition">salivate</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tlhepQe':n}, {bol:v}, {tuy':v}</column>
+      <column name="see_also">{tlhepQe':n}, {bol:v:1}, {tuy':v}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -44990,7 +45006,7 @@ Note that "there are" is {lutu'lu':sen:nolink} (see {lu-:v}), but for unknown re
       <column name="definition">saliva</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tIl:v}, {bol:v}, {nuj:n}, {bIQ:n}</column>
+      <column name="see_also">{tIl:v}, {bol:v:1}, {nuj:n}, {bIQ:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
