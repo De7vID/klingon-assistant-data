@@ -24,10 +24,12 @@ import android.app.SearchManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.text.Html;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
@@ -76,7 +78,8 @@ public class EntryActivity extends Activity {
         // Retrieve the entry's data.
         // Note: managedQuery is deprecated since API 11.
         Cursor cursor = managedQuery(uri, KlingonContentDatabase.ALL_KEYS, null, null, null);
-        KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor);
+        KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor,
+            getBaseContext());
 
         // Handle alternative spellings here.
         if (entry.isAlternativeSpelling()) {
@@ -92,7 +95,13 @@ public class EntryActivity extends Activity {
         String expandedDefinition = pos + entry.getDefinition();
 
         // Experimental: Show the German definition.
-        String definition_DE = entry.getDefinition_DE();
+        String definition_DE = "";
+        SharedPreferences sharedPrefs =
+            PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
+            // Show German definitions preference set to true.
+            definition_DE = entry.getDefinition_DE();
+        }
         int germanDefinitionStart = -1;
         String germanDefinitionHeader = "\nGerman: ";
         if (!definition_DE.equals("")) {
@@ -231,7 +240,8 @@ public class EntryActivity extends Activity {
             LookupClickableSpan viewLauncher = new LookupClickableSpan(query);
 
             // Process the linked entry information.
-            KlingonContentProvider.Entry linkedEntry = new KlingonContentProvider.Entry(query);
+            KlingonContentProvider.Entry linkedEntry = new KlingonContentProvider.Entry(query,
+                getBaseContext());
             // Log.d(TAG, "linkedEntry.getEntryName() = " + linkedEntry.getEntryName());
 
             // Delete the brackets and metadata parts of the string.

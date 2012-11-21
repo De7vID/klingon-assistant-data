@@ -205,7 +205,7 @@ public class KlingonContentDatabase {
     private String expandShorthand(String shorthand) {
         SharedPreferences sharedPrefs =
             PreferenceManager.getDefaultSharedPreferences(mContext);
-        if (sharedPrefs.getBoolean(Preferences.XIFAN_HOL_CHECKBOX_PREFERENCE, false)) {
+        if (!sharedPrefs.getBoolean(Preferences.XIFAN_HOL_CHECKBOX_PREFERENCE, /* default */ false)) {
             // The user has disabled the "xifan hol" shorthand, so just do nothing and return.
             return shorthand;
         }
@@ -249,7 +249,8 @@ public class KlingonContentDatabase {
         HashSet<Integer> resultsSet = new HashSet<Integer>();
 
         // Parse the query's metadata, and get the base query.
-        KlingonContentProvider.Entry queryEntry = new KlingonContentProvider.Entry(query);
+        KlingonContentProvider.Entry queryEntry = new KlingonContentProvider.Entry(query,
+            mContext);
         String queryBase = queryEntry.getEntryName();
 
         // First, assume the user is searching for an "exact" Klingon word or phrase, subject to
@@ -326,7 +327,7 @@ public class KlingonContentDatabase {
         if( srcCursor != null && srcCursor.getCount() != 0 ) {
             srcCursor.moveToFirst();
             do {
-                KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(srcCursor);
+                KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(srcCursor, mContext);
 
                 // Filter by the query if requested to do so.  If filter is
                 // true, the entry will be added only if it is a match that
@@ -421,7 +422,7 @@ public class KlingonContentDatabase {
         // Log.d(TAG, "Exact matches found: " + exactMatchesCursor.getCount());
         exactMatchesCursor.moveToFirst();
         do {
-            KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(exactMatchesCursor);
+            KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(exactMatchesCursor, mContext);
             if (filterEntry.isSatisfiedBy(resultEntry)) {
                 Object[] verbPrefixObject = convertEntryToCursorRow(resultEntry);
                 resultsCursor.addRow(verbPrefixObject);
@@ -467,7 +468,7 @@ public class KlingonContentDatabase {
 
         for (KlingonContentProvider.ComplexWord complexWord : complexWordsList) {
             // Log.d(TAG, "Complex word filter = " + complexWord.filter());
-            KlingonContentProvider.Entry filterEntry = new KlingonContentProvider.Entry(complexWord.filter());
+            KlingonContentProvider.Entry filterEntry = new KlingonContentProvider.Entry(complexWord.filter(), mContext);
             Cursor exactMatchesCursor = getExactMatches(complexWord.stem());
 
             if (exactMatchesCursor != null && exactMatchesCursor.getCount() != 0) {
@@ -477,7 +478,7 @@ public class KlingonContentDatabase {
                 boolean stemAdded = false;
                 exactMatchesCursor.moveToFirst();
                 do {
-                    KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(exactMatchesCursor);
+                    KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(exactMatchesCursor, mContext);
                     if (filterEntry.isSatisfiedBy(resultEntry)) {
                         // Log.d(TAG, "adding: " + resultEntry.getEntryName() + " (" + resultEntry.getPartOfSpeech() + ")");
                         Object[] exactMatchObject = complexWordCursorRow(resultEntry, complexWord);
@@ -501,7 +502,7 @@ public class KlingonContentDatabase {
                     String prefix = complexWord.getVerbPrefix();
                     if (!prefix.equals("")) {
                         // Log.d(TAG, "verb prefix = " + prefix);
-                        filterEntry = new KlingonContentProvider.Entry(prefix + ":v");
+                        filterEntry = new KlingonContentProvider.Entry(prefix + ":v", mContext);
                         addExactMatch(prefix, filterEntry, resultsCursor);
                     }
 
@@ -513,14 +514,14 @@ public class KlingonContentDatabase {
                         // Check for the true rovers.
                         String[] rovers = complexWord.getRovers(j);
                         for (String rover : rovers) {
-                            filterEntry = new KlingonContentProvider.Entry(rover + ":v:suff");
+                            filterEntry = new KlingonContentProvider.Entry(rover + ":v:suff", mContext);
                             addExactMatch(rover, filterEntry, resultsCursor);
                         }
 
                         // Check verb suffix of the current type.
                         if (!verbSuffixes[j].equals("")) {
                             // Log.d(TAG, "verb suffix = " + verbSuffixes[j]);
-                            filterEntry = new KlingonContentProvider.Entry(verbSuffixes[j] + ":v:suff");
+                            filterEntry = new KlingonContentProvider.Entry(verbSuffixes[j] + ":v:suff", mContext);
                             addExactMatch(verbSuffixes[j], filterEntry, resultsCursor);
                         }
                     }
@@ -530,7 +531,7 @@ public class KlingonContentDatabase {
                     for (int j = 0; j < nounSuffixes.length; j++) {
                         if (!nounSuffixes[j].equals("")) {
                             // Log.d(TAG, "noun suffix = " + nounSuffixes[j]);
-                            filterEntry = new KlingonContentProvider.Entry(nounSuffixes[j] + ":n:suff");
+                            filterEntry = new KlingonContentProvider.Entry(nounSuffixes[j] + ":n:suff", mContext);
                             addExactMatch(nounSuffixes[j], filterEntry, resultsCursor);
                         }
                     }

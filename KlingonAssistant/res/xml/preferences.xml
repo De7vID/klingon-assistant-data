@@ -17,8 +17,7 @@
                 android:key="show_german_definitions_checkbox_preference"
                 android:title="@string/show_german_definitions_preference_title"
                 android:summary="@string/show_german_definitions_preference_summary" 
-                android:enabled="false"
-                android:defaultValue="true" />
+                android:defaultValue="false" />
         <CheckBoxPreference
                 android:key="search_german_definitions_checkbox_preference"
                 android:dependency="show_german_definitions_checkbox_preference"
@@ -26,7 +25,7 @@
                 android:title="@string/search_german_definitions_preference_title"
                 android:summary="@string/search_german_definitions_preference_summary" 
                 android:enabled="false"
-                android:defaultValue="true" />
+                android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -36,7 +35,7 @@
                 android:key="xifan_hol_checkbox_preference"
                 android:title="@string/xifan_hol_preference_title"
                 android:summary="@string/xifan_hol_preference_summary" 
-                android:defaultValue="true" />
+                android:defaultValue="false" />
         <CheckBoxPreference
                 android:key="swap_qs_checkbox_preference"
                 android:dependency="xifan_hol_checkbox_preference"
@@ -44,7 +43,7 @@
                 android:title="@string/swap_qs_preference_title"
                 android:summary="@string/swap_qs_preference_summary" 
                 android:enabled="false"
-                android:defaultValue="true" />
+                android:defaultValue="false" />
     </PreferenceCategory>
             
     <PreferenceCategory
@@ -55,14 +54,14 @@
                 android:title="@string/show_transitivity_preference_title"
                 android:summary="@string/show_transitivity_preference_summary" 
                 android:enabled="false"
-                android:defaultValue="true" />
+                android:defaultValue="false" />
             
         <CheckBoxPreference
                 android:key="show_additional_information_checkbox_preference"
                 android:title="@string/show_additional_information_preference_title"
                 android:summary="@string/show_additional_information_preference_summary" 
                 android:enabled="false"
-                android:defaultValue="true" />
+                android:defaultValue="false" />
     </PreferenceCategory>
             
 </PreferenceScreen>

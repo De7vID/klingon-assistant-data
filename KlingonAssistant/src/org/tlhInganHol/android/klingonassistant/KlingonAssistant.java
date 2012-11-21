@@ -169,7 +169,8 @@ public class KlingonAssistant extends Activity {
         }
 
         private void bindView(TwoLineListItem view, Cursor cursor) {
-            KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor);
+            KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor,
+                getBaseContext());
 
             // TODO(davinci): Format with colour and size.
             String indent1 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;" : "";
@@ -201,7 +202,7 @@ public class KlingonAssistant extends Activity {
         Cursor cursor = managedQuery(Uri.parse(KlingonContentProvider.CONTENT_URI + "/lookup"),
             null /* all columns */, null, new String[] {query}, null);
 
-        KlingonContentProvider.Entry queryEntry = new KlingonContentProvider.Entry(query);
+        KlingonContentProvider.Entry queryEntry = new KlingonContentProvider.Entry(query, getBaseContext());
         String entryNameWithPoS = queryEntry.getEntryName() + queryEntry.getBracketedPartOfSpeech(/* isHtml */ true);
 
         if (cursor == null || cursor.getCount() == 0) {
