@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/language_preferences">
+            
+        <CheckBoxPreference
+                android:key="klingon_ui_checkbox_preference"
+                android:title="@string/klingon_ui_preference_title"
+                android:summary="@string/klingon_ui_preference_summary" 
+                android:enabled="false"
+                android:defaultValue="true" />
+            
+        <CheckBoxPreference
+                android:key="show_german_definitions_checkbox_preference"
+                android:title="@string/show_german_definitions_preference_title"
+                android:summary="@string/show_german_definitions_preference_summary" 
+                android:enabled="false"
+                android:defaultValue="true" />
+        <CheckBoxPreference
+                android:key="search_german_definitions_checkbox_preference"
+                android:dependency="show_german_definitions_checkbox_preference"
+                android:layout="?android:attr/preferenceLayoutChild"
+                android:title="@string/search_german_definitions_preference_title"
+                android:summary="@string/search_german_definitions_preference_summary" 
+                android:enabled="false"
+                android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/input_preferences">
+            
+        <CheckBoxPreference
+                android:key="xifan_hol_checkbox_preference"
+                android:title="@string/xifan_hol_preference_title"
+                android:summary="@string/xifan_hol_preference_summary" 
+                android:defaultValue="true" />
+        <CheckBoxPreference
+                android:key="swap_qs_checkbox_preference"
+                android:dependency="xifan_hol_checkbox_preference"
+                android:layout="?android:attr/preferenceLayoutChild"
+                android:title="@string/swap_qs_preference_title"
+                android:summary="@string/swap_qs_preference_summary" 
+                android:enabled="false"
+                android:defaultValue="true" />
+    </PreferenceCategory>
+            
+    <PreferenceCategory
+            android:title="@string/informational_preferences">
+            
+        <CheckBoxPreference
+                android:key="show_transitivity_checkbox_preference"
+                android:title="@string/show_transitivity_preference_title"
+                android:summary="@string/show_transitivity_preference_summary" 
+                android:enabled="false"
+                android:defaultValue="true" />
+            
+        <CheckBoxPreference
+                android:key="show_additional_information_checkbox_preference"
+                android:title="@string/show_additional_information_preference_title"
+                android:summary="@string/show_additional_information_preference_summary" 
+                android:enabled="false"
+                android:defaultValue="true" />
+    </PreferenceCategory>
+            
+</PreferenceScreen>

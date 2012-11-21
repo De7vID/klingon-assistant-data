@@ -736,7 +736,9 @@ public class KlingonContentProvider extends ContentProvider {
         }
 
         public String getDefinition_DE() {
-            return mDefinition_DE;
+            // If there is no German definition, the cursor could've returned
+            // null, so that needs to be handled.
+            return (mDefinition_DE == null) ? "" : mDefinition_DE;
         }
 
         public String getSynonyms() {

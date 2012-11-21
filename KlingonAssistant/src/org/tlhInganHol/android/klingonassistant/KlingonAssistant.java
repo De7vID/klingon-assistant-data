@@ -249,8 +249,16 @@ public class KlingonAssistant extends Activity {
             case R.id.search:
                 onSearchRequested();
                 return true;
+            case R.id.about:
+                // Show "About" screen.
+                showResults(QUERY_FOR_HELP);
+                return true;
+            case R.id.preferences:
+                // Show "Preferences" screen.
+                startActivity(new Intent(this, Preferences.class));
+                return true;
             default:
-                return false;
+                return super.onOptionsItemSelected(item);
         }
     }
 }

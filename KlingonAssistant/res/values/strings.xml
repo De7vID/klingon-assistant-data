@@ -45,4 +45,28 @@
     <!-- Search failure message, e.g., "No results found for \"%s\"". -->
     <string name="no_results"><![CDATA[&lt;<b>%s</b>&gt; Sambe\'lu\'.]]></string>
 
+    <!-- Menu items. -->
+    <string name="about">About</string>
+    <string name="preferences">Preferences</string>
+
+    <!-- Strings for the Preferences settings. -->
+    <string name="klingon_assistant_settings">boQwI\' settings</string>
+      <string name="language_preferences">Language preferences</string>
+        <string name="klingon_ui_preference_title">Klingon UI</string>
+        <string name="klingon_ui_preference_summary">Use {tlhIngan Hol} for the user interface language.</string>
+        <string name="show_german_definitions_preference_title">Show German definitions</string>
+        <string name="show_german_definitions_preference_summary">Display German translations of the definitions (experimental).</string>
+        <string name="search_german_definitions_preference_title">Search German definitions</string>
+        <string name="search_german_definitions_preference_summary">Include German definitions when searching (experimental).</string>
+      <string name="input_preferences">Input preferences</string>
+        <string name="xifan_hol_preference_title">Enable \"xifan hol\" input</string>
+        <string name="xifan_hol_preference_summary">Allow typing \"x\" for {tlh}, \"f\" for {ng}, etc.</string>
+        <string name="swap_qs_preference_title">Swap {Q} and {q}</string>
+        <string name="swap_qs_preference_summary">Map \"k\" to {q} and \"q\" to {Q}.</string>
+      <string name="informational_preferences">Informational preferences</string>
+        <string name="show_transitivity_preference_title">Show transitivity</string>
+        <string name="show_transitivity_preference_summary">Display \"best guess\" about whether a verb takes an object.</string>
+        <string name="show_additional_information_preference_title">Show additional information</string>
+        <string name="show_additional_information_preference_summary">Display detailed notes on puns, jokes, errors, etc.</string>
+
 </resources>

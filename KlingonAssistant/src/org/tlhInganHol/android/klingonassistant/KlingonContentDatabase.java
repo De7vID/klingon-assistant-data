@@ -104,10 +104,11 @@ public class KlingonContentDatabase {
 
     // This should be kept in sync with the version number in the database
     // entry {boQwI':n}.
-    private static final int DATABASE_VERSION = 201211060;
+    private static final int DATABASE_VERSION = 201211202;
 
     private final KlingonDatabaseOpenHelper mDatabaseOpenHelper;
     private static final HashMap<String,String> mColumnMap = buildColumnMap();
+    private final Context mContext;
 
     /**
      * Constructor
@@ -116,6 +117,7 @@ public class KlingonContentDatabase {
     public KlingonContentDatabase(Context context) {
         // Create a database helper to access the Klingon Database.
         mDatabaseOpenHelper = new KlingonDatabaseOpenHelper(context);
+        mContext = context;
 
         // Initialise the database, and create it if necessary.
         try {
@@ -201,6 +203,13 @@ public class KlingonContentDatabase {
      * // g -> gh (but gh -/> ghh and ng -/> ngh)
      */
     private String expandShorthand(String shorthand) {
+        SharedPreferences sharedPrefs =
+            PreferenceManager.getDefaultSharedPreferences(mContext);
+        if (sharedPrefs.getBoolean(Preferences.XIFAN_HOL_CHECKBOX_PREFERENCE, false)) {
+            // The user has disabled the "xifan hol" shorthand, so just do nothing and return.
+            return shorthand;
+        }
+
         // Note: The order of the replacements is important.
         return shorthand.replaceAll("ngH", "NGH")    // differentiate "ngh" from "ngH"
                         .replaceAll("h", "H")        // side effects: ch -> cH, gh -> gH (also ngh -> ngH), tlh -> tlH

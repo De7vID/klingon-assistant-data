@@ -43,12 +43,16 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.SearchView;
+import android.widget.TextView;
 
 /**
  * Displays an entry and its definition.
  */
 public class EntryActivity extends Activity {
     // private static final String TAG = "EntryActivity";
+
+    // This must uniquely identify the {boQwI'} entry.
+    private static final String QUERY_FOR_HELP = "boQwI':n";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +71,7 @@ public class EntryActivity extends Activity {
 
         Uri uri = getIntent().getData();
         // Log.d(TAG, "EntryActivity - uri: " + uri.toString());
+        // TODO: Disable the "About" menu item if this is the "About" entry.
 
         // Retrieve the entry's data.
         // Note: managedQuery is deprecated since API 11.
@@ -85,6 +90,15 @@ public class EntryActivity extends Activity {
         // Create the expanded definition.
         String pos = entry.getFormattedPartOfSpeech(/* isHtml */ false);
         String expandedDefinition = pos + entry.getDefinition();
+
+        // Experimental: Show the German definition.
+        String definition_DE = entry.getDefinition_DE();
+        int germanDefinitionStart = -1;
+        String germanDefinitionHeader = "\nGerman: ";
+        if (!definition_DE.equals("")) {
+            germanDefinitionStart = expandedDefinition.length();
+            expandedDefinition += germanDefinitionHeader + definition_DE;
+        }
 
         // Show the basic notes.
         String notes = entry.getNotes();
@@ -191,6 +205,12 @@ public class EntryActivity extends Activity {
             // Italicise the part of speech.
             ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC),
             0, pos.length(), finalFlags);
+        }
+        if (!definition_DE.equals("")) {
+            // Reduce the size of the German definition.
+            ssb.setSpan(new AbsoluteSizeSpan(14, true), germanDefinitionStart,
+                germanDefinitionStart + germanDefinitionHeader.length() +
+                definition_DE.length(), finalFlags);
         }
         if (entry.isVerb() && !entry.isPrefix() && !entry.isSuffix()) {
             // Reduce the size of the transitivity information.
@@ -311,12 +331,32 @@ public class EntryActivity extends Activity {
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
                 return true;
+            case R.id.about:
+                // Show "About" screen.
+                displayAbout();
+                return true;
+            case R.id.preferences:
+                // Show "Preferences" screen.
+                startActivity(new Intent(this, Preferences.class));
+                return true;
             default:
-                return false;
+                return super.onOptionsItemSelected(item);
         }
     }
 
-            // Private class for handling clickable spans.
+    // Private method to display the "About" entry.
+    private void displayAbout() {
+      Intent intent = new Intent();
+      intent.setComponent(new ComponentName(
+          "org.tlhInganHol.android.klingonassistant",
+          "org.tlhInganHol.android.klingonassistant.KlingonAssistant"));
+      intent.setAction(Intent.ACTION_SEARCH);
+      intent.putExtra(SearchManager.QUERY, QUERY_FOR_HELP);
+
+      startActivity(intent);
+    }
+
+    // Private class for handling clickable spans.
     private class LookupClickableSpan extends ClickableSpan {
       private String mQuery;
 
