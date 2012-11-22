@@ -187,17 +187,25 @@ public class EntryActivity extends Activity {
         }
 
         // If this is a verb (but not a prefix or suffix), show the transitivity information.
-        String transitivity = entry.getTransitivity();
+        String transitivity = "";
+        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE, /* default */ false)) {
+            // Show transitivity preference set to true.
+            transitivity = entry.getTransitivity();
+        }
         int transitivityStart = -1;
         String transitivityHeader = "\n\nTransitivity (best guess): "; 
-        if (entry.isVerb() && !entry.isPrefix() && !entry.isSuffix()) {
+        boolean showTransitivityInformation = !transitivity.equals("") && entry.isVerb() && !entry.isPrefix() && !entry.isSuffix();
+        if (showTransitivityInformation) {
             transitivityStart = expandedDefinition.length();
             expandedDefinition += transitivityHeader + transitivity;
         }
 
         // Show the hidden notes.
-        String hiddenNotes = entry.getHiddenNotes();
-        // TODO: Provide preference for hiding them.
+        String hiddenNotes = "";
+        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE, /* default */ false)) {
+            // Show additional information preference set to true.
+            hiddenNotes = entry.getHiddenNotes();
+        }
         int hiddenNotesStart = -1;
         String hiddenNotesHeader = "\n\nAdditional information: ";
         if (!hiddenNotes.equals(""))  {
@@ -221,7 +229,7 @@ public class EntryActivity extends Activity {
                 germanDefinitionStart + germanDefinitionHeader.length() +
                 definition_DE.length(), finalFlags);
         }
-        if (entry.isVerb() && !entry.isPrefix() && !entry.isSuffix()) {
+        if (showTransitivityInformation) {
             // Reduce the size of the transitivity information.
             ssb.setSpan(new AbsoluteSizeSpan(14, true), transitivityStart,
                 transitivityStart + transitivityHeader.length() +
