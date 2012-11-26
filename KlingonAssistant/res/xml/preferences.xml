@@ -42,7 +42,6 @@
                 android:layout="?android:attr/preferenceLayoutChild"
                 android:title="@string/swap_qs_preference_title"
                 android:summary="@string/swap_qs_preference_summary" 
-                android:enabled="false"
                 android:defaultValue="false" />
     </PreferenceCategory>
             

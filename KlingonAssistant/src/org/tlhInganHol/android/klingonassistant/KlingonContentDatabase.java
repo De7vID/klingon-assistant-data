@@ -104,7 +104,7 @@ public class KlingonContentDatabase {
 
     // This should be kept in sync with the version number in the database
     // entry {boQwI':n}.
-    private static final int DATABASE_VERSION = 201211202;
+    private static final int DATABASE_VERSION = 201211223;
 
     private final KlingonDatabaseOpenHelper mDatabaseOpenHelper;
     private static final HashMap<String,String> mColumnMap = buildColumnMap();
@@ -209,6 +209,11 @@ public class KlingonContentDatabase {
             // The user has disabled the "xifan hol" shorthand, so just do nothing and return.
             return shorthand;
         }
+        if (sharedPrefs.getBoolean(Preferences.SWAP_QS_CHECKBOX_PREFERENCE, /* default */ false)) {
+            // Map q to Q and k to q.
+            shorthand = shorthand.replaceAll("q", "Q");
+            shorthand = shorthand.replaceAll("k", "q");
+        }
 
         // Note: The order of the replacements is important.
         return shorthand.replaceAll("ngH", "NGH")    // differentiate "ngh" from "ngH"
@@ -228,7 +233,7 @@ public class KlingonContentDatabase {
                         .replaceAll("d", "D")        // do unambiguous replacements
                         .replaceAll("f", "ng")
                         .replaceAll("i", "I")
-                        .replaceAll("k", "Q")
+                        .replaceAll("k", "Q")        // If the swap Qs preference was selected, this will have no effect.
                         .replaceAll("s", "S")
                         .replaceAll("z", "'")
                         .replaceAll("x", "tlh");
