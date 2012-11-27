@@ -69,21 +69,21 @@
       <column name="see_also">{'oH:n:pro}, {-Daj:n}</column>
       <column name="notes">The plural of this pronoun is {chaH:n:pro}.
 
-Verb prefixes when {ghaH:n:nolink} is the subject, and the object is:
-▶ {pagh:n:1} - {0:v:pref}
-▶ {jIH:n:1} - {mu-:v:pref}
-▶ {maH:n:2} - {nu-:v:pref}
-▶ {SoH:n} - {Du-:v:pref}
-▶ {tlhIH:n} - {lI-:v:pref}
-▶ {ghaH:n}, {'oH:n}, {chaH:n}, {bIH:n} - {0:v:pref}
+Verb prefixes when {ghaH:n:nolink} is the subject:
+▶ {ghaH:n:nolink}:{pagh:n:1} = {0:v:pref}
+▶ {ghaH:n:nolink}:{jIH:n:1} = {mu-:v:pref}
+▶ {ghaH:n:nolink}:{maH:n:2} = {nu-:v:pref}
+▶ {ghaH:n:nolink}:{SoH:n} = {Du-:v:pref}
+▶ {ghaH:n:nolink}:{tlhIH:n} = {lI-:v:pref}
+▶ {ghaH:n:nolink}:{ghaH:n:nolink}/{'oH:n}/{chaH:n}/{bIH:n} = {0:v:pref}
 
-Verb prefixes when {ghaH:n:nolink} is the object, and the subject is:
-▶ {jIH:n:1} - {vI-:v:pref}
-▶ {maH:n:2} - {wI-:v:pref}
-▶ {SoH:n} - {Da-:v:pref}
-▶ {tlhIH:n} - {bo-:v:pref}
-▶ {ghaH:n}, {'oH:n} - {0:v:pref}
-▶ {chaH:n}, {bIH:n} - {lu-:v:pref}
+Verb prefixes when {ghaH:n:nolink} is the object:
+▶ {jIH:n:1}:{ghaH:n:nolink} = {vI-:v:pref}
+▶ {maH:n:2}:{ghaH:n:nolink} = {wI-:v:pref}
+▶ {SoH:n}:{ghaH:n:nolink} = {Da-:v:pref}
+▶ {tlhIH:n}:{ghaH:n:nolink} = {bo-:v:pref}
+▶ {ghaH:n:nolink}/{'oH:n}:{ghaH:n:nolink} = {0:v:pref}
+▶ {chaH:n}/{bIH:n}:{ghaH:n:nolink} = {lu-:v:pref}
 
 The imperative verb prefix when {ghaH:n:nolink} is the object is {yI-:v:pref}.</column>
       <column name="hidden_notes"></column>
@@ -1345,7 +1345,8 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ju-:v:pref}, {che-:v:pref}</column>
-      <column name="notes"></column>
+      <column name="notes">{SoH:n}:{maH:n:2} = {gho-:v:pref,nolink} (imp.)
+{tlhIH:n}:{maH:n:2} = {gho-:v:pref,nolink} (imp.)</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>

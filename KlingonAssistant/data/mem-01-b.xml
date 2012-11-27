@@ -1305,7 +1305,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Su-:v:pref}, {Da-:v:pref}, {yI-:v:pref}</column>
-      <column name="notes"></column>
+      <column name="notes">{SoH:n}:{pagh:n:1} = {bI-:v:pref,nolink}</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1376,21 +1376,21 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="see_also">{chaH:n:pro}, {-chaj:n}</column>
       <column name="notes">This is the plural of {'oH:n:pro}.
 
-Verb prefixes when {bIH:n:nolink} is the subject, and the object is:
-▶ {pagh:n:1} - {0:v:pref}
-▶ {jIH:n:1} - {mu-:v:pref}
-▶ {maH:n:2} - {nu-:v:pref}
-▶ {SoH:n} - {nI-:v:pref}
-▶ {tlhIH:n} - {lI-:v:pref}
-▶ {ghaH:n}, {'oH:n} - {lu-:v:pref}
-▶ {chaH:n}, {bIH:n} - {0:v:pref}
+Verb prefixes when {bIH:n:nolink} is the subject:
+▶ {bIH:n:nolink}:{pagh:n:1} = {0:v:pref}
+▶ {bIH:n:nolink}:{jIH:n:1} = {mu-:v:pref}
+▶ {bIH:n:nolink}:{maH:n:2} = {nu-:v:pref}
+▶ {bIH:n:nolink}:{SoH:n} = {nI-:v:pref}
+▶ {bIH:n:nolink}:{tlhIH:n} = {lI-:v:pref}
+▶ {bIH:n:nolink}:{ghaH:n}/{'oH:n} = {lu-:v:pref}
+▶ {bIH:n:nolink}:{chaH:n}/{bIH:n:nolink} = {0:v:pref}
 
-Verb prefixes when {bIH:n:nolink} is the object, and the subject is:
-▶ {jIH:n:1} - {vI-:v:pref}
-▶ {maH:n:2} - {DI-:v:pref}
-▶ {SoH:n} - {Da-:v:pref}
-▶ {tlhIH:n} - {bo-:v:pref}
-▶ {ghaH:n}, {'oH:n}, {chaH:n}, {bIH:n} - {0:v:pref}
+Verb prefixes when {bIH:n:nolink} is the object:
+▶ {jIH:n:1}:{bIH:n:nolink} = {vI-:v:pref}
+▶ {maH:n:2}:{bIH:n:nolink} = {DI-:v:pref}
+▶ {SoH:n}:{bIH:n:nolink} = {Da-:v:pref}
+▶ {tlhIH:n}:{bIH:n:nolink} = {bo-:v:pref}
+▶ {ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n:nolink}:{bIH:n:nolink} = {0:v:pref}
 
 The imperative verb prefix when {bIH:n:nolink} is the object is {tI-:v:pref}.</column>
       <column name="hidden_notes"></column>
@@ -1736,11 +1736,11 @@ The imperative verb prefix when {bIH:n:nolink} is the object is {tI-:v:pref}.</c
     <table name="mem">
       <column name="_id">10845</column>
       <column name="entry_name">bIQong'eghqangchoHmoHlaHchu'pu'neSchugh</column>
-      <column name="part_of_speech">v:deriv</column>
+      <column name="part_of_speech">v:deriv,i</column>
       <column name="definition">meaningless verbal phrase</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mojaq:n}, {QaghHommeyHeylIjmo':n}</column>
+      <column name="see_also">{wot:n}, {mojaq:n}, {QaghHommeyHeylIjmo':n}</column>
       <column name="notes">This is a verb with one of each type of suffix.  It doesn't really mean anything.</column>
       <column name="hidden_notes">The invention of this verbal phrase is attributed to Mark Shoulson.</column>
       <column name="components"></column>
@@ -2338,7 +2338,9 @@ The imperative verb prefix when {bIH:n:nolink} is the object is {tI-:v:pref}.</c
       <column name="synonyms"></column>
       <column name="antonyms">{lI-:v:pref}</column>
       <column name="see_also">{Da-:v:pref}, {Su-:v:pref}, {yI-:v:pref}, {tI-:v:pref}</column>
-      <column name="notes">When used with {-lu':v}, this prefix means "Someone (indefinite subject) does something to you (plural)".</column>
+      <column name="notes">{tlhIH:n}:{ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n} = {bo-:v:pref,nolink}
+
+When used with {-lu':v}, this prefix means "Someone (indefinite subject) does something to you (plural)".</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2714,8 +2716,7 @@ The imperative verb prefix when {bIH:n:nolink} is the object is {tI-:v:pref}.</c
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chen:v}, {boq:n:1}, {chel:v}</column>
-      <!-- TODO: Use × and ÷ instead, but test them first. -->
-      <column name="notes">The four basic arithmetic operations are: + {boq:v:nolink}, - {boqHa':v}, * {boq'egh:v}, / {boqHa''egh:v}.  In these operations, numbers are treated as if they are grammatically singular.</column>
+      <column name="notes">The four basic arithmetic operations are: + {boq:v:nolink}, - {boqHa':v}, × {boq'egh:v}, ÷ {boqHa''egh:v}.  In these operations, numbers are treated as if they are grammatically singular.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">{wej boq loS; chen Soch:sen:nolink} 4 + 3 = 7</column>
@@ -2883,7 +2884,7 @@ The imperative verb prefix when {bIH:n:nolink} is the object is {tI-:v:pref}.</c
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{De'vID:n:name}</column>
-      <column name="notes">{tlhIngan Hol boQwI':n:nolink} "Klingon Language Assistant" - database version 2012.11.27i.
+      <column name="notes">{tlhIngan Hol boQwI':n:nolink} "Klingon Language Assistant" - database version 2012.11.28a.
 
 To begin searching, simply type into the search box.  On some devices, you may have to press the "Search" (magnifying glass) key or the "Menu" key to activate the search box.
 
