@@ -16,6 +16,7 @@
 
 package org.tlhInganHol.android.klingonassistant;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.SearchManager;
 import android.content.Context;
@@ -54,7 +55,13 @@ public class KlingonAssistant extends Activity {
     public static final String KEY_SHOW_HELP = "show_help";
 
     // This must uniquely identify the {boQwI'} entry.
-    private static final String QUERY_FOR_HELP = "boQwI':n";
+    private static final String QUERY_FOR_ABOUT = "boQwI':n";
+
+    // Other help pages.
+    private static final String QUERY_FOR_PRONUNCIATION = "QIch:n";
+    private static final String QUERY_FOR_PREFIXES = "moHaq:n";
+    private static final String QUERY_FOR_NOUN_SUFFIXES = "DIp:n";
+    private static final String QUERY_FOR_VERB_SUFFIXES = "wot:n";
 
     private TextView mTextView;
     private ListView mListView;
@@ -63,6 +70,11 @@ public class KlingonAssistant extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
+            ActionBar actionBar = getActionBar();
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
 
         mTextView = (TextView) findViewById(R.id.text);
         mListView = (ListView) findViewById(R.id.list);
@@ -99,7 +111,7 @@ public class KlingonAssistant extends Activity {
             if (sharedPrefs.getBoolean(KEY_SHOW_HELP, /* default */ true)) {
                 try {
                     // Attempt to show it.
-                    showResults(QUERY_FOR_HELP);
+                    showResults(QUERY_FOR_ABOUT);
 
                     // Unset the flag since the help has been shown.
                     SharedPreferences.Editor sharedPrefsEd =
@@ -250,13 +262,32 @@ public class KlingonAssistant extends Activity {
             case R.id.search:
                 onSearchRequested();
                 return true;
+            case android.R.id.home:
+                finish();
+                return true;
             case R.id.about:
                 // Show "About" screen.
-                showResults(QUERY_FOR_HELP);
+                showResults(QUERY_FOR_ABOUT);
                 return true;
             case R.id.preferences:
                 // Show "Preferences" screen.
                 startActivity(new Intent(this, Preferences.class));
+                return true;
+            case R.id.pronunciation:
+                // Show "Pronunciation" screen.
+                showResults(QUERY_FOR_PRONUNCIATION);
+                return true;
+            case R.id.prefixes:
+                // Show "Prefixes" screen.
+                showResults(QUERY_FOR_PREFIXES);
+                return true;
+            case R.id.noun_suffixes:
+                // Show "Noun Suffixes" screen.
+                showResults(QUERY_FOR_NOUN_SUFFIXES);
+                return true;
+            case R.id.verb_suffixes:
+                // Show "Verb Suffixes" screen.
+                showResults(QUERY_FOR_VERB_SUFFIXES);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

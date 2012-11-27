@@ -523,13 +523,31 @@ An acceptable way to phrase this demand as a question is {nuq DaDab?:sen:nolink}
       <column name="definition_de">Tee</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Qenvob:n}, {bIQ na':n}, {runpI':n}</column>
+      <column name="see_also">{Qenvob:n}, {bIQ na':n}, {runpI':n}, {Dargh wIb:n}</column>
       <column name="notes">This refers to the beverage only.  For the dried-up mixture used to brew tea, see {Qenvob:n}.</column>
       <column name="hidden_notes">Darjeeling is a type of tea.</column>
       <column name="components"></column>
-      <column name="examples">{Hoch vor Dargh wIb.:sen:nolink} "Sour tea cures everything."[2]</column>
+      <column name="examples">
+▶ {Hoch vor Dargh wIb.:sen:nolink} "Sour tea cures everything."[2]</column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKDA:src}, [2] {CK:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">13185</column>
+      <column name="entry_name">Dargh wIb</column>
+      <column name="part_of_speech">n:food,deriv</column>
+      <column name="definition">sour tea</column>
+      <column name="definition_de">Sauertee</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{Dargh:n}, {wIb:v}</column>
+      <column name="examples">
+▶ {Hoch vor Dargh wIb.:sen:nolink} "Sour tea cures everything."[1]</column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {CK:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.26. -->
@@ -1574,7 +1592,39 @@ An acceptable way to phrase this demand as a question is {nuq DaDab?:sen:nolink}
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{wot:n}</column>
-      <column name="notes"></column>
+      <column name="notes">There are five types of noun suffixes in Klingon.
+
+Noun Type 1: Augmentative/diminutive
+▶ {-'a':n:suff}
+▶ {-Hom:n:suff}
+▶ {-oy:n:suff}
+
+Noun Type 2: Number
+▶ {-pu':n:suff}
+▶ {-Du':n:suff}
+▶ {-mey:n:suff}
+
+Noun Type 3: Qualification
+▶ {-qoq:n:suff}
+▶ {-Hey:n:suff}
+▶ {-na':n:suff}
+
+Noun Type 4: Possession/specification
+▶ {-wIj:n:suff} / {-wI':n:suff}
+▶ {-lIj:n:suff} / {-lI':n:suff}
+▶ {-maj:n:suff} / {-ma':n:suff}
+▶ {-raj:n:suff} / {-ra':n:suff}
+▶ {-Daj:n:suff}
+▶ {-chaj:n:suff}
+▶ {-vam:n:suff}
+▶ {-vetlh:n:suff}
+
+Noun Type 5: Syntactic markers
+▶ {-Daq:n:suff}
+▶ {-vo':n:suff}
+▶ {-mo':n:suff}
+▶ {-vaD:n:suff}
+▶ {-'e':n:suff}</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1954,10 +2004,8 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "accumulat
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="hidden_notes">This is defined in the body of {KGT:src} on p.48.
-
-Based on the example of {qawmoH:v}, the subject of {DoHmoH:v:nolink} does the driving back, {-vaD:n} marks that which is driven back, and the object is the thing or location it is driven back from.</column>
+      <column name="notes">Based on the example of {qawmoH:v}, the subject of {DoHmoH:v:nolink} does the driving back, {-vaD:n} marks that which is driven back, and the object is the thing or location it is driven back from.</column>
+      <column name="hidden_notes">This is defined in the body of {KGT:src} on p.48.</column>
       <column name="components">{DoH:v}, {-moH:v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>

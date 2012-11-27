@@ -54,7 +54,13 @@ public class EntryActivity extends Activity {
     // private static final String TAG = "EntryActivity";
 
     // This must uniquely identify the {boQwI'} entry.
-    private static final String QUERY_FOR_HELP = "boQwI':n";
+    private static final String QUERY_FOR_ABOUT = "boQwI':n";
+
+    // Other help pages.
+    private static final String QUERY_FOR_PRONUNCIATION = "QIch:n";
+    private static final String QUERY_FOR_PREFIXES = "moHaq:n";
+    private static final String QUERY_FOR_NOUN_SUFFIXES = "DIp:n";
+    private static final String QUERY_FOR_VERB_SUFFIXES = "wot:n";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -188,7 +194,7 @@ public class EntryActivity extends Activity {
 
         // If this is a verb (but not a prefix or suffix), show the transitivity information.
         String transitivity = "";
-        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE, /* default */ false)) {
+        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE, /* default */ true)) {
             // Show transitivity preference set to true.
             transitivity = entry.getTransitivity();
         }
@@ -202,7 +208,7 @@ public class EntryActivity extends Activity {
 
         // Show the hidden notes.
         String hiddenNotes = "";
-        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE, /* default */ false)) {
+        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE, /* default */ true)) {
             // Show additional information preference set to true.
             hiddenNotes = entry.getHiddenNotes();
         }
@@ -351,25 +357,41 @@ public class EntryActivity extends Activity {
                 return true;
             case R.id.about:
                 // Show "About" screen.
-                displayAbout();
+                displayHelp(QUERY_FOR_ABOUT);
                 return true;
             case R.id.preferences:
                 // Show "Preferences" screen.
                 startActivity(new Intent(this, Preferences.class));
+                return true;
+            case R.id.pronunciation:
+                // Show "Pronunciation" screen.
+                displayHelp(QUERY_FOR_PRONUNCIATION);
+                return true;
+            case R.id.prefixes:
+                // Show "Prefixes" screen.
+                displayHelp(QUERY_FOR_PREFIXES);
+                return true;
+            case R.id.noun_suffixes:
+                // Show "Noun Suffixes" screen.
+                displayHelp(QUERY_FOR_NOUN_SUFFIXES);
+                return true;
+            case R.id.verb_suffixes:
+                // Show "Verb Suffixes" screen.
+                displayHelp(QUERY_FOR_VERB_SUFFIXES);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
 
-    // Private method to display the "About" entry.
-    private void displayAbout() {
+    // Private method to display the "help" entries.
+    private void displayHelp(String helpQuery) {
       Intent intent = new Intent();
       intent.setComponent(new ComponentName(
           "org.tlhInganHol.android.klingonassistant",
           "org.tlhInganHol.android.klingonassistant.KlingonAssistant"));
       intent.setAction(Intent.ACTION_SEARCH);
-      intent.putExtra(SearchManager.QUERY, QUERY_FOR_HELP);
+      intent.putExtra(SearchManager.QUERY, helpQuery);
 
       startActivity(intent);
     }

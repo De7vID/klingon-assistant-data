@@ -18,8 +18,12 @@ package org.tlhInganHol.android.klingonassistant;
 
 import org.tlhInganHol.android.klingonassistant.R;
 
+import android.app.ActionBar;
+import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
+import android.view.MenuItem;
 
 public class Preferences extends PreferenceActivity {
 
@@ -42,6 +46,22 @@ public class Preferences extends PreferenceActivity {
 
         // Load the preferences from an XML resource.
         addPreferencesFromResource(R.xml.preferences);
+
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
+            ActionBar actionBar = getActionBar();
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
 }
