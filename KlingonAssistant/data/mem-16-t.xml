@@ -872,10 +872,12 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2012.11.29. -->
       <column name="_id">32100</column>
       <column name="entry_name">ta'mey Dun, bommey Dun.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Great deeds, great songs.</column>
+      <column name="definition_de">Große Taten, große Lieder.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1057,7 +1059,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This star system is located near the Federation-Klingon border, and contains the two planets {Doy'yuS:n} and {'elas:n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2130,10 +2132,12 @@ The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, 
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2012.11.29. -->
       <column name="_id">32750</column>
       <column name="entry_name">toDDuj</column>
       <column name="part_of_speech">n</column>
       <column name="definition">rescue ship</column>
+      <column name="definition_de">Rettungsschiff</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -2309,16 +2313,18 @@ The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, 
       <column name="source">[1] {KGT:src}, [2] {paq'batlh:src}, [3] {KLI mailing list 2010.09.01:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2012.11.29. -->
       <column name="_id">32850</column>
       <column name="entry_name">tongDuj</column>
       <column name="part_of_speech">n</column>
       <column name="definition">freighter</column>
+      <column name="definition_de">Frachter</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{tong:n:hyp,nolink}, {Duj:n:2}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
@@ -2399,10 +2405,12 @@ The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, 
       <column name="source">[1] {KLI mailing list 1997.04.07:src}, [2] {HQ 10.4, p.5, Dec. 2001:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2012.11.29. -->
       <column name="_id">32910</column>
       <column name="entry_name">toQDuj</column>
       <column name="part_of_speech">n:fic</column>
       <column name="definition">Bird of Prey (vessel)</column>
+      <column name="definition_de">Bird-of-Prey</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Duj:n:2}, {qIvo'rIt:n}, {bI'rel tlharghDuj:n}</column>

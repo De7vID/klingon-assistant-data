@@ -548,10 +548,12 @@ Someone of rank {Sogh:n} or higher can also be referred to as {ra'wI':n}.
       <column name="source">[1] {KGT:src}, [2] {HQ 4.4, p.11:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2012.11.29. -->
       <column name="_id">36320</column>
       <column name="entry_name">yejquv</column>
       <column name="part_of_speech">n</column>
       <column name="definition">High Council</column>
+      <column name="definition_de">Hoher Rat</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yo'SeH yaHnIv:n}</column>
@@ -561,6 +563,23 @@ Someone of rank {Sogh:n} or higher can also be referred to as {ra'wI':n}.
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKDA:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2012.11.29. -->
+      <column name="_id">36325</column>
+      <column name="entry_name">yejquv DevwI'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">Leader of the High Council</column>
+      <column name="definition_de">Führer des Hohen Rates</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{yejquv:n}, {DevwI':n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source"></column>
     </table>
     <table name="mem">
       <column name="_id">36330</column>
