@@ -20,10 +20,13 @@ import android.app.SearchManager;
 import android.content.ContentProvider;
 import android.content.ContentResolver;
 import android.content.ContentValues;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.UriMatcher;
 import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.net.Uri;
+import android.preference.PreferenceManager;
 import android.provider.BaseColumns;
 import android.util.Log;
 
@@ -171,7 +174,7 @@ public class KlingonContentProvider extends ContentProvider {
 
     private Object[] formatEntryForSearchResults(Cursor cursor) {
         // Format the search result for display here.
-        Entry entry = new Entry(cursor);
+        Entry entry = new Entry(cursor, getContext());
         int entryId = entry.getId();
         String indent1 = entry.isIndented() ? "    " : "";
         String indent2 = entry.isIndented() ? "      " : "";
@@ -275,6 +278,9 @@ public class KlingonContentProvider extends ContentProvider {
         // Pattern for matching entry in text.
         public static Pattern ENTRY_PATTERN = Pattern.compile("\\{[A-Za-z0-9 '\\\":;,\\.\\-?!/()@=%&]+\\}");
 
+        // Context.
+        private Context mContext;
+
         // The raw data for the entry.
         // private Uri mUri = null;
         private int mId = -1;
@@ -290,6 +296,9 @@ public class KlingonContentProvider extends ContentProvider {
         private String mExamples = "";
         private String mSearchTags = "";
         private String mSource = "";
+
+        // Localised definitions.
+        private String mDefinition_DE = "";
 
         // Part of speech metadata.
         private enum BasePartOfSpeechEnum {
@@ -376,9 +385,11 @@ public class KlingonContentProvider extends ContentProvider {
          * Constructor
          * @param query A query of the form "entryName:basepos:metadata".
          */
-        public Entry(String query) {
+        public Entry(String query, Context context) {
             // Log.d(TAG, "Entry constructed from query: \"" + query + "\"");
             mEntryName = query;
+            mContext = context;
+
             int colonLoc = query.indexOf(':');
             if (colonLoc != -1) {
                 mEntryName = query.substring(0, colonLoc);
@@ -396,11 +407,17 @@ public class KlingonContentProvider extends ContentProvider {
          * Constructor
          * @param cursor A cursor with position at the desired entry
          */
-        public Entry(Cursor cursor) {
+        public Entry(Cursor cursor, Context context) {
+        	mContext = context;
+        	
             mId = cursor.getInt(KlingonContentDatabase.COLUMN_ID);
             mEntryName = cursor.getString(KlingonContentDatabase.COLUMN_ENTRY_NAME);
             mPartOfSpeech = cursor.getString(KlingonContentDatabase.COLUMN_PART_OF_SPEECH);
+
+            // TODO: Make this dependent on the chosen language.
             mDefinition = cursor.getString(KlingonContentDatabase.COLUMN_DEFINITION);
+            mDefinition_DE = cursor.getString(KlingonContentDatabase.COLUMN_DEFINITION_DE);
+
             mSynonyms = cursor.getString(KlingonContentDatabase.COLUMN_SYNONYMS);
             mAntonyms = cursor.getString(KlingonContentDatabase.COLUMN_ANTONYMS);
             mSeeAlso = cursor.getString(KlingonContentDatabase.COLUMN_SEE_ALSO);
@@ -667,7 +684,7 @@ public class KlingonContentProvider extends ContentProvider {
             while (matcher.find()) {
                 // Strip brackets.
                 String query = definition.substring(matcher.start() + 1, matcher.end() - 1);
-                KlingonContentProvider.Entry linkedEntry = new KlingonContentProvider.Entry(query);
+                KlingonContentProvider.Entry linkedEntry = new KlingonContentProvider.Entry(query, mContext);
                 String replacement;
                 if (isHtml) {
                     // Bold a Klingon word if there is one.
@@ -683,6 +700,15 @@ public class KlingonContentProvider extends ContentProvider {
             }
 
             // Return the definition, preceded by the part of speech.
+            SharedPreferences sharedPrefs =
+                PreferenceManager.getDefaultSharedPreferences(mContext);
+            if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
+                // Show German definitions preference set to true.
+                String definition_DE = getDefinition_DE();
+                if (!definition_DE.equals("")) {
+                    return pos + definition + " / " + getDefinition_DE();
+                }
+            }
             return pos + definition;
         }
 
@@ -726,6 +752,12 @@ public class KlingonContentProvider extends ContentProvider {
                 return mDefinition + " (name)";
             }
             return mDefinition;
+        }
+
+        public String getDefinition_DE() {
+            // If there is no German definition, the cursor could've returned
+            // null, so that needs to be handled.
+            return (mDefinition_DE == null) ? "" : mDefinition_DE;
         }
 
         public String getSynonyms() {

@@ -22,4 +22,22 @@
     <item android:id="@+id/search"
           android:title="@string/menu_search"
           android:icon="@drawable/ic_menu_search" />
+
+    <item android:id="@+id/about"
+        android:title="@string/about" />
+
+    <item android:id="@+id/preferences"
+        android:title="@string/preferences" />
+
+    <item android:id="@+id/pronunciation"
+        android:title="@string/pronunciation" />
+
+    <item android:id="@+id/prefixes"
+        android:title="@string/prefixes" />
+
+    <item android:id="@+id/noun_suffixes"
+        android:title="@string/noun_suffixes" />
+
+    <item android:id="@+id/verb_suffixes"
+        android:title="@string/verb_suffixes" />
 </menu>

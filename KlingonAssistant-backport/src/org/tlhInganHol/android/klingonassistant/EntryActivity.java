@@ -22,9 +22,11 @@ import android.app.Activity;
 import android.app.SearchManager;
 import android.content.ComponentName;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.text.Html;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
@@ -47,6 +49,15 @@ import android.widget.TextView;
 public class EntryActivity extends Activity {
     // private static final String TAG = "EntryActivity";
 
+    // This must uniquely identify the {boQwI'} entry.
+    private static final String QUERY_FOR_ABOUT = "boQwI':n";
+
+    // Other help pages.
+    private static final String QUERY_FOR_PRONUNCIATION = "QIch:n";
+    private static final String QUERY_FOR_PREFIXES = "moHaq:n";
+    private static final String QUERY_FOR_NOUN_SUFFIXES = "DIp:n";
+    private static final String QUERY_FOR_VERB_SUFFIXES = "wot:n";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,11 +72,13 @@ public class EntryActivity extends Activity {
 
         Uri uri = getIntent().getData();
         // Log.d(TAG, "EntryActivity - uri: " + uri.toString());
+        // TODO: Disable the "About" menu item if this is the "About" entry.
 
         // Retrieve the entry's data.
         // Note: managedQuery is deprecated since API 11.
         Cursor cursor = managedQuery(uri, KlingonContentDatabase.ALL_KEYS, null, null, null);
-        KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor);
+        KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor,
+            getBaseContext());
 
         // Handle alternative spellings here.
         if (entry.isAlternativeSpelling()) {
@@ -79,6 +92,21 @@ public class EntryActivity extends Activity {
         // Create the expanded definition.
         String pos = entry.getFormattedPartOfSpeech(/* isHtml */ false);
         String expandedDefinition = pos + entry.getDefinition();
+
+        // Experimental: Show the German definition.
+        String definition_DE = "";
+        SharedPreferences sharedPrefs =
+            PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
+            // Show German definitions preference set to true.
+            definition_DE = entry.getDefinition_DE();
+        }
+        int germanDefinitionStart = -1;
+        String germanDefinitionHeader = "\nGerman: ";
+        if (!definition_DE.equals("")) {
+            germanDefinitionStart = expandedDefinition.length();
+            expandedDefinition += germanDefinitionHeader + definition_DE;
+        }
 
         // Show the basic notes.
         String notes = entry.getNotes();
@@ -158,17 +186,25 @@ public class EntryActivity extends Activity {
         }
 
         // If this is a verb (but not a prefix or suffix), show the transitivity information.
-        String transitivity = entry.getTransitivity();
+        String transitivity = "";
+        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE, /* default */ true)) {
+            // Show transitivity preference set to true.
+            transitivity = entry.getTransitivity();
+        }
         int transitivityStart = -1;
         String transitivityHeader = "\n\nTransitivity (best guess): "; 
-        if (entry.isVerb() && !entry.isPrefix() && !entry.isSuffix()) {
+        boolean showTransitivityInformation = !transitivity.equals("") && entry.isVerb() && !entry.isPrefix() && !entry.isSuffix();
+        if (showTransitivityInformation) {
             transitivityStart = expandedDefinition.length();
             expandedDefinition += transitivityHeader + transitivity;
         }
 
         // Show the hidden notes.
-        String hiddenNotes = entry.getHiddenNotes();
-        // TODO: Provide preference for hiding them.
+        String hiddenNotes = "";
+        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE, /* default */ true)) {
+            // Show additional information preference set to true.
+            hiddenNotes = entry.getHiddenNotes();
+        }
         int hiddenNotesStart = -1;
         String hiddenNotesHeader = "\n\nAdditional information: ";
         if (!hiddenNotes.equals(""))  {
@@ -186,7 +222,13 @@ public class EntryActivity extends Activity {
             ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC),
             0, pos.length(), finalFlags);
         }
-        if (entry.isVerb() && !entry.isPrefix() && !entry.isSuffix()) {
+        if (!definition_DE.equals("")) {
+            // Reduce the size of the German definition.
+            ssb.setSpan(new AbsoluteSizeSpan(14), germanDefinitionStart,
+                germanDefinitionStart + germanDefinitionHeader.length() +
+                definition_DE.length(), finalFlags);
+        }
+        if (showTransitivityInformation) {
             // Reduce the size of the transitivity information.
             ssb.setSpan(new AbsoluteSizeSpan(14), transitivityStart,
                 transitivityStart + transitivityHeader.length() +
@@ -205,7 +247,8 @@ public class EntryActivity extends Activity {
             LookupClickableSpan viewLauncher = new LookupClickableSpan(query);
 
             // Process the linked entry information.
-            KlingonContentProvider.Entry linkedEntry = new KlingonContentProvider.Entry(query);
+            KlingonContentProvider.Entry linkedEntry = new KlingonContentProvider.Entry(query,
+                getBaseContext());
             // Log.d(TAG, "linkedEntry.getEntryName() = " + linkedEntry.getEntryName());
 
             // Delete the brackets and metadata parts of the string.
@@ -296,12 +339,48 @@ public class EntryActivity extends Activity {
                 onSearchRequested();
                 return true;
             // BACKPORT: No handling of android.R.id.home.
+            case R.id.about:
+                // Show "About" screen.
+                displayHelp(QUERY_FOR_ABOUT);
+                return true;
+            case R.id.preferences:
+                // Show "Preferences" screen.
+                startActivity(new Intent(this, Preferences.class));
+                return true;
+            case R.id.pronunciation:
+                // Show "Pronunciation" screen.
+                displayHelp(QUERY_FOR_PRONUNCIATION);
+                return true;
+            case R.id.prefixes:
+                // Show "Prefixes" screen.
+                displayHelp(QUERY_FOR_PREFIXES);
+                return true;
+            case R.id.noun_suffixes:
+                // Show "Noun Suffixes" screen.
+                displayHelp(QUERY_FOR_NOUN_SUFFIXES);
+                return true;
+            case R.id.verb_suffixes:
+                // Show "Verb Suffixes" screen.
+                displayHelp(QUERY_FOR_VERB_SUFFIXES);
+                return true;
             default:
-                return false;
+                return super.onOptionsItemSelected(item);
         }
     }
 
-            // Private class for handling clickable spans.
+    // Private method to display the "help" entries.
+    private void displayHelp(String helpQuery) {
+      Intent intent = new Intent();
+      intent.setComponent(new ComponentName(
+          "org.tlhInganHol.android.klingonassistant",
+          "org.tlhInganHol.android.klingonassistant.KlingonAssistant"));
+      intent.setAction(Intent.ACTION_SEARCH);
+      intent.putExtra(SearchManager.QUERY, helpQuery);
+
+      startActivity(intent);
+    }
+
+    // Private class for handling clickable spans.
     private class LookupClickableSpan extends ClickableSpan {
       private String mQuery;
 

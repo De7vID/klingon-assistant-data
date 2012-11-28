@@ -20,11 +20,11 @@
      corresponding regular version. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         package="org.tlhInganHol.android.klingonassistant"
-        android:versionCode="66"
-        android:versionName="2012.09.02b-backport">
+        android:versionCode="67"
+        android:versionName="2012.11.28b-backport">
 
     <!-- Minimum Android version 1.6 (4), maximum version 2.0.1 (6),
-         targed version 4.0.3 (15) (this disables compatibility behaviour). -->
+         targeted version 4.0.3 (15) (this disables compatibility behaviour). -->
     <uses-sdk android:minSdkVersion="4"
               android:maxSdkVersion="6"
               android:targetSdkVersion="15" />
@@ -59,6 +59,15 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:mimeType="vnd.android.cursor.item/org.tlhInganHol.android.klingonassistant" />
+            </intent-filter>
+        </activity>
+
+        <!-- Displays the Preferences screen. -->
+        <activity android:name=".Preferences"
+                android:label="@string/preferences">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.PREFERENCE" />
             </intent-filter>
         </activity>
 

@@ -52,7 +52,13 @@ public class KlingonAssistant extends Activity {
     public static final String KEY_SHOW_HELP = "show_help";
 
     // This must uniquely identify the {boQwI'} entry.
-    private static final String QUERY_FOR_HELP = "boQwI':n";
+    private static final String QUERY_FOR_ABOUT = "boQwI':n";
+
+    // Other help pages.
+    private static final String QUERY_FOR_PRONUNCIATION = "QIch:n";
+    private static final String QUERY_FOR_PREFIXES = "moHaq:n";
+    private static final String QUERY_FOR_NOUN_SUFFIXES = "DIp:n";
+    private static final String QUERY_FOR_VERB_SUFFIXES = "wot:n";
 
     private TextView mTextView;
     private ListView mListView;
@@ -97,7 +103,7 @@ public class KlingonAssistant extends Activity {
             if (sharedPrefs.getBoolean(KEY_SHOW_HELP, /* default */ true)) {
                 try {
                     // Attempt to show it.
-                    showResults(QUERY_FOR_HELP);
+                    showResults(QUERY_FOR_ABOUT);
 
                     // Unset the flag since the help has been shown.
                     SharedPreferences.Editor sharedPrefsEd =
@@ -167,7 +173,8 @@ public class KlingonAssistant extends Activity {
         }
 
         private void bindView(TwoLineListItem view, Cursor cursor) {
-            KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor);
+            KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor,
+                getBaseContext());
 
             // TODO(davinci): Format with colour and size.
             String indent1 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;" : "";
@@ -199,7 +206,7 @@ public class KlingonAssistant extends Activity {
         Cursor cursor = managedQuery(Uri.parse(KlingonContentProvider.CONTENT_URI + "/lookup"),
             null /* all columns */, null, new String[] {query}, null);
 
-        KlingonContentProvider.Entry queryEntry = new KlingonContentProvider.Entry(query);
+        KlingonContentProvider.Entry queryEntry = new KlingonContentProvider.Entry(query, getBaseContext());
         String entryNameWithPoS = queryEntry.getEntryName() + queryEntry.getBracketedPartOfSpeech(/* isHtml */ true);
 
         if (cursor == null || cursor.getCount() == 0) {
@@ -242,8 +249,33 @@ public class KlingonAssistant extends Activity {
             case R.id.search:
                 onSearchRequested();
                 return true;
+            // BACKPORT: No handling of android.R.id.home.
+            case R.id.about:
+                // Show "About" screen.
+                showResults(QUERY_FOR_ABOUT);
+                return true;
+            case R.id.preferences:
+                // Show "Preferences" screen.
+                startActivity(new Intent(this, Preferences.class));
+                return true;
+            case R.id.pronunciation:
+                // Show "Pronunciation" screen.
+                showResults(QUERY_FOR_PRONUNCIATION);
+                return true;
+            case R.id.prefixes:
+                // Show "Prefixes" screen.
+                showResults(QUERY_FOR_PREFIXES);
+                return true;
+            case R.id.noun_suffixes:
+                // Show "Noun Suffixes" screen.
+                showResults(QUERY_FOR_NOUN_SUFFIXES);
+                return true;
+            case R.id.verb_suffixes:
+                // Show "Verb Suffixes" screen.
+                showResults(QUERY_FOR_VERB_SUFFIXES);
+                return true;
             default:
-                return false;
+                return super.onOptionsItemSelected(item);
         }
     }
 }
