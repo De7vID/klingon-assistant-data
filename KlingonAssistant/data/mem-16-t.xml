@@ -29,10 +29,12 @@
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2012.11.30. -->
       <column name="_id">31635</column>
       <column name="entry_name">tachDaq maghom.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">We will meet in the cocktail lounge.</column>
+      <column name="definition_de">Wir treffen uns in der Cocktail-Lounge.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1155,6 +1157,22 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">32275</column>
+      <column name="entry_name">tep jolpat</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">cargo transporter</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{wey jolpat:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{tep:n}, {jolpat:n}</column>
+      <column name="examples">
+▶ {tep jolpat - wa':sen:nolink} "Cargo Transporter - 1"</column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
       <column name="_id">32280</column>
