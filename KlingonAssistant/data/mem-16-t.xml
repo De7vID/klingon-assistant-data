@@ -1159,10 +1159,12 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2012.12.01. -->
       <column name="_id">32275</column>
       <column name="entry_name">tep jolpat</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">cargo transporter</column>
+      <column name="definition_de">Frachttransporter</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{wey jolpat:n}</column>
