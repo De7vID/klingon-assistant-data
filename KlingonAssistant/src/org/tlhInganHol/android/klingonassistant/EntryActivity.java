@@ -18,8 +18,6 @@ package org.tlhInganHol.android.klingonassistant;
 
 import java.util.regex.Matcher;
 
-import android.app.ActionBar;
-import android.app.Activity;
 import android.app.SearchManager;
 import android.content.ComponentName;
 import android.content.Context;
@@ -40,17 +38,19 @@ import android.text.style.StyleSpan;
 import android.text.style.SuperscriptSpan;
 import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.SearchView;
 import android.widget.TextView;
+import com.actionbarsherlock.app.ActionBar;
+import com.actionbarsherlock.app.SherlockActivity;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuInflater;
+import com.actionbarsherlock.view.MenuItem;
 
 /**
  * Displays an entry and its definition.
  */
-public class EntryActivity extends Activity {
+public class EntryActivity extends SherlockActivity {
     // private static final String TAG = "EntryActivity";
 
     // This must uniquely identify the {boQwI'} entry.
@@ -67,10 +67,8 @@ public class EntryActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.entry);
 
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
-            ActionBar actionBar = getActionBar();
-            actionBar.setDisplayHomeAsUpEnabled(true);
-        }
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         TextView entryTitle = (TextView) findViewById(R.id.entry);
         TextView entryText = (TextView) findViewById(R.id.definition);
@@ -331,7 +329,7 @@ public class EntryActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
+        MenuInflater inflater = getSupportMenuInflater();
         inflater.inflate(R.menu.options_menu, menu);
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){

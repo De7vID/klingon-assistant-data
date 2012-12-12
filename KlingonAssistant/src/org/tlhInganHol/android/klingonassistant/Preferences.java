@@ -18,14 +18,14 @@ package org.tlhInganHol.android.klingonassistant;
 
 import org.tlhInganHol.android.klingonassistant.R;
 
-import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
-import android.view.MenuItem;
+import com.actionbarsherlock.app.ActionBar;
+import com.actionbarsherlock.app.SherlockPreferenceActivity;
+import com.actionbarsherlock.view.MenuItem;
 
-public class Preferences extends PreferenceActivity {
+public class Preferences extends SherlockPreferenceActivity {
 
     // Language preferences.
     public static final String KEY_KLINGON_UI_CHECKBOX_PREFERENCE = "klingon_ui_checkbox_preference";
@@ -47,10 +47,8 @@ public class Preferences extends PreferenceActivity {
         // Load the preferences from an XML resource.
         addPreferencesFromResource(R.xml.preferences);
 
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
-            ActionBar actionBar = getActionBar();
-            actionBar.setDisplayHomeAsUpEnabled(true);
-        }
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
