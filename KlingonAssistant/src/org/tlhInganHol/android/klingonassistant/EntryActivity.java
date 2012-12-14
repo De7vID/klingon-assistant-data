@@ -40,7 +40,7 @@ import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
 import android.view.View;
 import android.widget.SearchView;
-android.widget.TextView;
+import android.widget.TextView;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
