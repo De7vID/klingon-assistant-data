@@ -40,7 +40,6 @@ import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
 import android.view.View;
 import android.widget.SearchView;
-import android.widget.TextView;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
@@ -70,8 +69,8 @@ public class EntryActivity extends SherlockActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        TextView entryTitle = (TextView) findViewById(R.id.entry);
-        TextView entryText = (TextView) findViewById(R.id.definition);
+        JellyBeanSpanFixTextView entryTitle = (JellyBeanSpanFixTextView) findViewById(R.id.entry);
+        JellyBeanSpanFixTextView entryText = (JellyBeanSpanFixTextView) findViewById(R.id.definition);
 
         // TODO: Save and restore bundle state to preserve links.
 

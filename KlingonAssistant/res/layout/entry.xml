@@ -24,7 +24,7 @@
         android:layout_height="fill_parent"
         android:padding="5dp">
     <!-- Entry must be serif, to distinguish capital-I from lowercase-l. -->
-    <TextView
+    <org.tlhInganHol.android.klingonassistant.JellyBeanSpanFixTextView
             android:id="@+id/entry"
             android:textSize="35dp"
             android:textColor="?android:textColorPrimary"
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:scrollbars="vertical"
             android:fillViewport="true">
-        <TextView
+        <org.tlhInganHol.android.klingonassistant.JellyBeanSpanFixTextView
                 android:id="@+id/definition"
                 android:textSize="18dp"
                 android:textColor="?android:textColorSecondary"
