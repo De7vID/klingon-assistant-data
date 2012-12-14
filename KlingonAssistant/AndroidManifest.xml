@@ -19,8 +19,8 @@
 <!-- For the regular version, the versionCode must have an odd tens digit. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         package="org.tlhInganHol.android.klingonassistant"
-        android:versionCode="100"
-        android:versionName="2012.12.12b"
+        android:versionCode="101"
+        android:versionName="2012.12.14a"
         android:installLocation="auto">
 
     <!-- Minimum Android version 2.1 (7), targeted version 4.0.3 (15). -->
@@ -49,7 +49,7 @@
 
             <!-- Points to searchable meta data. -->
             <meta-data android:name="android.app.searchable"
-                       android:resource="@xml/searchable" />
+                       android:resource="@xml/searchable_tlh" />
 
             <!-- Receives links from within an entry. -->
             <intent-filter>
@@ -60,9 +60,25 @@
             </intent-filter>
         </activity>
 
+        <!-- The alternate activity which displays non-Klingon UI strings. -->
+        <activity android:name=".KlingonAssistantAlt"
+                  android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                       android:resource="@xml/searchable" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:mimeType="vnd.android.cursor.item/org.tlhInganHol.android.klingonassistant" />
+            </intent-filter>
+        </activity>
+
         <!-- Displays the Preferences screen. -->
         <activity android:name=".Preferences"
-                android:label="@string/preferences">
+                android:label="@string/menu_preferences">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.PREFERENCE" />

@@ -18,6 +18,7 @@ package org.tlhInganHol.android.klingonassistant;
 
 import android.app.Activity;
 import android.app.SearchManager;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -70,7 +71,12 @@ public class KlingonAssistant extends SherlockActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+        if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+            setContentView(R.layout.main_tlh);
+        } else {
+            setContentView(R.layout.main);
+        }
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
@@ -216,15 +222,26 @@ public class KlingonAssistant extends SherlockActivity {
         KlingonContentProvider.Entry queryEntry = new KlingonContentProvider.Entry(query, getBaseContext());
         String entryNameWithPoS = queryEntry.getEntryName() + queryEntry.getBracketedPartOfSpeech(/* isHtml */ true);
 
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         if (cursor == null || cursor.getCount() == 0) {
             // There are no results.
-            mTextView.setText(Html.fromHtml(getString(R.string.no_results, new Object[] {entryNameWithPoS})));
+            if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+                mTextView.setText(Html.fromHtml(getString(R.string.no_results_tlh, new Object[] {entryNameWithPoS})));
+            } else {
+                mTextView.setText(Html.fromHtml(getString(R.string.no_results, new Object[] {entryNameWithPoS})));
+            }
 
         } else {
             // Display the number of results.
             int count = cursor.getCount();
-            String countString = getResources().getQuantityString(R.plurals.search_results,
-                                     count, new Object[] {count, entryNameWithPoS});
+            String countString;
+            if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+                countString = getResources().getQuantityString(R.plurals.search_results_tlh,
+                                         count, new Object[] {count, entryNameWithPoS});
+            } else {
+                countString = getResources().getQuantityString(R.plurals.search_results,
+                                         count, new Object[] {count, entryNameWithPoS});
+            }
             mTextView.setText(Html.fromHtml(countString));
 
             // Create a cursor adapter for the entries and apply them to the ListView.
@@ -243,7 +260,12 @@ public class KlingonAssistant extends SherlockActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getSupportMenuInflater();
-        inflater.inflate(R.menu.options_menu, menu);
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+        if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+            inflater.inflate(R.menu.options_menu_tlh, menu);
+        } else {
+            inflater.inflate(R.menu.options_menu, menu);
+        }
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
             SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
@@ -253,6 +275,24 @@ public class KlingonAssistant extends SherlockActivity {
         }
 
         return true;
+    }
+
+    @Override
+    public boolean onSearchRequested() {
+        SearchManager searchManager = (SearchManager)getSystemService(Context.SEARCH_SERVICE);
+
+        if (searchManager != null) {
+            SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+            if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+                // Use the Klingon UI strings.
+                searchManager.startSearch(null, false, new ComponentName(this, KlingonAssistant.class), null, false);
+            } else {
+                // Use the non-Klingon UI strings.
+                searchManager.startSearch(null, false, new ComponentName(this, KlingonAssistantAlt.class), null, false);
+            }
+            return true;
+        }
+        return false;
     }
 
     @Override

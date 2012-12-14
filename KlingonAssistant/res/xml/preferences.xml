@@ -10,8 +10,7 @@
                 android:key="klingon_ui_checkbox_preference"
                 android:title="@string/klingon_ui_preference_title"
                 android:summary="@string/klingon_ui_preference_summary" 
-                android:enabled="false"
-                android:defaultValue="true" />
+                android:defaultValue="false" />
             
         <CheckBoxPreference
                 android:key="show_german_definitions_checkbox_preference"

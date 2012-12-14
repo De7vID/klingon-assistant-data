@@ -40,7 +40,7 @@ import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
 import android.view.View;
 import android.widget.SearchView;
-import android.widget.TextView;
+android.widget.TextView;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
@@ -330,7 +330,13 @@ public class EntryActivity extends SherlockActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getSupportMenuInflater();
-        inflater.inflate(R.menu.options_menu, menu);
+        SharedPreferences sharedPrefs =
+            PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+        if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+            inflater.inflate(R.menu.options_menu_tlh, menu);
+        } else {
+            inflater.inflate(R.menu.options_menu, menu);
+        }
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
             SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);

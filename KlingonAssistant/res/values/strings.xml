@@ -22,36 +22,58 @@
     <string name="app_name">boQwI\'</string>
 
     <!-- The label for use as a searchable item, e.g., "Dictionary". -->
-    <string name="search_label">qawHaq</string>
+    <string name="search_label">Data banks</string>
+    <string name="search_label_tlh">qawHaq</string>
 
-    <!-- The hint text that appears in the search box, e.g., "Search the dictionary". -->
-    <string name="search_hint">qawHaqDaq nej</string>
+    <!-- The hint text that appears in the search box, e.g., "Search the dictionary".
+         We leave the Klingon one empty because we don't have access to the language preference when it is displayed. -->
+    <string name="search_hint">Search the data banks</string>
+    <string name="search_hint_tlh"></string>
 
-    <!-- The menu entry that invokes search, e.g., "Search". -->
-    <string name="menu_search">nej</string>
+    <!-- The primary menu entry that invokes search, e.g., "Search". -->
+    <string name="menu_search">Search</string>
+    <string name="menu_search_tlh">nej</string>
 
     <!-- The description that will show up in the search settings for this source, e.g., "Definitions of words".  -->
-    <string name="settings_description">tlhIngan Hol mu\'mey mu\'tlheghmey je</string>
+    <string name="settings_description">Klingon words and sentences</string>
+    <string name="settings_description_tlh">tlhIngan Hol mu\'mey mu\'tlheghmey je</string>
 
     <!-- General instructions in the main activity. -->
-    <string name="search_instructions">De\' DaSammeH nejwI\' yIlo\'</string>
+    <string name="search_instructions">Use the Search function to find data</string>
+    <string name="search_instructions_tlh">De\' DaSammeH nejwI\' yIlo\'</string>
 
     <!-- Shown above search results when we receive a search request. -->
     <plurals name="search_results">
+      <item quantity="one"><![CDATA[%1$d result for &lt;<b>%2$s</b>&gt;: ]]></item>
+      <item quantity="other"><![CDATA[%1$d results for &lt;<b>%2$s</b>&gt;: ]]></item>
+    </plurals>
+    <plurals name="search_results_tlh">
       <item quantity="one"><![CDATA[&lt;<b>%2$s</b>&gt;mo\' %1$d ta tu\'lu\': ]]></item>
       <item quantity="other"><![CDATA[&lt;<b>%2$s</b>&gt;mo\' %1$d tamey lutu\'lu\': ]]></item>
     </plurals>
 
     <!-- Search failure message, e.g., "No results found for \"%s\"". -->
-    <string name="no_results"><![CDATA[&lt;<b>%s</b>&gt; Sambe\'lu\'.]]></string>
+    <string name="no_results"><![CDATA[No results found for &lt;<b>%s</b>&gt;.]]></string>
+    <string name="no_results_tlh"><![CDATA[&lt;<b>%s</b>&gt; Sambe\'lu\'.]]></string>
 
-    <!-- Menu items. -->
-    <string name="about">boQwI\' - QaH</string>
-    <string name="preferences">DuH DamaSbogh</string>
-    <string name="pronunciation">QIch</string>
-    <string name="prefixes">moHaq</string>
-    <string name="noun_suffixes">DIp mojaq</string>
-    <string name="verb_suffixes">wot mojaq</string>
+    <!-- Other menu items. -->
+    <string name="menu_about">boQwI\' - Help</string>
+    <string name="menu_about_tlh">boQwI\' - QaH</string>
+
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_preferences_tlh">DuH DamaSbogh</string>
+
+    <string name="menu_pronunciation">Pronunciation</string>
+    <string name="menu_pronunciation_tlh">QIch</string>
+
+    <string name="menu_prefixes">Prefixes</string>
+    <string name="menu_prefixes_tlh">moHaq</string>
+
+    <string name="menu_noun_suffixes">Noun suffixes</string>
+    <string name="menu_noun_suffixes_tlh">DIp mojaq</string>
+
+    <string name="menu_verb_suffixes">Verb suffixes</string>
+    <string name="menu_verb_suffixes_tlh">wot mojaq</string>
 
     <!-- Strings for the Preferences settings. -->
     <string name="klingon_assistant_settings">boQwI\' settings</string>
@@ -72,5 +94,8 @@
         <string name="show_transitivity_preference_summary">Display \"best guess\" about whether a verb takes an object.</string>
         <string name="show_additional_information_preference_title">Show additional information</string>
         <string name="show_additional_information_preference_summary">Display detailed notes on puns, jokes, errors, etc.</string>
+
+    <string name="warning">Warning</string>
+    <string name="change_ui_language_warning">Changing the UI language may not completely take effect until this application is restarted.\n\nDo you wish to continue?</string>
 
 </resources>
