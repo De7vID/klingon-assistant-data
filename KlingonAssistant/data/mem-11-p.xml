@@ -67,7 +67,7 @@ In the context of a vow or promise which has been made (see {'Ip:v} and {lay':v}
       <column name="source">[1] {TKDA:src}, [2] {HQ 10.4, Dec. 2001:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">24075</column>
+      <column name="_id">24072</column>
       <column name="entry_name">pach moQ</column>
       <column name="part_of_speech">n</column>
       <column name="definition">high court gavel</column>
@@ -80,6 +80,22 @@ In the context of a vow or promise which has been made (see {'Ip:v} and {lay':v}
       <column name="examples"></column>
       <column name="search_tags">gavel, hammer</column>
       <column name="source">[1] {Klingon Monopoly:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2012.12.18. -->
+      <column name="_id">24074</column>
+      <column name="entry_name">pach peng</column>
+      <column name="part_of_speech">n:deriv,weap,fic,extcan</column>
+      <column name="definition">Talon's Strike (torpedo)</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{peng:n}</column>
+      <column name="notes">According to the {Haynes BoP Manual:src}, this is the standard torpedo type carried on the Bird of Prey ({toQDuj:n}).</column>
+      <column name="hidden_notes"></column>
+      <column name="components">{pach:n}, {peng:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Haynes BoP Manual p.42:src}</column>
     </table>
     <table name="mem">
       <column name="_id">24080</column>
@@ -900,7 +916,7 @@ This verb can also be used with an object.  See {pegh:v:1} (def'n 1).</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{jorneb:n}</column>
-      <column name="notes"></column>
+      <column name="notes">Known types of Klingon torpedoes include the {pach peng:n}, {moratlh ro':n}, and {notqa' pach:n}.</column>
       <column name="hidden_notes">"Ping" is the sonar sound made by submarines.</column>
       <column name="components">{cha:n:inhpl}</column>
       <column name="examples">{'otlh peng:n}</column>
