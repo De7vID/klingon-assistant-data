@@ -786,7 +786,8 @@ Examples of similes (all from [3]):
     <table name="mem">
       <column name="_id">19034</column>
       <column name="entry_name">lengwI'</column>
-      <column name="part_of_speech">n:2,deriv</column>
+      <!-- Not annotated with "name" because it's already in the definition. -->
+      <column name="part_of_speech">n:2,fic,deriv</column>
       <column name="definition">Voyager (name of a ship)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2745,7 +2746,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
-      <column name="hidden_notes">This is the Chinese word for "dragon".</column>
+      <column name="hidden_notes">This is the Chinese word for "dragon".  MO confirmed at {Saarbrucken qepHom'a' 2011:src} that this was deliberate.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>

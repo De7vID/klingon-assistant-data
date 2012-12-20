@@ -2041,7 +2041,8 @@ The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, 
     <table name="mem">
       <column name="_id">32680</column>
       <column name="entry_name">tI'ang</column>
-      <column name="part_of_speech">n:fic,name</column>
+      <!-- Not annotated with "name" because it's already in the definition. -->
+      <column name="part_of_speech">n:fic</column>
       <column name="definition">T'Ong (name of ship)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
