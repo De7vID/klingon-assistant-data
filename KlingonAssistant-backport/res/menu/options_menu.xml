@@ -24,20 +24,20 @@
           android:icon="@drawable/ic_menu_search" />
 
     <item android:id="@+id/about"
-        android:title="@string/about" />
+        android:title="@string/menu_about" />
 
     <item android:id="@+id/preferences"
-        android:title="@string/preferences" />
+        android:title="@string/menu_preferences" />
 
     <item android:id="@+id/pronunciation"
-        android:title="@string/pronunciation" />
+        android:title="@string/menu_pronunciation" />
 
     <item android:id="@+id/prefixes"
-        android:title="@string/prefixes" />
+        android:title="@string/menu_prefixes" />
 
     <item android:id="@+id/noun_suffixes"
-        android:title="@string/noun_suffixes" />
+        android:title="@string/menu_noun_suffixes" />
 
     <item android:id="@+id/verb_suffixes"
-        android:title="@string/verb_suffixes" />
+        android:title="@string/menu_verb_suffixes" />
 </menu>

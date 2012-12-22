@@ -30,7 +30,7 @@
               android:targetSdkVersion="15" />
 
     <application android:label="@string/app_name"
-                 android:icon="@drawable/ic_dictionary">
+                 android:icon="@drawable/ic_ka">
 
         <!-- The default activity of the app; displays search results. -->
         <!-- BACKPORT: Theme is no title bar. -->
@@ -64,7 +64,7 @@
 
         <!-- Displays the Preferences screen. -->
         <activity android:name=".Preferences"
-                android:label="@string/preferences">
+                android:label="@string/menu_preferences">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.PREFERENCE" />
