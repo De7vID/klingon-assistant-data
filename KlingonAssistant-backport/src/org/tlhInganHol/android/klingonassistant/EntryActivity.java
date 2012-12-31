@@ -325,7 +325,13 @@ public class EntryActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.options_menu, menu);
+        SharedPreferences sharedPrefs =
+            PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+        if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+            inflater.inflate(R.menu.options_menu_tlh, menu);
+        } else {
+            inflater.inflate(R.menu.options_menu, menu);
+        }
 
         // BACKPORT: No search view.
 

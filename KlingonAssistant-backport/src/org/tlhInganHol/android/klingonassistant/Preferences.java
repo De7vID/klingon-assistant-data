@@ -18,13 +18,19 @@ package org.tlhInganHol.android.klingonassistant;
 
 import org.tlhInganHol.android.klingonassistant.R;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
+import android.os.Process;
+import android.preference.CheckBoxPreference;
 import android.view.MenuItem;
 
-public class Preferences extends PreferenceActivity {
+public class Preferences extends PreferenceActivity implements OnSharedPreferenceChangeListener {
 
     // Language preferences.
     public static final String KEY_KLINGON_UI_CHECKBOX_PREFERENCE = "klingon_ui_checkbox_preference";
@@ -38,6 +44,9 @@ public class Preferences extends PreferenceActivity {
     // Informational preferences.
     public static final String KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE = "show_transitivity_checkbox_preference";
     public static final String KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE = "show_additional_information_checkbox_preference";
+
+    private CheckBoxPreference mKlingonUICheckBoxPreference;
+    private static boolean warningActive = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,4 +67,55 @@ public class Preferences extends PreferenceActivity {
         }
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        // Set up a listener whenever a key changes.
+        getPreferenceScreen().getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
+
+        // Get a reference to the use Klingon UI checkbox.
+        mKlingonUICheckBoxPreference = (CheckBoxPreference)getPreferenceScreen()
+            .findPreference(KEY_KLINGON_UI_CHECKBOX_PREFERENCE);
+
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        // Unregister the listener whenever a key changes.
+        getPreferenceScreen().getSharedPreferences().unregisterOnSharedPreferenceChangeListener(this);
+    }
+
+    public void onSharedPreferenceChanged(final SharedPreferences sharedPrefs, final String key) {
+
+        if (key.equals(KEY_KLINGON_UI_CHECKBOX_PREFERENCE)) {
+            final boolean newValue = sharedPrefs.getBoolean(key, /* default */ false);
+            if (!warningActive) {
+               // User has changed the UI language, display a warning.
+               warningActive = true;
+               new AlertDialog.Builder(this)
+                   .setIcon(R.drawable.alert_dialog_icon)
+                   .setTitle(R.string.warning)
+                   .setMessage(R.string.change_ui_language_warning)
+                   .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                       public void onClick(DialogInterface dialog, int whichButton) {
+                           // User clicked OK.
+                           warningActive = false;
+                       }
+                   })
+                   .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                       public void onClick(DialogInterface dialog, int whichButton) {
+                           if( mKlingonUICheckBoxPreference != null ) {
+                               // User clicked Cancel, reset preference to previous value.
+                               mKlingonUICheckBoxPreference.setChecked(!newValue);
+                               warningActive = false;
+                           }
+                       }
+                   })
+                   .show();
+            }
+        }
+    }
 }

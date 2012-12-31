@@ -678,8 +678,19 @@ public class KlingonContentProvider extends ContentProvider {
         public String getFormattedDefinition(boolean isHtml) {
             String pos = getFormattedPartOfSpeech(isHtml);
 
-            // Replace brackets in definition with bold.
+            // Get definition, and append German definition if appropriate.
             String definition = mDefinition;
+            SharedPreferences sharedPrefs =
+                PreferenceManager.getDefaultSharedPreferences(mContext);
+            if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
+                // Show German definitions preference set to true.
+                String definition_DE = getDefinition_DE();
+                if (!definition_DE.equals("")) {
+                    definition += " / " + getDefinition_DE();
+                }
+            }
+
+            // Replace brackets in definition with bold.
             Matcher matcher = ENTRY_PATTERN.matcher(definition);
             while (matcher.find()) {
                 // Strip brackets.
@@ -700,15 +711,6 @@ public class KlingonContentProvider extends ContentProvider {
             }
 
             // Return the definition, preceded by the part of speech.
-            SharedPreferences sharedPrefs =
-                PreferenceManager.getDefaultSharedPreferences(mContext);
-            if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
-                // Show German definitions preference set to true.
-                String definition_DE = getDefinition_DE();
-                if (!definition_DE.equals("")) {
-                    return pos + definition + " / " + getDefinition_DE();
-                }
-            }
             return pos + definition;
         }
 
