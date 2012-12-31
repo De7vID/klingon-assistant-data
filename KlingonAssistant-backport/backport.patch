@@ -43,7 +43,8 @@ index 1bc0a9d..46db6d7 100644
  import android.view.MenuItem;
  import android.view.View;
 -import android.widget.SearchView;
- import android.widget.TextView;
+-// import android.widget.TextView;
++import android.widget.TextView;
  
  /**
   * Displays an entry and its definition.
@@ -57,9 +58,11 @@ index 1bc0a9d..46db6d7 100644
 -        }
 +        // BACKPORT: No Action Bar.
  
-         TextView entryTitle = (TextView) findViewById(R.id.entry);
-         TextView entryText = (TextView) findViewById(R.id.definition);
-
+-        JellyBeanSpanFixTextView entryTitle = (JellyBeanSpanFixTextView) findViewById(R.id.entry);
+-        JellyBeanSpanFixTextView entryText = (JellyBeanSpanFixTextView) findViewById(R.id.definition);
++        TextView entryTitle = (TextView) findViewById(R.id.entry);
++        TextView entryText = (TextView) findViewById(R.id.definition);
+ 
          // TODO: Save and restore bundle state to preserve links.
  
 @@ -231,19 +224,19 @@ public class EntryActivity extends Activity {
