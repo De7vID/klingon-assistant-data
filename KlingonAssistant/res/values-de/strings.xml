@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2012 De'vID jonpIn (David Yonge-Mallo)
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- The name of the Klingon Assistant application. -->
+    <string name="app_name">boQwI\'</string>
+
+    <!-- The label for use as a searchable item, e.g., "Dictionary". -->
+    <string name="search_label">Datenbank</string>
+
+    <!-- The hint text that appears in the search box, e.g., "Search the dictionary". -->
+    <string name="search_hint">Durchsuche die Datenbank</string>
+
+    <!-- The primary menu entry that invokes search, e.g., "Search". -->
+    <string name="menu_search">Suchen</string>
+
+    <!-- The description that will show up in the search settings for this source, e.g., "Definitions of words".  -->
+    <string name="settings_description">Klingonische Wörter und Sätze</string>
+
+    <!-- General instructions in the main activity. -->
+    <string name="search_instructions">Nutze die Suchfunktion um Vokabeln zu suchen</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+      <item quantity="one"><![CDATA[%1$d result for &lt;<b>%2$s</b>&gt;: ]]></item>
+      <item quantity="other"><![CDATA[%1$d results for &lt;<b>%2$s</b>&gt;: ]]></item>
+    </plurals>
+
+    <!-- Search failure message, e.g., "No results found for \"%s\"". -->
+    <string name="no_results"><![CDATA[Kein Ergebnis für &lt;<b>%s</b>&gt;.]]></string>
+
+    <!-- Other menu items. -->
+    <string name="menu_about">boQwI\' - Hilfe</string>
+    <string name="menu_preferences">Einstellungen</string>
+    <string name="menu_pronunciation">Aussprache</string>
+    <string name="menu_prefixes">Vorsilben</string>
+    <string name="menu_noun_suffixes">Nomensuffixe</string>
+    <string name="menu_verb_suffixes">Verbsuffixe</string>
+
+    <!-- Strings for the Preferences settings. -->
+    <string name="klingon_assistant_settings">boQwI\' Einstellungen</string>
+      <string name="language_preferences">Spracheinstellungen</string>
+        <string name="klingon_ui_preference_title">Klingon UI</string>
+        <string name="klingon_ui_preference_summary">Benutzeroberfläche auf Klingonisch anzeigen.</string>
+        <string name="show_german_definitions_preference_title">Deutsche Definitionen</string>
+        <string name="show_german_definitions_preference_summary">Zeige deutsche Übersetzungen an (in Bearbeitung).</string>
+        <string name="search_german_definitions_preference_title">Suche nach Deutschen Begriffen</string>
+        <string name="search_german_definitions_preference_summary">Durchsuche auch deutsche Definitionen (deaktiviert).</string>
+      <string name="input_preferences">Eingabeeinstellungen</string>
+        <string name="xifan_hol_preference_title">aktiviere \"xifan hol\" Eingabe</string>
+        <string name="xifan_hol_preference_summary">Erlaube \"x\" für {tlh}, \"f\" für {ng}, etc.</string>
+        <string name="swap_qs_preference_title">Tausche {Q} und {q}</string>
+        <string name="swap_qs_preference_summary">Nutze \"k\" als {q} und \"q\" als {Q}.</string>
+      <string name="informational_preferences">Zusätzliche Informationen</string>
+        <string name="show_transitivity_preference_title">Zeige Transitivität</string>
+        <string name="show_transitivity_preference_summary">Zeigt eine \"beste Vermutung\" ob ein Verb ein Objekt haben kann.</string>
+        <string name="show_additional_information_preference_title">Zeige Zusatzinfos</string>
+        <string name="show_additional_information_preference_summary">Enthält Hintergrundinfos wie Wortspiele, Fehler, usw.</string>
+
+    <string name="warning">Warnung</string>
+    <string name="change_ui_language_warning">Die Änderungen der Sprache sind eventuell erst nach einem Neustart der App sichtbar.\n\Fortfahren?</string>
+
+</resources>
