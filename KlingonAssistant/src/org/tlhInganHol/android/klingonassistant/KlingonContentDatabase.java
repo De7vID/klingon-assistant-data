@@ -260,7 +260,13 @@ public class KlingonContentDatabase {
 
         // First, assume the user is searching for an "exact" Klingon word or phrase, subject to
         // "xifan hol" loosening.
-        String looseQuery = expandShorthand(queryBase);
+        String looseQuery;
+        if (query.indexOf(':') != -1) {
+            // Unless this is a system query, in which case don't use loosening.
+            looseQuery = queryBase;
+        } else {
+            looseQuery = expandShorthand(queryBase);
+        }
         if (queryEntry.basePartOfSpeechIsUnknown() && queryEntry.getEntryName().length() > 4) {
             // If the POS is unknown and the query is greater than 4 characters, try to parse it
             // as a complex word or sentence.
