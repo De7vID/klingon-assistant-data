@@ -104,7 +104,7 @@ public class KlingonContentDatabase {
 
     // This should be kept in sync with the version number in the database
     // entry {boQwI':n}.
-    private static final int DATABASE_VERSION = 201212311;
+    private static final int DATABASE_VERSION = 201301030;
 
     private final KlingonDatabaseOpenHelper mDatabaseOpenHelper;
     private static final HashMap<String,String> mColumnMap = buildColumnMap();
@@ -258,13 +258,19 @@ public class KlingonContentDatabase {
             mContext);
         String queryBase = queryEntry.getEntryName();
 
-        // First, assume the user is searching for an "exact" Klingon word or phrase, subject to
-        // "xifan hol" loosening.
         String looseQuery;
         if (query.indexOf(':') != -1) {
-            // Unless this is a system query, in which case don't use loosening.
+            // If this is a system query, don't use "xifan hol" loosening.
             looseQuery = queryBase;
+            if (queryBase.equals("*") && queryEntry.isSentence()) {
+                // Specifically, if this is a query for a sentence class, search exactly for the matching sentences.
+                // Log.d(TAG, "system query was: " + query);
+                // TODO: Write a method to match the sentence class.
+                return resultsCursor;
+            }
         } else {
+            // Assume the user is searching for an "exact" Klingon word or phrase, subject to
+            // "xifan hol" loosening.
             looseQuery = expandShorthand(queryBase);
         }
         if (queryEntry.basePartOfSpeechIsUnknown() && queryEntry.getEntryName().length() > 4) {
