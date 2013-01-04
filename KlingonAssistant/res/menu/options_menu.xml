@@ -41,4 +41,36 @@
 
     <item android:id="@+id/verb_suffixes"
         android:title="@string/menu_verb_suffixes" />
+
+    <item android:id="@+id/sentences"
+        android:title="@string/menu_sentences">
+        <menu>
+            <!--
+            <item android:id="@+id/empire_union_day"
+                android:title="@string/empire_union_day" />
+            <item android:id="@+id/idioms"
+                android:title="@string/idioms" />
+            <item android:id="@+id/curse_warfare"
+                android:title="@string/curse_warfare" />
+            <item android:id="@+id/nentay"
+                android:title="@string/nentay" />
+            <item android:id="@+id/proverbs"
+                android:title="@string/proverbs" />
+            <item android:id="@+id/military_celebration"
+                android:title="@string/military_celebration" />
+            <item android:id="@+id/rejection"
+                android:title="@string/rejection" />
+            -->
+            <item android:id="@+id/replacement_proverbs"
+                android:title="@string/replacement_proverbs" />
+            <item android:id="@+id/secrecy_proverbs"
+                android:title="@string/secrecy_proverbs" />
+            <!--
+            <item android:id="@+id/toasts"
+                android:title="@string/toasts" />
+            <item android:id="@+id/lyrics"
+                android:title="@string/lyrics" />
+            -->
+        </menu>
+    </item>
 </menu>

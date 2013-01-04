@@ -61,6 +61,19 @@ public class EntryActivity extends SherlockActivity {
     private static final String QUERY_FOR_NOUN_SUFFIXES = "DIp:n";
     private static final String QUERY_FOR_VERB_SUFFIXES = "wot:n";
 
+    // Classes of sentences.
+    private static final String QUERY_FOR_EMPIRE_UNION_DAY = "*:sen:eu";
+    private static final String QUERY_FOR_IDIOMS = "*:sen:idiom";
+    private static final String QUERY_FOR_CURSE_WARFARE = "*:sen:mv";
+    private static final String QUERY_FOR_NENTAY = "*:sen:nt";
+    private static final String QUERY_FOR_PROVERBS = "*:sen:prov";
+    private static final String QUERY_FOR_QI_LOP = "*:sen:Ql";
+    private static final String QUERY_FOR_REJECTION = "*:sen:rej";
+    private static final String QUERY_FOR_REPLACEMENT_PROVERBS = "*:sen:rp";
+    private static final String QUERY_FOR_SECRECY_PROVERBS = "*:sen:sp";
+    private static final String QUERY_FOR_TOASTS = "*:sen:toast";
+    private static final String QUERY_FOR_LYRICS = "*:sen:lyr";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -382,6 +395,15 @@ public class EntryActivity extends SherlockActivity {
                 // Show "Verb Suffixes" screen.
                 displayHelp(QUERY_FOR_VERB_SUFFIXES);
                 return true;
+
+            // Handle classes of sentences.
+            case R.id.replacement_proverbs:
+                displayHelp(QUERY_FOR_REPLACEMENT_PROVERBS);
+                return true;
+            case R.id.secrecy_proverbs:
+                displayHelp(QUERY_FOR_SECRECY_PROVERBS);
+                return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }
