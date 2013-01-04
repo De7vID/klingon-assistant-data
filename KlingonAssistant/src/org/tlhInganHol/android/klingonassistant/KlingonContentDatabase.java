@@ -264,9 +264,7 @@ public class KlingonContentDatabase {
             looseQuery = queryBase;
             if (queryBase.equals("*") && queryEntry.isSentence()) {
                 // Specifically, if this is a query for a sentence class, search exactly for the matching sentences.
-                // Log.d(TAG, "system query was: " + query);
-                // TODO: Write a method to match the sentence class.
-                return resultsCursor;
+                return getMatchingSentences(query.substring(2));
             }
         } else {
             // Assume the user is searching for an "exact" Klingon word or phrase, subject to
@@ -396,6 +394,22 @@ public class KlingonContentDatabase {
             cursor = db.query(true, FTS_VIRTUAL_TABLE, ALL_KEYS,
                 KlingonContentDatabase.KEY_ENTRY_NAME + " LIKE \"" +
                 entryName.trim() + "\"", null, null, null, null, null);
+        } catch(SQLiteException e) {
+            // Do nothing.
+        }
+        return cursor;
+    }
+
+
+    // Helper method to search for a sentence class.
+    private Cursor getMatchingSentences(String sentenceClass) {
+        SQLiteDatabase db = mDatabaseOpenHelper.getReadableDatabase();
+        db.rawQuery("PRAGMA case_sensitive_like = ON", null);
+        Cursor cursor = null;
+        try {
+            cursor = db.query(true, FTS_VIRTUAL_TABLE, ALL_KEYS,
+                KlingonContentDatabase.KEY_PART_OF_SPEECH + " LIKE \"" +
+                sentenceClass + "\"", null, null, null, null, null);
         } catch(SQLiteException e) {
             // Do nothing.
         }
