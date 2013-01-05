@@ -247,7 +247,10 @@ public class KlingonAssistant extends SherlockActivity {
             // Display the number of results.
             int count = cursor.getCount();
             String countString;
-            if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+            if (queryEntry.getEntryName().equals("*")) {
+                // Searching for a class of phrases.
+                countString = queryEntry.getSentenceType() + ":";
+            } else if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
                 countString = getResources().getQuantityString(R.plurals.search_results_tlh,
                                          count, new Object[] {count, entryNameWithPoS});
             } else {
