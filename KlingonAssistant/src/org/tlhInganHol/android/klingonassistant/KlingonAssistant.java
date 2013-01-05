@@ -64,7 +64,7 @@ public class KlingonAssistant extends SherlockActivity {
     private static final String QUERY_FOR_NOUN_SUFFIXES = "DIp:n";
     private static final String QUERY_FOR_VERB_SUFFIXES = "wot:n";
 
-    // Classes of sentences.
+    // Classes of phrases.
     private static final String QUERY_FOR_EMPIRE_UNION_DAY = "*:sen:eu";
     private static final String QUERY_FOR_IDIOMS = "*:sen:idiom";
     private static final String QUERY_FOR_CURSE_WARFARE = "*:sen:mv";
@@ -341,12 +341,39 @@ public class KlingonAssistant extends SherlockActivity {
                 showResults(QUERY_FOR_VERB_SUFFIXES);
                 return true;
 
-            // Handle classes of sentences.
+            // Handle classes of phrases.
+            case R.id.empire_union_day:
+                showResults(QUERY_FOR_EMPIRE_UNION_DAY);
+                return true;
+            /* case R.id.idioms:
+                showResults(QUERY_FOR_IDIOMS);
+                return true; */
+            case R.id.curse_warfare:
+                showResults(QUERY_FOR_CURSE_WARFARE);
+                return true;
+            case R.id.nentay:
+                showResults(QUERY_FOR_NENTAY);
+                return true;
+            /* case R.id.proverbs:
+                showResults(QUERY_FOR_PROVERBS);
+                return true; */
+            case R.id.military_celebration:
+                showResults(QUERY_FOR_QI_LOP);
+                return true;
+            case R.id.rejection:
+                showResults(QUERY_FOR_REJECTION);
+                return true;
             case R.id.replacement_proverbs:
                 showResults(QUERY_FOR_REPLACEMENT_PROVERBS);
                 return true;
             case R.id.secrecy_proverbs:
                 showResults(QUERY_FOR_SECRECY_PROVERBS);
+                return true;
+            case R.id.toasts:
+                showResults(QUERY_FOR_TOASTS);
+                return true;
+            case R.id.lyrics:
+                showResults(QUERY_FOR_LYRICS);
                 return true;
 
             default:

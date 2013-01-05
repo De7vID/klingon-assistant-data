@@ -61,7 +61,7 @@ public class EntryActivity extends SherlockActivity {
     private static final String QUERY_FOR_NOUN_SUFFIXES = "DIp:n";
     private static final String QUERY_FOR_VERB_SUFFIXES = "wot:n";
 
-    // Classes of sentences.
+    // Classes of phrases.
     private static final String QUERY_FOR_EMPIRE_UNION_DAY = "*:sen:eu";
     private static final String QUERY_FOR_IDIOMS = "*:sen:idiom";
     private static final String QUERY_FOR_CURSE_WARFARE = "*:sen:mv";
@@ -396,12 +396,39 @@ public class EntryActivity extends SherlockActivity {
                 displayHelp(QUERY_FOR_VERB_SUFFIXES);
                 return true;
 
-            // Handle classes of sentences.
+            // Handle classes of phrases.
+            case R.id.empire_union_day:
+                displayHelp(QUERY_FOR_EMPIRE_UNION_DAY);
+                return true;
+            /* case R.id.idioms:
+                displayHelp(QUERY_FOR_IDIOMS);
+                return true; */
+            case R.id.curse_warfare:
+                displayHelp(QUERY_FOR_CURSE_WARFARE);
+                return true;
+            case R.id.nentay:
+                displayHelp(QUERY_FOR_NENTAY);
+                return true;
+            /* case R.id.proverbs:
+                displayHelp(QUERY_FOR_PROVERBS);
+                return true; */
+            case R.id.military_celebration:
+                displayHelp(QUERY_FOR_QI_LOP);
+                return true;
+            case R.id.rejection:
+                displayHelp(QUERY_FOR_REJECTION);
+                return true;
             case R.id.replacement_proverbs:
                 displayHelp(QUERY_FOR_REPLACEMENT_PROVERBS);
                 return true;
             case R.id.secrecy_proverbs:
                 displayHelp(QUERY_FOR_SECRECY_PROVERBS);
+                return true;
+            case R.id.toasts:
+                displayHelp(QUERY_FOR_TOASTS);
+                return true;
+            case R.id.lyrics:
+                displayHelp(QUERY_FOR_LYRICS);
                 return true;
 
             default:

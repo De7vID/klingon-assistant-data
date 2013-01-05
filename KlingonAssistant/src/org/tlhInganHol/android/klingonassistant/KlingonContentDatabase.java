@@ -264,6 +264,7 @@ public class KlingonContentDatabase {
             looseQuery = queryBase;
             if (queryBase.equals("*") && queryEntry.isSentence()) {
                 // Specifically, if this is a query for a sentence class, search exactly for the matching sentences.
+                // We know the query begins with "*:" so strip that to get the sentence class.
                 return getMatchingSentences(query.substring(2));
             }
         } else {
