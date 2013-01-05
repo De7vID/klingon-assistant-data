@@ -1,5 +1,5 @@
 diff --git a/res/menu/options_menu.xml b/res/menu/options_menu.xml
-index c666520..07b1027 100644
+index 8e6fd82..56b214f 100644
 --- a/res/menu/options_menu.xml
 +++ b/res/menu/options_menu.xml
 @@ -17,12 +17,11 @@
@@ -18,7 +18,7 @@ index c666520..07b1027 100644
      <item android:id="@+id/about"
          android:title="@string/menu_about" />
 diff --git a/res/menu/options_menu_tlh.xml b/res/menu/options_menu_tlh.xml
-index 85ad6d7..405e7da 100644
+index 0e199c3..c740249 100644
 --- a/res/menu/options_menu_tlh.xml
 +++ b/res/menu/options_menu_tlh.xml
 @@ -17,12 +17,11 @@
@@ -37,7 +37,7 @@ index 85ad6d7..405e7da 100644
      <item android:id="@+id/about"
          android:title="@string/menu_about_tlh" />
 diff --git a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
-index f1a6d91..30ed8ff 100644
+index 4d34841..7bda763 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 @@ -18,14 +18,13 @@ package org.tlhInganHol.android.klingonassistant;
@@ -80,7 +80,7 @@ index f1a6d91..30ed8ff 100644
      // private static final String TAG = "EntryActivity";
  
      // This must uniquely identify the {boQwI'} entry.
-@@ -66,11 +63,10 @@ public class EntryActivity extends SherlockActivity {
+@@ -79,11 +76,10 @@ public class EntryActivity extends SherlockActivity {
          super.onCreate(savedInstanceState);
          setContentView(R.layout.entry);
  
@@ -95,7 +95,7 @@ index f1a6d91..30ed8ff 100644
  
          // TODO: Save and restore bundle state to preserve links.
  
-@@ -228,19 +224,19 @@ public class EntryActivity extends SherlockActivity {
+@@ -241,19 +237,19 @@ public class EntryActivity extends SherlockActivity {
          }
          if (!definition_DE.equals("")) {
              // Reduce the size of the German definition.
@@ -118,7 +118,7 @@ index f1a6d91..30ed8ff 100644
                  hiddenNotesStart + hiddenNotesHeader.length() +
                  hiddenNotes.length(), finalFlags);
          }
-@@ -282,7 +278,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -295,7 +291,7 @@ public class EntryActivity extends SherlockActivity {
              // If linked entry is hypothetical or extended canon, insert a "?" in front.
              if (linkedEntry.isHypothetical() || linkedEntry.isExtendedCanon()) {
                  ssb.insert(m.start(), "?");
@@ -127,7 +127,7 @@ index f1a6d91..30ed8ff 100644
                  ssb.setSpan(new SuperscriptSpan(), m.start(), m.start() + 1, maybeFinalFlags);
                  end++;
              }
-@@ -328,7 +324,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -341,7 +337,7 @@ public class EntryActivity extends SherlockActivity {
  
      @Override
      public boolean onCreateOptionsMenu(Menu menu) {
@@ -136,7 +136,7 @@ index f1a6d91..30ed8ff 100644
          SharedPreferences sharedPrefs =
              PreferenceManager.getDefaultSharedPreferences(getBaseContext());
          if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-@@ -337,12 +333,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -350,12 +346,7 @@ public class EntryActivity extends SherlockActivity {
              inflater.inflate(R.menu.options_menu, menu);
          }
  
@@ -150,7 +150,7 @@ index f1a6d91..30ed8ff 100644
  
          return true;
      }
-@@ -353,11 +344,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -366,11 +357,7 @@ public class EntryActivity extends SherlockActivity {
              case R.id.search:
                  onSearchRequested();
                  return true;
@@ -164,7 +164,7 @@ index f1a6d91..30ed8ff 100644
                  // Show "About" screen.
                  displayHelp(QUERY_FOR_ABOUT);
 diff --git a/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java b/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
-index e97ca01..fae409c 100644
+index 79215bb..3cb7f4b 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 @@ -16,6 +16,7 @@
@@ -212,7 +212,7 @@ index e97ca01..fae409c 100644
      // private static final String TAG = "KlingonAssistant";
  
      // Preference key for whether to show help.
-@@ -77,8 +74,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -90,8 +87,7 @@ public class KlingonAssistant extends SherlockActivity {
              setContentView(R.layout.main);
          }
  
@@ -222,7 +222,7 @@ index e97ca01..fae409c 100644
  
          mTextView = (TextView) findViewById(R.id.text);
          mListView = (ListView) findViewById(R.id.list);
-@@ -258,7 +254,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -274,7 +270,7 @@ public class KlingonAssistant extends SherlockActivity {
  
      @Override
      public boolean onCreateOptionsMenu(Menu menu) {
@@ -231,7 +231,7 @@ index e97ca01..fae409c 100644
          SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
          if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
              inflater.inflate(R.menu.options_menu_tlh, menu);
-@@ -266,12 +262,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -282,12 +278,7 @@ public class KlingonAssistant extends SherlockActivity {
              inflater.inflate(R.menu.options_menu, menu);
          }
  
@@ -245,7 +245,7 @@ index e97ca01..fae409c 100644
  
          return true;
      }
-@@ -300,9 +291,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -316,9 +307,7 @@ public class KlingonAssistant extends SherlockActivity {
              case R.id.search:
                  onSearchRequested();
                  return true;

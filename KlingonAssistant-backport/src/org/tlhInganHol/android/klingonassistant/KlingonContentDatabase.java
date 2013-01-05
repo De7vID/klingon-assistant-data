@@ -104,7 +104,7 @@ public class KlingonContentDatabase {
 
     // This should be kept in sync with the version number in the database
     // entry {boQwI':n}.
-    private static final int DATABASE_VERSION = 201212311;
+    private static final int DATABASE_VERSION = 201301050;
 
     private final KlingonDatabaseOpenHelper mDatabaseOpenHelper;
     private static final HashMap<String,String> mColumnMap = buildColumnMap();
@@ -258,9 +258,20 @@ public class KlingonContentDatabase {
             mContext);
         String queryBase = queryEntry.getEntryName();
 
-        // First, assume the user is searching for an "exact" Klingon word or phrase, subject to
-        // "xifan hol" loosening.
-        String looseQuery = expandShorthand(queryBase);
+        String looseQuery;
+        if (query.indexOf(':') != -1) {
+            // If this is a system query, don't use "xifan hol" loosening.
+            looseQuery = queryBase;
+            if (queryBase.equals("*") && queryEntry.isSentence()) {
+                // Specifically, if this is a query for a sentence class, search exactly for the matching sentences.
+                // We know the query begins with "*:" so strip that to get the sentence class.
+                return getMatchingSentences(query.substring(2));
+            }
+        } else {
+            // Assume the user is searching for an "exact" Klingon word or phrase, subject to
+            // "xifan hol" loosening.
+            looseQuery = expandShorthand(queryBase);
+        }
         if (queryEntry.basePartOfSpeechIsUnknown() && queryEntry.getEntryName().length() > 4) {
             // If the POS is unknown and the query is greater than 4 characters, try to parse it
             // as a complex word or sentence.
@@ -384,6 +395,22 @@ public class KlingonContentDatabase {
             cursor = db.query(true, FTS_VIRTUAL_TABLE, ALL_KEYS,
                 KlingonContentDatabase.KEY_ENTRY_NAME + " LIKE \"" +
                 entryName.trim() + "\"", null, null, null, null, null);
+        } catch(SQLiteException e) {
+            // Do nothing.
+        }
+        return cursor;
+    }
+
+
+    // Helper method to search for a sentence class.
+    private Cursor getMatchingSentences(String sentenceClass) {
+        SQLiteDatabase db = mDatabaseOpenHelper.getReadableDatabase();
+        db.rawQuery("PRAGMA case_sensitive_like = ON", null);
+        Cursor cursor = null;
+        try {
+            cursor = db.query(true, FTS_VIRTUAL_TABLE, ALL_KEYS,
+                KlingonContentDatabase.KEY_PART_OF_SPEECH + " LIKE \"" +
+                sentenceClass + "\"", null, null, null, null, null);
         } catch(SQLiteException e) {
             // Do nothing.
         }

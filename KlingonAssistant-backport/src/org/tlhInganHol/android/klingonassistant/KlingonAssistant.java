@@ -61,6 +61,19 @@ public class KlingonAssistant extends Activity {
     private static final String QUERY_FOR_NOUN_SUFFIXES = "DIp:n";
     private static final String QUERY_FOR_VERB_SUFFIXES = "wot:n";
 
+    // Classes of phrases.
+    private static final String QUERY_FOR_EMPIRE_UNION_DAY = "*:sen:eu";
+    private static final String QUERY_FOR_IDIOMS = "*:sen:idiom";
+    private static final String QUERY_FOR_CURSE_WARFARE = "*:sen:mv";
+    private static final String QUERY_FOR_NENTAY = "*:sen:nt";
+    private static final String QUERY_FOR_PROVERBS = "*:sen:prov";
+    private static final String QUERY_FOR_QI_LOP = "*:sen:Ql";
+    private static final String QUERY_FOR_REJECTION = "*:sen:rej";
+    private static final String QUERY_FOR_REPLACEMENT_PROVERBS = "*:sen:rp";
+    private static final String QUERY_FOR_SECRECY_PROVERBS = "*:sen:sp";
+    private static final String QUERY_FOR_TOASTS = "*:sen:toast";
+    private static final String QUERY_FOR_LYRICS = "*:sen:lyr";
+
     private TextView mTextView;
     private ListView mListView;
 
@@ -230,7 +243,10 @@ public class KlingonAssistant extends Activity {
             // Display the number of results.
             int count = cursor.getCount();
             String countString;
-            if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+            if (queryEntry.getEntryName().equals("*")) {
+                // Searching for a class of phrases.
+                countString = queryEntry.getSentenceType() + ":";
+            } else if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
                 countString = getResources().getQuantityString(R.plurals.search_results_tlh,
                                          count, new Object[] {count, entryNameWithPoS});
             } else {
@@ -316,6 +332,42 @@ public class KlingonAssistant extends Activity {
                 // Show "Verb Suffixes" screen.
                 showResults(QUERY_FOR_VERB_SUFFIXES);
                 return true;
+
+            // Handle classes of phrases.
+            case R.id.empire_union_day:
+                showResults(QUERY_FOR_EMPIRE_UNION_DAY);
+                return true;
+            /* case R.id.idioms:
+                showResults(QUERY_FOR_IDIOMS);
+                return true; */
+            case R.id.curse_warfare:
+                showResults(QUERY_FOR_CURSE_WARFARE);
+                return true;
+            case R.id.nentay:
+                showResults(QUERY_FOR_NENTAY);
+                return true;
+            /* case R.id.proverbs:
+                showResults(QUERY_FOR_PROVERBS);
+                return true; */
+            case R.id.military_celebration:
+                showResults(QUERY_FOR_QI_LOP);
+                return true;
+            case R.id.rejection:
+                showResults(QUERY_FOR_REJECTION);
+                return true;
+            case R.id.replacement_proverbs:
+                showResults(QUERY_FOR_REPLACEMENT_PROVERBS);
+                return true;
+            case R.id.secrecy_proverbs:
+                showResults(QUERY_FOR_SECRECY_PROVERBS);
+                return true;
+            case R.id.toasts:
+                showResults(QUERY_FOR_TOASTS);
+                return true;
+            case R.id.lyrics:
+                showResults(QUERY_FOR_LYRICS);
+                return true;
+
             default:
                 return super.onOptionsItemSelected(item);
         }
