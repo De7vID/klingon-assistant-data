@@ -104,6 +104,8 @@ public class Preferences extends SherlockPreferenceActivity implements OnSharedP
                    .setIcon(R.drawable.alert_dialog_icon)
                    .setTitle(R.string.warning)
                    .setMessage(R.string.change_ui_language_warning)
+                   .setCancelable(false) // Can't be canceled with the BACK key.
+                   .setCanceledOnTouchOutside(false) // Can't be canceled by tapping outside either.
                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                        public void onClick(DialogInterface dialog, int whichButton) {
                            // User clicked OK.
