@@ -34,12 +34,12 @@
     <string name="settings_description">Klingonische Wörter und Sätze</string>
 
     <!-- General instructions in the main activity. -->
-    <string name="search_instructions">Nutze die Suchfunktion um Vokabeln zu suchen</string>
+    <string name="search_instructions">Nutze die Suchfunktion um Vokabeln zu suchen oder wähle eine Tabelle im Menü.</string>
 
     <!-- Shown above search results when we receive a search request. -->
     <plurals name="search_results">
-      <item quantity="one"><![CDATA[%1$d result for &lt;<b>%2$s</b>&gt;: ]]></item>
-      <item quantity="other"><![CDATA[%1$d results for &lt;<b>%2$s</b>&gt;: ]]></item>
+      <item quantity="one"><![CDATA[%1$d Ergebnis für &lt;<b>%2$s</b>&gt;: ]]></item>
+      <item quantity="other"><![CDATA[%1$d Ergebnisse für &lt;<b>%2$s</b>&gt;: ]]></item>
     </plurals>
 
     <!-- Search failure message, e.g., "No results found for \"%s\"". -->
@@ -52,6 +52,7 @@
     <string name="menu_prefixes">Vorsilben</string>
     <string name="menu_noun_suffixes">Nomensuffixe</string>
     <string name="menu_verb_suffixes">Verbsuffixe</string>
+    <string name="menu_phrases">Nützliche Sätze</string>
 
     <!-- Strings for the Preferences settings. -->
     <string name="klingon_assistant_settings">boQwI\' Einstellungen</string>
@@ -60,7 +61,7 @@
         <string name="klingon_ui_preference_summary">Benutzeroberfläche auf Klingonisch anzeigen.</string>
         <string name="show_german_definitions_preference_title">Deutsche Definitionen</string>
         <string name="show_german_definitions_preference_summary">Zeige deutsche Übersetzungen an (in Bearbeitung).</string>
-        <string name="search_german_definitions_preference_title">Suche nach Deutschen Begriffen</string>
+        <string name="search_german_definitions_preference_title">Suche nach deutschen Begriffen</string>
         <string name="search_german_definitions_preference_summary">Durchsuche auch deutsche Definitionen (deaktiviert).</string>
       <string name="input_preferences">Eingabeeinstellungen</string>
         <string name="xifan_hol_preference_title">aktiviere \"xifan hol\" Eingabe</string>
