@@ -23,6 +23,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
@@ -163,12 +164,12 @@ public class EntryActivity extends SherlockActivity {
             // Treat the components column of inherent plurals and their
             // singulars differently than for other entries.
             if (entry.isInherentPlural()) {
-                expandedDefinition += "\n\n" + String.format(resources.getString(R.info_inherent_plural), components);
+                expandedDefinition += "\n\n" + String.format(resources.getString(R.string.info_inherent_plural), components);
             } else if (entry.isSingularFormOfInherentPlural()) {
-                expandedDefinition += "\n\n" + String.format(resources.getString(R.info_singular_form), components);
+                expandedDefinition += "\n\n" + String.format(resources.getString(R.string.info_singular_form), components);
             } else {
                 // This is just a regular list of components.
-                expandedDefinition += "\n\n" + getResources.getString(R.string.label_components) + ": " + components;
+                expandedDefinition += "\n\n" + getResources().getString(R.string.label_components) + ": " + components;
             }
         }
 

@@ -39,7 +39,7 @@
     <string name="settings_description_tlh">tlhIngan Hol mu\'mey mu\'tlheghmey je</string>
 
     <!-- General instructions in the main activity. -->
-    <string name="search_instructions">Use the Search button to find information, or select an item from the Menu.</string>
+    <string name="search_instructions">Use the Search button to find information, or select an item from the menu.</string>
     <string name="search_instructions_tlh">De\' DaSammeH nejwI\' yIlo\' pagh HIDjolevDaq Doch yIwIv.</string>
 
     <!-- Shown above search results when we receive a search request. -->
@@ -145,6 +145,11 @@
     <string name="label_examples">Examples</string>
     <string name="label_sources">Source(s)</string>
     <string name="label_transitivity">Transitivity (best guess)</string>
+      <string name="transitivity_ambi">both transitive and intransitive</string>
+      <string name="transitivity_intransitive">intransitive</string>
+      <string name="transitivity_stative">intransitive (state or quality)</string>
+      <string name="transitivity_transitive">transitive</string>
+      <string name="transitivity_unknown">unknown</string>
     <string name="label_additional_information">Additional information</string>
     <string name="info_being">This word refers to a being capable of language. It takes the plural suffix {-pu\':n:suff}.</string>
     <string name="info_body">This word refers to a body part. It takes the plural suffix {-Du\':n:suff}.</string>

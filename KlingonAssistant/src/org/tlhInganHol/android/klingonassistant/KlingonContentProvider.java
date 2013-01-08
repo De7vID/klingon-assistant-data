@@ -994,19 +994,19 @@ public class KlingonContentProvider extends ContentProvider {
         public String getTransitivity() {
             switch (mTransitivity) {
                 case AMBITRANSITIVE:
-                    return "both transitive and intransitive";
+                    return mContext.getResources().getString(R.string.transitivity_ambi);
 
                 case INTRANSITIVE:
-                    return "intransitive";
+                    return mContext.getResources().getString(R.string.transitivity_intransitive);
 
                 case STATIVE:
-                    return "intransitive (state or quality)";
+                    return mContext.getResources().getString(R.string.transitivity_stative);
 
                 case TRANSITIVE:
-                    return "transitive";
+                    return mContext.getResources().getString(R.string.transitivity_transitive);
 
                 default:
-                    return "unknown";
+                    return mContext.getResources().getString(R.string.transitivity_unknown);
             }
 
         }
