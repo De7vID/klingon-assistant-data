@@ -39,8 +39,8 @@
     <string name="settings_description_tlh">tlhIngan Hol mu\'mey mu\'tlheghmey je</string>
 
     <!-- General instructions in the main activity. -->
-    <string name="search_instructions">Use the Search button to find information</string>
-    <string name="search_instructions_tlh">De\' DaSammeH nejwI\' yIlo\'</string>
+    <string name="search_instructions">Use the Search button to find information, or select an item from the Menu.</string>
+    <string name="search_instructions_tlh">De\' DaSammeH nejwI\' yIlo\' pagh HIDjolevDaq Doch yIwIv.</string>
 
     <!-- Shown above search results when we receive a search request. -->
     <plurals name="search_results">
@@ -99,7 +99,7 @@
 
     <string name="secrecy_proverbs">Secrecy Proverbs</string>
     <string name="secrecy_proverbs_tlh">peghmey vIttlheghmey</string>
-    
+
     <string name="proverbs">Other Proverbs</string>
     <string name="proverbs_tlh">latlh vIttlheghmey</string>
 
@@ -134,5 +134,23 @@
 
     <string name="warning">Warning</string>
     <string name="change_ui_language_warning">Changing the UI language may not completely take effect until this application is restarted.\n\nDo you wish to continue?</string>
+
+    <!-- Metadata labels and descriptions. -->
+    <string name="label_german">German</string>
+    <string name="label_synonyms">Synonyms</string>
+    <string name="label_antonyms">Antonyms</string>
+    <string name="label_see_also">See also</string>
+    <string name="label_analyze">Analyze</string>
+    <string name="label_components">Components</string>
+    <string name="label_examples">Examples</string>
+    <string name="label_sources">Source(s)</string>
+    <string name="label_transitivity">Transitivity (best guess)</string>
+    <string name="label_additional_information">Additional information</string>
+    <string name="info_being">This word refers to a being capable of language. It takes the plural suffix {-pu\':n:suff}.</string>
+    <string name="info_body">This word refers to a body part. It takes the plural suffix {-Du\':n:suff}.</string>
+    <string name="info_inherent_plural">This word is inherently plural. Its singular form is %1$s.</string>
+    <string name="info_singular_form">This word has an inherently plural form in %1$s.</string>
+    <string name="warning_hypothetical">Warning: This entry is hypothetical. Use with caution!</string>
+    <string name="warning_extended_canon">Warning: This entry is from extended canon. Use with caution!</string>
 
 </resources>
