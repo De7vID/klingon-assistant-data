@@ -981,6 +981,36 @@ public class KlingonContentProvider extends ContentProvider {
             return "";
         }
 
+        public String getSentenceTypeQuery() {
+            // TODO: Refactor this to use existing constants.
+            if (mSentenceType == SentenceType.EMPIRE_UNION_DAY) {
+                return "*:sen:eu";
+            } else if (mSentenceType == SentenceType.CURSE_WARFARE) {
+                return "*:sen:mv";
+            } else if (mSentenceType == SentenceType.IDIOM) {
+                return "*:sen:idiom";
+            } else if (mSentenceType == SentenceType.NENTAY) {
+                return "*:sen:nt";
+            } else if (mSentenceType == SentenceType.PROVERB) {
+                return "*:sen:prov";
+            } else if (mSentenceType == SentenceType.MILITARY_CELEBRATION) {
+                return "*:sen:Ql";
+            } else if (mSentenceType == SentenceType.REJECTION) {
+                return "*:sen:rej";
+            } else if (mSentenceType == SentenceType.REPLACEMENT_PROVERB) {
+                return "*:sen:rp";
+            } else if (mSentenceType == SentenceType.SECRECY_PROVERB) {
+                return "*:sen:sp";
+            } else if (mSentenceType == SentenceType.TOAST) {
+                return "*:sen:toast";
+            } else if (mSentenceType == SentenceType.LYRICS) {
+                return "*:sen:lyr";
+            }
+
+            // A general phrase. In theory this should never be returned.
+            return "*:sen:phr";
+        }
+
         public boolean isVerb() {
             return mBasePartOfSpeech == BasePartOfSpeechEnum.VERB;
         }

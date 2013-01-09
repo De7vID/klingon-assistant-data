@@ -187,7 +187,7 @@ public class EntryActivity extends SherlockActivity {
         if (entry.isSentence()) {
           String sentenceType = entry.getSentenceType();
           if (!sentenceType.equals("")) {
-            expandedDefinition += "\n\n" + resources.getString(R.string.label_category) + ": " + sentenceType;
+            expandedDefinition += "\n\n" + resources.getString(R.string.label_category) + ": {" + sentenceType + "}";
           }
         }
 
@@ -271,13 +271,21 @@ public class EntryActivity extends SherlockActivity {
             LookupClickableSpan viewLauncher = new LookupClickableSpan(query);
 
             // Process the linked entry information.
-            // TODO: For useful phrases, link back to category here.
-            KlingonContentProvider.Entry linkedEntry = new KlingonContentProvider.Entry(query,
-                getBaseContext());
+            KlingonContentProvider.Entry linkedEntry;
+            int linkedEntryNameLength;
+            if (entry.isSentence() && !entry.getSentenceType().equals("")) {
+                // Useful phrase link.
+                linkedEntry = new KlingonContentProvider.Entry(entry.getSentenceTypeQuery(), getBaseContext());
+                linkedEntryNameLength = entry.getSentenceType().length();
+            } else {
+                // Regular link.
+                linkedEntry = new KlingonContentProvider.Entry(query, getBaseContext());
+                linkedEntryNameLength = linkedEntry.getEntryName().length();
+            }
             // Log.d(TAG, "linkedEntry.getEntryName() = " + linkedEntry.getEntryName());
 
             // Delete the brackets and metadata parts of the string.
-            ssb.delete(m.start() + 1 + linkedEntry.getEntryName().length(), m.end());
+            ssb.delete(m.start() + 1 + linkedEntryNameLength, m.end());
             ssb.delete(m.start(), m.start() + 1);
 
             // Set the font and link.
