@@ -187,7 +187,8 @@ public class EntryActivity extends SherlockActivity {
         if (entry.isSentence()) {
           String sentenceType = entry.getSentenceType();
           if (!sentenceType.equals("")) {
-            expandedDefinition += "\n\n" + resources.getString(R.string.label_category) + ": {" + sentenceType + "}";
+            // Put the query as a placeholder for the actual category.
+            expandedDefinition += "\n\n" + resources.getString(R.string.label_category) + ": {" + entry.getSentenceTypeQuery() +"}";
           }
         }
 
@@ -271,22 +272,24 @@ public class EntryActivity extends SherlockActivity {
             LookupClickableSpan viewLauncher = new LookupClickableSpan(query);
 
             // Process the linked entry information.
-            KlingonContentProvider.Entry linkedEntry;
-            int linkedEntryNameLength;
-            if (entry.isSentence() && !entry.getSentenceType().equals("")) {
-                // Useful phrase link.
-                linkedEntry = new KlingonContentProvider.Entry(entry.getSentenceTypeQuery(), getBaseContext());
-                linkedEntryNameLength = entry.getSentenceType().length();
-            } else {
-                // Regular link.
-                linkedEntry = new KlingonContentProvider.Entry(query, getBaseContext());
-                linkedEntryNameLength = linkedEntry.getEntryName().length();
-            }
+            KlingonContentProvider.Entry linkedEntry = new KlingonContentProvider.Entry(query,
+                getBaseContext());
             // Log.d(TAG, "linkedEntry.getEntryName() = " + linkedEntry.getEntryName());
 
             // Delete the brackets and metadata parts of the string.
-            ssb.delete(m.start() + 1 + linkedEntryNameLength, m.end());
+            ssb.delete(m.start() + 1 + linkedEntry.getEntryName().length(), m.end());
             ssb.delete(m.start(), m.start() + 1);
+            int end = m.start() + linkedEntry.getEntryName().length();
+
+            // Insert link to the category for a useful phrase.
+            if (entry.isSentence() && !entry.getSentenceType().equals("") && linkedEntry.getEntryName().equals("*")) {
+                // Delete the "*" placeholder.
+                ssb.delete(m.start(), m.start() + 1);
+
+                // Insert the category name.
+                ssb.insert(m.start(), entry.getSentenceType());
+                end += entry.getSentenceType().length() - 1;
+            }
 
             // Set the font and link.
             // TODO: Source should link to description of the source.
@@ -294,7 +297,6 @@ public class EntryActivity extends SherlockActivity {
             boolean disableEntryLink = linkedEntry.doNotLink() || linkedEntry.isSource();
             // The last span set on a range must have finalFlags.
             int maybeFinalFlags = disableEntryLink ? finalFlags : intermediateFlags;
-            int end = m.start() + linkedEntry.getEntryName().length();
             if (linkedEntry.isSource()) {
                 // Linkify URL if there is one.
                 String url = linkedEntry.getSourceURL();
