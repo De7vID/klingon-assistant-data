@@ -976,6 +976,8 @@ public class KlingonContentProvider extends ContentProvider {
                     return mContext.getResources().getString(R.string.lyrics);
                 }
             }
+
+            // The empty string is returned if the type is general PHRASE.
             return "";
         }
 

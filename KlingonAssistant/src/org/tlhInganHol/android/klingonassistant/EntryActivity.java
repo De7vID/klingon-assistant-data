@@ -182,6 +182,14 @@ public class EntryActivity extends SherlockActivity {
             }
         }
 
+        // If the entry is a useful phrase, link back to its category.
+        if (entry.isSentence()) {
+          String sentenceType = entry.getSentenceType();
+          if (!sentenceType.equals("")) {
+            expandedDefinition += "\n\n" + resources.getString(R.string.label_category) + ": " + sentenceType;
+          }
+        }
+
         // If the entry is a sentence, make a link to analyse its components.
         if (entry.isSentence() || entry.isDerivative()) {
             // TODO: If components is not empty, use that information.
