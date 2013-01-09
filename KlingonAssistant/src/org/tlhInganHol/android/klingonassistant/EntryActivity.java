@@ -183,6 +183,7 @@ public class EntryActivity extends SherlockActivity {
         }
 
         // If the entry is a useful phrase, link back to its category.
+        // TODO: Actually create the link.
         if (entry.isSentence()) {
           String sentenceType = entry.getSentenceType();
           if (!sentenceType.equals("")) {
