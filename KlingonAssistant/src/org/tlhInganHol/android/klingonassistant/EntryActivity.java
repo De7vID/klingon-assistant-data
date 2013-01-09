@@ -237,7 +237,6 @@ public class EntryActivity extends SherlockActivity {
         }
 
         // Format the expanded definition, including linkifying the links to other entries.
-        Matcher m = KlingonContentProvider.Entry.ENTRY_PATTERN.matcher(expandedDefinition);
         SpannableStringBuilder ssb = new SpannableStringBuilder(expandedDefinition);
         int intermediateFlags = Spannable.SPAN_EXCLUSIVE_EXCLUSIVE | Spannable.SPAN_INTERMEDIATE;
         int finalFlags = Spannable.SPAN_EXCLUSIVE_EXCLUSIVE;
@@ -264,6 +263,7 @@ public class EntryActivity extends SherlockActivity {
                 hiddenNotesStart + hiddenNotesHeader.length() +
                 hiddenNotes.length(), finalFlags);
         }
+        Matcher m = KlingonContentProvider.Entry.ENTRY_PATTERN.matcher(expandedDefinition);
         while (m.find()) {
 
             // Strip the brackets {} to get the query.
@@ -271,6 +271,7 @@ public class EntryActivity extends SherlockActivity {
             LookupClickableSpan viewLauncher = new LookupClickableSpan(query);
 
             // Process the linked entry information.
+            // TODO: For useful phrases, link back to category here.
             KlingonContentProvider.Entry linkedEntry = new KlingonContentProvider.Entry(query,
                 getBaseContext());
             // Log.d(TAG, "linkedEntry.getEntryName() = " + linkedEntry.getEntryName());
@@ -293,6 +294,7 @@ public class EntryActivity extends SherlockActivity {
                     ssb.setSpan(new URLSpan(url), m.start(), end, intermediateFlags);
                 }
                 // Names of sources are in italics.
+                // TODO: Unless they're email addresses or web links.
                 ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC), m.start(), end, maybeFinalFlags);
             } else {
                 // Klingon is in bold serif.
