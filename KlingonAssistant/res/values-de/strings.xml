@@ -25,7 +25,7 @@
     <string name="search_label">Datenbank</string>
 
     <!-- The hint text that appears in the search box, e.g., "Search the dictionary". -->
-    <string name="search_hint">Durchsuche die Datenbank</string>
+    <string name="search_hint">Datenbank durchsuchen</string>
 
     <!-- The primary menu entry that invokes search, e.g., "Search". -->
     <string name="menu_search">Suchen</string>
@@ -73,22 +73,22 @@
         <string name="klingon_ui_preference_title">Klingonische Menüs</string>
         <string name="klingon_ui_preference_summary">Benutzeroberfläche auf Klingonisch anzeigen.</string>
         <string name="show_german_definitions_preference_title">Deutsche Definitionen</string>
-        <string name="show_german_definitions_preference_summary">Zeige deutsche Übersetzungen an (in Bearbeitung).</string>
-        <string name="search_german_definitions_preference_title">Suche nach deutschen Begriffen</string>
-        <string name="search_german_definitions_preference_summary">Durchsuche auch deutsche Definitionen (deaktiviert).</string>
+        <string name="show_german_definitions_preference_summary">Deutsche Übersetzungen anzeigen (in Bearbeitung).</string>
+        <string name="search_german_definitions_preference_title">Deutsche Suche</string>
+        <string name="search_german_definitions_preference_summary">Auch deutsche Definitionen durchsuchen (deaktiviert).</string>
       <string name="input_preferences">Eingabeeinstellungen</string>
-        <string name="xifan_hol_preference_title">Aktiviere \"xifan hol\" Eingabe</string>
+        <string name="xifan_hol_preference_title">\"xifan hol\" Eingabe</string>
         <string name="xifan_hol_preference_summary">Erlaube \"x\" für {tlh}, \"f\" für {ng}, usw.</string>
-        <string name="swap_qs_preference_title">Tausche {Q} und {q}</string>
+        <string name="swap_qs_preference_title">{Q} und {q} tauschen</string>
         <string name="swap_qs_preference_summary">Nutze \"k\" als {q} und \"q\" als {Q}.</string>
       <string name="informational_preferences">Zusätzliche Informationen</string>
-        <string name="show_transitivity_preference_title">Zeige Transitivität</string>
-        <string name="show_transitivity_preference_summary">Zeigt eine \"beste Vermutung\" ob ein Verb ein Objekt haben kann.</string>
-        <string name="show_additional_information_preference_title">Zeige Zusatzinfos</string>
-        <string name="show_additional_information_preference_summary">Enthält Hintergrundinfos wie Wortspiele, Fehler, usw.</string>
+        <string name="show_transitivity_preference_title">Transitivität</string>
+        <string name="show_transitivity_preference_summary">Eine \"beste Vermutung\" anzeigen, ob ein Verb ein Objekt haben kann.</string>
+        <string name="show_additional_information_preference_title">Zusatzinfos</string>
+        <string name="show_additional_information_preference_summary">Hintergrundinfos wie Wortspiele, Fehler, usw. anzeigen</string>
 
     <string name="warning">Warnung</string>
-    <string name="change_ui_language_warning">Die Änderungen der Sprache sind eventuell erst nach einem Neustart der App sichtbar.\n\nFortfahren?</string>
+    <string name="change_ui_language_warning">Die Änderungen der Sprachauswahl sind eventuell erst nach einem Neustart der App sichtbar.\n\nFortfahren?</string>
 
     <!-- Metadata labels and descriptions. -->
     <string name="label_german">Deutsch</string>
@@ -106,6 +106,6 @@
     <string name="info_inherent_plural">Dieses Wort ist eine unregelmäßge Mehrzahlform. Seine Einzahl heißt %1$s.</string>
     <string name="info_singular_form">Die unregelmäßige Mehrzahlform dieses Wortes lautet %1$s.</string>
     <string name="warning_hypothetical">Achtung: Dieser Eintrag ist hypothetisch. Vorsichtig benutzen!</string>
-    <string name="warning_extended_canon">Achtung: Dieses Wort stammt aus erweitertem Kanon. Vorsichtig benutzen!</string> 
+    <string name="warning_extended_canon">Achtung: Dieses Wort stammt aus erweitertem Kanon. Vorsichtig benutzen!</string>
 
 </resources>
