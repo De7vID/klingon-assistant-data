@@ -3280,36 +3280,53 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet.  The v
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.11.29. -->
+      <!-- Checked on: 2013.01.10. -->
       <column name="_id">21680</column>
       <column name="entry_name">mu'mey Doy'</column>
       <column name="part_of_speech">n:deriv</column>
-      <column name="definition">"tired words"</column>
+      <column name="definition">tired words</column>
       <column name="definition_de">müde Wörter</column>
       <column name="synonyms"></column>
       <column name="antonyms">{mu'mey ghoQ:n}</column>
-      <column name="see_also">{no' Hol:n}</column>
+      <column name="see_also">{no' Hol:n}, {mu'mey qar:n}</column>
       <column name="notes">This is how vocabulary used by older Klingons in everyday speech is referred to by younger Klingons.</column>
       <column name="hidden_notes"></column>
       <column name="components">{mu':n}, {-mey:n}, {Doy':v}</column>
       <column name="examples"></column>
-      <column name="search_tags">tired words</column>
+      <column name="search_tags"></column>
       <column name="source">[1] {KGT p.35:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2013.01.10. -->
       <column name="_id">21690</column>
       <column name="entry_name">mu'mey ghoQ</column>
       <column name="part_of_speech">n:deriv</column>
-      <column name="definition">slang, "fresh words"</column>
+      <column name="definition">slang, fresh words</column>
       <column name="synonyms">{Hol ghoQ:n}</column>
       <column name="antonyms">{mu'mey Doy':n}</column>
       <column name="see_also">{no' Hol:n}</column>
       <column name="notes">This refers to the vocabulary used by younger Klingons.</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is defined only as "slang" in the {KGT:src} word lists, and erroneously written as {mu'mey qhoQ:n:nolink} in the K-E side. It is glossed as "fresh words" in the body text.</column>
       <column name="components">{mu':n}, {-mey:n}, {ghoQ:v}</column>
       <column name="examples"></column>
-      <column name="search_tags">fresh words</column>
+      <column name="search_tags"></column>
       <column name="source">[1] {KGT p.35,142:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2013.01.10. -->
+      <column name="_id">21695</column>
+      <column name="entry_name">mu'mey qar</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">accurate words</column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{Hol ghoQ:n}</column>
+      <column name="see_also">{mu'mey Doy':n}</column>
+      <column name="notes">Those who dislike slang refer to standard words using this expression.</column>
+      <column name="hidden_notes"></column>
+      <column name="components">{mu':n}, {-mey:n}, {qar:v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {KGT p.143:src}</column>
     </table>
     <table name="mem">
       <column name="_id">21700</column>
