@@ -23,6 +23,7 @@ import android.app.SearchManager;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -75,6 +76,7 @@ public class EntryActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.entry);
+        Resources resources = getResources();
 
         // BACKPORT: No Action Bar.
 
@@ -115,7 +117,7 @@ public class EntryActivity extends Activity {
             definition_DE = entry.getDefinition_DE();
         }
         int germanDefinitionStart = -1;
-        String germanDefinitionHeader = "\nGerman: ";
+        String germanDefinitionHeader = "\n" + resources.getString(R.string.label_german) + ": ";
         if (!definition_DE.equals("")) {
             germanDefinitionStart = expandedDefinition.length();
             expandedDefinition += germanDefinitionHeader + definition_DE;
@@ -131,10 +133,10 @@ public class EntryActivity extends Activity {
         if (entry.isHypothetical() || entry.isExtendedCanon()) {
             expandedDefinition += "\n\n";
             if (entry.isHypothetical()) {
-                expandedDefinition += "Warning: This entry is hypothetical. Use with caution!";
+                expandedDefinition += resources.getString(R.string.warning_hypothetical);
             }
             if (entry.isExtendedCanon()) {
-                expandedDefinition += "Warning: This entry is from extended canon. Use with caution!";
+                expandedDefinition += resources.getString(R.string.warning_extended_canon);
             }
         }
 
@@ -143,13 +145,13 @@ public class EntryActivity extends Activity {
         String antonyms = entry.getAntonyms();
         String seeAlso = entry.getSeeAlso();
         if (!synonyms.equals(""))  {
-            expandedDefinition += "\n\nSynonyms: " + synonyms;
+            expandedDefinition += "\n\n" + resources.getString(R.string.label_synonyms) + ": " + synonyms;
         }
         if (!antonyms.equals(""))  {
-            expandedDefinition += "\n\nAntonyms: " + antonyms;
+            expandedDefinition += "\n\n" + resources.getString(R.string.label_antonyms) + ": " + antonyms;
         }
         if (!seeAlso.equals(""))  {
-            expandedDefinition += "\n\nSee also: " + seeAlso;
+            expandedDefinition += "\n\n" + resources.getString(R.string.label_see_also) + ": " + seeAlso;
         }
 
         // Display components if that field is not empty.
@@ -158,44 +160,50 @@ public class EntryActivity extends Activity {
             // Treat the components column of inherent plurals and their
             // singulars differently than for other entries.
             if (entry.isInherentPlural()) {
-                expandedDefinition += "\n\nThis word is inherently plural.  " +
-                  "Its singular form is " + components + ".";
+                expandedDefinition += "\n\n" + String.format(resources.getString(R.string.info_inherent_plural), components);
             } else if (entry.isSingularFormOfInherentPlural()) {
-                expandedDefinition += "\n\nThis word has an inherently " +
-                  "plural form in " + components + ".";
+                expandedDefinition += "\n\n" + String.format(resources.getString(R.string.info_singular_form), components);
             } else {
                 // This is just a regular list of components.
-                expandedDefinition += "\n\nComponents: " + components;
+                expandedDefinition += "\n\n" + getResources().getString(R.string.label_components) + ": " + components;
             }
         }
 
         // Display plural information.
         if (!entry.isPlural() && !entry.isInherentPlural() && !entry.isPlural()) {
             if (entry.isBeingCapableOfLanguage()) {
-                expandedDefinition += "\n\nThis word refers to a being capable of language.  " +
-                    "It takes the plural suffix {-pu':n:suff}.";
+                expandedDefinition += "\n\n" + resources.getString(R.string.info_being);
             } else if (entry.isBodyPart()) {
-                expandedDefinition += "\n\nThis word refers to a body part.  " +
-                    "It takes the plural suffix {-Du':n:suff}.";
+                expandedDefinition += "\n\n" + resources.getString(R.string.info_body);
             }
+        }
+
+        // If the entry is a useful phrase, link back to its category.
+        // TODO: Actually create the link.
+        if (entry.isSentence()) {
+          String sentenceType = entry.getSentenceType();
+          if (!sentenceType.equals("")) {
+            // Put the query as a placeholder for the actual category.
+            expandedDefinition += "\n\n" + resources.getString(R.string.label_category) + ": {" + entry.getSentenceTypeQuery() +"}";
+          }
         }
 
         // If the entry is a sentence, make a link to analyse its components.
         if (entry.isSentence() || entry.isDerivative()) {
             // TODO: If components is not empty, use that information.
-            expandedDefinition += "\n\nAnalyze: {" + entry.getEntryName() + "}";
+            expandedDefinition += "\n\n" + resources.getString(R.string.label_analyze) + ": {" + entry.getEntryName() + "}";
         }
 
         // Show the examples.
         String examples = entry.getExamples();
         if (!examples.equals(""))  {
-            expandedDefinition += "\n\nExamples: " + examples;
+            expandedDefinition += "\n\n" + resources.getString(R.string.label_examples) + ": " + examples;
         }
 
         // Show the source.
         String source = entry.getSource();
         if (!source.equals(""))  {
-            expandedDefinition += "\n\nSource(s): " + source;
+            expandedDefinition += "\n\n" + resources.getString(R.string.label_sources) + ": " + source;
         }
 
         // If this is a verb (but not a prefix or suffix), show the transitivity information.
@@ -205,7 +213,7 @@ public class EntryActivity extends Activity {
             transitivity = entry.getTransitivity();
         }
         int transitivityStart = -1;
-        String transitivityHeader = "\n\nTransitivity (best guess): "; 
+        String transitivityHeader = "\n\n" + resources.getString(R.string.label_transitivity) + ": ";
         boolean showTransitivityInformation = !transitivity.equals("") && entry.isVerb() && !entry.isPrefix() && !entry.isSuffix();
         if (showTransitivityInformation) {
             transitivityStart = expandedDefinition.length();
@@ -219,14 +227,13 @@ public class EntryActivity extends Activity {
             hiddenNotes = entry.getHiddenNotes();
         }
         int hiddenNotesStart = -1;
-        String hiddenNotesHeader = "\n\nAdditional information: ";
+        String hiddenNotesHeader = "\n\n" + resources.getString(R.string.label_additional_information) + ": ";
         if (!hiddenNotes.equals(""))  {
             hiddenNotesStart = expandedDefinition.length();
             expandedDefinition += hiddenNotesHeader + hiddenNotes;
         }
 
         // Format the expanded definition, including linkifying the links to other entries.
-        Matcher m = KlingonContentProvider.Entry.ENTRY_PATTERN.matcher(expandedDefinition);
         SpannableStringBuilder ssb = new SpannableStringBuilder(expandedDefinition);
         int intermediateFlags = Spannable.SPAN_EXCLUSIVE_EXCLUSIVE | Spannable.SPAN_INTERMEDIATE;
         int finalFlags = Spannable.SPAN_EXCLUSIVE_EXCLUSIVE;
@@ -253,6 +260,7 @@ public class EntryActivity extends Activity {
                 hiddenNotesStart + hiddenNotesHeader.length() +
                 hiddenNotes.length(), finalFlags);
         }
+        Matcher m = KlingonContentProvider.Entry.ENTRY_PATTERN.matcher(expandedDefinition);
         while (m.find()) {
 
             // Strip the brackets {} to get the query.
@@ -267,6 +275,17 @@ public class EntryActivity extends Activity {
             // Delete the brackets and metadata parts of the string.
             ssb.delete(m.start() + 1 + linkedEntry.getEntryName().length(), m.end());
             ssb.delete(m.start(), m.start() + 1);
+            int end = m.start() + linkedEntry.getEntryName().length();
+
+            // Insert link to the category for a useful phrase.
+            if (entry.isSentence() && !entry.getSentenceType().equals("") && linkedEntry.getEntryName().equals("*")) {
+                // Delete the "*" placeholder.
+                ssb.delete(m.start(), m.start() + 1);
+
+                // Insert the category name.
+                ssb.insert(m.start(), entry.getSentenceType());
+                end += entry.getSentenceType().length() - 1;
+            }
 
             // Set the font and link.
             // TODO: Source should link to description of the source.
@@ -274,7 +293,6 @@ public class EntryActivity extends Activity {
             boolean disableEntryLink = linkedEntry.doNotLink() || linkedEntry.isSource();
             // The last span set on a range must have finalFlags.
             int maybeFinalFlags = disableEntryLink ? finalFlags : intermediateFlags;
-            int end = m.start() + linkedEntry.getEntryName().length();
             if (linkedEntry.isSource()) {
                 // Linkify URL if there is one.
                 String url = linkedEntry.getSourceURL();
@@ -282,6 +300,7 @@ public class EntryActivity extends Activity {
                     ssb.setSpan(new URLSpan(url), m.start(), end, intermediateFlags);
                 }
                 // Names of sources are in italics.
+                // TODO: Unless they're email addresses or web links.
                 ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC), m.start(), end, maybeFinalFlags);
             } else {
                 // Klingon is in bold serif.

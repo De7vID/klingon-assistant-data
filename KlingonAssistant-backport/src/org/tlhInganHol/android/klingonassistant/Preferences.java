@@ -99,6 +99,7 @@ public class Preferences extends PreferenceActivity implements OnSharedPreferenc
                    .setIcon(R.drawable.alert_dialog_icon)
                    .setTitle(R.string.warning)
                    .setMessage(R.string.change_ui_language_warning)
+                   .setCancelable(false) // Can't be canceled with the BACK key.
                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                        public void onClick(DialogInterface dialog, int whichButton) {
                            // User clicked OK.

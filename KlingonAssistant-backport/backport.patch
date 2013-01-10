@@ -37,10 +37,10 @@ index 0e199c3..c740249 100644
      <item android:id="@+id/about"
          android:title="@string/menu_about_tlh" />
 diff --git a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
-index 4d34841..7bda763 100644
+index a51bbac..fdefcb4 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
-@@ -18,14 +18,13 @@ package org.tlhInganHol.android.klingonassistant;
+@@ -18,15 +18,14 @@ package org.tlhInganHol.android.klingonassistant;
  
  import java.util.regex.Matcher;
  
@@ -50,13 +50,14 @@ index 4d34841..7bda763 100644
 -import android.content.Context;
  import android.content.Intent;
  import android.content.SharedPreferences;
+ import android.content.res.Resources;
  import android.database.Cursor;
  import android.net.Uri;
 -import android.os.Build;
  import android.os.Bundle;
  import android.preference.PreferenceManager;
  import android.text.Html;
-@@ -38,18 +37,16 @@ import android.text.style.StyleSpan;
+@@ -39,18 +38,16 @@ import android.text.style.StyleSpan;
  import android.text.style.SuperscriptSpan;
  import android.text.style.TypefaceSpan;
  import android.text.style.URLSpan;
@@ -80,9 +81,9 @@ index 4d34841..7bda763 100644
      // private static final String TAG = "EntryActivity";
  
      // This must uniquely identify the {boQwI'} entry.
-@@ -79,11 +76,10 @@ public class EntryActivity extends SherlockActivity {
-         super.onCreate(savedInstanceState);
+@@ -81,11 +78,10 @@ public class EntryActivity extends SherlockActivity {
          setContentView(R.layout.entry);
+         Resources resources = getResources();
  
 -        ActionBar actionBar = getSupportActionBar();
 -        actionBar.setDisplayHomeAsUpEnabled(true);
@@ -95,7 +96,7 @@ index 4d34841..7bda763 100644
  
          // TODO: Save and restore bundle state to preserve links.
  
-@@ -241,19 +237,19 @@ public class EntryActivity extends SherlockActivity {
+@@ -248,19 +244,19 @@ public class EntryActivity extends SherlockActivity {
          }
          if (!definition_DE.equals("")) {
              // Reduce the size of the German definition.
@@ -118,7 +119,7 @@ index 4d34841..7bda763 100644
                  hiddenNotesStart + hiddenNotesHeader.length() +
                  hiddenNotes.length(), finalFlags);
          }
-@@ -295,7 +291,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -314,7 +310,7 @@ public class EntryActivity extends SherlockActivity {
              // If linked entry is hypothetical or extended canon, insert a "?" in front.
              if (linkedEntry.isHypothetical() || linkedEntry.isExtendedCanon()) {
                  ssb.insert(m.start(), "?");
@@ -127,7 +128,7 @@ index 4d34841..7bda763 100644
                  ssb.setSpan(new SuperscriptSpan(), m.start(), m.start() + 1, maybeFinalFlags);
                  end++;
              }
-@@ -341,7 +337,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -360,7 +356,7 @@ public class EntryActivity extends SherlockActivity {
  
      @Override
      public boolean onCreateOptionsMenu(Menu menu) {
@@ -136,7 +137,7 @@ index 4d34841..7bda763 100644
          SharedPreferences sharedPrefs =
              PreferenceManager.getDefaultSharedPreferences(getBaseContext());
          if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-@@ -350,12 +346,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -369,12 +365,7 @@ public class EntryActivity extends SherlockActivity {
              inflater.inflate(R.menu.options_menu, menu);
          }
  
@@ -150,7 +151,7 @@ index 4d34841..7bda763 100644
  
          return true;
      }
-@@ -366,11 +357,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -385,11 +376,7 @@ public class EntryActivity extends SherlockActivity {
              case R.id.search:
                  onSearchRequested();
                  return true;
@@ -257,7 +258,7 @@ index 79215bb..3cb7f4b 100644
                  // Show "About" screen.
                  showResults(QUERY_FOR_ABOUT);
 diff --git a/src/org/tlhInganHol/android/klingonassistant/Preferences.java b/src/org/tlhInganHol/android/klingonassistant/Preferences.java
-index 40fd3c3..a7863fa 100644
+index 1c1216b..9f6325b 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/Preferences.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/Preferences.java
 @@ -25,14 +25,12 @@ import android.content.SharedPreferences;

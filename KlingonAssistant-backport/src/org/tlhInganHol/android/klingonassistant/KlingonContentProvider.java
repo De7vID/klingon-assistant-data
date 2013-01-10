@@ -276,7 +276,7 @@ public class KlingonContentProvider extends ContentProvider {
         String TAG = "KlingonContentProvider.Entry";
 
         // Pattern for matching entry in text.
-        public static Pattern ENTRY_PATTERN = Pattern.compile("\\{[A-Za-z0-9 '\\\":;,\\.\\-?!/()@=%&]+\\}");
+        public static Pattern ENTRY_PATTERN = Pattern.compile("\\{[A-Za-z0-9 '\\\":;,\\.\\-?!/()@=%&\\*]+\\}");
 
         // Context.
         private Context mContext;
@@ -976,7 +976,39 @@ public class KlingonContentProvider extends ContentProvider {
                     return mContext.getResources().getString(R.string.lyrics);
                 }
             }
+
+            // The empty string is returned if the type is general PHRASE.
             return "";
+        }
+
+        public String getSentenceTypeQuery() {
+            // TODO: Refactor this to use existing constants.
+            if (mSentenceType == SentenceType.EMPIRE_UNION_DAY) {
+                return "*:sen:eu";
+            } else if (mSentenceType == SentenceType.CURSE_WARFARE) {
+                return "*:sen:mv";
+            } else if (mSentenceType == SentenceType.IDIOM) {
+                return "*:sen:idiom";
+            } else if (mSentenceType == SentenceType.NENTAY) {
+                return "*:sen:nt";
+            } else if (mSentenceType == SentenceType.PROVERB) {
+                return "*:sen:prov";
+            } else if (mSentenceType == SentenceType.MILITARY_CELEBRATION) {
+                return "*:sen:Ql";
+            } else if (mSentenceType == SentenceType.REJECTION) {
+                return "*:sen:rej";
+            } else if (mSentenceType == SentenceType.REPLACEMENT_PROVERB) {
+                return "*:sen:rp";
+            } else if (mSentenceType == SentenceType.SECRECY_PROVERB) {
+                return "*:sen:sp";
+            } else if (mSentenceType == SentenceType.TOAST) {
+                return "*:sen:toast";
+            } else if (mSentenceType == SentenceType.LYRICS) {
+                return "*:sen:lyr";
+            }
+
+            // A general phrase. In theory this should never be returned.
+            return "*:sen:phr";
         }
 
         public boolean isVerb() {
@@ -994,19 +1026,19 @@ public class KlingonContentProvider extends ContentProvider {
         public String getTransitivity() {
             switch (mTransitivity) {
                 case AMBITRANSITIVE:
-                    return "both transitive and intransitive";
+                    return mContext.getResources().getString(R.string.transitivity_ambi);
 
                 case INTRANSITIVE:
-                    return "intransitive";
+                    return mContext.getResources().getString(R.string.transitivity_intransitive);
 
                 case STATIVE:
-                    return "intransitive (state or quality)";
+                    return mContext.getResources().getString(R.string.transitivity_stative);
 
                 case TRANSITIVE:
-                    return "transitive";
+                    return mContext.getResources().getString(R.string.transitivity_transitive);
 
                 default:
-                    return "unknown";
+                    return mContext.getResources().getString(R.string.transitivity_unknown);
             }
 
         }
