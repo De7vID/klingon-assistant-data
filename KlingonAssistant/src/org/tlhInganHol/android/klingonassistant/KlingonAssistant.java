@@ -386,6 +386,9 @@ public class KlingonAssistant extends SherlockActivity {
                 showResults(QUERY_FOR_LYRICS);
                 return true;
 
+            // Lists.
+            // TODO: Handle lists here.
+
             default:
                 return super.onOptionsItemSelected(item);
         }
