@@ -343,6 +343,13 @@ public class KlingonAssistant extends SherlockActivity {
                 // Show "Verb Suffixes" screen.
                 showResults(QUERY_FOR_VERB_SUFFIXES);
                 return true;
+            case R.id.forum:
+                // Launch Google+ Klingon speakers community.
+                String gplusUrl = "https://plus.google.com/communities/108380135139365833546";
+                Intent gplusIntent = new Intent(Intent.ACTION_VIEW);
+                gplusIntent.setData(Uri.parse(gplusUrl));
+                startActivity(gplusIntent);
+                return true;
 
             // Handle classes of phrases.
             case R.id.empire_union_day:

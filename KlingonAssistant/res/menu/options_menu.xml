@@ -73,4 +73,17 @@
             -->
         </menu>
     </item>
+
+    <!--
+    <item android:id="@+id/lists"
+        android:title="@string/menu_lists">
+        <menu>
+            <item android:id="@+id/list_names"
+                android:title="@string/list_names" />
+        </menu>
+    </item>
+    -->
+
+    <item android:id="@+id/forum"
+        android:title="@string/menu_forum" />
 </menu>
