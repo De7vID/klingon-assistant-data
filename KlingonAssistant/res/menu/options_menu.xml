@@ -45,6 +45,8 @@
     <item android:id="@+id/phrases"
         android:title="@string/menu_phrases">
         <menu>
+            <item android:id="@+id/beginners_conversation"
+                android:title="@string/beginners_conversation" />
             <item android:id="@+id/empire_union_day"
                 android:title="@string/empire_union_day" />
             <item android:id="@+id/curse_warfare"
