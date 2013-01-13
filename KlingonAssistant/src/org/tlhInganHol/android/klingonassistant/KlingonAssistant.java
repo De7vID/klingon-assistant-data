@@ -76,6 +76,7 @@ public class KlingonAssistant extends SherlockActivity {
     private static final String QUERY_FOR_SECRECY_PROVERBS = "*:sen:sp";
     private static final String QUERY_FOR_TOASTS = "*:sen:toast";
     private static final String QUERY_FOR_LYRICS = "*:sen:lyr";
+    private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
 
     private TextView mTextView;
     private ListView mListView;
@@ -385,6 +386,9 @@ public class KlingonAssistant extends SherlockActivity {
                 return true;
             case R.id.lyrics:
                 showResults(QUERY_FOR_LYRICS);
+                return true;
+            case R.id.beginners_conversation:
+                showResults(QUERY_FOR_BEGINNERS_CONVERSATION);
                 return true;
 
             // Lists.
