@@ -345,7 +345,8 @@ public class KlingonContentProvider extends ContentProvider {
             REPLACEMENT_PROVERB,
             SECRECY_PROVERB,
             TOAST,
-            LYRICS
+            LYRICS,
+            BEGINNERS_CONVERSATION
         }
         private SentenceType mSentenceType = SentenceType.PHRASE;
 
@@ -524,6 +525,8 @@ public class KlingonContentProvider extends ContentProvider {
                     mSentenceType = SentenceType.TOAST;
                 } else if (attr.equals("lyr")) {
                     mSentenceType = SentenceType.LYRICS;
+                } else if (attr.equals("bc")) {
+                    mSentenceType = SentenceType.BEGINNERS_CONVERSATION;
 
                 // Categories.
                 } else if (attr.equals("anim")) {
@@ -976,6 +979,13 @@ public class KlingonContentProvider extends ContentProvider {
                     return mContext.getResources().getString(R.string.lyrics);
                 }
             }
+            } else if (mSentenceType == SentenceType.BEGINNERS_CONVERSATION) {
+                if (useKlingonUI) {
+                    return mContext.getResources().getString(R.string.beginners_conversation_tlh);
+                } else {
+                    return mContext.getResources().getString(R.string.beginners_conversation);
+                }
+            }
 
             // The empty string is returned if the type is general PHRASE.
             return "";
@@ -1005,6 +1015,8 @@ public class KlingonContentProvider extends ContentProvider {
                 return "*:sen:toast";
             } else if (mSentenceType == SentenceType.LYRICS) {
                 return "*:sen:lyr";
+            } else if (mSentenceType == SentenceType.BEGINNERS_CONVERSATION) {
+                return "*:sen:bc";
             }
 
             // A general phrase. In theory this should never be returned.
