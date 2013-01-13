@@ -74,6 +74,7 @@ public class EntryActivity extends SherlockActivity {
     private static final String QUERY_FOR_SECRECY_PROVERBS = "*:sen:sp";
     private static final String QUERY_FOR_TOASTS = "*:sen:toast";
     private static final String QUERY_FOR_LYRICS = "*:sen:lyr";
+    private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -456,6 +457,9 @@ public class EntryActivity extends SherlockActivity {
                 return true;
             case R.id.lyrics:
                 displayHelp(QUERY_FOR_LYRICS);
+                return true;
+            case R.id.beginners_conversation:
+                displayHelp(QUERY_FOR_BEGINNERS_CONVERSATION);
                 return true;
 
             // Lists.
