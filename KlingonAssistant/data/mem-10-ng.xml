@@ -505,7 +505,7 @@
       <column name="antonyms"></column>
       <column name="see_also">{ngech:n:1}, {ngem:n}</column>
       <!-- Page number for volcano reference? -->
-      <column name="notes">The shore of a lake is its {HeH:n}.
+      <column name="notes">The shore of a lake is its {ngeng HeH:n}.
 
 The lava-filled area of a volcano is called its {qul ngeng:n:nolink}.[2]</column>
       <column name="hidden_notes"></column>
@@ -513,6 +513,22 @@ The lava-filled area of a volcano is called its {qul ngeng:n:nolink}.[2]</column
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}, [2] {paq'batlh:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">23651</column>
+      <column name="entry_name">ngeng HeH</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">shore, lakeshore</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{ngeng:n}, {HeH:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {paq'batlh:src}</column>
     </table>
     <table name="mem">
       <column name="_id">23660</column>
