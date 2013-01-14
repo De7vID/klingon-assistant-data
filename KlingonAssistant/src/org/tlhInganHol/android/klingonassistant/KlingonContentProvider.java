@@ -978,7 +978,6 @@ public class KlingonContentProvider extends ContentProvider {
                 } else {
                     return mContext.getResources().getString(R.string.lyrics);
                 }
-            }
             } else if (mSentenceType == SentenceType.BEGINNERS_CONVERSATION) {
                 if (useKlingonUI) {
                     return mContext.getResources().getString(R.string.beginners_conversation_tlh);
