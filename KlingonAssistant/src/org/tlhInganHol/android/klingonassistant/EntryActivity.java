@@ -123,7 +123,7 @@ public class EntryActivity extends SherlockActivity {
         }
         int germanDefinitionStart = -1;
         String germanDefinitionHeader = "\n" + resources.getString(R.string.label_german) + ": ";
-        if (!definition_DE.equals("")) {
+        if (!definition_DE.equals("") && !entry.isGermanDefinitionSameAsEnglish()) {
             germanDefinitionStart = expandedDefinition.length();
             expandedDefinition += germanDefinitionHeader + definition_DE;
         }

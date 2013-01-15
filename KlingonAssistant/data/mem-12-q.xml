@@ -1458,13 +1458,16 @@ Do not confuse this with the similarly named {Qaj:n}.</column>
       <column name="_id">26321</column>
       <column name="entry_name">qepHom'a'</column>
       <column name="part_of_speech">n:deriv</column>
-      <column name="definition">great minor {qep:n}</column>
+      <column name="definition">annual meeting of Klingon speakers in Germany</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qep'a':n}, {Quvar:n:name}</column>
-      <column name="notes">The {qepHom'a':n:nolink} is the annual meeting of Klingonischkurs Saarbrücken. Please visit their web site at {www.qepHom.de:src:http://www.qepHom.de/} for more information. Its name contains an intentional ungrammaticality: two type 1 noun suffixes.</column>
-      <column name="hidden_notes"></column>
+      <column name="see_also">{Quvar:n:name}</column>
+      <column name="notes">The {qepHom'a':n:nolink} is the annual meeting of Klingonischkurs Saarbrücken. Please visit their web site at {www.qepHom.de:src:http://www.qepHom.de/} for more information.
+
+The official annual conference of the Klingon Language Institute is known as the {qep'a':n}, while other gatherings of Klingonists are known as {qepHommey:n:nolink}. The meeting in Saarbrücken, Germany, is the largest {qepHom:n:nolink} (and it sometimes even has more participants than the {qep'a':n:nolink}). For this reason, it is called {qepHom'a':n:nolink}. Its name contains an intentional ungrammaticality: two type 1 noun suffixes.</column>
+      <column name="hidden_notes">This intentional use of improper grammar was approved by MO.</column>
+      <!-- Warning: This is ungrammatical and will probably break something if we use pass it into the analyser. -->
       <column name="components">{qep:n}, {-Hom:n:suff}, {-'a':n:suff}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -1474,12 +1477,12 @@ Do not confuse this with the similarly named {Qaj:n}.</column>
       <column name="_id">26322</column>
       <column name="entry_name">qep'a'</column>
       <column name="part_of_speech">n:deriv</column>
-      <column name="definition">major {qep:n}</column>
+      <column name="definition">KLI annual conference</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qepHom'a':n}</column>
-      <column name="notes">The {qep'a':n:nolink} is the annual official conference of the {tlhIngan Hol yejHaD:n}.</column>
+      <column name="notes">The {qep'a':n:nolink} is the official annual conference of the Klingon Language Institute ({tlhIngan Hol yejHaD:n}).</column>
       <column name="hidden_notes"></column>
       <column name="components">{qep:n}, {-'a':n:suff}</column>
       <column name="examples"></column>
