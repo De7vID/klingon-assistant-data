@@ -3106,7 +3106,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
     <table name="mem">
       <column name="_id">23292</column>
       <column name="entry_name">nuqDaq jIQong?</column>
-      <column name="part_of_speech">sen:phr</column>
+      <column name="part_of_speech">sen:bc</column>
       <column name="definition">Where do I sleep?</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
@@ -3122,7 +3122,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
     <table name="mem">
       <column name="_id">23293</column>
       <column name="entry_name">nuqDaq 'oH ...'e'?</column>
-      <column name="part_of_speech">sen:phr</column>
+      <column name="part_of_speech">sen:bc</column>
       <column name="definition">Where is a/the ...?</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
@@ -3131,7 +3131,11 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
       <column name="notes">To ask where a person is, {ghaH:n} should be used instead of {'oH:n}.  {nuqDaq ghaH ...'e'?:sen:nolink} "Where is ...?"</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {nuqDaq 'oH bIQ'a' HeH'e'?:sen} "Where is the beach?"
+▶ {nuqDaq 'oH puchpa''e'?:sen} "Where is the bathroom?"
+▶ {nuqDaq 'oH juHlIj'e'?:sen} "Where do you live?  Where is your home?"
+▶ {nuqDaq 'oH Qe' QaQ'e'?:sen} "Where is a good restaurant?"</column>
       <column name="search_tags"></column>
       <column name="source"></column>
     </table>
@@ -3152,8 +3156,26 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.12.16. -->
+      <!-- Checked on: 2013.01.15. -->
       <column name="_id">23295</column>
+      <column name="entry_name">nuqDaq 'oH juHlIj'e'?</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Where do you live?  Where is your home?</column>
+      <column name="definition_de"></column>
+      <column name="synonyms">
+▶ {Daq DaDabbogh yIngu'!:sen}</column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source"></column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2012.12.16. -->
+      <column name="_id">23296</column>
       <column name="entry_name">nuqDaq 'oH puchpa''e'?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Where is the bathroom?</column>
@@ -3169,7 +3191,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
       <column name="source">[1] {TKD p.170:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">23296</column>
+      <column name="_id">23297</column>
       <column name="entry_name">nuqDaq 'oH Qe' QaQ'e'?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Where is a good restaurant?</column>
@@ -3220,7 +3242,6 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
       <!-- Checked on: 2012.12.15. -->
       <column name="_id">23310</column>
       <column name="entry_name">nuqneH</column>
-      <!-- Should be sen:bc. -->
       <column name="part_of_speech">excl</column>
       <column name="definition">what do you want? (greeting)</column>
       <column name="definition_de">Was willst du? (Gruß)</column>

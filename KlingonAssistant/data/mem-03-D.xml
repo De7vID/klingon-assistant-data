@@ -51,7 +51,8 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="notes">In Klingon, when one lives at a place, he or she is thought of as occupying or inhabiting it.  That is, he or she is not seen as doing something at a location, but rather as doing something to it.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples">{Daq DaDabbogh yIngu'!:sen}</column>
+      <column name="examples">
+▶ {Daq DaDabbogh yIngu'!:sen}</column>
       <column name="search_tags">live at, live in</column>
       <column name="source">[1] {KGT:src}, [2] {KLI mailing list 1999.07.19:src}</column>
     </table>
@@ -478,7 +479,8 @@ As a time element, {DaHjaj:n} precedes any adverbials.[2]</column>
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">Where do you live?</column>
       <column name="definition_de"></column>
-      <column name="synonyms"></column>
+      <column name="synonyms">
+▶ {nuqDaq 'oH juHlIj'e'?:sen}</column>
       <column name="antonyms"></column>
       <column name="see_also">{ngu':v}, {Dab:v}</column>
       <column name="notes">In Klingon, this is a command rather than a question.  It literally means, "Identify the place where you live!"[1]
@@ -489,6 +491,28 @@ An acceptable way to phrase this demand as a question is {nuq DaDab?:sen:nolink}
       <column name="examples"></column>
       <column name="search_tags">address</column>
       <column name="source">[1] {KLI mailing list 1999.07.19:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2013.01.15. -->
+      <column name="_id">13158</column>
+      <column name="entry_name">...-Daq qaDor.</column>
+      <column name="part_of_speech">sen:bc</column>
+      <column name="definition">I will escort you to ... .</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Dor:v:1}</column>
+      <column name="notes">To answer in the affirmative, say {luq:excl} "okay".
+
+To answer in the negative, say {Qo':excl} "no, I refuse".</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {pa'lIjDaq qaDor.:sen:nolink} "I will escort you to your quarters."
+▶ {tachDaq qaDor.:sen:nolink} "I will escort you to the bar."
+▶ {vaS'a'Daq qaDor.:sen:nolink} "I will escort you to the Great Hall."</column>
+      <column name="search_tags"></column>
+      <column name="source"></column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.26. -->
@@ -2407,6 +2431,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "accumulat
       <column name="hidden_notes">"Escort (someone) to the door."</column>
       <column name="components"></column>
       <column name="examples"></column>
+▶ {...-Daq qaDor.:sen} "I will escort you to ... ."</column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
