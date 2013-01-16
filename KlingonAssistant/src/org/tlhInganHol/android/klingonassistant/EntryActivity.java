@@ -404,7 +404,7 @@ public class EntryActivity extends SherlockActivity {
             intent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title));
         }
         intent.putExtra(Intent.EXTRA_SUBJECT, Html.fromHtml(entryName));
-        intent.putExtra(Intent.EXTRA_TEXT, Html.fromHtml(shortHtmlDefinition));
+        intent.putExtra(Intent.EXTRA_TEXT, Html.fromHtml(shortHtmlDefinition + "\n\n" + getResources().getString(R.string.shared_from)));
         mShareActionProvider.setShareIntent(intent);
     }
 
