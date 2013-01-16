@@ -81,7 +81,7 @@ index a51bbac..fdefcb4 100644
      // private static final String TAG = "EntryActivity";
  
      // This must uniquely identify the {boQwI'} entry.
-@@ -81,11 +78,10 @@ public class EntryActivity extends SherlockActivity {
+@@ -82,11 +79,10 @@ public class EntryActivity extends SherlockActivity {
          setContentView(R.layout.entry);
          Resources resources = getResources();
  
@@ -96,9 +96,9 @@ index a51bbac..fdefcb4 100644
  
          // TODO: Save and restore bundle state to preserve links.
  
-@@ -248,19 +244,19 @@ public class EntryActivity extends SherlockActivity {
+@@ -250,19 +246,19 @@ public class EntryActivity extends SherlockActivity {
          }
-         if (!definition_DE.equals("")) {
+         if (displayGermanEntry) {
              // Reduce the size of the German definition.
 -            ssb.setSpan(new AbsoluteSizeSpan(14, true), germanDefinitionStart,
 +            ssb.setSpan(new AbsoluteSizeSpan(14), germanDefinitionStart,
@@ -119,7 +119,7 @@ index a51bbac..fdefcb4 100644
                  hiddenNotesStart + hiddenNotesHeader.length() +
                  hiddenNotes.length(), finalFlags);
          }
-@@ -314,7 +310,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -316,7 +312,7 @@ public class EntryActivity extends SherlockActivity {
              // If linked entry is hypothetical or extended canon, insert a "?" in front.
              if (linkedEntry.isHypothetical() || linkedEntry.isExtendedCanon()) {
                  ssb.insert(m.start(), "?");
@@ -128,7 +128,7 @@ index a51bbac..fdefcb4 100644
                  ssb.setSpan(new SuperscriptSpan(), m.start(), m.start() + 1, maybeFinalFlags);
                  end++;
              }
-@@ -360,7 +356,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -362,7 +358,7 @@ public class EntryActivity extends SherlockActivity {
  
      @Override
      public boolean onCreateOptionsMenu(Menu menu) {
@@ -137,7 +137,7 @@ index a51bbac..fdefcb4 100644
          SharedPreferences sharedPrefs =
              PreferenceManager.getDefaultSharedPreferences(getBaseContext());
          if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-@@ -369,12 +365,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -371,12 +367,7 @@ public class EntryActivity extends SherlockActivity {
              inflater.inflate(R.menu.options_menu, menu);
          }
  
@@ -151,7 +151,7 @@ index a51bbac..fdefcb4 100644
  
          return true;
      }
-@@ -385,11 +376,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -387,11 +378,7 @@ public class EntryActivity extends SherlockActivity {
              case R.id.search:
                  onSearchRequested();
                  return true;
@@ -213,7 +213,7 @@ index 79215bb..3cb7f4b 100644
      // private static final String TAG = "KlingonAssistant";
  
      // Preference key for whether to show help.
-@@ -90,8 +87,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -91,8 +88,7 @@ public class KlingonAssistant extends SherlockActivity {
              setContentView(R.layout.main);
          }
  
@@ -223,7 +223,7 @@ index 79215bb..3cb7f4b 100644
  
          mTextView = (TextView) findViewById(R.id.text);
          mListView = (ListView) findViewById(R.id.list);
-@@ -274,7 +270,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -275,7 +271,7 @@ public class KlingonAssistant extends SherlockActivity {
  
      @Override
      public boolean onCreateOptionsMenu(Menu menu) {
@@ -232,7 +232,7 @@ index 79215bb..3cb7f4b 100644
          SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
          if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
              inflater.inflate(R.menu.options_menu_tlh, menu);
-@@ -282,12 +278,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -283,12 +279,7 @@ public class KlingonAssistant extends SherlockActivity {
              inflater.inflate(R.menu.options_menu, menu);
          }
  
@@ -246,7 +246,7 @@ index 79215bb..3cb7f4b 100644
  
          return true;
      }
-@@ -316,9 +307,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -317,9 +308,7 @@ public class KlingonAssistant extends SherlockActivity {
              case R.id.search:
                  onSearchRequested();
                  return true;

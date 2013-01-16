@@ -16,7 +16,6 @@
 
 package org.tlhInganHol.android.klingonassistant;
 
-import android.app.Activity;
 import android.app.SearchManager;
 import android.content.ComponentName;
 import android.content.Context;
@@ -25,28 +24,32 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.graphics.Typeface;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.Html;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.TwoLineListItem;
+import com.actionbarsherlock.app.ActionBar;
+import com.actionbarsherlock.app.SherlockActivity;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuInflater;
+import com.actionbarsherlock.view.MenuItem;
 
 /**
  * The main activity for the dictionary.
  * Displays search results triggered by the search dialog and handles
  * actions from search suggestions.
  */
-public class KlingonAssistant extends Activity {
+public class KlingonAssistant extends SherlockActivity {
     // private static final String TAG = "KlingonAssistant";
 
     // Preference key for whether to show help.
@@ -88,7 +91,8 @@ public class KlingonAssistant extends Activity {
             setContentView(R.layout.main);
         }
 
-        // BACKPORT: No action bar.
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         mTextView = (TextView) findViewById(R.id.text);
         mListView = (ListView) findViewById(R.id.list);
@@ -271,7 +275,7 @@ public class KlingonAssistant extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
+        MenuInflater inflater = getSupportMenuInflater();
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
             inflater.inflate(R.menu.options_menu_tlh, menu);
@@ -279,7 +283,12 @@ public class KlingonAssistant extends Activity {
             inflater.inflate(R.menu.options_menu, menu);
         }
 
-        // BACKPORT: No search view.
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
+            SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+            SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
+            searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+            searchView.setIconifiedByDefault(false);
+        }
 
         return true;
     }
@@ -308,7 +317,9 @@ public class KlingonAssistant extends Activity {
             case R.id.search:
                 onSearchRequested();
                 return true;
-            // BACKPORT: No handling of android.R.id.home.
+            case android.R.id.home:
+                finish();
+                return true;
             case R.id.about:
                 // Show "About" screen.
                 showResults(QUERY_FOR_ABOUT);

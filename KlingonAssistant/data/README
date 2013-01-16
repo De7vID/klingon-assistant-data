@@ -1,5 +1,5 @@
 The latest data is to be found in mem-*.xml.  Edits should be made to these
-files, then reconstruct.sh should be run to generate the database binary,
+files, then generate_db.sh should be run to generate the database binary,
 which is a SQLite3 database file stored in ../asserts/qawHaq.db.
 
 Alternatively, the database file can be opened in SQLite Manager (a Firefox

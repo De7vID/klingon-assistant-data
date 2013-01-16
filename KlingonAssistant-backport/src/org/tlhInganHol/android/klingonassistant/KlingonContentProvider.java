@@ -345,7 +345,8 @@ public class KlingonContentProvider extends ContentProvider {
             REPLACEMENT_PROVERB,
             SECRECY_PROVERB,
             TOAST,
-            LYRICS
+            LYRICS,
+            BEGINNERS_CONVERSATION
         }
         private SentenceType mSentenceType = SentenceType.PHRASE;
 
@@ -408,8 +409,8 @@ public class KlingonContentProvider extends ContentProvider {
          * @param cursor A cursor with position at the desired entry
          */
         public Entry(Cursor cursor, Context context) {
-        	mContext = context;
-        	
+            mContext = context;
+
             mId = cursor.getInt(KlingonContentDatabase.COLUMN_ID);
             mEntryName = cursor.getString(KlingonContentDatabase.COLUMN_ENTRY_NAME);
             mPartOfSpeech = cursor.getString(KlingonContentDatabase.COLUMN_PART_OF_SPEECH);
@@ -524,6 +525,8 @@ public class KlingonContentProvider extends ContentProvider {
                     mSentenceType = SentenceType.TOAST;
                 } else if (attr.equals("lyr")) {
                     mSentenceType = SentenceType.LYRICS;
+                } else if (attr.equals("bc")) {
+                    mSentenceType = SentenceType.BEGINNERS_CONVERSATION;
 
                 // Categories.
                 } else if (attr.equals("anim")) {
@@ -603,7 +606,7 @@ public class KlingonContentProvider extends ContentProvider {
             String attr = "";
             if (mIsArchaic) {
                 attr = maybeItalics("archaic", isHtml);
-            } 
+            }
             if (mIsRegional) {
                 if (!attr.equals("")) {
                     attr += ", ";
@@ -685,7 +688,7 @@ public class KlingonContentProvider extends ContentProvider {
             if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
                 // Show German definitions preference set to true.
                 String definition_DE = getDefinition_DE();
-                if (!definition_DE.equals("")) {
+                if (!definition_DE.equals("") && !isGermanDefinitionSameAsEnglish()) {
                     definition += " / " + getDefinition_DE();
                 }
             }
@@ -760,6 +763,11 @@ public class KlingonContentProvider extends ContentProvider {
             // If there is no German definition, the cursor could've returned
             // null, so that needs to be handled.
             return (mDefinition_DE == null) ? "" : mDefinition_DE;
+        }
+
+        // Returns true iff the German definition should be treated as identical to the English one.
+        public boolean isGermanDefinitionSameAsEnglish() {
+            return (mDefinition_DE == null) ? true : mDefinition_DE.equals(mDefinition);
         }
 
         public String getSynonyms() {
@@ -975,6 +983,12 @@ public class KlingonContentProvider extends ContentProvider {
                 } else {
                     return mContext.getResources().getString(R.string.lyrics);
                 }
+            } else if (mSentenceType == SentenceType.BEGINNERS_CONVERSATION) {
+                if (useKlingonUI) {
+                    return mContext.getResources().getString(R.string.beginners_conversation_tlh);
+                } else {
+                    return mContext.getResources().getString(R.string.beginners_conversation);
+                }
             }
 
             // The empty string is returned if the type is general PHRASE.
@@ -1005,6 +1019,8 @@ public class KlingonContentProvider extends ContentProvider {
                 return "*:sen:toast";
             } else if (mSentenceType == SentenceType.LYRICS) {
                 return "*:sen:lyr";
+            } else if (mSentenceType == SentenceType.BEGINNERS_CONVERSATION) {
+                return "*:sen:bc";
             }
 
             // A general phrase. In theory this should never be returned.

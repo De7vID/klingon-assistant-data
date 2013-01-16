@@ -44,6 +44,8 @@
     <item android:id="@+id/phrases"
         android:title="@string/menu_phrases_tlh">
         <menu>
+            <item android:id="@+id/beginners_conversation"
+                android:title="@string/beginners_conversation_tlh" />
             <item android:id="@+id/empire_union_day"
                 android:title="@string/empire_union_day_tlh" />
             <item android:id="@+id/curse_warfare"
@@ -72,4 +74,19 @@
             -->
         </menu>
     </item>
+
+    <!--
+    <item android:id="@+id/lists"
+        android:title="@string/menu_lists_tlh">
+        <menu>
+            <item android:id="@+id/list_names"
+                android:title="@string/list_names_tlh" />
+            <item android:id="@+id/list_places"
+                android:title="@string/list_places_tlh" />
+        </menu>
+    </item>
+    -->
+
+    <item android:id="@+id/social"
+        android:title="@string/menu_social_tlh" />
 </menu>
