@@ -364,6 +364,7 @@ public class EntryActivity extends SherlockActivity {
     private Intent getEntryShareIntent() {
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_TITLE, "Share using...");
         intent.putExtra(Intent.EXTRA_SUBJECT, "entry name");
         intent.putExtra(Intent.EXTRA_TEXT, "definition");
         return intent;
