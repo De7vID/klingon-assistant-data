@@ -660,6 +660,7 @@ public class KlingonContentProvider extends ContentProvider {
             // Return abbreviation for part of speech, but suppress for sentences and names.
             String pos = "";
             if (isAlternativeSpelling()) {
+                // TODO: Extract this string to xml.
                 pos = "See: ";
             } else if (
                 mBasePartOfSpeech == BasePartOfSpeechEnum.SENTENCE ||

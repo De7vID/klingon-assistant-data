@@ -46,6 +46,7 @@ import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
+import com.actionbarsherlock.widget.ShareActionProvider
 
 /**
  * Displays an entry and its definition.
@@ -75,6 +76,8 @@ public class EntryActivity extends SherlockActivity {
     private static final String QUERY_FOR_TOASTS = "*:sen:toast";
     private static final String QUERY_FOR_LYRICS = "*:sen:lyr";
     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
+
+    private ShareActionProvider mShareActionProvider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -112,8 +115,9 @@ public class EntryActivity extends SherlockActivity {
         // Create the expanded definition.
         String pos = entry.getFormattedPartOfSpeech(/* isHtml */ false);
         String expandedDefinition = pos + entry.getDefinition();
+        String shortHtmlDefinition = entry.getFormattedPartOfSpeech(/* isHtml */ true) + entry.getDefinition();
 
-        // Experimental: Show the German definition.
+        // Show the German definition.
         String definition_DE = "";
         SharedPreferences sharedPrefs =
             PreferenceManager.getDefaultSharedPreferences(getBaseContext());
@@ -127,7 +131,11 @@ public class EntryActivity extends SherlockActivity {
         if (displayGermanEntry) {
             germanDefinitionStart = expandedDefinition.length();
             expandedDefinition += germanDefinitionHeader + definition_DE;
+            shortHtmlDefinition += germanDefinitionHeader + definition_DE;
         }
+
+        // Set the share intent.
+        setEntryShareIntent(entryName, shortHtmlDefinition);
 
         // Show the basic notes.
         String notes = entry.getNotes();
@@ -360,16 +368,6 @@ public class EntryActivity extends SherlockActivity {
     }
     */
 
-    // Create a share intent for this entry.
-    private Intent getEntryShareIntent() {
-        Intent intent = new Intent(Intent.ACTION_SEND);
-        intent.setType("text/plain");
-        intent.putExtra(Intent.EXTRA_TITLE, "Share using...");
-        intent.putExtra(Intent.EXTRA_SUBJECT, "entry name");
-        intent.putExtra(Intent.EXTRA_TEXT, "definition");
-        return intent;
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getSupportMenuInflater();
@@ -382,8 +380,7 @@ public class EntryActivity extends SherlockActivity {
         }
         MenuItem shareButton = (MenuItem) menu.findItem(R.id.share);
         shareButton.setVisible(true);
-        ShareActionProvider sap = (ShareActionProvider) shareButton.getActionProvider();
-        sap.setShareIntent(getEntryShareIntent());
+        mShareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
             SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
@@ -393,6 +390,22 @@ public class EntryActivity extends SherlockActivity {
         }
 
         return true;
+    }
+
+    // Set the share intent for this entry.
+    private void setEntryShareIntent(String entryName, String shortHtmlDefinition) {
+        SharedPreferences sharedPrefs =
+            PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/html");
+        if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+            intent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title_tlh));
+        } else {
+            intent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title));
+        }
+        intent.putExtra(Intent.EXTRA_SUBJECT, Html.fromHtml(entryName));
+        intent.putExtra(Intent.EXTRA_TEXT, Html.fromHtml(shortHtmlDefinition));
+        mShareActionProvider.setShareIntent(intent);
     }
 
     @Override
