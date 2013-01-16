@@ -123,7 +123,8 @@ public class EntryActivity extends SherlockActivity {
         }
         int germanDefinitionStart = -1;
         String germanDefinitionHeader = "\n" + resources.getString(R.string.label_german) + ": ";
-        if (!definition_DE.equals("") && !entry.isGermanDefinitionSameAsEnglish()) {
+        boolean displayGermanEntry = !definition_DE.equals("") && !entry.isGermanDefinitionSameAsEnglish();
+        if (displayGermanEntry) {
             germanDefinitionStart = expandedDefinition.length();
             expandedDefinition += germanDefinitionHeader + definition_DE;
         }
@@ -247,7 +248,7 @@ public class EntryActivity extends SherlockActivity {
             ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC),
             0, pos.length(), finalFlags);
         }
-        if (!definition_DE.equals("")) {
+        if (displayGermanEntry) {
             // Reduce the size of the German definition.
             ssb.setSpan(new AbsoluteSizeSpan(14, true), germanDefinitionStart,
                 germanDefinitionStart + germanDefinitionHeader.length() +

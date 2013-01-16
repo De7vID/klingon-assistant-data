@@ -506,7 +506,8 @@ An acceptable way to phrase this demand as a question is {nuq DaDab?:sen:nolink}
 
 To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <!-- This is needed because the analyser won't pick up {-Daq} with no attached noun. -->
+      <column name="components">{-Daq:n:suff}, {qa-:v:pref}, {Dor:v:1}</column>
       <column name="examples">
 ▶ {pa'lIjDaq qaDor.:sen:nolink} "I will escort you to your quarters."
 ▶ {tachDaq qaDor.:sen:nolink} "I will escort you to the bar."
