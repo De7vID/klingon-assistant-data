@@ -360,6 +360,15 @@ public class EntryActivity extends SherlockActivity {
     }
     */
 
+    // Create a share intent for this entry.
+    private Intent getEntryShareIntent() {
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_SUBJECT, "entry name");
+        intent.putExtra(Intent.EXTRA_TEXT, "definition");
+        return intent;
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getSupportMenuInflater();
@@ -370,6 +379,10 @@ public class EntryActivity extends SherlockActivity {
         } else {
             inflater.inflate(R.menu.options_menu, menu);
         }
+        MenuItem shareButton = (MenuItem) menu.findItem(R.id.share);
+        shareButton.setVisible(true);
+        ShareActionProvider sap = (ShareActionProvider) shareButton.getActionProvider();
+        sap.setShareIntent(getEntryShareIntent());
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
             SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);

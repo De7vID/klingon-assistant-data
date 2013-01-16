@@ -24,6 +24,12 @@
           android:showAsAction="ifRoom|collapseActionView"
           android:actionViewClass="android.widget.SearchView" />
 
+    <item android:id="@+id/share"
+          android:title="@string/menu_share_tlh"
+          android:showAsAction="ifRoom"
+          android:actionProviderClass="android.widget.ShareActionProvider"
+          android:visible="false" />
+
     <item android:id="@+id/about"
         android:title="@string/menu_about_tlh" />
 
