@@ -43,6 +43,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.ShareActionProvider;
 
 /**
  * Displays an entry and its definition.
@@ -72,6 +73,8 @@ public class EntryActivity extends Activity {
     private static final String QUERY_FOR_TOASTS = "*:sen:toast";
     private static final String QUERY_FOR_LYRICS = "*:sen:lyr";
     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
+
+    private ShareActionProvider mShareActionProvider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -108,8 +111,9 @@ public class EntryActivity extends Activity {
         // Create the expanded definition.
         String pos = entry.getFormattedPartOfSpeech(/* isHtml */ false);
         String expandedDefinition = pos + entry.getDefinition();
+        String shortHtmlDefinition = entry.getFormattedPartOfSpeech(/* isHtml */ true) + entry.getDefinition();
 
-        // Experimental: Show the German definition.
+        // Show the German definition.
         String definition_DE = "";
         SharedPreferences sharedPrefs =
             PreferenceManager.getDefaultSharedPreferences(getBaseContext());
@@ -123,7 +127,11 @@ public class EntryActivity extends Activity {
         if (displayGermanEntry) {
             germanDefinitionStart = expandedDefinition.length();
             expandedDefinition += germanDefinitionHeader + definition_DE;
+            shortHtmlDefinition += germanDefinitionHeader + definition_DE;
         }
+
+        // Set the share intent.
+        setEntryShareIntent(entryName, shortHtmlDefinition);
 
         // Show the basic notes.
         String notes = entry.getNotes();
@@ -366,10 +374,29 @@ public class EntryActivity extends Activity {
         } else {
             inflater.inflate(R.menu.options_menu, menu);
         }
+        MenuItem shareButton = (MenuItem) menu.findItem(R.id.share);
+        shareButton.setVisible(true);
+        mShareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
 
         // BACKPORT: No search view.
 
         return true;
+    }
+
+    // Set the share intent for this entry.
+    private void setEntryShareIntent(String entryName, String shortHtmlDefinition) {
+        SharedPreferences sharedPrefs =
+            PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/html");
+        if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+            intent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title_tlh));
+        } else {
+            intent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title));
+        }
+        intent.putExtra(Intent.EXTRA_SUBJECT, Html.fromHtml(entryName));
+        intent.putExtra(Intent.EXTRA_TEXT, Html.fromHtml(shortHtmlDefinition));
+        mShareActionProvider.setShareIntent(intent);
     }
 
     @Override
