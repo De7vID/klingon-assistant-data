@@ -39,7 +39,6 @@ import android.text.style.StyleSpan;
 import android.text.style.SuperscriptSpan;
 import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
-import android.util.Log;
 import android.view.View;
 import android.widget.SearchView;
 import com.actionbarsherlock.app.ActionBar;
@@ -53,7 +52,7 @@ import com.actionbarsherlock.widget.ShareActionProvider;
  * Displays an entry and its definition.
  */
 public class EntryActivity extends SherlockActivity {
-    private static final String TAG = "EntryActivity";
+    // private static final String TAG = "EntryActivity";
 
     // This must uniquely identify the {boQwI'} entry.
     private static final String QUERY_FOR_ABOUT = "boQwI':n";
@@ -384,7 +383,6 @@ public class EntryActivity extends SherlockActivity {
         MenuItem shareButton = (MenuItem) menu.findItem(R.id.share);
         ShareActionProvider shareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
 
-        Log.d(TAG, "on create menu - shareActionProvider null: " + (shareActionProvider == null));
         if (shareActionProvider != null && shareEntryIntent != null) {
             // Enable "Share" button.
             shareActionProvider.setShareIntent(shareEntryIntent);
@@ -408,14 +406,11 @@ public class EntryActivity extends SherlockActivity {
             shareEntryIntent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title));
         }
 
-        // Share HTML if it's a noun or verb, and plain text if it's a sentence.
-        if (entry.isVerb() || entry.isNoun() || entry.isSentence()) {
-            shareEntryIntent.setType("text/plain");
-            String subject = entry.getFormattedEntryName(/* isHtml */ false);
-            shareEntryIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
-            String snippet = subject + "\n" + entry.getFormattedDefinition(/* isHtml */ false);
-            shareEntryIntent.putExtra(Intent.EXTRA_TEXT, snippet + "\n\n" + getResources().getString(R.string.shared_from));
-        }
+        shareEntryIntent.setType("text/plain");
+        String subject = "{" + entry.getFormattedEntryName(/* isHtml */ false) + "}";
+        shareEntryIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
+        String snippet = subject + "\n" + entry.getFormattedDefinition(/* isHtml */ false);
+        shareEntryIntent.putExtra(Intent.EXTRA_TEXT, snippet + "\n\n" + getResources().getString(R.string.shared_from));
     }
 
     @Override
