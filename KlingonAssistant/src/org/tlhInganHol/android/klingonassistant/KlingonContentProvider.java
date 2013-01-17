@@ -766,7 +766,7 @@ public class KlingonContentProvider extends ContentProvider {
                 PreferenceManager.getDefaultSharedPreferences(mContext);
             if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
                 // Show German definitions preference set to true and German definition is not empty or identical to the English.
-                return mDefinition_DE != null && !mDefinition_DE.equals("") && !mDefinition_DE.equals(mDefinition);
+                return mDefinition_DE != null && !mDefinition_DE.equals("") && !mDefinition_DE.equals(mDefinition) && !isName();
             } else {
                 return false;
             }
