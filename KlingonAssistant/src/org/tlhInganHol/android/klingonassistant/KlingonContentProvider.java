@@ -684,14 +684,8 @@ public class KlingonContentProvider extends ContentProvider {
 
             // Get definition, and append German definition if appropriate.
             String definition = mDefinition;
-            SharedPreferences sharedPrefs =
-                PreferenceManager.getDefaultSharedPreferences(mContext);
-            if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
-                // Show German definitions preference set to true.
-                String definition_DE = getDefinition_DE();
-                if (!definition_DE.equals("") && !isGermanDefinitionSameAsEnglish()) {
-                    definition += " / " + getDefinition_DE();
-                }
+            if (shouldDisplayGerman()) {
+                definition += " / " + getDefinition_DE();
             }
 
             // Replace brackets in definition with bold.
@@ -766,9 +760,16 @@ public class KlingonContentProvider extends ContentProvider {
             return (mDefinition_DE == null) ? "" : mDefinition_DE;
         }
 
-        // Returns true iff the German definition should be treated as identical to the English one.
-        public boolean isGermanDefinitionSameAsEnglish() {
-            return (mDefinition_DE == null) ? true : mDefinition_DE.equals(mDefinition);
+        // Returns true iff the German definition should displayed.
+        public boolean shouldDisplayGerman() {
+            SharedPreferences sharedPrefs =
+                PreferenceManager.getDefaultSharedPreferences(mContext);
+            if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
+                // Show German definitions preference set to true and German definition is not empty or identical to the English.
+                return mDefinition_DE != null && !mDefinition_DE.equals("") && !mDefinition_DE.equals(mDefinition);
+            } else {
+                return false;
+            }
         }
 
         public String getSynonyms() {
@@ -1029,15 +1030,7 @@ public class KlingonContentProvider extends ContentProvider {
         }
 
         public boolean isVerb() {
-            return mBasePartOfSpeech == BasePartOfSpeechEnum.VERB;
-        }
-
-        public boolean isPrefix() {
-            return mIsPrefix;
-        }
-
-        public boolean isSuffix() {
-            return mIsSuffix;
+            return mBasePartOfSpeech == BasePartOfSpeechEnum.VERB && !mIsPrefix && !mIsSuffix;
         }
 
         public String getTransitivity() {
