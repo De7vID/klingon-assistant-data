@@ -1033,6 +1033,10 @@ public class KlingonContentProvider extends ContentProvider {
             return mBasePartOfSpeech == BasePartOfSpeechEnum.VERB && !mIsPrefix && !mIsSuffix;
         }
 
+        public boolean isNoun() {
+            return mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN;
+        }
+
         public String getTransitivity() {
             switch (mTransitivity) {
                 case AMBITRANSITIVE:

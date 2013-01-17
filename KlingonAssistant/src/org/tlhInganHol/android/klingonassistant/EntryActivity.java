@@ -39,6 +39,7 @@ import android.text.style.StyleSpan;
 import android.text.style.SuperscriptSpan;
 import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
+import android.util.Log;
 import android.view.View;
 import android.widget.SearchView;
 import com.actionbarsherlock.app.ActionBar;
@@ -46,13 +47,13 @@ import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
-import com.actionbarsherlock.widget.ShareActionProvider
+import com.actionbarsherlock.widget.ShareActionProvider;
 
 /**
  * Displays an entry and its definition.
  */
 public class EntryActivity extends SherlockActivity {
-    // private static final String TAG = "EntryActivity";
+    private static final String TAG = "EntryActivity";
 
     // This must uniquely identify the {boQwI'} entry.
     private static final String QUERY_FOR_ABOUT = "boQwI':n";
@@ -77,8 +78,7 @@ public class EntryActivity extends SherlockActivity {
     private static final String QUERY_FOR_LYRICS = "*:sen:lyr";
     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
 
-    private MenuItem mShareButton;
-    private ShareActionProvider mShareActionProvider;
+    private Intent shareEntryIntent = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -131,7 +131,7 @@ public class EntryActivity extends SherlockActivity {
         }
 
         // Set the share intent.
-        setEntryShareIntent(entry);
+        setShareEntryIntent(entry);
 
         // Show the basic notes.
         String notes = entry.getNotes();
@@ -375,50 +375,47 @@ public class EntryActivity extends SherlockActivity {
         } else {
             inflater.inflate(R.menu.options_menu, menu);
         }
-        mShareButton = (MenuItem) menu.findItem(R.id.share);
-        mShareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
-
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
             SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
             SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
             searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
             searchView.setIconifiedByDefault(false);
         }
+        MenuItem shareButton = (MenuItem) menu.findItem(R.id.share);
+        ShareActionProvider shareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
 
+        Log.d(TAG, "on create menu - shareActionProvider null: " + (shareActionProvider == null));
+        if (shareActionProvider != null && shareEntryIntent != null) {
+            // Enable "Share" button.
+            shareActionProvider.setShareIntent(shareEntryIntent);
+            shareButton.setVisible(true);
+        }
         return true;
     }
 
     // Set the share intent for this entry.
-    private void setEntryShareIntent(KlingonContentProvider.Entry entry) {
+    private void setShareEntryIntent(KlingonContentProvider.Entry entry) {
         if (entry.isAlternativeSpelling()) {
             return;
         }
 
         SharedPreferences sharedPrefs =
             PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-        Intent intent = new Intent(Intent.ACTION_SEND);
+        shareEntryIntent = new Intent(Intent.ACTION_SEND);
         if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-            intent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title_tlh));
+            shareEntryIntent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title_tlh));
         } else {
-            intent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title));
+            shareEntryIntent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title));
         }
 
         // Share HTML if it's a noun or verb, and plain text if it's a sentence.
-        if (entry.isVerb() || entry.isNoun()) {
-            intent.setType("text/plain");
-            intent.putExtra(Intent.EXTRA_SUBJECT, entry.getFormattedEntryName(/* isHtml */ false));
-            String textSnippet = entry.getFormattedPartOfSpeech(/* isHtml */ false) + entry.getFormattedDefinition(/* isHtml */ false);
-            intent.putExtra(Intent.EXTRA_TEXT, textSnippet + "\n\n" + getResources().getString(R.string.shared_from_text));
-        } else if (entry.isSentence()) {
-            intent.setType("text/html");
-            intent.putExtra(Intent.EXTRA_SUBJECT, Html.fromHtml(entry.getFormattedEntryName(/* isHtml */ true)));
-            String htmlSnippet = entry.getFormattedPartOfSpeech(/* isHtml */ true) + entry.getFormattedDefinition(/* isHtml */ true);
-            intent.putExtra(Intent.EXTRA_TEXT, Html.fromHtml(htmlSnippet + "\n\n" + getResources().getString(R.string.shared_from_html)));
+        if (entry.isVerb() || entry.isNoun() || entry.isSentence()) {
+            shareEntryIntent.setType("text/plain");
+            String subject = entry.getFormattedEntryName(/* isHtml */ false);
+            shareEntryIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
+            String snippet = subject + "\n" + entry.getFormattedDefinition(/* isHtml */ false);
+            shareEntryIntent.putExtra(Intent.EXTRA_TEXT, snippet + "\n\n" + getResources().getString(R.string.shared_from));
         }
-
-        // Enable "Share" button.
-        mShareActionProvider.setShareIntent(intent);
-        mShareButton.setVisible(true);
     }
 
     @Override
