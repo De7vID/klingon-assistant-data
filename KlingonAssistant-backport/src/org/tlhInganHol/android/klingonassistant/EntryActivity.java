@@ -43,7 +43,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.ShareActionProvider;
 
 /**
  * Displays an entry and its definition.
@@ -74,8 +73,6 @@ public class EntryActivity extends Activity {
     private static final String QUERY_FOR_LYRICS = "*:sen:lyr";
     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
 
-    private MenuItem mShareButton;
-    private ShareActionProvider mShareActionProvider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -126,8 +123,7 @@ public class EntryActivity extends Activity {
             expandedDefinition += germanDefinitionHeader + definition_DE;
         }
 
-        // Set the share intent.
-        setEntryShareIntent(entry);
+        // BACKPORT: No share intent.
 
         // Show the basic notes.
         String notes = entry.getNotes();
@@ -371,45 +367,8 @@ public class EntryActivity extends Activity {
         } else {
             inflater.inflate(R.menu.options_menu, menu);
         }
-        mShareButton = (MenuItem) menu.findItem(R.id.share);
-        mShareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
-
-        // BACKPORT: No search view.
-
+        // BACKPORT: No search view or share button.
         return true;
-    }
-
-    // Set the share intent for this entry.
-    private void setEntryShareIntent(KlingonContentProvider.Entry entry) {
-        if (entry.isAlternativeSpelling()) {
-            return;
-        }
-
-        SharedPreferences sharedPrefs =
-            PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-        Intent intent = new Intent(Intent.ACTION_SEND);
-        if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-            intent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title_tlh));
-        } else {
-            intent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title));
-        }
-
-        // Share HTML if it's a noun or verb, and plain text if it's a sentence.
-        if (entry.isVerb() || entry.isNoun()) {
-            intent.setType("text/plain");
-            intent.putExtra(Intent.EXTRA_SUBJECT, entry.getFormattedEntryName(/* isHtml */ false));
-            String textSnippet = entry.getFormattedPartOfSpeech(/* isHtml */ false) + entry.getFormattedDefinition(/* isHtml */ false);
-            intent.putExtra(Intent.EXTRA_TEXT, textSnippet + "\n\n" + getResources().getString(R.string.shared_from_text));
-        } else if (entry.isSentence()) {
-            intent.setType("text/html");
-            intent.putExtra(Intent.EXTRA_SUBJECT, Html.fromHtml(entry.getFormattedEntryName(/* isHtml */ true)));
-            String htmlSnippet = entry.getFormattedPartOfSpeech(/* isHtml */ true) + entry.getFormattedDefinition(/* isHtml */ true);
-            intent.putExtra(Intent.EXTRA_TEXT, Html.fromHtml(htmlSnippet + "\n\n" + getResources().getString(R.string.shared_from_html)));
-        }
-
-        // Enable "Share" button.
-        mShareActionProvider.setShareIntent(intent);
-        mShareButton.setVisible(true);
     }
 
     @Override

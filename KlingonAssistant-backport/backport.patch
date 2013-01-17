@@ -1,8 +1,8 @@
 diff --git a/res/menu/options_menu.xml b/res/menu/options_menu.xml
-index 1fa4230..3fbca8d 100644
+index 3b50ca7..542cd06 100644
 --- a/res/menu/options_menu.xml
 +++ b/res/menu/options_menu.xml
-@@ -17,17 +17,16 @@
+@@ -17,18 +17,11 @@
  -->
  <!-- Options Menu for SearchableActivity and EntryActivity.
   -->
@@ -13,21 +13,21 @@ index 1fa4230..3fbca8d 100644
 -          android:icon="@drawable/ic_menu_search"
 -          android:showAsAction="ifRoom|collapseActionView"
 -          android:actionViewClass="android.widget.SearchView" />
+-
+-    <item android:id="@+id/share"
+-          android:title="@string/menu_share"
+-          android:showAsAction="always"
+-          android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+-          android:visible="false" />
 +          android:icon="@drawable/ic_menu_search" />
  
-     <item android:id="@+id/share"
-           android:title="@string/menu_share"
-           android:showAsAction="ifRoom"
--          android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
-+          android:actionProviderClass="android.widget.ShareActionProvider"
-           android:visible="false" />
- 
      <item android:id="@+id/about"
+         android:title="@string/menu_about" />
 diff --git a/res/menu/options_menu_tlh.xml b/res/menu/options_menu_tlh.xml
-index f88694d..d2ce4a0 100644
+index 2322bc8..5e5300a 100644
 --- a/res/menu/options_menu_tlh.xml
 +++ b/res/menu/options_menu_tlh.xml
-@@ -17,17 +17,16 @@
+@@ -17,18 +17,11 @@
  -->
  <!-- Options Menu for SearchableActivity and EntryActivity.
   -->
@@ -38,18 +38,18 @@ index f88694d..d2ce4a0 100644
 -          android:icon="@drawable/ic_menu_search"
 -          android:showAsAction="ifRoom|collapseActionView"
 -          android:actionViewClass="android.widget.SearchView" />
+-
+-    <item android:id="@+id/share"
+-          android:title="@string/menu_share_tlh"
+-          android:showAsAction="always"
+-          android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+-          android:visible="false" />
 +          android:icon="@drawable/ic_menu_search" />
  
-     <item android:id="@+id/share"
-           android:title="@string/menu_share_tlh"
-           android:showAsAction="ifRoom"
--          android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
-+          android:actionProviderClass="android.widget.ShareActionProvider"
-           android:visible="false" />
- 
      <item android:id="@+id/about"
+         android:title="@string/menu_about_tlh" />
 diff --git a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
-index 6f2630b..af66e9d 100644
+index 94795ee..fa61044 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 @@ -18,15 +18,14 @@ package org.tlhInganHol.android.klingonassistant;
@@ -69,7 +69,7 @@ index 6f2630b..af66e9d 100644
  import android.os.Bundle;
  import android.preference.PreferenceManager;
  import android.text.Html;
-@@ -39,19 +38,17 @@ import android.text.style.StyleSpan;
+@@ -39,19 +38,16 @@ import android.text.style.StyleSpan;
  import android.text.style.SuperscriptSpan;
  import android.text.style.TypefaceSpan;
  import android.text.style.URLSpan;
@@ -83,9 +83,8 @@ index 6f2630b..af66e9d 100644
 -import com.actionbarsherlock.view.Menu;
 -import com.actionbarsherlock.view.MenuInflater;
 -import com.actionbarsherlock.view.MenuItem;
--import com.actionbarsherlock.widget.ShareActionProvider
+-import com.actionbarsherlock.widget.ShareActionProvider;
 +import android.widget.TextView;
-+import android.widget.ShareActionProvider;
  
  /**
   * Displays an entry and its definition.
@@ -95,7 +94,15 @@ index 6f2630b..af66e9d 100644
      // private static final String TAG = "EntryActivity";
  
      // This must uniquely identify the {boQwI'} entry.
-@@ -86,11 +83,10 @@ public class EntryActivity extends SherlockActivity {
+@@ -77,7 +73,6 @@ public class EntryActivity extends SherlockActivity {
+     private static final String QUERY_FOR_LYRICS = "*:sen:lyr";
+     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
+ 
+-    private Intent shareEntryIntent = null;
+ 
+     @Override
+     protected void onCreate(Bundle savedInstanceState) {
+@@ -85,11 +80,10 @@ public class EntryActivity extends SherlockActivity {
          setContentView(R.layout.entry);
          Resources resources = getResources();
  
@@ -110,7 +117,17 @@ index 6f2630b..af66e9d 100644
  
          // TODO: Save and restore bundle state to preserve links.
  
-@@ -255,19 +251,19 @@ public class EntryActivity extends SherlockActivity {
+@@ -129,8 +123,7 @@ public class EntryActivity extends SherlockActivity {
+             expandedDefinition += germanDefinitionHeader + definition_DE;
+         }
+ 
+-        // Set the share intent.
+-        setShareEntryIntent(entry);
++        // BACKPORT: No share intent.
+ 
+         // Show the basic notes.
+         String notes = entry.getNotes();
+@@ -254,19 +247,19 @@ public class EntryActivity extends SherlockActivity {
          }
          if (displayGermanEntry) {
              // Reduce the size of the German definition.
@@ -133,7 +150,7 @@ index 6f2630b..af66e9d 100644
                  hiddenNotesStart + hiddenNotesHeader.length() +
                  hiddenNotes.length(), finalFlags);
          }
-@@ -321,7 +317,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -320,7 +313,7 @@ public class EntryActivity extends SherlockActivity {
              // If linked entry is hypothetical or extended canon, insert a "?" in front.
              if (linkedEntry.isHypothetical() || linkedEntry.isExtendedCanon()) {
                  ssb.insert(m.start(), "?");
@@ -142,7 +159,7 @@ index 6f2630b..af66e9d 100644
                  ssb.setSpan(new SuperscriptSpan(), m.start(), m.start() + 1, maybeFinalFlags);
                  end++;
              }
-@@ -367,7 +363,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -366,7 +359,7 @@ public class EntryActivity extends SherlockActivity {
  
      @Override
      public boolean onCreateOptionsMenu(Menu menu) {
@@ -151,21 +168,53 @@ index 6f2630b..af66e9d 100644
          SharedPreferences sharedPrefs =
              PreferenceManager.getDefaultSharedPreferences(getBaseContext());
          if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-@@ -378,12 +374,7 @@ public class EntryActivity extends SherlockActivity {
-         mShareButton = (MenuItem) menu.findItem(R.id.share);
-         mShareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
- 
+@@ -374,56 +367,17 @@ public class EntryActivity extends SherlockActivity {
+         } else {
+             inflater.inflate(R.menu.options_menu, menu);
+         }
 -        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
 -            SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
 -            SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
 -            searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
 -            searchView.setIconifiedByDefault(false);
 -        }
-+        // BACKPORT: No search view.
- 
+-        MenuItem shareButton = (MenuItem) menu.findItem(R.id.share);
+-        ShareActionProvider shareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
+-
+-        if (shareActionProvider != null && shareEntryIntent != null) {
+-            // Enable "Share" button.
+-            shareActionProvider.setShareIntent(shareEntryIntent);
+-            shareButton.setVisible(true);
+-        }
++        // BACKPORT: No search view or share button.
          return true;
      }
-@@ -427,11 +418,7 @@ public class EntryActivity extends SherlockActivity {
+ 
+-    // Set the share intent for this entry.
+-    private void setShareEntryIntent(KlingonContentProvider.Entry entry) {
+-        if (entry.isAlternativeSpelling()) {
+-            return;
+-        }
+-
+-        SharedPreferences sharedPrefs =
+-            PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+-        shareEntryIntent = new Intent(Intent.ACTION_SEND);
+-        if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+-            shareEntryIntent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title_tlh));
+-        } else {
+-            shareEntryIntent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title));
+-        }
+-
+-        shareEntryIntent.setType("text/plain");
+-        String subject = "{" + entry.getFormattedEntryName(/* isHtml */ false) + "}";
+-        shareEntryIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
+-        String snippet = subject + "\n" + entry.getFormattedDefinition(/* isHtml */ false);
+-        shareEntryIntent.putExtra(Intent.EXTRA_TEXT, snippet + "\n\n" + getResources().getString(R.string.shared_from));
+-    }
+-
+     @Override
+     public boolean onOptionsItemSelected(MenuItem item) {
+         switch (item.getItemId()) {
              case R.id.search:
                  onSearchRequested();
                  return true;

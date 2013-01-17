@@ -23,12 +23,6 @@
           android:title="@string/menu_search"
           android:icon="@drawable/ic_menu_search" />
 
-    <item android:id="@+id/share"
-          android:title="@string/menu_share"
-          android:showAsAction="ifRoom"
-          android:actionProviderClass="android.widget.ShareActionProvider"
-          android:visible="false" />
-
     <item android:id="@+id/about"
         android:title="@string/menu_about" />
 
