@@ -49,7 +49,7 @@ index f88694d..d2ce4a0 100644
  
      <item android:id="@+id/about"
 diff --git a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
-index 57cfab2..179d984 100644
+index 6f2630b..af66e9d 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 @@ -18,15 +18,14 @@ package org.tlhInganHol.android.klingonassistant;
@@ -95,7 +95,7 @@ index 57cfab2..179d984 100644
      // private static final String TAG = "EntryActivity";
  
      // This must uniquely identify the {boQwI'} entry.
-@@ -85,11 +82,10 @@ public class EntryActivity extends SherlockActivity {
+@@ -86,11 +83,10 @@ public class EntryActivity extends SherlockActivity {
          setContentView(R.layout.entry);
          Resources resources = getResources();
  
@@ -110,7 +110,7 @@ index 57cfab2..179d984 100644
  
          // TODO: Save and restore bundle state to preserve links.
  
-@@ -258,19 +254,19 @@ public class EntryActivity extends SherlockActivity {
+@@ -255,19 +251,19 @@ public class EntryActivity extends SherlockActivity {
          }
          if (displayGermanEntry) {
              // Reduce the size of the German definition.
@@ -133,7 +133,7 @@ index 57cfab2..179d984 100644
                  hiddenNotesStart + hiddenNotesHeader.length() +
                  hiddenNotes.length(), finalFlags);
          }
-@@ -324,7 +320,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -321,7 +317,7 @@ public class EntryActivity extends SherlockActivity {
              // If linked entry is hypothetical or extended canon, insert a "?" in front.
              if (linkedEntry.isHypothetical() || linkedEntry.isExtendedCanon()) {
                  ssb.insert(m.start(), "?");
@@ -142,7 +142,7 @@ index 57cfab2..179d984 100644
                  ssb.setSpan(new SuperscriptSpan(), m.start(), m.start() + 1, maybeFinalFlags);
                  end++;
              }
-@@ -370,7 +366,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -367,7 +363,7 @@ public class EntryActivity extends SherlockActivity {
  
      @Override
      public boolean onCreateOptionsMenu(Menu menu) {
@@ -151,8 +151,8 @@ index 57cfab2..179d984 100644
          SharedPreferences sharedPrefs =
              PreferenceManager.getDefaultSharedPreferences(getBaseContext());
          if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-@@ -382,12 +378,7 @@ public class EntryActivity extends SherlockActivity {
-         shareButton.setVisible(true);
+@@ -378,12 +374,7 @@ public class EntryActivity extends SherlockActivity {
+         mShareButton = (MenuItem) menu.findItem(R.id.share);
          mShareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
  
 -        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
@@ -165,7 +165,7 @@ index 57cfab2..179d984 100644
  
          return true;
      }
-@@ -414,11 +405,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -427,11 +418,7 @@ public class EntryActivity extends SherlockActivity {
              case R.id.search:
                  onSearchRequested();
                  return true;

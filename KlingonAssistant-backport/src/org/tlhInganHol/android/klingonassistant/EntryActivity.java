@@ -74,6 +74,7 @@ public class EntryActivity extends Activity {
     private static final String QUERY_FOR_LYRICS = "*:sen:lyr";
     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
 
+    private MenuItem mShareButton;
     private ShareActionProvider mShareActionProvider;
 
     @Override
@@ -111,27 +112,22 @@ public class EntryActivity extends Activity {
         // Create the expanded definition.
         String pos = entry.getFormattedPartOfSpeech(/* isHtml */ false);
         String expandedDefinition = pos + entry.getDefinition();
-        String shortHtmlDefinition = entry.getFormattedPartOfSpeech(/* isHtml */ true) + entry.getDefinition();
 
         // Show the German definition.
         String definition_DE = "";
         SharedPreferences sharedPrefs =
             PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
-            // Show German definitions preference set to true.
-            definition_DE = entry.getDefinition_DE();
-        }
+        boolean displayGermanEntry = entry.shouldDisplayGerman();
         int germanDefinitionStart = -1;
         String germanDefinitionHeader = "\n" + resources.getString(R.string.label_german) + ": ";
-        boolean displayGermanEntry = !definition_DE.equals("") && !entry.isGermanDefinitionSameAsEnglish();
         if (displayGermanEntry) {
             germanDefinitionStart = expandedDefinition.length();
+            definition_DE = entry.getDefinition_DE();
             expandedDefinition += germanDefinitionHeader + definition_DE;
-            shortHtmlDefinition += germanDefinitionHeader + definition_DE;
         }
 
         // Set the share intent.
-        setEntryShareIntent(entryName, shortHtmlDefinition);
+        setEntryShareIntent(entry);
 
         // Show the basic notes.
         String notes = entry.getNotes();
@@ -218,13 +214,14 @@ public class EntryActivity extends Activity {
 
         // If this is a verb (but not a prefix or suffix), show the transitivity information.
         String transitivity = "";
-        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE, /* default */ true)) {
-            // Show transitivity preference set to true.
+        if (entry.isVerb() &&
+                sharedPrefs.getBoolean(Preferences.KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE, /* default */ true)) {
+            // This is a verb and show transitivity preference is set to true.
             transitivity = entry.getTransitivity();
         }
         int transitivityStart = -1;
         String transitivityHeader = "\n\n" + resources.getString(R.string.label_transitivity) + ": ";
-        boolean showTransitivityInformation = !transitivity.equals("") && entry.isVerb() && !entry.isPrefix() && !entry.isSuffix();
+        boolean showTransitivityInformation = !transitivity.equals("");
         if (showTransitivityInformation) {
             transitivityStart = expandedDefinition.length();
             expandedDefinition += transitivityHeader + transitivity;
@@ -374,8 +371,7 @@ public class EntryActivity extends Activity {
         } else {
             inflater.inflate(R.menu.options_menu, menu);
         }
-        MenuItem shareButton = (MenuItem) menu.findItem(R.id.share);
-        shareButton.setVisible(true);
+        mShareButton = (MenuItem) menu.findItem(R.id.share);
         mShareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
 
         // BACKPORT: No search view.
@@ -384,19 +380,36 @@ public class EntryActivity extends Activity {
     }
 
     // Set the share intent for this entry.
-    private void setEntryShareIntent(String entryName, String shortHtmlDefinition) {
+    private void setEntryShareIntent(KlingonContentProvider.Entry entry) {
+        if (entry.isAlternativeSpelling()) {
+            return;
+        }
+
         SharedPreferences sharedPrefs =
             PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         Intent intent = new Intent(Intent.ACTION_SEND);
-        intent.setType("text/html");
         if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
             intent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title_tlh));
         } else {
             intent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title));
         }
-        intent.putExtra(Intent.EXTRA_SUBJECT, Html.fromHtml(entryName));
-        intent.putExtra(Intent.EXTRA_TEXT, Html.fromHtml(shortHtmlDefinition));
+
+        // Share HTML if it's a noun or verb, and plain text if it's a sentence.
+        if (entry.isVerb() || entry.isNoun()) {
+            intent.setType("text/plain");
+            intent.putExtra(Intent.EXTRA_SUBJECT, entry.getFormattedEntryName(/* isHtml */ false));
+            String textSnippet = entry.getFormattedPartOfSpeech(/* isHtml */ false) + entry.getFormattedDefinition(/* isHtml */ false);
+            intent.putExtra(Intent.EXTRA_TEXT, textSnippet + "\n\n" + getResources().getString(R.string.shared_from_text));
+        } else if (entry.isSentence()) {
+            intent.setType("text/html");
+            intent.putExtra(Intent.EXTRA_SUBJECT, Html.fromHtml(entry.getFormattedEntryName(/* isHtml */ true)));
+            String htmlSnippet = entry.getFormattedPartOfSpeech(/* isHtml */ true) + entry.getFormattedDefinition(/* isHtml */ true);
+            intent.putExtra(Intent.EXTRA_TEXT, Html.fromHtml(htmlSnippet + "\n\n" + getResources().getString(R.string.shared_from_html)));
+        }
+
+        // Enable "Share" button.
         mShareActionProvider.setShareIntent(intent);
+        mShareButton.setVisible(true);
     }
 
     @Override
