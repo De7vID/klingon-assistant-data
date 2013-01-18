@@ -26,7 +26,7 @@
     <!-- Entry must be serif, to distinguish capital-I from lowercase-l. -->
     <org.tlhInganHol.android.klingonassistant.JellyBeanSpanFixTextView
             android:id="@+id/entry"
-            android:textSize="35dp"
+            android:textSize="35sp"
             android:textColor="?android:textColorPrimary"
             android:typeface="serif"
             android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
             android:fillViewport="true">
         <org.tlhInganHol.android.klingonassistant.JellyBeanSpanFixTextView
                 android:id="@+id/definition"
-                android:textSize="18dp"
+                android:textSize="18sp"
                 android:textColor="?android:textColorSecondary"
                 android:typeface="sans"
                 android:paddingTop="10dp"

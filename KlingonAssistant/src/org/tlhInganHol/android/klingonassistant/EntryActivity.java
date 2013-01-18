@@ -33,7 +33,7 @@ import android.text.Html;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.method.LinkMovementMethod;
-import android.text.style.AbsoluteSizeSpan;
+import android.text.style.RelativeSizeSpan;
 import android.text.style.ClickableSpan;
 import android.text.style.StyleSpan;
 import android.text.style.SuperscriptSpan;
@@ -244,6 +244,7 @@ public class EntryActivity extends SherlockActivity {
         }
 
         // Format the expanded definition, including linkifying the links to other entries.
+        float smallTextScale = (float) 0.8;
         SpannableStringBuilder ssb = new SpannableStringBuilder(expandedDefinition);
         int intermediateFlags = Spannable.SPAN_EXCLUSIVE_EXCLUSIVE | Spannable.SPAN_INTERMEDIATE;
         int finalFlags = Spannable.SPAN_EXCLUSIVE_EXCLUSIVE;
@@ -254,19 +255,19 @@ public class EntryActivity extends SherlockActivity {
         }
         if (displayGermanEntry) {
             // Reduce the size of the German definition.
-            ssb.setSpan(new AbsoluteSizeSpan(14, true), germanDefinitionStart,
+            ssb.setSpan(new RelativeSizeSpan(smallTextScale), germanDefinitionStart,
                 germanDefinitionStart + germanDefinitionHeader.length() +
                 definition_DE.length(), finalFlags);
         }
         if (showTransitivityInformation) {
             // Reduce the size of the transitivity information.
-            ssb.setSpan(new AbsoluteSizeSpan(14, true), transitivityStart,
+            ssb.setSpan(new RelativeSizeSpan(smallTextScale), transitivityStart,
                 transitivityStart + transitivityHeader.length() +
                 transitivity.length(), finalFlags);
         }
         if (!hiddenNotes.equals("")) {
             // Reduce the size of the hidden notes.
-            ssb.setSpan(new AbsoluteSizeSpan(14, true), hiddenNotesStart,
+            ssb.setSpan(new RelativeSizeSpan(smallTextScale), hiddenNotesStart,
                 hiddenNotesStart + hiddenNotesHeader.length() +
                 hiddenNotes.length(), finalFlags);
         }
@@ -320,7 +321,7 @@ public class EntryActivity extends SherlockActivity {
             // If linked entry is hypothetical or extended canon, insert a "?" in front.
             if (linkedEntry.isHypothetical() || linkedEntry.isExtendedCanon()) {
                 ssb.insert(m.start(), "?");
-                ssb.setSpan(new AbsoluteSizeSpan(14, true), m.start(), m.start() + 1, intermediateFlags);
+                ssb.setSpan(new RelativeSizeSpan(smallTextScale), m.start(), m.start() + 1, intermediateFlags);
                 ssb.setSpan(new SuperscriptSpan(), m.start(), m.start() + 1, maybeFinalFlags);
                 end++;
             }
