@@ -346,7 +346,8 @@ public class KlingonContentProvider extends ContentProvider {
             SECRECY_PROVERB,
             TOAST,
             LYRICS,
-            BEGINNERS_CONVERSATION
+            BEGINNERS_CONVERSATION,
+            JOKE
         }
         private SentenceType mSentenceType = SentenceType.PHRASE;
 
@@ -528,6 +529,8 @@ public class KlingonContentProvider extends ContentProvider {
                     mSentenceType = SentenceType.LYRICS;
                 } else if (attr.equals("bc")) {
                     mSentenceType = SentenceType.BEGINNERS_CONVERSATION;
+                } else if (attr.equals("joke")) {
+                    mSentenceType = SentenceType.JOKE;
 
                 // Categories.
                 } else if (attr.equals("anim")) {
