@@ -240,9 +240,9 @@ public class KlingonContentDatabase {
     }
 
     /**
-     * Returns a Cursor over all entries that match the given query
+     * Returns a Cursor over all entries that match the given query.
      *
-     * @param query The query, including entry name and metadata, to search for
+     * @param query The query, including entry name and metadata, to search for.
      * @return Cursor over all entries that match, or null if none found.
      */
     public Cursor getEntryMatches(String query) {
@@ -350,7 +350,7 @@ public class KlingonContentDatabase {
                 // satisfies certain requirements.
                 if (!filter || queryEntry.isSatisfiedBy(resultEntry)) {
                     // Prevent duplicates.
-                    Object[] entryObject = convertEntryToCursorRow(resultEntry);
+                    Object[] entryObject = convertEntryToCursorRow(resultEntry, /* indent */ false);
                     Integer intId = new Integer(resultEntry.getId());
                     if (!destSet.contains(intId)) {
                         destSet.add(intId);
@@ -444,7 +444,7 @@ public class KlingonContentDatabase {
     }
 
     // Helper method to add one exact match to the results cursor.
-    private void addExactMatch(String query, KlingonContentProvider.Entry filterEntry, MatrixCursor resultsCursor) {
+    private void addExactMatch(String query, KlingonContentProvider.Entry filterEntry, MatrixCursor resultsCursor, boolean indent) {
         Cursor exactMatchesCursor = getExactMatches(query);
         // There must be a match.
         if (exactMatchesCursor == null || exactMatchesCursor.getCount() == 0) {
@@ -456,8 +456,8 @@ public class KlingonContentDatabase {
         do {
             KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(exactMatchesCursor, mContext);
             if (filterEntry.isSatisfiedBy(resultEntry)) {
-                Object[] verbPrefixObject = convertEntryToCursorRow(resultEntry);
-                resultsCursor.addRow(verbPrefixObject);
+                Object[] exactMatchObject = convertEntryToCursorRow(resultEntry, indent);
+                resultsCursor.addRow(exactMatchObject);
                 // Log.d(TAG, "added exact match to results: " + query);
                 // Only add each one once.
                 break;
@@ -534,8 +534,8 @@ public class KlingonContentDatabase {
                     String prefix = complexWord.getVerbPrefix();
                     if (!prefix.equals("")) {
                         // Log.d(TAG, "verb prefix = " + prefix);
-                        filterEntry = new KlingonContentProvider.Entry(prefix + ":v", mContext);
-                        addExactMatch(prefix, filterEntry, resultsCursor);
+                        filterEntry = new KlingonContentProvider.Entry(prefix + ":v:pref", mContext);
+                        addExactMatch(prefix, filterEntry, resultsCursor, /* indent */ true);
                     }
 
                     // Add verb suffixes.  Verb suffixes must go before noun suffixes since two of them
@@ -547,14 +547,14 @@ public class KlingonContentDatabase {
                         String[] rovers = complexWord.getRovers(j);
                         for (String rover : rovers) {
                             filterEntry = new KlingonContentProvider.Entry(rover + ":v:suff", mContext);
-                            addExactMatch(rover, filterEntry, resultsCursor);
+                            addExactMatch(rover, filterEntry, resultsCursor, /* indent */ true);
                         }
 
                         // Check verb suffix of the current type.
                         if (!verbSuffixes[j].equals("")) {
                             // Log.d(TAG, "verb suffix = " + verbSuffixes[j]);
                             filterEntry = new KlingonContentProvider.Entry(verbSuffixes[j] + ":v:suff", mContext);
-                            addExactMatch(verbSuffixes[j], filterEntry, resultsCursor);
+                            addExactMatch(verbSuffixes[j], filterEntry, resultsCursor, /* indent */ true);
                         }
                     }
 
@@ -564,7 +564,7 @@ public class KlingonContentDatabase {
                         if (!nounSuffixes[j].equals("")) {
                             // Log.d(TAG, "noun suffix = " + nounSuffixes[j]);
                             filterEntry = new KlingonContentProvider.Entry(nounSuffixes[j] + ":n:suff", mContext);
-                            addExactMatch(nounSuffixes[j], filterEntry, resultsCursor);
+                            addExactMatch(nounSuffixes[j], filterEntry, resultsCursor, /* indent */ true);
                         }
                     }
 
@@ -593,11 +593,11 @@ public class KlingonContentDatabase {
         };
     }
 
-    private Object[] convertEntryToCursorRow(KlingonContentProvider.Entry entry) {
+    private Object[] convertEntryToCursorRow(KlingonContentProvider.Entry entry, boolean indent) {
         return new Object[] {
             entry.getId(),
             entry.getEntryName(),
-            entry.getPartOfSpeech(),
+            entry.getPartOfSpeech() + (indent ? ",indent" : ""),
             entry.getDefinition(),
             entry.getSynonyms(),
             entry.getAntonyms(),

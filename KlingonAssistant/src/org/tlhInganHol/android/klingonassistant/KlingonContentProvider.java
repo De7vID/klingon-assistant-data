@@ -406,7 +406,7 @@ public class KlingonContentProvider extends ContentProvider {
 
         /**
          * Constructor
-         * @param cursor A cursor with position at the desired entry
+         * @param cursor A cursor with position at the desired entry.
          */
         public Entry(Cursor cursor, Context context) {
             mContext = context;
@@ -468,13 +468,14 @@ public class KlingonContentProvider extends ContentProvider {
             // Now, get other attributes from the part of speech metadata.
             for (String attr : attributes) {
 
-                // Ignore prefixes and suffixes.
+                // Note prefixes and suffixes.
                 if (attr.equals("pref")) {
-                    mIsIndented = true;
                     mIsPrefix = true;
                 } else if (attr.equals("suff")) {
-                    mIsIndented = true;
                     mIsSuffix = true;
+                } else if (attr.equals("indent")) {
+                    // This attribute is used internally to indent affixes which are attached to a word.
+                    mIsIndented = true;
 
                 // Verb attributes.
                 } else if (attr.equals("ambi")) {
