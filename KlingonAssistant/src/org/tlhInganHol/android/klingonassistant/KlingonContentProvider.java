@@ -932,24 +932,28 @@ public class KlingonContentProvider extends ContentProvider {
                 } else {
                     return mContext.getResources().getString(R.string.curse_warfare);
                 }
+            /* IDIOM is commented out because it's not in the menu yet, since we have no good translation for the word.
             } else if (mSentenceType == SentenceType.IDIOM) {
                 if (useKlingonUI) {
                     return mContext.getResources().getString(R.string.idioms_tlh);
                 } else {
                     return mContext.getResources().getString(R.string.idioms);
                 }
+            */
             } else if (mSentenceType == SentenceType.NENTAY) {
                 if (useKlingonUI) {
                     return mContext.getResources().getString(R.string.nentay_tlh);
                 } else {
                     return mContext.getResources().getString(R.string.nentay);
                 }
+            /* PROVERB is also commented out because it's not in the menu yet either, due to incompleteness.
             } else if (mSentenceType == SentenceType.PROVERB) {
                 if (useKlingonUI) {
                     return mContext.getResources().getString(R.string.proverbs_tlh);
                 } else {
                     return mContext.getResources().getString(R.string.proverbs);
                 }
+            */
             } else if (mSentenceType == SentenceType.MILITARY_CELEBRATION) {
                 if (useKlingonUI) {
                     return mContext.getResources().getString(R.string.military_celebration_tlh);
