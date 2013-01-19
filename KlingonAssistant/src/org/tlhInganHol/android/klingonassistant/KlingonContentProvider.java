@@ -999,6 +999,12 @@ public class KlingonContentProvider extends ContentProvider {
                 } else {
                     return mContext.getResources().getString(R.string.beginners_conversation);
                 }
+            } else if (mSentenceType == SentenceType.JOKE) {
+                if (useKlingonUI) {
+                    return mContext.getResources().getString(R.string.jokes_tlh);
+                } else {
+                    return mContext.getResources().getString(R.string.jokes);
+                }
             }
 
             // The empty string is returned if the type is general PHRASE.
@@ -1031,6 +1037,8 @@ public class KlingonContentProvider extends ContentProvider {
                 return "*:sen:lyr";
             } else if (mSentenceType == SentenceType.BEGINNERS_CONVERSATION) {
                 return "*:sen:bc";
+            } else if (mSentenceType == SentenceType.JOKE) {
+                return "*:sen:joke";
             }
 
             // A general phrase. In theory this should never be returned.
