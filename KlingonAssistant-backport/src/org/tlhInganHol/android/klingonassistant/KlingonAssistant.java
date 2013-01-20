@@ -74,6 +74,7 @@ public class KlingonAssistant extends Activity {
     private static final String QUERY_FOR_TOASTS = "*:sen:toast";
     private static final String QUERY_FOR_LYRICS = "*:sen:lyr";
     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
+    private static final String QUERY_FOR_JOKES = "*:sen:joke";
 
     private TextView mTextView;
     private ListView mListView;
@@ -378,6 +379,9 @@ public class KlingonAssistant extends Activity {
                 return true;
             case R.id.beginners_conversation:
                 showResults(QUERY_FOR_BEGINNERS_CONVERSATION);
+                return true;
+            case R.id.jokes:
+                showResults(QUERY_FOR_JOKES);
                 return true;
 
             // Lists.

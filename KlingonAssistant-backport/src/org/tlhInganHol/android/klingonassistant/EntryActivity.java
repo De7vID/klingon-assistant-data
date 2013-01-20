@@ -72,6 +72,7 @@ public class EntryActivity extends Activity {
     private static final String QUERY_FOR_TOASTS = "*:sen:toast";
     private static final String QUERY_FOR_LYRICS = "*:sen:lyr";
     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
+    private static final String QUERY_FOR_JOKES = "*:sen:joke";
 
 
     @Override
@@ -448,6 +449,9 @@ public class EntryActivity extends Activity {
                 return true;
             case R.id.beginners_conversation:
                 displayHelp(QUERY_FOR_BEGINNERS_CONVERSATION);
+                return true;
+            case R.id.jokes:
+                displayHelp(QUERY_FOR_JOKES);
                 return true;
 
             // Lists.

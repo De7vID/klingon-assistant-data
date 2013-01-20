@@ -346,7 +346,8 @@ public class KlingonContentProvider extends ContentProvider {
             SECRECY_PROVERB,
             TOAST,
             LYRICS,
-            BEGINNERS_CONVERSATION
+            BEGINNERS_CONVERSATION,
+            JOKE
         }
         private SentenceType mSentenceType = SentenceType.PHRASE;
 
@@ -406,7 +407,7 @@ public class KlingonContentProvider extends ContentProvider {
 
         /**
          * Constructor
-         * @param cursor A cursor with position at the desired entry
+         * @param cursor A cursor with position at the desired entry.
          */
         public Entry(Cursor cursor, Context context) {
             mContext = context;
@@ -468,13 +469,14 @@ public class KlingonContentProvider extends ContentProvider {
             // Now, get other attributes from the part of speech metadata.
             for (String attr : attributes) {
 
-                // Ignore prefixes and suffixes.
+                // Note prefixes and suffixes.
                 if (attr.equals("pref")) {
-                    mIsIndented = true;
                     mIsPrefix = true;
                 } else if (attr.equals("suff")) {
-                    mIsIndented = true;
                     mIsSuffix = true;
+                } else if (attr.equals("indent")) {
+                    // This attribute is used internally to indent affixes which are attached to a word.
+                    mIsIndented = true;
 
                 // Verb attributes.
                 } else if (attr.equals("ambi")) {
@@ -527,6 +529,8 @@ public class KlingonContentProvider extends ContentProvider {
                     mSentenceType = SentenceType.LYRICS;
                 } else if (attr.equals("bc")) {
                     mSentenceType = SentenceType.BEGINNERS_CONVERSATION;
+                } else if (attr.equals("joke")) {
+                    mSentenceType = SentenceType.JOKE;
 
                 // Categories.
                 } else if (attr.equals("anim")) {
@@ -931,24 +935,28 @@ public class KlingonContentProvider extends ContentProvider {
                 } else {
                     return mContext.getResources().getString(R.string.curse_warfare);
                 }
+            /* IDIOM is commented out because it's not in the menu yet, since we have no good translation for the word.
             } else if (mSentenceType == SentenceType.IDIOM) {
                 if (useKlingonUI) {
                     return mContext.getResources().getString(R.string.idioms_tlh);
                 } else {
                     return mContext.getResources().getString(R.string.idioms);
                 }
+            */
             } else if (mSentenceType == SentenceType.NENTAY) {
                 if (useKlingonUI) {
                     return mContext.getResources().getString(R.string.nentay_tlh);
                 } else {
                     return mContext.getResources().getString(R.string.nentay);
                 }
+            /* PROVERB is also commented out because it's not in the menu yet either, due to incompleteness.
             } else if (mSentenceType == SentenceType.PROVERB) {
                 if (useKlingonUI) {
                     return mContext.getResources().getString(R.string.proverbs_tlh);
                 } else {
                     return mContext.getResources().getString(R.string.proverbs);
                 }
+            */
             } else if (mSentenceType == SentenceType.MILITARY_CELEBRATION) {
                 if (useKlingonUI) {
                     return mContext.getResources().getString(R.string.military_celebration_tlh);
@@ -991,6 +999,12 @@ public class KlingonContentProvider extends ContentProvider {
                 } else {
                     return mContext.getResources().getString(R.string.beginners_conversation);
                 }
+            } else if (mSentenceType == SentenceType.JOKE) {
+                if (useKlingonUI) {
+                    return mContext.getResources().getString(R.string.jokes_tlh);
+                } else {
+                    return mContext.getResources().getString(R.string.jokes);
+                }
             }
 
             // The empty string is returned if the type is general PHRASE.
@@ -1023,6 +1037,8 @@ public class KlingonContentProvider extends ContentProvider {
                 return "*:sen:lyr";
             } else if (mSentenceType == SentenceType.BEGINNERS_CONVERSATION) {
                 return "*:sen:bc";
+            } else if (mSentenceType == SentenceType.JOKE) {
+                return "*:sen:joke";
             }
 
             // A general phrase. In theory this should never be returned.
@@ -1123,9 +1139,6 @@ public class KlingonContentProvider extends ContentProvider {
     public static class ComplexWord {
         String TAG = "KlingonContentProvider.ComplexWord";
 
-        // The stem of this complex word.
-        // private Entry stemEntry = null;
-
         // The noun suffixes.
         static String[] nounType1String = {
             "", "'a'", "Hom", "oy"
@@ -1209,6 +1222,17 @@ public class KlingonContentProvider extends ContentProvider {
         int mVerbPrefix;
         int mVerbSuffixes[] = new int[verbSuffixesStrings.length];
 
+        static String[] numberDigitString = {
+            // {pagh} is excluded because it should normally not form part of a number with modifiers. 
+            "", "wa'", "cha'", "wej", "loS", "vagh", "jav", "Soch", "chorgh", "Hut"
+        };
+        static String[] numberModifierString = {
+            "", "maH", "vatlh", "SaD", "SanID", "netlh", "bIp", "'uy'"
+        };
+        int mNumberDigit;
+        int mNumberModifier;
+        String mNumberSuffix;
+
         // The locations of the true rovers.  The value indicates the suffix type they appear after,
         // so 0 means they are attached directly to the verb (before any type 1 suffix).
         int mVerbTypeRNegation;
@@ -1252,6 +1276,11 @@ public class KlingonContentProvider extends ContentProvider {
             mVerbTypeRNegation = -1;
             mVerbTypeREmphatic = -1;
             roverOrderNegationBeforeEmphatic = false;
+
+            // Number parts.
+            mNumberDigit = 0;
+            mNumberModifier = 0;
+            mNumberSuffix = "";
         }
 
         /**
@@ -1273,6 +1302,9 @@ public class KlingonContentProvider extends ContentProvider {
             mVerbTypeRNegation = complexWordToCopy.mVerbTypeRNegation;
             mVerbTypeREmphatic = complexWordToCopy.mVerbTypeREmphatic;
             roverOrderNegationBeforeEmphatic = complexWordToCopy.roverOrderNegationBeforeEmphatic;
+            mNumberDigit = complexWordToCopy.mNumberDigit;
+            mNumberModifier = complexWordToCopy.mNumberModifier;
+            mNumberSuffix = complexWordToCopy.mNumberSuffix;
         }
 
         public ComplexWord stripPrefix() {
@@ -1390,6 +1422,11 @@ public class KlingonContentProvider extends ContentProvider {
             return true;
         }
 
+        public boolean isNumber() {
+            // A complex word is a number if it's a noun and the root contains a digit.
+            return mIsNoun && (mNumberDigit != 0);
+        }
+
         private boolean noNounSuffixesFound() {
             for (int i = 0; i < mNounSuffixes.length; i++) {
                 if (mNounSuffixes[i] != 0) {
@@ -1452,6 +1489,21 @@ public class KlingonContentProvider extends ContentProvider {
             return suffixes;
         }
 
+        // Get the number digit for a number.
+        public String getNumberDigit() {
+            return numberDigitString[mNumberDigit];
+        }
+
+        // Get the number modifier for a number.
+        public String getNumberModifier() {
+            return numberModifierString[mNumberModifier];
+        }
+
+        // Get the number suffix ("DIch" or "logh") for a number.
+        public String getNumberSuffix() {
+            return mNumberSuffix;
+        }
+
         // Get the rovers at a given suffix level.
         public String[] getRovers(int suffixLevel) {
             final String[] negationThenEmphatic = { "-be'", "-qu'" };
@@ -1509,7 +1561,7 @@ public class KlingonContentProvider extends ContentProvider {
 
         public ComplexWord getVerbRootIfNoun() {
             if (!mIsNoun || !hasNoMoreSuffixes()) {
-                // Should never be reached.
+                // Should never be reached if there are still suffixes remaining.
                 return null;
             }
             // Log.d(TAG, "getVerbRootIfNoun on: " + mUnparsedPart);
@@ -1526,28 +1578,54 @@ public class KlingonContentProvider extends ContentProvider {
             return null;
         }
 
-
+        // Add this complex word to the list.
         private void addSelf(ArrayList<ComplexWord> complexWordsList) {
             if (!hasNoMoreSuffixes()) {
                 // This point should never be reached.
                 Log.e(TAG, "addSelf called on " + mUnparsedPart + " with suffix level " + mSuffixLevel + ".");
                 return;
             }
-            // if (isBareWord()) {
-                // This is not a complex word, do nothing.
-                // TODO: Fix this bug.
-                // Problem: "batlh bIHeghjaj" should display "batlh".
-                // But: "tuQHa'" should display "tuQHa'" once.
-                // return;
-            // }
             // Log.d(TAG, "Found: " + this.toString());
+
+            // Determine if this is a number. Assume that a number is of the form "digit[modifier][suffix]",
+            // where digit is {wa'}, etc., modifier is a power of ten such as {maH}, and suffix is one of
+            // {-DIch} or {-logh}.
+            if (mIsNoun) {
+
+                // Check for {-DIch} or {-logh}.
+                String numberRoot = mUnparsedPart;
+                if (mUnparsedPart.endsWith("DIch") || (isBareWord() && mUnparsedPart.endsWith("logh"))) {
+                    int rootLength = mUnparsedPart.length() - 4;
+                    numberRoot = mUnparsedPart.substring(0, rootLength);
+                    mNumberSuffix = mUnparsedPart.substring(rootLength);
+                }
+
+                // Count from 1, since 0 corresponds to no modifier.
+                for (int i = 1; i < numberModifierString.length; i++) {
+                    if (numberRoot.endsWith(numberModifierString[i])) {
+                        mNumberModifier = i;
+                        numberRoot = numberRoot.substring(0, numberRoot.length() - numberModifierString[i].length());
+                        break;
+                    }
+                }
+                // Count from 1, since 0 corresponds to no digit.
+                for (int j = 1; j < numberDigitString.length; j++) {
+                    if (numberRoot.equals(numberDigitString[j])) {
+                        // Found a digit, so this is a number.
+                        mNumberDigit = j;
+                        break;
+                    }
+                }
+            }
+
+            // Add this complex word.
             complexWordsList.add(this);
         }
 
     }
 
     // Attempt to parse this complex word, and if successful, add it to the given set.
-    public static void parse(String candidate, boolean isNoun, ArrayList<ComplexWord> complexWordsList) {
+    public static void parseComplexWord(String candidate, boolean isNoun, ArrayList<ComplexWord> complexWordsList) {
         ComplexWord complexWord = new ComplexWord(candidate, isNoun);
         // Log.d(TAG, "parsing = " + candidate + " (" + (isNoun ? "n" : "v") + ")");
         if (!isNoun) {
@@ -1571,6 +1649,7 @@ public class KlingonContentProvider extends ContentProvider {
             // Attempt to get the verb root of this word if it's a noun.
             complexWord = complexWord.getVerbRootIfNoun();
             if (complexWord == null) {
+                // No further verb root, so we're done with this complex word.
                 return;
             }
         }

@@ -104,7 +104,7 @@ public class KlingonContentDatabase {
 
     // This should be kept in sync with the version number in the database
     // entry {boQwI':n}.
-    private static final int DATABASE_VERSION = 201301155;
+    private static final int DATABASE_VERSION = 201301200;
 
     private final KlingonDatabaseOpenHelper mDatabaseOpenHelper;
     private static final HashMap<String,String> mColumnMap = buildColumnMap();
@@ -240,9 +240,9 @@ public class KlingonContentDatabase {
     }
 
     /**
-     * Returns a Cursor over all entries that match the given query
+     * Returns a Cursor over all entries that match the given query.
      *
-     * @param query The query, including entry name and metadata, to search for
+     * @param query The query, including entry name and metadata, to search for.
      * @return Cursor over all entries that match, or null if none found.
      */
     public Cursor getEntryMatches(String query) {
@@ -350,7 +350,7 @@ public class KlingonContentDatabase {
                 // satisfies certain requirements.
                 if (!filter || queryEntry.isSatisfiedBy(resultEntry)) {
                     // Prevent duplicates.
-                    Object[] entryObject = convertEntryToCursorRow(resultEntry);
+                    Object[] entryObject = convertEntryToCursorRow(resultEntry, /* indent */ false);
                     Integer intId = new Integer(resultEntry.getId());
                     if (!destSet.contains(intId)) {
                         destSet.add(intId);
@@ -444,7 +444,7 @@ public class KlingonContentDatabase {
     }
 
     // Helper method to add one exact match to the results cursor.
-    private void addExactMatch(String query, KlingonContentProvider.Entry filterEntry, MatrixCursor resultsCursor) {
+    private void addExactMatch(String query, KlingonContentProvider.Entry filterEntry, MatrixCursor resultsCursor, boolean indent) {
         Cursor exactMatchesCursor = getExactMatches(query);
         // There must be a match.
         if (exactMatchesCursor == null || exactMatchesCursor.getCount() == 0) {
@@ -456,8 +456,8 @@ public class KlingonContentDatabase {
         do {
             KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(exactMatchesCursor, mContext);
             if (filterEntry.isSatisfiedBy(resultEntry)) {
-                Object[] verbPrefixObject = convertEntryToCursorRow(resultEntry);
-                resultsCursor.addRow(verbPrefixObject);
+                Object[] exactMatchObject = convertEntryToCursorRow(resultEntry, indent);
+                resultsCursor.addRow(exactMatchObject);
                 // Log.d(TAG, "added exact match to results: " + query);
                 // Only add each one once.
                 break;
@@ -488,12 +488,12 @@ public class KlingonContentDatabase {
                         compoundNoun += " " + words[k];
                     }
                     // Log.d(TAG, "parseQueryAsComplexWordOrSentence: compoundNoun = " + compoundNoun);
-                    KlingonContentProvider.parse(compoundNoun, /* isNoun */ true, complexWordsList);
+                    KlingonContentProvider.parseComplexWord(compoundNoun, /* isNoun */ true, complexWordsList);
                 }
 
                 // Next, try to parse this as a verb.
                 // Log.d(TAG, "parseQueryAsComplexWordOrSentence: verb = " + word);
-                KlingonContentProvider.parse(word, /* isNoun */ false, complexWordsList);
+                KlingonContentProvider.parseComplexWord(word, /* isNoun */ false, complexWordsList);
 
             }
         }
@@ -503,11 +503,11 @@ public class KlingonContentDatabase {
             KlingonContentProvider.Entry filterEntry = new KlingonContentProvider.Entry(complexWord.filter(), mContext);
             Cursor exactMatchesCursor = getExactMatches(complexWord.stem());
 
+            boolean stemAdded = false;
             if (exactMatchesCursor != null && exactMatchesCursor.getCount() != 0) {
                 // Log.d(TAG, "found stem = " + complexWord.stem());
 
                 // Add all exact matches for stem.
-                boolean stemAdded = false;
                 exactMatchesCursor.moveToFirst();
                 do {
                     KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(exactMatchesCursor, mContext);
@@ -527,50 +527,74 @@ public class KlingonContentDatabase {
                     }
                 } while (exactMatchesCursor.moveToNext());
                 exactMatchesCursor.close();
+            } 
+            
+            // Whether or not there was an exact match, if the complex word is a number, add its components.
+            if (complexWord.isNumber()) {
+                String numberDigit = complexWord.getNumberDigit();
+                String numberModifier = complexWord.getNumberModifier();
+                String numberSuffix = complexWord.getNumberSuffix();
 
-                // Now add all affixes, but only if one of the corresponding stems was a legitimate entry.
-                if (stemAdded) {
-                    // Add the verb prefix.
-                    String prefix = complexWord.getVerbPrefix();
-                    if (!prefix.equals("")) {
-                        // Log.d(TAG, "verb prefix = " + prefix);
-                        filterEntry = new KlingonContentProvider.Entry(prefix + ":v", mContext);
-                        addExactMatch(prefix, filterEntry, resultsCursor);
-                    }
+                // First, add the digit as a word.
+                filterEntry = new KlingonContentProvider.Entry(numberDigit + ":n:num", mContext);
+                addExactMatch(numberDigit, filterEntry, resultsCursor, /* indent */ false);
+                stemAdded = true;
 
-                    // Add verb suffixes.  Verb suffixes must go before noun suffixes since two of them
-                    // can turn a verb into a noun.
-                    // For purposes of analysis, pronouns are also verbs, but they cannot have prefixes.
-                    String[] verbSuffixes = complexWord.getVerbSuffixes();
-                    for (int j = 0; j < verbSuffixes.length; j++) {
-                        // Check for the true rovers.
-                        String[] rovers = complexWord.getRovers(j);
-                        for (String rover : rovers) {
-                            filterEntry = new KlingonContentProvider.Entry(rover + ":v:suff", mContext);
-                            addExactMatch(rover, filterEntry, resultsCursor);
-                        }
+                // Next, add the modifier as a word.
+                if (!numberModifier.equals("")) {
+                    filterEntry = new KlingonContentProvider.Entry(numberModifier + ":n:num", mContext);
+                    addExactMatch(numberModifier, filterEntry, resultsCursor, /* indent */ true);
+                }
 
-                        // Check verb suffix of the current type.
-                        if (!verbSuffixes[j].equals("")) {
-                            // Log.d(TAG, "verb suffix = " + verbSuffixes[j]);
-                            filterEntry = new KlingonContentProvider.Entry(verbSuffixes[j] + ":v:suff", mContext);
-                            addExactMatch(verbSuffixes[j], filterEntry, resultsCursor);
-                        }
-                    }
-
-                    // Add noun suffixes.
-                    String[] nounSuffixes = complexWord.getNounSuffixes();
-                    for (int j = 0; j < nounSuffixes.length; j++) {
-                        if (!nounSuffixes[j].equals("")) {
-                            // Log.d(TAG, "noun suffix = " + nounSuffixes[j]);
-                            filterEntry = new KlingonContentProvider.Entry(nounSuffixes[j] + ":n:suff", mContext);
-                            addExactMatch(nounSuffixes[j], filterEntry, resultsCursor);
-                        }
-                    }
-
+                // Finally, add the number suffix.
+                if (!numberSuffix.equals("")) {
+                    numberSuffix = "-" + numberSuffix;
+                    filterEntry = new KlingonContentProvider.Entry(numberSuffix + ":n:num,suff", mContext);
+                    addExactMatch(numberSuffix, filterEntry, resultsCursor, /* indent */ true);
                 }
             }
-        }
+
+            // Now add all affixes, but only if one of the corresponding stems was a legitimate entry.
+            if (stemAdded) {
+                // Add the verb prefix.
+                String prefix = complexWord.getVerbPrefix();
+                if (!prefix.equals("")) {
+                    // Log.d(TAG, "verb prefix = " + prefix);
+                    filterEntry = new KlingonContentProvider.Entry(prefix + ":v:pref", mContext);
+                    addExactMatch(prefix, filterEntry, resultsCursor, /* indent */ true);
+                }
+
+                // Add verb suffixes.  Verb suffixes must go before noun suffixes since two of them
+                // can turn a verb into a noun.
+                // For purposes of analysis, pronouns are also verbs, but they cannot have prefixes.
+                String[] verbSuffixes = complexWord.getVerbSuffixes();
+                for (int j = 0; j < verbSuffixes.length; j++) {
+                    // Check for the true rovers.
+                    String[] rovers = complexWord.getRovers(j);
+                    for (String rover : rovers) {
+                        filterEntry = new KlingonContentProvider.Entry(rover + ":v:suff", mContext);
+                        addExactMatch(rover, filterEntry, resultsCursor, /* indent */ true);
+                    }
+
+                    // Check verb suffix of the current type.
+                    if (!verbSuffixes[j].equals("")) {
+                        // Log.d(TAG, "verb suffix = " + verbSuffixes[j]);
+                        filterEntry = new KlingonContentProvider.Entry(verbSuffixes[j] + ":v:suff", mContext);
+                        addExactMatch(verbSuffixes[j], filterEntry, resultsCursor, /* indent */ true);
+                    }
+                }
+
+                // Add noun suffixes.
+                String[] nounSuffixes = complexWord.getNounSuffixes();
+                for (int j = 0; j < nounSuffixes.length; j++) {
+                    if (!nounSuffixes[j].equals("")) {
+                        // Log.d(TAG, "noun suffix = " + nounSuffixes[j]);
+                        filterEntry = new KlingonContentProvider.Entry(nounSuffixes[j] + ":n:suff", mContext);
+                        addExactMatch(nounSuffixes[j], filterEntry, resultsCursor, /* indent */ true);
+                    }
+                }
+            }
+        }  // loop over complexWordsList
     }
 
     private Object[] complexWordCursorRow(KlingonContentProvider.Entry entry, KlingonContentProvider.ComplexWord complexWord) {
@@ -593,11 +617,11 @@ public class KlingonContentDatabase {
         };
     }
 
-    private Object[] convertEntryToCursorRow(KlingonContentProvider.Entry entry) {
+    private Object[] convertEntryToCursorRow(KlingonContentProvider.Entry entry, boolean indent) {
         return new Object[] {
             entry.getId(),
             entry.getEntryName(),
-            entry.getPartOfSpeech(),
+            entry.getPartOfSpeech() + (indent ? ",indent" : ""),
             entry.getDefinition(),
             entry.getSynonyms(),
             entry.getAntonyms(),
