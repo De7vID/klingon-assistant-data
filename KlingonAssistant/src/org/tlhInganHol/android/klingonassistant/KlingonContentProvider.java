@@ -1594,6 +1594,7 @@ public class KlingonContentProvider extends ContentProvider {
 
                 // Check for {-DIch} or {-logh}.
                 String numberRoot = mUnparsedPart;
+                // TODO: Make this take "xifan hol" mode into account.
                 if (mUnparsedPart.endsWith("DIch") || (isBareWord() && mUnparsedPart.endsWith("logh"))) {
                     int rootLength = mUnparsedPart.length() - 4;
                     numberRoot = mUnparsedPart.substring(0, rootLength);

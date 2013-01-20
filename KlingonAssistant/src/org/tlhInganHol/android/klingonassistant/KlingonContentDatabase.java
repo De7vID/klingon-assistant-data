@@ -533,7 +533,7 @@ public class KlingonContentDatabase {
             if (complexWord.isNumber()) {
                 String numberDigit = complexWord.getNumberDigit();
                 String numberModifier = complexWord.getNumberModifier();
-                String numberSuffix = "-" + complexWord.getNumberSuffix();
+                String numberSuffix = complexWord.getNumberSuffix();
 
                 // First, add the digit as a word.
                 filterEntry = new KlingonContentProvider.Entry(numberDigit + ":n:num", mContext);
@@ -543,11 +543,12 @@ public class KlingonContentDatabase {
                 // Next, add the modifier as a word.
                 if (!numberModifier.equals("")) {
                     filterEntry = new KlingonContentProvider.Entry(numberModifier + ":n:num", mContext);
-                    addExactMatch(numberModifier, filterEntry, resultsCursor, /* indent */ false);
+                    addExactMatch(numberModifier, filterEntry, resultsCursor, /* indent */ true);
                 }
 
                 // Finally, add the number suffix.
                 if (!numberSuffix.equals("")) {
+                    numberSuffix = "-" + numberSuffix;
                     filterEntry = new KlingonContentProvider.Entry(numberSuffix + ":n:num,suff", mContext);
                     addExactMatch(numberSuffix, filterEntry, resultsCursor, /* indent */ true);
                 }
