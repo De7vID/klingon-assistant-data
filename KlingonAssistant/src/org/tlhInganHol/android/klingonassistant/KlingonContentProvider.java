@@ -1587,15 +1587,18 @@ public class KlingonContentProvider extends ContentProvider {
             }
             // Log.d(TAG, "Found: " + this.toString());
 
-            // Determine if this is a number.
-            if (mIsNoun &&
-                (mUnparsedPart.endsWith("DIch") ||
-                (isBareWord() && mUnparsedPart.endsWith("logh")))) {
+            // Determine if this is a number. Assume that a number is of the form "digit[modifier][suffix]",
+            // where digit is {wa'}, etc., modifier is a power of ten such as {maH}, and suffix is one of
+            // {-DIch} or {-logh}.
+            if (mIsNoun) {
 
-                // Yes, get the parts.
-                int rootLength = mUnparsedPart.length() - 4;
-                String numberRoot = mUnparsedPart.substring(0, rootLength);
-                mNumberSuffix = mUnparsedPart.substring(rootLength);
+                // Check for {-DIch} or {-logh}.
+                String numberRoot = mUnparsedPart;
+                if (mUnparsedPart.endsWith("DIch") || (isBareWord() && mUnparsedPart.endsWith("logh"))) {
+                    int rootLength = mUnparsedPart.length() - 4;
+                    numberRoot = mUnparsedPart.substring(0, rootLength);
+                    mNumberSuffix = mUnparsedPart.substring(rootLength);
+                }
 
                 // Count from 1, since 0 corresponds to no modifier.
                 for (int i = 1; i < numberModifierString.length; i++) {
@@ -1607,7 +1610,8 @@ public class KlingonContentProvider extends ContentProvider {
                 }
                 // Count from 1, since 0 corresponds to no digit.
                 for (int j = 1; j < numberDigitString.length; j++) {
-                    if (numberRoot.endsWith(numberDigitString[j])) {
+                    if (numberRoot.equals(numberDigitString[j])) {
+                        // Found a digit, so this is a number.
                         mNumberDigit = j;
                         break;
                     }
