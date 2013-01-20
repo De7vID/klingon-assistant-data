@@ -488,12 +488,12 @@ public class KlingonContentDatabase {
                         compoundNoun += " " + words[k];
                     }
                     // Log.d(TAG, "parseQueryAsComplexWordOrSentence: compoundNoun = " + compoundNoun);
-                    KlingonContentProvider.parse(compoundNoun, /* isNoun */ true, complexWordsList);
+                    KlingonContentProvider.parseComplexWord(compoundNoun, /* isNoun */ true, complexWordsList);
                 }
 
                 // Next, try to parse this as a verb.
                 // Log.d(TAG, "parseQueryAsComplexWordOrSentence: verb = " + word);
-                KlingonContentProvider.parse(word, /* isNoun */ false, complexWordsList);
+                KlingonContentProvider.parseComplexWord(word, /* isNoun */ false, complexWordsList);
 
             }
         }

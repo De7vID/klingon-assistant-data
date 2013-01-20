@@ -1525,7 +1525,7 @@ public class KlingonContentProvider extends ContentProvider {
 
         public ComplexWord getVerbRootIfNoun() {
             if (!mIsNoun || !hasNoMoreSuffixes()) {
-                // Should never be reached.
+                // Should never be reached if there are still suffixes remaining.
                 return null;
             }
             // Log.d(TAG, "getVerbRootIfNoun on: " + mUnparsedPart);
@@ -1542,28 +1542,32 @@ public class KlingonContentProvider extends ContentProvider {
             return null;
         }
 
-
+        // Add this complex word to the list.
         private void addSelf(ArrayList<ComplexWord> complexWordsList) {
             if (!hasNoMoreSuffixes()) {
                 // This point should never be reached.
                 Log.e(TAG, "addSelf called on " + mUnparsedPart + " with suffix level " + mSuffixLevel + ".");
                 return;
             }
-            // if (isBareWord()) {
-                // This is not a complex word, do nothing.
-                // TODO: Fix this bug.
-                // Problem: "batlh bIHeghjaj" should display "batlh".
-                // But: "tuQHa'" should display "tuQHa'" once.
-                // return;
-            // }
             // Log.d(TAG, "Found: " + this.toString());
             complexWordsList.add(this);
+
+            // TODO: Handle numbers here?
+            /*
+            if (mIsNoun &&
+                (mUnparsedPart.endsWith("DIch") ||
+                (isBareWord() && mUnparsedPart.endsWith("logh"))) {
+                rootLength = mUnparsedPart.length() - 4;
+                numberRoot = mUnparsedPart.substring(0, rootLength);
+                numberSuffix = mUnparsedPart.substring(rootLength);
+            }
+            */
         }
 
     }
 
     // Attempt to parse this complex word, and if successful, add it to the given set.
-    public static void parse(String candidate, boolean isNoun, ArrayList<ComplexWord> complexWordsList) {
+    public static void parseComplexWord(String candidate, boolean isNoun, ArrayList<ComplexWord> complexWordsList) {
         ComplexWord complexWord = new ComplexWord(candidate, isNoun);
         // Log.d(TAG, "parsing = " + candidate + " (" + (isNoun ? "n" : "v") + ")");
         if (!isNoun) {
@@ -1587,6 +1591,7 @@ public class KlingonContentProvider extends ContentProvider {
             // Attempt to get the verb root of this word if it's a noun.
             complexWord = complexWord.getVerbRootIfNoun();
             if (complexWord == null) {
+                // No further verb root, so we're done with this complex word.
                 return;
             }
         }
