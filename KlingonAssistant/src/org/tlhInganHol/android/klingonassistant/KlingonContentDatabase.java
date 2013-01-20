@@ -527,6 +527,30 @@ public class KlingonContentDatabase {
                     }
                 } while (exactMatchesCursor.moveToNext());
                 exactMatchesCursor.close();
+            } 
+            
+            // Whether or not there was an exact match, if the complex word is a number, add its components.
+            if (complexWord.isNumber()) {
+                String numberDigit = complexWord.getNumberDigit();
+                String numberModifier = complexWord.getNumberModifier();
+                String numberSuffix = "-" + complexWord.getNumberSuffix();
+
+                // First, add the digit as a word.
+                filterEntry = new KlingonContentProvider.Entry(numberDigit + ":n:num", mContext);
+                addExactMatch(numberDigit, filterEntry, resultsCursor, /* indent */ false);
+                stemAdded = true;
+
+                // Next, add the modifier as a word.
+                if (!numberModifier.equals("")) {
+                    filterEntry = new KlingonContentProvider.Entry(numberModifier + ":n:num", mContext);
+                    addExactMatch(numberModifier, filterEntry, resultsCursor, /* indent */ false);
+                }
+
+                // Finally, add the number suffix.
+                if (!numberSuffix.equals("")) {
+                    filterEntry = new KlingonContentProvider.Entry(numberSuffix + ":n:num,suff", mContext);
+                    addExactMatch(numberSuffix, filterEntry, resultsCursor, /* indent */ true);
+                }
             }
 
             // Now add all affixes, but only if one of the corresponding stems was a legitimate entry.

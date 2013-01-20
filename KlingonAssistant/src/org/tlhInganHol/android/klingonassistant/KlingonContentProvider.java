@@ -1227,8 +1227,11 @@ public class KlingonContentProvider extends ContentProvider {
             "", "wa'", "cha'", "wej", "loS", "vagh", "jav", "Soch", "chorgh", "Hut"
         };
         static String[] numberModifierString = {
-            "maH", "vatlh", "SaD", "SanID", "netlh", "bIp", "'uy'"
+            "", "maH", "vatlh", "SaD", "SanID", "netlh", "bIp", "'uy'"
         };
+        int mNumberDigit;
+        int mNumberModifier;
+        String mNumberSuffix;
 
         // The locations of the true rovers.  The value indicates the suffix type they appear after,
         // so 0 means they are attached directly to the verb (before any type 1 suffix).
@@ -1273,6 +1276,11 @@ public class KlingonContentProvider extends ContentProvider {
             mVerbTypeRNegation = -1;
             mVerbTypeREmphatic = -1;
             roverOrderNegationBeforeEmphatic = false;
+
+            // Number parts.
+            mNumberDigit = 0;
+            mNumberModifier = 0;
+            mNumberSuffix = "";
         }
 
         /**
@@ -1294,6 +1302,9 @@ public class KlingonContentProvider extends ContentProvider {
             mVerbTypeRNegation = complexWordToCopy.mVerbTypeRNegation;
             mVerbTypeREmphatic = complexWordToCopy.mVerbTypeREmphatic;
             roverOrderNegationBeforeEmphatic = complexWordToCopy.roverOrderNegationBeforeEmphatic;
+            mNumberDigit = complexWordToCopy.mNumberDigit;
+            mNumberModifier = complexWordToCopy.mNumberModifier;
+            mNumberSuffix = complexWordToCopy.mNumberSuffix;
         }
 
         public ComplexWord stripPrefix() {
@@ -1411,6 +1422,11 @@ public class KlingonContentProvider extends ContentProvider {
             return true;
         }
 
+        public boolean isNumber() {
+            // A complex word is a number if it's a noun and the root contains a digit.
+            return mIsNoun && (mNumberDigit != 0);
+        }
+
         private boolean noNounSuffixesFound() {
             for (int i = 0; i < mNounSuffixes.length; i++) {
                 if (mNounSuffixes[i] != 0) {
@@ -1471,6 +1487,21 @@ public class KlingonContentProvider extends ContentProvider {
                 suffixes[i] = (mNounSuffixes[i] == 0 ? "" : "-") + nounSuffixesStrings[i][mNounSuffixes[i]];
             }
             return suffixes;
+        }
+
+        // Get the number digit for a number.
+        public String getNumberDigit() {
+            return numberDigitString[mNumberDigit];
+        }
+
+        // Get the number modifier for a number.
+        public String getNumberModifier() {
+            return numberModifierString[mNumberModifier];
+        }
+
+        // Get the number suffix ("DIch" or "logh") for a number.
+        public String getNumberSuffix() {
+            return mNumberSuffix;
         }
 
         // Get the rovers at a given suffix level.
@@ -1555,18 +1586,36 @@ public class KlingonContentProvider extends ContentProvider {
                 return;
             }
             // Log.d(TAG, "Found: " + this.toString());
-            complexWordsList.add(this);
 
-            // TODO: Handle numbers here?
-            /*
+            // Determine if this is a number.
             if (mIsNoun &&
                 (mUnparsedPart.endsWith("DIch") ||
-                (isBareWord() && mUnparsedPart.endsWith("logh"))) {
-                rootLength = mUnparsedPart.length() - 4;
-                numberRoot = mUnparsedPart.substring(0, rootLength);
-                numberSuffix = mUnparsedPart.substring(rootLength);
+                (isBareWord() && mUnparsedPart.endsWith("logh")))) {
+
+                // Yes, get the parts.
+                int rootLength = mUnparsedPart.length() - 4;
+                String numberRoot = mUnparsedPart.substring(0, rootLength);
+                mNumberSuffix = mUnparsedPart.substring(rootLength);
+
+                // Count from 1, since 0 corresponds to no modifier.
+                for (int i = 1; i < numberModifierString.length; i++) {
+                    if (numberRoot.endsWith(numberModifierString[i])) {
+                        mNumberModifier = i;
+                        numberRoot = numberRoot.substring(0, numberRoot.length() - numberModifierString[i].length());
+                        break;
+                    }
+                }
+                // Count from 1, since 0 corresponds to no digit.
+                for (int j = 1; j < numberDigitString.length; j++) {
+                    if (numberRoot.endsWith(numberDigitString[j])) {
+                        mNumberDigit = j;
+                        break;
+                    }
+                }
             }
-            */
+
+            // Add this complex word.
+            complexWordsList.add(this);
         }
 
     }
