@@ -1139,9 +1139,6 @@ public class KlingonContentProvider extends ContentProvider {
     public static class ComplexWord {
         String TAG = "KlingonContentProvider.ComplexWord";
 
-        // The stem of this complex word.
-        // private Entry stemEntry = null;
-
         // The noun suffixes.
         static String[] nounType1String = {
             "", "'a'", "Hom", "oy"
@@ -1224,6 +1221,14 @@ public class KlingonContentProvider extends ContentProvider {
         };
         int mVerbPrefix;
         int mVerbSuffixes[] = new int[verbSuffixesStrings.length];
+
+        static String[] numberDigitString = {
+            // {pagh} is excluded because it should normally not form part of a number with modifiers. 
+            "", "wa'", "cha'", "wej", "loS", "vagh", "jav", "Soch", "chorgh", "Hut"
+        };
+        static String[] numberModifierString = {
+            "maH", "vatlh", "SaD", "SanID", "netlh", "bIp", "'uy'"
+        };
 
         // The locations of the true rovers.  The value indicates the suffix type they appear after,
         // so 0 means they are attached directly to the verb (before any type 1 suffix).
