@@ -302,18 +302,18 @@ public class EntryActivity extends SherlockActivity {
             // Set the font and link.
             // TODO: Source should link to description of the source.
             // This is true if this entry doesn't launch an EntryActivity.
-            boolean disableEntryLink = linkedEntry.doNotLink() || linkedEntry.isSource();
+            boolean disableEntryLink = linkedEntry.doNotLink() || linkedEntry.isSource() || linkedEntry.isURL();
             // The last span set on a range must have finalFlags.
             int maybeFinalFlags = disableEntryLink ? finalFlags : intermediateFlags;
             if (linkedEntry.isSource()) {
-                // Linkify URL if there is one.
-                String url = linkedEntry.getSourceURL();
-                if (!url.equals("")) {
-                    ssb.setSpan(new URLSpan(url), m.start(), end, intermediateFlags);
-                }
                 // Names of sources are in italics.
-                // TODO: Unless they're email addresses or web links.
                 ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC), m.start(), end, maybeFinalFlags);
+            } else if (linkedEntry.isURL()) {
+                // Linkify URL if there is one.
+                String url = linkedEntry.getURL();
+                if (!url.equals("")) {
+                    ssb.setSpan(new URLSpan(url), m.start(), end, maybeFinalFlags);
+                }
             } else {
                 // Klingon is in bold serif.
                 ssb.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), m.start(), end, intermediateFlags);

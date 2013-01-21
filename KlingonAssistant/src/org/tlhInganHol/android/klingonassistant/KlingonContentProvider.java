@@ -310,10 +310,11 @@ public class KlingonContentProvider extends ContentProvider {
             SENTENCE,
             EXCLAMATION,
             SOURCE,
+            URL,
             UNKNOWN
         }
         private String[] basePartOfSpeechAbbreviations = {
-            "n", "v", "adv", "conj", "ques", "sen", "excl", "src", "???"
+            "n", "v", "adv", "conj", "ques", "sen", "excl", "src", "url", "???"
         };
         private BasePartOfSpeechEnum mBasePartOfSpeech = BasePartOfSpeechEnum.UNKNOWN;
 
@@ -579,7 +580,7 @@ public class KlingonContentProvider extends ContentProvider {
                     mHomophoneNumber = 4;
 
                 // If this is a source, the attribute is a URL.
-                } else if (isSource()) {
+                } else if (isURL()) {
                     mSourceURL = attr;
 
                 // No match to attributes.
@@ -722,10 +723,11 @@ public class KlingonContentProvider extends ContentProvider {
 
         // Return the part of speech in brackets, but only for some cases.
         public String getBracketedPartOfSpeech(boolean isHtml) {
-            // Return abbreviation for part of speech, but suppress for sentences and exclamations.
+            // Return abbreviation for part of speech, but suppress for sentences, exclamations, etc.
             if (mBasePartOfSpeech == BasePartOfSpeechEnum.SENTENCE ||
                 mBasePartOfSpeech == BasePartOfSpeechEnum.EXCLAMATION ||
                 mBasePartOfSpeech == BasePartOfSpeechEnum.SOURCE ||
+                mBasePartOfSpeech == BasePartOfSpeechEnum.URL ||
                 mBasePartOfSpeech == BasePartOfSpeechEnum.UNKNOWN ||
                 (mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN && mNounType == NounType.NAME)) {
               return "";
@@ -889,7 +891,11 @@ public class KlingonContentProvider extends ContentProvider {
             return mBasePartOfSpeech == BasePartOfSpeechEnum.SOURCE;
         }
 
-        public String getSourceURL() {
+        public boolean isURL() {
+            return mBasePartOfSpeech == BasePartOfSpeechEnum.URL;
+        }
+
+        public String getURL() {
             return mSourceURL;
         }
 
