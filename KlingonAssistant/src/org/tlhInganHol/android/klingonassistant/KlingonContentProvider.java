@@ -1617,6 +1617,11 @@ public class KlingonContentProvider extends ContentProvider {
                     }
                 }
             }
+            // If there is no modifier or suffix, then ignore this as the bare
+            // digit word will already be added.
+            if (mNumberModifier == 0 && mNumberSuffix.equals("")) {
+                mNumberDigit = 0;
+            }
 
             // Add this complex word.
             complexWordsList.add(this);
