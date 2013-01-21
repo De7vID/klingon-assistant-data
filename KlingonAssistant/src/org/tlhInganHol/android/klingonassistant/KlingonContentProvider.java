@@ -276,7 +276,7 @@ public class KlingonContentProvider extends ContentProvider {
         String TAG = "KlingonContentProvider.Entry";
 
         // Pattern for matching entry in text.
-        public static Pattern ENTRY_PATTERN = Pattern.compile("\\{[A-Za-z0-9 '\\\":;,\\.\\-?!/()@=%&\\*]+\\}");
+        public static Pattern ENTRY_PATTERN = Pattern.compile("\\{[A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]+\\}");
 
         // Context.
         private Context mContext;
