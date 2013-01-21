@@ -276,7 +276,7 @@ public class KlingonContentProvider extends ContentProvider {
         String TAG = "KlingonContentProvider.Entry";
 
         // Pattern for matching entry in text.
-        public static Pattern ENTRY_PATTERN = Pattern.compile("\\{[A-Za-z0-9 '\\\":;,\\.\\-?!/()@=%&\\*]+\\}");
+        public static Pattern ENTRY_PATTERN = Pattern.compile("\\{[A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]+\\}");
 
         // Context.
         private Context mContext;
@@ -1616,6 +1616,11 @@ public class KlingonContentProvider extends ContentProvider {
                         break;
                     }
                 }
+            }
+            // If there is no modifier or suffix, then ignore this as the bare
+            // digit word will already be added.
+            if (mNumberModifier == 0 && mNumberSuffix.equals("")) {
+                mNumberDigit = 0;
             }
 
             // Add this complex word.
