@@ -311,6 +311,9 @@ public class KlingonContentDatabase {
                 addComplexWordToResults(currentComplexWord, resultsCursor, resultsSet);
             }
 
+            // Finally, add the complete query entry itself.
+            addExactMatch(queryBase, queryEntry, resultsCursor, /* indent */ false);
+
             // Since the components are in the db, do no further analysis.
             return resultsCursor;
         }
