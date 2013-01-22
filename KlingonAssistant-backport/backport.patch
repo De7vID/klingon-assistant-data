@@ -1,5 +1,5 @@
 diff --git a/res/menu/options_menu.xml b/res/menu/options_menu.xml
-index 4991cf3..06f2f11 100644
+index 714a056..b7033e3 100644
 --- a/res/menu/options_menu.xml
 +++ b/res/menu/options_menu.xml
 @@ -17,18 +17,11 @@
@@ -24,7 +24,7 @@ index 4991cf3..06f2f11 100644
      <item android:id="@+id/about"
          android:title="@string/menu_about" />
 diff --git a/res/menu/options_menu_tlh.xml b/res/menu/options_menu_tlh.xml
-index cc07e8d..a9f2a83 100644
+index 9d23ebc..1403766 100644
 --- a/res/menu/options_menu_tlh.xml
 +++ b/res/menu/options_menu_tlh.xml
 @@ -17,18 +17,11 @@
@@ -49,7 +49,7 @@ index cc07e8d..a9f2a83 100644
      <item android:id="@+id/about"
          android:title="@string/menu_about_tlh" />
 diff --git a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
-index b1cef5f..b9fb2c5 100644
+index 7815073..a776611 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 @@ -18,15 +18,14 @@ package org.tlhInganHol.android.klingonassistant;
@@ -94,15 +94,17 @@ index b1cef5f..b9fb2c5 100644
      // private static final String TAG = "EntryActivity";
  
      // This must uniquely identify the {boQwI'} entry.
-@@ -78,7 +74,6 @@ public class EntryActivity extends SherlockActivity {
+@@ -78,9 +74,6 @@ public class EntryActivity extends SherlockActivity {
      private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
      private static final String QUERY_FOR_JOKES = "*:sen:joke";
  
+-    // The intent holding the data to be shared.
 -    private Intent shareEntryIntent = null;
+-
+     // Used for analysis of entries with components.
+     private static final String COMPONENTS_MARKER = "//";
  
-     @Override
-     protected void onCreate(Bundle savedInstanceState) {
-@@ -86,11 +81,10 @@ public class EntryActivity extends SherlockActivity {
+@@ -90,11 +83,10 @@ public class EntryActivity extends SherlockActivity {
          setContentView(R.layout.entry);
          Resources resources = getResources();
  
@@ -117,7 +119,7 @@ index b1cef5f..b9fb2c5 100644
  
          // TODO: Save and restore bundle state to preserve links.
  
-@@ -130,8 +124,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -134,8 +126,7 @@ public class EntryActivity extends SherlockActivity {
              expandedDefinition += germanDefinitionHeader + definition_DE;
          }
  
@@ -127,7 +129,7 @@ index b1cef5f..b9fb2c5 100644
  
          // Show the basic notes.
          String notes = entry.getNotes();
-@@ -368,7 +361,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -376,7 +367,7 @@ public class EntryActivity extends SherlockActivity {
  
      @Override
      public boolean onCreateOptionsMenu(Menu menu) {
@@ -136,7 +138,7 @@ index b1cef5f..b9fb2c5 100644
          SharedPreferences sharedPrefs =
              PreferenceManager.getDefaultSharedPreferences(getBaseContext());
          if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-@@ -376,56 +369,17 @@ public class EntryActivity extends SherlockActivity {
+@@ -384,56 +375,17 @@ public class EntryActivity extends SherlockActivity {
          } else {
              inflater.inflate(R.menu.options_menu, menu);
          }

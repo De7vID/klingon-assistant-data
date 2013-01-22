@@ -74,6 +74,8 @@ public class EntryActivity extends Activity {
     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
     private static final String QUERY_FOR_JOKES = "*:sen:joke";
 
+    // Used for analysis of entries with components.
+    private static final String COMPONENTS_MARKER = "//";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -157,7 +159,8 @@ public class EntryActivity extends Activity {
             expandedDefinition += "\n\n" + resources.getString(R.string.label_see_also) + ": " + seeAlso;
         }
 
-        // Display components if that field is not empty.
+        // Display components if that field is not empty, unless we are showing an analysis link, in which case we want to hide the components.
+        boolean showAnalysis = entry.isSentence() || entry.isDerivative();
         String components = entry.getComponents();
         if (!components.equals(""))  {
             // Treat the components column of inherent plurals and their
@@ -166,7 +169,7 @@ public class EntryActivity extends Activity {
                 expandedDefinition += "\n\n" + String.format(resources.getString(R.string.info_inherent_plural), components);
             } else if (entry.isSingularFormOfInherentPlural()) {
                 expandedDefinition += "\n\n" + String.format(resources.getString(R.string.info_singular_form), components);
-            } else {
+            } else if (!showAnalysis) {
                 // This is just a regular list of components.
                 expandedDefinition += "\n\n" + getResources().getString(R.string.label_components) + ": " + components;
             }
@@ -182,7 +185,6 @@ public class EntryActivity extends Activity {
         }
 
         // If the entry is a useful phrase, link back to its category.
-        // TODO: Actually create the link.
         if (entry.isSentence()) {
           String sentenceType = entry.getSentenceType();
           if (!sentenceType.equals("")) {
@@ -192,9 +194,13 @@ public class EntryActivity extends Activity {
         }
 
         // If the entry is a sentence, make a link to analyse its components.
-        if (entry.isSentence() || entry.isDerivative()) {
-            // TODO: If components is not empty, use that information.
-            expandedDefinition += "\n\n" + resources.getString(R.string.label_analyze) + ": {" + entry.getEntryName() + "}";
+        if (showAnalysis) {
+            String analysisQuery = entry.getEntryName();
+            if (!components.equals("")) {
+                // Strip the brackets around each component so they won't be processed.
+                analysisQuery += COMPONENTS_MARKER + components.replaceAll("[{}]", "");
+            }
+            expandedDefinition += "\n\n" + resources.getString(R.string.label_analyze) + ": {" + analysisQuery + "}";
         }
 
         // Show the examples.
@@ -277,7 +283,7 @@ public class EntryActivity extends Activity {
                 getBaseContext());
             // Log.d(TAG, "linkedEntry.getEntryName() = " + linkedEntry.getEntryName());
 
-            // Delete the brackets and metadata parts of the string.
+            // Delete the brackets and metadata parts of the string (which includes analysis components).
             ssb.delete(m.start() + 1 + linkedEntry.getEntryName().length(), m.end());
             ssb.delete(m.start(), m.start() + 1);
             int end = m.start() + linkedEntry.getEntryName().length();
@@ -295,18 +301,18 @@ public class EntryActivity extends Activity {
             // Set the font and link.
             // TODO: Source should link to description of the source.
             // This is true if this entry doesn't launch an EntryActivity.
-            boolean disableEntryLink = linkedEntry.doNotLink() || linkedEntry.isSource();
+            boolean disableEntryLink = linkedEntry.doNotLink() || linkedEntry.isSource() || linkedEntry.isURL();
             // The last span set on a range must have finalFlags.
             int maybeFinalFlags = disableEntryLink ? finalFlags : intermediateFlags;
             if (linkedEntry.isSource()) {
-                // Linkify URL if there is one.
-                String url = linkedEntry.getSourceURL();
-                if (!url.equals("")) {
-                    ssb.setSpan(new URLSpan(url), m.start(), end, intermediateFlags);
-                }
                 // Names of sources are in italics.
-                // TODO: Unless they're email addresses or web links.
                 ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC), m.start(), end, maybeFinalFlags);
+            } else if (linkedEntry.isURL()) {
+                // Linkify URL if there is one.
+                String url = linkedEntry.getURL();
+                if (!url.equals("")) {
+                    ssb.setSpan(new URLSpan(url), m.start(), end, maybeFinalFlags);
+                }
             } else {
                 // Klingon is in bold serif.
                 ssb.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), m.start(), end, intermediateFlags);

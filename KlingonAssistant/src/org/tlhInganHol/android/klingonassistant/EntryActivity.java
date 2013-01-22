@@ -78,7 +78,11 @@ public class EntryActivity extends SherlockActivity {
     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
     private static final String QUERY_FOR_JOKES = "*:sen:joke";
 
+    // The intent holding the data to be shared.
     private Intent shareEntryIntent = null;
+
+    // Used for analysis of entries with components.
+    private static final String COMPONENTS_MARKER = "//";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -164,7 +168,8 @@ public class EntryActivity extends SherlockActivity {
             expandedDefinition += "\n\n" + resources.getString(R.string.label_see_also) + ": " + seeAlso;
         }
 
-        // Display components if that field is not empty.
+        // Display components if that field is not empty, unless we are showing an analysis link, in which case we want to hide the components.
+        boolean showAnalysis = entry.isSentence() || entry.isDerivative();
         String components = entry.getComponents();
         if (!components.equals(""))  {
             // Treat the components column of inherent plurals and their
@@ -173,7 +178,7 @@ public class EntryActivity extends SherlockActivity {
                 expandedDefinition += "\n\n" + String.format(resources.getString(R.string.info_inherent_plural), components);
             } else if (entry.isSingularFormOfInherentPlural()) {
                 expandedDefinition += "\n\n" + String.format(resources.getString(R.string.info_singular_form), components);
-            } else {
+            } else if (!showAnalysis) {
                 // This is just a regular list of components.
                 expandedDefinition += "\n\n" + getResources().getString(R.string.label_components) + ": " + components;
             }
@@ -189,7 +194,6 @@ public class EntryActivity extends SherlockActivity {
         }
 
         // If the entry is a useful phrase, link back to its category.
-        // TODO: Actually create the link.
         if (entry.isSentence()) {
           String sentenceType = entry.getSentenceType();
           if (!sentenceType.equals("")) {
@@ -199,9 +203,13 @@ public class EntryActivity extends SherlockActivity {
         }
 
         // If the entry is a sentence, make a link to analyse its components.
-        if (entry.isSentence() || entry.isDerivative()) {
-            // TODO: If components is not empty, use that information.
-            expandedDefinition += "\n\n" + resources.getString(R.string.label_analyze) + ": {" + entry.getEntryName() + "}";
+        if (showAnalysis) {
+            String analysisQuery = entry.getEntryName();
+            if (!components.equals("")) {
+                // Strip the brackets around each component so they won't be processed.
+                analysisQuery += COMPONENTS_MARKER + components.replaceAll("[{}]", "");
+            }
+            expandedDefinition += "\n\n" + resources.getString(R.string.label_analyze) + ": {" + analysisQuery + "}";
         }
 
         // Show the examples.
@@ -284,7 +292,7 @@ public class EntryActivity extends SherlockActivity {
                 getBaseContext());
             // Log.d(TAG, "linkedEntry.getEntryName() = " + linkedEntry.getEntryName());
 
-            // Delete the brackets and metadata parts of the string.
+            // Delete the brackets and metadata parts of the string (which includes analysis components).
             ssb.delete(m.start() + 1 + linkedEntry.getEntryName().length(), m.end());
             ssb.delete(m.start(), m.start() + 1);
             int end = m.start() + linkedEntry.getEntryName().length();
