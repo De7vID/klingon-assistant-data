@@ -1938,7 +1938,7 @@ Similarly, the Terran months are:
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{tIq:n}, {-Daq:n}, {HoS:n}, {-na':n}, {tu'lu':v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKW p.23:src}</column>
@@ -3494,8 +3494,9 @@ The slang expression {qogh tuQmoHHa':sen}, literally "to take off one's belt", m
     </table>
     <table name="mem">
       <column name="_id">33345</column>
+      <!-- Treat {tu'lu'} as a derived verb, so it can be a component in analysis. -->
       <column name="entry_name">tu'lu'</column>
-      <column name="part_of_speech">sen:phr</column>
+      <column name="part_of_speech">v:deriv</column>
       <column name="definition">there is, there are</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
