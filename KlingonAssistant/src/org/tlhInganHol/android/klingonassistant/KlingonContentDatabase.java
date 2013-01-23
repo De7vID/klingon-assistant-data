@@ -278,7 +278,8 @@ public class KlingonContentDatabase {
                 if (!isSuffix && (!isVerb || currentPrefixEntry == null)) {
                     // A new word is about to begin, so flush a complex word if there is one.
                     if (currentComplexWord != null) {
-                        addComplexWordToResults(currentComplexWord, resultsCursor, resultsSet);
+                        // We set a strict match because this is information given explicitly in the db.
+                        addComplexWordToResults(currentComplexWord, resultsCursor, resultsSet, /* isLenient */ false);
                         currentComplexWord = null;
                     }
                 }
@@ -313,7 +314,7 @@ public class KlingonContentDatabase {
             }
             if (currentComplexWord != null) {
                 // Flush any outstanding word.
-                addComplexWordToResults(currentComplexWord, resultsCursor, resultsSet);
+                addComplexWordToResults(currentComplexWord, resultsCursor, resultsSet, /* isLenient */ false);
             }
 
             // Finally, add the complete query entry itself.
@@ -559,30 +560,16 @@ public class KlingonContentDatabase {
                 // Next, try to parse this as a verb.
                 // Log.d(TAG, "parseQueryAsComplexWordOrSentence: verb = " + word);
                 KlingonContentProvider.parseComplexWord(word, /* isNoun */ false, complexWordsList);
-
-                // And also try to add it as its own word (since it may be neither noun nor verb).
-                Cursor exactMatchesCursor = getExactMatches(word);
-                if (exactMatchesCursor != null && exactMatchesCursor.getCount() != 0) {
-                    exactMatchesCursor.moveToFirst();
-                    do {
-                        KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(exactMatchesCursor, mContext);
-                        if (!resultsSet.contains(resultEntry.getId())) {
-                            Object[] exactMatchObject = convertEntryToCursorRow(resultEntry, false);
-                            resultsCursor.addRow(exactMatchObject);
-                            resultsSet.add(resultEntry.getId());
-                        }
-                    } while (exactMatchesCursor.moveToNext());
-                    exactMatchesCursor.close();
-                }
             }
         }
         for (KlingonContentProvider.ComplexWord complexWord : complexWordsList) {
-            addComplexWordToResults(complexWord, resultsCursor, resultsSet);
+            // Be a little lenient and also match non-nouns and non-verbs.
+            addComplexWordToResults(complexWord, resultsCursor, resultsSet, /* isLenient */ true);
         }
     }
 
-    private void addComplexWordToResults(KlingonContentProvider.ComplexWord complexWord, MatrixCursor resultsCursor, HashSet<Integer> resultsSet) {
-        KlingonContentProvider.Entry filterEntry = new KlingonContentProvider.Entry(complexWord.filter(), mContext);
+    private void addComplexWordToResults(KlingonContentProvider.ComplexWord complexWord, MatrixCursor resultsCursor, HashSet<Integer> resultsSet, boolean isLenient) {
+        KlingonContentProvider.Entry filterEntry = new KlingonContentProvider.Entry(complexWord.filter(isLenient), mContext);
         Cursor exactMatchesCursor = getExactMatches(complexWord.stem());
 
         boolean stemAdded = false;

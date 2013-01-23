@@ -1514,7 +1514,12 @@ public class KlingonContentProvider extends ContentProvider {
         }
 
         // Used for telling stems of complex words apart.
-        public String filter() {
+        public String filter(boolean isLenient) {
+            if (isLenient && isBareWord()) {
+                // If isLenient is true, then also match non-nouns and non-verbs
+                // if there are no prefixes or suffixes.
+                return mUnparsedPart;
+            }
             return mUnparsedPart + ":" + (mIsNoun ? "n" : "v") + (mHomophoneNumber != -1 ? ":" + mHomophoneNumber : "");
         }
 
@@ -1615,6 +1620,31 @@ public class KlingonContentProvider extends ContentProvider {
             return suffixesString;
         }
 
+        public ComplexWord getBareVerbWithType5NounSuffix() {
+            if (mIsNoun || !isBareWord()) {
+                // This should never be reached.
+                return null;
+            }
+
+            // Count from 1 since 0 corresponds to no such suffix.
+            for (int i = 1; i < nounType5String.length; i++) {
+                if (mUnparsedPart.endsWith(nounType5String[i])) {
+                    String bareVerb = mUnparsedPart.substring(0, mUnparsedPart.length() - nounType5String[i].length());
+                    ComplexWord bareVerbWithType5NounSuffix = new ComplexWord(bareVerb, /* isNoun */ false);
+
+                    // Note that type 5 corresponds to index 4 since the array is 0-indexed.
+                    bareVerbWithType5NounSuffix.mNounSuffixes[4] = i;
+
+                    // Done processing.
+                    bareVerbWithType5NounSuffix.mSuffixLevel = 0;
+
+                    // Since none of the type 5 noun suffixes are a prefix of another, it's okay to return here.
+                    return bareVerbWithType5NounSuffix;
+                }
+            }
+            return null;
+        }
+
         public ComplexWord getVerbRootIfNoun() {
             if (!mIsNoun || !hasNoMoreSuffixes()) {
                 // Should never be reached if there are still suffixes remaining.
@@ -1626,7 +1656,7 @@ public class KlingonContentProvider extends ContentProvider {
             // Do this only if there were noun suffixes, since the bare noun will be analysed as a verb anyway.
             if (!noNounSuffixesFound() && (mUnparsedPart.endsWith("ghach") || mUnparsedPart.endsWith("wI'"))) {
                 // Log.d(TAG, "Creating verb from: " + mUnparsedPart);
-                ComplexWord complexVerb = new ComplexWord(mUnparsedPart, this);
+                ComplexWord complexVerb = new ComplexWord(mUnparsedPart, /* complexWordToCopy */ this);
                 complexVerb.mIsNoun = false;
                 complexVerb.mSuffixLevel = complexVerb.mVerbSuffixes.length;
                 return complexVerb;
@@ -1649,8 +1679,9 @@ public class KlingonContentProvider extends ContentProvider {
         // Attaches a suffix. Returns the level of the suffix attached.
         public int attachSuffix(String suffix, boolean isNounSuffix, int verbSuffixLevel) {
             // Note that when a complex word noun is formed from a verb with {-wI'} or {-ghach}, its
-            // stem is considered to be a verb. Noun suffixes can thus be attached to verbs.The
-            // isNounSuffix variable here indicates the type of the suffix, not the type of the stem.
+            // stem is considered to be a verb. Furthermore, an adjectival verb can take a type 5
+            // noun suffix. Noun suffixes can thus be attached to verbs. The isNounSuffix variable
+            // here indicates the type of the suffix, not the type of the stem.
 
             if (isNounSuffix) {
                 // This is a noun suffix. Iterate over noun suffix types.
@@ -1773,12 +1804,22 @@ public class KlingonContentProvider extends ContentProvider {
             // Log.d(TAG, "adding self: " + complexWord.mUnparsedPart);
             complexWord.addSelf(complexWordsList);
 
-            // Attempt to get the verb root of this word if it's a noun.
-            complexWord = complexWord.getVerbRootIfNoun();
+            if (complexWord.mIsNoun) {
+                // Attempt to get the verb root of this word if it's a noun.
+                complexWord = complexWord.getVerbRootIfNoun();
+            } else if (complexWord.isBareWord()) {
+                // Check for type 5 noun suffix on a bare verb.
+                complexWord = complexWord.getBareVerbWithType5NounSuffix();
+            } else {
+                // We're done.
+                complexWord = null;
+            }
+
             if (complexWord == null) {
-                // No further verb root, so we're done with this complex word.
+                // Not a noun or the noun has no further verb root, so we're done with this complex word.
                 return;
             }
+            // Note that at this point we continue with a newly created complex word.
         }
         if (BuildConfig.DEBUG) {
             Log.d(TAG, "stripSuffix " + (complexWord.mIsNoun ? "noun" : "verb") + " type " +
