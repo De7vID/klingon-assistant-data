@@ -1515,16 +1515,6 @@ public class KlingonContentProvider extends ContentProvider {
 
         // Used for telling stems of complex words apart.
         public String filter() {
-            // There is a problem here.
-            // If we match all on bare words, then:
-            //     {Hab SoSlI' Quch} - both {Quch:v} and {Quch:n} are returned.
-            // But if we don't, then:
-            //     {batlh bIHeghjaj} - both {batlh:adv} and {batlh:n} are returned.
-            // TODO: FIX THIS.
-            if (isBareWord()) {
-                // If there are no prefixes or suffixes, match any part of speech. 
-                return mUnparsedPart;
-            }
             return mUnparsedPart + ":" + (mIsNoun ? "n" : "v") + (mHomophoneNumber != -1 ? ":" + mHomophoneNumber : "");
         }
 

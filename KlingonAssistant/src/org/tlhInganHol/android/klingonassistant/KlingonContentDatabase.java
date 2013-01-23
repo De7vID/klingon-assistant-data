@@ -560,6 +560,20 @@ public class KlingonContentDatabase {
                 // Log.d(TAG, "parseQueryAsComplexWordOrSentence: verb = " + word);
                 KlingonContentProvider.parseComplexWord(word, /* isNoun */ false, complexWordsList);
 
+                // And also try to add it as its own word (since it may be neither noun nor verb).
+                Cursor exactMatchesCursor = getExactMatches(word);
+                if (exactMatchesCursor != null && exactMatchesCursor.getCount() != 0) {
+                    exactMatchesCursor.moveToFirst();
+                    do {
+                        KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(exactMatchesCursor, mContext);
+                        if (!resultsSet.contains(resultEntry.getId())) {
+                            Object[] exactMatchObject = convertEntryToCursorRow(resultEntry, false);
+                            resultsCursor.addRow(exactMatchObject);
+                            resultsSet.add(resultEntry.getId());
+                        }
+                    } while (exactMatchesCursor.moveToNext());
+                    exactMatchesCursor.close();
+                }
             }
         }
         for (KlingonContentProvider.ComplexWord complexWord : complexWordsList) {
