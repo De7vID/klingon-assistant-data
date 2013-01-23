@@ -1290,6 +1290,7 @@ public class KlingonContentProvider extends ContentProvider {
         boolean roverOrderNegationBeforeEmphatic;
 
         // Internal information related to processing the complex word candidate.
+        // TODO: There are few complex words which are neither nouns nor verbs, e.g., {batlhHa'}, {paghlogh}, {HochDIch}. Figure out how to deal with them.
         String mUnparsedPart;
         int mSuffixLevel;
         boolean mIsNoun;
