@@ -569,6 +569,7 @@ public class KlingonContentDatabase {
     }
 
     private void addComplexWordToResults(KlingonContentProvider.ComplexWord complexWord, MatrixCursor resultsCursor, HashSet<Integer> resultsSet, boolean isLenient) {
+        // The isLenient flag is for determining whether we are doing a real analysis (set to true), or whether the correct analysis has already been supplied in the components (set to false). When set to true, a bare word will match any part of speech (not just noun or verb). But for this reason, duplicates are removed (since there may be many of them). However, when set to false, duplicates will be kept (since the given correct analysis contains them).
         KlingonContentProvider.Entry filterEntry = new KlingonContentProvider.Entry(complexWord.filter(isLenient), mContext);
         Cursor exactMatchesCursor = getExactMatches(complexWord.stem());
 
@@ -586,7 +587,7 @@ public class KlingonContentDatabase {
 
                     // If this is a bare word, prevent duplicates.
                     Integer intId = new Integer(resultEntry.getId());
-                    if (!complexWord.isBareWord() || !resultsSet.contains(intId)) {
+                    if (!complexWord.isBareWord() || !resultsSet.contains(intId) || !isLenient) {
                         resultsCursor.addRow(exactMatchObject);
                         stemAdded = true;
                         if (complexWord.isBareWord()) {

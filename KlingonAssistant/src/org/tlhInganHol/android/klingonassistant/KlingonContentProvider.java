@@ -1627,6 +1627,7 @@ public class KlingonContentProvider extends ContentProvider {
             }
 
             // Count from 1 since 0 corresponds to no such suffix.
+            // Note that {-mo'} is both a type 5 noun suffix and a type 9 verb suffix.
             for (int i = 1; i < nounType5String.length; i++) {
                 if (mUnparsedPart.endsWith(nounType5String[i])) {
                     String bareVerb = mUnparsedPart.substring(0, mUnparsedPart.length() - nounType5String[i].length());
