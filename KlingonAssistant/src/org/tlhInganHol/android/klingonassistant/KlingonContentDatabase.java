@@ -297,6 +297,7 @@ public class KlingonContentDatabase {
                     currentPrefixEntry = componentEntry;
                 } else if (isNoun || isVerb) {
                     // Create a new complex word, so reset suffix level.
+                    // Note that this can be a noun, a verb, or an unattached suffix (like in the entry {...-Daq qaDor.}.
                     currentComplexWord = new KlingonContentProvider.ComplexWord(componentEntryName, isNoun);
                     currentComplexWord.setHomophoneNumber(componentEntry.getHomophoneNumber());
                     suffixLevel = 0;
