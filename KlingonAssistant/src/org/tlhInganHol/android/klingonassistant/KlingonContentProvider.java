@@ -38,7 +38,7 @@ import java.util.ArrayList;
  * Provides access to the dictionary database.
  */
 public class KlingonContentProvider extends ContentProvider {
-    // private static final String TAG = "KlingonContentProvider";
+    private static final String TAG = "KlingonContentProvider";
 
     public static String AUTHORITY = "org.tlhInganHol.android.klingonassistant.KlingonContentProvider";
     public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY);
@@ -1647,34 +1647,40 @@ public class KlingonContentProvider extends ContentProvider {
         }
 
         // Attaches a suffix. Returns the level of the suffix attached.
-        public int attachSuffix(String suffix, int suffixLevel) {
-            if (mIsNoun) {
-                // Iterate over noun suffix types.
+        public int attachSuffix(String suffix, boolean isNounSuffix, int verbSuffixLevel) {
+            // Note that when a complex word noun is formed from a verb with {-wI'} or {-ghach}, its
+            // stem is considered to be a verb. Noun suffixes can thus be attached to verbs.The
+            // isNounSuffix variable here indicates the type of the suffix, not the type of the stem.
+
+            if (isNounSuffix) {
+                // This is a noun suffix. Iterate over noun suffix types.
                 for (int i = 0; i < nounSuffixesStrings.length; i++) {
                     // Count from 1, since 0 corresponds to no suffix of that type.
                     for (int j = 1; j < nounSuffixesStrings[i].length; j++) {
                         if (suffix.equals("-" + nounSuffixesStrings[i][j])) {
                             mNounSuffixes[i] = j;
-                            return i;
+
+                            // The verb suffix level hasn't changed.
+                            return verbSuffixLevel;
                         }
                     }
                 }
             } else {
-                // Check if this is a true rover.
+                // This is a verb suffix. Check if this is a true rover.
                 if (suffix.equals("-be'")) {
-                    mVerbTypeRNegation = suffixLevel;
-                    if (mVerbTypeREmphatic == suffixLevel) {
+                    mVerbTypeRNegation = verbSuffixLevel;
+                    if (mVerbTypeREmphatic == verbSuffixLevel) {
                         // {-qu'be'}
                         roverOrderNegationBeforeEmphatic = false;
                     }
-                    return suffixLevel;
+                    return verbSuffixLevel;
                 } else if (suffix.equals("-qu'")) {
-                    mVerbTypeREmphatic = suffixLevel;
-                    if (mVerbTypeRNegation == suffixLevel) {
+                    mVerbTypeREmphatic = verbSuffixLevel;
+                    if (mVerbTypeRNegation == verbSuffixLevel) {
                         // {-be'qu'}
                         roverOrderNegationBeforeEmphatic = true;
                     }
-                    return suffixLevel;
+                    return verbSuffixLevel;
                 }
                 // Iterate over verb suffix types.
                 for (int i = 0; i < verbSuffixesStrings.length; i++) {
@@ -1682,13 +1688,16 @@ public class KlingonContentProvider extends ContentProvider {
                     for (int j = 1; j < verbSuffixesStrings[i].length; j++) {
                         if (suffix.equals("-" + verbSuffixesStrings[i][j])) {
                             mVerbSuffixes[i] = j;
+
+                            // The verb suffix level has been changed.
                             return i;
                         }
                     }
                 }
             }
             // This should never be reached.
-            return suffixLevel;
+            Log.e(TAG, "Unrecognised suffix: " + suffix);
+            return verbSuffixLevel;
         }
 
         // Add this complex word to the list.
@@ -1771,8 +1780,10 @@ public class KlingonContentProvider extends ContentProvider {
                 return;
             }
         }
-        // Log.d(TAG, "stripSuffix " + (complexWord.mIsNoun ? "noun" : "verb") + " type " +
-        //     complexWord.mSuffixLevel + " on \"" + complexWord.mUnparsedPart + "\"");
+        if (BuildConfig.DEBUG) {
+            Log.d(TAG, "stripSuffix " + (complexWord.mIsNoun ? "noun" : "verb") + " type " +
+                complexWord.mSuffixLevel + " on \"" + complexWord.mUnparsedPart + "\"");
+        }
 
         // Attempt to strip one level of suffix.
         ComplexWord strippedSuffixComplexWord = complexWord.stripSuffix();
@@ -1780,7 +1791,8 @@ public class KlingonContentProvider extends ContentProvider {
             // A suffix of the current type was found, branch using it as a new candidate.
             stripSuffix(strippedSuffixComplexWord, complexWordsList);
         }
-        // Tail recurse to the next level of suffix.
+        // Tail recurse to the next level of suffix. Note that the suffix level is decremented in
+        // complexWord.stripSuffix() above.
         stripSuffix(complexWord, complexWordsList);
     }
 }

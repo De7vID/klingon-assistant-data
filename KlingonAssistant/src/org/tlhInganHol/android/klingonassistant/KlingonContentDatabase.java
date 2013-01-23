@@ -264,9 +264,10 @@ public class KlingonContentDatabase {
             // Create a list of complex words.
             ArrayList<KlingonContentProvider.ComplexWord> complexWordsList = new ArrayList<KlingonContentProvider.ComplexWord>();
 
+            // Keep track of current state. The verb suffix level is required for analysing rovers.
             KlingonContentProvider.ComplexWord currentComplexWord = null;
             KlingonContentProvider.Entry currentPrefixEntry = null;
-            int suffixLevel = 0;
+            int verbSuffixLevel = 0;
             for (KlingonContentProvider.Entry componentEntry : analysisComponents) {
                 String componentEntryName = componentEntry.getEntryName();
                 boolean isNoun = componentEntry.isNoun();
@@ -291,7 +292,10 @@ public class KlingonContentDatabase {
                 // At this point, we know this is either a suffix, or a prefix, verb, or noun which begins a new word.
                 if (isSuffix && (currentComplexWord != null)) {
                     // A suffix, attach to the current word.
-                    suffixLevel = currentComplexWord.attachSuffix(componentEntryName, suffixLevel);
+                    // Note that isNoun here indicates whether the suffix is a noun suffix, not
+                    // whether the stem is a noun or verb. This is important since noun suffixes
+                    // can be attached to nouns formed from verbs using {-wI'} or {-ghach}.
+                    verbSuffixLevel = currentComplexWord.attachSuffix(componentEntryName, isNoun, verbSuffixLevel);
                 } else if (isPrefix) {
                     // A prefix, save to attach to the next verb.
                     currentPrefixEntry = componentEntry;
@@ -300,7 +304,7 @@ public class KlingonContentDatabase {
                     // Note that this can be a noun, a verb, or an unattached suffix (like in the entry {...-Daq qaDor.}.
                     currentComplexWord = new KlingonContentProvider.ComplexWord(componentEntryName, isNoun);
                     currentComplexWord.setHomophoneNumber(componentEntry.getHomophoneNumber());
-                    suffixLevel = 0;
+                    verbSuffixLevel = 0;
                     if (isVerb && currentPrefixEntry != null) {
                         currentComplexWord.attachPrefix(currentPrefixEntry.getEntryName());
                         currentPrefixEntry = null;
