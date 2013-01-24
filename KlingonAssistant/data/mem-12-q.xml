@@ -1481,7 +1481,8 @@ Do not confuse this with the similarly named {Qaj:n}.</column>
     <table name="mem">
       <column name="_id">26321</column>
       <column name="entry_name">qepHom'a'</column>
-      <column name="part_of_speech">n:deriv</column>
+      <!-- Don't annotation as "deriv" because the bad grammar breaks the parser. -->
+      <column name="part_of_speech">n</column>
       <column name="definition">annual meeting of Klingon speakers in Germany</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
