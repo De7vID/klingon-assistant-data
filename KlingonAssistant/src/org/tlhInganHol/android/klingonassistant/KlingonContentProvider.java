@@ -661,6 +661,59 @@ public class KlingonContentProvider extends ContentProvider {
             return formattedEntryName;
         }
 
+        // Get the name of the entry written in {pIqaD}.
+        public String getEntryNameInKlingonFont() {
+            // Strip anything we don't recognise.
+            // This pattern should be kept in sync with ENTRY_PATTERN.
+            String formattedEntryName = mEntryName.replaceAll("[^A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]", "");
+
+            // {gh} must come before {ngh} since {ngh} is {n} + {gh} and not {ng} + *{h}.
+            // {ng} must come before {n}.
+            // {tlh} must come before {t} and {l}.
+            formattedEntryName = formattedEntryName.replaceAll("gh", "")
+                                                   .replaceAll("ng", "")
+                                                   .replaceAll("tlh", "")
+                                                   .replaceAll("a", "")
+                                                   .replaceAll("b", "")
+                                                   .replaceAll("ch", "")
+                                                   .replaceAll("D", "")
+                                                   .replaceAll("e", "")
+                                                   .replaceAll("H", "")
+                                                   .replaceAll("I", "")
+                                                   .replaceAll("j", "")
+                                                   .replaceAll("l", "")
+                                                   .replaceAll("m", "")
+                                                   .replaceAll("n", "")
+                                                   .replaceAll("o", "")
+                                                   .replaceAll("p", "")
+                                                   .replaceAll("q", "")
+                                                   .replaceAll("Q", "")
+                                                   .replaceAll("r", "")
+                                                   .replaceAll("S", "")
+                                                   .replaceAll("t", "")
+                                                   .replaceAll("u", "")
+                                                   .replaceAll("v", "")
+                                                   .replaceAll("w", "")
+                                                   .replaceAll("y", "")
+                                                   .replaceAll("'", "")
+                                                   .replaceAll("0", "")
+                                                   .replaceAll("1", "")
+                                                   .replaceAll("2", "")
+                                                   .replaceAll("3", "")
+                                                   .replaceAll("4", "")
+                                                   .replaceAll("5", "")
+                                                   .replaceAll("6", "")
+                                                   .replaceAll("7", "")
+                                                   .replaceAll("8", "")
+                                                   .replaceAll("9", "")
+                                                   .replaceAll("-", "")
+                                                   .replaceAll(",", "")
+                                                   .replaceAll("!", "")
+                                                   .replaceAll("\\?", "")
+                                                   .replaceAll("\\.", "");
+            return formattedEntryName;
+        }
+
         private String getSpecificPartOfSpeech() {
             String pos = basePartOfSpeechAbbreviations[mBasePartOfSpeech.ordinal()];
             if (mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN) {

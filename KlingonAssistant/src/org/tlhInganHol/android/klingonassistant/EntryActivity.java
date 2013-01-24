@@ -25,6 +25,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.database.Cursor;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -113,9 +114,20 @@ public class EntryActivity extends SherlockActivity {
             // TODO: Immediate redirect to query in entry.getDefinition();
         }
 
+        // Get the shared preferences.
+        SharedPreferences sharedPrefs =
+            PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+
         // Set the entry's name (along with info like "slang", formatted in HTML).
-        String entryName = entry.getFormattedEntryName(/* isHtml */ true);
-        entryTitle.setText(Html.fromHtml(entryName));
+        if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
+            // Preference is set to display this in {pIqaD}!
+            Typeface pIqaDTypeface = Typeface.createFromAsset(getBaseContext().getAssets(),"fonts/pIqaD.ttf");
+            entryTitle.setTypeface(pIqaDTypeface);
+            entryTitle.setText(entry.getEntryNameInKlingonFont());
+        } else {
+            // Boring transcription based on English (Latin) alphabet.
+            entryTitle.setText(Html.fromHtml(entry.getFormattedEntryName(/* isHtml */ true)));
+        }
 
         // Create the expanded definition.
         String pos = entry.getFormattedPartOfSpeech(/* isHtml */ false);
@@ -123,8 +135,6 @@ public class EntryActivity extends SherlockActivity {
 
         // Show the German definition.
         String definition_DE = "";
-        SharedPreferences sharedPrefs =
-            PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         boolean displayGermanEntry = entry.shouldDisplayGerman();
         int germanDefinitionStart = -1;
         String germanDefinitionHeader = "\n" + resources.getString(R.string.label_german) + ": ";

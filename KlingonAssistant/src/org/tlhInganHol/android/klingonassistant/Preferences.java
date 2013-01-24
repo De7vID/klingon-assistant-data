@@ -36,6 +36,7 @@ public class Preferences extends SherlockPreferenceActivity implements OnSharedP
 
     // Language preferences.
     public static final String KEY_KLINGON_UI_CHECKBOX_PREFERENCE = "klingon_ui_checkbox_preference";
+    public static final String KEY_KLINGON_FONT_CHECKBOX_PREFERENCE = "klingon_font_checkbox_preference";
     public static final String KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE = "show_german_definitions_checkbox_preference";
     public static final String KEY_SEARCH_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE = "search_german_definitions_checkbox_preference";
 
@@ -48,6 +49,7 @@ public class Preferences extends SherlockPreferenceActivity implements OnSharedP
     public static final String KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE = "show_additional_information_checkbox_preference";
 
     private CheckBoxPreference mKlingonUICheckBoxPreference;
+    private CheckBoxPreference mKlingonFontCheckBoxPreference;
     private static boolean warningActive = false;
 
     @Override
@@ -79,9 +81,11 @@ public class Preferences extends SherlockPreferenceActivity implements OnSharedP
         // Set up a listener whenever a key changes.
         getPreferenceScreen().getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
 
-        // Get a reference to the use Klingon UI checkbox.
+        // Get a reference to the "use Klingon UI" checkbox and the "use Klingon font" checkbox.
         mKlingonUICheckBoxPreference = (CheckBoxPreference)getPreferenceScreen()
             .findPreference(KEY_KLINGON_UI_CHECKBOX_PREFERENCE);
+        mKlingonFontCheckBoxPreference = (CheckBoxPreference)getPreferenceScreen()
+            .findPreference(KEY_KLINGON_FONT_CHECKBOX_PREFERENCE);
 
     }
 
@@ -109,6 +113,12 @@ public class Preferences extends SherlockPreferenceActivity implements OnSharedP
                        public void onClick(DialogInterface dialog, int whichButton) {
                            // User clicked OK.
                            warningActive = false;
+
+                           // If the Klingon font preference is set, unset it if the user's UI
+                           // language is unset.
+                           if (!newValue && mKlingonFontCheckBoxPreference != null) {
+                               mKlingonFontCheckBoxPreference.setChecked(false);
+                           }
                        }
                    })
                    .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
