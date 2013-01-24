@@ -217,6 +217,11 @@ public class EntryActivity extends SherlockActivity {
             String analysisQuery = entry.getEntryName();
             if (!components.equals("")) {
                 // Strip the brackets around each component so they won't be processed.
+                analysisQuery += ":" + entry.getPartOfSpeech();
+                int homophoneNumber = entry.getHomophoneNumber();
+                if (homophoneNumber != -1) {
+                    analysisQuery += ":" + homophoneNumber;
+                }
                 analysisQuery += COMPONENTS_MARKER + components.replaceAll("[{}]", "");
             }
             expandedDefinition += "\n\n" + resources.getString(R.string.label_analyze) + ": {" + analysisQuery + "}";
