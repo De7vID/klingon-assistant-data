@@ -106,9 +106,11 @@
       <column name="synonyms"></column>
       <column name="antonyms">{rIn:v}</column>
       <column name="see_also">{bI'reS:n}</column>
-      <column name="notes">The subject of this verb is the person or thing starting the process, and the object is the process.  For example: {Qu' DataghDI' 'aqtu' mellota' je tIqaw.:sen} "When you begin a mission, remember Aktuh and Mellota."[2]
+      <column name="notes">The subject of this verb is the person or thing starting the process, and the object is the process. For example: {Qu' DataghDI' 'aqtu' mellota' je tIqaw.:sen} "When you begin a mission, remember Aktuh and Mellota."[2]
 
-If the starter of the process is unknown, unclear, or indefinite, the process becomes the subject of the verb (in which case it takes no object): {taghbej mu'qaD veS:sen:nolink} "Curse-warfare has definitely begun."[3]</column>
+If the starter of the process is unknown, unclear, or indefinite, the process becomes the subject of the verb (in which case it takes no object): {taghbej mu'qaD veS:sen:nolink} "Curse-warfare has definitely begun."[3]
+
+Instead of using the verb {tagh:v:nolink}, consider using the verb suffix {-choH:v:suff}. For example, a student who is a beginner might be described as a {ghojchoHwI'} (one who is beginning to learn) or said to be {ghojchoH} (beginning to learn).</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -142,7 +144,7 @@ If the starter of the process is unknown, unclear, or indefinite, the process be
       <column name="antonyms">{tagha':adv}</column>
       <column name="see_also">{-Ha':v:suff}, {wejHa':adv:hyp}</column>
       <column name="notes"></column>
-      <column name="hidden_notes">This word does not appear in canon.  This entry is here for ease of reference only.</column>
+      <column name="hidden_notes">This word does not appear in canon. This entry is here for ease of reference only.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -216,7 +218,7 @@ The lyrics are as follows:
    {'ach Heghmaj yIpIHQo', ghaytan wa'DIch jagh'e' wIHeghmoHmo'.:sen:nolink}
    {vaj taHjaj wo', vaj taHjaj wo', 'u' HeHDaq tlhIngan juHqo'vo':sen:nolink}
    {vaj taHjaj taHjaj taHjaj taHjaj taHjaj tlhIngan wo'!:sen:nolink}</column>
-      <column name="hidden_notes">This song was composed by Rich Yampell, a.k.a. {HoD Qanqor:n:name,nolink}.  Note that ordinarily, a rank such as {HoD:n} follows the name in Klingon, but {HoD Qanqor:n:name,nolink} comes from a region where one's rank precedes one's name.</column>
+      <column name="hidden_notes">This song was composed by Rich Yampell, a.k.a. {HoD Qanqor:n:name,nolink}. Note that ordinarily, a rank such as {HoD:n} follows the name in Klingon, but {HoD Qanqor:n:name,nolink} comes from a region where one's rank precedes one's name.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -233,7 +235,7 @@ The lyrics are as follows:
       <column name="see_also">{taH:v:1}</column>
       <column name="notes">This is a famous line from Hamlet.</column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{taH:v:1}, {pagh:conj}, {taH:v:1}, {-be':v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {Star Trek VI:src}</column>
@@ -444,7 +446,7 @@ The lyrics are as follows:
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This appeared in {STC 104:src} as {DIvI' tamey ngo':n:nolink} "Federation Archives".  A single archive record would be {ta ngo':n:nolink}.</column>
+      <column name="notes">This appeared in {STC 104:src} as {DIvI' tamey ngo':n:nolink} "Federation Archives". A single archive record would be {ta ngo':n:nolink}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -497,7 +499,7 @@ The lyrics are as follows:
       <column name="hidden_notes">A reference to the sound made.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {yIntaH qIrq 'e' vIneH.  DaSwIj bIngDaq latlhpu' vItap.:sen:nolink} "Kirk I want alive. The rest I will grind beneath my boot."[2]</column>
+▶ {yIntaH qIrq 'e' vIneH. DaSwIj bIngDaq latlhpu' vItap.:sen:nolink} "Kirk I want alive. The rest I will grind beneath my boot."[2]</column>
       <column name="search_tags">grind, crush</column>
       <column name="source">[1] {KGT:src}, [2] {Star Trek Constellations p.232:src}</column>
     </table>
@@ -510,7 +512,7 @@ The lyrics are as follows:
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{burgh:n}, {luH:n}</column>
-      <column name="notes">The gizzards of this animal, together with their contents, are sometimes served as food.  The droppings of this animal are particularly foul-smelling.</column>
+      <column name="notes">The gizzards of this animal, together with their contents, are sometimes served as food. The droppings of this animal are particularly foul-smelling.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -528,8 +530,8 @@ The lyrics are as follows:
       <column name="see_also"></column>
       <column name="notes">The residents of this region greatly outnumber the residents of {Qotmagh Sep:n}.
 
-This dialect is sort of half-way between the standard dialect and the {Qotmagh Sep:n} dialect.  Speakers replace {b:sen:nolink} with {mb:sen:nolink} and {D:sen:nolink} with {ND:sen:nolink}.[1, p.22]</column>
-      <column name="hidden_notes">This word appears only in the body of {KGT:src} on p.22 and not in the glossary.  It appears as {taq'ev:n:nolink} and not as {taq'ev Sep:n:nolink}, but it is implied that this is the name of a region (see {Sep:n}).</column>
+This dialect is sort of half-way between the standard dialect and the {Qotmagh Sep:n} dialect. Speakers replace {b:sen:nolink} with {mb:sen:nolink} and {D:sen:nolink} with {ND:sen:nolink}.[1, p.22]</column>
+      <column name="hidden_notes">This word appears only in the body of {KGT:src} on p.22 and not in the glossary. It appears as {taq'ev:n:nolink} and not as {taq'ev Sep:n:nolink}, but it is implied that this is the name of a region (see {Sep:n}).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -592,7 +594,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{namwech:n}</column>
-      <column name="notes">A kind of animal.  It is popular as a pet, but its heart is also considered a delicacy.[2]</column>
+      <column name="notes">A kind of animal. It is popular as a pet, but its heart is also considered a delicacy.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -707,7 +709,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{nobHa':v}, {ngIp:v}, {tatlh'egh:v}</column>
-      <column name="notes">This verb means to return something somewhere, for example a weapon to the weapons rack.  To express the concept of returning to a place, use {chegh:v}.[1]</column>
+      <column name="notes">This verb means to return something somewhere, for example a weapon to the weapons rack. To express the concept of returning to a place, use {chegh:v}.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -759,7 +761,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="antonyms"></column>
       <column name="see_also">{SeQ:v}, {tay:v}</column>
       <column name="notes"></column>
-      <column name="hidden_notes">This is something that "tie"s a community together.  Also, the procedure of putting on a neck"tie" is a kind of ritual.</column>
+      <column name="hidden_notes">This is something that "tie"s a community together. Also, the procedure of putting on a neck"tie" is a kind of ritual.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {chontay:n}
@@ -798,7 +800,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{nugh:n}</column>
-      <column name="notes">This word seems to be composed of {tay:n} or {tay:v} and {qeq:n} or {qeq:v}.  Perhaps this is an indication of what Klingons consider important to a civilisation.</column>
+      <column name="notes">This word seems to be composed of {tay:n} or {tay:v} and {qeq:n} or {qeq:v}. Perhaps this is an indication of what Klingons consider important to a civilisation.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -935,7 +937,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is the standard dialect of Klingon.  It is also called {ta' Hol:n} for short.</column>
+      <column name="notes">This is the standard dialect of Klingon. It is also called {ta' Hol:n} for short.</column>
       <column name="hidden_notes"></column>
       <column name="components">{ta':n:2}, {tlhIngan Hol:n}</column>
       <column name="examples"></column>
@@ -1304,7 +1306,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yoq yIn yuQ:n}, {yInSIp:n}, {Human:n}, {tera'ngan:n}, {DIvI' Hol:n}</column>
-      <column name="notes">This is the name of the Human Homeworld.  For "earth" in the sense of "dirt", see {lam:n}.</column>
+      <column name="notes">This is the name of the Human Homeworld. For "earth" in the sense of "dirt", see {lam:n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1402,14 +1404,14 @@ Note that a human ({Human:n}) is a member of the major indigenous language-capab
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{HovpoH:n}</column>
-      <column name="notes">This term is used in the invitation to {Star Trek The Exhibition:src}.  The invitation reads:
+      <column name="notes">This term is used in the invitation to {Star Trek The Exhibition:src}. The invitation reads:
 ▶ {tera' poH jaj wa', jar wa', jaj loSDIch, DIS wa'-Hut-Hut-chorgh. HovpoHvetlh latlh nab yIHutlh.:sen:nolink} "Save this Stardate: Sunday, January 4, 1998".[1]
 
 Based on the information on the invitation, when telling an Earth date:
 ▶ {jaj:n} followed by a number labels the day of the week, starting with Sunday, which is {jaj wa':n:nolink};
 ▶ {jar:n} followed by a number labels the month, starting with January, {jar wa':n:nolink};
 ▶ the day of the month is given as an ordinal, {jaj loSDIch:n:nolink} "the fourth day";
-▶ the year is specified by giving its digits after the word {DIS:n:2}.[1]  
+▶ the year is specified by giving its digits after the word {DIS:n:2}.[1]
 However, the numbering of Sunday as "day one" may have been to cater to Americans.[2]
 
 If the pattern holds, then the days of the week are:
@@ -1593,7 +1595,7 @@ Similarly, the Terran months are:
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tey':n:1} (def'n 1)</column>
-      <column name="notes">For a man, this word refers to the child of his brother.  For a woman, it refers to the child of her sister.</column>
+      <column name="notes">For a man, this word refers to the child of his brother. For a woman, it refers to the child of her sister.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1740,7 +1742,7 @@ Similarly, the Terran months are:
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This word refers to any energy beam.  It is an extension of the traditional meaning of {tIH:n:2} (spear shaft) to modern weaponry.[2, p.65]</column>
+      <column name="notes">This word refers to any energy beam. It is an extension of the traditional meaning of {tIH:n:2} (spear shaft) to modern weaponry.[2, p.65]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -1870,7 +1872,7 @@ Similarly, the Terran months are:
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{lurgh:n}</column>
-      <column name="notes">This is the midway point between the cardinal directions {tIng:n} and {'ev:n}.  It is also referred to as {'ev tIng:n:nolink} with about the same frequency.[1]  It is 270 degrees on a Terran compass, if north is 0 and degrees are counted clockwise.</column>
+      <column name="notes">This is the midway point between the cardinal directions {tIng:n} and {'ev:n}. It is also referred to as {'ev tIng:n:nolink} with about the same frequency.[1]  It is 270 degrees on a Terran compass, if north is 0 and degrees are counted clockwise.</column>
       <column name="hidden_notes"></column>
       <column name="components">{tIng:n}, {'ev:n}</column>
       <column name="examples"></column>
@@ -1952,7 +1954,7 @@ Similarly, the Terran months are:
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Degh:n:2}</column>
-      <column name="notes">In {Klingon Academy:src}, the symbol of the Klingon Empire (the imperial trefoil) is said to be called the "Heart of Virtue", or {tIq'ghob:n:nolink} "in the ancient tongue", by General Chang ({cheng:n:name}).  In modern standard Klingon, "Heart of Virtue" would be {ghob tIq:n:nolink}.  The two words are transposed in the manner of {paq'batlh:n}.
+      <column name="notes">In {Klingon Academy:src}, the symbol of the Klingon Empire (the imperial trefoil) is said to be called the "Heart of Virtue", or {tIq'ghob:n:nolink} "in the ancient tongue", by General Chang ({cheng:n:name}). In modern standard Klingon, "Heart of Virtue" would be {ghob tIq:n:nolink}. The two words are transposed in the manner of {paq'batlh:n}.
 
 The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, and duty.</column>
       <column name="hidden_notes"></column>
@@ -2231,7 +2233,7 @@ The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">The son of Barot.  See {barot:n}.</column>
+      <column name="notes">The son of Barot. See {barot:n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2619,7 +2621,7 @@ The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ba':v}, {Hu':v}, {Qam:v}, {Qot:v}, {joD:v}, {qIv:n}</column>
-      <column name="notes">This verb describes the action of a person or animal.  There is a homophonous verb {tor:v:2} (def'n 2) which seems to describe a similar action applied to aircraft or spacecraft.</column>
+      <column name="notes">This verb describes the action of a person or animal. There is a homophonous verb {tor:v:2} (def'n 2) which seems to describe a similar action applied to aircraft or spacecraft.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3194,7 +3196,7 @@ The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qorDu':n}, {joH:n}, {tuqnIgh:n}, {chuQun:n}</column>
-      <column name="notes">To say "Kahlor of the House of Molor", one simply says {qeylor, molor tuq:sen:nolink} "Kahlor, House of Molor".  To be more formal, one can add the father's name, as in {qeylor, qeylIn puqloD, molor tuq:sen:nolink} "Kahlor, son of Kahlin, (of the) House of Molor".[2]
+      <column name="notes">To say "Kahlor of the House of Molor", one simply says {qeylor, molor tuq:sen:nolink} "Kahlor, House of Molor". To be more formal, one can add the father's name, as in {qeylor, qeylIn puqloD, molor tuq:sen:nolink} "Kahlor, son of Kahlin, (of the) House of Molor".[2]
 
 Another formal and slightly archaic way to express membership in a House is to use the verb {tay':v}:
 ▶ {tay' qeylor molor tuq je:sen:nolink} "Kahlor is of the House of Molor"
@@ -3485,7 +3487,7 @@ The slang expression {qogh tuQmoHHa':sen}, literally "to take off one's belt", m
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is an upper-class word for {Dargh HIvje':n}.  It's an archaic word which used to mean only metal cup.</column>
+      <column name="notes">This is an upper-class word for {Dargh HIvje':n}. It's an archaic word which used to mean only metal cup.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>

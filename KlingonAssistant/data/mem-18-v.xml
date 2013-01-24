@@ -81,7 +81,7 @@
     <table name="mem">
       <column name="_id">34160</column>
       <column name="entry_name">vaghDIch</column>
-      <column name="part_of_speech">n:num</column>
+      <column name="part_of_speech">n:num,deriv</column>
       <column name="definition">fifth</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
@@ -151,7 +151,7 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{vaj Duj:n}</column>
-      <column name="notes">This word refers to the concept of warriorhood (e.g., "warrior spirit", and so on).  To refer to a person who is a warrior, use {SuvwI':n}.</column>
+      <column name="notes">This word refers to the concept of warriorhood (e.g., "warrior spirit", and so on). To refer to a person who is a warrior, use {SuvwI':n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -405,7 +405,7 @@ The original line was to have been {logh veQDaq bachchugh, yoH 'e' toblaHbe' Suv
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ral:v}</column>
-      <column name="notes">This word was originally used in describing weapons, but is now also applied to people.  It has strongly positive connotations in slang.[2]</column>
+      <column name="notes">This word was originally used in describing weapons, but is now also applied to people. It has strongly positive connotations in slang.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -490,7 +490,7 @@ The original line was to have been {logh veQDaq bachchugh, yoH 'e' toblaHbe' Suv
       <column name="antonyms"></column>
       <column name="see_also">{SaD DIS poH:n}, {netlh DIS poH:n}</column>
       <column name="notes">To indicate "centuries ago" or "centuries from now", {ret:n} and {pIq:n} are used in place of {poH:n}, respectively.[3]</column>
-      <column name="hidden_notes">The sentence from {SkyBox 15:src} has the {wa'DIch:n} in the wrong place.  Also, the second occurrence of {vatlh DIS poH:n} is missing a space.</column>
+      <column name="hidden_notes">The sentence from {SkyBox 15:src} has the {wa'DIch:n} in the wrong place. Also, the second occurrence of {vatlh DIS poH:n} is missing a space.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {tlhIngan may'Duj, qItI'nga':sen:nolink}
@@ -703,7 +703,7 @@ The original line was to have been {logh veQDaq bachchugh, yoH 'e' toblaHbe' Suv
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chob:n}, {'och:n}, {lojmIt:n}</column>
-      <column name="notes">This verb only means to go through an opening of some sort, and not "to traverse" (in the sense of "going through" a forest).[1]  The object is the thing being gone through.  {-Daq:n:suff} is unnecessary.[2]</column>
+      <column name="notes">This verb only means to go through an opening of some sort, and not "to traverse" (in the sense of "going through" a forest).[1]  The object is the thing being gone through. {-Daq:n:suff} is unnecessary.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -780,7 +780,7 @@ The original line was to have been {logh veQDaq bachchugh, yoH 'e' toblaHbe' Suv
       <column name="see_also"></column>
       <column name="notes">The subject does the covering, while the object is covered.
 
-This verb is used to describe the laying of a carpet.  The person who lays a carpet is called a {velwI':n:nolink} (despite the fact that the grammar suggests that {velwI':n:nolink} would refer to the carpet itself).</column>
+This verb is used to describe the laying of a carpet. The person who lays a carpet is called a {velwI':n:nolink} (despite the fact that the grammar suggests that {velwI':n:nolink} would refer to the carpet itself).</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -846,7 +846,7 @@ This verb is used to describe the laying of a carpet.  The person who lays a car
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is a bird that feeds almost exclusively on the serpent worm from which {qagh:n} is made.  Klingons are not particularly fond of this bird.</column>
+      <column name="notes">This is a bird that feeds almost exclusively on the serpent worm from which {qagh:n} is made. Klingons are not particularly fond of this bird.</column>
       <column name="hidden_notes">An early bird catches the worm.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1162,7 +1162,7 @@ In {Klingon Monopoly:src}, "Free Parking" is translated as {vergh 'ach DIlnISbe'
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chovnatlh:n}</column>
-      <column name="notes">The meaning of this word is unclear.  Its only known occurrences are {veymey puS neH chenmoHlu'pu':sen:nolink} "Limited Edition", {boSwI'vaD veyvam le' chenmoHlu':sen:nolink} "Collector's Edition", and {wa' tlhIngan QaS vey:n:nolink} "one pack of Klingon forces", all from {Klingon Monopoly:src}.</column>
+      <column name="notes">The meaning of this word is unclear. Its only known occurrences are {veymey puS neH chenmoHlu'pu':sen:nolink} "Limited Edition", {boSwI'vaD veyvam le' chenmoHlu':sen:nolink} "Collector's Edition", and {wa' tlhIngan QaS vey:n:nolink} "one pack of Klingon forces", all from {Klingon Monopoly:src}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1244,7 +1244,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mev:v}</column>
-      <column name="notes">This verb is intransitive.  To say that someone or something moves someone or something else, use {vIHmoH:v:nolink}.[2]
+      <column name="notes">This verb is intransitive. To say that someone or something moves someone or something else, use {vIHmoH:v:nolink}.[2]
 
 For an idiomatic expression used to tell someone not to move, see {taD:v}.</column>
       <column name="hidden_notes"></column>
@@ -1360,7 +1360,7 @@ For an idiomatic expression used to tell someone not to move, see {taD:v}.</colu
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qaryoq:n}, {qaryoq'a':n}</column>
-      <column name="notes">This is a bird capable of mimicking speech.  Some people pluralize this word with {-pu':n:suff}, but most use {-mey:n:suff}.</column>
+      <column name="notes">This is a bird capable of mimicking speech. Some people pluralize this word with {-pu':n:suff}, but most use {-mey:n:suff}.</column>
       <column name="hidden_notes">This is a reference to Captain Flint, Long John Silver's parrot in "Treasure Island".</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1424,7 +1424,7 @@ For an idiomatic expression used to tell someone not to move, see {taD:v}.</colu
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{veS:n}, {Qoj:v}</column>
-      <column name="notes">This word refers to the abstract concept of combat.  A specific battle is a {may':n}.</column>
+      <column name="notes">This word refers to the abstract concept of combat. A specific battle is a {may':n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1553,7 +1553,7 @@ For an idiomatic expression used to tell someone not to move, see {taD:v}.</colu
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is any liquid from a plant.  In some regional dialects, this word is used for any liquid accompanying food.</column>
+      <column name="notes">This is any liquid from a plant. In some regional dialects, this word is used for any liquid accompanying food.</column>
       <column name="hidden_notes">"V8" is a juice blend made from tomato juice mixed with the juices of various vegetables.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1571,7 +1571,7 @@ For an idiomatic expression used to tell someone not to move, see {taD:v}.</colu
       <column name="see_also"></column>
       <column name="notes">Earwax (see {Serrum:n}) is said to do this in the ear.[2]
 
-This verb is intransitive; that is, it means "to be accumulated" rather than "to accumulate (something)".  See the example.</column>
+This verb is intransitive; that is, it means "to be accumulated" rather than "to accumulate (something)". See the example.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -1637,7 +1637,7 @@ This verb is intransitive; that is, it means "to be accumulated" rather than "to
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This refers to meat prepared by {HaH:v:2}.  The word for the specific meat replaces the word {Ha'DIbaH:n:1}.</column>
+      <column name="notes">This refers to meat prepared by {HaH:v:2}. The word for the specific meat replaces the word {Ha'DIbaH:n:1}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1869,7 +1869,7 @@ This verb is intransitive; that is, it means "to be accumulated" rather than "to
       <column name="see_also"></column>
       <column name="notes">This is a region southwest of {veng wa'DIch:n}.
 
-This region has some vocabulary differences from {ta' Hol:n}.  Terms which have a different meaning in this region than they do in {ta' Hol:n} include:
+This region has some vocabulary differences from {ta' Hol:n}. Terms which have a different meaning in this region than they do in {ta' Hol:n} include:
 ▶ {cheSvel:n:2}
 ▶ {ghaw':n:2}
 ▶ {wep:n:2}
@@ -1917,9 +1917,9 @@ This region has some vocabulary differences from {ta' Hol:n}.  Terms which have 
     </table>
     <table name="mem">
       <column name="_id">35030</column>
-      <column name="entry_name">vubpu' jon nuchpu'.  jonbe' tlhInganpu'.</column>
+      <column name="entry_name">vubpu' jon nuchpu'. jonbe' tlhInganpu'.</column>
       <column name="part_of_speech">sen:phr</column>
-      <column name="definition">Cowards take hostages.  Klingons do not.</column>
+      <column name="definition">Cowards take hostages. Klingons do not.</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2098,7 +2098,7 @@ There is a Klingon idiom, {nong; vulqangan rur}, which is meant ironically.</col
       <column name="antonyms"></column>
       <column name="see_also">{Soj:n}, {jab:v}</column>
       <column name="notes"></column>
-      <column name="hidden_notes">The definition in {TKD:src} is just "cook". On {KGT p.83:src}, this is expanded to include the preparation of any food, including beverages.  Reverse of {tuv:v}.</column>
+      <column name="hidden_notes">The definition in {TKD:src} is just "cook". On {KGT p.83:src}, this is expanded to include the preparation of any food, including beverages. Reverse of {tuv:v}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>

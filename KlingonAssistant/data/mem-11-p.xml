@@ -145,7 +145,7 @@ The imperative verb prefix when {pagh:n:1,nolink} is the object is {yI-:v:pref} 
     <table name="mem">
       <column name="_id">24093</column>
       <column name="entry_name">paghDIch</column>
-      <column name="part_of_speech">n:num</column>
+      <column name="part_of_speech">n:num,deriv</column>
       <column name="definition">zeroth</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
@@ -162,7 +162,7 @@ The imperative verb prefix when {pagh:n:1,nolink} is the object is {yI-:v:pref} 
     <table name="mem">
       <column name="_id">24095</column>
       <column name="entry_name">paghlogh</column>
-      <column name="part_of_speech">adv</column>
+      <column name="part_of_speech">adv:deriv</column>
       <column name="definition">never</column>
       <column name="definition_de"></column>
       <column name="synonyms">{not:adv}, {ghe'torvo' narghDI' qa'pu':sen}</column>
@@ -185,7 +185,7 @@ The imperative verb prefix when {pagh:n:1,nolink} is the object is {yI-:v:pref} 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qoj:conj}, {ghap:conj}</column>
-      <column name="notes">In Klingon, the conjunction {pagh:conj} cannot be used to present two options to someone, such as "surrender or die".  {bIjegh pagh bIHegh:sen:nolink} means "you're surrendering or you're dying" (as if the speaker is not sure which is happening).  Instead, the sentence must be recast as "If you don't surrender, you will die".  See {bIjeghbe'chugh vaj bIHegh!:sen} for further information.</column>
+      <column name="notes">In Klingon, the conjunction {pagh:conj} cannot be used to present two options to someone, such as "surrender or die". {bIjegh pagh bIHegh:sen:nolink} means "you're surrendering or you're dying" (as if the speaker is not sure which is happening). Instead, the sentence must be recast as "If you don't surrender, you will die". See {bIjeghbe'chugh vaj bIHegh!:sen} for further information.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -202,7 +202,7 @@ The imperative verb prefix when {pagh:n:1,nolink} is the object is {yI-:v:pref} 
       <column name="antonyms"></column>
       <column name="see_also">{mop:n:1}, {paH bID:n}</column>
       <column name="notes"></column>
-      <column name="hidden_notes">This is defined in {TKD:src} as "gown".  In {TNK:src}, it is used for "dress", while {paH bID:n} is used for "skirt".</column>
+      <column name="hidden_notes">This is defined in {TKD:src} as "gown". In {TNK:src}, it is used for "dress", while {paH bID:n} is used for "skirt".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -284,7 +284,7 @@ The imperative verb prefix when {pagh:n:1,nolink} is the object is {yI-:v:pref} 
       <column name="antonyms"></column>
       <column name="see_also">{ghItlh:n}, {Se'vIr:n}</column>
       <column name="notes"></column>
-      <column name="hidden_notes">The Klingon Dictionary was published by Pocket Books.  See also {buq:n}.</column>
+      <column name="hidden_notes">The Klingon Dictionary was published by Pocket Books. See also {buq:n}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -315,7 +315,7 @@ The imperative verb prefix when {pagh:n:1,nolink} is the object is {yI-:v:pref} 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is the name of a book recounting the legendary life and deeds of {qeylIS:n}.  Note that the name of the book is in {no' Hol:n}, and that in modern standard Klingon "Book of Honor" would be {batlh paq:n:nolink}; the apostrophe represents what may be a missing grammatical element that would explain the transposition.[1]
+      <column name="notes">This is the name of a book recounting the legendary life and deeds of {qeylIS:n}. Note that the name of the book is in {no' Hol:n}, and that in modern standard Klingon "Book of Honor" would be {batlh paq:n:nolink}; the apostrophe represents what may be a missing grammatical element that would explain the transposition.[1]
 
 The {paq'batlh:n:nolink} is divided into three major parts, titled respectively {paq'yav:n:nolink} "Ground Book", {paq'raD:n:nolink} "Force Book", and {paq'QIH:n:nolink} "Impact Book".
 
@@ -447,7 +447,7 @@ See also {tIq'ghob:n:hyp} for a hypothetical similar grammatical construction.</
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{waq:n}</column>
-      <column name="notes">This word is plural.  It is unknown if a singular form exists.</column>
+      <column name="notes">This word is plural. It is unknown if a singular form exists.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -564,7 +564,7 @@ Do not confuse this with {paw':v:1}.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">The verb {paw':v:nolink} always takes a plural subject, namely, the things in motion which collide.  When the subject is people, the verb is usually interpreted with the slang meaning of "butting heads" (see {paw':v:2,slang} (def'n 2)).  To describe the collision of something moving with something stationary, use {ngeQ:v} instead.[2; 3]
+      <column name="notes">The verb {paw':v:nolink} always takes a plural subject, namely, the things in motion which collide. When the subject is people, the verb is usually interpreted with the slang meaning of "butting heads" (see {paw':v:2,slang} (def'n 2)). To describe the collision of something moving with something stationary, use {ngeQ:v} instead.[2; 3]
 
 Do not confuse this with {paw:v}.</column>
       <column name="hidden_notes">It's what it sounds like.</column>
@@ -582,7 +582,7 @@ Do not confuse this with {paw:v}.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">As with the literal usage of this verb (see {paw':v:1} (def'n 1)), when used in its slang meaning, it also takes a plural subject, in this case the people who butt heads.  To say that two people collide without implying that they are butting heads, {ngeQ:v} might be used with {-chuq:v:suff}.[1]</column>
+      <column name="notes">As with the literal usage of this verb (see {paw':v:1} (def'n 1)), when used in its slang meaning, it also takes a plural subject, in this case the people who butt heads. To say that two people collide without implying that they are butting heads, {ngeQ:v} might be used with {-chuq:v:suff}.[1]</column>
       <column name="hidden_notes">It's what it sounds like.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -631,7 +631,7 @@ Do not confuse this with {paw:v}.</column>
       <column name="antonyms">{pay':adv}</column>
       <column name="see_also">{-Ha':v:suff}</column>
       <column name="notes"></column>
-      <column name="hidden_notes">This word does not appear in canon.  This entry is here for ease of reference only.</column>
+      <column name="hidden_notes">This word does not appear in canon. This entry is here for ease of reference only.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -646,10 +646,10 @@ Do not confuse this with {paw:v}.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qach:n}</column>
-      <column name="notes">This word is homophonous with {pa':n:2}.  However, {pa'Daq:n:nolink} unambiguously means "in the room".
+      <column name="notes">This word is homophonous with {pa':n:2}. However, {pa'Daq:n:nolink} unambiguously means "in the room".
 
-The {bIS'ub:n} of a {pa':n:1} is its {rav:n:1}, and its {'aqroS:n:1} is its {rav'eq:n}.  If the {pa':n:1} is in the top story of a {qach:n}, then its {rav'eq:n} is called its {pa' beb:n}.  The walls of a {pa':n:1} are {tlhoy':n}; if the other side of a wall is {Hur:n}, then the wall is also called a {pa' reD:n}.  The word {tlhoy':n} can refer to any side of a room; a ceiling/floor between stories is called a {tlhoy' SaS:n}.</column>
-      <column name="hidden_notes">This word is defined as "room" in {TKD:src}, as "enclosed area" in {KGT:src}, and as "chamber" in {BoP:src} (see {cha'puj pa':n}).  Furthermore, the "enclosed area" definition is marked as slang in the K-E word list in {KGT:src}, but not in the E-K word list.</column>
+The {bIS'ub:n} of a {pa':n:1} is its {rav:n:1}, and its {'aqroS:n:1} is its {rav'eq:n}. If the {pa':n:1} is in the top story of a {qach:n}, then its {rav'eq:n} is called its {pa' beb:n}. The walls of a {pa':n:1} are {tlhoy':n}; if the other side of a wall is {Hur:n}, then the wall is also called a {pa' reD:n}. The word {tlhoy':n} can refer to any side of a room; a ceiling/floor between stories is called a {tlhoy' SaS:n}.</column>
+      <column name="hidden_notes">This word is defined as "room" in {TKD:src}, as "enclosed area" in {KGT:src}, and as "chamber" in {BoP:src} (see {cha'puj pa':n}). Furthermore, the "enclosed area" definition is marked as slang in the K-E word list in {KGT:src}, but not in the E-K word list.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -664,7 +664,7 @@ The {bIS'ub:n} of a {pa':n:1} is its {rav:n:1}, and its {'aqroS:n:1} is its {rav
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{naDev:n}, {Dat:n}</column>
-      <column name="notes">This word is homophonous with {pa':n:1}.  As a locative, {pa':n:2} never takes the suffix {-Daq:n:suff}, and can only mean "there" ({TKD 3.3.5:src}).  In contrast, {pa'Daq:n:nolink} can only mean "in the room".</column>
+      <column name="notes">This word is homophonous with {pa':n:1}. As a locative, {pa':n:2} never takes the suffix {-Daq:n:suff}, and can only mean "there" ({TKD 3.3.5:src}). In contrast, {pa'Daq:n:nolink} can only mean "in the room".</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -696,7 +696,7 @@ The {bIS'ub:n} of a {pa':n:1} is its {rav:n:1}, and its {'aqroS:n:1} is its {rav
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{beb:n}, {rav:n:1}, {rav'eq:n}, {tlhoy' SaS:n}, {yor:n}, {'aqroS:n:1}</column>
-      <column name="notes">This refers to the ceiling of a room which is on the top (or only) story of a structure.  If there are rooms above it, then it is a {rav'eq:n}.[1]</column>
+      <column name="notes">This refers to the ceiling of a room which is on the top (or only) story of a structure. If there are rooms above it, then it is a {rav'eq:n}.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -794,7 +794,7 @@ The {bIS'ub:n} of a {pa':n:1} is its {rav:n:1}, and its {'aqroS:n:1} is its {rav
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tey':v}, {pegh:n}</column>
-      <column name="notes">This verb can also be used without an object.  See {pegh:v:2} (def'n 2).</column>
+      <column name="notes">This verb can also be used without an object. See {pegh:v:2} (def'n 2).</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -812,7 +812,7 @@ The {bIS'ub:n} of a {pa':n:1} is its {rav:n:1}, and its {'aqroS:n:1} is its {rav
       <column name="see_also">{pegh:n}</column>
       <column name="notes">See {rav:n:2} for an example of how to talk about classified information.
 
-This verb can also be used with an object.  See {pegh:v:1} (def'n 1).</column>
+This verb can also be used with an object. See {pegh:v:1} (def'n 1).</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1043,7 +1043,7 @@ This verb can also be used with an object.  See {pegh:v:1} (def'n 1).</column>
       <column name="antonyms"></column>
       <column name="see_also">{HoSchem:n}, {pIvchem:n}, {Surchem:n}</column>
       <column name="notes"></column>
-      <column name="hidden_notes">This is written as {peQ chem:n:nolink} (with a space) in {TKDA:src}.  The space has been removed for consistency with the other terms ending in {chem:n:hyp}.</column>
+      <column name="hidden_notes">This is written as {peQ chem:n:nolink} (with a space) in {TKDA:src}. The space has been removed for consistency with the other terms ending in {chem:n:hyp}.</column>
       <column name="components">{peQ:n}, {chem:n:hyp}</column>
       <column name="examples"></column>
       <column name="search_tags">peQ chem</column>
@@ -1074,7 +1074,7 @@ This verb can also be used with an object.  See {pegh:v:1} (def'n 1).</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ngu':v}, {per:n}</column>
-      <column name="notes">The verb {per:v:nolink} usually means "to assign or attach a name to", but it can also be used for such notions as "ascertain, specify, pin down".  One way to ask for the time is {rep yIper!:sen}, literally, "Label the hour!"[2]</column>
+      <column name="notes">The verb {per:v:nolink} usually means "to assign or attach a name to", but it can also be used for such notions as "ascertain, specify, pin down". One way to ask for the time is {rep yIper!:sen}, literally, "Label the hour!"[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1160,7 +1160,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/GonhyphPQPU}<
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tIr:n}</column>
-      <column name="notes">Triticale is a hybridization of wheat (genus Triticum) and rye (genus Secale).  {pev:n:hyp,nolink} is not a known word, it is known only as an element in the word {loSpev:n}.</column>
+      <column name="notes">Triticale is a hybridization of wheat (genus Triticum) and rye (genus Secale). {pev:n:hyp,nolink} is not a known word, it is known only as an element in the word {loSpev:n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1298,7 +1298,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/GonhyphPQPU}<
       <column name="see_also"></column>
       <column name="notes">This idiomatic expression conveys the idea that someone is particularly agile or nimble or spry.
 
-The verb {roS:v:2} means "to use the third toe".  It is also homophonous with a verb {roS:v:1} meaning "to lick".  However, it's possible that this verb is actually an otherwise unknown or archaic verb {roS:v:3,hyp} meaning "to be agile".</column>
+The verb {roS:v:2} means "to use the third toe". It is also homophonous with a verb {roS:v:1} meaning "to lick". However, it's possible that this verb is actually an otherwise unknown or archaic verb {roS:v:3,hyp} meaning "to be agile".</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1588,7 +1588,7 @@ The verb {roS:v:2} means "to use the third toe".  It is also homophonous with a 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{pIn:n:1} (def'n 1)</column>
-      <column name="notes">In this slang sense, {pIn:n:nolink} is never used alone, but is always the second noun in a noun-noun construction.  The non-slang term for "expert" is {po'wI':n}.[1, p.158]</column>
+      <column name="notes">In this slang sense, {pIn:n:nolink} is never used alone, but is always the second noun in a noun-noun construction. The non-slang term for "expert" is {po'wI':n}.[1, p.158]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1834,7 +1834,7 @@ For other units of time, {pIq:n:nolink} is used.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chab:n:1}</column>
-      <column name="notes">This is what Klingons would call the Terran food.  To Klingons, pizzas are apparently a kind of {chab:n:1}.</column>
+      <column name="notes">This is what Klingons would call the Terran food. To Klingons, pizzas are apparently a kind of {chab:n:1}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2075,7 +2075,7 @@ For other units of time, {pIq:n:nolink} is used.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is the literary name for a {'uSgheb:n} or a {jajlo' Qa':n}.  It is commonly used in operas and plays, but rarely in everyday speech.</column>
+      <column name="notes">This is the literary name for a {'uSgheb:n} or a {jajlo' Qa':n}. It is commonly used in operas and plays, but rarely in everyday speech.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2270,7 +2270,7 @@ For other units of time, {pIq:n:nolink} is used.</column>
       <column name="see_also">{ram:v}</column>
       <column name="notes">This idiomatic expression literally means someone "can either keep it or discard it".</column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{pol:v}, {-laH:v}, {pagh:conj}, {pol:v}, {-Ha':v}, {-laH:v}</column>
       <column name="examples">
 ▶ {DapollaH pagh DapolHa'laH.:sen:nolink}</column>
       <column name="search_tags"></column>
@@ -2763,7 +2763,7 @@ For other units of time, {pIq:n:nolink} is used.</column>
       <column name="antonyms"></column>
       <column name="see_also">{puch:n}</column>
       <column name="notes"></column>
-      <column name="hidden_notes">The word lists say "washroom".  The "bathroom" definition comes from the example sentence on p.170.</column>
+      <column name="hidden_notes">The word lists say "washroom". The "bathroom" definition comes from the example sentence on p.170.</column>
       <column name="components">{puch:n}, {pa':n:1}</column>
       <column name="examples">
 ▶ {nuqDaq 'oH puchpa''e'?:sen}
@@ -2983,7 +2983,7 @@ For other units of time, {pIq:n:nolink} is used.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ngugh:adv}</column>
-      <column name="notes">This idiomatic expression literally means "when it falls".  It is most frequently heard without a subject, but when a subject is specified, the most common is {'etlh:n}.  Another word may be chosen as the subject as a form of word play, as long as it is something that can fall (e.g., {DaS:n}, {'obmaQ:n}, {nagh:n}, {rutlh:n}).  When used idiomatically, {pumDI':sen:nolink} always precedes the main clause.[1]</column>
+      <column name="notes">This idiomatic expression literally means "when it falls". It is most frequently heard without a subject, but when a subject is specified, the most common is {'etlh:n}. Another word may be chosen as the subject as a form of word play, as long as it is something that can fall (e.g., {DaS:n}, {'obmaQ:n}, {nagh:n}, {rutlh:n}). When used idiomatically, {pumDI':sen:nolink} always precedes the main clause.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components">{pum:v:2}, {-DI':v}</column>
       <column name="examples">
@@ -3273,7 +3273,7 @@ For other units of time, {pIq:n:nolink} is used.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{law':v}, {yap:v}</column>
-      <column name="notes">The word {puS:v:nolink} is used in comparative constructions.  See {... X law' ... X puS:sen}.</column>
+      <column name="notes">The word {puS:v:nolink} is used in comparative constructions. See {... X law' ... X puS:sen}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>

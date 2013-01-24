@@ -1280,6 +1280,7 @@ public class KlingonContentProvider extends ContentProvider {
         int mNumberDigit;
         int mNumberModifier;
         String mNumberSuffix;
+        boolean mIsNumberLike;
 
         // The locations of the true rovers.  The value indicates the suffix type they appear after,
         // so 0 means they are attached directly to the verb (before any type 1 suffix).
@@ -1332,6 +1333,7 @@ public class KlingonContentProvider extends ContentProvider {
             mNumberDigit = 0;
             mNumberModifier = 0;
             mNumberSuffix = "";
+            mIsNumberLike = false;
         }
 
         /**
@@ -1357,6 +1359,7 @@ public class KlingonContentProvider extends ContentProvider {
             mNumberDigit = complexWordToCopy.mNumberDigit;
             mNumberModifier = complexWordToCopy.mNumberModifier;
             mNumberSuffix = complexWordToCopy.mNumberSuffix;
+            mIsNumberLike = complexWordToCopy.mIsNumberLike;
         }
 
         public void setHomophoneNumber(int number) {
@@ -1480,9 +1483,9 @@ public class KlingonContentProvider extends ContentProvider {
             return true;
         }
 
-        public boolean isNumber() {
-            // A complex word is a number if it's a noun and the root contains a digit.
-            return mIsNoun && (mNumberDigit != 0);
+        public boolean isNumberLike() {
+            // A complex word is number-like if it's a noun and it's marked as such.
+            return mIsNoun && mIsNumberLike;
         }
 
         private boolean noNounSuffixesFound() {
@@ -1550,9 +1553,44 @@ public class KlingonContentProvider extends ContentProvider {
             return suffixes;
         }
 
-        // Get the number digit for a number.
-        public String getNumberDigit() {
-            return numberDigitString[mNumberDigit];
+        // Get the root for a number.
+        public String getNumberRoot() {
+            if (mNumberDigit != 0) {
+                // This is an actual digit from {wa'} to {Hut}.
+                return numberDigitString[mNumberDigit];
+            }
+
+            String numberRoot = "";
+            if (mUnparsedPart.startsWith("pagh")) {
+                numberRoot = "pagh";
+            } else if (mUnparsedPart.startsWith("Hoch")) {
+                numberRoot = "Hoch";
+            } else if (mUnparsedPart.startsWith("'ar")) {
+                // Note that this will cause {'arDIch} to be accepted as a word.
+                numberRoot = "'ar";
+            }
+            return numberRoot;
+        }
+
+        // Get the annotation for the root for a number.
+        public String getNumberRootAnnotation() {
+            if (mNumberDigit != 0) {
+                return "n:num";
+            }
+
+            String numberRoot = "";
+            if (mUnparsedPart.startsWith("pagh")) {
+                numberRoot = "n:num";
+            } else if (mUnparsedPart.startsWith("Hoch")) {
+                // {Hoch} is a noun but not a number.
+                numberRoot = "n";
+            } else if (mUnparsedPart.startsWith("'ar")) {
+                // {'ar} is a question word.
+                numberRoot = "ques";
+            } else {
+                // This should never happen.
+            }
+            return numberRoot;
         }
 
         // Get the number modifier for a number.
@@ -1684,6 +1722,13 @@ public class KlingonContentProvider extends ContentProvider {
             // noun suffix. Noun suffixes can thus be attached to verbs. The isNounSuffix variable
             // here indicates the type of the suffix, not the type of the stem.
 
+            // Special handling of {-DIch} and {-logh}.
+            if (suffix.equals("-DIch") || suffix.equals("-logh")) {
+                mIsNumberLike = true;
+                mNumberSuffix = suffix.substring(1); // strip initial "-"
+                return verbSuffixLevel;
+            }
+
             if (isNounSuffix) {
                 // This is a noun suffix. Iterate over noun suffix types.
                 for (int i = 0; i < nounSuffixesStrings.length; i++) {
@@ -1754,6 +1799,7 @@ public class KlingonContentProvider extends ContentProvider {
                     mNumberSuffix = mUnparsedPart.substring(rootLength);
                 }
 
+                // Check for a "power of ten" modifier, such as {maH}.
                 // Count from 1, since 0 corresponds to no modifier.
                 for (int i = 1; i < numberModifierString.length; i++) {
                     if (numberRoot.endsWith(numberModifierString[i])) {
@@ -1762,19 +1808,32 @@ public class KlingonContentProvider extends ContentProvider {
                         break;
                     }
                 }
+
+                // Look for a digit from {wa'} to {Hut}. {pagh} is excluded for now.
                 // Count from 1, since 0 corresponds to no digit.
                 for (int j = 1; j < numberDigitString.length; j++) {
                     if (numberRoot.equals(numberDigitString[j])) {
                         // Found a digit, so this is a number.
+                        // Note that we leave mUnparsedPart alone, since we still want to add, e.g., {wa'DIch} as a result.
                         mNumberDigit = j;
+                        mIsNumberLike = true;
                         break;
                     }
                 }
-            }
-            // If there is no modifier or suffix, then ignore this as the bare
-            // digit word will already be added.
-            if (mNumberModifier == 0 && mNumberSuffix.equals("")) {
-                mNumberDigit = 0;
+                // If there is no modifier or suffix, then ignore this as the bare
+                // digit word will already be added.
+                if (mNumberModifier == 0 && mNumberSuffix.equals("")) {
+                    mNumberDigit = 0;
+                    mIsNumberLike = false;
+                }
+
+                // Finally, treat these words specially: {'arlogh}, {paghlogh}, {Hochlogh}, {paghDIch}, {HochDIch}.
+                if (!mNumberSuffix.equals("") &&
+                    (numberRoot.equals("pagh") || numberRoot.equals("Hoch") || numberRoot.equals("'ar"))) {
+                        // We don't set mUnparsedPart to the root, because we still want the entire
+                        // word (e.g., {paghlogh}) to be added to the results if it is in the database.
+                        mIsNumberLike = true;
+                }
             }
 
             // Add this complex word.
@@ -1822,10 +1881,10 @@ public class KlingonContentProvider extends ContentProvider {
             }
             // Note that at this point we continue with a newly created complex word.
         }
-        if (BuildConfig.DEBUG) {
+        /* if (BuildConfig.DEBUG) {
             Log.d(TAG, "stripSuffix " + (complexWord.mIsNoun ? "noun" : "verb") + " type " +
                 complexWord.mSuffixLevel + " on \"" + complexWord.mUnparsedPart + "\"");
-        }
+        } */
 
         // Attempt to strip one level of suffix.
         ComplexWord strippedSuffixComplexWord = complexWord.stripSuffix();

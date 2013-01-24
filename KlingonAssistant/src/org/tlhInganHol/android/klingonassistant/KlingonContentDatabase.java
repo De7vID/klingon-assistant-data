@@ -261,61 +261,8 @@ public class KlingonContentDatabase {
         // If the query has components specified, then we're in analysis mode, and the solution is already given to us.
         ArrayList<KlingonContentProvider.Entry> analysisComponents = queryEntry.getComponentsAsEntries();
         if (!analysisComponents.isEmpty()) {
-            // Create a list of complex words.
-            ArrayList<KlingonContentProvider.ComplexWord> complexWordsList = new ArrayList<KlingonContentProvider.ComplexWord>();
-
-            // Keep track of current state. The verb suffix level is required for analysing rovers.
-            KlingonContentProvider.ComplexWord currentComplexWord = null;
-            KlingonContentProvider.Entry currentPrefixEntry = null;
-            int verbSuffixLevel = 0;
-            for (KlingonContentProvider.Entry componentEntry : analysisComponents) {
-                String componentEntryName = componentEntry.getEntryName();
-                boolean isNoun = componentEntry.isNoun();
-                boolean isVerb = componentEntry.isVerb();
-                boolean isPrefix = componentEntry.isPrefix();
-                boolean isSuffix = componentEntry.isSuffix();
-
-                if (!isSuffix && (!isVerb || currentPrefixEntry == null)) {
-                    // A new word is about to begin, so flush a complex word if there is one.
-                    if (currentComplexWord != null) {
-                        // We set a strict match because this is information given explicitly in the db.
-                        addComplexWordToResults(currentComplexWord, resultsCursor, resultsSet, /* isLenient */ false);
-                        currentComplexWord = null;
-                    }
-                }
-
-                if (!isNoun && !isVerb && !isPrefix && !isSuffix) {
-                    // Add this word directly.
-                    addExactMatch(componentEntryName, componentEntry, resultsCursor, /* indent */ false);
-                    continue;
-                }
-
-                // At this point, we know this is either a suffix, or a prefix, verb, or noun which begins a new word.
-                if (isSuffix && (currentComplexWord != null)) {
-                    // A suffix, attach to the current word.
-                    // Note that isNoun here indicates whether the suffix is a noun suffix, not
-                    // whether the stem is a noun or verb. This is important since noun suffixes
-                    // can be attached to nouns formed from verbs using {-wI'} or {-ghach}.
-                    verbSuffixLevel = currentComplexWord.attachSuffix(componentEntryName, isNoun, verbSuffixLevel);
-                } else if (isPrefix) {
-                    // A prefix, save to attach to the next verb.
-                    currentPrefixEntry = componentEntry;
-                } else if (isNoun || isVerb) {
-                    // Create a new complex word, so reset suffix level.
-                    // Note that this can be a noun, a verb, or an unattached suffix (like in the entry {...-Daq qaDor.}.
-                    currentComplexWord = new KlingonContentProvider.ComplexWord(componentEntryName, isNoun);
-                    currentComplexWord.setHomophoneNumber(componentEntry.getHomophoneNumber());
-                    verbSuffixLevel = 0;
-                    if (isVerb && currentPrefixEntry != null) {
-                        currentComplexWord.attachPrefix(currentPrefixEntry.getEntryName());
-                        currentPrefixEntry = null;
-                    }
-                }
-            }
-            if (currentComplexWord != null) {
-                // Flush any outstanding word.
-                addComplexWordToResults(currentComplexWord, resultsCursor, resultsSet, /* isLenient */ false);
-            }
+            // Add the given list of components to the results.
+            addGivenComponentsToResults(analysisComponents, resultsCursor, resultsSet);
 
             // Finally, add the complete query entry itself.
             addExactMatch(queryBase, queryEntry, resultsCursor, /* indent */ false);
@@ -400,6 +347,65 @@ public class KlingonContentDatabase {
         }
 
         return resultsCursor;
+    }
+
+    // Helper method to add a list of components to the list of search results.
+    private void addGivenComponentsToResults(ArrayList<KlingonContentProvider.Entry> analysisComponents, MatrixCursor resultsCursor, HashSet<Integer> resultsSet) {
+        // Create a list of complex words.
+        ArrayList<KlingonContentProvider.ComplexWord> complexWordsList = new ArrayList<KlingonContentProvider.ComplexWord>();
+
+        // Keep track of current state. The verb suffix level is required for analysing rovers.
+        KlingonContentProvider.ComplexWord currentComplexWord = null;
+        KlingonContentProvider.Entry currentPrefixEntry = null;
+        int verbSuffixLevel = 0;
+        for (KlingonContentProvider.Entry componentEntry : analysisComponents) {
+            String componentEntryName = componentEntry.getEntryName();
+            boolean isNoun = componentEntry.isNoun();
+            boolean isVerb = componentEntry.isVerb();
+            boolean isPrefix = componentEntry.isPrefix();
+            boolean isSuffix = componentEntry.isSuffix();
+
+            if (!isSuffix && (!isVerb || currentPrefixEntry == null)) {
+                // A new word is about to begin, so flush a complex word if there is one.
+                if (currentComplexWord != null) {
+                    // We set a strict match because this is information given explicitly in the db.
+                    addComplexWordToResults(currentComplexWord, resultsCursor, resultsSet, /* isLenient */ false);
+                    currentComplexWord = null;
+                }
+            }
+
+            if (!isNoun && !isVerb && !isPrefix && !isSuffix) {
+                // Add this word directly.
+                addExactMatch(componentEntryName, componentEntry, resultsCursor, /* indent */ false);
+                continue;
+            }
+
+            // At this point, we know this is either a suffix, or a prefix, verb, or noun which begins a new word.
+            if (isSuffix && (currentComplexWord != null)) {
+                // A suffix, attach to the current word.
+                // Note that isNoun here indicates whether the suffix is a noun suffix, not
+                // whether the stem is a noun or verb. This is important since noun suffixes
+                // can be attached to nouns formed from verbs using {-wI'} or {-ghach}.
+                verbSuffixLevel = currentComplexWord.attachSuffix(componentEntryName, isNoun, verbSuffixLevel);
+            } else if (isPrefix) {
+                // A prefix, save to attach to the next verb.
+                currentPrefixEntry = componentEntry;
+            } else if (isNoun || isVerb) {
+                // Create a new complex word, so reset suffix level.
+                // Note that this can be a noun, a verb, or an unattached suffix (like in the entry {...-Daq qaDor.}.
+                currentComplexWord = new KlingonContentProvider.ComplexWord(componentEntryName, isNoun);
+                currentComplexWord.setHomophoneNumber(componentEntry.getHomophoneNumber());
+                verbSuffixLevel = 0;
+                if (isVerb && currentPrefixEntry != null) {
+                    currentComplexWord.attachPrefix(currentPrefixEntry.getEntryName());
+                    currentPrefixEntry = null;
+                }
+            }
+        }
+        if (currentComplexWord != null) {
+            // Flush any outstanding word.
+            addComplexWordToResults(currentComplexWord, resultsCursor, resultsSet, /* isLenient */ false);
+        }
     }
 
     // Helper method to copy entries from one cursor to another.
@@ -523,6 +529,9 @@ public class KlingonContentDatabase {
             KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(exactMatchesCursor, mContext);
             if (filterEntry.isSatisfiedBy(resultEntry)) {
                 Object[] exactMatchObject = convertEntryToCursorRow(resultEntry, indent);
+                /* if (BuildConfig.DEBUG) {
+                    Log.d(TAG, "addExactMatch: " + resultEntry.getEntryName());
+                } */
                 resultsCursor.addRow(exactMatchObject);
                 // Log.d(TAG, "added exact match to results: " + query);
                 // Only add each one once.
@@ -581,13 +590,17 @@ public class KlingonContentDatabase {
             exactMatchesCursor.moveToFirst();
             do {
                 KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(exactMatchesCursor, mContext);
-                if (filterEntry.isSatisfiedBy(resultEntry)) {
+                // An archaic word or phrase, even if it's an exact match, will never be part of a complex word.
+                if (filterEntry.isSatisfiedBy(resultEntry) && !resultEntry.isArchaic()) {
                     // Log.d(TAG, "adding: " + resultEntry.getEntryName() + " (" + resultEntry.getPartOfSpeech() + ")");
                     Object[] exactMatchObject = complexWordCursorRow(resultEntry, complexWord);
 
                     // If this is a bare word, prevent duplicates.
                     Integer intId = new Integer(resultEntry.getId());
                     if (!complexWord.isBareWord() || !resultsSet.contains(intId) || !isLenient) {
+                        /* if (BuildConfig.DEBUG) {
+                            Log.d(TAG, "addComplexWordToResults: " + resultEntry.getEntryName());
+                        } */
                         resultsCursor.addRow(exactMatchObject);
                         stemAdded = true;
                         if (complexWord.isBareWord()) {
@@ -600,15 +613,21 @@ public class KlingonContentDatabase {
         }
 
         // Whether or not there was an exact match, if the complex word is a number, add its components.
-        if (complexWord.isNumber()) {
-            String numberDigit = complexWord.getNumberDigit();
+        if (complexWord.isNumberLike()) {
+            String numberRoot = complexWord.getNumberRoot();
+            String numberRootAnnotation = complexWord.getNumberRootAnnotation();
             String numberModifier = complexWord.getNumberModifier();
             String numberSuffix = complexWord.getNumberSuffix();
 
-            // First, add the digit as a word.
-            filterEntry = new KlingonContentProvider.Entry(numberDigit + ":n:num", mContext);
-            addExactMatch(numberDigit, filterEntry, resultsCursor, /* indent */ false);
-            stemAdded = true;
+            // First, add the root as a word. (The annotation is already included.)
+            if (!numberRoot.equals("") && (!stemAdded || !numberRoot.equals(complexWord.stem()))) {
+                filterEntry = new KlingonContentProvider.Entry(numberRoot + ":" + numberRootAnnotation, mContext);
+                if (BuildConfig.DEBUG) {
+                    Log.d(TAG, "numberRoot: " + numberRoot);
+                }
+                addExactMatch(numberRoot, filterEntry, resultsCursor, /* indent */ false);
+                stemAdded = true;
+            }
 
             // Next, add the modifier as a word.
             if (!numberModifier.equals("")) {
