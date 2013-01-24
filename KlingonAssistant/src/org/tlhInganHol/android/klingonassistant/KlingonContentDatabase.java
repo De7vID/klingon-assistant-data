@@ -590,8 +590,9 @@ public class KlingonContentDatabase {
             exactMatchesCursor.moveToFirst();
             do {
                 KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(exactMatchesCursor, mContext);
-                // An archaic word or phrase, even if it's an exact match, will never be part of a complex word.
-                if (filterEntry.isSatisfiedBy(resultEntry) && !resultEntry.isArchaic()) {
+                // An archaic or hypothetical word or phrase, even if it's an exact match, will never be part of a complex word.
+                // However, allow slang, regional, and extended canon.
+                if (filterEntry.isSatisfiedBy(resultEntry) && !resultEntry.isArchaic() && !resultEntry.isHypothetical()) {
                     // Log.d(TAG, "adding: " + resultEntry.getEntryName() + " (" + resultEntry.getPartOfSpeech() + ")");
                     Object[] exactMatchObject = complexWordCursorRow(resultEntry, complexWord);
 
