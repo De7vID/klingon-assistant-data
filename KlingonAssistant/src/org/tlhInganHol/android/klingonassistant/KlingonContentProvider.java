@@ -670,6 +670,8 @@ public class KlingonContentProvider extends ContentProvider {
             // {gh} must come before {ngh} since {ngh} is {n} + {gh} and not {ng} + *{h}.
             // {ng} must come before {n}.
             // {tlh} must come before {t} and {l}.
+            // Don't change {-} since it's needed for prefixes and suffixes.
+            // Don't change "..." (ellipses), but do change "." (periods).
             formattedEntryName = formattedEntryName.replaceAll("gh", "")
                                                    .replaceAll("ng", "")
                                                    .replaceAll("tlh", "")
@@ -706,11 +708,11 @@ public class KlingonContentProvider extends ContentProvider {
                                                    .replaceAll("7", "")
                                                    .replaceAll("8", "")
                                                    .replaceAll("9", "")
-                                                   .replaceAll("-", "")
                                                    .replaceAll(",", "")
                                                    .replaceAll("!", "")
                                                    .replaceAll("\\?", "")
-                                                   .replaceAll("\\.", "");
+                                                   .replaceAll("\\.", "")
+                                                   .replaceAll("", "\\.\\.\\.");
             return formattedEntryName;
         }
 
