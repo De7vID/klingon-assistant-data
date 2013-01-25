@@ -14,6 +14,7 @@
         <CheckBoxPreference
                 android:key="klingon_font_checkbox_preference"
                 android:dependency="klingon_ui_checkbox_preference"
+                android:layout="?android:attr/preferenceLayoutChild"
                 android:title="@string/klingon_font_preference_title"
                 android:summary="@string/klingon_font_preference_summary"
                 android:defaultValue="false" />

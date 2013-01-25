@@ -80,7 +80,7 @@ public class EntryActivity extends SherlockActivity {
     private static final String QUERY_FOR_JOKES = "*:sen:joke";
 
     // The intent holding the data to be shared.
-    private Intent shareEntryIntent = null;
+    private Intent mShareEntryIntent = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -118,8 +118,7 @@ public class EntryActivity extends SherlockActivity {
         // Set the entry's name (along with info like "slang", formatted in HTML).
         if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
             // Preference is set to display this in {pIqaD}!
-            Typeface pIqaDTypeface = Typeface.createFromAsset(getBaseContext().getAssets(),"fonts/pIqaD.ttf");
-            entryTitle.setTypeface(pIqaDTypeface);
+            entryTitle.setTypeface(KlingonAssistant.getKlingonFontTypeface(getBaseContext()));
             entryTitle.setText(entry.getEntryNameInKlingonFont());
         } else {
             // Boring transcription based on English (Latin) alphabet.
@@ -405,9 +404,9 @@ public class EntryActivity extends SherlockActivity {
         MenuItem shareButton = (MenuItem) menu.findItem(R.id.share);
         ShareActionProvider shareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
 
-        if (shareActionProvider != null && shareEntryIntent != null) {
+        if (shareActionProvider != null && mShareEntryIntent != null) {
             // Enable "Share" button.
-            shareActionProvider.setShareIntent(shareEntryIntent);
+            shareActionProvider.setShareIntent(mShareEntryIntent);
             shareButton.setVisible(true);
         }
         return true;
@@ -421,18 +420,18 @@ public class EntryActivity extends SherlockActivity {
 
         SharedPreferences sharedPrefs =
             PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-        shareEntryIntent = new Intent(Intent.ACTION_SEND);
+        mShareEntryIntent = new Intent(Intent.ACTION_SEND);
         if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-            shareEntryIntent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title_tlh));
+            mShareEntryIntent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title_tlh));
         } else {
-            shareEntryIntent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title));
+            mShareEntryIntent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title));
         }
 
-        shareEntryIntent.setType("text/plain");
+        mShareEntryIntent.setType("text/plain");
         String subject = "{" + entry.getFormattedEntryName(/* isHtml */ false) + "}";
-        shareEntryIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
+        mShareEntryIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
         String snippet = subject + "\n" + entry.getFormattedDefinition(/* isHtml */ false);
-        shareEntryIntent.putExtra(Intent.EXTRA_TEXT, snippet + "\n\n" + getResources().getString(R.string.shared_from));
+        mShareEntryIntent.putExtra(Intent.EXTRA_TEXT, snippet + "\n\n" + getResources().getString(R.string.shared_from));
     }
 
     @Override

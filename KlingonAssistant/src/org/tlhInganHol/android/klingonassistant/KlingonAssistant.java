@@ -79,6 +79,10 @@ public class KlingonAssistant extends SherlockActivity {
     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
     private static final String QUERY_FOR_JOKES = "*:sen:joke";
 
+    // This holds the {pIqaD} typeface.
+    private static Typeface mKlingonFontTypeface = null;
+
+    // The two main views in app's main screen.
     private TextView mTextView;
     private ListView mListView;
 
@@ -144,6 +148,13 @@ public class KlingonAssistant extends SherlockActivity {
                 }
             }
         }
+    }
+
+    public static Typeface getKlingonFontTypeface(Context context) {
+        if (mKlingonFontTypeface == null) {
+            mKlingonFontTypeface = Typeface.createFromAsset(context.getAssets(),"fonts/pIqaD.ttf");
+        }
+        return mKlingonFontTypeface;
     }
 
     // Launch an entry activity with the entry's info.
