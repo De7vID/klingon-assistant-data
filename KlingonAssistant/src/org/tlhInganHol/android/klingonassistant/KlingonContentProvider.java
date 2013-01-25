@@ -330,6 +330,7 @@ public class KlingonContentProvider extends ContentProvider {
             TRANSITIVE, INTRANSITIVE, STATIVE, AMBITRANSITIVE, UNKNOWN
         }
         private VerbTransitivityType mTransitivity = VerbTransitivityType.UNKNOWN;
+        boolean mTransitivityConfirmed = false;
 
         // Noun attributes.
         private enum NounType {
@@ -498,13 +499,23 @@ public class KlingonContentProvider extends ContentProvider {
 
                 // Verb attributes.
                 } else if (attr.equals("ambi")) {
+                    // All ambitransitive verbs are considered confirmed, since they are never marked as such otherwise.
                     mTransitivity = VerbTransitivityType.AMBITRANSITIVE;
+                    mTransitivityConfirmed = true;
                 } else if (attr.equals("i")) {
                     mTransitivity = VerbTransitivityType.INTRANSITIVE;
+                } else if (attr.equals("i_c")) {
+                    mTransitivity = VerbTransitivityType.INTRANSITIVE;
+                    mTransitivityConfirmed = true;
                 } else if (attr.equals("is")) {
+                    // All stative verbs are considered confirmed for being intransitive, since they are all of the form "to be [a quality]".
                     mTransitivity = VerbTransitivityType.STATIVE;
+                    mTransitivityConfirmed = true;
                 } else if (attr.equals("t")) {
                     mTransitivity = VerbTransitivityType.TRANSITIVE;
+                } else if (attr.equals("t_c")) {
+                    mTransitivity = VerbTransitivityType.TRANSITIVE;
+                    mTransitivityConfirmed = true;
 
                 // Noun attributes.
                 } else if (attr.equals("name")) {
