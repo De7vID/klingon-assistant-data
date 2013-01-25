@@ -812,7 +812,12 @@ public class KlingonContentProvider extends ContentProvider {
 
             if (isHtml) {
                 // This is used in the "results found" string.
-                return " <small>(<i>" + pos + "</i>)</small>";
+                String bracketedPos = " <small>(<i>" + pos + "</i>)";
+                if (mHomophoneNumber != -1) {
+                    bracketedPos += " (def'n " + mHomophoneNumber + ")";
+                }
+                bracketedPos += "</small>";
+                return bracketedPos;
             } else {
                 // This is used in an entry body next to linked entries.
                 String bracketedPos = " (" + pos + ")";
