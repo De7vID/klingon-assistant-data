@@ -385,8 +385,10 @@ public class KlingonContentProvider extends ContentProvider {
         boolean mIsIndented = false;
 
         // If there are multiple entries with identitical entry names,
-        // they are distinguished with numbers.
+        // they are distinguished with numbers. However, not all entries display
+        // them, for various reasons.
         int mHomophoneNumber;
+        boolean mShowHomophoneNumber;
 
         // Sources can include a URL.
         String mSourceURL = "";
@@ -415,7 +417,9 @@ public class KlingonContentProvider extends ContentProvider {
             }
 
             // Since this is a query, by default it doesn't match a specific number.
+            // Also, by default display the number.
             mHomophoneNumber = -1;
+            mShowHomophoneNumber = true;
 
             // Note: The homophone number may be overwritten by this function call.
             processMetadata();
@@ -594,6 +598,22 @@ public class KlingonContentProvider extends ContentProvider {
                 } else if (attr.equals("5")) {
                     // Nothing should go as high as even 4.
                     mHomophoneNumber = 5;
+                // Same as above, but the number is hidden.
+                } else if (attr.equals("1h")) {
+                    mHomophoneNumber = 1;
+                    mShowHomophoneNumber = false;
+                } else if (attr.equals("2h")) {
+                    mHomophoneNumber = 2;
+                    mShowHomophoneNumber = false;
+                } else if (attr.equals("3h")) {
+                    mHomophoneNumber = 3;
+                    mShowHomophoneNumber = false;
+                } else if (attr.equals("4h")) {
+                    mHomophoneNumber = 4;
+                    mShowHomophoneNumber = false;
+                } else if (attr.equals("5h")) {
+                    mHomophoneNumber = 5;
+                    mShowHomophoneNumber = false;
 
                 // If this is a source, the attribute is a URL.
                 } else if (isURL()) {
@@ -813,7 +833,7 @@ public class KlingonContentProvider extends ContentProvider {
             if (isHtml) {
                 // This is used in the "results found" string.
                 String bracketedPos = " <small>(<i>" + pos + "</i>)";
-                if (mHomophoneNumber != -1) {
+                if (mHomophoneNumber != -1 && mShowHomophoneNumber) {
                     bracketedPos += " (def'n " + mHomophoneNumber + ")";
                 }
                 bracketedPos += "</small>";
@@ -821,7 +841,7 @@ public class KlingonContentProvider extends ContentProvider {
             } else {
                 // This is used in an entry body next to linked entries.
                 String bracketedPos = " (" + pos + ")";
-                if (mHomophoneNumber != -1) {
+                if (mHomophoneNumber != -1 && mShowHomophoneNumber) {
                     bracketedPos += " (def'n " + mHomophoneNumber + ")";
                 }
                 return bracketedPos;
