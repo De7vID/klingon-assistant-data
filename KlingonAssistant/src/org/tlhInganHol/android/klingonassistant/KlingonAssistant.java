@@ -216,7 +216,7 @@ public class KlingonAssistant extends SherlockActivity {
 
             // TODO(davinci): Format with colour and size.
             String indent1 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;" : "";
-            String indent2 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;" : "";
+            String indent2 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" : "";
 
             // Use serif for the entry, so capital-I and lowercase-l are distinguishable.
             view.getText1().setTypeface(Typeface.SERIF);

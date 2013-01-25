@@ -641,7 +641,7 @@ public class KlingonContentProvider extends ContentProvider {
             return s;
         }
 
-        // Get the name of the entry, as an HTML string.
+        // Get the name of the entry, optionally as an HTML string. Used in the entry title, share intent text, and results lists.
         public String getFormattedEntryName(boolean isHtml) {
             // Note that an entry may have more than one of the archaic,
             // regional, or slang attributes.
