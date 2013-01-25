@@ -73,9 +73,6 @@ public class KlingonContentProvider extends ContentProvider {
     private static final int GET_ENTRY_BY_ID = 4;
     private static final UriMatcher sURIMatcher = buildUriMatcher();
 
-    // Used for analysis of entries with components.
-    private static final String COMPONENTS_MARKER = "//";
-
     /**
      * Builds up a UriMatcher for search suggestion and shortcut refresh queries.
      */
@@ -280,6 +277,13 @@ public class KlingonContentProvider extends ContentProvider {
 
         // Pattern for matching entry in text.
         public static Pattern ENTRY_PATTERN = Pattern.compile("\\{[A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]+\\}");
+
+        // Used for analysis of entries with components.
+        // It cannot occur in a link (we cannot use "//" for example because it occurs in URL links,
+        // or one "@" because it occurs in email addresses). It should not contain anything that
+        // needs to be escaped in a regular expression, since it is stripped and then added back.
+        public static final String COMPONENTS_MARKER = "@@";
+
 
         // Context.
         private Context mContext;

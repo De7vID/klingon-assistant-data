@@ -82,9 +82,6 @@ public class EntryActivity extends SherlockActivity {
     // The intent holding the data to be shared.
     private Intent shareEntryIntent = null;
 
-    // Used for analysis of entries with components.
-    private static final String COMPONENTS_MARKER = "//";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -222,7 +219,7 @@ public class EntryActivity extends SherlockActivity {
                 if (homophoneNumber != -1) {
                     analysisQuery += ":" + homophoneNumber;
                 }
-                analysisQuery += COMPONENTS_MARKER + components.replaceAll("[{}]", "");
+                analysisQuery += KlingonContentProvider.Entry.COMPONENTS_MARKER + components.replaceAll("[{}]", "");
             }
             expandedDefinition += "\n\n" + resources.getString(R.string.label_analyze) + ": {" + analysisQuery + "}";
         }
