@@ -238,7 +238,7 @@ public class EntryActivity extends SherlockActivity {
         // If this is a verb (but not a prefix or suffix), show the transitivity information.
         String transitivity = "";
         if (entry.isVerb() &&
-                sharedPrefs.getBoolean(Preferences.KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE, /* default */ true)) {
+                sharedPrefs.getBoolean(Preferences.KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE, /* default */ false)) {
             // This is a verb and show transitivity preference is set to true.
             transitivity = entry.getTransitivity();
         }
@@ -252,7 +252,7 @@ public class EntryActivity extends SherlockActivity {
 
         // Show the hidden notes.
         String hiddenNotes = "";
-        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE, /* default */ true)) {
+        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE, /* default */ false)) {
             // Show additional information preference set to true.
             hiddenNotes = entry.getHiddenNotes();
         }
