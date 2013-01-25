@@ -509,6 +509,7 @@ public class KlingonContentProvider extends ContentProvider {
                 // Noun attributes.
                 } else if (attr.equals("name")) {
                     mNounType = NounType.NAME;
+                    mShowHomophoneNumber = false;
                 } else if (attr.equals("num")) {
                     mNounType = NounType.NUMBER;
                 } else if (attr.equals("pro")) {
