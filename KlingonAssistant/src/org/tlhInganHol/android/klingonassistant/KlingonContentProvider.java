@@ -446,9 +446,7 @@ public class KlingonContentProvider extends ContentProvider {
             mSearchTags = cursor.getString(KlingonContentDatabase.COLUMN_SEARCH_TAGS);
             mSource = cursor.getString(KlingonContentDatabase.COLUMN_SOURCE);
 
-            // By default, an entry has the number 1 unless this is overwritten.
-            mHomophoneNumber = 1;
-
+            // The homophone number is -1 by default.
             // Note: The homophone number may be overwritten by this function call.
             processMetadata();
         }
@@ -734,6 +732,8 @@ public class KlingonContentProvider extends ContentProvider {
             return pos;
         }
 
+        // This is called when creating the expanded definition in the entry, and also in
+        // getFormattedDefinition below.
         public String getFormattedPartOfSpeech(boolean isHtml) {
             // Return abbreviation for part of speech, but suppress for sentences and names.
             String pos = "";
@@ -756,7 +756,8 @@ public class KlingonContentProvider extends ContentProvider {
             return pos;
         }
 
-        // Get the definition, including the part of speech.
+        // Get the definition, including the part of speech. Called to create the sharing text for
+        // the entry, and also the text in the search results list.
         public String getFormattedDefinition(boolean isHtml) {
             String pos = getFormattedPartOfSpeech(isHtml);
 
@@ -794,7 +795,9 @@ public class KlingonContentProvider extends ContentProvider {
             return mEntryName;
         }
 
-        // Return the part of speech in brackets, but only for some cases.
+        // Return the part of speech in brackets, but only for some cases. Called to display the
+        // part of speech for linked entries in an entry, and also in the main results screen to
+        // show what the original search term was.
         public String getBracketedPartOfSpeech(boolean isHtml) {
             // Return abbreviation for part of speech, but suppress for sentences, exclamations, etc.
             if (mBasePartOfSpeech == BasePartOfSpeechEnum.SENTENCE ||
@@ -808,9 +811,15 @@ public class KlingonContentProvider extends ContentProvider {
             String pos = getSpecificPartOfSpeech();
 
             if (isHtml) {
+                // This is used in the "results found" string.
                 return " <small>(<i>" + pos + "</i>)</small>";
             } else {
-                return " (" + pos + ")";
+                // This is used in an entry body next to linked entries.
+                String bracketedPos = " (" + pos + ")";
+                if (mHomophoneNumber != -1) {
+                    bracketedPos += " (def'n " + mHomophoneNumber + ")";
+                }
+                return bracketedPos;
             }
         }
 

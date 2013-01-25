@@ -353,9 +353,13 @@ public class EntryActivity extends SherlockActivity {
             if (!linkedPos.equals("") && linkedPos.length() > 1) {
                 ssb.insert(end, linkedPos);
 
-                // linkedPos includes a space and brackets, skip them.
-                ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC),
-                    end + 2, end + linkedPos.length() - 1, finalFlags);
+                int rightBracketLoc = linkedPos.indexOf(")");
+                if (rightBracketLoc != -1) {
+                    // linkedPos is always of the form " (pos)[ (def'n N)]", we want to italicise
+                    // the "pos" part only.
+                    ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC),
+                        end + 2, end + rightBracketLoc, finalFlags);
+                }
             }
 
             // Rinse and repeat.
