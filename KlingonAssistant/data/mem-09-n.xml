@@ -1,9 +1,9 @@
     <table name="mem">
       <column name="_id">21740</column>
       <column name="entry_name">nab</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">plan</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">planen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Hech:v}, {QuS:v}, {ren:v}, {nab:n}</column>
@@ -19,7 +19,7 @@
       <column name="entry_name">nab</column>
       <column name="part_of_speech">n</column>
       <column name="definition">plan, procedure</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Plan, Prozedur</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mIw:n}, {nab:v}</column>
@@ -35,7 +35,7 @@
       <column name="entry_name">nach</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">head</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Kopf</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qab:n}, {mong:n}, {jIb:n}, {Quch:n}</column>
@@ -49,9 +49,9 @@
     <table name="mem">
       <column name="_id">21770</column>
       <column name="entry_name">naD</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">praise, commend, approve</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">loben, empfehlen, anerkennen</column>
       <column name="synonyms"></column>
       <column name="antonyms">{naDHa':v}</column>
       <column name="see_also">{tIch:v}, {vuv:v}, {naD:n}</column>
@@ -67,7 +67,7 @@
       <column name="entry_name">naD</column>
       <column name="part_of_speech">n</column>
       <column name="definition">commendation</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Empfehlung</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{naD:v}</column>
@@ -83,7 +83,7 @@
       <column name="entry_name">naD tetlh</column>
       <column name="part_of_speech">n:fic,deriv</column>
       <column name="definition">Commendation List</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Auszeichnungsliste</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -99,7 +99,7 @@
       <column name="entry_name">naDev</column>
       <column name="part_of_speech">n</column>
       <column name="definition">here, hereabouts</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">hier</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{pa':n:2}, {Dat:n}</column>
@@ -166,9 +166,9 @@
     <table name="mem">
       <column name="_id">21810</column>
       <column name="entry_name">naDHa'</column>
-      <column name="part_of_speech">v:t,deriv</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">discommend, disapprove</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">abraten, ablehnen</column>
       <column name="synonyms"></column>
       <column name="antonyms">{naD:v}</column>
       <column name="see_also">{qIch:v}, {mIl:v}</column>
@@ -218,12 +218,12 @@
       <column name="entry_name">nagh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">rock, stone, ceramic material</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Felsen, Stein, Keramik (Material)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Hew:n}</column>
       <column name="notes"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is defined as "rock, stone" in {TKD:src} and as "ceramic material" in {KGT:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -234,7 +234,7 @@
       <column name="entry_name">nagh beQ</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">stone panel (artwork, similar to a painting)</column>
-      <column name="definition_de">Steingemälde</column>
+      <column name="definition_de">Steingemälde, Steintafel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{rItlh:n}, {DIj:v:2}, {ngoH:v:2}</column>
@@ -250,7 +250,7 @@
       <column name="entry_name">nagh DIr</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">shell (of an animal)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Schale (von Tier)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{pel'aQ:n}</column>
@@ -266,7 +266,7 @@
       <column name="entry_name">naghboch</column>
       <column name="part_of_speech">n</column>
       <column name="definition">gemstone</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Edelstein</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tlhIl:v}, {tlhIl:n}, {qut:n}</column>
@@ -282,7 +282,7 @@
       <column name="entry_name">naH</column>
       <column name="part_of_speech">n:food</column>
       <column name="definition">fruit, vegetable</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Frucht, Obst, Gemüse</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{baQ:v:2}, {DeH:v}, {Du' naH:n}, {naH tlhab:n}, {qurgh:n}, {'oQqar:n}, {yub:n}, {tIr:n}, {yob:v}, {wIj:v}, {yotlh:n}</column>
@@ -298,7 +298,7 @@
       <column name="entry_name">naH jajmey</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">vegetable days</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Gemüse-Tagen (Jugend)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -315,7 +315,7 @@
       <column name="entry_name">naH taj</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">vegetable knife, fruit knife (small knife)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Obst-/Gemüsemesser (jedes kleine Messer)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -345,9 +345,9 @@
     <table name="mem">
       <column name="_id">21910</column>
       <column name="entry_name">naHjej</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">thistle</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Distel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -365,7 +365,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">naHlet</column>
       <column name="part_of_speech">n:food</column>
       <column name="definition">nut, nuts</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Nuss, Nüsse</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -395,9 +395,9 @@ Do not confuse this word with {naQjej:n}.</column>
     <table name="mem">
       <column name="_id">21940</column>
       <column name="entry_name">naHnagh</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">pit (of fruit)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Obstkern</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -413,7 +413,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">naj</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">dream</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">träumen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Qong:v}</column>
@@ -429,7 +429,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">najmoHwI'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">lullaby</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Schlaflied</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bom:n}</column>
@@ -461,7 +461,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">nalqaD</column>
       <column name="part_of_speech">n</column>
       <column name="definition">mate challenge</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Paarungs-Herausforderung</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -477,7 +477,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">namtun</column>
       <column name="part_of_speech">n</column>
       <column name="definition">the familiar beginning of a song</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">der bekannte Anfang eines Liedes</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'o'megh:n}</column>
       <column name="see_also">{lIH:v:2}</column>
@@ -493,7 +493,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">namwech</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">paw</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Pfote, Tatze</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{targh:n}, {ghop:n}, {qam:n}, {lem:n}</column>
@@ -509,7 +509,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">nan</column>
       <column name="part_of_speech">v:1,t</column>
       <column name="definition">gouge</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">ausmeißeln</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Hew:n}, {tey:v}, {ghItlh:v}</column>
@@ -525,7 +525,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">nan</column>
       <column name="part_of_speech">v:2,t</column>
       <column name="definition">use the fourth toe</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">den vierten Zehe benutzen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -557,7 +557,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">nanwI'</column>
       <column name="part_of_speech">n:1,deriv</column>
       <column name="definition">chisel</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Meißel, Beitel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -573,7 +573,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">nanwI'</column>
       <column name="part_of_speech">n:2,deriv,body</column>
       <column name="definition">fourth toe</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">vierter Zehe</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yaD:n:1}</column>
@@ -589,7 +589,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">nap</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be simple</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">einfach</column>
       <column name="synonyms"></column>
       <column name="antonyms">{Qatlh:v}</column>
       <column name="see_also"></column>
@@ -605,7 +605,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">naQ</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be full, whole, entire, complete</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">vollständig, komplett, ganz</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Dol:n}, {teb:v}</column>
@@ -621,7 +621,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">naQ</column>
       <column name="part_of_speech">n:1</column>
       <column name="definition">cain, staff</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Stock, Stab</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chaS:n}</column>
@@ -637,7 +637,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="entry_name">naQ</column>
       <column name="part_of_speech">n:2,slang</column>
       <column name="definition">ponytail</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Pferdeschwanz</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Qeb:n:2}, {DaQ:n}, {choljaH:n}</column>
@@ -687,7 +687,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">nargh</column>
       <column name="part_of_speech">v:1,i</column>
       <column name="definition">appear</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">erscheinen</column>
       <column name="synonyms"></column>
       <column name="antonyms">{ngab:v}</column>
       <column name="see_also">{nargh:v:2}</column>
@@ -703,7 +703,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">nargh</column>
       <column name="part_of_speech">v:2,i</column>
       <column name="definition">escape</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">entkommen, entweichen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Haw':v}, {jun:v}, {nargh:v:1}</column>
@@ -721,7 +721,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">narghbe'chugh SuvwI' qa' taH may'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">If the warrior's spirit has not escaped, the battle is still going on.</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Wenn der Geist eines Kriegers nicht enflohen ist, dauert die Schlacht noch an.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{HeghDI' SuvwI' nargh SuvwI' qa'.:sen}</column>
@@ -737,7 +737,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">naS</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be vicious</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">bösartig, gemein</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{wIH:v}</column>
@@ -753,7 +753,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">natlIS</column>
       <column name="part_of_speech">n</column>
       <column name="definition">last item in a list</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">letzter Punkt in einer Liste</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -769,7 +769,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">natlh</column>
       <column name="part_of_speech">v:1,t</column>
       <column name="definition">use up, consume, expend, drain</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">auf-, verbrauchen, konsumieren</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{loj:v}, {natlh:v:2}</column>
@@ -785,7 +785,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">natlh</column>
       <column name="part_of_speech">v:2,i,slang</column>
       <column name="definition">be reprehensible, be disgusting, be contemptible</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">widerlich, tadelnswert, verachtenswert, schändlich, anstößig</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ngIm:v}, {'up:v}, {'eyHa':v}, {SaS:v:2,slang}, {natlh:v:1}</column>
@@ -801,7 +801,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">nav</column>
       <column name="part_of_speech">n</column>
       <column name="definition">paper</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Papier</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mavjop:n}, {'echletHom:n}</column>
@@ -817,7 +817,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">nav HablI'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">fax machine</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Faxgerät</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghogh HablI':n}</column>
@@ -849,7 +849,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">nawlogh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">squadron</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Geschwader</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -865,7 +865,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">naw'</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">access</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Zutritt/Zugriff erhalten zu</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -881,7 +881,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">naw'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">access</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Zugriff</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{De' naw'wI':n}</column>
@@ -897,7 +897,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">nay</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">marry (wife does this)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">heiraten (macht die Frau)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Saw:v}, {tlhogh:n}, {be'nal:n}</column>
@@ -913,7 +913,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">nay'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">course, dish (at a meal)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Gericht, Gang</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{nIQ:n}, {megh:n}, {'uQ:n}, {ghem:n}</column>
@@ -929,7 +929,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">na'</column>
       <column name="part_of_speech">v:1,is</column>
       <column name="definition">be salty, be brackish</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">salzig</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{wIb:v}, {na'ran:n}</column>
@@ -945,7 +945,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">na'</column>
       <column name="part_of_speech">v:2,is,slang</column>
       <column name="definition">be sure, be definite, be positive, be certain</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">sicher, eindeutig, bestimmt</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{DIch:n}, {bej:v:2,slang}, {-na':n}</column>
@@ -977,7 +977,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">neb</column>
       <column name="part_of_speech">n</column>
       <column name="definition">beak, bill</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Schnabel, schnabelähnliche Schnauze</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bo'Degh:n}, {wom:v}</column>
@@ -993,7 +993,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">nech</column>
       <column name="part_of_speech">v:i</column>
       <column name="definition">be lateral, move laterally</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">seitlich, von der Seite, seitwärts bewegen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{jIm:v}, {Dav:v}</column>
@@ -1009,7 +1009,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">negh</column>
       <column name="part_of_speech">n:inhpl</column>
       <column name="definition">soldiers</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Soldaten</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mangghom:n}</column>
@@ -1041,7 +1041,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="entry_name">neH</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">only, merely, just</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">nur, lediglich</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{nIteb:adv}, {mob:v}</column>
@@ -1069,7 +1069,7 @@ This adverbial can also follow a noun, in which case it means "only" or "alone".
       <column name="entry_name">neH</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">want</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">wollen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1104,7 +1104,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="entry_name">neHmaH</column>
       <column name="part_of_speech">n</column>
       <column name="definition">neutral zone</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Neutrale Zone</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1120,7 +1120,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="entry_name">nej</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">look for, seek, search for</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">nach etwas suchen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Sam:v}, {chIl:v}</column>
@@ -1137,7 +1137,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="entry_name">nejwI'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">probe</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Sonde</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1153,7 +1153,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="entry_name">nem</column>
       <column name="part_of_speech">n</column>
       <column name="definition">years from now</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">in ... Jahren</column>
       <column name="synonyms"></column>
       <column name="antonyms">{ben:n:1}</column>
       <column name="see_also">{DIS:n:2}, {pIq:n}</column>
@@ -1169,7 +1169,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="entry_name">nen</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be mature, be grown-up, be adult</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">erwachsen, reif</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{nen:n}, {nenchoH:v}</column>
@@ -1185,7 +1185,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="entry_name">nen</column>
       <column name="part_of_speech">n</column>
       <column name="definition">growth, maturation</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Wachstum, Reife</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{nen:v}</column>
@@ -1201,7 +1201,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="entry_name">nenchoH</column>
       <column name="part_of_speech">v:i,deriv</column>
       <column name="definition">mature, grow up</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">wachsen, reifen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1218,7 +1218,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <!-- Not deriv because components uncertain. -->
       <column name="part_of_speech">n:fic</column>
       <column name="definition">Age of Ascension</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Reifalter, Reife des Aufsteigens</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{nentay:n}, {peHghep:n}</column>
@@ -1234,9 +1234,9 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
     <table name="mem">
       <column name="_id">22380</column>
       <column name="entry_name">nentay</column>
-      <column name="part_of_speech">n:fic</column>
+      <column name="part_of_speech">n:fic,deriv</column>
       <column name="definition">Rite of Ascension</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Ritus des Aufsteigens</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{lopno':n}, {'oy'naQ:n}, {nenghep:n}, {nen:n}, {tay:n}, {nentay cha'DIch:n}</column>
@@ -1268,7 +1268,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="entry_name">nep</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">lie, fib</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">lügen</column>
       <column name="synonyms"></column>
       <column name="antonyms">{vIt:v}</column>
       <column name="see_also">{lay':v}, {lay'Ha':v}, {nop:v}</column>
@@ -1284,7 +1284,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="entry_name">neSlo'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">small mirror</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">kleiner Spiegel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1300,7 +1300,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="entry_name">net</column>
       <column name="part_of_speech">n:pro</column>
       <column name="definition">that (previous topic)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">das (vorige Thema)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'e':n:pro}</column>
@@ -1329,7 +1329,7 @@ Sometimes, {'e':n:pro} with {-lu':v} is used instead of {net:n:pro,nolink}. It i
       <column name="entry_name">netlh</column>
       <column name="part_of_speech">n:num</column>
       <column name="definition">ten thousand</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">zehntausend</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mI':n}, {SaD:n}, {bIp:n}</column>
@@ -1345,7 +1345,7 @@ Sometimes, {'e':n:pro} with {-lu':v} is used instead of {net:n:pro,nolink}. It i
       <column name="entry_name">netlh DIS poH</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">myriad (a period of ten thousand years)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Jahrzehntausend, Myriade</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{vatlh DIS poH:n}, {SaD DIS poH:n}</column>
@@ -1361,7 +1361,7 @@ Sometimes, {'e':n:pro} with {-lu':v} is used instead of {net:n:pro,nolink}. It i
       <column name="entry_name">nevDagh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">type of pot with handles (used for food preparation)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Topf mit Griffen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bargh:n}</column>
@@ -1409,7 +1409,7 @@ Sometimes, {'e':n:pro} with {-lu':v} is used instead of {net:n:pro,nolink}. It i
       <column name="entry_name">nI-</column>
       <column name="part_of_speech">v:pref</column>
       <column name="definition">they-you</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">sie(pl.)-dich</column>
       <column name="synonyms"></column>
       <column name="antonyms">{Da-:v:pref}</column>
       <column name="see_also">{Du-:v:pref}, {lI-:v:pref}</column>
@@ -1425,7 +1425,7 @@ Sometimes, {'e':n:pro} with {-lu':v} is used instead of {net:n:pro,nolink}. It i
       <column name="entry_name">nIb</column>
       <column name="part_of_speech">v:i</column>
       <column name="definition">be identical</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">identisch</column>
       <column name="synonyms">{rap:v}</column>
       <column name="antonyms">{pIm:v}</column>
       <column name="see_also">{Sar:v}, {rur:v}, {... X law' ... X puS:sen}</column>
@@ -1446,7 +1446,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIbpoH</column>
       <column name="part_of_speech">n</column>
       <column name="definition">déjà vu</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Déjà vu</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{leSSov:n}</column>
@@ -1462,7 +1462,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIch</column>
       <column name="part_of_speech">n</column>
       <column name="definition">ammunition</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Munition</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{nuH:n:1}, {ngat:n:1}</column>
@@ -1478,7 +1478,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nID</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">attempt, try</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">(etw.) versuchen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1494,7 +1494,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIH</column>
       <column name="part_of_speech">n</column>
       <column name="definition">right (side)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">rechts</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{poS:n}, {tlhop:n}, {'em:n}, {'et:n}, {'o':n}</column>
@@ -1510,7 +1510,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIH</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">steal</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">stehlen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Hej:v}</column>
@@ -1526,7 +1526,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIHwI'</column>
       <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">thief</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Dieb</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1542,7 +1542,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIj</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">leak</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">lecken, undicht sein, auslaufen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yIb:n}</column>
@@ -1558,7 +1558,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIm</column>
       <column name="part_of_speech">n</column>
       <column name="definition">milk</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Milch</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1574,7 +1574,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIm tlhagh</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">butter</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Butter</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1590,7 +1590,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIm wIb ngogh</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">cheese</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Käse</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1606,7 +1606,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nImbuS wej</column>
       <column name="part_of_speech">n</column>
       <column name="definition">Nimbus III</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Nimbus III</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1622,7 +1622,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIn</column>
       <column name="part_of_speech">n</column>
       <column name="definition">fuel</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Treibstoff</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1638,7 +1638,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIn 'ar wIghaj?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">How much fuel do we have?</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Wieviel Treibstoff haben wir (noch)?</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1670,7 +1670,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIQ</column>
       <column name="part_of_speech">n</column>
       <column name="definition">breakfast</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Frühstück</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{po:n}, {'uQ:n}, {ghem:n}</column>
@@ -1686,7 +1686,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIS</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">hinder, interfere (with), disrupt</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">behindern, unterbrechen, (zer)stören</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mun:v}, {Haq:v:2}</column>
@@ -1704,7 +1704,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nISwI'</column>
       <column name="part_of_speech">n:deriv,fic,weap</column>
       <column name="definition">disruptor</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Disruptor</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bach:v}, {nISwI' beH:n}</column>
@@ -1722,7 +1722,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nISwI' beH</column>
       <column name="part_of_speech">n:deriv,fic,weap</column>
       <column name="definition">disruptor rifle</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Disruptorgewehr</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1748,7 +1748,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="see_also"></column>
       <column name="notes">These are powerful disruptors mounted on a ship.</column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{nISwI':n}, {DaH:n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
@@ -1758,7 +1758,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nISwI' HIch</column>
       <column name="part_of_speech">n:deriv,fic,weap</column>
       <column name="definition">disruptor pistol, hand-held disruptor</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Disruptorpistole (Handwaffe)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1790,7 +1790,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIt</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be plain, be pure, be uncorrupted, be unsullied</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">sauber, unkorrumpiert, unbefleckt</column>
       <column name="synonyms">{watlh:v}</column>
       <column name="antonyms">{qal:v}</column>
       <column name="see_also">{Say':v}</column>
@@ -1807,7 +1807,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIteb</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">alone, acting alone</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">alleine, einsam, auf sich selbst gestellt</column>
       <column name="synonyms"></column>
       <column name="antonyms">{nItebHa':adv}</column>
       <column name="see_also">{mob:v}, {neH:adv}</column>
@@ -1856,7 +1856,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nIteb SuvnIS DevwI'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">A leader must stand alone.</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Ein Anführer muss alleine stehen.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1872,7 +1872,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nItebHa'</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">together</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">zusammen, gemeinsam</column>
       <column name="synonyms"></column>
       <column name="antonyms">{nIteb:adv}</column>
       <column name="see_also">{tay':v}, {-Ha':v:suff}</column>
@@ -1889,7 +1889,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="entry_name">nItlh</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">finger</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Finger</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Qeb:n:1}, {ngoH:v:2}, {Heng:v}, {yaD:n:1}, {ghop:n}</column>
@@ -1911,7 +1911,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="entry_name">nItlh naQ</column>
       <column name="part_of_speech">n:slang</column>
       <column name="definition">pigment stick</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Malstab</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{DIj:v:2}, {nItlh:n}</column>
@@ -1927,7 +1927,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="entry_name">nItlhpach</column>
       <column name="part_of_speech">n:1,body</column>
       <column name="definition">fingernail</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Fingernagel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{butlh:n:1}, {yaDpach:n}</column>
@@ -1943,7 +1943,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="entry_name">nItlhpach</column>
       <column name="part_of_speech">n:2</column>
       <column name="definition">flat end of a pigment stick</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">flaches Endes eines Malstabs</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{nItlhpach:n}</column>
@@ -1959,7 +1959,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="entry_name">nIv</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be superior</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">überlegen, höher, besser</column>
       <column name="synonyms"></column>
       <column name="antonyms">{QIv:v}</column>
       <column name="see_also">{moch:n}</column>
@@ -1976,7 +1976,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="entry_name">nIvnav</column>
       <column name="part_of_speech">n</column>
       <column name="definition">pajamas</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Schlafanzug</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
