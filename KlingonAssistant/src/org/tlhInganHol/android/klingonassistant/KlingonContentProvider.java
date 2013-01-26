@@ -1212,13 +1212,21 @@ public class KlingonContentProvider extends ContentProvider {
                     return mContext.getResources().getString(R.string.transitivity_ambi);
 
                 case INTRANSITIVE:
-                    return mContext.getResources().getString(R.string.transitivity_intransitive);
+                    if (mTransitivityConfirmed) {
+                        return mContext.getResources().getString(R.string.transitivity_intransitive_confirmed);
+                    } else {
+                        return mContext.getResources().getString(R.string.transitivity_intransitive);
+                    }
 
                 case STATIVE:
                     return mContext.getResources().getString(R.string.transitivity_stative);
 
                 case TRANSITIVE:
-                    return mContext.getResources().getString(R.string.transitivity_transitive);
+                    if (mTransitivityConfirmed) {
+                        return mContext.getResources().getString(R.string.transitivity_transitive_confirmed);
+                    } else {
+                        return mContext.getResources().getString(R.string.transitivity_transitive);
+                    }
 
                 default:
                     return mContext.getResources().getString(R.string.transitivity_unknown);
