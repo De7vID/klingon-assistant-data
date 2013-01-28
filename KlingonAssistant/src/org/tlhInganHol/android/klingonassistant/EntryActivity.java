@@ -533,10 +533,7 @@ public class EntryActivity extends SherlockActivity {
 
     // Private method to display the "help" entries.
     private void displayHelp(String helpQuery) {
-      Intent intent = new Intent();
-      intent.setComponent(new ComponentName(
-          "org.tlhInganHol.android.klingonassistant",
-          "org.tlhInganHol.android.klingonassistant.KlingonAssistant"));
+      Intent intent = new Intent(this, KlingonAssistant.class);
       intent.setAction(Intent.ACTION_SEARCH);
       intent.putExtra(SearchManager.QUERY, helpQuery);
 
@@ -553,10 +550,7 @@ public class EntryActivity extends SherlockActivity {
 
       @Override
       public void onClick(View view) {
-        Intent intent = new Intent();
-        intent.setComponent(new ComponentName(
-            "org.tlhInganHol.android.klingonassistant",
-            "org.tlhInganHol.android.klingonassistant.KlingonAssistant"));
+        Intent intent = new Intent(view.getContext(), KlingonAssistant.class);
         intent.setAction(Intent.ACTION_SEARCH);
         intent.putExtra(SearchManager.QUERY, mQuery);
 

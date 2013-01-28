@@ -388,8 +388,8 @@ public class KlingonContentProvider extends ContentProvider {
         // If there are multiple entries with identitical entry names,
         // they are distinguished with numbers. However, not all entries display
         // them, for various reasons.
-        int mHomophoneNumber;
-        boolean mShowHomophoneNumber;
+        int mHomophoneNumber = -1;
+        boolean mShowHomophoneNumber = true;
 
         // Sources can include a URL.
         String mSourceURL = "";
@@ -416,11 +416,6 @@ public class KlingonContentProvider extends ContentProvider {
                 mPartOfSpeech = mEntryName.substring(colonLoc + 1);
                 mEntryName = mEntryName.substring(0, colonLoc);
             }
-
-            // Since this is a query, by default it doesn't match a specific number.
-            // Also, by default display the number.
-            mHomophoneNumber = -1;
-            mShowHomophoneNumber = true;
 
             // Note: The homophone number may be overwritten by this function call.
             processMetadata();
@@ -481,7 +476,7 @@ public class KlingonContentProvider extends ContentProvider {
                 }
                 if (mBasePartOfSpeech == BasePartOfSpeechEnum.UNKNOWN) {
                     // Log warning if part of speech could not be determined.
-                    Log.w(TAG, "{" + mEntryName + "} has " + "unrecognised part of speech: \"" + mPartOfSpeech + "\"");
+                    Log.w(TAG, "{" + mEntryName + "} has unrecognised part of speech: \"" + mPartOfSpeech + "\"");
                 }
             }
 
@@ -634,7 +629,7 @@ public class KlingonContentProvider extends ContentProvider {
                 // No match to attributes.
                 } else {
                     // Log error if part of speech could not be determined.
-                    Log.e(TAG, "Unrecognised attribute: \"" + attr + "\"");
+                    Log.e(TAG, "{" + mEntryName + "} has unrecognised attribute: \"" + attr + "\"");
                 }
 
             }
