@@ -570,9 +570,10 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {QaghwIj vIQIj 'e' yIchaw'neS.} "Permit me to explain my mistake, your honor."[2]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {PK:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
@@ -646,17 +647,17 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">11920</column>
       <column name="entry_name">cha'</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">show, display (picture)</column>
       <column name="definition_de">zeigen, vorführen</column>
- ö     <column name="synonyms"></column>
+      <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{HaSta:n}, {wIy:n}, {'ang:v}</column>
       <column name="notes"></column>
-      <column name="hidden_notes">The first ever line of Klingon spoken on-screen was {wIy cha'}, in {Star Trek I:src}.</column>
+      <column name="hidden_notes">The first ever line of Klingon spoken on-screen was {wIy cha'@@wIy:n, cha':v}, in {Star Trek I:src}.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {tlhIngan Dujmey law'qu' SommeyDaq batlh cha'lu'.} "[It] has been emblazoned upon the hulls of countless Klingon Starships."[3]</column>
+▶ {tlhIngan Dujmey law'qu' SommeyDaq batlh cha'lu'.@@tlhIngan:n, Duj:n:2, -mey:n, law':v, -qu':v, Som:n, -mey:n, -Daq:n, batlh:adv, cha':v, -lu':v} "[It] has been emblazoned upon the hulls of countless Klingon Starships."[3]</column>
       <column name="search_tags">emblazon</column>
       <column name="source">[1] {TKD:src}, [2] {Star Trek I:src}, [3] {SkyBox 1:src}</column>
     </table>
@@ -1125,7 +1126,7 @@ Also, in Spanish, "parpar" is the sound made by a duck.</column>
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12080</column>
       <column name="entry_name">chegh</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">return (to)</column>
       <column name="definition_de">wiederkehren (in)</column>
       <column name="synonyms"></column>
@@ -1253,12 +1254,12 @@ The following four examples illustrate the role of the object(s) and how to use 
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12140</column>
       <column name="entry_name">chen</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:i_c</column>
       <column name="definition">build up, take form</column>
       <column name="definition_de">bilden, Form annehmen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{boq:v}</column>
+      <column name="see_also">{boq:v}, {vI':v}</column>
       <column name="notes">This verb is also used to indicate the result of mathematical operations.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -1370,7 +1371,7 @@ The following four examples illustrate the role of the object(s) and how to use 
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12210</column>
       <column name="entry_name">cher</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">establish, set up</column>
       <column name="definition_de">etablieren, einrichten</column>
       <column name="synonyms"></column>
@@ -1394,7 +1395,7 @@ The following four examples illustrate the role of the object(s) and how to use 
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12220</column>
       <column name="entry_name">chergh</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">tolerate</column>
       <column name="definition_de">tolerieren</column>
       <column name="synonyms"></column>
@@ -1480,7 +1481,7 @@ The distinction between a {chetvI':n:nolink} and a {DuS:n} has to do with how th
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12270</column>
       <column name="entry_name">chev</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">separate</column>
       <column name="definition_de">trennen, abtrennen</column>
       <column name="synonyms"></column>
@@ -1522,11 +1523,15 @@ The distinction between a {chetvI':n:nolink} and a {DuS:n} has to do with how th
       <column name="antonyms"></column>
       <column name="see_also">{loH:v}, {cher:v}, {ghatlh:v}, {cho':v}</column>
       <column name="notes"></column>
-      <column name="hidden_notes">This almost sounds like "chair".</column>
+      <column name="hidden_notes">This almost sounds like "chair".
+
+This word is defined in {TKD:src} as "rule, reign, run" and additionally in {KGT:src} as "preside".</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {juHqo'Daq vaS'a' tu'lu'. ngoch luchermeH 'ej wo' San luwuqmeH pa' ghom tlhIngan yejquv DevwI'pu'. DaH che' ghawran. yejquv DevwI' moj ghawran 'e' wuqta' cho' 'oDwI' Dapu'bogh janluq pIqarD HoD.:sen:nolink}
+  "On the Homeworld, there is a great hall where the leaders of the Klingon High Council meet to determine policy and decide upon the fate of the Empire. Gowron currently presides, named leader of the High Council by Captain Jean-Luc Picard, who was acting as Arbiter of Succession."[3]</column>
       <column name="search_tags">chair</column>
-      <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {SkyBox 25:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
@@ -1566,7 +1571,7 @@ The distinction between a {chetvI':n:nolink} and a {DuS:n} has to do with how th
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12320</column>
       <column name="entry_name">chID</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">admit</column>
       <column name="definition_de">zugeben, gestehen</column>
       <column name="synonyms"></column>
@@ -1584,7 +1589,7 @@ The distinction between a {chetvI':n:nolink} and a {DuS:n} has to do with how th
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12330</column>
       <column name="entry_name">chIj</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">navigate</column>
       <column name="definition_de">navigieren, einen Kurs fliegen</column>
       <column name="synonyms"></column>
@@ -1619,7 +1624,7 @@ The distinction between a {chetvI':n:nolink} and a {DuS:n} has to do with how th
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12350</column>
       <column name="entry_name">chIl</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">lose, misplace</column>
       <column name="definition_de">verlieren, verlegen</column>
       <column name="synonyms"></column>
@@ -1654,7 +1659,7 @@ The distinction between a {chetvI':n:nolink} and a {DuS:n} has to do with how th
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12370</column>
       <column name="entry_name">chIp</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">cut, trim (hair)</column>
       <column name="definition_de">schneiden, kürzen (Haare)</column>
       <column name="synonyms"></column>
@@ -1773,7 +1778,7 @@ The distinction between a {chetvI':n:nolink} and a {DuS:n} has to do with how th
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12430</column>
       <column name="entry_name">choH</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">alter, change</column>
       <column name="definition_de">sich (ver)ändern, wechsein</column>
       <column name="synonyms"></column>
@@ -1981,7 +1986,7 @@ The distinction between a {chetvI':n:nolink} and a {DuS:n} has to do with how th
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12550</column>
       <column name="entry_name">chop</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">bite</column>
       <column name="definition_de">beißen</column>
       <column name="synonyms"></column>
@@ -2002,7 +2007,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", the British expre
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12560</column>
       <column name="entry_name">choptaH</column>
-      <column name="part_of_speech">v:t,deriv</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">gnaw</column>
       <column name="definition_de">kauen</column>
       <column name="synonyms"></column>
@@ -2035,7 +2040,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", the British expre
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12570</column>
       <column name="entry_name">choq</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">preserve, save</column>
       <column name="definition_de">behalten, retten</column>
       <column name="synonyms"></column>
@@ -2227,7 +2232,7 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12670</column>
       <column name="entry_name">chot</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">murder</column>
       <column name="definition_de">ermorden</column>
       <column name="synonyms"></column>
@@ -2244,7 +2249,7 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12680</column>
       <column name="entry_name">chov</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">assess, evaluate</column>
       <column name="definition_de">bewerten, abschätzen</column>
       <column name="synonyms"></column>
@@ -2471,7 +2476,7 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12780</column>
       <column name="entry_name">chup</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">recommend, suggest</column>
       <column name="definition_de">empfehlen, vorschlagen</column>
       <column name="synonyms"></column>
