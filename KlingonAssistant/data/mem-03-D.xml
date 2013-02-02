@@ -2,7 +2,7 @@
       <!-- Checked on: 2012.11.22. -->
       <column name="_id">12930</column>
       <column name="entry_name">Da</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">behave as, act in the manner of</column>
       <column name="definition_de">verhalten, benehmen wie</column>
       <column name="synonyms"></column>
@@ -42,7 +42,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <!-- Checked on: 2012.11.26. -->
       <column name="_id">12940</column>
       <column name="entry_name">Dab</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">dwell in/at, reside in/at</column>
       <column name="definition_de">wohnen in, bewohnen</column>
       <column name="synonyms"></column>
@@ -375,7 +375,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[2]</column>
       <!-- Checked on: 2012.11.26. -->
       <column name="_id">13110</column>
       <column name="entry_name">Dan</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">occupy (military term)</column>
       <column name="definition_de">besetzen (militärisch)</column>
       <column name="synonyms"></column>
@@ -679,6 +679,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <!-- Checked on: 2012.11.28. -->
       <column name="_id">13233</column>
       <column name="entry_name">Dav</column>
+      <!-- It is unclear if this can take a subject, such as a direction or an angle. -->
       <column name="part_of_speech">v:i</column>
       <column name="definition">sway (aircraft moves to the side without yawing)</column>
       <column name="definition_de">schwanken (Flugzeug bewegt zur Seite ohne zu neigen)</column>
@@ -849,7 +850,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <!-- Checked on: 2012.11.28. -->
       <column name="_id">13300</column>
       <column name="entry_name">Dech</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">surround</column>
       <column name="definition_de">umgeben</column>
       <column name="synonyms"></column>
@@ -991,7 +992,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <!-- Checked on: 2012.11.28. -->
       <column name="_id">13380</column>
       <column name="entry_name">Del</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">describe</column>
       <column name="definition_de">beschreiben</column>
       <column name="synonyms"></column>
@@ -1244,7 +1245,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <!-- Checked on: 2012.11.29. -->
       <column name="_id">13470</column>
       <column name="entry_name">Dev</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">lead, guide</column>
       <column name="definition_de">leiten, führen</column>
       <column name="synonyms"></column>
@@ -1666,7 +1667,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <!-- Checked on: 2012.11.29. -->
       <column name="_id">13650</column>
       <column name="entry_name">DIl</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">pay for</column>
       <column name="definition_de">etw. bezahlen</column>
       <column name="synonyms"></column>
@@ -1675,9 +1676,11 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="notes"></column>
       <column name="hidden_notes">This sounds like "deal".</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {Dochvetlh DIlmeH Huch 'ar DaneH?:sen}
+▶ {HoSHal ghajchugh vay', mI' naghmey tIronmoH. wa'maHlogh boq'egh mI' naghmey; chen qav'ap. ghajwI'vaD qav'ap yIDIl.:sen:nolink} "If [energy source is] owned, throw dice and pay owner a total ten times amount shown."[2]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
       <column name="_id">13655</column>
@@ -2209,7 +2212,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "accumulat
       <!-- Checked on: 2012.11.29. -->
       <column name="_id">13850</column>
       <column name="entry_name">DoH</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">back away from, back off, get away from</column>
       <column name="definition_de">sich von etw. entfernen, rückwärts gehen, weggehen</column>
       <column name="synonyms"></column>
@@ -2460,7 +2463,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
       <!-- Checked on: 2012.11.29. -->
       <column name="_id">13950</column>
       <column name="entry_name">DoQ</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">claim (territory)</column>
       <column name="definition_de">beanspruchen (Territorium)</column>
       <column name="synonyms"></column>
@@ -2816,7 +2819,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
       <!-- Checked on: 2012.11.29. -->
       <column name="_id">14070</column>
       <column name="entry_name">Dub</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">improve</column>
       <column name="definition_de">verbessern</column>
       <column name="synonyms"></column>
