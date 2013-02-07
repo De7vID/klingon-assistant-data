@@ -1246,8 +1246,9 @@ public class KlingonContentProvider extends ContentProvider {
                 }
                 // If we're looking for a verb, a pronoun will satisfy the requirement.
                 // Otherwise, the parts of speech must match.
-                // TODO: Check here that this isn't a pronoun with a type 5 noun suffix, which was
-                // already counted once as a noun. It should not be double counted as a verb.
+                // TODO: Check before reaching this point that this isn't a pronoun with a type 5
+                // noun suffix, which was already counted once as a noun. It should not be double
+                // counted as a verb.
                 if ((mBasePartOfSpeech != BasePartOfSpeechEnum.VERB || !candidate.isPronoun()) &&
                     (mBasePartOfSpeech != candidate.getBasePartOfSpeech())) {
                     // Log.d(TAG, "isExactMatchForEntryName: " + isExactMatchForEntryName);
@@ -1770,6 +1771,7 @@ public class KlingonContentProvider extends ContentProvider {
 
         public ComplexWord getBareVerbWithType5NounSuffix() {
             // Actually, only stative verbs can take type 5 noun suffixes, but we allow all verbs because we don't have clear transitivity data.
+            // Note that a pronoun will pass the following check, since it can be analysed as a verb.
             if (mIsNoun || !isBareWord()) {
                 // This should never be reached.
                 return null;
