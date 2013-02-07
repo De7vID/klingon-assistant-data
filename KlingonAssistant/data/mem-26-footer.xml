@@ -3,7 +3,7 @@
       <column name="entry_name">0</column>
       <column name="part_of_speech">v:pref</column>
       <column name="definition">he/she/it-none, he/she/it-him/her/it, he/she/it-them, they-none, they-them</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">er/sie/es-kein, er/sie/es-ihn/sie/es, er/sie/es-sie (Pl.), sie (Pl.)-kein, sie (Pl.)-sie (Pl.)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{lu-:v:pref}</column>
@@ -27,7 +27,7 @@ Note that the prefix for "they-him/her/it" is {lu-:v:pref}.</column>
       <column name="entry_name">-'a'</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">augmentative (noun type 1)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Vergrößerung (Nomen Typ 1)</column>
       <column name="synonyms"></column>
       <column name="antonyms">{-Hom:n}</column>
       <column name="see_also"></column>
@@ -66,7 +66,7 @@ Note that the noun with {-'a':n:suff,nolink} need not be better than the bare no
       <column name="entry_name">-Hom</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">diminutive (noun type 1)</column>
-      <column name="definition_de">Verkleinerung</column>
+      <column name="definition_de">Verkleinerung (Nomen Typ 1)</column>
       <column name="synonyms"></column>
       <column name="antonyms">{-'a':n}</column>
       <column name="see_also"></column>
@@ -97,7 +97,7 @@ Note that the noun with {-'a':n:suff,nolink} need not be better than the bare no
       <column name="entry_name">-oy</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">endearment (noun type 1)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Liebkosung (Nomen Typ 1)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -117,7 +117,7 @@ It is suspected that a {qaghwI':n} is inserted before this suffix if the noun en
       <column name="entry_name">-pu'</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">plural (beings capable of using language) (noun type 2)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Mehrzahl (sprachfähig) (Nomen Typ 2)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-mey:n}</column>
@@ -137,7 +137,7 @@ Note that whether {-pu':n:suff,nolink} is used is a property of the noun, and no
       <column name="entry_name">-Du'</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">plural (body part) (noun type 2)</column>
-      <column name="definition_de">Mehrzahl (Körperteile)</column>
+      <column name="definition_de">Mehrzahl (Körperteile) (Nomen Typ 2)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-mey:n}</column>
@@ -155,7 +155,7 @@ Note that whether {-pu':n:suff,nolink} is used is a property of the noun, and no
       <column name="entry_name">-mey</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">plural (general) (noun type 2)</column>
-      <column name="definition_de">Plural (allgemein)</column>
+      <column name="definition_de">Mehrzahl (allgemein) (Nomen Typ 2)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-pu':n}, {-Du':n}</column>
@@ -177,7 +177,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-qoq</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">so-called (noun type 3)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">sogenannt (Nomen Typ 3)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -195,7 +195,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-Hey</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">apparent (noun type 3)</column>
-      <column name="definition_de">anscheinend</column>
+      <column name="definition_de">anscheinend (Nomen Typ 3)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -212,7 +212,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-na'</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">definite (noun type 3)</column>
-      <column name="definition_de">bestimmt</column>
+      <column name="definition_de">bestimmt (Nomen Typ 3)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -229,7 +229,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-wIj</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">my (noun type 4)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">mein (Nomen Typ 4)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-wI':n}, {jIH:n:1,pro}</column>
@@ -245,7 +245,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-wI'</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">my (noun capable of using language) (noun type 4)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">mein (sprachfähig) (Nomen Typ 4)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-wIj:n}, {jIH:n:1,pro}</column>
@@ -262,7 +262,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-maj</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">our (noun type 4)</column>
-      <column name="definition_de">unser</column>
+      <column name="definition_de">unser (Nomen Typ 4)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-ma':n}, {maH:n:2h,pro}</column>
@@ -279,7 +279,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-ma'</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">our (noun capable of using language) (noun type 4)</column>
-      <column name="definition_de">unser (sprachfähig)</column>
+      <column name="definition_de">unser (sprachfähig) (Nomen Typ 4)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-maj:n}, {maH:n:2h,pro}</column>
@@ -295,7 +295,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-lIj</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">your (noun type 4)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">dein (Nomen Typ 4)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-lI':n}, {SoH:n}</column>
@@ -312,7 +312,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-lI'</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">your (noun capable of using language) (noun type 4)</column>
-      <column name="definition_de">dein (Sprache mächtiges Bezugswort)</column>
+      <column name="definition_de">dein (sprachfähig) (Nomen Typ 4)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-lIj:n}, {SoH:n}</column>
@@ -328,7 +328,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-raj</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">your (plural) (noun type 4)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">euer  (Nomen Typ 4)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-ra':n}, {tlhIH:n}</column>
@@ -344,7 +344,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-ra'</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">your (plural) (noun capable of using language) (noun type 4)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">euer (sprachfähig) (Nomen Typ 4)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-raj:n}, {tlhIH:n}</column>
@@ -361,7 +361,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-Daj</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">his, her, its (noun type 4)</column>
-      <column name="definition_de">sein, ihr</column>
+      <column name="definition_de">sein, ihr (Nomen Typ 4)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'oH:n}, {ghaH:n}</column>
@@ -378,7 +378,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-chaj</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">their (noun type 4)</column>
-      <column name="definition_de">ihr (pl.)</column>
+      <column name="definition_de">ihr (pl.) (Nomen Typ 4)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bIH:n}, {chaH:n}</column>
@@ -394,7 +394,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="entry_name">-vam</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">this (noun type 4)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">dieses (Nomen Typ 4)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-vetlh:n}</column>
@@ -412,7 +412,7 @@ For most words designating a fixed period of time, this suffix indicates the cur
       <column name="entry_name">-vetlh</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">that (noun type 4)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">jenes (Nomen Typ 4)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-vam:n}</column>
@@ -429,7 +429,7 @@ For most words designating a fixed period of time, this suffix indicates the cur
       <column name="entry_name">-Daq</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">locative (noun type 5)</column>
-      <column name="definition_de">Ort-Suffix</column>
+      <column name="definition_de">Ort-Suffix (Nomen Typ 5)</column>
       <column name="synonyms"></column>
       <column name="antonyms">{-vo':n:suff}</column>
       <column name="see_also">{Daq:n}, {naDev:n}, {pa':n:2}, {Dat:n}, {chegh:v}</column>
@@ -449,7 +449,7 @@ When a verb is used adjectivally, this suffix and the other type 5 noun suffixes
       <column name="entry_name">-vo'</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">from (noun type 5)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">von (Nomen Typ 5)</column>
       <column name="synonyms"></column>
       <column name="antonyms">{-Daq:n:suff}</column>
       <column name="see_also">{chegh:v}</column>
@@ -465,7 +465,7 @@ When a verb is used adjectivally, this suffix and the other type 5 noun suffixes
       <column name="entry_name">-mo'</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">because, due to (noun type 5)</column>
-      <column name="definition_de">wegen</column>
+      <column name="definition_de">wegen (Nomen Typ 5)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -481,7 +481,7 @@ When a verb is used adjectivally, this suffix and the other type 5 noun suffixes
       <column name="entry_name">-vaD</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">for (noun type 5)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">für (Nomen Typ 5)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -501,7 +501,7 @@ See {qawmoH:v} for an explanation of how this suffix is used with the verb suffi
       <column name="entry_name">-'e'</column>
       <column name="part_of_speech">n:suff</column>
       <column name="definition">topic (noun type 5)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Topisierung (Nomen Typ 5)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -529,7 +529,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-'egh</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">oneself (verb type 1)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">sich selbst (Verb Typ 1)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -546,7 +546,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-chuq</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">one another, each other (verb type 1)</column>
-      <column name="definition_de">sich gegenseitig</column>
+      <column name="definition_de">sich gegenseitig (Verb Typ 1)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -562,7 +562,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-nIS</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">need (verb type 2)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">brauchen, müssen (Verb Typ 2)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -578,7 +578,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-qang</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">willing (verb type 2)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">gewillt (Verb Typ 2)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -594,7 +594,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-rup</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">ready, prepared (referring to beings) (verb type 2)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">bereit (Lebewesen) (Verb Typ 2)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -611,7 +611,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-beH</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">ready, set up (referring to devices) (verb type 2)</column>
-      <column name="definition_de">bereit, fertig (bei Maschinen)</column>
+      <column name="definition_de">bereit, fertig (bei Maschinen) (Verb Typ 2)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -627,7 +627,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-vIp</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">afraid (verb type 2)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Angst haben (Verb Typ 2)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -644,7 +644,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-choH</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">change in state, change in direction (verb type 3)</column>
-      <column name="definition_de">Wechsel</column>
+      <column name="definition_de">Wechsel (Verb Typ 3)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{choH:v}</column>
@@ -660,7 +660,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-qa'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">resume, do again (verb type 3)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">wieder beginnen, wiederholen (Verb Typ 3)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -677,7 +677,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-moH</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">cause (verb type 4)</column>
-      <column name="definition_de">verursachen</column>
+      <column name="definition_de">verursachen (Verb Typ 4)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -701,7 +701,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-lu'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">indefinite subject (verb type 5)</column>
-      <column name="definition_de">unbestimmtes Subjekt</column>
+      <column name="definition_de">unbestimmtes Subjekt (Verb Typ 5)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tu'lu':sen}, {vay':n}</column>
@@ -719,7 +719,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-laH</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">can, able (verb type 5)</column>
-      <column name="definition_de">können, fähig</column>
+      <column name="definition_de">können, fähig (Verb Typ 5)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{laH:n}</column>
@@ -736,7 +736,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-chu'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">clearly, perfectly (verb type 6)</column>
-      <column name="definition_de">perfekt, klar</column>
+      <column name="definition_de">perfekt, klar (Verb Typ 6)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -754,7 +754,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-bej</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">certainly, undoubtedly (verb type 6)</column>
-      <column name="definition_de">sicherlich, zweifellos</column>
+      <column name="definition_de">sicherlich, zweifellos (Verb Typ 6)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -770,7 +770,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-ba'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">obviously (verb type 6)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">offensichtlich (Verb Typ 6)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -787,7 +787,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-law'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">seemingly, apparently (verb type 6)</column>
-      <column name="definition_de">scheinbar, anscheinend</column>
+      <column name="definition_de">scheinbar, anscheinend (Verb Typ 6)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -803,7 +803,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-pu'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">perfective (verb type 7)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">abgeschlossene Handlung (Verb Typ 7)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -819,7 +819,7 @@ Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
       <column name="entry_name">-ta'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">accomplished, done (verb type 7)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">erledigt (Verb Typ 7)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -837,7 +837,7 @@ There is a special verbal construction, {rIntaH:v}, which denotes a similar mean
       <column name="entry_name">-taH</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">continuous (verb type 7)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">kontinuierlich (Verb Typ 7)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-vIS:v:suff}</column>
@@ -856,7 +856,7 @@ There is a special verbal construction, {rIntaH:v}, which denotes a similar mean
       <column name="entry_name">-lI'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">progress (verb type 7)</column>
-      <column name="definition_de">Vorgang</column>
+      <column name="definition_de">fortschreitend (Verb Typ 7)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -872,7 +872,7 @@ There is a special verbal construction, {rIntaH:v}, which denotes a similar mean
       <column name="entry_name">-neS</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">honorific (verb type 8)</column>
-      <column name="definition_de">Ehrbezeugung</column>
+      <column name="definition_de">Ehrbezeugung (Verb Typ 8)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -891,7 +891,7 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="entry_name">-DI'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">when, as soon as (verb type 9)</column>
-      <column name="definition_de">wenn, sobald wie</column>
+      <column name="definition_de">wenn, sobald wie (Verb Typ 9)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -908,7 +908,7 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="entry_name">-chugh</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">if (verb type 9)</column>
-      <column name="definition_de">falls</column>
+      <column name="definition_de">falls (Verb Typ 9)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -924,7 +924,7 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="entry_name">-pa'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">before (verb type 9)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">bevor (Verb Typ 9)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -941,7 +941,7 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="entry_name">-vIS</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">while (verb type 9)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">während (Verb Typ 9)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -957,7 +957,7 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="entry_name">-mo'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">due to, because of (verb type 9)</column>
-      <column name="definition_de">weil</column>
+      <column name="definition_de">weil (Verb Typ 9)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -974,7 +974,7 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="entry_name">-bogh</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">which (verb type 9)</column>
-      <column name="definition_de">welche/r/s</column>
+      <column name="definition_de">welche/r/s (Verb Typ 9)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -991,7 +991,7 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="entry_name">-meH</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">for, for the purpose of, in order to (verb type 9)</column>
-      <column name="definition_de">für, um zu</column>
+      <column name="definition_de">für, um zu (Verb Typ 9)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1009,7 +1009,7 @@ There is an article in {HQ 7.3:src} which examines {-meH:v:suff,nolink} clauses 
       <column name="entry_name">-'a'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">interrogative (verb type 9)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Fragepartikel (Verb Typ 9)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{HIja':excl}, {HISlaH:excl}, {ghobe':excl}</column>
@@ -1026,7 +1026,7 @@ There is an article in {HQ 7.3:src} which examines {-meH:v:suff,nolink} clauses 
       <column name="entry_name">-jaj</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">may, let (verb type 9)</column>
-      <column name="definition_de">mögen</column>
+      <column name="definition_de">mögen (Wunsch) (Verb Typ 9)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1044,7 +1044,7 @@ This suffix is attached to the verb in toasts, which always comes last except in
       <column name="entry_name">-wI'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">one who does/is, thing which does/is (verb type 9)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">jemand, der etwas macht (Verb Typ 9)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1061,7 +1061,7 @@ This suffix is attached to the verb in toasts, which always comes last except in
       <column name="entry_name">-ghach</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">nominalizer (verb type 9)</column>
-      <column name="definition_de">Substantivierer</column>
+      <column name="definition_de">Substantivierer (Verb Typ 9)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1082,7 +1082,7 @@ This suffix is attached to the verb in toasts, which always comes last except in
       <column name="entry_name">-be'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">not (verb type R)</column>
-      <column name="definition_de">nicht</column>
+      <column name="definition_de">nicht (Verb Typ R)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-Qo':v:suff}</column>
@@ -1098,7 +1098,7 @@ This suffix is attached to the verb in toasts, which always comes last except in
       <column name="entry_name">-Qo'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">don't!, won't! (verb type R)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">tue nicht!  (Verb Typ R)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-be':v:suff}, {Qo':excl}</column>
@@ -1115,7 +1115,7 @@ This suffix is attached to the verb in toasts, which always comes last except in
       <column name="entry_name">-Ha'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">undo, do wrongly (verb type R)</column>
-      <column name="definition_de">Umkehrung</column>
+      <column name="definition_de">Umkehrung (Verb Typ R)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1134,7 +1134,7 @@ This suffix can also be applied to some adverbials, but not to all of them.[2; 3
       <column name="entry_name">-qu'</column>
       <column name="part_of_speech">v:suff</column>
       <column name="definition">emphatic (verb type R)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Betonung (Verb Typ R)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
