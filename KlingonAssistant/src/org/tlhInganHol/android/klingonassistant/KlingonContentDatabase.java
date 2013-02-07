@@ -110,6 +110,9 @@ public class KlingonContentDatabase {
     private static final HashMap<String,String> mColumnMap = buildColumnMap();
     private final Context mContext;
 
+    // Keeps track of whether db created/upgraded message has been displayed already.
+    private boolean mNewDatabaseMessageDisplayed = false;
+
     /**
      * Constructor
      * @param context The Context within which to work, used to create the DB
@@ -818,22 +821,18 @@ public class KlingonContentDatabase {
 
         @Override
         public void onUpgrade(SQLiteDatabase db, int existingVersion, int newVersion) {
-            // Log.d(TAG, "onUpgrade called with existing v" +
-            //         dottedVersion(existingVersion) + " and new v" +
-            //         dottedVersion(newVersion) + ".");
             if (newVersion <= existingVersion) {
                 // Already using a new version, do nothing.
                 return;
             }
 
             // This method is called when the database needs to be updated.
-            // Log.d(TAG, "Upgrading database from v" + dottedVersion(existingVersion) +
-            //         " to " + dottedVersion(newVersion) + ".");
             // db.execSQL("DROP TABLE IF EXISTS " + FTS_VIRTUAL_TABLE);
             mHelperContext.deleteDatabase(DATABASE_NAME);
             Toast.makeText(mHelperContext, "Database upgraded from v" +
                 dottedVersion(existingVersion) + " to v" +
                 dottedVersion(newVersion) + ".", Toast.LENGTH_LONG).show();
+            mNewDatabaseMessageDisplayed = true;
 
             // Show help after database upgrade.
             setShowHelpFlag();
@@ -899,8 +898,11 @@ public class KlingonContentDatabase {
                 }
 
                 // Inform the user the database has been created.
-                Toast.makeText(mHelperContext, "Database v" + dottedVersion(DATABASE_VERSION) +
-                        " created.", Toast.LENGTH_LONG).show();
+                if (!mNewDatabaseMessageDisplayed) {
+                    Toast.makeText(mHelperContext, "Database v" + dottedVersion(DATABASE_VERSION) +
+                            " created.", Toast.LENGTH_LONG).show();
+                    mNewDatabaseMessageDisplayed = true;
+                }
 
                 // Show help after database creation.
                 setShowHelpFlag();
