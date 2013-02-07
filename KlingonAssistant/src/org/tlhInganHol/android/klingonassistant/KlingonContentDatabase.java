@@ -111,7 +111,7 @@ public class KlingonContentDatabase {
     private final Context mContext;
 
     // Keeps track of whether db created/upgraded message has been displayed already.
-    private boolean mNewDatabaseMessageDisplayed = false;
+    private static boolean mNewDatabaseMessageDisplayed = false;
 
     /**
      * Constructor
