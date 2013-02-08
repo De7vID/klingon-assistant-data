@@ -240,7 +240,7 @@ public class EntryActivity extends SherlockActivity {
         if (entry.isVerb() &&
                 sharedPrefs.getBoolean(Preferences.KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE, /* default */ false)) {
             // This is a verb and show transitivity preference is set to true.
-            transitivity = entry.getTransitivity();
+            transitivity = entry.getTransitivityString();
         }
         int transitivityStart = -1;
         String transitivityHeader = "\n\n" + resources.getString(R.string.label_transitivity) + ": ";

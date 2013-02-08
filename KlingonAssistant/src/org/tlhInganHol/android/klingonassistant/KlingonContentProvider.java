@@ -1205,7 +1205,11 @@ public class KlingonContentProvider extends ContentProvider {
             return mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN;
         }
 
-        public String getTransitivity() {
+        public VerbTransitivityType getTransitivity() {
+            return mTransitivity;
+        }
+
+        public String getTransitivityString() {
             switch (mTransitivity) {
                 case AMBITRANSITIVE:
                     return mContext.getResources().getString(R.string.transitivity_ambi);
@@ -1249,13 +1253,26 @@ public class KlingonContentProvider extends ContentProvider {
                 if (!isExactMatchForEntryName) {
                     return false;
                 }
-                // If we're looking for a verb, a pronoun will satisfy the requirement.
-                // Otherwise, the parts of speech must match.
-                if ((mBasePartOfSpeech != BasePartOfSpeechEnum.VERB || !candidate.isPronoun()) &&
-                    (mBasePartOfSpeech != candidate.getBasePartOfSpeech())) {
+                // The parts of speech must match, except when we're looking for a verb, in which
+                // case a pronoun will satisfy the requirement. This is because we want to allow
+                // constructions like {ghaHtaH}.
+                if ((mBasePartOfSpeech != candidate.getBasePartOfSpeech()) &&
+                    (mBasePartOfSpeech != BasePartOfSpeechEnum.VERB || !candidate.isPronoun())) {
                     // Log.d(TAG, "isExactMatchForEntryName: " + isExactMatchForEntryName);
                     // Log.d(TAG, "mBasePartOfSpeech: " + mBasePartOfSpeech);
                     // Log.d(TAG, "candidate.getBasePartOfSpeech: " + candidate.getBasePartOfSpeech());
+                    return false;
+                }
+                // However, if we're looking for a verb with a type 5 noun suffix attached, then
+                // we disallow transitive verbs as well as pronouns. Note that pronouns with a
+                // type 5 noun suffix are already covered under nouns, so if we allowed it here
+                // they would be duplicated. Also, even though only adjectival verbs can take a
+                // type 5 noun suffix, we allow not only stative verbs (like {tIn}) and 
+                // ambitransitive verbs (like {pegh}), but also intransitive verbs, since it's
+                // possible some of them can be used adjectivally.
+                if (mBasePartOfSpeech == BasePartOfSpeechEnum.VERB &&
+                    mTransitivity == VerbTransitivityType.HAS_TYPE_5_NOUN_SUFFIX &&
+                    (candidate.isPronoun() || candidate.getTransitivity() == VerbTransitivityType.TRANSITIVE)) {
                     return false;
                 }
             }
