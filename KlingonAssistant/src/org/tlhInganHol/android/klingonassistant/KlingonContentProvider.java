@@ -1842,7 +1842,6 @@ public class KlingonContentProvider extends ContentProvider {
             // Note that {-mo'} is both a type 5 noun suffix and a type 9 verb suffix.
             for (int i = 1; i < nounType5String.length; i++) {
                 if (mUnparsedPart.endsWith(nounType5String[i])) {
-                    // TODO: Check for a legal verb suffix: {-be'}, {-qu'}, or {-Ha'}.
                     String adjectivalVerb = mUnparsedPart.substring(0, mUnparsedPart.length() - nounType5String[i].length());
                     ComplexWord adjectivalVerbWithType5NounSuffix = new ComplexWord(adjectivalVerb, /* isNounCandidate */ false);
 
@@ -2048,6 +2047,24 @@ public class KlingonContentProvider extends ContentProvider {
             } else if (complexWord.isBareWord()) {
                 // Check for type 5 noun suffix on a possibly adjectival verb.
                 complexWord = complexWord.getAdjectivalVerbWithType5NounSuffix();
+                if (complexWord != null) {
+                  String adjectivalVerb = complexWord.stem();
+                  if (adjectivalVerb.endsWith("be'") ||
+                      adjectivalVerb.endsWith("qu'") ||
+                      adjectivalVerb.endsWith("Ha'")) {
+                      String adjectivalVerbWithoutRover = adjectivalVerb.substring(0, adjectivalVerb.length() - 3);
+                      // Adjectival verbs may end with a rover (except for {-Qo'}), so check for that here.
+                      ComplexWord anotherComplexWord = new ComplexWord(adjectivalVerbWithoutRover, complexWord);
+                      if (adjectivalVerb.endsWith("be'")) {
+                          anotherComplexWord.mVerbTypeRNegation = 0;
+                      } else if (adjectivalVerb.endsWith("qu'")) {
+                          anotherComplexWord.mVerbTypeREmphatic = 0;
+                      } else if (adjectivalVerb.endsWith("Ha'")) {
+                          anotherComplexWord.mVerbSuffixes[0] = 1;
+                      }
+                      stripSuffix(anotherComplexWord, complexWordsList);
+                  }
+                }
             } else {
                 // We're done.
                 complexWord = null;
