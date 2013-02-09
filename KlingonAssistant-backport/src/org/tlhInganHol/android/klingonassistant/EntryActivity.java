@@ -25,6 +25,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.database.Cursor;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -74,9 +75,6 @@ public class EntryActivity extends Activity {
     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
     private static final String QUERY_FOR_JOKES = "*:sen:joke";
 
-    // Used for analysis of entries with components.
-    private static final String COMPONENTS_MARKER = "//";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -105,9 +103,19 @@ public class EntryActivity extends Activity {
             // TODO: Immediate redirect to query in entry.getDefinition();
         }
 
+        // Get the shared preferences.
+        SharedPreferences sharedPrefs =
+            PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+
         // Set the entry's name (along with info like "slang", formatted in HTML).
-        String entryName = entry.getFormattedEntryName(/* isHtml */ true);
-        entryTitle.setText(Html.fromHtml(entryName));
+        if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
+            // Preference is set to display this in {pIqaD}!
+            entryTitle.setTypeface(KlingonAssistant.getKlingonFontTypeface(getBaseContext()));
+            entryTitle.setText(entry.getEntryNameInKlingonFont());
+        } else {
+            // Boring transcription based on English (Latin) alphabet.
+            entryTitle.setText(Html.fromHtml(entry.getFormattedEntryName(/* isHtml */ true)));
+        }
 
         // Create the expanded definition.
         String pos = entry.getFormattedPartOfSpeech(/* isHtml */ false);
@@ -115,8 +123,6 @@ public class EntryActivity extends Activity {
 
         // Show the German definition.
         String definition_DE = "";
-        SharedPreferences sharedPrefs =
-            PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         boolean displayGermanEntry = entry.shouldDisplayGerman();
         int germanDefinitionStart = -1;
         String germanDefinitionHeader = "\n" + resources.getString(R.string.label_german) + ": ";
@@ -198,7 +204,12 @@ public class EntryActivity extends Activity {
             String analysisQuery = entry.getEntryName();
             if (!components.equals("")) {
                 // Strip the brackets around each component so they won't be processed.
-                analysisQuery += COMPONENTS_MARKER + components.replaceAll("[{}]", "");
+                analysisQuery += ":" + entry.getPartOfSpeech();
+                int homophoneNumber = entry.getHomophoneNumber();
+                if (homophoneNumber != -1) {
+                    analysisQuery += ":" + homophoneNumber;
+                }
+                analysisQuery += KlingonContentProvider.Entry.COMPONENTS_MARKER + components.replaceAll("[{}]", "");
             }
             expandedDefinition += "\n\n" + resources.getString(R.string.label_analyze) + ": {" + analysisQuery + "}";
         }
@@ -218,9 +229,9 @@ public class EntryActivity extends Activity {
         // If this is a verb (but not a prefix or suffix), show the transitivity information.
         String transitivity = "";
         if (entry.isVerb() &&
-                sharedPrefs.getBoolean(Preferences.KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE, /* default */ true)) {
+                sharedPrefs.getBoolean(Preferences.KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE, /* default */ false)) {
             // This is a verb and show transitivity preference is set to true.
-            transitivity = entry.getTransitivity();
+            transitivity = entry.getTransitivityString();
         }
         int transitivityStart = -1;
         String transitivityHeader = "\n\n" + resources.getString(R.string.label_transitivity) + ": ";
@@ -232,7 +243,7 @@ public class EntryActivity extends Activity {
 
         // Show the hidden notes.
         String hiddenNotes = "";
-        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE, /* default */ true)) {
+        if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE, /* default */ false)) {
             // Show additional information preference set to true.
             hiddenNotes = entry.getHiddenNotes();
         }
@@ -333,9 +344,13 @@ public class EntryActivity extends Activity {
             if (!linkedPos.equals("") && linkedPos.length() > 1) {
                 ssb.insert(end, linkedPos);
 
-                // linkedPos includes a space and brackets, skip them.
-                ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC),
-                    end + 2, end + linkedPos.length() - 1, finalFlags);
+                int rightBracketLoc = linkedPos.indexOf(")");
+                if (rightBracketLoc != -1) {
+                    // linkedPos is always of the form " (pos)[ (def'n N)]", we want to italicise
+                    // the "pos" part only.
+                    ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC),
+                        end + 2, end + rightBracketLoc, finalFlags);
+                }
             }
 
             // Rinse and repeat.
@@ -470,10 +485,7 @@ public class EntryActivity extends Activity {
 
     // Private method to display the "help" entries.
     private void displayHelp(String helpQuery) {
-      Intent intent = new Intent();
-      intent.setComponent(new ComponentName(
-          "org.tlhInganHol.android.klingonassistant",
-          "org.tlhInganHol.android.klingonassistant.KlingonAssistant"));
+      Intent intent = new Intent(this, KlingonAssistant.class);
       intent.setAction(Intent.ACTION_SEARCH);
       intent.putExtra(SearchManager.QUERY, helpQuery);
 
@@ -490,10 +502,7 @@ public class EntryActivity extends Activity {
 
       @Override
       public void onClick(View view) {
-        Intent intent = new Intent();
-        intent.setComponent(new ComponentName(
-            "org.tlhInganHol.android.klingonassistant",
-            "org.tlhInganHol.android.klingonassistant.KlingonAssistant"));
+        Intent intent = new Intent(view.getContext(), KlingonAssistant.class);
         intent.setAction(Intent.ACTION_SEARCH);
         intent.putExtra(SearchManager.QUERY, mQuery);
 

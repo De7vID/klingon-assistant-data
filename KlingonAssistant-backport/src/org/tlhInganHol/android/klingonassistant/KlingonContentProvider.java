@@ -38,7 +38,7 @@ import java.util.ArrayList;
  * Provides access to the dictionary database.
  */
 public class KlingonContentProvider extends ContentProvider {
-    // private static final String TAG = "KlingonContentProvider";
+    private static final String TAG = "KlingonContentProvider";
 
     public static String AUTHORITY = "org.tlhInganHol.android.klingonassistant.KlingonContentProvider";
     public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY);
@@ -72,9 +72,6 @@ public class KlingonContentProvider extends ContentProvider {
     private static final int REFRESH_SHORTCUT = 3;
     private static final int GET_ENTRY_BY_ID = 4;
     private static final UriMatcher sURIMatcher = buildUriMatcher();
-
-    // Used for analysis of entries with components.
-    private static final String COMPONENTS_MARKER = "//";
 
     /**
      * Builds up a UriMatcher for search suggestion and shortcut refresh queries.
@@ -281,6 +278,13 @@ public class KlingonContentProvider extends ContentProvider {
         // Pattern for matching entry in text.
         public static Pattern ENTRY_PATTERN = Pattern.compile("\\{[A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]+\\}");
 
+        // Used for analysis of entries with components.
+        // It cannot occur in a link (we cannot use "//" for example because it occurs in URL links,
+        // or one "@" because it occurs in email addresses). It should not contain anything that
+        // needs to be escaped in a regular expression, since it is stripped and then added back.
+        public static final String COMPONENTS_MARKER = "@@";
+
+
         // Context.
         private Context mContext;
 
@@ -323,9 +327,11 @@ public class KlingonContentProvider extends ContentProvider {
 
         // Verb attributes.
         private enum VerbTransitivityType {
-            TRANSITIVE, INTRANSITIVE, STATIVE, AMBITRANSITIVE, UNKNOWN
+            TRANSITIVE, INTRANSITIVE, STATIVE, AMBITRANSITIVE, UNKNOWN,
+            HAS_TYPE_5_NOUN_SUFFIX
         }
         private VerbTransitivityType mTransitivity = VerbTransitivityType.UNKNOWN;
+        boolean mTransitivityConfirmed = false;
 
         // Noun attributes.
         private enum NounType {
@@ -381,8 +387,10 @@ public class KlingonContentProvider extends ContentProvider {
         boolean mIsIndented = false;
 
         // If there are multiple entries with identitical entry names,
-        // they are distinguished with numbers.
-        int mHomophoneNumber;
+        // they are distinguished with numbers. However, not all entries display
+        // them, for various reasons.
+        int mHomophoneNumber = -1;
+        boolean mShowHomophoneNumber = true;
 
         // Sources can include a URL.
         String mSourceURL = "";
@@ -409,9 +417,6 @@ public class KlingonContentProvider extends ContentProvider {
                 mPartOfSpeech = mEntryName.substring(colonLoc + 1);
                 mEntryName = mEntryName.substring(0, colonLoc);
             }
-
-            // Since this is a query, by default it doesn't match a specific number.
-            mHomophoneNumber = -1;
 
             // Note: The homophone number may be overwritten by this function call.
             processMetadata();
@@ -442,9 +447,7 @@ public class KlingonContentProvider extends ContentProvider {
             mSearchTags = cursor.getString(KlingonContentDatabase.COLUMN_SEARCH_TAGS);
             mSource = cursor.getString(KlingonContentDatabase.COLUMN_SOURCE);
 
-            // By default, an entry has the number 1 unless this is overwritten.
-            mHomophoneNumber = 1;
-
+            // The homophone number is -1 by default.
             // Note: The homophone number may be overwritten by this function call.
             processMetadata();
         }
@@ -474,7 +477,7 @@ public class KlingonContentProvider extends ContentProvider {
                 }
                 if (mBasePartOfSpeech == BasePartOfSpeechEnum.UNKNOWN) {
                     // Log warning if part of speech could not be determined.
-                    Log.w(TAG, "{" + mEntryName + "} has " + "unrecognised part of speech: \"" + mPartOfSpeech + "\"");
+                    Log.w(TAG, "{" + mEntryName + "} has unrecognised part of speech: \"" + mPartOfSpeech + "\"");
                 }
             }
 
@@ -492,17 +495,31 @@ public class KlingonContentProvider extends ContentProvider {
 
                 // Verb attributes.
                 } else if (attr.equals("ambi")) {
+                    // All ambitransitive verbs are considered confirmed, since they are never marked as such otherwise.
                     mTransitivity = VerbTransitivityType.AMBITRANSITIVE;
+                    mTransitivityConfirmed = true;
                 } else if (attr.equals("i")) {
                     mTransitivity = VerbTransitivityType.INTRANSITIVE;
+                } else if (attr.equals("i_c")) {
+                    mTransitivity = VerbTransitivityType.INTRANSITIVE;
+                    mTransitivityConfirmed = true;
                 } else if (attr.equals("is")) {
+                    // All stative verbs are considered confirmed for being intransitive, since they are all of the form "to be [a quality]".
                     mTransitivity = VerbTransitivityType.STATIVE;
+                    mTransitivityConfirmed = true;
                 } else if (attr.equals("t")) {
                     mTransitivity = VerbTransitivityType.TRANSITIVE;
+                } else if (attr.equals("t_c")) {
+                    mTransitivity = VerbTransitivityType.TRANSITIVE;
+                    mTransitivityConfirmed = true;
+                } else if (attr.equals("n5")) {
+                    // This is an attribute which does not appear in the database, but can be assigned to a query to find only verbs which are attached to a type 5 noun suffix (verbs acting adjectivally).
+                    mTransitivity = VerbTransitivityType.HAS_TYPE_5_NOUN_SUFFIX;
 
                 // Noun attributes.
                 } else if (attr.equals("name")) {
                     mNounType = NounType.NAME;
+                    mShowHomophoneNumber = false;
                 } else if (attr.equals("num")) {
                     mNounType = NounType.NUMBER;
                 } else if (attr.equals("pro")) {
@@ -592,6 +609,22 @@ public class KlingonContentProvider extends ContentProvider {
                 } else if (attr.equals("5")) {
                     // Nothing should go as high as even 4.
                     mHomophoneNumber = 5;
+                // Same as above, but the number is hidden.
+                } else if (attr.equals("1h")) {
+                    mHomophoneNumber = 1;
+                    mShowHomophoneNumber = false;
+                } else if (attr.equals("2h")) {
+                    mHomophoneNumber = 2;
+                    mShowHomophoneNumber = false;
+                } else if (attr.equals("3h")) {
+                    mHomophoneNumber = 3;
+                    mShowHomophoneNumber = false;
+                } else if (attr.equals("4h")) {
+                    mHomophoneNumber = 4;
+                    mShowHomophoneNumber = false;
+                } else if (attr.equals("5h")) {
+                    mHomophoneNumber = 5;
+                    mShowHomophoneNumber = false;
 
                 // If this is a source, the attribute is a URL.
                 } else if (isURL()) {
@@ -600,7 +633,7 @@ public class KlingonContentProvider extends ContentProvider {
                 // No match to attributes.
                 } else {
                     // Log error if part of speech could not be determined.
-                    Log.e(TAG, "Unrecognised attribute: \"" + attr + "\"");
+                    Log.e(TAG, "{" + mEntryName + "} has unrecognised attribute: \"" + attr + "\"");
                 }
 
             }
@@ -618,7 +651,7 @@ public class KlingonContentProvider extends ContentProvider {
             return s;
         }
 
-        // Get the name of the entry, as an HTML string.
+        // Get the name of the entry, optionally as an HTML string. Used in the entry title, share intent text, and results lists.
         public String getFormattedEntryName(boolean isHtml) {
             // Note that an entry may have more than one of the archaic,
             // regional, or slang attributes.
@@ -661,6 +694,61 @@ public class KlingonContentProvider extends ContentProvider {
             return formattedEntryName;
         }
 
+        // Get the name of the entry written in {pIqaD}.
+        public String getEntryNameInKlingonFont() {
+            // Strip anything we don't recognise.
+            // This pattern should be kept in sync with ENTRY_PATTERN.
+            String formattedEntryName = mEntryName.replaceAll("[^A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]", "");
+
+            // {gh} must come before {ngh} since {ngh} is {n} + {gh} and not {ng} + *{h}.
+            // {ng} must come before {n}.
+            // {tlh} must come before {t} and {l}.
+            // Don't change {-} since it's needed for prefixes and suffixes.
+            // Don't change "..." (ellipses), but do change "." (periods).
+            formattedEntryName = formattedEntryName.replaceAll("gh", "")
+                                                   .replaceAll("ng", "")
+                                                   .replaceAll("tlh", "")
+                                                   .replaceAll("a", "")
+                                                   .replaceAll("b", "")
+                                                   .replaceAll("ch", "")
+                                                   .replaceAll("D", "")
+                                                   .replaceAll("e", "")
+                                                   .replaceAll("H", "")
+                                                   .replaceAll("I", "")
+                                                   .replaceAll("j", "")
+                                                   .replaceAll("l", "")
+                                                   .replaceAll("m", "")
+                                                   .replaceAll("n", "")
+                                                   .replaceAll("o", "")
+                                                   .replaceAll("p", "")
+                                                   .replaceAll("q", "")
+                                                   .replaceAll("Q", "")
+                                                   .replaceAll("r", "")
+                                                   .replaceAll("S", "")
+                                                   .replaceAll("t", "")
+                                                   .replaceAll("u", "")
+                                                   .replaceAll("v", "")
+                                                   .replaceAll("w", "")
+                                                   .replaceAll("y", "")
+                                                   .replaceAll("'", "")
+                                                   .replaceAll("0", "")
+                                                   .replaceAll("1", "")
+                                                   .replaceAll("2", "")
+                                                   .replaceAll("3", "")
+                                                   .replaceAll("4", "")
+                                                   .replaceAll("5", "")
+                                                   .replaceAll("6", "")
+                                                   .replaceAll("7", "")
+                                                   .replaceAll("8", "")
+                                                   .replaceAll("9", "")
+                                                   .replaceAll(",", "")
+                                                   .replaceAll("!", "")
+                                                   .replaceAll("\\?", "")
+                                                   .replaceAll("\\.", "")
+                                                   .replaceAll("", "\\.\\.\\.");
+            return formattedEntryName;
+        }
+
         private String getSpecificPartOfSpeech() {
             String pos = basePartOfSpeechAbbreviations[mBasePartOfSpeech.ordinal()];
             if (mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN) {
@@ -675,6 +763,8 @@ public class KlingonContentProvider extends ContentProvider {
             return pos;
         }
 
+        // This is called when creating the expanded definition in the entry, and also in
+        // getFormattedDefinition below.
         public String getFormattedPartOfSpeech(boolean isHtml) {
             // Return abbreviation for part of speech, but suppress for sentences and names.
             String pos = "";
@@ -697,7 +787,8 @@ public class KlingonContentProvider extends ContentProvider {
             return pos;
         }
 
-        // Get the definition, including the part of speech.
+        // Get the definition, including the part of speech. Called to create the sharing text for
+        // the entry, and also the text in the search results list.
         public String getFormattedDefinition(boolean isHtml) {
             String pos = getFormattedPartOfSpeech(isHtml);
 
@@ -735,7 +826,9 @@ public class KlingonContentProvider extends ContentProvider {
             return mEntryName;
         }
 
-        // Return the part of speech in brackets, but only for some cases.
+        // Return the part of speech in brackets, but only for some cases. Called to display the
+        // part of speech for linked entries in an entry, and also in the main results screen to
+        // show what the original search term was.
         public String getBracketedPartOfSpeech(boolean isHtml) {
             // Return abbreviation for part of speech, but suppress for sentences, exclamations, etc.
             if (mBasePartOfSpeech == BasePartOfSpeechEnum.SENTENCE ||
@@ -749,9 +842,20 @@ public class KlingonContentProvider extends ContentProvider {
             String pos = getSpecificPartOfSpeech();
 
             if (isHtml) {
-                return " <small>(<i>" + pos + "</i>)</small>";
+                // This is used in the "results found" string.
+                String bracketedPos = " <small>(<i>" + pos + "</i>)";
+                if (mHomophoneNumber != -1 && mShowHomophoneNumber) {
+                    bracketedPos += " (def'n " + mHomophoneNumber + ")";
+                }
+                bracketedPos += "</small>";
+                return bracketedPos;
             } else {
-                return " (" + pos + ")";
+                // This is used in an entry body next to linked entries.
+                String bracketedPos = " (" + pos + ")";
+                if (mHomophoneNumber != -1 && mShowHomophoneNumber) {
+                    bracketedPos += " (def'n " + mHomophoneNumber + ")";
+                }
+                return bracketedPos;
             }
         }
 
@@ -1101,21 +1205,34 @@ public class KlingonContentProvider extends ContentProvider {
             return mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN;
         }
 
-        public String getTransitivity() {
+        public VerbTransitivityType getTransitivity() {
+            return mTransitivity;
+        }
+
+        public String getTransitivityString() {
             switch (mTransitivity) {
                 case AMBITRANSITIVE:
                     return mContext.getResources().getString(R.string.transitivity_ambi);
 
                 case INTRANSITIVE:
-                    return mContext.getResources().getString(R.string.transitivity_intransitive);
+                    if (mTransitivityConfirmed) {
+                        return mContext.getResources().getString(R.string.transitivity_intransitive_confirmed);
+                    } else {
+                        return mContext.getResources().getString(R.string.transitivity_intransitive);
+                    }
 
                 case STATIVE:
                     return mContext.getResources().getString(R.string.transitivity_stative);
 
                 case TRANSITIVE:
-                    return mContext.getResources().getString(R.string.transitivity_transitive);
+                    if (mTransitivityConfirmed) {
+                        return mContext.getResources().getString(R.string.transitivity_transitive_confirmed);
+                    } else {
+                        return mContext.getResources().getString(R.string.transitivity_transitive);
+                    }
 
                 default:
+                    // This is reached if the verb transitivity type is unknown, or if for some reason this function is called on a verb with a type 5 noun suffix attached, which shouldn't happen.
                     return mContext.getResources().getString(R.string.transitivity_unknown);
             }
 
@@ -1136,13 +1253,26 @@ public class KlingonContentProvider extends ContentProvider {
                 if (!isExactMatchForEntryName) {
                     return false;
                 }
-                // If we're looking for a verb, a pronoun will satisfy the requirement.
-                // Otherwise, the parts of speech must match.
-                if ((mBasePartOfSpeech != BasePartOfSpeechEnum.VERB || !candidate.isPronoun()) &&
-                    (mBasePartOfSpeech != candidate.getBasePartOfSpeech())) {
+                // The parts of speech must match, except when we're looking for a verb, in which
+                // case a pronoun will satisfy the requirement. This is because we want to allow
+                // constructions like {ghaHtaH}.
+                if ((mBasePartOfSpeech != candidate.getBasePartOfSpeech()) &&
+                    (mBasePartOfSpeech != BasePartOfSpeechEnum.VERB || !candidate.isPronoun())) {
                     // Log.d(TAG, "isExactMatchForEntryName: " + isExactMatchForEntryName);
                     // Log.d(TAG, "mBasePartOfSpeech: " + mBasePartOfSpeech);
                     // Log.d(TAG, "candidate.getBasePartOfSpeech: " + candidate.getBasePartOfSpeech());
+                    return false;
+                }
+                // However, if we're looking for a verb with a type 5 noun suffix attached, then
+                // we disallow transitive verbs as well as pronouns. Note that pronouns with a
+                // type 5 noun suffix are already covered under nouns, so if we allowed it here
+                // they would be duplicated. Also, even though only adjectival verbs can take a
+                // type 5 noun suffix, we allow not only stative verbs (like {tIn}) and
+                // ambitransitive verbs (like {pegh}), but also intransitive verbs, since it's
+                // possible some of them can be used adjectivally.
+                if (mBasePartOfSpeech == BasePartOfSpeechEnum.VERB &&
+                    mTransitivity == VerbTransitivityType.HAS_TYPE_5_NOUN_SUFFIX &&
+                    (candidate.isPronoun() || candidate.getTransitivity() == VerbTransitivityType.TRANSITIVE)) {
                     return false;
                 }
             }
@@ -1280,32 +1410,38 @@ public class KlingonContentProvider extends ContentProvider {
         int mNumberDigit;
         int mNumberModifier;
         String mNumberSuffix;
+        boolean mIsNumberLike;
 
         // The locations of the true rovers.  The value indicates the suffix type they appear after,
         // so 0 means they are attached directly to the verb (before any type 1 suffix).
         int mVerbTypeRNegation;
         int mVerbTypeREmphatic;
+        private static final int ROVER_NOT_YET_FOUND = -1;
+        private static final int IGNORE_THIS_ROVER = -2;
 
         // True if {-be'} appears before {-qu'} in a verb.
         boolean roverOrderNegationBeforeEmphatic;
 
         // Internal information related to processing the complex word candidate.
+        // TODO: There are few complex words which are neither nouns nor verbs, e.g., {batlhHa'}, {paghlogh}, {HochDIch}. Figure out how to deal with them.
         String mUnparsedPart;
         int mSuffixLevel;
-        boolean mIsNoun;
+        boolean mIsNounCandidate;
+        boolean mIsVerbWithType5NounSuffix;
         int mHomophoneNumber;
 
         /**
          * Constructor
          * @param candidate A potential candidate for a complex word.
-         * @param isNoun Set to true if noun, false if verb.
+         * @param isNounCandidate Set to true if noun, false if verb.
          */
-        public ComplexWord(String candidate, boolean isNoun) {
+        public ComplexWord(String candidate, boolean isNounCandidate) {
             mUnparsedPart = candidate;
-            mIsNoun = isNoun;
+            mIsNounCandidate = isNounCandidate;
+            mIsVerbWithType5NounSuffix = false;
             mHomophoneNumber = -1;
 
-            if (mIsNoun) {
+            if (mIsNounCandidate) {
                 // Five types of noun suffixes.
                 mSuffixLevel = nounSuffixesStrings.length;
             } else {
@@ -1323,14 +1459,15 @@ public class KlingonContentProvider extends ContentProvider {
             }
 
             // Rovers.
-            mVerbTypeRNegation = -1;
-            mVerbTypeREmphatic = -1;
+            mVerbTypeRNegation = ROVER_NOT_YET_FOUND;
+            mVerbTypeREmphatic = ROVER_NOT_YET_FOUND;
             roverOrderNegationBeforeEmphatic = false;
 
             // Number parts.
             mNumberDigit = 0;
             mNumberModifier = 0;
             mNumberSuffix = "";
+            mIsNumberLike = false;
         }
 
         /**
@@ -1340,7 +1477,8 @@ public class KlingonContentProvider extends ContentProvider {
          */
         public ComplexWord(String unparsedPart, ComplexWord complexWordToCopy) {
             mUnparsedPart = unparsedPart;
-            mIsNoun = complexWordToCopy.mIsNoun;
+            mIsNounCandidate = complexWordToCopy.mIsNounCandidate;
+            mIsVerbWithType5NounSuffix = complexWordToCopy.mIsVerbWithType5NounSuffix;
             mHomophoneNumber = complexWordToCopy.mHomophoneNumber;
             mSuffixLevel = complexWordToCopy.mSuffixLevel;
             mVerbPrefix = complexWordToCopy.mVerbPrefix;
@@ -1356,6 +1494,7 @@ public class KlingonContentProvider extends ContentProvider {
             mNumberDigit = complexWordToCopy.mNumberDigit;
             mNumberModifier = complexWordToCopy.mNumberModifier;
             mNumberSuffix = complexWordToCopy.mNumberSuffix;
+            mIsNumberLike = complexWordToCopy.mIsNumberLike;
         }
 
         public void setHomophoneNumber(int number) {
@@ -1365,7 +1504,7 @@ public class KlingonContentProvider extends ContentProvider {
         }
 
         public ComplexWord stripPrefix() {
-            if (mIsNoun) {
+            if (mIsNounCandidate) {
                 return null;
             }
 
@@ -1387,30 +1526,57 @@ public class KlingonContentProvider extends ContentProvider {
         }
 
         // Attempt to strip off the rovers.
-        private void stripRovers() {
-            // We must preserve the relative order of the two true rovers.
-            if (mUnparsedPart.endsWith("be'qu'")) {
-                mVerbTypeRNegation = mSuffixLevel;
-                mVerbTypeREmphatic = mSuffixLevel;
-                roverOrderNegationBeforeEmphatic = true;
-                mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
-            } else if (mUnparsedPart.endsWith("qu'be'")) {
-                mVerbTypeRNegation = mSuffixLevel;
-                mVerbTypeREmphatic = mSuffixLevel;
-                roverOrderNegationBeforeEmphatic = false;
-                mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
-            } else if (mUnparsedPart.endsWith("be'")) {
-                mVerbTypeRNegation = mSuffixLevel;
-                mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
-            } else if (mUnparsedPart.endsWith("qu'")) {
-                mVerbTypeREmphatic = mSuffixLevel;
-                mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
+        private ComplexWord stripRovers() {
+            // TODO: Refactor this function to make it more compact.
+            // There are a few entries in the database where the {-be'} and {-qu'} are included, e.g.,
+            // {motlhbe'} and {Say'qu'}. The logic here allows, e.g., {bImotlhbe'be'}, but we don't care
+            // since this is relatively rare.
+            if (mVerbTypeRNegation == ROVER_NOT_YET_FOUND && mVerbTypeREmphatic == ROVER_NOT_YET_FOUND) {
+              // We must preserve the relative order of the two true rovers.
+              if (mUnparsedPart.endsWith("be'qu'")) {
+                  String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
+                  ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
+                  anotherComplexWord.mVerbTypeRNegation = mSuffixLevel;
+                  anotherComplexWord.mVerbTypeREmphatic = mSuffixLevel;
+                  anotherComplexWord.roverOrderNegationBeforeEmphatic = true;
+                  anotherComplexWord.mSuffixLevel = mSuffixLevel;
+                  mVerbTypeRNegation = IGNORE_THIS_ROVER;
+                  mVerbTypeREmphatic = IGNORE_THIS_ROVER;
+                  return anotherComplexWord;
+              } else if (mUnparsedPart.endsWith("qu'be'") && !mUnparsedPart.equals("qu'be'")) {
+                  String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
+                  ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
+                  anotherComplexWord.mVerbTypeRNegation = mSuffixLevel;
+                  anotherComplexWord.mVerbTypeREmphatic = mSuffixLevel;
+                  anotherComplexWord.roverOrderNegationBeforeEmphatic = false;
+                  anotherComplexWord.mSuffixLevel = mSuffixLevel;
+                  mVerbTypeRNegation = IGNORE_THIS_ROVER;
+                  mVerbTypeREmphatic = IGNORE_THIS_ROVER;
+                  return anotherComplexWord;
+              }
             }
+            // This is not an "else if" because {qu'be'} is itself a word.
+            if (mVerbTypeRNegation == ROVER_NOT_YET_FOUND && mUnparsedPart.endsWith("be'")) {
+                String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
+                ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
+                anotherComplexWord.mVerbTypeRNegation = mSuffixLevel;
+                anotherComplexWord.mSuffixLevel = mSuffixLevel;
+                mVerbTypeRNegation = IGNORE_THIS_ROVER;
+                return anotherComplexWord;
+            } else if (mVerbTypeREmphatic == ROVER_NOT_YET_FOUND && mUnparsedPart.endsWith("qu'") && !mUnparsedPart.equals("qu'")) {
+                String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
+                ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
+                anotherComplexWord.mVerbTypeREmphatic = mSuffixLevel;
+                anotherComplexWord.mSuffixLevel = mSuffixLevel;
+                mVerbTypeREmphatic = IGNORE_THIS_ROVER;
+                return anotherComplexWord;
+            }
+            return null;
         }
 
         // Attempt to strip off one level of suffix from self, if this results in a branch return the branch as a new complex word.
         // At the end of this call, this complex word will have have decreased one suffix level.
-        public ComplexWord stripSuffix() {
+        public ComplexWord stripSuffixAndBranch() {
             if (mSuffixLevel == 0) {
                 // This should never be reached.
                 return null;
@@ -1418,11 +1584,17 @@ public class KlingonContentProvider extends ContentProvider {
             // The types are 1-indexed, but the array is 0-index, so decrement it here.
             mSuffixLevel--;
             String[] suffixes;
-            if (mIsNoun) {
+            if (mIsNounCandidate) {
                 suffixes = nounSuffixesStrings[mSuffixLevel];
             } else {
                 suffixes = verbSuffixesStrings[mSuffixLevel];
-                stripRovers();
+                ComplexWord anotherComplexWord = stripRovers();
+                if (anotherComplexWord != null) {
+                    /* if (BuildConfig.DEBUG) {
+                        Log.d(TAG, "mSuffixLevel: " + mSuffixLevel);
+                    } */
+                    return anotherComplexWord;
+                }
             }
 
             // Count from 1, since index 0 corresponds to no suffix of this type.
@@ -1436,7 +1608,7 @@ public class KlingonContentProvider extends ContentProvider {
                         ComplexWord anotherComplexWord = new ComplexWord(partWithSuffixRemoved, this);
                         // mSuffixLevel already decremented above.
                         anotherComplexWord.mSuffixLevel = mSuffixLevel;
-                        if (mIsNoun) {
+                        if (mIsNounCandidate) {
                             anotherComplexWord.mNounSuffixes[anotherComplexWord.mSuffixLevel] = i;
                         } else {
                             anotherComplexWord.mVerbSuffixes[anotherComplexWord.mSuffixLevel] = i;
@@ -1458,8 +1630,8 @@ public class KlingonContentProvider extends ContentProvider {
                 // A verb prefix was found.
                 return false;
             }
-            if (mVerbTypeRNegation != -1 ||
-                mVerbTypeREmphatic != -1) {
+            if (mVerbTypeRNegation >= 0 || mVerbTypeREmphatic >= 0) {
+                // Note that -1 indicates ROVER_NOT_YET_FOUND and -2 indicates IGNORE_THIS_ROVER, so a found rover has position greater than or equal to 0.
                 // A rover was found.
                 return false;
             }
@@ -1479,9 +1651,9 @@ public class KlingonContentProvider extends ContentProvider {
             return true;
         }
 
-        public boolean isNumber() {
-            // A complex word is a number if it's a noun and the root contains a digit.
-            return mIsNoun && (mNumberDigit != 0);
+        public boolean isNumberLike() {
+            // A complex word is number-like if it's a noun and it's marked as such.
+            return mIsNounCandidate && mIsNumberLike;
         }
 
         private boolean noNounSuffixesFound() {
@@ -1497,7 +1669,7 @@ public class KlingonContentProvider extends ContentProvider {
 
         public String toString() {
             String s = mUnparsedPart;
-            if (mIsNoun) {
+            if (mIsNounCandidate) {
                 s += " (n)";
                 for (int i = 0; i < mNounSuffixes.length; i++ ) {
                     s += " " + mNounSuffixes[i];
@@ -1513,8 +1685,16 @@ public class KlingonContentProvider extends ContentProvider {
         }
 
         // Used for telling stems of complex words apart.
-        public String filter() {
-            return mUnparsedPart + ":" + (mIsNoun ? "n" : "v") + (mHomophoneNumber != -1 ? ":" + mHomophoneNumber : "");
+        public String filter(boolean isLenient) {
+            if (mIsVerbWithType5NounSuffix) {
+                // If this is a candidate for a verb with a type 5 noun suffix attached, mark it so that it's treated specially. In particular, it must be a verb which is not transitive, and it cannot be a pronoun acting as a verb.
+                return mUnparsedPart + ":v:n5";
+            } else if (isLenient && isBareWord()) {
+                // If isLenient is true, then also match non-nouns and non-verbs
+                // if there are no prefixes or suffixes.
+                return mUnparsedPart;
+            }
+            return mUnparsedPart + ":" + (mIsNounCandidate ? "n" : "v") + (mHomophoneNumber != -1 ? ":" + mHomophoneNumber : "");
         }
 
         public String stem() {
@@ -1544,9 +1724,44 @@ public class KlingonContentProvider extends ContentProvider {
             return suffixes;
         }
 
-        // Get the number digit for a number.
-        public String getNumberDigit() {
-            return numberDigitString[mNumberDigit];
+        // Get the root for a number.
+        public String getNumberRoot() {
+            if (mNumberDigit != 0) {
+                // This is an actual digit from {wa'} to {Hut}.
+                return numberDigitString[mNumberDigit];
+            }
+
+            String numberRoot = "";
+            if (mUnparsedPart.startsWith("pagh")) {
+                numberRoot = "pagh";
+            } else if (mUnparsedPart.startsWith("Hoch")) {
+                numberRoot = "Hoch";
+            } else if (mUnparsedPart.startsWith("'ar")) {
+                // Note that this will cause {'arDIch} to be accepted as a word.
+                numberRoot = "'ar";
+            }
+            return numberRoot;
+        }
+
+        // Get the annotation for the root for a number.
+        public String getNumberRootAnnotation() {
+            if (mNumberDigit != 0) {
+                return "n:num";
+            }
+
+            String numberRoot = "";
+            if (mUnparsedPart.startsWith("pagh")) {
+                numberRoot = "n:num";
+            } else if (mUnparsedPart.startsWith("Hoch")) {
+                // {Hoch} is a noun but not a number.
+                numberRoot = "n";
+            } else if (mUnparsedPart.startsWith("'ar")) {
+                // {'ar} is a question word.
+                numberRoot = "ques";
+            } else {
+                // This should never happen.
+            }
+            return numberRoot;
         }
 
         // Get the number modifier for a number.
@@ -1614,8 +1829,38 @@ public class KlingonContentProvider extends ContentProvider {
             return suffixesString;
         }
 
+        public ComplexWord getAdjectivalVerbWithType5NounSuffix() {
+            // Note that even if there is a rover, which is legal on a verb acting adjectivally,
+            // it's hidden by the type 5 noun suffix and hence at this point we consider the
+            // word a bare word.
+            if (mIsNounCandidate || !isBareWord()) {
+                // This should never be reached.
+                return null;
+            }
+
+            // Count from 1 since 0 corresponds to no such suffix.
+            // Note that {-mo'} is both a type 5 noun suffix and a type 9 verb suffix.
+            for (int i = 1; i < nounType5String.length; i++) {
+                if (mUnparsedPart.endsWith(nounType5String[i])) {
+                    String adjectivalVerb = mUnparsedPart.substring(0, mUnparsedPart.length() - nounType5String[i].length());
+                    ComplexWord adjectivalVerbWithType5NounSuffix = new ComplexWord(adjectivalVerb, /* isNounCandidate */ false);
+
+                    // Note that type 5 corresponds to index 4 since the array is 0-indexed.
+                    adjectivalVerbWithType5NounSuffix.mNounSuffixes[4] = i;
+                    adjectivalVerbWithType5NounSuffix.mIsVerbWithType5NounSuffix = true;
+
+                    // Done processing.
+                    adjectivalVerbWithType5NounSuffix.mSuffixLevel = 0;
+
+                    // Since none of the type 5 noun suffixes are a prefix of another, it's okay to return here.
+                    return adjectivalVerbWithType5NounSuffix;
+                }
+            }
+            return null;
+        }
+
         public ComplexWord getVerbRootIfNoun() {
-            if (!mIsNoun || !hasNoMoreSuffixes()) {
+            if (!mIsNounCandidate || !hasNoMoreSuffixes()) {
                 // Should never be reached if there are still suffixes remaining.
                 return null;
             }
@@ -1625,8 +1870,8 @@ public class KlingonContentProvider extends ContentProvider {
             // Do this only if there were noun suffixes, since the bare noun will be analysed as a verb anyway.
             if (!noNounSuffixesFound() && (mUnparsedPart.endsWith("ghach") || mUnparsedPart.endsWith("wI'"))) {
                 // Log.d(TAG, "Creating verb from: " + mUnparsedPart);
-                ComplexWord complexVerb = new ComplexWord(mUnparsedPart, this);
-                complexVerb.mIsNoun = false;
+                ComplexWord complexVerb = new ComplexWord(mUnparsedPart, /* complexWordToCopy */ this);
+                complexVerb.mIsNounCandidate = false;
                 complexVerb.mSuffixLevel = complexVerb.mVerbSuffixes.length;
                 return complexVerb;
             }
@@ -1634,7 +1879,7 @@ public class KlingonContentProvider extends ContentProvider {
         }
 
         public void attachPrefix(String prefix) {
-            if (mIsNoun) {
+            if (mIsNounCandidate) {
                 return;
             }
             for (int i = 1; i < verbPrefixString.length; i++) {
@@ -1646,34 +1891,48 @@ public class KlingonContentProvider extends ContentProvider {
         }
 
         // Attaches a suffix. Returns the level of the suffix attached.
-        public int attachSuffix(String suffix, int suffixLevel) {
-            if (mIsNoun) {
-                // Iterate over noun suffix types.
+        public int attachSuffix(String suffix, boolean isNounSuffix, int verbSuffixLevel) {
+            // Note that when a complex word noun is formed from a verb with {-wI'} or {-ghach}, its
+            // stem is considered to be a verb. Furthermore, an adjectival verb can take a type 5
+            // noun suffix. Noun suffixes can thus be attached to verbs. The isNounSuffix variable
+            // here indicates the type of the suffix, not the type of the stem.
+
+            // Special handling of {-DIch} and {-logh}.
+            if (suffix.equals("-DIch") || suffix.equals("-logh")) {
+                mIsNumberLike = true;
+                mNumberSuffix = suffix.substring(1); // strip initial "-"
+                return verbSuffixLevel;
+            }
+
+            if (isNounSuffix) {
+                // This is a noun suffix. Iterate over noun suffix types.
                 for (int i = 0; i < nounSuffixesStrings.length; i++) {
                     // Count from 1, since 0 corresponds to no suffix of that type.
                     for (int j = 1; j < nounSuffixesStrings[i].length; j++) {
                         if (suffix.equals("-" + nounSuffixesStrings[i][j])) {
                             mNounSuffixes[i] = j;
-                            return i;
+
+                            // The verb suffix level hasn't changed.
+                            return verbSuffixLevel;
                         }
                     }
                 }
             } else {
-                // Check if this is a true rover.
+                // This is a verb suffix. Check if this is a true rover.
                 if (suffix.equals("-be'")) {
-                    mVerbTypeRNegation = suffixLevel;
-                    if (mVerbTypeREmphatic == suffixLevel) {
+                    mVerbTypeRNegation = verbSuffixLevel;
+                    if (mVerbTypeREmphatic == verbSuffixLevel) {
                         // {-qu'be'}
                         roverOrderNegationBeforeEmphatic = false;
                     }
-                    return suffixLevel;
+                    return verbSuffixLevel;
                 } else if (suffix.equals("-qu'")) {
-                    mVerbTypeREmphatic = suffixLevel;
-                    if (mVerbTypeRNegation == suffixLevel) {
+                    mVerbTypeREmphatic = verbSuffixLevel;
+                    if (mVerbTypeRNegation == verbSuffixLevel) {
                         // {-be'qu'}
                         roverOrderNegationBeforeEmphatic = true;
                     }
-                    return suffixLevel;
+                    return verbSuffixLevel;
                 }
                 // Iterate over verb suffix types.
                 for (int i = 0; i < verbSuffixesStrings.length; i++) {
@@ -1681,13 +1940,16 @@ public class KlingonContentProvider extends ContentProvider {
                     for (int j = 1; j < verbSuffixesStrings[i].length; j++) {
                         if (suffix.equals("-" + verbSuffixesStrings[i][j])) {
                             mVerbSuffixes[i] = j;
+
+                            // The verb suffix level has been changed.
                             return i;
                         }
                     }
                 }
             }
             // This should never be reached.
-            return suffixLevel;
+            Log.e(TAG, "Unrecognised suffix: " + suffix);
+            return verbSuffixLevel;
         }
 
         // Add this complex word to the list.
@@ -1702,7 +1964,7 @@ public class KlingonContentProvider extends ContentProvider {
             // Determine if this is a number. Assume that a number is of the form "digit[modifier][suffix]",
             // where digit is {wa'}, etc., modifier is a power of ten such as {maH}, and suffix is one of
             // {-DIch} or {-logh}.
-            if (mIsNoun) {
+            if (mIsNounCandidate) {
 
                 // Check for {-DIch} or {-logh}.
                 String numberRoot = mUnparsedPart;
@@ -1712,6 +1974,7 @@ public class KlingonContentProvider extends ContentProvider {
                     mNumberSuffix = mUnparsedPart.substring(rootLength);
                 }
 
+                // Check for a "power of ten" modifier, such as {maH}.
                 // Count from 1, since 0 corresponds to no modifier.
                 for (int i = 1; i < numberModifierString.length; i++) {
                     if (numberRoot.endsWith(numberModifierString[i])) {
@@ -1720,19 +1983,32 @@ public class KlingonContentProvider extends ContentProvider {
                         break;
                     }
                 }
+
+                // Look for a digit from {wa'} to {Hut}. {pagh} is excluded for now.
                 // Count from 1, since 0 corresponds to no digit.
                 for (int j = 1; j < numberDigitString.length; j++) {
                     if (numberRoot.equals(numberDigitString[j])) {
                         // Found a digit, so this is a number.
+                        // Note that we leave mUnparsedPart alone, since we still want to add, e.g., {wa'DIch} as a result.
                         mNumberDigit = j;
+                        mIsNumberLike = true;
                         break;
                     }
                 }
-            }
-            // If there is no modifier or suffix, then ignore this as the bare
-            // digit word will already be added.
-            if (mNumberModifier == 0 && mNumberSuffix.equals("")) {
-                mNumberDigit = 0;
+                // If there is no modifier or suffix, then ignore this as the bare
+                // digit word will already be added.
+                if (mNumberModifier == 0 && mNumberSuffix.equals("")) {
+                    mNumberDigit = 0;
+                    mIsNumberLike = false;
+                }
+
+                // Finally, treat these words specially: {'arlogh}, {paghlogh}, {Hochlogh}, {paghDIch}, {HochDIch}.
+                if (!mNumberSuffix.equals("") &&
+                    (numberRoot.equals("pagh") || numberRoot.equals("Hoch") || numberRoot.equals("'ar"))) {
+                        // We don't set mUnparsedPart to the root, because we still want the entire
+                        // word (e.g., {paghlogh}) to be added to the results if it is in the database.
+                        mIsNumberLike = true;
+                }
             }
 
             // Add this complex word.
@@ -1742,10 +2018,10 @@ public class KlingonContentProvider extends ContentProvider {
     }
 
     // Attempt to parse this complex word, and if successful, add it to the given set.
-    public static void parseComplexWord(String candidate, boolean isNoun, ArrayList<ComplexWord> complexWordsList) {
-        ComplexWord complexWord = new ComplexWord(candidate, isNoun);
-        // Log.d(TAG, "parsing = " + candidate + " (" + (isNoun ? "n" : "v") + ")");
-        if (!isNoun) {
+    public static void parseComplexWord(String candidate, boolean isNounCandidate, ArrayList<ComplexWord> complexWordsList) {
+        ComplexWord complexWord = new ComplexWord(candidate, isNounCandidate);
+        // Log.d(TAG, "parsing = " + candidate + " (" + (isNounCandidate ? "n" : "v") + ")");
+        if (!isNounCandidate) {
             // Check prefix.
             ComplexWord strippedPrefixComplexWord = complexWord.stripPrefix();
             if (strippedPrefixComplexWord != null) {
@@ -1760,26 +2036,59 @@ public class KlingonContentProvider extends ContentProvider {
     // Helper method to strip a level of suffix from a word.
     private static void stripSuffix(ComplexWord complexWord, ArrayList<ComplexWord> complexWordsList) {
         if (complexWord.hasNoMoreSuffixes()) {
-            // Log.d(TAG, "adding self: " + complexWord.mUnparsedPart);
+            if (BuildConfig.DEBUG) {
+                Log.d(TAG, "adding self: " + complexWord.mUnparsedPart);
+            }
             complexWord.addSelf(complexWordsList);
 
-            // Attempt to get the verb root of this word if it's a noun.
-            complexWord = complexWord.getVerbRootIfNoun();
+            if (complexWord.mIsNounCandidate) {
+                // Attempt to get the verb root of this word if it's a noun.
+                complexWord = complexWord.getVerbRootIfNoun();
+            } else if (complexWord.isBareWord()) {
+                // Check for type 5 noun suffix on a possibly adjectival verb.
+                complexWord = complexWord.getAdjectivalVerbWithType5NounSuffix();
+                if (complexWord != null) {
+                  String adjectivalVerb = complexWord.stem();
+                  if (adjectivalVerb.endsWith("be'") ||
+                      adjectivalVerb.endsWith("qu'") ||
+                      adjectivalVerb.endsWith("Ha'")) {
+                      String adjectivalVerbWithoutRover = adjectivalVerb.substring(0, adjectivalVerb.length() - 3);
+                      // Adjectival verbs may end with a rover (except for {-Qo'}), so check for that here.
+                      ComplexWord anotherComplexWord = new ComplexWord(adjectivalVerbWithoutRover, complexWord);
+                      if (adjectivalVerb.endsWith("be'")) {
+                          anotherComplexWord.mVerbTypeRNegation = 0;
+                      } else if (adjectivalVerb.endsWith("qu'")) {
+                          anotherComplexWord.mVerbTypeREmphatic = 0;
+                      } else if (adjectivalVerb.endsWith("Ha'")) {
+                          anotherComplexWord.mVerbSuffixes[0] = 1;
+                      }
+                      stripSuffix(anotherComplexWord, complexWordsList);
+                  }
+                }
+            } else {
+                // We're done.
+                complexWord = null;
+            }
+
             if (complexWord == null) {
-                // No further verb root, so we're done with this complex word.
+                // Not a noun or the noun has no further verb root, so we're done with this complex word.
                 return;
             }
+            // Note that at this point we continue with a newly created complex word.
         }
-        // Log.d(TAG, "stripSuffix " + (complexWord.mIsNoun ? "noun" : "verb") + " type " +
-        //     complexWord.mSuffixLevel + " on \"" + complexWord.mUnparsedPart + "\"");
+        /* if (BuildConfig.DEBUG) {
+            Log.d(TAG, "stripSuffix " + (complexWord.mIsNounCandidate ? "noun" : "verb") + " type " +
+                complexWord.mSuffixLevel + " on \"" + complexWord.mUnparsedPart + "\"");
+        } */
 
         // Attempt to strip one level of suffix.
-        ComplexWord strippedSuffixComplexWord = complexWord.stripSuffix();
+        ComplexWord strippedSuffixComplexWord = complexWord.stripSuffixAndBranch();
         if (strippedSuffixComplexWord != null) {
             // A suffix of the current type was found, branch using it as a new candidate.
             stripSuffix(strippedSuffixComplexWord, complexWordsList);
         }
-        // Tail recurse to the next level of suffix.
+        // Tail recurse to the next level of suffix. Note that the suffix level is decremented in
+        // complexWord.stripSuffixAndBranch() above.
         stripSuffix(complexWord, complexWordsList);
     }
 }

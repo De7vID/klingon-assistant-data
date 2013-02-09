@@ -76,6 +76,10 @@ public class KlingonAssistant extends Activity {
     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
     private static final String QUERY_FOR_JOKES = "*:sen:joke";
 
+    // This holds the {pIqaD} typeface.
+    private static Typeface mKlingonFontTypeface = null;
+
+    // The two main views in app's main screen.
     private TextView mTextView;
     private ListView mListView;
 
@@ -142,6 +146,13 @@ public class KlingonAssistant extends Activity {
         }
     }
 
+    public static Typeface getKlingonFontTypeface(Context context) {
+        if (mKlingonFontTypeface == null) {
+            mKlingonFontTypeface = Typeface.createFromAsset(context.getAssets(),"fonts/pIqaD.ttf");
+        }
+        return mKlingonFontTypeface;
+    }
+
     // Launch an entry activity with the entry's info.
     private void launchEntry(String entryId) {
         Intent entryIntent = new Intent(this, EntryActivity.class);
@@ -201,7 +212,7 @@ public class KlingonAssistant extends Activity {
 
             // TODO(davinci): Format with colour and size.
             String indent1 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;" : "";
-            String indent2 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;" : "";
+            String indent2 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" : "";
 
             // Use serif for the entry, so capital-I and lowercase-l are distinguishable.
             view.getText1().setTypeface(Typeface.SERIF);
