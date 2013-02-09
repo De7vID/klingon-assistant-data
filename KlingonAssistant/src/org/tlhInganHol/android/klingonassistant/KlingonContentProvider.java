@@ -1531,17 +1531,23 @@ public class KlingonContentProvider extends ContentProvider {
                 mVerbTypeREmphatic = mSuffixLevel;
                 roverOrderNegationBeforeEmphatic = true;
                 mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
-            } else if (mUnparsedPart.endsWith("qu'be'")) {
+                return;
+            } else if (mUnparsedPart.endsWith("qu'be'") && !mUnparsedPart.equals("qu'be'")) {
                 mVerbTypeRNegation = mSuffixLevel;
                 mVerbTypeREmphatic = mSuffixLevel;
                 roverOrderNegationBeforeEmphatic = false;
                 mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
-            } else if (mUnparsedPart.endsWith("be'")) {
+                return;
+            }
+            // This is not an "else if" because {qu'be'} is itself a word.
+            if (mUnparsedPart.endsWith("be'")) {
                 mVerbTypeRNegation = mSuffixLevel;
                 mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
-            } else if (mUnparsedPart.endsWith("qu'")) {
+                return;
+            } else if (mUnparsedPart.endsWith("qu'") && !mUnparsedPart.equals("qu'")) {
                 mVerbTypeREmphatic = mSuffixLevel;
                 mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
+                return;
             }
         }
 
