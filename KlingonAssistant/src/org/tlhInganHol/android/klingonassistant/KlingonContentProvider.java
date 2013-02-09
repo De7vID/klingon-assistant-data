@@ -1526,25 +1526,27 @@ public class KlingonContentProvider extends ContentProvider {
         // Attempt to strip off the rovers.
         private void stripRovers() {
             // We must preserve the relative order of the two true rovers.
-            if (mUnparsedPart.endsWith("be'qu'")) {
-                mVerbTypeRNegation = mSuffixLevel;
-                mVerbTypeREmphatic = mSuffixLevel;
-                roverOrderNegationBeforeEmphatic = true;
-                mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
-                return;
-            } else if (mUnparsedPart.endsWith("qu'be'") && !mUnparsedPart.equals("qu'be'")) {
-                mVerbTypeRNegation = mSuffixLevel;
-                mVerbTypeREmphatic = mSuffixLevel;
-                roverOrderNegationBeforeEmphatic = false;
-                mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
-                return;
+            if (mVerbTypeRNegation == -1 && mVerbTypeREmphatic == -1) {
+              if (mUnparsedPart.endsWith("be'qu'")) {
+                  mVerbTypeRNegation = mSuffixLevel;
+                  mVerbTypeREmphatic = mSuffixLevel;
+                  roverOrderNegationBeforeEmphatic = true;
+                  mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
+                  return;
+              } else if (mUnparsedPart.endsWith("qu'be'") && !mUnparsedPart.equals("qu'be'")) {
+                  mVerbTypeRNegation = mSuffixLevel;
+                  mVerbTypeREmphatic = mSuffixLevel;
+                  roverOrderNegationBeforeEmphatic = false;
+                  mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
+                  return;
+              }
             }
             // This is not an "else if" because {qu'be'} is itself a word.
-            if (mUnparsedPart.endsWith("be'")) {
+            if (mVerbTypeRNegation == -1 && mUnparsedPart.endsWith("be'")) {
                 mVerbTypeRNegation = mSuffixLevel;
                 mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
                 return;
-            } else if (mUnparsedPart.endsWith("qu'") && !mUnparsedPart.equals("qu'")) {
+            } else if (mVerbTypeREmphatic == -1 && mUnparsedPart.endsWith("qu'") && !mUnparsedPart.equals("qu'")) {
                 mVerbTypeREmphatic = mSuffixLevel;
                 mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
                 return;
