@@ -1416,6 +1416,8 @@ public class KlingonContentProvider extends ContentProvider {
         // so 0 means they are attached directly to the verb (before any type 1 suffix).
         int mVerbTypeRNegation;
         int mVerbTypeREmphatic;
+        private static final int ROVER_NOT_YET_FOUND = -1;
+        private static final int IGNORE_THIS_ROVER = -2;
 
         // True if {-be'} appears before {-qu'} in a verb.
         boolean roverOrderNegationBeforeEmphatic;
@@ -1457,8 +1459,8 @@ public class KlingonContentProvider extends ContentProvider {
             }
 
             // Rovers.
-            mVerbTypeRNegation = -1;
-            mVerbTypeREmphatic = -1;
+            mVerbTypeRNegation = ROVER_NOT_YET_FOUND;
+            mVerbTypeREmphatic = ROVER_NOT_YET_FOUND;
             roverOrderNegationBeforeEmphatic = false;
 
             // Number parts.
@@ -1525,31 +1527,49 @@ public class KlingonContentProvider extends ContentProvider {
 
         // Attempt to strip off the rovers.
         private ComplexWord stripRovers() {
-            // We must preserve the relative order of the two true rovers.
-            if (mVerbTypeRNegation == -1 && mVerbTypeREmphatic == -1) {
+            // TODO: Refactor this function to make it more compact.
+            // There are a few entries in the database where the {-be'} and {-qu'} are included, e.g.,
+            // {motlhbe'} and {Say'qu'}. The logic here allows, e.g., {bImotlhbe'be'}, but we don't care
+            // since this is relatively rare.
+            if (mVerbTypeRNegation == ROVER_NOT_YET_FOUND && mVerbTypeREmphatic == ROVER_NOT_YET_FOUND) {
+              // We must preserve the relative order of the two true rovers.
               if (mUnparsedPart.endsWith("be'qu'")) {
-                  mVerbTypeRNegation = mSuffixLevel;
-                  mVerbTypeREmphatic = mSuffixLevel;
-                  roverOrderNegationBeforeEmphatic = true;
-                  mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
-                  return null;
+                  String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
+                  ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
+                  anotherComplexWord.mVerbTypeRNegation = mSuffixLevel;
+                  anotherComplexWord.mVerbTypeREmphatic = mSuffixLevel;
+                  anotherComplexWord.roverOrderNegationBeforeEmphatic = true;
+                  anotherComplexWord.mSuffixLevel = mSuffixLevel;
+                  mVerbTypeRNegation = IGNORE_THIS_ROVER;
+                  mVerbTypeREmphatic = IGNORE_THIS_ROVER;
+                  return anotherComplexWord;
               } else if (mUnparsedPart.endsWith("qu'be'") && !mUnparsedPart.equals("qu'be'")) {
-                  mVerbTypeRNegation = mSuffixLevel;
-                  mVerbTypeREmphatic = mSuffixLevel;
-                  roverOrderNegationBeforeEmphatic = false;
-                  mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
-                  return null;
+                  String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
+                  ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
+                  anotherComplexWord.mVerbTypeRNegation = mSuffixLevel;
+                  anotherComplexWord.mVerbTypeREmphatic = mSuffixLevel;
+                  anotherComplexWord.roverOrderNegationBeforeEmphatic = false;
+                  anotherComplexWord.mSuffixLevel = mSuffixLevel;
+                  mVerbTypeRNegation = IGNORE_THIS_ROVER;
+                  mVerbTypeREmphatic = IGNORE_THIS_ROVER;
+                  return anotherComplexWord;
               }
             }
             // This is not an "else if" because {qu'be'} is itself a word.
-            if (mVerbTypeRNegation == -1 && mUnparsedPart.endsWith("be'")) {
-                mVerbTypeRNegation = mSuffixLevel;
-                mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
-                return null;
-            } else if (mVerbTypeREmphatic == -1 && mUnparsedPart.endsWith("qu'") && !mUnparsedPart.equals("qu'")) {
-                mVerbTypeREmphatic = mSuffixLevel;
-                mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
-                return null;
+            if (mVerbTypeRNegation == ROVER_NOT_YET_FOUND && mUnparsedPart.endsWith("be'")) {
+                String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
+                ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
+                anotherComplexWord.mVerbTypeRNegation = mSuffixLevel;
+                anotherComplexWord.mSuffixLevel = mSuffixLevel;
+                mVerbTypeRNegation = IGNORE_THIS_ROVER;
+                return anotherComplexWord;
+            } else if (mVerbTypeREmphatic == ROVER_NOT_YET_FOUND && mUnparsedPart.endsWith("qu'") && !mUnparsedPart.equals("qu'")) {
+                String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
+                ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
+                anotherComplexWord.mVerbTypeREmphatic = mSuffixLevel;
+                anotherComplexWord.mSuffixLevel = mSuffixLevel;
+                mVerbTypeREmphatic = IGNORE_THIS_ROVER;
+                return anotherComplexWord;
             }
             return null;
         }
@@ -1570,6 +1590,9 @@ public class KlingonContentProvider extends ContentProvider {
                 suffixes = verbSuffixesStrings[mSuffixLevel];
                 ComplexWord anotherComplexWord = stripRovers();
                 if (anotherComplexWord != null) {
+                    /* if (BuildConfig.DEBUG) {
+                        Log.d(TAG, "mSuffixLevel: " + mSuffixLevel);
+                    } */
                     return anotherComplexWord;
                 }
             }
@@ -1607,8 +1630,8 @@ public class KlingonContentProvider extends ContentProvider {
                 // A verb prefix was found.
                 return false;
             }
-            if (mVerbTypeRNegation != -1 ||
-                mVerbTypeREmphatic != -1) {
+            if (mVerbTypeRNegation >= 0 || mVerbTypeREmphatic >= 0) {
+                // Note that -1 indicates ROVER_NOT_YET_FOUND and -2 indicates IGNORE_THIS_ROVER, so a found rover has position greater than or equal to 0.
                 // A rover was found.
                 return false;
             }
