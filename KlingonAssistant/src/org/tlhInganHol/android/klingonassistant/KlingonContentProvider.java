@@ -1524,7 +1524,7 @@ public class KlingonContentProvider extends ContentProvider {
         }
 
         // Attempt to strip off the rovers.
-        private void stripRovers() {
+        private ComplexWord stripRovers() {
             // We must preserve the relative order of the two true rovers.
             if (mVerbTypeRNegation == -1 && mVerbTypeREmphatic == -1) {
               if (mUnparsedPart.endsWith("be'qu'")) {
@@ -1532,30 +1532,31 @@ public class KlingonContentProvider extends ContentProvider {
                   mVerbTypeREmphatic = mSuffixLevel;
                   roverOrderNegationBeforeEmphatic = true;
                   mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
-                  return;
+                  return null;
               } else if (mUnparsedPart.endsWith("qu'be'") && !mUnparsedPart.equals("qu'be'")) {
                   mVerbTypeRNegation = mSuffixLevel;
                   mVerbTypeREmphatic = mSuffixLevel;
                   roverOrderNegationBeforeEmphatic = false;
                   mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
-                  return;
+                  return null;
               }
             }
             // This is not an "else if" because {qu'be'} is itself a word.
             if (mVerbTypeRNegation == -1 && mUnparsedPart.endsWith("be'")) {
                 mVerbTypeRNegation = mSuffixLevel;
                 mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
-                return;
+                return null;
             } else if (mVerbTypeREmphatic == -1 && mUnparsedPart.endsWith("qu'") && !mUnparsedPart.equals("qu'")) {
                 mVerbTypeREmphatic = mSuffixLevel;
                 mUnparsedPart = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
-                return;
+                return null;
             }
+            return null;
         }
 
         // Attempt to strip off one level of suffix from self, if this results in a branch return the branch as a new complex word.
         // At the end of this call, this complex word will have have decreased one suffix level.
-        public ComplexWord stripSuffix() {
+        public ComplexWord stripSuffixAndBranch() {
             if (mSuffixLevel == 0) {
                 // This should never be reached.
                 return null;
@@ -1567,7 +1568,10 @@ public class KlingonContentProvider extends ContentProvider {
                 suffixes = nounSuffixesStrings[mSuffixLevel];
             } else {
                 suffixes = verbSuffixesStrings[mSuffixLevel];
-                stripRovers();
+                ComplexWord anotherComplexWord = stripRovers();
+                if (anotherComplexWord != null) {
+                    return anotherComplexWord;
+                }
             }
 
             // Count from 1, since index 0 corresponds to no suffix of this type.
@@ -2010,14 +2014,16 @@ public class KlingonContentProvider extends ContentProvider {
     // Helper method to strip a level of suffix from a word.
     private static void stripSuffix(ComplexWord complexWord, ArrayList<ComplexWord> complexWordsList) {
         if (complexWord.hasNoMoreSuffixes()) {
-            // Log.d(TAG, "adding self: " + complexWord.mUnparsedPart);
+            if (BuildConfig.DEBUG) {
+                Log.d(TAG, "adding self: " + complexWord.mUnparsedPart);
+            }
             complexWord.addSelf(complexWordsList);
 
             if (complexWord.mIsNounCandidate) {
                 // Attempt to get the verb root of this word if it's a noun.
                 complexWord = complexWord.getVerbRootIfNoun();
             } else if (complexWord.isBareWord()) {
-                // Check for type 5 noun suffix on a bare verb.
+                // Check for type 5 noun suffix on a possibly adjectival verb.
                 complexWord = complexWord.getAdjectivalVerbWithType5NounSuffix();
             } else {
                 // We're done.
@@ -2036,13 +2042,13 @@ public class KlingonContentProvider extends ContentProvider {
         } */
 
         // Attempt to strip one level of suffix.
-        ComplexWord strippedSuffixComplexWord = complexWord.stripSuffix();
+        ComplexWord strippedSuffixComplexWord = complexWord.stripSuffixAndBranch();
         if (strippedSuffixComplexWord != null) {
             // A suffix of the current type was found, branch using it as a new candidate.
             stripSuffix(strippedSuffixComplexWord, complexWordsList);
         }
         // Tail recurse to the next level of suffix. Note that the suffix level is decremented in
-        // complexWord.stripSuffix() above.
+        // complexWord.stripSuffixAndBranch() above.
         stripSuffix(complexWord, complexWordsList);
     }
 }
