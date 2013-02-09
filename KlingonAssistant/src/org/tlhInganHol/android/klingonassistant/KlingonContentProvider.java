@@ -1267,7 +1267,7 @@ public class KlingonContentProvider extends ContentProvider {
                 // we disallow transitive verbs as well as pronouns. Note that pronouns with a
                 // type 5 noun suffix are already covered under nouns, so if we allowed it here
                 // they would be duplicated. Also, even though only adjectival verbs can take a
-                // type 5 noun suffix, we allow not only stative verbs (like {tIn}) and 
+                // type 5 noun suffix, we allow not only stative verbs (like {tIn}) and
                 // ambitransitive verbs (like {pegh}), but also intransitive verbs, since it's
                 // possible some of them can be used adjectivally.
                 if (mBasePartOfSpeech == BasePartOfSpeechEnum.VERB &&
@@ -1794,7 +1794,10 @@ public class KlingonContentProvider extends ContentProvider {
             return suffixesString;
         }
 
-        public ComplexWord getBareVerbWithType5NounSuffix() {
+        public ComplexWord getAdjectivalVerbWithType5NounSuffix() {
+            // Note that even if there is a rover, which is legal on a verb acting adjectivally,
+            // it's hidden by the type 5 noun suffix and hence at this point we consider the
+            // word a bare word.
             if (mIsNounCandidate || !isBareWord()) {
                 // This should never be reached.
                 return null;
@@ -1804,18 +1807,19 @@ public class KlingonContentProvider extends ContentProvider {
             // Note that {-mo'} is both a type 5 noun suffix and a type 9 verb suffix.
             for (int i = 1; i < nounType5String.length; i++) {
                 if (mUnparsedPart.endsWith(nounType5String[i])) {
-                    String bareVerb = mUnparsedPart.substring(0, mUnparsedPart.length() - nounType5String[i].length());
-                    ComplexWord bareVerbWithType5NounSuffix = new ComplexWord(bareVerb, /* isNounCandidate */ false);
+                    // TODO: Check for a legal verb suffix: {-be'}, {-qu'}, or {-Ha'}.
+                    String adjectivalVerb = mUnparsedPart.substring(0, mUnparsedPart.length() - nounType5String[i].length());
+                    ComplexWord adjectivalVerbWithType5NounSuffix = new ComplexWord(adjectivalVerb, /* isNounCandidate */ false);
 
                     // Note that type 5 corresponds to index 4 since the array is 0-indexed.
-                    bareVerbWithType5NounSuffix.mNounSuffixes[4] = i;
-                    bareVerbWithType5NounSuffix.mIsVerbWithType5NounSuffix = true;
+                    adjectivalVerbWithType5NounSuffix.mNounSuffixes[4] = i;
+                    adjectivalVerbWithType5NounSuffix.mIsVerbWithType5NounSuffix = true;
 
                     // Done processing.
-                    bareVerbWithType5NounSuffix.mSuffixLevel = 0;
+                    adjectivalVerbWithType5NounSuffix.mSuffixLevel = 0;
 
                     // Since none of the type 5 noun suffixes are a prefix of another, it's okay to return here.
-                    return bareVerbWithType5NounSuffix;
+                    return adjectivalVerbWithType5NounSuffix;
                 }
             }
             return null;
@@ -2006,7 +2010,7 @@ public class KlingonContentProvider extends ContentProvider {
                 complexWord = complexWord.getVerbRootIfNoun();
             } else if (complexWord.isBareWord()) {
                 // Check for type 5 noun suffix on a bare verb.
-                complexWord = complexWord.getBareVerbWithType5NounSuffix();
+                complexWord = complexWord.getAdjectivalVerbWithType5NounSuffix();
             } else {
                 // We're done.
                 complexWord = null;
