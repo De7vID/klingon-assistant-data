@@ -179,19 +179,23 @@ public class KlingonAssistant extends SherlockActivity {
                     Context.LAYOUT_INFLATER_SERVICE);
         }
 
-        public int getCount() {
+        @Override
+		public int getCount() {
             return mCursor.getCount();
         }
 
-        public Object getItem(int position) {
+        @Override
+		public Object getItem(int position) {
             return position;
         }
 
-        public long getItemId(int position) {
+        @Override
+		public long getItemId(int position) {
             return position;
         }
 
-        public View getView(int position, View convertView, ViewGroup parent) {
+        @Override
+		public View getView(int position, View convertView, ViewGroup parent) {
             TwoLineListItem view = (convertView != null) ? (TwoLineListItem) convertView :
                     createView(parent);
             mCursor.moveToPosition(position);

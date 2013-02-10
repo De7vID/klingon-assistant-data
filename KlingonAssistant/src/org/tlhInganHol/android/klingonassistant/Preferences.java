@@ -20,12 +20,9 @@ import org.tlhInganHol.android.klingonassistant.R;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.Process;
 import android.preference.CheckBoxPreference;
 
 import com.actionbarsherlock.app.ActionBar;
@@ -97,7 +94,8 @@ public class Preferences extends SherlockPreferenceActivity implements OnSharedP
         getPreferenceScreen().getSharedPreferences().unregisterOnSharedPreferenceChangeListener(this);
     }
 
-    public void onSharedPreferenceChanged(final SharedPreferences sharedPrefs, final String key) {
+    @Override
+	public void onSharedPreferenceChanged(final SharedPreferences sharedPrefs, final String key) {
 
         if (key.equals(KEY_KLINGON_UI_CHECKBOX_PREFERENCE)) {
             final boolean newValue = sharedPrefs.getBoolean(key, /* default */ false);
@@ -110,7 +108,8 @@ public class Preferences extends SherlockPreferenceActivity implements OnSharedP
                    .setMessage(R.string.change_ui_language_warning)
                    .setCancelable(false) // Can't be canceled with the BACK key.
                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
-                       public void onClick(DialogInterface dialog, int whichButton) {
+                       @Override
+					public void onClick(DialogInterface dialog, int whichButton) {
                            // User clicked OK.
                            warningActive = false;
 
@@ -122,7 +121,8 @@ public class Preferences extends SherlockPreferenceActivity implements OnSharedP
                        }
                    })
                    .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
-                       public void onClick(DialogInterface dialog, int whichButton) {
+                       @Override
+					public void onClick(DialogInterface dialog, int whichButton) {
                            if( mKlingonUICheckBoxPreference != null ) {
                                // User clicked Cancel, reset preference to previous value.
                                mKlingonUICheckBoxPreference.setChecked(!newValue);

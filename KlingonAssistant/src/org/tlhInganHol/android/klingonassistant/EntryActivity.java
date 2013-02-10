@@ -19,13 +19,11 @@ package org.tlhInganHol.android.klingonassistant;
 import java.util.regex.Matcher;
 
 import android.app.SearchManager;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.database.Cursor;
-import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -33,6 +31,7 @@ import android.preference.PreferenceManager;
 import android.text.Html;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
+import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.ClickableSpan;
@@ -266,8 +265,8 @@ public class EntryActivity extends SherlockActivity {
         // Format the expanded definition, including linkifying the links to other entries.
         float smallTextScale = (float) 0.8;
         SpannableStringBuilder ssb = new SpannableStringBuilder(expandedDefinition);
-        int intermediateFlags = Spannable.SPAN_EXCLUSIVE_EXCLUSIVE | Spannable.SPAN_INTERMEDIATE;
-        int finalFlags = Spannable.SPAN_EXCLUSIVE_EXCLUSIVE;
+        int intermediateFlags = Spanned.SPAN_EXCLUSIVE_EXCLUSIVE | Spanned.SPAN_INTERMEDIATE;
+        int finalFlags = Spanned.SPAN_EXCLUSIVE_EXCLUSIVE;
         if (!pos.equals("")) {
             // Italicise the part of speech.
             ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC),
@@ -405,7 +404,7 @@ public class EntryActivity extends SherlockActivity {
             searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
             searchView.setIconifiedByDefault(false);
         }
-        MenuItem shareButton = (MenuItem) menu.findItem(R.id.share);
+        MenuItem shareButton = menu.findItem(R.id.share);
         ShareActionProvider shareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
 
         if (shareActionProvider != null && mShareEntryIntent != null) {

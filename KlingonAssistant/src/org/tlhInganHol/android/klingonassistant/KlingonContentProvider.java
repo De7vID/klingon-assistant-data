@@ -1667,7 +1667,8 @@ public class KlingonContentProvider extends ContentProvider {
             return true;
         }
 
-        public String toString() {
+        @Override
+		public String toString() {
             String s = mUnparsedPart;
             if (mIsNounCandidate) {
                 s += " (n)";
