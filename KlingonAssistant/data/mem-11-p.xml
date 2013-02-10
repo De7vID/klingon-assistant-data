@@ -2450,7 +2450,8 @@ For other units of time, {pIq:n:nolink} is used.</column>
     <table name="mem">
       <column name="_id">25180</column>
       <column name="entry_name">porgh</column>
-      <column name="part_of_speech">n:body</column>
+      <!-- Note that this isn't marked as a body part because it refers to an entire body. -->
+      <column name="part_of_speech">n</column>
       <column name="definition">body</column>
       <column name="definition_de">Körper</column>
       <column name="synonyms"></column>
