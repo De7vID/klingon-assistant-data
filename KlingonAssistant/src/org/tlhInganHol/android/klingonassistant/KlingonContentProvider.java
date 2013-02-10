@@ -1459,40 +1459,19 @@ public class KlingonContentProvider extends ContentProvider {
 
     // Attempt to strip off the rovers.
     private ComplexWord stripRovers() {
-      // TODO: Refactor this function to make it more compact.
       // There are a few entries in the database where the {-be'} and {-qu'} are included, e.g.,
       // {motlhbe'} and {Say'qu'}. The logic here allows, e.g., {bImotlhbe'be'}, but we don't care
-      // since this is relatively rare.
-      if (mVerbTypeRNegation == ROVER_NOT_YET_FOUND && mVerbTypeREmphatic == ROVER_NOT_YET_FOUND) {
-        // We must preserve the relative order of the two true rovers.
-        if (mUnparsedPart.endsWith("be'qu'")) {
-          String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
-          ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
-          anotherComplexWord.mVerbTypeRNegation = mSuffixLevel;
-          anotherComplexWord.mVerbTypeREmphatic = mSuffixLevel;
-          anotherComplexWord.roverOrderNegationBeforeEmphatic = true;
-          anotherComplexWord.mSuffixLevel = mSuffixLevel;
-          mVerbTypeRNegation = IGNORE_THIS_ROVER;
-          mVerbTypeREmphatic = IGNORE_THIS_ROVER;
-          return anotherComplexWord;
-        } else if (mUnparsedPart.endsWith("qu'be'") && !mUnparsedPart.equals("qu'be'")) {
-          String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 6);
-          ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
-          anotherComplexWord.mVerbTypeRNegation = mSuffixLevel;
-          anotherComplexWord.mVerbTypeREmphatic = mSuffixLevel;
-          anotherComplexWord.roverOrderNegationBeforeEmphatic = false;
-          anotherComplexWord.mSuffixLevel = mSuffixLevel;
-          mVerbTypeRNegation = IGNORE_THIS_ROVER;
-          mVerbTypeREmphatic = IGNORE_THIS_ROVER;
-          return anotherComplexWord;
-        }
-      }
-      // This is not an "else if" because {qu'be'} is itself a word.
-      if (mVerbTypeRNegation == ROVER_NOT_YET_FOUND && mUnparsedPart.endsWith("be'")) {
+      // since this is relatively rare. Note that {qu'be'} is itself a word.
+      if (mVerbTypeRNegation == ROVER_NOT_YET_FOUND && mUnparsedPart.endsWith("be'")
+              && !mUnparsedPart.equals("be'")) {
         String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
         ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
         anotherComplexWord.mVerbTypeRNegation = mSuffixLevel;
         anotherComplexWord.mSuffixLevel = mSuffixLevel;
+        if (anotherComplexWord.mVerbTypeREmphatic == mSuffixLevel) {
+          // {-be'qu'}
+          anotherComplexWord.roverOrderNegationBeforeEmphatic = true;
+        }
         mVerbTypeRNegation = IGNORE_THIS_ROVER;
         return anotherComplexWord;
       } else if (mVerbTypeREmphatic == ROVER_NOT_YET_FOUND && mUnparsedPart.endsWith("qu'")
@@ -1501,6 +1480,10 @@ public class KlingonContentProvider extends ContentProvider {
         ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
         anotherComplexWord.mVerbTypeREmphatic = mSuffixLevel;
         anotherComplexWord.mSuffixLevel = mSuffixLevel;
+        if (anotherComplexWord.mVerbTypeRNegation == mSuffixLevel) {
+          // {-qu'be'}
+          anotherComplexWord.roverOrderNegationBeforeEmphatic = false;
+        }
         mVerbTypeREmphatic = IGNORE_THIS_ROVER;
         return anotherComplexWord;
       }
