@@ -103,7 +103,7 @@ public class KlingonContentDatabase {
 
   /**
    * Constructor
-   * 
+   *
    * @param context
    *          The Context within which to work, used to create the DB
    */
@@ -151,7 +151,7 @@ public class KlingonContentDatabase {
 
   /**
    * Returns a Cursor positioned at the entry specified by rowId
-   * 
+   *
    * @param rowId
    *          id of entry to retrieve
    * @param columns
@@ -174,13 +174,13 @@ public class KlingonContentDatabase {
   /**
    * Convert a string written in "xifan hol" shorthand to {tlhIngan Hol}. This is a mapping which
    * makes it easier to type, since shifting is unnecessary.
-   * 
+   *
    * Make the following replacements: d -> D f -> ng h -> H (see note below) i -> I k -> Q s -> S x
    * -> tlh z -> '
-   * 
+   *
    * When replacing "h" with "H", the following must be preserved: ch -> ch gh -> gh tlh -> tlh ngh
    * -> ngh (n + gh) ngH -> ngH (ng + H)
-   * 
+   *
    * TODO: Consider allowing "invisible h". But this probably makes things too "loose". // c -> ch
    * (but ch -/> chh) // g -> gh (but gh -/> ghh and ng -/> ngh)
    */
@@ -221,7 +221,7 @@ public class KlingonContentDatabase {
 
   /**
    * Returns a Cursor over all entries that match the given query.
-   * 
+   *
    * @param query
    *          The query, including entry name and metadata, to search for.
    * @return Cursor over all entries that match, or null if none found.
@@ -715,7 +715,7 @@ public class KlingonContentDatabase {
 
   /**
    * Returns a cursor for one entry given its _id.
-   * 
+   *
    * @param entryName
    *          The name of the entry to search for
    * @param columns
@@ -736,7 +736,7 @@ public class KlingonContentDatabase {
 
   /**
    * Performs a database query.
-   * 
+   *
    * @param selection
    *          The selection clause
    * @param selectionArgs
@@ -794,7 +794,7 @@ public class KlingonContentDatabase {
     /**
      * Constructor Takes and keeps a reference of the passed context in order to access the
      * application assets and resources.
-     * 
+     *
      * @param context
      */
     KlingonDatabaseOpenHelper(Context context) {
@@ -906,7 +906,7 @@ public class KlingonContentDatabase {
     /**
      * Check if the database already exists so that it isn't copied every time the activity is
      * started.
-     * 
+     *
      * @return true if the database exists, false otherwise
      */
     private boolean checkDBExists() {
@@ -921,16 +921,16 @@ public class KlingonContentDatabase {
       /*
        * SQLiteDatabase checkDB = null; try { String fullDBPath = DATABASE_PATH + DATABASE_NAME;
        * checkDB = SQLiteDatabase.openDatabase(fullDBPath, null, SQLiteDatabase.OPEN_READONLY);
-       * 
+       *
        * } catch(SQLiteCantOpenDatabaseException e) { // The database doesn't exist yet. It's fine
        * to do nothing // here, we just want to return false at the end. // Log.d(TAG,
        * "SQLiteCantOpenDatabaseException thrown: " + e);
-       * 
+       *
        * } catch(SQLiteDatabaseLockedException e) { // The database is locked. Also return false. //
        * Log.d(TAG, "SQLiteDatabaseLockedException thrown: " + e); }
-       * 
+       *
        * if( checkDB != null ) { checkDB.close(); }
-       * 
+       *
        * // Log.d(TAG, "checkDB == null: " + (checkDB == null)); return ( checkDB != null );
        */
     }

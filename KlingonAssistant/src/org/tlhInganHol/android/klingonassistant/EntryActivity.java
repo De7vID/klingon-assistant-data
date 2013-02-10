@@ -387,7 +387,7 @@ public class EntryActivity extends SherlockActivity {
 
   /*
    * TODO: Override onSave/RestoreInstanceState, onPause/Resume/Stop, to re-create links.
-   * 
+   *
    * public onSaveInstanceState() { // Save the text and views here. super.onSaveInstanceState(); }
    * public onRestoreInstanceState() { // Restore the text and views here.
    * super.onRestoreInstanceState(); }

@@ -373,7 +373,7 @@ public class KlingonContentProvider extends ContentProvider {
 
     /**
      * Constructor
-     * 
+     *
      * @param query
      *          A query of the form "entryName:basepos:metadata".
      */
@@ -402,7 +402,7 @@ public class KlingonContentProvider extends ContentProvider {
 
     /**
      * Constructor
-     * 
+     *
      * @param cursor
      *          A cursor with position at the desired entry.
      */
@@ -1358,7 +1358,7 @@ public class KlingonContentProvider extends ContentProvider {
 
     /**
      * Constructor
-     * 
+     *
      * @param candidate
      *          A potential candidate for a complex word.
      * @param isNounCandidate
@@ -1401,7 +1401,7 @@ public class KlingonContentProvider extends ContentProvider {
 
     /**
      * Copy constructor
-     * 
+     *
      * @param unparsedPart
      *          The unparsedPart of this complex word.
      * @param complexWordToCopy

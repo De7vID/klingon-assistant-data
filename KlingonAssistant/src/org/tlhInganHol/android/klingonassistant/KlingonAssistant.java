@@ -240,7 +240,7 @@ public class KlingonAssistant extends SherlockActivity {
 
   /**
    * Searches the dictionary and displays results for the given query.
-   * 
+   *
    * @param query
    *          The search query
    */
