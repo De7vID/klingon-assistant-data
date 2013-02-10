@@ -49,28 +49,26 @@ index 9d23ebc..1403766 100644
      <item android:id="@+id/about"
          android:title="@string/menu_about_tlh" />
 diff --git a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
-index 425e9a3..6f0f4f1 100644
+index 028e3e2..76af7b2 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
-@@ -18,16 +18,15 @@ package org.tlhInganHol.android.klingonassistant;
+@@ -18,14 +18,13 @@ package org.tlhInganHol.android.klingonassistant;
  
  import java.util.regex.Matcher;
  
 +import android.app.Activity;
  import android.app.SearchManager;
- import android.content.ComponentName;
 -import android.content.Context;
  import android.content.Intent;
  import android.content.SharedPreferences;
  import android.content.res.Resources;
  import android.database.Cursor;
- import android.graphics.Typeface;
  import android.net.Uri;
 -import android.os.Build;
  import android.os.Bundle;
  import android.preference.PreferenceManager;
  import android.text.Html;
-@@ -40,19 +39,16 @@ import android.text.style.StyleSpan;
+@@ -39,19 +38,16 @@ import android.text.style.StyleSpan;
  import android.text.style.SuperscriptSpan;
  import android.text.style.TypefaceSpan;
  import android.text.style.URLSpan;
@@ -95,7 +93,7 @@ index 425e9a3..6f0f4f1 100644
      // private static final String TAG = "EntryActivity";
  
      // This must uniquely identify the {boQwI'} entry.
-@@ -79,20 +75,16 @@ public class EntryActivity extends SherlockActivity {
+@@ -78,20 +74,16 @@ public class EntryActivity extends SherlockActivity {
      private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
      private static final String QUERY_FOR_JOKES = "*:sen:joke";
  
@@ -119,7 +117,7 @@ index 425e9a3..6f0f4f1 100644
  
          // TODO: Save and restore bundle state to preserve links.
  
-@@ -140,8 +132,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -139,8 +131,7 @@ public class EntryActivity extends SherlockActivity {
              expandedDefinition += germanDefinitionHeader + definition_DE;
          }
  
@@ -129,7 +127,7 @@ index 425e9a3..6f0f4f1 100644
  
          // Show the basic notes.
          String notes = entry.getNotes();
-@@ -391,7 +382,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -390,7 +381,7 @@ public class EntryActivity extends SherlockActivity {
  
      @Override
      public boolean onCreateOptionsMenu(Menu menu) {
@@ -138,7 +136,7 @@ index 425e9a3..6f0f4f1 100644
          SharedPreferences sharedPrefs =
              PreferenceManager.getDefaultSharedPreferences(getBaseContext());
          if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-@@ -399,56 +390,17 @@ public class EntryActivity extends SherlockActivity {
+@@ -398,56 +389,17 @@ public class EntryActivity extends SherlockActivity {
          } else {
              inflater.inflate(R.menu.options_menu, menu);
          }
@@ -148,7 +146,7 @@ index 425e9a3..6f0f4f1 100644
 -            searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
 -            searchView.setIconifiedByDefault(false);
 -        }
--        MenuItem shareButton = (MenuItem) menu.findItem(R.id.share);
+-        MenuItem shareButton = menu.findItem(R.id.share);
 -        ShareActionProvider shareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
 -
 -        if (shareActionProvider != null && mShareEntryIntent != null) {
@@ -198,7 +196,7 @@ index 425e9a3..6f0f4f1 100644
                  // Show "About" screen.
                  displayHelp(QUERY_FOR_ABOUT);
 diff --git a/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java b/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
-index 8567092..1b34dd2 100644
+index 4ae0796..115ce99 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 @@ -16,6 +16,7 @@
@@ -256,7 +254,7 @@ index 8567092..1b34dd2 100644
  
          mTextView = (TextView) findViewById(R.id.text);
          mListView = (ListView) findViewById(R.id.list);
-@@ -287,7 +283,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -291,7 +287,7 @@ public class KlingonAssistant extends SherlockActivity {
  
      @Override
      public boolean onCreateOptionsMenu(Menu menu) {
@@ -265,7 +263,7 @@ index 8567092..1b34dd2 100644
          SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
          if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
              inflater.inflate(R.menu.options_menu_tlh, menu);
-@@ -295,12 +291,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -299,12 +295,7 @@ public class KlingonAssistant extends SherlockActivity {
              inflater.inflate(R.menu.options_menu, menu);
          }
  
@@ -279,7 +277,7 @@ index 8567092..1b34dd2 100644
  
          return true;
      }
-@@ -329,9 +320,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -333,9 +324,7 @@ public class KlingonAssistant extends SherlockActivity {
              case R.id.search:
                  onSearchRequested();
                  return true;
@@ -291,16 +289,14 @@ index 8567092..1b34dd2 100644
                  // Show "About" screen.
                  showResults(QUERY_FOR_ABOUT);
 diff --git a/src/org/tlhInganHol/android/klingonassistant/Preferences.java b/src/org/tlhInganHol/android/klingonassistant/Preferences.java
-index c805cb1..626f03b 100644
+index 699211b..3f2f47d 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/Preferences.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/Preferences.java
-@@ -25,14 +25,12 @@ import android.content.SharedPreferences;
+@@ -24,12 +24,10 @@ import android.content.SharedPreferences;
  import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
- import android.os.Build;
  import android.os.Bundle;
-+import android.preference.PreferenceActivity;
- import android.os.Process;
  import android.preference.CheckBoxPreference;
++import android.preference.PreferenceActivity;
 +import android.view.MenuItem;
  
 -import com.actionbarsherlock.app.ActionBar;
@@ -312,7 +308,7 @@ index c805cb1..626f03b 100644
  
      // Language preferences.
      public static final String KEY_KLINGON_UI_CHECKBOX_PREFERENCE = "klingon_ui_checkbox_preference";
-@@ -59,16 +57,13 @@ public class Preferences extends SherlockPreferenceActivity implements OnSharedP
+@@ -56,16 +54,13 @@ public class Preferences extends SherlockPreferenceActivity implements OnSharedP
          // Load the preferences from an XML resource.
          addPreferencesFromResource(R.xml.preferences);
  
