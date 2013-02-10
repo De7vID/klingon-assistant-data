@@ -49,7 +49,7 @@ index 9d23ebc..1403766 100644
      <item android:id="@+id/about"
          android:title="@string/menu_about_tlh" />
 diff --git a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
-index 028e3e2..76af7b2 100644
+index 1f6d8bc..d12362b 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 @@ -18,14 +18,13 @@ package org.tlhInganHol.android.klingonassistant;
@@ -68,7 +68,7 @@ index 028e3e2..76af7b2 100644
  import android.os.Bundle;
  import android.preference.PreferenceManager;
  import android.text.Html;
-@@ -39,19 +38,16 @@ import android.text.style.StyleSpan;
+@@ -38,19 +37,16 @@ import android.text.style.StyleSpan;
  import android.text.style.SuperscriptSpan;
  import android.text.style.TypefaceSpan;
  import android.text.style.URLSpan;
@@ -90,113 +90,114 @@ index 028e3e2..76af7b2 100644
   */
 -public class EntryActivity extends SherlockActivity {
 +public class EntryActivity extends Activity {
-     // private static final String TAG = "EntryActivity";
+   // private static final String TAG = "EntryActivity";
  
-     // This must uniquely identify the {boQwI'} entry.
-@@ -78,20 +74,16 @@ public class EntryActivity extends SherlockActivity {
-     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
-     private static final String QUERY_FOR_JOKES = "*:sen:joke";
+   // This must uniquely identify the {boQwI'} entry.
+@@ -77,20 +73,16 @@ public class EntryActivity extends SherlockActivity {
+   private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
+   private static final String QUERY_FOR_JOKES                  = "*:sen:joke";
  
--    // The intent holding the data to be shared.
--    private Intent mShareEntryIntent = null;
+-  // The intent holding the data to be shared.
+-  private Intent              mShareEntryIntent                = null;
 -
-     @Override
-     protected void onCreate(Bundle savedInstanceState) {
-         super.onCreate(savedInstanceState);
-         setContentView(R.layout.entry);
-         Resources resources = getResources();
+   @Override
+   protected void onCreate(Bundle savedInstanceState) {
+     super.onCreate(savedInstanceState);
+     setContentView(R.layout.entry);
+     Resources resources = getResources();
  
--        ActionBar actionBar = getSupportActionBar();
--        actionBar.setDisplayHomeAsUpEnabled(true);
-+        // BACKPORT: No Action Bar.
+-    ActionBar actionBar = getSupportActionBar();
+-    actionBar.setDisplayHomeAsUpEnabled(true);
++    // BACKPORT: No Action Bar.
  
--        JellyBeanSpanFixTextView entryTitle = (JellyBeanSpanFixTextView) findViewById(R.id.entry);
--        JellyBeanSpanFixTextView entryText = (JellyBeanSpanFixTextView) findViewById(R.id.definition);
-+        TextView entryTitle = (TextView) findViewById(R.id.entry);
-+        TextView entryText = (TextView) findViewById(R.id.definition);
+-    JellyBeanSpanFixTextView entryTitle = (JellyBeanSpanFixTextView) findViewById(R.id.entry);
+-    JellyBeanSpanFixTextView entryText = (JellyBeanSpanFixTextView) findViewById(R.id.definition);
++    TextView entryTitle = (TextView) findViewById(R.id.entry);
++    TextView entryText = (TextView) findViewById(R.id.definition);
  
-         // TODO: Save and restore bundle state to preserve links.
+     // TODO: Save and restore bundle state to preserve links.
  
-@@ -139,8 +131,7 @@ public class EntryActivity extends SherlockActivity {
-             expandedDefinition += germanDefinitionHeader + definition_DE;
-         }
- 
--        // Set the share intent.
--        setShareEntryIntent(entry);
-+        // BACKPORT: No share intent.
- 
-         // Show the basic notes.
-         String notes = entry.getNotes();
-@@ -390,7 +381,7 @@ public class EntryActivity extends SherlockActivity {
- 
-     @Override
-     public boolean onCreateOptionsMenu(Menu menu) {
--        MenuInflater inflater = getSupportMenuInflater();
-+        MenuInflater inflater = getMenuInflater();
-         SharedPreferences sharedPrefs =
-             PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-         if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-@@ -398,56 +389,17 @@ public class EntryActivity extends SherlockActivity {
-         } else {
-             inflater.inflate(R.menu.options_menu, menu);
-         }
--        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
--            SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
--            SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
--            searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
--            searchView.setIconifiedByDefault(false);
--        }
--        MenuItem shareButton = menu.findItem(R.id.share);
--        ShareActionProvider shareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
--
--        if (shareActionProvider != null && mShareEntryIntent != null) {
--            // Enable "Share" button.
--            shareActionProvider.setShareIntent(mShareEntryIntent);
--            shareButton.setVisible(true);
--        }
-+        // BACKPORT: No search view or share button.
-         return true;
+@@ -137,8 +129,7 @@ public class EntryActivity extends SherlockActivity {
+       expandedDefinition += germanDefinitionHeader + definition_DE;
      }
  
--    // Set the share intent for this entry.
--    private void setShareEntryIntent(KlingonContentProvider.Entry entry) {
--        if (entry.isAlternativeSpelling()) {
--            return;
--        }
+-    // Set the share intent.
+-    setShareEntryIntent(entry);
++    // BACKPORT: No share intent.
+ 
+     // Show the basic notes.
+     String notes = entry.getNotes();
+@@ -395,65 +386,24 @@ public class EntryActivity extends SherlockActivity {
+ 
+   @Override
+   public boolean onCreateOptionsMenu(Menu menu) {
+-    MenuInflater inflater = getSupportMenuInflater();
++    MenuInflater inflater = getMenuInflater();
+     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+     if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
+       inflater.inflate(R.menu.options_menu_tlh, menu);
+     } else {
+       inflater.inflate(R.menu.options_menu, menu);
+     }
+-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+-      SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+-      SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
+-      searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+-      searchView.setIconifiedByDefault(false);
+-    }
+-    MenuItem shareButton = menu.findItem(R.id.share);
+-    ShareActionProvider shareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
 -
--        SharedPreferences sharedPrefs =
--            PreferenceManager.getDefaultSharedPreferences(getBaseContext());
--        mShareEntryIntent = new Intent(Intent.ACTION_SEND);
--        if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
--            mShareEntryIntent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title_tlh));
--        } else {
--            mShareEntryIntent.putExtra(Intent.EXTRA_TITLE, getResources().getString(R.string.share_popup_title));
--        }
--
--        mShareEntryIntent.setType("text/plain");
--        String subject = "{" + entry.getFormattedEntryName(/* isHtml */ false) + "}";
--        mShareEntryIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
--        String snippet = subject + "\n" + entry.getFormattedDefinition(/* isHtml */ false);
--        mShareEntryIntent.putExtra(Intent.EXTRA_TEXT, snippet + "\n\n" + getResources().getString(R.string.shared_from));
+-    if (shareActionProvider != null && mShareEntryIntent != null) {
+-      // Enable "Share" button.
+-      shareActionProvider.setShareIntent(mShareEntryIntent);
+-      shareButton.setVisible(true);
+-    }
++    // BACKPORT: No search view or share button.
+     return true;
+   }
+ 
+-  // Set the share intent for this entry.
+-  private void setShareEntryIntent(KlingonContentProvider.Entry entry) {
+-    if (entry.isAlternativeSpelling()) {
+-      return;
 -    }
 -
-     @Override
-     public boolean onOptionsItemSelected(MenuItem item) {
-         switch (item.getItemId()) {
-             case R.id.search:
-                 onSearchRequested();
-                 return true;
--            case android.R.id.home:
--                Intent intent = new Intent(this, KlingonAssistant.class);
--                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
--                startActivity(intent);
--                return true;
-+            // BACKPORT: No handling of android.R.id.home.
-             case R.id.about:
-                 // Show "About" screen.
-                 displayHelp(QUERY_FOR_ABOUT);
+-    SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+-    mShareEntryIntent = new Intent(Intent.ACTION_SEND);
+-    if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
+-      mShareEntryIntent.putExtra(Intent.EXTRA_TITLE,
+-              getResources().getString(R.string.share_popup_title_tlh));
+-    } else {
+-      mShareEntryIntent.putExtra(Intent.EXTRA_TITLE,
+-              getResources().getString(R.string.share_popup_title));
+-    }
+-
+-    mShareEntryIntent.setType("text/plain");
+-    String subject = "{" + entry.getFormattedEntryName(/* isHtml */false) + "}";
+-    mShareEntryIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
+-    String snippet = subject + "\n" + entry.getFormattedDefinition(/* isHtml */false);
+-    mShareEntryIntent.putExtra(Intent.EXTRA_TEXT,
+-            snippet + "\n\n" + getResources().getString(R.string.shared_from));
+-  }
+-
+   @Override
+   public boolean onOptionsItemSelected(MenuItem item) {
+     switch (item.getItemId()) {
+     case R.id.search:
+       onSearchRequested();
+       return true;
+-    case android.R.id.home:
+-      Intent intent = new Intent(this, KlingonAssistant.class);
+-      intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+-      startActivity(intent);
+-      return true;
++      // BACKPORT: No handling of android.R.id.home.
+     case R.id.about:
+       // Show "About" screen.
+       displayHelp(QUERY_FOR_ABOUT);
 diff --git a/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java b/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
-index 4ae0796..115ce99 100644
+index 6ee37fe..fc98265 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 @@ -16,6 +16,7 @@
@@ -207,7 +208,7 @@ index 4ae0796..115ce99 100644
  import android.app.SearchManager;
  import android.content.ComponentName;
  import android.content.Context;
-@@ -24,32 +25,28 @@ import android.content.SharedPreferences;
+@@ -24,31 +25,27 @@ import android.content.SharedPreferences;
  import android.database.Cursor;
  import android.graphics.Typeface;
  import android.net.Uri;
@@ -235,64 +236,63 @@ index 4ae0796..115ce99 100644
 -import com.actionbarsherlock.view.MenuItem;
  
  /**
-  * The main activity for the dictionary.
-  * Displays search results triggered by the search dialog and handles
-  * actions from search suggestions.
+  * The main activity for the dictionary. Displays search results triggered by the search dialog and
+  * handles actions from search suggestions.
   */
 -public class KlingonAssistant extends SherlockActivity {
 +public class KlingonAssistant extends Activity {
-     // private static final String TAG = "KlingonAssistant";
+   // private static final String TAG = "KlingonAssistant";
  
-     // Preference key for whether to show help.
-@@ -96,8 +93,7 @@ public class KlingonAssistant extends SherlockActivity {
-             setContentView(R.layout.main);
-         }
- 
--        ActionBar actionBar = getSupportActionBar();
--        actionBar.setDisplayHomeAsUpEnabled(true);
-+        // BACKPORT: No action bar.
- 
-         mTextView = (TextView) findViewById(R.id.text);
-         mListView = (ListView) findViewById(R.id.list);
-@@ -291,7 +287,7 @@ public class KlingonAssistant extends SherlockActivity {
- 
-     @Override
-     public boolean onCreateOptionsMenu(Menu menu) {
--        MenuInflater inflater = getSupportMenuInflater();
-+        MenuInflater inflater = getMenuInflater();
-         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-         if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-             inflater.inflate(R.menu.options_menu_tlh, menu);
-@@ -299,12 +295,7 @@ public class KlingonAssistant extends SherlockActivity {
-             inflater.inflate(R.menu.options_menu, menu);
-         }
- 
--        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB){
--            SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
--            SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
--            searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
--            searchView.setIconifiedByDefault(false);
--        }
-+        // BACKPORT: No search view.
- 
-         return true;
+   // Preference key for whether to show help.
+@@ -95,8 +92,7 @@ public class KlingonAssistant extends SherlockActivity {
+       setContentView(R.layout.main);
      }
-@@ -333,9 +324,7 @@ public class KlingonAssistant extends SherlockActivity {
-             case R.id.search:
-                 onSearchRequested();
-                 return true;
--            case android.R.id.home:
--                finish();
--                return true;
-+            // BACKPORT: No handling of android.R.id.home.
-             case R.id.about:
-                 // Show "About" screen.
-                 showResults(QUERY_FOR_ABOUT);
+ 
+-    ActionBar actionBar = getSupportActionBar();
+-    actionBar.setDisplayHomeAsUpEnabled(true);
++    // BACKPORT: No action bar.
+ 
+     mTextView = (TextView) findViewById(R.id.text);
+     mListView = (ListView) findViewById(R.id.list);
+@@ -299,7 +295,7 @@ public class KlingonAssistant extends SherlockActivity {
+ 
+   @Override
+   public boolean onCreateOptionsMenu(Menu menu) {
+-    MenuInflater inflater = getSupportMenuInflater();
++    MenuInflater inflater = getMenuInflater();
+     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+     if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
+       inflater.inflate(R.menu.options_menu_tlh, menu);
+@@ -307,12 +303,7 @@ public class KlingonAssistant extends SherlockActivity {
+       inflater.inflate(R.menu.options_menu, menu);
+     }
+ 
+-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+-      SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+-      SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
+-      searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+-      searchView.setIconifiedByDefault(false);
+-    }
++    // BACKPORT: No search view.
+ 
+     return true;
+   }
+@@ -345,9 +336,7 @@ public class KlingonAssistant extends SherlockActivity {
+     case R.id.search:
+       onSearchRequested();
+       return true;
+-    case android.R.id.home:
+-      finish();
+-      return true;
++      // BACKPORT: No handling of android.R.id.home.
+     case R.id.about:
+       // Show "About" screen.
+       showResults(QUERY_FOR_ABOUT);
 diff --git a/src/org/tlhInganHol/android/klingonassistant/Preferences.java b/src/org/tlhInganHol/android/klingonassistant/Preferences.java
-index 699211b..3f2f47d 100644
+index bc910c4..9a93fb9 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/Preferences.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/Preferences.java
-@@ -24,12 +24,10 @@ import android.content.SharedPreferences;
+@@ -24,13 +24,10 @@ import android.content.SharedPreferences;
  import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
  import android.os.Bundle;
  import android.preference.CheckBoxPreference;
@@ -303,27 +303,28 @@ index 699211b..3f2f47d 100644
 -import com.actionbarsherlock.app.SherlockPreferenceActivity;
 -import com.actionbarsherlock.view.MenuItem;
 -
--public class Preferences extends SherlockPreferenceActivity implements OnSharedPreferenceChangeListener {
+-public class Preferences extends SherlockPreferenceActivity implements
+-        OnSharedPreferenceChangeListener {
 +public class Preferences extends PreferenceActivity implements OnSharedPreferenceChangeListener {
  
-     // Language preferences.
-     public static final String KEY_KLINGON_UI_CHECKBOX_PREFERENCE = "klingon_ui_checkbox_preference";
-@@ -56,16 +54,13 @@ public class Preferences extends SherlockPreferenceActivity implements OnSharedP
-         // Load the preferences from an XML resource.
-         addPreferencesFromResource(R.xml.preferences);
+   // Language preferences.
+   public static final String KEY_KLINGON_UI_CHECKBOX_PREFERENCE                  = "klingon_ui_checkbox_preference";
+@@ -57,16 +54,13 @@ public class Preferences extends SherlockPreferenceActivity implements
+     // Load the preferences from an XML resource.
+     addPreferencesFromResource(R.xml.preferences);
  
--        ActionBar actionBar = getSupportActionBar();
--        actionBar.setDisplayHomeAsUpEnabled(true);
-+        // BACKPORT: No Action Bar.
+-    ActionBar actionBar = getSupportActionBar();
+-    actionBar.setDisplayHomeAsUpEnabled(true);
++    // BACKPORT: No Action Bar.
+   }
+ 
+   @Override
+   public boolean onOptionsItemSelected(MenuItem item) {
+     switch (item.getItemId()) {
+-    case android.R.id.home:
+-      finish();
+-      return true;
++    // BACKPORT: No handling of android.R.id.home.
+     default:
+       return super.onOptionsItemSelected(item);
      }
- 
-     @Override
-     public boolean onOptionsItemSelected(MenuItem item) {
-         switch (item.getItemId()) {
--            case android.R.id.home:
--                finish();
--                return true;
-+            // BACKPORT: No handling of android.R.id.home.
-             default:
-                 return super.onOptionsItemSelected(item);
-         }
