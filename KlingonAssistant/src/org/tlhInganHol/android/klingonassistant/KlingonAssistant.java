@@ -132,12 +132,13 @@ public class KlingonAssistant extends SherlockActivity {
         if (sharedText != null) {
           // Log.d(TAG, "Shared text: " + sharedText);
           // Sanitise incoming text. Also cap at 80 chars, for reasons of speed.
-          sharedText = sharedText.replaceAll("[:\\*<>]", "");
-          int maxLength = sharedText.length();
-          if (maxLength > 80) {
-            maxLength = 80;
+          sharedText = sharedText.replaceAll("[:\\*<>\\n]", " ").replaceAll("  ", " ");
+          if (sharedText.length() > 80) {
+            sharedText = sharedText.substring(0, 80);
           }
-          showResults(sharedText.substring(0, maxLength));
+          // TODO: Turn off "xifan hol" mode for this search, since it doesn't really make sense
+          // here.
+          showResults(sharedText);
         }
       }
 
