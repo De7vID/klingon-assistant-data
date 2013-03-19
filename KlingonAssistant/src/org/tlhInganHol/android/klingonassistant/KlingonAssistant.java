@@ -131,8 +131,13 @@ public class KlingonAssistant extends SherlockActivity {
         String sharedText = intent.getStringExtra(Intent.EXTRA_TEXT);
         if (sharedText != null) {
           // Log.d(TAG, "Shared text: " + sharedText);
-          // Filter ":" and "*" from incoming text.
-          showResults(sharedText.replaceAll(":*", ""));
+          // Sanitise incoming text. Also cap at 80 chars, for reasons of speed.
+          sharedText = sharedText.replaceAll("[:\\*<>]", "");
+          int maxLength = sharedText.length();
+          if (maxLength > 80) {
+            maxLength = 80;
+          }
+          showResults(sharedText.substring(0, maxLength));
         }
       }
 
