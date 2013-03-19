@@ -1351,20 +1351,35 @@ This verb is used with the suffix {-taH:v} to form {rIntaH:v}, a construction us
     <table name="mem">
       <column name="_id">29490</column>
       <column name="entry_name">rIt</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">summon</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
-      <column name="antonyms"></column>
+      <column name="antonyms">{rItHa':v}</column>
       <column name="see_also">{rI':v}</column>
       <column name="notes"></column>
-      <!-- TODO: Make this into a separate entry. -->
-      <column name="hidden_notes">An obvious extension of this is {rItHa':v:nolink} for "dismiss".</column>
+      <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {DurIt tlhIngan yejquv.:sen:nolink} "Summoned to the Klingon High Council."[1]</column>
-      <column name="search_tags">call, invite, dismiss</column>
+      <column name="search_tags">call, invite</column>
       <column name="source">[1] {Klingon Monopoly:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">29495</column>
+      <column name="entry_name">rItHa'</column>
+      <column name="part_of_speech">v:t_c,deriv,hyp</column>
+      <column name="definition">dismiss, unsummon</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{rIt:v}</column>
+      <column name="see_also">{ghomHa':v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes">This word does not appear in canon. This entry is here for ease of reference only.</column>
+      <column name="components">{rIt:v}, {-Ha':v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source"></column>
     </table>
     <table name="mem">
       <column name="_id">29500</column>
@@ -1433,7 +1448,7 @@ This verb is used with the suffix {-taH:v} to form {rIntaH:v}, a construction us
     <table name="mem">
       <column name="_id">29540</column>
       <column name="entry_name">rI'</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">hail</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
