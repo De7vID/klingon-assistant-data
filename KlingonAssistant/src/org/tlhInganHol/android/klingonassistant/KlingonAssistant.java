@@ -124,6 +124,18 @@ public class KlingonAssistant extends SherlockActivity {
       // handles a search query
       String query = intent.getStringExtra(SearchManager.QUERY);
       showResults(query);
+
+    } else if (Intent.ACTION_SEND.equals(intent.getAction())) {
+      // handles another plain text shared from another app
+      if ("text/plain".equals(intent.getType())) {
+        String sharedText = intent.getStringExtra(Intent.EXTRA_TEXT);
+        if (sharedText != null) {
+          // Log.d(TAG, "Shared text: " + sharedText);
+          // Filter ":" and "*" from incoming text.
+          showResults(sharedText.replaceAll(":*", ""));
+        }
+      }
+
     } else {
       // Show help if the flag is set. If the flag has not ever been set,
       // either the database does not yet exist, or it had been created by

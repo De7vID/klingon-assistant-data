@@ -30,7 +30,6 @@ import android.preference.PreferenceManager;
 import android.provider.BaseColumns;
 import android.util.Log;
 
-//import java.util.Arrays;
 import java.util.regex.*;
 import java.util.ArrayList;
 
@@ -150,7 +149,9 @@ public class KlingonContentProvider extends ContentProvider {
   // Called when uri has SUGGEST_URI_PATH_QUERY, i.e., "search_suggest_query".
   // This populates the dropdown list from the search box.
   private Cursor getSuggestions(String query) {
-    // Log.d(TAG, "getSuggestions called with query: \"" + query + "\"");
+    if (BuildConfig.DEBUG) {
+      Log.d(TAG, "getSuggestions called with query: \"" + query + "\"");
+    }
     if (query.equals("")) {
       return null;
     }
@@ -191,7 +192,9 @@ public class KlingonContentProvider extends ContentProvider {
   // Called when uri has "/lookup".
   // Either we're following a link, or the user has pressed the "Go" button from search.
   private Cursor search(String query) {
-    // Log.d(TAG, "search called with query: " + query);
+    if (BuildConfig.DEBUG) {
+      Log.d(TAG, "search called with query: " + query);
+    }
 
     return mContentDatabase.getEntryMatches(query);
   }
