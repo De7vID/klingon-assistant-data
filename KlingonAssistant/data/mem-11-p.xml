@@ -479,7 +479,7 @@ See also {tIq'ghob:n:hyp} for a hypothetical similar grammatical construction.</
 ▶ {SeHwI' pat:n}
 ▶ {tep jolpat:n}
 ▶ {wey jolpat:n}
-▶ {ya pat:n}</column>    
+▶ {ya pat:n}</column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
@@ -788,14 +788,14 @@ The {bIS'ub:n} of a {pa':n:1} is its {rav:n:1}, and its {'aqroS:n:1} is its {rav
     <table name="mem">
       <column name="_id">24370</column>
       <column name="entry_name">pegh</column>
-      <column name="part_of_speech">v:1,t</column>
+      <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">keep something secret</column>
       <column name="definition_de">etwas geheim halten</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tey':v}, {pegh:n}</column>
       <column name="notes">This verb can also be used without an object. See {pegh:v:2}.</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">In {TKD:src}, this is defined in the K-E side as "keep something secret", and in the E-K side as "secret, keep something secret".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -804,7 +804,7 @@ The {bIS'ub:n} of a {pa':n:1} is its {rav:n:1}, and its {'aqroS:n:1} is its {rav
     <table name="mem">
       <column name="_id">24380</column>
       <column name="entry_name">pegh</column>
-      <column name="part_of_speech">v:2,i</column>
+      <column name="part_of_speech">v:2,i_c</column>
       <column name="definition">be secret</column>
       <column name="definition_de">geheim</column>
       <column name="synonyms"></column>
@@ -815,7 +815,9 @@ The {bIS'ub:n} of a {pa':n:1} is its {rav:n:1}, and its {'aqroS:n:1} is its {rav
 This verb can also be used with an object. See {pegh:v:1}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {pegh De'vetlh.@@pegh:v:2, De':n, -vetlh:n} "That is classified information."[1]
+▶ {De' pegh vIghaj.@@De':n, pegh:v:2, vI-:v, ghaj:v} "I have secret information."[2]</column>
       <column name="search_tags"></column>
       <column name="source">[1] {CK:src}, [2] {PK:src}</column>
     </table>
