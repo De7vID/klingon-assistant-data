@@ -29,6 +29,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.Html;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -46,7 +47,7 @@ import android.widget.TwoLineListItem;
  * handles actions from search suggestions.
  */
 public class KlingonAssistant extends Activity {
-  // private static final String TAG = "KlingonAssistant";
+  private static final String TAG = "KlingonAssistant";
 
   // Preference key for whether to show help.
   public static final String  KEY_SHOW_HELP                    = "show_help";
@@ -109,6 +110,22 @@ public class KlingonAssistant extends Activity {
     handleIntent(intent);
   }
 
+  // Helper method to determine if a shared text came from Twitter, and if so, strip it of
+  // everything but the actual tweet.
+  private String stripTweet(String text) {
+    if (text.indexOf("https://twitter.com/download") == -1) {
+      // All shared tweets contain the Twitter download link, regardless of the UI language.
+      // So if this isn't found, then it's not a tweet.
+      return text;
+    }
+    // If it's a tweet, the second line is the actual content.
+    String[] textParts = text.split("\n");
+    if (textParts.length >= 2) {
+      return textParts[1];
+    }
+    return text;
+  }
+
   private void handleIntent(Intent intent) {
     if (Intent.ACTION_VIEW.equals(intent.getAction())) {
       // handles a click on a search suggestion; launches activity to show entry
@@ -120,6 +137,31 @@ public class KlingonAssistant extends Activity {
       // handles a search query
       String query = intent.getStringExtra(SearchManager.QUERY);
       showResults(query);
+
+    } else if (Intent.ACTION_SEND.equals(intent.getAction())) {
+      // handles another plain text shared from another app
+      if ("text/plain".equals(intent.getType())) {
+        String sharedText = intent.getStringExtra(Intent.EXTRA_TEXT);
+        if (sharedText != null) {
+          /* if (BuildConfig.DEBUG) {
+            Log.d(TAG, "Incoming text:\n" + sharedText);
+          } */
+          // Sanitise incoming text. Also cap at 140 chars, for reasons of speed and because that's
+          // the limit used by Twitter.
+          sharedText = stripTweet(sharedText);
+          sharedText = sharedText.replaceAll("[:\\*<>\\n]", " ").trim().replaceAll("\\s+", " ");
+          if (sharedText.length() > 140) {
+            sharedText = sharedText.substring(0, 140);
+          }
+          // TODO: Turn off "xifan hol" mode for this search, since it doesn't really make sense
+          // here.
+          /* if (BuildConfig.DEBUG) {
+            Log.d(TAG, "Shared text:\n" + sharedText);
+          } */
+          showResults(sharedText);
+        }
+      }
+
     } else {
       // Show help if the flag is set. If the flag has not ever been set,
       // either the database does not yet exist, or it had been created by

@@ -49,7 +49,7 @@ index 9d23ebc..1403766 100644
      <item android:id="@+id/about"
          android:title="@string/menu_about_tlh" />
 diff --git a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
-index 1f6d8bc..d12362b 100644
+index e6d23db..a527ba4 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 @@ -18,14 +18,13 @@ package org.tlhInganHol.android.klingonassistant;
@@ -117,7 +117,7 @@ index 1f6d8bc..d12362b 100644
  
      // TODO: Save and restore bundle state to preserve links.
  
-@@ -137,8 +129,7 @@ public class EntryActivity extends SherlockActivity {
+@@ -138,8 +130,7 @@ public class EntryActivity extends SherlockActivity {
        expandedDefinition += germanDefinitionHeader + definition_DE;
      }
  
@@ -127,7 +127,7 @@ index 1f6d8bc..d12362b 100644
  
      // Show the basic notes.
      String notes = entry.getNotes();
-@@ -395,65 +386,24 @@ public class EntryActivity extends SherlockActivity {
+@@ -397,65 +388,24 @@ public class EntryActivity extends SherlockActivity {
  
    @Override
    public boolean onCreateOptionsMenu(Menu menu) {
@@ -197,7 +197,7 @@ index 1f6d8bc..d12362b 100644
        // Show "About" screen.
        displayHelp(QUERY_FOR_ABOUT);
 diff --git a/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java b/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
-index 6ee37fe..fc98265 100644
+index a32c17d..78c9231 100644
 --- a/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 +++ b/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 @@ -16,6 +16,7 @@
@@ -208,7 +208,7 @@ index 6ee37fe..fc98265 100644
  import android.app.SearchManager;
  import android.content.ComponentName;
  import android.content.Context;
-@@ -24,31 +25,27 @@ import android.content.SharedPreferences;
+@@ -24,32 +25,28 @@ import android.content.SharedPreferences;
  import android.database.Cursor;
  import android.graphics.Typeface;
  import android.net.Uri;
@@ -217,6 +217,7 @@ index 6ee37fe..fc98265 100644
  import android.preference.PreferenceManager;
  import android.text.Html;
  import android.text.TextUtils;
+ import android.util.Log;
  import android.view.LayoutInflater;
 +import android.view.Menu;
 +import android.view.MenuInflater;
@@ -241,10 +242,10 @@ index 6ee37fe..fc98265 100644
   */
 -public class KlingonAssistant extends SherlockActivity {
 +public class KlingonAssistant extends Activity {
-   // private static final String TAG = "KlingonAssistant";
+   private static final String TAG = "KlingonAssistant";
  
    // Preference key for whether to show help.
-@@ -95,8 +92,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -96,8 +93,7 @@ public class KlingonAssistant extends SherlockActivity {
        setContentView(R.layout.main);
      }
  
@@ -254,7 +255,7 @@ index 6ee37fe..fc98265 100644
  
      mTextView = (TextView) findViewById(R.id.text);
      mListView = (ListView) findViewById(R.id.list);
-@@ -299,7 +295,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -341,7 +337,7 @@ public class KlingonAssistant extends SherlockActivity {
  
    @Override
    public boolean onCreateOptionsMenu(Menu menu) {
@@ -263,7 +264,7 @@ index 6ee37fe..fc98265 100644
      SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
      if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
        inflater.inflate(R.menu.options_menu_tlh, menu);
-@@ -307,12 +303,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -349,12 +345,7 @@ public class KlingonAssistant extends SherlockActivity {
        inflater.inflate(R.menu.options_menu, menu);
      }
  
@@ -277,7 +278,7 @@ index 6ee37fe..fc98265 100644
  
      return true;
    }
-@@ -345,9 +336,7 @@ public class KlingonAssistant extends SherlockActivity {
+@@ -387,9 +378,7 @@ public class KlingonAssistant extends SherlockActivity {
      case R.id.search:
        onSearchRequested();
        return true;

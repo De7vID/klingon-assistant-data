@@ -104,6 +104,7 @@ public class EntryActivity extends Activity {
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
 
     // Set the entry's name (along with info like "slang", formatted in HTML).
+    entryTitle.invalidate();
     if (sharedPrefs
             .getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */false)) {
       // Preference is set to display this in {pIqaD}!
@@ -368,6 +369,7 @@ public class EntryActivity extends Activity {
     }
 
     // Display the entry name and definition.
+    entryText.invalidate();
     entryText.setText(ssb);
     entryText.setMovementMethod(LinkMovementMethod.getInstance());
 
