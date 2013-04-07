@@ -1930,7 +1930,7 @@ This word carries the idiomatic meaning of "matter, concern, affair". For exampl
     <table name="mem">
       <column name="_id">31010</column>
       <column name="entry_name">Soq</column>
-      <column name="part_of_speech">v:alt</column>
+      <column name="part_of_speech">v:t_c,alt</column>
       <column name="definition">{Suq:v}</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
@@ -2635,7 +2635,7 @@ The expression {jISum:sen:nolink} has an idiomatic philosophical meaning, "I'm i
     <table name="mem">
       <column name="_id">31400</column>
       <column name="entry_name">Suq</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">acquire, obtain, get</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
@@ -2644,7 +2644,8 @@ The expression {jISum:sen:nolink} has an idiomatic philosophical meaning, "I'm i
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {ghewmey tISuqQo'.:sen}</column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
