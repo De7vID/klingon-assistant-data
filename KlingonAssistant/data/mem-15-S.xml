@@ -122,7 +122,7 @@ Note that Klingon has words for "ten thousand" ({netlh:n:num}) and "hundred thou
       <column name="definition">care (about), be concerned (about)</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
-      <column name="antonyms"></column>
+      <column name="antonyms">{SaHHa':v}</column>
       <column name="see_also">{Dach:v:2}, {SaH:v:1}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
@@ -130,6 +130,23 @@ Note that Klingon has words for "ten thousand" ({netlh:n:num}) and "hundred thou
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2013.06.28. -->
+      <column name="_id">30081</column>
+      <column name="entry_name">SaHHa'</column>
+      <column name="part_of_speech">v:t,deriv</column>
+      <column name="definition">be unconcerned (about)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{SaH:v:2}</column>
+      <column name="see_also">{pIlHa':v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes">This word is not defined as such, but to translate "apathy" or "apathy creature" for the Klingon Christmas Carol, one of MO's suggestions was {SaHHa'wI':n:nolink} "one who is not concerned".[1]</column>
+      <column name="components">{SaH:v:2}, {-Ha':v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {KLI mailing list 2010.09.01:src}</column>
     </table>
     <table name="mem">
       <column name="_id">30090</column>

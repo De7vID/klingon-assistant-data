@@ -1508,7 +1508,7 @@ The verb {roS:v:2} means "to use the third toe". It is also homophonous with a v
       <column name="definition">be stimulated, be inspired, be motivated</column>
       <column name="definition_de">stimuliert, inspiriert, motiviert</column>
       <column name="synonyms"></column>
-      <column name="antonyms"></column>
+      <column name="antonyms">{pIlHa':v}</column>
       <column name="see_also">{Sey:v}</column>
       <column name="notes"></column>
       <column name="hidden_notes">Someone needs to take a "pill".</column>
@@ -1516,6 +1516,23 @@ The verb {roS:v:2} means "to use the third toe". It is also homophonous with a v
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2013.06.28. -->
+      <column name="_id">24701</column>
+      <column name="entry_name">pIlHa'</column>
+      <column name="part_of_speech">v:is,deriv</column>
+      <column name="definition">be unmotivated</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{pIl:v}</column>
+      <column name="see_also">{SaHHa':v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes">This word is not defined as such, but to translate "apathy" or "apathy creature" for the Klingon Christmas Carol, one of MO's suggestions was {pIlHa'wI':n:nolink} "unmotivated one".[1]</column>
+      <column name="components">{pIl:v}, {-Ha':v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {KLI mailing list 2010.09.01:src}</column>
     </table>
     <table name="mem">
       <column name="_id">24710</column>
