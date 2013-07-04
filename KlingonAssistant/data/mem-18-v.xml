@@ -1514,15 +1514,15 @@ For an idiomatic expression used to tell someone not to move, see {taD:v}.</colu
     <table name="mem">
       <column name="_id">34810</column>
       <column name="entry_name">vItHay'</column>
-      <!-- noun or verb? -->
-      <column name="part_of_speech">v:i,deriv</column>
+      <!-- Not marked "deriv", so components will show. -->
+      <column name="part_of_speech">n</column>
       <column name="definition">truth test, truth duel</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">It's not clear whether this is a noun or a verb.</column>
-      <column name="hidden_notes"></column>
+      <column name="see_also">{vIt:n}, {Hay':v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes">It's not specified whether this is a noun or a verb, but it's likely to be a noun, even though {Hay':n:nolink,hyp} is not known to exist as a noun.</column>
       <column name="components">{vIt:v} or {vIt:n}, {Hay':v} or {Hay':n:nolink,hyp}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
