@@ -39,8 +39,6 @@ import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.TwoLineListItem;
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
@@ -49,7 +47,7 @@ import com.actionbarsherlock.view.MenuItem;
  * The main activity for the dictionary. Displays search results triggered by the search dialog and
  * handles actions from search suggestions.
  */
-public class KlingonAssistant extends SherlockActivity {
+public class KlingonAssistant extends BaseActivity {
   private static final String TAG = "KlingonAssistant";
 
   // Preference key for whether to show help.
@@ -89,15 +87,13 @@ public class KlingonAssistant extends SherlockActivity {
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
     if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
-      setContentView(R.layout.main_tlh);
+      setDrawerContentView(R.layout.main_tlh);
     } else {
-      setContentView(R.layout.main);
+      setDrawerContentView(R.layout.main);
     }
-
-    ActionBar actionBar = getSupportActionBar();
-    actionBar.setDisplayHomeAsUpEnabled(true);
 
     mTextView = (TextView) findViewById(R.id.text);
     mListView = (ListView) findViewById(R.id.list);
@@ -388,8 +384,7 @@ public class KlingonAssistant extends SherlockActivity {
       onSearchRequested();
       return true;
     case android.R.id.home:
-      finish();
-      return true;
+      break;
     case R.id.about:
       // Show "About" screen.
       showResults(QUERY_FOR_ABOUT);
@@ -468,7 +463,8 @@ public class KlingonAssistant extends SherlockActivity {
       // TODO: Handle lists here.
 
     default:
-      return super.onOptionsItemSelected(item);
     }
+
+    return super.onOptionsItemSelected(item);
   }
 }

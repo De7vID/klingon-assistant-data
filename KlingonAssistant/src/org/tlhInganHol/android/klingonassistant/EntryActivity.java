@@ -40,7 +40,6 @@ import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
 import android.view.View;
 import android.widget.SearchView;
-import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
@@ -50,7 +49,7 @@ import com.actionbarsherlock.widget.ShareActionProvider;
 /**
  * Displays an entry and its definition.
  */
-public class EntryActivity extends SherlockActivity {
+public class EntryActivity extends BaseActivity {
   // private static final String TAG = "EntryActivity";
 
   // This must uniquely identify the {boQwI'} entry.
@@ -83,11 +82,8 @@ public class EntryActivity extends SherlockActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.entry);
+    setDrawerContentView(R.layout.entry);
     Resources resources = getResources();
-
-    ActionBar actionBar = getSupportActionBar();
-    actionBar.setDisplayHomeAsUpEnabled(true);
 
     JellyBeanSpanFixTextView entryTitle = (JellyBeanSpanFixTextView) findViewById(R.id.entry);
     JellyBeanSpanFixTextView entryText = (JellyBeanSpanFixTextView) findViewById(R.id.definition);
@@ -452,10 +448,7 @@ public class EntryActivity extends SherlockActivity {
       onSearchRequested();
       return true;
     case android.R.id.home:
-      Intent intent = new Intent(this, KlingonAssistant.class);
-      intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-      startActivity(intent);
-      return true;
+      break;
     case R.id.about:
       // Show "About" screen.
       displayHelp(QUERY_FOR_ABOUT);
@@ -534,8 +527,9 @@ public class EntryActivity extends SherlockActivity {
       // TODO: Handle lists here.
 
     default:
-      return super.onOptionsItemSelected(item);
     }
+
+    return super.onOptionsItemSelected(item);
   }
 
   // Private method to display the "help" entries.
