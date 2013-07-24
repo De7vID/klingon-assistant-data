@@ -20,7 +20,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         package="org.tlhInganHol.android.klingonassistant"
         android:versionCode="147"
-        android:versionName="2013.07.09c"
+        android:versionName="2013.07.24a"
         android:installLocation="auto">
 
     <!-- Minimum Android version 2.1 (7), targeted version 4.2.2 (17). -->
@@ -29,8 +29,8 @@
 
     <application android:label="@string/app_name"
                  android:icon="@drawable/ic_ka"
-                 android:theme="@style/Theme.Sherlock"
-                 android:supportsRtl="true">
+                 android:theme="@style/Theme.Sherlock">
+                 <!-- TODO: android:supportsRtl="true" -->
 
         <!-- The default activity of the app; displays search results. -->
         <activity android:name=".KlingonAssistant"

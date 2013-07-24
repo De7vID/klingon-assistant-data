@@ -393,71 +393,82 @@ public class KlingonAssistant extends BaseActivity {
       // Show "Preferences" screen.
       startActivity(new Intent(this, Preferences.class));
       return true;
+    default:
+    }
+
+    return super.onOptionsItemSelected(item);
+  }
+
+  @Override
+  protected void onSlideMenuItemClicked(int position, SlideMenuItem item) {
+    super.onSlideMenuItemClicked(position, item);
+
+    switch (item.getItemId()) {
     case R.id.pronunciation:
       // Show "Pronunciation" screen.
       showResults(QUERY_FOR_PRONUNCIATION);
-      return true;
+      break;
     case R.id.prefixes:
       // Show "Prefixes" screen.
       showResults(QUERY_FOR_PREFIXES);
-      return true;
+      break;
     case R.id.noun_suffixes:
       // Show "Noun Suffixes" screen.
       showResults(QUERY_FOR_NOUN_SUFFIXES);
-      return true;
+      break;
     case R.id.verb_suffixes:
       // Show "Verb Suffixes" screen.
       showResults(QUERY_FOR_VERB_SUFFIXES);
-      return true;
-    case R.id.social:
+      break;
+    case R.id.gplus:
       // Launch Google+ Klingon speakers community.
       String gplusUrl = "https://plus.google.com/communities/108380135139365833546";
       Intent gplusIntent = new Intent(Intent.ACTION_VIEW);
       gplusIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_SINGLE_TOP);
       gplusIntent.setData(Uri.parse(gplusUrl));
       startActivity(gplusIntent);
-      return true;
+      break;
 
       // Handle classes of phrases.
     case R.id.empire_union_day:
       showResults(QUERY_FOR_EMPIRE_UNION_DAY);
-      return true;
+      break;
       /*
        * case R.id.idioms: showResults(QUERY_FOR_IDIOMS); return true;
        */
     case R.id.curse_warfare:
       showResults(QUERY_FOR_CURSE_WARFARE);
-      return true;
+      break;
     case R.id.nentay:
       showResults(QUERY_FOR_NENTAY);
-      return true;
+      break;
       /*
        * case R.id.proverbs: showResults(QUERY_FOR_PROVERBS); return true;
        */
     case R.id.military_celebration:
       showResults(QUERY_FOR_QI_LOP);
-      return true;
+      break;
     case R.id.rejection:
       showResults(QUERY_FOR_REJECTION);
-      return true;
+      break;
     case R.id.replacement_proverbs:
       showResults(QUERY_FOR_REPLACEMENT_PROVERBS);
-      return true;
+      break;
     case R.id.secrecy_proverbs:
       showResults(QUERY_FOR_SECRECY_PROVERBS);
-      return true;
+      break;
     case R.id.toasts:
       showResults(QUERY_FOR_TOASTS);
-      return true;
+      break;
     case R.id.lyrics:
       showResults(QUERY_FOR_LYRICS);
-      return true;
+      break;
     case R.id.beginners_conversation:
       showResults(QUERY_FOR_BEGINNERS_CONVERSATION);
-      return true;
+      break;
     case R.id.jokes:
       showResults(QUERY_FOR_JOKES);
-      return true;
+      break;
 
       // Lists.
       // TODO: Handle lists here.
@@ -465,6 +476,6 @@ public class KlingonAssistant extends BaseActivity {
     default:
     }
 
-    return super.onOptionsItemSelected(item);
   }
+
 }
