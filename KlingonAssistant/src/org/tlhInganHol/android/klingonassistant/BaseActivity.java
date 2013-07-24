@@ -34,7 +34,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class BaseActivity extends SherlockActivity implements MenuAdapter.MenuListener {
+public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.MenuListener {
     private static final String TAG = "BaseActivity";
 
     private static final String STATE_ACTIVE_POSITION =
@@ -42,7 +42,7 @@ public class BaseActivity extends SherlockActivity implements MenuAdapter.MenuLi
 
     private MenuDrawer mDrawer;
 
-    protected MenuAdapter mAdapter;
+    protected SlideMenuAdapter mAdapter;
     protected ListView mList;
 
     private int mActivePosition = 0;
@@ -57,7 +57,7 @@ public class BaseActivity extends SherlockActivity implements MenuAdapter.MenuLi
 
         getSupportActionBar();
 
-        mDrawer = MenuDrawer.attach(this, MenuDrawer.Type.OVERLAY, Position.LEFT, MenuDrawer.MENU_DRAG_CONTENT);
+        mDrawer = MenuDrawer.attach(this, MenuDrawer.Type.BEHIND, Position.LEFT, MenuDrawer.MENU_DRAG_CONTENT);
 
         List<Object> items = new ArrayList<Object>();
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
@@ -106,7 +106,7 @@ public class BaseActivity extends SherlockActivity implements MenuAdapter.MenuLi
         }
         mList = new ListView(this);
 
-        mAdapter = new MenuAdapter(this, items);
+        mAdapter = new SlideMenuAdapter(this, items);
         mAdapter.setListener(this);
         mAdapter.setActivePosition(mActivePosition);
 

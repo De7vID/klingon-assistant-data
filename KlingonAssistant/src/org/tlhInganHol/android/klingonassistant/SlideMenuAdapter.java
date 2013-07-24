@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class MenuAdapter extends BaseAdapter {
+public class SlideMenuAdapter extends BaseAdapter {
 
     public interface MenuListener {
 
@@ -24,7 +24,7 @@ public class MenuAdapter extends BaseAdapter {
 
     private int mActivePosition = -1;
 
-    public MenuAdapter(Context context, List<Object> items) {
+    public SlideMenuAdapter(Context context, List<Object> items) {
         mContext = context;
         mItems = items;
     }
