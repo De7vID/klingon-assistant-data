@@ -109,6 +109,9 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
                 items.add(new SlideMenuItem(R.string.rejection_tlh, R.id.rejection, 0));
             items.add(new SlideMenuCategory(R.string.menu_social_tlh));
                 items.add(new SlideMenuItem(R.string.menu_gplus_tlh, R.id.gplus, 0));
+                items.add(new SlideMenuItem(R.string.menu_facebook_tlh, R.id.facebook, 0));
+                items.add(new SlideMenuItem(R.string.menu_kag_tlh, R.id.kag, 0));
+                items.add(new SlideMenuItem(R.string.menu_kidc_tlh, R.id.kidc, 0));
         } else {
             items.add(new SlideMenuCategory(R.string.menu_reference));
                 items.add(new SlideMenuItem(R.string.menu_pronunciation, R.id.pronunciation, 0));
@@ -131,6 +134,9 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
                 // Too many idioms; also no known Klingon term for "idiom".
             items.add(new SlideMenuCategory(R.string.menu_social));
                 items.add(new SlideMenuItem(R.string.menu_gplus, R.id.gplus, 0));
+                items.add(new SlideMenuItem(R.string.menu_facebook, R.id.facebook, 0));
+                items.add(new SlideMenuItem(R.string.menu_kag, R.id.kag, 0));
+                items.add(new SlideMenuItem(R.string.menu_kidc, R.id.kidc, 0));
         }
         mList = new ListView(this);
 
@@ -177,16 +183,29 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
           // Show "Verb Suffixes" screen.
           displayHelp(QUERY_FOR_VERB_SUFFIXES);
           break;
+
+        // Handle social networks.
         case R.id.gplus:
           // Launch Google+ Klingon speakers community.
-          String gplusUrl = "https://plus.google.com/communities/108380135139365833546";
-          Intent gplusIntent = new Intent(Intent.ACTION_VIEW);
-          gplusIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-          gplusIntent.setData(Uri.parse(gplusUrl));
-          startActivity(gplusIntent);
+          launchExternal("https://plus.google.com/communities/108380135139365833546");
           break;
 
-          // Handle classes of phrases.
+        case R.id.facebook:
+          // Launch Facebook "Learn Klingon" group.
+          launchExternal("https://www.facebook.com/groups/LearnKlingon/");
+          break;
+
+        case R.id.kag:
+          // Launch KAG Communications.
+          launchExternal("http://comms.kag.org/viewforum.php?f=14");
+          break;
+
+        case R.id.kidc:
+          // Launch KIDC's Klingon Imperial Forums.
+          launchExternal("http://www.klingon.org/smboard/index.php?board=6.0");
+          break;
+
+        // Handle classes of phrases.
         case R.id.empire_union_day:
           displayHelp(QUERY_FOR_EMPIRE_UNION_DAY);
           break;
@@ -235,7 +254,15 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
     }
 
-    // Private method to display the "help" entries.
+    // Private method to launch an external app or web site.
+    private void launchExternal(String externalUrl) {
+      Intent intent = new Intent(Intent.ACTION_VIEW);
+      intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+      intent.setData(Uri.parse(externalUrl));
+      startActivity(intent);
+    }
+
+    // Protected method to display the "help" entries.
     protected void displayHelp(String helpQuery) {
       Intent intent = new Intent(this, KlingonAssistant.class);
       intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
