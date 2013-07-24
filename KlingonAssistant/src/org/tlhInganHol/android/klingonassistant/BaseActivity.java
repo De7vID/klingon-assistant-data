@@ -40,6 +40,9 @@ import java.util.List;
 public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.MenuListener {
     private static final String TAG = "BaseActivity";
 
+    // This must uniquely identify the {boQwI'} entry.
+    protected static final String QUERY_FOR_ABOUT                = "boQwI':n";
+
     private static final String STATE_ACTIVE_POSITION =
             "org.tlhInganHol.android.klingonassistant.activePosition";
 
@@ -265,13 +268,25 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                mDrawer.toggleMenu();
-                break;
-        }
+      switch (item.getItemId()) {
+      case R.id.search:
+        onSearchRequested();
+        return true;
+      case android.R.id.home:
+        mDrawer.toggleMenu();
+        break;
+      case R.id.about:
+        // Show "About" screen.
+        displayHelp(QUERY_FOR_ABOUT);
+        return true;
+      case R.id.preferences:
+        // Show "Preferences" screen.
+        startActivity(new Intent(this, Preferences.class));
+        return true;
+      default:
+      }
 
-        return super.onOptionsItemSelected(item);
+      return super.onOptionsItemSelected(item);
     }
 
     // Collapse slide-out menu if "Back" key is pressed and it's open.

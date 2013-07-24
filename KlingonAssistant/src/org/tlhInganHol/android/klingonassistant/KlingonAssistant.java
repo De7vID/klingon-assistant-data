@@ -53,9 +53,6 @@ public class KlingonAssistant extends BaseActivity {
   // Preference key for whether to show help.
   public static final String  KEY_SHOW_HELP                    = "show_help";
 
-  // This must uniquely identify the {boQwI'} entry.
-  private static final String QUERY_FOR_ABOUT                  = "boQwI':n";
-
   // This holds the {pIqaD} typeface.
   private static Typeface     mKlingonFontTypeface             = null;
 
@@ -354,27 +351,5 @@ public class KlingonAssistant extends BaseActivity {
       return true;
     }
     return false;
-  }
-
-  @Override
-  public boolean onOptionsItemSelected(MenuItem item) {
-    switch (item.getItemId()) {
-    case R.id.search:
-      onSearchRequested();
-      return true;
-    case android.R.id.home:
-      break;
-    case R.id.about:
-      // Show "About" screen.
-      displayHelp(QUERY_FOR_ABOUT);
-      return true;
-    case R.id.preferences:
-      // Show "Preferences" screen.
-      startActivity(new Intent(this, Preferences.class));
-      return true;
-    default:
-    }
-
-    return super.onOptionsItemSelected(item);
   }
 }

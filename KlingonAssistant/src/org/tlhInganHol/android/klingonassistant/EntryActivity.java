@@ -52,9 +52,6 @@ import com.actionbarsherlock.widget.ShareActionProvider;
 public class EntryActivity extends BaseActivity {
   // private static final String TAG = "EntryActivity";
 
-  // This must uniquely identify the {boQwI'} entry.
-  private static final String QUERY_FOR_ABOUT                  = "boQwI':n";
-
   // The intent holding the data to be shared.
   private Intent              mShareEntryIntent                = null;
 
@@ -418,28 +415,6 @@ public class EntryActivity extends BaseActivity {
     String snippet = subject + "\n" + entry.getFormattedDefinition(/* isHtml */false);
     mShareEntryIntent.putExtra(Intent.EXTRA_TEXT,
             snippet + "\n\n" + getResources().getString(R.string.shared_from));
-  }
-
-  @Override
-  public boolean onOptionsItemSelected(MenuItem item) {
-    switch (item.getItemId()) {
-    case R.id.search:
-      onSearchRequested();
-      return true;
-    case android.R.id.home:
-      break;
-    case R.id.about:
-      // Show "About" screen.
-      displayHelp(QUERY_FOR_ABOUT);
-      return true;
-    case R.id.preferences:
-      // Show "Preferences" screen.
-      startActivity(new Intent(this, Preferences.class));
-      return true;
-    default:
-    }
-
-    return super.onOptionsItemSelected(item);
   }
 
   // Private class for handling clickable spans.
