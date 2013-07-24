@@ -55,27 +55,6 @@ public class EntryActivity extends BaseActivity {
   // This must uniquely identify the {boQwI'} entry.
   private static final String QUERY_FOR_ABOUT                  = "boQwI':n";
 
-  // Other help pages.
-  private static final String QUERY_FOR_PRONUNCIATION          = "QIch:n";
-  private static final String QUERY_FOR_PREFIXES               = "moHaq:n";
-  private static final String QUERY_FOR_NOUN_SUFFIXES          = "DIp:n";
-  private static final String QUERY_FOR_VERB_SUFFIXES          = "wot:n";
-
-  // Classes of phrases.
-  private static final String QUERY_FOR_EMPIRE_UNION_DAY       = "*:sen:eu";
-  private static final String QUERY_FOR_IDIOMS                 = "*:sen:idiom";
-  private static final String QUERY_FOR_CURSE_WARFARE          = "*:sen:mv";
-  private static final String QUERY_FOR_NENTAY                 = "*:sen:nt";
-  private static final String QUERY_FOR_PROVERBS               = "*:sen:prov";
-  private static final String QUERY_FOR_QI_LOP                 = "*:sen:Ql";
-  private static final String QUERY_FOR_REJECTION              = "*:sen:rej";
-  private static final String QUERY_FOR_REPLACEMENT_PROVERBS   = "*:sen:rp";
-  private static final String QUERY_FOR_SECRECY_PROVERBS       = "*:sen:sp";
-  private static final String QUERY_FOR_TOASTS                 = "*:sen:toast";
-  private static final String QUERY_FOR_LYRICS                 = "*:sen:lyr";
-  private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
-  private static final String QUERY_FOR_JOKES                  = "*:sen:joke";
-
   // The intent holding the data to be shared.
   private Intent              mShareEntryIntent                = null;
 
@@ -461,93 +440,6 @@ public class EntryActivity extends BaseActivity {
     }
 
     return super.onOptionsItemSelected(item);
-  }
-
-  @Override
-  protected void onSlideMenuItemClicked(int position, SlideMenuItem item) {
-    super.onSlideMenuItemClicked(position, item);
-    switch (item.getItemId()) {
-    case R.id.pronunciation:
-      // Show "Pronunciation" screen.
-      displayHelp(QUERY_FOR_PRONUNCIATION);
-      break;
-    case R.id.prefixes:
-      // Show "Prefixes" screen.
-      displayHelp(QUERY_FOR_PREFIXES);
-      break;
-    case R.id.noun_suffixes:
-      // Show "Noun Suffixes" screen.
-      displayHelp(QUERY_FOR_NOUN_SUFFIXES);
-      break;
-    case R.id.verb_suffixes:
-      // Show "Verb Suffixes" screen.
-      displayHelp(QUERY_FOR_VERB_SUFFIXES);
-      break;
-    case R.id.gplus:
-      // Launch Google+ Klingon speakers community.
-      String gplusUrl = "https://plus.google.com/communities/108380135139365833546";
-      Intent gplusIntent = new Intent(Intent.ACTION_VIEW);
-      gplusIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-      gplusIntent.setData(Uri.parse(gplusUrl));
-      startActivity(gplusIntent);
-      break;
-
-      // Handle classes of phrases.
-    case R.id.empire_union_day:
-      displayHelp(QUERY_FOR_EMPIRE_UNION_DAY);
-      break;
-      /*
-       * case R.id.idioms: displayHelp(QUERY_FOR_IDIOMS); break;
-       */
-    case R.id.curse_warfare:
-      displayHelp(QUERY_FOR_CURSE_WARFARE);
-      break;
-    case R.id.nentay:
-      displayHelp(QUERY_FOR_NENTAY);
-      break;
-      /*
-       * case R.id.proverbs: displayHelp(QUERY_FOR_PROVERBS); break;
-       */
-    case R.id.military_celebration:
-      displayHelp(QUERY_FOR_QI_LOP);
-      break;
-    case R.id.rejection:
-      displayHelp(QUERY_FOR_REJECTION);
-      break;
-    case R.id.replacement_proverbs:
-      displayHelp(QUERY_FOR_REPLACEMENT_PROVERBS);
-      break;
-    case R.id.secrecy_proverbs:
-      displayHelp(QUERY_FOR_SECRECY_PROVERBS);
-      break;
-    case R.id.toasts:
-      displayHelp(QUERY_FOR_TOASTS);
-      break;
-    case R.id.lyrics:
-      displayHelp(QUERY_FOR_LYRICS);
-      break;
-    case R.id.beginners_conversation:
-      displayHelp(QUERY_FOR_BEGINNERS_CONVERSATION);
-      break;
-    case R.id.jokes:
-      displayHelp(QUERY_FOR_JOKES);
-      break;
-
-      // Lists.
-      // TODO: Handle lists here.
-
-    default:
-    }
-  }
-
-
-  // Private method to display the "help" entries.
-  private void displayHelp(String helpQuery) {
-    Intent intent = new Intent(this, KlingonAssistant.class);
-    intent.setAction(Intent.ACTION_SEARCH);
-    intent.putExtra(SearchManager.QUERY, helpQuery);
-
-    startActivity(intent);
   }
 
   // Private class for handling clickable spans.
