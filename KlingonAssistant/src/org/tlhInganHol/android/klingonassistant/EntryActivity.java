@@ -487,7 +487,7 @@ public class EntryActivity extends BaseActivity {
       // Launch Google+ Klingon speakers community.
       String gplusUrl = "https://plus.google.com/communities/108380135139365833546";
       Intent gplusIntent = new Intent(Intent.ACTION_VIEW);
-      gplusIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+      gplusIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
       gplusIntent.setData(Uri.parse(gplusUrl));
       startActivity(gplusIntent);
       break;

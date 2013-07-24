@@ -387,7 +387,7 @@ public class KlingonAssistant extends BaseActivity {
       break;
     case R.id.about:
       // Show "About" screen.
-      showResults(QUERY_FOR_ABOUT);
+      displayHelp(QUERY_FOR_ABOUT);
       return true;
     case R.id.preferences:
       // Show "Preferences" screen.
@@ -406,68 +406,68 @@ public class KlingonAssistant extends BaseActivity {
     switch (item.getItemId()) {
     case R.id.pronunciation:
       // Show "Pronunciation" screen.
-      showResults(QUERY_FOR_PRONUNCIATION);
+      displayHelp(QUERY_FOR_PRONUNCIATION);
       break;
     case R.id.prefixes:
       // Show "Prefixes" screen.
-      showResults(QUERY_FOR_PREFIXES);
+      displayHelp(QUERY_FOR_PREFIXES);
       break;
     case R.id.noun_suffixes:
       // Show "Noun Suffixes" screen.
-      showResults(QUERY_FOR_NOUN_SUFFIXES);
+      displayHelp(QUERY_FOR_NOUN_SUFFIXES);
       break;
     case R.id.verb_suffixes:
       // Show "Verb Suffixes" screen.
-      showResults(QUERY_FOR_VERB_SUFFIXES);
+      displayHelp(QUERY_FOR_VERB_SUFFIXES);
       break;
     case R.id.gplus:
       // Launch Google+ Klingon speakers community.
       String gplusUrl = "https://plus.google.com/communities/108380135139365833546";
       Intent gplusIntent = new Intent(Intent.ACTION_VIEW);
-      gplusIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+      gplusIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
       gplusIntent.setData(Uri.parse(gplusUrl));
       startActivity(gplusIntent);
       break;
 
       // Handle classes of phrases.
     case R.id.empire_union_day:
-      showResults(QUERY_FOR_EMPIRE_UNION_DAY);
+      displayHelp(QUERY_FOR_EMPIRE_UNION_DAY);
       break;
       /*
-       * case R.id.idioms: showResults(QUERY_FOR_IDIOMS); return true;
+       * case R.id.idioms: displayHelp(QUERY_FOR_IDIOMS); return true;
        */
     case R.id.curse_warfare:
-      showResults(QUERY_FOR_CURSE_WARFARE);
+      displayHelp(QUERY_FOR_CURSE_WARFARE);
       break;
     case R.id.nentay:
-      showResults(QUERY_FOR_NENTAY);
+      displayHelp(QUERY_FOR_NENTAY);
       break;
       /*
-       * case R.id.proverbs: showResults(QUERY_FOR_PROVERBS); return true;
+       * case R.id.proverbs: displayHelp(QUERY_FOR_PROVERBS); return true;
        */
     case R.id.military_celebration:
-      showResults(QUERY_FOR_QI_LOP);
+      displayHelp(QUERY_FOR_QI_LOP);
       break;
     case R.id.rejection:
-      showResults(QUERY_FOR_REJECTION);
+      displayHelp(QUERY_FOR_REJECTION);
       break;
     case R.id.replacement_proverbs:
-      showResults(QUERY_FOR_REPLACEMENT_PROVERBS);
+      displayHelp(QUERY_FOR_REPLACEMENT_PROVERBS);
       break;
     case R.id.secrecy_proverbs:
-      showResults(QUERY_FOR_SECRECY_PROVERBS);
+      displayHelp(QUERY_FOR_SECRECY_PROVERBS);
       break;
     case R.id.toasts:
-      showResults(QUERY_FOR_TOASTS);
+      displayHelp(QUERY_FOR_TOASTS);
       break;
     case R.id.lyrics:
-      showResults(QUERY_FOR_LYRICS);
+      displayHelp(QUERY_FOR_LYRICS);
       break;
     case R.id.beginners_conversation:
-      showResults(QUERY_FOR_BEGINNERS_CONVERSATION);
+      displayHelp(QUERY_FOR_BEGINNERS_CONVERSATION);
       break;
     case R.id.jokes:
-      showResults(QUERY_FOR_JOKES);
+      displayHelp(QUERY_FOR_JOKES);
       break;
 
       // Lists.
@@ -478,4 +478,13 @@ public class KlingonAssistant extends BaseActivity {
 
   }
 
+  // Private method to display the "help" entries.
+  private void displayHelp(String helpQuery) {
+    Intent intent = new Intent(this, KlingonAssistant.class);
+    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+    intent.setAction(Intent.ACTION_SEARCH);
+    intent.putExtra(SearchManager.QUERY, helpQuery);
+
+    startActivity(intent);
+  }
 }

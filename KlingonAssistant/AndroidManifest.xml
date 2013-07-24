@@ -34,7 +34,7 @@
 
         <!-- The default activity of the app; displays search results. -->
         <activity android:name=".KlingonAssistant"
-                  android:launchMode="singleTop">
+                  android:launchMode="standard">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -70,7 +70,7 @@
 
         <!-- The alternate activity which displays non-Klingon UI strings. -->
         <activity android:name=".KlingonAssistantAlt"
-                  android:launchMode="singleTop">
+                  android:launchMode="standard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
