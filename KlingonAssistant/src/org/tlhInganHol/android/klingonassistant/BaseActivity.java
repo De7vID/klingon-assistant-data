@@ -25,6 +25,7 @@ import net.simonvt.menudrawer.Position;
 import android.app.SearchManager;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -85,7 +86,15 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
         getSupportActionBar();
 
-        mDrawer = MenuDrawer.attach(this, MenuDrawer.Type.BEHIND, Position.LEFT, MenuDrawer.MENU_DRAG_CONTENT);
+        // If the device is in landscape orientation and the screen size is large (or bigger), then
+        // make the slide-out menu static. Otherwise, hide it by default.
+        Configuration config = getResources().getConfiguration();
+        MenuDrawer.Type drawerType = MenuDrawer.Type.BEHIND;
+        if (config.orientation == Configuration.ORIENTATION_LANDSCAPE &&
+            (config.screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE) {
+            drawerType = MenuDrawer.Type.STATIC;
+        }
+        mDrawer = MenuDrawer.attach(this, drawerType, Position.LEFT, MenuDrawer.MENU_DRAG_CONTENT);
 
         List<Object> items = new ArrayList<Object>();
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
