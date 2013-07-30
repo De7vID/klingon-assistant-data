@@ -201,7 +201,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
         case R.id.facebook:
           // Launch Facebook "Learn Klingon" group.
-          launchExternal("https://www.facebook.com/groups/LearnKlingon/");
+          launchFacebook("LearnKlingon");
           break;
 
         case R.id.kag:
@@ -268,6 +268,19 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       Intent intent = new Intent(Intent.ACTION_VIEW);
       intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
       intent.setData(Uri.parse(externalUrl));
+      startActivity(intent);
+    }
+
+    // Private method to launch a Facebook group.
+    private void launchFacebook(String groupId) {
+      Intent intent;
+      try {
+        getBaseContext().getPackageManager().getPackageInfo("com.facebook.katana", 0);
+        intent = new Intent(Intent.ACTION_VIEW, Uri.parse("fb://group/" + groupId));
+      } catch (Exception e) {
+        intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/groups/" + groupId));
+      }
+      intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
       startActivity(intent);
     }
 
