@@ -178,6 +178,7 @@ public class KlingonAssistant extends BaseActivity {
     entryIntent.setData(uri);
 
     startActivity(entryIntent);
+    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
   }
 
   class EntryAdapter extends BaseAdapter implements AdapterView.OnItemClickListener {
@@ -351,5 +352,13 @@ public class KlingonAssistant extends BaseActivity {
       return true;
     }
     return false;
+  }
+
+  @Override
+  public void onBackPressed() {
+    super.onBackPressed();
+    if (!isTaskRoot()) {
+      overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+    }
   }
 }

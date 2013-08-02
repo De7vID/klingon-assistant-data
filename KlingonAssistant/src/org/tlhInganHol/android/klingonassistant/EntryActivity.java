@@ -432,6 +432,13 @@ public class EntryActivity extends BaseActivity {
       intent.putExtra(SearchManager.QUERY, mQuery);
 
       view.getContext().startActivity(intent);
+      overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
+  }
+
+  @Override
+  public void onBackPressed() {
+    super.onBackPressed();
+    overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
   }
 }

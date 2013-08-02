@@ -292,6 +292,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       intent.putExtra(SearchManager.QUERY, helpQuery);
 
       startActivity(intent);
+      overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 
     private AdapterView.OnItemClickListener mItemClickListener = new AdapterView.OnItemClickListener() {
@@ -331,6 +332,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       case R.id.preferences:
         // Show "Preferences" screen.
         startActivity(new Intent(this, Preferences.class));
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         return true;
       default:
       }

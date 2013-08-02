@@ -131,4 +131,12 @@ public class Preferences extends SherlockPreferenceActivity implements
       }
     }
   }
+
+  @Override
+  public void onBackPressed() {
+    super.onBackPressed();
+    if (!isTaskRoot()) {
+      overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+    }
+  }
 }
