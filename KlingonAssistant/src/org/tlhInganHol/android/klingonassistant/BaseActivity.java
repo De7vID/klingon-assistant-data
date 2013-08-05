@@ -116,6 +116,12 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
                 items.add(new SlideMenuItem(R.string.secrecy_proverbs_tlh, R.id.secrecy_proverbs, 0));
                 items.add(new SlideMenuItem(R.string.empire_union_day_tlh, R.id.empire_union_day, 0));
                 items.add(new SlideMenuItem(R.string.rejection_tlh, R.id.rejection, 0));
+            items.add(new SlideMenuCategory(R.string.menu_media_tlh));
+                items.add(new SlideMenuItem(R.string.media_1_title_tlh, R.id.media_1, 0));
+                items.add(new SlideMenuItem(R.string.media_2_title_tlh, R.id.media_2, 0));
+                items.add(new SlideMenuItem(R.string.media_3_title_tlh, R.id.media_3, 0));
+                items.add(new SlideMenuItem(R.string.media_4_title_tlh, R.id.media_4, 0));
+                items.add(new SlideMenuItem(R.string.media_5_title_tlh, R.id.media_5, 0));
             items.add(new SlideMenuCategory(R.string.menu_social_tlh));
                 items.add(new SlideMenuItem(R.string.menu_gplus_tlh, R.id.gplus, 0));
                 items.add(new SlideMenuItem(R.string.menu_facebook_tlh, R.id.facebook, 0));
@@ -141,6 +147,12 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
                 items.add(new SlideMenuItem(R.string.rejection, R.id.rejection, 0));
                 // Not all general proverbs are properly tagged yet.
                 // Too many idioms; also no known Klingon term for "idiom".
+            items.add(new SlideMenuCategory(R.string.menu_media));
+                items.add(new SlideMenuItem(R.string.media_1_title, R.id.media_1, 0));
+                items.add(new SlideMenuItem(R.string.media_2_title, R.id.media_2, 0));
+                items.add(new SlideMenuItem(R.string.media_3_title, R.id.media_3, 0));
+                items.add(new SlideMenuItem(R.string.media_4_title, R.id.media_4, 0));
+                items.add(new SlideMenuItem(R.string.media_5_title, R.id.media_5, 0));
             items.add(new SlideMenuCategory(R.string.menu_social));
                 items.add(new SlideMenuItem(R.string.menu_gplus, R.id.gplus, 0));
                 items.add(new SlideMenuItem(R.string.menu_facebook, R.id.facebook, 0));

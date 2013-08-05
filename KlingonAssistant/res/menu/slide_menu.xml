@@ -80,6 +80,22 @@
     </item>
     -->
 
+    <item android:id="@+id/media"
+        android:title="@string/menu_media">
+        <menu>
+            <item android:id="@+id/media_1"
+                android:title="@string/media_1_title" />
+            <item android:id="@+id/media_2"
+                android:title="@string/media_2_title" />
+            <item android:id="@+id/media_3"
+                android:title="@string/media_3_title" />
+            <item android:id="@+id/media_4"
+                android:title="@string/media_4_title" />
+            <item android:id="@+id/media_5"
+                android:title="@string/media_5_title" />
+        </menu>
+    </item>
+
     <item android:id="@+id/social"
         android:title="@string/menu_social">
         <menu>
