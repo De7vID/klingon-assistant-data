@@ -18,17 +18,19 @@
 <!-- Slide Menu.
  -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/pronunciation"
-        android:title="@string/menu_pronunciation_tlh" />
-
-    <item android:id="@+id/prefixes"
-        android:title="@string/menu_prefixes_tlh" />
-
-    <item android:id="@+id/noun_suffixes"
-        android:title="@string/menu_noun_suffixes_tlh" />
-
-    <item android:id="@+id/verb_suffixes"
-        android:title="@string/menu_verb_suffixes_tlh" />
+    <item android:id="@+id/reference"
+        android:title="@string/menu_reference_tlh">
+        <menu>
+            <item android:id="@+id/pronunciation"
+                android:title="@string/menu_pronunciation_tlh" />
+            <item android:id="@+id/prefixes"
+                android:title="@string/menu_prefixes_tlh" />
+            <item android:id="@+id/noun_suffixes"
+                android:title="@string/menu_noun_suffixes_tlh" />
+            <item android:id="@+id/verb_suffixes"
+                android:title="@string/menu_verb_suffixes_tlh" />
+        </menu>
+    </item>
 
     <item android:id="@+id/phrases"
         android:title="@string/menu_phrases_tlh">
@@ -76,12 +78,17 @@
     </item>
     -->
 
-    <item android:id="@+id/gplus"
-        android:title="@string/menu_gplus_tlh" />
-    <item android:id="@+id/facebook"
-        android:title="@string/menu_facebook_tlh" />
-    <item android:id="@+id/kag"
-        android:title="@string/menu_kag_tlh" />
-    <item android:id="@+id/kidc"
-        android:title="@string/menu_kidc_tlh" />
+    <item android:id="@+id/social"
+        android:title="@string/menu_social_tlh">
+        <menu>
+            <item android:id="@+id/gplus"
+                android:title="@string/menu_gplus_tlh" />
+            <item android:id="@+id/facebook"
+                android:title="@string/menu_facebook_tlh" />
+            <item android:id="@+id/kag"
+                android:title="@string/menu_kag_tlh" />
+            <item android:id="@+id/kidc"
+                android:title="@string/menu_kidc_tlh" />
+        </menu>
+    </item>
 </menu>
