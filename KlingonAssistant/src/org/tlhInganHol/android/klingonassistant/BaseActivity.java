@@ -205,6 +205,23 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
           displayHelp(QUERY_FOR_VERB_SUFFIXES);
           break;
 
+        // Handle media.
+        case R.id.media_1:
+          launchYouTubePlaylist(getBaseContext().getResources().getString(R.string.media_1_list_id));
+          break;
+        case R.id.media_2:
+          launchYouTubePlaylist(getBaseContext().getResources().getString(R.string.media_2_list_id));
+          break;
+        case R.id.media_3:
+          launchYouTubePlaylist(getBaseContext().getResources().getString(R.string.media_3_list_id));
+          break;
+        case R.id.media_4:
+          launchYouTubePlaylist(getBaseContext().getResources().getString(R.string.media_4_list_id));
+          break;
+        case R.id.media_5:
+          launchYouTubePlaylist(getBaseContext().getResources().getString(R.string.media_5_list_id));
+          break;
+
         // Handle social networks.
         case R.id.gplus:
           // Launch Google+ Klingon speakers community.
@@ -273,6 +290,14 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         default:
         }
 
+    }
+
+    // Private method to launch a YouTube playlist.
+    private void launchYouTubePlaylist(String listId) {
+      Intent intent = new Intent(Intent.ACTION_VIEW);
+      intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+      intent.setData(Uri.parse("http://www.youtube.com/playlist?list=" + listId));
+      startActivity(intent);
     }
 
     // Private method to launch an external app or web site.
