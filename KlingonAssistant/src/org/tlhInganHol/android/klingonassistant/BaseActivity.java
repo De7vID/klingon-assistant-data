@@ -295,7 +295,8 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     // Private method to launch a YouTube playlist.
     private void launchYouTubePlaylist(String listId) {
       Intent intent = new Intent(Intent.ACTION_VIEW);
-      intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+      // Set CLEAR_TOP so that hitting the "back" key comes back here.
+      intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
       intent.setData(Uri.parse("http://www.youtube.com/playlist?list=" + listId));
       startActivity(intent);
     }
@@ -303,6 +304,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     // Private method to launch an external app or web site.
     private void launchExternal(String externalUrl) {
       Intent intent = new Intent(Intent.ACTION_VIEW);
+      // Set NEW_TASK so the external app or web site is independent.
       intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
       intent.setData(Uri.parse(externalUrl));
       startActivity(intent);
@@ -317,7 +319,8 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       } catch (Exception e) {
         intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/groups/" + groupId));
       }
-      intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+      // Set CLEAR_TOP so that hitting the "back" key comes back here.
+      intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
       startActivity(intent);
     }
 
