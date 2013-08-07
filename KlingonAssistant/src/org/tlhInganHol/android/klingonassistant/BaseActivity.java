@@ -122,6 +122,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
                 items.add(new SlideMenuItem(R.string.media_3_title_tlh, R.id.media_3, 0));
                 items.add(new SlideMenuItem(R.string.media_4_title_tlh, R.id.media_4, 0));
                 items.add(new SlideMenuItem(R.string.media_5_title_tlh, R.id.media_5, 0));
+                items.add(new SlideMenuItem(R.string.media_6_title_tlh, R.id.media_6, 0));
             items.add(new SlideMenuCategory(R.string.menu_social_tlh));
                 items.add(new SlideMenuItem(R.string.menu_gplus_tlh, R.id.gplus, 0));
                 items.add(new SlideMenuItem(R.string.menu_facebook_tlh, R.id.facebook, 0));
@@ -153,6 +154,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
                 items.add(new SlideMenuItem(R.string.media_3_title, R.id.media_3, 0));
                 items.add(new SlideMenuItem(R.string.media_4_title, R.id.media_4, 0));
                 items.add(new SlideMenuItem(R.string.media_5_title, R.id.media_5, 0));
+                items.add(new SlideMenuItem(R.string.media_6_title, R.id.media_6, 0));
             items.add(new SlideMenuCategory(R.string.menu_social));
                 items.add(new SlideMenuItem(R.string.menu_gplus, R.id.gplus, 0));
                 items.add(new SlideMenuItem(R.string.menu_facebook, R.id.facebook, 0));
@@ -220,6 +222,9 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
           break;
         case R.id.media_5:
           launchYouTubePlaylist(getBaseContext().getResources().getString(R.string.media_5_list_id));
+          break;
+        case R.id.media_6:
+          launchYouTubePlaylist(getBaseContext().getResources().getString(R.string.media_6_list_id));
           break;
 
         // Handle social networks.
