@@ -34,8 +34,7 @@
     <table name="mem">
       <column name="_id">35226</column>
       <column name="entry_name">wab qoSta' 'aplo'</column>
-      <!-- Not marked "deriv" because one of the components are hypothetical. -->
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">cassette</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
@@ -43,7 +42,7 @@
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{wab:n}, {qoSta':n}, {'aplo':n:hyp}</column>
+      <column name="components">{wab:n}, {qoSta':n}, {'aplo':n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TNK:src}</column>
