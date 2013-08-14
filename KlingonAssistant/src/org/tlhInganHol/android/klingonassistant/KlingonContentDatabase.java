@@ -92,7 +92,7 @@ public class KlingonContentDatabase {
 
   // This should be kept in sync with the version number in the database
   // entry {boQwI':n}.
-  private static final int                     DATABASE_VERSION             = 201308080;
+  private static final int                     DATABASE_VERSION             = 201308140;
 
   private final KlingonDatabaseOpenHelper      mDatabaseOpenHelper;
   private static final HashMap<String, String> mColumnMap                   = buildColumnMap();
