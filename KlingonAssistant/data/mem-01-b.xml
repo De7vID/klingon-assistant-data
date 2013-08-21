@@ -1868,7 +1868,8 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     <table name="mem">
       <column name="_id">10855</column>
       <column name="entry_name">bIQ ghaywI' pa'</column>
-      <column name="part_of_speech">n:deriv</column>
+      <!-- Not marked "deriv" because {ghay:v} is hypothetical. -->
+      <column name="part_of_speech">n</column>
       <column name="definition">shower</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
@@ -1876,7 +1877,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="see_also"></column>
       <column name="notes">This refers to the room in which Terrans spray themselves with water. (Yuck.)</column>
       <column name="hidden_notes"></column>
-      <column name="components">{bIQ:n}, {ghay:v}, {-wI':v}, {pa':n:1}</column>
+      <column name="components">{bIQ:n}, {ghay:v:hyp}, {-wI':v}, {pa':n:1}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TNK:src}</column>
