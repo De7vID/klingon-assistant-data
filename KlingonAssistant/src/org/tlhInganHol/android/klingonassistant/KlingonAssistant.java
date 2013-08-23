@@ -288,7 +288,16 @@ public class KlingonAssistant extends BaseActivity {
       String countString;
       if (queryEntry.getEntryName().equals("*")) {
         // Searching for a class of phrases.
-        countString = queryEntry.getSentenceType() + ":";
+        countString = queryEntry.getSentenceType();
+        if (countString.equals("")) {
+          // The sentence type was indeterminate.
+          // This only ever happens if the user enters "*:sen" as a search string.
+          count = 0;
+          countString = "Sentences:";
+        } else {
+          // Display, e.g., "Lyrics:".
+          countString += ":";
+        }
       } else if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */
               false)) {
         countString = getResources().getQuantityString(R.plurals.search_results_tlh, count,
