@@ -246,7 +246,8 @@ In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4
     <table name="mem">
       <column name="_id">37405</column>
       <column name="entry_name">'ej HumtaH 'ej DechtaH 'Iw</column>
-      <column name="part_of_speech">sen:lyr,archaic</column>
+      <!-- Should be marked "sen:lyr,archaic", but it needs to be "sen:lyr" to show up in the lyrics menu. -->
+      <column name="part_of_speech">sen:lyr</column>
       <column name="definition">And the blood was ankle deep (drinking song)</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
@@ -256,7 +257,7 @@ In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4
 ▶ {'ej HumtaH 'ej DechtaH 'Iw:sen:nolink}
    {'ej Doq SoDtaH ghoSpa' SIqral bIQtIq:sen:nolink}
    {'e' pa' jaj law' mo' jaj puS:sen:nolink}
-   {jaj qeylIS molor mIgh HoHchu':sen:nolink}
+   {jaj qeylIS molor mIgh HoHchu'qu':sen:nolink}
   "And the blood was ankle deep
    And the River Skral ran crimson red
    On the day above all days
