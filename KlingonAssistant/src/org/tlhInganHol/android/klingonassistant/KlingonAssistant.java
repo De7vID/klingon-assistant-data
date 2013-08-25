@@ -147,7 +147,7 @@ public class KlingonAssistant extends BaseActivity {
       if (sharedPrefs.getBoolean(KEY_SHOW_HELP, /* default */true)) {
         try {
           // Attempt to show it.
-          showResults(QUERY_FOR_ABOUT);
+          displayHelp(QUERY_FOR_ABOUT);
 
           // Unset the flag since the help has been shown.
           SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(

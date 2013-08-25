@@ -26,6 +26,7 @@ import android.app.SearchManager;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -250,43 +251,43 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
         // Handle classes of phrases.
         case R.id.empire_union_day:
-          displayHelp(QUERY_FOR_EMPIRE_UNION_DAY);
+          displaySearchResults(QUERY_FOR_EMPIRE_UNION_DAY);
           break;
           /*
-           * case R.id.idioms: displayHelp(QUERY_FOR_IDIOMS); return true;
+           * case R.id.idioms: displaySearchResults(QUERY_FOR_IDIOMS); return true;
            */
         case R.id.curse_warfare:
-          displayHelp(QUERY_FOR_CURSE_WARFARE);
+          displaySearchResults(QUERY_FOR_CURSE_WARFARE);
           break;
         case R.id.nentay:
-          displayHelp(QUERY_FOR_NENTAY);
+          displaySearchResults(QUERY_FOR_NENTAY);
           break;
           /*
-           * case R.id.proverbs: displayHelp(QUERY_FOR_PROVERBS); return true;
+           * case R.id.proverbs: displaySearchResults(QUERY_FOR_PROVERBS); return true;
            */
         case R.id.military_celebration:
-          displayHelp(QUERY_FOR_QI_LOP);
+          displaySearchResults(QUERY_FOR_QI_LOP);
           break;
         case R.id.rejection:
-          displayHelp(QUERY_FOR_REJECTION);
+          displaySearchResults(QUERY_FOR_REJECTION);
           break;
         case R.id.replacement_proverbs:
-          displayHelp(QUERY_FOR_REPLACEMENT_PROVERBS);
+          displaySearchResults(QUERY_FOR_REPLACEMENT_PROVERBS);
           break;
         case R.id.secrecy_proverbs:
-          displayHelp(QUERY_FOR_SECRECY_PROVERBS);
+          displaySearchResults(QUERY_FOR_SECRECY_PROVERBS);
           break;
         case R.id.toasts:
-          displayHelp(QUERY_FOR_TOASTS);
+          displaySearchResults(QUERY_FOR_TOASTS);
           break;
         case R.id.lyrics:
-          displayHelp(QUERY_FOR_LYRICS);
+          displaySearchResults(QUERY_FOR_LYRICS);
           break;
         case R.id.beginners_conversation:
-          displayHelp(QUERY_FOR_BEGINNERS_CONVERSATION);
+          displaySearchResults(QUERY_FOR_BEGINNERS_CONVERSATION);
           break;
         case R.id.jokes:
-          displayHelp(QUERY_FOR_JOKES);
+          displaySearchResults(QUERY_FOR_JOKES);
           break;
 
           // Lists.
@@ -331,6 +332,24 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
     // Protected method to display the "help" entries.
     protected void displayHelp(String helpQuery) {
+      // Note: managedQuery is deprecated since API 11.
+      Cursor cursor = managedQuery(Uri.parse(KlingonContentProvider.CONTENT_URI + "/lookup"),
+              null /* all columns */, null, new String[] { helpQuery }, null);
+      // Assume cursor.getCount() == 1.
+      Uri uri = Uri.parse(KlingonContentProvider.CONTENT_URI + "/get_entry_by_id/" +
+                          cursor.getString(KlingonContentDatabase.COLUMN_ID));
+
+      Intent entryIntent = new Intent(this, EntryActivity.class);
+
+      // Form the URI for the entry.
+      entryIntent.setData(uri);
+
+      startActivity(entryIntent);
+      overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
+
+    // Protected method to display search results.
+    protected void displaySearchResults(String helpQuery) {
       Intent intent = new Intent(this, KlingonAssistant.class);
       intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
       intent.setAction(Intent.ACTION_SEARCH);
