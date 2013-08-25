@@ -96,6 +96,9 @@
         <!-- Displays the definition of a entry. -->
         <activity android:name=".EntryActivity" />
 
+        <!-- Displays the prefix chart. -->
+        <activity android:name=".PrefixChartActivity" />
+
         <!-- Provides search suggestions for words and their definitions. -->
         <provider android:name=".KlingonContentProvider"
                   android:authorities="org.tlhInganHol.android.klingonassistant.KlingonContentProvider" />

@@ -103,6 +103,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
             items.add(new SlideMenuCategory(R.string.menu_reference_tlh));
                 items.add(new SlideMenuItem(R.string.menu_pronunciation_tlh, R.id.pronunciation, 0));
                 items.add(new SlideMenuItem(R.string.menu_prefixes_tlh, R.id.prefixes, 0));
+                items.add(new SlideMenuItem(R.string.menu_prefix_chart_tlh, R.id.prefix_chart, 0));
                 items.add(new SlideMenuItem(R.string.menu_noun_suffixes_tlh, R.id.noun_suffixes, 0));
                 items.add(new SlideMenuItem(R.string.menu_verb_suffixes_tlh, R.id.verb_suffixes, 0));
             items.add(new SlideMenuCategory(R.string.menu_phrases_tlh));
@@ -133,6 +134,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
             items.add(new SlideMenuCategory(R.string.menu_reference));
                 items.add(new SlideMenuItem(R.string.menu_pronunciation, R.id.pronunciation, 0));
                 items.add(new SlideMenuItem(R.string.menu_prefixes, R.id.prefixes, 0));
+                items.add(new SlideMenuItem(R.string.menu_prefix_chart, R.id.prefix_chart, 0));
                 items.add(new SlideMenuItem(R.string.menu_noun_suffixes, R.id.noun_suffixes, 0));
                 items.add(new SlideMenuItem(R.string.menu_verb_suffixes, R.id.verb_suffixes, 0));
             items.add(new SlideMenuCategory(R.string.menu_phrases));
@@ -198,6 +200,10 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         case R.id.prefixes:
           // Show "Prefixes" screen.
           displayHelp(QUERY_FOR_PREFIXES);
+          break;
+        case R.id.prefix_chart:
+          // Show "Prefix chart" screen.
+          displayPrefixChart();
           break;
         case R.id.noun_suffixes:
           // Show "Noun Suffixes" screen.
@@ -345,6 +351,13 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       entryIntent.setData(uri);
 
       startActivity(entryIntent);
+      overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
+
+    // Protected method to display the prefix chart.
+    protected void displayPrefixChart() {
+      Intent prefixChartIntent = new Intent(this, PrefixChartActivity.class);
+      startActivity(prefixChartIntent);
       overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
 

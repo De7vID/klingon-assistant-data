@@ -16,7 +16,26 @@
 ** limitations under the License.
 */
 -->
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+<!-- Layout for the prefix chart. -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    style="@style/MenuDrawer.Widget.Title" />
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView android:text="test" />
+        <TextView android:text="test" />
+        <TextView android:text="test" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="test" />
+        <TextView android:text="test" />
+        <TextView android:text="test" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="test" />
+        <TextView android:text="test" />
+        <TextView android:text="test" />
+    </TableRow>
+</TableLayout>
