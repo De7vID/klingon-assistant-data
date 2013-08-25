@@ -45,15 +45,15 @@ public class PrefixChartActivity extends BaseActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setDrawerContentView(R.layout.prefix_chart);
+    setDrawerContentView(R.layout.prefix_charts);
     Resources resources = getResources();
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
 
     JellyBeanSpanFixTextView entryTitle = (JellyBeanSpanFixTextView) findViewById(R.id.entry_title);
     if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
-      entryTitle.setText(resources.getString(R.string.menu_prefix_chart_tlh));
+      entryTitle.setText(resources.getString(R.string.menu_prefix_charts_tlh));
     } else {
-      entryTitle.setText(resources.getString(R.string.menu_prefix_chart));
+      entryTitle.setText(resources.getString(R.string.menu_prefix_charts));
     }
 
     // Activate type-to-search for local search. Typing will automatically

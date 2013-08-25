@@ -103,7 +103,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
             items.add(new SlideMenuCategory(R.string.menu_reference_tlh));
                 items.add(new SlideMenuItem(R.string.menu_pronunciation_tlh, R.id.pronunciation, 0));
                 items.add(new SlideMenuItem(R.string.menu_prefixes_tlh, R.id.prefixes, 0));
-                items.add(new SlideMenuItem(R.string.menu_prefix_chart_tlh, R.id.prefix_chart, 0));
+                items.add(new SlideMenuItem(R.string.menu_prefix_charts_tlh, R.id.prefix_charts, 0));
                 items.add(new SlideMenuItem(R.string.menu_noun_suffixes_tlh, R.id.noun_suffixes, 0));
                 items.add(new SlideMenuItem(R.string.menu_verb_suffixes_tlh, R.id.verb_suffixes, 0));
             items.add(new SlideMenuCategory(R.string.menu_phrases_tlh));
@@ -134,7 +134,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
             items.add(new SlideMenuCategory(R.string.menu_reference));
                 items.add(new SlideMenuItem(R.string.menu_pronunciation, R.id.pronunciation, 0));
                 items.add(new SlideMenuItem(R.string.menu_prefixes, R.id.prefixes, 0));
-                items.add(new SlideMenuItem(R.string.menu_prefix_chart, R.id.prefix_chart, 0));
+                items.add(new SlideMenuItem(R.string.menu_prefix_charts, R.id.prefix_charts, 0));
                 items.add(new SlideMenuItem(R.string.menu_noun_suffixes, R.id.noun_suffixes, 0));
                 items.add(new SlideMenuItem(R.string.menu_verb_suffixes, R.id.verb_suffixes, 0));
             items.add(new SlideMenuCategory(R.string.menu_phrases));
@@ -201,7 +201,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
           // Show "Prefixes" screen.
           displayHelp(QUERY_FOR_PREFIXES);
           break;
-        case R.id.prefix_chart:
+        case R.id.prefix_charts:
           // Show "Prefix chart" screen.
           displayPrefixChart();
           break;
