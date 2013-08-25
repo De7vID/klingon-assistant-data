@@ -45,9 +45,14 @@ public class PrefixChartActivity extends BaseActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setDrawerContentView(R.layout.prefix_charts);
-    Resources resources = getResources();
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+    Resources resources = getResources();
+
+    if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
+      setDrawerContentView(R.layout.prefix_charts_tlh);
+    } else {
+      setDrawerContentView(R.layout.prefix_charts);
+    }
 
     JellyBeanSpanFixTextView entryTitle = (JellyBeanSpanFixTextView) findViewById(R.id.entry_title);
     if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
