@@ -23,22 +23,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
-import android.database.Cursor;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.text.Html;
-import android.text.SpannableStringBuilder;
-import android.text.Spanned;
-import android.text.method.LinkMovementMethod;
-import android.text.style.RelativeSizeSpan;
-import android.text.style.ClickableSpan;
-import android.text.style.StyleSpan;
-import android.text.style.SuperscriptSpan;
-import android.text.style.TypefaceSpan;
-import android.text.style.URLSpan;
-import android.view.View;
 import android.widget.SearchView;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
@@ -59,6 +46,15 @@ public class PrefixChartActivity extends BaseActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setDrawerContentView(R.layout.prefix_chart);
+    Resources resources = getResources();
+    SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+
+    JellyBeanSpanFixTextView entryTitle = (JellyBeanSpanFixTextView) findViewById(R.id.entry_title);
+    if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
+      entryTitle.setText(resources.getString(R.string.menu_prefix_chart_tlh));
+    } else {
+      entryTitle.setText(resources.getString(R.string.menu_prefix_chart));
+    }
 
     // Activate type-to-search for local search. Typing will automatically
     // start a search of the database.

@@ -17,25 +17,38 @@
 */
 -->
 <!-- Layout for the prefix chart. -->
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp">
+    <!-- Entry must be serif, to distinguish capital-I from lowercase-l. -->
+    <org.tlhInganHol.android.klingonassistant.JellyBeanSpanFixTextView
+            android:id="@+id/entry_title"
+            android:textSize="35sp"
+            android:textColor="?android:textColorPrimary"
+            android:typeface="serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TableRow>
+            <TextView android:text="test" android:textSize="18sp" />
+            <TextView android:text="test" />
+            <TextView android:text="test" />
+        </TableRow>
 
-    <TableRow>
-        <TextView android:text="test" android:textSize="18sp" />
-        <TextView android:text="test" />
-        <TextView android:text="test" />
-    </TableRow>
+        <TableRow>
+            <TextView android:text="test" />
+            <TextView android:text="test" />
+            <TextView android:text="test" />
+        </TableRow>
 
-    <TableRow>
-        <TextView android:text="test" />
-        <TextView android:text="test" />
-        <TextView android:text="test" />
-    </TableRow>
-
-    <TableRow>
-        <TextView android:text="test" />
-        <TextView android:text="test" />
-        <TextView android:text="test" />
-    </TableRow>
-</TableLayout>
+        <TableRow>
+            <TextView android:text="test" />
+            <TextView android:text="test" />
+            <TextView android:text="test" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
