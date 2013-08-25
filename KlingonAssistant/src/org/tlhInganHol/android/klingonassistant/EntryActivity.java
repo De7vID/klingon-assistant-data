@@ -61,7 +61,7 @@ public class EntryActivity extends BaseActivity {
     setDrawerContentView(R.layout.entry);
     Resources resources = getResources();
 
-    JellyBeanSpanFixTextView entryTitle = (JellyBeanSpanFixTextView) findViewById(R.id.entry);
+    JellyBeanSpanFixTextView entryTitle = (JellyBeanSpanFixTextView) findViewById(R.id.entry_title);
     JellyBeanSpanFixTextView entryText = (JellyBeanSpanFixTextView) findViewById(R.id.definition);
 
     // TODO: Save and restore bundle state to preserve links.

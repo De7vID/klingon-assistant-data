@@ -24,7 +24,7 @@
         android:padding="5dp">
     <!-- Entry must be serif, to distinguish capital-I from lowercase-l. -->
     <TextView
-            android:id="@+id/entry"
+            android:id="@+id/entry_title"
             style="@android:style/TextAppearance.Large"
             android:typeface="serif"
             android:layout_width="wrap_content"
