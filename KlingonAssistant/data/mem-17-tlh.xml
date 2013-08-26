@@ -275,6 +275,23 @@
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2013.08.26. -->
+      <column name="_id">33495</column>
+      <column name="entry_name">tlhaw'DIyuS</column>
+      <column name="part_of_speech">n:name,fic</column>
+      <column name="definition">Claudius</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Hamlet:n:name}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Hamlet:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">33500</column>
       <column name="entry_name">tlhay</column>
       <column name="part_of_speech">n</column>
@@ -1007,8 +1024,8 @@ There is an idiom, {Hem; tlhIngan rur}.</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This is a name from Shakespeare's play {'antonI' tlhI'yopatra' je:sen:nolink}.</column>
+      <column name="see_also">{'antonI':n:name}</column>
+      <column name="notes">This is a name from {wIlyam SeQpIr:n:name}'s play {'antonI' tlhI'yopatra' je:sen:nolink}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
