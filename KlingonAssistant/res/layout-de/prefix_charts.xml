@@ -42,13 +42,13 @@
             android:stretchColumns="*">
             <TableRow>
                 <TextView android:text="" />
-                <TextView android:text="null" android:textSize="18sp" />
-                <TextView android:text="mir" android:textSize="18sp" android:textStyle="italic" />
-                <TextView android:text="dir" android:textSize="18sp" android:textStyle="italic" />
-                <TextView android:text="ihm/ihr" android:textSize="18sp" android:textStyle="italic" />
+                <TextView android:text="kein" android:textSize="18sp" />
+                <TextView android:text="mich" android:textSize="18sp" android:textStyle="italic" />
+                <TextView android:text="dich" android:textSize="18sp" android:textStyle="italic" />
+                <TextView android:text="ihn/sie/es" android:textSize="18sp" android:textStyle="italic" />
                 <TextView android:text="uns" android:textSize="18sp" android:textStyle="italic" />
                 <TextView android:text="euch" android:textSize="18sp" android:textStyle="italic" />
-                <TextView android:text="ihnen" android:textSize="18sp" android:textStyle="italic" />
+                <TextView android:text="sie (pl)" android:textSize="18sp" android:textStyle="italic" />
             </TableRow>
 
             <!-- Subject: I -->
@@ -101,7 +101,7 @@
 
             <!-- Subject: you (plural) -->
             <TableRow>
-                <TextView android:text="Sie" android:textSize="18sp" android:textStyle="italic" />
+                <TextView android:text="ihr" android:textSize="18sp" android:textStyle="italic" />
                 <TextView android:text="Su-" android:textSize="18sp" android:textStyle="bold" />
                 <TextView android:text="tu-" android:textSize="18sp" android:textStyle="bold" />
                 <TextView android:text="-" android:textSize="18sp" />
@@ -113,7 +113,7 @@
 
             <!-- Subject: they -->
             <TableRow>
-                <TextView android:text="sie" android:textSize="18sp" android:textStyle="italic" />
+                <TextView android:text="sie (pl)" android:textSize="18sp" android:textStyle="italic" />
                 <TextView android:text="0" android:textSize="18sp" />
                 <TextView android:text="mu-" android:textSize="18sp" android:textStyle="bold" />
                 <TextView android:text="nI-" android:textSize="18sp" android:textStyle="bold" />
@@ -142,7 +142,7 @@
 
             <!-- Subject: you (plural imperative) -->
             <TableRow>
-                <TextView android:text="Sie (imp)" android:textSize="18sp" android:textStyle="italic" />
+                <TextView android:text="sie (imp, pl)" android:textSize="18sp" android:textStyle="italic" />
                 <TextView android:text="pe-" android:textSize="18sp" android:textStyle="bold" />
                 <TextView android:text="HI-" android:textSize="18sp" android:textStyle="bold" />
                 <TextView android:text="-" android:textSize="18sp" />
