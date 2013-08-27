@@ -25,6 +25,7 @@
     <!-- Entry must be serif, to distinguish capital-I from lowercase-l. -->
     <org.tlhInganHol.android.klingonassistant.JellyBeanSpanFixTextView
             android:id="@+id/entry_title"
+            android:text="@string/menu_prefix_charts_tlh"
             android:textSize="35sp"
             android:textColor="?android:textColorPrimary"
             android:typeface="serif"
