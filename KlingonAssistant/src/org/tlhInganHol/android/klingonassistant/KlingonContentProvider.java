@@ -16,6 +16,10 @@
 
 package org.tlhInganHol.android.klingonassistant;
 
+import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import android.app.SearchManager;
 import android.content.ContentProvider;
 import android.content.ContentResolver;
@@ -29,9 +33,6 @@ import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.provider.BaseColumns;
 import android.util.Log;
-
-import java.util.regex.*;
-import java.util.ArrayList;
 
 /**
  * Provides access to the dictionary database.

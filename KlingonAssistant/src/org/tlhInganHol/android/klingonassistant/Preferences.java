@@ -16,8 +16,6 @@
 
 package org.tlhInganHol.android.klingonassistant;
 
-import org.tlhInganHol.android.klingonassistant.R;
-
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;

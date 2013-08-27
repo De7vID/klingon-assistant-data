@@ -16,19 +16,9 @@
 
 package org.tlhInganHol.android.klingonassistant;
 
-import java.util.regex.Matcher;
-
-import android.app.SearchManager;
-import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import com.actionbarsherlock.app.SherlockActivity;
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuInflater;
-import com.actionbarsherlock.view.MenuItem;
-import com.actionbarsherlock.widget.ShareActionProvider;
 
 /**
  * Displays an entry and its definition.
@@ -40,7 +30,6 @@ public class PrefixChartActivity extends BaseActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-    Resources resources = getResources();
 
     if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
       setDrawerContentView(R.layout.prefix_charts_tlh);
