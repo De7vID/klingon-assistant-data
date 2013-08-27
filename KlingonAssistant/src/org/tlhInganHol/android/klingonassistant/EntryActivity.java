@@ -19,13 +19,11 @@ package org.tlhInganHol.android.klingonassistant;
 import java.util.regex.Matcher;
 
 import android.app.SearchManager;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.Html;
@@ -39,7 +37,6 @@ import android.text.style.SuperscriptSpan;
 import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
 import android.view.View;
-import android.widget.SearchView;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
@@ -366,19 +363,7 @@ public class EntryActivity extends BaseActivity {
 
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
-    MenuInflater inflater = getSupportMenuInflater();
-    SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-    if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
-      inflater.inflate(R.menu.options_menu_tlh, menu);
-    } else {
-      inflater.inflate(R.menu.options_menu, menu);
-    }
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-      SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-      SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
-      searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-      searchView.setIconifiedByDefault(false);
-    }
+    super.onCreateOptionsMenu(menu);
     MenuItem shareButton = menu.findItem(R.id.share);
     ShareActionProvider shareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
 

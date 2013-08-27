@@ -19,14 +19,11 @@ package org.tlhInganHol.android.klingonassistant;
 import java.util.regex.Matcher;
 
 import android.app.SearchManager;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
-import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.widget.SearchView;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
@@ -50,25 +47,6 @@ public class PrefixChartActivity extends BaseActivity {
     } else {
       setDrawerContentView(R.layout.prefix_charts);
     }
-  }
-
-  @Override
-  public boolean onCreateOptionsMenu(Menu menu) {
-    MenuInflater inflater = getSupportMenuInflater();
-    SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-    if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
-      inflater.inflate(R.menu.options_menu_tlh, menu);
-    } else {
-      inflater.inflate(R.menu.options_menu, menu);
-    }
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-      SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-      SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
-      searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-      searchView.setIconifiedByDefault(false);
-    }
-
-    return true;
   }
 
   @Override

@@ -23,17 +23,23 @@ import net.simonvt.menudrawer.MenuDrawer;
 import net.simonvt.menudrawer.Position;
 
 import android.app.SearchManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.database.Cursor;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.SearchView;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuInflater;
+import com.actionbarsherlock.view.MenuItem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -186,6 +192,26 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         // Activate type-to-search for local search. Typing will automatically
         // start a search of the database.
         setDefaultKeyMode(DEFAULT_KEYS_SEARCH_LOCAL);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+      MenuInflater inflater = getSupportMenuInflater();
+      SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+      if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
+        inflater.inflate(R.menu.options_menu_tlh, menu);
+      } else {
+        inflater.inflate(R.menu.options_menu, menu);
+      }
+
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+        SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
+        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+        searchView.setIconifiedByDefault(false);
+      }
+
+      return true;
     }
 
     // Set the content view for the menu drawer.
