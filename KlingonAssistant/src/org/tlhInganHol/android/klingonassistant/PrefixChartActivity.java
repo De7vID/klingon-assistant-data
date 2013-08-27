@@ -39,9 +39,6 @@ import com.actionbarsherlock.widget.ShareActionProvider;
 public class PrefixChartActivity extends BaseActivity {
   // private static final String TAG = "PrefixChartActivity";
 
-  // The intent holding the data to be shared.
-  private Intent              mShareEntryIntent                = null;
-
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -53,10 +50,6 @@ public class PrefixChartActivity extends BaseActivity {
     } else {
       setDrawerContentView(R.layout.prefix_charts);
     }
-
-    // Activate type-to-search for local search. Typing will automatically
-    // start a search of the database.
-    setDefaultKeyMode(DEFAULT_KEYS_SEARCH_LOCAL);
   }
 
   @Override
@@ -74,14 +67,7 @@ public class PrefixChartActivity extends BaseActivity {
       searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
       searchView.setIconifiedByDefault(false);
     }
-    MenuItem shareButton = menu.findItem(R.id.share);
-    ShareActionProvider shareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
 
-    if (shareActionProvider != null && mShareEntryIntent != null) {
-      // Enable "Share" button.
-      shareActionProvider.setShareIntent(mShareEntryIntent);
-      shareButton.setVisible(true);
-    }
     return true;
   }
 

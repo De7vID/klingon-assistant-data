@@ -182,6 +182,10 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         mDrawer.setSlideDrawable(R.drawable.ic_drawer);
         // Whether the previous drawable should be shown.
         mDrawer.setDrawerIndicatorEnabled(true);
+
+        // Activate type-to-search for local search. Typing will automatically
+        // start a search of the database.
+        setDefaultKeyMode(DEFAULT_KEYS_SEARCH_LOCAL);
     }
 
     // Set the content view for the menu drawer.

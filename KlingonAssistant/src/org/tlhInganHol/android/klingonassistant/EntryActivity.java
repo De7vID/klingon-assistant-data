@@ -354,9 +354,6 @@ public class EntryActivity extends BaseActivity {
     entryText.setText(ssb);
     entryText.setMovementMethod(LinkMovementMethod.getInstance());
 
-    // Activate type-to-search for local search. Typing will automatically
-    // start a search of the database.
-    setDefaultKeyMode(DEFAULT_KEYS_SEARCH_LOCAL);
   }
 
   /*
