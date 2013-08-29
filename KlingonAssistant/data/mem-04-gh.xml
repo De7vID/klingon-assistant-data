@@ -1200,20 +1200,38 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14935</column>
+      <column name="_id">14933</column>
       <column name="entry_name">ghIn</column>
       <column name="part_of_speech">n</column>
       <column name="definition">monastery, religious community</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chIrgh:n}, {lat:n}</column>
+      <column name="see_also">{chIrgh:n}, {lat:n}, {ghIn pIn:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes">Plymouth Gin is produced by The Black Friars Distillery, formerly a Dominican monastery in Plymouth, England.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {Letter from MO 2010.11.15:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2013.08.29. -->
+      <column name="_id">14935</column>
+      <column name="entry_name">ghIn pIn</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">abbot, abbess</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ghIn:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{ghIn:n}, {pIn:n:1}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <!-- https://www.facebook.com/groups/LearnKlingon/permalink/468288866612668/ -->
+      <column name="source">[1] {Facebook "Learn Klingon" group 2013.08.28:src}</column>
     </table>
     <table name="mem">
       <column name="_id">14937</column>
