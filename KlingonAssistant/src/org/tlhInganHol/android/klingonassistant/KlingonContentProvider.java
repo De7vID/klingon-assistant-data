@@ -274,9 +274,8 @@ public class KlingonContentProvider extends ContentProvider {
   public static class Entry {
     String                     TAG               = "KlingonContentProvider.Entry";
 
-    // Pattern for matching entry in text.
-    public static Pattern      ENTRY_PATTERN     = Pattern
-                                                         .compile("\\{[A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]+\\}");
+    // Pattern for matching entry in text. The letter "ü" is needed to match "Saarbrücken".
+    public static Pattern      ENTRY_PATTERN     = Pattern.compile("\\{[A-Za-zü0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]+\\}");
 
     // Used for analysis of entries with components.
     // It cannot occur in a link (we cannot use "//" for example because it occurs in URL links,
@@ -687,7 +686,7 @@ public class KlingonContentProvider extends ContentProvider {
     // Get the name of the entry written in {pIqaD}.
     public String getEntryNameInKlingonFont() {
       // Strip anything we don't recognise.
-      // This pattern should be kept in sync with ENTRY_PATTERN.
+      // This pattern should be kept in sync with ENTRY_PATTERN. Note that "ü" will never be in an entry name.
       String formattedEntryName = mEntryName.replaceAll("[^A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]",
               "");
 
