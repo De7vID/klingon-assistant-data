@@ -1347,12 +1347,13 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     <table name="mem">
       <column name="_id">13515</column>
       <column name="entry_name">De' jengva'</column>
-      <column name="part_of_speech">n:inhps,deriv</column>
+      <!-- Not deriv because don't want to show components. -->
+      <column name="part_of_speech">n:inhps</column>
       <column name="definition">CD, data disc</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{De':n}, {jengva':n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components">{De' ngop:n:inhpl}</column>
@@ -1395,12 +1396,13 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     <table name="mem">
       <column name="_id">13535</column>
       <column name="entry_name">De' ngop</column>
-      <column name="part_of_speech">n:inhpl,deriv</column>
+      <!-- Not deriv because don't want to show components. -->
+      <column name="part_of_speech">n:inhpl</column>
       <column name="definition">CDs, data discs</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{De':n}, {ngop:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components">{De' jengva':n:inhps}</column>
