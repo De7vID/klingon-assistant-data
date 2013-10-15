@@ -165,6 +165,10 @@ public class KlingonAssistant extends BaseActivity {
 
   // Launch an entry activity with the entry's info.
   private void launchEntry(String entryId) {
+    if (entryId == null) {
+      return;
+    }
+
     Intent entryIntent = new Intent(this, EntryActivity.class);
 
     // Form the URI for the entry.
