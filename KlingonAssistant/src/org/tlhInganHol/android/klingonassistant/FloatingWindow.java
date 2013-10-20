@@ -31,23 +31,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-/**
- * This implementation provides multiple windows. You may extend this class or use it as a reference
- * for a basic foundation for your own windows.
- * 
- * <p>
- * Functionality includes system window decorators, moveable, resizeable, hideable, closeable, and
- * bring-to-frontable.
- * 
- * <p>
- * The persistent notification creates new windows. The hidden notifications restores previously
- * hidden windows.
- * 
- * @author Mark Wei <markwei@gmail.com>
- * 
- */
 public class FloatingWindow extends StandOutWindow {
 
   @Override
@@ -67,12 +51,8 @@ public class FloatingWindow extends StandOutWindow {
 
   @Override
   public void createAndAttachView(int id, FrameLayout frame) {
-    // create a new layout from body.xml
     LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
     View view = inflater.inflate(R.layout.floating, frame, true);
-
-    TextView idText = (TextView) view.findViewById(R.id.id1);
-    idText.setText(String.valueOf(id));
   }
 
   // every window is initially same size
@@ -82,9 +62,6 @@ public class FloatingWindow extends StandOutWindow {
             StandOutLayoutParams.CENTER, 200, 100);
   }
 
-  // we want the system window decorations, we want to drag the body, we want
-  // the ability to hide windows, and we want to tap the window to bring to
-  // front
   @Override
   public int getFlags(int id) {
     return StandOutFlags.FLAG_DECORATION_SYSTEM | StandOutFlags.FLAG_DECORATION_CLOSE_DISABLE

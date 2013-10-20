@@ -83,6 +83,7 @@ public class KlingonAssistant extends BaseActivity {
   // Helper method to determine if a shared text came from Twitter, and if so, strip it of
   // everything but the actual tweet.
   private String stripTweet(String text) {
+    // Log.d(TAG, "Tweet text = " + text);
     if (text.indexOf("https://twitter.com/download") == -1) {
       // All shared tweets contain the Twitter download link, regardless of the UI language.
       // So if this isn't found, then it's not a tweet.
