@@ -17,46 +17,29 @@
 */
 -->
 <!-- Floating layout for KlingonAssistant. -->
-<merge xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <LinearLayout
-        android:id="@+id/background"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" >
+        android:layout_height="fill_parent"
+        android:background="#aaff0000"
+        android:orientation="vertical"
+        android:padding="8dp" >
 
-        <View
-            android:id="@+id/left_strip"
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="#110000" />
+        <TextView
+            android:id="@+id/float_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simple Window Example"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
 
-        <View
-            android:id="@+id/middle_strip"
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="#001100" />
-
-        <View
-            android:id="@+id/right_strip"
-            android:layout_width="0dp"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="#000011" />
+        <TextView
+            android:id="@+id/float_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Move me around. Click notification to close."
+            android:textColor="#ffffff" />
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/middle_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="test"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#000000"
-        android:textSize="50sp"
-        android:textStyle="bold" />
 
 </merge>
