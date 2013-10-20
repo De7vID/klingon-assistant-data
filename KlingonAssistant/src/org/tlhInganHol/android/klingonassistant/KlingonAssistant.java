@@ -36,7 +36,6 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.TwoLineListItem;
-import wei.mark.standout.StandOutWindow;
 
 /**
  * The main activity for the dictionary. Displays search results triggered by the search dialog and
@@ -68,9 +67,6 @@ public class KlingonAssistant extends BaseActivity {
 
     mTextView = (TextView) findViewById(R.id.text);
     mListView = (ListView) findViewById(R.id.list);
-
-    StandOutWindow.closeAll(this, FloatingWindow.class);
-    StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
 
     handleIntent(getIntent());
   }

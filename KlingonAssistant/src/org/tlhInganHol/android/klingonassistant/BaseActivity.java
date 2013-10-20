@@ -40,6 +40,7 @@ import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
+import wei.mark.standout.StandOutWindow;
 
 
 public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.MenuListener {
@@ -88,6 +89,10 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
             mActivePosition = savedInstanceState.getInt(STATE_ACTIVE_POSITION);
         }
 
+        // Close the floating window, if there is one.
+        StandOutWindow.closeAll(this, FloatingWindow.class);
+
+        // Get the action bar.
         getSupportActionBar();
 
         // If the device is in landscape orientation and the screen size is large (or bigger), then
@@ -429,6 +434,11 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       case android.R.id.home:
         mDrawer.toggleMenu();
         break;
+      case R.id.float_mode:
+        // Minimize the app and cause it to "float".
+        StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
+        finish();
+        return true;
       case R.id.about:
         // Show "About" screen.
         displayHelp(QUERY_FOR_ABOUT);

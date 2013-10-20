@@ -30,6 +30,10 @@
           android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
           android:visible="false" />
 
+    <item android:id="@+id/float_mode"
+          android:title="@string/menu_float_mode_tlh"
+          android:showAsAction="always" />
+
     <item android:id="@+id/about"
         android:title="@string/menu_about_tlh" />
 
