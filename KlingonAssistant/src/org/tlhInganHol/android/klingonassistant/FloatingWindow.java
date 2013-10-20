@@ -55,7 +55,6 @@ public class FloatingWindow extends StandOutWindow {
     View view = inflater.inflate(R.layout.floating, frame, true);
   }
 
-  // every window is initially same size
   @Override
   public StandOutLayoutParams getParams(int id, Window window) {
     return new StandOutLayoutParams(id, 400, 300, StandOutLayoutParams.CENTER,
