@@ -22,8 +22,10 @@ import java.util.List;
 import net.simonvt.menudrawer.MenuDrawer;
 import net.simonvt.menudrawer.Position;
 import android.app.SearchManager;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.database.Cursor;
@@ -73,6 +75,9 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
     private static final String QUERY_FOR_JOKES                  = "*:sen:joke";
 
+    private KillReceiver mKillReceiver;
+    private static final String ACTION_KILL = "org.tlhInganHol.android.klingonassistant.intent.action.KILL";
+    private static final String KILL_TYPE = "org.tlhInganHol.android.klingonassistant.intent.action/kill";
 
     private MenuDrawer mDrawer;
 
@@ -194,6 +199,16 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         // Activate type-to-search for local search. Typing will automatically
         // start a search of the database.
         setDefaultKeyMode(DEFAULT_KEYS_SEARCH_LOCAL);
+
+        // Register a receiver for the kill order.
+        mKillReceiver = new KillReceiver();
+        registerReceiver(mKillReceiver, IntentFilter.create(ACTION_KILL, KILL_TYPE));
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        unregisterReceiver(mKillReceiver);
     }
 
     @Override
@@ -437,7 +452,11 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       case R.id.float_mode:
         // Minimize the app and cause it to "float".
         StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
-        finish();
+
+        // Broad the kill order to finish all non-floating activities.
+        Intent intent = new Intent(ACTION_KILL);
+        intent.setType(KILL_TYPE);
+        sendBroadcast(intent);
         return true;
       case R.id.about:
         // Show "About" screen.
@@ -464,5 +483,12 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         }
 
         super.onBackPressed();
+    }
+
+    private final class KillReceiver extends BroadcastReceiver {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            finish();
+        }
     }
 }

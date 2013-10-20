@@ -100,7 +100,7 @@ public class FloatingWindow extends StandOutWindow {
 
   @Override
   public String getPersistentNotificationMessage(int id) {
-    return "Running in float mode.";
+    return getResources().getString(R.string.float_mode_status);
   }
 
   @Override
@@ -110,7 +110,11 @@ public class FloatingWindow extends StandOutWindow {
 
       @Override
       public void run() {
-        Toast.makeText(FloatingWindow.this, "Not yet implemented.", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(FloatingWindow.this, KlingonAssistant.class);
+        // This needs to be set since this is called outside of an activity.
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.setAction(Intent.ACTION_MAIN);
+        startActivity(intent);
       }
     }));
     return items;
