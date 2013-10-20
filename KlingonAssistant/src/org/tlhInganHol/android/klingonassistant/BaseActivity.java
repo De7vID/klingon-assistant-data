@@ -59,10 +59,10 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
     // Classes of phrases.
     private static final String QUERY_FOR_EMPIRE_UNION_DAY       = "*:sen:eu";
-    private static final String QUERY_FOR_IDIOMS                 = "*:sen:idiom";
+    // private static final String QUERY_FOR_IDIOMS                 = "*:sen:idiom";
     private static final String QUERY_FOR_CURSE_WARFARE          = "*:sen:mv";
     private static final String QUERY_FOR_NENTAY                 = "*:sen:nt";
-    private static final String QUERY_FOR_PROVERBS               = "*:sen:prov";
+    // private static final String QUERY_FOR_PROVERBS               = "*:sen:prov";
     private static final String QUERY_FOR_QI_LOP                 = "*:sen:Ql";
     private static final String QUERY_FOR_REJECTION              = "*:sen:rej";
     private static final String QUERY_FOR_REPLACEMENT_PROVERBS   = "*:sen:rp";
