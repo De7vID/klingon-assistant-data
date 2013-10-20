@@ -17,29 +17,37 @@
 */
 -->
 <!-- Floating layout for KlingonAssistant. -->
-<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="#aa000000">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="status" />
+
+    <EditText
+        android:id="@+id/edit"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="#aaff0000"
-        android:orientation="vertical"
-        android:padding="8dp" >
+        android:layout_height="wrap_content"
+        android:ems="10" android:hint="Write something">
 
-        <TextView
-            android:id="@+id/float_text1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Simple Window Example"
-            android:textColor="#ffffff"
-            android:textStyle="bold" />
+        <requestFocus />
+    </EditText>
 
-        <TextView
-            android:id="@+id/float_text2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Move me around. Click notification to close."
-            android:textColor="#ffffff" />
-    </LinearLayout>
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="or here" />
 
-</merge>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Then press me" />
+
+</LinearLayout>
