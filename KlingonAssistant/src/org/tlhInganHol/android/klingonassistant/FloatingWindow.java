@@ -30,9 +30,15 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
-import android.widget.TextView;
+import android.widget.EditText;
+import android.widget.ListView;
 
 public class FloatingWindow extends StandOutWindow {
+
+
+  // The two main views in float mode.
+  private EditText            mEditText;
+  private ListView            mListView;
 
   @Override
   public String getAppName() {
@@ -53,6 +59,9 @@ public class FloatingWindow extends StandOutWindow {
   public void createAndAttachView(int id, FrameLayout frame) {
     LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
     View view = inflater.inflate(R.layout.floating, frame, true);
+
+    mEditText = (EditText) view.findViewById(R.id.float_edit);
+    mListView = (ListView) view.findViewById(R.id.float_list);
   }
 
   @Override

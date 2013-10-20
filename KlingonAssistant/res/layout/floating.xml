@@ -20,34 +20,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" android:background="#aa000000">
+    android:orientation="vertical" android:background="#ee000000">
 
-    <TextView
-        android:id="@+id/status"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="status" />
-
+    <!-- Text can default to sans (embedded Klingon must be serif). -->
     <EditText
-        android:id="@+id/edit"
+        android:id="@+id/float_edit"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:ems="10" android:hint="Write something">
+        android:typeface="serif"
+        android:singleLine="true"
+        android:inputType="textNoSuggestions"
+        android:ems="10">
 
         <requestFocus />
     </EditText>
 
-    <EditText
-        android:id="@+id/edit2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="or here" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Then press me" />
-
+    <!-- Font in a ListView must be set in the adapter -->
+    <ListView
+            android:id="@+id/float_list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:ems="10" android:layout_weight="1" />
 </LinearLayout>
