@@ -26,6 +26,7 @@
     <!-- Minimum Android version 2.1 (7), targeted version 4.3 (18). -->
     <uses-sdk android:minSdkVersion="7"
               android:targetSdkVersion="18"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <supports-screens android:resizeable="true"
                   android:smallScreens="true"
                   android:normalScreens="true"
@@ -112,6 +113,10 @@
         <!-- Points to searchable activity so the whole app can invoke search. -->
         <meta-data android:name="android.app.default_searchable"
                    android:value=".KlingonAssistant" />
+
+        <!-- A floating window which is overlayed on top of other apps. -->
+        <service android:name=".FloatingWindow" >
+        </service>
 
     </application>
 </manifest>
