@@ -62,6 +62,12 @@ public class FloatingWindow extends StandOutWindow {
   }
 
   @Override
+  public int getHiddenIcon() {
+    // TODO: Create an icon for the "cloaked" state.
+    return R.drawable.ic_ka;
+  }
+
+  @Override
   public String getTitle(int id) {
     return getAppName();
   }
@@ -87,6 +93,7 @@ public class FloatingWindow extends StandOutWindow {
   public int getFlags(int id) {
     return StandOutFlags.FLAG_DECORATION_SYSTEM | StandOutFlags.FLAG_DECORATION_CLOSE_DISABLE
             | StandOutFlags.FLAG_DECORATION_MAXIMIZE_DISABLE | StandOutFlags.FLAG_BODY_MOVE_ENABLE
+            // | StandOutFlags.FLAG_WINDOW_HIDE_ENABLE
             | StandOutFlags.FLAG_WINDOW_BRING_TO_FRONT_ON_TAP
             | StandOutFlags.FLAG_WINDOW_EDGE_LIMITS_ENABLE;
   }
@@ -99,6 +106,27 @@ public class FloatingWindow extends StandOutWindow {
   @Override
   public String getPersistentNotificationMessage(int id) {
     return getResources().getString(R.string.float_mode_status);
+  }
+
+  @Override
+  public Intent getPersistentNotificationIntent(int id) {
+    // Returning null here causes older versions of Android to crash, so return a do-nothing intent.
+    return new Intent();
+  }
+
+  @Override
+  public String getHiddenNotificationTitle(int id) {
+    return getAppName() + " (cloaked)";
+  }
+
+  @Override
+  public String getHiddenNotificationMessage(int id) {
+    return "Click to decloak.";
+  }
+
+  @Override
+  public Intent getHiddenNotificationIntent(int id) {
+    return StandOutWindow.getShowIntent(this, getClass(), id);
   }
 
   @Override
