@@ -36,6 +36,8 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.TwoLineListItem;
+import com.actionbarsherlock.view.MenuItem;
+import wei.mark.standout.StandOutWindow;
 
 /**
  * The main activity for the dictionary. Displays search results triggered by the search dialog and
@@ -53,6 +55,9 @@ public class KlingonAssistant extends BaseActivity {
   // The two main views in app's main screen.
   private TextView            mTextView;
   private ListView            mListView;
+
+  // Keep the query for passing to the FloatingWindow.
+  private String mQuery = "";
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
@@ -106,8 +111,8 @@ public class KlingonAssistant extends BaseActivity {
 
     } else if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
       // handles a search query
-      String query = intent.getStringExtra(SearchManager.QUERY);
-      showResults(query);
+      mQuery = intent.getStringExtra(SearchManager.QUERY);
+      showResults(mQuery);
 
     } else if (Intent.ACTION_SEND.equals(intent.getAction())) {
       // handles another plain text shared from another app
@@ -348,5 +353,28 @@ public class KlingonAssistant extends BaseActivity {
     if (!isTaskRoot()) {
       overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
+  }
+
+  @Override
+  public boolean onOptionsItemSelected(MenuItem item) {
+    if (item.getItemId() == R.id.float_mode) {
+        // Minimize the app and cause it to "float".
+        StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
+        if (!mQuery.equals("")) {
+          // If we have a non-empty query, pass it along.
+          Bundle data = new Bundle();
+          data.putString("query", mQuery);
+          StandOutWindow.sendData(getBaseContext(), FloatingWindow.class,
+              StandOutWindow.DEFAULT_ID, DATA_CHANGED_QUERY, data,
+              FloatingWindow.class, StandOutWindow.DEFAULT_ID);
+        }
+
+        // Broadcast the kill order to finish all non-floating activities.
+        Intent intent = new Intent(ACTION_KILL);
+        intent.setType(KILL_TYPE);
+        sendBroadcast(intent);
+        return true;
+    }
+    return super.onOptionsItemSelected(item);
   }
 }

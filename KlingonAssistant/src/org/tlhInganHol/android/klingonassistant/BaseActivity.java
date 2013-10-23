@@ -76,8 +76,11 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     private static final String QUERY_FOR_JOKES                  = "*:sen:joke";
 
     private KillReceiver mKillReceiver;
-    private static final String ACTION_KILL = "org.tlhInganHol.android.klingonassistant.intent.action.KILL";
-    private static final String KILL_TYPE = "org.tlhInganHol.android.klingonassistant.intent.action/kill";
+    protected static final String ACTION_KILL = "org.tlhInganHol.android.klingonassistant.intent.action.KILL";
+    protected static final String KILL_TYPE = "org.tlhInganHol.android.klingonassistant.intent.action/kill";
+
+    // Request code to change FloatingWindow's data.
+    public static final int DATA_CHANGED_QUERY = 0;
 
     private MenuDrawer mDrawer;
 
@@ -453,7 +456,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         // Minimize the app and cause it to "float".
         StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
 
-        // Broad the kill order to finish all non-floating activities.
+        // Broadcast the kill order to finish all non-floating activities.
         Intent intent = new Intent(ACTION_KILL);
         intent.setType(KILL_TYPE);
         sendBroadcast(intent);

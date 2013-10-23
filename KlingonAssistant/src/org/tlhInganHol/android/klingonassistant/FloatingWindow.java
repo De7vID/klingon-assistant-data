@@ -25,6 +25,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Typeface;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.v4.content.CursorLoader;
 import android.text.Editable;
 import android.text.Html;
@@ -151,6 +152,27 @@ public class FloatingWindow extends StandOutWindow {
       }
     }));
     return items;
+  }
+
+  @Override
+  public void onReceiveData(int id, int requestCode, Bundle data,
+      Class<? extends StandOutWindow> fromCls, int fromId) {
+    switch (requestCode) {
+      case BaseActivity.DATA_CHANGED_QUERY:
+        Window window = getWindow(id);
+        if (window == null) {
+          // Ignore error.
+          return;
+        }
+        String query = data.getString("query");
+        // Use setText and append so that cursor is at end of query.
+        mEditText.setText("");
+        mEditText.append(query);
+        break;
+      default:
+        // Ignore error.
+        break;
+    }
   }
 
   // Helper class to watch the search text.
