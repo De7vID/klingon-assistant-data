@@ -19,9 +19,7 @@ package org.tlhInganHol.android.klingonassistant;
 import java.util.ArrayList;
 import java.util.List;
 
-import wei.mark.standout.StandOutWindow;
-import wei.mark.standout.constants.StandOutFlags;
-import wei.mark.standout.ui.Window;
+import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
@@ -43,6 +41,9 @@ import android.widget.FrameLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.TwoLineListItem;
+import wei.mark.standout.StandOutWindow;
+import wei.mark.standout.constants.StandOutFlags;
+import wei.mark.standout.ui.Window;
 
 public class FloatingWindow extends StandOutWindow {
   private static final String TAG = "FloatingWindow";
@@ -136,10 +137,16 @@ public class FloatingWindow extends StandOutWindow {
 
       @Override
       public void run() {
+        String query = mEditText.getText().toString();
         Intent intent = new Intent(FloatingWindow.this, KlingonAssistant.class);
         // This needs to be set since this is called outside of an activity.
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        intent.setAction(Intent.ACTION_MAIN);
+        if (query.equals("")) {
+          intent.setAction(Intent.ACTION_MAIN);
+        } else {
+          intent.setAction(Intent.ACTION_SEARCH);
+          intent.putExtra(SearchManager.QUERY, query);
+        }
         startActivity(intent);
       }
     }));
