@@ -436,12 +436,17 @@ public class EntryActivity extends BaseActivity {
         // Minimize the app and cause it to "float".
         StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
         String query;
-        if (mParentQuery != null && !mParentQuery.equals("")) {
+        if (mParentQuery != null && !mParentQuery.equals("") &&
+            mParentQuery.indexOf('*') == -1) {
           // If we have the parent query, it overrides this entry.
           query = mParentQuery;
         } else {
           // Otherwise, just use this entry's name.
           query = mEntryName;
+        }
+        int colonLoc = query.indexOf(':');
+        if (colonLoc != -1) {
+          query = query.substring(0, colonLoc);
         }
         if (!query.equals("")) {
           // If we have a non-empty query, pass it along.

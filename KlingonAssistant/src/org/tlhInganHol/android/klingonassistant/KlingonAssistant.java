@@ -362,10 +362,15 @@ public class KlingonAssistant extends BaseActivity {
     if (item.getItemId() == R.id.float_mode) {
         // Minimize the app and cause it to "float".
         StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
-        if (!mQuery.equals("")) {
+        String query = mQuery;
+        if (!mQuery.equals("") && mQuery.indexOf('*') == -1) {
           // If we have a non-empty query, pass it along.
+          int colonLoc = query.indexOf(':');
+          if (colonLoc != -1) {
+            query = query.substring(0, colonLoc);
+          }
           Bundle data = new Bundle();
-          data.putString("query", mQuery);
+          data.putString("query", query);
           StandOutWindow.sendData(getBaseContext(), FloatingWindow.class,
               StandOutWindow.DEFAULT_ID, DATA_CHANGED_QUERY, data,
               FloatingWindow.class, StandOutWindow.DEFAULT_ID);
