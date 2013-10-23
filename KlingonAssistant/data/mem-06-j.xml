@@ -1078,7 +1078,7 @@ Note that {jemS:n:nolink} and {qIrq:n:nolink} do not follow not proper Klingon p
       <column name="hidden_notes"></column>
       <column name="components">{ngop:n:inhpl}</column>
       <column name="examples"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">dish</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
@@ -1667,7 +1667,7 @@ The imperative verb prefix when {jIH:n:1h,nolink} is the object is {HI-:v:pref}.
     <table name="mem">
       <column name="_id">18216</column>
       <column name="entry_name">jISuDrup.</column>
-      <column name="part_of_speech">sen:phr:extcan</column>
+      <column name="part_of_speech">sen:phr,extcan</column>
       <column name="definition">I'm feeling lucky.</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
