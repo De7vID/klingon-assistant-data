@@ -41,6 +41,7 @@ import android.view.View;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.widget.ShareActionProvider;
+import wei.mark.standout.StandOutWindow;
 
 /**
  * Displays an entry and its definition.
@@ -50,6 +51,10 @@ public class EntryActivity extends BaseActivity {
 
   // The intent holding the data to be shared.
   private Intent              mShareEntryIntent                = null;
+
+  // The parent query that this entry is a part of.
+  private String mParentQuery = null;
+  private String mEntryName = null;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +70,7 @@ public class EntryActivity extends BaseActivity {
     Uri uri = getIntent().getData();
     // Log.d(TAG, "EntryActivity - uri: " + uri.toString());
     // TODO: Disable the "About" menu item if this is the "About" entry.
+    mParentQuery = getIntent().getStringExtra(SearchManager.QUERY);
 
     // Retrieve the entry's data.
     // Note: managedQuery is deprecated since API 11.
@@ -90,6 +96,7 @@ public class EntryActivity extends BaseActivity {
       // Boring transcription based on English (Latin) alphabet.
       entryTitle.setText(Html.fromHtml(entry.getFormattedEntryName(/* isHtml */true)));
     }
+    mEntryName = entry.getEntryName();
 
     // Create the expanded definition.
     String pos = entry.getFormattedPartOfSpeech(/* isHtml */false);
@@ -421,5 +428,36 @@ public class EntryActivity extends BaseActivity {
   public void onBackPressed() {
     super.onBackPressed();
     overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+  }
+
+  @Override
+  public boolean onOptionsItemSelected(MenuItem item) {
+    if (item.getItemId() == R.id.float_mode) {
+        // Minimize the app and cause it to "float".
+        StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
+        String query;
+        if (mParentQuery != null && !mParentQuery.equals("")) {
+          // If we have the parent query, it overrides this entry.
+          query = mParentQuery;
+        } else {
+          // Otherwise, just use this entry's name.
+          query = mEntryName;
+        }
+        if (!query.equals("")) {
+          // If we have a non-empty query, pass it along.
+          Bundle data = new Bundle();
+          data.putString("query", query);
+          StandOutWindow.sendData(getBaseContext(), FloatingWindow.class,
+              StandOutWindow.DEFAULT_ID, DATA_CHANGED_QUERY, data,
+              FloatingWindow.class, StandOutWindow.DEFAULT_ID);
+        }
+
+        // Broadcast the kill order to finish all non-floating activities.
+        Intent intent = new Intent(ACTION_KILL);
+        intent.setType(KILL_TYPE);
+        sendBroadcast(intent);
+        return true;
+    }
+    return super.onOptionsItemSelected(item);
   }
 }

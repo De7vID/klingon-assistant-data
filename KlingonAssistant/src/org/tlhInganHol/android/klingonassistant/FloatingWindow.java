@@ -220,6 +220,8 @@ public class FloatingWindow extends StandOutWindow {
     // Form the URI for the entry.
     Uri uri = Uri.parse(KlingonContentProvider.CONTENT_URI + "/get_entry_by_id/" + entryId);
     entryIntent.setData(uri);
+    // Save the query that this entry is a part of.
+    entryIntent.putExtra(SearchManager.QUERY, mEditText.getText().toString());
 
     // This needs to be set since this is called outside of an activity.
     entryIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
