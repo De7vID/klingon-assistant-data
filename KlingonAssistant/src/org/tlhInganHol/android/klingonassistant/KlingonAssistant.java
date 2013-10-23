@@ -180,6 +180,8 @@ public class KlingonAssistant extends BaseActivity {
     // Form the URI for the entry.
     Uri uri = Uri.parse(KlingonContentProvider.CONTENT_URI + "/get_entry_by_id/" + entryId);
     entryIntent.setData(uri);
+    // Save the query that this entry is a part of.
+    entryIntent.putExtra(SearchManager.QUERY, mQuery);
 
     startActivity(entryIntent);
     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
