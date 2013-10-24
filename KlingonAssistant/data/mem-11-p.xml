@@ -2251,7 +2251,7 @@ For other units of time, {pIq:n:nolink} is used.</column>
     <table name="mem">
       <column name="_id">25060</column>
       <column name="entry_name">poj</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">analyze</column>
       <column name="definition_de">analysieren</column>
       <column name="synonyms"></column>
@@ -2267,12 +2267,12 @@ For other units of time, {pIq:n:nolink} is used.</column>
     <table name="mem">
       <column name="_id">25070</column>
       <column name="entry_name">pol</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">keep, save</column>
       <column name="definition_de">behalten, aufbewahren</column>
       <column name="synonyms"></column>
       <column name="antonyms">{polHa':v}</column>
-      <column name="see_also">{choq:v}, {toD:v}</column>
+      <column name="see_also">{choq:v}, {toD:v}, {boS:v}</column>
       <column name="notes"></column>
       <!-- A Biblical pun? -->
       <column name="hidden_notes"></column>
@@ -2284,7 +2284,7 @@ For other units of time, {pIq:n:nolink} is used.</column>
     <table name="mem">
       <column name="_id">25080</column>
       <column name="entry_name">polHa'</column>
-      <column name="part_of_speech">v:t,deriv</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">discard</column>
       <column name="definition_de">ablegen, ausrangieren</column>
       <column name="synonyms">{woD:v}</column>
