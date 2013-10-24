@@ -142,13 +142,15 @@ public class FloatingWindow extends StandOutWindow {
         Intent intent = new Intent(FloatingWindow.this, KlingonAssistant.class);
         // This needs to be set since this is called outside of an activity.
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        if (query.equals("")) {
-          intent.setAction(Intent.ACTION_MAIN);
-        } else {
+
+        // Starting as a main intent is needed to force the menudrawer to load.
+        intent.setAction(Intent.ACTION_MAIN);
+        startActivity(intent);
+        if (!query.equals("")) {
           intent.setAction(Intent.ACTION_SEARCH);
           intent.putExtra(SearchManager.QUERY, query);
+          startActivity(intent);
         }
-        startActivity(intent);
       }
     }));
     return items;

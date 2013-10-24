@@ -28,6 +28,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.Html;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -103,6 +104,7 @@ public class KlingonAssistant extends BaseActivity {
   }
 
   private void handleIntent(Intent intent) {
+    // Log.d(TAG, "Intent: " + intent);
     if (Intent.ACTION_VIEW.equals(intent.getAction())) {
       // handles a click on a search suggestion; launches activity to show entry
       String entryId = intent.getDataString();
@@ -112,6 +114,7 @@ public class KlingonAssistant extends BaseActivity {
     } else if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
       // handles a search query
       mQuery = intent.getStringExtra(SearchManager.QUERY);
+      Log.d(TAG, "ACTION_SEARCH: " + mQuery);
       showResults(mQuery);
 
     } else if (Intent.ACTION_SEND.equals(intent.getAction())) {
@@ -180,8 +183,9 @@ public class KlingonAssistant extends BaseActivity {
     // Form the URI for the entry.
     Uri uri = Uri.parse(KlingonContentProvider.CONTENT_URI + "/get_entry_by_id/" + entryId);
     entryIntent.setData(uri);
-    // Save the query that this entry is a part of.
-    entryIntent.putExtra(SearchManager.QUERY, mQuery);
+    // Note: We don't save the query that this entry came from here, because we
+    // want the entry name to be sent to the FloatingWindow if float mode is
+    // activated from within an entry.
 
     startActivity(entryIntent);
     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
