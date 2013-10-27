@@ -263,7 +263,7 @@
       <!-- Checked on: 2012.12.05. -->
       <column name="_id">18830</column>
       <column name="entry_name">laQ</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">fire, energize (e.g. thrusters)</column>
       <column name="definition_de">(Triebwerke) feuern, zünden</column>
       <column name="synonyms"></column>
@@ -277,11 +277,11 @@
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.12.05. -->
+      <!-- Checked on: 2013.10.27. -->
       <column name="_id">18840</column>
       <column name="entry_name">largh</column>
-      <column name="part_of_speech">v:t</column>
-      <column name="definition">smell, sense odours</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">smell, sense odors</column>
       <column name="definition_de">riechen, Geruch wahrnehmen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -290,7 +290,7 @@
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">sense odours</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
