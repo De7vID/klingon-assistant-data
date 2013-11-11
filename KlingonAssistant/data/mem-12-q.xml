@@ -2353,6 +2353,23 @@ In the {Haynes BoP Manual:src}, this ship class is referred to as {raptor:n:noli
       <column name="source">[1] {KGT:src}, [2] {HQ 2.4, p.17, Dec. 1993:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2013.11.10. -->
+      <column name="_id">26761</column>
+      <column name="entry_name">qogh qorghwI'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">earplug</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes">This construction doesn't appear in canon, but during a discussion of {qorghwI':n} at {Saarbrücken qepHom'a' 2013:src}, everyone immediately knew what it meant.</column>
+      <column name="components">{qogh:n:2}, {qorghwI':n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source"></column>
+    </table>
+    <table name="mem">
       <column name="_id">26765</column>
       <column name="entry_name">qogh tuQmoHHa'</column>
       <column name="part_of_speech">sen:slang</column>
@@ -2672,12 +2689,12 @@ There is another verb, {gher:v}, which is used for compiling lists and the like,
       <column name="_id">26912</column>
       <column name="entry_name">qorgh</column>
       <column name="part_of_speech">v:t_c</column>
-      <column name="definition">stop up, fill up</column>
+      <column name="definition">stop up, fill a hole</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="see_also">{ghoD:v}, {teb:v}</column>
+      <column name="notes">Unlike {teb:v}, this indicates stopping up an opening, but not filling up the inside.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2687,18 +2704,18 @@ There is another verb, {gher:v}, which is used for compiling lists and the like,
     <table name="mem">
       <!-- Checked on: 2013.11.10. -->
       <column name="_id">26913</column>
-      <column name="entry_name">qorgh</column>
+      <column name="entry_name">qorghwI'</column>
       <column name="part_of_speech">n:deriv</column>
-      <column name="definition">cork, cap, stopper</column>
+      <column name="definition">cork</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="see_also">{yuvtlhe':n}</column>
+      <column name="notes">This word refers to the cork or stopper of a bottle, such as a wine bottle.</column>
       <column name="hidden_notes">"Cork".</column>
       <column name="components"></column>
       <column name="examples"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">stopper</column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2013:src}</column>
     </table>
     <table name="mem">
