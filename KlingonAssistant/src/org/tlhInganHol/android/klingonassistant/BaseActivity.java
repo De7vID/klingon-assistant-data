@@ -457,6 +457,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
 
         // Broadcast the kill order to finish all non-floating activities.
+        // TODO(davinci): Fix race condition.
         Intent intent = new Intent(ACTION_KILL);
         intent.setType(KILL_TYPE);
         sendBroadcast(intent);
