@@ -297,8 +297,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
         case R.id.kag:
           // Launch KAG Communications.
-          // TODO: Update URL.
-          launchExternal("http://comms.kag.org/viewforum.php?f=14");
+          launchExternal("http://www.kag.org/groups/hol-ampas/forum/");
           break;
 
         case R.id.kidc:
