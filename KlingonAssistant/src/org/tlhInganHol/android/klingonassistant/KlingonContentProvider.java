@@ -1221,12 +1221,16 @@ public class KlingonContentProvider extends ContentProvider {
         // case a pronoun will satisfy the requirement. This is because we want to allow
         // constructions like {ghaHtaH}.
         // TODO: Allow {nuq} and {'Iv} to match noun here.
-        if ((mBasePartOfSpeech != candidate.getBasePartOfSpeech())
-                && (mBasePartOfSpeech != BasePartOfSpeechEnum.VERB || !candidate.isPronoun())) {
-          // Log.d(TAG, "isExactMatchForEntryName: " + isExactMatchForEntryName);
-          // Log.d(TAG, "mBasePartOfSpeech: " + mBasePartOfSpeech);
-          // Log.d(TAG, "candidate.getBasePartOfSpeech: " + candidate.getBasePartOfSpeech());
-          return false;
+        if (mBasePartOfSpeech != candidate.getBasePartOfSpeech()) {
+          if (!(mBasePartOfSpeech == BasePartOfSpeechEnum.VERB && candidate.isPronoun()) &&
+              !(mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN &&
+                      (candidate.getEntryName() == "nuq" ||
+                       candidate.getEntryName() == "'Iv"))) {
+            // Log.d(TAG, "isExactMatchForEntryName: " + isExactMatchForEntryName);
+            // Log.d(TAG, "mBasePartOfSpeech: " + mBasePartOfSpeech);
+            // Log.d(TAG, "candidate.getBasePartOfSpeech: " + candidate.getBasePartOfSpeech());
+            return false;
+          }
         }
         // However, if we're looking for a verb with a type 5 noun suffix attached, then
         // we disallow transitive verbs as well as pronouns. Note that pronouns with a
