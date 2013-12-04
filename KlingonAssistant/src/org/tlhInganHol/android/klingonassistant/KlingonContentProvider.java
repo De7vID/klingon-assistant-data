@@ -179,7 +179,7 @@ public class KlingonContentProvider extends ContentProvider {
     String indent2 = entry.isIndented() ? "      " : "";
     String entryName = indent1 + entry.getFormattedEntryName(/* isHtml */false);
     String formattedDefinition = indent2 + entry.getFormattedDefinition(/* isHtml */false);
-    // TODO(davinci): Format the "alt" results.
+    // TODO: Format the "alt" results.
 
     // Search suggestions must have exactly four columns in exactly this format.
     return new Object[] { entryId, // _id
@@ -1220,6 +1220,7 @@ public class KlingonContentProvider extends ContentProvider {
         // The parts of speech must match, except when we're looking for a verb, in which
         // case a pronoun will satisfy the requirement. This is because we want to allow
         // constructions like {ghaHtaH}.
+        // TODO: Allow {nuq} and {'Iv} to match noun here.
         if ((mBasePartOfSpeech != candidate.getBasePartOfSpeech())
                 && (mBasePartOfSpeech != BasePartOfSpeechEnum.VERB || !candidate.isPronoun())) {
           // Log.d(TAG, "isExactMatchForEntryName: " + isExactMatchForEntryName);

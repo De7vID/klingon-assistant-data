@@ -595,7 +595,7 @@ public class KlingonContentDatabase {
         // An archaic or hypothetical word or phrase, even if it's an exact match, will never be
         // part of a complex word.
         // However, allow slang, regional, and extended canon.
-        // TODO(davinci): The question words {nuq} and {'Iv} should be treated as nouns under certain circumstances.
+        // TODO: The question words {nuq} and {'Iv} should be treated as nouns under certain circumstances.
         if (filterEntry.isSatisfiedBy(resultEntry) && !resultEntry.isArchaic()
                 && !resultEntry.isHypothetical()) {
           // Log.d(TAG, "adding: " + resultEntry.getEntryName() + " (" + resultEntry.getPartOfSpeech() + ")");
@@ -866,7 +866,7 @@ public class KlingonContentDatabase {
           SQLiteDatabase writeDB = this.getWritableDatabase();
           writeDB.close();
         } catch (SQLiteDiskIOException e) {
-          // TODO(davinci): Log error or do something here and below.
+          // TODO: Log error or do something here and below.
           // Log.e(TAG, "SQLiteDiskIOException on getWritableDatabase().");
         } catch (SQLiteException e) {
           // Possibly unable to get provider because no transaction is active.
@@ -916,7 +916,7 @@ public class KlingonContentDatabase {
       File dbFile = new File(DATABASE_PATH + DATABASE_NAME);
       return dbFile.exists();
 
-      // TODO(davinci): Investigate the below. It may be the reason why there
+      // TODO: Investigate the below. It may be the reason why there
       // are problems on some devices.
       /*
        * SQLiteDatabase checkDB = null; try { String fullDBPath = DATABASE_PATH + DATABASE_NAME;
