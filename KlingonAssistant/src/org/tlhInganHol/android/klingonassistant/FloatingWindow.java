@@ -93,8 +93,10 @@ public class FloatingWindow extends StandOutWindow {
 
   @Override
   public int getFlags(int id) {
-    return StandOutFlags.FLAG_DECORATION_SYSTEM | StandOutFlags.FLAG_DECORATION_CLOSE_DISABLE
-            | StandOutFlags.FLAG_DECORATION_MAXIMIZE_DISABLE | StandOutFlags.FLAG_BODY_MOVE_ENABLE
+    return StandOutFlags.FLAG_DECORATION_SYSTEM
+            | StandOutFlags.FLAG_DECORATION_CLOSE_DISABLE
+            | StandOutFlags.FLAG_DECORATION_MAXIMIZE_DISABLE
+            | StandOutFlags.FLAG_BODY_MOVE_ENABLE
             // | StandOutFlags.FLAG_WINDOW_HIDE_ENABLE
             | StandOutFlags.FLAG_WINDOW_BRING_TO_FRONT_ON_TAP
             | StandOutFlags.FLAG_WINDOW_EDGE_LIMITS_ENABLE;

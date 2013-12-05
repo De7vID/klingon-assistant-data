@@ -365,6 +365,7 @@ public class KlingonAssistant extends BaseActivity {
   public boolean onOptionsItemSelected(MenuItem item) {
     if (item.getItemId() == R.id.float_mode) {
         // Minimize the app and cause it to "float".
+        Log.d(TAG, "Show floating window.");
         StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
         String query = mQuery;
         if (!mQuery.equals("") && mQuery.indexOf('*') == -1) {
@@ -381,6 +382,8 @@ public class KlingonAssistant extends BaseActivity {
         }
 
         // Broadcast the kill order to finish all non-floating activities.
+        // TODO: Fix race condition.
+        Log.d(TAG, "Broadcast kill order to non-floating window.");
         Intent intent = new Intent(ACTION_KILL);
         intent.setType(KILL_TYPE);
         sendBroadcast(intent);

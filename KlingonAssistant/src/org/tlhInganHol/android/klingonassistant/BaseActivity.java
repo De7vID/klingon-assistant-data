@@ -33,6 +33,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -98,6 +99,8 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         }
 
         // Close the floating window, if there is one.
+        // TODO: Fix race condition.
+        Log.d(TAG, "Starting activity with non-floating window. Close floating window.");
         StandOutWindow.closeAll(this, FloatingWindow.class);
 
         // Get the action bar.
@@ -454,10 +457,12 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         break;
       case R.id.float_mode:
         // Minimize the app and cause it to "float".
+        Log.d(TAG, "Show floating window.");
         StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
 
         // Broadcast the kill order to finish all non-floating activities.
-        // TODO(davinci): Fix race condition.
+        // TODO: Fix race condition.
+        Log.d(TAG, "Broadcast kill order to non-floating window.");
         Intent intent = new Intent(ACTION_KILL);
         intent.setType(KILL_TYPE);
         sendBroadcast(intent);
@@ -492,6 +497,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     private final class KillReceiver extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {
+            Log.d(TAG, "Received kill order, finishing.");
             finish();
         }
     }

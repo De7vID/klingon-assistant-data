@@ -36,6 +36,7 @@ import android.text.style.StyleSpan;
 import android.text.style.SuperscriptSpan;
 import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
+import android.util.Log;
 import android.view.View;
 
 import com.actionbarsherlock.view.Menu;
@@ -47,7 +48,7 @@ import wei.mark.standout.StandOutWindow;
  * Displays an entry and its definition.
  */
 public class EntryActivity extends BaseActivity {
-  // private static final String TAG = "EntryActivity";
+  private static final String TAG = "EntryActivity";
 
   // The intent holding the data to be shared.
   private Intent              mShareEntryIntent                = null;
@@ -434,6 +435,7 @@ public class EntryActivity extends BaseActivity {
   public boolean onOptionsItemSelected(MenuItem item) {
     if (item.getItemId() == R.id.float_mode) {
         // Minimize the app and cause it to "float".
+        Log.d(TAG, "Show floating window.");
         StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
         String query;
         if (mParentQuery != null && !mParentQuery.equals("") &&
@@ -458,6 +460,7 @@ public class EntryActivity extends BaseActivity {
         }
 
         // Broadcast the kill order to finish all non-floating activities.
+        Log.d(TAG, "Broadcast kill order to non-floating window.");
         Intent intent = new Intent(ACTION_KILL);
         intent.setType(KILL_TYPE);
         sendBroadcast(intent);
