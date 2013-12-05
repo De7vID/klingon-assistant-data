@@ -92,7 +92,7 @@ public class KlingonContentDatabase {
 
   // This should be kept in sync with the version number in the database
   // entry {boQwI':n}.
-  private static final int                     DATABASE_VERSION             = 201312021;
+  private static final int                     DATABASE_VERSION             = 201312022;
 
   private final KlingonDatabaseOpenHelper      mDatabaseOpenHelper;
   private static final HashMap<String, String> mColumnMap                   = buildColumnMap();
@@ -595,7 +595,6 @@ public class KlingonContentDatabase {
         // An archaic or hypothetical word or phrase, even if it's an exact match, will never be
         // part of a complex word.
         // However, allow slang, regional, and extended canon.
-        // TODO: The question words {nuq} and {'Iv} should be treated as nouns under certain circumstances.
         if (filterEntry.isSatisfiedBy(resultEntry) && !resultEntry.isArchaic()
                 && !resultEntry.isHypothetical()) {
           // Log.d(TAG, "adding: " + resultEntry.getEntryName() + " (" + resultEntry.getPartOfSpeech() + ")");

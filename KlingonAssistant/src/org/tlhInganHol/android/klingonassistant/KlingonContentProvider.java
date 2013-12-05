@@ -1217,18 +1217,21 @@ public class KlingonContentProvider extends ContentProvider {
         if (!isExactMatchForEntryName) {
           return false;
         }
-        // The parts of speech must match, except when we're looking for a verb, in which
-        // case a pronoun will satisfy the requirement. This is because we want to allow
-        // constructions like {ghaHtaH}.
-        // TODO: Allow {nuq} and {'Iv} to match noun here.
+        // The parts of speech must match, except when: we're looking for a verb, in which
+        // case a pronoun will satisfy the requirement; or we're looking for a noun, in which
+        // case the question words {nuq} and {'Iv} are accepted. This is because we want to
+        // allow constructions like {ghaHtaH}, and those two question words can take the place
+        // of the nouns they are asking about.
+        // TODO: Remove redundant {nuq} + {-Daq}.
+        // Log.d(TAG, "isExactMatchForEntryName: " + isExactMatchForEntryName);
+        // Log.d(TAG, "mBasePartOfSpeech: " + mBasePartOfSpeech);
+        // Log.d(TAG, "candidate.getBasePartOfSpeech: " + candidate.getBasePartOfSpeech());
+        // Log.d(TAG, "candidate.getEntryName: " + candidate.getEntryName());
         if (mBasePartOfSpeech != candidate.getBasePartOfSpeech()) {
           if (!(mBasePartOfSpeech == BasePartOfSpeechEnum.VERB && candidate.isPronoun()) &&
               !(mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN &&
-                      (candidate.getEntryName() == "nuq" ||
-                       candidate.getEntryName() == "'Iv"))) {
-            // Log.d(TAG, "isExactMatchForEntryName: " + isExactMatchForEntryName);
-            // Log.d(TAG, "mBasePartOfSpeech: " + mBasePartOfSpeech);
-            // Log.d(TAG, "candidate.getBasePartOfSpeech: " + candidate.getBasePartOfSpeech());
+                      (candidate.getEntryName().equals("nuq") ||
+                       candidate.getEntryName().equals("'Iv")))) {
             return false;
           }
         }
@@ -1276,7 +1279,7 @@ public class KlingonContentProvider extends ContentProvider {
       // }
 
       // TODO: Test a bunch of other things here.
-      // Log.d(TAG, "Candidate passed: " + candidate.getEntryName());
+      Log.d(TAG, "Candidate passed: " + candidate.getEntryName());
       return true;
     }
   }
