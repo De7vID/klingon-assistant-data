@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 De'vID jonpIn (David Yonge-Mallo)
+ * Copyright (C) 2014 De'vID jonpIn (David Yonge-Mallo)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -92,7 +92,7 @@ public class KlingonContentDatabase {
 
   // This should be kept in sync with the version number in the database
   // entry {boQwI':n}.
-  private static final int                     DATABASE_VERSION             = 201401151;
+  private static final int                     DATABASE_VERSION             = 201401270;
 
   private final KlingonDatabaseOpenHelper      mDatabaseOpenHelper;
   private static final HashMap<String, String> mColumnMap                   = buildColumnMap();

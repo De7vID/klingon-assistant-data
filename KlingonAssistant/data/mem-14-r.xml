@@ -517,7 +517,7 @@ According to a message on the {s.k:src} newsgroup, the first element of this wor
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mey':n}</column>
+      <column name="see_also">{mey':n}, {ra'Duch tIQ:n}, {ra'Duch quv:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -554,7 +554,7 @@ According to a message on the {s.k:src} newsgroup, the first element of this wor
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{ra'Duch:n}, {quv:v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KLI mailing list 2014.01.27:src}</column>
@@ -658,7 +658,7 @@ According to a message on the {s.k:src} newsgroup, the first element of this wor
     <table name="mem">
       <column name="_id">29100</column>
       <column name="entry_name">reD</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">exterior wall</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
@@ -670,6 +670,23 @@ According to a message on the {s.k:src} newsgroup, the first element of this wor
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {s.k 1998.12.07:src} (reprinted in {HQ 8.1, p.9, Mar. 1999:src})</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2014.01.27. -->
+      <column name="_id">29105</column>
+      <column name="entry_name">reD</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">side (geometry)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{mey':n}, {Dop:n}</column>
+      <column name="notes">This refers to the side of a polygon.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">{loS reD mey':n}, {vagh reD mey':n}</column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {KLI mailing list 2014.01.27:src}</column>
     </table>
     <table name="mem">
       <column name="_id">29110</column>
