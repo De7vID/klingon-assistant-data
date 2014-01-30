@@ -163,7 +163,7 @@ public class EntryActivity extends BaseActivity {
                 + String.format(resources.getString(R.string.info_singular_form), components);
       } else if (!showAnalysis) {
         // This is just a regular list of components.
-        expandedDefinition += "\n\n" + getResources().getString(R.string.label_components) + ": "
+        expandedDefinition += "\n\n" + resources.getString(R.string.label_components) + ": "
                 + components;
       }
     }
@@ -388,14 +388,15 @@ public class EntryActivity extends BaseActivity {
       return;
     }
 
+    Resources resources = getResources();
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
     mShareEntryIntent = new Intent(Intent.ACTION_SEND);
     if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
       mShareEntryIntent.putExtra(Intent.EXTRA_TITLE,
-              getResources().getString(R.string.share_popup_title_tlh));
+              resources.getString(R.string.share_popup_title_tlh));
     } else {
       mShareEntryIntent.putExtra(Intent.EXTRA_TITLE,
-              getResources().getString(R.string.share_popup_title));
+              resources.getString(R.string.share_popup_title));
     }
 
     mShareEntryIntent.setType("text/plain");
@@ -403,7 +404,7 @@ public class EntryActivity extends BaseActivity {
     mShareEntryIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
     String snippet = subject + "\n" + entry.getFormattedDefinition(/* isHtml */false);
     mShareEntryIntent.putExtra(Intent.EXTRA_TEXT,
-            snippet + "\n\n" + getResources().getString(R.string.shared_from));
+            snippet + "\n\n" + resources.getString(R.string.shared_from));
   }
 
   // Private class for handling clickable spans.

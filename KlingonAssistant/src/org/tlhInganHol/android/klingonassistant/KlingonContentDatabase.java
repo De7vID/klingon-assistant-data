@@ -823,8 +823,9 @@ public class KlingonContentDatabase {
       mHelperContext.deleteDatabase(DATABASE_NAME);
       Toast.makeText(
               mHelperContext,
-              "Database upgraded from v" + dottedVersion(existingVersion) + " to v"
-                      + dottedVersion(newVersion) + ".", Toast.LENGTH_LONG).show();
+              String.format(mHelperContext.getResources().getString(R.string.database_upgraded),
+                  dottedVersion(existingVersion), dottedVersion(newVersion)),
+              Toast.LENGTH_LONG).show();
       mNewDatabaseMessageDisplayed = true;
 
       // Show help after database upgrade.
@@ -892,8 +893,8 @@ public class KlingonContentDatabase {
         // Inform the user the database has been created.
         if (!mNewDatabaseMessageDisplayed) {
           Toast.makeText(mHelperContext,
-                  "Database v" + dottedVersion(DATABASE_VERSION) + " created.", Toast.LENGTH_LONG)
-                  .show();
+                  String.format(mHelperContext.getResources().getString(R.string.database_created),
+                    dottedVersion(DATABASE_VERSION)), Toast.LENGTH_LONG).show();
           mNewDatabaseMessageDisplayed = true;
         }
 
