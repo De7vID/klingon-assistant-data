@@ -730,8 +730,7 @@ public class KlingonContentProvider extends ContentProvider {
       // Return abbreviation for part of speech, but suppress for sentences and names.
       String pos = "";
       if (isAlternativeSpelling()) {
-        // TODO: Extract this string to xml.
-        pos = "See: ";
+        pos = resources.getString(R.string.label_see_alt_entry) + ": ";
       } else if (mBasePartOfSpeech == BasePartOfSpeechEnum.SENTENCE
               || mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN && mNounType == NounType.NAME) {
         // Ignore part of speech for names and sentences.
