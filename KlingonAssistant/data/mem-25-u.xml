@@ -217,21 +217,44 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.12.01. -->
+      <!-- Checked on: 2014.02.21. -->
       <column name="_id">38330</column>
       <column name="entry_name">'um</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be qualified</column>
       <column name="definition_de">qualifiziert, geeignet</column>
       <column name="synonyms"></column>
-      <column name="antonyms"></column>
+      <column name="antonyms">{'umHa':v}</column>
       <column name="see_also">{po':v}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">fit, worthy</column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2014.02.21. -->
+      <column name="_id">38331</column>
+      <column name="entry_name">'umHa'</column>
+      <column name="part_of_speech">v:is,deriv</column>
+      <column name="definition">be unqualified</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{'um:v}</column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes">This word is not actually defined in the {paq'batlh:src}, but its derivation and meaning are clear.</column>
+      <column name="components">{'um:v}, {-Ha':v}</column>
+      <column name="examples">
+▶ {nuv 'umHa' leghchugh veqlargh:sen:nolink}
+   {ngoS nuv 'umHa':sen:nolink}
+   {net jatlh:sen:nolink}
+  "Those unfit disintegrate
+   At the glance of Fek'lhr,
+   So it is said."[1]</column>
+      <column name="search_tags">unfit, unworthy</column>
+      <column name="source">[1] {paq'batlh:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.01. -->
