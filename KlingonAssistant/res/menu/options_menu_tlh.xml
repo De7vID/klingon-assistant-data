@@ -35,9 +35,16 @@
           android:icon="@drawable/ic_menu_float_mode"
           android:showAsAction="ifRoom" />
 
+    <item android:id="@+id/request_translation"
+          android:title="@string/menu_request_translation_tlh"
+          android:icon="@drawable/ic_menu_request_translation"
+          android:showAsAction="ifRoom" />
+
     <item android:id="@+id/about"
-        android:title="@string/menu_about_tlh" />
+          android:title="@string/menu_about_tlh"
+          android:icon="@drawable/ic_menu_help" />
 
     <item android:id="@+id/preferences"
-        android:title="@string/menu_preferences_tlh" />
+          android:title="@string/menu_preferences_tlh"
+          android:icon="@drawable/ic_menu_preferences" />
 </menu>
