@@ -455,6 +455,9 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       case android.R.id.home:
         mDrawer.toggleMenu();
         break;
+      case R.id.translation_request:
+        // Do nothing for now.
+        break;
       case R.id.float_mode:
         // Minimize the app and cause it to "float".
         Log.d(TAG, "Show floating window.");

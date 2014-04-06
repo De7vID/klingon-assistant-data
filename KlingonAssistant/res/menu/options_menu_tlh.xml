@@ -30,17 +30,15 @@
           android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
           android:visible="false" />
 
-    <item android:id="@+id/float_mode"
-          android:title="@string/menu_float_mode_tlh"
-          android:icon="@drawable/ic_menu_float_mode"
-          android:showAsAction="ifRoom" />
-
-    <!--
     <item android:id="@+id/request_translation"
           android:title="@string/menu_request_translation_tlh"
           android:icon="@drawable/ic_menu_request_translation"
           android:showAsAction="ifRoom" />
-    -->
+
+    <item android:id="@+id/float_mode"
+          android:title="@string/menu_float_mode_tlh"
+          android:icon="@drawable/ic_menu_float_mode"
+          android:showAsAction="ifRoom" />
 
     <item android:id="@+id/about"
           android:title="@string/menu_about_tlh"
