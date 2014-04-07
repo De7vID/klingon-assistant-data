@@ -24,12 +24,6 @@
           android:showAsAction="ifRoom|collapseActionView"
           android:actionViewClass="android.widget.SearchView" />
 
-    <item android:id="@+id/share"
-          android:title="@string/menu_share_tlh"
-          android:showAsAction="always"
-          android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
-          android:visible="false" />
-
     <item android:id="@+id/gplus"
           android:title="@string/menu_gplus_tlh"
           android:icon="@drawable/ic_menu_community"
@@ -38,7 +32,15 @@
     <item android:id="@+id/request_translation"
           android:title="@string/menu_request_translation_tlh"
           android:icon="@drawable/ic_menu_request_translation"
-          android:showAsAction="ifRoom" />
+          android:showAsAction="ifRoom"
+          android:enabled="false" />
+
+    <item android:id="@+id/share"
+          android:title="@string/menu_share_tlh"
+          android:icon="@drawable/ic_menu_share"
+          android:showAsAction="ifRoom"
+          android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+          android:visible="false" />
 
     <item android:id="@+id/float_mode"
           android:title="@string/menu_float_mode_tlh"

@@ -230,6 +230,11 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         inflater.inflate(R.menu.options_menu, menu);
       }
 
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+        // The Google Player Services version we are using does not work in Froyo and below.
+        MenuItem requestTranslationItem = (MenuItem) menu.findItem(R.id.request_translation);
+        requestTranslationItem.setEnabled(true);
+      }
       if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
