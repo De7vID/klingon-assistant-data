@@ -19,8 +19,6 @@ package org.tlhInganHol.android.klingonassistant;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.simonvt.menudrawer.MenuDrawer;
-import net.simonvt.menudrawer.Position;
 import android.app.SearchManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -38,11 +36,16 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SearchView;
-
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
+import com.google.android.gms.plus.PlusShare;
+import com.google.android.gms.plus.PlusShare.Builder;
+import com.google.android.gms.plus.model.people.Person;
+import java.util.Arrays;
+import net.simonvt.menudrawer.MenuDrawer;
+import net.simonvt.menudrawer.Position;
 import wei.mark.standout.StandOutWindow;
 
 
@@ -375,6 +378,22 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       startActivity(intent);
     }
 
+    // Private method to request a translation.
+    private void requestTranslation() {
+      // See: https://developers.google.com/+/mobile/android/share/prefill
+      // TODO: This should post to the "Klingon language" community under the "Requests for
+      // translation" category.
+      ArrayList<Person> recipients = new ArrayList<Person>();
+      recipients.add(PlusShare.createPerson("110116202842822234244","De'vID"));
+
+      Intent requestTranslationIntent = new PlusShare.Builder(this)
+                                                     .setType("text/plain")
+                                                     .setText("Request for Klingon translation:\n")
+                                                     .setRecipients(recipients)
+                                                     .getIntent();
+      startActivity(requestTranslationIntent);
+    }
+
     // Private method to launch a Facebook group.
     private void launchFacebook(String groupId) {
       Intent intent;
@@ -455,8 +474,8 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       case android.R.id.home:
         mDrawer.toggleMenu();
         break;
-      case R.id.translation_request:
-        // Do nothing for now.
+      case R.id.request_translation:
+        requestTranslation();
         break;
       case R.id.float_mode:
         // Minimize the app and cause it to "float".
