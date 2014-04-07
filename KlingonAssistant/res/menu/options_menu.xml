@@ -30,6 +30,11 @@
           android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
           android:visible="false" />
 
+    <item android:id="@+id/gplus"
+          android:title="@string/menu_gplus"
+          android:icon="@drawable/ic_menu_community"
+          android:showAsAction="ifRoom" />
+
     <item android:id="@+id/request_translation"
           android:title="@string/menu_request_translation"
           android:icon="@drawable/ic_menu_request_translation"

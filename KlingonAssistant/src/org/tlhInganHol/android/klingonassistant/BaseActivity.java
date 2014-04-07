@@ -385,10 +385,11 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       // translation" category.
       ArrayList<Person> recipients = new ArrayList<Person>();
       recipients.add(PlusShare.createPerson("110116202842822234244","De'vID"));
+      recipients.add(PlusShare.createPerson("+KlingonTeacher","KlingonTeacher"));
 
       Intent requestTranslationIntent = new PlusShare.Builder(this)
                                                      .setType("text/plain")
-                                                     .setText("Request for Klingon translation:\n")
+                                                     .setText("I request a Klingon translation for:\n\n")
                                                      .setRecipients(recipients)
                                                      .getIntent();
       startActivity(requestTranslationIntent);
@@ -473,6 +474,10 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         return true;
       case android.R.id.home:
         mDrawer.toggleMenu();
+        break;
+      case R.id.gplus:
+        // Launch Google+ Klingon speakers community.
+        launchExternal("https://plus.google.com/communities/108380135139365833546");
         break;
       case R.id.request_translation:
         requestTranslation();
