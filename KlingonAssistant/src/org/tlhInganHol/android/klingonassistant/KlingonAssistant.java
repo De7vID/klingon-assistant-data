@@ -16,7 +16,6 @@
 
 package org.tlhInganHol.android.klingonassistant;
 
-import android.app.Activity;
 import android.app.SearchManager;
 import android.content.ComponentName;
 import android.content.Context;
@@ -96,6 +95,7 @@ public class KlingonAssistant extends BaseActivity {
   public boolean onCreateOptionsMenu(Menu menu) {
     super.onCreateOptionsMenu(menu);
 
+    /*
     // Use ShowcaseView to run the tutorial.
     final ActionItemTarget searchTarget = new ActionItemTarget(this, R.id.search);
     final ActionItemTarget gplusTarget = new ActionItemTarget(this, R.id.gplus);
@@ -104,6 +104,8 @@ public class KlingonAssistant extends BaseActivity {
 
     // Display an introductory message.
     mTutorialCounter = 1;
+    // The ShowcaseView library doesn't seem to support setting NONE to be the first target, so work
+    // around by temporarily setting a target then setting it to NONE.
     mShowcaseView = ShowcaseView.insertShowcaseView(searchTarget, this,
                     R.string.tutorial_1_title, R.string.tutorial_1_msg, mShowcaseViewOptions);
     mShowcaseView.setShowcase(ShowcaseView.NONE);
@@ -142,6 +144,7 @@ public class KlingonAssistant extends BaseActivity {
            }
         }
     });
+    */
 
     return true;
   }
