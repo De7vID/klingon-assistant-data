@@ -85,8 +85,9 @@ public class KlingonAssistant extends BaseActivity {
     mListView = (ListView) findViewById(R.id.list);
 
     // When tutorial is running, block user actions.
-    mShowcaseViewOptions.block = true;
-    mShowcaseViewOptions.hideOnClickOutside = false;
+    // mShowcaseViewOptions.shotType = ShowcaseView.TYPE_ONE_SHOT;
+    mShowcaseViewOptions.block = false;
+    // mShowcaseViewOptions.hideOnClickOutside = false;
 
     handleIntent(getIntent());
   }
@@ -101,26 +102,39 @@ public class KlingonAssistant extends BaseActivity {
     final ActionViewTarget homeTarget = new ActionViewTarget(this, ActionViewTarget.Type.HOME);
     final ActionViewTarget overflowTarget = new ActionViewTarget(this, ActionViewTarget.Type.OVERFLOW);
 
-    // First, showcase the "Search" button.
+    // Display an introductory message.
     mTutorialCounter = 1;
-    mShowcaseView = ShowcaseView.insertShowcaseView(searchTarget, this, R.string.tutorial_title_1, R.string.tutorial_msg_1, mShowcaseViewOptions);
+    mShowcaseView = ShowcaseView.insertShowcaseView(searchTarget, this,
+                    R.string.tutorial_1_title, R.string.tutorial_1_msg, mShowcaseViewOptions);
+    mShowcaseView.setShowcase(ShowcaseView.NONE);
     mShowcaseView.overrideButtonClick(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
            mTutorialCounter++;
            switch(mTutorialCounter) {
-             case 2: // Showcase the G+ button.
-               mShowcaseView.setShowcase(gplusTarget, true);
-               mShowcaseView.setText(R.string.tutorial_title_2, R.string.tutorial_msg_2);
+             case 2: // Showcase the "Search" button.
+               mShowcaseView.setShowcase(searchTarget, true);
+               mShowcaseView.setText(R.string.tutorial_2_title, R.string.tutorial_2_msg);
                break;
              case 3: // Showcase the "home" button.
-               mDrawer.openMenu();
                mShowcaseView.setShowcase(homeTarget, true);
-               mShowcaseView.setText(R.string.tutorial_title_3, R.string.tutorial_msg_3);
+               mShowcaseView.setText(R.string.tutorial_3_title, R.string.tutorial_3_msg);
                break;
-             case 4: // Showcase the overflow menu.
-               ((Activity) view.getContext()).openOptionsMenu();
-               mShowcaseView.setShowcase(overflowTarget, true);
+             case 4: // Showcase the G+ button.
+               mShowcaseView.setShowcase(gplusTarget, true);
+               mShowcaseView.setText(R.string.tutorial_4_title, R.string.tutorial_4_msg);
+               break;
+             case 5: // Showcase the overflow menu.
+               if (isHoneycombOrAbove()) {
+                 mShowcaseView.setShowcase(overflowTarget, true);
+               } else {
+                 mShowcaseView.setShowcase(ShowcaseView.NONE);
+               }
+               mShowcaseView.setText(R.string.tutorial_5_title, R.string.tutorial_5_msg);
+               break;
+             case 6: // Final message.
+               mShowcaseView.setShowcase(ShowcaseView.NONE);
+               mShowcaseView.setText(R.string.tutorial_6_title, R.string.tutorial_6_msg);
                break;
              default:
                mShowcaseView.hide();

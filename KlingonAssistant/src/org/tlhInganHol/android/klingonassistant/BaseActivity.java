@@ -86,7 +86,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     // Request code to change FloatingWindow's data.
     public static final int DATA_CHANGED_QUERY = 0;
 
-    protected MenuDrawer mDrawer;
+    private MenuDrawer mDrawer;
 
     protected SlideMenuAdapter mAdapter;
     protected ListView mList;
@@ -230,12 +230,12 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         inflater.inflate(R.menu.options_menu, menu);
       }
 
-      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
+      if (isFroyoOrBelow()) {
         // The Google Play Services version we are using does not work in Froyo and below.
         MenuItem requestTranslationItem = (MenuItem) menu.findItem(R.id.request_translation);
         requestTranslationItem.setEnabled(true);
       }
-      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+      if (isHoneycombOrAbove()) {
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
         searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
@@ -243,6 +243,14 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       }
 
       return true;
+    }
+
+    public static boolean isFroyoOrBelow() {
+      return Build.VERSION.SDK_INT <= Build.VERSION_CODES.FROYO;
+    }
+
+    public static boolean isHoneycombOrAbove() {
+      return Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB;
     }
 
     // Set the content view for the menu drawer.
