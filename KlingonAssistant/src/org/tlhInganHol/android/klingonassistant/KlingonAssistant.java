@@ -37,7 +37,11 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.TwoLineListItem;
+import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
+import com.espian.showcaseview.ShowcaseView;
+import com.espian.showcaseview.targets.ActionItemTarget;
+import com.espian.showcaseview.targets.ActionViewTarget;
 import wei.mark.standout.StandOutWindow;
 
 /**
@@ -60,6 +64,11 @@ public class KlingonAssistant extends BaseActivity {
   // Keep the query for passing to the FloatingWindow.
   private String mQuery = "";
 
+  // ShowcaseView for the initial tutorial.
+  private ShowcaseView mShowcaseView;
+  private ShowcaseView.ConfigOptions mShowcaseViewOptions = new ShowcaseView.ConfigOptions();
+  private int mTutorialCounter;
+
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -74,7 +83,38 @@ public class KlingonAssistant extends BaseActivity {
     mTextView = (TextView) findViewById(R.id.text);
     mListView = (ListView) findViewById(R.id.list);
 
+    // When tutorial is running, block user actions.
+    mShowcaseViewOptions.block = true;
+    mShowcaseViewOptions.hideOnClickOutside = false;
+
     handleIntent(getIntent());
+  }
+
+  @Override
+  public boolean onCreateOptionsMenu(Menu menu) {
+    super.onCreateOptionsMenu(menu);
+
+    // Use ShowcaseView to run the tutorial.
+    mTutorialCounter = 0;
+    ActionItemTarget target = new ActionItemTarget(this, R.id.search);
+    mShowcaseView = ShowcaseView.insertShowcaseView(target, this, R.string.tutorial_title_1, R.string.tutorial_msg_1, mShowcaseViewOptions);
+    mShowcaseView.overrideButtonClick(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+           switch(mTutorialCounter) {
+             case 0:
+               // ActionViewTarget target = new ActionViewTarget(this, ActionViewTarget.Type.OVERFLOW);
+               // mShowcaseView.setShowcase(target, true);
+               break;
+             default:
+               mShowcaseView.hide();
+               break;
+           }
+           mTutorialCounter++;
+        }
+    });
+
+    return true;
   }
 
   @Override
