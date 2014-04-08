@@ -136,6 +136,12 @@ public class KlingonAssistant extends BaseActivity {
              default:
                mShowcaseView.hide();
                displayHelp(QUERY_FOR_ABOUT);
+
+               // Unset the flag since the help has been shown.
+               SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(
+                       getBaseContext()).edit();
+               sharedPrefsEd.putBoolean(KEY_SHOW_HELP, false);
+               sharedPrefsEd.commit();
                break;
            }
         }
@@ -216,13 +222,6 @@ public class KlingonAssistant extends BaseActivity {
         try {
           // Show the help screen, but only after the tutorial.
           setupTutorial();
-
-          // Unset the flag since the help has been shown.
-          SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(
-                  getBaseContext()).edit();
-          sharedPrefsEd.putBoolean(KEY_SHOW_HELP, false);
-          sharedPrefsEd.commit();
-
         } catch (Exception e) {
           // No big deal if help screen isn't shown on start. Do nothing.
         }

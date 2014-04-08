@@ -18,16 +18,17 @@
 <!-- Options Menu for SearchableActivity and EntryActivity.
  -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Search and G+ must always been shown since they are referred to by the tutorial. -->
     <item android:id="@+id/search"
           android:title="@string/menu_search"
           android:icon="@drawable/ic_menu_search"
-          android:showAsAction="ifRoom|collapseActionView"
+          android:showAsAction="always|collapseActionView"
           android:actionViewClass="android.widget.SearchView" />
 
     <item android:id="@+id/gplus"
           android:title="@string/menu_gplus"
           android:icon="@drawable/ic_menu_community"
-          android:showAsAction="ifRoom" />
+          android:showAsAction="always" />
 
     <item android:id="@+id/request_translation"
           android:title="@string/menu_request_translation"

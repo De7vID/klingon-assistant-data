@@ -21,13 +21,13 @@
     <item android:id="@+id/search"
           android:title="@string/menu_search_tlh"
           android:icon="@drawable/ic_menu_search"
-          android:showAsAction="ifRoom|collapseActionView"
+          android:showAsAction="always|collapseActionView"
           android:actionViewClass="android.widget.SearchView" />
 
     <item android:id="@+id/gplus"
           android:title="@string/menu_gplus_tlh"
           android:icon="@drawable/ic_menu_community"
-          android:showAsAction="ifRoom" />
+          android:showAsAction="always" />
 
     <item android:id="@+id/request_translation"
           android:title="@string/menu_request_translation_tlh"
