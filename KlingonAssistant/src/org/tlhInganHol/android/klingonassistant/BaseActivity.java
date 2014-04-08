@@ -246,7 +246,9 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     }
 
     public static boolean isFroyoOrBelow() {
-      return Build.VERSION.SDK_INT <= Build.VERSION_CODES.FROYO;
+      // For some reason, comparing Build.VERSION.SDK_INT <= Build.VERSION_CODES.FROYO
+      // doesn't return the correct result.
+      return Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD;
     }
 
     public static boolean isHoneycombOrAbove() {
