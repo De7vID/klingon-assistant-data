@@ -93,6 +93,16 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
     private int mActivePosition = 0;
 
+    // Helper method to determine whether the device is (likely) a tablet in horizontal orientation.
+    public boolean isHorizontalTablet() {
+        Configuration config = getResources().getConfiguration();
+        if (config.orientation == Configuration.ORIENTATION_LANDSCAPE &&
+            (config.screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE) {
+            return true;
+        }
+        return false;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -111,10 +121,8 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
         // If the device is in landscape orientation and the screen size is large (or bigger), then
         // make the slide-out menu static. Otherwise, hide it by default.
-        Configuration config = getResources().getConfiguration();
         MenuDrawer.Type drawerType = MenuDrawer.Type.BEHIND;
-        if (config.orientation == Configuration.ORIENTATION_LANDSCAPE &&
-            (config.screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK) >= Configuration.SCREENLAYOUT_SIZE_LARGE) {
+        if (isHorizontalTablet()) {
             drawerType = MenuDrawer.Type.STATIC;
         }
         mDrawer = MenuDrawer.attach(this, drawerType, Position.LEFT, MenuDrawer.MENU_DRAG_CONTENT);
