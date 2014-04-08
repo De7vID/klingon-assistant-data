@@ -96,15 +96,16 @@ public class KlingonAssistant extends BaseActivity {
 
     // Use ShowcaseView to run the tutorial.
     mTutorialCounter = 0;
-    ActionItemTarget target = new ActionItemTarget(this, R.id.search);
-    mShowcaseView = ShowcaseView.insertShowcaseView(target, this, R.string.tutorial_title_1, R.string.tutorial_msg_1, mShowcaseViewOptions);
+    final ActionItemTarget searchTarget = new ActionItemTarget(this, R.id.search);
+    final ActionItemTarget gplusTarget = new ActionItemTarget(this, R.id.gplus);
+    mShowcaseView = ShowcaseView.insertShowcaseView(searchTarget, this, R.string.tutorial_title_1, R.string.tutorial_msg_1, mShowcaseViewOptions);
     mShowcaseView.overrideButtonClick(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
            switch(mTutorialCounter) {
              case 0:
-               // ActionViewTarget target = new ActionViewTarget(this, ActionViewTarget.Type.OVERFLOW);
-               // mShowcaseView.setShowcase(target, true);
+               mShowcaseView.setShowcase(gplusTarget, true);
+               mShowcaseView.setText(R.string.tutorial_title_2, R.string.tutorial_msg_2);
                break;
              default:
                mShowcaseView.hide();
