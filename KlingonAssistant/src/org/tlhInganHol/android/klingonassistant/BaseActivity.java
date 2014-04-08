@@ -86,7 +86,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     // Request code to change FloatingWindow's data.
     public static final int DATA_CHANGED_QUERY = 0;
 
-    private MenuDrawer mDrawer;
+    protected MenuDrawer mDrawer;
 
     protected SlideMenuAdapter mAdapter;
     protected ListView mList;

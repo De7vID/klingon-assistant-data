@@ -16,6 +16,7 @@
 
 package org.tlhInganHol.android.klingonassistant;
 
+import android.app.Activity;
 import android.app.SearchManager;
 import android.content.ComponentName;
 import android.content.Context;
@@ -95,23 +96,36 @@ public class KlingonAssistant extends BaseActivity {
     super.onCreateOptionsMenu(menu);
 
     // Use ShowcaseView to run the tutorial.
-    mTutorialCounter = 0;
     final ActionItemTarget searchTarget = new ActionItemTarget(this, R.id.search);
     final ActionItemTarget gplusTarget = new ActionItemTarget(this, R.id.gplus);
+    final ActionViewTarget homeTarget = new ActionViewTarget(this, ActionViewTarget.Type.HOME);
+    final ActionViewTarget overflowTarget = new ActionViewTarget(this, ActionViewTarget.Type.OVERFLOW);
+
+    // First, showcase the "Search" button.
+    mTutorialCounter = 1;
     mShowcaseView = ShowcaseView.insertShowcaseView(searchTarget, this, R.string.tutorial_title_1, R.string.tutorial_msg_1, mShowcaseViewOptions);
     mShowcaseView.overrideButtonClick(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
+           mTutorialCounter++;
            switch(mTutorialCounter) {
-             case 0:
+             case 2: // Showcase the G+ button.
                mShowcaseView.setShowcase(gplusTarget, true);
                mShowcaseView.setText(R.string.tutorial_title_2, R.string.tutorial_msg_2);
+               break;
+             case 3: // Showcase the "home" button.
+               mDrawer.openMenu();
+               mShowcaseView.setShowcase(homeTarget, true);
+               mShowcaseView.setText(R.string.tutorial_title_3, R.string.tutorial_msg_3);
+               break;
+             case 4: // Showcase the overflow menu.
+               ((Activity) view.getContext()).openOptionsMenu();
+               mShowcaseView.setShowcase(overflowTarget, true);
                break;
              default:
                mShowcaseView.hide();
                break;
            }
-           mTutorialCounter++;
         }
     });
 
