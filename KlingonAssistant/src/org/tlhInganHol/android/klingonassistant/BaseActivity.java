@@ -231,7 +231,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       }
 
       if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
-        // The Google Player Services version we are using does not work in Froyo and below.
+        // The Google Play Services version we are using does not work in Froyo and below.
         MenuItem requestTranslationItem = (MenuItem) menu.findItem(R.id.request_translation);
         requestTranslationItem.setEnabled(true);
       }
@@ -386,11 +386,11 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     // Private method to request a translation.
     private void requestTranslation() {
       // See: https://developers.google.com/+/mobile/android/share/prefill
-      // TODO: This should post to the "Klingon language" community under the "Requests for
+      // TODO: Ideally, this should post to the "Klingon language" community under the "Requests for
       // translation" category.
       ArrayList<Person> recipients = new ArrayList<Person>();
-      recipients.add(PlusShare.createPerson("110116202842822234244","De'vID"));
       recipients.add(PlusShare.createPerson("+KlingonTeacher","KlingonTeacher"));
+      recipients.add(PlusShare.createPerson("110116202842822234244","De'vID"));
 
       Intent requestTranslationIntent = new PlusShare.Builder(this)
                                                      .setType("text/plain")
