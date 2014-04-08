@@ -38,10 +38,14 @@ import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.widget.ShareActionProvider;
+import com.espian.showcaseview.ShowcaseView;
+import com.espian.showcaseview.targets.ActionItemTarget;
+import com.espian.showcaseview.targets.ActionViewTarget;
 import wei.mark.standout.StandOutWindow;
 
 /**
@@ -56,6 +60,11 @@ public class EntryActivity extends BaseActivity {
   // The parent query that this entry is a part of.
   private String mParentQuery = null;
   private String mEntryName = null;
+
+  // ShowcaseView for the initial tutorial.
+  private ShowcaseView mShowcaseView;
+  private ShowcaseView.ConfigOptions mShowcaseViewOptions = new ShowcaseView.ConfigOptions();
+  private int mTutorialCounter;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -358,6 +367,9 @@ public class EntryActivity extends BaseActivity {
     entryText.setText(ssb);
     entryText.setMovementMethod(LinkMovementMethod.getInstance());
 
+    // When tutorial is running, block user actions.
+    mShowcaseViewOptions.block = true;
+    mShowcaseViewOptions.hideOnClickOutside = true;
   }
 
   /*
@@ -379,7 +391,66 @@ public class EntryActivity extends BaseActivity {
       shareActionProvider.setShareIntent(mShareEntryIntent);
       shareButton.setVisible(true);
     }
+
+    SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+    if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_HELP, /* default */true)) {
+        Toast.makeText(getBaseContext(), "Creating tutorial...", Toast.LENGTH_LONG).show();
+        setupTutorial();
+    }
+
     return true;
+  }
+
+  private void setupTutorial() {
+
+    // Use ShowcaseView to run the tutorial.
+    final ActionItemTarget searchTarget = new ActionItemTarget(this, R.id.search);
+    final ActionItemTarget gplusTarget = new ActionItemTarget(this, R.id.gplus);
+    final ActionViewTarget homeTarget = new ActionViewTarget(this, ActionViewTarget.Type.HOME);
+    final ActionViewTarget overflowTarget = new ActionViewTarget(this, ActionViewTarget.Type.OVERFLOW);
+
+    // Display an introductory message.
+    mTutorialCounter = 1;
+    // The ShowcaseView library doesn't seem to support setting NONE to be the first target, so work
+    // around by temporarily setting a target then setting it to NONE.
+    mShowcaseView = ShowcaseView.insertShowcaseView(searchTarget, this,
+                    R.string.tutorial_1_title, R.string.tutorial_1_msg, mShowcaseViewOptions);
+    mShowcaseView.setShowcase(ShowcaseView.NONE);
+    mShowcaseView.overrideButtonClick(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+           mTutorialCounter++;
+           switch(mTutorialCounter) {
+             case 2: // Showcase the "Search" button.
+               mShowcaseView.setShowcase(searchTarget, true);
+               mShowcaseView.setText(R.string.tutorial_2_title, R.string.tutorial_2_msg);
+               break;
+             case 3: // Showcase the "home" button.
+               mShowcaseView.setShowcase(homeTarget, true);
+               mShowcaseView.setText(R.string.tutorial_3_title, R.string.tutorial_3_msg);
+               break;
+             case 4: // Showcase the G+ button.
+               mShowcaseView.setShowcase(gplusTarget, true);
+               mShowcaseView.setText(R.string.tutorial_4_title, R.string.tutorial_4_msg);
+               break;
+             case 5: // Showcase the overflow menu.
+               if (isHoneycombOrAbove()) {
+                 mShowcaseView.setShowcase(overflowTarget, true);
+               } else {
+                 mShowcaseView.setShowcase(ShowcaseView.NONE);
+               }
+               mShowcaseView.setText(R.string.tutorial_5_title, R.string.tutorial_5_msg);
+               break;
+             case 6: // Final message.
+               mShowcaseView.setShowcase(ShowcaseView.NONE);
+               mShowcaseView.setText(R.string.tutorial_6_title, R.string.tutorial_6_msg);
+               break;
+             default:
+               mShowcaseView.hide();
+               break;
+           }
+        }
+    });
   }
 
   // Set the share intent for this entry.

@@ -30,6 +30,9 @@ import com.actionbarsherlock.view.MenuItem;
 public class Preferences extends SherlockPreferenceActivity implements
         OnSharedPreferenceChangeListener {
 
+  // Preference key for whether to show help.
+  public static final String  KEY_SHOW_HELP                    = "show_help";
+
   // Language preferences.
   public static final String KEY_KLINGON_UI_CHECKBOX_PREFERENCE                  = "klingon_ui_checkbox_preference";
   public static final String KEY_KLINGON_FONT_CHECKBOX_PREFERENCE                = "klingon_font_checkbox_preference";

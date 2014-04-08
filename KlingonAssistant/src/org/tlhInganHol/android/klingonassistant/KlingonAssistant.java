@@ -37,11 +37,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.TwoLineListItem;
-import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-import com.espian.showcaseview.ShowcaseView;
-import com.espian.showcaseview.targets.ActionItemTarget;
-import com.espian.showcaseview.targets.ActionViewTarget;
 import wei.mark.standout.StandOutWindow;
 
 /**
@@ -50,9 +46,6 @@ import wei.mark.standout.StandOutWindow;
  */
 public class KlingonAssistant extends BaseActivity {
   private static final String TAG = "KlingonAssistant";
-
-  // Preference key for whether to show help.
-  public static final String  KEY_SHOW_HELP                    = "show_help";
 
   // This holds the {pIqaD} typeface.
   private static Typeface     mKlingonFontTypeface             = null;
@@ -63,11 +56,6 @@ public class KlingonAssistant extends BaseActivity {
 
   // Keep the query for passing to the FloatingWindow.
   private String mQuery = "";
-
-  // ShowcaseView for the initial tutorial.
-  private ShowcaseView mShowcaseView;
-  private ShowcaseView.ConfigOptions mShowcaseViewOptions = new ShowcaseView.ConfigOptions();
-  private int mTutorialCounter;
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
@@ -83,70 +71,7 @@ public class KlingonAssistant extends BaseActivity {
     mTextView = (TextView) findViewById(R.id.text);
     mListView = (ListView) findViewById(R.id.list);
 
-    // When tutorial is running, block user actions.
-    // mShowcaseViewOptions.shotType = ShowcaseView.TYPE_ONE_SHOT;
-    mShowcaseViewOptions.block = false;
-    // mShowcaseViewOptions.hideOnClickOutside = false;
-
     handleIntent(getIntent());
-  }
-
-  @Override
-  public boolean onCreateOptionsMenu(Menu menu) {
-    super.onCreateOptionsMenu(menu);
-
-    /*
-    // Use ShowcaseView to run the tutorial.
-    final ActionItemTarget searchTarget = new ActionItemTarget(this, R.id.search);
-    final ActionItemTarget gplusTarget = new ActionItemTarget(this, R.id.gplus);
-    final ActionViewTarget homeTarget = new ActionViewTarget(this, ActionViewTarget.Type.HOME);
-    final ActionViewTarget overflowTarget = new ActionViewTarget(this, ActionViewTarget.Type.OVERFLOW);
-
-    // Display an introductory message.
-    mTutorialCounter = 1;
-    // The ShowcaseView library doesn't seem to support setting NONE to be the first target, so work
-    // around by temporarily setting a target then setting it to NONE.
-    mShowcaseView = ShowcaseView.insertShowcaseView(searchTarget, this,
-                    R.string.tutorial_1_title, R.string.tutorial_1_msg, mShowcaseViewOptions);
-    mShowcaseView.setShowcase(ShowcaseView.NONE);
-    mShowcaseView.overrideButtonClick(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-           mTutorialCounter++;
-           switch(mTutorialCounter) {
-             case 2: // Showcase the "Search" button.
-               mShowcaseView.setShowcase(searchTarget, true);
-               mShowcaseView.setText(R.string.tutorial_2_title, R.string.tutorial_2_msg);
-               break;
-             case 3: // Showcase the "home" button.
-               mShowcaseView.setShowcase(homeTarget, true);
-               mShowcaseView.setText(R.string.tutorial_3_title, R.string.tutorial_3_msg);
-               break;
-             case 4: // Showcase the G+ button.
-               mShowcaseView.setShowcase(gplusTarget, true);
-               mShowcaseView.setText(R.string.tutorial_4_title, R.string.tutorial_4_msg);
-               break;
-             case 5: // Showcase the overflow menu.
-               if (isHoneycombOrAbove()) {
-                 mShowcaseView.setShowcase(overflowTarget, true);
-               } else {
-                 mShowcaseView.setShowcase(ShowcaseView.NONE);
-               }
-               mShowcaseView.setText(R.string.tutorial_5_title, R.string.tutorial_5_msg);
-               break;
-             case 6: // Final message.
-               mShowcaseView.setShowcase(ShowcaseView.NONE);
-               mShowcaseView.setText(R.string.tutorial_6_title, R.string.tutorial_6_msg);
-               break;
-             default:
-               mShowcaseView.hide();
-               break;
-           }
-        }
-    });
-    */
-
-    return true;
   }
 
   @Override
@@ -219,7 +144,7 @@ public class KlingonAssistant extends BaseActivity {
       // an older version of this program.
       SharedPreferences sharedPrefs = PreferenceManager
               .getDefaultSharedPreferences(getBaseContext());
-      if (sharedPrefs.getBoolean(KEY_SHOW_HELP, /* default */true)) {
+      if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_HELP, /* default */true)) {
         try {
           // Attempt to show it.
           displayHelp(QUERY_FOR_ABOUT);
@@ -227,7 +152,7 @@ public class KlingonAssistant extends BaseActivity {
           // Unset the flag since the help has been shown.
           SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(
                   getBaseContext()).edit();
-          sharedPrefsEd.putBoolean(KEY_SHOW_HELP, false);
+          sharedPrefsEd.putBoolean(Preferences.KEY_SHOW_HELP, false);
           sharedPrefsEd.commit();
 
         } catch (Exception e) {
