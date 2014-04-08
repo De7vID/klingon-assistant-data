@@ -85,7 +85,7 @@ public class KlingonAssistant extends BaseActivity {
 
     // When tutorial is running, block user actions.
     mShowcaseViewOptions.block = true;
-    mShowcaseViewOptions.hideOnClickOutside = true;
+    mShowcaseViewOptions.hideOnClickOutside = false;
 
     handleIntent(getIntent());
   }
@@ -97,6 +97,7 @@ public class KlingonAssistant extends BaseActivity {
     final ActionViewTarget homeTarget = new ActionViewTarget(this, ActionViewTarget.Type.HOME);
     final ActionViewTarget overflowTarget = new ActionViewTarget(this, ActionViewTarget.Type.OVERFLOW);
 
+    // TODO: Change the display depending on isHorizontalTablet().
     // Display an introductory message.
     mTutorialCounter = 1;
     // The ShowcaseView library doesn't seem to support setting NONE to be the first target, so work

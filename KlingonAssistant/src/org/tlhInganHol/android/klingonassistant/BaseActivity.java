@@ -155,11 +155,13 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
                 items.add(new SlideMenuItem(R.string.media_4_title_tlh, R.id.media_4, 0));
                 items.add(new SlideMenuItem(R.string.media_5_title_tlh, R.id.media_5, 0));
                 items.add(new SlideMenuItem(R.string.media_6_title_tlh, R.id.media_6, 0));
+            /*
             items.add(new SlideMenuCategory(R.string.menu_social_tlh));
                 items.add(new SlideMenuItem(R.string.menu_gplus_tlh, R.id.gplus, 0));
                 items.add(new SlideMenuItem(R.string.menu_facebook_tlh, R.id.facebook, 0));
                 items.add(new SlideMenuItem(R.string.menu_kag_tlh, R.id.kag, 0));
                 items.add(new SlideMenuItem(R.string.menu_kidc_tlh, R.id.kidc, 0));
+            */
         } else {
             items.add(new SlideMenuCategory(R.string.menu_reference));
                 items.add(new SlideMenuItem(R.string.menu_pronunciation, R.id.pronunciation, 0));
@@ -188,11 +190,13 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
                 items.add(new SlideMenuItem(R.string.media_4_title, R.id.media_4, 0));
                 items.add(new SlideMenuItem(R.string.media_5_title, R.id.media_5, 0));
                 items.add(new SlideMenuItem(R.string.media_6_title, R.id.media_6, 0));
+            /*
             items.add(new SlideMenuCategory(R.string.menu_social));
                 items.add(new SlideMenuItem(R.string.menu_gplus, R.id.gplus, 0));
                 items.add(new SlideMenuItem(R.string.menu_facebook, R.id.facebook, 0));
                 items.add(new SlideMenuItem(R.string.menu_kag, R.id.kag, 0));
                 items.add(new SlideMenuItem(R.string.menu_kidc, R.id.kidc, 0));
+            */
         }
         mList = new ListView(this);
 
@@ -314,6 +318,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
           break;
 
         // Handle social networks.
+        /*
         case R.id.gplus:
           // Launch Google+ Klingon speakers community.
           launchExternal("https://plus.google.com/communities/108380135139365833546");
@@ -333,6 +338,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
           // Launch KIDC's Klingon Imperial Forums.
           launchExternal("http://www.klingon.org/smboard/index.php?board=6.0");
           break;
+        */
 
         // Handle classes of phrases.
         case R.id.empire_union_day:
