@@ -30,6 +30,9 @@ import com.actionbarsherlock.view.MenuItem;
 public class Preferences extends SherlockPreferenceActivity implements
         OnSharedPreferenceChangeListener {
 
+  // Tutorial preferences.
+  public static final String KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE                = "run_tutorial_checkbox_preference";
+
   // Language preferences.
   public static final String KEY_KLINGON_UI_CHECKBOX_PREFERENCE                  = "klingon_ui_checkbox_preference";
   public static final String KEY_KLINGON_FONT_CHECKBOX_PREFERENCE                = "klingon_font_checkbox_preference";

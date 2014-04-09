@@ -839,7 +839,7 @@ public class KlingonContentDatabase {
     }
 
     private void setShowHelpFlag() {
-      // Set the flag to show the help screen.
+      // Set the flag to show the help screen (but not necessarily the tutorial).
       SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(
               mHelperContext).edit();
       sharedPrefsEd.putBoolean(KlingonAssistant.KEY_SHOW_HELP, true);

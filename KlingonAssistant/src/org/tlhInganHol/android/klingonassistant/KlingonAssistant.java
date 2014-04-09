@@ -141,10 +141,11 @@ public class KlingonAssistant extends BaseActivity {
                mShowcaseView.hide();
                displayHelp(QUERY_FOR_ABOUT);
 
-               // Unset the flag since the help has been shown.
+               // Unset the two flags since the tutorial and help have been shown.
                SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(
                        getBaseContext()).edit();
                sharedPrefsEd.putBoolean(KEY_SHOW_HELP, false);
+               sharedPrefsEd.putBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, false);
                sharedPrefsEd.commit();
                break;
            }
@@ -222,13 +223,22 @@ public class KlingonAssistant extends BaseActivity {
       // an older version of this program.
       SharedPreferences sharedPrefs = PreferenceManager
               .getDefaultSharedPreferences(getBaseContext());
-      if (sharedPrefs.getBoolean(KEY_SHOW_HELP, /* default */true)) {
-        try {
-          // Show the help screen, but only after the tutorial.
+      try {
+        if (sharedPrefs.getBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, /* default */true)) {
+          // Show the tutorial (ending on the help screen).
           setupTutorial();
-        } catch (Exception e) {
-          // No big deal if help screen isn't shown on start. Do nothing.
+        } else if (sharedPrefs.getBoolean(KEY_SHOW_HELP, /* default */true)) {
+          // Show just the help screen.
+          displayHelp(QUERY_FOR_ABOUT);
+
+          // Unset the help flag since it's been shown.
+          SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(
+                  getBaseContext()).edit();
+          sharedPrefsEd.putBoolean(KEY_SHOW_HELP, false);
+          sharedPrefsEd.commit();
         }
+      } catch (Exception e) {
+        // No big deal if help screen isn't shown on start. Do nothing.
       }
     }
   }
