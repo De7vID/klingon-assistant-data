@@ -3,6 +3,17 @@
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!--
+    <PreferenceCategory
+            android:title="@string/tutorial_preferences">
+        <CheckBoxPreference
+                android:key="run_tutorial_checkbox_preference"
+                android:title="@string/run_tutorial_preference_title"
+                android:summary="@string/run_tutorial_preference_summary"
+                android:defaultValue="true" />
+    </PreferenceCategory>
+    -->
+
     <PreferenceCategory
             android:title="@string/language_preferences">
 

@@ -130,9 +130,12 @@ public class KlingonAssistant extends BaseActivity {
                }
                mShowcaseView.setText(R.string.tutorial_5_title, R.string.tutorial_5_msg);
                break;
-             case 6: // Final message.
-               mShowcaseView.setShowcase(ShowcaseView.NONE);
+             case 6: // Continue about the menu.
                mShowcaseView.setText(R.string.tutorial_6_title, R.string.tutorial_6_msg);
+               break;
+             case 7: // Final message.
+               mShowcaseView.setShowcase(ShowcaseView.NONE);
+               mShowcaseView.setText(R.string.tutorial_7_title, R.string.tutorial_7_msg);
                break;
              default:
                mShowcaseView.hide();
