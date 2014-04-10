@@ -37,11 +37,12 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.TwoLineListItem;
-import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
-import com.espian.showcaseview.ShowcaseView;
-import com.espian.showcaseview.targets.ActionItemTarget;
-import com.espian.showcaseview.targets.ActionViewTarget;
+// TUTORIAL
+// import com.actionbarsherlock.view.Menu;
+// import com.espian.showcaseview.ShowcaseView;
+// import com.espian.showcaseview.targets.ActionItemTarget;
+// import com.espian.showcaseview.targets.ActionViewTarget;
 import wei.mark.standout.StandOutWindow;
 
 /**
@@ -65,9 +66,11 @@ public class KlingonAssistant extends BaseActivity {
   private String mQuery = "";
 
   // ShowcaseView for the initial tutorial.
+  /* TUTORIAL
   private ShowcaseView mShowcaseView;
   private ShowcaseView.ConfigOptions mShowcaseViewOptions = new ShowcaseView.ConfigOptions();
   private int mTutorialCounter;
+  */
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
@@ -84,12 +87,15 @@ public class KlingonAssistant extends BaseActivity {
     mListView = (ListView) findViewById(R.id.list);
 
     // When tutorial is running, block user actions.
+    /* TUTORIAL
     mShowcaseViewOptions.block = true;
     mShowcaseViewOptions.hideOnClickOutside = false;
+    */
 
     handleIntent(getIntent());
   }
 
+  /* TUTORIAL
   private void setupTutorial() {
     // Use ShowcaseView to run the tutorial.
     final ActionItemTarget searchTarget = new ActionItemTarget(this, R.id.search);
@@ -152,6 +158,7 @@ public class KlingonAssistant extends BaseActivity {
         }
     });
   }
+  */
 
   @Override
   protected void onNewIntent(Intent intent) {
@@ -226,7 +233,8 @@ public class KlingonAssistant extends BaseActivity {
       try {
         if (sharedPrefs.getBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, /* default */true)) {
           // Show the tutorial (ending on the help screen).
-          setupTutorial();
+          // TUTORIAL
+          // setupTutorial();
         } else if (sharedPrefs.getBoolean(KEY_SHOW_HELP, /* default */true)) {
           // Show just the help screen.
           displayHelp(QUERY_FOR_ABOUT);

@@ -40,10 +40,11 @@ import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
-import com.google.android.gms.plus.PlusShare;
-import com.google.android.gms.plus.PlusShare.Builder;
-import com.google.android.gms.plus.model.people.Person;
-import java.util.Arrays;
+// TUTORIAL
+// import com.google.android.gms.plus.PlusShare;
+// import com.google.android.gms.plus.PlusShare.Builder;
+// import com.google.android.gms.plus.model.people.Person;
+// import java.util.Arrays;
 import net.simonvt.menudrawer.MenuDrawer;
 import net.simonvt.menudrawer.Position;
 import wei.mark.standout.StandOutWindow;
@@ -242,11 +243,13 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         inflater.inflate(R.menu.options_menu, menu);
       }
 
+      /* TUTORIAL
       if (isFroyoOrBelow()) {
         // The Google Play Services version we are using does not work in Froyo and below.
         MenuItem requestTranslationItem = (MenuItem) menu.findItem(R.id.request_translation);
         requestTranslationItem.setEnabled(true);
       }
+      */
       if (isHoneycombOrAbove()) {
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
@@ -408,6 +411,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     }
 
     // Private method to request a translation.
+    /* TUTORIAL
     private void requestTranslation() {
       // See: https://developers.google.com/+/mobile/android/share/prefill
       // TODO: Ideally, this should post to the "Klingon language" community under the "Requests for
@@ -423,6 +427,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
                                                      .getIntent();
       startActivity(requestTranslationIntent);
     }
+    */
 
     // Private method to launch a Facebook group.
     private void launchFacebook(String groupId) {
@@ -508,9 +513,11 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         // Launch Google+ Klingon speakers community.
         launchExternal("https://plus.google.com/communities/108380135139365833546");
         break;
+      /* TUTORIAL
       case R.id.request_translation:
         requestTranslation();
         break;
+      */
       case R.id.float_mode:
         // Minimize the app and cause it to "float".
         Log.d(TAG, "Show floating window.");
