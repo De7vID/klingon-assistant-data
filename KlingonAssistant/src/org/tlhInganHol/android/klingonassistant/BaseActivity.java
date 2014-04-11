@@ -35,6 +35,16 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import net.simonvt.menudrawer.MenuDrawer;
+import net.simonvt.menudrawer.Position;
+import wei.mark.standout.StandOutWindow;
+
+// ABS:
+// import android.support.v4.view.MenuItemCompat;
+// import android.support.v7.app.ActionBarActivity;
+// import android.view.Menu;
+// import android.view.MenuInflater;
+// import android.view.MenuItem;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
@@ -45,11 +55,9 @@ import com.actionbarsherlock.widget.SearchView;
 // import com.google.android.gms.plus.PlusShare.Builder;
 // import com.google.android.gms.plus.model.people.Person;
 // import java.util.Arrays;
-import net.simonvt.menudrawer.MenuDrawer;
-import net.simonvt.menudrawer.Position;
-import wei.mark.standout.StandOutWindow;
 
 
+// ABS: s/SherlockActivity/ActionBarActivity
 public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.MenuListener {
     private static final String TAG = "BaseActivity";
 
@@ -235,6 +243,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+      // ABS: getMenuInflater
       MenuInflater inflater = getSupportMenuInflater();
       SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
       if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
@@ -247,11 +256,13 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       if (!isFroyoOrBelow()) {
         // The Google Play Services version we are using does not work in Froyo and below.
         MenuItem requestTranslationItem = (MenuItem) menu.findItem(R.id.request_translation);
+        // ABS: MenuItemCompat.setEnabled(requestTranslationItem, true);
         requestTranslationItem.setEnabled(true);
       }
       */
       if (isHoneycombOrAbove()) {
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+        // ABS: SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.search));
         SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
         searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
         searchView.setIconifiedByDefault(false);

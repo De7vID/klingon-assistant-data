@@ -18,6 +18,10 @@
 <!-- Options Menu for SearchableActivity and EntryActivity.
  -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ABS:
+      xmlns:ka="http://schemas.android.com/apk/res-auto"
+    -->
+    <!-- ABS: s/android/ka for showAsAction and actionViewClass; android.widget.SearchView -->
     <!-- Search and G+ must always been shown since they are referred to by the tutorial. -->
     <item android:id="@+id/search"
           android:title="@string/menu_search"

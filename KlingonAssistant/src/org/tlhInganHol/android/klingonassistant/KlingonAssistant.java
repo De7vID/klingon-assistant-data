@@ -37,13 +37,17 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.TwoLineListItem;
+import wei.mark.standout.StandOutWindow;
+
+// ABS:
+// import android.view.MenuItem;
 import com.actionbarsherlock.view.MenuItem;
+
 // TUTORIAL
 // import com.actionbarsherlock.view.Menu;
 // import com.espian.showcaseview.ShowcaseView;
 // import com.espian.showcaseview.targets.ActionItemTarget;
 // import com.espian.showcaseview.targets.ActionViewTarget;
-import wei.mark.standout.StandOutWindow;
 
 /**
  * The main activity for the dictionary. Displays search results triggered by the search dialog and

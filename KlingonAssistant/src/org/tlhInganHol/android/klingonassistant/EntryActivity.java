@@ -38,11 +38,16 @@ import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
 import android.util.Log;
 import android.view.View;
+import wei.mark.standout.StandOutWindow;
 
+// ABS:
+// import android.support.v4.view.MenuItemCompat;
+// import android.support.v7.widget.ShareActionProvider;
+// import android.view.Menu;
+// import android.view.MenuItem;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.widget.ShareActionProvider;
-import wei.mark.standout.StandOutWindow;
 
 /**
  * Displays an entry and its definition.
@@ -372,6 +377,7 @@ public class EntryActivity extends BaseActivity {
   public boolean onCreateOptionsMenu(Menu menu) {
     super.onCreateOptionsMenu(menu);
     MenuItem shareButton = menu.findItem(R.id.share);
+    // ABS: ShareActionProvider shareActionProvider = (ShareActionProvider) MenuItemCompat.getActionProvider(shareButton);
     ShareActionProvider shareActionProvider = (ShareActionProvider) shareButton.getActionProvider();
 
     if (shareActionProvider != null && mShareEntryIntent != null) {

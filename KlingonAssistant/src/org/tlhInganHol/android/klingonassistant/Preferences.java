@@ -23,10 +23,15 @@ import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 
+// ABS:
+// import android.preference.PreferenceActivity;
+// import android.support.v7.app.ActionBar;
+// import android.view.MenuItem;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockPreferenceActivity;
 import com.actionbarsherlock.view.MenuItem;
 
+// ABS: This needs to use parts of PreferenceActivity and also ActionBarActivity.
 public class Preferences extends SherlockPreferenceActivity implements
         OnSharedPreferenceChangeListener {
 
@@ -58,6 +63,7 @@ public class Preferences extends SherlockPreferenceActivity implements
     // Load the preferences from an XML resource.
     addPreferencesFromResource(R.xml.preferences);
 
+    // ABS: getActionBar()
     ActionBar actionBar = getSupportActionBar();
     actionBar.setDisplayHomeAsUpEnabled(true);
   }
