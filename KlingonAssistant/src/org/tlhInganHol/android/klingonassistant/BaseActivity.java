@@ -244,7 +244,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       }
 
       /* TUTORIAL
-      if (isFroyoOrBelow()) {
+      if (!isFroyoOrBelow()) {
         // The Google Play Services version we are using does not work in Froyo and below.
         MenuItem requestTranslationItem = (MenuItem) menu.findItem(R.id.request_translation);
         requestTranslationItem.setEnabled(true);
@@ -261,9 +261,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     }
 
     public static boolean isFroyoOrBelow() {
-      // For some reason, comparing Build.VERSION.SDK_INT <= Build.VERSION_CODES.FROYO
-      // doesn't return the correct result.
-      return Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD;
+      return Build.VERSION.SDK_INT <= Build.VERSION_CODES.FROYO;
     }
 
     public static boolean isHoneycombOrAbove() {
