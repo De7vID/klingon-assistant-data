@@ -50,6 +50,7 @@ import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.widget.SearchView;
+
 // TUTORIAL
 // import com.google.android.gms.plus.PlusShare;
 // import com.google.android.gms.plus.PlusShare.Builder;
@@ -252,15 +253,19 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         inflater.inflate(R.menu.options_menu, menu);
       }
 
-      /* TUTORIAL
-      if (!isFroyoOrBelow()) {
-        // The Google Play Services version we are using does not work in Froyo and below.
-        MenuItem requestTranslationItem = (MenuItem) menu.findItem(R.id.request_translation);
-        // ABS: MenuItemCompat.setVisible(requestTranslationItem, true);
-        requestTranslationItem.setVisible(true);
-      }
-      */
+
       if (isHoneycombOrAbove()) {
+        /* TUTORIAL
+        if (KlingonAssistant.INCLUDE_TUTORIAL) {
+          if (isIceCreamSandwichOrAbove()) {
+            // The Google Play Services version we are using does not work in Froyo and below.
+            MenuItem requestTranslationItem = (MenuItem) menu.findItem(R.id.request_translation);
+            // ABS: MenuItemCompat.setVisible(requestTranslationItem, true);
+            requestTranslationItem.setVisible(true);
+          }
+        }
+        */
+
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         // ABS: SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.search));
         SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
@@ -271,12 +276,9 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       return true;
     }
 
-    public static boolean isFroyoOrBelow() {
-      return Build.VERSION.SDK_INT <= Build.VERSION_CODES.FROYO;
-    }
-
-    public static boolean isHoneycombOrAbove() {
-      return Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB;
+    public static boolean isIceCreamSandwichOrAbove() {
+      // API 14+.
+      return Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH;
     }
 
     // Set the content view for the menu drawer.
@@ -420,23 +422,25 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     }
 
     // Private method to request a translation.
-    /* TUTORIAL
     private void requestTranslation() {
-      // See: https://developers.google.com/+/mobile/android/share/prefill
-      // TODO: Ideally, this should post to the "Klingon language" community under the "Requests for
-      // translation" category.
-      ArrayList<Person> recipients = new ArrayList<Person>();
-      recipients.add(PlusShare.createPerson("+KlingonTeacher","KlingonTeacher"));
-      recipients.add(PlusShare.createPerson("110116202842822234244","De'vID"));
+      /* TUTORIAL
+      if (KlingonAssistant.INCLUDE_TUTORIAL) {
+        // See: https://developers.google.com/+/mobile/android/share/prefill
+        // TODO: Ideally, this should post to the "Klingon language" community under the "Requests for
+        // translation" category.
+        ArrayList<Person> recipients = new ArrayList<Person>();
+        recipients.add(PlusShare.createPerson("+KlingonTeacher","KlingonTeacher"));
+        recipients.add(PlusShare.createPerson("110116202842822234244","De'vID"));
 
-      Intent requestTranslationIntent = new PlusShare.Builder(this)
-                                                     .setType("text/plain")
-                                                     .setText("I request a Klingon translation for:\n\n")
-                                                     .setRecipients(recipients)
-                                                     .getIntent();
-      startActivity(requestTranslationIntent);
+        Intent requestTranslationIntent = new PlusShare.Builder(this)
+                                                       .setType("text/plain")
+                                                       .setText("I request a Klingon translation for:\n\n")
+                                                       .setRecipients(recipients)
+                                                       .getIntent();
+        startActivity(requestTranslationIntent);
+      }
+      */
     }
-    */
 
     // Private method to launch a Facebook group.
     private void launchFacebook(String groupId) {
@@ -522,11 +526,10 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         // Launch Google+ Klingon speakers community.
         launchExternal("https://plus.google.com/communities/108380135139365833546");
         break;
-      /* TUTORIAL
+      /* TUTORIAL */
       case R.id.request_translation:
         requestTranslation();
         break;
-      */
       case R.id.float_mode:
         // Minimize the app and cause it to "float".
         Log.d(TAG, "Show floating window.");

@@ -33,13 +33,12 @@
           android:icon="@drawable/ic_menu_community"
           android:showAsAction="always" />
 
-    <!-- TUTORIAL
+    <!-- TUTORIAL -->
     <item android:id="@+id/request_translation"
           android:title="@string/menu_request_translation_tlh"
           android:icon="@drawable/ic_menu_request_translation"
           android:showAsAction="ifRoom"
           android:visible="false" />
-    -->
 
     <item android:id="@+id/share"
           android:title="@string/menu_share_tlh"
