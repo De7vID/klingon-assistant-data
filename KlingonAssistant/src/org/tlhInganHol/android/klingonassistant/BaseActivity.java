@@ -256,8 +256,8 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       if (!isFroyoOrBelow()) {
         // The Google Play Services version we are using does not work in Froyo and below.
         MenuItem requestTranslationItem = (MenuItem) menu.findItem(R.id.request_translation);
-        // ABS: MenuItemCompat.setEnabled(requestTranslationItem, true);
-        requestTranslationItem.setEnabled(true);
+        // ABS: MenuItemCompat.setVisible(requestTranslationItem, true);
+        requestTranslationItem.setVisible(true);
       }
       */
       if (isHoneycombOrAbove()) {
