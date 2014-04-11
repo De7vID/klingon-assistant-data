@@ -132,12 +132,12 @@ public class KlingonAssistant extends BaseActivity {
                  mShowcaseView.setText(R.string.tutorial_4_title, R.string.tutorial_4_msg);
                  break;
                case 5: // Showcase the overflow menu.
-                 try {
+                 // if (... there is an overflow menu...) {
                    // On some devices, the menu target is not visible.
                    mShowcaseView.setShowcase(overflowTarget, true);
-                 } catch(Exception e) {
+                 // } else {
                    mShowcaseView.setShowcase(ShowcaseView.NONE);
-                 }
+                 // }
                  mShowcaseView.setText(R.string.tutorial_5_title, R.string.tutorial_5_msg);
                  break;
                case 6: // Continue about the menu.
