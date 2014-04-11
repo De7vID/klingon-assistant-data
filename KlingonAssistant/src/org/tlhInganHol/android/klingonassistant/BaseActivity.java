@@ -253,7 +253,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         inflater.inflate(R.menu.options_menu, menu);
       }
 
-
       if (isHoneycombOrAbove()) {
         /* TUTORIAL
         if (KlingonAssistant.INCLUDE_TUTORIAL) {
@@ -274,6 +273,11 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       }
 
       return true;
+    }
+
+    public static boolean isHoneycombOrAbove() {
+      // API 11+.
+      return Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB;
     }
 
     public static boolean isIceCreamSandwichOrAbove() {

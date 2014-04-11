@@ -10,6 +10,7 @@
                 android:key="run_tutorial_checkbox_preference"
                 android:title="@string/run_tutorial_preference_title"
                 android:summary="@string/run_tutorial_preference_summary"
+                android:enabled="false"
                 android:defaultValue="true" />
     </PreferenceCategory>
 

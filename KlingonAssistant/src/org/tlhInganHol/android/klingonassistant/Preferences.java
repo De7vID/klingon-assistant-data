@@ -22,6 +22,7 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
+import android.preference.Preference;
 
 // ABS:
 // import android.preference.PreferenceActivity;
@@ -62,6 +63,12 @@ public class Preferences extends SherlockPreferenceActivity implements
 
     // Load the preferences from an XML resource.
     addPreferencesFromResource(R.xml.preferences);
+
+    // TUTORIAL
+    if (KlingonAssistant.INCLUDE_TUTORIAL) {
+      Preference tutorialPreference = findPreference(KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE);
+      tutorialPreference.setEnabled(true);
+    }
 
     // ABS: getActionBar()
     ActionBar actionBar = getSupportActionBar();
