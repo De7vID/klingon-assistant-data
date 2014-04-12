@@ -35,6 +35,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 import net.simonvt.menudrawer.MenuDrawer;
 import net.simonvt.menudrawer.Position;
 import wei.mark.standout.StandOutWindow;
@@ -436,15 +437,19 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         recipients.add(PlusShare.createPerson("+KlingonTeacher","KlingonTeacher"));
         recipients.add(PlusShare.createPerson("110116202842822234244","De'vID"));
 
-        Intent requestTranslationIntent = new PlusShare.Builder(this)
-                                                       .setType("text/plain")
-                                                       .setText("I request a Klingon translation for:\n\n")
-                                                       .setRecipients(recipients)
-                                                       .getIntent();
         try {
+          Intent requestTranslationIntent = new PlusShare.Builder(this)
+                                                         .setType("text/plain")
+                                                         .setText("I request a Klingon translation for:\n\n")
+                                                         .setRecipients(recipients)
+                                                         .getIntent();
           startActivity(requestTranslationIntent);
         } catch(Exception e) {
-          // Do nothing, for now.
+          // Fail gracefully if Google+ is not found.
+          Toast.makeText(
+                  getBaseContext(),
+                  getBaseContext().getResources().getString(R.string.gplus_missing),
+                  Toast.LENGTH_LONG).show();
         }
       }
       */
