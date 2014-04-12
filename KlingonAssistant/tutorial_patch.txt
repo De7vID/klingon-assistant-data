@@ -33,10 +33,10 @@ index 9862e92..e44fdc0 100644
 +android.library.reference.4=../../../opt/android-sdk-linux_86/extras/google/google_play_services/libproject/google-play-services_lib
 +android.library.reference.5=../../ShowcaseView/library
 diff --git a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java
-index 2b35d09..eacdaae 100644
+index 507c47c..60b2e63 100644
 --- a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java
 +++ b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java
-@@ -52,10 +52,10 @@ import com.actionbarsherlock.view.MenuItem;
+@@ -53,10 +53,10 @@ import com.actionbarsherlock.view.MenuItem;
  import com.actionbarsherlock.widget.SearchView;
  
  // TUTORIAL
@@ -51,7 +51,7 @@ index 2b35d09..eacdaae 100644
  
  
  // ABS: s/SherlockActivity/ActionBarActivity
-@@ -254,7 +254,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
+@@ -255,7 +255,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
        }
  
        if (isHoneycombOrAbove()) {
@@ -59,7 +59,7 @@ index 2b35d09..eacdaae 100644
          if (KlingonAssistant.INCLUDE_TUTORIAL) {
            if (isIceCreamSandwichOrAbove()) {
              // The Google Play Services version we are using does not work in Froyo and below.
-@@ -263,7 +262,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
+@@ -264,7 +263,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
              requestTranslationItem.setVisible(true);
            }
          }
@@ -67,7 +67,7 @@ index 2b35d09..eacdaae 100644
  
          SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
          // ABS: SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.search));
-@@ -427,7 +425,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
+@@ -428,7 +426,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
  
      // Private method to request a translation.
      private void requestTranslation() {
@@ -75,9 +75,9 @@ index 2b35d09..eacdaae 100644
        if (KlingonAssistant.INCLUDE_TUTORIAL) {
          // See: https://developers.google.com/+/mobile/android/share/prefill
          // TODO: Ideally, this should post to the "Klingon language" community under the "Requests for
-@@ -443,7 +440,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
-                                                        .getIntent();
-         startActivity(requestTranslationIntent);
+@@ -452,7 +449,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
+                   Toast.LENGTH_LONG).show();
+         }
        }
 -      */
      }
@@ -127,3 +127,137 @@ index 5dfdcaf..c0698ec 100644
    }
  
    @Override
+diff --git a/KlingonAssistant/tutorial_patch.txt b/KlingonAssistant/tutorial_patch.txt
+index 02003d0..5a4f085 100644
+--- a/KlingonAssistant/tutorial_patch.txt
++++ b/KlingonAssistant/tutorial_patch.txt
+@@ -1,129 +0,0 @@
+-diff --git a/KlingonAssistant/AndroidManifest.xml b/KlingonAssistant/AndroidManifest.xml
+-index da4a605..e427508 100644
+---- a/KlingonAssistant/AndroidManifest.xml
+-+++ b/KlingonAssistant/AndroidManifest.xml
+-@@ -25,7 +25,7 @@
+- 
+-     <!-- Minimum Android version 2.1 (7), targeted version 4.4 (19). -->
+-     <!-- For TUTORIAL, minimum is version 4.0 (14). -->
+--    <uses-sdk android:minSdkVersion="7"
+-+    <uses-sdk android:minSdkVersion="14"
+-               android:targetSdkVersion="19"/>
+-     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+-     <supports-screens android:resizeable="true"
+-diff --git a/KlingonAssistant/project.properties b/KlingonAssistant/project.properties
+-index 9862e92..e44fdc0 100644
+---- a/KlingonAssistant/project.properties
+-+++ b/KlingonAssistant/project.properties
+-@@ -11,7 +11,7 @@
+- target=android-19
+- 
+- # ProGuard configuration.
+--proguard.config=${sdk.dir}/tools/proguard/proguard-android.txt:proguard-ka.txt
+-+# proguard.config=${sdk.dir}/tools/proguard/proguard-android.txt:proguard-ka.txt
+- 
+- # Libraries used.
+- android.library.reference.1=../../ActionBarSherlock/actionbarsherlock
+-@@ -19,5 +19,5 @@ android.library.reference.2=../../android-menudrawer/menudrawer
+- android.library.reference.3=../../StandOut/library
+- 
+- # TUTORIAL - for API 14+
+--# android.library.reference.4=../../../opt/android-sdk-linux_86/extras/google/google_play_services/libproject/google-play-services_lib
+--# android.library.reference.5=../../ShowcaseView/library
+-+android.library.reference.4=../../../opt/android-sdk-linux_86/extras/google/google_play_services/libproject/google-play-services_lib
+-+android.library.reference.5=../../ShowcaseView/library
+-diff --git a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java
+-index 2b35d09..eacdaae 100644
+---- a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java
+-+++ b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java
+-@@ -52,10 +52,10 @@ import com.actionbarsherlock.view.MenuItem;
+- import com.actionbarsherlock.widget.SearchView;
+- 
+- // TUTORIAL
+--// import com.google.android.gms.plus.PlusShare;
+--// import com.google.android.gms.plus.PlusShare.Builder;
+--// import com.google.android.gms.plus.model.people.Person;
+--// import java.util.Arrays;
+-+import com.google.android.gms.plus.PlusShare;
+-+import com.google.android.gms.plus.PlusShare.Builder;
+-+import com.google.android.gms.plus.model.people.Person;
+-+import java.util.Arrays;
+- 
+- 
+- // ABS: s/SherlockActivity/ActionBarActivity
+-@@ -254,7 +254,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
+-       }
+- 
+-       if (isHoneycombOrAbove()) {
+--        /* TUTORIAL
+-         if (KlingonAssistant.INCLUDE_TUTORIAL) {
+-           if (isIceCreamSandwichOrAbove()) {
+-             // The Google Play Services version we are using does not work in Froyo and below.
+-@@ -263,7 +262,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
+-             requestTranslationItem.setVisible(true);
+-           }
+-         }
+--        */
+- 
+-         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+-         // ABS: SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.search));
+-@@ -427,7 +425,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
+- 
+-     // Private method to request a translation.
+-     private void requestTranslation() {
+--      /* TUTORIAL
+-       if (KlingonAssistant.INCLUDE_TUTORIAL) {
+-         // See: https://developers.google.com/+/mobile/android/share/prefill
+-         // TODO: Ideally, this should post to the "Klingon language" community under the "Requests for
+-@@ -443,7 +440,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
+-                                                        .getIntent();
+-         startActivity(requestTranslationIntent);
+-       }
+--      */
+-     }
+- 
+-     // Private method to launch a Facebook group.
+-diff --git a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
+-index 5dfdcaf..c0698ec 100644
+---- a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
+-+++ b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
+-@@ -44,10 +44,10 @@ import wei.mark.standout.StandOutWindow;
+- import com.actionbarsherlock.view.MenuItem;
+- 
+- // TUTORIAL
+--// import com.actionbarsherlock.view.Menu;
+--// import com.espian.showcaseview.ShowcaseView;
+--// import com.espian.showcaseview.targets.ActionItemTarget;
+--// import com.espian.showcaseview.targets.ActionViewTarget;
+-+import com.actionbarsherlock.view.Menu;
+-+import com.espian.showcaseview.ShowcaseView;
+-+import com.espian.showcaseview.targets.ActionItemTarget;
+-+import com.espian.showcaseview.targets.ActionViewTarget;
+- 
+- /**
+-  * The main activity for the dictionary. Displays search results triggered by the search dialog and
+-@@ -57,7 +57,7 @@ public class KlingonAssistant extends BaseActivity {
+-   private static final String TAG = "KlingonAssistant";
+- 
+-   // Whether to include the tutorial or not. If false, the code should be stripped out of the binary.
+--  public static final boolean INCLUDE_TUTORIAL = false;
+-+  public static final boolean INCLUDE_TUTORIAL = true;
+- 
+-   // Preference key for whether to show help.
+-   public static final String  KEY_SHOW_HELP                    = "show_help";
+-@@ -91,7 +91,6 @@ public class KlingonAssistant extends BaseActivity {
+-   }
+- 
+-   private void setupTutorial() {
+--    /* TUTORIAL
+-     if (INCLUDE_TUTORIAL) {
+-       // ShowcaseView for the initial tutorial.
+-       ShowcaseView.ConfigOptions mShowcaseViewOptions = new ShowcaseView.ConfigOptions();
+-@@ -162,7 +161,6 @@ public class KlingonAssistant extends BaseActivity {
+-           }
+-       });
+-     }
+--    */
+-   }
+- 
+-   @Override
