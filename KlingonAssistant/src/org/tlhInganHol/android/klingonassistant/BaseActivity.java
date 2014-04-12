@@ -441,6 +441,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
                                                        .setText("I request a Klingon translation for:\n\n")
                                                        .setRecipients(recipients)
                                                        .getIntent();
+        // TODO: Fix android.content.ActivityNotFoundException: No Activity found to handle Intent { act=com.google.android.gms.plus.action.SHARE_GOOGLE... }
         startActivity(requestTranslationIntent);
       }
       */
