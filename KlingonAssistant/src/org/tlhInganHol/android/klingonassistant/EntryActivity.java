@@ -16,7 +16,6 @@
 
 package org.tlhInganHol.android.klingonassistant;
 
-import java.util.Locale;
 import java.util.regex.Matcher;
 
 import android.app.SearchManager;
@@ -52,6 +51,7 @@ import com.actionbarsherlock.widget.ShareActionProvider;
 
 // TTS:
 import android.speech.tts.TextToSpeech;
+import java.util.Locale;
 
 /**
  * Displays an entry and its definition.
@@ -70,6 +70,7 @@ public class EntryActivity extends BaseActivity
   private String mEntryName = null;
 
   // TTS:
+  /** The {@link TextToSpeech} used for speaking. */
   private TextToSpeech mTts;
 
   @Override
