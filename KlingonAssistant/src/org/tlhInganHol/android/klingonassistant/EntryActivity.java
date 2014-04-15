@@ -16,6 +16,7 @@
 
 package org.tlhInganHol.android.klingonassistant;
 
+import java.util.Locale;
 import java.util.regex.Matcher;
 
 import android.app.SearchManager;
@@ -49,10 +50,16 @@ import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.widget.ShareActionProvider;
 
+// TTS:
+import android.speech.tts.TextToSpeech;
+
 /**
  * Displays an entry and its definition.
  */
-public class EntryActivity extends BaseActivity {
+public class EntryActivity extends BaseActivity
+// TTS:
+    implements TextToSpeech.OnInitListener {
+
   private static final String TAG = "EntryActivity";
 
   // The intent holding the data to be shared.
@@ -62,9 +69,20 @@ public class EntryActivity extends BaseActivity {
   private String mParentQuery = null;
   private String mEntryName = null;
 
+  // TTS:
+  private TextToSpeech mTts;
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+
+    // TTS:
+    // Initialize text-to-speech. This is an asynchronous operation.
+    // The OnInitListener (second argument) is called after initialization completes.
+    mTts = new TextToSpeech(this,
+        this  // TextToSpeech.OnInitListener
+        );
+
     setDrawerContentView(R.layout.entry);
     Resources resources = getResources();
 
@@ -365,6 +383,17 @@ public class EntryActivity extends BaseActivity {
 
   }
 
+  @Override
+  protected void onDestroy() {
+      // TTS:
+      // Don't forget to shutdown!
+      if (mTts != null) {
+          mTts.stop();
+          mTts.shutdown();
+      }
+      super.onDestroy();
+  }
+
   /*
    * TODO: Override onSave/RestoreInstanceState, onPause/Resume/Stop, to re-create links.
    *
@@ -474,5 +503,33 @@ public class EntryActivity extends BaseActivity {
         return true;
     }
     return super.onOptionsItemSelected(item);
+  }
+
+  // TTS:
+  // Implements TextToSpeech.OnInitListener.
+  public void onInit(int status) {
+      // status can be either TextToSpeech.SUCCESS or TextToSpeech.ERROR.
+      if (status == TextToSpeech.SUCCESS) {
+          // Set preferred language to US english.
+          // Note that a language may not be available, and the result will indicate this.
+          int result = mTts.setLanguage(Locale.US);
+          // Try this someday for some interesting results.
+          // int result mTts.setLanguage(Locale.FRANCE);
+          if (result == TextToSpeech.LANG_MISSING_DATA ||
+              result == TextToSpeech.LANG_NOT_SUPPORTED) {
+             // Lanuage data is missing or the language is not supported.
+              Log.e(TAG, "Language is not available.");
+          } else {
+              // Check the documentation for other possible result codes.
+              // For example, the language may be available for the locale,
+              // but not for the specified country and variant.
+
+              // The TTS engine has been successfully initialized.
+              // TODO: Enable speech button here if applicable.
+          }
+      } else {
+          // Initialization failed.
+          Log.e(TAG, "Could not initialize TextToSpeech.");
+      }
   }
 }

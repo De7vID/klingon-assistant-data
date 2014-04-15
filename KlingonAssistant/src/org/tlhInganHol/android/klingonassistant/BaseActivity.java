@@ -52,7 +52,7 @@ import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.widget.SearchView;
 
-// TUTORIAL
+// TUTORIAL:
 // import com.google.android.gms.plus.PlusShare;
 // import com.google.android.gms.plus.PlusShare.Builder;
 // import com.google.android.gms.plus.model.people.Person;
@@ -239,8 +239,8 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
     @Override
     protected void onDestroy() {
-        super.onDestroy();
         unregisterReceiver(mKillReceiver);
+        super.onDestroy();
     }
 
     @Override
