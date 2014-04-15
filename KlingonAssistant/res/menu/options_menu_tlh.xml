@@ -33,6 +33,13 @@
           android:icon="@drawable/ic_menu_community"
           android:showAsAction="always" />
 
+    <!-- TTS -->
+    <item android:id="@+id/speak"
+          android:title="@string/menu_speak_tlh"
+          android:icon="@drawable/ic_menu_speak"
+          android:showAsAction="ifRoom"
+          android:visible="false" />
+
     <!-- TUTORIAL -->
     <item android:id="@+id/request_translation"
           android:title="@string/menu_request_translation_tlh"

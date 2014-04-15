@@ -38,6 +38,7 @@ import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 import wei.mark.standout.StandOutWindow;
 
 // ABS:
@@ -72,6 +73,7 @@ public class EntryActivity extends BaseActivity
   // TTS:
   /** The {@link TextToSpeech} used for speaking. */
   private TextToSpeech mTts;
+  private MenuItem mSpeakButton;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -381,7 +383,6 @@ public class EntryActivity extends BaseActivity
     entryText.invalidate();
     entryText.setText(ssb);
     entryText.setMovementMethod(LinkMovementMethod.getInstance());
-
   }
 
   @Override
@@ -415,6 +416,12 @@ public class EntryActivity extends BaseActivity
       shareActionProvider.setShareIntent(mShareEntryIntent);
       shareButton.setVisible(true);
     }
+
+    // TTS:
+    // The button is disabled in the layout.
+    // It will be enabled upon initialization of the TTS engine.
+    mSpeakButton = menu.findItem(R.id.speak);
+
     return true;
   }
 
@@ -502,6 +509,12 @@ public class EntryActivity extends BaseActivity
         intent.setType(KILL_TYPE);
         sendBroadcast(intent);
         return true;
+    } else if (item.getItemId() == R.id.speak) {
+        // TTS:
+        if (mEntryName != null) {
+            Toast.makeText(getBaseContext(), mEntryName, Toast.LENGTH_LONG).show();
+            mTts.speak(mEntryName, TextToSpeech.QUEUE_FLUSH, null);
+        }
     }
     return super.onOptionsItemSelected(item);
   }
@@ -511,11 +524,9 @@ public class EntryActivity extends BaseActivity
   public void onInit(int status) {
       // status can be either TextToSpeech.SUCCESS or TextToSpeech.ERROR.
       if (status == TextToSpeech.SUCCESS) {
-          // Set preferred language to US english.
+          // Set preferred language to Canadian Klingon.
           // Note that a language may not be available, and the result will indicate this.
-          int result = mTts.setLanguage(Locale.US);
-          // Try this someday for some interesting results.
-          // int result mTts.setLanguage(Locale.FRANCE);
+          int result = mTts.setLanguage(new Locale("tlh", "CAN", ""));
           if (result == TextToSpeech.LANG_MISSING_DATA ||
               result == TextToSpeech.LANG_NOT_SUPPORTED) {
              // Lanuage data is missing or the language is not supported.
@@ -526,7 +537,9 @@ public class EntryActivity extends BaseActivity
               // but not for the specified country and variant.
 
               // The TTS engine has been successfully initialized.
-              // TODO: Enable speech button here if applicable.
+              if (mSpeakButton != null) {
+                mSpeakButton.setVisible(true);
+              }
           }
       } else {
           // Initialization failed.
