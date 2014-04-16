@@ -34,11 +34,22 @@
     <!-- The primary menu entry that invokes search, e.g., "Search". -->
     <string name="menu_search">Suchen</string>
 
+<!-- The "Speak" button. -->
+    <string name="menu_speak">Diesen Eintrag vorlesen</string> 
+    
     <!-- The "Share" button, popup menu, and "shared from" string. -->
     <string name="menu_share">Senden</string>
     <string name="share_popup_title">Senden mit...</string>
     <string name="shared_from">Aus {boQwI\'} gesendet.</string>
 
+    <!-- The menu entry that causes the app to become minimized and "float". -->
+    <string name="menu_float_mode">schwimmendes Fenster</string>
+    <string name="float_mode_status">schwimmt im Vordergrund</string>
+
+    <!-- The menu entry that sends a request for translation to the G+ Klingon language community. -->
+    <string name="menu_request_translation">Übersetzung anfragen</string>
+    <string name="gplus_missing">Google+ nicht gefunden.</string> 
+    
     <!-- The description that will show up in the search settings for this source, e.g., "Definitions of words".  -->
     <string name="settings_description">Klingonische Wörter und Sätze</string>
 
@@ -76,10 +87,15 @@
     <string name="media_1_title">Klingonischkurs</string>
     <string name="media_1_list_id">PLJrTr05h0I0MUv7QVLpG32cMAR1uiJ_Rs</string>
     <string name="media_2_title">Konversation</string>
+    <string name="media_2_list_id">PLJrTr05h0I0MazOxYJq47Eqdsa9F2glPg</string>  
     <string name="media_3_title">Kampfbefehle</string>
+    <string name="media_3_list_id">PLJrTr05h0I0Mwfo-f1YJv1VC7pNgiqicp</string> 
     <string name="media_4_title">Andere Befehle</string>
+    <string name="media_4_list_id">PLJrTr05h0I0PuQHLzrhp0n4TXsOZVzYzo</string> 
     <string name="media_5_title">Flüche</string>
+    <string name="media_5_list_id">PLJrTr05h0I0NHU5zsb7rd7Vz0Ed_4hLhg</string> 
     <string name="media_6_title">Andere Wörter und Sätze</string>
+    <string name="media_6_list_id">PLJrTr05h0I0MsVYmwqMCXp8rwDjSKZzWC</string> 
 
     <!-- Classes of phrases. Titel für Nützliche Sätze -->
     <string name="empire_union_day">Reichsfeiertag</string>
@@ -102,6 +118,9 @@
 
     <!-- Strings for the Preferences settings. -->
     <string name="klingon_assistant_settings">boQwI\' Einstellungen</string>
+      <string name="tutorial_preferences">Tutorial</string>
+        <string name="run_tutorial_preference_title">Tutorial einschalten</string>
+        <string name="run_tutorial_preference_summary">Beginne das Tutorial beim nächsten Start der Anwendung (benötigt ICS+).</string> 
       <string name="language_preferences">Spracheinstellungen</string>
         <string name="klingon_ui_preference_title">Klingonische Menüs</string>
         <string name="klingon_ui_preference_summary">Benutzeroberfläche auf Klingonisch anzeigen.</string>
@@ -123,7 +142,7 @@
         <string name="show_additional_information_preference_summary">Hintergrundinfos wie Wortspiele, Fehler, usw. anzeigen</string>
 
     <string name="warning">Warnung</string>
-    <string name="change_ui_language_warning">Die Änderungen der Sprachauswahl sind eventuell erst nach dem Neustart der App sichtbar.\n\nFortfahren?</string>
+    <string name="change_ui_language_warning">Die Änderungen der Sprachauswahl sind eventuell erst nach dem Neustart der Anwendung sichtbar.\n\nFortfahren?</string>
 
     <!-- Metadata labels and descriptions. -->
     <string name="label_see_alt_entry">Siehe</string>
@@ -136,14 +155,13 @@
     <string name="label_components">Einzelteile</string>
     <string name="label_examples">Beispiel</string>
     <string name="label_sources">Quelle</string>
-    <string name="label_transitivity">Transitivität (beste Vermutung)</string>
-      <string name="transitivity_ambi">transitiv und intransitiv</string>
-      <string name="transitivity_intransitive">intransitiv</string>
-      <string name="transitivity_intransitive_confirmed">intransitiv</string>
-      <string name="transitivity_stative">intransitiv (Zustand oder Eigenschaft)</string>
-      <string name="transitivity_transitive">transitiv</string>
-      <string name="transitivity_transitive_confirmed">transitiv</string>
-      <string name="transitivity_unknown">unbekannt</string>
+    <string name="label_transitivity">Transitivität</string>
+      <string name="transitivity_ambi">Die Bedeutung dieses Verbes ändert sich je nachdem, ob es ein direktes Objekt hat oder nicht.</string>
+      <string name="transitivity_intransitive">Dieses Verb kann wahrscheinlich kein direktes Objekt haben.</string>
+      <string name="transitivity_intransitive_confirmed">Dieses Verb kann eindeutig kein Objekt verlangen.</string>
+      <string name="transitivity_stative">Dieses Verb beschreibt einen Zustand oder Eigenschaft und kann eindeutig kein Objekt haben.</string>
+      <string name="transitivity_transitive">Dieses Verb kann wahrscheinlich ein direktes Objekt haben.</string>
+      <string name="transitivity_transitive_confirmed">Dieses Verb kann eindeutig ein Objekt verlangen. </string>       <string name="transitivity_unknown">unbekannt</string>
     <string name="label_additional_information">Zusätzliche Informationen</string>
     <string name="info_being">Dieses Wort beschreibt ein sprachfähiges Wesen. Die Mehrzahl wird mit dem Suffix {-pu\':n:suff} gebildet.</string>
     <string name="info_body">Dieses Wort beschreibt ein Körperteil. Die Mehrzahl wird mit dem Suffix {-Du\':n:suff} gebildet.</string>
@@ -154,4 +172,21 @@
 
     <!-- ABS: Override the "See all..." text for expanding the "Share" menu from ActionBarSherlock. -->
     <string name="abs__activity_chooser_view_see_all">Alle anzeigen...</string>
+    
+    <!-- Strings for the ShowcaseView tutorial. -->
+    <string name="tutorial_1_title">qavan! (Ich grüße dir!)</string>
+    <string name="tutorial_1_msg">Dieses Tutorial wird dich kurz durch den boQwI\' leiten.\n\n* neueste Änderungen *\n2014-04-16: Vorlese-Funktion hinzugefügt. \n2014-04-10: Tutorial, Übersetzungsanfrage.</string>
+    <string name="tutorial_2_title">Suche</string>
+    <string name="tutorial_2_msg">Durchsuche die Datenbank auf Englisch oder Klingonisch.</string>
+    <string name="tutorial_3_title">Ressourcen</string>
+    <string name="tutorial_3_msg">Tippe hier um das Resourcen-Menü zu öffen. Dort findest du nützliche Tabellen, Sätze und Links zu verschiedenen Medien.</string>
+    <string name="tutorial_4_title">Soziale Netzwerke</string>
+    <string name="tutorial_4_msg">Kommuniziere mit anderen Klingonisch-Schülern und -Experten in der Google+ Klingonisch-Community.</string>
+    <string name="tutorial_5_title">Andere Funktionen</string>
+    <string name="tutorial_5_msg">Benutze den Menü-Button für weitere Funktionen.\n\nMöchtest du etwas übersetzen, was nicht in der Datenbank steht? Dann Frage den Klingonischlehrer Lieven L. Litaer.</string>
+    <string name="tutorial_6_title">Noch mehr Funktionen</string>
+    <string name="tutorial_6_msg">Willst du hören, wie sich ein Wort anhört? Nutze den "Vorlese"-Button. (benötigt Klingonische TTS engine.)\n\nLiset du einen langen Text auf Klingonisch (wie Hamlet)? Aktiviere den Schwimm-Modus, und boQwI\' schwebt über deinen Browser, dein Emailprogramm oder E-Book-Reader.</string>
+    <string name="tutorial_7_title">Qapla\'! (Erfolg!)</string>
+    <string name="tutorial_7_msg">Fortgeschrittene Nutzer finden weitere Optionen im Einstellungs-Menü.</string>
 </resources>
+
