@@ -43,7 +43,7 @@ import wei.mark.standout.StandOutWindow;
 // import android.view.MenuItem;
 import com.actionbarsherlock.view.MenuItem;
 
-// TUTORIAL
+// TUTORIAL:
 // import com.actionbarsherlock.view.Menu;
 // import com.espian.showcaseview.ShowcaseView;
 // import com.espian.showcaseview.targets.ActionItemTarget;
