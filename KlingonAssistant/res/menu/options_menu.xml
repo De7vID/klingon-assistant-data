@@ -38,14 +38,7 @@
     <item android:id="@+id/speak"
           android:title="@string/menu_speak"
           android:icon="@drawable/ic_menu_speak"
-          android:showAsAction="ifRoom"
-          android:visible="false" />
-
-    <!-- TUTORIAL -->
-    <item android:id="@+id/request_translation"
-          android:title="@string/menu_request_translation"
-          android:icon="@drawable/ic_menu_request_translation"
-          android:showAsAction="ifRoom"
+          android:showAsAction="always"
           android:visible="false" />
 
     <item android:id="@+id/share"
@@ -53,6 +46,13 @@
           android:icon="@drawable/ic_menu_share"
           android:showAsAction="ifRoom"
           android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+          android:visible="false" />
+
+    <!-- TUTORIAL -->
+    <item android:id="@+id/request_translation"
+          android:title="@string/menu_request_translation"
+          android:icon="@drawable/ic_menu_request_translation"
+          android:showAsAction="ifRoom"
           android:visible="false" />
 
     <item android:id="@+id/float_mode"
