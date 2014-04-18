@@ -35,8 +35,8 @@
     <string name="menu_search">Suchen</string>
 
 <!-- The "Speak" button. -->
-    <string name="menu_speak">Diesen Eintrag vorlesen</string> 
-    
+    <string name="menu_speak">Diesen Eintrag vorlesen</string>
+
     <!-- The "Share" button, popup menu, and "shared from" string. -->
     <string name="menu_share">Senden</string>
     <string name="share_popup_title">Senden mit...</string>
@@ -48,8 +48,8 @@
 
     <!-- The menu entry that sends a request for translation to the G+ Klingon language community. -->
     <string name="menu_request_translation">Übersetzung anfragen</string>
-    <string name="gplus_missing">Google+ nicht gefunden.</string> 
-    
+    <string name="gplus_missing">Google+ nicht gefunden.</string>
+
     <!-- The description that will show up in the search settings for this source, e.g., "Definitions of words".  -->
     <string name="settings_description">Klingonische Wörter und Sätze</string>
 
@@ -85,17 +85,13 @@
 
     <!-- Media. -->
     <string name="media_1_title">Klingonischkurs</string>
+    <!-- Override the German version with a different playlist. -->
     <string name="media_1_list_id">PLJrTr05h0I0MUv7QVLpG32cMAR1uiJ_Rs</string>
     <string name="media_2_title">Konversation</string>
-    <string name="media_2_list_id">PLJrTr05h0I0MazOxYJq47Eqdsa9F2glPg</string>  
     <string name="media_3_title">Kampfbefehle</string>
-    <string name="media_3_list_id">PLJrTr05h0I0Mwfo-f1YJv1VC7pNgiqicp</string> 
     <string name="media_4_title">Andere Befehle</string>
-    <string name="media_4_list_id">PLJrTr05h0I0PuQHLzrhp0n4TXsOZVzYzo</string> 
     <string name="media_5_title">Flüche</string>
-    <string name="media_5_list_id">PLJrTr05h0I0NHU5zsb7rd7Vz0Ed_4hLhg</string> 
     <string name="media_6_title">Andere Wörter und Sätze</string>
-    <string name="media_6_list_id">PLJrTr05h0I0MsVYmwqMCXp8rwDjSKZzWC</string> 
 
     <!-- Classes of phrases. Titel für Nützliche Sätze -->
     <string name="empire_union_day">Reichsfeiertag</string>
@@ -120,7 +116,7 @@
     <string name="klingon_assistant_settings">boQwI\' Einstellungen</string>
       <string name="tutorial_preferences">Tutorial</string>
         <string name="run_tutorial_preference_title">Tutorial einschalten</string>
-        <string name="run_tutorial_preference_summary">Beginne das Tutorial beim nächsten Start der Anwendung (benötigt ICS+).</string> 
+        <string name="run_tutorial_preference_summary">Beginne das Tutorial beim nächsten Start der Anwendung (benötigt ICS+).</string>
       <string name="language_preferences">Spracheinstellungen</string>
         <string name="klingon_ui_preference_title">Klingonische Menüs</string>
         <string name="klingon_ui_preference_summary">Benutzeroberfläche auf Klingonisch anzeigen.</string>
@@ -161,7 +157,8 @@
       <string name="transitivity_intransitive_confirmed">Dieses Verb kann eindeutig kein Objekt verlangen.</string>
       <string name="transitivity_stative">Dieses Verb beschreibt einen Zustand oder Eigenschaft und kann eindeutig kein Objekt haben.</string>
       <string name="transitivity_transitive">Dieses Verb kann wahrscheinlich ein direktes Objekt haben.</string>
-      <string name="transitivity_transitive_confirmed">Dieses Verb kann eindeutig ein Objekt verlangen. </string>       <string name="transitivity_unknown">unbekannt</string>
+      <string name="transitivity_transitive_confirmed">Dieses Verb kann eindeutig ein Objekt verlangen. </string>
+      <string name="transitivity_unknown">unbekannt</string>
     <string name="label_additional_information">Zusätzliche Informationen</string>
     <string name="info_being">Dieses Wort beschreibt ein sprachfähiges Wesen. Die Mehrzahl wird mit dem Suffix {-pu\':n:suff} gebildet.</string>
     <string name="info_body">Dieses Wort beschreibt ein Körperteil. Die Mehrzahl wird mit dem Suffix {-Du\':n:suff} gebildet.</string>
@@ -172,7 +169,7 @@
 
     <!-- ABS: Override the "See all..." text for expanding the "Share" menu from ActionBarSherlock. -->
     <string name="abs__activity_chooser_view_see_all">Alle anzeigen...</string>
-    
+
     <!-- Strings for the ShowcaseView tutorial. -->
     <string name="tutorial_1_title">qavan! (Ich grüße dir!)</string>
     <string name="tutorial_1_msg">Dieses Tutorial wird dich kurz durch den boQwI\' leiten.\n\n* neueste Änderungen *\n2014-04-16: Vorlese-Funktion hinzugefügt. \n2014-04-10: Tutorial, Übersetzungsanfrage.</string>
@@ -189,4 +186,3 @@
     <string name="tutorial_7_title">Qapla\'! (Erfolg!)</string>
     <string name="tutorial_7_msg">Fortgeschrittene Nutzer finden weitere Optionen im Einstellungs-Menü.</string>
 </resources>
-
