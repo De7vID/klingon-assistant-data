@@ -411,6 +411,8 @@ public class KlingonAssistant extends BaseActivity {
       }
       mTextView.setText(Html.fromHtml(countString));
 
+      // TODO: Allow TTS to speak queryEntry.getEntryName().
+
       // Create a cursor adapter for the entries and apply them to the ListView.
       EntryAdapter entryAdapter = new EntryAdapter(cursor);
       mListView.setAdapter(entryAdapter);

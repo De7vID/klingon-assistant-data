@@ -520,7 +520,7 @@ public class EntryActivity extends BaseActivity
         // TTS:
         if (mEntryName != null) {
             // Log.d(TAG, "Speaking");
-            Toast.makeText(getBaseContext(), mEntryName, Toast.LENGTH_LONG).show();
+            // Toast.makeText(getBaseContext(), mEntryName, Toast.LENGTH_LONG).show();
             mTts.speak(mEntryName, TextToSpeech.QUEUE_FLUSH, null);
         }
     }
