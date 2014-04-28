@@ -85,8 +85,8 @@ public class EntryActivity extends BaseActivity
     // The OnInitListener (second argument) is called after initialization completes.
     // Log.d(TAG, "Initialising TTS");
     mTts = new TextToSpeech(this,
-        this  // TextToSpeech.OnInitListener
-        );
+        this,  // TextToSpeech.OnInitListener
+        "org.tlhInganHol.android.klingonttsengine");  // Requires API 14.
 
     setDrawerContentView(R.layout.entry);
     Resources resources = getResources();
