@@ -1,13 +1,13 @@
 diff --git a/KlingonAssistant/AndroidManifest.xml b/KlingonAssistant/AndroidManifest.xml
-index da4a605..e427508 100644
+index dc4ff7c..1fbbc9f 100644
 --- a/KlingonAssistant/AndroidManifest.xml
 +++ b/KlingonAssistant/AndroidManifest.xml
 @@ -25,7 +25,7 @@
  
      <!-- Minimum Android version 2.1 (7), targeted version 4.4 (19). -->
-     <!-- For TUTORIAL, minimum is version 4.0 (14). -->
+     <!-- For TUTORIAL, minimum is version 4.0 (14). For TTS, it's 4.1 (16). -->
 -    <uses-sdk android:minSdkVersion="7"
-+    <uses-sdk android:minSdkVersion="14"
++    <uses-sdk android:minSdkVersion="16"
                android:targetSdkVersion="19"/>
      <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
      <supports-screens android:resizeable="true"
@@ -33,7 +33,7 @@ index 9862e92..e44fdc0 100644
 +android.library.reference.4=../../../opt/android-sdk-linux_86/extras/google/google_play_services/libproject/google-play-services_lib
 +android.library.reference.5=../../ShowcaseView/library
 diff --git a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java
-index 507c47c..60b2e63 100644
+index a5e7a0e..af91e47 100644
 --- a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java
 +++ b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java
 @@ -53,10 +53,10 @@ import com.actionbarsherlock.view.MenuItem;
@@ -57,9 +57,9 @@ index 507c47c..60b2e63 100644
        if (isHoneycombOrAbove()) {
 -        /* TUTORIAL
          if (KlingonAssistant.INCLUDE_TUTORIAL) {
-           if (isIceCreamSandwichOrAbove()) {
+           if (isJellyBeanOrAbove()) {
              // The Google Play Services version we are using does not work in Froyo and below.
-@@ -264,7 +263,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
+@@ -265,7 +264,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
              requestTranslationItem.setVisible(true);
            }
          }
@@ -67,7 +67,7 @@ index 507c47c..60b2e63 100644
  
          SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
          // ABS: SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.search));
-@@ -428,7 +426,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
+@@ -429,7 +427,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
  
      // Private method to request a translation.
      private void requestTranslation() {
@@ -75,7 +75,7 @@ index 507c47c..60b2e63 100644
        if (KlingonAssistant.INCLUDE_TUTORIAL) {
          // See: https://developers.google.com/+/mobile/android/share/prefill
          // TODO: Ideally, this should post to the "Klingon language" community under the "Requests for
-@@ -452,7 +449,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
+@@ -453,7 +450,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
                    Toast.LENGTH_LONG).show();
          }
        }
@@ -83,8 +83,122 @@ index 507c47c..60b2e63 100644
      }
  
      // Private method to launch a Facebook group.
+diff --git a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
+index e15ccff..a64a487 100644
+--- a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
++++ b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
+@@ -51,15 +51,15 @@ import com.actionbarsherlock.view.MenuItem;
+ import com.actionbarsherlock.widget.ShareActionProvider;
+ 
+ // TTS:
+-// import android.speech.tts.TextToSpeech;
+-// import java.util.Locale;
++import android.speech.tts.TextToSpeech;
++import java.util.Locale;
+ 
+ /**
+  * Displays an entry and its definition.
+  */
+-public class EntryActivity extends BaseActivity {
++public class EntryActivity extends BaseActivity
+ // TTS:
+-//     implements TextToSpeech.OnInitListener {
++    implements TextToSpeech.OnInitListener {
+ 
+   private static final String TAG = "EntryActivity";
+ 
+@@ -71,10 +71,10 @@ public class EntryActivity extends BaseActivity {
+   private String mEntryName = null;
+ 
+   // TTS:
+-  //  The {@link TextToSpeech} used for speaking.
+-  // private TextToSpeech mTts;
+-  // private MenuItem mSpeakButton;
+-  // private boolean ttsInitialized = false;
++  /** The {@link TextToSpeech} used for speaking. **/
++  private TextToSpeech mTts;
++  private MenuItem mSpeakButton;
++  private boolean ttsInitialized = false;
+ 
+   @Override
+   protected void onCreate(Bundle savedInstanceState) {
+@@ -84,9 +84,9 @@ public class EntryActivity extends BaseActivity {
+     // Initialize text-to-speech. This is an asynchronous operation.
+     // The OnInitListener (second argument) is called after initialization completes.
+     // Log.d(TAG, "Initialising TTS");
+-    // mTts = new TextToSpeech(this,
+-    //     this,  // TextToSpeech.OnInitListener
+-    //     "org.tlhInganHol.android.klingonttsengine");  // Requires API 14.
++    mTts = new TextToSpeech(this,
++        this,  // TextToSpeech.OnInitListener
++        "org.tlhInganHol.android.klingonttsengine");  // Requires API 14.
+ 
+     setDrawerContentView(R.layout.entry);
+     Resources resources = getResources();
+@@ -392,10 +392,10 @@ public class EntryActivity extends BaseActivity {
+       // TTS:
+       // Don't forget to shutdown!
+       // Log.d(TAG, "Shutting down TTS");
+-      // if (mTts != null) {
+-      //     mTts.stop();
+-      //     mTts.shutdown();
+-      // }
++      if (mTts != null) {
++          mTts.stop();
++          mTts.shutdown();
++      }
+       super.onDestroy();
+   }
+ 
+@@ -423,11 +423,11 @@ public class EntryActivity extends BaseActivity {
+     // TTS:
+     // The button is disabled in the layout.
+     // It will be enabled upon initialization of the TTS engine.
+-    // mSpeakButton = menu.findItem(R.id.speak);
+-    // if (ttsInitialized) {
+-    //   // Log.d(TAG, "enabling TTS button in onCreateOptionsMenu");
+-    //   mSpeakButton.setVisible(true);
+-    // }
++    mSpeakButton = menu.findItem(R.id.speak);
++    if (ttsInitialized) {
++      // Log.d(TAG, "enabling TTS button in onCreateOptionsMenu");
++      mSpeakButton.setVisible(true);
++    }
+ 
+     return true;
+   }
+@@ -518,18 +518,17 @@ public class EntryActivity extends BaseActivity {
+         return true;
+     } else if (item.getItemId() == R.id.speak) {
+         // TTS:
+-        // if (mEntryName != null) {
+-        //     // Log.d(TAG, "Speaking");
+-        //     // Toast.makeText(getBaseContext(), mEntryName, Toast.LENGTH_LONG).show();
+-        //     mTts.speak(mEntryName, TextToSpeech.QUEUE_FLUSH, null);
+-        // }
++        if (mEntryName != null) {
++            // Log.d(TAG, "Speaking");
++            // Toast.makeText(getBaseContext(), mEntryName, Toast.LENGTH_LONG).show();
++            mTts.speak(mEntryName, TextToSpeech.QUEUE_FLUSH, null);
++        }
+     }
+     return super.onOptionsItemSelected(item);
+   }
+ 
+   // TTS:
+   // Implements TextToSpeech.OnInitListener.
+-  /*
+   public void onInit(int status) {
+       // status can be either TextToSpeech.SUCCESS or TextToSpeech.ERROR.
+       if (status == TextToSpeech.SUCCESS) {
+@@ -557,5 +556,4 @@ public class EntryActivity extends BaseActivity {
+           Log.e(TAG, "Could not initialize TextToSpeech.");
+       }
+   }
+-  */
+ }
 diff --git a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
-index 5dfdcaf..c0698ec 100644
+index 2219099..05a28bf 100644
 --- a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 +++ b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 @@ -44,10 +44,10 @@ import wei.mark.standout.StandOutWindow;

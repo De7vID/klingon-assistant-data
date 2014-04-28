@@ -51,15 +51,15 @@ import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.widget.ShareActionProvider;
 
 // TTS:
-import android.speech.tts.TextToSpeech;
-import java.util.Locale;
+// import android.speech.tts.TextToSpeech;
+// import java.util.Locale;
 
 /**
  * Displays an entry and its definition.
  */
-public class EntryActivity extends BaseActivity
+public class EntryActivity extends BaseActivity {
 // TTS:
-    implements TextToSpeech.OnInitListener {
+//     implements TextToSpeech.OnInitListener {
 
   private static final String TAG = "EntryActivity";
 
@@ -71,10 +71,10 @@ public class EntryActivity extends BaseActivity
   private String mEntryName = null;
 
   // TTS:
-  /** The {@link TextToSpeech} used for speaking. */
-  private TextToSpeech mTts;
-  private MenuItem mSpeakButton;
-  private boolean ttsInitialized = false;
+  //  The {@link TextToSpeech} used for speaking.
+  // private TextToSpeech mTts;
+  // private MenuItem mSpeakButton;
+  // private boolean ttsInitialized = false;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -84,9 +84,9 @@ public class EntryActivity extends BaseActivity
     // Initialize text-to-speech. This is an asynchronous operation.
     // The OnInitListener (second argument) is called after initialization completes.
     // Log.d(TAG, "Initialising TTS");
-    mTts = new TextToSpeech(this,
-        this,  // TextToSpeech.OnInitListener
-        "org.tlhInganHol.android.klingonttsengine");  // Requires API 14.
+    // mTts = new TextToSpeech(this,
+    //     this,  // TextToSpeech.OnInitListener
+    //     "org.tlhInganHol.android.klingonttsengine");  // Requires API 14.
 
     setDrawerContentView(R.layout.entry);
     Resources resources = getResources();
@@ -392,10 +392,10 @@ public class EntryActivity extends BaseActivity
       // TTS:
       // Don't forget to shutdown!
       // Log.d(TAG, "Shutting down TTS");
-      if (mTts != null) {
-          mTts.stop();
-          mTts.shutdown();
-      }
+      // if (mTts != null) {
+      //     mTts.stop();
+      //     mTts.shutdown();
+      // }
       super.onDestroy();
   }
 
@@ -423,11 +423,11 @@ public class EntryActivity extends BaseActivity
     // TTS:
     // The button is disabled in the layout.
     // It will be enabled upon initialization of the TTS engine.
-    mSpeakButton = menu.findItem(R.id.speak);
-    if (ttsInitialized) {
-      // Log.d(TAG, "enabling TTS button in onCreateOptionsMenu");
-      mSpeakButton.setVisible(true);
-    }
+    // mSpeakButton = menu.findItem(R.id.speak);
+    // if (ttsInitialized) {
+    //   // Log.d(TAG, "enabling TTS button in onCreateOptionsMenu");
+    //   mSpeakButton.setVisible(true);
+    // }
 
     return true;
   }
@@ -518,17 +518,18 @@ public class EntryActivity extends BaseActivity
         return true;
     } else if (item.getItemId() == R.id.speak) {
         // TTS:
-        if (mEntryName != null) {
-            // Log.d(TAG, "Speaking");
-            // Toast.makeText(getBaseContext(), mEntryName, Toast.LENGTH_LONG).show();
-            mTts.speak(mEntryName, TextToSpeech.QUEUE_FLUSH, null);
-        }
+        // if (mEntryName != null) {
+        //     // Log.d(TAG, "Speaking");
+        //     // Toast.makeText(getBaseContext(), mEntryName, Toast.LENGTH_LONG).show();
+        //     mTts.speak(mEntryName, TextToSpeech.QUEUE_FLUSH, null);
+        // }
     }
     return super.onOptionsItemSelected(item);
   }
 
   // TTS:
   // Implements TextToSpeech.OnInitListener.
+  /*
   public void onInit(int status) {
       // status can be either TextToSpeech.SUCCESS or TextToSpeech.ERROR.
       if (status == TextToSpeech.SUCCESS) {
@@ -556,4 +557,5 @@ public class EntryActivity extends BaseActivity
           Log.e(TAG, "Could not initialize TextToSpeech.");
       }
   }
+  */
 }

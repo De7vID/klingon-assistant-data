@@ -257,8 +257,9 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       if (isHoneycombOrAbove()) {
         /* TUTORIAL
         if (KlingonAssistant.INCLUDE_TUTORIAL) {
-          if (isIceCreamSandwichOrAbove()) {
+          if (isJellyBeanOrAbove()) {
             // The Google Play Services version we are using does not work in Froyo and below.
+            // Furthermore, the TTS services we use require Jelly Bean.
             MenuItem requestTranslationItem = (MenuItem) menu.findItem(R.id.request_translation);
             // ABS: MenuItemCompat.setVisible(requestTranslationItem, true);
             requestTranslationItem.setVisible(true);
@@ -281,9 +282,9 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       return Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB;
     }
 
-    public static boolean isIceCreamSandwichOrAbove() {
-      // API 14+.
-      return Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH;
+    public static boolean isJellyBeanOrAbove() {
+      // API 16+.
+      return Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN;
     }
 
     // Set the content view for the menu drawer.

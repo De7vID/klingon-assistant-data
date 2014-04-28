@@ -24,7 +24,7 @@
         android:installLocation="auto">
 
     <!-- Minimum Android version 2.1 (7), targeted version 4.4 (19). -->
-    <!-- For TUTORIAL, minimum is version 4.0 (14). -->
+    <!-- For TUTORIAL, minimum is version 4.0 (14). For TTS, it's 4.1 (16). -->
     <uses-sdk android:minSdkVersion="7"
               android:targetSdkVersion="19"/>
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
