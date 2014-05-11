@@ -1,0 +1,18 @@
+
+Android 4.3
+2014.04.29a (TTS)
+Venue 7
+
+java.lang.NullPointerException
+at com.espian.showcaseview.actionbar.ActionBarViewWrapper.getActionItem(ActionBarViewWrapper.java:91)
+at com.espian.showcaseview.targets.ActionItemTarget.getPoint(ActionItemTarget.java:25)
+at com.espian.showcaseview.ShowcaseView$3.run(ShowcaseView.java:242)
+at android.os.Handler.handleCallback(Handler.java:730)
+at android.os.Handler.dispatchMessage(Handler.java:92)
+at android.os.Looper.loop(Looper.java:150)
+at android.app.ActivityThread.main(ActivityThread.java:5146)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at java.lang.reflect.Method.invoke(Method.java:525)
+at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+at dalvik.system.NativeStart.main(Native Method)
