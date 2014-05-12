@@ -1,5 +1,5 @@
 diff --git a/KlingonAssistant/AndroidManifest.xml b/KlingonAssistant/AndroidManifest.xml
-index dc4ff7c..1fbbc9f 100644
+index 83994c4..b7acc3a 100644
 --- a/KlingonAssistant/AndroidManifest.xml
 +++ b/KlingonAssistant/AndroidManifest.xml
 @@ -25,7 +25,7 @@
@@ -198,7 +198,7 @@ index e15ccff..a64a487 100644
 -  */
  }
 diff --git a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
-index 2219099..05a28bf 100644
+index 8aed2cc..dc5cc1f 100644
 --- a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 +++ b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 @@ -44,10 +44,10 @@ import wei.mark.standout.StandOutWindow;
@@ -233,7 +233,22 @@ index 2219099..05a28bf 100644
      if (INCLUDE_TUTORIAL) {
        // ShowcaseView for the initial tutorial.
        ShowcaseView.ConfigOptions mShowcaseViewOptions = new ShowcaseView.ConfigOptions();
-@@ -162,7 +161,6 @@ public class KlingonAssistant extends BaseActivity {
+@@ -149,8 +148,6 @@ public class KlingonAssistant extends BaseActivity {
+                  break;
+                default:
+                  mShowcaseView.hide();
+-                 */
+-
+                  displayHelp(QUERY_FOR_ABOUT);
+ 
+                  // Unset the two flags since the tutorial and help have been shown.
+@@ -160,13 +157,11 @@ public class KlingonAssistant extends BaseActivity {
+                  sharedPrefsEd.putBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, false);
+                  sharedPrefsEd.commit();
+ 
+-                 /*
+                  break;
+              }
            }
        });
      }
