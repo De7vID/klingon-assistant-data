@@ -149,6 +149,8 @@ public class KlingonAssistant extends BaseActivity {
                  break;
                default:
                  mShowcaseView.hide();
+                 */
+
                  displayHelp(QUERY_FOR_ABOUT);
 
                  // Unset the two flags since the tutorial and help have been shown.
@@ -157,6 +159,8 @@ public class KlingonAssistant extends BaseActivity {
                  sharedPrefsEd.putBoolean(KEY_SHOW_HELP, false);
                  sharedPrefsEd.putBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, false);
                  sharedPrefsEd.commit();
+
+                 /*
                  break;
              }
           }
@@ -239,9 +243,7 @@ public class KlingonAssistant extends BaseActivity {
         if (sharedPrefs.getBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, /* default */true)) {
           // Show the tutorial (ending on the help screen).
           // TUTORIAL
-          if (INCLUDE_TUTORIAL) {
-            setupTutorial();
-          }
+          setupTutorial();
         } else if (sharedPrefs.getBoolean(KEY_SHOW_HELP, /* default */true)) {
           // Show just the help screen.
           displayHelp(QUERY_FOR_ABOUT);
