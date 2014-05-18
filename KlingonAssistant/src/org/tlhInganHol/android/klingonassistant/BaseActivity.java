@@ -53,10 +53,10 @@ import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.widget.SearchView;
 
 // TUTORIAL:
-// import com.google.android.gms.plus.PlusShare;
-// import com.google.android.gms.plus.PlusShare.Builder;
-// import com.google.android.gms.plus.model.people.Person;
-// import java.util.Arrays;
+import com.google.android.gms.plus.PlusShare;
+import com.google.android.gms.plus.PlusShare.Builder;
+import com.google.android.gms.plus.model.people.Person;
+import java.util.Arrays;
 
 
 // ABS: s/SherlockActivity/ActionBarActivity
@@ -255,7 +255,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
       }
 
       if (isHoneycombOrAbove()) {
-        /* TUTORIAL
         if (KlingonAssistant.INCLUDE_TUTORIAL) {
           if (isJellyBeanOrAbove()) {
             // The Google Play Services version we are using does not work in Froyo and below.
@@ -265,7 +264,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
             requestTranslationItem.setVisible(true);
           }
         }
-        */
 
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         // ABS: SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.search));
@@ -429,7 +427,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
     // Private method to request a translation.
     private void requestTranslation() {
-      /* TUTORIAL
       if (KlingonAssistant.INCLUDE_TUTORIAL) {
         // See: https://developers.google.com/+/mobile/android/share/prefill
         // TODO: Ideally, this should post to the "Klingon language" community under the "Requests for
@@ -453,7 +450,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
                   Toast.LENGTH_LONG).show();
         }
       }
-      */
     }
 
     // Private method to launch a Facebook group.

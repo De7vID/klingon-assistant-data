@@ -44,10 +44,10 @@ import wei.mark.standout.StandOutWindow;
 import com.actionbarsherlock.view.MenuItem;
 
 // TUTORIAL:
-// import com.actionbarsherlock.view.Menu;
-// import com.espian.showcaseview.ShowcaseView;
-// import com.espian.showcaseview.targets.ActionItemTarget;
-// import com.espian.showcaseview.targets.ActionViewTarget;
+import com.actionbarsherlock.view.Menu;
+import com.espian.showcaseview.ShowcaseView;
+import com.espian.showcaseview.targets.ActionItemTarget;
+import com.espian.showcaseview.targets.ActionViewTarget;
 
 /**
  * The main activity for the dictionary. Displays search results triggered by the search dialog and
@@ -57,7 +57,7 @@ public class KlingonAssistant extends BaseActivity {
   private static final String TAG = "KlingonAssistant";
 
   // Whether to include the tutorial or not. If false, the code should be stripped out of the binary.
-  public static final boolean INCLUDE_TUTORIAL = false;
+  public static final boolean INCLUDE_TUTORIAL = true;
 
   // Preference key for whether to show help.
   public static final String  KEY_SHOW_HELP                    = "show_help";
@@ -91,7 +91,6 @@ public class KlingonAssistant extends BaseActivity {
   }
 
   private void setupTutorial() {
-    /* TUTORIAL
     if (INCLUDE_TUTORIAL) {
       // ShowcaseView for the initial tutorial.
       ShowcaseView.ConfigOptions mShowcaseViewOptions = new ShowcaseView.ConfigOptions();
@@ -149,8 +148,6 @@ public class KlingonAssistant extends BaseActivity {
                  break;
                default:
                  mShowcaseView.hide();
-                 */
-
                  displayHelp(QUERY_FOR_ABOUT);
 
                  // Unset the two flags since the tutorial and help have been shown.
@@ -160,13 +157,11 @@ public class KlingonAssistant extends BaseActivity {
                  sharedPrefsEd.putBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, false);
                  sharedPrefsEd.commit();
 
-                 /*
                  break;
              }
           }
       });
     }
-    */
   }
 
   @Override
