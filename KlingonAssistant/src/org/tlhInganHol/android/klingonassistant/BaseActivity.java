@@ -290,6 +290,14 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         mDrawer.setContentView(layoutResId);
     }
 
+    @Override
+    protected void onResume() {
+      super.onResume();
+
+      // Work around a bug where the title bar sometimes disappears.
+      setTitle(R.string.app_name);
+    }
+
     protected void onSlideMenuItemClicked(int position, SlideMenuItem item) {
         mDrawer.closeMenu();
 
