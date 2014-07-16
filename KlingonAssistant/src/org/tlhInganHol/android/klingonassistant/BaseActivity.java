@@ -30,6 +30,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
@@ -235,6 +236,15 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         // Register a receiver for the kill order.
         mKillReceiver = new KillReceiver();
         registerReceiver(mKillReceiver, IntentFilter.create(ACTION_KILL, KILL_TYPE));
+
+        // Work around a bug where the title bar sometimes disappears.
+        Handler handler = new Handler();
+        Runnable runnable = new Runnable() {
+            public void run() {
+                setTitle(R.string.app_name);
+            }
+        };
+        handler.postDelayed(runnable, 100);  // 100 ms
     }
 
     @Override
@@ -288,14 +298,6 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     // Set the content view for the menu drawer.
     protected void setDrawerContentView(int layoutResId) {
         mDrawer.setContentView(layoutResId);
-    }
-
-    @Override
-    protected void onResume() {
-      super.onResume();
-
-      // Work around a bug where the title bar sometimes disappears.
-      setTitle(R.string.app_name);
     }
 
     protected void onSlideMenuItemClicked(int position, SlideMenuItem item) {
