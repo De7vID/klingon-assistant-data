@@ -236,6 +236,15 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         // Register a receiver for the kill order.
         mKillReceiver = new KillReceiver();
         registerReceiver(mKillReceiver, IntentFilter.create(ACTION_KILL, KILL_TYPE));
+
+        // Work around a bug where the title bar sometimes disappears.
+        Handler handler = new Handler();
+        Runnable runnable = new Runnable() {
+            public void run() {
+                supportInvalidateOptionsMenu();
+            }
+        };
+        handler.postDelayed(runnable, 100);  // 100 ms
     }
 
     @Override
