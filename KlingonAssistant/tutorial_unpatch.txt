@@ -1,5 +1,5 @@
 diff --git a/KlingonAssistant/AndroidManifest.xml b/KlingonAssistant/AndroidManifest.xml
-index b7acc3a..83994c4 100644
+index 111b5b2..476cd1a 100644
 --- a/KlingonAssistant/AndroidManifest.xml
 +++ b/KlingonAssistant/AndroidManifest.xml
 @@ -25,7 +25,7 @@
@@ -12,7 +12,7 @@ index b7acc3a..83994c4 100644
      <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
      <supports-screens android:resizeable="true"
 diff --git a/KlingonAssistant/project.properties b/KlingonAssistant/project.properties
-index e44fdc0..9862e92 100644
+index 0a263d2..a0702ad 100644
 --- a/KlingonAssistant/project.properties
 +++ b/KlingonAssistant/project.properties
 @@ -11,7 +11,7 @@
@@ -28,61 +28,9 @@ index e44fdc0..9862e92 100644
  android.library.reference.3=../../StandOut/library
  
  # TUTORIAL - for API 14+
--android.library.reference.4=../../../opt/android-sdk-linux_86/extras/google/google_play_services/libproject/google-play-services_lib
--android.library.reference.5=../../ShowcaseView/library
-+# android.library.reference.4=../../../opt/android-sdk-linux_86/extras/google/google_play_services/libproject/google-play-services_lib
-+# android.library.reference.5=../../ShowcaseView/library
-diff --git a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java
-index af91e47..a5e7a0e 100644
---- a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java
-+++ b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/BaseActivity.java
-@@ -53,10 +53,10 @@ import com.actionbarsherlock.view.MenuItem;
- import com.actionbarsherlock.widget.SearchView;
- 
- // TUTORIAL:
--import com.google.android.gms.plus.PlusShare;
--import com.google.android.gms.plus.PlusShare.Builder;
--import com.google.android.gms.plus.model.people.Person;
--import java.util.Arrays;
-+// import com.google.android.gms.plus.PlusShare;
-+// import com.google.android.gms.plus.PlusShare.Builder;
-+// import com.google.android.gms.plus.model.people.Person;
-+// import java.util.Arrays;
- 
- 
- // ABS: s/SherlockActivity/ActionBarActivity
-@@ -255,6 +255,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
-       }
- 
-       if (isHoneycombOrAbove()) {
-+        /* TUTORIAL
-         if (KlingonAssistant.INCLUDE_TUTORIAL) {
-           if (isJellyBeanOrAbove()) {
-             // The Google Play Services version we are using does not work in Froyo and below.
-@@ -264,6 +265,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
-             requestTranslationItem.setVisible(true);
-           }
-         }
-+        */
- 
-         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-         // ABS: SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.search));
-@@ -427,6 +429,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
- 
-     // Private method to request a translation.
-     private void requestTranslation() {
-+      /* TUTORIAL
-       if (KlingonAssistant.INCLUDE_TUTORIAL) {
-         // See: https://developers.google.com/+/mobile/android/share/prefill
-         // TODO: Ideally, this should post to the "Klingon language" community under the "Requests for
-@@ -450,6 +453,7 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
-                   Toast.LENGTH_LONG).show();
-         }
-       }
-+      */
-     }
- 
-     // Private method to launch a Facebook group.
+-android.library.reference.4=../../ShowcaseView/library
++# android.library.reference.4=../../ShowcaseView/library
+ # android.library.reference.5=../../../opt/android-sdk-linux_86/extras/google/google_play_services/libproject/google-play-services_lib
 diff --git a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 index a64a487..e15ccff 100644
 --- a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
