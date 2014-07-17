@@ -25,6 +25,7 @@ import android.database.Cursor;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.text.Html;
 import android.text.TextUtils;
@@ -474,11 +475,18 @@ public class KlingonAssistant extends BaseActivity {
         }
 
         // Broadcast the kill order to finish all non-floating activities.
-        // TODO: Fix race condition.
+        // Work around race condition.
         Log.d(TAG, "Broadcast kill order to non-floating window.");
-        Intent intent = new Intent(ACTION_KILL);
+        final Intent intent = new Intent(ACTION_KILL);
         intent.setType(KILL_TYPE);
-        sendBroadcast(intent);
+        Handler killNonFloatingWindowHandler = new Handler();
+        Runnable killNonFloatingWindowRunnable = new Runnable() {
+            public void run() {
+                sendBroadcast(intent);
+            }
+        };
+        killNonFloatingWindowHandler.postDelayed(killNonFloatingWindowRunnable, 100);  // 100 ms
+
         return true;
     }
     return super.onOptionsItemSelected(item);

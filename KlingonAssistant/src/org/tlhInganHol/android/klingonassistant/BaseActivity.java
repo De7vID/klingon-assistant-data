@@ -123,10 +123,15 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
             mActivePosition = savedInstanceState.getInt(STATE_ACTIVE_POSITION);
         }
 
-        // Close the floating window, if there is one.
-        // TODO: Fix race condition.
+        // Close the floating window, if there is one. Work around a race condition.
         Log.d(TAG, "Starting activity with non-floating window. Close floating window.");
-        StandOutWindow.closeAll(this, FloatingWindow.class);
+        Handler killFloatingWindowHandler = new Handler();
+        Runnable killFloatingWindowRunnable = new Runnable() {
+            public void run() {
+                StandOutWindow.closeAll(BaseActivity.this, FloatingWindow.class);
+            }
+        };
+        killFloatingWindowHandler.postDelayed(killFloatingWindowRunnable, 100);  // 100 ms
 
         // Get the action bar.
         getSupportActionBar();
@@ -560,11 +565,18 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
 
         // Broadcast the kill order to finish all non-floating activities.
-        // TODO: Fix race condition.
+        // Work around race condition.
         Log.d(TAG, "Broadcast kill order to non-floating window.");
-        Intent intent = new Intent(ACTION_KILL);
+        final Intent intent = new Intent(ACTION_KILL);
         intent.setType(KILL_TYPE);
-        sendBroadcast(intent);
+        Handler killNonFloatingWindowHandler = new Handler();
+        Runnable killNonFloatingWindowRunnable = new Runnable() {
+            public void run() {
+                sendBroadcast(intent);
+            }
+        };
+        killNonFloatingWindowHandler.postDelayed(killNonFloatingWindowRunnable, 100);  // 100 ms
+
         return true;
       case R.id.about:
         // Show "About" screen.
