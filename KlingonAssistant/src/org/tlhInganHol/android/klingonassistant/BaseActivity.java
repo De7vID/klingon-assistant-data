@@ -43,10 +43,12 @@ import wei.mark.standout.StandOutWindow;
 
 // ABS:
 // import android.support.v4.view.MenuItemCompat;
+// import android.support.v7.app.ActionBar;
 // import android.support.v7.app.ActionBarActivity;
 // import android.view.Menu;
 // import android.view.MenuInflater;
 // import android.view.MenuItem;
+import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
@@ -134,7 +136,8 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
         killFloatingWindowHandler.postDelayed(killFloatingWindowRunnable, 100);  // 100 ms
 
         // Get the action bar.
-        getSupportActionBar();
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         // If the device is in landscape orientation and the screen size is large (or bigger), then
         // make the slide-out menu static. Otherwise, hide it by default.
