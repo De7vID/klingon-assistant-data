@@ -17,47 +17,44 @@
 -->
 <!-- Options Menu for SearchableActivity and EntryActivity.
  -->
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- ABS:
-      xmlns:ka="http://schemas.android.com/apk/res-auto"
-    -->
-    <!-- ABS: s/android/ka for showAsAction and actionViewClass; android.widget.SearchView -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/search"
           android:title="@string/menu_search_tlh"
           android:icon="@drawable/ic_menu_search"
-          android:showAsAction="always|collapseActionView"
-          android:actionViewClass="com.actionbarsherlock.widget.SearchView" />
+          app:showAsAction="always|collapseActionView"
+          app:actionViewClass="android.support.v7.widget.SearchView" />
 
     <item android:id="@+id/gplus"
           android:title="@string/menu_gplus_tlh"
           android:icon="@drawable/ic_menu_community"
-          android:showAsAction="always" />
+          app:showAsAction="always" />
 
     <!-- TTS -->
     <item android:id="@+id/speak"
           android:title="@string/menu_speak_tlh"
           android:icon="@drawable/ic_menu_speak"
-          android:showAsAction="always"
+          app:showAsAction="always"
           android:visible="false" />
 
     <item android:id="@+id/share"
           android:title="@string/menu_share_tlh"
           android:icon="@drawable/ic_menu_share"
-          android:showAsAction="ifRoom"
-          android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+          app:showAsAction="ifRoom"
+          android:actionProviderClass="android.support.v7.widget.ShareActionProvider"
           android:visible="false" />
 
     <!-- TUTORIAL -->
     <item android:id="@+id/request_translation"
           android:title="@string/menu_request_translation_tlh"
           android:icon="@drawable/ic_menu_request_translation"
-          android:showAsAction="ifRoom"
+          app:showAsAction="ifRoom"
           android:visible="false" />
 
     <item android:id="@+id/float_mode"
           android:title="@string/menu_float_mode_tlh"
           android:icon="@drawable/ic_menu_float_mode"
-          android:showAsAction="ifRoom" />
+          app:showAsAction="ifRoom" />
 
     <item android:id="@+id/about"
           android:title="@string/menu_about_tlh"

@@ -41,11 +41,12 @@ import android.widget.TwoLineListItem;
 import wei.mark.standout.StandOutWindow;
 
 // ABS:
-// import android.view.MenuItem;
-import com.actionbarsherlock.view.MenuItem;
+import android.view.MenuItem;
+// import com.actionbarsherlock.view.MenuItem;
 
 // TUTORIAL:
-import com.actionbarsherlock.view.Menu;
+// import com.actionbarsherlock.view.Menu;
+import android.view.Menu;
 import com.espian.showcaseview.ShowcaseView;
 import com.espian.showcaseview.targets.ActionItemTarget;
 import com.espian.showcaseview.targets.ActionViewTarget;

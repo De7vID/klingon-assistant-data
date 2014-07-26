@@ -42,18 +42,19 @@ import net.simonvt.menudrawer.Position;
 import wei.mark.standout.StandOutWindow;
 
 // ABS:
-// import android.support.v4.view.MenuItemCompat;
-// import android.support.v7.app.ActionBar;
-// import android.support.v7.app.ActionBarActivity;
-// import android.view.Menu;
-// import android.view.MenuInflater;
-// import android.view.MenuItem;
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.SherlockActivity;
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuInflater;
-import com.actionbarsherlock.view.MenuItem;
-import com.actionbarsherlock.widget.SearchView;
+import android.support.v4.view.MenuItemCompat;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.SearchView;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+// import com.actionbarsherlock.app.ActionBar;
+// import com.actionbarsherlock.app.SherlockActivity;
+// import com.actionbarsherlock.view.Menu;
+// import com.actionbarsherlock.view.MenuInflater;
+// import com.actionbarsherlock.view.MenuItem;
+// import com.actionbarsherlock.widget.SearchView;
 
 // TUTORIAL:
 // import com.google.android.gms.plus.PlusShare;
@@ -63,7 +64,8 @@ import com.actionbarsherlock.widget.SearchView;
 
 
 // ABS: s/SherlockActivity/ActionBarActivity
-public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.MenuListener {
+public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.MenuListener {
+// public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.MenuListener {
     private static final String TAG = "BaseActivity";
 
     // This must uniquely identify the {boQwI'} entry.
@@ -267,7 +269,8 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
       // ABS: getMenuInflater
-      MenuInflater inflater = getSupportMenuInflater();
+      MenuInflater inflater = getMenuInflater();
+      // MenuInflater inflater = getSupportMenuInflater();
       SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
       if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
         inflater.inflate(R.menu.options_menu_tlh, menu);
@@ -277,20 +280,23 @@ public class BaseActivity extends SherlockActivity implements SlideMenuAdapter.M
 
       if (isHoneycombOrAbove()) {
         /* TUTORIAL
+        // Note: Request translation has been removed from the menu. It is now accessed indirectly through the G+ button.
         if (KlingonAssistant.INCLUDE_TUTORIAL) {
           if (isJellyBeanOrAbove()) {
             // The Google Play Services version we are using does not work in Froyo and below.
             // Furthermore, the TTS services we use require Jelly Bean.
             MenuItem requestTranslationItem = (MenuItem) menu.findItem(R.id.request_translation);
             // ABS: MenuItemCompat.setVisible(requestTranslationItem, true);
-            requestTranslationItem.setVisible(true);
+            MenuItemCompat.setVisible(requestTranslationItem, true);
+            // requestTranslationItem.setVisible(true);
           }
         }
         */
 
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         // ABS: SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.search));
-        SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.search));
+        // SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
         searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
         searchView.setIconifiedByDefault(false);
       }
