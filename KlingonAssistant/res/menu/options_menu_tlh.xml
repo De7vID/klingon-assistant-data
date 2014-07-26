@@ -41,7 +41,7 @@
           android:title="@string/menu_share_tlh"
           android:icon="@drawable/ic_menu_share"
           app:showAsAction="ifRoom"
-          android:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+          app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
           android:visible="false" />
 
     <!-- TUTORIAL -->

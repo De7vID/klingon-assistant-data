@@ -23,19 +23,13 @@ import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
+import android.view.MenuItem;
 
-// ABS:
 import android.preference.PreferenceActivity;
 import android.support.v7.app.ActionBar;
-import android.view.MenuItem;
-// import com.actionbarsherlock.app.ActionBar;
-// import com.actionbarsherlock.app.SherlockPreferenceActivity;
-// import com.actionbarsherlock.view.MenuItem;
 
-// ABS: This needs to use parts of PreferenceActivity and also ActionBarActivity.
-public class Preferences extends PreferenceActivity implements
-// public class Preferences extends SherlockPreferenceActivity implements
-        OnSharedPreferenceChangeListener {
+// This needs to extend both PreferenceActivity and also ActionBarActivity, in order to use the ActionBar.
+public class Preferences extends PreferenceActivity implements OnSharedPreferenceChangeListener {
 
   // Tutorial preferences.
   public static final String KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE                = "run_tutorial_checkbox_preference";
@@ -71,9 +65,8 @@ public class Preferences extends PreferenceActivity implements
       tutorialPreference.setEnabled(true);
     }
 
-    // ABS: getActionBar() - needs to be ActionBarActivity for this.
-    //ActionBar actionBar = getSupportActionBar();
-    //actionBar.setDisplayHomeAsUpEnabled(true);
+    // ActionBar actionBar = getActionBar();
+    // actionBar.setDisplayHomeAsUpEnabled(true);
   }
 
   @Override

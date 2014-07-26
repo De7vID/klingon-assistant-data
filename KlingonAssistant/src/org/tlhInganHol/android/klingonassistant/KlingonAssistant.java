@@ -31,6 +31,8 @@ import android.text.Html;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -40,13 +42,7 @@ import android.widget.TextView;
 import android.widget.TwoLineListItem;
 import wei.mark.standout.StandOutWindow;
 
-// ABS:
-import android.view.MenuItem;
-// import com.actionbarsherlock.view.MenuItem;
-
 // TUTORIAL:
-// import com.actionbarsherlock.view.Menu;
-import android.view.Menu;
 import com.espian.showcaseview.ShowcaseView;
 import com.espian.showcaseview.targets.ActionItemTarget;
 import com.espian.showcaseview.targets.ActionViewTarget;

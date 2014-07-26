@@ -23,15 +23,13 @@
 
 -keepattributes *Annotation*
 
--keepclassmembers class * extends com.actionbarsherlock.ActionBarSherlock {
-   <init>(android.app.Activity, int);
-}
-
 -libraryjars libs
 
 # The official support library.
 -keep class android.support.v4.app.** { *; }
 -keep interface android.support.v4.app.** { *; }
+-keep class android.support.v7.** { *; }
+-keep interface android.support.v7.** { *; }
 
 # Library projects.
 -keep class com.actionbarsherlock.** { *; }
@@ -44,4 +42,3 @@
 # Google Play Services
 -keep class com.google.android.gms.plus.** { *; }
 -keep interface com.google.android.gms.plus.** { *; }
-
