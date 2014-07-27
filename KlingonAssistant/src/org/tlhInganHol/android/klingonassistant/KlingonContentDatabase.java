@@ -186,11 +186,11 @@ public class KlingonContentDatabase {
    */
   private String expandShorthand(String shorthand) {
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
-    if (!sharedPrefs.getBoolean(Preferences.XIFAN_HOL_CHECKBOX_PREFERENCE, /* default */false)) {
+    if (!sharedPrefs.getBoolean(Preferences.KEY_XIFAN_HOL_CHECKBOX_PREFERENCE, /* default */false)) {
       // The user has disabled the "xifan hol" shorthand, so just do nothing and return.
       return shorthand;
     }
-    if (sharedPrefs.getBoolean(Preferences.SWAP_QS_CHECKBOX_PREFERENCE, /* default */false)) {
+    if (sharedPrefs.getBoolean(Preferences.KEY_SWAP_QS_CHECKBOX_PREFERENCE, /* default */false)) {
       // Map q to Q and k to q.
       shorthand = shorthand.replaceAll("q", "Q");
       shorthand = shorthand.replaceAll("k", "q");
@@ -268,12 +268,20 @@ public class KlingonContentDatabase {
       // "xifan hol" loosening.
       looseQuery = expandShorthand(queryBase);
     }
+
+    // Get the preference for whether we should search the German definitions or not.
+    SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
+    boolean searchGermanDefinitions =
+        sharedPrefs.getBoolean(Preferences.KEY_SEARCH_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE,
+                               /* default */false);
+
     if (queryEntry.basePartOfSpeechIsUnknown() && queryEntry.getEntryName().length() > 4) {
       // If the POS is unknown and the query is greater than 4 characters, try to parse it
       // as a complex word or sentence.
       parseQueryAsComplexWordOrSentence(looseQuery, resultsCursor, resultsSet);
     } else {
       // Otherwise, assume the base query is a prefix of the desired result.
+      // TODO: Also search in German here and below.
       Cursor resultsWithGivenPrefixCursor = getEntriesContainingQuery(looseQuery, /* isPrefix */
               true);
       copyCursorEntries(resultsCursor, resultsSet, resultsWithGivenPrefixCursor, /* filter */true,
@@ -299,41 +307,16 @@ public class KlingonContentDatabase {
       }
 
       // Match definitions, from beginning.
-      Cursor resultsMatchingDefinitionFromBeginning = getEntriesMatchingDefinition(queryBase, /* isPrefix */
-              true, /* useSearchTags */false);
-      copyCursorEntries(resultsCursor, resultsSet, resultsMatchingDefinitionFromBeginning, /* filter */
-              false, null);
-      if (resultsMatchingDefinitionFromBeginning != null) {
-        resultsMatchingDefinitionFromBeginning.close();
-      }
+      matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ true, /* useSearchTags */ false, /* searchGermanDefinitions */ false, resultsCursor, resultsSet);
 
       // Match definitions, anywhere else.
       if (queryEntry.getEntryName().length() > 2) {
-        Cursor resultsMatchingDefinition = getEntriesMatchingDefinition(queryBase, /* isPrefix */
-                false,/* useSearchTags */false);
-        copyCursorEntries(resultsCursor, resultsSet, resultsMatchingDefinition, /* filter */false,
-                null);
-        if (resultsMatchingDefinition != null) {
-          resultsMatchingDefinition.close();
-        }
+        matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ false, /* useSearchTags */ false, /* searchGermanDefinitions */ false, resultsCursor, resultsSet);
 
-        // Match search tags, from beginning, then anywhere else.
-        Cursor resultsMatchingSearchTagsFromBeginning = getEntriesMatchingDefinition(queryBase, /* isPrefix */
-                true,/* useSearchTags */true);
-        copyCursorEntries(resultsCursor, resultsSet, resultsMatchingSearchTagsFromBeginning,
-        /* filter */false, null);
-        if (resultsMatchingSearchTagsFromBeginning != null) {
-          resultsMatchingSearchTagsFromBeginning.close();
-        }
-        Cursor resultsMatchingSearchTags = getEntriesMatchingDefinition(queryBase, /* isPrefix */
-                false,/* useSearchTags */true);
-        copyCursorEntries(resultsCursor, resultsSet, resultsMatchingSearchTags, /* filter */false,
-                null);
-        if (resultsMatchingSearchTags != null) {
-          resultsMatchingSearchTags.close();
-        }
+        // Match search tags, from beginning, then anywhere else. (The search tags are only in English.)
+        matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ true, /* useSearchTags */ true, /* searchGermanDefinitions */ false, resultsCursor, resultsSet);
+        matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ false, /* useSearchTags */ true, /* searchGermanDefinitions */ false, resultsCursor, resultsSet);
       }
-
     }
 
     return resultsCursor;
@@ -484,6 +467,7 @@ public class KlingonContentDatabase {
   }
 
   // Helper method to search for entries whose definitions or search tags match the query.
+  // Note that matches are case-insensitive.
   private Cursor getEntriesMatchingDefinition(String piece, boolean isPrefix, boolean useSearchTags) {
 
     // The search key is either the definition or the search tags.
@@ -505,6 +489,15 @@ public class KlingonContentDatabase {
       // Do nothing.
     }
     return cursor;
+  }
+
+  // Helper method to make it easier to search either definitions or search tags, in either English or German.
+  private void matchDefinitionsOrSearchTags(String piece, boolean isPrefix, boolean useSearchTags, boolean searchGermanDefinitions, MatrixCursor resultsCursor, HashSet<Integer> resultsSet) {
+      Cursor matchingResults = getEntriesMatchingDefinition(piece, isPrefix, useSearchTags);
+      copyCursorEntries(resultsCursor, resultsSet, matchingResults, /* filter */ false, null);
+      if (matchingResults != null) {
+          matchingResults.close();
+      }
   }
 
   // Helper method to add one exact match to the results cursor.

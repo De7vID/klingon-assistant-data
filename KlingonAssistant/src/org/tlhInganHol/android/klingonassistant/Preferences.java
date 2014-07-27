@@ -41,8 +41,8 @@ public class Preferences extends PreferenceActivity implements OnSharedPreferenc
   public static final String KEY_SEARCH_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE   = "search_german_definitions_checkbox_preference";
 
   // Input preferences.
-  public static final String XIFAN_HOL_CHECKBOX_PREFERENCE                       = "xifan_hol_checkbox_preference";
-  public static final String SWAP_QS_CHECKBOX_PREFERENCE                         = "swap_qs_checkbox_preference";
+  public static final String KEY_XIFAN_HOL_CHECKBOX_PREFERENCE                       = "xifan_hol_checkbox_preference";
+  public static final String KEY_SWAP_QS_CHECKBOX_PREFERENCE                         = "swap_qs_checkbox_preference";
 
   // Informational preferences.
   public static final String KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE           = "show_transitivity_checkbox_preference";
