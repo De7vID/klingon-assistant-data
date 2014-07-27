@@ -308,10 +308,16 @@ public class KlingonContentDatabase {
 
       // Match definitions, from beginning.
       matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ true, /* useSearchTags */ false, /* searchGermanDefinitions */ false, resultsCursor, resultsSet);
+      if (searchGermanDefinitions) {
+          matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ true, /* useSearchTags */ false, /* searchGermanDefinitions */ true, resultsCursor, resultsSet);
+      }
 
       // Match definitions, anywhere else.
       if (queryEntry.getEntryName().length() > 2) {
         matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ false, /* useSearchTags */ false, /* searchGermanDefinitions */ false, resultsCursor, resultsSet);
+        if (searchGermanDefinitions) {
+            matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ false, /* useSearchTags */ false, /* searchGermanDefinitions */ true, resultsCursor, resultsSet);
+        }
 
         // Match search tags, from beginning, then anywhere else. (The search tags are only in English.)
         matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ true, /* useSearchTags */ true, /* searchGermanDefinitions */ false, resultsCursor, resultsSet);
@@ -468,11 +474,12 @@ public class KlingonContentDatabase {
 
   // Helper method to search for entries whose definitions or search tags match the query.
   // Note that matches are case-insensitive.
-  private Cursor getEntriesMatchingDefinition(String piece, boolean isPrefix, boolean useSearchTags) {
+  private Cursor getEntriesMatchingDefinition(String piece, boolean isPrefix, boolean useSearchTags, boolean searchGermanDefinitions) {
 
     // The search key is either the definition or the search tags.
-    String key = useSearchTags ? KlingonContentDatabase.KEY_SEARCH_TAGS
-            : KlingonContentDatabase.KEY_DEFINITION;
+    String key = useSearchTags ? KlingonContentDatabase.KEY_SEARCH_TAGS :
+            searchGermanDefinitions ? KlingonContentDatabase.KEY_DEFINITION_DE :
+                                      KlingonContentDatabase.KEY_DEFINITION;
 
     // If searching for a prefix, nothing can precede the query; otherwise,
     // it must be preceded by a space (it begins a word).
@@ -493,7 +500,7 @@ public class KlingonContentDatabase {
 
   // Helper method to make it easier to search either definitions or search tags, in either English or German.
   private void matchDefinitionsOrSearchTags(String piece, boolean isPrefix, boolean useSearchTags, boolean searchGermanDefinitions, MatrixCursor resultsCursor, HashSet<Integer> resultsSet) {
-      Cursor matchingResults = getEntriesMatchingDefinition(piece, isPrefix, useSearchTags);
+      Cursor matchingResults = getEntriesMatchingDefinition(piece, isPrefix, useSearchTags, searchGermanDefinitions);
       copyCursorEntries(resultsCursor, resultsSet, matchingResults, /* filter */ false, null);
       if (matchingResults != null) {
           matchingResults.close();
