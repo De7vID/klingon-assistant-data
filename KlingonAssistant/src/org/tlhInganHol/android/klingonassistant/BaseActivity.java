@@ -243,6 +243,7 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
         Handler handler = new Handler();
         Runnable runnable = new Runnable() {
             public void run() {
+                getSupportActionBar().setTitle(getResources().getString(R.string.app_name));
                 supportInvalidateOptionsMenu();
                 findViewById(android.R.id.content).invalidate();
             }

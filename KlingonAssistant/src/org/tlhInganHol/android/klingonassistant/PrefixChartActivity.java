@@ -21,7 +21,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 
 /**
- * Displays an entry and its definition.
+ * Displays the prefix chart.
  */
 public class PrefixChartActivity extends BaseActivity {
   // private static final String TAG = "PrefixChartActivity";
