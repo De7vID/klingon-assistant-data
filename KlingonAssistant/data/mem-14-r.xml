@@ -2038,8 +2038,8 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="part_of_speech">v:3,is,hyp</column>
       <column name="definition">be agile, be nimble, be spry?</column>
       <column name="definition_de"></column>
-      <column name="synonyms"></column>
-      <column name="antonyms">{vaD:v}</column>
+      <column name="synonyms">{vaD:v}</column>
+      <column name="antonyms"></column>
       <column name="see_also">{pe'vIl roS:sen:idiom}, {roSHa'moH:v}</column>
       <column name="notes">This verb is not known to exist, but its existence is conjectured based on the idiom {pe'vIl roS:sen:idiom} and the verb {roSHa'moH:v}.</column>
       <column name="hidden_notes"></column>
@@ -2051,7 +2051,8 @@ In the context of playing dice, this word refers to the action of the dice as th
     <table name="mem">
       <column name="_id">29790</column>
       <column name="entry_name">roSHa'moH</column>
-      <column name="part_of_speech">v:t_c,deriv</column>
+      <!-- Not marked "deriv" because {roS:v:3} is hypothetical. -->
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">paralyze</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
