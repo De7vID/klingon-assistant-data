@@ -422,7 +422,8 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{law:n}, {tajvaj:n}</column>
-      <column name="notes">This is a modern unit of angle adopted from other civilizations in the galaxy. It is also referred to as a {law chu':n@@law:n, chu':v:1} (although that term is used less and less). There are 360 {lawrI'mey:n:nolink} in a {gho:n}.</column>
+      <!-- {law chu':n} can't be linked because {law:n} is archaic. -->
+      <column name="notes">This is a modern unit of angle adopted from other civilizations in the galaxy. It is also referred to as a {law chu':n:nolink} (although that term is used less and less). There are 360 {lawrI'mey:n:nolink} in a {gho:n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
