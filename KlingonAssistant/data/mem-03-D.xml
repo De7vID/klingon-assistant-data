@@ -2421,7 +2421,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "accumulat
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.11.29. -->
+      <!-- Checked on: 2014.11.12. -->
       <column name="_id">13910</column>
       <column name="entry_name">Don</column>
       <!-- The "go parallel to" definition suggests that this verb is actually transitive, however, the noun {HeDon} also suggests that {Don} acts like a verb of quality. -->
@@ -2429,30 +2429,32 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "accumulat
       <column name="definition">be parallel, go parallel to</column>
       <column name="definition_de">zu etwas parallel</column>
       <column name="synonyms"></column>
-      <column name="antonyms">{DonHa':v}</column>
+      <column name="antonyms">{leD:v}, {DonHa':v}</column>
       <column name="see_also">{HeDon:n}</column>
-      <column name="notes"></column>
+      <column name="notes">To say that two or more things are parallel, this verb is used with a plural subject.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2014.11.12. -->
       <column name="_id">13911</column>
       <column name="entry_name">DonHa'</column>
-      <column name="part_of_speech">v:ambi,deriv,hyp</column>
-      <column name="definition">be perpendicular, go perpendicular to</column>
-      <column name="definition_de">senkrecht zu etwas</column>
+      <!-- This should have the same transitivity as {Don:v}. -->
+      <column name="part_of_speech">v:ambi,deriv</column>
+      <column name="definition">be misaligned</column>
+      <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms">{Don:v}</column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="hidden_notes">This word does not appear in canon. This entry is here for ease of reference only.</column>
+      <column name="see_also">{leD:v}</column>
+      <column name="notes">This means something like "be misaligned".</column>
+      <column name="hidden_notes"></column>
       <column name="components">{Don:v}, {-Ha':v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
-      <column name="source"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
