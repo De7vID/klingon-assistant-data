@@ -79,7 +79,7 @@ The suffix {-Daq:n} marks the target.</column>
       <!-- Checked on: 2012.11.18. -->
       <column name="_id">10050</column>
       <column name="entry_name">bagh</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">tie</column>
       <column name="definition_de">binden</column>
       <column name="synonyms"></column>
@@ -91,6 +91,23 @@ The suffix {-Daq:n} marks the target.</column>
       <column name="examples"></column>
       <column name="search_tags">knot</column>
       <column name="source">[1] {TKDA:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2014.11.16. -->
+      <column name="_id">10051</column>
+      <column name="entry_name">baghHa'</column>
+      <column name="part_of_speech">v:t_c,deriv,slang</column>
+      <column name="definition">crack a code</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{So'Ha':v}</column>
+      <column name="notes">This slang term is used for figuring out how to decrypt previously encrypted data (and successfully doing so), without knowing how to do so ahead of time. That is, it refers to unauthorized decryption.[1]</column>
+      <column name="hidden_notes"></column>
+      <column name="components">{bagh:v}, {-Ha':v}</column>
+      <column name="examples"></column>
+      <column name="search_tags">decrypt, hack</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
