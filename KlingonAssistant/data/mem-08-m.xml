@@ -3441,15 +3441,16 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
     <table name="mem">
       <column name="_id">21650</column>
       <column name="entry_name">muvtay</column>
+      <!-- Not deriv because part of speech is hypothetical. -->
       <column name="part_of_speech">n</column>
       <column name="definition">initiation</column>
       <column name="definition_de">(feierliche) Einführung, Initiationsritus</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{muv:v}, {tay:n}</column>
+      <column name="see_also">{muv:v}, {tay:n:1}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{muv:v} or {muv:n:hyp,nolink}, {tay:n}</column>
+      <column name="components">{muv:v} or {muv:n:hyp,nolink}, {tay:n:1}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKDA:src}</column>

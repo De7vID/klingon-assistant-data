@@ -827,9 +827,9 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tayqeq:n}, {tay:n}</column>
+      <column name="see_also">{tayqeq:n}, {tay:n:1}</column>
       <column name="notes"></column>
-      <column name="hidden_notes">Klingons apparently consider a people to be civilized if they have rituals (see {tay:n}).</column>
+      <column name="hidden_notes">Klingons apparently consider a people to be civilized if they have rituals (see {tay:n:1}).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -838,7 +838,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
     <table name="mem">
       <column name="_id">31990</column>
       <column name="entry_name">tay</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">ceremony, rite, ritual</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
@@ -858,6 +858,23 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
 ▶ {ruStay:n}</column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKDA:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2014.11.16. -->
+      <column name="_id">31995</column>
+      <column name="entry_name">tay</column>
+      <column name="part_of_speech">n:2,being</column>
+      <column name="definition">tai (rank)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">From lowest to highest, these ranks are: {tay:n:2,nolink}, {Sutay:n}, {veStay:n}, {Santay:n}, {'Iptay:n}.</column>
+      <column name="hidden_notes">This is a rank from John M. Ford's 1984 novel "The Final Reflection". These ranks are used by many Klingon fan clubs, despite not appearing in canon (i.e., in any TV episode or movie).</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
       <column name="_id">32000</column>
@@ -884,7 +901,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{nugh:n}</column>
-      <column name="notes">This word seems to be composed of {tay:n} or {tay:v} and {qeq:n} or {qeq:v}. Perhaps this is an indication of what Klingons consider important to a civilisation.</column>
+      <column name="notes">This word seems to be composed of {tay:n:1} or {tay:v} and {qeq:n} or {qeq:v}. Perhaps this is an indication of what Klingons consider important to a civilisation.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
