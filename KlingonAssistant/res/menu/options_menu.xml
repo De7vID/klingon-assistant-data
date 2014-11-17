@@ -20,11 +20,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto">
     <!-- Search and G+ must always been shown since they are referred to by the tutorial. -->
+    <!-- We don't use app:showAsAction="always|collapseActionView" and
+         app:actionViewClass="android.support.v7.widget.SearchView" because it's not
+         compatible with how we are implementing the search button. -->
     <item android:id="@+id/search"
           android:title="@string/menu_search"
           android:icon="@drawable/ic_menu_search"
-          app:showAsAction="always|collapseActionView"
-          app:actionViewClass="android.support.v7.widget.SearchView" />
+          app:showAsAction="always" />
 
     <item android:id="@+id/gplus"
           android:title="@string/menu_gplus"

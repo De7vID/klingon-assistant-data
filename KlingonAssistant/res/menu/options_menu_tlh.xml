@@ -22,8 +22,7 @@
     <item android:id="@+id/search"
           android:title="@string/menu_search_tlh"
           android:icon="@drawable/ic_menu_search"
-          app:showAsAction="always|collapseActionView"
-          app:actionViewClass="android.support.v7.widget.SearchView" />
+          app:showAsAction="always" />
 
     <item android:id="@+id/gplus"
           android:title="@string/menu_gplus_tlh"

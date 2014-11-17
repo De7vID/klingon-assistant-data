@@ -268,10 +268,12 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
         }
         */
 
-        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-        SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.search));
-        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-        searchView.setIconifiedByDefault(false);
+        // Note: This is commented out because the way that we are implementing the search button
+        // is incompatible with the appcompat search view.
+        // SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+        // SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.search));
+        // searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+        // searchView.setIconifiedByDefault(false);
       }
 
       return true;
