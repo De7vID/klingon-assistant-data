@@ -16,11 +16,11 @@
 ** limitations under the License.
 */
 -->
-<!-- For the regular version, the versionCode must be odd. -->
+<!-- For the regular version (with TTS), the versionCode must be odd. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         package="org.tlhInganHol.android.klingonassistant"
-        android:versionCode="243"
-        android:versionName="2014.11.16a (TTS)"
+        android:versionCode="245"
+        android:versionName="2014.11.16b (TTS)"
         android:installLocation="auto">
 
     <!-- Minimum Android version 2.1 (7), targeted version 4.4 (19). -->
