@@ -3230,6 +3230,24 @@ There is another verb, {gher:v}, which is used for compiling lists and the like,
       <column name="search_tags"></column>
       <column name="source">[1] {KCD:src}</column>
     </table>
+    <!-- This appears after other {qul} words due to being non-canon. -->
+    <table name="mem">
+      <column name="_id">27095</column>
+      <column name="entry_name">qulSo'</column>
+      <column name="part_of_speech">n:deriv,extcan</column>
+      <column name="definition">phosphorous</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This word doesn't appear in canon, but rather was invented for a blog post about science. It's here so that someone else doesn't invent a different word.</column>
+      <column name="hidden_notes">This word was coined by Felix Malmenbeck ({loghaD:n:nolink}), and roughly means "hidden fire".</column>
+      <column name="components">{qul:n}, {So':v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <!-- http://nordicebm.wordpress.com/2014/11/12/igniting-the-hidden-fire-of-demand-for-understandable-scientific-evidence/ -->
+      <column name="source"></column>
+    </table>
     <table name="mem">
       <column name="_id">27100</column>
       <column name="entry_name">qum</column>
