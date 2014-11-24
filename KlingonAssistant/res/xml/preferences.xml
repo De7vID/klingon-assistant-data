@@ -85,13 +85,13 @@
                 android:key="show_transitivity_checkbox_preference"
                 android:title="@string/show_transitivity_preference_title"
                 android:summary="@string/show_transitivity_preference_summary"
-                android:defaultValue="false" />
+                android:defaultValue="true" />
 
         <CheckBoxPreference
                 android:key="show_additional_information_checkbox_preference"
                 android:title="@string/show_additional_information_preference_title"
                 android:summary="@string/show_additional_information_preference_summary"
-                android:defaultValue="false" />
+                android:defaultValue="true" />
     </PreferenceCategory>
 
 </PreferenceScreen>
