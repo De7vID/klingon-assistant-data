@@ -99,7 +99,7 @@ public class KlingonAssistant extends BaseActivity {
 
       // Use ShowcaseView to run the tutorial.
       final ActionItemTarget searchTarget = new ActionItemTarget(this, R.id.search);
-      final ActionItemTarget gplusTarget = new ActionItemTarget(this, R.id.gplus);
+      final ActionItemTarget socialTarget = new ActionItemTarget(this, R.id.social_network);
       final ActionViewTarget homeTarget = new ActionViewTarget(this, ActionViewTarget.Type.HOME);
       final ActionViewTarget overflowTarget = new ActionViewTarget(this, ActionViewTarget.Type.OVERFLOW);
 
@@ -125,7 +125,7 @@ public class KlingonAssistant extends BaseActivity {
                  mShowcaseView.setText(R.string.tutorial_3_title, R.string.tutorial_3_msg);
                  break;
                case 4: // Showcase the G+ button.
-                 mShowcaseView.setShowcase(gplusTarget, true);
+                 mShowcaseView.setShowcase(socialTarget, true);
                  mShowcaseView.setText(R.string.tutorial_4_title, R.string.tutorial_4_msg);
                  break;
                case 5: // Showcase the overflow menu.
