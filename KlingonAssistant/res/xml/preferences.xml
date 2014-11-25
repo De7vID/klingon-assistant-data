@@ -85,8 +85,8 @@
                 android:key="social_network_list_preference"
                 android:title="@string/social_network_preference_title"
                 android:summary="@string/social_network_preference_summary"
-                android:entries="@array/social_networks_entries"
-                android:entryValues="@array/social_networks_entries_values"
+                android:entries="@array/social_network_entries"
+                android:entryValues="@array/social_network_entries_values"
                 android:defaultValue="gplus" />
     </PreferenceCategory>
 

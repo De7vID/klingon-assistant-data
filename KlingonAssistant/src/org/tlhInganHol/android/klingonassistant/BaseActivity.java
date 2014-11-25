@@ -546,6 +546,7 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
           // Launch Google+ Klingon speakers community.
           launchExternal("https://plus.google.com/communities/108380135139365833546");
         } else {
+          // Launch Facebook "Learn Klingon" group.
           launchFacebook("LearnKlingon");
         }
         break;
