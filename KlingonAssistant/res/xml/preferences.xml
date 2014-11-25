@@ -79,6 +79,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+            android:title="@string/social_preferences">
+
+        <ListPreference
+                android:key="social_network_list_preference"
+                android:title="@string/social_network_preference_title"
+                android:summary="@string/social_network_preference_summary"
+                android:entries="@array/social_networks_entries"
+                android:entryValues="@array/social_networks_entries_values"
+                android:defaultValue="gplus" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
             android:title="@string/informational_preferences">
 
         <CheckBoxPreference

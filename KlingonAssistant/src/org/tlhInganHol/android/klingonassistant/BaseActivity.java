@@ -462,6 +462,8 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
     private void launchFacebook(String groupId) {
       Intent intent;
       try {
+        // adb shell
+        // am start -a android.intent.action.VIEW -d fb://group/LearnKlingon
         getBaseContext().getPackageManager().getPackageInfo("com.facebook.katana", 0);
         intent = new Intent(Intent.ACTION_VIEW, Uri.parse("fb://group/" + groupId));
       } catch (Exception e) {
@@ -538,9 +540,14 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
       case android.R.id.home:
         mDrawer.toggleMenu();
         break;
-      case R.id.gplus:
-        // Launch Google+ Klingon speakers community.
-        launchExternal("https://plus.google.com/communities/108380135139365833546");
+      case R.id.social_network:
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+        if (sharedPrefs.getString(Preferences.KEY_SOCIAL_NETWORK_LIST_PREFERENCE, /* default */"gplus").equals("gplus")) {
+          // Launch Google+ Klingon speakers community.
+          launchExternal("https://plus.google.com/communities/108380135139365833546");
+        } else {
+          launchFacebook("LearnKlingon");
+        }
         break;
       /* TUTORIAL */
       case R.id.request_translation:
