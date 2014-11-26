@@ -110,6 +110,7 @@ public class KlingonAssistant extends BaseActivity {
       // around by temporarily setting a target then setting it to NONE.
       final ShowcaseView mShowcaseView = ShowcaseView.insertShowcaseView(searchTarget, this,
                       R.string.tutorial_1_title, R.string.tutorial_1_msg, mShowcaseViewOptions);
+      // mShowcaseView.setAlpha(1.0f);
       mShowcaseView.setShowcase(ShowcaseView.NONE);
       mShowcaseView.overrideButtonClick(new View.OnClickListener() {
           @Override
