@@ -1479,9 +1479,9 @@ public class KlingonContentProvider extends ContentProvider {
         String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
         ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
         mVerbTypeRNegation = IGNORE_THIS_ROVER;
-        anotherComplexWord.mVerbTypeRNegation = mSuffixLevel;
+        anotherComplexWord.mVerbTypeRNegation = mSuffixLevel - 1;
         anotherComplexWord.mSuffixLevel = mSuffixLevel;
-        if (anotherComplexWord.mVerbTypeREmphatic == mSuffixLevel) {
+        if (anotherComplexWord.mVerbTypeREmphatic == mSuffixLevel - 1) {
           // {-be'qu'}
           anotherComplexWord.roverOrderNegationBeforeEmphatic = true;
         }
@@ -1494,9 +1494,9 @@ public class KlingonContentProvider extends ContentProvider {
         String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
         ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
         mVerbTypeREmphatic = IGNORE_THIS_ROVER;
-        anotherComplexWord.mVerbTypeREmphatic = mSuffixLevel;
+        anotherComplexWord.mVerbTypeREmphatic = mSuffixLevel - 1;
         anotherComplexWord.mSuffixLevel = mSuffixLevel;
-        if (anotherComplexWord.mVerbTypeRNegation == mSuffixLevel) {
+        if (anotherComplexWord.mVerbTypeRNegation == mSuffixLevel - 1) {
           // {-qu'be'}
           anotherComplexWord.roverOrderNegationBeforeEmphatic = false;
         }
@@ -1519,32 +1519,35 @@ public class KlingonContentProvider extends ContentProvider {
         }
         return null;
       }
-      // The types are 1-indexed, but the array is 0-index, so decrement it here.
-      mSuffixLevel--;
+
+      // TODO: Refactor this to merge the two subtractions together.
       String[] suffixes;
       if (mIsNounCandidate) {
+        // The types are 1-indexed, but the array is 0-index, so decrement it here.
+        mSuffixLevel--;
         suffixes = nounSuffixesStrings[mSuffixLevel];
       } else {
-        suffixes = verbSuffixesStrings[mSuffixLevel];
         ComplexWord anotherComplexWord = stripRovers();
         String suffixType;
-        // TODO: Fix rover truncation bug here. Before returning anotherComplexWord, must loop over rest of suffixes!
         if (anotherComplexWord != null) {
           if (BuildConfig.DEBUG) {
             // Verb suffix level doesn't correspond exactly: {-Ha'}, types 1 through 8, {-Qo'}, then 9.
-            if (mSuffixLevel == 0) {
+            if (mSuffixLevel == 1) {
               suffixType = "-Ha'";
-            } else if (mSuffixLevel == 9) {
-              suffixType = "-Qo'";
             } else if (mSuffixLevel == 10) {
+              suffixType = "-Qo'";
+            } else if (mSuffixLevel == 11) {
               suffixType = "type 9";
             } else {
-              suffixType = "type " + mSuffixLevel;
+              suffixType = "type " + (mSuffixLevel - 1);
             }
             Log.d(TAG, "rover found while processing verb suffix: " + suffixType);
           }
           return anotherComplexWord;
         }
+        // The types are 1-indexed, but the array is 0-index, so decrement it here.
+        mSuffixLevel--;
+        suffixes = verbSuffixesStrings[mSuffixLevel];
       }
 
       // Count from 1, since index 0 corresponds to no suffix of this type.
