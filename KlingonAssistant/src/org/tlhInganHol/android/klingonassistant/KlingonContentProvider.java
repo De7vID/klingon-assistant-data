@@ -1470,7 +1470,6 @@ public class KlingonContentProvider extends ContentProvider {
     }
 
     // Attempt to strip off the rovers.
-    // TODO: Fix rover truncation bug here.
     private ComplexWord stripRovers() {
       // There are a few entries in the database where the {-be'} and {-qu'} are included, e.g.,
       // {motlhbe'} and {Say'qu'}. The logic here allows, e.g., {bImotlhbe'be'}, but we don't care
@@ -1529,6 +1528,7 @@ public class KlingonContentProvider extends ContentProvider {
         suffixes = verbSuffixesStrings[mSuffixLevel];
         ComplexWord anotherComplexWord = stripRovers();
         String suffixType;
+        // TODO: Fix rover truncation bug here. Before returning anotherComplexWord, must loop over rest of suffixes!
         if (anotherComplexWord != null) {
           if (BuildConfig.DEBUG) {
             // Verb suffix level doesn't correspond exactly: {-Ha'}, types 1 through 8, {-Qo'}, then 9.
