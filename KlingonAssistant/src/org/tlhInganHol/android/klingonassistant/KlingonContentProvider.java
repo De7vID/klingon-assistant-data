@@ -1506,6 +1506,9 @@ public class KlingonContentProvider extends ContentProvider {
     public ComplexWord stripSuffixAndBranch() {
       if (mSuffixLevel == 0) {
         // This should never be reached.
+        if (BuildConfig.DEBUG) {
+          Log.e(TAG, "stripSuffixAndBranch: mSuffixLevel == 0");
+        }
         return null;
       }
       // The types are 1-indexed, but the array is 0-index, so decrement it here.
@@ -1517,9 +1520,9 @@ public class KlingonContentProvider extends ContentProvider {
         suffixes = verbSuffixesStrings[mSuffixLevel];
         ComplexWord anotherComplexWord = stripRovers();
         if (anotherComplexWord != null) {
-          /*
-           * if (BuildConfig.DEBUG) { Log.d(TAG, "mSuffixLevel: " + mSuffixLevel); }
-           */
+          if (BuildConfig.DEBUG) {
+            Log.d(TAG, "mSuffixLevel: " + mSuffixLevel);
+          }
           return anotherComplexWord;
         }
       }
@@ -1531,7 +1534,9 @@ public class KlingonContentProvider extends ContentProvider {
           // Found a suffix of the current type, strip it.
           String partWithSuffixRemoved = mUnparsedPart.substring(0, mUnparsedPart.length()
                   - suffixes[i].length());
-          // Log.d(TAG, "found suffix: " + suffixes[i] + ", remainder: " + partWithSuffixRemoved);
+          if (BuildConfig.DEBUG) {
+            Log.d(TAG, "found suffix: " + suffixes[i] + ", remainder: " + partWithSuffixRemoved);
+          }
           if (!partWithSuffixRemoved.equals("")) {
             ComplexWord anotherComplexWord = new ComplexWord(partWithSuffixRemoved, this);
             // mSuffixLevel already decremented above.
@@ -1693,6 +1698,9 @@ public class KlingonContentProvider extends ContentProvider {
         numberRoot = "ques";
       } else {
         // This should never happen.
+        if (BuildConfig.DEBUG) {
+          Log.e(TAG, "getNumberRootAnnotation: else case reached");
+        }
       }
       return numberRoot;
     }
@@ -1768,6 +1776,9 @@ public class KlingonContentProvider extends ContentProvider {
       // word a bare word.
       if (mIsNounCandidate || !isBareWord()) {
         // This should never be reached.
+        if (BuildConfig.DEBUG) {
+          Log.e(TAG, "getAdjectivalVerbWithType5NounSuffix: is noun candidate or is not bare word");
+        }
         return null;
       }
 
@@ -2023,11 +2034,27 @@ public class KlingonContentProvider extends ContentProvider {
       }
       // Note that at this point we continue with a newly created complex word.
     }
-    /*
-     * if (BuildConfig.DEBUG) { Log.d(TAG, "stripSuffix " + (complexWord.mIsNounCandidate ? "noun" :
-     * "verb") + " type " + complexWord.mSuffixLevel + " on \"" + complexWord.mUnparsedPart + "\"");
-     * }
-     */
+
+    if (BuildConfig.DEBUG) {
+      String suffixType;
+      if (complexWord.mIsNounCandidate) {
+        // Noun suffix level corresponds to the suffix type.
+        suffixType = "type " + complexWord.mSuffixLevel;
+      } else {
+        // Verb suffix level doesn't correspond exactly: {-Ha'}, types 1 through 8, {-Qo'}, then 9.
+        if (complexWord.mSuffixLevel == 1) {
+          suffixType = "-Ha'";
+        } else if (complexWord.mSuffixLevel == 10) {
+          suffixType = "-Qo'";
+        } else if (complexWord.mSuffixLevel == 11) {
+          suffixType = "type 9";
+        } else {
+          suffixType = "type " + (complexWord.mSuffixLevel - 1);
+        }
+      }
+      Log.d(TAG, "stripSuffix " + (complexWord.mIsNounCandidate ? "noun" : "verb") + " " +
+          suffixType + " on {" + complexWord.mUnparsedPart + "}");
+    }
 
     // Attempt to strip one level of suffix.
     ComplexWord strippedSuffixComplexWord = complexWord.stripSuffixAndBranch();
