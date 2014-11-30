@@ -1284,7 +1284,8 @@ public class KlingonContentProvider extends ContentProvider {
   }
 
   // This class is for complex Klingon words. A complex word is a noun or verb with affixes.
-  // Note: To debug parsing, you likely want to use "adb logcat -s KlingonContentProvider.ComplexWord".
+  // Note: To debug parsing, you likely want to use "adb logcat -s KlingonContentProvider.ComplexWord"
+  // or "adb logcat -s KlingonContentProvider.ComplexWord KlingonContentProvider".
   public static class ComplexWord {
     String                   TAG                  = "KlingonContentProvider.ComplexWord";
 
@@ -1469,6 +1470,7 @@ public class KlingonContentProvider extends ContentProvider {
     }
 
     // Attempt to strip off the rovers.
+    // TODO: Fix rover truncation bug here.
     private ComplexWord stripRovers() {
       // There are a few entries in the database where the {-be'} and {-qu'} are included, e.g.,
       // {motlhbe'} and {Say'qu'}. The logic here allows, e.g., {bImotlhbe'be'}, but we don't care
@@ -1485,7 +1487,7 @@ public class KlingonContentProvider extends ContentProvider {
           anotherComplexWord.roverOrderNegationBeforeEmphatic = true;
         }
         if (BuildConfig.DEBUG) {
-          Log.d(TAG, "found: {-be'}");
+          Log.d(TAG, "found rover: -be'");
         }
         return anotherComplexWord;
       } else if (mVerbTypeREmphatic == ROVER_NOT_YET_FOUND && mUnparsedPart.endsWith("qu'")
@@ -1500,7 +1502,7 @@ public class KlingonContentProvider extends ContentProvider {
           anotherComplexWord.roverOrderNegationBeforeEmphatic = false;
         }
         if (BuildConfig.DEBUG) {
-          Log.d(TAG, "found: {-qu'}");
+          Log.d(TAG, "found rover: -qu'");
         }
         return anotherComplexWord;
       }
@@ -1986,6 +1988,9 @@ public class KlingonContentProvider extends ContentProvider {
       }
 
       // Add this complex word.
+      if (BuildConfig.DEBUG) {
+        Log.d(TAG, "adding word to complex words list: " + mUnparsedPart);
+      }
       complexWordsList.add(this);
     }
 
@@ -1995,7 +2000,9 @@ public class KlingonContentProvider extends ContentProvider {
   public static void parseComplexWord(String candidate, boolean isNounCandidate,
           ArrayList<ComplexWord> complexWordsList) {
     ComplexWord complexWord = new ComplexWord(candidate, isNounCandidate);
-    // Log.d(TAG, "parsing = " + candidate + " (" + (isNounCandidate ? "n" : "v") + ")");
+    if (BuildConfig.DEBUG) {
+       Log.d(TAG, "\n\n* parsing = " + candidate + " (" + (isNounCandidate ? "n" : "v") + ") *");
+    }
     if (!isNounCandidate) {
       // Check prefix.
       ComplexWord strippedPrefixComplexWord = complexWord.stripPrefix();
@@ -2012,7 +2019,7 @@ public class KlingonContentProvider extends ContentProvider {
   private static void stripSuffix(ComplexWord complexWord, ArrayList<ComplexWord> complexWordsList) {
     if (complexWord.hasNoMoreSuffixes()) {
       if (BuildConfig.DEBUG) {
-        Log.d(TAG, "adding self: " + complexWord.mUnparsedPart);
+        Log.d(TAG, "attempting to add to complex words list: " + complexWord.mUnparsedPart);
       }
       complexWord.addSelf(complexWordsList);
 
