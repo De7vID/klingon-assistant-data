@@ -1284,6 +1284,7 @@ public class KlingonContentProvider extends ContentProvider {
   }
 
   // This class is for complex Klingon words. A complex word is a noun or verb with affixes.
+  // Note: To debug parsing, you likely want to use "adb logcat -s KlingonContentProvider.ComplexWord".
   public static class ComplexWord {
     String                   TAG                  = "KlingonContentProvider.ComplexWord";
 
@@ -1476,25 +1477,31 @@ public class KlingonContentProvider extends ContentProvider {
               && !mUnparsedPart.equals("be'")) {
         String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
         ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
+        mVerbTypeRNegation = IGNORE_THIS_ROVER;
         anotherComplexWord.mVerbTypeRNegation = mSuffixLevel;
         anotherComplexWord.mSuffixLevel = mSuffixLevel;
         if (anotherComplexWord.mVerbTypeREmphatic == mSuffixLevel) {
           // {-be'qu'}
           anotherComplexWord.roverOrderNegationBeforeEmphatic = true;
         }
-        mVerbTypeRNegation = IGNORE_THIS_ROVER;
+        if (BuildConfig.DEBUG) {
+          Log.d(TAG, "found: {-be'}");
+        }
         return anotherComplexWord;
       } else if (mVerbTypeREmphatic == ROVER_NOT_YET_FOUND && mUnparsedPart.endsWith("qu'")
               && !mUnparsedPart.equals("qu'")) {
         String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
         ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
+        mVerbTypeREmphatic = IGNORE_THIS_ROVER;
         anotherComplexWord.mVerbTypeREmphatic = mSuffixLevel;
         anotherComplexWord.mSuffixLevel = mSuffixLevel;
         if (anotherComplexWord.mVerbTypeRNegation == mSuffixLevel) {
           // {-qu'be'}
           anotherComplexWord.roverOrderNegationBeforeEmphatic = false;
         }
-        mVerbTypeREmphatic = IGNORE_THIS_ROVER;
+        if (BuildConfig.DEBUG) {
+          Log.d(TAG, "found: {-qu'}");
+        }
         return anotherComplexWord;
       }
       return null;
@@ -1519,9 +1526,20 @@ public class KlingonContentProvider extends ContentProvider {
       } else {
         suffixes = verbSuffixesStrings[mSuffixLevel];
         ComplexWord anotherComplexWord = stripRovers();
+        String suffixType;
         if (anotherComplexWord != null) {
           if (BuildConfig.DEBUG) {
-            Log.d(TAG, "mSuffixLevel: " + mSuffixLevel);
+            // Verb suffix level doesn't correspond exactly: {-Ha'}, types 1 through 8, {-Qo'}, then 9.
+            if (mSuffixLevel == 0) {
+              suffixType = "-Ha'";
+            } else if (mSuffixLevel == 9) {
+              suffixType = "-Qo'";
+            } else if (mSuffixLevel == 10) {
+              suffixType = "type 9";
+            } else {
+              suffixType = "type " + mSuffixLevel;
+            }
+            Log.d(TAG, "rover found while processing verb suffix: " + suffixType);
           }
           return anotherComplexWord;
         }
@@ -2052,8 +2070,8 @@ public class KlingonContentProvider extends ContentProvider {
           suffixType = "type " + (complexWord.mSuffixLevel - 1);
         }
       }
-      Log.d(TAG, "stripSuffix " + (complexWord.mIsNounCandidate ? "noun" : "verb") + " " +
-          suffixType + " on {" + complexWord.mUnparsedPart + "}");
+      Log.d(TAG, "stripSuffix called on {" + complexWord.mUnparsedPart + "} for " +
+          (complexWord.mIsNounCandidate ? "noun" : "verb") + " suffix: " + suffixType);
     }
 
     // Attempt to strip one level of suffix.
