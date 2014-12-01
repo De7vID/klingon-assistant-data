@@ -343,9 +343,9 @@ public class EntryActivity extends BaseActivity
         if (!url.equals("")) {
           ssb.setSpan(new URLSpan(url), m.start(), end, maybeFinalFlags);
         }
-      } else if (useKlingonFont) {
+      } else if (useKlingonFont && !linkedEntry.getEntryName().equals("*")) {
         // Display the text using the Klingon font.
-        String klingonEntryName = entry.getEntryNameInKlingonFont();
+        String klingonEntryName = linkedEntry.getEntryNameInKlingonFont();
         ssb.delete(m.start(), end);
         ssb.insert(m.start(), klingonEntryName);
         end = m.start() + klingonEntryName.length();
