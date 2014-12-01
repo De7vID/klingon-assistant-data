@@ -345,7 +345,10 @@ public class EntryActivity extends BaseActivity
         }
       } else if (useKlingonFont) {
         // Display the text using the Klingon font.
-        // TODO(davinci): Convert the text.
+        String klingonEntryName = entry.getEntryNameInKlingonFont();
+        ssb.delete(m.start(), end);
+        ssb.insert(m.start(), klingonEntryName);
+        end = m.start() + klingonEntryName.length();
         ssb.setSpan(new KlingonTypefaceSpan("", klingonTypeface), m.start(), end, maybeFinalFlags);
       } else {
         // Klingon is in bold serif.
