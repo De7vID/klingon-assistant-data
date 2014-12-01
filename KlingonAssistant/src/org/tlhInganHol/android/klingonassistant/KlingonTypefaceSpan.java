@@ -10,18 +10,18 @@ public class KlingonTypefaceSpan extends TypefaceSpan {
 
   public KlingonTypefaceSpan(String family, Typeface typeface) {
     super(family);
-     mTypeface = typeface;
+    mTypeface = typeface;
   }
 
   @Override
   public void updateMeasureState(TextPaint tp) {
-    // tp.setTypeface(mTypeface);
+    tp.setTypeface(mTypeface);
     tp.setFlags(tp.getFlags() | Paint.SUBPIXEL_TEXT_FLAG);
   }
 
   @Override
   public void updateDrawState(TextPaint tp) {
-    // tp.setTypeface(mTypeface);
+    tp.setTypeface(mTypeface);
     tp.setFlags(tp.getFlags() | Paint.SUBPIXEL_TEXT_FLAG);
   }
 }
