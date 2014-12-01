@@ -27,11 +27,14 @@ import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.database.Cursor;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
+import android.text.Spannable;
+import android.text.SpannableString;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -131,6 +134,12 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
         // Get the action bar.
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
+
+        // Display the action bar title in Klingon font.
+        SpannableString title = new SpannableString("");
+        Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(getBaseContext());
+        title.setSpan(new KlingonTypefaceSpan("", klingonTypeface), 0, title.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        actionBar.setTitle(title);
 
         // If the device is in landscape orientation and the screen size is large (or bigger), then
         // make the slide-out menu static. Otherwise, hide it by default.
