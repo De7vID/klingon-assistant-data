@@ -334,10 +334,16 @@ public class KlingonAssistant extends BaseActivity {
       String indent1 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;" : "";
       String indent2 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" : "";
 
-      // Use serif for the entry, so capital-I and lowercase-l are distinguishable.
-      view.getText1().setTypeface(Typeface.SERIF);
-      view.getText1().setText(
-              Html.fromHtml(indent1 + entry.getFormattedEntryName(/* isHtml */true)));
+      SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+      if (!sharedPrefs.getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */false)) {
+        // Use serif for the entry, so capital-I and lowercase-l are distinguishable.
+        view.getText1().setTypeface(Typeface.SERIF);
+        view.getText1().setText(Html.fromHtml(indent1 + entry.getFormattedEntryName(/* isHtml */true)));
+      } else {
+        // Preference is set to display this in {pIqaD}!
+        view.getText1().setTypeface(KlingonAssistant.getKlingonFontTypeface(getBaseContext()));
+        view.getText1().setText(Html.fromHtml(indent1 + entry.getEntryNameInKlingonFont()));
+      }
 
       // Use sans serif for the definition.
       view.getText2().setTypeface(Typeface.SANS_SERIF);
