@@ -135,11 +135,14 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        // Display the action bar title in Klingon font.
-        SpannableString title = new SpannableString("");
-        Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(getBaseContext());
-        title.setSpan(new KlingonTypefaceSpan("", klingonTypeface), 0, title.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-        actionBar.setTitle(title);
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+        if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */false)) {
+          // Display the action bar title in Klingon font.
+          SpannableString title = new SpannableString("");
+          Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(getBaseContext());
+          title.setSpan(new KlingonTypefaceSpan("", klingonTypeface), 0, title.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+          actionBar.setTitle(title);
+        }
 
         // If the device is in landscape orientation and the screen size is large (or bigger), then
         // make the slide-out menu static. Otherwise, hide it by default.
@@ -150,7 +153,6 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
         mDrawer = MenuDrawer.attach(this, drawerType, Position.LEFT, MenuDrawer.MENU_DRAG_CONTENT);
 
         List<Object> items = new ArrayList<Object>();
-        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
             items.add(new SlideMenuCategory(R.string.menu_reference_tlh));
                 items.add(new SlideMenuItem(R.string.menu_pronunciation_tlh, R.id.pronunciation, 0));
