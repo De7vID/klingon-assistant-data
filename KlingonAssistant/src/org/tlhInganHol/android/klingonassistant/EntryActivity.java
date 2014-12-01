@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.database.Cursor;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -112,10 +113,11 @@ public class EntryActivity extends BaseActivity
 
     // Set the entry's name (along with info like "slang", formatted in HTML).
     entryTitle.invalidate();
-    if (sharedPrefs
-            .getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */false)) {
+    boolean useKlingonFont= sharedPrefs.getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */false);
+    Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(getBaseContext());
+    if (useKlingonFont) {
       // Preference is set to display this in {pIqaD}!
-      entryTitle.setTypeface(KlingonAssistant.getKlingonFontTypeface(getBaseContext()));
+      entryTitle.setTypeface(klingonTypeface);
       entryTitle.setText(entry.getEntryNameInKlingonFont());
     } else {
       // Boring transcription based on English (Latin) alphabet.
@@ -341,6 +343,10 @@ public class EntryActivity extends BaseActivity
         if (!url.equals("")) {
           ssb.setSpan(new URLSpan(url), m.start(), end, maybeFinalFlags);
         }
+      } else if (useKlingonFont) {
+        // Display the text using the Klingon font.
+        // TODO(davinci): Convert the text.
+        ssb.setSpan(new KlingonTypefaceSpan("", klingonTypeface), m.start(), end, maybeFinalFlags);
       } else {
         // Klingon is in bold serif.
         ssb.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), m.start(), end,
