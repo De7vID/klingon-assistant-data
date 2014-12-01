@@ -274,8 +274,9 @@ public class KlingonContentProvider extends ContentProvider {
   public static class Entry {
     String                     TAG               = "KlingonContentProvider.Entry";
 
-    // Pattern for matching entry in text. The letter "ü" is needed to match "Saarbrücken".
-    public static Pattern      ENTRY_PATTERN     = Pattern.compile("\\{[A-Za-zü0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]+\\}");
+    // Pattern for matching entry in text. The letter "ü" is needed to match "Saarbrücken". The "+"
+    // is needed for "Google+".
+    public static Pattern      ENTRY_PATTERN     = Pattern.compile("\\{[A-Za-zü0-9 '\\\":;,\\.\\-?!_/()@=%&\\*\\+]+\\}");
 
     // Used for analysis of entries with components.
     // It cannot occur in a link (we cannot use "//" for example because it occurs in URL links,
