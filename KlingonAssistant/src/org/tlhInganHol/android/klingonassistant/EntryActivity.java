@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
@@ -113,7 +114,7 @@ public class EntryActivity extends BaseActivity
 
     // Set the entry's name (along with info like "slang", formatted in HTML).
     entryTitle.invalidate();
-    boolean useKlingonFont= sharedPrefs.getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */false);
+    boolean useKlingonFont = sharedPrefs.getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */false);
     Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(getBaseContext());
     if (useKlingonFont) {
       // Preference is set to display this in {pIqaD}!
@@ -124,6 +125,22 @@ public class EntryActivity extends BaseActivity
       entryTitle.setText(Html.fromHtml(entry.getFormattedEntryName(/* isHtml */true)));
     }
     mEntryName = entry.getEntryName();
+
+    // Set the colour for the entry name depending on its part of speech.
+    boolean useColours = sharedPrefs.getBoolean(Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */false);
+    if (useColours) {
+      // TODO: Make the colours customisable. For now, use Lieven's system.
+      // https://code.google.com/p/klingon-assistant/issues/detail?id=8
+      if (entry.isVerb()) {
+        entryTitle.setTextColor(Color.YELLOW);
+      } else if (entry.isNoun()) {
+        entryTitle.setTextColor(Color.GREEN);
+      } else if (entry.isSuffix() || entry.isPrefix()) {
+        entryTitle.setTextColor(Color.RED);
+      } else if (!entry.isSentence()) {
+        entryTitle.setTextColor(Color.BLUE);
+      }
+    }
 
     // Create the expanded definition.
     String pos = entry.getFormattedPartOfSpeech(/* isHtml */false);
