@@ -270,6 +270,31 @@ public class KlingonContentProvider extends ContentProvider {
     throw new UnsupportedOperationException();
   }
 
+  public static String convertStringToKlingonFont(String s) {
+    // Strip anything we don't recognise.
+    // This pattern should be kept mostly in sync with ENTRY_PATTERN. Note that "ü" and "+" will never be in an entry name.
+    String klingonString = s.replaceAll("[^A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]", "");
+
+    // {gh} must come before {ngh} since {ngh} is {n} + {gh} and not {ng} + *{h}.
+    // {ng} must come before {n}.
+    // {tlh} must come before {t} and {l}.
+    // Don't change {-} since it's needed for prefixes and suffixes.
+    // Don't change "..." (ellipses), but do change "." (periods).
+    klingonString = klingonString.replaceAll("gh", "").replaceAll("ng", "")
+            .replaceAll("tlh", "").replaceAll("a", "").replaceAll("b", "")
+            .replaceAll("ch", "").replaceAll("D", "").replaceAll("e", "").replaceAll("H", "")
+            .replaceAll("I", "").replaceAll("j", "").replaceAll("l", "").replaceAll("m", "")
+            .replaceAll("n", "").replaceAll("o", "").replaceAll("p", "").replaceAll("q", "")
+            .replaceAll("Q", "").replaceAll("r", "").replaceAll("S", "").replaceAll("t", "")
+            .replaceAll("u", "").replaceAll("v", "").replaceAll("w", "").replaceAll("y", "")
+            .replaceAll("'", "").replaceAll("0", "").replaceAll("1", "").replaceAll("2", "")
+            .replaceAll("3", "").replaceAll("4", "").replaceAll("5", "").replaceAll("6", "")
+            .replaceAll("7", "").replaceAll("8", "").replaceAll("9", "").replaceAll(",", "")
+            .replaceAll(";", "").replaceAll("!", "").replaceAll("\\?", "").replaceAll("\\.", "")
+            .replaceAll("", "\\.\\.\\.");
+    return klingonString;
+  }
+
   // This class is for managing entries.
   public static class Entry {
     String                     TAG               = "KlingonContentProvider.Entry";
@@ -686,28 +711,7 @@ public class KlingonContentProvider extends ContentProvider {
 
     // Get the name of the entry written in {pIqaD}.
     public String getEntryNameInKlingonFont() {
-      // Strip anything we don't recognise.
-      // This pattern should be kept mostly in sync with ENTRY_PATTERN. Note that "ü" and "+" will never be in an entry name.
-      String formattedEntryName = mEntryName.replaceAll("[^A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]", "");
-
-      // {gh} must come before {ngh} since {ngh} is {n} + {gh} and not {ng} + *{h}.
-      // {ng} must come before {n}.
-      // {tlh} must come before {t} and {l}.
-      // Don't change {-} since it's needed for prefixes and suffixes.
-      // Don't change "..." (ellipses), but do change "." (periods).
-      formattedEntryName = formattedEntryName.replaceAll("gh", "").replaceAll("ng", "")
-              .replaceAll("tlh", "").replaceAll("a", "").replaceAll("b", "")
-              .replaceAll("ch", "").replaceAll("D", "").replaceAll("e", "").replaceAll("H", "")
-              .replaceAll("I", "").replaceAll("j", "").replaceAll("l", "").replaceAll("m", "")
-              .replaceAll("n", "").replaceAll("o", "").replaceAll("p", "").replaceAll("q", "")
-              .replaceAll("Q", "").replaceAll("r", "").replaceAll("S", "").replaceAll("t", "")
-              .replaceAll("u", "").replaceAll("v", "").replaceAll("w", "").replaceAll("y", "")
-              .replaceAll("'", "").replaceAll("0", "").replaceAll("1", "").replaceAll("2", "")
-              .replaceAll("3", "").replaceAll("4", "").replaceAll("5", "").replaceAll("6", "")
-              .replaceAll("7", "").replaceAll("8", "").replaceAll("9", "").replaceAll(",", "")
-              .replaceAll("!", "").replaceAll("\\?", "").replaceAll("\\.", "")
-              .replaceAll("", "\\.\\.\\.");
-      return formattedEntryName;
+      return KlingonContentProvider.convertStringToKlingonFont(mEntryName);
     }
 
     private String getSpecificPartOfSpeech() {

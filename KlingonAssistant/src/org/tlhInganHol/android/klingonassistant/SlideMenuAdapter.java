@@ -89,10 +89,13 @@ public class SlideMenuAdapter extends BaseAdapter {
                 v = LayoutInflater.from(mContext).inflate(R.layout.menu_row_category, parent, false);
             }
 
-            String title = ((SlideMenuCategory) item).mTitle;
-            ((TextView) v).setText(title);
+            TextView tv = (TextView) v;
+            String title = tv.getContext().getResources().getString(((SlideMenuCategory) item).mTitle);
             if (useKlingonFont) {
+              tv.setText(KlingonContentProvider.convertStringToKlingonFont(title));
               ((TextView) v).setTypeface(klingonTypeface);
+            } else {
+              tv.setText(title);
             }
 
         } else {
@@ -102,11 +105,13 @@ public class SlideMenuAdapter extends BaseAdapter {
 
             TextView tv = (TextView) v;
             String text = tv.getContext().getResources().getString(((SlideMenuItem) item).mTitle);
-            tv.setText(text);
-            tv.setCompoundDrawablesWithIntrinsicBounds(((SlideMenuItem) item).mIconRes, 0, 0, 0);
             if (useKlingonFont) {
+              tv.setText(KlingonContentProvider.convertStringToKlingonFont(text));
               tv.setTypeface(klingonTypeface);
+            } else {
+              tv.setText(text);
             }
+            tv.setCompoundDrawablesWithIntrinsicBounds(((SlideMenuItem) item).mIconRes, 0, 0, 0);
         }
 
         v.setTag(R.id.mdActiveViewPosition, position);
