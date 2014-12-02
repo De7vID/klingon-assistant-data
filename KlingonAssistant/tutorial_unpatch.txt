@@ -1,5 +1,5 @@
 diff --git a/KlingonAssistant/AndroidManifest.xml b/KlingonAssistant/AndroidManifest.xml
-index 4d20f90..3fc8b09 100644
+index 11d589a..5be0849 100644
 --- a/KlingonAssistant/AndroidManifest.xml
 +++ b/KlingonAssistant/AndroidManifest.xml
 @@ -25,7 +25,7 @@
@@ -12,7 +12,7 @@ index 4d20f90..3fc8b09 100644
      <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
      <supports-screens android:resizeable="true"
 diff --git a/KlingonAssistant/project.properties b/KlingonAssistant/project.properties
-index c3033e8..7f187d9 100644
+index c1a1847..5277f17 100644
 --- a/KlingonAssistant/project.properties
 +++ b/KlingonAssistant/project.properties
 @@ -11,7 +11,7 @@
@@ -31,10 +31,10 @@ index c3033e8..7f187d9 100644
 -android.library.reference.4=../../ShowcaseView/library
 +# android.library.reference.4=../../ShowcaseView/library
 diff --git a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
-index 0529ead..8e135e9 100644
+index e5bdfbb..0504966 100644
 --- a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 +++ b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
-@@ -47,15 +47,15 @@ import android.support.v4.view.MenuItemCompat;
+@@ -49,15 +49,15 @@ import android.support.v4.view.MenuItemCompat;
  import android.support.v7.widget.ShareActionProvider;
  
  // TTS:
@@ -54,7 +54,7 @@ index 0529ead..8e135e9 100644
  
    private static final String TAG = "EntryActivity";
  
-@@ -67,10 +67,10 @@ public class EntryActivity extends BaseActivity
+@@ -69,10 +69,10 @@ public class EntryActivity extends BaseActivity
    private String mEntryName = null;
  
    // TTS:
@@ -69,7 +69,7 @@ index 0529ead..8e135e9 100644
  
    @Override
    protected void onCreate(Bundle savedInstanceState) {
-@@ -80,9 +80,9 @@ public class EntryActivity extends BaseActivity
+@@ -82,9 +82,9 @@ public class EntryActivity extends BaseActivity
      // Initialize text-to-speech. This is an asynchronous operation.
      // The OnInitListener (second argument) is called after initialization completes.
      // Log.d(TAG, "Initialising TTS");
@@ -82,7 +82,7 @@ index 0529ead..8e135e9 100644
  
      setDrawerContentView(R.layout.entry);
      Resources resources = getResources();
-@@ -388,10 +388,10 @@ public class EntryActivity extends BaseActivity
+@@ -412,10 +412,10 @@ public class EntryActivity extends BaseActivity
        // TTS:
        // Don't forget to shutdown!
        // Log.d(TAG, "Shutting down TTS");
@@ -97,7 +97,7 @@ index 0529ead..8e135e9 100644
        super.onDestroy();
    }
  
-@@ -418,11 +418,11 @@ public class EntryActivity extends BaseActivity
+@@ -442,11 +442,11 @@ public class EntryActivity extends BaseActivity
      // TTS:
      // The button is disabled in the layout.
      // It will be enabled upon initialization of the TTS engine.
@@ -114,7 +114,7 @@ index 0529ead..8e135e9 100644
  
      return true;
    }
-@@ -513,17 +513,18 @@ public class EntryActivity extends BaseActivity
+@@ -537,17 +537,18 @@ public class EntryActivity extends BaseActivity
          return true;
      } else if (item.getItemId() == R.id.speak) {
          // TTS:
@@ -138,14 +138,14 @@ index 0529ead..8e135e9 100644
    public void onInit(int status) {
        // status can be either TextToSpeech.SUCCESS or TextToSpeech.ERROR.
        if (status == TextToSpeech.SUCCESS) {
-@@ -551,4 +552,5 @@ public class EntryActivity extends BaseActivity
+@@ -575,4 +576,5 @@ public class EntryActivity extends BaseActivity
            Log.e(TAG, "Could not initialize TextToSpeech.");
        }
    }
 +  */
  }
 diff --git a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
-index 0435379..cb63264 100644
+index 39b8971..113d413 100644
 --- a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 +++ b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/KlingonAssistant.java
 @@ -43,9 +43,9 @@ import android.widget.TwoLineListItem;
@@ -178,7 +178,7 @@ index 0435379..cb63264 100644
      if (INCLUDE_TUTORIAL) {
        // ShowcaseView for the initial tutorial.
        ShowcaseView.ConfigOptions mShowcaseViewOptions = new ShowcaseView.ConfigOptions();
-@@ -146,6 +147,8 @@ public class KlingonAssistant extends BaseActivity {
+@@ -147,6 +148,8 @@ public class KlingonAssistant extends BaseActivity {
                   break;
                 default:
                   mShowcaseView.hide();
@@ -187,7 +187,7 @@ index 0435379..cb63264 100644
                   displayHelp(QUERY_FOR_ABOUT);
  
                   // Unset the two flags since the tutorial and help have been shown.
-@@ -155,11 +158,13 @@ public class KlingonAssistant extends BaseActivity {
+@@ -156,11 +159,13 @@ public class KlingonAssistant extends BaseActivity {
                   sharedPrefsEd.putBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, false);
                   sharedPrefsEd.commit();
  
