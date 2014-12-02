@@ -343,9 +343,12 @@ public class EntryActivity extends BaseActivity
         if (!url.equals("")) {
           ssb.setSpan(new URLSpan(url), m.start(), end, maybeFinalFlags);
         }
-      } else if (useKlingonFont && !linkedEntry.getEntryName().equals("*")) {
-        // Display the text using the Klingon font.
-        String klingonEntryName = linkedEntry.getEntryNameInKlingonFont();
+      } else if (useKlingonFont) {
+        // Display the text using the Klingon font. Categories (which have an entry of "*") must
+        // be handled specially.
+        String klingonEntryName = !linkedEntry.getEntryName().equals("*") ?
+            linkedEntry.getEntryNameInKlingonFont() :
+            KlingonContentProvider.convertStringToKlingonFont(entry.getSentenceType());
         ssb.delete(m.start(), end);
         ssb.insert(m.start(), klingonEntryName);
         end = m.start() + klingonEntryName.length();
