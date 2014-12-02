@@ -347,7 +347,7 @@ public class KlingonAssistant extends BaseActivity {
       }
 
       // TODO: Colour attached affixes differently from verb.
-      boolean useColours = sharedPrefs.getBoolean(Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */false);
+      boolean useColours = sharedPrefs.getBoolean(Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */true);
       if (useColours) {
         view.getText1().setTextColor(entry.getTextColor());
       }

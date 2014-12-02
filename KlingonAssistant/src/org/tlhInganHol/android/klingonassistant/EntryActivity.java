@@ -32,6 +32,7 @@ import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
+import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 import android.text.style.SuperscriptSpan;
@@ -126,7 +127,7 @@ public class EntryActivity extends BaseActivity
     mEntryName = entry.getEntryName();
 
     // Set the colour for the entry name depending on its part of speech.
-    boolean useColours = sharedPrefs.getBoolean(Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */false);
+    boolean useColours = sharedPrefs.getBoolean(Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */true);
     if (useColours) {
       entryTitle.setTextColor(entry.getTextColor());
     }
@@ -375,7 +376,10 @@ public class EntryActivity extends BaseActivity
       }
       if (!disableEntryLink) {
         // Link to view launcher.
-        ssb.setSpan(viewLauncher, m.start(), end, finalFlags);
+        ssb.setSpan(viewLauncher, m.start(), end, intermediateFlags);
+        if (useColours) {
+          ssb.setSpan(new ForegroundColorSpan(linkedEntry.getTextColor()), m.start(), end, finalFlags);
+        }
       }
       String linkedPos = linkedEntry.getBracketedPartOfSpeech(/* isHtml */false);
       if (!linkedPos.equals("") && linkedPos.length() > 1) {
