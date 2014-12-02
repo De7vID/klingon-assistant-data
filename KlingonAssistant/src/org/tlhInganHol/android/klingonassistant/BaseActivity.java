@@ -263,6 +263,7 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+      // TODO: Use Klingon typeface in options menu too.
       MenuInflater inflater = getMenuInflater();
       SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
       if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
@@ -270,30 +271,6 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
       } else {
         inflater.inflate(R.menu.options_menu, menu);
       }
-
-      // TODO: Fix this.
-      /*
-      final Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(getBaseContext());
-      getLayoutInflater().setFactory(new Factory() {
-        public View onCreateView(String name, Context context, AttributeSet attrs) {
-          if (name.equalsIgnoreCase("com.android.internal.view.menu.IconMenuItemView")) {
-            try {
-              LayoutInflater li = LayoutInflater.from(context);
-              final View view = li.createView(name, null, attrs);
-              new Handler().post(new Runnable() {
-                public void run() {
-                  ((TextView) view).setTypeface(klingonTypeface);
-                }
-              });
-              return view;
-            } catch(InflateException e) {
-            } catch(ClassNotFoundException e) {
-            }
-          }
-          return null;
-        }
-      });
-      */
 
       /* TUTORIAL
       if (isHoneycombOrAbove()) {
