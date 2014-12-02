@@ -24,7 +24,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
@@ -304,10 +303,7 @@ public class FloatingWindow extends StandOutWindow {
       // TODO: Colour attached affixes differently from verb.
       boolean useColours = sharedPrefs.getBoolean(Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */true);
       if (useColours) {
-        int colour = entry.getTextColor();
-        if (colour != Color.WHITE) {
-          view.getText1().setTextColor(colour);
-        }
+        view.getText1().setTextColor(entry.getTextColor());
       }
 
       // Use sans serif for the definition.

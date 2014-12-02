@@ -1180,6 +1180,13 @@ public class KlingonContentProvider extends ContentProvider {
       return mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN;
     }
 
+    // {chuvmey} - not sentences, but not verbs/nouns/affixes either.
+    public boolean isMisc() {
+      return mBasePartOfSpeech == BasePartOfSpeechEnum.ADVERBIAL ||
+             mBasePartOfSpeech == BasePartOfSpeechEnum.CONJUNCTION ||
+             mBasePartOfSpeech == BasePartOfSpeechEnum.QUESTION;
+    }
+
     public int getTextColor() {
       // TODO: Make the colours customisable. For now, use Lieven's system.
       // https://code.google.com/p/klingon-assistant/issues/detail?id=8
@@ -1191,11 +1198,9 @@ public class KlingonContentProvider extends ContentProvider {
         return Color.GREEN;
       } else if (isSuffix() || isPrefix()) {
         return Color.RED;
-      } else if (!isSentence()) {
-        // Everything else is blue, except sentences.
+      } else if (isMisc()) {
         return Color.BLUE;
       }
-      // Caller should check for WHITE (which is -1), and not set the colour if it's returned.
       return Color.WHITE;
     }
 
