@@ -22,10 +22,12 @@ import java.util.List;
 import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.content.CursorLoader;
 import android.text.Editable;
 import android.text.Html;
@@ -286,10 +288,17 @@ public class FloatingWindow extends StandOutWindow {
       String indent1 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;" : "";
       String indent2 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" : "";
 
-      // Use serif for the entry, so capital-I and lowercase-l are distinguishable.
-      view.getText1().setTypeface(Typeface.SERIF);
-      view.getText1().setText(
-              Html.fromHtml(indent1 + entry.getFormattedEntryName(/* isHtml */true)));
+      SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+      if (!sharedPrefs.getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */false)) {
+        // Use serif for the entry, so capital-I and lowercase-l are distinguishable.
+        view.getText1().setTypeface(Typeface.SERIF);
+        view.getText1().setText(Html.fromHtml(indent1 + entry.getFormattedEntryName(/* isHtml */true)));
+      } else {
+        // Preference is set to display this in {pIqaD}!
+        view.getText1().setTypeface(KlingonAssistant.getKlingonFontTypeface(getBaseContext()));
+        view.getText1().setText(Html.fromHtml(indent1 + entry.getEntryNameInKlingonFont()));
+      }
+
 
       // Use sans serif for the definition.
       view.getText2().setTypeface(Typeface.SANS_SERIF);
