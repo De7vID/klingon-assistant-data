@@ -327,10 +327,11 @@ public class KlingonAssistant extends BaseActivity {
     }
 
     private void bindView(TwoLineListItem view, Cursor cursor) {
+      // Keep this in sync with FloatingWindow's bindview.
       KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor,
               getBaseContext());
 
-      // TODO(davinci): Format with colour and size.
+      // TODO: Format with different size.
       String indent1 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;" : "";
       String indent2 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" : "";
 
@@ -343,6 +344,12 @@ public class KlingonAssistant extends BaseActivity {
         // Preference is set to display this in {pIqaD}!
         view.getText1().setTypeface(KlingonAssistant.getKlingonFontTypeface(getBaseContext()));
         view.getText1().setText(Html.fromHtml(indent1 + entry.getEntryNameInKlingonFont()));
+      }
+
+      // TODO: Colour attached affixes differently from verb.
+      boolean useColours = sharedPrefs.getBoolean(Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */false);
+      if (useColours) {
+        view.getText1().setTextColor(entry.getTextColor());
       }
 
       // Use sans serif for the definition.

@@ -23,7 +23,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.database.Cursor;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
@@ -129,17 +128,7 @@ public class EntryActivity extends BaseActivity
     // Set the colour for the entry name depending on its part of speech.
     boolean useColours = sharedPrefs.getBoolean(Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */false);
     if (useColours) {
-      // TODO: Make the colours customisable. For now, use Lieven's system.
-      // https://code.google.com/p/klingon-assistant/issues/detail?id=8
-      if (entry.isVerb()) {
-        entryTitle.setTextColor(Color.YELLOW);
-      } else if (entry.isNoun()) {
-        entryTitle.setTextColor(Color.GREEN);
-      } else if (entry.isSuffix() || entry.isPrefix()) {
-        entryTitle.setTextColor(Color.RED);
-      } else if (!entry.isSentence()) {
-        entryTitle.setTextColor(Color.BLUE);
-      }
+      entryTitle.setTextColor(entry.getTextColor());
     }
 
     // Create the expanded definition.

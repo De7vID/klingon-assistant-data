@@ -29,6 +29,7 @@ import android.content.SharedPreferences;
 import android.content.UriMatcher;
 import android.database.Cursor;
 import android.database.MatrixCursor;
+import android.graphics.Color;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.provider.BaseColumns;
@@ -1169,7 +1170,23 @@ public class KlingonContentProvider extends ContentProvider {
 
     // This is a noun (but not a suffix).
     public boolean isNoun() {
-      return mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN;
+      return mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN && !isSuffix();
+    }
+
+    public int getTextColor() {
+      // TODO: Make the colours customisable. For now, use Lieven's system.
+      // https://code.google.com/p/klingon-assistant/issues/detail?id=8
+      if (isVerb()) {
+        return Color.YELLOW;
+      } else if (isNoun()) {
+        return Color.GREEN;
+      } else if (isSuffix() || isPrefix()) {
+        return Color.RED;
+      } else if (!isSentence()) {
+        // Everything else is blue, except sentences.
+        return Color.BLUE;
+      }
+      return Color.WHITE;
     }
 
     public VerbTransitivityType getTransitivity() {
