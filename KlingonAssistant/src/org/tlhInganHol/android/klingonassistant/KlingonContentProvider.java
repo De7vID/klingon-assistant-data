@@ -172,7 +172,8 @@ public class KlingonContentProvider extends ContentProvider {
   }
 
   private Object[] formatEntryForSearchResults(Cursor cursor) {
-    // Format the search result for display here.
+    // Format the search results for display here. These are the two-line dropdown results from the
+    // search box.
     Entry entry = new Entry(cursor, getContext());
     int entryId = entry.getId();
     String indent1 = entry.isIndented() ? "    " : "";
