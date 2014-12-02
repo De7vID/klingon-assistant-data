@@ -48,6 +48,7 @@ public class Preferences extends PreferenceActivity implements OnSharedPreferenc
   public static final String KEY_SOCIAL_NETWORK_LIST_PREFERENCE                  = "social_network_list_preference";
 
   // Informational preferences.
+  public static final String KEY_USE_COLOURS_CHECKBOX_PREFERENCE                 = "use_colours_checkbox_preference";
   public static final String KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE           = "show_transitivity_checkbox_preference";
   public static final String KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE = "show_additional_information_checkbox_preference";
 

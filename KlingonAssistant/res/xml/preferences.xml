@@ -94,6 +94,12 @@
             android:title="@string/informational_preferences">
 
         <CheckBoxPreference
+                android:key="use_colours_checkbox_preference"
+                android:title="@string/use_colours_preference_title"
+                android:summary="@string/use_colours_preference_summary"
+                android:defaultValue="true" />
+
+        <CheckBoxPreference
                 android:key="show_transitivity_checkbox_preference"
                 android:title="@string/show_transitivity_preference_title"
                 android:summary="@string/show_transitivity_preference_summary"
