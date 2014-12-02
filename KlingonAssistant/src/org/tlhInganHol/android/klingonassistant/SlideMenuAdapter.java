@@ -3,6 +3,9 @@ package org.tlhInganHol.android.klingonassistant;
 import java.util.List;
 
 import android.content.Context;
+import android.content.SharedPreferences;
+import android.graphics.Typeface;
+import android.preference.PreferenceManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -77,12 +80,20 @@ public class SlideMenuAdapter extends BaseAdapter {
         View v = convertView;
         Object item = getItem(position);
 
+        SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
+        boolean useKlingonFont = sharedPrefs.getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */false);
+        Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(mContext);
+
         if (item instanceof SlideMenuCategory) {
             if (v == null) {
                 v = LayoutInflater.from(mContext).inflate(R.layout.menu_row_category, parent, false);
             }
 
-            ((TextView) v).setText(((SlideMenuCategory) item).mTitle);
+            String title = ((SlideMenuCategory) item).mTitle;
+            ((TextView) v).setText(title);
+            if (useKlingonFont) {
+              ((TextView) v).setTypeface(klingonTypeface);
+            }
 
         } else {
             if (v == null) {
@@ -93,6 +104,9 @@ public class SlideMenuAdapter extends BaseAdapter {
             String text = tv.getContext().getResources().getString(((SlideMenuItem) item).mTitle);
             tv.setText(text);
             tv.setCompoundDrawablesWithIntrinsicBounds(((SlideMenuItem) item).mIconRes, 0, 0, 0);
+            if (useKlingonFont) {
+              tv.setTypeface(klingonTypeface);
+            }
         }
 
         v.setTag(R.id.mdActiveViewPosition, position);

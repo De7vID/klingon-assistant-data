@@ -35,13 +35,18 @@ import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.text.Spannable;
 import android.text.SpannableString;
+import android.util.AttributeSet;
 import android.util.Log;
+import android.view.InflateException;
+import android.view.LayoutInflater;
+import android.view.LayoutInflater.Factory;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 import net.simonvt.menudrawer.MenuDrawer;
 import net.simonvt.menudrawer.Position;
@@ -266,8 +271,32 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
         inflater.inflate(R.menu.options_menu, menu);
       }
 
+      // TODO: Fix this.
+      /*
+      final Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(getBaseContext());
+      getLayoutInflater().setFactory(new Factory() {
+        public View onCreateView(String name, Context context, AttributeSet attrs) {
+          if (name.equalsIgnoreCase("com.android.internal.view.menu.IconMenuItemView")) {
+            try {
+              LayoutInflater li = LayoutInflater.from(context);
+              final View view = li.createView(name, null, attrs);
+              new Handler().post(new Runnable() {
+                public void run() {
+                  ((TextView) view).setTypeface(klingonTypeface);
+                }
+              });
+              return view;
+            } catch(InflateException e) {
+            } catch(ClassNotFoundException e) {
+            }
+          }
+          return null;
+        }
+      });
+      */
+
+      /* TUTORIAL
       if (isHoneycombOrAbove()) {
-        /* TUTORIAL
         // Note: Request translation has been removed from the menu. It is now accessed indirectly through the G+ button.
         if (KlingonAssistant.INCLUDE_TUTORIAL) {
           if (isJellyBeanOrAbove()) {
@@ -277,7 +306,6 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
             MenuItemCompat.setVisible(requestTranslationItem, true);
           }
         }
-        */
 
         // Note: This is commented out because the way that we are implementing the search button
         // is incompatible with the appcompat search view.
@@ -286,6 +314,7 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
         // searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
         // searchView.setIconifiedByDefault(false);
       }
+      */
 
       return true;
     }

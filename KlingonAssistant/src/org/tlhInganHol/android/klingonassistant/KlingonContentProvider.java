@@ -687,9 +687,8 @@ public class KlingonContentProvider extends ContentProvider {
     // Get the name of the entry written in {pIqaD}.
     public String getEntryNameInKlingonFont() {
       // Strip anything we don't recognise.
-      // This pattern should be kept in sync with ENTRY_PATTERN. Note that "ü" will never be in an entry name.
-      String formattedEntryName = mEntryName.replaceAll("[^A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]",
-              "");
+      // This pattern should be kept mostly in sync with ENTRY_PATTERN. Note that "ü" and "+" will never be in an entry name.
+      String formattedEntryName = mEntryName.replaceAll("[^A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]", "");
 
       // {gh} must come before {ngh} since {ngh} is {n} + {gh} and not {ng} + *{h}.
       // {ng} must come before {n}.
