@@ -1168,9 +1168,11 @@ public class KlingonContentProvider extends ContentProvider {
       return mIsSuffix || mEntryName.startsWith("-");
     }
 
-    // This is a noun (but not a suffix).
+    // This is a noun (including possible a noun suffix).
+    // TODO: Make this symmetric with isVerb().
+    // Test case: {bISutlhnISchugh, jaghlI' minDu' tIbej} should evaluate {-lI'} to a noun suffix.
     public boolean isNoun() {
-      return mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN && !isSuffix();
+      return mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN;
     }
 
     public int getTextColor() {
