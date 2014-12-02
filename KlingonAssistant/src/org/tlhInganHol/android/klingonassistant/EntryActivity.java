@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
@@ -129,7 +130,10 @@ public class EntryActivity extends BaseActivity
     // Set the colour for the entry name depending on its part of speech.
     boolean useColours = sharedPrefs.getBoolean(Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */true);
     if (useColours) {
-      entryTitle.setTextColor(entry.getTextColor());
+      int entryColour = entry.getTextColor();
+      if (entryColour != Color.WHITE) {
+        entryTitle.setTextColor(entryColour);
+      }
     }
 
     // Create the expanded definition.
@@ -374,12 +378,19 @@ public class EntryActivity extends BaseActivity
         ssb.setSpan(new SuperscriptSpan(), m.start(), m.start() + 1, maybeFinalFlags);
         end++;
       }
+      // Only apply colours to verbs, nouns, and affixes (exclude BLUE and WHITE).
+      int linkedEntryColour = linkedEntry.getTextColor();
+      boolean finalSpanAppliesColour = useColours &&
+          (linkedEntryColour != Color.WHITE) &&
+          (linkedEntryColour != Color.BLUE);
       if (!disableEntryLink) {
         // Link to view launcher.
-        ssb.setSpan(viewLauncher, m.start(), end, intermediateFlags);
-        if (useColours) {
-          ssb.setSpan(new ForegroundColorSpan(linkedEntry.getTextColor()), m.start(), end, finalFlags);
-        }
+        ssb.setSpan(viewLauncher, m.start(), end,
+            finalSpanAppliesColour ? intermediateFlags : finalFlags);
+      }
+      // Set the colour last, so it's not overridden by other spans.
+      if (finalSpanAppliesColour) {
+        ssb.setSpan(new ForegroundColorSpan(linkedEntryColour), m.start(), end, finalFlags);
       }
       String linkedPos = linkedEntry.getBracketedPartOfSpeech(/* isHtml */false);
       if (!linkedPos.equals("") && linkedPos.length() > 1) {

@@ -1195,6 +1195,7 @@ public class KlingonContentProvider extends ContentProvider {
         // Everything else is blue, except sentences.
         return Color.BLUE;
       }
+      // Caller should check for WHITE (which is -1), and not set the colour if it's returned.
       return Color.WHITE;
     }
 
