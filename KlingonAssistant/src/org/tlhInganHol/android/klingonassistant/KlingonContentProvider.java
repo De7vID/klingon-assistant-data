@@ -277,6 +277,11 @@ public class KlingonContentProvider extends ContentProvider {
     // This pattern should be kept mostly in sync with ENTRY_PATTERN. Note that "ü" and "+" will never be in an entry name.
     String klingonString = s.replaceAll("[^A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]", "");
 
+    // This is a hack: change the separators between words and their affixes.
+    // TODO: Do this upstream and colour the affixes differently.
+    klingonString = klingonString.replaceAll(" + -", " ◃ ").replaceAll("- + ", " ▹ ")
+                                 .replaceAll("^-", "◃ ").replaceAll("-$", " ▹");
+
     // {gh} must come before {ngh} since {ngh} is {n} + {gh} and not {ng} + *{h}.
     // {ng} must come before {n}.
     // {tlh} must come before {t} and {l}.
