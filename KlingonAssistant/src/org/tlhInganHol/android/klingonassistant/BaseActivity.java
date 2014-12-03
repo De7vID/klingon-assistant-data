@@ -86,7 +86,7 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
     private static final String QUERY_FOR_NENTAY                 = "*:sen:nt";
     // private static final String QUERY_FOR_PROVERBS               = "*:sen:prov";
     private static final String QUERY_FOR_QI_LOP                 = "*:sen:Ql";
-    private static final String QUERY_FOR_REJECTION              = "*:sen:rej";
+    private static final String QUERY_FOR_ROMANCE                = "*:sen:rom";
     private static final String QUERY_FOR_REPLACEMENT_PROVERBS   = "*:sen:rp";
     private static final String QUERY_FOR_SECRECY_PROVERBS       = "*:sen:sp";
     private static final String QUERY_FOR_TOASTS                 = "*:sen:toast";
@@ -176,7 +176,7 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
                 items.add(new SlideMenuItem(R.string.replacement_proverbs_tlh, R.id.replacement_proverbs, 0));
                 items.add(new SlideMenuItem(R.string.secrecy_proverbs_tlh, R.id.secrecy_proverbs, 0));
                 items.add(new SlideMenuItem(R.string.empire_union_day_tlh, R.id.empire_union_day, 0));
-                items.add(new SlideMenuItem(R.string.rejection_tlh, R.id.rejection, 0));
+                items.add(new SlideMenuItem(R.string.romance_tlh, R.id.romance, 0));
             items.add(new SlideMenuCategory(R.string.menu_media_tlh));
                 items.add(new SlideMenuItem(R.string.media_1_title_tlh, R.id.media_1, 0));
                 items.add(new SlideMenuItem(R.string.media_2_title_tlh, R.id.media_2, 0));
@@ -209,7 +209,7 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
                 items.add(new SlideMenuItem(R.string.replacement_proverbs, R.id.replacement_proverbs, 0));
                 items.add(new SlideMenuItem(R.string.secrecy_proverbs, R.id.secrecy_proverbs, 0));
                 items.add(new SlideMenuItem(R.string.empire_union_day, R.id.empire_union_day, 0));
-                items.add(new SlideMenuItem(R.string.rejection, R.id.rejection, 0));
+                items.add(new SlideMenuItem(R.string.romance, R.id.romance, 0));
                 // Not all general proverbs are properly tagged yet.
                 // Too many idioms; also no known Klingon term for "idiom".
             items.add(new SlideMenuCategory(R.string.menu_media));
@@ -398,8 +398,8 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
         case R.id.military_celebration:
           displaySearchResults(QUERY_FOR_QI_LOP);
           break;
-        case R.id.rejection:
-          displaySearchResults(QUERY_FOR_REJECTION);
+        case R.id.romance:
+          displaySearchResults(QUERY_FOR_ROMANCE);
           break;
         case R.id.replacement_proverbs:
           displaySearchResults(QUERY_FOR_REPLACEMENT_PROVERBS);
