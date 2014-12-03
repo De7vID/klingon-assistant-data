@@ -1199,7 +1199,7 @@ public class KlingonContentProvider extends ContentProvider {
       } else if (isSuffix() || isPrefix()) {
         return Color.RED;
       } else if (isMisc()) {
-        return Color.BLUE;
+        return Color.CYAN;
       }
       return Color.WHITE;
     }
