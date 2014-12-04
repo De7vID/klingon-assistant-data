@@ -368,7 +368,7 @@ public class KlingonContentProvider extends ContentProvider {
 
     // Sentence types.
     private enum SentenceType {
-      PHRASE, EMPIRE_UNION_DAY, CURSE_WARFARE, IDIOM, NENTAY, PROVERB, MILITARY_CELEBRATION, ROMANCE, REPLACEMENT_PROVERB, SECRECY_PROVERB, TOAST, LYRICS, BEGINNERS_CONVERSATION, JOKE
+      PHRASE, EMPIRE_UNION_DAY, CURSE_WARFARE, IDIOM, NENTAY, PROVERB, MILITARY_CELEBRATION, REJECTION, REPLACEMENT_PROVERB, SECRECY_PROVERB, TOAST, LYRICS, BEGINNERS_CONVERSATION, JOKE
     }
 
     private SentenceType mSentenceType             = SentenceType.PHRASE;
@@ -568,7 +568,7 @@ public class KlingonContentProvider extends ContentProvider {
         } else if (attr.equals("Ql")) {
           mSentenceType = SentenceType.MILITARY_CELEBRATION;
         } else if (attr.equals("rej")) {
-          mSentenceType = SentenceType.ROMANCE;
+          mSentenceType = SentenceType.REJECTION;
         } else if (attr.equals("rp")) {
           mSentenceType = SentenceType.REPLACEMENT_PROVERB;
         } else if (attr.equals("sp")) {
@@ -1073,11 +1073,11 @@ public class KlingonContentProvider extends ContentProvider {
         } else {
           return mContext.getResources().getString(R.string.military_celebration);
         }
-      } else if (mSentenceType == SentenceType.ROMANCE) {
+      } else if (mSentenceType == SentenceType.REJECTION) {
         if (useKlingonUI) {
-          return mContext.getResources().getString(R.string.romance_tlh);
+          return mContext.getResources().getString(R.string.rejection_tlh);
         } else {
-          return mContext.getResources().getString(R.string.romance);
+          return mContext.getResources().getString(R.string.rejection);
         }
       } else if (mSentenceType == SentenceType.REPLACEMENT_PROVERB) {
         if (useKlingonUI) {
@@ -1135,8 +1135,8 @@ public class KlingonContentProvider extends ContentProvider {
         return "*:sen:prov";
       } else if (mSentenceType == SentenceType.MILITARY_CELEBRATION) {
         return "*:sen:Ql";
-      } else if (mSentenceType == SentenceType.ROMANCE) {
-        return "*:sen:rom";
+      } else if (mSentenceType == SentenceType.REJECTION) {
+        return "*:sen:rej";
       } else if (mSentenceType == SentenceType.REPLACEMENT_PROVERB) {
         return "*:sen:rp";
       } else if (mSentenceType == SentenceType.SECRECY_PROVERB) {
