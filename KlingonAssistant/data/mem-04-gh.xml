@@ -1107,10 +1107,11 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghew:n}</column>
-      <column name="notes">This is a small, irritating insect with no sting, which makes a slight buzzing sound. There is a Klingon idiom, {ram; ghIlab ghew rur}.</column>
+      <column name="notes">This is a small, irritating insect with no sting, which makes a slight buzzing sound. There is a Klingon idiom, {ram; ghIlab ghew rur@@ram:v, ghIlab ghew:n, rur:v}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
+▶ {bIQongtaHvIS nItlhejchugh targhmey bIvemDI' nItlhej ghIlab ghewmey.:sen}
 ▶ {ghIlab ghewmey tIbuSQo'.:sen}</column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
@@ -1127,7 +1128,8 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="see_also">{ghIlab ghew:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <!-- This is annotated because {ghIlab ghew:n} shouldn't be split by the analysis. -->
+      <column name="components">{ghIlab ghew:n}, {-mey:n}, {tI-:v}, {buS:v}, {-Qo':v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKW p.171:src}</column>
