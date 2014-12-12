@@ -1192,8 +1192,8 @@ public class KlingonContentProvider extends ContentProvider {
       // https://code.google.com/p/klingon-assistant/issues/detail?id=8
       if (isVerb()) {
         return Color.YELLOW;
-      } else if (isNoun() && !isSuffix()) {
-        // Note: isNoun() also returns true if it's a suffix.
+      } else if (isNoun() && !isSuffix() && !isNumber() && !isPronoun()) {
+        // Note: isNoun() also returns true if it's a suffix, but isVerb() returns false.
         // TODO: fix this asymmetry between isNoun() and isVerb().
         return Color.GREEN;
       } else if (isSuffix() || isPrefix()) {
