@@ -541,7 +541,7 @@
     <table name="mem">
       <column name="_id">33615</column>
       <column name="entry_name">tlhIghaq</column>
-      <column name="part_of_speech">n:anim,extcan</column>
+      <column name="part_of_speech">n:anim</column>
       <column name="definition">type of animal, trigak</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
@@ -700,7 +700,7 @@ Finally, {tlhIm:n:nolink} can also be used for a blanket, though Klingons genera
     <table name="mem">
       <column name="_id">33687</column>
       <column name="entry_name">tlhInja</column>
-      <column name="part_of_speech">n:extcan</column>
+      <column name="part_of_speech">n</column>
       <column name="definition">klin zha, a popular board game</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
@@ -1167,9 +1167,10 @@ The object of this verb is the person of whom the request is made, or {'e':n:pro
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Note that this sorts before {tlhong:v} because it's {tlhon-ghaD}. -->
       <column name="_id">33865</column>
       <column name="entry_name">tlhonghaD</column>
-      <column name="part_of_speech">n:anim,extcan</column>
+      <column name="part_of_speech">n:anim</column>
       <column name="definition">klongat</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
