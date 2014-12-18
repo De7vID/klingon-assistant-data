@@ -1093,7 +1093,8 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="see_also">{jIlajneS.:sen}</column>
       <column name="notes">This sentence is archaic. It is ungrammatical in modern standard Klingon.</column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <!-- We don't follow the same order as in the actual sentence because the analysis has to attach {-jaj} to a verb. -->
+      <column name="components">{ghIj:v}, {-jaj:v}, {qet:v}, {jagh:n}, {-mey:n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKW p.65:src}</column>
