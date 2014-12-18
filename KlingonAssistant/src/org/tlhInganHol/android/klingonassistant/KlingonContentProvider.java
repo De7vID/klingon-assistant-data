@@ -1190,7 +1190,9 @@ public class KlingonContentProvider extends ContentProvider {
     public int getTextColor() {
       // TODO: Make the colours customisable. For now, use Lieven's system.
       // https://code.google.com/p/klingon-assistant/issues/detail?id=8
-      if (isVerb()) {
+      if (isHypothetical() || isExtendedCanon()) {
+        return Color.GRAY;
+      } else if (isVerb()) {
         return Color.YELLOW;
       } else if (isNoun() && !isSuffix() && !isNumber() && !isPronoun()) {
         // Note: isNoun() also returns true if it's a suffix, but isVerb() returns false.

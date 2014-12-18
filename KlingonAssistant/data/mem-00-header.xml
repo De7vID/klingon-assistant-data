@@ -117,9 +117,9 @@
     see_also       = related words, etc.
                      (should not include words already linked in the visible notes)
     notes          = visible notes
-    hidden_notes   = normally invisible notes
+    hidden_notes   = notes which are displayed in a smaller font, and which may
+                     optionally be hidden
                      (use XML comments for *really* invisible notes)
-                     TODO: add option to hide them
     components     = if entry is constructed, list components here
     examples       = list examples (must exist as entries)
 
