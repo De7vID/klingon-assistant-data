@@ -2204,6 +2204,7 @@ This was used for "Cancel" (while {ruch:v} was used for "Ok") in Klingon Blockly
     <table name="mem">
       <column name="_id">26656</column>
       <column name="entry_name">qISa'ruj</column>
+      <!-- Not marked "anim" because referring to ship class here. -->
       <column name="part_of_speech">n:fic</column>
       <column name="definition">Raptor (vessel)</column>
       <column name="definition_de">Raubvogel (Schiffstyp)</column>
@@ -2235,6 +2236,25 @@ In the {Haynes BoP Manual:src}, this ship class is referred to as {raptor:n:noli
       <column name="search_tags"></column>
       <column name="source">[1] {TKDA:src}, [2] {msn 1996.12.12:src}</column>
     </table>
+    <!--
+    <table name="mem">
+      <column name="_id">26661</column>
+      <column name="entry_name">qItbe'</column>
+      <column name="part_of_speech">n:anim</column>
+      <column name="definition">a kind of bird</column>
+      <column name="definition_de">Art Vogel</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is a bird which resembles a Terran guinea-hen.</column>
+      <column name="hidden_notes">The source is Andrew Miller. This word was revealed for a Smithsonian Klingon Shakespeare skit that he and Marc Okrand were involved in. Note that {qItbe'} means "impossible".</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      !-- https://www.facebook.com/groups/tlhInganHol/permalink/1005787589437500/ --
+      <column name="source">[1] {Facebook "tlhIngan Hol" group 2014.12.26:src}</column>
+    </table>
+    -->
     <table name="mem">
       <column name="_id">26670</column>
       <column name="entry_name">qItI'nga'</column>
