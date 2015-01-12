@@ -21,6 +21,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- TUTORIAL -->
+    <!--
     <PreferenceCategory
             android:title="@string/tutorial_preferences">
         <CheckBoxPreference
@@ -30,6 +31,7 @@
                 android:enabled="false"
                 android:defaultValue="true" />
     </PreferenceCategory>
+    -->
 
     <PreferenceCategory
             android:title="@string/language_preferences">

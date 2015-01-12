@@ -55,7 +55,7 @@ public class KlingonAssistant extends BaseActivity {
   private static final String TAG = "KlingonAssistant";
 
   // Whether to include the tutorial or not. If false, the code should be stripped out of the binary.
-  public static final boolean INCLUDE_TUTORIAL = false;
+  // public static final boolean INCLUDE_TUTORIAL = false;
 
   // Preference key for whether to show help.
   public static final String  KEY_SHOW_HELP                    = "show_help";
@@ -70,7 +70,7 @@ public class KlingonAssistant extends BaseActivity {
   // Keep the query for passing to the FloatingWindow.
   private String mQuery = "";
 
-  private int mTutorialCounter;
+  // private int mTutorialCounter;
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -88,85 +88,85 @@ public class KlingonAssistant extends BaseActivity {
     handleIntent(getIntent());
   }
 
-  private void setupTutorial() {
-    /* TUTORIAL
-    if (INCLUDE_TUTORIAL) {
-      // ShowcaseView for the initial tutorial.
-      ShowcaseView.ConfigOptions mShowcaseViewOptions = new ShowcaseView.ConfigOptions();
+  // private void setupTutorial() {
+  //   /* TUTORIAL
+  //   if (INCLUDE_TUTORIAL) {
+  //     // ShowcaseView for the initial tutorial.
+  //     ShowcaseView.ConfigOptions mShowcaseViewOptions = new ShowcaseView.ConfigOptions();
 
-      // When tutorial is running, block user actions.
-      mShowcaseViewOptions.block = true;
-      mShowcaseViewOptions.hideOnClickOutside = false;
+  //     // When tutorial is running, block user actions.
+  //     mShowcaseViewOptions.block = true;
+  //     mShowcaseViewOptions.hideOnClickOutside = false;
 
-      // Use ShowcaseView to run the tutorial.
-      final ActionItemTarget searchTarget = new ActionItemTarget(this, R.id.search);
-      final ActionItemTarget socialTarget = new ActionItemTarget(this, R.id.social_network);
-      final ActionViewTarget homeTarget = new ActionViewTarget(this, ActionViewTarget.Type.HOME);
-      final ActionViewTarget overflowTarget = new ActionViewTarget(this, ActionViewTarget.Type.OVERFLOW);
+  //     // Use ShowcaseView to run the tutorial.
+  //     final ActionItemTarget searchTarget = new ActionItemTarget(this, R.id.search);
+  //     final ActionItemTarget socialTarget = new ActionItemTarget(this, R.id.social_network);
+  //     final ActionViewTarget homeTarget = new ActionViewTarget(this, ActionViewTarget.Type.HOME);
+  //     final ActionViewTarget overflowTarget = new ActionViewTarget(this, ActionViewTarget.Type.OVERFLOW);
 
-      // TODO: Change the display depending on isHorizontalTablet().
-      // Display an introductory message.
-      mTutorialCounter = 1;
-      // The ShowcaseView library doesn't seem to support setting NONE to be the first target, so work
-      // around by temporarily setting a target then setting it to NONE.
-      final ShowcaseView mShowcaseView = ShowcaseView.insertShowcaseView(searchTarget, this,
-                      R.string.tutorial_1_title, R.string.tutorial_1_msg, mShowcaseViewOptions);
-      // mShowcaseView.setAlpha(1.0f);
-      mShowcaseView.setShowcase(ShowcaseView.NONE);
-      mShowcaseView.overrideButtonClick(new View.OnClickListener() {
-          @Override
-          public void onClick(View view) {
-             mTutorialCounter++;
-             switch(mTutorialCounter) {
-               case 2: // Showcase the "Search" button.
-                 mShowcaseView.setShowcase(searchTarget, true);
-                 mShowcaseView.setText(R.string.tutorial_2_title, R.string.tutorial_2_msg);
-                 break;
-               case 3: // Showcase the "home" button.
-                 mShowcaseView.setShowcase(homeTarget, true);
-                 mShowcaseView.setText(R.string.tutorial_3_title, R.string.tutorial_3_msg);
-                 break;
-               case 4: // Showcase the G+ button.
-                 mShowcaseView.setShowcase(socialTarget, true);
-                 mShowcaseView.setText(R.string.tutorial_4_title, R.string.tutorial_4_msg);
-                 break;
-               case 5: // Showcase the overflow menu.
-                 // if (... there is an overflow menu...) {
-                   // On some devices, the menu target is not visible.
-                   // mShowcaseView.setShowcase(overflowTarget, true);
-                 // } else {
-                   mShowcaseView.setShowcase(ShowcaseView.NONE);
-                 // }
-                 mShowcaseView.setText(R.string.tutorial_5_title, R.string.tutorial_5_msg);
-                 break;
-               case 6: // Continue about the menu.
-                 mShowcaseView.setText(R.string.tutorial_6_title, R.string.tutorial_6_msg);
-                 break;
-               case 7: // Final message.
-                 mShowcaseView.setShowcase(ShowcaseView.NONE);
-                 mShowcaseView.setText(R.string.tutorial_7_title, R.string.tutorial_7_msg);
-                 break;
-               default:
-                 mShowcaseView.hide();
-                 */
+  //     // TODO: Change the display depending on isHorizontalTablet().
+  //     // Display an introductory message.
+  //     mTutorialCounter = 1;
+  //     // The ShowcaseView library doesn't seem to support setting NONE to be the first target, so work
+  //     // around by temporarily setting a target then setting it to NONE.
+  //     final ShowcaseView mShowcaseView = ShowcaseView.insertShowcaseView(searchTarget, this,
+  //                     R.string.tutorial_1_title, R.string.tutorial_1_msg, mShowcaseViewOptions);
+  //     // mShowcaseView.setAlpha(1.0f);
+  //     mShowcaseView.setShowcase(ShowcaseView.NONE);
+  //     mShowcaseView.overrideButtonClick(new View.OnClickListener() {
+  //         @Override
+  //         public void onClick(View view) {
+  //            mTutorialCounter++;
+  //            switch(mTutorialCounter) {
+  //              case 2: // Showcase the "Search" button.
+  //                mShowcaseView.setShowcase(searchTarget, true);
+  //                mShowcaseView.setText(R.string.tutorial_2_title, R.string.tutorial_2_msg);
+  //                break;
+  //              case 3: // Showcase the "home" button.
+  //                mShowcaseView.setShowcase(homeTarget, true);
+  //                mShowcaseView.setText(R.string.tutorial_3_title, R.string.tutorial_3_msg);
+  //                break;
+  //              case 4: // Showcase the G+ button.
+  //                mShowcaseView.setShowcase(socialTarget, true);
+  //                mShowcaseView.setText(R.string.tutorial_4_title, R.string.tutorial_4_msg);
+  //                break;
+  //              case 5: // Showcase the overflow menu.
+  //                // if (... there is an overflow menu...) {
+  //                  // On some devices, the menu target is not visible.
+  //                  // mShowcaseView.setShowcase(overflowTarget, true);
+  //                // } else {
+  //                  mShowcaseView.setShowcase(ShowcaseView.NONE);
+  //                // }
+  //                mShowcaseView.setText(R.string.tutorial_5_title, R.string.tutorial_5_msg);
+  //                break;
+  //              case 6: // Continue about the menu.
+  //                mShowcaseView.setText(R.string.tutorial_6_title, R.string.tutorial_6_msg);
+  //                break;
+  //              case 7: // Final message.
+  //                mShowcaseView.setShowcase(ShowcaseView.NONE);
+  //                mShowcaseView.setText(R.string.tutorial_7_title, R.string.tutorial_7_msg);
+  //                break;
+  //              default:
+  //                mShowcaseView.hide();
+  //                */
 
-                 displayHelp(QUERY_FOR_ABOUT);
+  //                displayHelp(QUERY_FOR_ABOUT);
 
-                 // Unset the two flags since the tutorial and help have been shown.
-                 SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(
-                         getBaseContext()).edit();
-                 sharedPrefsEd.putBoolean(KEY_SHOW_HELP, false);
-                 sharedPrefsEd.putBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, false);
-                 sharedPrefsEd.commit();
+  //                // Unset the two flags since the tutorial and help have been shown.
+  //                SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(
+  //                        getBaseContext()).edit();
+  //                sharedPrefsEd.putBoolean(KEY_SHOW_HELP, false);
+  //                sharedPrefsEd.putBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, false);
+  //                sharedPrefsEd.commit();
 
-                 /*
-                 break;
-             }
-          }
-      });
-    }
-    */
-  }
+  //                /*
+  //                break;
+  //            }
+  //         }
+  //     });
+  //   }
+  //   */
+  // }
 
   @Override
   protected void onNewIntent(Intent intent) {
@@ -239,20 +239,20 @@ public class KlingonAssistant extends BaseActivity {
       SharedPreferences sharedPrefs = PreferenceManager
               .getDefaultSharedPreferences(getBaseContext());
       try {
-        if (sharedPrefs.getBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, /* default */true)) {
-          // Show the tutorial (ending on the help screen).
-          // TUTORIAL
-          setupTutorial();
-        } else if (sharedPrefs.getBoolean(KEY_SHOW_HELP, /* default */true)) {
+        // if (sharedPrefs.getBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, /* default */true)) {
+        //   // Show the tutorial (ending on the help screen).
+        //   // TUTORIAL
+        //   setupTutorial();
+        // } else if (sharedPrefs.getBoolean(KEY_SHOW_HELP, /* default */true)) {
           // Show just the help screen.
           displayHelp(QUERY_FOR_ABOUT);
 
-          // Unset the help flag since it's been shown.
-          SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(
-                  getBaseContext()).edit();
-          sharedPrefsEd.putBoolean(KEY_SHOW_HELP, false);
-          sharedPrefsEd.commit();
-        }
+        //   // Unset the help flag since it's been shown.
+        //   SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(
+        //           getBaseContext()).edit();
+        //   sharedPrefsEd.putBoolean(KEY_SHOW_HELP, false);
+        //   sharedPrefsEd.commit();
+        // }
       } catch (Exception e) {
         // No big deal if help screen isn't shown on start. Do nothing.
       }

@@ -207,9 +207,11 @@
 
     <!-- Strings for the Preferences settings. -->
     <string name="klingon_assistant_settings">boQwI\' settings</string>
+      <!--
       <string name="tutorial_preferences">Tutorial</string>
         <string name="run_tutorial_preference_title">Enable tutorial</string>
         <string name="run_tutorial_preference_summary">Run through the tutorial the next time this app starts (requires Android 4.1+).</string>
+      -->
       <string name="language_preferences">Language preferences</string>
         <string name="klingon_ui_preference_title">Klingon UI</string>
         <string name="klingon_ui_preference_summary">Use {tlhIngan Hol} for the user interface language.</string>
@@ -266,6 +268,7 @@
     <string name="warning_extended_canon">Warning: This entry is from extended canon. Use with caution!</string>
 
     <!-- Strings for the ShowcaseView tutorial. -->
+    <!--
     <string name="tutorial_1_title">qavan! (I salute you!)</string>
     <string name="tutorial_1_msg">This tutorial gives a brief overview of boQwI\'.\n\n* Latest changes *\n2014-12-17: Added words from K.R.A. DeCandido.\n2014-12-02: color-coded parts of speech, bug fixes, show Klingon font in more places.\n2014-11-16: new vocab from qepHom\'a\' 2014.</string>
     <string name="tutorial_2_title">Search</string>
@@ -280,4 +283,5 @@
     <string name="tutorial_6_msg">Want to hear what a Klingon word or phrase sounds like? Use the "speak" button. (Requires Klingon Text-To-Speech engine.)\n\nReading a long text in Klingon (like Hamlet)? Activate float mode, and boQwI\' will hover over your browser, email, or ebook reader.</string>
     <string name="tutorial_7_title">Qapla\'! (Success!)</string>
     <string name="tutorial_7_msg">For advanced users, there are more settings under the Preferences menu.</string>
+    -->
 </resources>

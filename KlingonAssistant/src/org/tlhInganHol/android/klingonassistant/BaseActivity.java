@@ -273,24 +273,24 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
       }
 
       /* TUTORIAL
-      if (isHoneycombOrAbove()) {
-        // Note: Request translation has been removed from the menu. It is now accessed indirectly through the G+ button.
-        if (KlingonAssistant.INCLUDE_TUTORIAL) {
-          if (isJellyBeanOrAbove()) {
-            // The Google Play Services version we are using does not work in Froyo and below.
-            // Furthermore, the TTS services we use require Jelly Bean.
-            MenuItem requestTranslationItem = (MenuItem) menu.findItem(R.id.request_translation);
-            MenuItemCompat.setVisible(requestTranslationItem, true);
-          }
-        }
+      // if (isHoneycombOrAbove()) {
+      //   // Note: Request translation has been removed from the menu. It is now accessed indirectly through the G+ button.
+      //   if (KlingonAssistant.INCLUDE_TUTORIAL) {
+      //     if (isJellyBeanOrAbove()) {
+      //       // The Google Play Services version we are using does not work in Froyo and below.
+      //       // Furthermore, the TTS services we use require Jelly Bean.
+      //       MenuItem requestTranslationItem = (MenuItem) menu.findItem(R.id.request_translation);
+      //       MenuItemCompat.setVisible(requestTranslationItem, true);
+      //     }
+      //   }
 
-        // Note: This is commented out because the way that we are implementing the search button
-        // is incompatible with the appcompat search view.
-        // SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-        // SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.search));
-        // searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-        // searchView.setIconifiedByDefault(false);
-      }
+      //   // Note: This is commented out because the way that we are implementing the search button
+      //   // is incompatible with the appcompat search view.
+      //   // SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+      //   // SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.search));
+      //   // searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+      //   // searchView.setIconifiedByDefault(false);
+      // }
       */
 
       return true;
@@ -449,29 +449,27 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
     // Private method to request a translation.
     private void requestTranslation() {
       /* TUTORIAL
-      if (KlingonAssistant.INCLUDE_TUTORIAL) {
-        // See: https://developers.google.com/+/mobile/android/share/prefill
-        // TODO: Ideally, this should post to the "Klingon language" community under the "Requests for
-        // translation" category.
-        ArrayList<Person> recipients = new ArrayList<Person>();
-        recipients.add(PlusShare.createPerson("+KlingonTeacher","KlingonTeacher"));
-        recipients.add(PlusShare.createPerson("110116202842822234244","De'vID"));
+      //  // See: https://developers.google.com/+/mobile/android/share/prefill
+      //  // TODO: Ideally, this should post to the "Klingon language" community under the "Requests for
+      //  // translation" category.
+      //  ArrayList<Person> recipients = new ArrayList<Person>();
+      //  recipients.add(PlusShare.createPerson("+KlingonTeacher","KlingonTeacher"));
+      //  recipients.add(PlusShare.createPerson("110116202842822234244","De'vID"));
 
-        try {
-          Intent requestTranslationIntent = new PlusShare.Builder(this)
-                                                         .setType("text/plain")
-                                                         .setText("I request a Klingon translation for:\n\n")
-                                                         .setRecipients(recipients)
-                                                         .getIntent();
-          startActivity(requestTranslationIntent);
-        } catch(Exception e) {
-          // Fail gracefully if Google+ is not found.
-          Toast.makeText(
-                  getBaseContext(),
-                  getBaseContext().getResources().getString(R.string.gplus_missing),
-                  Toast.LENGTH_LONG).show();
-        }
-      }
+      //  try {
+      //    Intent requestTranslationIntent = new PlusShare.Builder(this)
+      //                                                   .setType("text/plain")
+      //                                                   .setText("I request a Klingon translation for:\n\n")
+      //                                                   .setRecipients(recipients)
+      //                                                   .getIntent();
+      //    startActivity(requestTranslationIntent);
+      //  } catch(Exception e) {
+      //    // Fail gracefully if Google+ is not found.
+      //    Toast.makeText(
+      //            getBaseContext(),
+      //            getBaseContext().getResources().getString(R.string.gplus_missing),
+      //            Toast.LENGTH_LONG).show();
+      //  }
       */
     }
 

@@ -26,13 +26,12 @@ import android.preference.Preference;
 import android.view.MenuItem;
 
 import android.preference.PreferenceActivity;
-import android.support.v7.app.ActionBar;
 
-// This needs to extend both PreferenceActivity and also ActionBarActivity, in order to use the ActionBar.
+// Since this needs to extend PreferenceActivity, it does not have an action bar.
 public class Preferences extends PreferenceActivity implements OnSharedPreferenceChangeListener {
 
   // Tutorial preferences.
-  public static final String KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE                = "run_tutorial_checkbox_preference";
+  // public static final String KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE                = "run_tutorial_checkbox_preference";
 
   // Language preferences.
   public static final String KEY_KLINGON_UI_CHECKBOX_PREFERENCE                  = "klingon_ui_checkbox_preference";
@@ -64,13 +63,10 @@ public class Preferences extends PreferenceActivity implements OnSharedPreferenc
     addPreferencesFromResource(R.xml.preferences);
 
     // TUTORIAL
-    if (KlingonAssistant.INCLUDE_TUTORIAL) {
-      Preference tutorialPreference = findPreference(KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE);
-      tutorialPreference.setEnabled(true);
-    }
-
-    // ActionBar actionBar = getActionBar();
-    // actionBar.setDisplayHomeAsUpEnabled(true);
+    // if (KlingonAssistant.INCLUDE_TUTORIAL) {
+    //   Preference tutorialPreference = findPreference(KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE);
+    //   tutorialPreference.setEnabled(true);
+    // }
   }
 
   @Override
