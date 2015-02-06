@@ -28,7 +28,7 @@
     <!-- The label for use as a searchable item, e.g., "Dictionary". -->
     <string name="search_label">Banca dati</string>
 
-    <!-- The hint text that appears in the search box, e.g., "Search the dictionary".
+    <!-- The hint text that appears in the search box, e.g., "Search the dictionary". -->
     <string name="search_hint">Ricerca nella banca dati</string>
 
     <!-- The primary menu entry that invokes search, e.g., "Search". -->
@@ -92,13 +92,13 @@
     <string name="media_6_title">Altre frasi e parole</string>
 
     <!-- Classes of phrases. -->
-    <string name="empire_union_day">Giorno dell'Empire Union</string> 
-    <string name="curse_warfare">Maledizioni in guerra</string> 
-    <string name="nentay">Rito dell'Ascensione</string>
+    <string name="empire_union_day">Giorno dell\'Empire Union</string>
+    <string name="curse_warfare">Maledizioni in guerra</string>
+    <string name="nentay">Rito dell\'Ascensione</string>
     <string name="military_celebration">QI\'lop Festività</string>
     <string name="rejection">Rifiutare un corteggiatore</string>
-    <string name="replacement_proverbs">Proverbi di rimpiazzo</string> 
-    <string name="secrecy_proverbs">Proverbi di secretezza</string> 
+    <string name="replacement_proverbs">Proverbi di rimpiazzo</string>
+    <string name="secrecy_proverbs">Proverbi di secretezza</string>
     <string name="proverbs">Altri proverbi</string>
     <string name="toasts">Brindisi</string>
     <string name="lyrics">Canzoni</string>
@@ -114,7 +114,7 @@
     <string name="klingon_assistant_settings">boQwI\' Impostazioni</string>
       <string name="language_preferences">Preferenze di linguaggio</string>
         <string name="klingon_ui_preference_title">Klingon UI</string>
-        <string name="klingon_ui_preference_summary">Usa {tlhIngan Hol} per il linguggio per l'interfaccia utente.</string>
+        <string name="klingon_ui_preference_summary">Usa {tlhIngan Hol} per il linguggio per l\'interfaccia utente.</string>
         <string name="klingon_font_preference_title">{pIqaD}</string>
         <string name="klingon_font_preference_summary">Visualizza il testo Klingon usando {pIqaD}.</string>
         <string name="show_german_definitions_preference_title">Visualizza le definizioni tedesche</string>
@@ -123,7 +123,7 @@
         <string name="search_german_definitions_preference_summary">Includi definizioni tedesche quando fai una ricerca.</string>
       <string name="input_preferences">Preferenze di inserimento</string>
         <string name="xifan_hol_preference_title">Abilita \"xifan hol\" inserimento</string>
-        <string name="xifan_hol_preference_summary">Accetta l'inserimento di  \"x\" per {tlh}, \"f\" per {ng}, etc.</string>
+        <string name="xifan_hol_preference_summary">Accetta l\'inserimento di  \"x\" per {tlh}, \"f\" per {ng}, etc.</string>
         <string name="swap_qs_preference_title">Cambia {Q} con {q}</string>
         <string name="swap_qs_preference_summary">Scambia \"k\" in {q} e \"q\" in {Q}.</string>
       <string name="social_preferences">Preferenze dei Social</string>
@@ -138,7 +138,7 @@
         <string name="show_additional_information_preference_summary">Visualizza note o giochi di parole dettagliati, scherzi, errori, etc.</string>
 
     <string name="warning">Attenzione</string>
-    <string name="change_ui_language_warning">Cambiando l'interfaccia della lingua potrebbe non avere effetto sino a quando l'applicazione non verrà riavviata.\n\nVuoi continuare?</string>
+    <string name="change_ui_language_warning">Cambiando l\'interfaccia della lingua potrebbe non avere effetto sino a quando l\'applicazione non verrà riavviata.\n\nVuoi continuare?</string>
 
     <!-- Metadata labels and descriptions. -->
     <string name="label_see_alt_entry">Guarda</string>
@@ -151,20 +151,20 @@
     <string name="label_components">Componenti</string>
     <string name="label_examples">Esempi</string>
     <string name="label_sources">Fonte(i)</string>
-    <string name="label_transitivity">Transitività</string> 
-      <string name="transitivity_ambi">Il ruolo del soggetto di questo verbo cambia a seconda che ci sia o meno un complemento oggetto.</string> 
-      <string name="transitivity_intransitive">Questo verbo probabilmente non regge un complemento oggetto .</string> 
-      <string name="transitivity_intransitive_confirmed"> Questo verbo non può reggere un complemento oggetto.</string> 
-      <string name="transitivity_stative">Questo verbo descrive uno stato o una qualità e non può reggere un complemento oggetto.</string> 
-      <string name="transitivity_transitive">Questo verbo probabilmente  può reggere un complemento oggetto.</string> 
+    <string name="label_transitivity">Transitività</string>
+      <string name="transitivity_ambi">Il ruolo del soggetto di questo verbo cambia a seconda che ci sia o meno un complemento oggetto.</string>
+      <string name="transitivity_intransitive">Questo verbo probabilmente non regge un complemento oggetto .</string>
+      <string name="transitivity_intransitive_confirmed"> Questo verbo non può reggere un complemento oggetto.</string>
+      <string name="transitivity_stative">Questo verbo descrive uno stato o una qualità e non può reggere un complemento oggetto.</string>
+      <string name="transitivity_transitive">Questo verbo probabilmente  può reggere un complemento oggetto.</string>
       <string name="transitivity_transitive_confirmed">Questo verbo può reggere un complemento oggetto.</string>
-      <string name="transitivity_unknown">Non si sa se questo verbo può reggere un complemento oggetto.</string> 
+      <string name="transitivity_unknown">Non si sa se questo verbo può reggere un complemento oggetto.</string>
     <string name="label_additional_information">Informazioni addizionali</string>
-    <string name="info_being">Questa parola si riferisce all’essere capace nel linguaggio. Al plurale prende come suffisso  {-pu\':n:suff}.</string> 
-    <string name="info_body">Questa parola si riferisce a una parte del  corpo. Al plurale prende il suffisso {-Du\':n:suff}.</string> 
-    <string name="info_inherent_plural">questa parola è di per sé plurale. La sua forma singolare è %1$s.</string> 
-    <string name="info_singular_form">questa parola ha forma plurale intrinseca in %1$s.</string> 
+    <string name="info_being">Questa parola si riferisce all’essere capace nel linguaggio. Al plurale prende come suffisso  {-pu\':n:suff}.</string>
+    <string name="info_body">Questa parola si riferisce a una parte del  corpo. Al plurale prende il suffisso {-Du\':n:suff}.</string>
+    <string name="info_inherent_plural">questa parola è di per sé plurale. La sua forma singolare è %1$s.</string>
+    <string name="info_singular_form">questa parola ha forma plurale intrinseca in %1$s.</string>
     <string name="warning_hypothetical">Attenzione: Questo dato è ipotetico. Usare con cautela!</string>
-    <string name="warning_extended_canon">Attenzione: Questo inserimento viene da una regola estesa. Usare con cautela!</string> 
+    <string name="warning_extended_canon">Attenzione: Questo inserimento viene da una regola estesa. Usare con cautela!</string>
 
 </resources>
