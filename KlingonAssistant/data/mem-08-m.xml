@@ -3048,7 +3048,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">präsentieren, vorführen (Musik)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{bom:v}, {bom:n}, {QoQ:n}, {much:n}, {nob:v}</column>
+      <column name="see_also">{bom:v}, {bom:n}, {QoQ:n}, {much:n}, {nob:v}, {DawI':n}</column>
       <column name="notes">Outside of a musical context, this word can also mean to "present a gift" to someone.</column>
       <column name="hidden_notes">This word was defined in {TKD:src} as "present". The definition "perform (music)" was added in {KGT:src}.</column>
       <column name="components"></column>
@@ -3064,13 +3064,45 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Präsentation</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{much:v}</column>
+      <column name="see_also">{much:v}, {DawI':n}, {muchpa':n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">21395</column>
+      <column name="entry_name">muchpa'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">auditorium</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{much qach:n}, {DawI':n}</column>
+      <column name="notes">This refers to the room in which a performance takes place.</column>
+      <column name="hidden_notes"></column>
+      <column name="components">{much:n}, {pa':n:1}</column>
+      <column name="examples"></column>
+      <column name="search_tags">theatre, theater, stage</column>
+      <column name="source">[1] {Festival of the Spoken Nerd DVD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">21396</column>
+      <column name="entry_name">much qach</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">theater</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{muchpa':n}</column>
+      <column name="notes">This refers to the whole building, including the auditorium, lobby, dressing rooms, and so on.</column>
+      <column name="hidden_notes"></column>
+      <column name="components">{much:n}, {pa':n:1}</column>
+      <column name="examples"></column>
+      <column name="search_tags">theatre</column>
+      <column name="source">[1] {Festival of the Spoken Nerd DVD:src}</column>
     </table>
     <table name="mem">
       <column name="_id">21400</column>
