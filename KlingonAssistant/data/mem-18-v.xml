@@ -72,7 +72,7 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{vagh:n:1} (number)</column>
-      <column name="notes">The tones of the Klingon musical scale are: {yu:n}, {bIm:n}, {'egh:n}, {loS:n:2}, {vagh:n:2,nolink}, {jav:n:2}, {Soch:n:2}, {chorgh:n:2}, {yu:n:nolink}.</column>
+      <column name="notes">The tones of the Klingon musical scale (see {yutlhegh:n}) are: {yu:n}, {bIm:n}, {'egh:n}, {loS:n:2}, {vagh:n:2,nolink}, {jav:n:2}, {Soch:n:2}, {chorgh:n:2}, {yu:n:nolink}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -937,6 +937,40 @@ This verb is used to describe the laying of a carpet. The person who lays a carp
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {HQ 10.4, Dec. 2001:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">34515</column>
+      <column name="entry_name">ven</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be nerdy</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ngom:v}</column>
+      <column name="notes">This word describes someone who is really into something (or a number of things), who partakes in activities associated with it, and does so very seriously.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Festival of the Spoken Nerd DVD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">34516</column>
+      <column name="entry_name">venwI'</column>
+      <column name="part_of_speech">n:deriv,being</column>
+      <column name="definition">nerd</column>
+      <column name="definition_de"></column>
+      <column name="synonyms">{qatru':n}</column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ngomwI':n}</column>
+      <column name="notes">This word describes someone who is really into something (or a number of things), who partakes in activities associated with it, and does so very seriously.
+
+A more common term for this is {qatru':n:nolink}.</column>
+      <column name="hidden_notes"></column>
+      <column name="components">{ven:v}, {-wI':v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Festival of the Spoken Nerd DVD:src}</column>
     </table>
     <table name="mem">
       <column name="_id">34520</column>
