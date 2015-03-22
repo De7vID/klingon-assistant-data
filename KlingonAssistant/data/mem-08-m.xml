@@ -575,7 +575,8 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {maS'e' loQ So'be'bogh QIb:n}</column>
+▶ {maS'e' loQ So'be'bogh QIb:n}
+▶ {maS'e' So'bogh pagh:n}</column>
       <column name="search_tags">satellite</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
@@ -638,7 +639,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Halbmond</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{maS:n}</column>
+      <column name="see_also">{maS:n}, {maS'e' So'bogh pagh:n}</column>
       <column name="notes">This expression is used to describe the shape of the {betleH:n}.</column>
       <column name="hidden_notes"></column>
       <column name="components">{maS:n}, {-'e':n}, {loQ:adv}, {So':v}, {-be':v}, {-bogh:v}, {QIb:n}</column>
@@ -651,6 +652,22 @@ This was used to translate "print" or "output" (i.e., display something to the u
   They reply, shaped as the crescent moon."</column>
       <column name="search_tags"></column>
       <column name="source">[1] {paq'batlh p.138-139:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">20346</column>
+      <column name="entry_name">maS'e' So'bogh pagh</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">full moon</column>
+      <column name="definition_de">Vollmond</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{maS:n}, {maS'e' loQ So'be'bogh QIb:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{maS:n}, {-'e':n}, {So':v}, {-bogh:v}, {pagh:n:1h}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {KLI mailing list 2015.03.22:src}</column>
     </table>
     <table name="mem">
       <column name="_id">20350</column>
