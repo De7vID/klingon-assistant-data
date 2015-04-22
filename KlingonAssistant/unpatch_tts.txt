@@ -11,19 +11,6 @@ index c259d51..15ae2e3 100644
                android:targetSdkVersion="19"/>
      <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
      <supports-screens android:resizeable="true"
-diff --git a/KlingonAssistant/project.properties b/KlingonAssistant/project.properties
-index c4ff04a..e7c5d14 100644
---- a/KlingonAssistant/project.properties
-+++ b/KlingonAssistant/project.properties
-@@ -11,7 +11,7 @@
- target=android-19
- 
- # ProGuard configuration.
--# proguard.config=${sdk.dir}/tools/proguard/proguard-android.txt:proguard-ka.txt
-+proguard.config=${sdk.dir}/tools/proguard/proguard-android.txt:proguard-ka.txt
- 
- # Libraries used.
- android.library.reference.1=../../../opt/android-sdk-linux_86/extras/android/support_r20/v7/appcompat
 diff --git a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java b/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
 index e5bdfbb..0504966 100644
 --- a/KlingonAssistant/src/org/tlhInganHol/android/klingonassistant/EntryActivity.java
