@@ -512,6 +512,22 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <column name="_id">20293</column>
+      <column name="entry_name">marq 'oqranD</column>
+      <column name="part_of_speech">n:name</column>
+      <column name="definition">Marc Okrand</column>
+      <column name="definition_de">Marc Okrand</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{matlh:n:name}</column>
+      <column name="notes">Note that {marq:n:nolink} and {'oqranD:n:nolink} do not follow proper Klingon phonology, since they are part of an alien name.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Conlanging:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2013.08.26. -->
       <column name="_id">20295</column>
       <column name="entry_name">marSe'luS</column>
@@ -744,7 +760,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Maltz</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{marq 'oqranD:n:name}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
