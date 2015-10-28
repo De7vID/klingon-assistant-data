@@ -834,18 +834,18 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="_id">22150</column>
       <column name="entry_name">nav</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">paper</column>
+      <column name="definition">paper, sheet of paper</column>
       <column name="definition_de">Papier</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mavjop:n}, {'echletHom:n}, {nav qatwI':n}</column>
-      <column name="notes"></column>
-      <column name="hidden_notes"></column>
+      <column name="see_also">{mavjop:n}, {'echletHom:n}, {nav qatwI':n}, {tenwal:n}</column>
+      <column name="notes">A piece of paper has two {Dopmey:n@@Dop:n, -mey:n}.</column>
+      <column name="hidden_notes">This was originally defined as just "paper"[1], but was expanded to mean "sheet of paper" as well later.[4]</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {Quj wa'DIch MONOPOLY Huch nav qa' tlhIngan QaS:sen:nolink} "Klingon forces replace original MONOPOLY bills"[3]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}, [2] {TNK:src}, [3] {Klingon Monopoly:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {TNK:src}, [3] {Klingon Monopoly:src}, [4] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <column name="_id">22160</column>
@@ -878,6 +878,40 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TNK:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">22167</column>
+      <column name="entry_name">nav QIn</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">letter (message written on paper)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{jabbI'ID:n}, {nav vaH:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{nav:n}, {QIn:n:1}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">22168</column>
+      <column name="entry_name">nav vaH</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">envelope</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{nav QIn:n}</column>
+      <column name="notes">In context, {vaH:n} by itself is enough.</column>
+      <column name="hidden_notes"></column>
+      <column name="components">{nav:n}, {vaH:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <column name="_id">22170</column>
