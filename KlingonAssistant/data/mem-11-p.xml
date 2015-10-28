@@ -1453,7 +1453,7 @@ The verb {roS:v:2} means "to use the third toe". It is also homophonous with a v
     <table name="mem">
       <column name="_id">24630</column>
       <column name="entry_name">pID</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:1:t_c</column>
       <column name="definition">coat (food) with herbed mixture</column>
       <column name="definition_de">(Nahrung) mit Gewürzmischung überziehen</column>
       <column name="synonyms"></column>
@@ -1465,6 +1465,23 @@ The verb {roS:v:2} means "to use the third toe". It is also homophonous with a v
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">24631</column>
+      <column name="entry_name">pID</column>
+      <column name="part_of_speech">v:2,t_c,alt,slang</column>
+      <column name="definition">{laS:v}</column>
+      <column name="definition_de">{laS:v}</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <column name="_id">24640</column>
