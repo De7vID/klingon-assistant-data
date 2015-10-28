@@ -25,7 +25,7 @@
       <column name="definition_de">Torte, Kuchen, Pastete</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chab:n:2}</column>
+      <column name="see_also">{chab:n:2}, {chabHom:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -96,6 +96,23 @@
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components">{chabal:n}, {tetlh:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">11667</column>
+      <column name="entry_name">chabHom</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">cookie</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{bIQyIn:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{chab:n:1}, {-Hom:n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
