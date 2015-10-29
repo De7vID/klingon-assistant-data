@@ -218,10 +218,10 @@ The imperative verb prefix when {pagh:n:1h,nolink} is the object is {yI-:v:pref}
       <column name="definition_de">Rock</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{paH:n}, {bID:n}</column>
+      <column name="see_also">{paH:n}, {bID:n}, {DIr paH bID:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{paH:n}, {bID:n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TNK:src}</column>
@@ -576,6 +576,23 @@ Do not confuse this with {paw':v:1}.</column>
 ▶ {DujDaq jIpaw.:sen:nolink} "I arrive on the ship."  That is, "I arrive via the ship."</column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}, [2] {HQ 7.4, Dec. 1998:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">24265</column>
+      <column name="entry_name">paw'aD</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">vein</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{mej'aD:n}, {'aD:n}</column>
+      <column name="notes">This was shortened over time from {pawmeH 'aD:n@@paw:v, -meH:v, 'aD:n}.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <column name="_id">24270</column>
@@ -1264,6 +1281,23 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/GonhyphPQPU}<
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">24575</column>
+      <column name="entry_name">pe'meH 'echlet</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">cutting board</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">24580</column>
       <column name="entry_name">pe'vIl</column>
       <column name="part_of_speech">adv</column>
@@ -1436,7 +1470,7 @@ The verb {roS:v:2} means "to use the third toe". It is also homophonous with a v
     <table name="mem">
       <column name="_id">24630</column>
       <column name="entry_name">pID</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:1:t_c</column>
       <column name="definition">coat (food) with herbed mixture</column>
       <column name="definition_de">(Nahrung) mit Gewürzmischung überziehen</column>
       <column name="synonyms"></column>
@@ -1448,6 +1482,23 @@ The verb {roS:v:2} means "to use the third toe". It is also homophonous with a v
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">24631</column>
+      <column name="entry_name">pID</column>
+      <column name="part_of_speech">v:2,t_c,alt,slang</column>
+      <column name="definition">{laS:v}</column>
+      <column name="definition_de">{laS:v}</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <column name="_id">24640</column>

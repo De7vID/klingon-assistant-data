@@ -653,6 +653,42 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">16018</column>
+      <column name="entry_name">Ha'on</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">staple</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Ha'on vevwI':n}</column>
+      <column name="notes">This refers to the little piece of metal that holds sheets of paper together.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">16019</column>
+      <column name="entry_name">Ha'on vevwI'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">stapler</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{nIqDob:n}</column>
+      <column name="notes">The object of {vev:v} is {Ha'on:n}. The papers stapled together are the object of {rar:v}.
+
+To use such a device, one may {qIp:v}, {'uy:v}, or {ngaH:v} it, depending on the particular device.</column>
+      <column name="hidden_notes"></column>
+      <column name="components">{Ha'on:n}, {vev:v}, {-wI':n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2012.12.01. -->
       <column name="_id">16020</column>
       <column name="entry_name">Ha'quj</column>
@@ -696,7 +732,9 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{HeDon:n}, {tIgh:n}</column>
-      <column name="notes">This word can only refer to a physical path, and not to a spiritual or metaphorical path. "The Klingon Way", for example, is {tlhIngan tIgh:n:nolink}.</column>
+      <column name="notes">This word can only refer to a physical path, and not to a spiritual or metaphorical path. "The Klingon Way", for example, is {tlhIngan tIgh:n:nolink}.
+
+A physical path would be a {taw:n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1306,6 +1344,23 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
       <column name="source">[1] {Star Trek Into Darkness:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">16318</column>
+      <column name="entry_name">HeySel</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">atom</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tamler:n}, {'o'rIS:n}, {yugh:v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes">The Atomium is a famous building in Heysel, Brussels.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2013.10.27. -->
       <column name="_id">16320</column>
       <column name="entry_name">He'</column>
@@ -1528,7 +1583,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/Wq5mvIWRSKc}<
       <column name="definition_de">Briefmarke</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{QIn 'echletHom:n}, {nav qatwI':n}</column>
+      <column name="see_also">{QIn 'echletHom:n}, {nav qatwI':n}, {toqwIn:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components">{HIj:v}, {-meH:v}, {chaw':n}</column>
@@ -1581,7 +1636,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/KArQlviVXMk}<
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Ha'DIbaH ghIH tIr ngogh je:n}</column>
-      <column name="notes">This is not a canonical Klingon word, but is a joke word coined by Rich Yampell ({Qanqor:n:name,nolink}) which is understood by the {qolqoS:n} of the {tlhIngan Hol yejHaD:n}. It is a reference to a ritual observed and food eaten during the Passover Seder.</column>
+      <column name="notes">This is not a canonical Klingon word, but is a joke word coined by Rich Yampell ({Qanqor:n:name,nolink}) or Mark Shoulson which is understood by the {qolqoS:n} of the {tlhIngan Hol yejHaD:n}. It is a reference to a ritual observed and food eaten during the Passover Seder.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>

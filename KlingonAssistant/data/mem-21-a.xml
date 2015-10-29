@@ -55,17 +55,17 @@
       <column name="_id">37040</column>
       <column name="entry_name">'aD</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">vein</column>
+      <column name="definition">vein, artery, blood vessel</column>
       <column name="definition_de">Vene</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{mej'aD:n}, {paw'aD:n}, {'Iw:n}, {regh:v}</column>
       <column name="notes"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was originally defined as "vein" in {TKD:src}, and subsequently expanded to mean "blood vessel" in general.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <column name="_id">37050</column>
@@ -159,6 +159,23 @@
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKDA:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">37085</column>
+      <column name="entry_name">'alnIl</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">(belt) buckle</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{qogh:n:1}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <column name="_id">37090</column>
@@ -673,12 +690,12 @@ The example literally means "My eyes sting me", which shows that {'aw':v:nolink}
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This can be used for any kind of building element, construction part, or even Lego pieces.[3]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2014.11.16. -->

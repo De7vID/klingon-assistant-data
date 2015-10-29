@@ -949,7 +949,7 @@ This word is applied to people and animals.[2]</column>
       <column name="definition_de">Miete, Nutzungspreis, Zoll</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{DIl:v}, {voHDajbo' qav'ap:n}</column>
+      <column name="see_also">{DIl:v}, {voHDajbo' qav'ap:n}, {ghogh'ot:n}</column>
       <column name="notes">This word is used in {Klingon Monopoly:src} to denote how many {QaS:n:1h} a player has to pay when landing on a planet owned by another player.</column>
       <column name="hidden_notes">"Cough (it) up".</column>
       <column name="components"></column>
@@ -983,12 +983,12 @@ This word is applied to people and animals.[2]</column>
       <column name="definition_de">Speicherbanken, Datenbanken</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{De':n}, {mem:n}</column>
+      <column name="see_also">{De':n}, {mem:n}, {wa'chaw:n}</column>
       <column name="notes">This word is singular.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">database</column>
       <column name="source">[1] {TKD:src}, [2] {TKDA:src}</column>
     </table>
     <table name="mem">
@@ -1327,7 +1327,7 @@ The word itself means "origin of everything" or "start of it all" or the like, a
       <column name="definition_de">(ein Schusdek-Instrument) zusammen drücken</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chu':v:3}</column>
+      <column name="see_also">{chu':v:3}, {rey:v}, {ngaH:v}</column>
       <column name="notes">This refers to the action of squeezing the bag part of the {DIron:n}, usually with the elbow.[1, p.76]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -2416,6 +2416,23 @@ In the {Haynes BoP Manual:src}, this ship class is referred to as {raptor:n:noli
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">26725</column>
+      <column name="entry_name">qoch</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">squeeze (into a space)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ngaH:v}</column>
+      <column name="notes">The object of this verb is the space being squeezed into, such as a small car or crowded elevator, or clothes or shoes that are too small.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">26730</column>
       <column name="entry_name">qoD</column>
       <column name="part_of_speech">n</column>
@@ -2455,7 +2472,7 @@ In the {Haynes BoP Manual:src}, this ship class is referred to as {raptor:n:noli
       <column name="definition_de">Gürtel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{'alnIl:n}</column>
       <column name="notes">This both holds up one's {yopwaH:n} and is used for hanging weapons.[2]
 
 {qoghmey:n:nolink} generally means "belts", but could also mean "ears scattered all about", due to the homophony with {qogh:n:2}. This homophony is also the basis of a slang expression, {qogh tuQmoHHa':sen}.[3]</column>
@@ -2621,7 +2638,7 @@ In the {Haynes BoP Manual:src}, this ship class is referred to as {raptor:n:noli
       <column name="definition_de">Essenz, Kern </column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{SuqSIv:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes">"Kor". See {jan qalI'qoS:n:name}.</column>
       <column name="components"></column>
@@ -2630,7 +2647,24 @@ In the {Haynes BoP Manual:src}, this ship class is referred to as {raptor:n:noli
       <column name="source">[1] {qep'a' 2007:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
       <column name="_id">26826</column>
+      <column name="entry_name">qol'om</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">gold</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tamler:n}, {baS:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes">A reference to Coloma, the originating site of the California Gold Rush.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">26828</column>
       <column name="entry_name">qotar</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Kotar</column>
@@ -2728,6 +2762,23 @@ There is another verb, {gher:v}, which is used for compiling lists and the like,
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">26873</column>
+      <column name="entry_name">qoq De'wI' Dojmey</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">botnet (computer jargon)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{qoq:n}, {De'wI':n}, {Dojmey:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <column name="_id">26875</column>

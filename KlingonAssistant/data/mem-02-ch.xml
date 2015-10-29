@@ -25,7 +25,7 @@
       <column name="definition_de">Torte, Kuchen, Pastete</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chab:n:2}</column>
+      <column name="see_also">{chab:n:2}, {chabHom:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -65,6 +65,57 @@
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">11665</column>
+      <column name="entry_name">chabal</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">something desired or requested</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{jIn:v}, {chabal tetlh:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">11666</column>
+      <column name="entry_name">chabal tetlh</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">wish list</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{chabal:n}, {tetlh:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">11667</column>
+      <column name="entry_name">chabHom</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">cookie</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{bIQyIn:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{chab:n:1}, {-Hom:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
@@ -232,7 +283,7 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qulSo':n:extcan}</column>
+      <column name="see_also">{qulSo':n:extcan}, {Sorpuq:n}, {no'negh:n}</column>
       <column name="notes">This term doesn't appear in canon, but rather was invented for a blog post about science. It's here so that someone else doesn't invent a different term.</column>
       <column name="hidden_notes">This term was coined by Felix Malmenbeck ({loghaD:n:nolink}), and roughly means "sky-crystal gunpowder".</column>
       <column name="components">{chal:n}, {qut:n}, {ngat:n:1}</column>
@@ -2708,7 +2759,7 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <column name="definition_de">übrig</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{chuv:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -2716,24 +2767,23 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
-    <!--
     <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
       <column name="_id">12855</column>
       <column name="entry_name">chuv</column>
-      <column name="part_of_speech">n:hyp</column>
-      <column name="definition">leftover? (grammatical term)</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">leftover</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">It is unknown if this word exists in the singular. See {chuvmey:n}.</column>
+      <column name="see_also">{chuv:v}</column>
+      <column name="notes">This can be used for leftover food. However, the core of an apple, which isn't eaten, is {SuqSIv:n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
-      <column name="source"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
-    -->
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">12860</column>
@@ -2744,11 +2794,9 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This word is plural, but it is unknown if the singular form {chuv:n:hyp,nolink} exists. There is, however, a verb {chuv:v}.
-
-The {chuvmey:n:nolink} include pronouns, numbers, conjunctions, adverbials, and exclamations.</column>
+      <column name="notes">The {chuvmey:n:nolink} include pronouns, numbers, conjunctions, adverbials, and exclamations.</column>
       <column name="hidden_notes"></column>
-      <column name="components">{chuv:n:hyp,nolink}, {-mey:n}</column>
+      <column name="components">{chuv:n}, {-mey:n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>

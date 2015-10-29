@@ -643,7 +643,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Dol:n}, {teb:v}</column>
-      <column name="notes"></column>
+      <column name="notes">The verb {naQmoH:v@@naQ:v, -moH:v} is used for filling out forms (see {yu'muD:n}).</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -834,18 +834,18 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="_id">22150</column>
       <column name="entry_name">nav</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">paper</column>
+      <column name="definition">paper, sheet of paper</column>
       <column name="definition_de">Papier</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mavjop:n}, {'echletHom:n}, {nav qatwI':n}</column>
-      <column name="notes"></column>
-      <column name="hidden_notes"></column>
+      <column name="see_also">{mavjop:n}, {'echletHom:n}, {nav qatwI':n}, {tenwal:n}</column>
+      <column name="notes">A piece of paper has two {Dopmey:n@@Dop:n, -mey:n}.</column>
+      <column name="hidden_notes">This was originally defined as just "paper"[1], but was expanded to mean "sheet of paper" as well later.[4]</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {Quj wa'DIch MONOPOLY Huch nav qa' tlhIngan QaS:sen:nolink} "Klingon forces replace original MONOPOLY bills"[3]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}, [2] {TNK:src}, [3] {Klingon Monopoly:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {TNK:src}, [3] {Klingon Monopoly:src}, [4] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <column name="_id">22160</column>
@@ -869,7 +869,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">envelope</column>
       <column name="definition_de">Briefumschlag</column>
-      <column name="synonyms"></column>
+      <column name="synonyms">{nav vaH:n}</column>
       <column name="antonyms"></column>
       <column name="see_also">{HIjmeH chaw':n}</column>
       <column name="notes"></column>
@@ -878,6 +878,40 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TNK:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">22167</column>
+      <column name="entry_name">nav QIn</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">letter (message written on paper)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{jabbI'ID:n}, {nav vaH:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{nav:n}, {QIn:n:1}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">22168</column>
+      <column name="entry_name">nav vaH</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">envelope</column>
+      <column name="definition_de">Briefumschlag</column>
+      <column name="synonyms">{nav qatwI':n}</column>
+      <column name="antonyms"></column>
+      <column name="see_also">{nav QIn:n}, {vev:v}</column>
+      <column name="notes">In context, {vaH:n} by itself is enough.</column>
+      <column name="hidden_notes"></column>
+      <column name="components">{nav:n}, {vaH:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <column name="_id">22170</column>
@@ -1107,7 +1141,7 @@ This adverbial can also follow a noun, in which case it means "only" or "alone".
       <column name="definition_de">wollen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{jIn:v}</column>
       <column name="notes">When this is the verb in the second sentence of a sentence-as-object construction, neither {'e':n:pro} nor {net:n:pro} are used.[1]
 
 Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTUXVa8}</column>
@@ -1714,6 +1748,23 @@ This verb is used to express the concept that two things have the same amount of
       <column name="examples"></column>
       <column name="search_tags">knit, crochet</column>
       <column name="source">[1] {KLI mailing list 2014.10.28:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">22558</column>
+      <column name="entry_name">nIqDob</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">perforator, hole punch</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Ha'on vevwI':n}</column>
+      <column name="notes">To use such a device, one may {qIp:v}, {'uy:v}, or {ngaH:v} it, depending on the particular device. The hole punch will {ghID:v} the paper (or other material).</column>
+      <column name="hidden_notes">Reverse of "bodkin".</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <column name="_id">22560</column>
@@ -2755,6 +2806,23 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">23085</column>
+      <column name="entry_name">no'negh</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">sulfur</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tamler:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes">Pun: the smell of rotten ({non:v}) egg.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags">sulphur</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <column name="_id">23090</column>

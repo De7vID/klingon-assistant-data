@@ -1106,6 +1106,23 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="source">[1] {CK:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">20546</column>
+      <column name="entry_name">may' Sut</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">body armor</column>
+      <column name="definition_de"></column>
+      <column name="synonyms">{SIryoD:n}</column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{may':n}, {Sut:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags">armour, body armour</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2014.05.07. -->
       <column name="_id">20547</column>
       <column name="entry_name">may' vIloS.</column>
@@ -1309,6 +1326,23 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="examples"></column>
       <column name="search_tags">bye, goodbye</column>
       <column name="source">[1] {TKDA:src}, [2] {TNK:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
+      <column name="_id">20645</column>
+      <column name="entry_name">mej'aD</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">artery</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{paw'aD:n}, {'aD:n}</column>
+      <column name="notes">This was shortened over time from {mejmeH 'aD:n@@mej:v, -meH:v, 'aD:n}.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
       <column name="_id">20650</column>
@@ -3460,7 +3494,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{mupwI':n}, {yI-:v}, {'uch:v:1}, {-taH:v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKW p.120:src}</column>
