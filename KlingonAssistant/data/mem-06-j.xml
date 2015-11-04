@@ -1746,7 +1746,7 @@ To express a wish for something to happen, see {-jaj:v}.</column>
       <column name="definition_de">rotieren, (herum)wirbeln</column>
       <column name="synonyms">{DIng:v}</column>
       <column name="antonyms"></column>
-      <column name="see_also">{jIrmoH:v}</column>
+      <column name="see_also">{jIrmoH:v}, {jIr:excl}</column>
       <column name="notes"></column>
       <column name="hidden_notes">MO confirmed at {Saarbrücken qepHom'a' 2011:src} that {jIr:v:nolink} is intransitive. (This was already known from the existence of {jIrmoH:v:nolink}.)</column>
       <column name="components"></column>
@@ -1772,6 +1772,24 @@ To express a wish for something to happen, see {-jaj:v}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2015.11.04. -->
+      <column name="_id">18212</column>
+      <column name="entry_name">jIr</column>
+      <column name="part_of_speech">excl</column>
+      <column name="definition">Whoop-dee-doo!, La-dee-dah!, Who cares?!, Big deal!</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{jISaHbe'.:sen}, {jIr:v}</column>
+      <column name="notes">This is used to express that one is not exactly impressed by what someone has just said. It may be accompanied by a gesture in which one points upwards and moves one's hand in a rotating motion.</column>
+      <column name="hidden_notes">"Jeer".</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <!-- Reported by Zrajm, on Facebook: https://www.facebook.com/zrajm/posts/10154361398897846 -->
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">18215</column>
       <column name="entry_name">jISaHbe'.</column>
       <column name="part_of_speech">sen:phr</column>
@@ -1779,10 +1797,10 @@ To express a wish for something to happen, see {-jaj:v}.</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{jIr:excl}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{jI-:v}, {SaH:v}, {-be':v}</column>
+      <column name="components">{jI-:v}, {SaH:v:2}, {-be':v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD p.170:src}</column>

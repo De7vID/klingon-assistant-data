@@ -298,6 +298,7 @@ The toe verbs are used in the same way as the finger verbs, but they are not hea
     <table name="mem">
       <column name="_id">36155</column>
       <column name="entry_name">yan 'ISletlh</column>
+      <!-- Not marked deriv because the second part is uncertain. -->
       <column name="part_of_speech">n:fic</column>
       <column name="definition">Brotherhood of the Sword, Yan-Isleth</column>
       <column name="definition_de">Bruderschaft des Schwertes, Yan-Isleth</column>
@@ -306,7 +307,7 @@ The toe verbs are used in the same way as the finger verbs, but they are not hea
       <column name="see_also">{Qang:n}</column>
       <column name="notes">The members of the {yan 'ISletlh:n:nolink} are the Chancellor's personal bodyguards.</column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{yan:n}, {'ISletlh:n:hyp}</column>
       <column name="examples">
 ▶ {Qang QanmeH yan 'ISletlh Damuv 'e' wIvlu'.:sen:nolink} "You are chosen to serve on the Yan-Isleth and protect the Chancellor."[1]</column>
       <column name="search_tags">bodyguard</column>
