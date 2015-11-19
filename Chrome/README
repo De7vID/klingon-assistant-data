@@ -1,26 +1,40 @@
-Using ARChon:
-=============
+Running {boQwI'} using Google's App Runtime for Chrome (beta):
+==============================================================
 
-To install {boQwI'} on Windows, OS X, or Chrome OS, you first need to install ARChon:
-https://archon-runtime.github.io/
-
-As of Nov. 2015, this has been tested to work with ARChon 2.1.0 beta.
-1. Download the file "http://archon.vf.io/ARChon-v2.1.0-x86_64.zip" (or a later version) and unzip it in a directory, e.g., "~/chrome-extensions" (whatever is appropriate for your system).
-2. Download the file "boQwI'_ARChon_package-2015-11-18.zip" (or a later version).
-3. In Chrome, go to the Extensions tab, enable "Developer Mode", then select "Load unpacked extensions".
-4. First install ARChon, then install {boQwI'}.
-
-{boQwI'} should now appear under the "Apps" menu.
-
-To create the ARChon package to begin with, it's sufficient to use the ARChon Packager app from the installed (release) version of boQwI'.
-
-Alternative using Google's App Runtime for Chrome (beta):
-=========================================================
-
-NOTE: This method is INCOMPATIBLE with ARChon. Before beginning, it is necessary
-to first uninstall ARChon.
+NOTE: This method is INCOMPATIBLE with the ARChon Runtime for Chrome. If you
+have that installed, you must uninstall it first.
 
 As of Nov. 2015, this has been tested to work with ARC Welder 46.5021.478.18.
-1. Install the ARC Welder Chrome extension.
-2. Use it to package the (release) APK file. Do it on the version without TTS, since TTS will not work anyway.
-3. Upload it to the Chrome store.
+1. Install the ARC Welder Chrome extension:
+   https://chrome.google.com/webstore/detail/arc-welder/emfinbmielocnlhgmfkkmkngdoccbadn
+2. Download the latest {boQwI'} for Chrome package. For example:
+   https://github.com/De7vID/klingon-assistant/tree/master/ARChon/KlingonAssistant-for-Chrome-v294.zip
+3. Unzip this into an appropriate directory on your system (where you normally
+   put Chrome extensions), e.g., "~/chrome-extensions".
+4. In Chrome, go to the Extensions tab, or type the following into the omnibar:
+   chrome://extensions/
+5. Enable "Developer mode", select "Load unpacked extension...", and choose the
+   directory you used in Step #3.
+6. Optionally, disable "Developer mode" after the installation is complete.
+
+Note that the {boQwI'} for Chrome package is identical to the non-TTS release
+version on Android.
+
+Alternative method using ARChon:
+================================
+
+NOTE: This method is INCOMPATIBLE with Google's App Runtime for Chrome (beta).
+If you have that installed, you must uninstall it first.
+
+If you need to have the ARChon Runtime for Chrome installed for some reason
+(because of other apps), it is possible to run {boQwI'} using ARChon. To do so,
+install the "ARChon Packager" app on a device on which {boQwI'} is also
+installed, and use it to create an ARChon package for {boQwI'}.
+
+As of Nov. 2015, this has been tested to work with ARChon 2.1.0 beta.
+1. Download the file "http://archon.vf.io/ARChon-v2.1.0-x86_64.zip" (or a later
+   version) and unzip it into a directory, e.g., "~/chrome-extensions" (whatever
+   is appropriate for your system).
+2. Unzip your {boQwI'} ARChon package into the same directory.
+3. In Chrome, go to Extensions tab, enable "Developer Mode", then select "Load unpacked extensions".
+4. First install ARChon, then install {boQwI'}.
