@@ -2,15 +2,16 @@ Running {boQwI'} using Google's App Runtime for Chrome (beta):
 ==============================================================
 
 NOTE: This method is INCOMPATIBLE with the ARChon Runtime for Chrome. If you
-have that installed, you must uninstall it first.
+have that installed, you must uninstall it first. Alternatively, see below.
 
 As of Nov. 2015, this has been tested to work with ARC Welder 46.5021.478.18.
 1. Install the ARC Welder Chrome extension:
    https://chrome.google.com/webstore/detail/arc-welder/emfinbmielocnlhgmfkkmkngdoccbadn
 2. Download the latest {boQwI'} for Chrome package. For example:
    https://github.com/De7vID/klingon-assistant/tree/master/Chrome/KlingonAssistant-for-Chrome-v294.zip
-3. Unzip this into an appropriate directory on your system (where you normally
-   put Chrome extensions), e.g., "~/chrome-extensions".
+3. Unzip this into a subdirectory in the appropriate directory on your system
+   (where you normally put Chrome extensions), e.g.,
+   "~/chrome-extensions/KlingonAssistant/".
 4. In Chrome, go to the Extensions tab, or type the following into the omnibar:
    chrome://extensions/
 5. Enable "Developer mode", select "Load unpacked extension...", and choose the
@@ -23,13 +24,13 @@ version on Android.
 Alternative method using ARChon:
 ================================
 
-NOTE: This method is INCOMPATIBLE with Google's App Runtime for Chrome (beta).
-If you have that installed, you must uninstall it first.
-
 If you need to have the ARChon Runtime for Chrome installed for some reason
 (because of other apps), it is possible to run {boQwI'} using ARChon. To do so,
 install the "ARChon Packager" app on a device on which {boQwI'} is also
 installed, and use it to create an ARChon package for {boQwI'}.
+
+NOTE: This method is INCOMPATIBLE with Google's App Runtime for Chrome (beta).
+If you have that installed, you must uninstall it first.
 
 As of Nov. 2015, this has been tested to work with ARChon 2.1.0 beta.
 1. Download the file "http://archon.vf.io/ARChon-v2.1.0-x86_64.zip" (or a later
