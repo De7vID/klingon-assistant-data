@@ -1007,9 +1007,46 @@ public class KlingonContentProvider extends ContentProvider {
 
     public String getURL() {
       // If this is a source (like "TKD", "KGT", etc.), try to derive the URL from the entry name.
+      final Pattern TKD_PAGE_PATTERN = Pattern.compile("TKD p.([0-9]+)");
       final Pattern KGT_PAGE_PATTERN = Pattern.compile("KGT p.([0-9]+)");
       if (isSource()) {
-        Matcher m = KGT_PAGE_PATTERN.matcher(mEntryName);
+        Matcher m;
+
+        // Check TKD.
+        m = TKD_PAGE_PATTERN.matcher(mEntryName);
+        if (m.find()) {
+          String URL = "https://play.google.com/books/reader?id=WFnPOKSp6uEC";
+          if (m.group(1) != null) {
+            int pageNumber = Integer.parseInt(m.group(1));
+
+            // Fix the offset between the printed and electronic versions of TKD.
+            if (pageNumber < 35) {
+              pageNumber += 1;
+            } else if (pageNumber < 52) {
+              pageNumber += 2;
+            } else if (pageNumber < 68) {
+              pageNumber += 4;
+            } else if (pageNumber < 170) {
+              // This also covers the word lists (not including the Addendum word lists).
+              pageNumber += 6;
+            } else if (pageNumber <= 172) {
+              // The "useful phrases" on pages 170-172 of the printed book are found in pages 254-256
+              // of the digital version on Google Play Books. But don't link them, since they're
+              // full of typos, and it's just a list so it's not that useful.
+              return "";
+            } else {
+              // These are pages in the appendix.
+              pageNumber += 6;
+            }
+            URL += "&pg=GBS.PT" + pageNumber;
+          }
+          return URL;
+        }
+
+        // For whatever reason, TKW is not found in Google Play Books.
+
+        // Check KGT.
+        m = KGT_PAGE_PATTERN.matcher(mEntryName);
         if (m.find()) {
           String URL = "https://play.google.com/books/reader?id=B5AiSVBw7nMC";
           if (m.group(1) != null) {
