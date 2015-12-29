@@ -1006,6 +1006,23 @@ public class KlingonContentProvider extends ContentProvider {
     }
 
     public String getURL() {
+      // If this is a source (like "TKD", "KGT", etc.), try to derive the URL from the entry name.
+      final Pattern KGT_PAGE_PATTERN = Pattern.compile("KGT p.([0-9]+)");
+      if (isSource()) {
+        Matcher m = KGT_PAGE_PATTERN.matcher(mEntryName);
+        if (m.find()) {
+          String URL = "https://play.google.com/books/reader?id=B5AiSVBw7nMC";
+          if (m.group(1) != null) {
+            // The page numbers in the Google Play Books version of KGT is offset by about 9 pages
+            // from the physical edition of the book, so adjust for that.
+            int pageNumber = Integer.parseInt(m.group(1)) + 9;
+            URL += "&pg=GBS.PT" + pageNumber;
+          }
+          return URL;
+        }
+      }
+
+      // Otherwise, return the entry's URL (which will only be non-empty if this is an URL).
       return mURL;
     }
 
