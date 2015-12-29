@@ -404,8 +404,8 @@ public class KlingonContentProvider extends ContentProvider {
     int                  mHomophoneNumber          = -1;
     boolean              mShowHomophoneNumber      = true;
 
-    // Sources can include a URL.
-    String               mSourceURL                = "";
+    // Link can be to an URL.
+    String               mURL                      = "";
 
     /**
      * Constructor
@@ -647,9 +647,9 @@ public class KlingonContentProvider extends ContentProvider {
           mHomophoneNumber = 5;
           mShowHomophoneNumber = false;
 
-          // If this is a source, the attribute is a URL.
+          // If this is an URL link, the attribute is the URL.
         } else if (isURL()) {
-          mSourceURL = attr;
+          mURL = attr;
 
           // No match to attributes.
         } else {
@@ -1006,7 +1006,7 @@ public class KlingonContentProvider extends ContentProvider {
     }
 
     public String getURL() {
-      return mSourceURL;
+      return mURL;
     }
 
     public boolean doNotLink() {
