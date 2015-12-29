@@ -1015,7 +1015,8 @@ public class KlingonContentProvider extends ContentProvider {
         // Check TKD.
         m = TKD_PAGE_PATTERN.matcher(mEntryName);
         if (m.find()) {
-          String URL = "https://play.google.com/books/reader?id=WFnPOKSp6uEC";
+          // There is a second identical copy of the book at ID "WFnPOKSp6uEC".
+          String URL = "https://play.google.com/books/reader?id=dqOwxsg6XnwC";
           if (m.group(1) != null) {
             int pageNumber = Integer.parseInt(m.group(1));
 
@@ -1030,9 +1031,7 @@ public class KlingonContentProvider extends ContentProvider {
               // This also covers the word lists (not including the Addendum word lists).
               pageNumber += 6;
             } else if (pageNumber <= 172) {
-              // The "useful phrases" on pages 170-172 of the printed book are found in pages 254-256
-              // of the digital version on Google Play Books. But don't link them, since they're
-              // full of typos, and it's just a list so it's not that useful.
+              // The "useful phrases" on pages 170-172 are full of typos, so don't link them.
               return "";
             } else {
               // These are pages in the appendix.
