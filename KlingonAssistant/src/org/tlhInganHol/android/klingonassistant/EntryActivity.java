@@ -334,13 +334,17 @@ public class EntryActivity extends BaseActivity
       }
 
       // Set the font and link.
-      // TODO: Source should link to description of the source.
       // This is true if this entry doesn't launch an EntryActivity.
       boolean disableEntryLink = linkedEntry.doNotLink() || linkedEntry.isSource()
               || linkedEntry.isURL();
       // The last span set on a range must have finalFlags.
       int maybeFinalFlags = disableEntryLink ? finalFlags : intermediateFlags;
       if (linkedEntry.isSource()) {
+        // If possible, link to the source.
+        String url = linkedEntry.getURL();
+        if (!url.equals("")) {
+          ssb.setSpan(new URLSpan(url), m.start(), end, intermediateFlags);
+        }
         // Names of sources are in italics.
         ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC), m.start(), end,
                 maybeFinalFlags);
