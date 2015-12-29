@@ -1014,7 +1014,9 @@ public class KlingonContentProvider extends ContentProvider {
           String URL = "https://play.google.com/books/reader?id=B5AiSVBw7nMC";
           if (m.group(1) != null) {
             // The page numbers in the Google Play Books version of KGT is offset by about 9 pages
-            // from the physical edition of the book, so adjust for that.
+            // from the physical edition of the book, so adjust for that. There is allegedly another
+            // parameter "PA" which allows linking to the printed page number. But apparently this
+            // doesn't work.
             int pageNumber = Integer.parseInt(m.group(1)) + 9;
             URL += "&pg=GBS.PT" + pageNumber;
           }
