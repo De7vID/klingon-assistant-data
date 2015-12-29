@@ -63,7 +63,7 @@ index e5bdfbb..0504966 100644
  
      setDrawerContentView(R.layout.entry);
      Resources resources = getResources();
-@@ -412,10 +412,10 @@ public class EntryActivity extends BaseActivity
+@@ -416,10 +416,10 @@ public class EntryActivity extends BaseActivity
        // TTS:
        // Don't forget to shutdown!
        // Log.d(TAG, "Shutting down TTS");
@@ -78,7 +78,7 @@ index e5bdfbb..0504966 100644
        super.onDestroy();
    }
  
-@@ -442,11 +442,11 @@ public class EntryActivity extends BaseActivity
+@@ -446,11 +446,11 @@ public class EntryActivity extends BaseActivity
      // TTS:
      // The button is disabled in the layout.
      // It will be enabled upon initialization of the TTS engine.
@@ -95,7 +95,7 @@ index e5bdfbb..0504966 100644
  
      return true;
    }
-@@ -537,17 +537,18 @@ public class EntryActivity extends BaseActivity
+@@ -541,17 +541,18 @@ public class EntryActivity extends BaseActivity
          return true;
      } else if (item.getItemId() == R.id.speak) {
          // TTS:
@@ -119,7 +119,7 @@ index e5bdfbb..0504966 100644
    public void onInit(int status) {
        // status can be either TextToSpeech.SUCCESS or TextToSpeech.ERROR.
        if (status == TextToSpeech.SUCCESS) {
-@@ -575,4 +576,5 @@ public class EntryActivity extends BaseActivity
+@@ -579,4 +580,5 @@ public class EntryActivity extends BaseActivity
            Log.e(TAG, "Could not initialize TextToSpeech.");
        }
    }
