@@ -113,4 +113,14 @@
         </menu>
     </item>
     -->
+
+    <item android:id="@+id/kli"
+        android:title="@string/menu_kli_tlh">
+        <menu>
+            <item android:id="@+id/kli_lessons"
+                android:title="@string/menu_kli_lessons_tlh" />
+            <item android:id="@+id/kli_questions"
+                android:title="@string/menu_kli_questions_tlh" />
+        </menu>
+    </item>
 </menu>
