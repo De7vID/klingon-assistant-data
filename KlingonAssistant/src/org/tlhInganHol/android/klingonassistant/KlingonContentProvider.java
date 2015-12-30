@@ -1008,8 +1008,8 @@ public class KlingonContentProvider extends ContentProvider {
     public String getURL() {
       // If this is a source (like "TKD", "KGT", etc.), try to derive the URL from the entry name.
       final Pattern TKD_PAGE_PATTERN = Pattern.compile("TKD p.([0-9]+)");
-      final Pattern TKD_SECTION_PATTERN = Pattern.compile("TKD ([0-9]\\.[0-9](?:\\.[0-9]))");
-      final Pattern TKDA_SECTION_PATTERN = Pattern.compile("TKDA ([0-9]\\.[0-9](?:\\.[0-9]))");
+      final Pattern TKD_SECTION_PATTERN = Pattern.compile("TKD ([0-9]\\.[0-9](?:\\.[0-9])?)");
+      final Pattern TKDA_SECTION_PATTERN = Pattern.compile("TKDA ([0-9]\\.[0-9](?:\\.[0-9])?)");
       final Pattern KGT_PAGE_PATTERN = Pattern.compile("KGT p.([0-9]+)");
       if (isSource()) {
         Matcher m;
