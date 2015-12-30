@@ -191,6 +191,9 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
                 items.add(new SlideMenuItem(R.string.menu_kag_tlh, R.id.kag, 0));
                 items.add(new SlideMenuItem(R.string.menu_kidc_tlh, R.id.kidc, 0));
             */
+            items.add(new SlideMenuCategory(R.string.menu_kli_tlh));
+                items.add(new SlideMenuItem(R.string.menu_kli_lessons_tlh, R.id.kli_lessons, 0));
+                items.add(new SlideMenuItem(R.string.menu_kli_questions_tlh, R.id.kli_questions, 0));
         } else {
             items.add(new SlideMenuCategory(R.string.menu_reference));
                 items.add(new SlideMenuItem(R.string.menu_pronunciation, R.id.pronunciation, 0));
@@ -226,6 +229,9 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
                 items.add(new SlideMenuItem(R.string.menu_kag, R.id.kag, 0));
                 items.add(new SlideMenuItem(R.string.menu_kidc, R.id.kidc, 0));
             */
+            items.add(new SlideMenuCategory(R.string.menu_kli));
+                items.add(new SlideMenuItem(R.string.menu_kli_lessons, R.id.kli_lessons, 0));
+                items.add(new SlideMenuItem(R.string.menu_kli_questions, R.id.kli_questions, 0));
         }
         mList = new ListView(this);
 
@@ -354,6 +360,15 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
           break;
         case R.id.media_6:
           launchYouTubePlaylist(getBaseContext().getResources().getString(R.string.media_6_list_id));
+          break;
+
+        // Handle KLI activities here.
+        case R.id.kli_lessons:
+          launchExternal("http://www.kli.org/learn-klingon-online/");
+          break;
+
+        case R.id.kli_questions:
+          launchExternal("http://www.kli.org/questions/categories/");
           break;
 
         // Handle social networks.
