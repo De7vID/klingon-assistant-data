@@ -1019,25 +1019,11 @@ public class KlingonContentProvider extends ContentProvider {
           String URL = "https://play.google.com/books/reader?id=dqOwxsg6XnwC";
           if (m.group(1) != null) {
             int pageNumber = Integer.parseInt(m.group(1));
-
-            // Fix the offset between the printed and electronic versions of TKD.
-            if (pageNumber < 35) {
-              pageNumber += 1;
-            } else if (pageNumber < 52) {
-              pageNumber += 2;
-            } else if (pageNumber < 68) {
-              pageNumber += 4;
-            } else if (pageNumber < 170) {
-              // This also covers the word lists (not including the Addendum word lists).
-              pageNumber += 6;
-            } else if (pageNumber <= 172) {
+            if (pageNumber >= 170 && pageNumber <= 172) {
               // The "useful phrases" on pages 170-172 are full of typos, so don't link them.
               return "";
-            } else {
-              // These are pages in the appendix.
-              pageNumber += 6;
             }
-            URL += "&pg=GBS.PT" + pageNumber;
+            URL += "&pg=GBS.PA" + pageNumber;
           }
           return URL;
         }
@@ -1054,6 +1040,7 @@ public class KlingonContentProvider extends ContentProvider {
             // parameter "PA" which allows linking to the printed page number. But apparently this
             // doesn't work.
             int pageNumber = Integer.parseInt(m.group(1)) + 9;
+            // The "PA" parameter appears not to work on this book.
             URL += "&pg=GBS.PT" + pageNumber;
           }
           return URL;
