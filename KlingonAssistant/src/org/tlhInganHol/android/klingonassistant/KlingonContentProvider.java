@@ -1018,12 +1018,7 @@ public class KlingonContentProvider extends ContentProvider {
           // There is a second identical copy of the book at ID "WFnPOKSp6uEC".
           String URL = "https://play.google.com/books/reader?id=dqOwxsg6XnwC";
           if (m.group(1) != null) {
-            int pageNumber = Integer.parseInt(m.group(1));
-            if (pageNumber >= 170 && pageNumber <= 172) {
-              // The "useful phrases" on pages 170-172 are full of typos, so don't link them.
-              return "";
-            }
-            URL += "&pg=GBS.PA" + pageNumber;
+            URL += "&pg=GBS.PA" + Integer.parseInt(m.group(1));
           }
           return URL;
         }
@@ -1038,7 +1033,7 @@ public class KlingonContentProvider extends ContentProvider {
             // The page numbers in the Google Play Books version of KGT is offset by about 9 pages
             // from the physical edition of the book, so adjust for that. There is allegedly another
             // parameter "PA" which allows linking to the printed page number. But apparently this
-            // doesn't work.
+            // doesn't work for this book.
             int pageNumber = Integer.parseInt(m.group(1)) + 9;
             // The "PA" parameter appears not to work on this book.
             URL += "&pg=GBS.PT" + pageNumber;
