@@ -1108,7 +1108,9 @@ public class KlingonContentProvider extends ContentProvider {
           String section = m.group(1);
           // TODO: Refactor this into something nicer.
           if (section != null) {
-            if (section.equals("4.2.6") || section.equals("4.2.9")) {
+            if (section.equals("3.3.1")) {
+              URL += "&pg=GBS.PA174";
+            } else if (section.equals("4.2.6") || section.equals("4.2.9")) {
               URL += "&pg=GBS.PA175";
             } else if (section.equals("6.7") || section.equals("6.8")) {
               URL += "&pg=GBS.PA179";
