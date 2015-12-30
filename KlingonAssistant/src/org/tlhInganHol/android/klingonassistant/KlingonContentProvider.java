@@ -1008,17 +1008,111 @@ public class KlingonContentProvider extends ContentProvider {
     public String getURL() {
       // If this is a source (like "TKD", "KGT", etc.), try to derive the URL from the entry name.
       final Pattern TKD_PAGE_PATTERN = Pattern.compile("TKD p.([0-9]+)");
+      final Pattern TKD_SECTION_PATTERN = Pattern.compile("TKD ([0-9]\\.[0-9](?:\\.[0-9]))");
+      final Pattern TKDA_SECTION_PATTERN = Pattern.compile("TKDA ([0-9]\\.[0-9](?:\\.[0-9]))");
       final Pattern KGT_PAGE_PATTERN = Pattern.compile("KGT p.([0-9]+)");
       if (isSource()) {
         Matcher m;
 
-        // Check TKD.
+        // Check TKD page number.
         m = TKD_PAGE_PATTERN.matcher(mEntryName);
         if (m.find()) {
           // There is a second identical copy of the book at ID "WFnPOKSp6uEC".
           String URL = "https://play.google.com/books/reader?id=dqOwxsg6XnwC";
-          if (m.group(1) != null) {
-            URL += "&pg=GBS.PA" + Integer.parseInt(m.group(1));
+          URL += "&pg=GBS.PA" + Integer.parseInt(m.group(1));
+          return URL;
+        }
+
+        // Check TKD section number.
+        m = TKD_SECTION_PATTERN.matcher(mEntryName);
+        if (m.find()) {
+          // There is a second identical copy of the book at ID "WFnPOKSp6uEC".
+          String URL = "https://play.google.com/books/reader?id=dqOwxsg6XnwC";
+          String section = m.group(1);
+          // TODO: Refactor this into something nicer.
+          if (section != null) {
+            if (section.equals("3.2.1") || section.equals("3.2.2")) {
+              URL += "&pg=GBS.PA19";
+            } else if (section.equals("3.2.3")) {
+              URL += "&pg=GBS.PA20";
+            } else if (section.equals("3.3.1") || section.equals("3.3.2")) {
+              URL += "&pg=GBS.PA21";
+            } else if (section.equals("3.3.3")) {
+              URL += "&pg=GBS.PA24";
+            } else if (section.equals("3.3.4")) {
+              URL += "&pg=GBS.PA25";
+            } else if (section.equals("3.3.5")) {
+              URL += "&pg=GBS.PA26";
+            } else if (section.equals("3.3.6")) {
+              URL += "&pg=GBS.PA29";
+            } else if (section.equals("3.4")) {
+              URL += "&pg=GBS.PA30";
+            } else if (section.equals("4.2.1")) {
+              URL += "&pg=GBS.PA35";
+            } else if (section.equals("4.2.2")) {
+              URL += "&pg=GBS.PA36";
+            } else if (section.equals("4.2.3")) {
+              URL += "&pg=GBS.PA37";
+            } else if (section.equals("4.2.4") || section.equals("4.2.5")) {
+              URL += "&pg=GBS.PA38";
+            } else if (section.equals("4.2.6")) {
+              URL += "&pg=GBS.PA39";
+            } else if (section.equals("4.2.7")) {
+              URL += "&pg=GBS.PA40";
+            } else if (section.equals("4.2.8") || section.equals("4.2.9")) {
+              URL += "&pg=GBS.PA43";
+            } else if (section.equals("4.2.10")) {
+              URL += "&pg=GBS.PA44";
+            } else if (section.equals("4.3")) {
+              URL += "&pg=GBS.PA46";
+            } else if (section.equals("4.4")) {
+              URL += "&pg=GBS.PA49";
+            } else if (section.equals("5.1")) {
+              URL += "&pg=GBS.PA51";
+            } else if (section.equals("5.2")) {
+              URL += "&pg=GBS.PA52";
+            } else if (section.equals("5.3") || section.equals("5.4")) {
+              URL += "&pg=GBS.PA55";
+            } else if (section.equals("5.5")) {
+              URL += "&pg=GBS.PA57";
+            } else if (section.equals("5.6")) {
+              URL += "&pg=GBS.PA58";
+            } else if (section.equals("6.1")) {
+              URL += "&pg=GBS.PA59";
+            } else if (section.equals("6.2.1")) {
+              URL += "&pg=GBS.PA61";
+            } else if (section.equals("6.2.2")) {
+              URL += "&pg=GBS.PA62";
+            } else if (section.equals("6.2.3")) {
+              URL += "&pg=GBS.PA63";
+            } else if (section.equals("6.2.4")) {
+              URL += "&pg=GBS.PA64";
+            } else if (section.equals("6.2.5")) {
+              URL += "&pg=GBS.PA65";
+            } else if (section.equals("6.3")) {
+              URL += "&pg=GBS.PA67";
+            } else if (section.equals("6.4")) {
+              URL += "&pg=GBS.PA68";
+            } else if (section.equals("6.5") || section.equals("6.6")) {
+              URL += "&pg=GBS.PA70";
+            }
+          }
+          return URL;
+        }
+
+        // Check TKDA section number.
+        m = TKDA_SECTION_PATTERN.matcher(mEntryName);
+        if (m.find()) {
+          // There is a second identical copy of the book at ID "WFnPOKSp6uEC".
+          String URL = "https://play.google.com/books/reader?id=dqOwxsg6XnwC";
+          String section = m.group(1);
+          // TODO: Refactor this into something nicer.
+          if (section != null) {
+            if (section.equals("4.2.6") || section.equals("4.2.9")) {
+              URL += "&pg=GBS.PA175";
+            } else if (section.equals("6.7") || section.equals("6.8")) {
+              URL += "&pg=GBS.PA179";
+            }
           }
           return URL;
         }
@@ -1028,6 +1122,7 @@ public class KlingonContentProvider extends ContentProvider {
         // Check KGT.
         m = KGT_PAGE_PATTERN.matcher(mEntryName);
         if (m.find()) {
+          // There is a second identical copy of the book at ID "9Vz1q4p87GgC".
           String URL = "https://play.google.com/books/reader?id=B5AiSVBw7nMC";
           if (m.group(1) != null) {
             // The page numbers in the Google Play Books version of KGT is offset by about 9 pages
