@@ -165,9 +165,10 @@ Instead of using the verb {tagh:v:nolink}, consider using the verb suffix {-choH
       <column name="examples">
 ▶ {taH pagh taHbe'.:sen}
 ▶ {mataHmeH maSachnIS.:sen}
-▶ {taHjaj wo':sen:lyr}</column>
+▶ {taHjaj wo':sen:lyr}
+▶ {qaStaHvIS wa'maH tup taH much:sen:nolink} "The presentation lasts for 10 minutes"[3]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKDA:src}, [2] {KGT:src}</column>
+      <column name="source">[1] {TKDA:src}, [2] {KGT:src}, [3] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">31695</column>
@@ -673,18 +674,35 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
     <table name="mem">
       <column name="_id">31880</column>
       <column name="entry_name">taQbang</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">exhaust</column>
       <column name="definition_de">Auspuff</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{ghIm:v}, {vuj:v}</column>
       <column name="notes"></column>
       <column name="hidden_notes">This is a reference to a line from the movie "Dr. Strangelove" ({taQ:v}, {bang:n}): "A big plane like a '52... varrrooom! Its jet exhaust... frying chickens in the barnyard!"</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">31885</column>
+      <column name="entry_name">taQbang</column>
+      <column name="part_of_speech">n:2,slang</column>
+      <column name="definition">urine, fecal matter</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{turmIq:n}, {qeQ:n}, {ghIm:v}, {vuj:v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">31890</column>
@@ -1038,7 +1056,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="definition_de">erreichen, erledigen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chav:v}</column>
+      <column name="see_also">{chav:v}, {DIgh:v}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -1333,6 +1351,23 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">32225</column>
+      <column name="entry_name">tem</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">electron</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{HeySel:n}, {yomIj:n}, {valtIn:n}, {ngIng:v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">32230</column>
@@ -1878,7 +1913,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="definition_de">Vegetation</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lav:n}, {Sor:n}, {poch:v}, {tIr:n}</column>
+      <column name="see_also">{lav:n}, {Sor:n}, {poch:v}, {tIr:n}, {'InSong:n}, {raS'IS:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -2322,7 +2357,7 @@ The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, 
       <column name="definition_de">Getreide</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{loSpev:n}, {ngat:n:2}, {naH:n}, {tI:n}, {poch:v}, {yob:v}</column>
+      <column name="see_also">{loSpev:n}, {ngat:n:2}, {raS'IS:n}, {naH:n}, {tI:n}, {poch:v}, {yob:v}</column>
       <column name="notes"></column>
       <column name="hidden_notes">"Tear" shaped.</column>
       <column name="components"></column>
@@ -3203,6 +3238,23 @@ Pitching downwards is indicated using a negative angle (see {taH:v:2}).</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">33055</column>
+      <column name="entry_name">tuch</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">the future (as a whole)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{pIq:n}</column>
+      <column name="notes">In comparison, {'op pIq:n@@'op:n, pIq:n} means "at some point in the future".</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">33060</column>
       <column name="entry_name">tugh</column>
       <column name="part_of_speech">adv</column>
@@ -3671,6 +3723,23 @@ The slang expression {qogh tuQmoHHa':sen}, literally "to take off one's belt", m
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TNK:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">33292</column>
+      <column name="entry_name">turmIq</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">urine</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{taQbang:n:2}, {ghIm:v}, {vuj:v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes">From Latin "micturation", maybe also a reference to the colour of tumeric.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags">pee</column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">33295</column>

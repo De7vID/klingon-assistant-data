@@ -301,7 +301,7 @@
       <column name="definition_de">Frucht, Obst, Gemüse</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{baQ:v:2}, {DeH:v}, {Du' naH:n}, {naH tlhab:n}, {qurgh:n}, {'oQqar:n}, {yub:n}, {tIr:n}, {yob:v}, {wIj:v}, {yotlh:n}</column>
+      <column name="see_also">{baQ:v:2}, {DeH:v}, {Du' naH:n}, {naH tlhab:n}, {ghub:n}, {qurgh:n}, {'oQqar:n}, {yub:n}, {tIr:n}, {yob:v}, {wIj:v}, {yotlh:n}</column>
       <column name="notes">By itself, {naH:n} usually refers to {Du' naH:n} rather than {naH tlhab:n}.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -1044,7 +1044,7 @@ Do not confuse this word with {naHjej:n}.</column>
     <table name="mem">
       <column name="_id">22245</column>
       <column name="entry_name">neb</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1,body</column>
       <column name="definition">beak, bill</column>
       <column name="definition_de">Schnabel, schnabelähnliche Schnauze</column>
       <column name="synonyms"></column>
@@ -1056,6 +1056,23 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {HQ 10.4, Dec. 2001:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">22247</column>
+      <column name="entry_name">neb</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">nozzle</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">22250</column>
@@ -1765,6 +1782,23 @@ This verb is used to express the concept that two things have the same amount of
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">22559</column>
+      <column name="entry_name">nIqHom</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">software</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">22560</column>
@@ -2483,6 +2517,23 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">22932</column>
+      <column name="entry_name">noq</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">nipple</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">When used to refer to anatomy, this word takes the plural suffix {-Du':n}. When used to refer to the nipples on bottles and so on, it takes the suffix {-mey:n}.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags">tit, teat</column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">22935</column>
       <column name="entry_name">noregh</column>
       <column name="part_of_speech">n:place</column>
@@ -3176,7 +3227,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="definition_de">(zeitlich) voran-, vorausgehen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{nubwI':n}, {veb:v}, {Deq:v}</column>
+      <column name="see_also">{nubwI':n}, {vorgh:v}, {veb:v}, {Deq:v}</column>
       <column name="notes">To refer to the preceding day, month, or year, consider using {Hu':n}, {wen:n}, and {ben:n:1}, respectively.</column>
       <column name="hidden_notes">While {nungbogh:v:nolink} precedes a noun, {veb:v:nolink} comes after one.</column>
       <column name="components"></column>

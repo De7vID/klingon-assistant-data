@@ -118,6 +118,40 @@
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">20135</column>
+      <column name="entry_name">magh</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">grass</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This refers to a Klingon plant that most closely resembles grass.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">20137</column>
+      <column name="entry_name">magh yotlh</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">lawn</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{magh:n}, {yotlh:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">20140</column>
       <column name="entry_name">maH</column>
       <column name="part_of_speech">n:1,num</column>
@@ -3195,7 +3229,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Atmosphäre</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chal:n}, {ghor:n}</column>
+      <column name="see_also">{chal:n}, {ghor:n}, {rewve':n}, {lay:n}</column>
       <column name="notes">The word for weather, meaning the state of the atmosphere, is the same word as for the atmosphere itself (see {muD:n:2}).[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>

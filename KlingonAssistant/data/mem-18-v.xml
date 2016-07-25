@@ -299,6 +299,23 @@ The original line was to have been {logh veQDaq bachchugh, yoH 'e' toblaHbe' Suv
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">34235</column>
+      <column name="entry_name">valtIn</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">proton</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{HeySel:n}, {yomIj:n}, {tem:n}, {ruS:v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">34240</column>
       <column name="entry_name">van</column>
       <column name="part_of_speech">v:1,t</column>
@@ -738,7 +755,7 @@ The original line was to have been {logh veQDaq bachchugh, yoH 'e' toblaHbe' Suv
       <column name="definition">be next (in a series, sequence)</column>
       <column name="definition_de">nächste/r/s </column>
       <column name="synonyms"></column>
-      <column name="antonyms"></column>
+      <column name="antonyms">{vorgh:v}</column>
       <column name="see_also">{nung:v}, {ghIq:adv}, {Deq:v}</column>
       <column name="notes">To refer to the next day, month, or year, consider using {leS:n}, {waQ:n}, and {nem:n}, respectively.</column>
       <column name="hidden_notes">While {nungbogh:v:nolink} precedes a noun, {veb:v:nolink} comes after one.</column>
@@ -1405,6 +1422,44 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="examples"></column>
       <column name="search_tags">I-him, I-her, I-it, I-them</column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">34678</column>
+      <column name="entry_name">vIb</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">move through time toward the future, propagate</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{vIbHa':v}</column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {wa'vatlh DIS vIvIb:sen:nolink} "I time-travel 100 years into the future."
+▶ {jIvIb. qaSDI' vatlh DIS poH cha'maH Hut, jImev.:sen:nolink} "I time-travel to the 29th century."</column>
+      <column name="search_tags">time-travel</column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">34679</column>
+      <column name="entry_name">vIbHa'</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
+      <column name="definition">move through time toward the past</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{vIb:v}</column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{vIb:v}, {-Ha':v}</column>
+      <column name="examples">
+▶ {jIvIbHa'pu' 'ej qeylIS vIqIHpu'.:sen:nolink} "I time-traveled into the past and I met Kahless."
+▶ {jIvIbHa'. wejHu' jImev.:sen:nolink} "I time-travel three days into the past."</column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">34680</column>
@@ -2127,6 +2182,23 @@ For an idiomatic expression used to tell someone not to move, see {taD:v}.</colu
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">34996</column>
+      <column name="entry_name">vorgh</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be previous</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{veb:v}</column>
+      <column name="see_also">{nung:v}</column>
+      <column name="notes">One can also use {nungbogh:v@@nung:v, -bogh:v}.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2013.08.26. -->
       <column name="_id">34997</column>
       <column name="entry_name">vortIbraS</column>
@@ -2237,6 +2309,23 @@ This region has some vocabulary differences from {ta' Hol:n}. Terms which have a
    The bond of life."[2]</column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}, [2] {paq'batlh p.136-137:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">35045</column>
+      <column name="entry_name">vuj</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">expel, eject</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ghIm:v}</column>
+      <column name="notes">This verb can be used with {turmIq:n}, {qeQ:n}, and {taQbang:n:2}.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">35050</column>
@@ -2380,6 +2469,23 @@ There is a Klingon idiom, {nong; vulqangan rur}, which is meant ironically.</col
    To see this Kahless."[2]</column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}, [2] {paq'batlh p.140-141:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">35115</column>
+      <column name="entry_name">vur</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be modern, up-to-date, state-of-the-art</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">35120</column>
