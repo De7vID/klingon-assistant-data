@@ -673,18 +673,35 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
     <table name="mem">
       <column name="_id">31880</column>
       <column name="entry_name">taQbang</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">exhaust</column>
       <column name="definition_de">Auspuff</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{ghIm:v}, {vuj:v}</column>
       <column name="notes"></column>
       <column name="hidden_notes">This is a reference to a line from the movie "Dr. Strangelove" ({taQ:v}, {bang:n}): "A big plane like a '52... varrrooom! Its jet exhaust... frying chickens in the barnyard!"</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">31885</column>
+      <column name="entry_name">taQbang</column>
+      <column name="part_of_speech">n:2,slang</column>
+      <column name="definition">urine, fecal matter</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{turmIq:n}, {qeQ:n}, {ghIm:v}, {vuj:v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">31890</column>
@@ -3671,6 +3688,23 @@ The slang expression {qogh tuQmoHHa':sen}, literally "to take off one's belt", m
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TNK:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">33292</column>
+      <column name="entry_name">turmIq</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">urine</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{taQbang:n:2}, {ghIm:v}, {vuj:v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes">From Latin "micturation", maybe also a reference to the colour of tumeric.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags">pee</column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">33295</column>
