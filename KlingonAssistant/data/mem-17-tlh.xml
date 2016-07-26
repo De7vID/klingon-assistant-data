@@ -6,7 +6,7 @@
       <column name="definition_de">frei, unabhängig</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ngem Ha'DIbaH:n}, {tlhab:n}</column>
+      <column name="see_also">{ngem Ha'DIbaH:n}, {tlhab:n}, {tlhay':v}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -324,6 +324,23 @@
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.26. -->
+      <column name="_id">33505</column>
+      <column name="entry_name">tlhay'</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be tame, be domesticated</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{tlhab:v}</column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">33510</column>
@@ -1168,6 +1185,40 @@ The object of this verb is the person of whom the request is made, or {'e':n:pro
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.26. -->
+      <column name="_id">33845</column>
+      <column name="entry_name">tlhom</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">dusk</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{jajlo':n}</column>
+      <column name="see_also">{choS:n}, {ram:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.26. -->
+      <column name="_id">33846</column>
+      <column name="entry_name">thom chum</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">sunset</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This refers to the visual phenomenon in the sky, not the technical moment of sunset.</column>
+      <column name="hidden_notes"></column>
+      <column name="components">{tlhom:n}, {chum:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">33850</column>

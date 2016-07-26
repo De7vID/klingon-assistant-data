@@ -1004,6 +1004,23 @@ This word can be used to refer to traveling with or without a special purpose. I
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
+      <column name="_id">19055</column>
+      <column name="entry_name">lep</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">solid</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Sub:v:1}, {betgham:n}, {SIp:n}, {lI'choD:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2012.12.09. -->
       <column name="_id">19060</column>
       <column name="entry_name">leQ</column>
@@ -1743,7 +1760,7 @@ This was used to refer to "variables" (a memory location used for storing data i
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{lep:n}, {betgham:n}, {SIp:n}</column>
       <column name="notes">This refers to a state of matter.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>

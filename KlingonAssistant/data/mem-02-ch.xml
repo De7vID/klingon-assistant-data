@@ -2361,7 +2361,7 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <column name="definition_de">Zwielicht</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{jajlo':n}, {ram:n}</column>
+      <column name="see_also">{jajlo':n}, {tlhom:n}, {ram:n}</column>
       <column name="notes">Note that there are two twilights in a day ({jaj:n}), one in the morning and one in the evening.</column>
       <column name="hidden_notes">This is defined in {TKD:src} as "twilight" only. However, in {TNK:src}, the Terran expression "Good evening" is translated into Klingon as {maj choS:excl:nolink} (see {maj:excl}), suggesting that this word can also mean "evening" to a Klingon, at least in context.</column>
       <column name="components"></column>
@@ -2577,6 +2577,23 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.26. -->
+      <column name="_id">12745</column>
+      <column name="entry_name">chum</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be colourful</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{Dem:v}</column>
+      <column name="see_also">{nguv:v}, {rItlh:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes">This word was awarded to {Qov:n:name,nolink} as a Friend of Maltz, hence the Canadian spelling in the definition.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags">colorful</column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
