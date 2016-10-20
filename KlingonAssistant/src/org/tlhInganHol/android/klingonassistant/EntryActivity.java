@@ -25,6 +25,7 @@ import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.Typeface;
 import android.net.Uri;
+// import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.Html;
@@ -385,6 +386,14 @@ public class EntryActivity extends BaseActivity
       }
       // Set the colour last, so it's not overridden by other spans.
       if (useColours) {
+        // if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+        //   // Work around a bug in Android 6.0.
+        //   // http://stackoverflow.com/questions/34631851/multiple-foregroundcolorspan-on-editable-issue-on-android-6-0
+        //   ForegroundColorSpan[] oldSpans = ssb.getSpans(m.start(), end, ForegroundColorSpan.class);
+        //   for (ForegroundColorSpan span : oldSpans) {
+        //     ssb.removeSpan(span);
+        //   }
+        // }
         ssb.setSpan(new ForegroundColorSpan(linkedEntry.getTextColor()), m.start(), end, finalFlags);
       }
       String linkedPos = linkedEntry.getBracketedPartOfSpeech(/* isHtml */false);
