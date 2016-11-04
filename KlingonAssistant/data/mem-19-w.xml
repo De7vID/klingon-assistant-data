@@ -48,22 +48,22 @@
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2016.10.10. -->
+      <!-- Checked on: 2016.10.31. -->
       <column name="_id">35228</column>
       <column name="entry_name">wabDo</column>
       <column name="part_of_speech">n:deriv</column>
-      <column name="definition">Mach number</column>
+      <column name="definition">Mach</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">As a spelling convention, {wab Do:n:nolink} "speed of sound" is written as two words. When used as a measurement term ("Mach"), it is written as one word ({wabDo:n:nolink}). The pronunciation (and, for that matter, the meaning) is the same.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components">{wab:n}, {Do:n}</column>
       <column name="examples">
 ▶ {wabDo loS:sen:nolink} "Mach 4"</column>
       <column name="search_tags"></column>
-      <column name="source">{Smithsonian GO FLIGHT app:src}</column>
+      <column name="source">[1] {Smithsonian GO FLIGHT app:src}, [2] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">35230</column>
@@ -215,17 +215,18 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="_id">35290</column>
       <column name="entry_name">wanI'</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">phenomenon, event, occurrence</column>
+      <column name="definition">phenomenon, event, occurrence, effect</column>
       <column name="definition_de">Phänomen, Vorfall, Ereignis</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="hidden_notes"></column>
+      <column name="notes">To express natural phenomena, the name for the effect is followed by the word {wanI':n:nolink}.[2]</column>
+      <column name="hidden_notes">This word was defined in {TKD:src} as "phenomenon, event, occurrence". The definition "effect" was added in the booklet for the {Saarbrücken qepHom'a' 2016:src}.</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {matlh wanI':n:nolink} "the Maltz effect"[2]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">35300</column>
@@ -323,6 +324,23 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">35345</column>
+      <column name="entry_name">waS</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be wrong, awry</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">Note that this means "be amiss, awry" (something has gone wrong or didn't turn out according to plan), as opposed to {muj:v} "be incorrect, factually wrong".</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags">amiss</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">35350</column>
@@ -499,6 +517,23 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKW p.66:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">35435</column>
+      <column name="entry_name">wa' rutlh qam Do Duj</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">unicycle</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{qam Do Duj:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{wa':n}, {rutlh:n}, {qam Do Duj:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
@@ -999,7 +1034,7 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="definition_de">Kerze</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Sech:n}, {wovmoHbogh jan:n}, {wovmoHwI':n}</column>
+      <column name="see_also">{Sech:n}, {wovmoHbogh jan:n}, {wovmoHwI':n}, {req:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes">"Wax" or "wick".</column>
       <column name="components"></column>

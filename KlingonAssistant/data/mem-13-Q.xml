@@ -225,6 +225,23 @@ Do not confuse this with the similarly named {qa'raj:n}.</column>
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">27488</column>
+      <column name="entry_name">QalmeH DoQmIv'a'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">swimming pool</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Say'moHmeH DoQmIv'a':n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{Qal:v}, {-meH:v}, {DoQmIv:n}, {-'a':n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">27490</column>
       <column name="entry_name">Qam</column>
       <column name="part_of_speech">v:i</column>
@@ -752,7 +769,24 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/SIpF7Zak6CY}<
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
-      <column name="source">[1] {qep'a' 2016:src}</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">27746</column>
+      <column name="entry_name">Qechjem'a'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">trunk (of tree)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Sor:n}, {bartIq:n}, {por:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{Qechjem:n}, {-'a':n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">27750</column>
@@ -1237,7 +1271,7 @@ The names of the Klingon consonants consist of the sound followed by {ay:sen:nol
     <table name="mem">
       <column name="_id">27940</column>
       <column name="entry_name">QIH</column>
-      <column name="part_of_speech">v:1,t</column>
+      <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">damage, cause damage</column>
       <column name="definition_de">schaden, zerstören</column>
       <column name="synonyms"></column>
@@ -1253,7 +1287,7 @@ The names of the Klingon consonants consist of the sound followed by {ay:sen:nol
     <table name="mem">
       <column name="_id">27950</column>
       <column name="entry_name">QIH</column>
-      <column name="part_of_speech">v:2,t</column>
+      <column name="part_of_speech">v:2,t_c</column>
       <column name="definition">wrong, treat unjustly</column>
       <column name="definition_de">ungerecht behandeln</column>
       <column name="synonyms"></column>
@@ -1264,8 +1298,8 @@ The names of the Klingon consonants consist of the sound followed by {ay:sen:nol
       <column name="components"></column>
       <column name="examples">
 ▶ {cheqotlhchugh maHaghbe''a'? cheDuQchugh mareghbe''a'? cheQIHchugh manoDbe''a'?:sen}</column>
-      <column name="search_tags"></column>
-      <column name="source">[1] {KGT:src}</column>
+      <column name="search_tags">mistreat</column>
+      <column name="source">[1] {KGT:src}, [2] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">27960</column>
@@ -1366,7 +1400,41 @@ It is used to refer to the point on a (geometric) star ({DujtlhuQ:n}).[3]</colum
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
       <column name="_id">28006</column>
+      <column name="entry_name">QIn tum</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">postal service</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{QIn tum qach:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">28007</column>
+      <column name="entry_name">QIn tum qach</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">post office (building)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{QIn tum:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">28008</column>
       <column name="entry_name">QIn vagh</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">spearhead with multiple points</column>
@@ -1382,7 +1450,7 @@ It is used to refer to the point on a (geometric) star ({DujtlhuQ:n}).[3]</colum
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">28007</column>
+      <column name="_id">28009</column>
       <column name="entry_name">QIn 'echletHom</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">postcard</column>
@@ -1967,6 +2035,23 @@ Agreement is also expressed by the idiomatic expression {wa' DoS wIqIp.:sen:idio
       <column name="source">[1] {Letter from MO 2010.11.15:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">28272</column>
+      <column name="entry_name">QongDaq 'echlet tun</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">mattress</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is a very non-Klingon concept.</column>
+      <column name="hidden_notes"></column>
+      <column name="components">{QongDaq:n}, {'echlet:n}, {tun:v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">28280</column>
       <column name="entry_name">QongmeH Duj</column>
       <column name="part_of_speech">n:deriv</column>
@@ -2386,6 +2471,23 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
       <column name="source">[1] {PK:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">28477</column>
+      <column name="entry_name">Qu</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">cast (cast metal)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{mItlh:v}, {baS laSvargh:n}, {vIncha':n}, {QumeH ngaSwI':n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">28480</column>
       <column name="entry_name">Qub</column>
       <column name="part_of_speech">v:t_c</column>
@@ -2679,6 +2781,23 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">28635</column>
+      <column name="entry_name">QumeH ngaSwI'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">mold (for casting)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{mItlh:v}, {Qu:v}, {vIncha':n}, {baS laSvargh:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{Qu:v}, {-meH:v}, {ngaSwI':n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">28640</column>
       <column name="entry_name">QumpIn</column>
       <column name="part_of_speech">n:being</column>
@@ -2948,7 +3067,7 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="definition_de">Pflicht, Mission, Aufgabe, Arbeit</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{baj:v}, {vum:v}, {ghIgh:n:2}, {yaH:n}, {Hoq:n}, {per yuD:n}</column>
+      <column name="see_also">{baj:v}, {vum:v}, {tur:v}, {ghIgh:n:2}, {yaH:n}, {Hoq:n}, {per yuD:n}</column>
       <column name="notes">A {per yuD:n} usually ends in {Qu':n:nolink}.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>

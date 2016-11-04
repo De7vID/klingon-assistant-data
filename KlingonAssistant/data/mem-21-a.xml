@@ -161,6 +161,23 @@
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37083</column>
+      <column name="entry_name">'al</column>
+      <column name="part_of_speech">v:i_c</column>
+      <column name="definition">float (in/on air)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{puv:v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2015.10.28. -->
       <column name="_id">37085</column>
       <column name="entry_name">'alnIl</column>
@@ -194,6 +211,23 @@
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37092</column>
+      <column name="entry_name">'al'on</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">glass (material)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes">The definition is given as "glass", in a list of materials.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">37095</column>
       <column name="entry_name">'amerI'qa' SepjIjQa'</column>
       <column name="part_of_speech">n:place</column>
@@ -208,6 +242,40 @@
       <column name="examples"></column>
       <column name="search_tags">USA, America</column>
       <column name="source">[1] {TNK:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37096</column>
+      <column name="entry_name">'amerI'qa' tIng chan tIng</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">South America</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tera':n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37097</column>
+      <column name="entry_name">'amerI'qa' 'ev chan 'ev</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">North America</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tera':n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">37100</column>
@@ -234,7 +302,7 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">A planet in the Federation. Also called {'anDorya':n:nolink}.</column>
+      <column name="notes">A planet in the Federation. Also called {'anDorya':n:nolink}. Not to be confused with the country on Earth called {'anDo'ra':n}.</column>
       <!-- An image of an earlier version of the {Klingon Monopoly:src} board showed that this was {'anDorya':n:nolink}. -->
       <!-- See also: http://en.memory-alpha.org/wiki/Andor#Background_information -->
       <column name="hidden_notes"></column>
@@ -242,6 +310,40 @@
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {Klingon Monopoly:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37106</column>
+      <column name="entry_name">'anDo'ra'</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Andorra</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is the name of a country on Earth. Not to be confused with the planet {'anDor:n}.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37107</column>
+      <column name="entry_name">'antartIq</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Antarctica</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tera':n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">37110</column>
@@ -308,6 +410,24 @@
       <column name="examples"></column>
       <column name="search_tags">Only an enemy without honour refuses to show himself in battle.</column>
       <column name="source">[1] {TKW p.61:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37132</column>
+      <column name="entry_name">'angweD</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">museum</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {logh chal je 'angweD:n}</column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">37135</column>
@@ -464,6 +584,23 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="source">[1] {TKD 6.4:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37215</column>
+      <column name="entry_name">'arDeH</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">ivy-like plant</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">37220</column>
       <column name="entry_name">'argh</column>
       <column name="part_of_speech">v:i</column>
@@ -478,6 +615,23 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37225</column>
+      <column name="entry_name">'arHentInya'</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Argentina</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">37230</column>
@@ -514,6 +668,7 @@ Another way is to issue the command, {rep yIper!:sen:nolink}  In replying to thi
       <column name="source">[1] {s.k 1999.02.02:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
       <column name="_id">37235</column>
       <column name="entry_name">'aSralya'</column>
       <column name="part_of_speech">n:place</column>
@@ -521,13 +676,30 @@ Another way is to issue the command, {rep yIper!:sen:nolink}  In replying to thi
       <column name="definition_de">Australien</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{tera':n}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TNK:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37236</column>
+      <column name="entry_name">'aSya'</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Asia</column>
+      <column name="definition_de">Asien</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tera':n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.10. -->
@@ -544,7 +716,7 @@ Another way is to issue the command, {rep yIper!:sen:nolink}  In replying to thi
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
-      <column name="source">{Smithsonian GO FLIGHT app:src}</column>
+      <column name="source">[1] {Smithsonian GO FLIGHT app:src}</column>
     </table>
     <table name="mem">
       <column name="_id">37240</column>
@@ -662,6 +834,23 @@ Another way is to issue the command, {rep yIper!:sen:nolink}  In replying to thi
       <column name="source">[1] {PK:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37286</column>
+      <column name="entry_name">'avrI'qa'</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Africa</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tera':n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">37290</column>
       <column name="entry_name">'awje'</column>
       <column name="part_of_speech">n</column>
@@ -715,8 +904,42 @@ The example literally means "My eyes sting me", which shows that {'aw':v:nolink}
       <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2014.11.16. -->
+      <!-- Checked on: 2016.10.31. -->
       <column name="_id">37311</column>
+      <column name="entry_name">'a'ghen</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">master teacher, professor</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ghojmoHwI':n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37312</column>
+      <column name="entry_name">'a'leghen'I'</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Allegheny</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{pItlhbergh:n}</column>
+      <column name="notes">This is a place name in {'amerI'qa' SepjIjQa':n} on Earth.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2014.11.16. -->
+      <column name="_id">37313</column>
       <column name="entry_name">'a'Setbur</column>
       <column name="part_of_speech">n:name</column>
       <column name="definition">Azetbur</column>

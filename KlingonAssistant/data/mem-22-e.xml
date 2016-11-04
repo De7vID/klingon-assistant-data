@@ -393,7 +393,7 @@ The suits in a deck of playing cards are called {Degh:n:2}.</column>
       <column name="definition">behind, area behind</column>
       <column name="definition_de">Hinten, Bereich hinter</column>
       <column name="synonyms"></column>
-      <column name="antonyms">{tlhop:n}</column>
+      <column name="antonyms">{tlhop:n:1}</column>
       <column name="see_also">{bIng:n}, {Dung:n}, {joj:n}, {retlh:n}, {poS:n}, {nIH:n}, {'o':n}</column>
       <column name="notes">For the rear section of an object, see {'o':n}. See also {lurgh:n} for other words related to spatial directions.</column>
       <column name="hidden_notes"></column>
@@ -417,6 +417,23 @@ The suits in a deck of playing cards are called {Degh:n:2}.</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {HQ 12.4, Dec. 2003:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37446</column>
+      <column name="entry_name">'emvI'</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">pin (straight)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{vev:v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">37450</column>
@@ -553,6 +570,23 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37485</column>
+      <column name="entry_name">'eqwaDor</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Ecuador</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">37490</column>
       <column name="entry_name">'er</column>
       <column name="part_of_speech">n:anim</column>
@@ -640,8 +674,8 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="definition_de">Vorn, Bug</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'o':n}</column>
-      <column name="see_also">{poS:n}, {nIH:n}, {tlhop:n}</column>
-      <column name="notes">For the area in front of an object, see {tlhop:n}.</column>
+      <column name="see_also">{poS:n}, {nIH:n}, {tlhop:n:1}</column>
+      <column name="notes">For the area in front of an object, see {tlhop:n:1}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -748,6 +782,23 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37565</column>
+      <column name="entry_name">'ewrop</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Europe</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tera':n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">37570</column>
       <column name="entry_name">'ey</column>
       <column name="part_of_speech">v:is</column>
@@ -778,6 +829,40 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="examples"></column>
       <column name="search_tags">gross, disgusting</column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37585</column>
+      <column name="entry_name">'eyawaDIy</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Irrawaddy</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is the name of a river in {mIyama:n}.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37587</column>
+      <column name="entry_name">'eyre'</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Ireland</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">37590</column>

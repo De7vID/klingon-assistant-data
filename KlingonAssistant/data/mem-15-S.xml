@@ -106,8 +106,8 @@ Note that Klingon has words for "ten thousand" ({netlh:n:num}) and "hundred thou
       <column name="definition">be present (not absent)</column>
       <column name="definition_de">anwesend  sein</column>
       <column name="synonyms"></column>
-      <column name="antonyms">{Dach:v:1}, {SaH:v:2}</column>
-      <column name="see_also"></column>
+      <column name="antonyms">{Dach:v:1}</column>
+      <column name="see_also">{SaH:v:2}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -373,6 +373,23 @@ Note that Klingon has words for "ten thousand" ({netlh:n:num}) and "hundred thou
       <column name="source">[1] {TKD:src}, [2] {HQ 12.4, Dec. 2003:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">30195</column>
+      <column name="entry_name">SaQatvelo'</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Georgia</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">30200</column>
       <column name="entry_name">Sar</column>
       <column name="part_of_speech">v:is</column>
@@ -553,6 +570,23 @@ Note that Klingon has words for "ten thousand" ({netlh:n:num}) and "hundred thou
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">30293</column>
+      <column name="entry_name">Say'moHmeH DoQmIv'a'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">bathtub</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{puchpa':n}, {QalmeH DoQmIv'a':n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{Say':v}, {-moH:v}, {-meH:v}, {DoQmIv:n}, {-'a':n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">30295</column>
       <column name="entry_name">Say'moHwI' tlhagh</column>
       <column name="part_of_speech">n:deriv</column>
@@ -668,6 +702,23 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">30345</column>
+      <column name="entry_name">SeD</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">drive (a land vehicle)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{puH Duj:n}, {'or:v}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">30350</column>
@@ -1371,6 +1422,23 @@ In {TNK:src}, the category title for "Countries" was translated {Sepmey tlhab:n:
       <column name="source">[1] {HQ 10.4, Dec. 2001:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">30695</column>
+      <column name="entry_name">SIlovenISqa'</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Slovakia</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">30700</column>
       <column name="entry_name">SIm</column>
       <column name="part_of_speech">v:t_c</column>
@@ -1522,7 +1590,8 @@ If an implement is used for an activity typically performed by a finger, a finge
       <column name="notes"></column>
       <column name="hidden_notes">For "string" as in the variable type, see under {ghItlh:n}.</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {baS SIrgh:n}</column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
@@ -1568,7 +1637,7 @@ If an implement is used for an activity typically performed by a finger, a finge
       <column name="definition_de">regnen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{jev:v:1}, {muD Dotlh:n}, {ghay:v}, {Har'ey:n}</column>
+      <column name="see_also">{jev:v:1}, {muD Dotlh:n}, {ghay:v}, {Har'ey:n}, {vI'laS:n}</column>
       <column name="notes">This verb can take an object. Its subject is usually unstated.[2]</column>
       <column name="hidden_notes">It's the sound of rain falling.</column>
       <column name="components"></column>
@@ -2117,7 +2186,7 @@ This word carries the idiomatic meaning of "matter, concern, affair". For exampl
       <column name="definition_de">Baum</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lav:n}, {por:n}, {tI:n}</column>
+      <column name="see_also">{lav:n}, {por:n}, {bartIq:n}, {Qechjem'a':n}, {tI:n}</column>
       <column name="notes">There is an idiom, {lugh; Sor rur@@lugh:v, Sor:n, rur:v}, which is connected to the verb {Sor:v}.
 
 This word can also refer to the "club" suit in a deck of playing cards (see {Degh:n:2}).[2]</column>
@@ -2217,7 +2286,7 @@ This word can also refer to the "club" suit in a deck of playing cards (see {Deg
       <column name="definition_de">Kupfer</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tamler:n}, {baS:n}</column>
+      <column name="see_also">{tamler:n}, {baS:n}, {jey' Sorpuq:n}</column>
       <column name="notes"></column>
       <column name="hidden_notes">This is "kupros" backwards, a reference to "Cyprus" which is the origin of the English word "copper".</column>
       <column name="components"></column>
@@ -2968,6 +3037,23 @@ The expression {jISum:sen:nolink} has an idiomatic philosophical meaning, "I'm i
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">31445</column>
+      <column name="entry_name">Surya'</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Syria</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">31450</column>
       <column name="entry_name">SuS</column>
       <column name="part_of_speech">n</column>
@@ -3263,6 +3349,23 @@ The expression {jISum:sen:nolink} has an idiomatic philosophical meaning, "I'm i
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKW p.29:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">31563</column>
+      <column name="entry_name">SuwISya'</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Switzerland</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">31565</column>

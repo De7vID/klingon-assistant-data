@@ -535,7 +535,7 @@ According to a message on the {s.k:src} newsgroup, the first element of this wor
       <column name="definition_de">befehlen, kommandieren</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lob:v}, {SeH:v}, {ngep:v}</column>
+      <column name="see_also">{lob:v}, {SeH:v}, {ngep:v}, {vun:v}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -1138,6 +1138,24 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">29333</column>
+      <column name="entry_name">rem</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">suck (e.g. through straw)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {'Iw remwI':n} "vampire"</column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">29335</column>
       <column name="entry_name">ren</column>
       <column name="part_of_speech">v:t_c</column>
@@ -1202,6 +1220,23 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {s.k 1999.02.02:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">29345</column>
+      <column name="entry_name">req</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">wax</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{weQ:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">29350</column>
       <column name="entry_name">ret</column>
       <column name="part_of_speech">n</column>
@@ -1247,7 +1282,7 @@ For other units of time, {ret:n:nolink} is used.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bIng:n}, {Dung:n}, {joj:n}</column>
-      <column name="notes">To be more specific, one can use {tlhop:n}, {'em:n}, {poS:n}, or {nIH:n}. See also {lurgh:n} for other words related to spatial directions.</column>
+      <column name="notes">To be more specific, one can use {tlhop:n:1}, {'em:n}, {poS:n}, or {nIH:n}. See also {lurgh:n} for other words related to spatial directions.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1654,6 +1689,23 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">29545</column>
+      <column name="entry_name">rI'meH wovmoHwI'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">beacon</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{rI':v}, {-meH:v}, {wovmoHwI':n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">29550</column>
       <column name="entry_name">rI'Se'</column>
       <column name="part_of_speech">n</column>
@@ -2003,12 +2055,14 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{rop:v}, {vor:v}, {ngej:v}</column>
-      <column name="notes"></column>
+      <column name="notes">Diseases are referred to by the name for the disease followed by {rop:n:nolink}.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {ruDelya' rop'a':n}
+▶ {matlh rop:n:nolink} "Maltz disease" (as an example)[2]</column>
       <column name="search_tags"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">29725</column>

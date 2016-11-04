@@ -237,12 +237,12 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{wa'chaw:n}, {war:n}, {wev:n}</column>
-      <column name="notes"></column>
+      <column name="notes">This word can be used for the grid on a spreadsheet and also for the gridlines on a map.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
-      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}, [2] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">33470</column>
@@ -1288,18 +1288,35 @@ The object of this verb is the person of whom the request is made, or {'e':n:pro
     <table name="mem">
       <column name="_id">33880</column>
       <column name="entry_name">tlhop</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">front, area in front of</column>
       <column name="definition_de">Vorne, Bereich vor etwas</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'em:n}</column>
-      <column name="see_also">{bIng:n}, {Dung:n}, {joj:n}, {retlh:n}, {poS:n}, {nIH:n}, {'et:n}</column>
+      <column name="see_also">{tlhop:n:2}, {bIng:n}, {Dung:n}, {joj:n}, {retlh:n}, {poS:n}, {nIH:n}, {'et:n}</column>
       <column name="notes">For the front section of an object, see {'et:n}. See also {lurgh:n} for other words related to spatial directions.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">33881</column>
+      <column name="entry_name">tlhop</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">public area</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tlhop:n:1}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id">33890</column>
