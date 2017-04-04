@@ -2552,20 +2552,37 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2016.07.25. -->
+      <!-- Checked on: 2017.04.04. -->
       <column name="_id">22932</column>
       <column name="entry_name">noq</column>
-      <column name="part_of_speech">n</column>
-      <column name="definition">nipple</column>
-      <column name="definition_de">Nippel, Brustwarze, Trinksauger (für Flaschen)</column>
+      <column name="part_of_speech">n:1,body</column>
+      <column name="definition">nipple (anatomy)</column>
+      <column name="definition_de">Nippel, Brustwarze</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">When used to refer to anatomy, this word takes the plural suffix {-Du':n}. When used to refer to the nipples on bottles and so on, it takes the suffix {-mey:n}.</column>
+      <column name="see_also">{noq:n:2}</column>
+      <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">tit, teat</column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.04.04. -->
+      <column name="_id">22933</column>
+      <column name="entry_name">noq</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">nipple (on bottles, etc.)</column>
+      <column name="definition_de">Trinksauger (für Flaschen)</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{noq:n:1}, {bal:n}</column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
       <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
