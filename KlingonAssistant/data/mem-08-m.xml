@@ -469,8 +469,8 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chaj:n}, {jup:n}, {ruS:n}</column>
-      <column name="notes"></column>
-      <column name="hidden_notes">"My coach" or {may' qoch}. See also {qoch:n}. Note that {maqoch:sen@@ma-:v, qoch:v} may be read as a sentence.</column>
+      <column name="notes">This word is used by one male in addressing another male who is a close friend. Use of this word in other contexts may be considered insulting or offensive. The word may derive from {may' qoch:n@@may':n, qoch:n}. It is not uncommon for a Klingon father to address his son as {maqoch:n:nolink}, but not the other way around.</column>
+      <column name="hidden_notes">"My coach". See also {qoch:n}. Note that {maqoch:sen@@ma-:v, qoch:v} may be read as a sentence.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">buddy, bff</column>
@@ -1040,7 +1040,41 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="source">[1] {paq'batlh:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2012.12.15. -->
+      <column name="_id">20496</column>
+      <column name="entry_name">may' ngeb</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">mock battle</column>
+      <column name="definition_de">Schaukampf</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{may':n}, {ngeb:v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {CK:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2015.10.28. -->
       <column name="_id">20497</column>
+      <column name="entry_name">may' Sut</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">body armor</column>
+      <column name="definition_de">Kampfanzug, Rüstung</column>
+      <column name="synonyms">{SIryoD:n}</column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{may':n}, {Sut:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags">armour, body armour</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">20498</column>
       <column name="entry_name">may' ta</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">record of battle</column>
@@ -1055,6 +1089,23 @@ This was used to translate "print" or "output" (i.e., display something to the u
 ▶ {beq may' ta vIlajpu'} "I have accepted the crew's record of battle"[1]</column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT p.184:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2014.05.07. -->
+      <column name="_id">20499</column>
+      <column name="entry_name">may' vIloS.</column>
+      <column name="part_of_speech">sen:nt</column>
+      <column name="definition">I await battle.</column>
+      <column name="definition_de">Ich erwarte den Kampf.</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This was spoken by Worf (in Klingon) during his Rite of Ascension.</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags">nentay</column>
+      <column name="source">[1] {TNG - The Icarus Factor:src}</column>
     </table>
     <table name="mem">
       <column name="_id">20500</column>
@@ -1158,57 +1209,6 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.12.15. -->
-      <column name="_id">20545</column>
-      <column name="entry_name">may' ngeb</column>
-      <column name="part_of_speech">n:deriv</column>
-      <column name="definition">mock battle</column>
-      <column name="definition_de">Schaukampf</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="hidden_notes"></column>
-      <column name="components">{may':n}, {ngeb:v}</column>
-      <column name="examples"></column>
-      <column name="search_tags"></column>
-      <column name="source">[1] {CK:src}</column>
-    </table>
-    <table name="mem">
-      <!-- Checked on: 2015.10.28. -->
-      <column name="_id">20546</column>
-      <column name="entry_name">may' Sut</column>
-      <column name="part_of_speech">n:deriv</column>
-      <column name="definition">body armor</column>
-      <column name="definition_de">Kampfanzug, Rüstung</column>
-      <column name="synonyms">{SIryoD:n}</column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="hidden_notes"></column>
-      <column name="components">{may':n}, {Sut:n}</column>
-      <column name="examples"></column>
-      <column name="search_tags">armour, body armour</column>
-      <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
-    </table>
-    <table name="mem">
-      <!-- Checked on: 2014.05.07. -->
-      <column name="_id">20547</column>
-      <column name="entry_name">may' vIloS.</column>
-      <column name="part_of_speech">sen:nt</column>
-      <column name="definition">I await battle.</column>
-      <column name="definition_de">Ich erwarte den Kampf.</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This was spoken by Worf (in Klingon) during his Rite of Ascension.</column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="search_tags">nentay</column>
-      <column name="source">[1] {TNG - The Icarus Factor:src}</column>
-    </table>
-    <table name="mem">
       <!-- Checked on: 2012.12.16. -->
       <column name="_id">20550</column>
       <column name="entry_name">may'ron</column>
@@ -1224,6 +1224,23 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.05. -->
+      <column name="_id">20555</column>
+      <column name="entry_name">may'qochvan</column>
+      <column name="part_of_speech">n:deriv,fic,extcan</column>
+      <column name="definition"></column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This word appears in the {Star Trek - Prey:src} trilogy by John Jackson Miller. It is said to be an "old concept", in which rivals who ally in battle for a time celebrate a temporary truce after a successful joint action, before returning to hostilities.</column>
+      <column name="hidden_notes"></column>
+      <column name="components">{may':n}, {qoch:n}, {van:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {Star Trek - Prey:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.16. -->
