@@ -1092,12 +1092,14 @@ This suffix is attached to the verb in toasts, which always comes last except in
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-Qo':v:suff}</column>
-      <column name="notes">This follows the concept it negates. It cannot be used with imperatives (use {-Qo':v} instead), but can be applied to verbs used as adjectives.</column>
-      <column name="hidden_notes">Even though {TKD:src} says that {-be':v:nolink} cannot be used with imperatives, it seems that this means only that it cannot be used to form negative imperatives. For example, a sentence such as {HIleghbe'moH:sen:nolink} seems to be possible.</column>
+      <column name="notes">This follows the concept it negates. It cannot be used with imperatives (use {-Qo':v} instead)[1], but can be applied to verbs used as adjectives.[2]</column>
+      <!-- Observation made by Qov, Feb. 2014: Even though {TKD:src} says that {-be':v:nolink} cannot be used with imperatives, it seems that this means only that it cannot be used to form negative imperatives. For example, a sentence such as {HIleghbe'moH:sen:nolink} might be possible. -->
+      <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {wa'maH yIHmey lI'be'@@wa'maH:n, yIH:n, -mey:n, lI':v:1, -be':v} "ten useless tribbles"[2]</column>
       <column name="search_tags">rover, verb type R</column>
-      <column name="source">[1] {TKD 4.3:src}</column>
+      <column name="source">[1] {TKD 4.3:src}, [2] {PK:src}</column>
     </table>
     <table name="mem">
       <column name="_id">101913</column>
@@ -1127,13 +1129,14 @@ This suffix is attached to the verb in toasts, which always comes last except in
       <column name="see_also"></column>
       <column name="notes">This suffix indicates that something that was previously done is now undone, or that something is done wrongly. Despite being classified as a rover, this suffix occurs immediately after the verb, before any other suffixes.[1]
 
-This suffix can also be applied to some adverbials, but not to all of them.[2; 3]</column>
+This suffix can be applied to some adverbials, but not to all of them.[2; 3] It can also be applied to verbs used as adjectives.[4]</column>
       <!-- There is a theory that while {-Ha':v:suff,nolink} can mean different things on different verbs, it has a fixed meaning for any particular verb. That meaning is determined by a greater degree of negativity than {-be':v:suff}. This theory has not be proven. -->
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {Duj ngaDHa':n} [4]</column>
       <column name="search_tags">rover, verb type R</column>
-      <column name="source">[1] {TKD 4.3:src}, [2] {HQ 4.4, p.11:src}, [3] {qep'a' 2012:src} ({KLI mailing list 2012.08.30:src})</column>
+      <column name="source">[1] {TKD 4.3:src}, [2] {HQ 4.4, p.11:src}, [3] {qep'a' 2012:src} ({KLI mailing list 2012.08.30:src}), [4] {KGT:src}</column>
     </table>
     <table name="mem">
       <column name="_id">101915</column>
