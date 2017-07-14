@@ -1163,13 +1163,31 @@ The object of this verb is the person of whom the request is made, or {'e':n:pro
       <column name="definition_de">Ehe, Heirat, Hochzeit</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Saw:v}, {nay:v}, {be'nal:n}, {loDnal:n}, {ngoS:v}</column>
+      <column name="see_also">{Saw:v}, {nay:v}, {be'nal:n}, {loDnal:n}, {ngoS:v}, {tlhogh:v}</column>
       <column name="notes"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">33825</column>
+      <column name="entry_name">tlhogh</column>
+      <column name="part_of_speech">v:archaic</column>
+      <column name="definition">marry</column>
+      <column name="definition_de">heiraten</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tlhogh:n}</column>
+      <column name="notes">This word was long considered quaint or archaic, but is heard with increasing frequency. Unlike {Saw:v} and {nay:v}, it can be used by either partner regardless of sex or gender.
+
+One can say either {B tlhogh A:sen:nolink} for "{A:sen:nolink} marries {B:sen:nolink}" or {tlhoghchuq A B je:sen:nolink} "{A:sen:nolink} and {B:sen:nolink} marry each other".</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="source">[1] {KLI mailing list 2017.07.13:src}</column>
     </table>
     <table name="mem">
       <column name="_id">33830</column>
