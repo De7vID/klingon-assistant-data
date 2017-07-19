@@ -288,7 +288,6 @@ public class KlingonContentDatabase {
       parseQueryAsComplexWordOrSentence(looseQuery, resultsCursor, resultsSet);
     } else {
       // Otherwise, assume the base query is a prefix of the desired result.
-      // TODO: Also search in German here and below.
       Cursor resultsWithGivenPrefixCursor = getEntriesContainingQuery(looseQuery, /* isPrefix */
               true);
       copyCursorEntries(resultsCursor, resultsSet, resultsWithGivenPrefixCursor, /* filter */true,
@@ -313,22 +312,22 @@ public class KlingonContentDatabase {
         }
       }
 
-      // Match definitions, from beginning.
+      // Match definitions, from beginning. Since the definition is (almost always) canonical, always search in English. Additionally search in German // if that option is set.
       matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ true, /* useSearchTags */ false, /* searchGermanDefinitions */ false, resultsCursor, resultsSet);
       if (searchGermanDefinitions) {
           matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ true, /* useSearchTags */ false, /* searchGermanDefinitions */ true, resultsCursor, resultsSet);
       }
 
-      // Match definitions, anywhere else.
+      // Match definitions, anywhere else. Again, always search in English, and additionally search in German if that option is set.
       if (queryEntry.getEntryName().length() > 2) {
         matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ false, /* useSearchTags */ false, /* searchGermanDefinitions */ false, resultsCursor, resultsSet);
         if (searchGermanDefinitions) {
             matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ false, /* useSearchTags */ false, /* searchGermanDefinitions */ true, resultsCursor, resultsSet);
         }
 
-        // Match search tags, from beginning, then anywhere else. (The search tags are only in English.)
-        matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ true, /* useSearchTags */ true, /* searchGermanDefinitions */ false, resultsCursor, resultsSet);
-        matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ false, /* useSearchTags */ true, /* searchGermanDefinitions */ false, resultsCursor, resultsSet);
+        // Match search tags, from beginning, then anywhere else. Don't bother searching the search tags in English if the option to search German is set.
+        matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ true, /* useSearchTags */ true, searchGermanDefinitions, resultsCursor, resultsSet);
+        matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ false, /* useSearchTags */ true, searchGermanDefinitions, resultsCursor, resultsSet);
       }
     }
 
