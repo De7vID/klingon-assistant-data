@@ -65,6 +65,8 @@ public class KlingonContentDatabase {
   public static final String                   KEY_SOURCE                   = "source";
   // Languages other than English.
   public static final String                   KEY_DEFINITION_DE            = "definition_de";
+  public static final String                   KEY_NOTES_DE                 = "notes_de";
+  public static final String                   KEY_SEARCH_TAGS_DE           = "search_tags_de";
 
   // The order of the keys to access the columns.
   public static final int                      COLUMN_ID                    = 0;
@@ -80,11 +82,16 @@ public class KlingonContentDatabase {
   public static final int                      COLUMN_EXAMPLES              = 10;
   public static final int                      COLUMN_SEARCH_TAGS           = 11;
   public static final int                      COLUMN_SOURCE                = 12;
+  // Languages other than English.
   public static final int                      COLUMN_DEFINITION_DE         = 13;
-  public static final String[]                 ALL_KEYS                     = { KEY_ID,
-          KEY_ENTRY_NAME, KEY_PART_OF_SPEECH, KEY_DEFINITION, KEY_SYNONYMS, KEY_ANTONYMS,
-          KEY_SEE_ALSO, KEY_NOTES, KEY_HIDDEN_NOTES, KEY_COMPONENTS, KEY_EXAMPLES, KEY_SEARCH_TAGS,
-          KEY_SOURCE, KEY_DEFINITION_DE,                                   };
+  public static final int                      COLUMN_NOTES_DE              = 14;
+  public static final int                      COLUMN_SEARCH_TAGS_DE        = 15;
+
+  // All keys.
+  public static final String[]                 ALL_KEYS                     = {
+    KEY_ID, KEY_ENTRY_NAME, KEY_PART_OF_SPEECH, KEY_DEFINITION, KEY_SYNONYMS, KEY_ANTONYMS,
+    KEY_SEE_ALSO, KEY_NOTES, KEY_HIDDEN_NOTES, KEY_COMPONENTS, KEY_EXAMPLES, KEY_SEARCH_TAGS,
+    KEY_SOURCE, KEY_DEFINITION_DE, KEY_NOTES_DE, KEY_SEARCH_TAGS_DE, };
 
   // The name of the database and the database object for accessing it.
   private static final String                  DATABASE_NAME                = "qawHaq.db";
@@ -92,7 +99,7 @@ public class KlingonContentDatabase {
 
   // This should be kept in sync with the version number in the database
   // entry {boQwI':n}.
-  private static final int                     DATABASE_VERSION             = 201707122;
+  private static final int                     DATABASE_VERSION             = 201707180;
 
   private final KlingonDatabaseOpenHelper      mDatabaseOpenHelper;
   private static final HashMap<String, String> mColumnMap                   = buildColumnMap();
@@ -477,9 +484,14 @@ public class KlingonContentDatabase {
   private Cursor getEntriesMatchingDefinition(String piece, boolean isPrefix, boolean useSearchTags, boolean searchGermanDefinitions) {
 
     // The search key is either the definition or the search tags.
-    String key = useSearchTags ? KlingonContentDatabase.KEY_SEARCH_TAGS :
-            searchGermanDefinitions ? KlingonContentDatabase.KEY_DEFINITION_DE :
-                                      KlingonContentDatabase.KEY_DEFINITION;
+    String key;
+    if (searchGermanDefinitions) {
+      key = useSearchTags ? KlingonContentDatabase.KEY_SEARCH_TAGS_DE :
+          KlingonContentDatabase.KEY_DEFINITION_DE;
+    } else {
+      key = useSearchTags ? KlingonContentDatabase.KEY_SEARCH_TAGS :
+          KlingonContentDatabase.KEY_DEFINITION;
+    }
 
     // If searching for a prefix, nothing can precede the query; otherwise,
     // it must be preceded by a space (it begins a word).
@@ -701,7 +713,8 @@ public class KlingonContentDatabase {
                     + complexWord.getSuffixesString(), entry.getPartOfSpeech(),
             entry.getDefinition(), entry.getSynonyms(), entry.getAntonyms(), entry.getSeeAlso(),
             entry.getNotes(), entry.getHiddenNotes(), entry.getComponents(), entry.getExamples(),
-            entry.getSearchTags(), entry.getSource(), entry.getDefinition_DE(), };
+            entry.getSearchTags(), entry.getSource(), entry.getDefinition_DE(), entry.getNotes_DE(),
+            entry.getSearchTags_DE(), };
   }
 
   private Object[] convertEntryToCursorRow(KlingonContentProvider.Entry entry, boolean indent) {
@@ -709,7 +722,8 @@ public class KlingonContentDatabase {
             entry.getPartOfSpeech() + (indent ? ",indent" : ""), entry.getDefinition(),
             entry.getSynonyms(), entry.getAntonyms(), entry.getSeeAlso(), entry.getNotes(),
             entry.getHiddenNotes(), entry.getComponents(), entry.getExamples(),
-            entry.getSearchTags(), entry.getSource(), entry.getDefinition_DE(), };
+            entry.getSearchTags(), entry.getSource(), entry.getDefinition_DE(), entry.getNotes_DE(),
+            entry.getSearchTags_DE(), };
   }
 
   /**

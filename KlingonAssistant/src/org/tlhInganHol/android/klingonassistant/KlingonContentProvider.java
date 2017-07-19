@@ -337,6 +337,8 @@ public class KlingonContentProvider extends ContentProvider {
 
     // Localised definitions.
     private String             mDefinition_DE    = "";
+    private String             mNotes_DE         = "";
+    private String             mSearchTags_DE    = "";
 
     // Part of speech metadata.
     private enum BasePartOfSpeechEnum {
@@ -451,16 +453,19 @@ public class KlingonContentProvider extends ContentProvider {
 
       // TODO: Make this dependent on the chosen language.
       mDefinition = cursor.getString(KlingonContentDatabase.COLUMN_DEFINITION);
+      mNotes = cursor.getString(KlingonContentDatabase.COLUMN_NOTES);
+      mSearchTags = cursor.getString(KlingonContentDatabase.COLUMN_SEARCH_TAGS);
+
       mDefinition_DE = cursor.getString(KlingonContentDatabase.COLUMN_DEFINITION_DE);
+      mNotes_DE = cursor.getString(KlingonContentDatabase.COLUMN_NOTES_DE);
+      mSearchTags_DE = cursor.getString(KlingonContentDatabase.COLUMN_SEARCH_TAGS_DE);
 
       mSynonyms = cursor.getString(KlingonContentDatabase.COLUMN_SYNONYMS);
       mAntonyms = cursor.getString(KlingonContentDatabase.COLUMN_ANTONYMS);
       mSeeAlso = cursor.getString(KlingonContentDatabase.COLUMN_SEE_ALSO);
-      mNotes = cursor.getString(KlingonContentDatabase.COLUMN_NOTES);
       mHiddenNotes = cursor.getString(KlingonContentDatabase.COLUMN_HIDDEN_NOTES);
       mComponents = cursor.getString(KlingonContentDatabase.COLUMN_COMPONENTS);
       mExamples = cursor.getString(KlingonContentDatabase.COLUMN_EXAMPLES);
-      mSearchTags = cursor.getString(KlingonContentDatabase.COLUMN_SEARCH_TAGS);
       mSource = cursor.getString(KlingonContentDatabase.COLUMN_SOURCE);
 
       // The homophone number is -1 by default.
@@ -853,6 +858,18 @@ public class KlingonContentProvider extends ContentProvider {
       // If there is no German definition, the cursor could've returned
       // null, so that needs to be handled.
       return (mDefinition_DE == null) ? "" : mDefinition_DE;
+    }
+
+    public String getNotes_DE() {
+      // If there are no German notes, the cursor could've returned
+      // null, so that needs to be handled.
+      return (mNotes_DE == null) ? "" : mNotes_DE;
+    }
+
+    public String getSearchTags_DE() {
+      // If there are no German search tags, the cursor could've returned
+      // null, so that needs to be handled.
+      return (mSearchTags_DE == null) ? "" : mSearchTags_DE;
     }
 
     // Returns true iff the German definition should displayed.
