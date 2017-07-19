@@ -31,7 +31,6 @@ import android.text.Html;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -58,14 +57,14 @@ public class KlingonAssistant extends BaseActivity {
   // public static final boolean INCLUDE_TUTORIAL = false;
 
   // Preference key for whether to show help.
-  public static final String  KEY_SHOW_HELP                    = "show_help";
+  public static final String KEY_SHOW_HELP = "show_help";
 
   // This holds the {pIqaD} typeface.
-  private static Typeface     mKlingonFontTypeface             = null;
+  private static Typeface mKlingonFontTypeface = null;
 
   // The two main views in app's main screen.
-  private TextView            mTextView;
-  private ListView            mListView;
+  private TextView mTextView;
+  private ListView mListView;
 
   // Keep the query for passing to the FloatingWindow.
   private String mQuery = "";
@@ -76,7 +75,8 @@ public class KlingonAssistant extends BaseActivity {
     super.onCreate(savedInstanceState);
 
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-    if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
+    if (sharedPrefs.getBoolean(
+        Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
       setDrawerContentView(R.layout.main_tlh);
     } else {
       setDrawerContentView(R.layout.main);
@@ -236,16 +236,16 @@ public class KlingonAssistant extends BaseActivity {
       // Show help if the flag is set. If the flag has not ever been set,
       // either the database does not yet exist, or it had been created by
       // an older version of this program.
-      SharedPreferences sharedPrefs = PreferenceManager
-              .getDefaultSharedPreferences(getBaseContext());
+      SharedPreferences sharedPrefs =
+          PreferenceManager.getDefaultSharedPreferences(getBaseContext());
       try {
         // if (sharedPrefs.getBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, /* default */true)) {
         //   // Show the tutorial (ending on the help screen).
         //   // TUTORIAL
         //   setupTutorial();
         // } else if (sharedPrefs.getBoolean(KEY_SHOW_HELP, /* default */true)) {
-          // Show just the help screen.
-          displayHelp(QUERY_FOR_ABOUT);
+        // Show just the help screen.
+        displayHelp(QUERY_FOR_ABOUT);
 
         //   // Unset the help flag since it's been shown.
         //   SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(
@@ -287,13 +287,13 @@ public class KlingonAssistant extends BaseActivity {
 
   class EntryAdapter extends BaseAdapter implements AdapterView.OnItemClickListener {
 
-    private final Cursor         mCursor;
+    private final Cursor mCursor;
     private final LayoutInflater mInflater;
 
     public EntryAdapter(Cursor cursor) {
       mCursor = cursor;
-      mInflater = (LayoutInflater) KlingonAssistant.this
-              .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+      mInflater =
+          (LayoutInflater) KlingonAssistant.this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
     @Override
@@ -313,16 +313,16 @@ public class KlingonAssistant extends BaseActivity {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-      TwoLineListItem view = (convertView != null) ? (TwoLineListItem) convertView
-              : createView(parent);
+      TwoLineListItem view =
+          (convertView != null) ? (TwoLineListItem) convertView : createView(parent);
       mCursor.moveToPosition(position);
       bindView(view, mCursor);
       return view;
     }
 
     private TwoLineListItem createView(ViewGroup parent) {
-      TwoLineListItem item = (TwoLineListItem) mInflater.inflate(
-              android.R.layout.simple_list_item_2, parent, false);
+      TwoLineListItem item =
+          (TwoLineListItem) mInflater.inflate(android.R.layout.simple_list_item_2, parent, false);
 
       // Set single line to true if you want shorter definitions.
       item.getText2().setSingleLine(false);
@@ -333,18 +333,21 @@ public class KlingonAssistant extends BaseActivity {
 
     private void bindView(TwoLineListItem view, Cursor cursor) {
       // Keep this in sync with FloatingWindow's bindview.
-      KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor,
-              getBaseContext());
+      KlingonContentProvider.Entry entry =
+          new KlingonContentProvider.Entry(cursor, getBaseContext());
 
       // TODO: Format with different size.
       String indent1 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;" : "";
       String indent2 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" : "";
 
-      SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-      if (!sharedPrefs.getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */false)) {
+      SharedPreferences sharedPrefs =
+          PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+      if (!sharedPrefs.getBoolean(
+          Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
         // Use serif for the entry, so capital-I and lowercase-l are distinguishable.
         view.getText1().setTypeface(Typeface.SERIF);
-        view.getText1().setText(Html.fromHtml(indent1 + entry.getFormattedEntryName(/* isHtml */true)));
+        view.getText1()
+            .setText(Html.fromHtml(indent1 + entry.getFormattedEntryName(/* isHtml */ true)));
       } else {
         // Preference is set to display this in {pIqaD}!
         view.getText1().setTypeface(KlingonAssistant.getKlingonFontTypeface(getBaseContext()));
@@ -352,15 +355,17 @@ public class KlingonAssistant extends BaseActivity {
       }
 
       // TODO: Colour attached affixes differently from verb.
-      boolean useColours = sharedPrefs.getBoolean(Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */true);
+      boolean useColours =
+          sharedPrefs.getBoolean(
+              Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */ true);
       if (useColours) {
         view.getText1().setTextColor(entry.getTextColor());
       }
 
       // Use sans serif for the definition.
       view.getText2().setTypeface(Typeface.SANS_SERIF);
-      view.getText2().setText(
-              Html.fromHtml(indent2 + entry.getFormattedDefinition(/* isHtml */true)));
+      view.getText2()
+          .setText(Html.fromHtml(indent2 + entry.getFormattedDefinition(/* isHtml */ true)));
     }
 
     @Override
@@ -373,30 +378,34 @@ public class KlingonAssistant extends BaseActivity {
   /**
    * Searches the dictionary and displays results for the given query.
    *
-   * @param query
-   *          The search query
+   * @param query The search query
    */
   private void showResults(String query) {
 
     // Note: managedQuery is deprecated since API 11.
-    Cursor cursor = managedQuery(Uri.parse(KlingonContentProvider.CONTENT_URI + "/lookup"),
-            null /* all columns */, null, new String[] { query }, null);
+    Cursor cursor =
+        managedQuery(
+            Uri.parse(KlingonContentProvider.CONTENT_URI + "/lookup"),
+            null /* all columns */,
+            null,
+            new String[] {query},
+            null);
 
-    KlingonContentProvider.Entry queryEntry = new KlingonContentProvider.Entry(query,
-            getBaseContext());
-    String entryNameWithPoS = queryEntry.getEntryName()
-            + queryEntry.getBracketedPartOfSpeech(/* isHtml */true);
+    KlingonContentProvider.Entry queryEntry =
+        new KlingonContentProvider.Entry(query, getBaseContext());
+    String entryNameWithPoS =
+        queryEntry.getEntryName() + queryEntry.getBracketedPartOfSpeech(/* isHtml */ true);
 
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
     if (cursor == null || cursor.getCount() == 0) {
       // There are no results.
-      if (sharedPrefs
-              .getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
-        mTextView.setText(Html.fromHtml(getString(R.string.no_results_tlh,
-                new Object[] { entryNameWithPoS })));
+      if (sharedPrefs.getBoolean(
+          Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+        mTextView.setText(
+            Html.fromHtml(getString(R.string.no_results_tlh, new Object[] {entryNameWithPoS})));
       } else {
-        mTextView.setText(Html.fromHtml(getString(R.string.no_results,
-                new Object[] { entryNameWithPoS })));
+        mTextView.setText(
+            Html.fromHtml(getString(R.string.no_results, new Object[] {entryNameWithPoS})));
       }
 
     } else {
@@ -415,13 +424,17 @@ public class KlingonAssistant extends BaseActivity {
           // Display, e.g., "Lyrics:".
           countString += ":";
         }
-      } else if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */
-              false)) {
-        countString = getResources().getQuantityString(R.plurals.search_results_tlh, count,
-                new Object[] { count, entryNameWithPoS });
+      } else if (sharedPrefs.getBoolean(
+          Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+        countString =
+            getResources()
+                .getQuantityString(
+                    R.plurals.search_results_tlh, count, new Object[] {count, entryNameWithPoS});
       } else {
-        countString = getResources().getQuantityString(R.plurals.search_results, count,
-                new Object[] { count, entryNameWithPoS });
+        countString =
+            getResources()
+                .getQuantityString(
+                    R.plurals.search_results, count, new Object[] {count, entryNameWithPoS});
       }
       mTextView.setText(Html.fromHtml(countString));
 
@@ -445,17 +458,17 @@ public class KlingonAssistant extends BaseActivity {
     SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
 
     if (searchManager != null) {
-      SharedPreferences sharedPrefs = PreferenceManager
-              .getDefaultSharedPreferences(getBaseContext());
-      if (sharedPrefs
-              .getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
+      SharedPreferences sharedPrefs =
+          PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+      if (sharedPrefs.getBoolean(
+          Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
         // Use the Klingon UI strings.
-        searchManager.startSearch(null, false, new ComponentName(this, KlingonAssistant.class),
-                null, false);
+        searchManager.startSearch(
+            null, false, new ComponentName(this, KlingonAssistant.class), null, false);
       } else {
         // Use the non-Klingon UI strings.
-        searchManager.startSearch(null, false, new ComponentName(this, KlingonAssistantAlt.class),
-                null, false);
+        searchManager.startSearch(
+            null, false, new ComponentName(this, KlingonAssistantAlt.class), null, false);
       }
       return true;
     }
@@ -473,37 +486,43 @@ public class KlingonAssistant extends BaseActivity {
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
     if (item.getItemId() == R.id.float_mode) {
-        // Minimize the app and cause it to "float".
-        Log.d(TAG, "Show floating window.");
-        StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
-        String query = mQuery;
-        if (!mQuery.equals("") && mQuery.indexOf('*') == -1) {
-          // If we have a non-empty query, pass it along.
-          int colonLoc = query.indexOf(':');
-          if (colonLoc != -1) {
-            query = query.substring(0, colonLoc);
-          }
-          Bundle data = new Bundle();
-          data.putString("query", query);
-          StandOutWindow.sendData(getBaseContext(), FloatingWindow.class,
-              StandOutWindow.DEFAULT_ID, DATA_CHANGED_QUERY, data,
-              FloatingWindow.class, StandOutWindow.DEFAULT_ID);
+      // Minimize the app and cause it to "float".
+      Log.d(TAG, "Show floating window.");
+      StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
+      String query = mQuery;
+      if (!mQuery.equals("") && mQuery.indexOf('*') == -1) {
+        // If we have a non-empty query, pass it along.
+        int colonLoc = query.indexOf(':');
+        if (colonLoc != -1) {
+          query = query.substring(0, colonLoc);
         }
+        Bundle data = new Bundle();
+        data.putString("query", query);
+        StandOutWindow.sendData(
+            getBaseContext(),
+            FloatingWindow.class,
+            StandOutWindow.DEFAULT_ID,
+            DATA_CHANGED_QUERY,
+            data,
+            FloatingWindow.class,
+            StandOutWindow.DEFAULT_ID);
+      }
 
-        // Broadcast the kill order to finish all non-floating activities.
-        // Work around race condition.
-        Log.d(TAG, "Broadcast kill order to non-floating window.");
-        final Intent intent = new Intent(ACTION_KILL);
-        intent.setType(KILL_TYPE);
-        Handler killNonFloatingWindowHandler = new Handler();
-        Runnable killNonFloatingWindowRunnable = new Runnable() {
+      // Broadcast the kill order to finish all non-floating activities.
+      // Work around race condition.
+      Log.d(TAG, "Broadcast kill order to non-floating window.");
+      final Intent intent = new Intent(ACTION_KILL);
+      intent.setType(KILL_TYPE);
+      Handler killNonFloatingWindowHandler = new Handler();
+      Runnable killNonFloatingWindowRunnable =
+          new Runnable() {
             public void run() {
-                sendBroadcast(intent);
+              sendBroadcast(intent);
             }
-        };
-        killNonFloatingWindowHandler.postDelayed(killNonFloatingWindowRunnable, 100);  // 100 ms
+          };
+      killNonFloatingWindowHandler.postDelayed(killNonFloatingWindowRunnable, 100); // 100 ms
 
-        return true;
+      return true;
     }
     return super.onOptionsItemSelected(item);
   }

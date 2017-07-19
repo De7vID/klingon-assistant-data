@@ -16,8 +16,6 @@
 
 package org.tlhInganHol.android.klingonassistant;
 
-import java.util.regex.Matcher;
-
 import android.app.SearchManager;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -25,9 +23,11 @@ import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.Typeface;
 import android.net.Uri;
-// import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.speech.tts.TextToSpeech;
+import android.support.v4.view.MenuItemCompat;
+import android.support.v7.widget.ShareActionProvider;
 import android.text.Html;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
@@ -43,35 +43,28 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
+import java.util.Locale;
+import java.util.regex.Matcher;
 import wei.mark.standout.StandOutWindow;
 
-import android.support.v4.view.MenuItemCompat;
-import android.support.v7.widget.ShareActionProvider;
-
-// TTS:
-import android.speech.tts.TextToSpeech;
-import java.util.Locale;
-
-/**
- * Displays an entry and its definition.
- */
+/** Displays an entry and its definition. */
 public class EntryActivity extends BaseActivity
-// TTS:
+    // TTS:
     implements TextToSpeech.OnInitListener {
 
   private static final String TAG = "EntryActivity";
 
   // The intent holding the data to be shared.
-  private Intent              mShareEntryIntent                = null;
+  private Intent mShareEntryIntent = null;
 
   // The parent query that this entry is a part of.
   private String mParentQuery = null;
   private String mEntryName = null;
 
   // TTS:
-  /** The {@link TextToSpeech} used for speaking. **/
+  /** The {@link TextToSpeech} used for speaking. */
   private TextToSpeech mTts;
+
   private MenuItem mSpeakButton;
   private boolean ttsInitialized = false;
 
@@ -83,9 +76,11 @@ public class EntryActivity extends BaseActivity
     // Initialize text-to-speech. This is an asynchronous operation.
     // The OnInitListener (second argument) is called after initialization completes.
     // Log.d(TAG, "Initialising TTS");
-    mTts = new TextToSpeech(this,
-        this,  // TextToSpeech.OnInitListener
-        "org.tlhInganHol.android.klingonttsengine");  // Requires API 14.
+    mTts =
+        new TextToSpeech(
+            this,
+            this, // TextToSpeech.OnInitListener
+            "org.tlhInganHol.android.klingonttsengine"); // Requires API 14.
 
     setDrawerContentView(R.layout.entry);
     Resources resources = getResources();
@@ -115,7 +110,9 @@ public class EntryActivity extends BaseActivity
 
     // Set the entry's name (along with info like "slang", formatted in HTML).
     entryTitle.invalidate();
-    boolean useKlingonFont = sharedPrefs.getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */false);
+    boolean useKlingonFont =
+        sharedPrefs.getBoolean(
+            Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false);
     Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(getBaseContext());
     if (useKlingonFont) {
       // Preference is set to display this in {pIqaD}!
@@ -123,18 +120,19 @@ public class EntryActivity extends BaseActivity
       entryTitle.setText(entry.getEntryNameInKlingonFont());
     } else {
       // Boring transcription based on English (Latin) alphabet.
-      entryTitle.setText(Html.fromHtml(entry.getFormattedEntryName(/* isHtml */true)));
+      entryTitle.setText(Html.fromHtml(entry.getFormattedEntryName(/* isHtml */ true)));
     }
     mEntryName = entry.getEntryName();
 
     // Set the colour for the entry name depending on its part of speech.
-    boolean useColours = sharedPrefs.getBoolean(Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */true);
+    boolean useColours =
+        sharedPrefs.getBoolean(Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */ true);
     if (useColours) {
       entryTitle.setTextColor(entry.getTextColor());
     }
 
     // Create the expanded definition.
-    String pos = entry.getFormattedPartOfSpeech(/* isHtml */false);
+    String pos = entry.getFormattedPartOfSpeech(/* isHtml */ false);
     String expandedDefinition = pos;
 
     // Determine whether to show the German definition. If shown, it is primary, and the English definition is shown as secondary.
@@ -199,15 +197,15 @@ public class EntryActivity extends BaseActivity
       // Treat the components column of inherent plurals and their
       // singulars differently than for other entries.
       if (entry.isInherentPlural()) {
-        expandedDefinition += "\n\n"
-                + String.format(resources.getString(R.string.info_inherent_plural), components);
+        expandedDefinition +=
+            "\n\n" + String.format(resources.getString(R.string.info_inherent_plural), components);
       } else if (entry.isSingularFormOfInherentPlural()) {
-        expandedDefinition += "\n\n"
-                + String.format(resources.getString(R.string.info_singular_form), components);
+        expandedDefinition +=
+            "\n\n" + String.format(resources.getString(R.string.info_singular_form), components);
       } else if (!showAnalysis) {
         // This is just a regular list of components.
-        expandedDefinition += "\n\n" + resources.getString(R.string.label_components) + ": "
-                + components;
+        expandedDefinition +=
+            "\n\n" + resources.getString(R.string.label_components) + ": " + components;
       }
     }
 
@@ -225,8 +223,12 @@ public class EntryActivity extends BaseActivity
       String sentenceType = entry.getSentenceType();
       if (!sentenceType.equals("")) {
         // Put the query as a placeholder for the actual category.
-        expandedDefinition += "\n\n" + resources.getString(R.string.label_category) + ": {"
-                + entry.getSentenceTypeQuery() + "}";
+        expandedDefinition +=
+            "\n\n"
+                + resources.getString(R.string.label_category)
+                + ": {"
+                + entry.getSentenceTypeQuery()
+                + "}";
       }
     }
 
@@ -240,11 +242,11 @@ public class EntryActivity extends BaseActivity
         if (homophoneNumber != -1) {
           analysisQuery += ":" + homophoneNumber;
         }
-        analysisQuery += KlingonContentProvider.Entry.COMPONENTS_MARKER
-                + components.replaceAll("[{}]", "");
+        analysisQuery +=
+            KlingonContentProvider.Entry.COMPONENTS_MARKER + components.replaceAll("[{}]", "");
       }
-      expandedDefinition += "\n\n" + resources.getString(R.string.label_analyze) + ": {"
-              + analysisQuery + "}";
+      expandedDefinition +=
+          "\n\n" + resources.getString(R.string.label_analyze) + ": {" + analysisQuery + "}";
     }
 
     // Show the examples.
@@ -262,8 +264,8 @@ public class EntryActivity extends BaseActivity
     // If this is a verb (but not a prefix or suffix), show the transitivity information.
     String transitivity = "";
     if (entry.isVerb()
-            && sharedPrefs.getBoolean(Preferences.KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE, /* default */
-                    true)) {
+        && sharedPrefs.getBoolean(
+            Preferences.KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE, /* default */ true)) {
       // This is a verb and show transitivity preference is set to true.
       transitivity = entry.getTransitivityString();
     }
@@ -277,14 +279,14 @@ public class EntryActivity extends BaseActivity
 
     // Show the hidden notes.
     String hiddenNotes = "";
-    if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE, /* default */
-            true)) {
+    if (sharedPrefs.getBoolean(
+        Preferences.KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE, /* default */ true)) {
       // Show additional information preference set to true.
       hiddenNotes = entry.getHiddenNotes();
     }
     int hiddenNotesStart = -1;
-    String hiddenNotesHeader = "\n\n" + resources.getString(R.string.label_additional_information)
-            + ": ";
+    String hiddenNotesHeader =
+        "\n\n" + resources.getString(R.string.label_additional_information) + ": ";
     if (!hiddenNotes.equals("")) {
       hiddenNotesStart = expandedDefinition.length();
       expandedDefinition += hiddenNotesHeader + hiddenNotes;
@@ -301,19 +303,27 @@ public class EntryActivity extends BaseActivity
     }
     if (displayGermanEntry) {
       // Reduce the size of the secondary (English) definition.
-      ssb.setSpan(new RelativeSizeSpan(smallTextScale), englishDefinitionStart,
-              englishDefinitionStart + englishDefinitionHeader.length() + englishDefinition.length(),
-              finalFlags);
+      ssb.setSpan(
+          new RelativeSizeSpan(smallTextScale),
+          englishDefinitionStart,
+          englishDefinitionStart + englishDefinitionHeader.length() + englishDefinition.length(),
+          finalFlags);
     }
     if (showTransitivityInformation) {
       // Reduce the size of the transitivity information.
-      ssb.setSpan(new RelativeSizeSpan(smallTextScale), transitivityStart, transitivityStart
-              + transitivityHeader.length() + transitivity.length(), finalFlags);
+      ssb.setSpan(
+          new RelativeSizeSpan(smallTextScale),
+          transitivityStart,
+          transitivityStart + transitivityHeader.length() + transitivity.length(),
+          finalFlags);
     }
     if (!hiddenNotes.equals("")) {
       // Reduce the size of the hidden notes.
-      ssb.setSpan(new RelativeSizeSpan(smallTextScale), hiddenNotesStart, hiddenNotesStart
-              + hiddenNotesHeader.length() + hiddenNotes.length(), finalFlags);
+      ssb.setSpan(
+          new RelativeSizeSpan(smallTextScale),
+          hiddenNotesStart,
+          hiddenNotesStart + hiddenNotesHeader.length() + hiddenNotes.length(),
+          finalFlags);
     }
     Matcher m = KlingonContentProvider.Entry.ENTRY_PATTERN.matcher(expandedDefinition);
     while (m.find()) {
@@ -323,8 +333,8 @@ public class EntryActivity extends BaseActivity
       LookupClickableSpan viewLauncher = new LookupClickableSpan(query);
 
       // Process the linked entry information.
-      KlingonContentProvider.Entry linkedEntry = new KlingonContentProvider.Entry(query,
-              getBaseContext());
+      KlingonContentProvider.Entry linkedEntry =
+          new KlingonContentProvider.Entry(query, getBaseContext());
       // Log.d(TAG, "linkedEntry.getEntryName() = " + linkedEntry.getEntryName());
 
       // Delete the brackets and metadata parts of the string (which includes analysis components).
@@ -333,8 +343,9 @@ public class EntryActivity extends BaseActivity
       int end = m.start() + linkedEntry.getEntryName().length();
 
       // Insert link to the category for a useful phrase.
-      if (entry.isSentence() && !entry.getSentenceType().equals("")
-              && linkedEntry.getEntryName().equals("*")) {
+      if (entry.isSentence()
+          && !entry.getSentenceType().equals("")
+          && linkedEntry.getEntryName().equals("*")) {
         // Delete the "*" placeholder.
         ssb.delete(m.start(), m.start() + 1);
 
@@ -345,8 +356,8 @@ public class EntryActivity extends BaseActivity
 
       // Set the font and link.
       // This is true if this entry doesn't launch an EntryActivity.
-      boolean disableEntryLink = linkedEntry.doNotLink() || linkedEntry.isSource()
-              || linkedEntry.isURL();
+      boolean disableEntryLink =
+          linkedEntry.doNotLink() || linkedEntry.isSource() || linkedEntry.isURL();
       // The last span set on a range must have finalFlags.
       int maybeFinalFlags = disableEntryLink ? finalFlags : intermediateFlags;
       if (linkedEntry.isSource()) {
@@ -356,8 +367,8 @@ public class EntryActivity extends BaseActivity
           ssb.setSpan(new URLSpan(url), m.start(), end, intermediateFlags);
         }
         // Names of sources are in italics.
-        ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC), m.start(), end,
-                maybeFinalFlags);
+        ssb.setSpan(
+            new StyleSpan(android.graphics.Typeface.ITALIC), m.start(), end, maybeFinalFlags);
       } else if (linkedEntry.isURL()) {
         // Linkify URL if there is one.
         String url = linkedEntry.getURL();
@@ -367,24 +378,25 @@ public class EntryActivity extends BaseActivity
       } else if (useKlingonFont) {
         // Display the text using the Klingon font. Categories (which have an entry of "*") must
         // be handled specially.
-        String klingonEntryName = !linkedEntry.getEntryName().equals("*") ?
-            linkedEntry.getEntryNameInKlingonFont() :
-            KlingonContentProvider.convertStringToKlingonFont(entry.getSentenceType());
+        String klingonEntryName =
+            !linkedEntry.getEntryName().equals("*")
+                ? linkedEntry.getEntryNameInKlingonFont()
+                : KlingonContentProvider.convertStringToKlingonFont(entry.getSentenceType());
         ssb.delete(m.start(), end);
         ssb.insert(m.start(), klingonEntryName);
         end = m.start() + klingonEntryName.length();
         ssb.setSpan(new KlingonTypefaceSpan("", klingonTypeface), m.start(), end, maybeFinalFlags);
       } else {
         // Klingon is in bold serif.
-        ssb.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), m.start(), end,
-                intermediateFlags);
+        ssb.setSpan(
+            new StyleSpan(android.graphics.Typeface.BOLD), m.start(), end, intermediateFlags);
         ssb.setSpan(new TypefaceSpan("serif"), m.start(), end, maybeFinalFlags);
       }
       // If linked entry is hypothetical or extended canon, insert a "?" in front.
       if (linkedEntry.isHypothetical() || linkedEntry.isExtendedCanon()) {
         ssb.insert(m.start(), "?");
-        ssb.setSpan(new RelativeSizeSpan(smallTextScale), m.start(), m.start() + 1,
-                intermediateFlags);
+        ssb.setSpan(
+            new RelativeSizeSpan(smallTextScale), m.start(), m.start() + 1, intermediateFlags);
         ssb.setSpan(new SuperscriptSpan(), m.start(), m.start() + 1, maybeFinalFlags);
         end++;
       }
@@ -403,9 +415,10 @@ public class EntryActivity extends BaseActivity
         //     ssb.removeSpan(span);
         //   }
         // }
-        ssb.setSpan(new ForegroundColorSpan(linkedEntry.getTextColor()), m.start(), end, finalFlags);
+        ssb.setSpan(
+            new ForegroundColorSpan(linkedEntry.getTextColor()), m.start(), end, finalFlags);
       }
-      String linkedPos = linkedEntry.getBracketedPartOfSpeech(/* isHtml */false);
+      String linkedPos = linkedEntry.getBracketedPartOfSpeech(/* isHtml */ false);
       if (!linkedPos.equals("") && linkedPos.length() > 1) {
         ssb.insert(end, linkedPos);
 
@@ -413,8 +426,11 @@ public class EntryActivity extends BaseActivity
         if (rightBracketLoc != -1) {
           // linkedPos is always of the form " (pos)[ (def'n N)]", we want to italicise
           // the "pos" part only.
-          ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC), end + 2, end
-                  + rightBracketLoc, finalFlags);
+          ssb.setSpan(
+              new StyleSpan(android.graphics.Typeface.ITALIC),
+              end + 2,
+              end + rightBracketLoc,
+              finalFlags);
         }
       }
 
@@ -431,14 +447,14 @@ public class EntryActivity extends BaseActivity
 
   @Override
   protected void onDestroy() {
-      // TTS:
-      // Don't forget to shutdown!
-      // Log.d(TAG, "Shutting down TTS");
-      if (mTts != null) {
-          mTts.stop();
-          mTts.shutdown();
-      }
-      super.onDestroy();
+    // TTS:
+    // Don't forget to shutdown!
+    // Log.d(TAG, "Shutting down TTS");
+    if (mTts != null) {
+      mTts.stop();
+      mTts.shutdown();
+    }
+    super.onDestroy();
   }
 
   /*
@@ -453,7 +469,8 @@ public class EntryActivity extends BaseActivity
   public boolean onCreateOptionsMenu(Menu menu) {
     super.onCreateOptionsMenu(menu);
     MenuItem shareButton = menu.findItem(R.id.share);
-    ShareActionProvider shareActionProvider = (ShareActionProvider) MenuItemCompat.getActionProvider(shareButton);
+    ShareActionProvider shareActionProvider =
+        (ShareActionProvider) MenuItemCompat.getActionProvider(shareButton);
 
     if (shareActionProvider != null && mShareEntryIntent != null) {
       // Enable "Share" button.
@@ -482,20 +499,21 @@ public class EntryActivity extends BaseActivity
     Resources resources = getResources();
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
     mShareEntryIntent = new Intent(Intent.ACTION_SEND);
-    if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
-      mShareEntryIntent.putExtra(Intent.EXTRA_TITLE,
-              resources.getString(R.string.share_popup_title_tlh));
+    if (sharedPrefs.getBoolean(
+        Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+      mShareEntryIntent.putExtra(
+          Intent.EXTRA_TITLE, resources.getString(R.string.share_popup_title_tlh));
     } else {
-      mShareEntryIntent.putExtra(Intent.EXTRA_TITLE,
-              resources.getString(R.string.share_popup_title));
+      mShareEntryIntent.putExtra(
+          Intent.EXTRA_TITLE, resources.getString(R.string.share_popup_title));
     }
 
     mShareEntryIntent.setType("text/plain");
-    String subject = "{" + entry.getFormattedEntryName(/* isHtml */false) + "}";
+    String subject = "{" + entry.getFormattedEntryName(/* isHtml */ false) + "}";
     mShareEntryIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
-    String snippet = subject + "\n" + entry.getFormattedDefinition(/* isHtml */false);
-    mShareEntryIntent.putExtra(Intent.EXTRA_TEXT,
-            snippet + "\n\n" + resources.getString(R.string.shared_from));
+    String snippet = subject + "\n" + entry.getFormattedDefinition(/* isHtml */ false);
+    mShareEntryIntent.putExtra(
+        Intent.EXTRA_TEXT, snippet + "\n\n" + resources.getString(R.string.shared_from));
   }
 
   // Private class for handling clickable spans.
@@ -526,44 +544,48 @@ public class EntryActivity extends BaseActivity
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
     if (item.getItemId() == R.id.float_mode) {
-        // Minimize the app and cause it to "float".
-        Log.d(TAG, "Show floating window.");
-        StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
-        String query;
-        if (mParentQuery != null && !mParentQuery.equals("") &&
-            mParentQuery.indexOf('*') == -1) {
-          // If we have the parent query, it overrides this entry.
-          query = mParentQuery;
-        } else {
-          // Otherwise, just use this entry's name.
-          query = mEntryName;
-        }
-        int colonLoc = query.indexOf(':');
-        if (colonLoc != -1) {
-          query = query.substring(0, colonLoc);
-        }
-        if (!query.equals("")) {
-          // If we have a non-empty query, pass it along.
-          Bundle data = new Bundle();
-          data.putString("query", query);
-          StandOutWindow.sendData(getBaseContext(), FloatingWindow.class,
-              StandOutWindow.DEFAULT_ID, DATA_CHANGED_QUERY, data,
-              FloatingWindow.class, StandOutWindow.DEFAULT_ID);
-        }
+      // Minimize the app and cause it to "float".
+      Log.d(TAG, "Show floating window.");
+      StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
+      String query;
+      if (mParentQuery != null && !mParentQuery.equals("") && mParentQuery.indexOf('*') == -1) {
+        // If we have the parent query, it overrides this entry.
+        query = mParentQuery;
+      } else {
+        // Otherwise, just use this entry's name.
+        query = mEntryName;
+      }
+      int colonLoc = query.indexOf(':');
+      if (colonLoc != -1) {
+        query = query.substring(0, colonLoc);
+      }
+      if (!query.equals("")) {
+        // If we have a non-empty query, pass it along.
+        Bundle data = new Bundle();
+        data.putString("query", query);
+        StandOutWindow.sendData(
+            getBaseContext(),
+            FloatingWindow.class,
+            StandOutWindow.DEFAULT_ID,
+            DATA_CHANGED_QUERY,
+            data,
+            FloatingWindow.class,
+            StandOutWindow.DEFAULT_ID);
+      }
 
-        // Broadcast the kill order to finish all non-floating activities.
-        Log.d(TAG, "Broadcast kill order to non-floating window.");
-        Intent intent = new Intent(ACTION_KILL);
-        intent.setType(KILL_TYPE);
-        sendBroadcast(intent);
-        return true;
+      // Broadcast the kill order to finish all non-floating activities.
+      Log.d(TAG, "Broadcast kill order to non-floating window.");
+      Intent intent = new Intent(ACTION_KILL);
+      intent.setType(KILL_TYPE);
+      sendBroadcast(intent);
+      return true;
     } else if (item.getItemId() == R.id.speak) {
-        // TTS:
-        if (mEntryName != null) {
-            // Log.d(TAG, "Speaking");
-            // Toast.makeText(getBaseContext(), mEntryName, Toast.LENGTH_LONG).show();
-            mTts.speak(mEntryName, TextToSpeech.QUEUE_FLUSH, null);
-        }
+      // TTS:
+      if (mEntryName != null) {
+        // Log.d(TAG, "Speaking");
+        // Toast.makeText(getBaseContext(), mEntryName, Toast.LENGTH_LONG).show();
+        mTts.speak(mEntryName, TextToSpeech.QUEUE_FLUSH, null);
+      }
     }
     return super.onOptionsItemSelected(item);
   }
@@ -571,30 +593,29 @@ public class EntryActivity extends BaseActivity
   // TTS:
   // Implements TextToSpeech.OnInitListener.
   public void onInit(int status) {
-      // status can be either TextToSpeech.SUCCESS or TextToSpeech.ERROR.
-      if (status == TextToSpeech.SUCCESS) {
-          // Set preferred language to Canadian Klingon.
-          // Note that a language may not be available, and the result will indicate this.
-          int result = mTts.setLanguage(new Locale("tlh", "", ""));
-          if (result == TextToSpeech.LANG_MISSING_DATA ||
-              result == TextToSpeech.LANG_NOT_SUPPORTED) {
-             // Lanuage data is missing or the language is not supported.
-              Log.e(TAG, "Language is not available.");
-          } else {
-              // Check the documentation for other possible result codes.
-              // For example, the language may be available for the locale,
-              // but not for the specified country and variant.
-
-              // The TTS engine has been successfully initialized.
-              ttsInitialized = true;
-              if (mSpeakButton != null) {
-                // Log.d(TAG, "enabling TTS button in onInit");
-                mSpeakButton.setVisible(true);
-              }
-          }
+    // status can be either TextToSpeech.SUCCESS or TextToSpeech.ERROR.
+    if (status == TextToSpeech.SUCCESS) {
+      // Set preferred language to Canadian Klingon.
+      // Note that a language may not be available, and the result will indicate this.
+      int result = mTts.setLanguage(new Locale("tlh", "", ""));
+      if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+        // Lanuage data is missing or the language is not supported.
+        Log.e(TAG, "Language is not available.");
       } else {
-          // Initialization failed.
-          Log.e(TAG, "Could not initialize TextToSpeech.");
+        // Check the documentation for other possible result codes.
+        // For example, the language may be available for the locale,
+        // but not for the specified country and variant.
+
+        // The TTS engine has been successfully initialized.
+        ttsInitialized = true;
+        if (mSpeakButton != null) {
+          // Log.d(TAG, "enabling TTS button in onInit");
+          mSpeakButton.setVisible(true);
+        }
       }
+    } else {
+      // Initialization failed.
+      Log.e(TAG, "Could not initialize TextToSpeech.");
+    }
   }
 }

@@ -16,11 +16,7 @@
 
 package org.tlhInganHol.android.klingonassistant;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.app.SearchManager;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
@@ -31,9 +27,9 @@ import android.preference.PreferenceManager;
 import android.support.v4.content.CursorLoader;
 import android.text.Editable;
 import android.text.Html;
+import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.Log;
-import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,8 +38,9 @@ import android.widget.BaseAdapter;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.TwoLineListItem;
+import java.util.ArrayList;
+import java.util.List;
 import wei.mark.standout.StandOutWindow;
 import wei.mark.standout.constants.StandOutFlags;
 import wei.mark.standout.ui.Window;
@@ -52,8 +49,8 @@ public class FloatingWindow extends StandOutWindow {
   private static final String TAG = "FloatingWindow";
 
   // The two main views in float mode.
-  private EditText            mEditText;
-  private ListView            mListView;
+  private EditText mEditText;
+  private ListView mListView;
 
   @Override
   public String getAppName() {
@@ -89,19 +86,19 @@ public class FloatingWindow extends StandOutWindow {
 
   @Override
   public StandOutLayoutParams getParams(int id, Window window) {
-    return new StandOutLayoutParams(id, 400, 300, StandOutLayoutParams.CENTER,
-            StandOutLayoutParams.CENTER, 200, 100);
+    return new StandOutLayoutParams(
+        id, 400, 300, StandOutLayoutParams.CENTER, StandOutLayoutParams.CENTER, 200, 100);
   }
 
   @Override
   public int getFlags(int id) {
     return StandOutFlags.FLAG_DECORATION_SYSTEM
-            | StandOutFlags.FLAG_DECORATION_CLOSE_DISABLE
-            | StandOutFlags.FLAG_DECORATION_MAXIMIZE_DISABLE
-            | StandOutFlags.FLAG_BODY_MOVE_ENABLE
-            // | StandOutFlags.FLAG_WINDOW_HIDE_ENABLE
-            | StandOutFlags.FLAG_WINDOW_BRING_TO_FRONT_ON_TAP
-            | StandOutFlags.FLAG_WINDOW_EDGE_LIMITS_ENABLE;
+        | StandOutFlags.FLAG_DECORATION_CLOSE_DISABLE
+        | StandOutFlags.FLAG_DECORATION_MAXIMIZE_DISABLE
+        | StandOutFlags.FLAG_BODY_MOVE_ENABLE
+        // | StandOutFlags.FLAG_WINDOW_HIDE_ENABLE
+        | StandOutFlags.FLAG_WINDOW_BRING_TO_FRONT_ON_TAP
+        | StandOutFlags.FLAG_WINDOW_EDGE_LIMITS_ENABLE;
   }
 
   @Override
@@ -138,31 +135,35 @@ public class FloatingWindow extends StandOutWindow {
   @Override
   public List<DropDownListItem> getDropDownItems(int id) {
     List<DropDownListItem> items = new ArrayList<DropDownListItem>();
-    items.add(new DropDownListItem(0, "Restore", new Runnable() {
+    items.add(
+        new DropDownListItem(
+            0,
+            "Restore",
+            new Runnable() {
 
-      @Override
-      public void run() {
-        String query = mEditText.getText().toString();
-        Intent intent = new Intent(FloatingWindow.this, KlingonAssistant.class);
-        // This needs to be set since this is called outside of an activity.
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+              @Override
+              public void run() {
+                String query = mEditText.getText().toString();
+                Intent intent = new Intent(FloatingWindow.this, KlingonAssistant.class);
+                // This needs to be set since this is called outside of an activity.
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
-        // Starting as a main intent is needed to force the menudrawer to load.
-        intent.setAction(Intent.ACTION_MAIN);
-        startActivity(intent);
-        if (!query.equals("")) {
-          intent.setAction(Intent.ACTION_SEARCH);
-          intent.putExtra(SearchManager.QUERY, query);
-          startActivity(intent);
-        }
-      }
-    }));
+                // Starting as a main intent is needed to force the menudrawer to load.
+                intent.setAction(Intent.ACTION_MAIN);
+                startActivity(intent);
+                if (!query.equals("")) {
+                  intent.setAction(Intent.ACTION_SEARCH);
+                  intent.putExtra(SearchManager.QUERY, query);
+                  startActivity(intent);
+                }
+              }
+            }));
     return items;
   }
 
   @Override
-  public void onReceiveData(int id, int requestCode, Bundle data,
-      Class<? extends StandOutWindow> fromCls, int fromId) {
+  public void onReceiveData(
+      int id, int requestCode, Bundle data, Class<? extends StandOutWindow> fromCls, int fromId) {
     switch (requestCode) {
       case BaseActivity.DATA_CHANGED_QUERY:
         Window window = getWindow(id);
@@ -184,12 +185,10 @@ public class FloatingWindow extends StandOutWindow {
   // Helper class to watch the search text.
   class SearchTextWatcher implements TextWatcher {
     @Override
-    public void onTextChanged(CharSequence s, int start, int before, int count) {
-    }
+    public void onTextChanged(CharSequence s, int start, int before, int count) {}
 
     @Override
-    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-    }
+    public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
 
     @Override
     public void afterTextChanged(Editable s) {
@@ -199,13 +198,20 @@ public class FloatingWindow extends StandOutWindow {
         return;
       }
 
-      CursorLoader cursorLoader = new CursorLoader(getBaseContext(),
-            Uri.parse(KlingonContentProvider.CONTENT_URI + "/lookup"),
-            null /* all columns */, null, new String[] { query }, null);
+      CursorLoader cursorLoader =
+          new CursorLoader(
+              getBaseContext(),
+              Uri.parse(KlingonContentProvider.CONTENT_URI + "/lookup"),
+              null /* all columns */,
+              null,
+              new String[] {query},
+              null);
       Cursor cursor = cursorLoader.loadInBackground();
 
-      KlingonContentProvider.Entry queryEntry = new KlingonContentProvider.Entry(query, getBaseContext());
-      String entryNameWithPoS = queryEntry.getEntryName() + queryEntry.getBracketedPartOfSpeech(/* isHtml */true);
+      KlingonContentProvider.Entry queryEntry =
+          new KlingonContentProvider.Entry(query, getBaseContext());
+      String entryNameWithPoS =
+          queryEntry.getEntryName() + queryEntry.getBracketedPartOfSpeech(/* isHtml */ true);
       Log.d(TAG, "entryNameWithPoS: " + entryNameWithPoS);
       Log.d(TAG, "cursor.getCount(): " + cursor.getCount());
 
@@ -237,7 +243,7 @@ public class FloatingWindow extends StandOutWindow {
   // TODO: This entire class is copied from KlingonAssistant. Merge the copies.
   class EntryAdapter extends BaseAdapter implements AdapterView.OnItemClickListener {
 
-    private final Cursor         mCursor;
+    private final Cursor mCursor;
     private final LayoutInflater mInflater;
 
     public EntryAdapter(Cursor cursor) {
@@ -262,16 +268,16 @@ public class FloatingWindow extends StandOutWindow {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-      TwoLineListItem view = (convertView != null) ? (TwoLineListItem) convertView
-              : createView(parent);
+      TwoLineListItem view =
+          (convertView != null) ? (TwoLineListItem) convertView : createView(parent);
       mCursor.moveToPosition(position);
       bindView(view, mCursor);
       return view;
     }
 
     private TwoLineListItem createView(ViewGroup parent) {
-      TwoLineListItem item = (TwoLineListItem) mInflater.inflate(
-              android.R.layout.simple_list_item_2, parent, false);
+      TwoLineListItem item =
+          (TwoLineListItem) mInflater.inflate(android.R.layout.simple_list_item_2, parent, false);
 
       // Set single line to true if you want shorter definitions.
       item.getText2().setSingleLine(false);
@@ -282,18 +288,21 @@ public class FloatingWindow extends StandOutWindow {
 
     private void bindView(TwoLineListItem view, Cursor cursor) {
       // Keep this in sync with KlingonAssistant's bindview.
-      KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor,
-              getBaseContext());
+      KlingonContentProvider.Entry entry =
+          new KlingonContentProvider.Entry(cursor, getBaseContext());
 
       // TODO: Format with different size.
       String indent1 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;" : "";
       String indent2 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" : "";
 
-      SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-      if (!sharedPrefs.getBoolean(Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */false)) {
+      SharedPreferences sharedPrefs =
+          PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+      if (!sharedPrefs.getBoolean(
+          Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
         // Use serif for the entry, so capital-I and lowercase-l are distinguishable.
         view.getText1().setTypeface(Typeface.SERIF);
-        view.getText1().setText(Html.fromHtml(indent1 + entry.getFormattedEntryName(/* isHtml */true)));
+        view.getText1()
+            .setText(Html.fromHtml(indent1 + entry.getFormattedEntryName(/* isHtml */ true)));
       } else {
         // Preference is set to display this in {pIqaD}!
         view.getText1().setTypeface(KlingonAssistant.getKlingonFontTypeface(getBaseContext()));
@@ -301,15 +310,17 @@ public class FloatingWindow extends StandOutWindow {
       }
 
       // TODO: Colour attached affixes differently from verb.
-      boolean useColours = sharedPrefs.getBoolean(Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */true);
+      boolean useColours =
+          sharedPrefs.getBoolean(
+              Preferences.KEY_USE_COLOURS_CHECKBOX_PREFERENCE, /* default */ true);
       if (useColours) {
         view.getText1().setTextColor(entry.getTextColor());
       }
 
       // Use sans serif for the definition.
       view.getText2().setTypeface(Typeface.SANS_SERIF);
-      view.getText2().setText(
-              Html.fromHtml(indent2 + entry.getFormattedDefinition(/* isHtml */true)));
+      view.getText2()
+          .setText(Html.fromHtml(indent2 + entry.getFormattedDefinition(/* isHtml */ true)));
     }
 
     @Override
@@ -318,5 +329,4 @@ public class FloatingWindow extends StandOutWindow {
       launchEntry(mCursor.getString(KlingonContentDatabase.COLUMN_ID));
     }
   }
-
 }
