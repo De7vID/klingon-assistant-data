@@ -16,10 +16,12 @@
 {chaH:n}/{bIH:n}:{chaH:n}/{bIH:n} = {0:v:pref,nolink}
 
 Note that the prefix for "they-him/her/it" is {lu-:v:pref}.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">he-none, she-none, it-none, he-him, he-her, he-it, she-him, she-her, she-it, he-them, she-them, it-them</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
@@ -34,6 +36,7 @@ Note that the prefix for "they-him/her/it" is {lu-:v:pref}.</column>
       <column name="notes">The noun formed with {-'a':n:suff,nolink} refers to something that is bigger, more important, or more powerful than the noun without the suffix.
 
 Note that the noun with {-'a':n:suff,nolink} need not be better than the bare noun in every possibly way, just in one way that is significant for that noun. For example, a {mIv'a':n} is not necessarily bigger in size than a {mIv:n:1}, and a {toy'wI''a':n} is probably worse off in many ways when compared to a {toy'wI':n}.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -58,6 +61,7 @@ Note that the noun with {-'a':n:suff,nolink} need not be better than the bare no
 ▶ {'uj'a':n}
 ▶ {'uQ'a':n}</column>
       <column name="search_tags">noun type 1</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.1:src}</column>
     </table>
     <table name="mem">
@@ -71,6 +75,7 @@ Note that the noun with {-'a':n:suff,nolink} need not be better than the bare no
       <column name="antonyms">{-'a':n}</column>
       <column name="see_also"></column>
       <column name="notes">The noun formed with {-Hom:n:suff,nolink} refers to something that is smaller, less important, or less powerful than the noun without the suffix.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -90,6 +95,7 @@ Note that the noun with {-'a':n:suff,nolink} need not be better than the bare no
 ▶ {yuQHom:n}
 ▶ {'echletHom:n}</column>
       <column name="search_tags">noun type 1</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.1:src}</column>
     </table>
     <table name="mem">
@@ -104,12 +110,14 @@ Note that the noun with {-'a':n:suff,nolink} need not be better than the bare no
       <column name="notes">This is a rarely used suffix, which is used to indicate endearment. It is usually attached to a word for a relative, or sometimes an animal such as a pet.
 
 It is suspected that a {qaghwI':n} is inserted before this suffix if the noun ends in a vowel, but no examples are known.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes">This sounds like the Cantonese word for "love" (愛).</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {SoSoy:n}
 ▶ {vavoy:n}</column>
       <column name="search_tags">noun type 1</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKDA 3.3.1:src}, [2] {KGT p.198:src}</column>
     </table>
     <table name="mem">
@@ -124,11 +132,13 @@ It is suspected that a {qaghwI':n} is inserted before this suffix if the noun en
       <column name="notes">This suffix is attached to a noun referring to beings capable of language when there is more than one of that type of being.
 
 Note that whether {-pu':n:suff,nolink} is used is a property of the noun, and not necessarily of the things it is referring to. For example, a group of Klingons rendered unable to speak, or a group of Klingon babies too young to understand language, would still be referred to as {tlhInganpu':n:nolink}.[2]</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {tlhInganpu':n:nolink} "Klingons"</column>
       <column name="search_tags">noun type 2</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.2:src}, [2] {KLI mailing list 1998.05.28:src}</column>
     </table>
     <table name="mem">
@@ -142,11 +152,13 @@ Note that whether {-pu':n:suff,nolink} is used is a property of the noun, and no
       <column name="antonyms"></column>
       <column name="see_also">{-mey:n}</column>
       <column name="notes">This suffix is used to form the plural of body parts, whether they belong to beings capable of language or to any other animal. However, if a body part becomes separated from a being and is transformed into something which is no longer primarily a body part, then {-mey:n:suff,nolink} is used instead. For example, the plural of {veDDIr:n} "pelt" is {veDDIrmey:n:nolink} rather than {veDDIrDu':n:nolink}.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {qamDu':n:nolink} "feet"</column>
       <column name="search_tags">noun type 2</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.2:src}</column>
     </table>
     <table name="mem">
@@ -162,6 +174,7 @@ Note that whether {-pu':n:suff,nolink} is used is a property of the noun, and no
       <column name="notes">When this suffix is used for beings capable of using language (see {-pu':n}), it adds the notion of "scattered all about" to the meaning. This suffix cannot be used for body parts (see {-Du':n}), but this rule is sometimes violated by poets.
 
 Some nouns are inherently plural in meaning, with singular forms which are utterly distinct. These inherently plural nouns are treated as grammatically singular, in that singular pronouns and verb prefixes are used for them. When the suffix {-mey:n:nolink} is applied to the singular forms of these nouns, the resulting plural word carries the connotation of "scattered all about".</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -170,6 +183,7 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
 ▶ {jatmey:n:nolink} "scattered tongues"
 ▶ {DoSmey:n:nolink} "targets scattered all about"</column>
       <column name="search_tags">noun type 2</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.2:src}</column>
     </table>
     <table name="mem">
@@ -182,11 +196,13 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This suffix indicates the noun is being used in a false or ironic fashion.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {rojqoq:n:nolink} "the so-called peace"</column>
       <column name="search_tags">noun type 3</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.3:src}</column>
     </table>
     <table name="mem">
@@ -200,11 +216,13 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This suffix indicates that the speaker thinks the object referred to by the noun is accurately described by it, but has some doubts.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {DujHey:n:nolink} "an apparent ship"</column>
       <column name="search_tags">noun type 3</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.3:src}</column>
     </table>
     <table name="mem">
@@ -217,11 +235,13 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">Ths suffix indicates that the speaker has no doubt that the object referred to by the noun is accurately described by it.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {Dujna':n:nolink} "a definite ship"</column>
       <column name="search_tags">noun type 3</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.3:src}</column>
     </table>
     <table name="mem">
@@ -234,10 +254,12 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="antonyms"></column>
       <column name="see_also">{-wI':n}, {jIH:n:1,pro}</column>
       <column name="notes">It is considered derogatory to use this suffix on a noun referring to a being capable of language.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 4</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.4:src}</column>
     </table>
     <table name="mem">
@@ -250,10 +272,12 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="antonyms"></column>
       <column name="see_also">{-wIj:n}, {jIH:n:1,pro}</column>
       <column name="notes">See under {-pu':n:suff} for an explanation of when a noun qualifies as a being capable of language.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 4</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.4:src}</column>
     </table>
     <table name="mem">
@@ -267,10 +291,12 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="antonyms"></column>
       <column name="see_also">{-ma':n}, {maH:n:2h,pro}</column>
       <column name="notes">It is considered derogatory to use this suffix on a noun referring to a being capable of language.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 4</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.4:src}</column>
     </table>
     <table name="mem">
@@ -284,10 +310,12 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="antonyms"></column>
       <column name="see_also">{-maj:n}, {maH:n:2h,pro}</column>
       <column name="notes">See under {-pu':n:suff} for an explanation of when a noun qualifies as a being capable of language.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 4</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.4:src}</column>
     </table>
     <table name="mem">
@@ -300,10 +328,12 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="antonyms"></column>
       <column name="see_also">{-lI':n}, {SoH:n}</column>
       <column name="notes">It is considered derogatory to use this suffix on a noun referring to a being capable of language.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 4</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.4:src}</column>
     </table>
     <table name="mem">
@@ -317,10 +347,12 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="antonyms"></column>
       <column name="see_also">{-lIj:n}, {SoH:n}</column>
       <column name="notes">See under {-pu':n:suff} for an explanation of when a noun qualifies as a being capable of language.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 4</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.4:src}</column>
     </table>
     <table name="mem">
@@ -333,10 +365,12 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="antonyms"></column>
       <column name="see_also">{-ra':n}, {tlhIH:n}</column>
       <column name="notes">It is considered derogatory to use this suffix on a noun referring to a being capable of language.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 4</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.4:src}</column>
     </table>
     <table name="mem">
@@ -349,10 +383,12 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="antonyms"></column>
       <column name="see_also">{-raj:n}, {tlhIH:n}</column>
       <column name="notes">See under {-pu':n:suff} for an explanation of when a noun qualifies as a being capable of language.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 4</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.4:src}</column>
     </table>
     <table name="mem">
@@ -366,10 +402,12 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="antonyms"></column>
       <column name="see_also">{'oH:n}, {ghaH:n}</column>
       <column name="notes"></column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 4</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.4:src}</column>
     </table>
     <table name="mem">
@@ -383,10 +421,12 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="antonyms"></column>
       <column name="see_also">{bIH:n}, {chaH:n}</column>
       <column name="notes"></column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 4</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.4:src}</column>
     </table>
     <table name="mem">
@@ -401,10 +441,12 @@ Some nouns are inherently plural in meaning, with singular forms which are utter
       <column name="notes">This indicates that the noun refers to an object which is nearby or which is the topic of the conversation.[1]
 
 For most words designating a fixed period of time, this suffix indicates the current such period: {DISvam:n:nolink} "the current year", {jarvam:n:nolink} "the current month", {Hoghvam:n:nolink} "the current week", etc. However, {jajvam:n} "the current day" is not quite interchangeable with {DaHjaj:n} "today".[2]</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 4</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.4:src}, [2] {msn 1997.06.29:src}</column>
     </table>
     <table name="mem">
@@ -417,10 +459,12 @@ For most words designating a fixed period of time, this suffix indicates the cur
       <column name="antonyms"></column>
       <column name="see_also">{-vam:n}</column>
       <column name="notes">This indicates that the noun refers to an object which is not nearby or which is brought up again as the topic of the conversation.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 4</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.4:src}</column>
     </table>
     <table name="mem">
@@ -438,10 +482,12 @@ For most words designating a fixed period of time, this suffix indicates the cur
 Some verbs have locative notions in their meanings, and care must be taken when using {-Daq:n:suff,nolink} with such verbs. See {ghoS:v:1} and {jaH:v} for more details. With verbs of shooting, such as {baH:v} and {bach:v}, {-Daq:n:suff,nolink} marks the target.
 
 When a verb is used adjectivally, this suffix and the other type 5 noun suffixes are attached to the verb rather than the noun. (According to {TKD 4.4:src}, when a verb is used in this way, it can have no other suffix except for {-qu':v:suff}. However, this has been contradicted by subsequent canon, e.g., {SuvwI' quvHa':n:nolink} from {HQ 12.3:src} and {Duj ngaDHa':n} from {KGT:src}).</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 5</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.5, 3.4, 4.4:src}, [2] {s.k 1998.03.23:src}</column>
     </table>
     <table name="mem">
@@ -454,10 +500,12 @@ When a verb is used adjectivally, this suffix and the other type 5 noun suffixes
       <column name="antonyms">{-Daq:n:suff}</column>
       <column name="see_also">{chegh:v}</column>
       <column name="notes">This suffix is used when the action is in a direction away from the noun to which it is attached.[1]  It can typically be used only for physical locations.[2]</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 5</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.5:src}, [2] {s.k 1998.03.23:src}</column>
     </table>
     <table name="mem">
@@ -470,10 +518,12 @@ When a verb is used adjectivally, this suffix and the other type 5 noun suffixes
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">There is a verb suffix {-mo':v} with the same meaning.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 5</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.5:src}</column>
     </table>
     <table name="mem">
@@ -490,10 +540,12 @@ When a verb is used adjectivally, this suffix and the other type 5 noun suffixes
 It is used to indicate the indirect object when the object is the recipient of the action. ({TKDA 6.8:src})
 
 See {qawmoH:v} for an explanation of how this suffix is used with the verb suffix {-moH:v}.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">noun type 5</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.5:src}</column>
     </table>
     <table name="mem">
@@ -514,6 +566,7 @@ To use {-'e':n:suff,nolink} on a series of nouns (i.e., nouns joined with one of
 In the Morskan dialect, this suffix is not used to mark the subject in "to be" constructions. If the suffix is used in such a sentence, it serves its usual function of emphasis.[5]
 
 Do not confuse this suffix with the pronoun {'e':n:pro}.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes">The example from {TKD:src} contains an error: the {jI-:sen:nolink} prefix was omitted by mistake.[1]
 
 In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
@@ -524,6 +577,7 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
 ▶ {cheng'e' DaH Sam!:sen:nolink} "Find Chang!" (clipped)[6]
 ▶ Paramount Pictures {malja' permey bIH:sen:nolink} Star Trek {pong'e' Deghmey'e' je.:sen:nolink}[7]</column>
       <column name="search_tags">noun type 5</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.3.5:src}, [2] {TKD 6.3:src}, [3] {TKDA 6.7:src}, [4] {HQ 4.2, p.5-6, Jun. 1995:src}, [5] {KGT p.23:src}, [6] {Star Trek VI:src}, [7] {SkyBox cards:src}</column>
     </table>
     <table name="mem">
@@ -536,10 +590,12 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">When this suffix is used, the verb prefix must indicate "no object".</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes">"Ego".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 1, I-me, you-you, he-him, she-her, it-it, we-us, they-them</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.1:src}</column>
     </table>
     <table name="mem">
@@ -553,10 +609,12 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This suffix is only used with plural subjects. When this suffix is used, the verb prefix must indicate "no object".</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 1, we-us, you-you, they-them</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.1:src}</column>
     </table>
     <table name="mem">
@@ -569,10 +627,12 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This suffix indicates that the subject needs to do the action.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 2</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.2:src}</column>
     </table>
     <table name="mem">
@@ -585,10 +645,12 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This suffix indicates that the subject is willing to perform the action.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 2</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.2:src}</column>
     </table>
     <table name="mem">
@@ -602,10 +664,12 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
       <column name="see_also"></column>
       <!-- This refers to both verb entries for {ghuS:v}. -->
       <column name="notes">The verb {ghuS:v} never takes the suffix {-rup:v:suff,nolink}.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 2</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.2:src}</column>
     </table>
     <table name="mem">
@@ -618,10 +682,12 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 2</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.2:src}</column>
     </table>
     <table name="mem">
@@ -634,10 +700,12 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">It is culturally taboo to use this suffix with a first person subject.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes">The unstated exception to the rule is that it is not taboo if {-vIp:v:suff,nolink} is negated with {-be':v:suff}, as illustrated by the sentences on {TKD:src} p.49.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 2</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.2:src}</column>
     </table>
     <table name="mem">
@@ -651,10 +719,12 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
       <column name="antonyms"></column>
       <column name="see_also">{choH:v}</column>
       <column name="notes">This suffix indicates that the action described by the verb involves a change from the state of affairs as it existed before the action took place. The English translation of this suffix may be "become" or "begin to".</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 3, become, begin to</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.3:src}</column>
     </table>
     <table name="mem">
@@ -667,10 +737,12 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This suffix implies that the action had been taking place, then stopped, and then began again.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 3</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.3:src}</column>
     </table>
     <table name="mem">
@@ -684,6 +756,7 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">See {qawmoH:v} for an example of how to use this with a verb which takes an object.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -695,6 +768,7 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
 ▶ {qorDu'Daj tuq 'oS Ha'quj'e' tuQbogh wo'rIv. tuQtaHvIS Hem. ghaHvaD quHDaj qawmoH.:sen:nolink} "The sash that Worf wears is a symbol of his family's house. He wears it proudly as a reminder of his heritage."[2]
 ▶ {Qo'noS tuqmey muvchuqmoH qeylIS:sen:nolink} "Kahless united the tribes of Kronos"[3]</column>
       <column name="search_tags">verb type 4</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.4:src}, [2] {SkyBox 20:src} (reprinted in {HQ 5.2, p.14, Jun. 1996:src}), [3] {paq'batlh p.179:src}</column>
     </table>
     <table name="mem">
@@ -708,11 +782,13 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
       <column name="antonyms"></column>
       <column name="see_also">{tu'lu':v}, {vay':n}</column>
       <column name="notes">This suffix indicates that the subject is unknown, indefinite, or general. It is used only with prefixes which normally indicate a third-person singular object ({vI-:v}, {Da-:v}, {wI-:v}, {bo-:v}, and {lu-:v}; and also {0:v:pref}). When used with this suffix, these prefixes change in meaning so that instead of indicating the person and number of the subject, they indicate the person and number of the object instead.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {batlh Daqawlu'taH.:sen} "You will be remembered with honor."</column>
       <column name="search_tags">verb type 5</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.5:src}</column>
     </table>
     <table name="mem">
@@ -726,10 +802,12 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
       <column name="antonyms"></column>
       <column name="see_also">{laH:n}</column>
       <column name="notes"></column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 5</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.5:src}</column>
     </table>
     <!-- According to KGT, the hybrids {-luH} and {-la'} are sometimes heard for expressing both indefinite subject and ability simultaneously, but this is considered ungrammatical, so these pseudo-suffixes have been left out. -->
@@ -746,12 +824,14 @@ In {HQ 4.2:src}, this suffix is also described as a focus marker.[4]</column>
       <column name="notes">When used with some verbs of fighting, this suffix implies that the fighting results in death (see {Suvchu':v}, {Hay'chu':v}).[2, p.49]
 
 When used with {chuH:v:1}, it means the target is actually hit by the thrown spear.[2, p.64]</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {lolchu':v}
 ▶ {HeDchu':v}</column>
       <column name="search_tags">verb type 6, completely, fully</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.6:src}, [2] {KGT:src}</column>
     </table>
     <table name="mem">
@@ -764,10 +844,12 @@ When used with {chuH:v:1}, it means the target is actually hit by the thrown spe
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 6</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.6:src}</column>
     </table>
     <table name="mem">
@@ -780,10 +862,12 @@ When used with {chuH:v:1}, it means the target is actually hit by the thrown spe
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This suffix indicates that the speaker thinks the assertion is obvious to the listener.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 6</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKDA 4.2.6:src}</column>
     </table>
     <table name="mem">
@@ -797,10 +881,12 @@ When used with {chuH:v:1}, it means the target is actually hit by the thrown spe
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This suffix expresses uncertainly on the speaker's part. It may be translated as "I think" or "I suspect".</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 6, suspect, think</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.6:src}</column>
     </table>
     <table name="mem">
@@ -813,10 +899,12 @@ When used with {chuH:v:1}, it means the target is actually hit by the thrown spe
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This suffix indicates that an action is completed.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 7</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.7:src}</column>
     </table>
     <table name="mem">
@@ -831,10 +919,12 @@ When used with {chuH:v:1}, it means the target is actually hit by the thrown spe
       <column name="notes">This suffix indicates that an action is completed, and the activity was deliberately undertaken.
 
 There is a special verbal construction, {rIntaH:v}, which denotes a similar meaning, but has the further connotation of finality.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 7</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.7:src}</column>
     </table>
     <table name="mem">
@@ -847,12 +937,14 @@ There is a special verbal construction, {rIntaH:v}, which denotes a similar mean
       <column name="antonyms"></column>
       <column name="see_also">{-vIS:v:suff}</column>
       <column name="notes">This suffix indicates that the action is ongoing.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {Duj tIvoqtaH.:sen}
 ▶ {wo' DevtaHjaj ghawran}[2]</column>
       <column name="search_tags">verb type 7, always</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.7:src}, [2] {KGT p.25:src}</column>
     </table>
     <table name="mem">
@@ -866,10 +958,12 @@ There is a special verbal construction, {rIntaH:v}, which denotes a similar mean
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This suffix indicates that the action is ongoing, and is proceeding towards a known goal or stopping point.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 7</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.7:src}</column>
     </table>
     <table name="mem">
@@ -884,11 +978,13 @@ There is a special verbal construction, {rIntaH:v}, which denotes a similar mean
       <column name="notes">This suffix is used infrequently by Klingons. It usually expresses extreme politeness or deference, and is used only in addressing a superior.[1]
 
 This suffix is also used with some verbs of fighting to indicate that the verb refers to a suicide attack. For example, {HIvneS} implies that suicide is part of the attack plan, and similarly, {HubneS} implies that suicide is part of the defense plan.[2]</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {jIlajneS.:sen}</column>
       <column name="search_tags">honourific, verb type 8</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.8:src}, [2] {KGT p.49:src}</column>
     </table>
     <table name="mem">
@@ -902,10 +998,12 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 9</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.9, 6.2.2:src}</column>
     </table>
     <table name="mem">
@@ -919,10 +1017,12 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 9</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.9, 6.2.2:src}</column>
     </table>
     <table name="mem">
@@ -935,11 +1035,13 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {jIjatlhpa' jatlh Hovmey.:sen}</column>
       <column name="search_tags">verb type 9</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.9, 6.2.2:src}</column>
     </table>
     <table name="mem">
@@ -952,10 +1054,12 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is always used with the type 7 suffix {-taH:v}.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 9</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.9, 6.2.2:src}</column>
     </table>
     <table name="mem">
@@ -968,10 +1072,12 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">There is a noun suffix {-mo':n} with the same meaning.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 9</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKDA 4.2.9:src}</column>
     </table>
     <table name="mem">
@@ -985,10 +1091,12 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 9</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.9, 6.2.3:src}</column>
     </table>
     <table name="mem">
@@ -1004,10 +1112,12 @@ This suffix is also used with some verbs of fighting to indicate that the verb r
       <column name="notes">The purpose clause always precedes the noun or verb whose purpose it is describing.[1]
 
 There is an article in {HQ 7.3:src} which examines {-meH:v:suff,nolink} clauses modifying nouns.[2]</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 9</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.9, 6.2.4:src}, [2] {HQ 7.3, p.6, Sept. 1998:src}</column>
     </table>
     <table name="mem">
@@ -1020,10 +1130,12 @@ There is an article in {HQ 7.3:src} which examines {-meH:v:suff,nolink} clauses 
       <column name="antonyms"></column>
       <column name="see_also">{HIja':excl}, {HISlaH:excl}, {ghobe':excl}</column>
       <column name="notes"></column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 9</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.2.9:src}</column>
     </table>
     <table name="mem">
@@ -1039,10 +1151,12 @@ There is an article in {HQ 7.3:src} which examines {-meH:v:suff,nolink} clauses 
       <column name="notes">This suffix expresses a desire or wish on the part of the speaker that something take place in the future.[1]
 
 This suffix is attached to the verb in toasts, which always comes last except in the dialects of {Sa'Qej Sep:n} and {noHva'Dut Sep:n}.[2]</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes">When this suffix is used, there is allegedly never a Type 7 aspect suffix.[1]  However, this "rule" is contradicted by canon, e.g., {wo' DevtaHjaj ghawran}.[2]</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 9</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKDA 4.2.9:src}, [2] {KGT p.25:src}</column>
     </table>
     <table name="mem">
@@ -1055,10 +1169,12 @@ This suffix is attached to the verb in toasts, which always comes last except in
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">verb type 9</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 3.2.2, 4.2.9:src}</column>
     </table>
     <table name="mem">
@@ -1072,6 +1188,7 @@ This suffix is attached to the verb in toasts, which always comes last except in
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This suffix is not generally used on a verb without another suffix, or on one with a prefix. When it is attached to a stative verb, it gives a meaning like "-ness", while on an active verb it means something like "-tion".[2]</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -1081,6 +1198,7 @@ This suffix is attached to the verb in toasts, which always comes last except in
 ▶ {naDqa'ghach} "re-commendation"[1]
 ▶ {tlhutlhtaHghach} "ongoing drinking", "the process of continuing to drink"[2]</column>
       <column name="search_tags">nominaliser, verb type 9</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKDA 4.2.9:src}, [2] {HQ 3.3, p.10-13, Sept. 1994:src}</column>
     </table>
     <table name="mem">
@@ -1094,11 +1212,13 @@ This suffix is attached to the verb in toasts, which always comes last except in
       <column name="see_also">{-Qo':v:suff}</column>
       <column name="notes">This follows the concept it negates. It cannot be used with imperatives (use {-Qo':v} instead)[1], but can be applied to verbs used as adjectives.[2]</column>
       <!-- Observation made by Qov, Feb. 2014: Even though {TKD:src} says that {-be':v:nolink} cannot be used with imperatives, it seems that this means only that it cannot be used to form negative imperatives. For example, a sentence such as {HIleghbe'moH:sen:nolink} might be possible. -->
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {wa'maH yIHmey lI'be'@@wa'maH:n, yIH:n, -mey:n, lI':v:1, -be':v} "ten useless tribbles"[2]</column>
       <column name="search_tags">rover, verb type R</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.3:src}, [2] {PK:src}</column>
     </table>
     <table name="mem">
@@ -1111,10 +1231,12 @@ This suffix is attached to the verb in toasts, which always comes last except in
       <column name="antonyms"></column>
       <column name="see_also">{-be':v:suff}, {Qo':excl}</column>
       <column name="notes">This suffix is used to denote refusal. It is also used in imperatives. It always occurs last, unless followed by a type 9 suffix.</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">rover, verb type R</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.3:src}</column>
     </table>
     <table name="mem">
@@ -1131,11 +1253,13 @@ This suffix is attached to the verb in toasts, which always comes last except in
 
 This suffix can be applied to some adverbials, but not to all of them.[2; 3] It can also be applied to verbs used as adjectives.[4]</column>
       <!-- There is a theory that while {-Ha':v:suff,nolink} can mean different things on different verbs, it has a fixed meaning for any particular verb. That meaning is determined by a greater degree of negativity than {-be':v:suff}. This theory has not be proven. -->
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {Duj ngaDHa':n} [4]</column>
       <column name="search_tags">rover, verb type R</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.3:src}, [2] {HQ 4.4, p.11:src}, [3] {qep'a' 2012:src} ({KLI mailing list 2012.08.30:src}), [4] {KGT:src}</column>
     </table>
     <table name="mem">
@@ -1150,10 +1274,12 @@ This suffix can be applied to some adverbials, but not to all of them.[2; 3] It 
       <column name="notes">This suffix emphasizes whatever immediately precedes it.
 
 It can follow verbs used adjectivally, in which case it means "very".</column>
+      <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags">rover, verb type R</column>
+      <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.3, 4.4:src}</column>
     </table>
   </database>
