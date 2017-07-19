@@ -769,7 +769,7 @@ public class KlingonContentProvider extends ContentProvider {
 
       // Get definition, and append German definition if appropriate.
       String definition = mDefinition;
-      if (shouldDisplayGerman()) {
+      if (shouldDisplayGermanDefinition()) {
         definition += " / " + getDefinition_DE();
       }
 
@@ -873,7 +873,7 @@ public class KlingonContentProvider extends ContentProvider {
     }
 
     // Returns true iff the German definition should displayed.
-    public boolean shouldDisplayGerman() {
+    public boolean shouldDisplayGermanDefinition() {
       SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
       if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */
               false)) {
@@ -881,6 +881,18 @@ public class KlingonContentProvider extends ContentProvider {
         // identical to the English.
         return mDefinition_DE != null && !mDefinition_DE.equals("")
                 && !mDefinition_DE.equals(mDefinition) && !isName();
+      } else {
+        return false;
+      }
+    }
+
+    // Returns true iff the German notes should be displayed.
+    public boolean shouldDisplayGermanNotes() {
+      SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
+      if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */
+              false)) {
+        // Show German definitions preference set to true and German definition is not empty.
+        return mNotes_DE != null && !mNotes_DE.equals("");
       } else {
         return false;
       }

@@ -139,7 +139,7 @@ public class EntryActivity extends BaseActivity
 
     // Show the German definition.
     String definition_DE = "";
-    boolean displayGermanEntry = entry.shouldDisplayGerman();
+    boolean displayGermanEntry = entry.shouldDisplayGermanDefinition();
     int germanDefinitionStart = -1;
     String germanDefinitionHeader = "\n" + resources.getString(R.string.label_german) + ": ";
     if (displayGermanEntry) {
@@ -152,7 +152,12 @@ public class EntryActivity extends BaseActivity
     setShareEntryIntent(entry);
 
     // Show the basic notes.
-    String notes = entry.getNotes();
+    String notes;
+    if (entry.shouldDisplayGermanNotes()) {
+      notes = entry.getNotes_DE();
+    } else {
+      notes = entry.getNotes();
+    }
     if (!notes.equals("")) {
       expandedDefinition += "\n\n" + notes;
     }
