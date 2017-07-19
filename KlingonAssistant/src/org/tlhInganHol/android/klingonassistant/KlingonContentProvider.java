@@ -770,7 +770,8 @@ public class KlingonContentProvider extends ContentProvider {
       // Get definition, and append German definition if appropriate.
       String definition = mDefinition;
       if (shouldDisplayGermanDefinition()) {
-        definition += " / " + getDefinition_DE();
+        // Display the German as the primary definition and the English as the secondary.
+        definition = getDefinition_DE() + " / " + definition;
       }
 
       // Replace brackets in definition with bold.

@@ -135,17 +135,21 @@ public class EntryActivity extends BaseActivity
 
     // Create the expanded definition.
     String pos = entry.getFormattedPartOfSpeech(/* isHtml */false);
-    String expandedDefinition = pos + entry.getDefinition();
+    String expandedDefinition = pos;
 
-    // Show the German definition.
-    String definition_DE = "";
+    // Determine whether to show the German definition. If shown, it is primary, and the English definition is shown as secondary.
+    String englishDefinition = entry.getDefinition();
     boolean displayGermanEntry = entry.shouldDisplayGermanDefinition();
-    int germanDefinitionStart = -1;
-    String germanDefinitionHeader = "\n" + resources.getString(R.string.label_german) + ": ";
-    if (displayGermanEntry) {
-      germanDefinitionStart = expandedDefinition.length();
-      definition_DE = entry.getDefinition_DE();
-      expandedDefinition += germanDefinitionHeader + definition_DE;
+    int englishDefinitionStart = -1;
+    String englishDefinitionHeader = "\n" + resources.getString(R.string.label_english) + ": ";
+    if (!displayGermanEntry) {
+      // The simple case: just the English definition.
+      expandedDefinition += englishDefinition;
+    } else {
+      // We display the German definition as the primary one, but keep track of the location of the English definition to change its font size later.
+      expandedDefinition += entry.getDefinition_DE();
+      englishDefinitionStart = expandedDefinition.length();
+      expandedDefinition += englishDefinitionHeader + englishDefinition;
     }
 
     // Set the share intent.
@@ -296,9 +300,9 @@ public class EntryActivity extends BaseActivity
       ssb.setSpan(new StyleSpan(android.graphics.Typeface.ITALIC), 0, pos.length(), finalFlags);
     }
     if (displayGermanEntry) {
-      // Reduce the size of the German definition.
-      ssb.setSpan(new RelativeSizeSpan(smallTextScale), germanDefinitionStart,
-              germanDefinitionStart + germanDefinitionHeader.length() + definition_DE.length(),
+      // Reduce the size of the secondary (English) definition.
+      ssb.setSpan(new RelativeSizeSpan(smallTextScale), englishDefinitionStart,
+              englishDefinitionStart + englishDefinitionHeader.length() + englishDefinition.length(),
               finalFlags);
     }
     if (showTransitivityInformation) {
