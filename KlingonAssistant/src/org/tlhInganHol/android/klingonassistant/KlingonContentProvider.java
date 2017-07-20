@@ -16,10 +16,6 @@
 
 package org.tlhInganHol.android.klingonassistant;
 
-import java.util.ArrayList;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import android.app.SearchManager;
 import android.content.ContentProvider;
 import android.content.ContentResolver;
@@ -34,48 +30,49 @@ import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.provider.BaseColumns;
 import android.util.Log;
+import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-/**
- * Provides access to the dictionary database.
- */
+/** Provides access to the dictionary database. */
 public class KlingonContentProvider extends ContentProvider {
-  private static final String     TAG                  = "KlingonContentProvider";
+  private static final String TAG = "KlingonContentProvider";
 
-  public static String            AUTHORITY            = "org.tlhInganHol.android.klingonassistant.KlingonContentProvider";
-  public static final Uri         CONTENT_URI          = Uri.parse("content://" + AUTHORITY);
+  public static String AUTHORITY =
+      "org.tlhInganHol.android.klingonassistant.KlingonContentProvider";
+  public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY);
 
   // MIME types used for searching entries or looking up a single definition
-  public static final String      ENTRIES_MIME_TYPE    = ContentResolver.CURSOR_DIR_BASE_TYPE
-                                                               + "/org.tlhInganHol.android.klingonassistant";
-  public static final String      DEFINITION_MIME_TYPE = ContentResolver.CURSOR_ITEM_BASE_TYPE
-                                                               + "/org.tlhInganHol.android.klingonassistant";
+  public static final String ENTRIES_MIME_TYPE =
+      ContentResolver.CURSOR_DIR_BASE_TYPE + "/org.tlhInganHol.android.klingonassistant";
+  public static final String DEFINITION_MIME_TYPE =
+      ContentResolver.CURSOR_ITEM_BASE_TYPE + "/org.tlhInganHol.android.klingonassistant";
 
   /**
    * The columns we'll include in our search suggestions. There are others that could be used to
    * further customize the suggestions, see the docs in {@link SearchManager} for the details on
    * additional columns that are supported.
    */
-  private static final String[]   SUGGESTION_COLUMNS   = {
-          BaseColumns._ID, // must include this column
-          SearchManager.SUGGEST_COLUMN_TEXT_1, SearchManager.SUGGEST_COLUMN_TEXT_2,
-          SearchManager.SUGGEST_COLUMN_INTENT_DATA,
-                                                       // SearchManager.SUGGEST_COLUMN_INTENT_DATA_ID,
-                                                       };
+  private static final String[] SUGGESTION_COLUMNS = {
+    BaseColumns._ID, // must include this column
+    SearchManager.SUGGEST_COLUMN_TEXT_1,
+    SearchManager.SUGGEST_COLUMN_TEXT_2,
+    SearchManager.SUGGEST_COLUMN_INTENT_DATA,
+    // SearchManager.SUGGEST_COLUMN_INTENT_DATA_ID,
+  };
 
   // The actual Klingon Content Database.
-  private KlingonContentDatabase  mContentDatabase;
+  private KlingonContentDatabase mContentDatabase;
 
   // UriMatcher stuff
-  private static final int        SEARCH_ENTRIES       = 0;
-  private static final int        GET_ENTRY            = 1;
-  private static final int        SEARCH_SUGGEST       = 2;
-  private static final int        REFRESH_SHORTCUT     = 3;
-  private static final int        GET_ENTRY_BY_ID      = 4;
-  private static final UriMatcher sURIMatcher          = buildUriMatcher();
+  private static final int SEARCH_ENTRIES = 0;
+  private static final int GET_ENTRY = 1;
+  private static final int SEARCH_SUGGEST = 2;
+  private static final int REFRESH_SHORTCUT = 3;
+  private static final int GET_ENTRY_BY_ID = 4;
+  private static final UriMatcher sURIMatcher = buildUriMatcher();
 
-  /**
-   * Builds up a UriMatcher for search suggestion and shortcut refresh queries.
-   */
+  /** Builds up a UriMatcher for search suggestion and shortcut refresh queries. */
   private static UriMatcher buildUriMatcher() {
     UriMatcher matcher = new UriMatcher(UriMatcher.NO_MATCH);
     // to get definitions...
@@ -113,37 +110,37 @@ public class KlingonContentProvider extends ContentProvider {
    * arguments are ignored.
    */
   @Override
-  public Cursor query(Uri uri, String[] projection, String selection, String[] selectionArgs,
-          String sortOrder) {
+  public Cursor query(
+      Uri uri, String[] projection, String selection, String[] selectionArgs, String sortOrder) {
 
     // Use the UriMatcher to see what kind of query we have and format the db query accordingly
     switch (sURIMatcher.match(uri)) {
-    case SEARCH_SUGGEST:
-      // Uri has SUGGEST_URI_PATH_QUERY, i.e., "search_suggest_query".
-      if (selectionArgs == null) {
-        throw new IllegalArgumentException("selectionArgs must be provided for the Uri: " + uri);
-      }
-      return getSuggestions(selectionArgs[0]);
-    case SEARCH_ENTRIES:
-      // Uri has "/lookup".
-      if (selectionArgs == null) {
-        throw new IllegalArgumentException("selectionArgs must be provided for the Uri: " + uri);
-      }
-      return search(selectionArgs[0]);
-    case GET_ENTRY:
-      return getEntry(uri);
-    case REFRESH_SHORTCUT:
-      return refreshShortcut(uri);
-    case GET_ENTRY_BY_ID:
-      // This case was added to allow getting the entry by its id.
-      String entryId = null;
-      if (uri.getPathSegments().size() > 1) {
-        entryId = uri.getLastPathSegment();
-      }
-      // Log.d(TAG, "entryId = " + entryId);
-      return getEntryById(entryId, projection);
-    default:
-      throw new IllegalArgumentException("Unknown Uri: " + uri);
+      case SEARCH_SUGGEST:
+        // Uri has SUGGEST_URI_PATH_QUERY, i.e., "search_suggest_query".
+        if (selectionArgs == null) {
+          throw new IllegalArgumentException("selectionArgs must be provided for the Uri: " + uri);
+        }
+        return getSuggestions(selectionArgs[0]);
+      case SEARCH_ENTRIES:
+        // Uri has "/lookup".
+        if (selectionArgs == null) {
+          throw new IllegalArgumentException("selectionArgs must be provided for the Uri: " + uri);
+        }
+        return search(selectionArgs[0]);
+      case GET_ENTRY:
+        return getEntry(uri);
+      case REFRESH_SHORTCUT:
+        return refreshShortcut(uri);
+      case GET_ENTRY_BY_ID:
+        // This case was added to allow getting the entry by its id.
+        String entryId = null;
+        if (uri.getPathSegments().size() > 1) {
+          entryId = uri.getLastPathSegment();
+        }
+        // Log.d(TAG, "entryId = " + entryId);
+        return getEntryById(entryId, projection);
+      default:
+        throw new IllegalArgumentException("Unknown Uri: " + uri);
     }
   }
 
@@ -179,15 +176,16 @@ public class KlingonContentProvider extends ContentProvider {
     int entryId = entry.getId();
     String indent1 = entry.isIndented() ? "    " : "";
     String indent2 = entry.isIndented() ? "      " : "";
-    String entryName = indent1 + entry.getFormattedEntryName(/* isHtml */false);
-    String formattedDefinition = indent2 + entry.getFormattedDefinition(/* isHtml */false);
+    String entryName = indent1 + entry.getFormattedEntryName(/* isHtml */ false);
+    String formattedDefinition = indent2 + entry.getFormattedDefinition(/* isHtml */ false);
     // TODO: Format the "alt" results.
 
     // Search suggestions must have exactly four columns in exactly this format.
-    return new Object[] { entryId, // _id
-            entryName, // text1
-            formattedDefinition, // text2
-            entryId, // intent_data (included when clicking on item)
+    return new Object[] {
+      entryId, // _id
+      entryName, // text1
+      formattedDefinition, // text2
+      entryId, // intent_data (included when clicking on item)
     };
   }
 
@@ -227,9 +225,7 @@ public class KlingonContentProvider extends ContentProvider {
     return mContentDatabase.getEntry(rowId, KlingonContentDatabase.ALL_KEYS);
   }
 
-  /**
-   * Retrieve a single entry by its _id.
-   */
+  /** Retrieve a single entry by its _id. */
   private Cursor getEntryById(String entryId, String[] projection) {
     // Log.d(TAG, "getEntryById called with entryid: " + entryId);
     return mContentDatabase.getEntryById(entryId, projection);
@@ -242,16 +238,16 @@ public class KlingonContentProvider extends ContentProvider {
   @Override
   public String getType(Uri uri) {
     switch (sURIMatcher.match(uri)) {
-    case SEARCH_ENTRIES:
-      return ENTRIES_MIME_TYPE;
-    case GET_ENTRY:
-      return DEFINITION_MIME_TYPE;
-    case SEARCH_SUGGEST:
-      return SearchManager.SUGGEST_MIME_TYPE;
-    case REFRESH_SHORTCUT:
-      return SearchManager.SHORTCUT_MIME_TYPE;
-    default:
-      throw new IllegalArgumentException("Unknown URL " + uri);
+      case SEARCH_ENTRIES:
+        return ENTRIES_MIME_TYPE;
+      case GET_ENTRY:
+        return DEFINITION_MIME_TYPE;
+      case SEARCH_SUGGEST:
+        return SearchManager.SUGGEST_MIME_TYPE;
+      case REFRESH_SHORTCUT:
+        return SearchManager.SHORTCUT_MIME_TYPE;
+      default:
+        throw new IllegalArgumentException("Unknown URL " + uri);
     }
   }
 
@@ -279,36 +275,73 @@ public class KlingonContentProvider extends ContentProvider {
 
     // This is a hack: change the separators between words and their affixes.
     // TODO: Do this upstream and colour the affixes differently.
-    klingonString = klingonString.replaceAll(" + -", " ◃ ").replaceAll("- + ", " ▹ ")
-                                 .replaceAll("^-", "◃ ").replaceAll("-$", " ▹");
+    klingonString =
+        klingonString
+            .replaceAll(" + -", " ◃ ")
+            .replaceAll("- + ", " ▹ ")
+            .replaceAll("^-", "◃ ")
+            .replaceAll("-$", " ▹");
 
     // {gh} must come before {ngh} since {ngh} is {n} + {gh} and not {ng} + *{h}.
     // {ng} must come before {n}.
     // {tlh} must come before {t} and {l}.
     // Don't change {-} since it's needed for prefixes and suffixes.
     // Don't change "..." (ellipses), but do change "." (periods).
-    klingonString = klingonString.replaceAll("gh", "").replaceAll("ng", "")
-            .replaceAll("tlh", "").replaceAll("a", "").replaceAll("b", "")
-            .replaceAll("ch", "").replaceAll("D", "").replaceAll("e", "").replaceAll("H", "")
-            .replaceAll("I", "").replaceAll("j", "").replaceAll("l", "").replaceAll("m", "")
-            .replaceAll("n", "").replaceAll("o", "").replaceAll("p", "").replaceAll("q", "")
-            .replaceAll("Q", "").replaceAll("r", "").replaceAll("S", "").replaceAll("t", "")
-            .replaceAll("u", "").replaceAll("v", "").replaceAll("w", "").replaceAll("y", "")
-            .replaceAll("'", "").replaceAll("0", "").replaceAll("1", "").replaceAll("2", "")
-            .replaceAll("3", "").replaceAll("4", "").replaceAll("5", "").replaceAll("6", "")
-            .replaceAll("7", "").replaceAll("8", "").replaceAll("9", "").replaceAll(",", "")
-            .replaceAll(";", "").replaceAll("!", "").replaceAll("\\?", "").replaceAll("\\.", "")
+    klingonString =
+        klingonString
+            .replaceAll("gh", "")
+            .replaceAll("ng", "")
+            .replaceAll("tlh", "")
+            .replaceAll("a", "")
+            .replaceAll("b", "")
+            .replaceAll("ch", "")
+            .replaceAll("D", "")
+            .replaceAll("e", "")
+            .replaceAll("H", "")
+            .replaceAll("I", "")
+            .replaceAll("j", "")
+            .replaceAll("l", "")
+            .replaceAll("m", "")
+            .replaceAll("n", "")
+            .replaceAll("o", "")
+            .replaceAll("p", "")
+            .replaceAll("q", "")
+            .replaceAll("Q", "")
+            .replaceAll("r", "")
+            .replaceAll("S", "")
+            .replaceAll("t", "")
+            .replaceAll("u", "")
+            .replaceAll("v", "")
+            .replaceAll("w", "")
+            .replaceAll("y", "")
+            .replaceAll("'", "")
+            .replaceAll("0", "")
+            .replaceAll("1", "")
+            .replaceAll("2", "")
+            .replaceAll("3", "")
+            .replaceAll("4", "")
+            .replaceAll("5", "")
+            .replaceAll("6", "")
+            .replaceAll("7", "")
+            .replaceAll("8", "")
+            .replaceAll("9", "")
+            .replaceAll(",", "")
+            .replaceAll(";", "")
+            .replaceAll("!", "")
+            .replaceAll("\\?", "")
+            .replaceAll("\\.", "")
             .replaceAll("", "\\.\\.\\.");
     return klingonString;
   }
 
   // This class is for managing entries.
   public static class Entry {
-    String                     TAG               = "KlingonContentProvider.Entry";
+    String TAG = "KlingonContentProvider.Entry";
 
     // Pattern for matching entry in text. The letter "ü" is needed to match "Saarbrücken". The "+"
     // is needed for "Google+".
-    public static Pattern      ENTRY_PATTERN     = Pattern.compile("\\{[A-Za-zü0-9 '\\\":;,\\.\\-?!_/()@=%&\\*\\+]+\\}");
+    public static Pattern ENTRY_PATTERN =
+        Pattern.compile("\\{[A-Za-zü0-9 '\\\":;,\\.\\-?!_/()@=%&\\*\\+]+\\}");
 
     // Used for analysis of entries with components.
     // It cannot occur in a link (we cannot use "//" for example because it occurs in URL links,
@@ -317,103 +350,132 @@ public class KlingonContentProvider extends ContentProvider {
     public static final String COMPONENTS_MARKER = "@@";
 
     // Context.
-    private Context            mContext;
+    private Context mContext;
 
     // The raw data for the entry.
     // private Uri mUri = null;
-    private int                mId               = -1;
-    private String             mEntryName        = "";
-    private String             mPartOfSpeech     = "";
-    private String             mDefinition       = "";
-    private String             mSynonyms         = "";
-    private String             mAntonyms         = "";
-    private String             mSeeAlso          = "";
-    private String             mNotes            = "";
-    private String             mHiddenNotes      = "";
-    private String             mComponents       = "";
-    private String             mExamples         = "";
-    private String             mSearchTags       = "";
-    private String             mSource           = "";
+    private int mId = -1;
+    private String mEntryName = "";
+    private String mPartOfSpeech = "";
+    private String mDefinition = "";
+    private String mSynonyms = "";
+    private String mAntonyms = "";
+    private String mSeeAlso = "";
+    private String mNotes = "";
+    private String mHiddenNotes = "";
+    private String mComponents = "";
+    private String mExamples = "";
+    private String mSearchTags = "";
+    private String mSource = "";
 
     // Localised definitions.
-    private String             mDefinition_DE    = "";
-    private String             mNotes_DE         = "";
-    private String             mSearchTags_DE    = "";
+    private String mDefinition_DE = "";
+    private String mNotes_DE = "";
+    private String mSearchTags_DE = "";
 
     // Part of speech metadata.
     private enum BasePartOfSpeechEnum {
-      NOUN, VERB, ADVERBIAL, CONJUNCTION, QUESTION, SENTENCE, EXCLAMATION, SOURCE, URL, UNKNOWN
+      NOUN,
+      VERB,
+      ADVERBIAL,
+      CONJUNCTION,
+      QUESTION,
+      SENTENCE,
+      EXCLAMATION,
+      SOURCE,
+      URL,
+      UNKNOWN
     }
 
-    private String[]             basePartOfSpeechAbbreviations = { "n", "v", "adv", "conj", "ques",
-                                                                       "sen", "excl", "src", "url",
-                                                                       "???" };
-    private BasePartOfSpeechEnum mBasePartOfSpeech             = BasePartOfSpeechEnum.UNKNOWN;
+    private String[] basePartOfSpeechAbbreviations = {
+      "n", "v", "adv", "conj", "ques", "sen", "excl", "src", "url", "???"
+    };
+    private BasePartOfSpeechEnum mBasePartOfSpeech = BasePartOfSpeechEnum.UNKNOWN;
 
     // Verb attributes.
     private enum VerbTransitivityType {
-      TRANSITIVE, INTRANSITIVE, STATIVE, AMBITRANSITIVE, UNKNOWN, HAS_TYPE_5_NOUN_SUFFIX
+      TRANSITIVE,
+      INTRANSITIVE,
+      STATIVE,
+      AMBITRANSITIVE,
+      UNKNOWN,
+      HAS_TYPE_5_NOUN_SUFFIX
     }
 
-    private VerbTransitivityType mTransitivity          = VerbTransitivityType.UNKNOWN;
-    boolean                      mTransitivityConfirmed = false;
+    private VerbTransitivityType mTransitivity = VerbTransitivityType.UNKNOWN;
+    boolean mTransitivityConfirmed = false;
 
     // Noun attributes.
     private enum NounType {
-      GENERAL, NUMBER, NAME, PRONOUN
+      GENERAL,
+      NUMBER,
+      NAME,
+      PRONOUN
     }
 
-    private NounType mNounType                       = NounType.GENERAL;
-    boolean          mIsInherentPlural               = false;
-    boolean          mIsSingularFormOfInherentPlural = false;
-    boolean          mIsPlural                       = false;
+    private NounType mNounType = NounType.GENERAL;
+    boolean mIsInherentPlural = false;
+    boolean mIsSingularFormOfInherentPlural = false;
+    boolean mIsPlural = false;
 
     // Sentence types.
     private enum SentenceType {
-      PHRASE, EMPIRE_UNION_DAY, CURSE_WARFARE, IDIOM, NENTAY, PROVERB, MILITARY_CELEBRATION, REJECTION, REPLACEMENT_PROVERB, SECRECY_PROVERB, TOAST, LYRICS, BEGINNERS_CONVERSATION, JOKE
+      PHRASE,
+      EMPIRE_UNION_DAY,
+      CURSE_WARFARE,
+      IDIOM,
+      NENTAY,
+      PROVERB,
+      MILITARY_CELEBRATION,
+      REJECTION,
+      REPLACEMENT_PROVERB,
+      SECRECY_PROVERB,
+      TOAST,
+      LYRICS,
+      BEGINNERS_CONVERSATION,
+      JOKE
     }
 
-    private SentenceType mSentenceType             = SentenceType.PHRASE;
+    private SentenceType mSentenceType = SentenceType.PHRASE;
 
     // Categories of words and phrases.
-    boolean              mIsAnimal                 = false;
-    boolean              mIsArchaic                = false;
-    boolean              mIsBeingCapableOfLanguage = false;
-    boolean              mIsBodyPart               = false;
-    boolean              mIsDerivative             = false;
-    boolean              mIsRegional               = false;
-    boolean              mIsFoodRelated            = false;
-    boolean              mIsInvective              = false;
-    boolean              mIsPlaceName              = false;
-    boolean              mIsPrefix                 = false;
-    boolean              mIsSlang                  = false;
-    boolean              mIsSuffix                 = false;
-    boolean              mIsWeaponsRelated         = false;
+    boolean mIsAnimal = false;
+    boolean mIsArchaic = false;
+    boolean mIsBeingCapableOfLanguage = false;
+    boolean mIsBodyPart = false;
+    boolean mIsDerivative = false;
+    boolean mIsRegional = false;
+    boolean mIsFoodRelated = false;
+    boolean mIsInvective = false;
+    boolean mIsPlaceName = false;
+    boolean mIsPrefix = false;
+    boolean mIsSlang = false;
+    boolean mIsSuffix = false;
+    boolean mIsWeaponsRelated = false;
 
     // Additional metadata.
-    boolean              mIsAlternativeSpelling    = false;
-    boolean              mIsFictionalEntity        = false;
-    boolean              mIsHypothetical           = false;
-    boolean              mIsExtendedCanon          = false;
-    boolean              mDoNotLink                = false;
+    boolean mIsAlternativeSpelling = false;
+    boolean mIsFictionalEntity = false;
+    boolean mIsHypothetical = false;
+    boolean mIsExtendedCanon = false;
+    boolean mDoNotLink = false;
 
     // For display purposes.
-    boolean              mIsIndented               = false;
+    boolean mIsIndented = false;
 
     // If there are multiple entries with identitical entry names,
     // they are distinguished with numbers. However, not all entries display
     // them, for various reasons.
-    int                  mHomophoneNumber          = -1;
-    boolean              mShowHomophoneNumber      = true;
+    int mHomophoneNumber = -1;
+    boolean mShowHomophoneNumber = true;
 
     // Link can be to an URL.
-    String               mURL                      = "";
+    String mURL = "";
 
     /**
      * Constructor
      *
-     * @param query
-     *          A query of the form "entryName:basepos:metadata".
+     * @param query A query of the form "entryName:basepos:metadata".
      */
     public Entry(String query, Context context) {
       // Log.d(TAG, "Entry constructed from query: \"" + query + "\"");
@@ -441,8 +503,7 @@ public class KlingonContentProvider extends ContentProvider {
     /**
      * Constructor
      *
-     * @param cursor
-     *          A cursor with position at the desired entry.
+     * @param cursor A cursor with position at the desired entry.
      */
     public Entry(Cursor cursor, Context context) {
       mContext = context;
@@ -498,8 +559,9 @@ public class KlingonContentProvider extends ContentProvider {
         }
         if (mBasePartOfSpeech == BasePartOfSpeechEnum.UNKNOWN) {
           // Log warning if part of speech could not be determined.
-          Log.w(TAG, "{" + mEntryName + "} has unrecognised part of speech: \"" + mPartOfSpeech
-                  + "\"");
+          Log.w(
+              TAG,
+              "{" + mEntryName + "} has unrecognised part of speech: \"" + mPartOfSpeech + "\"");
         }
       }
 
@@ -661,7 +723,6 @@ public class KlingonContentProvider extends ContentProvider {
           // Log error if part of speech could not be determined.
           Log.e(TAG, "{" + mEntryName + "} has unrecognised attribute: \"" + attr + "\"");
         }
-
       }
     }
 
@@ -748,7 +809,7 @@ public class KlingonContentProvider extends ContentProvider {
       if (isAlternativeSpelling()) {
         pos = mContext.getResources().getString(R.string.label_see_alt_entry) + ": ";
       } else if (mBasePartOfSpeech == BasePartOfSpeechEnum.SENTENCE
-              || mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN && mNounType == NounType.NAME) {
+          || mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN && mNounType == NounType.NAME) {
         // Ignore part of speech for names and sentences.
         pos = "";
       } else {
@@ -770,7 +831,8 @@ public class KlingonContentProvider extends ContentProvider {
       // Get definition, and append German definition if appropriate.
       String definition = mDefinition;
       if (shouldDisplayGermanDefinition()) {
-        definition += " / " + getDefinition_DE();
+        // Display the German as the primary definition and the English as the secondary.
+        definition = getDefinition_DE() + " / " + definition;
       }
 
       // Replace brackets in definition with bold.
@@ -778,7 +840,8 @@ public class KlingonContentProvider extends ContentProvider {
       while (matcher.find()) {
         // Strip brackets.
         String query = definition.substring(matcher.start() + 1, matcher.end() - 1);
-        KlingonContentProvider.Entry linkedEntry = new KlingonContentProvider.Entry(query, mContext);
+        KlingonContentProvider.Entry linkedEntry =
+            new KlingonContentProvider.Entry(query, mContext);
         String replacement;
         if (isHtml) {
           // Bold a Klingon word if there is one.
@@ -787,7 +850,9 @@ public class KlingonContentProvider extends ContentProvider {
           // Just replace it with plain text.
           replacement = linkedEntry.getEntryName();
         }
-        definition = definition.substring(0, matcher.start()) + replacement
+        definition =
+            definition.substring(0, matcher.start())
+                + replacement
                 + definition.substring(matcher.end());
 
         // Repeat.
@@ -808,11 +873,11 @@ public class KlingonContentProvider extends ContentProvider {
     public String getBracketedPartOfSpeech(boolean isHtml) {
       // Return abbreviation for part of speech, but suppress for sentences, exclamations, etc.
       if (mBasePartOfSpeech == BasePartOfSpeechEnum.SENTENCE
-              || mBasePartOfSpeech == BasePartOfSpeechEnum.EXCLAMATION
-              || mBasePartOfSpeech == BasePartOfSpeechEnum.SOURCE
-              || mBasePartOfSpeech == BasePartOfSpeechEnum.URL
-              || mBasePartOfSpeech == BasePartOfSpeechEnum.UNKNOWN
-              || (mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN && mNounType == NounType.NAME)) {
+          || mBasePartOfSpeech == BasePartOfSpeechEnum.EXCLAMATION
+          || mBasePartOfSpeech == BasePartOfSpeechEnum.SOURCE
+          || mBasePartOfSpeech == BasePartOfSpeechEnum.URL
+          || mBasePartOfSpeech == BasePartOfSpeechEnum.UNKNOWN
+          || (mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN && mNounType == NounType.NAME)) {
         return "";
       }
       String pos = getSpecificPartOfSpeech();
@@ -875,12 +940,14 @@ public class KlingonContentProvider extends ContentProvider {
     // Returns true iff the German definition should displayed.
     public boolean shouldDisplayGermanDefinition() {
       SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
-      if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */
-              false)) {
+      if (sharedPrefs.getBoolean(
+          Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
         // Show German definitions preference set to true and German definition is not empty or
         // identical to the English.
-        return mDefinition_DE != null && !mDefinition_DE.equals("")
-                && !mDefinition_DE.equals(mDefinition) && !isName();
+        return mDefinition_DE != null
+            && !mDefinition_DE.equals("")
+            && !mDefinition_DE.equals(mDefinition)
+            && !isName();
       } else {
         return false;
       }
@@ -889,8 +956,8 @@ public class KlingonContentProvider extends ContentProvider {
     // Returns true iff the German notes should be displayed.
     public boolean shouldDisplayGermanNotes() {
       SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
-      if (sharedPrefs.getBoolean(Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */
-              false)) {
+      if (sharedPrefs.getBoolean(
+          Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
         // Show German definitions preference set to true and German definition is not empty.
         return mNotes_DE != null && !mNotes_DE.equals("");
       } else {
@@ -1198,8 +1265,9 @@ public class KlingonContentProvider extends ContentProvider {
 
     public String getSentenceType() {
       SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
-      boolean useKlingonUI = sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */
-              false);
+      boolean useKlingonUI =
+          sharedPrefs.getBoolean(
+              Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false);
       if (mSentenceType == SentenceType.EMPIRE_UNION_DAY) {
         if (useKlingonUI) {
           return mContext.getResources().getString(R.string.empire_union_day_tlh);
@@ -1327,7 +1395,7 @@ public class KlingonContentProvider extends ContentProvider {
       // It's necessary to check that the entry name ends with "-" because links (e.g., the list of
       // components) are not fully annotated.
       return mBasePartOfSpeech == BasePartOfSpeechEnum.VERB
-              && (mIsPrefix || mEntryName.endsWith("-"));
+          && (mIsPrefix || mEntryName.endsWith("-"));
     }
 
     public boolean isSuffix() {
@@ -1345,9 +1413,9 @@ public class KlingonContentProvider extends ContentProvider {
 
     // {chuvmey} - not sentences, but not verbs/nouns/affixes either.
     public boolean isMisc() {
-      return mBasePartOfSpeech == BasePartOfSpeechEnum.ADVERBIAL ||
-             mBasePartOfSpeech == BasePartOfSpeechEnum.CONJUNCTION ||
-             mBasePartOfSpeech == BasePartOfSpeechEnum.QUESTION;
+      return mBasePartOfSpeech == BasePartOfSpeechEnum.ADVERBIAL
+          || mBasePartOfSpeech == BasePartOfSpeechEnum.CONJUNCTION
+          || mBasePartOfSpeech == BasePartOfSpeechEnum.QUESTION;
     }
 
     public int getTextColor() {
@@ -1375,32 +1443,31 @@ public class KlingonContentProvider extends ContentProvider {
 
     public String getTransitivityString() {
       switch (mTransitivity) {
-      case AMBITRANSITIVE:
-        return mContext.getResources().getString(R.string.transitivity_ambi);
+        case AMBITRANSITIVE:
+          return mContext.getResources().getString(R.string.transitivity_ambi);
 
-      case INTRANSITIVE:
-        if (mTransitivityConfirmed) {
-          return mContext.getResources().getString(R.string.transitivity_intransitive_confirmed);
-        } else {
-          return mContext.getResources().getString(R.string.transitivity_intransitive);
-        }
+        case INTRANSITIVE:
+          if (mTransitivityConfirmed) {
+            return mContext.getResources().getString(R.string.transitivity_intransitive_confirmed);
+          } else {
+            return mContext.getResources().getString(R.string.transitivity_intransitive);
+          }
 
-      case STATIVE:
-        return mContext.getResources().getString(R.string.transitivity_stative);
+        case STATIVE:
+          return mContext.getResources().getString(R.string.transitivity_stative);
 
-      case TRANSITIVE:
-        if (mTransitivityConfirmed) {
-          return mContext.getResources().getString(R.string.transitivity_transitive_confirmed);
-        } else {
-          return mContext.getResources().getString(R.string.transitivity_transitive);
-        }
+        case TRANSITIVE:
+          if (mTransitivityConfirmed) {
+            return mContext.getResources().getString(R.string.transitivity_transitive_confirmed);
+          } else {
+            return mContext.getResources().getString(R.string.transitivity_transitive);
+          }
 
-      default:
-        // This is reached if the verb transitivity type is unknown, or if for some reason this
-        // function is called on a verb with a type 5 noun suffix attached, which shouldn't happen.
-        return mContext.getResources().getString(R.string.transitivity_unknown);
+        default:
+          // This is reached if the verb transitivity type is unknown, or if for some reason this
+          // function is called on a verb with a type 5 noun suffix attached, which shouldn't happen.
+          return mContext.getResources().getString(R.string.transitivity_unknown);
       }
-
     }
 
     // Called on a query entry, determines if the query is satisfied by the candidate entry.
@@ -1429,10 +1496,10 @@ public class KlingonContentProvider extends ContentProvider {
         // Log.d(TAG, "candidate.getBasePartOfSpeech: " + candidate.getBasePartOfSpeech());
         // Log.d(TAG, "candidate.getEntryName: " + candidate.getEntryName());
         if (mBasePartOfSpeech != candidate.getBasePartOfSpeech()) {
-          if (!(mBasePartOfSpeech == BasePartOfSpeechEnum.VERB && candidate.isPronoun()) &&
-              !(mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN &&
-                      (candidate.getEntryName().equals("nuq") ||
-                       candidate.getEntryName().equals("'Iv")))) {
+          if (!(mBasePartOfSpeech == BasePartOfSpeechEnum.VERB && candidate.isPronoun())
+              && !(mBasePartOfSpeech == BasePartOfSpeechEnum.NOUN
+                  && (candidate.getEntryName().equals("nuq")
+                      || candidate.getEntryName().equals("'Iv")))) {
             return false;
           }
         }
@@ -1444,8 +1511,9 @@ public class KlingonContentProvider extends ContentProvider {
         // ambitransitive verbs (like {pegh}), but also intransitive verbs, since it's
         // possible some of them can be used adjectivally.
         if (mBasePartOfSpeech == BasePartOfSpeechEnum.VERB
-                && mTransitivity == VerbTransitivityType.HAS_TYPE_5_NOUN_SUFFIX
-                && (candidate.isPronoun() || candidate.getTransitivity() == VerbTransitivityType.TRANSITIVE)) {
+            && mTransitivity == VerbTransitivityType.HAS_TYPE_5_NOUN_SUFFIX
+            && (candidate.isPronoun()
+                || candidate.getTransitivity() == VerbTransitivityType.TRANSITIVE)) {
           return false;
         }
       }
@@ -1489,94 +1557,101 @@ public class KlingonContentProvider extends ContentProvider {
   // Note: To debug parsing, you likely want to use "adb logcat -s KlingonContentProvider.ComplexWord"
   // or "adb logcat -s KlingonContentProvider.ComplexWord KlingonContentProvider".
   public static class ComplexWord {
-    String                   TAG                  = "KlingonContentProvider.ComplexWord";
+    String TAG = "KlingonContentProvider.ComplexWord";
 
     // The noun suffixes.
-    static String[]          nounType1String      = { "", "'a'", "Hom", "oy" };
-    static String[]          nounType2String      = { "", "pu'", "Du'", "mey" };
-    static String[]          nounType3String      = { "", "qoq", "Hey", "na'" };
-    static String[]          nounType4String      = { "", "wIj", "wI'", "maj", "ma'", "lIj", "lI'",
-                                                          "raj", "ra'", "Daj", "chaj", "vam",
-                                                          "vetlh" };
-    static String[]          nounType5String      = { "", "Daq", "vo'", "mo'", "vaD", "'e'" };
-    static String[][]        nounSuffixesStrings  = { nounType1String, nounType2String,
-                                                          nounType3String, nounType4String,
-                                                          nounType5String };
-    int                      mNounSuffixes[]      = new int[nounSuffixesStrings.length];
+    static String[] nounType1String = {"", "'a'", "Hom", "oy"};
+    static String[] nounType2String = {"", "pu'", "Du'", "mey"};
+    static String[] nounType3String = {"", "qoq", "Hey", "na'"};
+    static String[] nounType4String = {
+      "", "wIj", "wI'", "maj", "ma'", "lIj", "lI'", "raj", "ra'", "Daj", "chaj", "vam", "vetlh"
+    };
+    static String[] nounType5String = {"", "Daq", "vo'", "mo'", "vaD", "'e'"};
+    static String[][] nounSuffixesStrings = {
+      nounType1String, nounType2String, nounType3String, nounType4String, nounType5String
+    };
+    int mNounSuffixes[] = new int[nounSuffixesStrings.length];
 
     // The verb prefixes.
-    static String[]          verbPrefixString     = { "", "bI", "bo", "che", "cho", "Da", "DI",
-                                                          "Du", "gho", "HI", "jI", "ju", "lI",
-                                                          "lu", "ma", "mu", "nI", "nu", "pe", "pI",
-                                                          "qa", "re", "Sa", "Su", "tI", "tu", "vI",
-                                                          "wI", "yI" };
-    static String[]          verbTypeRUndoString  = {
-                                                          // {-Ha'} always occurs immediately after
-                                                          // the verb.
-                                                          "", "Ha'" };
-    static String[]          verbType1String      = { "", "'egh", "chuq" };
-    static String[]          verbType2String      = { "", "nIS", "qang", "rup", "beH", "vIp" };
-    static String[]          verbType3String      = { "", "choH", "qa'" };
-    static String[]          verbType4String      = { "", "moH" };
-    static String[]          verbType5String      = { "", "lu'", "laH" };
-    static String[]          verbType6String      = { "", "chu'", "bej", "ba'", "law'" };
-    static String[]          verbType7String      = { "", "pu'", "ta'", "taH", "lI'" };
-    static String[]          verbType8String      = { "", "neS" };
-    static String[]          verbTypeRRefusal     = {
-                                                          // {-Qo'} always occurs last, unless
-                                                          // followed by a type 9 suffix.
-                                                          "", "Qo'" };
-    static String[]          verbType9String      = { "", "DI'", "chugh", "pa'", "vIS", "mo'",
-                                                          "bogh", "meH", "'a'", "jaj", "wI'",
-                                                          "ghach" };
-    static String[][]        verbSuffixesStrings  = { verbTypeRUndoString, verbType1String,
-                                                          verbType2String, verbType3String,
-                                                          verbType4String, verbType5String,
-                                                          verbType6String, verbType7String,
-                                                          verbType8String, verbTypeRRefusal,
-                                                          verbType9String };
-    int                      mVerbPrefix;
-    int                      mVerbSuffixes[]      = new int[verbSuffixesStrings.length];
+    static String[] verbPrefixString = {
+      "", "bI", "bo", "che", "cho", "Da", "DI", "Du", "gho", "HI", "jI", "ju", "lI", "lu", "ma",
+      "mu", "nI", "nu", "pe", "pI", "qa", "re", "Sa", "Su", "tI", "tu", "vI", "wI", "yI"
+    };
+    static String[] verbTypeRUndoString = {
+      // {-Ha'} always occurs immediately after
+      // the verb.
+      "", "Ha'"
+    };
+    static String[] verbType1String = {"", "'egh", "chuq"};
+    static String[] verbType2String = {"", "nIS", "qang", "rup", "beH", "vIp"};
+    static String[] verbType3String = {"", "choH", "qa'"};
+    static String[] verbType4String = {"", "moH"};
+    static String[] verbType5String = {"", "lu'", "laH"};
+    static String[] verbType6String = {"", "chu'", "bej", "ba'", "law'"};
+    static String[] verbType7String = {"", "pu'", "ta'", "taH", "lI'"};
+    static String[] verbType8String = {"", "neS"};
+    static String[] verbTypeRRefusal = {
+      // {-Qo'} always occurs last, unless
+      // followed by a type 9 suffix.
+      "", "Qo'"
+    };
+    static String[] verbType9String = {
+      "", "DI'", "chugh", "pa'", "vIS", "mo'", "bogh", "meH", "'a'", "jaj", "wI'", "ghach"
+    };
+    static String[][] verbSuffixesStrings = {
+      verbTypeRUndoString,
+      verbType1String,
+      verbType2String,
+      verbType3String,
+      verbType4String,
+      verbType5String,
+      verbType6String,
+      verbType7String,
+      verbType8String,
+      verbTypeRRefusal,
+      verbType9String
+    };
+    int mVerbPrefix;
+    int mVerbSuffixes[] = new int[verbSuffixesStrings.length];
 
-    static String[]          numberDigitString    = {
-                                                          // {pagh} is excluded because it should
-                                                          // normally not form part of a number with
-                                                          // modifiers.
-                                                          "", "wa'", "cha'", "wej", "loS", "vagh",
-                                                          "jav", "Soch", "chorgh", "Hut" };
-    static String[]          numberModifierString = { "", "maH", "vatlh", "SaD", "SanID", "netlh",
-                                                          "bIp", "'uy'" };
-    int                      mNumberDigit;
-    int                      mNumberModifier;
-    String                   mNumberSuffix;
-    boolean                  mIsNumberLike;
+    static String[] numberDigitString = {
+      // {pagh} is excluded because it should
+      // normally not form part of a number with
+      // modifiers.
+      "", "wa'", "cha'", "wej", "loS", "vagh", "jav", "Soch", "chorgh", "Hut"
+    };
+    static String[] numberModifierString = {
+      "", "maH", "vatlh", "SaD", "SanID", "netlh", "bIp", "'uy'"
+    };
+    int mNumberDigit;
+    int mNumberModifier;
+    String mNumberSuffix;
+    boolean mIsNumberLike;
 
     // The locations of the true rovers. The value indicates the suffix type they appear after,
     // so 0 means they are attached directly to the verb (before any type 1 suffix).
-    int                      mVerbTypeRNegation;
-    int                      mVerbTypeREmphatic;
-    private static final int ROVER_NOT_YET_FOUND  = -1;
-    private static final int IGNORE_THIS_ROVER    = -2;
+    int mVerbTypeRNegation;
+    int mVerbTypeREmphatic;
+    private static final int ROVER_NOT_YET_FOUND = -1;
+    private static final int IGNORE_THIS_ROVER = -2;
 
     // True if {-be'} appears before {-qu'} in a verb.
-    boolean                  roverOrderNegationBeforeEmphatic;
+    boolean roverOrderNegationBeforeEmphatic;
 
     // Internal information related to processing the complex word candidate.
     // TODO: There are few complex words which are neither nouns nor verbs, e.g., {batlhHa'},
     // {paghlogh}, {HochDIch}. Figure out how to deal with them.
-    String                   mUnparsedPart;
-    int                      mSuffixLevel;
-    boolean                  mIsNounCandidate;
-    boolean                  mIsVerbWithType5NounSuffix;
-    int                      mHomophoneNumber;
+    String mUnparsedPart;
+    int mSuffixLevel;
+    boolean mIsNounCandidate;
+    boolean mIsVerbWithType5NounSuffix;
+    int mHomophoneNumber;
 
     /**
      * Constructor
      *
-     * @param candidate
-     *          A potential candidate for a complex word.
-     * @param isNounCandidate
-     *          Set to true if noun, false if verb.
+     * @param candidate A potential candidate for a complex word.
+     * @param isNounCandidate Set to true if noun, false if verb.
      */
     public ComplexWord(String candidate, boolean isNounCandidate) {
       mUnparsedPart = candidate;
@@ -1616,8 +1691,7 @@ public class KlingonContentProvider extends ContentProvider {
     /**
      * Copy constructor
      *
-     * @param unparsedPart
-     *          The unparsedPart of this complex word.
+     * @param unparsedPart The unparsedPart of this complex word.
      * @param complexWordToCopy
      */
     public ComplexWord(String unparsedPart, ComplexWord complexWordToCopy) {
@@ -1665,7 +1739,6 @@ public class KlingonContentProvider extends ContentProvider {
             anotherComplexWord.mVerbPrefix = i;
             return anotherComplexWord;
           }
-
         }
       }
       return null;
@@ -1676,8 +1749,9 @@ public class KlingonContentProvider extends ContentProvider {
       // There are a few entries in the database where the {-be'} and {-qu'} are included, e.g.,
       // {motlhbe'} and {Say'qu'}. The logic here allows, e.g., {bImotlhbe'be'}, but we don't care
       // since this is relatively rare. Note that {qu'be'} is itself a word.
-      if (mVerbTypeRNegation == ROVER_NOT_YET_FOUND && mUnparsedPart.endsWith("be'")
-              && !mUnparsedPart.equals("be'")) {
+      if (mVerbTypeRNegation == ROVER_NOT_YET_FOUND
+          && mUnparsedPart.endsWith("be'")
+          && !mUnparsedPart.equals("be'")) {
         String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
         ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
         mVerbTypeRNegation = IGNORE_THIS_ROVER;
@@ -1691,8 +1765,9 @@ public class KlingonContentProvider extends ContentProvider {
           Log.d(TAG, "found rover: -be'");
         }
         return anotherComplexWord;
-      } else if (mVerbTypeREmphatic == ROVER_NOT_YET_FOUND && mUnparsedPart.endsWith("qu'")
-              && !mUnparsedPart.equals("qu'")) {
+      } else if (mVerbTypeREmphatic == ROVER_NOT_YET_FOUND
+          && mUnparsedPart.endsWith("qu'")
+          && !mUnparsedPart.equals("qu'")) {
         String partWithRoversRemoved = mUnparsedPart.substring(0, mUnparsedPart.length() - 3);
         ComplexWord anotherComplexWord = new ComplexWord(partWithRoversRemoved, this);
         mVerbTypeREmphatic = IGNORE_THIS_ROVER;
@@ -1757,8 +1832,8 @@ public class KlingonContentProvider extends ContentProvider {
         // Log.d(TAG, "checking suffix: " + suffixes[i]);
         if (mUnparsedPart.endsWith(suffixes[i])) {
           // Found a suffix of the current type, strip it.
-          String partWithSuffixRemoved = mUnparsedPart.substring(0, mUnparsedPart.length()
-                  - suffixes[i].length());
+          String partWithSuffixRemoved =
+              mUnparsedPart.substring(0, mUnparsedPart.length() - suffixes[i].length());
           if (BuildConfig.DEBUG) {
             Log.d(TAG, "found suffix: " + suffixes[i] + ", remainder: " + partWithSuffixRemoved);
           }
@@ -1856,8 +1931,10 @@ public class KlingonContentProvider extends ContentProvider {
         // if there are no prefixes or suffixes.
         return mUnparsedPart;
       }
-      return mUnparsedPart + ":" + (mIsNounCandidate ? "n" : "v")
-              + (mHomophoneNumber != -1 ? ":" + mHomophoneNumber : "");
+      return mUnparsedPart
+          + ":"
+          + (mIsNounCandidate ? "n" : "v")
+          + (mHomophoneNumber != -1 ? ":" + mHomophoneNumber : "");
     }
 
     public String stem() {
@@ -1942,10 +2019,10 @@ public class KlingonContentProvider extends ContentProvider {
 
     // Get the rovers at a given suffix level.
     public String[] getRovers(int suffixLevel) {
-      final String[] negationThenEmphatic = { "-be'", "-qu'" };
-      final String[] emphaticThenNegation = { "-qu'", "-be'" };
-      final String[] negationOnly = { "-be'" };
-      final String[] emphaticOnly = { "-qu'" };
+      final String[] negationThenEmphatic = {"-be'", "-qu'"};
+      final String[] emphaticThenNegation = {"-qu'", "-be'"};
+      final String[] negationOnly = {"-be'"};
+      final String[] emphaticOnly = {"-qu'"};
       final String[] none = {};
       if (mVerbTypeRNegation == suffixLevel && mVerbTypeREmphatic == suffixLevel) {
         return (roverOrderNegationBeforeEmphatic ? negationThenEmphatic : emphaticThenNegation);
@@ -2011,10 +2088,10 @@ public class KlingonContentProvider extends ContentProvider {
       // Note that {-mo'} is both a type 5 noun suffix and a type 9 verb suffix.
       for (int i = 1; i < nounType5String.length; i++) {
         if (mUnparsedPart.endsWith(nounType5String[i])) {
-          String adjectivalVerb = mUnparsedPart.substring(0, mUnparsedPart.length()
-                  - nounType5String[i].length());
-          ComplexWord adjectivalVerbWithType5NounSuffix = new ComplexWord(adjectivalVerb, /* isNounCandidate */
-                  false);
+          String adjectivalVerb =
+              mUnparsedPart.substring(0, mUnparsedPart.length() - nounType5String[i].length());
+          ComplexWord adjectivalVerbWithType5NounSuffix =
+              new ComplexWord(adjectivalVerb, /* isNounCandidate */ false);
 
           // Note that type 5 corresponds to index 4 since the array is 0-indexed.
           adjectivalVerbWithType5NounSuffix.mNounSuffixes[4] = i;
@@ -2043,9 +2120,9 @@ public class KlingonContentProvider extends ContentProvider {
       // Do this only if there were noun suffixes, since the bare noun will be analysed as a verb
       // anyway.
       if (!noNounSuffixesFound()
-              && (mUnparsedPart.endsWith("ghach") || mUnparsedPart.endsWith("wI'"))) {
+          && (mUnparsedPart.endsWith("ghach") || mUnparsedPart.endsWith("wI'"))) {
         // Log.d(TAG, "Creating verb from: " + mUnparsedPart);
-        ComplexWord complexVerb = new ComplexWord(mUnparsedPart, /* complexWordToCopy */this);
+        ComplexWord complexVerb = new ComplexWord(mUnparsedPart, /* complexWordToCopy */ this);
         complexVerb.mIsNounCandidate = false;
         complexVerb.mSuffixLevel = complexVerb.mVerbSuffixes.length;
         return complexVerb;
@@ -2131,8 +2208,8 @@ public class KlingonContentProvider extends ContentProvider {
     private void addSelf(ArrayList<ComplexWord> complexWordsList) {
       if (!hasNoMoreSuffixes()) {
         // This point should never be reached.
-        Log.e(TAG, "addSelf called on " + mUnparsedPart + " with suffix level " + mSuffixLevel
-                + ".");
+        Log.e(
+            TAG, "addSelf called on " + mUnparsedPart + " with suffix level " + mSuffixLevel + ".");
         return;
       }
       // Log.d(TAG, "Found: " + this.toString());
@@ -2156,8 +2233,8 @@ public class KlingonContentProvider extends ContentProvider {
         for (int i = 1; i < numberModifierString.length; i++) {
           if (numberRoot.endsWith(numberModifierString[i])) {
             mNumberModifier = i;
-            numberRoot = numberRoot.substring(0,
-                    numberRoot.length() - numberModifierString[i].length());
+            numberRoot =
+                numberRoot.substring(0, numberRoot.length() - numberModifierString[i].length());
             break;
           }
         }
@@ -2184,8 +2261,9 @@ public class KlingonContentProvider extends ContentProvider {
         // Finally, treat these words specially: {'arlogh}, {paghlogh}, {Hochlogh}, {paghDIch},
         // {HochDIch}.
         if (!mNumberSuffix.equals("")
-                && (numberRoot.equals("pagh") || numberRoot.equals("Hoch") || numberRoot
-                        .equals("'ar"))) {
+            && (numberRoot.equals("pagh")
+                || numberRoot.equals("Hoch")
+                || numberRoot.equals("'ar"))) {
           // We don't set mUnparsedPart to the root, because we still want the entire
           // word (e.g., {paghlogh}) to be added to the results if it is in the database.
           mIsNumberLike = true;
@@ -2198,15 +2276,14 @@ public class KlingonContentProvider extends ContentProvider {
       }
       complexWordsList.add(this);
     }
-
   }
 
   // Attempt to parse this complex word, and if successful, add it to the given set.
-  public static void parseComplexWord(String candidate, boolean isNounCandidate,
-          ArrayList<ComplexWord> complexWordsList) {
+  public static void parseComplexWord(
+      String candidate, boolean isNounCandidate, ArrayList<ComplexWord> complexWordsList) {
     ComplexWord complexWord = new ComplexWord(candidate, isNounCandidate);
     if (BuildConfig.DEBUG) {
-       Log.d(TAG, "\n\n* parsing = " + candidate + " (" + (isNounCandidate ? "n" : "v") + ") *");
+      Log.d(TAG, "\n\n* parsing = " + candidate + " (" + (isNounCandidate ? "n" : "v") + ") *");
     }
     if (!isNounCandidate) {
       // Check prefix.
@@ -2221,7 +2298,8 @@ public class KlingonContentProvider extends ContentProvider {
   }
 
   // Helper method to strip a level of suffix from a word.
-  private static void stripSuffix(ComplexWord complexWord, ArrayList<ComplexWord> complexWordsList) {
+  private static void stripSuffix(
+      ComplexWord complexWord, ArrayList<ComplexWord> complexWordsList) {
     if (complexWord.hasNoMoreSuffixes()) {
       if (BuildConfig.DEBUG) {
         Log.d(TAG, "attempting to add to complex words list: " + complexWord.mUnparsedPart);
@@ -2236,13 +2314,14 @@ public class KlingonContentProvider extends ContentProvider {
         complexWord = complexWord.getAdjectivalVerbWithType5NounSuffix();
         if (complexWord != null) {
           String adjectivalVerb = complexWord.stem();
-          if (adjectivalVerb.endsWith("be'") || adjectivalVerb.endsWith("qu'")
-                  || adjectivalVerb.endsWith("Ha'")) {
-            String adjectivalVerbWithoutRover = adjectivalVerb.substring(0,
-                    adjectivalVerb.length() - 3);
+          if (adjectivalVerb.endsWith("be'")
+              || adjectivalVerb.endsWith("qu'")
+              || adjectivalVerb.endsWith("Ha'")) {
+            String adjectivalVerbWithoutRover =
+                adjectivalVerb.substring(0, adjectivalVerb.length() - 3);
             // Adjectival verbs may end with a rover (except for {-Qo'}), so check for that here.
-            ComplexWord anotherComplexWord = new ComplexWord(adjectivalVerbWithoutRover,
-                    complexWord);
+            ComplexWord anotherComplexWord =
+                new ComplexWord(adjectivalVerbWithoutRover, complexWord);
             if (adjectivalVerb.endsWith("be'")) {
               anotherComplexWord.mVerbTypeRNegation = 0;
             } else if (adjectivalVerb.endsWith("qu'")) {
@@ -2282,8 +2361,14 @@ public class KlingonContentProvider extends ContentProvider {
           suffixType = "type " + (complexWord.mSuffixLevel - 1);
         }
       }
-      Log.d(TAG, "stripSuffix called on {" + complexWord.mUnparsedPart + "} for " +
-          (complexWord.mIsNounCandidate ? "noun" : "verb") + " suffix: " + suffixType);
+      Log.d(
+          TAG,
+          "stripSuffix called on {"
+              + complexWord.mUnparsedPart
+              + "} for "
+              + (complexWord.mIsNounCandidate ? "noun" : "verb")
+              + " suffix: "
+              + suffixType);
     }
 
     // Attempt to strip one level of suffix.

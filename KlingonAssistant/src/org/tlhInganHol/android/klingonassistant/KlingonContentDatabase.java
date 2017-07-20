@@ -16,15 +16,6 @@
 
 package org.tlhInganHol.android.klingonassistant;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-
 import android.app.SearchManager;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -41,78 +32,86 @@ import android.preference.PreferenceManager;
 import android.provider.BaseColumns;
 import android.util.Log;
 import android.widget.Toast;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 
 /**
  * Contains logic to return specific entries from the database, and load the database table when it
  * needs to be created.
  */
 public class KlingonContentDatabase {
-  private static final String                  TAG                          = "KlingonContentDatabase";
+  private static final String TAG = "KlingonContentDatabase";
 
   // The columns included in the database table.
-  public static final String                   KEY_ID                       = BaseColumns._ID;
-  public static final String                   KEY_ENTRY_NAME               = "entry_name";
-  public static final String                   KEY_PART_OF_SPEECH           = "part_of_speech";
-  public static final String                   KEY_DEFINITION               = "definition";
-  public static final String                   KEY_SYNONYMS                 = "synonyms";
-  public static final String                   KEY_ANTONYMS                 = "antonyms";
-  public static final String                   KEY_SEE_ALSO                 = "see_also";
-  public static final String                   KEY_NOTES                    = "notes";
-  public static final String                   KEY_HIDDEN_NOTES             = "hidden_notes";
-  public static final String                   KEY_COMPONENTS               = "components";
-  public static final String                   KEY_EXAMPLES                 = "examples";
-  public static final String                   KEY_SEARCH_TAGS              = "search_tags";
-  public static final String                   KEY_SOURCE                   = "source";
+  public static final String KEY_ID = BaseColumns._ID;
+  public static final String KEY_ENTRY_NAME = "entry_name";
+  public static final String KEY_PART_OF_SPEECH = "part_of_speech";
+  public static final String KEY_DEFINITION = "definition";
+  public static final String KEY_SYNONYMS = "synonyms";
+  public static final String KEY_ANTONYMS = "antonyms";
+  public static final String KEY_SEE_ALSO = "see_also";
+  public static final String KEY_NOTES = "notes";
+  public static final String KEY_HIDDEN_NOTES = "hidden_notes";
+  public static final String KEY_COMPONENTS = "components";
+  public static final String KEY_EXAMPLES = "examples";
+  public static final String KEY_SEARCH_TAGS = "search_tags";
+  public static final String KEY_SOURCE = "source";
   // Languages other than English.
-  public static final String                   KEY_DEFINITION_DE            = "definition_de";
-  public static final String                   KEY_NOTES_DE                 = "notes_de";
-  public static final String                   KEY_SEARCH_TAGS_DE           = "search_tags_de";
+  public static final String KEY_DEFINITION_DE = "definition_de";
+  public static final String KEY_NOTES_DE = "notes_de";
+  public static final String KEY_SEARCH_TAGS_DE = "search_tags_de";
 
   // The order of the keys to access the columns.
-  public static final int                      COLUMN_ID                    = 0;
-  public static final int                      COLUMN_ENTRY_NAME            = 1;
-  public static final int                      COLUMN_PART_OF_SPEECH        = 2;
-  public static final int                      COLUMN_DEFINITION            = 3;
-  public static final int                      COLUMN_SYNONYMS              = 4;
-  public static final int                      COLUMN_ANTONYMS              = 5;
-  public static final int                      COLUMN_SEE_ALSO              = 6;
-  public static final int                      COLUMN_NOTES                 = 7;
-  public static final int                      COLUMN_HIDDEN_NOTES          = 8;
-  public static final int                      COLUMN_COMPONENTS            = 9;
-  public static final int                      COLUMN_EXAMPLES              = 10;
-  public static final int                      COLUMN_SEARCH_TAGS           = 11;
-  public static final int                      COLUMN_SOURCE                = 12;
+  public static final int COLUMN_ID = 0;
+  public static final int COLUMN_ENTRY_NAME = 1;
+  public static final int COLUMN_PART_OF_SPEECH = 2;
+  public static final int COLUMN_DEFINITION = 3;
+  public static final int COLUMN_SYNONYMS = 4;
+  public static final int COLUMN_ANTONYMS = 5;
+  public static final int COLUMN_SEE_ALSO = 6;
+  public static final int COLUMN_NOTES = 7;
+  public static final int COLUMN_HIDDEN_NOTES = 8;
+  public static final int COLUMN_COMPONENTS = 9;
+  public static final int COLUMN_EXAMPLES = 10;
+  public static final int COLUMN_SEARCH_TAGS = 11;
+  public static final int COLUMN_SOURCE = 12;
   // Languages other than English.
-  public static final int                      COLUMN_DEFINITION_DE         = 13;
-  public static final int                      COLUMN_NOTES_DE              = 14;
-  public static final int                      COLUMN_SEARCH_TAGS_DE        = 15;
+  public static final int COLUMN_DEFINITION_DE = 13;
+  public static final int COLUMN_NOTES_DE = 14;
+  public static final int COLUMN_SEARCH_TAGS_DE = 15;
 
   // All keys.
-  public static final String[]                 ALL_KEYS                     = {
+  public static final String[] ALL_KEYS = {
     KEY_ID, KEY_ENTRY_NAME, KEY_PART_OF_SPEECH, KEY_DEFINITION, KEY_SYNONYMS, KEY_ANTONYMS,
     KEY_SEE_ALSO, KEY_NOTES, KEY_HIDDEN_NOTES, KEY_COMPONENTS, KEY_EXAMPLES, KEY_SEARCH_TAGS,
-    KEY_SOURCE, KEY_DEFINITION_DE, KEY_NOTES_DE, KEY_SEARCH_TAGS_DE, };
+    KEY_SOURCE, KEY_DEFINITION_DE, KEY_NOTES_DE, KEY_SEARCH_TAGS_DE,
+  };
 
   // The name of the database and the database object for accessing it.
-  private static final String                  DATABASE_NAME                = "qawHaq.db";
-  private static final String                  FTS_VIRTUAL_TABLE            = "mem";
+  private static final String DATABASE_NAME = "qawHaq.db";
+  private static final String FTS_VIRTUAL_TABLE = "mem";
 
   // This should be kept in sync with the version number in the database
   // entry {boQwI':n}.
-  private static final int                     DATABASE_VERSION             = 201707180;
+  private static final int DATABASE_VERSION = 201707181;
 
-  private final KlingonDatabaseOpenHelper      mDatabaseOpenHelper;
-  private static final HashMap<String, String> mColumnMap                   = buildColumnMap();
-  private final Context                        mContext;
+  private final KlingonDatabaseOpenHelper mDatabaseOpenHelper;
+  private static final HashMap<String, String> mColumnMap = buildColumnMap();
+  private final Context mContext;
 
   // Keeps track of whether db created/upgraded message has been displayed already.
-  private static boolean                       mNewDatabaseMessageDisplayed = false;
+  private static boolean mNewDatabaseMessageDisplayed = false;
 
   /**
    * Constructor
    *
-   * @param context
-   *          The Context within which to work, used to create the DB
+   * @param context The Context within which to work, used to create the DB
    */
   public KlingonContentDatabase(Context context) {
     // Create a database helper to access the Klingon Database.
@@ -135,7 +134,6 @@ public class KlingonContentDatabase {
       // Possibly an attempt to write a readonly database.
       // Do nothing.
     }
-
   }
 
   /**
@@ -149,27 +147,27 @@ public class KlingonContentDatabase {
     map.put(KEY_ENTRY_NAME, KEY_ENTRY_NAME);
     map.put(KEY_DEFINITION, KEY_DEFINITION);
     map.put(KEY_ID, "rowid AS " + KEY_ID);
-    map.put(SearchManager.SUGGEST_COLUMN_INTENT_DATA_ID, "rowid AS "
-            + SearchManager.SUGGEST_COLUMN_INTENT_DATA_ID);
-    map.put(SearchManager.SUGGEST_COLUMN_SHORTCUT_ID, "rowid AS "
-            + SearchManager.SUGGEST_COLUMN_SHORTCUT_ID);
+    map.put(
+        SearchManager.SUGGEST_COLUMN_INTENT_DATA_ID,
+        "rowid AS " + SearchManager.SUGGEST_COLUMN_INTENT_DATA_ID);
+    map.put(
+        SearchManager.SUGGEST_COLUMN_SHORTCUT_ID,
+        "rowid AS " + SearchManager.SUGGEST_COLUMN_SHORTCUT_ID);
     return map;
   }
 
   /**
    * Returns a Cursor positioned at the entry specified by rowId
    *
-   * @param rowId
-   *          id of entry to retrieve
-   * @param columns
-   *          The columns to include, if null then all are included
+   * @param rowId id of entry to retrieve
+   * @param columns The columns to include, if null then all are included
    * @return Cursor positioned to matching entry, or null if not found.
    */
   public Cursor getEntry(String rowId, String[] columns) {
     // Log.d(TAG, "getEntry called with rowId: " + rowId);
 
     String selection = "rowid = ?";
-    String[] selectionArgs = new String[] { rowId };
+    String[] selectionArgs = new String[] {rowId};
 
     return query(selection, selectionArgs, columns);
 
@@ -182,55 +180,59 @@ public class KlingonContentDatabase {
    * Convert a string written in "xifan hol" shorthand to {tlhIngan Hol}. This is a mapping which
    * makes it easier to type, since shifting is unnecessary.
    *
-   * Make the following replacements: d -> D f -> ng h -> H (see note below) i -> I k -> Q s -> S x
-   * -> tlh z -> '
+   * <p>Make the following replacements: d -> D f -> ng h -> H (see note below) i -> I k -> Q s -> S
+   * x -> tlh z -> '
    *
-   * When replacing "h" with "H", the following must be preserved: ch -> ch gh -> gh tlh -> tlh ngh
-   * -> ngh (n + gh) ngH -> ngH (ng + H)
+   * <p>When replacing "h" with "H", the following must be preserved: ch -> ch gh -> gh tlh -> tlh
+   * ngh -> ngh (n + gh) ngH -> ngH (ng + H)
    *
-   * TODO: Consider allowing "invisible h". But this probably makes things too "loose". // c -> ch
-   * (but ch -/> chh) // g -> gh (but gh -/> ghh and ng -/> ngh)
+   * <p>TODO: Consider allowing "invisible h". But this probably makes things too "loose". // c ->
+   * ch (but ch -/> chh) // g -> gh (but gh -/> ghh and ng -/> ngh)
    */
   private String expandShorthand(String shorthand) {
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
-    if (!sharedPrefs.getBoolean(Preferences.KEY_XIFAN_HOL_CHECKBOX_PREFERENCE, /* default */false)) {
+    if (!sharedPrefs.getBoolean(
+        Preferences.KEY_XIFAN_HOL_CHECKBOX_PREFERENCE, /* default */ false)) {
       // The user has disabled the "xifan hol" shorthand, so just do nothing and return.
       return shorthand;
     }
-    if (sharedPrefs.getBoolean(Preferences.KEY_SWAP_QS_CHECKBOX_PREFERENCE, /* default */false)) {
+    if (sharedPrefs.getBoolean(Preferences.KEY_SWAP_QS_CHECKBOX_PREFERENCE, /* default */ false)) {
       // Map q to Q and k to q.
       shorthand = shorthand.replaceAll("q", "Q");
       shorthand = shorthand.replaceAll("k", "q");
     }
 
     // Note: The order of the replacements is important.
-    return shorthand.replaceAll("ngH", "NGH") // differentiate "ngh" from "ngH"
-            .replaceAll("h", "H") // side effects: ch -> cH, gh -> gH (also ngh -> ngH), tlh -> tlH
-            .replaceAll("cH", "ch") // restore "ch"
-            .replaceAll("gH", "gh") // restore "gh" (also "ngh")
-            .replaceAll("tlH", "tlh") // restore "tlh"
-            .replaceAll("g", "gX") // g -> gX, side effects: gh -> gXh, ng -> ngX
-            .replaceAll("gXh", "gh") // restore "gh"
-            .replaceAll("ngX", "ng") // restore "ng"
-            .replaceAll("gX", "gh") // g -> gh
-            .replaceAll("NGH", "ngH") // restore "ngH"
-            .replaceAll("c", "cX") // c -> cX, side effect: ch -> cXh
-            .replaceAll("cXh", "ch") // restore "ch"
-            .replaceAll("cX", "ch") // c -> ch
-
-            .replaceAll("d", "D") // do unambiguous replacements
-            .replaceAll("f", "ng").replaceAll("i", "I").replaceAll("k", "Q") // If the swap Qs
-                                                                             // preference was
-                                                                             // selected, this will
-                                                                             // have no effect.
-            .replaceAll("s", "S").replaceAll("z", "'").replaceAll("x", "tlh");
+    return shorthand
+        .replaceAll("ngH", "NGH") // differentiate "ngh" from "ngH"
+        .replaceAll("h", "H") // side effects: ch -> cH, gh -> gH (also ngh -> ngH), tlh -> tlH
+        .replaceAll("cH", "ch") // restore "ch"
+        .replaceAll("gH", "gh") // restore "gh" (also "ngh")
+        .replaceAll("tlH", "tlh") // restore "tlh"
+        .replaceAll("g", "gX") // g -> gX, side effects: gh -> gXh, ng -> ngX
+        .replaceAll("gXh", "gh") // restore "gh"
+        .replaceAll("ngX", "ng") // restore "ng"
+        .replaceAll("gX", "gh") // g -> gh
+        .replaceAll("NGH", "ngH") // restore "ngH"
+        .replaceAll("c", "cX") // c -> cX, side effect: ch -> cXh
+        .replaceAll("cXh", "ch") // restore "ch"
+        .replaceAll("cX", "ch") // c -> ch
+        .replaceAll("d", "D") // do unambiguous replacements
+        .replaceAll("f", "ng")
+        .replaceAll("i", "I")
+        .replaceAll("k", "Q") // If the swap Qs
+        // preference was
+        // selected, this will
+        // have no effect.
+        .replaceAll("s", "S")
+        .replaceAll("z", "'")
+        .replaceAll("x", "tlh");
   }
 
   /**
    * Returns a Cursor over all entries that match the given query.
    *
-   * @param query
-   *          The query, including entry name and metadata, to search for.
+   * @param query The query, including entry name and metadata, to search for.
    * @return Cursor over all entries that match, or null if none found.
    */
   public Cursor getEntryMatches(String query) {
@@ -247,14 +249,14 @@ public class KlingonContentDatabase {
 
     // If the query has components specified, then we're in analysis mode, and the solution is
     // already given to us.
-    ArrayList<KlingonContentProvider.Entry> analysisComponents = queryEntry
-            .getComponentsAsEntries();
+    ArrayList<KlingonContentProvider.Entry> analysisComponents =
+        queryEntry.getComponentsAsEntries();
     if (!analysisComponents.isEmpty()) {
       // Add the given list of components to the results.
       addGivenComponentsToResults(analysisComponents, resultsCursor, resultsSet);
 
       // Finally, add the complete query entry itself.
-      addExactMatch(queryBase, queryEntry, resultsCursor, /* indent */false);
+      addExactMatch(queryBase, queryEntry, resultsCursor, /* indent */ false);
 
       // Since the components are in the db, do no further analysis.
       return resultsCursor;
@@ -279,8 +281,8 @@ public class KlingonContentDatabase {
     // Get the preference for whether we should search the German definitions or not.
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
     boolean searchGermanDefinitions =
-        sharedPrefs.getBoolean(Preferences.KEY_SEARCH_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE,
-                               /* default */false);
+        sharedPrefs.getBoolean(
+            Preferences.KEY_SEARCH_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false);
 
     if (queryEntry.basePartOfSpeechIsUnknown() && queryEntry.getEntryName().length() > 4) {
       // If the POS is unknown and the query is greater than 4 characters, try to parse it
@@ -288,10 +290,10 @@ public class KlingonContentDatabase {
       parseQueryAsComplexWordOrSentence(looseQuery, resultsCursor, resultsSet);
     } else {
       // Otherwise, assume the base query is a prefix of the desired result.
-      Cursor resultsWithGivenPrefixCursor = getEntriesContainingQuery(looseQuery, /* isPrefix */
-              true);
-      copyCursorEntries(resultsCursor, resultsSet, resultsWithGivenPrefixCursor, /* filter */true,
-              queryEntry);
+      Cursor resultsWithGivenPrefixCursor =
+          getEntriesContainingQuery(looseQuery, /* isPrefix */ true);
+      copyCursorEntries(
+          resultsCursor, resultsSet, resultsWithGivenPrefixCursor, /* filter */ true, queryEntry);
       if (resultsWithGivenPrefixCursor != null) {
         resultsWithGivenPrefixCursor.close();
       }
@@ -303,31 +305,67 @@ public class KlingonContentDatabase {
     if (queryEntry.basePartOfSpeechIsUnknown()) {
       // Try the entries, but not from the beginning.
       if (queryEntry.getEntryName().length() > 2) {
-        Cursor resultsWithGivenQueryCursor = getEntriesContainingQuery(looseQuery, /* isPrefix */
-                false);
-        copyCursorEntries(resultsCursor, resultsSet, resultsWithGivenQueryCursor, /* filter */
-                false, null);
+        Cursor resultsWithGivenQueryCursor =
+            getEntriesContainingQuery(looseQuery, /* isPrefix */ false);
+        copyCursorEntries(
+            resultsCursor, resultsSet, resultsWithGivenQueryCursor, /* filter */ false, null);
         if (resultsWithGivenQueryCursor != null) {
           resultsWithGivenQueryCursor.close();
         }
       }
 
       // Match definitions, from beginning. Since the definition is (almost always) canonical, always search in English. Additionally search in German // if that option is set.
-      matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ true, /* useSearchTags */ false, /* searchGermanDefinitions */ false, resultsCursor, resultsSet);
+      matchDefinitionsOrSearchTags(
+          queryBase, /* isPrefix */
+          true, /* useSearchTags */
+          false, /* searchGermanDefinitions */
+          false,
+          resultsCursor,
+          resultsSet);
       if (searchGermanDefinitions) {
-          matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ true, /* useSearchTags */ false, /* searchGermanDefinitions */ true, resultsCursor, resultsSet);
+        matchDefinitionsOrSearchTags(
+            queryBase, /* isPrefix */
+            true, /* useSearchTags */
+            false, /* searchGermanDefinitions */
+            true,
+            resultsCursor,
+            resultsSet);
       }
 
       // Match definitions, anywhere else. Again, always search in English, and additionally search in German if that option is set.
       if (queryEntry.getEntryName().length() > 2) {
-        matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ false, /* useSearchTags */ false, /* searchGermanDefinitions */ false, resultsCursor, resultsSet);
+        matchDefinitionsOrSearchTags(
+            queryBase, /* isPrefix */
+            false, /* useSearchTags */
+            false, /* searchGermanDefinitions */
+            false,
+            resultsCursor,
+            resultsSet);
         if (searchGermanDefinitions) {
-            matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ false, /* useSearchTags */ false, /* searchGermanDefinitions */ true, resultsCursor, resultsSet);
+          matchDefinitionsOrSearchTags(
+              queryBase, /* isPrefix */
+              false, /* useSearchTags */
+              false, /* searchGermanDefinitions */
+              true,
+              resultsCursor,
+              resultsSet);
         }
 
         // Match search tags, from beginning, then anywhere else. Don't bother searching the search tags in English if the option to search German is set.
-        matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ true, /* useSearchTags */ true, searchGermanDefinitions, resultsCursor, resultsSet);
-        matchDefinitionsOrSearchTags(queryBase, /* isPrefix */ false, /* useSearchTags */ true, searchGermanDefinitions, resultsCursor, resultsSet);
+        matchDefinitionsOrSearchTags(
+            queryBase, /* isPrefix */
+            true, /* useSearchTags */
+            true,
+            searchGermanDefinitions,
+            resultsCursor,
+            resultsSet);
+        matchDefinitionsOrSearchTags(
+            queryBase, /* isPrefix */
+            false, /* useSearchTags */
+            true,
+            searchGermanDefinitions,
+            resultsCursor,
+            resultsSet);
       }
     }
 
@@ -336,10 +374,12 @@ public class KlingonContentDatabase {
 
   // Helper method to add a list of components to the list of search results.
   private void addGivenComponentsToResults(
-          ArrayList<KlingonContentProvider.Entry> analysisComponents, MatrixCursor resultsCursor,
-          HashSet<Integer> resultsSet) {
+      ArrayList<KlingonContentProvider.Entry> analysisComponents,
+      MatrixCursor resultsCursor,
+      HashSet<Integer> resultsSet) {
     // Create a list of complex words.
-    ArrayList<KlingonContentProvider.ComplexWord> complexWordsList = new ArrayList<KlingonContentProvider.ComplexWord>();
+    ArrayList<KlingonContentProvider.ComplexWord> complexWordsList =
+        new ArrayList<KlingonContentProvider.ComplexWord>();
 
     // Keep track of current state. The verb suffix level is required for analysing rovers.
     KlingonContentProvider.ComplexWord currentComplexWord = null;
@@ -356,15 +396,15 @@ public class KlingonContentDatabase {
         // A new word is about to begin, so flush a complex word if there is one.
         if (currentComplexWord != null) {
           // We set a strict match because this is information given explicitly in the db.
-          addComplexWordToResults(currentComplexWord, resultsCursor, resultsSet, /* isLenient */
-                  false);
+          addComplexWordToResults(
+              currentComplexWord, resultsCursor, resultsSet, /* isLenient */ false);
           currentComplexWord = null;
         }
       }
 
       if (!isNoun && !isVerb && !isPrefix && !isSuffix) {
         // Add this word directly.
-        addExactMatch(componentEntryName, componentEntry, resultsCursor, /* indent */false);
+        addExactMatch(componentEntryName, componentEntry, resultsCursor, /* indent */ false);
         continue;
       }
 
@@ -375,8 +415,8 @@ public class KlingonContentDatabase {
         // Note that isNoun here indicates whether the suffix is a noun suffix, not
         // whether the stem is a noun or verb. This is important since noun suffixes
         // can be attached to nouns formed from verbs using {-wI'} or {-ghach}.
-        verbSuffixLevel = currentComplexWord.attachSuffix(componentEntryName, isNoun,
-                verbSuffixLevel);
+        verbSuffixLevel =
+            currentComplexWord.attachSuffix(componentEntryName, isNoun, verbSuffixLevel);
       } else if (isPrefix) {
         // A prefix, save to attach to the next verb.
         currentPrefixEntry = componentEntry;
@@ -395,26 +435,30 @@ public class KlingonContentDatabase {
     }
     if (currentComplexWord != null) {
       // Flush any outstanding word.
-      addComplexWordToResults(currentComplexWord, resultsCursor, resultsSet, /* isLenient */false);
+      addComplexWordToResults(currentComplexWord, resultsCursor, resultsSet, /* isLenient */ false);
     }
   }
 
   // Helper method to copy entries from one cursor to another.
   // If filter is true, queryEntry must be provided.
-  private void copyCursorEntries(MatrixCursor destCursor, HashSet<Integer> destSet,
-          Cursor srcCursor, boolean filter, KlingonContentProvider.Entry queryEntry) {
+  private void copyCursorEntries(
+      MatrixCursor destCursor,
+      HashSet<Integer> destSet,
+      Cursor srcCursor,
+      boolean filter,
+      KlingonContentProvider.Entry queryEntry) {
     if (srcCursor != null && srcCursor.getCount() != 0) {
       srcCursor.moveToFirst();
       do {
-        KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(srcCursor,
-                mContext);
+        KlingonContentProvider.Entry resultEntry =
+            new KlingonContentProvider.Entry(srcCursor, mContext);
 
         // Filter by the query if requested to do so. If filter is
         // true, the entry will be added only if it is a match that
         // satisfies certain requirements.
         if (!filter || queryEntry.isSatisfiedBy(resultEntry)) {
           // Prevent duplicates.
-          Object[] entryObject = convertEntryToCursorRow(resultEntry, /* indent */false);
+          Object[] entryObject = convertEntryToCursorRow(resultEntry, /* indent */ false);
           Integer intId = new Integer(resultEntry.getId());
           if (!destSet.contains(intId)) {
             destSet.add(intId);
@@ -440,8 +484,20 @@ public class KlingonContentDatabase {
     String precedingWildcard = isPrefix ? "" : "%";
     Cursor cursor = null;
     try {
-      cursor = db.query(true, FTS_VIRTUAL_TABLE, ALL_KEYS, KlingonContentDatabase.KEY_ENTRY_NAME
-              + " LIKE \"" + precedingWildcard + queryBase.trim() + "%\"", null, null, null, null,
+      cursor =
+          db.query(
+              true,
+              FTS_VIRTUAL_TABLE,
+              ALL_KEYS,
+              KlingonContentDatabase.KEY_ENTRY_NAME
+                  + " LIKE \""
+                  + precedingWildcard
+                  + queryBase.trim()
+                  + "%\"",
+              null,
+              null,
+              null,
+              null,
               null);
     } catch (SQLiteException e) {
       // Do nothing.
@@ -455,8 +511,17 @@ public class KlingonContentDatabase {
     db.rawQuery("PRAGMA case_sensitive_like = ON", null);
     Cursor cursor = null;
     try {
-      cursor = db.query(true, FTS_VIRTUAL_TABLE, ALL_KEYS, KlingonContentDatabase.KEY_ENTRY_NAME
-              + " LIKE \"" + entryName.trim() + "\"", null, null, null, null, null);
+      cursor =
+          db.query(
+              true,
+              FTS_VIRTUAL_TABLE,
+              ALL_KEYS,
+              KlingonContentDatabase.KEY_ENTRY_NAME + " LIKE \"" + entryName.trim() + "\"",
+              null,
+              null,
+              null,
+              null,
+              null);
     } catch (SQLiteException e) {
       // Do nothing.
     }
@@ -469,9 +534,17 @@ public class KlingonContentDatabase {
     db.rawQuery("PRAGMA case_sensitive_like = ON", null);
     Cursor cursor = null;
     try {
-      cursor = db.query(true, FTS_VIRTUAL_TABLE, ALL_KEYS,
-              KlingonContentDatabase.KEY_PART_OF_SPEECH + " LIKE \"" + sentenceClass + "\"", null,
-              null, null, null, null);
+      cursor =
+          db.query(
+              true,
+              FTS_VIRTUAL_TABLE,
+              ALL_KEYS,
+              KlingonContentDatabase.KEY_PART_OF_SPEECH + " LIKE \"" + sentenceClass + "\"",
+              null,
+              null,
+              null,
+              null,
+              null);
     } catch (SQLiteException e) {
       // Do nothing.
     }
@@ -480,16 +553,21 @@ public class KlingonContentDatabase {
 
   // Helper method to search for entries whose definitions or search tags match the query.
   // Note that matches are case-insensitive.
-  private Cursor getEntriesMatchingDefinition(String piece, boolean isPrefix, boolean useSearchTags, boolean searchGermanDefinitions) {
+  private Cursor getEntriesMatchingDefinition(
+      String piece, boolean isPrefix, boolean useSearchTags, boolean searchGermanDefinitions) {
 
     // The search key is either the definition or the search tags.
     String key;
     if (searchGermanDefinitions) {
-      key = useSearchTags ? KlingonContentDatabase.KEY_SEARCH_TAGS_DE :
-          KlingonContentDatabase.KEY_DEFINITION_DE;
+      key =
+          useSearchTags
+              ? KlingonContentDatabase.KEY_SEARCH_TAGS_DE
+              : KlingonContentDatabase.KEY_DEFINITION_DE;
     } else {
-      key = useSearchTags ? KlingonContentDatabase.KEY_SEARCH_TAGS :
-          KlingonContentDatabase.KEY_DEFINITION;
+      key =
+          useSearchTags
+              ? KlingonContentDatabase.KEY_SEARCH_TAGS
+              : KlingonContentDatabase.KEY_DEFINITION;
     }
 
     // If searching for a prefix, nothing can precede the query; otherwise,
@@ -501,8 +579,17 @@ public class KlingonContentDatabase {
 
     Cursor cursor = null;
     try {
-      cursor = db.query(true, FTS_VIRTUAL_TABLE, ALL_KEYS, key + " LIKE \"" + precedingWildcard
-              + piece.trim() + "%\"", null, null, null, null, null);
+      cursor =
+          db.query(
+              true,
+              FTS_VIRTUAL_TABLE,
+              ALL_KEYS,
+              key + " LIKE \"" + precedingWildcard + piece.trim() + "%\"",
+              null,
+              null,
+              null,
+              null,
+              null);
     } catch (SQLiteException e) {
       // Do nothing.
     }
@@ -510,17 +597,27 @@ public class KlingonContentDatabase {
   }
 
   // Helper method to make it easier to search either definitions or search tags, in either English or German.
-  private void matchDefinitionsOrSearchTags(String piece, boolean isPrefix, boolean useSearchTags, boolean searchGermanDefinitions, MatrixCursor resultsCursor, HashSet<Integer> resultsSet) {
-      Cursor matchingResults = getEntriesMatchingDefinition(piece, isPrefix, useSearchTags, searchGermanDefinitions);
-      copyCursorEntries(resultsCursor, resultsSet, matchingResults, /* filter */ false, null);
-      if (matchingResults != null) {
-          matchingResults.close();
-      }
+  private void matchDefinitionsOrSearchTags(
+      String piece,
+      boolean isPrefix,
+      boolean useSearchTags,
+      boolean searchGermanDefinitions,
+      MatrixCursor resultsCursor,
+      HashSet<Integer> resultsSet) {
+    Cursor matchingResults =
+        getEntriesMatchingDefinition(piece, isPrefix, useSearchTags, searchGermanDefinitions);
+    copyCursorEntries(resultsCursor, resultsSet, matchingResults, /* filter */ false, null);
+    if (matchingResults != null) {
+      matchingResults.close();
+    }
   }
 
   // Helper method to add one exact match to the results cursor.
-  private void addExactMatch(String query, KlingonContentProvider.Entry filterEntry,
-          MatrixCursor resultsCursor, boolean indent) {
+  private void addExactMatch(
+      String query,
+      KlingonContentProvider.Entry filterEntry,
+      MatrixCursor resultsCursor,
+      boolean indent) {
     Cursor exactMatchesCursor = getExactMatches(query);
     // There must be a match.
     if (exactMatchesCursor == null || exactMatchesCursor.getCount() == 0) {
@@ -530,8 +627,8 @@ public class KlingonContentDatabase {
     // Log.d(TAG, "Exact matches found: " + exactMatchesCursor.getCount());
     exactMatchesCursor.moveToFirst();
     do {
-      KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(
-              exactMatchesCursor, mContext);
+      KlingonContentProvider.Entry resultEntry =
+          new KlingonContentProvider.Entry(exactMatchesCursor, mContext);
       if (filterEntry.isSatisfiedBy(resultEntry)) {
         Object[] exactMatchObject = convertEntryToCursorRow(resultEntry, indent);
         /*
@@ -547,10 +644,11 @@ public class KlingonContentDatabase {
   }
 
   // Helper method to parse a complex word or a sentence.
-  private void parseQueryAsComplexWordOrSentence(String query, MatrixCursor resultsCursor,
-          HashSet<Integer> resultsSet) {
+  private void parseQueryAsComplexWordOrSentence(
+      String query, MatrixCursor resultsCursor, HashSet<Integer> resultsSet) {
     // This set stores the complex words.
-    ArrayList<KlingonContentProvider.ComplexWord> complexWordsList = new ArrayList<KlingonContentProvider.ComplexWord>();
+    ArrayList<KlingonContentProvider.ComplexWord> complexWordsList =
+        new ArrayList<KlingonContentProvider.ComplexWord>();
 
     // Split the query into sentences.
     String[] sentences = query.split(";,\\.?!");
@@ -569,29 +667,33 @@ public class KlingonContentDatabase {
             compoundNoun += " " + words[k];
           }
           // Log.d(TAG, "parseQueryAsComplexWordOrSentence: compoundNoun = " + compoundNoun);
-          KlingonContentProvider.parseComplexWord(compoundNoun, /* isNoun */true, complexWordsList);
+          KlingonContentProvider.parseComplexWord(
+              compoundNoun, /* isNoun */ true, complexWordsList);
         }
 
         // Next, try to parse this as a verb.
         // Log.d(TAG, "parseQueryAsComplexWordOrSentence: verb = " + word);
-        KlingonContentProvider.parseComplexWord(word, /* isNoun */false, complexWordsList);
+        KlingonContentProvider.parseComplexWord(word, /* isNoun */ false, complexWordsList);
       }
     }
     for (KlingonContentProvider.ComplexWord complexWord : complexWordsList) {
       // Be a little lenient and also match non-nouns and non-verbs.
-      addComplexWordToResults(complexWord, resultsCursor, resultsSet, /* isLenient */true);
+      addComplexWordToResults(complexWord, resultsCursor, resultsSet, /* isLenient */ true);
     }
   }
 
-  private void addComplexWordToResults(KlingonContentProvider.ComplexWord complexWord,
-          MatrixCursor resultsCursor, HashSet<Integer> resultsSet, boolean isLenient) {
+  private void addComplexWordToResults(
+      KlingonContentProvider.ComplexWord complexWord,
+      MatrixCursor resultsCursor,
+      HashSet<Integer> resultsSet,
+      boolean isLenient) {
     // The isLenient flag is for determining whether we are doing a real analysis (set to true), or
     // whether the correct analysis has already been supplied in the components (set to false). When
     // set to true, a bare word will match any part of speech (not just noun or verb). But for this
     // reason, duplicates are removed (since there may be many of them). However, when set to false,
     // duplicates will be kept (since the given correct analysis contains them).
-    KlingonContentProvider.Entry filterEntry = new KlingonContentProvider.Entry(
-            complexWord.filter(isLenient), mContext);
+    KlingonContentProvider.Entry filterEntry =
+        new KlingonContentProvider.Entry(complexWord.filter(isLenient), mContext);
     Cursor exactMatchesCursor = getExactMatches(complexWord.stem());
 
     boolean stemAdded = false;
@@ -601,13 +703,14 @@ public class KlingonContentDatabase {
       // Add all exact matches for stem.
       exactMatchesCursor.moveToFirst();
       do {
-        KlingonContentProvider.Entry resultEntry = new KlingonContentProvider.Entry(
-                exactMatchesCursor, mContext);
+        KlingonContentProvider.Entry resultEntry =
+            new KlingonContentProvider.Entry(exactMatchesCursor, mContext);
         // An archaic or hypothetical word or phrase, even if it's an exact match, will never be
         // part of a complex word.
         // However, allow slang, regional, and extended canon.
-        if (filterEntry.isSatisfiedBy(resultEntry) && !resultEntry.isArchaic()
-                && !resultEntry.isHypothetical()) {
+        if (filterEntry.isSatisfiedBy(resultEntry)
+            && !resultEntry.isArchaic()
+            && !resultEntry.isHypothetical()) {
           // Log.d(TAG, "adding: " + resultEntry.getEntryName() + " (" + resultEntry.getPartOfSpeech() + ")");
           Object[] exactMatchObject = complexWordCursorRow(resultEntry, complexWord);
 
@@ -638,26 +741,26 @@ public class KlingonContentDatabase {
 
       // First, add the root as a word. (The annotation is already included.)
       if (!numberRoot.equals("") && (!stemAdded || !numberRoot.equals(complexWord.stem()))) {
-        filterEntry = new KlingonContentProvider.Entry(numberRoot + ":" + numberRootAnnotation,
-                mContext);
+        filterEntry =
+            new KlingonContentProvider.Entry(numberRoot + ":" + numberRootAnnotation, mContext);
         if (BuildConfig.DEBUG) {
           Log.d(TAG, "numberRoot: " + numberRoot);
         }
-        addExactMatch(numberRoot, filterEntry, resultsCursor, /* indent */false);
+        addExactMatch(numberRoot, filterEntry, resultsCursor, /* indent */ false);
         stemAdded = true;
       }
 
       // Next, add the modifier as a word.
       if (!numberModifier.equals("")) {
         filterEntry = new KlingonContentProvider.Entry(numberModifier + ":n:num", mContext);
-        addExactMatch(numberModifier, filterEntry, resultsCursor, /* indent */true);
+        addExactMatch(numberModifier, filterEntry, resultsCursor, /* indent */ true);
       }
 
       // Finally, add the number suffix.
       if (!numberSuffix.equals("")) {
         numberSuffix = "-" + numberSuffix;
         filterEntry = new KlingonContentProvider.Entry(numberSuffix + ":n:num,suff", mContext);
-        addExactMatch(numberSuffix, filterEntry, resultsCursor, /* indent */true);
+        addExactMatch(numberSuffix, filterEntry, resultsCursor, /* indent */ true);
       }
     }
 
@@ -668,7 +771,7 @@ public class KlingonContentDatabase {
       if (!prefix.equals("")) {
         // Log.d(TAG, "verb prefix = " + prefix);
         filterEntry = new KlingonContentProvider.Entry(prefix + ":v:pref", mContext);
-        addExactMatch(prefix, filterEntry, resultsCursor, /* indent */true);
+        addExactMatch(prefix, filterEntry, resultsCursor, /* indent */ true);
       }
 
       // Add verb suffixes. Verb suffixes must go before noun suffixes since two of them
@@ -680,14 +783,14 @@ public class KlingonContentDatabase {
         if (!verbSuffixes[j].equals("")) {
           // Log.d(TAG, "verb suffix = " + verbSuffixes[j]);
           filterEntry = new KlingonContentProvider.Entry(verbSuffixes[j] + ":v:suff", mContext);
-          addExactMatch(verbSuffixes[j], filterEntry, resultsCursor, /* indent */true);
+          addExactMatch(verbSuffixes[j], filterEntry, resultsCursor, /* indent */ true);
         }
 
         // Check for the true rovers.
         String[] rovers = complexWord.getRovers(j);
         for (String rover : rovers) {
           filterEntry = new KlingonContentProvider.Entry(rover + ":v:suff", mContext);
-          addExactMatch(rover, filterEntry, resultsCursor, /* indent */true);
+          addExactMatch(rover, filterEntry, resultsCursor, /* indent */ true);
         }
       }
 
@@ -697,48 +800,78 @@ public class KlingonContentDatabase {
         if (!nounSuffixes[j].equals("")) {
           // Log.d(TAG, "noun suffix = " + nounSuffixes[j]);
           filterEntry = new KlingonContentProvider.Entry(nounSuffixes[j] + ":n:suff", mContext);
-          addExactMatch(nounSuffixes[j], filterEntry, resultsCursor, /* indent */true);
+          addExactMatch(nounSuffixes[j], filterEntry, resultsCursor, /* indent */ true);
         }
       }
     }
   }
 
-  private Object[] complexWordCursorRow(KlingonContentProvider.Entry entry,
-          KlingonContentProvider.ComplexWord complexWord) {
+  private Object[] complexWordCursorRow(
+      KlingonContentProvider.Entry entry, KlingonContentProvider.ComplexWord complexWord) {
     // TODO: Add warnings for mismatched affixes here.
     return new Object[] {
-            entry.getId(),
-            complexWord.getVerbPrefixString() + entry.getEntryName()
-                    + complexWord.getSuffixesString(), entry.getPartOfSpeech(),
-            entry.getDefinition(), entry.getSynonyms(), entry.getAntonyms(), entry.getSeeAlso(),
-            entry.getNotes(), entry.getHiddenNotes(), entry.getComponents(), entry.getExamples(),
-            entry.getSearchTags(), entry.getSource(), entry.getDefinition_DE(), entry.getNotes_DE(),
-            entry.getSearchTags_DE(), };
+      entry.getId(),
+      complexWord.getVerbPrefixString() + entry.getEntryName() + complexWord.getSuffixesString(),
+      entry.getPartOfSpeech(),
+      entry.getDefinition(),
+      entry.getSynonyms(),
+      entry.getAntonyms(),
+      entry.getSeeAlso(),
+      entry.getNotes(),
+      entry.getHiddenNotes(),
+      entry.getComponents(),
+      entry.getExamples(),
+      entry.getSearchTags(),
+      entry.getSource(),
+      entry.getDefinition_DE(),
+      entry.getNotes_DE(),
+      entry.getSearchTags_DE(),
+    };
   }
 
   private Object[] convertEntryToCursorRow(KlingonContentProvider.Entry entry, boolean indent) {
-    return new Object[] { entry.getId(), entry.getEntryName(),
-            entry.getPartOfSpeech() + (indent ? ",indent" : ""), entry.getDefinition(),
-            entry.getSynonyms(), entry.getAntonyms(), entry.getSeeAlso(), entry.getNotes(),
-            entry.getHiddenNotes(), entry.getComponents(), entry.getExamples(),
-            entry.getSearchTags(), entry.getSource(), entry.getDefinition_DE(), entry.getNotes_DE(),
-            entry.getSearchTags_DE(), };
+    return new Object[] {
+      entry.getId(),
+      entry.getEntryName(),
+      entry.getPartOfSpeech() + (indent ? ",indent" : ""),
+      entry.getDefinition(),
+      entry.getSynonyms(),
+      entry.getAntonyms(),
+      entry.getSeeAlso(),
+      entry.getNotes(),
+      entry.getHiddenNotes(),
+      entry.getComponents(),
+      entry.getExamples(),
+      entry.getSearchTags(),
+      entry.getSource(),
+      entry.getDefinition_DE(),
+      entry.getNotes_DE(),
+      entry.getSearchTags_DE(),
+    };
   }
 
   /**
    * Returns a cursor for one entry given its _id.
    *
-   * @param entryName
-   *          The name of the entry to search for
-   * @param columns
-   *          The columns to include, if null then all are included
+   * @param entryName The name of the entry to search for
+   * @param columns The columns to include, if null then all are included
    * @return Cursor over all entries that match, or null if none found.
    */
   public Cursor getEntryById(String entryId, String[] columns) {
     // Log.d(TAG, "getEntryById called with entryid: " + entryId);
-    Cursor cursor = mDatabaseOpenHelper.getReadableDatabase().query(true, FTS_VIRTUAL_TABLE,
-            columns, KlingonContentDatabase.KEY_ID + "=" + entryId + "", null, null, null, null,
-            null);
+    Cursor cursor =
+        mDatabaseOpenHelper
+            .getReadableDatabase()
+            .query(
+                true,
+                FTS_VIRTUAL_TABLE,
+                columns,
+                KlingonContentDatabase.KEY_ID + "=" + entryId + "",
+                null,
+                null,
+                null,
+                null,
+                null);
     if (cursor != null) {
       cursor.moveToFirst();
     }
@@ -749,12 +882,9 @@ public class KlingonContentDatabase {
   /**
    * Performs a database query.
    *
-   * @param selection
-   *          The selection clause
-   * @param selectionArgs
-   *          Selection arguments for "?" components in the selection
-   * @param columns
-   *          The columns to return
+   * @param selection The selection clause
+   * @param selectionArgs Selection arguments for "?" components in the selection
+   * @param columns The columns to return
    * @return A Cursor over all rows matching the query
    */
   private Cursor query(String selection, String[] selectionArgs, String[] columns) {
@@ -772,8 +902,15 @@ public class KlingonContentDatabase {
     // Log.d(TAG, "query - selection: " + selection);
     // Log.d(TAG, "query - selectionArgs: " + Arrays.toString(selectionArgs));
 
-    Cursor cursor = builder.query(mDatabaseOpenHelper.getReadableDatabase(), columns, selection,
-            selectionArgs, null, null, null);
+    Cursor cursor =
+        builder.query(
+            mDatabaseOpenHelper.getReadableDatabase(),
+            columns,
+            selection,
+            selectionArgs,
+            null,
+            null,
+            null);
 
     // DEBUG
     // Log.d(TAG, "query - cursor: " + cursor.toString());
@@ -788,17 +925,16 @@ public class KlingonContentDatabase {
     return cursor;
   }
 
-  /**
-   * This class helps create, open, and upgrade the Klingon database.
-   */
+  /** This class helps create, open, and upgrade the Klingon database. */
   private static class KlingonDatabaseOpenHelper extends SQLiteOpenHelper {
 
     // The system path of the Klingon database.
-    private static String  DATABASE_PATH = Environment.getDataDirectory()
-                                                 + "/data/org.tlhInganHol.android.klingonassistant/databases/";
+    private static String DATABASE_PATH =
+        Environment.getDataDirectory()
+            + "/data/org.tlhInganHol.android.klingonassistant/databases/";
 
     // For storing the context the helper was called with for use.
-    private final Context  mHelperContext;
+    private final Context mHelperContext;
 
     // The Klingon database.
     private SQLiteDatabase mDatabase;
@@ -836,9 +972,12 @@ public class KlingonContentDatabase {
       mHelperContext.deleteDatabase(DATABASE_NAME);
       Toast.makeText(
               mHelperContext,
-              String.format(mHelperContext.getResources().getString(R.string.database_upgraded),
-                  dottedVersion(existingVersion), dottedVersion(newVersion)),
-              Toast.LENGTH_LONG).show();
+              String.format(
+                  mHelperContext.getResources().getString(R.string.database_upgraded),
+                  dottedVersion(existingVersion),
+                  dottedVersion(newVersion)),
+              Toast.LENGTH_LONG)
+          .show();
       mNewDatabaseMessageDisplayed = true;
 
       // Show help after database upgrade.
@@ -847,14 +986,18 @@ public class KlingonContentDatabase {
 
     private String dottedVersion(int version) {
       String s = Integer.toString(version);
-      return s.substring(0, 4) + "." + s.substring(4, 6) + "." + s.substring(6, 8)
-              + Character.toString((char) (s.charAt(8) - '0' + 'a'));
+      return s.substring(0, 4)
+          + "."
+          + s.substring(4, 6)
+          + "."
+          + s.substring(6, 8)
+          + Character.toString((char) (s.charAt(8) - '0' + 'a'));
     }
 
     private void setShowHelpFlag() {
       // Set the flag to show the help screen (but not necessarily the tutorial).
-      SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(
-              mHelperContext).edit();
+      SharedPreferences.Editor sharedPrefsEd =
+          PreferenceManager.getDefaultSharedPreferences(mHelperContext).edit();
       sharedPrefsEd.putBoolean(KlingonAssistant.KEY_SHOW_HELP, true);
       sharedPrefsEd.commit();
       // Log.d(TAG, "Flag set to show help.");
@@ -905,9 +1048,13 @@ public class KlingonContentDatabase {
 
         // Inform the user the database has been created.
         if (!mNewDatabaseMessageDisplayed) {
-          Toast.makeText(mHelperContext,
-                  String.format(mHelperContext.getResources().getString(R.string.database_created),
-                    dottedVersion(DATABASE_VERSION)), Toast.LENGTH_LONG).show();
+          Toast.makeText(
+                  mHelperContext,
+                  String.format(
+                      mHelperContext.getResources().getString(R.string.database_created),
+                      dottedVersion(DATABASE_VERSION)),
+                  Toast.LENGTH_LONG)
+              .show();
           mNewDatabaseMessageDisplayed = true;
         }
 
@@ -978,18 +1125,14 @@ public class KlingonContentDatabase {
       // Log.d(TAG, "Database copy successful.");
     }
 
-    /**
-     * Opens the database.
-     */
+    /** Opens the database. */
     public void openDatabase() throws SQLException {
       String fullDBPath = DATABASE_PATH + DATABASE_NAME;
       // Log.d(TAG, "openDatabase() called on path " + fullDBPath + ".");
       mDatabase = SQLiteDatabase.openDatabase(fullDBPath, null, SQLiteDatabase.OPEN_READONLY);
     }
 
-    /**
-     * Closes the database.
-     */
+    /** Closes the database. */
     @Override
     public synchronized void close() {
       // Log.d(TAG, "Closing database.");

@@ -20,5 +20,4 @@ package org.tlhInganHol.android.klingonassistant;
  * The alternate activity for the dictionary. This is identical to the main activity, except that it
  * uses a different search resource.
  */
-public class KlingonAssistantAlt extends KlingonAssistant {
-}
+public class KlingonAssistantAlt extends KlingonAssistant {}

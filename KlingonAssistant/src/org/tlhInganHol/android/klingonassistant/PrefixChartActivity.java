@@ -20,9 +20,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-/**
- * Displays the prefix chart.
- */
+/** Displays the prefix chart. */
 public class PrefixChartActivity extends BaseActivity {
   // private static final String TAG = "PrefixChartActivity";
 
@@ -31,7 +29,8 @@ public class PrefixChartActivity extends BaseActivity {
     super.onCreate(savedInstanceState);
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
 
-    if (sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */false)) {
+    if (sharedPrefs.getBoolean(
+        Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
       setDrawerContentView(R.layout.prefix_charts_tlh);
     } else {
       setDrawerContentView(R.layout.prefix_charts);

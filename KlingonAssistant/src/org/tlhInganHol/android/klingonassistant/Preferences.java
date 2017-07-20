@@ -22,10 +22,8 @@ import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
-import android.preference.Preference;
-import android.view.MenuItem;
-
 import android.preference.PreferenceActivity;
+import android.view.MenuItem;
 
 // Since this needs to extend PreferenceActivity, it does not have an action bar.
 public class Preferences extends PreferenceActivity implements OnSharedPreferenceChangeListener {
@@ -34,26 +32,32 @@ public class Preferences extends PreferenceActivity implements OnSharedPreferenc
   // public static final String KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE                = "run_tutorial_checkbox_preference";
 
   // Language preferences.
-  public static final String KEY_KLINGON_UI_CHECKBOX_PREFERENCE                  = "klingon_ui_checkbox_preference";
-  public static final String KEY_KLINGON_FONT_CHECKBOX_PREFERENCE                = "klingon_font_checkbox_preference";
-  public static final String KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE     = "show_german_definitions_checkbox_preference";
-  public static final String KEY_SEARCH_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE   = "search_german_definitions_checkbox_preference";
+  public static final String KEY_KLINGON_UI_CHECKBOX_PREFERENCE = "klingon_ui_checkbox_preference";
+  public static final String KEY_KLINGON_FONT_CHECKBOX_PREFERENCE =
+      "klingon_font_checkbox_preference";
+  public static final String KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE =
+      "show_german_definitions_checkbox_preference";
+  public static final String KEY_SEARCH_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE =
+      "search_german_definitions_checkbox_preference";
 
   // Input preferences.
-  public static final String KEY_XIFAN_HOL_CHECKBOX_PREFERENCE                   = "xifan_hol_checkbox_preference";
-  public static final String KEY_SWAP_QS_CHECKBOX_PREFERENCE                     = "swap_qs_checkbox_preference";
+  public static final String KEY_XIFAN_HOL_CHECKBOX_PREFERENCE = "xifan_hol_checkbox_preference";
+  public static final String KEY_SWAP_QS_CHECKBOX_PREFERENCE = "swap_qs_checkbox_preference";
 
   // Social preferences.
-  public static final String KEY_SOCIAL_NETWORK_LIST_PREFERENCE                  = "social_network_list_preference";
+  public static final String KEY_SOCIAL_NETWORK_LIST_PREFERENCE = "social_network_list_preference";
 
   // Informational preferences.
-  public static final String KEY_USE_COLOURS_CHECKBOX_PREFERENCE                 = "use_colours_checkbox_preference";
-  public static final String KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE           = "show_transitivity_checkbox_preference";
-  public static final String KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE = "show_additional_information_checkbox_preference";
+  public static final String KEY_USE_COLOURS_CHECKBOX_PREFERENCE =
+      "use_colours_checkbox_preference";
+  public static final String KEY_SHOW_TRANSITIVITY_CHECKBOX_PREFERENCE =
+      "show_transitivity_checkbox_preference";
+  public static final String KEY_SHOW_ADDITIONAL_INFORMATION_CHECKBOX_PREFERENCE =
+      "show_additional_information_checkbox_preference";
 
   private CheckBoxPreference mKlingonUICheckBoxPreference;
   private CheckBoxPreference mKlingonFontCheckBoxPreference;
-  private static boolean     warningActive                                       = false;
+  private static boolean warningActive = false;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -72,11 +76,11 @@ public class Preferences extends PreferenceActivity implements OnSharedPreferenc
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
     switch (item.getItemId()) {
-    case android.R.id.home:
-      finish();
-      return true;
-    default:
-      return super.onOptionsItemSelected(item);
+      case android.R.id.home:
+        finish();
+        return true;
+      default:
+        return super.onOptionsItemSelected(item);
     }
   }
 
@@ -88,11 +92,12 @@ public class Preferences extends PreferenceActivity implements OnSharedPreferenc
     getPreferenceScreen().getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
 
     // Get a reference to the "use Klingon UI" checkbox and the "use Klingon font" checkbox.
-    mKlingonUICheckBoxPreference = (CheckBoxPreference) getPreferenceScreen().findPreference(
-            KEY_KLINGON_UI_CHECKBOX_PREFERENCE);
-    mKlingonFontCheckBoxPreference = (CheckBoxPreference) getPreferenceScreen().findPreference(
-            KEY_KLINGON_FONT_CHECKBOX_PREFERENCE);
-
+    mKlingonUICheckBoxPreference =
+        (CheckBoxPreference)
+            getPreferenceScreen().findPreference(KEY_KLINGON_UI_CHECKBOX_PREFERENCE);
+    mKlingonFontCheckBoxPreference =
+        (CheckBoxPreference)
+            getPreferenceScreen().findPreference(KEY_KLINGON_FONT_CHECKBOX_PREFERENCE);
   }
 
   @Override
@@ -107,14 +112,18 @@ public class Preferences extends PreferenceActivity implements OnSharedPreferenc
   public void onSharedPreferenceChanged(final SharedPreferences sharedPrefs, final String key) {
 
     if (key.equals(KEY_KLINGON_UI_CHECKBOX_PREFERENCE)) {
-      final boolean newValue = sharedPrefs.getBoolean(key, /* default */false);
+      final boolean newValue = sharedPrefs.getBoolean(key, /* default */ false);
       if (!warningActive) {
         // User has changed the UI language, display a warning.
         warningActive = true;
-        new AlertDialog.Builder(this).setIcon(R.drawable.alert_dialog_icon)
-                .setTitle(R.string.warning).setMessage(R.string.change_ui_language_warning)
-                .setCancelable(false) // Can't be canceled with the BACK key.
-                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+        new AlertDialog.Builder(this)
+            .setIcon(R.drawable.alert_dialog_icon)
+            .setTitle(R.string.warning)
+            .setMessage(R.string.change_ui_language_warning)
+            .setCancelable(false) // Can't be canceled with the BACK key.
+            .setPositiveButton(
+                android.R.string.yes,
+                new DialogInterface.OnClickListener() {
                   @Override
                   public void onClick(DialogInterface dialog, int whichButton) {
                     // User clicked OK.
@@ -126,7 +135,10 @@ public class Preferences extends PreferenceActivity implements OnSharedPreferenc
                       mKlingonFontCheckBoxPreference.setChecked(false);
                     }
                   }
-                }).setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                })
+            .setNegativeButton(
+                android.R.string.no,
+                new DialogInterface.OnClickListener() {
                   @Override
                   public void onClick(DialogInterface dialog, int whichButton) {
                     if (mKlingonUICheckBoxPreference != null) {
@@ -135,7 +147,8 @@ public class Preferences extends PreferenceActivity implements OnSharedPreferenc
                       warningActive = false;
                     }
                   }
-                }).show();
+                })
+            .show();
       }
     }
   }
