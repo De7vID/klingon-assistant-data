@@ -279,10 +279,13 @@ public class KlingonContentDatabase {
     }
 
     // Get the preference for whether we should search the German definitions or not.
+    // Note that the search preference is dependent on the show preference.
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
     boolean searchGermanDefinitions =
         sharedPrefs.getBoolean(
-            Preferences.KEY_SEARCH_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false);
+                Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)
+            && sharedPrefs.getBoolean(
+                Preferences.KEY_SEARCH_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false);
 
     if (queryEntry.basePartOfSpeechIsUnknown() && queryEntry.getEntryName().length() > 4) {
       // If the POS is unknown and the query is greater than 4 characters, try to parse it
