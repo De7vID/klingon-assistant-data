@@ -99,7 +99,7 @@ public class KlingonContentDatabase {
 
   // This should be kept in sync with the version number in the database
   // entry {boQwI':n}.
-  private static final int DATABASE_VERSION = 201707181;
+  private static final int DATABASE_VERSION = 201707250;
 
   private final KlingonDatabaseOpenHelper mDatabaseOpenHelper;
   private static final HashMap<String, String> mColumnMap = buildColumnMap();
@@ -279,10 +279,13 @@ public class KlingonContentDatabase {
     }
 
     // Get the preference for whether we should search the German definitions or not.
+    // Note that the search preference is dependent on the show preference.
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
     boolean searchGermanDefinitions =
         sharedPrefs.getBoolean(
-            Preferences.KEY_SEARCH_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false);
+                Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)
+            && sharedPrefs.getBoolean(
+                Preferences.KEY_SEARCH_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false);
 
     if (queryEntry.basePartOfSpeechIsUnknown() && queryEntry.getEntryName().length() > 4) {
       // If the POS is unknown and the query is greater than 4 characters, try to parse it
