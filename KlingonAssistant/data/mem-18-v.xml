@@ -1399,17 +1399,36 @@ A more common term for this is {qatru':n:nolink}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.29. -->
-      <column name="_id">24596</column>
+      <column name="_id">34596</column>
       <column name="entry_name">ver</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:1,is</column>
       <column name="definition">be spiral</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mI'rab:n}</column>
+      <column name="see_also">{mI'rab:n}, {ver:v:2}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">34597</column>
+      <column name="entry_name">ver</column>
+      <column name="part_of_speech">v:2,is</column>
+      <column name="definition">be dizzy</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{vul:v}, {ver:v:1}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">"Vertigo".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
@@ -2857,14 +2876,14 @@ This region has some vocabulary differences from {ta' Hol:n}. Terms which have a
       <column name="definition_de">bewusstlos</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{ver:v:2}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {vulchoHbe' tlhInganpu'.:sen}</column>
-      <column name="search_tags"></column>
+      <column name="search_tags">faint</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
