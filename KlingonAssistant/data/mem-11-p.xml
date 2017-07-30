@@ -443,7 +443,26 @@ See also {tIq'ghob:n:hyp} for a hypothetical similar grammatical construction.</
       <column name="source">[1] {paq'batlh:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
       <column name="_id">24160</column>
+      <column name="entry_name">paQ</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">meditate (on), cogitate (about), reflect (on), comtemplate</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This word can (but doesn't have to) take an object indicating what is being meditated about or reflected upon. It does not connote "entreat", so "pray" may not be an appropriate translation.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">24165</column>
       <column name="entry_name">paQDI'norgh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">teachings</column>
@@ -1153,12 +1172,12 @@ This verb can also be used with an object. See {pegh:v:1}.</column>
     <table name="mem">
       <column name="_id">24430</column>
       <column name="entry_name">pel'aQ</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">shell (of an egg)</column>
       <column name="definition_de">(Eier-)Schale</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{QIm:n}, {nagh DIr:n}, {'eb:n}</column>
+      <column name="see_also">{QIm:n}, {nagh DIr:n}, {'eb:n}, {pel'aQ:n:2}</column>
       <column name="notes">There is an idiomatic expression {pel'aQDaj ghorpa':sen:idiom} "before it breaks its shell", meaning "before it's too late" or "while there's still time".</column>
       <!-- "Pellicle"? -->
       <column name="notes_de"></column>
@@ -1168,6 +1187,25 @@ This verb can also be used with an object. See {pegh:v:1}.</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">24431</column>
+      <column name="entry_name">pel'aQ</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">coffin</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{pel'aQ:n:1}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">24435</column>

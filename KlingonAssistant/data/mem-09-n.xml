@@ -301,7 +301,7 @@
       <column name="definition_de">Schale (von Tier)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{pel'aQ:n}</column>
+      <column name="see_also">{pel'aQ:n:1}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">It is unclear if this is considered a body part (i.e., takes {-Du':n:suff}), but it probably works the same way as for {DIr:n}.</column>
@@ -803,6 +803,25 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="search_tags">javelin</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">22081</column>
+      <column name="entry_name">naQ 'er</column>
+      <column name="part_of_speech">n:anim</column>
+      <column name="definition">brush devil (a Klingon animal)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{'er:n}</column>
+      <column name="notes">The Federation Standard name for this animal, "brush devil", has nothing to do with the Klingon name.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">22090</column>
