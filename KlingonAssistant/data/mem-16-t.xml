@@ -384,14 +384,14 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31745</column>
+      <column name="_id">31742</column>
       <column name="entry_name">tajvaj</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">angle</column>
       <column name="definition_de">Winkel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tajvajHom:n}, {tajvaj'a':n}, {tajvaj leD:n}</column>
+      <column name="see_also">{tajvajHom:n}, {tajvaj'a':n}, {tajvaj leD:n}, {tajvaj:n:2}</column>
       <column name="notes">Angles are measured in {lawrI':n} (or {law:n} in more ancient times or in traditional documents).[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -400,6 +400,25 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {HQ 11.2, Jun. 2002:src}, [2] {Saarbrücken qepHom'a' 2014:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">31744</column>
+      <column name="entry_name">tajvaj</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">corner of a room</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tajvaj:n:1}, {po'oH:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">31746</column>
@@ -413,7 +432,7 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{tajvaj:n}, {-Hom:n}</column>
+      <column name="components">{tajvaj:n:1}, {-Hom:n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -431,7 +450,7 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{tajvaj:n}, {-'a':n}</column>
+      <column name="components">{tajvaj:n:1}, {-'a':n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -449,7 +468,7 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{tajvaj:n}, {leD:v}</column>
+      <column name="components">{tajvaj:n:1}, {leD:v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -2394,7 +2413,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="_id">32520</column>
       <column name="entry_name">tIng</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">southwestward, area toward the southwest</column>
+      <column name="definition">area southwestward, area towards the southwest</column>
       <column name="definition_de">Südwesten, Bereich im Südwesten</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
