@@ -1664,8 +1664,46 @@ In {Klingon Monopoly:src}, "Free Parking" is translated as {vergh 'ach DIlnISbe'
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2013.11.10. -->
+      <!-- Checked on: 2017.07.30. -->
       <column name="_id">34673</column>
+      <column name="entry_name">vey'</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be comfortable</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{vey'Ha':v}</column>
+      <column name="see_also"></column>
+      <column name="notes">This is similar to {yap:v}, but {vey':v:nolink} implies being more than enough/sufficient.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">34674</column>
+      <column name="entry_name">vey'Ha'</column>
+      <column name="part_of_speech">v:is,deriv</column>
+      <column name="definition">be uncomfortable</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{vey':v}</column>
+      <column name="see_also"></column>
+      <column name="notes">This means more than not being enough or being insufficient (see {yap:v}).</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{vey':v}, {-Ha':v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2013.11.10. -->
+      <column name="_id">34676</column>
       <column name="entry_name">ve'</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">travel with a purpose, for a specific reason; travel on a mission</column>
@@ -1684,7 +1722,7 @@ In {Klingon Monopoly:src}, "Free Parking" is translated as {vergh 'ach DIlnISbe'
       <column name="source">[1] {Star Trek Into Darkness:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">34675</column>
+      <column name="_id">34677</column>
       <column name="entry_name">vI-</column>
       <column name="part_of_speech">v:pref</column>
       <column name="definition">I-him/her/it/them</column>
