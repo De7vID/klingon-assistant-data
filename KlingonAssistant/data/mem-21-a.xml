@@ -539,7 +539,45 @@
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
       <column name="_id">37135</column>
+      <column name="entry_name">'aplom</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">pellet</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">37136</column>
+      <column name="entry_name">'aplom chuch</column>
+      <column name="part_of_speech">n:alt</column>
+      <column name="definition">{chuch 'aplom:n}</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">37137</column>
       <column name="entry_name">'aplo'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">case, container</column>
@@ -556,6 +594,32 @@
       <!-- https://www.facebook.com/groups/LearnKlingon/permalink/459675987473956/ -->
       <column name="search_tags_de"></column>
       <column name="source">[1] {Klingon Monopoly:src}, [2] {TNK:src}, [3] {Facebook "Learn Klingon" group 2013.08.10:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">37138</column>
+      <column name="entry_name">'aq</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">predict, prognosticate</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ghut:v}, {qut:v}</column>
+      <column name="notes">This refers to predicting based on deductive reasoning or research or science.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">The word for "reason" or "intellect" in Arabic is "'aql".</column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {SIS 'e' vI'aq:sen@@SIS:v, 'e':n, vI-:v, 'aq:v} "I forecast/predict (that it will) rain."
+▶ {SIS 'e' 'aqlu':sen@@SIS:v, 'e':n, 'aq:v, -lu':v} "it is predicted that it will rain"
+▶ {SIS 'e' 'aqlu'bej:sen@@SIS:v, 'e':n, 'aq:v, -lu':v, -bej:v} "it is predicted with certainty that it will rain"
+▶ {SISbe' 'e' 'aqlu'bej:sen@@SIS:v, -be':v, 'e':n, 'aq:v, -lu':v, -bej:v} "it is predicted with certainty that it will not rain"
+▶ {SISbe' 'e' 'aqlu'law':sen@@SIS:v, -be':v, 'e':n, 'aq:v, -lu':v, -law':v} "it would appear that it will rain, it seems that it will rain"
+▶ {ghaytan SIS 'e' 'aqlu':sen@@ghaytan:adv, SIS:v, 'e':n, 'aq:v, -lu':v} "it's likely that it will rain"
+▶ {SIS 'e' 'aqlu', javmaH vatlhvI' DIch:sen@@SIS:v, 'e':n, 'aq:v, -lu':v, jav:n:1,num, maH:n:1,num, vatlhvI':n, DIch:n} "it is predicted that it will rain, 60% certainty", or "there's a 60% chance it will rain"</column>
+      <column name="search_tags">forecast</column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">37140</column>

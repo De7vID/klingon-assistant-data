@@ -285,8 +285,46 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.11.21. -->
+      <!-- Checked on: 2017.07.30. -->
       <column name="_id">11721</column>
+      <column name="entry_name">chal bIQ</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">rain</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This would be used, for example, to refer to a puddle on the ground and it was necessary to be clear that the puddle resulted from rain. Otherwise, the water would just be {bIQ:n} (perhaps with some modifier or other).</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{chal:n}, {bIQ:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">11722</column>
+      <column name="entry_name">chal chuch</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">snow</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{chal:n}, {chuch:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2012.11.21. -->
+      <column name="_id">11723</column>
       <column name="entry_name">chalqach</column>
       <column name="part_of_speech">n</column>
       <column name="definition">tower</column>
@@ -306,7 +344,7 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
     </table>
     <!-- This appears after other {chal} words due to being non-canon. -->
     <table name="mem">
-      <column name="_id">11723</column>
+      <column name="_id">11724</column>
       <column name="entry_name">chalqut ngat</column>
       <column name="part_of_speech">n:deriv,extcan</column>
       <column name="definition">copper sulfate</column>
@@ -1604,6 +1642,25 @@ The following four examples illustrate the role of the object(s) and how to use 
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">12195</column>
+      <column name="entry_name">cheq</column>
+      <column name="part_of_speech">v:t</column>
+      <column name="definition">tornado</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{vung:v}</column>
+      <column name="notes">The verb {ver:v:1} can also be used to talk about tornadoes and whirlwinds.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">12200</column>
       <column name="entry_name">cheqotlhchugh maHaghbe''a'? cheDuQchugh mareghbe''a'? cheQIHchugh manoDbe''a'?</column>
       <column name="part_of_speech">sen:phr</column>
@@ -2844,14 +2901,52 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bIr:v}, {taD:v}, {bIQ:n}, {peD:v}</column>
-      <column name="notes"></column>
+      <column name="notes">For shaved ice or the kind of ice in a sno-cone or smoothie, {chuch:n:nolink} is usually sufficient. A solid block of ice or an ice cube would be {chuch ngogh:n}.[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">12721</column>
+      <column name="entry_name">chuch ngogh</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">solid block of ice, ice cube</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{chuch:n}, {ngogh:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">12722</column>
+      <column name="entry_name">chuch 'aplom</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">hailstone</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{chuch:n}, {'aplom:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2013.11.10. -->
