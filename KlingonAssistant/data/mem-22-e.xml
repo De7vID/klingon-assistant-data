@@ -268,7 +268,7 @@ The suits in a deck of playing cards are called {Degh:n:2}.</column>
       <column name="definition_de">Streifen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{DujtlhuQ:n}</column>
+      <column name="see_also">{DujtlhuQ:n}, {way:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">"Stars ({Hov:n}) and ({je:conj}) Stripes".</column>
@@ -683,7 +683,7 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="definition_de">Tiersorte</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{naQ 'er:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -843,7 +843,7 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="_id">37540</column>
       <column name="entry_name">'ev</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">area northwestward, area to the northwest</column>
+      <column name="definition">area northwestward, area towards the northwest</column>
       <column name="definition_de">Nordwesten, Bereich im Nordwesten</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -914,6 +914,25 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">37562</column>
+      <column name="entry_name">'evta'</column>
+      <column name="part_of_speech">n:anim</column>
+      <column name="definition">animal similar to a newt or salamander</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2016.10.31. -->
       <column name="_id">37565</column>
       <column name="entry_name">'ewrop</column>
@@ -922,7 +941,7 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="definition_de">Europa</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tera':n}</column>
+      <column name="see_also">{tera':n}, {yuwey:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">This was accidentally left out of the continents section of the printed booklet.</column>
@@ -1029,6 +1048,25 @@ Do not confuse this pronoun with the suffix {-'e':n:suff}.</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 6.2.5:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">37595</column>
+      <column name="entry_name">'e'levan</column>
+      <column name="part_of_speech">n:anim</column>
+      <column name="definition">elephant</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is a word borrowed from Federation Standard to refer to the Terran animal.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">37600</column>

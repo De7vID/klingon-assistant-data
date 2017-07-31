@@ -256,6 +256,25 @@
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">37093</column>
+      <column name="entry_name">'ambay</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">island</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{puH:n}, {yuwey:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">37095</column>
       <column name="entry_name">'amerI'qa' SepjIjQa'</column>
       <column name="part_of_speech">n:place</column>
@@ -282,7 +301,7 @@
       <column name="definition_de">Südamerika</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tera':n}</column>
+      <column name="see_also">{tera':n}, {yuwey:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -301,7 +320,7 @@
       <column name="definition_de">Nordamerika</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tera':n}</column>
+      <column name="see_also">{tera':n}, {yuwey:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -337,7 +356,7 @@
       <column name="definition_de">Andoria</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{'anDorya'ngan:n}</column>
       <column name="notes">A planet in the Federation. Also called {'anDorya':n:nolink}. Not to be confused with the country on Earth called {'anDo'ra':n}.</column>
       <!-- An image of an earlier version of the {Klingon Monopoly:src} board showed that this was {'anDorya':n:nolink}. -->
       <!-- See also: http://en.memory-alpha.org/wiki/Andor#Background_information -->
@@ -350,8 +369,46 @@
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2016.10.31. -->
+      <!-- Checked on: 2017.07.30. -->
       <column name="_id">37106</column>
+      <column name="entry_name">'anDorya'</column>
+      <column name="part_of_speech">n:place,fic,alt</column>
+      <column name="definition">{'anDor:n}</column>
+      <column name="definition_de">{'anDor:n}</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">37107</column>
+      <column name="entry_name">'anDorya'ngan</column>
+      <column name="part_of_speech">Andorian</column>
+      <column name="definition">n:being</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{'anDor:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">37108</column>
       <column name="entry_name">'anDo'ra'</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Andorra</column>
@@ -370,14 +427,14 @@
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">37107</column>
+      <column name="_id">37109</column>
       <column name="entry_name">'antartIq</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Antarctica</column>
       <column name="definition_de">Antarktis</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tera':n}</column>
+      <column name="see_also">{tera':n}, {yuwey:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -482,7 +539,83 @@
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">37133</column>
+      <column name="entry_name">'ap</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be dented</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">37134</column>
+      <column name="entry_name">'apmoH</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
+      <column name="definition">dent</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
       <column name="_id">37135</column>
+      <column name="entry_name">'aplom</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">pellet</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">37136</column>
+      <column name="entry_name">'aplom chuch</column>
+      <column name="part_of_speech">n:alt</column>
+      <column name="definition">{chuch 'aplom:n}</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">37137</column>
       <column name="entry_name">'aplo'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">case, container</column>
@@ -499,6 +632,34 @@
       <!-- https://www.facebook.com/groups/LearnKlingon/permalink/459675987473956/ -->
       <column name="search_tags_de"></column>
       <column name="source">[1] {Klingon Monopoly:src}, [2] {TNK:src}, [3] {Facebook "Learn Klingon" group 2013.08.10:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">37138</column>
+      <column name="entry_name">'aq</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">predict, prognosticate</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ghut:v}, {qut:v}</column>
+      <column name="notes">This refers to predicting based on deductive reasoning or research or science.
+
+Note that weather forecasts tend to use {'e' -lu:sen@@'e':n, -lu':v} over {net:n}, but using {net:n:nolink} would not be wrong.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">The word for "reason" or "intellect" in Arabic is "'aql".</column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {SIS 'e' vI'aq:sen@@SIS:v, 'e':n, vI-:v, 'aq:v} "I forecast/predict (that it will) rain."
+▶ {SIS 'e' 'aqlu':sen@@SIS:v, 'e':n, 'aq:v, -lu':v} "it is predicted that it will rain"
+▶ {SIS 'e' 'aqlu'bej:sen@@SIS:v, 'e':n, 'aq:v, -lu':v, -bej:v} "it is predicted with certainty that it will rain"
+▶ {SISbe' 'e' 'aqlu'bej:sen@@SIS:v, -be':v, 'e':n, 'aq:v, -lu':v, -bej:v} "it is predicted with certainty that it will not rain"
+▶ {SISbe' 'e' 'aqlu'law':sen@@SIS:v, -be':v, 'e':n, 'aq:v, -lu':v, -law':v} "it would appear that it will rain, it seems that it will rain"
+▶ {ghaytan SIS 'e' 'aqlu':sen@@ghaytan:adv, SIS:v, 'e':n, 'aq:v, -lu':v} "it's likely that it will rain"
+▶ {SIS 'e' 'aqlu', javmaH vatlhvI' DIch:sen@@SIS:v, 'e':n, 'aq:v, -lu':v, jav:n:1,num, maH:n:1,num, vatlhvI':n, DIch:n} "it is predicted that it will rain, 60% certainty", or "there's a 60% chance it will rain"</column>
+      <column name="search_tags">forecast</column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">37140</column>
@@ -633,6 +794,25 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">37205</column>
+      <column name="entry_name">'aQvoH</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">act of watching over a fallen warrior's body</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">37210</column>
       <column name="entry_name">'ar</column>
       <column name="part_of_speech">ques</column>
@@ -756,7 +936,7 @@ Another way is to issue the command, {rep yIper!:sen:nolink}  In replying to thi
       <column name="definition_de">Australien</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tera':n}</column>
+      <column name="see_also">{tera':n}, {yuwey:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -775,7 +955,7 @@ Another way is to issue the command, {rep yIper!:sen:nolink}  In replying to thi
       <column name="definition_de">Asien</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tera':n}</column>
+      <column name="see_also">{tera':n}, {yuwey:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -940,7 +1120,7 @@ Another way is to issue the command, {rep yIper!:sen:nolink}  In replying to thi
       <column name="definition_de">Afrika</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tera':n}</column>
+      <column name="see_also">{tera':n}, {yuwey:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>

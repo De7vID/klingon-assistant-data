@@ -285,8 +285,46 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.11.21. -->
+      <!-- Checked on: 2017.07.30. -->
       <column name="_id">11721</column>
+      <column name="entry_name">chal bIQ</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">rain</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This would be used, for example, to refer to a puddle on the ground and it was necessary to be clear that the puddle resulted from rain. Otherwise, the water would just be {bIQ:n} (perhaps with some modifier or other).</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{chal:n}, {bIQ:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">11722</column>
+      <column name="entry_name">chal chuch</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">snow</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{chal:n}, {chuch:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2012.11.21. -->
+      <column name="_id">11723</column>
       <column name="entry_name">chalqach</column>
       <column name="part_of_speech">n</column>
       <column name="definition">tower</column>
@@ -306,7 +344,7 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
     </table>
     <!-- This appears after other {chal} words due to being non-canon. -->
     <table name="mem">
-      <column name="_id">11723</column>
+      <column name="_id">11724</column>
       <column name="entry_name">chalqut ngat</column>
       <column name="part_of_speech">n:deriv,extcan</column>
       <column name="definition">copper sulfate</column>
@@ -386,7 +424,7 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
       <column name="_id">11750</column>
       <column name="entry_name">chan</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">eastward, area toward the east</column>
+      <column name="definition">area eastward, area towards the east</column>
       <column name="definition_de">Osten, Bereich nach Osten</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -642,7 +680,7 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
       <column name="definition_de">Unsinn, Quatsch</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Dap:n}, {chatlh:n:1}</column>
+      <column name="see_also">{Dap:n}, {chatlh:n:1}, {chatlh:excl}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">The slang meaning may be a reference to the Marx Brothers film "Duck Soup".</column>
@@ -651,6 +689,30 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">11861</column>
+      <column name="entry_name">chatlh!</column>
+      <column name="part_of_speech">excl</column>
+      <column name="definition">That's stupid!</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{chatlh:n:2}, {QIp:v}</column>
+      <column name="notes">This is an exclamation made in response to a statement which the speaker thinks is foolish or stupid. (The exclamation {Dap!:sen:nolink} using the non-slang word {Dap:n} is also possible, though less likely.)
+
+If the speaker is referring to something that's happened which is a stupid thing to have happened (but really did happen, so that it's not a nonsensical statement), {chatlh:sen:nolink} or {Dap:sen:nolink} would not be used. Instead, a version of the idiomatic expressions {ghaH vuv SuS neH:sen} or {Dogh; tIghla' rur:sen@@Dogh:v, tIghla':n, rur:v} might be heard:
+▶ {vuvpu' SuS neH vay'!:sen:nolink} "That's stupid!", "someone wanted the wind to respect him/her"
+▶ {vogh tIghla' tu'lu':sen:nolink} "there's a t'gla somewhere"
+▶ {HIv tIghla'!:sen:nolink} "a/the t'gla attacks"</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
@@ -1602,6 +1664,25 @@ The following four examples illustrate the role of the object(s) and how to use 
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">12195</column>
+      <column name="entry_name">cheq</column>
+      <column name="part_of_speech">v:t</column>
+      <column name="definition">tornado</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{vung:v}</column>
+      <column name="notes">The verb {ver:v:1} can also be used to talk about tornadoes and whirlwinds.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">12200</column>
@@ -2844,14 +2925,52 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bIr:v}, {taD:v}, {bIQ:n}, {peD:v}</column>
-      <column name="notes"></column>
+      <column name="notes">For shaved ice or the kind of ice in a sno-cone or smoothie, {chuch:n:nolink} is usually sufficient. A solid block of ice or an ice cube would be {chuch ngogh:n}.[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">12721</column>
+      <column name="entry_name">chuch ngogh</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">solid block of ice, ice cube</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{chuch:n}, {ngogh:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">12722</column>
+      <column name="entry_name">chuch 'aplom</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">hailstone</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{chuch:n}, {'aplom:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2013.11.10. -->
@@ -3085,6 +3204,44 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">12815</column>
+      <column name="entry_name">chur</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be comfortable</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{churHa':v}</column>
+      <column name="see_also"></column>
+      <column name="notes">This is used for physical comfort, such as with clothes, room temperature, etc. The subject is the being that feels comfortable.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">12816</column>
+      <column name="entry_name">churHa'</column>
+      <column name="part_of_speech">v:is,deriv</column>
+      <column name="definition">be uncomfortable</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{chur:v}</column>
+      <column name="see_also"></column>
+      <column name="notes">This is used for physical discomfort, such as with clothes, room temperature, etc. The subject is the being that feels uncomfortable.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{chur:v}, {-Ha':v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->

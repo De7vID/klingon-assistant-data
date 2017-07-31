@@ -464,7 +464,7 @@
       <column name="definition_de">Tau, Seil</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{SIrgh:n}</column>
+      <column name="see_also">{SIrgh:n}, {yamtaw:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -1314,8 +1314,8 @@ The object of this verb is the person of whom the request is made, or {'e':n:pro
     <table name="mem">
       <column name="_id">33825</column>
       <column name="entry_name">tlhogh</column>
-      <column name="part_of_speech">v:archaic</column>
-      <column name="definition">marry</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">get married to, marry</column>
       <column name="definition_de">heiraten</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1329,7 +1329,26 @@ One can say either {B tlhogh A:sen:nolink} for "{A:sen:nolink} marries {B:sen:no
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {KLI mailing list 2017.07.13:src}</column>
+      <column name="source">[1] {KLI mailing list 2017.07.13:src}, [2] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">33826</column>
+      <column name="entry_name">tlhoghmoH</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
+      <column name="definition">marry, conduct a marriage ceremony</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">The object of this verb is plural.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{tlhogh:v}, {-moH:v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">33830</column>

@@ -443,7 +443,26 @@ See also {tIq'ghob:n:hyp} for a hypothetical similar grammatical construction.</
       <column name="source">[1] {paq'batlh:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
       <column name="_id">24160</column>
+      <column name="entry_name">paQ</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">meditate (on), cogitate (about), reflect (on), comtemplate</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This word can (but doesn't have to) take an object indicating what is being meditated about or reflected upon. It does not connote "entreat", so "pray" may not be an appropriate translation.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">24165</column>
       <column name="entry_name">paQDI'norgh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">teachings</column>
@@ -1027,14 +1046,14 @@ Generally, when a verb describing a state of being is used as an imperative, the
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chuch:n}</column>
-      <column name="notes"></column>
+      <column name="notes">There is no known noun or verb for blizzard, but one can say {peDqu':sen@@peD:v, -qu':v}, {pe'vIl peD:sen@@pe'vIl:adv, peD:v}, or even {pe'vIl peDqu':sen@@pe'vIl:adv, peD:v, -qu':v}.[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 2017:src}</column>
     </table>
     <!-- Maybe {pegh:v} should be "v:ambi", but its definitions don't fit. -->
     <table name="mem">
@@ -1153,12 +1172,12 @@ This verb can also be used with an object. See {pegh:v:1}.</column>
     <table name="mem">
       <column name="_id">24430</column>
       <column name="entry_name">pel'aQ</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">shell (of an egg)</column>
       <column name="definition_de">(Eier-)Schale</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{QIm:n}, {nagh DIr:n}, {'eb:n}</column>
+      <column name="see_also">{QIm:n}, {nagh DIr:n}, {'eb:n}, {pel'aQ:n:2}</column>
       <column name="notes">There is an idiomatic expression {pel'aQDaj ghorpa':sen:idiom} "before it breaks its shell", meaning "before it's too late" or "while there's still time".</column>
       <!-- "Pellicle"? -->
       <column name="notes_de"></column>
@@ -1168,6 +1187,25 @@ This verb can also be used with an object. See {pegh:v:1}.</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">24431</column>
+      <column name="entry_name">pel'aQ</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">coffin</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{pel'aQ:n:1}, {nev'aQ:n}, {nebeylI':n}, {jItuj'ep:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">24435</column>
@@ -1553,7 +1591,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/GonhyphPQPU}<
       <column name="definition_de">schneiden</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{SIj:v:1}, {DuQ:v:1}, {chIp:v}</column>
+      <column name="see_also">{SIj:v:1}, {DuQ:v:1}, {chIp:v}, {taq:v}</column>
       <column name="notes"></column>
       <!-- What's the private joke? -->
       <column name="notes_de"></column>
@@ -1573,7 +1611,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/GonhyphPQPU}<
       <column name="definition_de">Blitz</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{raw:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -3433,6 +3471,25 @@ For other units of time, {pIq:n:nolink} is used.</column>
       <column name="source">[1] {KGT p.159:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">25286</column>
+      <column name="entry_name">po'oH</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">corner of the street, corner of a piece of paper</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tajvaj:n:2}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">"The House at Pooh Corner" is a volume of stories about Winnie the Pooh.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags">intersection</column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2016.10.31. -->
       <column name="_id">25288</column>
       <column name="entry_name">po'lISqa'</column>
@@ -3553,15 +3610,34 @@ For other units of time, {pIq:n:nolink} is used.</column>
       <column name="definition_de">Land, Festland</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{yav:n}, {wutlh:n}, {yotlh:n}, {Saq:v}</column>
+      <column name="see_also">{yav:n}, {wutlh:n}, {yotlh:n}, {Saq:v}, {'ambay:n}, {yuwey:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">{puH nIl:n}, {puH beQ:n}, {puH yIQ:n}</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">25342</column>
+      <column name="entry_name">puH beQ</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">plains, flatland</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{puH:n}, {beQ:v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">25345</column>
@@ -3580,6 +3656,44 @@ For other units of time, {pIq:n:nolink} is used.</column>
       <column name="search_tags">vehicle</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TNK:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">25346</column>
+      <column name="entry_name">puH nIl</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">grassland, steppe</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{puH:n}, {nIl:v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">25348</column>
+      <column name="entry_name">puH yIQ</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">swamp, wetlands</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{puH:n}, {yIQ:v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2014.11.16. -->

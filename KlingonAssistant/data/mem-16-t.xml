@@ -384,14 +384,14 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31745</column>
+      <column name="_id">31742</column>
       <column name="entry_name">tajvaj</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">angle</column>
       <column name="definition_de">Winkel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tajvajHom:n}, {tajvaj'a':n}, {tajvaj leD:n}</column>
+      <column name="see_also">{tajvajHom:n}, {tajvaj'a':n}, {tajvaj leD:n}, {tajvaj:n:2}</column>
       <column name="notes">Angles are measured in {lawrI':n} (or {law:n} in more ancient times or in traditional documents).[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -400,6 +400,25 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {HQ 11.2, Jun. 2002:src}, [2] {Saarbrücken qepHom'a' 2014:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">31744</column>
+      <column name="entry_name">tajvaj</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">corner of a room</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tajvaj:n:1}, {po'oH:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">31746</column>
@@ -413,7 +432,7 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{tajvaj:n}, {-Hom:n}</column>
+      <column name="components">{tajvaj:n:1}, {-Hom:n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -431,7 +450,7 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{tajvaj:n}, {-'a':n}</column>
+      <column name="components">{tajvaj:n:1}, {-'a':n}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -449,7 +468,7 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{tajvaj:n}, {leD:v}</column>
+      <column name="components">{tajvaj:n:1}, {leD:v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -690,6 +709,44 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="source">[1] {KGT:src}, [2] {Star Trek Constellations p.232:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">31852</column>
+      <column name="entry_name">taq</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be scarred</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{roptoj:n}, {mIvwa':n}, {SanDIy:n}, {pe':v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">31853</column>
+      <column name="entry_name">taqmoH</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
+      <column name="definition">scar</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{taq:v}, {-moH:v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">31855</column>
       <column name="entry_name">taqnar</column>
       <column name="part_of_speech">n:anim,extcan</column>
@@ -827,7 +884,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="definition_de">Targ</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{namwech:n}</column>
+      <column name="see_also">{namwech:n}, {wel:excl}</column>
       <column name="notes">This is a kind of animal somewhat resembling a dog. It is popular as a pet, but its heart is also considered a delicacy.[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -986,6 +1043,25 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {KLI mailing list 1999.07.19:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">31972</column>
+      <column name="entry_name">tav</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">shake</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{jel:v}</column>
+      <column name="notes">This is what someone might do to wake somebody up, or what one might do to a drink or a limb. What freezing temperatures may do to someone is {jelmoH:v@@jel:v, -moH:v}, not {tav:v:nolink}.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2015.10.28. -->
@@ -1488,6 +1564,44 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {BoP:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">32205</column>
+      <column name="entry_name">tellar wa'</column>
+      <column name="part_of_speech">n:place,fic</column>
+      <column name="definition">Tellar Prime</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tellarngan:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">32206</column>
+      <column name="entry_name">tellarngan</column>
+      <column name="part_of_speech">n:being</column>
+      <column name="definition">Tellarite</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tellar wa':n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">32210</column>
@@ -2034,14 +2148,16 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Hew:n}, {nan:v:1}, {ghItlh:v}</column>
-      <column name="notes"></column>
+      <column name="notes">Aside from its literal meaning, this can also be used for the sense of being close or not having wriggle room or leeway in a situation.[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
-      <column name="search_tags"></column>
+      <column name="examples">
+▶ {teybe' yay:sen@@tey:v, -be':v, yay:n} "the victory didn't scrape", "the victory was comfortable"[2]
+▶ {tey yay:sen:@@tey:v, yay:n} (this describes something which was just barely a victory or a last-minute victory, or something like that)[2]</column>
+      <column name="search_tags">comfortable, uncomfortable</column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {KGT:src}</column>
+      <column name="source">[1] {KGT:src}, [2] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">32370</column>
@@ -2252,8 +2368,8 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="definition_de">Tiersorte, T'gla</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">There is an idiom {Dogh; tIghla' rur}.[1, p.127]</column>
+      <column name="see_also">{chatlh!:excl}</column>
+      <column name="notes">There is an idiom {Dogh; tIghla' rur:sen@@Dogh:v, tIghla':n, rur:v}.[1, p.127]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -2375,7 +2491,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="_id">32520</column>
       <column name="entry_name">tIng</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">southwestward, area toward the southwest</column>
+      <column name="definition">area southwestward, area towards the southwest</column>
       <column name="definition_de">Südwesten, Bereich im Südwesten</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3679,6 +3795,25 @@ Pitching downwards is indicated using a negative angle (see {taH:v:2}).</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {qep'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">33056</column>
+      <column name="entry_name">tuD</column>
+      <column name="part_of_speech">v:t</column>
+      <column name="definition">thunder</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{raw:v}, {jev:v:1}, {borqu':v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">33060</column>

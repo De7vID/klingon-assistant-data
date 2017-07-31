@@ -594,22 +594,22 @@ In Klingon, titles generally go after the name, so "Captain Jean-Luc Picard" wou
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2013.07.30. -->
+      <!-- Checked on: 2017.07.30. -->
       <column name="_id">17656</column>
       <column name="entry_name">jaqtala'</column>
-      <column name="part_of_speech">n:extcan</column>
+      <column name="part_of_speech">n</column>
       <column name="definition">puberty, jak'tahla</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{gho'rIch:n}</column>
-      <column name="notes">The spelling and pronunciation of this word is unclear.</column>
+      <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {Star Trek Insurrection:src}, [2] {KLI mailing list 2013.07.29:src}</column>
+      <column name="source">[1] {Star Trek Insurrection:src}, [2] {KLI mailing list 2013.07.29:src}, [3] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">17660</column>
@@ -1263,6 +1263,25 @@ There is also an idiom, {jej; Daqtagh rur}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">17955</column>
+      <column name="entry_name">jel</column>
+      <column name="part_of_speech">v:i_c</column>
+      <column name="definition">shake, tremble</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Qom:v:1}, {tav:v}, {wal:v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">"Jello".</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">17960</column>
       <column name="entry_name">jemS tIy qIrq</column>
       <column name="part_of_speech">n:name,fic</column>
@@ -1488,7 +1507,7 @@ All of the following can be translated as "I participate in the {qepHom@@qep:n, 
       <column name="definition_de">stürmen, gewittern</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{muD Dotlh:n}, {SIS:v}, {SuS:n}, {muD:n:2}</column>
+      <column name="see_also">{muD Dotlh:n}, {SIS:v}, {SuS:n}, {muD:n:2}, {raw:v}, {tuD:v}</column>
       <column name="notes">This is a weather word, rather than a military word. This is made clear by the homophonous {jev:v:2}.
 
 This verb is used in Sonnet 116, where its explicit subject is {muD:n:nolink}.[2]</column>
@@ -2168,6 +2187,44 @@ To express a wish for something to happen, see {-jaj:v}.</column>
       <column name="source"></column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">18217</column>
+      <column name="entry_name">jItuj'ep</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">mummy</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{pe'laQ:n:2}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">This is a reference to Imhotep ({jItuj:sen@@jI-:v, tuj:v} means "I'm hot").</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">18218</column>
+      <column name="entry_name">jItuj'ep ngutlh</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">mummification glyph</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{jItuj'ep:n}, {ngutlh:n}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2012.12.01. -->
       <column name="_id">18220</column>
       <column name="entry_name">jIv</column>
@@ -2301,6 +2358,26 @@ The first half of the example sentence was a lip-match for {ghaH vISammeH}.</col
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">18235</column>
+      <column name="entry_name">job</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">zigzag, be jagged</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {yamtaw job:n}</column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">18240</column>

@@ -25,7 +25,7 @@
       <column name="definition_de">Radio</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Se':n}, {rI'Se':n}, {chaDvay':n}</column>
+      <column name="see_also">{wab labwI':n}, {Se':n}, {rI'Se':n}, {chaDvay':n}</column>
       <column name="notes">This refers to a device that receives (but does not send) an audio signal. For the device used for two-way communication, see {Se' HablI':n}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -36,7 +36,26 @@
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
       <column name="_id">35226</column>
+      <column name="entry_name">wab labwI'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">radio transmitter</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{wab HevwI':n}, {Se':n}, {rI'Se':n}, {chaDvay':n}</column>
+      <column name="notes">This is used for a broadcaster, radio service, etc. It can also be used for the device that does the transmitting. If a distinction must be made, the device is {wab labwI' jan:n@@wab labwI':n, jan:n:1}.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{wab:n}, {lab:v}, {-wI':v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">35227</column>
       <column name="entry_name">wab qoSta' 'aplo'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">cassette</column>
@@ -128,6 +147,25 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {KGT:src}, [2] {msn 1997.07.13:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">35255</column>
+      <column name="entry_name">wal</column>
+      <column name="part_of_speech">v:i_c</column>
+      <column name="definition">vibrate, be in a state of vibration</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{SIrgh:n}, {yu'egh:n}, {jel:v}</column>
+      <column name="notes">This means to move in a fast repetitive way, like a guitar string.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">35260</column>
@@ -449,6 +487,25 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="search_tags">facility</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">35375</column>
+      <column name="entry_name">way</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be striped</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{'ejvoH:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">35380</column>
@@ -1043,6 +1100,25 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="source">[1] {qep'a' 2011:src}, [2] {Klingon Monopoly:src}, [3] {KLI mailing list 2012.06.30:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">35596</column>
+      <column name="entry_name">wel</column>
+      <column name="part_of_speech">excl</column>
+      <column name="definition">sound made by a {targh:n}</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ghugh:v}</column>
+      <column name="notes">The stereotypical {targh:n:nolink} makes a sound conventionally rendered {welwelwel:sen:nolink} (where the number of repetitions is variable).</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">35600</column>
       <column name="entry_name">wem</column>
       <column name="part_of_speech">v:t_c</column>
@@ -1185,6 +1261,44 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="search_tags">Internet</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {Saarbrücken qepHom 2012:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">35666</column>
+      <column name="entry_name">wer</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be creased, be wrinkled</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Damu':n}, {wol:v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">35667</column>
+      <column name="entry_name">wermoH</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
+      <column name="definition">creased, wrinkle</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Damu':n}, {wolmoH:v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{wer:v}, {-moH:v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2015.10.28. -->
@@ -1709,6 +1823,44 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKDA:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">35845</column>
+      <column name="entry_name">wol</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be creased, be folded</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Damu':n}, {wer:v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">35846</column>
+      <column name="entry_name">wolmoH</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
+      <column name="definition">creased, fold</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Damu':n}, {wermoH:v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{wol:v}, {-moH:v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">35850</column>

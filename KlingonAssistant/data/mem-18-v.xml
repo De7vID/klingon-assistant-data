@@ -1304,6 +1304,25 @@ A more common term for this is {qatru':n:nolink}.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">34555</column>
+      <column name="entry_name">vep</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">proclamation, notification, announcement, and the like</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{maq:v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">34560</column>
       <column name="entry_name">veqlargh</column>
       <column name="part_of_speech">n:name,fic</column>
@@ -1396,6 +1415,44 @@ A more common term for this is {qatru':n:nolink}.</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD p.171:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.29. -->
+      <column name="_id">34596</column>
+      <column name="entry_name">ver</column>
+      <column name="part_of_speech">v:1,is</column>
+      <column name="definition">be spiral</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{mI'rab:n}, {ver:v:2}</column>
+      <column name="notes">This word can be used to talk about the wind. For example, {ver SuS'a':sen@@ver:v:1, SuS:n, -'a':n} means "a tornado happens". {ver SuS:sen@@ver:v:1, SuS:n} or {ver SuSHom:sen@@ver:v:1, SuS:n, -Hom:n} would most likely refer to a whirlwind.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">34597</column>
+      <column name="entry_name">ver</column>
+      <column name="part_of_speech">v:2,is</column>
+      <column name="definition">be dizzy</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{vul:v}, {ver:v:1}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">"Vertigo".</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">34600</column>
@@ -1645,8 +1702,46 @@ In {Klingon Monopoly:src}, "Free Parking" is translated as {vergh 'ach DIlnISbe'
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2013.11.10. -->
+      <!-- Checked on: 2017.07.30. -->
       <column name="_id">34673</column>
+      <column name="entry_name">vey'</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be comfortable</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{vey'Ha':v}</column>
+      <column name="see_also"></column>
+      <column name="notes">This is similar to {yap:v}, but {vey':v:nolink} implies being more than enough/sufficient.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">34674</column>
+      <column name="entry_name">vey'Ha'</column>
+      <column name="part_of_speech">v:is,deriv</column>
+      <column name="definition">be uncomfortable</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{vey':v}</column>
+      <column name="see_also"></column>
+      <column name="notes">This means more than not being enough or being insufficient (see {yap:v}).</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{vey':v}, {-Ha':v}</column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2013.11.10. -->
+      <column name="_id">34676</column>
       <column name="entry_name">ve'</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">travel with a purpose, for a specific reason; travel on a mission</column>
@@ -1665,7 +1760,7 @@ In {Klingon Monopoly:src}, "Free Parking" is translated as {vergh 'ach DIlnISbe'
       <column name="source">[1] {Star Trek Into Darkness:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">34675</column>
+      <column name="_id">34677</column>
       <column name="entry_name">vI-</column>
       <column name="part_of_speech">v:pref</column>
       <column name="definition">I-him/her/it/them</column>
@@ -1770,7 +1865,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="definition_de">Tiersorte, V'Gro (Katze)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tI'qa' vIghro':n}, {ghISnar:n}</column>
+      <column name="see_also">{tI'qa' vIghro':n}, {ghISnar:n}, {'Imyagh:excl}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">"Figaro" is the name of the cat in Disney's Pinocchio.</column>
@@ -1783,7 +1878,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     <table name="mem">
       <column name="_id">34710</column>
       <column name="entry_name">vIH</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:i_c</column>
       <column name="definition">move, be in motion</column>
       <column name="definition_de">sich bewegen, in Bewegung sein</column>
       <column name="synonyms"></column>
@@ -1918,7 +2013,7 @@ For an idiomatic expression used to tell someone not to move, see {taD:v}.</colu
       <column name="definition_de">Stirnfalte</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{ghul:n}</column>
       <column name="notes">The suggestion was made at {qep'a' 2009:src} that a {vIlHom:n:nolink} could be a single ridge in a {Quch:n}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -2800,14 +2895,14 @@ This region has some vocabulary differences from {ta' Hol:n}. Terms which have a
       <column name="definition_de">bewusstlos</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{ver:v:2}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {vulchoHbe' tlhInganpu'.:sen}</column>
-      <column name="search_tags"></column>
+      <column name="search_tags">faint</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
@@ -2926,6 +3021,25 @@ There is a Klingon idiom, {nong; vulqangan rur}, which is meant ironically.</col
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">35097</column>
+      <column name="entry_name">vung</column>
+      <column name="part_of_speech">v:t</column>
+      <column name="definition">cyclone, hurricane</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{cheq:v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">Cantonese Chinese for "wind" (風).</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">35100</column>

@@ -499,7 +499,7 @@ This word does not have the sense of "good" as used in a greeting, such as "good
       <column name="definition_de">proklamieren, verkünden</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{vep:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">{SkyBox 31:src} has the line {ghoS tlhIngan SuvwI' maq:sen:nolink}, where {maq:v:nolink} is used without {'e':n:pro}, but it is not known whether this is a typo or a feature of how {maq:v:nolink} is used.
@@ -1905,7 +1905,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_de">überraschen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{yay':v}, {pay':adv}</column>
+      <column name="see_also">{yay':v}, {Duq:v}, {pay':adv}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -2597,15 +2597,17 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_de">verwirrt, durcheinander, konfus</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{DuD:v}, {mIS:n}, {mISmoH:v}</column>
+      <column name="see_also">{rel:v}, {mIS:n}, {mISmoH:v}, {DuD:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">"Mish" mash.</column>
+      <column name="hidden_notes">"Mish" mash.
+
+This was clarified to mean "mental confusion" at {qep'a' 2017:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.16. -->
@@ -2621,30 +2623,30 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="notes_de"></column>
       <column name="hidden_notes">"Mish" mash.
 
-Based on the definition of {mIS:v}, this noun means "the mixing up of one thing with another", and not "the state of perplexity". However, in American English, "be mixed up" is an idiom for being mentally confused. It's unclear if this idiomatic usage applies to the Klingon definition.</column>
+This was clarified to mean "mental confusion" at {qep'a' 2017:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">20960</column>
       <column name="entry_name">mISmoH</column>
       <column name="part_of_speech">v:t_c,deriv</column>
-      <column name="definition">confuse, mix up</column>
+      <column name="definition">confuse</column>
       <column name="definition_de">verwirren</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">This is defined only as "confuse" in {TKD:src}. The clarification "mix up" was added based on the definition of {mIS:v}, which implies that {mISmoH:v:nolink} means "to mix one thing up with another", and not "to cause someone to become perplexed". However, in American English, "be mixed up" is an idiom for being mentally confused. It's unclear if this idiomatic usage applies to the Klingon definition.</column>
+      <column name="hidden_notes">This was clarified to mean "mental confusion" at {qep'a' 2017:src}.</column>
       <column name="components">{mIS:v}, {-moH:v}</column>
       <column name="examples"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">20970</column>
@@ -2780,6 +2782,25 @@ This idiom has its origin in {HenrI' vagh:n:name}, a play by {wIlyam SeQpIr:n:na
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {KGT p.107:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">21006</column>
+      <column name="entry_name">mIvwa'</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">scar</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{taq:v}, {roptoj:n}, {SanDIy:n}</column>
+      <column name="notes">This is a scar which is the result of a wound (regardless of how the wound occurred).</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.16. -->
@@ -2937,8 +2958,27 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="source">[1] {KLI mailing list 2014.11.26:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2016.10.31. -->
+      <!-- Checked on: 2017.07.29. -->
       <column name="_id">21057</column>
+      <column name="entry_name">mI'rab</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">spiral</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ver:v:1}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.10.31. -->
+      <column name="_id">21058</column>
       <column name="entry_name">mI'tej</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">mathematician</column>
@@ -2956,7 +2996,7 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">21058</column>
+      <column name="_id">21059</column>
       <column name="entry_name">mI'lInnID</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">M'Lind</column>
@@ -3536,6 +3576,25 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.07.30. -->
+      <column name="_id">21285</column>
+      <column name="entry_name">mot</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be stunned</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Duq:v}</column>
+      <column name="notes">This means being rendered unconscious or into a dazed state as a result of being hit (by a fist or a projectile, etc.). This would be used for being hit by a phaser "set to stun".</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id">21290</column>
