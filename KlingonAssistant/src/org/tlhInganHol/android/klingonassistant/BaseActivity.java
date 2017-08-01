@@ -194,6 +194,7 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
       items.add(new SlideMenuCategory(R.string.menu_kli_tlh));
       items.add(new SlideMenuItem(R.string.menu_kli_lessons_tlh, R.id.kli_lessons, 0));
       items.add(new SlideMenuItem(R.string.menu_kli_questions_tlh, R.id.kli_questions, 0));
+      items.add(new SlideMenuItem(R.string.menu_kli_discord_tlh, R.id.kli_discord, 0));
     } else {
       items.add(new SlideMenuCategory(R.string.menu_reference));
       items.add(new SlideMenuItem(R.string.menu_pronunciation, R.id.pronunciation, 0));
@@ -232,6 +233,7 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
       items.add(new SlideMenuCategory(R.string.menu_kli));
       items.add(new SlideMenuItem(R.string.menu_kli_lessons, R.id.kli_lessons, 0));
       items.add(new SlideMenuItem(R.string.menu_kli_questions, R.id.kli_questions, 0));
+      items.add(new SlideMenuItem(R.string.menu_kli_discord, R.id.kli_discord, 0));
     }
     mList = new ListView(this);
 
@@ -370,6 +372,10 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
 
       case R.id.kli_questions:
         launchExternal("http://www.kli.org/questions/categories/");
+        break;
+
+      case R.id.kli_discord:
+        launchExternal("https://discordapp.com/channels/235416538927202304/");
         break;
 
         // Handle social networks.
