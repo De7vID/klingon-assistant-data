@@ -371,6 +371,7 @@ public class KlingonContentProvider extends ContentProvider {
     // Localised definitions.
     private String mDefinition_DE = "";
     private String mNotes_DE = "";
+    private String mExamples_DE = "";
     private String mSearchTags_DE = "";
 
     // Part of speech metadata.
@@ -519,6 +520,7 @@ public class KlingonContentProvider extends ContentProvider {
 
       mDefinition_DE = cursor.getString(KlingonContentDatabase.COLUMN_DEFINITION_DE);
       mNotes_DE = cursor.getString(KlingonContentDatabase.COLUMN_NOTES_DE);
+      mExamples_DE = cursor.getString(KlingonContentDatabase.COLUMN_EXAMPLES_DE);
       mSearchTags_DE = cursor.getString(KlingonContentDatabase.COLUMN_SEARCH_TAGS_DE);
 
       mSynonyms = cursor.getString(KlingonContentDatabase.COLUMN_SYNONYMS);
@@ -931,6 +933,12 @@ public class KlingonContentProvider extends ContentProvider {
       return (mNotes_DE == null) ? "" : mNotes_DE;
     }
 
+    public String getExamples_DE() {
+      // If there are no German examples, the cursor could've returned
+      // null, so that needs to be handled.
+      return (mExamples_DE == null) ? "" : mExamples_DE;
+    }
+
     public String getSearchTags_DE() {
       // If there are no German search tags, the cursor could've returned
       // null, so that needs to be handled.
@@ -958,8 +966,20 @@ public class KlingonContentProvider extends ContentProvider {
       SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
       if (sharedPrefs.getBoolean(
           Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
-        // Show German definitions preference set to true and German definition is not empty.
+        // Show German definitions preference set to true and German notes are not empty.
         return mNotes_DE != null && !mNotes_DE.equals("");
+      } else {
+        return false;
+      }
+    }
+
+    // Returns true iff the German examples should be displayed.
+    public boolean shouldDisplayGermanExamples() {
+      SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
+      if (sharedPrefs.getBoolean(
+          Preferences.KEY_SHOW_GERMAN_DEFINITIONS_CHECKBOX_PREFERENCE, /* default */ false)) {
+        // Show German definitions preference set to true and German examples are not empty.
+        return mExamples_DE != null && !mExamples_DE.equals("");
       } else {
         return false;
       }
