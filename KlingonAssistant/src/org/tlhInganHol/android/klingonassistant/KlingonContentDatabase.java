@@ -65,6 +65,7 @@ public class KlingonContentDatabase {
   // Languages other than English.
   public static final String KEY_DEFINITION_DE = "definition_de";
   public static final String KEY_NOTES_DE = "notes_de";
+  public static final String KEY_EXAMPLES_DE = "examples_de";
   public static final String KEY_SEARCH_TAGS_DE = "search_tags_de";
 
   // The order of the keys to access the columns.
@@ -84,13 +85,14 @@ public class KlingonContentDatabase {
   // Languages other than English.
   public static final int COLUMN_DEFINITION_DE = 13;
   public static final int COLUMN_NOTES_DE = 14;
-  public static final int COLUMN_SEARCH_TAGS_DE = 15;
+  public static final int COLUMN_EXAMPLES_DE = 15;
+  public static final int COLUMN_SEARCH_TAGS_DE = 16;
 
   // All keys.
   public static final String[] ALL_KEYS = {
     KEY_ID, KEY_ENTRY_NAME, KEY_PART_OF_SPEECH, KEY_DEFINITION, KEY_SYNONYMS, KEY_ANTONYMS,
     KEY_SEE_ALSO, KEY_NOTES, KEY_HIDDEN_NOTES, KEY_COMPONENTS, KEY_EXAMPLES, KEY_SEARCH_TAGS,
-    KEY_SOURCE, KEY_DEFINITION_DE, KEY_NOTES_DE, KEY_SEARCH_TAGS_DE,
+    KEY_SOURCE, KEY_DEFINITION_DE, KEY_NOTES_DE, KEY_EXAMPLES_DE, KEY_SEARCH_TAGS_DE,
   };
 
   // The name of the database and the database object for accessing it.
@@ -828,6 +830,7 @@ public class KlingonContentDatabase {
       entry.getSource(),
       entry.getDefinition_DE(),
       entry.getNotes_DE(),
+      entry.getExamples_DE(),
       entry.getSearchTags_DE(),
     };
   }
@@ -849,6 +852,7 @@ public class KlingonContentDatabase {
       entry.getSource(),
       entry.getDefinition_DE(),
       entry.getNotes_DE(),
+      entry.getExamples_DE(),
       entry.getSearchTags_DE(),
     };
   }

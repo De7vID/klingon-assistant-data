@@ -250,7 +250,12 @@ public class EntryActivity extends BaseActivity
     }
 
     // Show the examples.
-    String examples = entry.getExamples();
+    String examples;
+    if (entry.shouldDisplayGermanExamples()) {
+      examples = entry.getExamples_DE();
+    } else {
+      examples = entry.getExamples();
+    }
     if (!examples.equals("")) {
       expandedDefinition += "\n\n" + resources.getString(R.string.label_examples) + ": " + examples;
     }
