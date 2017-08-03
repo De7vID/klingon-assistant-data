@@ -745,6 +745,27 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {KLI mailing list 2014.01.27:src}, [2] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.08.03. -->
+      <column name="_id">29069</column>
+      <column name="entry_name">ra'ghom</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">command group, command staff</column>
+      <column name="definition_de">Kommando</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ra'ghomquv:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">This word is not defined, but its meaning is clear from the example and from {ra'ghomquv:n:nolink}.</column>
+      <column name="components">{ra':v}, {ghom:n}</column>
+      <column name="examples">
+▶ {tera' jar Soch, DIS wa' Hut jav Hut, maSDaq SaqmeH Qu' wa'DIch HochHom turlu'taHvIS, wej logh lengwI'pu' pa'mey 'oH Apollo wa'maH wa' ra'ghom bobcho' Columbia'e'.:sen:nolink} "The Apollo 11 Command Module, 'Columbia,' was the living quarters for the three-person crew during most of the first manned lunar landing mission in July 1969."</column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Smithsonian GO FLIGHT app:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">29070</column>
       <column name="entry_name">ra'ghomquv</column>
       <column name="part_of_speech">n:deriv</column>
@@ -756,7 +777,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="notes">The High Command runs the {tlhIngan Hubbeq:n}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{ra':v}, {ghom:n}, {quv:v}</column>
+      <column name="components">{ra'ghom:n}, {quv:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
