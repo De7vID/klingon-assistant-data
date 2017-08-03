@@ -1068,7 +1068,7 @@ This word can be used to refer to traveling with or without a special purpose. I
       <!-- Checked on: 2012.12.09. -->
       <column name="_id">19033</column>
       <column name="entry_name">lengwI'</column>
-      <column name="part_of_speech">n:1,deriv</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">rover (grammatical term)</column>
       <column name="definition_de">Wanderer (grammatikal. Term.)</column>
       <column name="synonyms"></column>
@@ -1083,26 +1083,6 @@ This word can be used to refer to traveling with or without a special purpose. I
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 4.3:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id">19034</column>
-      <column name="entry_name">lengwI'</column>
-      <!-- Not annotated with "name" because it's already in the definition. -->
-      <column name="part_of_speech">n:2,fic,deriv</column>
-      <column name="definition">Voyager (name of a ship)</column>
-      <column name="definition_de">Voyager (Name eines Schiffes)</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{Hov leng:n}, {'entepray':n}</column>
-      <column name="notes">This is the Klingon translation of the meaning of the name of a Federation starship. This term has not been used in canon to refer to this ship, this entry is here only for completeness because the name of every other {Hov leng:n} television series has a Klingon translation.</column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes">Its name in Federation standard sounds like {vo' 'ej jer:sen:nolink}.</column>
-      <column name="components">{leng:v}, {-wI':v}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source"></column>
     </table>
     <table name="mem">
       <column name="_id">19036</column>
