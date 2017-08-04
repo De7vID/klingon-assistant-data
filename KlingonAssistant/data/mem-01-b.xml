@@ -4246,13 +4246,33 @@ There is also a related idiom {bIr; bortaS rur}.</column>
       <column name="notes_de">Dieses Wort beschreibt ein Kraftfeld ({Surchem:n}), das ein Schiff umgibt. Für ein Schild in der Hand, siehe {yoD:n}.</column>
       <column name="hidden_notes"></column>
       <column name="components">{bot:n:hyp,nolink} or {bot:v}, {jan:n:1}</column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {botjan yIchu'!:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags">force field</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
-    <!-- Gowron says {botjan yIchu'}: http://www.youtube.com/v/BhNqW6yOnZU -->
+    <table name="mem">
+      <!-- Checked on: 2017.08.03. -->
+      <column name="_id">11431</column>
+      <column name="entry_name">botjan yIchu'!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Raise shields!</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/BhNqW6yOnZU}</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{botjan:n}, {yI-:v}, {chu':v:2}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {KCD:src}</column>
+    </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
       <column name="_id">11440</column>
