@@ -1239,15 +1239,15 @@ A physical path would be a {taw:n}.</column>
       <!-- Checked on: 2012.12.01. -->
       <column name="_id">16140</column>
       <column name="entry_name">HeghmoH</column>
-      <column name="part_of_speech">v:is,deriv</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">be fatal</column>
-      <column name="definition_de">tödlich</column>
+      <column name="definition_de">tödlich sein, töten</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{HoH:v}</column>
-      <!-- Is this actually the same as {Hegh:v} with the suffix {-moH:v}? -->
-      <column name="notes"></column>
-      <column name="notes_de"></column>
+      <!-- Is this actually the same as {Hegh:v} with the suffix {-moH:v}? Edit by Lieven: I'm sure it is, as the latest discussion on the ML shows.-->
+      <column name="notes">See {qawmoH:v} for an example of how to use a verb like this one.</column>
+      <column name="notes_de">Siehe {qawmoH:v} für Beispiele, wie man dieses Verb verwenden kann.</column>
       <column name="hidden_notes"></column>
       <column name="components">{Hegh:v}, {-moH:v}</column>
       <column name="examples"></column>
@@ -1287,7 +1287,7 @@ A physical path would be a {taw:n}.</column>
       <column name="antonyms"></column>
       <column name="see_also">{veH:n}, {vuS:v}, {ghangwI':n}</column>
       <column name="notes">In {TNK:src}, {bIQ'a' HeH:n} is used to translate "beach". In the {paq'batlh:src}, {ngeng HeH:n} is used to translate "lakeshore".</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">In {TNK:src} wird {bIQ'a' HeH:n} für "Strand" verwendet. Im {paq'batlh:src} wird {ngeng HeH:n} für "Seeufer" verwendet.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1509,7 +1509,7 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is also shortened to {HerghwI':n:nolink}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Man kann dies auch als {HerghwI':n:nolink} abkürzen.</column>
       <column name="hidden_notes"></column>
       <column name="components">{Hergh:n}, {Qay:v}, {-wI':v}</column>
       <column name="examples"></column>
@@ -1628,7 +1628,7 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
       <column name="antonyms"></column>
       <column name="see_also">{nan:v:1}, {tey:v}, {ghItlh:v}, {nagh:n}, {'Iw 'Ip ghomey:n}, {Habnagh:n:extcan}</column>
       <column name="notes">There is an idiom, {tam; Hew rur}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Es gibt die Redewendung {tam; Hew rur}.</column>
       <column name="hidden_notes">One "hew"s a statue.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1668,7 +1668,7 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This verb indicates fighting against one's own group, and not the supposed enemy.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bedeutet seine eigene Leute bekämpfen, anstatt den Feind.</column>
       <column name="hidden_notes">This may have been a back-fit for a mispronunciation of {Hegh:v}.</column>
       <column name="components"></column>
       <column name="examples">
@@ -1689,7 +1689,7 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
       <column name="antonyms"></column>
       <column name="see_also">{tamler:n}, {'o'rIS:n}, {yugh:v}, {pay'an:n}</column>
       <column name="notes">The components of an atom may include {yomIj:n}, {valtIn:n}, and {tem:n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Einzelteile eines Atoms sind {yomIj:n}, {valtIn:n}, und {tem:n}</column>
       <column name="hidden_notes">The Atomium is a famous building in Heysel, Brussels.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1913,7 +1913,9 @@ Buy the full "Warrior Woman" album: {Google Play store:url:https://play.google.c
       <column name="notes">This literally means "Come towards me!"
 
 Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/Wq5mvIWRSKc}</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Wörtlich bedeutet dies "Komm zu mir!"
+
+Siehe wie Gowron dies sagt: {YouTube video:url:http://www.youtube.com/v/Wq5mvIWRSKc}</column>
       <column name="hidden_notes"></column>
       <column name="components">{HI-:v}, {ghoS:v:1}</column>
       <column name="examples"></column>
@@ -2035,7 +2037,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/KArQlviVXMk}<
       <column name="antonyms"></column>
       <column name="see_also">{Sut:n}, {SeQ:v}</column>
       <column name="notes">This refers to the clothing worn in battle.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Bezeichnet die Kleidung, die im Kampf getragen wird.</column>
       <column name="hidden_notes">In English slang, "hip" means fashionable in the context of clothing.</column>
       <column name="components"></column>
       <column name="examples"></column>
