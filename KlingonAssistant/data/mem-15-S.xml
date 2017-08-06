@@ -1948,7 +1948,7 @@ If an implement is used for an activity typically performed by a finger, a finge
       <column name="definition_de">regnen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{jev:v:1}, {muD Dotlh:n}, {ghay:v}, {Har'ey:n}, {vI'laS:n}</column>
+      <column name="see_also">{chal bIQ:n}, {jev:v:1}, {muD Dotlh:n}, {ghay:v}, {Har'ey:n}, {Heq:v}, {peD:v}, {vI'laS:n}, {'eng:n}</column>
       <column name="notes">This verb can take an object. Its subject is usually unstated.[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes">It's the sound of rain falling.</column>
@@ -2214,7 +2214,7 @@ Verb prefixes when {SoH:n:nolink} is the object:
 
 This word carries the idiomatic meaning of "matter, concern, affair". For example, {tlhIngan Soj 'oH; not bIyaj:sen:nolink} means "It is a Klingon matter -- you'll never understand."[3]</column>
       <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The example appears to be missing a conjunction.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {yIntaHbogh tlhIngan Soj tlhol jablu'DI' tIvqu'lu'. qagh, ro'qegh'Iwachab, targh tIq Sop 'e' lungIl Humanpu' puS.:sen:nolink}
@@ -2331,7 +2331,7 @@ This word carries the idiomatic meaning of "matter, concern, affair". For exampl
       <column name="see_also"></column>
       <column name="notes">This refers to food that no one has done anything to.[1, p.84]</column>
       <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The example appears to be missing a conjunction.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {yIntaHbogh tlhIngan Soj tlhol jablu'DI' tIvqu'lu'. qagh, ro'qegh'Iwachab, targh tIq Sop 'e' lungIl Humanpu' puS.:sen:nolink}
@@ -3075,7 +3075,6 @@ This verb is also used for the encryption of data.[3]</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}, [2] {SkyBox 33:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src})</column>
     </table>
-    <!-- Gowron says {So'wI' yIchu'}: http://www.youtube.com/v/BpdgUluBJOQ -->
     <table name="mem">
       <column name="_id">31230</column>
       <column name="entry_name">So'wI' DaH</column>
@@ -3094,6 +3093,26 @@ This verb is also used for the encryption of data.[3]</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {BoP:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.03. -->
+      <column name="_id">31231</column>
+      <column name="entry_name">So'wI' yIchu'!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Engage the cloaking device!</column>
+      <column name="definition_de">Aktiviere Tarnvorrichtung!</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/BpdgUluBJOQ}</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{So'wI':n}, {yI-:v}, {chu':v:2}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {TKD p.60:src}</column>
     </table>
     <table name="mem">
       <column name="_id">31235</column>
@@ -3630,7 +3649,7 @@ The expression {jISum:sen:nolink} has an idiomatic philosophical meaning, "I'm i
       <column name="definition_de">Wind</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{SuS:v}</column>
+      <column name="see_also">{muD Dotlh:n}, {jev:v:1}, {cheq:v}, {vung:v}, {ver:v:1}, {SuS:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">It sounds like the wind blowing.</column>
