@@ -1757,6 +1757,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="hidden_notes">The first ever line of Klingon spoken on-screen was {wIy cha'}, in {Star Trek I:src}.</column>
       <column name="components"></column>
       <column name="examples">
+▶ {wIy yIcha'!:sen}
 ▶ {tlhIngan wIy:sen:nolink}
    {'ejyo' luch rurbe'qu' tlhIngan Duj luch. HoS law'qu' luch law'qu' je lo' Duj nuH pat Hub pat je. motlh ray' luSamlaHmeH De' Qatlh cha' tlhIngan Duj jIH'a'. motlh pIm 'ejyo' Dujmey.:sen:nolink}
   "Klingon Tactical Display
@@ -1766,7 +1767,28 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}, [2] {Star Trek I:src}, [3] {SkyBox 3:src} (reprinted in {HQ 3.4, p.10-11, Dec. 1994:src})</column>
     </table>
-    <!-- Gowron says {wIy yIcha'}: http://www.youtube.com/v/ooFuTPjRtEM -->
+    <table name="mem">
+      <!-- Checked on: 2017.08.13. -->
+      <column name="_id">35783</column>
+      <column name="entry_name">wIy yIcha'!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Show the tactical display!</column>
+      <column name="definition_de">Zeig die taktische Anzeige!</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">The clipped Klingon form of this command would be {wIy cha'!:sen:nolink}
+
+Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/ooFuTPjRtEM}</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {KCD:src}</column>
+    </table>
     <table name="mem">
       <!-- Checked on: 2017.08.02. -->
       <column name="_id">35785</column>
