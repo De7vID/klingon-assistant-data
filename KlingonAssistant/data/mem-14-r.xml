@@ -3268,27 +3268,8 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {qep'a' 2010:src}, [2] {'u':src}, [3] {paq'batlh:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">29950</column>
-      <column name="entry_name">ruStay</column>
-      <column name="part_of_speech">n:deriv</column>
-      <column name="definition">bonding ritual</column>
-      <column name="definition_de">Bindungszeremonie</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{ruS:n}, {tay:n:1}</column>
-      <column name="notes">This is a ritual that allows an orphan to join another House.</column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <column name="components">{ruS:n}, {tay:n:1}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source">[1] {TKDA:src}</column>
-    </table>
-    <table name="mem">
       <!-- Checked on: 2016.07.25. -->
-      <column name="_id">29955</column>
+      <column name="_id">29950</column>
       <column name="entry_name">ruS</column>
       <!-- Maybe should be "v:is"? -->
       <column name="part_of_speech">v:i_c</column>
@@ -3308,10 +3289,29 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
+      <column name="_id">29955</column>
+      <column name="entry_name">ruStay</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">bonding ritual</column>
+      <column name="definition_de">Bindungszeremonie</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ruS:n}, {tay:n:1}</column>
+      <column name="notes">This is a ritual that allows an orphan to join another House.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{ruS:n}, {tay:n:1}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {TKDA:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2017.07.30. -->
       <column name="_id">29956</column>
       <column name="entry_name">ruSvep</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">invitation</column>
       <column name="definition_de">Einladung</column>
       <column name="synonyms"></column>
@@ -3320,7 +3320,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">"RSVP".</column>
-      <column name="components"></column>
+      <column name="components">{ruS:n}, {vep:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
