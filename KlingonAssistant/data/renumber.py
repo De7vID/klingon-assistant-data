@@ -11,7 +11,7 @@ for filename in filenames:
     id = base_id
     with fileinput.FileInput(filename, inplace=True) as file:
         for line in file:
-            (line, num_subs) = re.subn(r"_id\">(\d+)<", "_id\">%s<" % id, line)
+            (line, num_subs) = re.subn(r"_id\">(\d*)<", "_id\">%s<" % id, line)
             print(line, end='')
             if num_subs != 0:
                 id += 10
