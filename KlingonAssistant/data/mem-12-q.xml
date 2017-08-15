@@ -2621,7 +2621,7 @@ This was used for "Cancel" (while {ruch:v} was used for "Ok") in Klingon Blockly
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qoH vuvbe' SuS.:sen}</column>
-      <column name="notes">This is the name of a city, where {qeylIS:n} once witnessed a foolish man stand outside the walls during a fierce storm in an attempt to make the wind respect him.</column>
+      <column name="notes">This is the name of a city, where {qeylIS:n:name} once witnessed a foolish man stand outside the walls during a fierce storm in an attempt to make the wind respect him.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -4186,27 +4186,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="source">[1] {KCD:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2017.08.03. -->
       <column name="_id">122130</column>
-      <column name="entry_name">qul yIchu'.</column>
-      <column name="part_of_speech">sen:phr</column>
-      <column name="definition">Light the Fire.</column>
-      <column name="definition_de">Entzündet das Feuer.</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <column name="components">{qul:n}, {yI-:v}, {chu':v:2}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source">[1] {Star Trek Discovery:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id">122140</column>
       <column name="entry_name">qum</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">govern</column>
@@ -4225,7 +4205,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122150</column>
+      <column name="_id">122140</column>
       <column name="entry_name">qum</column>
       <column name="part_of_speech">n</column>
       <column name="definition">government</column>
@@ -4244,7 +4224,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122160</column>
+      <column name="_id">122150</column>
       <column name="entry_name">qumwI'</column>
       <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">governor</column>
@@ -4264,7 +4244,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
     </table>
     <table name="mem">
       <!-- Checked on: 2016.12.01. -->
-      <column name="_id">122170</column>
+      <column name="_id">122160</column>
       <column name="entry_name">qum DuSaQ</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">public school</column>
@@ -4284,7 +4264,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="source">[1] {Pop Culture Hero Coalition announcement:src} ({KLI mailing list 2016.11.30:src})</column>
     </table>
     <table name="mem">
-      <column name="_id">122180</column>
+      <column name="_id">122170</column>
       <column name="entry_name">qun</column>
       <column name="part_of_speech">n</column>
       <column name="definition">history</column>
@@ -4304,7 +4284,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="source">[1] {TKD:src}, [2] {Star Trek V notes:src} (not actually in the film)</column>
     </table>
     <table name="mem">
-      <column name="_id">122190</column>
+      <column name="_id">122180</column>
       <column name="entry_name">qun</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">scold</column>
@@ -4324,7 +4304,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
-      <column name="_id">122200</column>
+      <column name="_id">122190</column>
       <column name="entry_name">qun qon charghwI'pu''e'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">History is written by the victors.</column>
@@ -4343,7 +4323,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="source">[1] {TKW p.179:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122210</column>
+      <column name="_id">122200</column>
       <column name="entry_name">qunI'vaS</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Kunivas</column>
@@ -4362,7 +4342,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="source">[1] {TKW:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122220</column>
+      <column name="_id">122210</column>
       <column name="entry_name">qung</column>
       <column name="part_of_speech">n</column>
       <column name="definition">hole (like a hole in a musical instrument)</column>
@@ -4387,7 +4367,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.04. -->
-      <column name="_id">122230</column>
+      <column name="_id">122220</column>
       <column name="entry_name">qup</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">elder</column>
@@ -4410,7 +4390,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {TKD:src}, [2] {paq'batlh:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122240</column>
+      <column name="_id">122230</column>
       <column name="entry_name">qup'a'</column>
       <column name="part_of_speech">n:deriv,being</column>
       <column name="definition">patriarch, matriarch</column>
@@ -4429,7 +4409,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {paq'batlh:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122250</column>
+      <column name="_id">122240</column>
       <column name="entry_name">quprIp</column>
       <column name="part_of_speech">n</column>
       <column name="definition">Council of Elders</column>
@@ -4448,7 +4428,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122260</column>
+      <column name="_id">122250</column>
       <column name="entry_name">quq</column>
       <column name="part_of_speech">v:i_c</column>
       <column name="definition">happen simultaneously</column>
@@ -4479,7 +4459,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {TKD:src}, [2] {HQ 7.4, p.12, Dec. 1998:src}, [3] {paq'batlh p.140-141:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122270</column>
+      <column name="_id">122260</column>
       <column name="entry_name">qur</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be greedy</column>
@@ -4498,7 +4478,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122280</column>
+      <column name="_id">122270</column>
       <column name="entry_name">qurbuSwI'</column>
       <column name="part_of_speech">n:reg,being</column>
       <column name="definition">architect (Morskan)</column>
@@ -4517,7 +4497,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {Saarbrücken qepHom'a' 2011:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122290</column>
+      <column name="_id">122280</column>
       <column name="entry_name">qurgh</column>
       <column name="part_of_speech">n:food</column>
       <column name="definition">bean, beans</column>
@@ -4536,7 +4516,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122300</column>
+      <column name="_id">122290</column>
       <column name="entry_name">quS</column>
       <column name="part_of_speech">n</column>
       <column name="definition">chair</column>
@@ -4555,7 +4535,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {TKD:src}, [2] {TNK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122310</column>
+      <column name="_id">122300</column>
       <column name="entry_name">quSDaq ba'</column>
       <column name="part_of_speech">sen:idiom</column>
       <column name="definition">that's obvious</column>
@@ -4575,7 +4555,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {KGT p.124:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122320</column>
+      <column name="_id">122310</column>
       <column name="entry_name">quSDaq ba'lu''a'?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Is this seat taken?</column>
@@ -4595,7 +4575,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
     </table>
     <table name="mem">
       <!-- Checked on: 2016.07.25. -->
-      <column name="_id">122330</column>
+      <column name="_id">122320</column>
       <column name="entry_name">quSlab</column>
       <column name="part_of_speech">n</column>
       <column name="definition">couch, bench, chair for multiple people</column>
@@ -4614,7 +4594,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122340</column>
+      <column name="_id">122330</column>
       <column name="entry_name">qut</column>
       <column name="part_of_speech">n</column>
       <column name="definition">crystal (geologic formation)</column>
@@ -4634,7 +4614,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.30. -->
-      <column name="_id">122350</column>
+      <column name="_id">122340</column>
       <column name="entry_name">qut</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">predict</column>
@@ -4653,7 +4633,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122360</column>
+      <column name="_id">122350</column>
       <column name="entry_name">qutluch</column>
       <column name="part_of_speech">n:weap,fic</column>
       <column name="definition">kut'luch, type of hand weapon</column>
@@ -4672,7 +4652,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {TKDA:src}, [2] {KGT:src}, [3] {TKW:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122370</column>
+      <column name="_id">122360</column>
       <column name="entry_name">qutluch patlh</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">hierarchical structure</column>
@@ -4691,7 +4671,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {KGT p.110:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122380</column>
+      <column name="_id">122370</column>
       <column name="entry_name">qutluch tay</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">Kut'luch Ceremony</column>
@@ -4710,7 +4690,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122390</column>
+      <column name="_id">122380</column>
       <column name="entry_name">qutlh</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be cheap</column>
@@ -4730,7 +4710,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
     </table>
     <table name="mem">
       <!-- Checked on: 2013.06.10. -->
-      <column name="_id">122400</column>
+      <column name="_id">122390</column>
       <column name="entry_name">quv</column>
       <column name="part_of_speech">n</column>
       <column name="definition">honor</column>
@@ -4753,7 +4733,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
       <column name="source">[1] {TKDA:src}, [2] {HQ 12.3, Sept. 2003:src}, [3] {Enterprise - The Augments:src}, [4] {TKW p.59:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122410</column>
+      <column name="_id">122400</column>
       <column name="entry_name">quv</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be honored, be honorable</column>
@@ -4773,7 +4753,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122420</column>
+      <column name="_id">122410</column>
       <column name="entry_name">quv bey'</column>
       <column name="part_of_speech">n:weap,deriv,fic</column>
       <column name="definition">honor display</column>
@@ -4792,7 +4772,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
       <column name="source">[1] {KCD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122430</column>
+      <column name="_id">122420</column>
       <column name="entry_name">quv Hutlh HoHbogh tlhIngan 'ach qabDaj 'angbe'bogh.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">The Klingon who kills without showing his face has no honor.</column>
@@ -4811,7 +4791,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
       <column name="source">[1] {TKW p.59:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122440</column>
+      <column name="_id">122430</column>
       <column name="entry_name">quvHa'</column>
       <column name="part_of_speech">v:is,deriv</column>
       <column name="definition">be dishonored</column>
@@ -4831,7 +4811,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">122450</column>
+      <column name="_id">122440</column>
       <column name="entry_name">quvHa'ghach</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">dishonor</column>
@@ -4850,7 +4830,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122460</column>
+      <column name="_id">122450</column>
       <column name="entry_name">quvmoH</column>
       <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">honor</column>
@@ -4869,7 +4849,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
       <column name="source">[1] {TKDA:src}, [2] {msn 1997.11.30:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122470</column>
+      <column name="_id">122460</column>
       <column name="entry_name">quwargh</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Quark</column>
@@ -4889,7 +4869,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
       <column name="source">[1] {Star Trek The Experience:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122480</column>
+      <column name="_id">122470</column>
       <column name="entry_name">quy'Ip</column>
       <column name="part_of_speech">n</column>
       <column name="definition">vomit</column>
@@ -4908,7 +4888,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
       <column name="source">[1] {HQ 12.4, Dec. 2003:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122490</column>
+      <column name="_id">122480</column>
       <column name="entry_name">qu'</column>
       <column name="part_of_speech">v:1,is</column>
       <column name="definition">be fierce</column>
@@ -4927,7 +4907,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
       <column name="source">[1] {TKD:src}, [2] {KGT p.159:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122500</column>
+      <column name="_id">122490</column>
       <column name="entry_name">qu'</column>
       <column name="part_of_speech">v:2,is,slang</column>
       <column name="definition">be great, be wonderful, be excellent, be splendid</column>
@@ -4948,7 +4928,7 @@ Two out-of-fashion slang words with the same meaning are {Huv:v:2,slang} and {no
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">122510</column>
+      <column name="_id">122500</column>
       <column name="entry_name">qu'rIl wa'</column>
       <column name="part_of_speech">n:place,fic</column>
       <column name="definition">Kurill Prime</column>
@@ -4968,7 +4948,7 @@ Two out-of-fashion slang words with the same meaning are {Huv:v:2,slang} and {no
     </table>
     <table name="mem">
       <!-- Checked on: 2014.01.27. -->
-      <column name="_id">122520</column>
+      <column name="_id">122510</column>
       <column name="entry_name">qu'vu'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">tetrahedron</column>
