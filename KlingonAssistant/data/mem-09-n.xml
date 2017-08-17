@@ -1732,7 +1732,7 @@ Sometimes, {'e':n:pro} with {-lu':v} is used instead of {net:n:pro,nolink}. It i
       <column name="examples">
 (using {X net Y:sen:nolink})
 ▶ {qama'pu' DIHoH net Sov:sen:nolink} "One knows we kill prisoners."[1, p.66]
-▶ {Qu'vaD lI' net tu'bej:sen:nolink} "One certains finds it useful for the mission."[1, p.66]
+▶ {Qu'vaD lI' net tu'bej.:sen} "One certainly finds it useful for the mission."[1, p.66]
 ▶ {Duj ghajchugh pagh, beylI'vo' 'oH Daje' net chaw'.:sen:nolink} "If (the ship is) unowned, you may buy it from the Bank."[3]
 
 (using {X 'e' Y-lu':sen:nolink})
@@ -2912,7 +2912,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yol:n}, {may':n}, {ghob:v}</column>
-      <column name="notes">Contrast this with {veS:n}, which refers to the concept of warfare.</column>
+      <column name="notes">Contrast this with {veS:n}, which refers to the concept of warfare.[2, p.47]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3380,12 +3380,12 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {notlh veS.:sen:nolink} "War is obsolete."[2]
+▶ {notlh veS, 'a tugh manotlhchoH je maH.:sen}
 ▶ {notlh tonSaw'lIj.:sen} "Your fighting technique is obsolete."</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKDA:src}, [2] {KGT p.47:src}</column>
+      <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
       <column name="_id">91730</column>
@@ -3405,6 +3405,26 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {qep'a' 2012:src} ({KLI mailing list 2012.09.01:src})</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">91735</column>
+      <column name="entry_name">notlh veS, 'a tugh manotlhchoH je maH.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">War is obsolete, as we are in danger of becoming.</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">The first part of this sentence, {notlh veS:sen:nolink}, appears on {KGT p.47:src}.</column>
+      <column name="components">{notlh:v}, {veS:n}, {'a:conj}, {tugh:adv}, {ma-:v}, {notlh:v}, {-choH:v}, {je:adv}, {maH:n:2}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek VI:src}</column>
     </table>
     <table name="mem">
       <column name="_id">91740</column>

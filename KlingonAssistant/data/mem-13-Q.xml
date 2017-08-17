@@ -322,7 +322,7 @@ Do not confuse this with the similarly named {qa'raj:n}.</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKW p.95:src}</column>
+      <column name="source">[1] {TKW p.95:src}, [2] {Star Trek VI:src}</column>
     </table>
     <table name="mem">
       <column name="_id">130170</column>
@@ -337,7 +337,7 @@ Do not confuse this with the similarly named {qa'raj:n}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">{Qang yIQan!:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -356,11 +356,31 @@ Do not confuse this with the similarly named {qa'raj:n}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">{Qang yIQan!:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags">president</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKDA:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">130185</column>
+      <column name="entry_name">Qang yIQan!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Protect the Chancellor!</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{Qang:n}, {yI-:v}, {Qan:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek VI:src}</column>
     </table>
     <table name="mem">
       <column name="_id">130190</column>
@@ -3702,6 +3722,26 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKW p.74:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">131855</column>
+      <column name="entry_name">Qu'vaD lI' net tu'bej.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">One certainly finds it useful for the mission.</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">The subtitle says "You will find it useful", which was the original English line filmed.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{Qu':n}, {-vaD:n}, {lI':v:2}, {net:n}, {tu':v}, {-bej:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {TKD p.66:src}, [2] {Star Trek III:src}</column>
     </table>
     <table name="mem">
       <column name="_id">131860</column>
