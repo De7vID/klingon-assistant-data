@@ -41,6 +41,26 @@ The suffix {-Daq:n} marks the target.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">10015</column>
+      <column name="entry_name">bach Do', qaH!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">A lucky shot, sir!</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{bach:n}, {Do':v}, {qaH:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek III:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2012.11.18. -->
       <column name="_id">10020</column>
       <column name="entry_name">bachHa'</column>
@@ -1929,7 +1949,9 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="notes_de"></column>
       <column name="hidden_notes">Jail is referred to in slang as the "big house".</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {bIghHa'Daq yIghoS:sen:nolink} "Go to jail"[1, p.170]
+▶ {bIghHa' yIjaH:sen:nolink} "Go to jail"[2]</column>
       <column name="examples_de"></column>
       <column name="search_tags">gaol, holding cell, cell</column>
       <column name="search_tags_de"></column>

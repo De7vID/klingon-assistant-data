@@ -325,7 +325,8 @@ There is an idiom, {ghung; qagh rur}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {bach Do', qaH!:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags">ma'am, madam</column>
       <column name="search_tags_de"></column>
@@ -496,13 +497,33 @@ There is an idiom, {ghung; qagh rur}.</column>
       <column name="see_also">{bIghHa':n}, {'avwI':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">MO accomodated by changing {qama'} to mean prisoner while {Star Trek III:src} was being filmed.</column>
+      <column name="hidden_notes">MO accommodate by changing {qama':sen@@qa-:v, ma':v} to mean "prisoner" while {Star Trek III:src} was being filmed. See {qama'pu' jonta' neH.:sen}</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">{qama'pu' jonta' neH.:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">120255</column>
+      <column name="entry_name">qama'pu' jonta' neH.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">I wanted to capture prisoners.</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{matHa', DoS jonta' neH.:sen}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">This sentence was one of the most significant in the development of the Klingon language. It was originally supposed to mean "I told you, engines only." It was changed in the subtitles to say "I wanted prisoners." This led to the invention of the plural suffix for beings {-pu':n}, the accomplishment suffix {-ta':v}, the verb {neH:v} and the idea of clipped Klingon which was needed to explain its lack of any prefix, as well as a change in the meaning of the verb {ma':v} to mean "accommodate". </column>
+      <column name="components">{qama':n}, {-pu':n}, {jon:v}, {-ta':v}, {neH:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek III:src}</column>
     </table>
     <table name="mem">
       <column name="_id">120260</column>

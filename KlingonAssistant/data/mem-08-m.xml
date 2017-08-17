@@ -917,11 +917,31 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">{matHa', DoS jonta' neH.:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags">shooter</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">80445</column>
+      <column name="entry_name">matHa', DoS jonta' neH.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Gunner, target engine only.</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{qama'pu' jonta' neH.:sen}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{matHa':n}, {DoS:n}, {jonta':n}, {neH:adv}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek III:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.15. -->
@@ -1281,6 +1301,26 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="source">[1] {TNG - The Icarus Factor:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">80625</column>
+      <column name="entry_name">may' yIghuH!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Battle alert!</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{may':n}, {yI-:v}, {ghuH:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags">red alert</column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek III:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">80630</column>
       <column name="entry_name">may'Daq jaHDI' SuvwI' juppu'Daj lonbe'.</column>
       <column name="part_of_speech">sen:phr</column>
@@ -1424,14 +1464,14 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="_id">80700</column>
       <column name="entry_name">ma'</column>
       <column name="part_of_speech">v:t_c</column>
-      <column name="definition">accomodate</column>
+      <column name="definition">accommodate</column>
       <column name="definition_de">anpassen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{moS:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">MO accomodated by changing {qama'} to mean prisoner while {Star Trek III:src} was being filmed.</column>
+      <column name="hidden_notes">MO accommodate by changing {qama':sen@@qa-:v, ma':v} to mean "prisoner" while {Star Trek III:src} was being filmed. See {qama'pu' jonta' neH.:sen}</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>

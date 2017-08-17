@@ -338,16 +338,36 @@ The toe verbs are used in the same way as the finger verbs, but they are not hea
       <column name="definition_de">Verstanden? Hast du verstanden?</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{yajchu':sen}</column>
       <column name="notes">This is in clipped Klingon. In standard Klingon, "Do you understand?" (speaking to one person) would be {bIyaj'a'?:sen:nolink}</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{yaj:v}, {-'a':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD p.170:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">200175</column>
+      <column name="entry_name">yajchu'.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Understood clearly.</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This might be said in response to {yaj'a'?:sen}</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{yaj:v}, {-chu':v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek III:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.29. -->
@@ -1258,6 +1278,26 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
       <column name="search_tags">On screen.</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD p.171:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">200605</column>
+      <column name="entry_name">yIHu'!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Get up!</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{yI-:v}, {Hu':v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek III:src}, [2] {Star Trek VI:src}</column>
     </table>
     <table name="mem">
       <column name="_id">200610</column>
