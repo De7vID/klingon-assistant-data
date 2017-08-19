@@ -2763,7 +2763,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{DIvI':n}, {may':n}, {Duj:n:2}</column>
+      <column name="components">{DIvI':n}, {may':n}, {Duj:n:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -3787,7 +3787,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">According to {TKD p.20:src}, it's likely that {Do':n:archaic,hyp,nolink} is an archaic word for the modern {Duj:n:2}. This conjecture is supported by {'ejDo':n} and {Delaq Do':excl}.</column>
+      <column name="notes">According to {TKD p.20:src}, it's likely that {Do':n:archaic,hyp,nolink} is an archaic word for the modern {Duj:n:1}. This conjecture is supported by {'ejDo':n} and {Delaq Do':excl}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -4063,32 +4063,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
       <!-- Checked on: 2012.11.29. -->
       <column name="_id">31950</column>
       <column name="entry_name">Duj</column>
-      <column name="part_of_speech">n:1,inhpl,inhps</column>
-      <column name="definition">instinct, instincts</column>
-      <column name="definition_de">Instinkte</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{vaj Duj:n}</column>
-      <column name="notes">It is grammatically correct to treat this word as singular (a bundle of instincts) or plural (individual instincts).[2, p.27]</column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <!-- Even though this word is an inherent plural/singular form of
-           itself, leave components empty so it won't be displayed. -->
-      <column name="components"></column>
-      <column name="examples">
-▶ {Duj tIvoqtaH.:sen}
-▶ {DujlIj yIvoq.:sen}
-▶ {vaj Duj chIj:sen:idiom}</column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}, [2] {TKW:src}</column>
-    </table>
-    <table name="mem">
-      <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31960</column>
-      <column name="entry_name">Duj</column>
-      <column name="part_of_speech">n:2</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">ship, vessel</column>
       <column name="definition_de">Schiff, Raumschiff</column>
       <column name="synonyms"></column>
@@ -4112,6 +4087,31 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
+      <column name="_id">31960</column>
+      <column name="entry_name">Duj</column>
+      <column name="part_of_speech">n:2,inhpl,inhps</column>
+      <column name="definition">instinct, instincts</column>
+      <column name="definition_de">Instinkte</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{vaj Duj:n}</column>
+      <column name="notes">It is grammatically correct to treat this word as singular (a bundle of instincts) or plural (individual instincts).[2, p.27]</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <!-- Even though this word is an inherent plural/singular form of
+           itself, leave components empty so it won't be displayed. -->
+      <column name="components"></column>
+      <column name="examples">
+▶ {Duj tIvoqtaH.:sen}
+▶ {DujlIj yIvoq.:sen}
+▶ {vaj Duj chIj:sen:idiom}</column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {TKD:src}, [2] {TKW:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2012.11.29. -->
       <column name="_id">31970</column>
       <column name="entry_name">Duj ngaDHa'</column>
       <column name="part_of_speech">n:slang,deriv</column>
@@ -4123,7 +4123,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Duj:n:2}, {ngaD:v}, {-Ha':v}</column>
+      <column name="components">{Duj:n:1}, {ngaD:v}, {-Ha':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -4143,7 +4143,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Duj:n:1}, {tI-:v}, {voq:v}, {-taH:v}</column>
+      <column name="components">{Duj:n:2}, {tI-:v}, {voq:v}, {-taH:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -4162,7 +4162,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Duj:n:2}, {-Daj:n}, {Hub:v}, {-taH:v}, {-vIS:v}, {Hegh:v}, {'e':n}, {tul:v}, {Hoch:n}, {tlhIngan:n}</column>
+      <column name="components">{Duj:n:1}, {-Daj:n}, {Hub:v}, {-taH:v}, {-vIS:v}, {Hegh:v}, {'e':n}, {tul:v}, {Hoch:n}, {tlhIngan:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -4202,7 +4202,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Duj:n:1}, {-lIj:n}, {yI:v}, {voq:v}</column>
+      <column name="components">{Duj:n:2}, {-lIj:n}, {yI:v}, {voq:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -4221,7 +4221,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes">This expression means "be experienced".</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Duj:n:2}, {-mey:n}, {law':v}, {chIj:v}, {-pu':v}</column>
+      <column name="components">{Duj:n:1}, {-mey:n}, {law':v}, {chIj:v}, {-pu':v}</column>
       <column name="examples">
 ▶ {Dujmey law' DachIjpu':sen:nolink} "You have navigated many ships", i.e., "You are experienced".</column>
       <column name="examples_de"></column>
@@ -4241,7 +4241,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="see_also">{mey':n}, {QIn:n:2}, {'ejvoH:n}</column>
       <column name="notes">This refers to the geometric figure, and not to an astronomical body, for which see {Hov:n}.</column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">This seems to be made up of the words {Duj:n:2} and {tlhuQ:n}.
+      <column name="hidden_notes">This seems to be made up of the words {Duj:n:1} and {tlhuQ:n}.
 
 The logo of Star Alliance, the largest airline alliance on Earth, is often painted on the tailfins of its members' airplanes.</column>
       <column name="components"></column>
