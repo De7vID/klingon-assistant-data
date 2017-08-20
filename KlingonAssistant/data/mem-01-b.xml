@@ -41,8 +41,28 @@ The suffix {-Daq:n} marks the target.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.11.18. -->
+      <!-- Checked on: 2017.08.17. -->
       <column name="_id">10020</column>
+      <column name="entry_name">bach Do', qaH!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">A lucky shot, sir!</column>
+      <column name="definition_de">Ein glücklicher Schuss, Sir!</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{bach:n}, {Do':v}, {qaH:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek III:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2012.11.18. -->
+      <column name="_id">10030</column>
       <column name="entry_name">bachHa'</column>
       <column name="part_of_speech">v:slang,deriv</column>
       <column name="definition">err, make a mistake</column>
@@ -65,7 +85,7 @@ The suffix {-Daq:n} marks the target.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10030</column>
+      <column name="_id">10040</column>
       <column name="entry_name">bachlu'meH chuq</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">effective range</column>
@@ -89,7 +109,7 @@ The suffix {-Daq:n} marks the target.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10040</column>
+      <column name="_id">10050</column>
       <column name="entry_name">bagh</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">tie</column>
@@ -109,7 +129,7 @@ The suffix {-Daq:n} marks the target.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2014.11.16. -->
-      <column name="_id">10050</column>
+      <column name="_id">10060</column>
       <column name="entry_name">baghHa'</column>
       <column name="part_of_speech">v:t_c,deriv,slang</column>
       <column name="definition">crack a code</column>
@@ -129,7 +149,7 @@ The suffix {-Daq:n} marks the target.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10060</column>
+      <column name="_id">10070</column>
       <column name="entry_name">baghneQ</column>
       <column name="part_of_speech">n:food</column>
       <column name="definition">spoon</column>
@@ -149,7 +169,7 @@ The suffix {-Daq:n} marks the target.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10070</column>
+      <column name="_id">10080</column>
       <column name="entry_name">baH</column>
       <column name="part_of_speech">v:t_c,weap</column>
       <column name="definition">fire (torpedo, rocket, missile)</column>
@@ -173,7 +193,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10080</column>
+      <column name="_id">10090</column>
       <column name="entry_name">baHjan</column>
       <column name="part_of_speech">n:weap</column>
       <column name="definition">launcher</column>
@@ -192,7 +212,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10090</column>
+      <column name="_id">10100</column>
       <column name="entry_name">baHwI'</column>
       <column name="part_of_speech">n:weap,being,deriv</column>
       <column name="definition">gunner</column>
@@ -204,15 +224,35 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components">{baH:v}, {-wI':v}</column>
-      <column name="examples"></column>
+      <column name="examples">{baHwI', DoS yIbuS. QuQ neH.:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags">shooter</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">10110</column>
+      <column name="entry_name">baHwI', DoS yIbuS. QuQ neH.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Gunner, target engine only.</column>
+      <column name="definition_de">Schütze, konzentriere dich auf das Ziel! Nur ausschalten.</column>
+      <column name="synonyms">{matHa', DoS jonta' neH.:sen}</column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{baHwI':n}, {DoS:n}, {yI-:v}, {buS:v}, {QuQ:n}, {neH:adv}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek III:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10100</column>
+      <column name="_id">10120</column>
       <column name="entry_name">baj</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">earn, (actively) work for</column>
@@ -231,7 +271,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10110</column>
+      <column name="_id">10130</column>
       <column name="entry_name">bal</column>
       <column name="part_of_speech">n:food</column>
       <column name="definition">jug, jar, bottle</column>
@@ -251,7 +291,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2013.11.10. -->
-      <column name="_id">10120</column>
+      <column name="_id">10140</column>
       <column name="entry_name">bam</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">face, have the prospect of having to deal with</column>
@@ -272,7 +312,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2016.11.09. -->
-      <column name="_id">10130</column>
+      <column name="_id">10150</column>
       <column name="entry_name">bama Hol</column>
       <column name="part_of_speech">n</column>
       <column name="definition">Burmese language</column>
@@ -292,7 +332,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10140</column>
+      <column name="_id">10160</column>
       <column name="entry_name">banan naH</column>
       <column name="part_of_speech">n:food</column>
       <column name="definition">banana</column>
@@ -312,7 +352,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10150</column>
+      <column name="_id">10170</column>
       <column name="entry_name">bang</column>
       <column name="part_of_speech">n</column>
       <column name="definition">love, one who is loved</column>
@@ -333,7 +373,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2013.08.14. -->
-      <column name="_id">10160</column>
+      <column name="_id">10180</column>
       <column name="entry_name">bangwI' SoH.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">You are my love (loved one).</column>
@@ -355,7 +395,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10170</column>
+      <column name="_id">10190</column>
       <column name="entry_name">bang bom</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">love song</column>
@@ -375,7 +415,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2014.02.13. -->
-      <column name="_id">10180</column>
+      <column name="_id">10200</column>
       <column name="entry_name">bang pong</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">pet name, endearment</column>
@@ -395,7 +435,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10190</column>
+      <column name="_id">10210</column>
       <column name="entry_name">baq</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">terminate, discontinue</column>
@@ -414,7 +454,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10200</column>
+      <column name="_id">10220</column>
       <column name="entry_name">baqghol</column>
       <column name="part_of_speech">n:fic,food</column>
       <column name="definition">type of liquor, bahgol</column>
@@ -435,7 +475,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10210</column>
+      <column name="_id">10230</column>
       <column name="entry_name">baQ</column>
       <column name="part_of_speech">v:1,t_c,weap</column>
       <column name="definition">toss bat'leth from one hand to the other</column>
@@ -455,7 +495,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10220</column>
+      <column name="_id">10240</column>
       <column name="entry_name">baQ</column>
       <column name="part_of_speech">v:2,is</column>
       <column name="definition">be fresh, be just picked (fruit, vegetable)</column>
@@ -474,7 +514,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10230</column>
+      <column name="_id">10250</column>
       <column name="entry_name">baQa'</column>
       <column name="part_of_speech">excl</column>
       <column name="definition">general invective</column>
@@ -495,7 +535,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10240</column>
+      <column name="_id">10260</column>
       <column name="entry_name">barat</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">India</column>
@@ -514,7 +554,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10250</column>
+      <column name="_id">10270</column>
       <column name="entry_name">barbara' ma'rIch</column>
       <column name="part_of_speech">n:name</column>
       <column name="definition">Barbara March</column>
@@ -534,7 +574,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10260</column>
+      <column name="_id">10280</column>
       <column name="entry_name">bargh</column>
       <column name="part_of_speech">n:food</column>
       <column name="definition">flat-bottomed pot for food preparation</column>
@@ -553,7 +593,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10270</column>
+      <column name="_id">10290</column>
       <column name="entry_name">barot</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Barot</column>
@@ -573,7 +613,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">10280</column>
+      <column name="_id">10300</column>
       <column name="entry_name">bartIq</column>
       <column name="part_of_speech">n</column>
       <column name="definition">branch (of a tree)</column>
@@ -593,7 +633,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10290</column>
+      <column name="_id">10310</column>
       <column name="entry_name">baS</column>
       <column name="part_of_speech">n</column>
       <column name="definition">metal</column>
@@ -624,7 +664,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2015.10.28. -->
-      <column name="_id">10300</column>
+      <column name="_id">10320</column>
       <column name="entry_name">baS Ha'on</column>
       <column name="part_of_speech">n:alt</column>
       <column name="definition">{Ha'on}</column>
@@ -644,7 +684,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">10310</column>
+      <column name="_id">10330</column>
       <column name="entry_name">baS laSvargh</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">foundry</column>
@@ -664,7 +704,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">10320</column>
+      <column name="_id">10340</column>
       <column name="entry_name">baS SIrgh</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">wire</column>
@@ -684,7 +724,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10330</column>
+      <column name="_id">10350</column>
       <column name="entry_name">baS 'In</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">metal drum, bell</column>
@@ -704,7 +744,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2014.11.16. -->
-      <column name="_id">10340</column>
+      <column name="_id">10360</column>
       <column name="entry_name">batqul</column>
       <column name="part_of_speech">n</column>
       <column name="definition">B'aht Qul challenge</column>
@@ -724,7 +764,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2013.06.10. -->
-      <column name="_id">10350</column>
+      <column name="_id">10370</column>
       <column name="entry_name">batlh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">honor (general, philosophical concept, associated with integrity)</column>
@@ -744,7 +784,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10360</column>
+      <column name="_id">10380</column>
       <column name="entry_name">batlh</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">honored, with honor</column>
@@ -766,7 +806,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10370</column>
+      <column name="_id">10390</column>
       <column name="entry_name">batlh bIHeghjaj.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">May you die well.</column>
@@ -786,7 +826,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10380</column>
+      <column name="_id">10400</column>
       <column name="entry_name">batlh Daqawlu'taH.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">You will be remembered with honor.</column>
@@ -805,7 +845,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {TKD p.170:src}, [2] {Star Trek III:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10390</column>
+      <column name="_id">10410</column>
       <column name="entry_name">batlh ghob yIpab.</column>
       <column name="part_of_speech">sen:prov</column>
       <column name="definition">Adhere to virtue honorably.</column>
@@ -824,7 +864,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {TKW p.47:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10400</column>
+      <column name="_id">10420</column>
       <column name="entry_name">batlh Heghlu'chugh noDnISbe' vay'.</column>
       <column name="part_of_speech">sen:prov</column>
       <column name="definition">An honorable death requires no vengeance.</column>
@@ -843,7 +883,27 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {TKW p.129:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10410</column>
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">10430</column>
+      <column name="entry_name">batlh malja' DaHuq.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">You transact business honorably.</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{batlh:adv}, {malja':n}, {Da-:v}, {Huq:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {PK:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">10440</column>
       <column name="entry_name">batlh potlh law' yIn potlh puS.</column>
       <column name="part_of_speech">sen:prov</column>
       <column name="definition">Honor is more important than life.</column>
@@ -862,7 +922,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {TKW p.53:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10420</column>
+      <column name="_id">10450</column>
       <column name="entry_name">batlh qelDI' tlhIngan, lumbe'.</column>
       <column name="part_of_speech">sen:prov</column>
       <column name="definition">A Klingon does not postpone a matter of honor.</column>
@@ -881,8 +941,28 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {TKW p.67:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">10460</column>
+      <column name="entry_name">batlh tlhIngan Segh yIHub.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Defend the Klingon race with honor.</column>
+      <column name="definition_de">Verteidige die klingonische Rasse mit Ehre.</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">This line was cut from {Star Trek V:src}.</column>
+      <column name="components">{batlh:adv}, {tlhIngan:n}, {Segh:n}, {yI-:v}, {Hub:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {HQ 8.4, p.11, Dec. 1999:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10430</column>
+      <column name="_id">10470</column>
       <column name="entry_name">batlhHa'</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">dishonorably</column>
@@ -904,7 +984,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10440</column>
+      <column name="_id">10480</column>
       <column name="entry_name">batlhHa' vanglu'taHvIS quv chavbe'lu'.</column>
       <column name="part_of_speech">sen:prov</column>
       <column name="definition">One does not achieve honor while acting dishonorably.</column>
@@ -924,7 +1004,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10450</column>
+      <column name="_id">10490</column>
       <column name="entry_name">bav</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">orbit</column>
@@ -944,7 +1024,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.30. -->
-      <column name="_id">10460</column>
+      <column name="_id">10500</column>
       <column name="entry_name">baw'</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be comfortable, feeling prepared, confident</column>
@@ -964,7 +1044,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.30. -->
-      <column name="_id">10470</column>
+      <column name="_id">10510</column>
       <column name="entry_name">baw'Ha'</column>
       <column name="part_of_speech">v:is,deriv</column>
       <column name="definition">be uncomfortable, worried, hesitant</column>
@@ -984,7 +1064,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10480</column>
+      <column name="_id">10520</column>
       <column name="entry_name">ba'</column>
       <column name="part_of_speech">v:i</column>
       <column name="definition">sit</column>
@@ -1004,7 +1084,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10490</column>
+      <column name="_id">10530</column>
       <column name="entry_name">beb</column>
       <column name="part_of_speech">n</column>
       <column name="definition">roof</column>
@@ -1023,7 +1103,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {s.k 1998.12.07:src} (reprinted in {HQ 8.1, p.9, Mar. 1999:src}), [2] {HQ 8.3, p.2, Sept. 1999:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10500</column>
+      <column name="_id">10540</column>
       <column name="entry_name">beb mutlhwI'</column>
       <column name="part_of_speech">n:deriv,being</column>
       <column name="definition">roofer, roof layer</column>
@@ -1043,7 +1123,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10510</column>
+      <column name="_id">10550</column>
       <column name="entry_name">bech</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">suffer</column>
@@ -1063,7 +1143,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10520</column>
+      <column name="_id">10560</column>
       <column name="entry_name">begh</column>
       <column name="part_of_speech">n:fic</column>
       <column name="definition">deflectors</column>
@@ -1082,7 +1162,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10530</column>
+      <column name="_id">10570</column>
       <column name="entry_name">begh botjan</column>
       <column name="part_of_speech">n:deriv,fic</column>
       <column name="definition">deflector shield(s)</column>
@@ -1101,7 +1181,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10540</column>
+      <column name="_id">10580</column>
       <column name="entry_name">begh DaH</column>
       <column name="part_of_speech">n:deriv,fic</column>
       <column name="definition">deflector array</column>
@@ -1121,7 +1201,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10550</column>
+      <column name="_id">10590</column>
       <column name="entry_name">beH</column>
       <column name="part_of_speech">n</column>
       <column name="definition">rifle</column>
@@ -1141,7 +1221,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10560</column>
+      <column name="_id">10600</column>
       <column name="entry_name">bej</column>
       <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">watch</column>
@@ -1162,7 +1242,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10570</column>
+      <column name="_id">10610</column>
       <column name="entry_name">bej</column>
       <column name="part_of_speech">v:2,is,slang</column>
       <column name="definition">be sure, be definite, be positive, be certain</column>
@@ -1182,7 +1262,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10580</column>
+      <column name="_id">10620</column>
       <column name="entry_name">bel</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be pleased</column>
@@ -1202,7 +1282,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10590</column>
+      <column name="_id">10630</column>
       <column name="entry_name">bel</column>
       <column name="part_of_speech">n</column>
       <column name="definition">pleasure</column>
@@ -1222,7 +1302,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10600</column>
+      <column name="_id">10640</column>
       <column name="entry_name">belHa'</column>
       <column name="part_of_speech">v:is,deriv</column>
       <column name="definition">be displeased</column>
@@ -1241,7 +1321,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10610</column>
+      <column name="_id">10650</column>
       <column name="entry_name">belHa'moH</column>
       <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">displease, disappoint</column>
@@ -1262,7 +1342,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">10620</column>
+      <column name="_id">10660</column>
       <column name="entry_name">belghIya'</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Belgium</column>
@@ -1282,7 +1362,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10630</column>
+      <column name="_id">10670</column>
       <column name="entry_name">bem</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">sole of foot</column>
@@ -1302,7 +1382,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10640</column>
+      <column name="_id">10680</column>
       <column name="entry_name">ben</column>
       <column name="part_of_speech">n:1</column>
       <column name="definition">years ago</column>
@@ -1322,7 +1402,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/kWP0lgIYMBA}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10650</column>
+      <column name="_id">10690</column>
       <column name="entry_name">ben</column>
       <column name="part_of_speech">n:2</column>
       <column name="definition">years old</column>
@@ -1348,7 +1428,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10660</column>
+      <column name="_id">10700</column>
       <column name="entry_name">bep</column>
       <column name="part_of_speech">n</column>
       <column name="definition">agony</column>
@@ -1368,7 +1448,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10670</column>
+      <column name="_id">10710</column>
       <column name="entry_name">bep</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">complain, object, gripe</column>
@@ -1388,7 +1468,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10680</column>
+      <column name="_id">10720</column>
       <column name="entry_name">beq</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">crew, crewman</column>
@@ -1407,7 +1487,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10690</column>
+      <column name="_id">10730</column>
       <column name="entry_name">beq pa'mey</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">non-commissioned crew quarters</column>
@@ -1427,7 +1507,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10700</column>
+      <column name="_id">10740</column>
       <column name="entry_name">beqpuj</column>
       <column name="part_of_speech">n:fic</column>
       <column name="definition">type of mineral, bekpuj (orange in color)</column>
@@ -1447,7 +1527,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10710</column>
+      <column name="_id">10750</column>
       <column name="entry_name">beQ</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be flat</column>
@@ -1466,7 +1546,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10720</column>
+      <column name="_id">10760</column>
       <column name="entry_name">beQmoH</column>
       <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">flatten</column>
@@ -1486,7 +1566,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10730</column>
+      <column name="_id">10770</column>
       <column name="entry_name">bergh</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be irritable, be irritated</column>
@@ -1505,7 +1585,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10740</column>
+      <column name="_id">10780</column>
       <column name="entry_name">berghmoH</column>
       <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">irritate</column>
@@ -1525,7 +1605,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
     </table>
     <table name="mem">
       <!-- Checked on: 2013.08.26. -->
-      <column name="_id">10750</column>
+      <column name="_id">10790</column>
       <column name="entry_name">bernarDo</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Bernardo</column>
@@ -1545,7 +1625,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10760</column>
+      <column name="_id">10800</column>
       <column name="entry_name">bertlham</column>
       <column name="part_of_speech">n</column>
       <column name="definition">end (of an opera, play, story, speech)</column>
@@ -1565,7 +1645,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
     </table>
     <table name="mem">
       <!-- Checked on: 2016.07.25. -->
-      <column name="_id">10770</column>
+      <column name="_id">10810</column>
       <column name="entry_name">betgham</column>
       <column name="part_of_speech">n</column>
       <column name="definition">liquid</column>
@@ -1585,7 +1665,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10780</column>
+      <column name="_id">10820</column>
       <column name="entry_name">betleH</column>
       <column name="part_of_speech">n:weap,fic</column>
       <column name="definition">type of hand weapon, bat'leth</column>
@@ -1611,7 +1691,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10790</column>
+      <column name="_id">10830</column>
       <column name="entry_name">betleH bey'</column>
       <column name="part_of_speech">n:weap,deriv,fic</column>
       <column name="definition">bat'leth display</column>
@@ -1631,7 +1711,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.18. -->
-      <column name="_id">10800</column>
+      <column name="_id">10840</column>
       <column name="entry_name">betleH 'obe'</column>
       <column name="part_of_speech">n:deriv,fic</column>
       <column name="definition">Order of the Bat'leth</column>
@@ -1651,7 +1731,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">10810</column>
+      <column name="_id">10850</column>
       <column name="entry_name">bey</column>
       <column name="part_of_speech">n</column>
       <column name="definition">howl, wail</column>
@@ -1675,7 +1755,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
     </table>
     <table name="mem">
       <!-- Checked on: 2012.04.02. -->
-      <column name="_id">10820</column>
+      <column name="_id">10860</column>
       <column name="entry_name">beyHom bey bey'a' jachtaH</column>
       <column name="part_of_speech">sen:idiom</column>
       <column name="definition">to roar in crescendo</column>
@@ -1694,7 +1774,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="source">[1] {SkyBox 31:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src})</column>
     </table>
     <table name="mem">
-      <column name="_id">10830</column>
+      <column name="_id">10870</column>
       <column name="entry_name">beylI'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">bank</column>
@@ -1715,7 +1795,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">10840</column>
+      <column name="_id">10880</column>
       <column name="entry_name">bey'</column>
       <column name="part_of_speech">n:weap</column>
       <column name="definition">ceremonial display</column>
@@ -1735,7 +1815,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">10850</column>
+      <column name="_id">10890</column>
       <column name="entry_name">be'</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">female, woman</column>
@@ -1754,7 +1834,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10860</column>
+      <column name="_id">10900</column>
       <column name="entry_name">be'etor</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">B'Etor</column>
@@ -1776,7 +1856,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">10870</column>
+      <column name="_id">10910</column>
       <column name="entry_name">be'Hom</column>
       <column name="part_of_speech">n:deriv,being</column>
       <column name="definition">girl</column>
@@ -1796,7 +1876,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">10880</column>
+      <column name="_id">10920</column>
       <column name="entry_name">be'nal</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">wife</column>
@@ -1816,7 +1896,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">10890</column>
+      <column name="_id">10930</column>
       <column name="entry_name">be'nI'</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">sister</column>
@@ -1835,7 +1915,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10900</column>
+      <column name="_id">10940</column>
       <column name="entry_name">be'taSeD</column>
       <column name="part_of_speech">n:place,fic</column>
       <column name="definition">Betazed</column>
@@ -1855,7 +1935,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">10910</column>
+      <column name="_id">10950</column>
       <column name="entry_name">bI-</column>
       <column name="part_of_speech">v:pref</column>
       <column name="definition">you-none</column>
@@ -1875,7 +1955,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">10920</column>
+      <column name="_id">10960</column>
       <column name="entry_name">bID</column>
       <column name="part_of_speech">n</column>
       <column name="definition">half</column>
@@ -1897,7 +1977,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="source">[1] {TKD:src}, [2] {BoP:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10930</column>
+      <column name="_id">10970</column>
       <column name="entry_name">bIDIlbe'chugh vaj bIHegh!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Pay or die!</column>
@@ -1917,7 +1997,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">10940</column>
+      <column name="_id">10980</column>
       <column name="entry_name">bIghHa'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">prison, jail</column>
@@ -1929,7 +2009,9 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="notes_de"></column>
       <column name="hidden_notes">Jail is referred to in slang as the "big house".</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {bIghHa'Daq yIghoS:sen:nolink} "Go to jail"[1, p.170]
+▶ {bIghHa' yIjaH:sen:nolink} "Go to jail"[2]</column>
       <column name="examples_de"></column>
       <column name="search_tags">gaol, holding cell, cell</column>
       <column name="search_tags_de"></column>
@@ -1937,7 +2019,7 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
     </table>
     <table name="mem">
       <!-- Checked on: 2013.01.15. -->
-      <column name="_id">10950</column>
+      <column name="_id">10990</column>
       <column name="entry_name">bIghung'a'?</column>
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">Are you hungry?</column>
@@ -1959,7 +2041,7 @@ To answer in the negative, say {ghobe':excl} or {jISop vIneHbe'} "I don't want t
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">10960</column>
+      <column name="_id">11000</column>
       <column name="entry_name">bIH</column>
       <column name="part_of_speech">n:pro</column>
       <column name="definition">they, them (incapable of language)</column>
@@ -1972,7 +2054,7 @@ To answer in the negative, say {ghobe':excl} or {jISop vIneHbe'} "I don't want t
 Verb prefixes when {bIH:n:nolink} is the subject:
 ▶ {bIH:n:nolink}:{pagh:n:1h} = {0:v:pref}
 ▶ {bIH:n:nolink}:{jIH:n:1h} = {mu-:v:pref}
-▶ {bIH:n:nolink}:{maH:n:2h} = {nu-:v:pref}
+▶ {bIH:n:nolink}:{maH:n:1h} = {nu-:v:pref}
 ▶ {bIH:n:nolink}:{SoH:n} = {nI-:v:pref}
 ▶ {bIH:n:nolink}:{tlhIH:n} = {lI-:v:pref}
 ▶ {bIH:n:nolink}:{ghaH:n}/{'oH:n} = {lu-:v:pref}
@@ -1980,7 +2062,7 @@ Verb prefixes when {bIH:n:nolink} is the subject:
 
 Verb prefixes when {bIH:n:nolink} is the object:
 ▶ {jIH:n:1h}:{bIH:n:nolink} = {vI-:v:pref}
-▶ {maH:n:2h}:{bIH:n:nolink} = {DI-:v:pref}
+▶ {maH:n:1h}:{bIH:n:nolink} = {DI-:v:pref}
 ▶ {SoH:n}:{bIH:n:nolink} = {Da-:v:pref}
 ▶ {tlhIH:n}:{bIH:n:nolink} = {bo-:v:pref}
 ▶ {ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n:nolink}:{bIH:n:nolink} = {0:v:pref}
@@ -1996,7 +2078,7 @@ The imperative verb prefix when {bIH:n:nolink} is the object is {tI-:v:pref}.</c
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">10970</column>
+      <column name="_id">11010</column>
       <column name="entry_name">bIHeghvIpchugh bIHeghpu'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">If you are afraid to die, you have already died.</column>
@@ -2016,7 +2098,7 @@ The imperative verb prefix when {bIH:n:nolink} is the object is {tI-:v:pref}.</c
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">10980</column>
+      <column name="_id">11020</column>
       <column name="entry_name">bIj</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">punish</column>
@@ -2036,7 +2118,7 @@ The imperative verb prefix when {bIH:n:nolink} is the object is {tI-:v:pref}.</c
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">10990</column>
+      <column name="_id">11030</column>
       <column name="entry_name">bIj</column>
       <column name="part_of_speech">n</column>
       <column name="definition">punishment</column>
@@ -2055,7 +2137,7 @@ The imperative verb prefix when {bIH:n:nolink} is the object is {tI-:v:pref}.</c
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11000</column>
+      <column name="_id">11040</column>
       <column name="entry_name">bIjatlhHa'chugh qaHoH.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">If you say the wrong thing, I will kill you.</column>
@@ -2074,7 +2156,7 @@ The imperative verb prefix when {bIH:n:nolink} is the object is {tI-:v:pref}.</c
       <column name="source">[1] {TKD p.62:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11010</column>
+      <column name="_id">11050</column>
       <column name="entry_name">bIjatlh 'e' yImev!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Shut up!</column>
@@ -2096,7 +2178,7 @@ The imperative verb prefix when {bIH:n:nolink} is the object is {tI-:v:pref}.</c
       <column name="source">[1] {TKD p.172:src}, [2] {PK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11020</column>
+      <column name="_id">11060</column>
       <column name="entry_name">bIjatlh 'e' yImev. yItlhutlh!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Stop talking! Drink!</column>
@@ -2115,7 +2197,7 @@ The imperative verb prefix when {bIH:n:nolink} is the object is {tI-:v:pref}.</c
       <column name="source">[1] {TKW p.87:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11030</column>
+      <column name="_id">11070</column>
       <column name="entry_name">bIjeghbe'chugh vaj bIHegh!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Surrender or die!</column>
@@ -2138,7 +2220,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKD p.170:src}, [2] {KCD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11040</column>
+      <column name="_id">11080</column>
       <column name="entry_name">bIje'be'chugh vaj bIHegh!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Buy or die!</column>
@@ -2157,7 +2239,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKW p.213:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11050</column>
+      <column name="_id">11090</column>
       <column name="entry_name">bIleSnIS.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">You need a rest.</column>
@@ -2176,7 +2258,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKD p.171:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11060</column>
+      <column name="_id">11100</column>
       <column name="entry_name">bIlugh.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">You are right.</column>
@@ -2195,7 +2277,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKD p.170:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11070</column>
+      <column name="_id">11110</column>
       <column name="entry_name">bIlughbe'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">You are wrong.</column>
@@ -2214,7 +2296,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKD p.170:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11080</column>
+      <column name="_id">11120</column>
       <column name="entry_name">bIlujlaHbe'chugh bIQaplaHbe'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">If you cannot fail, you cannot succeed.</column>
@@ -2233,7 +2315,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKW p.56:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11090</column>
+      <column name="_id">11130</column>
       <column name="entry_name">bIl jo'rIj</column>
       <column name="part_of_speech">n:name</column>
       <column name="definition">Bill George</column>
@@ -2254,7 +2336,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11100</column>
+      <column name="_id">11140</column>
       <column name="entry_name">bIm</column>
       <column name="part_of_speech">n</column>
       <column name="definition">second tone of nonatonic musical scale</column>
@@ -2273,7 +2355,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11110</column>
+      <column name="_id">11150</column>
       <column name="entry_name">bImejDI' reH betleHlIj yItlhap.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Never leave without your bat'leth.</column>
@@ -2292,7 +2374,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKW p.79:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11120</column>
+      <column name="_id">11160</column>
       <column name="entry_name">bImoHqu'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">You're very ugly.</column>
@@ -2312,7 +2394,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.30. -->
-      <column name="_id">11130</column>
+      <column name="_id">11170</column>
       <column name="entry_name">bInajtaHvIS qeylIS Daghomjaj.</column>
       <column name="part_of_speech">sen:eu</column>
       <column name="definition">May you encounter Kahless in your dreams.</column>
@@ -2332,7 +2414,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11140</column>
+      <column name="_id">11180</column>
       <column name="entry_name">bIng</column>
       <column name="part_of_speech">n</column>
       <column name="definition">area below, area under</column>
@@ -2352,7 +2434,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11150</column>
+      <column name="_id">11190</column>
       <column name="entry_name">bIp</column>
       <column name="part_of_speech">n:num</column>
       <column name="definition">hundred thousand</column>
@@ -2371,7 +2453,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11160</column>
+      <column name="_id">11200</column>
       <column name="entry_name">bIpIvHa'law'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">You seem unhealthy.</column>
@@ -2391,7 +2473,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11170</column>
+      <column name="_id">11210</column>
       <column name="entry_name">bIQ</column>
       <column name="part_of_speech">n</column>
       <column name="definition">water</column>
@@ -2410,7 +2492,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11180</column>
+      <column name="_id">11220</column>
       <column name="entry_name">bIQong'eghqangchoHmoHlaHchu'pu'neSchugh</column>
       <column name="part_of_speech">v:deriv,i_c</column>
       <column name="definition">meaningless verbal phrase</column>
@@ -2430,7 +2512,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11190</column>
+      <column name="_id">11230</column>
       <column name="entry_name">bIQ bal</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">water jug</column>
@@ -2449,18 +2531,18 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11200</column>
+      <column name="_id">11240</column>
       <column name="entry_name">bIQ Duj</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">ship, boat</column>
       <column name="definition_de">Schiff, Boot</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Duj:n:2}, {vergh:n}, {vergh:v}</column>
+      <column name="see_also">{Duj:n:1}, {vergh:n}, {vergh:v}</column>
       <column name="notes">This word is used for a ship that travels on water.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{bIQ:n}, {Duj:n:2}</column>
+      <column name="components">{bIQ:n}, {Duj:n:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags">watercraft, ferry, barge</column>
@@ -2468,7 +2550,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11210</column>
+      <column name="_id">11250</column>
       <column name="entry_name">bIQ ghaywI' pa'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">shower (room)</column>
@@ -2488,7 +2570,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">11220</column>
+      <column name="_id">11260</column>
       <column name="entry_name">bIQ ghItmoHwI'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">fountain</column>
@@ -2507,7 +2589,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11230</column>
+      <column name="_id">11270</column>
       <column name="entry_name">bIQ na'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">brackish water</column>
@@ -2526,7 +2608,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11240</column>
+      <column name="_id">11280</column>
       <column name="entry_name">bIQ ngaS HIvje'.</column>
       <column name="part_of_speech">sen:idiom</column>
       <column name="definition">be quite mistaken, be totally wrong</column>
@@ -2546,7 +2628,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {KGT p.120:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11250</column>
+      <column name="_id">11290</column>
       <column name="entry_name">bIQapqu'meH tar DaSop 'e' DatIvnIS.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">To really succeed, you must enjoy eating poison.</column>
@@ -2566,7 +2648,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11260</column>
+      <column name="_id">11300</column>
       <column name="entry_name">bIQDep</column>
       <column name="part_of_speech">n:anim,deriv</column>
       <column name="definition">fish, sea creature</column>
@@ -2586,7 +2668,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {KGT:src}, [2] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11270</column>
+      <column name="_id">11310</column>
       <column name="entry_name">bIQongtaHvIS nItlhejchugh targhmey bIvemDI' nItlhej ghIlab ghewmey.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">If you sleep with targs, you'll wake up with glob flies.</column>
@@ -2607,7 +2689,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11280</column>
+      <column name="_id">11320</column>
       <column name="entry_name">bIQSIp</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">hydrogen</column>
@@ -2627,7 +2709,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11290</column>
+      <column name="_id">11330</column>
       <column name="entry_name">bIQSIp 'ugh</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">deuterium isotope</column>
@@ -2647,7 +2729,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11300</column>
+      <column name="_id">11340</column>
       <column name="entry_name">bIQtIq</column>
       <column name="part_of_speech">n</column>
       <column name="definition">river</column>
@@ -2670,7 +2752,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2015.10.28. -->
-      <column name="_id">11310</column>
+      <column name="_id">11350</column>
       <column name="entry_name">bIQyIn</column>
       <column name="part_of_speech">n</column>
       <column name="definition">cookie sandwich</column>
@@ -2690,7 +2772,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11320</column>
+      <column name="_id">11360</column>
       <column name="entry_name">bIQ'a'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">ocean</column>
@@ -2710,7 +2792,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11330</column>
+      <column name="_id">11370</column>
       <column name="entry_name">bIQ'a'Daq 'oHtaH 'etlh'e'.</column>
       <column name="part_of_speech">sen:idiom</column>
       <column name="definition">The sword is in the ocean.</column>
@@ -2729,7 +2811,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {KGT p.121:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11340</column>
+      <column name="_id">11380</column>
       <column name="entry_name">bIQ'a' HeH</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">beach</column>
@@ -2749,7 +2831,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11350</column>
+      <column name="_id">11390</column>
       <column name="entry_name">bIr</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be cold</column>
@@ -2769,7 +2851,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11360</column>
+      <column name="_id">11400</column>
       <!-- Checked on: 2012.11.19. -->
       <column name="entry_name">bIraqlul</column>
       <column name="part_of_speech">n:fic</column>
@@ -2790,7 +2872,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">11370</column>
+      <column name="_id">11410</column>
       <column name="entry_name">bIraSIw</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Brazil</column>
@@ -2810,7 +2892,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
-      <column name="_id">11380</column>
+      <column name="_id">11420</column>
       <column name="entry_name">bIrchoH SuvwI' 'Iw.</column>
       <column name="part_of_speech">sen:rej</column>
       <column name="definition">The blood of the warrior grows cold.</column>
@@ -2829,7 +2911,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {PK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11390</column>
+      <column name="_id">11430</column>
       <column name="entry_name">bIrchugh qIvon tuj 'Iw.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">If the qIvon is cold, the blood is hot.</column>
@@ -2848,7 +2930,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKW p.174:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11400</column>
+      <column name="_id">11440</column>
       <column name="entry_name">bIreqtal</column>
       <column name="part_of_speech">n:fic</column>
       <column name="definition">Brek'tal ritual</column>
@@ -2867,7 +2949,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11410</column>
+      <column name="_id">11450</column>
       <column name="entry_name">bIreQ</column>
       <column name="part_of_speech">n:anim</column>
       <column name="definition">bregit</column>
@@ -2887,7 +2969,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2013.08.07. -->
-      <column name="_id">11420</column>
+      <column name="_id">11460</column>
       <column name="entry_name">bIreQtagh</column>
       <column name="part_of_speech">n:fic,food</column>
       <column name="definition">bregit lung</column>
@@ -2906,7 +2988,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKDA:src}, [2] {Diplomatic Implausibility:src}, [3] {KCD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11430</column>
+      <column name="_id">11470</column>
       <column name="entry_name">bISovbejbe'DI' tImer.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">When in doubt, surprise them.</column>
@@ -2925,7 +3007,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKW p.25:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11440</column>
+      <column name="_id">11480</column>
       <column name="entry_name">bISutlhnISchugh jaghlI' mInDu' tIbej.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">If you must negotiate, watch your enemy's eyes.</column>
@@ -2944,7 +3026,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKW p.19:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11450</column>
+      <column name="_id">11490</column>
       <column name="entry_name">bISuv 'e' yIwIv; bISutlh 'e' yIwIvQo'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Choose to fight, not negotiate.</column>
@@ -2963,7 +3045,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKW p.19:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11460</column>
+      <column name="_id">11500</column>
       <column name="entry_name">bISuvtaHvIS bIHeghjaj!</column>
       <column name="part_of_speech">sen:toast</column>
       <column name="definition">May you die in battle!</column>
@@ -2983,7 +3065,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11470</column>
+      <column name="_id">11510</column>
       <column name="entry_name">bIS'ub</column>
       <column name="part_of_speech">n</column>
       <column name="definition">bottom (interior)</column>
@@ -3004,7 +3086,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11480</column>
+      <column name="_id">11520</column>
       <column name="entry_name">bIt</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be nervous, uneasy</column>
@@ -3023,7 +3105,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKD:src}, [2] {KGT p.132:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11490</column>
+      <column name="_id">11530</column>
       <column name="entry_name">bItuHlaHbe'chugh bIquvlaHbe'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">If you cannot be shamed, you cannot be honored.</column>
@@ -3042,7 +3124,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {TKW p.57:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11500</column>
+      <column name="_id">11540</column>
       <column name="entry_name">bItuHpa' bIHeghjaj.</column>
       <column name="part_of_speech">sen:eu</column>
       <column name="definition">Death before shame.</column>
@@ -3062,7 +3144,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11510</column>
+      <column name="_id">11550</column>
       <column name="entry_name">bIv</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">break (rules)</column>
@@ -3082,7 +3164,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2013.01.20. -->
-      <column name="_id">11520</column>
+      <column name="_id">11560</column>
       <column name="entry_name">bIyaj'a'?</column>
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">Do you understand?</column>
@@ -3105,7 +3187,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2013.01.20. -->
-      <column name="_id">11530</column>
+      <column name="_id">11570</column>
       <column name="entry_name">bIyem'a'?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Will you sin?</column>
@@ -3125,7 +3207,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2013.02.07. -->
-      <column name="_id">11540</column>
+      <column name="_id">11580</column>
       <column name="entry_name">bIyIntaH 'e' Daqotlhbe'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">You do not deserve to live.</column>
@@ -3145,7 +3227,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11550</column>
+      <column name="_id">11590</column>
       <column name="entry_name">bI'</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">sweep (away)</column>
@@ -3165,7 +3247,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11560</column>
+      <column name="_id">11600</column>
       <column name="entry_name">bI'IHqu'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">You're very beautiful.</column>
@@ -3184,7 +3266,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
       <column name="source"></column>
     </table>
     <table name="mem">
-      <column name="_id">11570</column>
+      <column name="_id">11610</column>
       <column name="entry_name">bI'IQchugh yIvang!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">If you are sad, act!</column>
@@ -3204,7 +3286,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/NpFDKTzINH8}<
     </table>
     <table name="mem">
       <!-- Checked on: 2013.01.15. -->
-      <column name="_id">11580</column>
+      <column name="_id">11620</column>
       <column name="entry_name">bI'oj'a'?</column>
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">Are you thirsty?</column>
@@ -3226,7 +3308,7 @@ To answer in the negative, say {ghobe':excl} or {jItlhutlh vIneHbe'} "I don't wa
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11590</column>
+      <column name="_id">11630</column>
       <column name="entry_name">bI'rel tlharghDuj</column>
       <column name="part_of_speech">n:fic</column>
       <column name="definition">B'rel Scout</column>
@@ -3246,7 +3328,7 @@ To answer in the negative, say {ghobe':excl} or {jItlhutlh vIneHbe'} "I don't wa
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11600</column>
+      <column name="_id">11640</column>
       <column name="entry_name">bI'reS</column>
       <column name="part_of_speech">n</column>
       <column name="definition">beginning (of an opera, play, story, speech)</column>
@@ -3267,7 +3349,7 @@ To answer in the negative, say {ghobe':excl} or {jItlhutlh vIneHbe'} "I don't wa
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11610</column>
+      <column name="_id">11650</column>
       <column name="entry_name">bo</column>
       <column name="part_of_speech">n</column>
       <column name="definition">feather</column>
@@ -3287,7 +3369,7 @@ To answer in the negative, say {ghobe':excl} or {jItlhutlh vIneHbe'} "I don't wa
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11620</column>
+      <column name="_id">11660</column>
       <column name="entry_name">bo-</column>
       <column name="part_of_speech">v:pref</column>
       <column name="definition">you (plural)-him/her/it/them</column>
@@ -3309,7 +3391,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11630</column>
+      <column name="_id">11670</column>
       <column name="entry_name">bobcho'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">module</column>
@@ -3328,7 +3410,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11640</column>
+      <column name="_id">11680</column>
       <!-- Checked on: 2012.11.19. -->
       <column name="entry_name">boch</column>
       <column name="part_of_speech">v:is</column>
@@ -3348,7 +3430,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11650</column>
+      <column name="_id">11690</column>
       <!-- Checked on: 2012.11.19. -->
       <column name="entry_name">bochmoHwI'</column>
       <column name="part_of_speech">n:slang,being,deriv</column>
@@ -3369,7 +3451,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11660</column>
+      <column name="_id">11700</column>
       <column name="entry_name">boD</column>
       <column name="part_of_speech">n:reg,body</column>
       <column name="definition">forehead</column>
@@ -3389,7 +3471,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11670</column>
+      <column name="_id">11710</column>
       <column name="entry_name">bogh</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be born</column>
@@ -3413,7 +3495,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.16. -->
-      <column name="_id">11680</column>
+      <column name="_id">11720</column>
       <column name="entry_name">bogh tlhInganpu', SuvwI'pu' moj, Hegh.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Klingons are born, live as warriors, then die.</column>
@@ -3433,7 +3515,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11690</column>
+      <column name="_id">11730</column>
       <column name="entry_name">boH</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be impatient</column>
@@ -3453,7 +3535,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11700</column>
+      <column name="_id">11740</column>
       <column name="entry_name">boj</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">nag</column>
@@ -3473,7 +3555,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11710</column>
+      <column name="_id">11750</column>
       <column name="entry_name">bol</column>
       <column name="part_of_speech">v:1,i_c</column>
       <column name="definition">drool</column>
@@ -3493,7 +3575,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11720</column>
+      <column name="_id">11760</column>
       <column name="entry_name">bol</column>
       <column name="part_of_speech">v:2,t_c,slang</column>
       <column name="definition">betray</column>
@@ -3513,7 +3595,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11730</column>
+      <column name="_id">11770</column>
       <column name="entry_name">bolwI'</column>
       <column name="part_of_speech">n:slang,deriv,being</column>
       <column name="definition">traitor</column>
@@ -3533,7 +3615,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11740</column>
+      <column name="_id">11780</column>
       <column name="entry_name">bom</column>
       <column name="part_of_speech">n</column>
       <column name="definition">song, chant</column>
@@ -3554,7 +3636,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11750</column>
+      <column name="_id">11790</column>
       <column name="entry_name">bom</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">sing, chant</column>
@@ -3575,7 +3657,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11760</column>
+      <column name="_id">11800</column>
       <column name="entry_name">bom mu'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">lyric, lyrics</column>
@@ -3595,7 +3677,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11770</column>
+      <column name="_id">11810</column>
       <column name="entry_name">bomDI' 'IwwIj qaqaw.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">The memory of you sings in my blood.</column>
@@ -3614,7 +3696,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="source">[1] {TKW p.17:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11780</column>
+      <column name="_id">11820</column>
       <column name="entry_name">bomwI'</column>
       <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">singer</column>
@@ -3634,7 +3716,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">11790</column>
+      <column name="_id">11830</column>
       <column name="entry_name">bon</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">share with</column>
@@ -3654,7 +3736,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11800</column>
+      <column name="_id">11840</column>
       <column name="entry_name">bong</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">accidentally, by accident</column>
@@ -3675,7 +3757,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11810</column>
+      <column name="_id">11850</column>
       <column name="entry_name">bop</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">be about, be concerned with</column>
@@ -3697,7 +3779,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11820</column>
+      <column name="_id">11860</column>
       <column name="entry_name">boq</column>
       <column name="part_of_speech">n:1</column>
       <column name="definition">alliance, bloc, coalition</column>
@@ -3717,7 +3799,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11830</column>
+      <column name="_id">11870</column>
       <column name="entry_name">boq</column>
       <column name="part_of_speech">n:2</column>
       <column name="definition">fusion</column>
@@ -3738,7 +3820,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     <!-- TODO: Maybe split this into two entries. -->
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11840</column>
+      <column name="_id">11880</column>
       <column name="entry_name">boq</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">ally with, form an alliance with; add (used in math)</column>
@@ -3759,7 +3841,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11850</column>
+      <column name="_id">11890</column>
       <column name="entry_name">boqHa'</column>
       <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">subtract (used in math)</column>
@@ -3780,7 +3862,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11860</column>
+      <column name="_id">11900</column>
       <column name="entry_name">boq'egh</column>
       <column name="part_of_speech">v:i_c,deriv</column>
       <column name="definition">multiply (used in math)</column>
@@ -3803,7 +3885,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11870</column>
+      <column name="_id">11910</column>
       <column name="entry_name">boqHa''egh</column>
       <column name="part_of_speech">v:i_c,deriv</column>
       <column name="definition">divide (used in math)</column>
@@ -3824,7 +3906,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11880</column>
+      <column name="_id">11920</column>
       <column name="entry_name">boq ru'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">coalition</column>
@@ -3843,7 +3925,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11890</column>
+      <column name="_id">11930</column>
       <column name="entry_name">boqrat</column>
       <column name="part_of_speech">n:anim</column>
       <column name="definition">type of animal, bokrat</column>
@@ -3863,7 +3945,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11900</column>
+      <column name="_id">11940</column>
       <column name="entry_name">boQ</column>
       <column name="part_of_speech">n:1</column>
       <column name="definition">aide</column>
@@ -3883,7 +3965,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11910</column>
+      <column name="_id">11950</column>
       <column name="entry_name">boQ</column>
       <column name="part_of_speech">n:2</column>
       <column name="definition">aid, assistance</column>
@@ -3903,7 +3985,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11920</column>
+      <column name="_id">11960</column>
       <column name="entry_name">boQ</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">assist</column>
@@ -3923,7 +4005,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11930</column>
+      <column name="_id">11970</column>
       <column name="entry_name">boQDu'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">aide-de-camp</column>
@@ -3942,7 +4024,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11940</column>
+      <column name="_id">11980</column>
       <column name="entry_name">boQwI'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">assistant (this program)</column>
@@ -4008,7 +4090,7 @@ Ein besonderer Dank richtet sich an Marc Okrand ({marq 'oqranD:n:name}) für das
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11950</column>
+      <column name="_id">11990</column>
       <column name="entry_name">bor</column>
       <column name="part_of_speech">v:i</column>
       <column name="definition">gurgle</column>
@@ -4028,7 +4110,7 @@ Ein besonderer Dank richtet sich an Marc Okrand ({marq 'oqranD:n:name}) für das
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.30. -->
-      <column name="_id">11960</column>
+      <column name="_id">12000</column>
       <column name="entry_name">borqu'</column>
       <column name="part_of_speech">v:t,deriv,slang</column>
       <column name="definition">thunder</column>
@@ -4048,7 +4130,7 @@ Ein besonderer Dank richtet sich an Marc Okrand ({marq 'oqranD:n:name}) für das
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11970</column>
+      <column name="_id">12010</column>
       <column name="entry_name">borghel</column>
       <column name="part_of_speech">n:anim</column>
       <column name="definition">a very small bird whose eggs are considered quite tasty</column>
@@ -4068,7 +4150,7 @@ Ein besonderer Dank richtet sich an Marc Okrand ({marq 'oqranD:n:name}) für das
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11980</column>
+      <column name="_id">12020</column>
       <column name="entry_name">bortaS</column>
       <column name="part_of_speech">n</column>
       <column name="definition">revenge</column>
@@ -4090,7 +4172,7 @@ Ein besonderer Dank richtet sich an Marc Okrand ({marq 'oqranD:n:name}) für das
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">11990</column>
+      <column name="_id">12030</column>
       <column name="entry_name">bortaS bIr jablu'DI' reH QaQqu' nay'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Revenge is a dish which is best served cold.</column>
@@ -4112,7 +4194,7 @@ There is also a related idiom {bIr; bortaS rur}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12000</column>
+      <column name="_id">12040</column>
       <column name="entry_name">bortaS DIb</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">Right of Vengeance</column>
@@ -4132,7 +4214,7 @@ There is also a related idiom {bIr; bortaS rur}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12010</column>
+      <column name="_id">12050</column>
       <column name="entry_name">bortaS nIvqu' 'oH bortaS'e'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Revenge is the best revenge.</column>
@@ -4152,7 +4234,7 @@ There is also a related idiom {bIr; bortaS rur}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12020</column>
+      <column name="_id">12060</column>
       <column name="entry_name">boS</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">collect</column>
@@ -4172,7 +4254,7 @@ There is also a related idiom {bIr; bortaS rur}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12030</column>
+      <column name="_id">12070</column>
       <column name="entry_name">bot</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">prevent, block, prohibit</column>
@@ -4192,37 +4274,16 @@ There is also a related idiom {bIr; bortaS rur}.</column>
       <column name="search_tags_de">stoppen, abfangen</column>
       <column name="source">[1] {TKD:src}, [2] {TKW:src}, [3] {Klingon Monopoly:src}</column>
     </table>
-    <!--
-    <table name="mem">
-      <column name="_id">12040</column>
-      <column name="entry_name">bot</column>
-      <column name="part_of_speech">n:hyp</column>
-      <column name="definition">shield?</column>
-      <column name="definition_de">Schild?</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This is a hypothetical component found in {botjan:n}.</column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source"></column>
-    </table>
-    -->
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12050</column>
+      <column name="_id">12080</column>
       <column name="entry_name">botjan</column>
       <column name="part_of_speech">n:fic</column>
       <column name="definition">shields (force field on ship)</column>
       <column name="definition_de">Schutzschild (auf einem Raumschiff; bezeichnet die Technik, nicht den Schild selbst)</column>
       <column name="synonyms">{begh:n}, {begh botjan:n}</column>
       <column name="antonyms"></column>
-      <column name="see_also">{Som:n}, {Duj:n:2}, {Surchem:n}, {chu':v:2}</column>
+      <column name="see_also">{Som:n}, {Duj:n:1}, {Surchem:n}, {chu':v:2}</column>
       <column name="notes">This word refers to the force field ({Surchem:n}) surrounding a spaceship. For hand-held shields, see {yoD:n}.</column>
       <column name="notes_de">Dieses Wort beschreibt ein Kraftfeld ({Surchem:n}), das ein Schiff umgibt. Für ein Schild in der Hand, siehe {yoD:n}.</column>
       <column name="hidden_notes"></column>
@@ -4236,7 +4297,7 @@ There is also a related idiom {bIr; bortaS rur}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.08.03. -->
-      <column name="_id">12060</column>
+      <column name="_id">12090</column>
       <column name="entry_name">botjan yIchu'!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Raise shields!</column>
@@ -4256,7 +4317,7 @@ There is also a related idiom {bIr; bortaS rur}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12070</column>
+      <column name="_id">12100</column>
       <column name="entry_name">botlh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">center, middle</column>
@@ -4276,7 +4337,7 @@ There is also a related idiom {bIr; bortaS rur}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12080</column>
+      <column name="_id">12110</column>
       <column name="entry_name">bov</column>
       <column name="part_of_speech">n</column>
       <column name="definition">era</column>
@@ -4296,7 +4357,7 @@ There is also a related idiom {bIr; bortaS rur}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12090</column>
+      <column name="_id">12120</column>
       <column name="entry_name">bo'Dagh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">scoop, scooping implement (to serve food)</column>
@@ -4318,7 +4379,7 @@ This word is used in the idioms {bo'Dagh'a' lo':sen} and {bo'DaghHom lo':sen}.</
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12100</column>
+      <column name="_id">12130</column>
       <column name="entry_name">bo'Dagh'a' lo'</column>
       <column name="part_of_speech">sen:idiom</column>
       <column name="definition">exaggerate</column>
@@ -4338,7 +4399,7 @@ This word is used in the idioms {bo'Dagh'a' lo':sen} and {bo'DaghHom lo':sen}.</
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12110</column>
+      <column name="_id">12140</column>
       <column name="entry_name">bo'DaghHom lo'</column>
       <column name="part_of_speech">sen:idiom</column>
       <column name="definition">minimize the importance of something</column>
@@ -4358,7 +4419,7 @@ This word is used in the idioms {bo'Dagh'a' lo':sen} and {bo'DaghHom lo':sen}.</
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12120</column>
+      <column name="_id">12150</column>
       <column name="entry_name">bo'Degh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">bird, the most general word for a bird-like creature</column>
@@ -4378,7 +4439,7 @@ This word is used in the idioms {bo'Dagh'a' lo':sen} and {bo'DaghHom lo':sen}.</
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12130</column>
+      <column name="_id">12160</column>
       <column name="entry_name">bo'DIj</column>
       <column name="part_of_speech">n</column>
       <column name="definition">court</column>
@@ -4397,7 +4458,7 @@ This word is used in the idioms {bo'Dagh'a' lo':sen} and {bo'DaghHom lo':sen}.</
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">12140</column>
+      <column name="_id">12170</column>
       <column name="entry_name">bo'retlh</column>
       <column name="part_of_speech">n:place,fic</column>
       <column name="definition">Boreth</column>
@@ -4420,7 +4481,7 @@ The Story of the Promise states that:
     </table>
     <table name="mem">
       <!-- Checked on: 2016.07.25. -->
-      <column name="_id">12150</column>
+      <column name="_id">12180</column>
       <column name="entry_name">bo'voD</column>
       <column name="part_of_speech">n</column>
       <column name="definition">drawer</column>
@@ -4440,7 +4501,7 @@ The Story of the Promise states that:
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12160</column>
+      <column name="_id">12190</column>
       <column name="entry_name">buD</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be lazy</column>
@@ -4460,7 +4521,7 @@ The Story of the Promise states that:
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12170</column>
+      <column name="_id">12200</column>
       <column name="entry_name">bup</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">quit</column>
@@ -4480,7 +4541,7 @@ The Story of the Promise states that:
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12180</column>
+      <column name="_id">12210</column>
       <column name="entry_name">buQ</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">threaten</column>
@@ -4500,7 +4561,7 @@ The Story of the Promise states that:
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">12190</column>
+      <column name="_id">12220</column>
       <column name="entry_name">buq</column>
       <column name="part_of_speech">n</column>
       <column name="definition">bag, sack, pouch, pocket</column>
@@ -4525,7 +4586,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     </table>
     <table name="mem">
       <!-- Checked on: 2013.11.10. -->
-      <column name="_id">12200</column>
+      <column name="_id">12230</column>
       <column name="entry_name">buqjaj</column>
       <column name="part_of_speech">n</column>
       <column name="definition">Friday</column>
@@ -4545,7 +4606,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     </table>
     <table name="mem">
       <!-- Checked on: 2014.01.27. -->
-      <column name="_id">12210</column>
+      <column name="_id">12240</column>
       <column name="entry_name">buq'Ir</column>
       <column name="part_of_speech">n</column>
       <column name="definition">cube</column>
@@ -4565,7 +4626,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12220</column>
+      <column name="_id">12250</column>
       <column name="entry_name">bur</column>
       <column name="part_of_speech">v:i</column>
       <column name="definition">hiccup</column>
@@ -4585,7 +4646,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12230</column>
+      <column name="_id">12260</column>
       <column name="entry_name">burgh</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">stomach</column>
@@ -4605,7 +4666,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12240</column>
+      <column name="_id">12270</column>
       <column name="entry_name">burgh quD</column>
       <column name="part_of_speech">n:fic,food</column>
       <column name="definition">naturally produced [qud]</column>
@@ -4625,7 +4686,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12250</column>
+      <column name="_id">12280</column>
       <column name="entry_name">buS</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">concentrate on, focus on, think only about</column>
@@ -4638,6 +4699,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
+▶ {baHwI', DoS yIbuS. QuQ neH.:sen}
 ▶ {ghIlab ghewmey tIbuSQo'.:sen}
 ▶ {veqlarghlI' yIbuS 'ej veqlarghwI' vIbuS.:sen}
 ▶ {wa' DoS neH yIbuS.:sen}</column>
@@ -4648,7 +4710,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12260</column>
+      <column name="_id">12290</column>
       <column name="entry_name">buSHa'</column>
       <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">ignore</column>
@@ -4668,7 +4730,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">12270</column>
+      <column name="_id">12300</column>
       <!-- Checked on: 2012.11.19. -->
       <column name="entry_name">butlh</column>
       <column name="part_of_speech">n:1</column>
@@ -4689,7 +4751,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">12280</column>
+      <column name="_id">12310</column>
       <column name="entry_name">butlh</column>
       <column name="part_of_speech">n:2</column>
       <column name="definition">quality that is similar to what humans call "gall"</column>
@@ -4709,7 +4771,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12290</column>
+      <column name="_id">12320</column>
       <column name="entry_name">butlh ghajbogh nuv'e' yIHo'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Admire the person with dirt under his fingernails.</column>
@@ -4729,7 +4791,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12300</column>
+      <column name="_id">12330</column>
       <column name="entry_name">buv</column>
       <column name="part_of_speech">n</column>
       <column name="definition">classification</column>
@@ -4749,7 +4811,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12310</column>
+      <column name="_id">12340</column>
       <column name="entry_name">buv</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">classify</column>
@@ -4769,7 +4831,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12320</column>
+      <column name="_id">12350</column>
       <column name="entry_name">buy'</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be full, be filled up</column>
@@ -4789,7 +4851,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12330</column>
+      <column name="_id">12360</column>
       <column name="entry_name">buy' ngop</column>
       <column name="part_of_speech">excl:slang</column>
       <column name="definition">good news, it's good to hear that</column>
@@ -4809,7 +4871,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">12340</column>
+      <column name="_id">12370</column>
       <column name="entry_name">bu'</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">sergeant</column>

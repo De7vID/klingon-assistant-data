@@ -336,7 +336,7 @@ This verb can also be used to express the concept that two things have the same 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ruQ:v}, {'or:v}</column>
-      <column name="notes">This can be applied to the arts, weapons, or spaceships. It refers to any activity which involves having some control over some object. In the context of swords, it can be used with a similar meaning to {yan:v}. In the context of spaceships (see {Duj:n:2}), this refers to controlling a vessel "manually", rather than by computer. See {KGT p.79:src} for an explanation of this verb.</column>
+      <column name="notes">This can be applied to the arts, weapons, or spaceships. It refers to any activity which involves having some control over some object. In the context of swords, it can be used with a similar meaning to {yan:v}. In the context of spaceships (see {Duj:n:1}), this refers to controlling a vessel "manually", rather than by computer. See {KGT p.79:src} for an explanation of this verb.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -850,7 +850,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="synonyms"></column>
       <column name="antonyms">{che-:v:pref}</column>
       <column name="see_also">{Sa-:v:pref}, {pI-:v:pref}</column>
-      <column name="notes">{maH:n:2h}:{tlhIH:n} = {re-:v:pref,nolink}</column>
+      <column name="notes">{maH:n:1h}:{tlhIH:n} = {re-:v:pref,nolink}</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -1115,7 +1115,27 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {TKW p.103:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
       <column name="_id">140570</column>
+      <column name="entry_name">reH DIvI' Duj vISuv vIneH.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">I've always wanted to engage a Federation ship.</column>
+      <column name="definition_de">Ich wollte schon immer ein Föderationsschiff bekämpfen.</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{reH:adv}, {DIvI':n}, {Duj:n:1}, {vI-:v}, {Suv:v}, {vI-:v}, {neH:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek V:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">140580</column>
       <column name="entry_name">reH DuSIgh vavlI'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Your father is a part of you always.</column>
@@ -1134,7 +1154,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {TKW p.170:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140580</column>
+      <column name="_id">140590</column>
       <column name="entry_name">reH Hegh yoHwI'pu''e'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Always it is the brave ones who die.</column>
@@ -1153,7 +1173,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {TKW p.123:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140590</column>
+      <column name="_id">140600</column>
       <column name="entry_name">reH HIvje'lIjDaq 'Iwghargh Datu'jaj!</column>
       <column name="part_of_speech">sen:toast</column>
       <column name="definition">May you always find a bloodworm in your glass!</column>
@@ -1173,7 +1193,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.05. -->
-      <column name="_id">140600</column>
+      <column name="_id">140610</column>
       <column name="entry_name">reH latlh qabDaq qul tuj law' Hoch tuj puS.</column>
       <column name="part_of_speech">sen:rp</column>
       <column name="definition">The fire is always hotter on someone else's face.</column>
@@ -1193,7 +1213,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
-      <column name="_id">140610</column>
+      <column name="_id">140620</column>
       <column name="entry_name">reH lugh charghwI'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">The victor is always right.</column>
@@ -1213,7 +1233,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
     </table>
     <table name="mem">
       <!-- Checked on: 2013.01.20. -->
-      <column name="_id">140620</column>
+      <column name="_id">140630</column>
       <column name="entry_name">reH nuHmey tu'lu'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">There are always weapons.</column>
@@ -1232,7 +1252,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {KCD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140630</column>
+      <column name="_id">140640</column>
       <column name="entry_name">reH Suvrup tlhIngan SuvwI'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">A Klingon warrior is always prepared to fight.</column>
@@ -1251,7 +1271,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {TKW p.77:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140640</column>
+      <column name="_id">140650</column>
       <column name="entry_name">reH Suvrup SuvwI''a'.</column>
       <column name="part_of_speech">sen:rp</column>
       <column name="definition">A great warrior is always prepared.</column>
@@ -1271,7 +1291,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.30. -->
-      <column name="_id">140650</column>
+      <column name="_id">140660</column>
       <column name="entry_name">reH tay' ghot tuqDaj je.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">One is always of his tribe.</column>
@@ -1291,7 +1311,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
     </table>
     <table name="mem">
       <!-- Checked on: 2013.01.10. -->
-      <column name="_id">140660</column>
+      <column name="_id">140670</column>
       <column name="entry_name">reH tlhIngan wo' taHjaj.</column>
       <column name="part_of_speech">sen:eu</column>
       <column name="definition">May the Klingon Empire continue forever.</column>
@@ -1310,7 +1330,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {PK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140670</column>
+      <column name="_id">140680</column>
       <column name="entry_name">reH tlhInganpu' taHjaj!</column>
       <column name="part_of_speech">sen:toast</column>
       <column name="definition">Klingons forever!</column>
@@ -1329,7 +1349,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {PK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140680</column>
+      <column name="_id">140690</column>
       <column name="entry_name">reH 'eb tu'lu'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">There is always a chance.</column>
@@ -1348,7 +1368,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {TKW p.49:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140690</column>
+      <column name="_id">140700</column>
       <column name="entry_name">reH 'uQvam vIqawtaH.</column>
       <column name="part_of_speech">sen:Ql</column>
       <column name="definition">I will remember this dinner forever.</column>
@@ -1367,7 +1387,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {PK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140700</column>
+      <column name="_id">140710</column>
       <column name="entry_name">rejmorgh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">worrywart</column>
@@ -1387,7 +1407,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.30. -->
-      <column name="_id">140710</column>
+      <column name="_id">140720</column>
       <column name="entry_name">rel</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be dazed</column>
@@ -1407,7 +1427,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">140720</column>
+      <column name="_id">140730</column>
       <column name="entry_name">rem</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">suck (e.g. through straw)</column>
@@ -1427,7 +1447,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140730</column>
+      <column name="_id">140740</column>
       <column name="entry_name">ren</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">design, map out, plan</column>
@@ -1446,7 +1466,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {Saarbrücken qepHom'a' 2011:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140740</column>
+      <column name="_id">140750</column>
       <column name="entry_name">renwI'</column>
       <column name="part_of_speech">n:deriv,being</column>
       <column name="definition">designer, architect</column>
@@ -1465,7 +1485,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {Saarbrücken qepHom'a' 2011:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140750</column>
+      <column name="_id">140760</column>
       <column name="entry_name">rep</column>
       <column name="part_of_speech">n</column>
       <column name="definition">hour</column>
@@ -1484,7 +1504,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140760</column>
+      <column name="_id">140770</column>
       <column name="entry_name">rep yIper!</column>
       <column name="part_of_speech">sen:alt</column>
       <column name="definition">{'arlogh Qoylu'pu'?:sen}</column>
@@ -1504,7 +1524,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">140770</column>
+      <column name="_id">140780</column>
       <column name="entry_name">req</column>
       <column name="part_of_speech">n</column>
       <column name="definition">wax</column>
@@ -1524,7 +1544,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
     </table>
     <table name="mem">
       <!-- Checked on: 2016.11.25. -->
-      <column name="_id">140780</column>
+      <column name="_id">140790</column>
       <column name="entry_name">reS</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">conjure, cast (a spell)</column>
@@ -1543,7 +1563,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="source">[1] {KLI mailing list 2016.11.25:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140790</column>
+      <column name="_id">140800</column>
       <column name="entry_name">ret</column>
       <column name="part_of_speech">n</column>
       <column name="definition">time period ago (past)</column>
@@ -1567,7 +1587,7 @@ For other units of time, {ret:n:nolink} is used.</column>
       <column name="source">[1] {HQ 8.3, p.3, Sept. 1999:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140800</column>
+      <column name="_id">140810</column>
       <column name="entry_name">ret'aq</column>
       <column name="part_of_speech">n</column>
       <column name="definition">handle, hilt (of knife, bat'leth)</column>
@@ -1587,7 +1607,7 @@ For other units of time, {ret:n:nolink} is used.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.29. -->
-      <column name="_id">140810</column>
+      <column name="_id">140820</column>
       <column name="entry_name">retlaw</column>
       <column name="part_of_speech">n</column>
       <column name="definition">dent, indentation</column>
@@ -1606,7 +1626,7 @@ For other units of time, {ret:n:nolink} is used.</column>
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140820</column>
+      <column name="_id">140830</column>
       <column name="entry_name">retlh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">area beside, area next to</column>
@@ -1625,7 +1645,7 @@ For other units of time, {ret:n:nolink} is used.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140830</column>
+      <column name="_id">140840</column>
       <column name="entry_name">rewbe'</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">citizen</column>
@@ -1645,7 +1665,7 @@ For other units of time, {ret:n:nolink} is used.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2016.07.25. -->
-      <column name="_id">140840</column>
+      <column name="_id">140850</column>
       <column name="entry_name">rewve'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">air (everyday word)</column>
@@ -1664,7 +1684,7 @@ For other units of time, {ret:n:nolink} is used.</column>
       <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140850</column>
+      <column name="_id">140860</column>
       <column name="entry_name">rey</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">squeeze and stretch out (windbag instrument)</column>
@@ -1684,7 +1704,7 @@ For other units of time, {ret:n:nolink} is used.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2013.08.26. -->
-      <column name="_id">140860</column>
+      <column name="_id">140870</column>
       <column name="entry_name">reynalDo</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Reynaldo</column>
@@ -1704,7 +1724,7 @@ For other units of time, {ret:n:nolink} is used.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2016.07.25. -->
-      <column name="_id">140870</column>
+      <column name="_id">140880</column>
       <column name="entry_name">rID</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">digest</column>
@@ -1723,7 +1743,7 @@ For other units of time, {ret:n:nolink} is used.</column>
       <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140880</column>
+      <column name="_id">140890</column>
       <column name="entry_name">rIgh</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be lame</column>
@@ -1742,7 +1762,7 @@ For other units of time, {ret:n:nolink} is used.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140890</column>
+      <column name="_id">140900</column>
       <column name="entry_name">rIH</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">energize</column>
@@ -1761,7 +1781,7 @@ For other units of time, {ret:n:nolink} is used.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140900</column>
+      <column name="_id">140910</column>
       <column name="entry_name">rIHwI'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">energizer</column>
@@ -1780,7 +1800,7 @@ For other units of time, {ret:n:nolink} is used.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140910</column>
+      <column name="_id">140920</column>
       <column name="entry_name">rIl</column>
       <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">use the thumb (child)</column>
@@ -1802,7 +1822,7 @@ The reflexive form of this verb has a special meaning. See the example below, an
       <column name="source">[1] {HQ 10.2, Jun. 2001:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140920</column>
+      <column name="_id">140930</column>
       <column name="entry_name">rIl</column>
       <column name="part_of_speech">v:2,t_c</column>
       <column name="definition">play (a wind instrument)</column>
@@ -1821,7 +1841,7 @@ The reflexive form of this verb has a special meaning. See the example below, an
       <column name="source">[1] {HQ 10.2, Jun. 2001:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140930</column>
+      <column name="_id">140940</column>
       <column name="entry_name">rIlwI'</column>
       <column name="part_of_speech">n:deriv,body</column>
       <column name="definition">thumb (child)</column>
@@ -1840,7 +1860,7 @@ The reflexive form of this verb has a special meaning. See the example below, an
       <column name="source">[1] {HQ 10.2, Jun. 2001:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140940</column>
+      <column name="_id">140950</column>
       <column name="entry_name">rIn</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be accomplished, finished</column>
@@ -1861,7 +1881,7 @@ This verb is used with the suffix {-taH:v} to form {rIntaH:v}, a construction us
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140950</column>
+      <column name="_id">140960</column>
       <column name="entry_name">rIntaH</column>
       <column name="part_of_speech">v:deriv</column>
       <column name="definition">fait accompli</column>
@@ -1882,7 +1902,7 @@ This verb is used with the suffix {-taH:v} to form {rIntaH:v}, a construction us
       <column name="source">[1] {TKD 4.2.7:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140960</column>
+      <column name="_id">140970</column>
       <column name="entry_name">rIp</column>
       <column name="part_of_speech">n</column>
       <column name="definition">council, assembly</column>
@@ -1901,7 +1921,7 @@ This verb is used with the suffix {-taH:v} to form {rIntaH:v}, a construction us
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140970</column>
+      <column name="_id">140980</column>
       <column name="entry_name">rIQ</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be injured, be damaged</column>
@@ -1921,7 +1941,7 @@ This verb is used with the suffix {-taH:v} to form {rIntaH:v}, a construction us
       <column name="source">[1] {TKD:src}, [2] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140980</column>
+      <column name="_id">140990</column>
       <column name="entry_name">rIQmoH</column>
       <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">injure</column>
@@ -1940,7 +1960,7 @@ This verb is used with the suffix {-taH:v} to form {rIntaH:v}, a construction us
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">140990</column>
+      <column name="_id">141000</column>
       <column name="entry_name">rIt</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">summon</column>
@@ -1958,25 +1978,6 @@ This verb is used with the suffix {-taH:v} to form {rIntaH:v}, a construction us
       <column name="search_tags">call, invite</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {Klingon Monopoly:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id">141000</column>
-      <column name="entry_name">rItHa'</column>
-      <column name="part_of_speech">v:t_c,deriv,hyp</column>
-      <column name="definition">dismiss, unsummon</column>
-      <column name="definition_de">entlassen</column>
-      <column name="synonyms"></column>
-      <column name="antonyms">{rIt:v}</column>
-      <column name="see_also">{ghomHa':v}</column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes">This word does not appear in canon. This entry is here for ease of reference only.</column>
-      <column name="components">{rIt:v}, {-Ha':v}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source"></column>
     </table>
     <table name="mem">
       <column name="_id">141010</column>
@@ -2231,25 +2232,6 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
     </table>
     <table name="mem">
       <column name="_id">141140</column>
-      <column name="entry_name">roH</column>
-      <column name="part_of_speech">n:hyp</column>
-      <column name="definition">sign, indication?</column>
-      <column name="definition_de">Zeichen, Hinweis</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This element is not known to exist outside of {yInroH:n}.</column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source"></column>
-    </table>
-    <table name="mem">
-      <column name="_id">141150</column>
       <column name="entry_name">roj</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">make peace</column>
@@ -2268,7 +2250,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141160</column>
+      <column name="_id">141150</column>
       <column name="entry_name">roj</column>
       <column name="part_of_speech">n</column>
       <column name="definition">peace</column>
@@ -2287,7 +2269,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141170</column>
+      <column name="_id">141160</column>
       <column name="entry_name">rojHom</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">truce</column>
@@ -2307,7 +2289,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.15. -->
-      <column name="_id">141180</column>
+      <column name="_id">141170</column>
       <column name="entry_name">rojmab</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">peace treaty</column>
@@ -2326,7 +2308,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141190</column>
+      <column name="_id">141180</column>
       <column name="entry_name">rojmab qep</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">peace talks</column>
@@ -2346,7 +2328,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141200</column>
+      <column name="_id">141190</column>
       <column name="entry_name">rol</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">beard</column>
@@ -2365,7 +2347,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="source">[1] {TKD:src}, [2] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141210</column>
+      <column name="_id">141200</column>
       <column name="entry_name">rol taj</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">razor</column>
@@ -2384,7 +2366,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141220</column>
+      <column name="_id">141210</column>
       <column name="entry_name">rom</column>
       <column name="part_of_speech">n</column>
       <column name="definition">accord</column>
@@ -2403,7 +2385,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="source">[1] {TKD:src}, [2] {KGT p.172:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141230</column>
+      <column name="_id">141220</column>
       <column name="entry_name">romuluS</column>
       <column name="part_of_speech">n:place,fic</column>
       <column name="definition">Romulus</column>
@@ -2422,7 +2404,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="source">[1] {TKD:src}, [2] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141240</column>
+      <column name="_id">141230</column>
       <column name="entry_name">romuluS HIq</column>
       <column name="part_of_speech">n:deriv,food</column>
       <column name="definition">Romulan ale</column>
@@ -2441,7 +2423,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="source">[1] {CK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141250</column>
+      <column name="_id">141240</column>
       <column name="entry_name">romuluSngan</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">Romulan</column>
@@ -2460,7 +2442,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141260</column>
+      <column name="_id">141250</column>
       <column name="entry_name">romuluSngan Sambogh 'ej HoHbogh nejwI'</column>
       <column name="part_of_speech">n:weap,fic,deriv</column>
       <column name="definition">Romulan hunter-killer probe</column>
@@ -2479,7 +2461,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="source">[1] {KCD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141270</column>
+      <column name="_id">141260</column>
       <column name="entry_name">ron</column>
       <column name="part_of_speech">v:i_c</column>
       <column name="definition">roll, be rolling</column>
@@ -2501,7 +2483,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {HQ 11.2, Jun. 2002:src}, [2] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141280</column>
+      <column name="_id">141270</column>
       <column name="entry_name">rop</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be sick, ill</column>
@@ -2520,7 +2502,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141290</column>
+      <column name="_id">141280</column>
       <column name="entry_name">rop</column>
       <column name="part_of_speech">n</column>
       <column name="definition">disease</column>
@@ -2541,7 +2523,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141300</column>
+      <column name="_id">141290</column>
       <column name="entry_name">rop'a'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">plague</column>
@@ -2561,7 +2543,7 @@ In the context of playing dice, this word refers to the action of the dice as th
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
-      <column name="_id">141310</column>
+      <column name="_id">141300</column>
       <column name="entry_name">ropchoHbe' tlhInganpu'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Klingons do not get sick.</column>
@@ -2581,7 +2563,7 @@ In the context of playing dice, this word refers to the action of the dice as th
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.30. -->
-      <column name="_id">141320</column>
+      <column name="_id">141310</column>
       <column name="entry_name">roptoj</column>
       <column name="part_of_speech">n</column>
       <column name="definition">scar (from disease, infection, etc.)</column>
@@ -2600,7 +2582,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141330</column>
+      <column name="_id">141320</column>
       <column name="entry_name">ropyaH</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">infirmary</column>
@@ -2612,14 +2594,14 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components">{rop:n}, {yaH:n}</column>
-      <column name="examples"></column>
+      <column name="examples">{ropyaH yIghuHmoH!:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141340</column>
+      <column name="_id">141330</column>
       <column name="entry_name">ropyaH qach</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">hospital</column>
@@ -2638,7 +2620,27 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141350</column>
+      <!-- Checked on: 2017.08.20. -->
+      <column name="_id">141335</column>
+      <column name="entry_name">ropyaH yIghuHmoH!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Alert sick bay!</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This line was spoken in Klingon but was not subtitled.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{ropyaH:n}, {yI-:v}, {ghuHmoH:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek VI:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">141340</column>
       <column name="entry_name">roQ</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">put down</column>
@@ -2657,7 +2659,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141360</column>
+      <column name="_id">141350</column>
       <column name="entry_name">ror</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be fat</column>
@@ -2676,7 +2678,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141370</column>
+      <column name="_id">141360</column>
       <column name="entry_name">roS</column>
       <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">lick</column>
@@ -2695,7 +2697,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141380</column>
+      <column name="_id">141370</column>
       <column name="entry_name">roS</column>
       <column name="part_of_speech">v:2,t_c</column>
       <column name="definition">use the third toe</column>
@@ -2713,27 +2715,9 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="search_tags_de"></column>
       <column name="source">[1] {HQ 10.2, Jun. 2001:src}</column>
     </table>
+    <!-- Note: {roS:v:3} is in the "extra" section. -->
     <table name="mem">
-      <column name="_id">141390</column>
-      <column name="entry_name">roS</column>
-      <column name="part_of_speech">v:3,is,hyp</column>
-      <column name="definition">be agile, be nimble, be spry?</column>
-      <column name="definition_de">agil, flott, wendig</column>
-      <column name="synonyms">{vaD:v}</column>
-      <column name="antonyms"></column>
-      <column name="see_also">{pe'vIl roS:sen:idiom}, {roSHa'moH:v}</column>
-      <column name="notes">This verb is not known to exist, but its existence is conjectured based on the idiom {pe'vIl roS:sen:idiom} and the verb {roSHa'moH:v}.</column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source">[1] {HQ 10.2, Jun. 2001:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id">141400</column>
+      <column name="_id">141380</column>
       <column name="entry_name">roSHa'moH</column>
       <!-- Not marked "deriv" because {roS:v:3} is hypothetical. -->
       <column name="part_of_speech">v:t_c</column>
@@ -2753,7 +2737,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {HQ 1.3, p.9, Sept. 1992:src}, [2] {KGT:src}, [3] {HQ 10.2, p.10, Jun. 2001:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141410</column>
+      <column name="_id">141390</column>
       <column name="entry_name">roSwI'</column>
       <column name="part_of_speech">n:deriv,body</column>
       <column name="definition">third toe</column>
@@ -2773,7 +2757,7 @@ In the context of playing dice, this word refers to the action of the dice as th
     </table>
     <table name="mem">
       <!-- Checked on: 2016.07.25. -->
-      <column name="_id">141420</column>
+      <column name="_id">141400</column>
       <column name="entry_name">roSghaH</column>
       <column name="part_of_speech">n</column>
       <column name="definition">DNA</column>
@@ -2793,7 +2777,7 @@ In the context of playing dice, this word refers to the action of the dice as th
     </table>
     <table name="mem">
       <!-- Checked on: 2013.08.26. -->
-      <column name="_id">141430</column>
+      <column name="_id">141410</column>
       <column name="entry_name">roSenQatlh</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Rosencrantz</column>
@@ -2812,7 +2796,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {Hamlet:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141440</column>
+      <column name="_id">141420</column>
       <column name="entry_name">rotlh</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be tough</column>
@@ -2831,7 +2815,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141450</column>
+      <column name="_id">141430</column>
       <column name="entry_name">ro'</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">fist</column>
@@ -2850,7 +2834,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141460</column>
+      <column name="_id">141440</column>
       <column name="entry_name">ro'lIj HI'ang!</column>
       <column name="part_of_speech">sen:idiom</column>
       <column name="definition">Show me your fist!</column>
@@ -2869,26 +2853,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {KGT p.195:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141470</column>
-      <column name="entry_name">ro'qegh</column>
-      <column name="part_of_speech">n:anim,hyp</column>
-      <column name="definition">rokeg, type of animal?</column>
-      <column name="definition_de">Rokeg, eine Tiersorte?</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{ro'qegh'Iwchab:n}</column>
-      <column name="notes">In the glossary to {Diplomatic Implausibility:src}, it is hypothesized that this is an animal from or with whose blood {ro'qegh'Iwchab:n} are made.</column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source"></column>
-    </table>
-    <table name="mem">
-      <column name="_id">141480</column>
+      <column name="_id">141450</column>
       <column name="entry_name">ro'qegh'Iwchab</column>
       <column name="part_of_speech">n:fic,food</column>
       <column name="definition">rokeg blood pie</column>
@@ -2907,7 +2872,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141490</column>
+      <column name="_id">141460</column>
       <column name="entry_name">ruch</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">proceed, go ahead, do it</column>
@@ -2927,7 +2892,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKDA:src}, [2] {KLI mailing list 2014.11.26:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141500</column>
+      <column name="_id">141470</column>
       <column name="entry_name">ruDelya'</column>
       <column name="part_of_speech">n:place,fic</column>
       <column name="definition">Rudellia</column>
@@ -2946,7 +2911,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141510</column>
+      <column name="_id">141480</column>
       <column name="entry_name">ruDelya' rop'a'</column>
       <column name="part_of_speech">n:fic,deriv</column>
       <column name="definition">Rudellian plague</column>
@@ -2966,7 +2931,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141520</column>
+      <column name="_id">141490</column>
       <column name="entry_name">rugh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">anti-matter</column>
@@ -2985,7 +2950,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141530</column>
+      <column name="_id">141500</column>
       <!-- Checked on: 2012.11.19. -->
       <column name="entry_name">rugh bIQSIp</column>
       <column name="part_of_speech">n:deriv</column>
@@ -3005,7 +2970,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141540</column>
+      <column name="_id">141510</column>
       <column name="entry_name">run</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be short (in stature)</column>
@@ -3024,7 +2989,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141550</column>
+      <column name="_id">141520</column>
       <column name="entry_name">runpI'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">teapot</column>
@@ -3043,7 +3008,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {KGT:src}, [2] {TNK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141560</column>
+      <column name="_id">141530</column>
       <column name="entry_name">rup</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">fine, tax</column>
@@ -3062,7 +3027,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141570</column>
+      <column name="_id">141540</column>
       <column name="entry_name">ruq</column>
       <column name="part_of_speech">v:t</column>
       <column name="definition">belch, fart</column>
@@ -3081,7 +3046,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {HQ 12.4, Dec. 2003:src}, [2] {KLI mailing list 2015.08.03:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141580</column>
+      <column name="_id">141550</column>
       <column name="entry_name">ruq'e'vet</column>
       <column name="part_of_speech">n:place,fic</column>
       <column name="definition">Ruk'evet city</column>
@@ -3100,7 +3065,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141590</column>
+      <column name="_id">141560</column>
       <column name="entry_name">ruQ</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">control manually, by hand</column>
@@ -3119,7 +3084,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141600</column>
+      <column name="_id">141570</column>
       <column name="entry_name">rur</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">resemble</column>
@@ -3178,7 +3143,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKD:src}, [2] {KGT p.127:src}, [3] {s.k 1999.01.04:src}, [4] {HQ 13.1, p.8-10, Mar. 2004:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141610</column>
+      <column name="_id">141580</column>
       <column name="entry_name">rura' pente'</column>
       <column name="part_of_speech">n:place,fic</column>
       <column name="definition">Rura Penthe</column>
@@ -3197,7 +3162,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKDA:src}, [2] {TKW:src}, [3] {Klingon Monopoly:src}, [4] {Star Trek VI:src}, [5] {Diplomatic Implausibility:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141620</column>
+      <column name="_id">141590</column>
       <column name="entry_name">rura' pente'Daq chuch ngevlaH ghaH.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">He can sell ice on Rura Penthe.</column>
@@ -3216,7 +3181,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKW p.190:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141630</column>
+      <column name="_id">141600</column>
       <column name="entry_name">ruS</column>
       <column name="part_of_speech">n</column>
       <column name="definition">bond</column>
@@ -3248,7 +3213,7 @@ In the context of playing dice, this word refers to the action of the dice as th
     </table>
     <table name="mem">
       <!-- Checked on: 2016.07.25. -->
-      <column name="_id">141640</column>
+      <column name="_id">141610</column>
       <column name="entry_name">ruS</column>
       <!-- Maybe should be "v:is"? -->
       <column name="part_of_speech">v:i_c</column>
@@ -3268,7 +3233,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141650</column>
+      <column name="_id">141620</column>
       <column name="entry_name">ruStay</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">bonding ritual</column>
@@ -3288,7 +3253,7 @@ In the context of playing dice, this word refers to the action of the dice as th
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.30. -->
-      <column name="_id">141660</column>
+      <column name="_id">141630</column>
       <column name="entry_name">ruSvep</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">invitation</column>
@@ -3307,7 +3272,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141670</column>
+      <column name="_id">141640</column>
       <column name="entry_name">rut</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">sometimes, occasionally</column>
@@ -3327,7 +3292,7 @@ In the context of playing dice, this word refers to the action of the dice as th
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.30. -->
-      <column name="_id">141680</column>
+      <column name="_id">141650</column>
       <column name="entry_name">rut yIHmey ghom Hoch.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Everyone encounters tribbles occasionally.</column>
@@ -3346,7 +3311,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKW p.184:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141690</column>
+      <column name="_id">141660</column>
       <column name="entry_name">rutlh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">wheel</column>
@@ -3366,7 +3331,7 @@ In the context of playing dice, this word refers to the action of the dice as th
     </table>
     <table name="mem">
       <!-- Checked on: 2014.11.16. -->
-      <column name="_id">141700</column>
+      <column name="_id">141670</column>
       <column name="entry_name">rutlhHom</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">mouse wheel (computer device)</column>
@@ -3385,7 +3350,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141710</column>
+      <column name="_id">141680</column>
       <column name="entry_name">ruv</column>
       <column name="part_of_speech">n</column>
       <column name="definition">justice</column>
@@ -3404,7 +3369,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141720</column>
+      <column name="_id">141690</column>
       <column name="entry_name">ru'</column>
       <column name="part_of_speech">v:1,is</column>
       <column name="definition">be temporary</column>
@@ -3423,7 +3388,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141730</column>
+      <column name="_id">141700</column>
       <column name="entry_name">ru'</column>
       <column name="part_of_speech">v:2,is</column>
       <column name="definition">be ready to collapse or die (referring to food)</column>
@@ -3442,7 +3407,7 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">141740</column>
+      <column name="_id">141710</column>
       <column name="entry_name">ru'Ha'</column>
       <column name="part_of_speech">v:is,deriv</column>
       <column name="definition">be permanent</column>

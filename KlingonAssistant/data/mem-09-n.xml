@@ -11,7 +11,8 @@
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {nImbuS wej maghoS, He yInab.:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -170,6 +171,26 @@
       <column name="search_tags">fetch</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {PK:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.20. -->
+      <column name="_id">90085</column>
+      <column name="entry_name">naDev maH 'e' luSovbe'.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">They don't know we're here.</column>
+      <column name="definition_de">Sie wissen nicht, dass wir hier sind.</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">This line was cut from {Star Trek V:src}.</column>
+      <column name="components">{naDev:n}, {maH:n:1h}, {'e':n}, {lu-:v}, {Sov:v}, {-be':v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek V:src}</column>
     </table>
     <table name="mem">
       <column name="_id">90090</column>
@@ -563,25 +584,6 @@ Do not confuse this word with {naQjej:n}.</column>
     </table>
     <table name="mem">
       <column name="_id">90290</column>
-      <column name="entry_name">nal</column>
-      <column name="part_of_speech">n:hyp</column>
-      <column name="definition">mate?</column>
-      <column name="definition_de">Partner?</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This is a hypothetical component that is found in {loDnal:n}, {be'nal:n}, {nalqaD:n}, as well as {'e'nal:n}. According to {KCD:src}, {nal:n:hyp,nolink} is not used as a word on its own.</column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source"></column>
-    </table>
-    <table name="mem">
-      <column name="_id">90300</column>
       <column name="entry_name">nalqaD</column>
       <column name="part_of_speech">n</column>
       <column name="definition">mate challenge</column>
@@ -600,7 +602,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90310</column>
+      <column name="_id">90300</column>
       <column name="entry_name">namtun</column>
       <column name="part_of_speech">n</column>
       <column name="definition">the familiar beginning of a song</column>
@@ -619,7 +621,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="source">[1] {HQ 12.2, Jun. 2003:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90320</column>
+      <column name="_id">90310</column>
       <column name="entry_name">namwech</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">paw</column>
@@ -638,7 +640,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90330</column>
+      <column name="_id">90320</column>
       <column name="entry_name">nan</column>
       <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">gouge</column>
@@ -657,7 +659,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90340</column>
+      <column name="_id">90330</column>
       <column name="entry_name">nan</column>
       <column name="part_of_speech">v:2,t_c</column>
       <column name="definition">use the fourth toe</column>
@@ -676,7 +678,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="source">[1] {HQ 10.2, Jun. 2001:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90350</column>
+      <column name="_id">90340</column>
       <column name="entry_name">nan</column>
       <column name="part_of_speech">v:3,t</column>
       <column name="definition">martial arts kick</column>
@@ -695,7 +697,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="source">[1] {HQ 10.2, Jun. 2001:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90360</column>
+      <column name="_id">90350</column>
       <column name="entry_name">nanwI'</column>
       <column name="part_of_speech">n:1,deriv</column>
       <column name="definition">chisel</column>
@@ -714,7 +716,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90370</column>
+      <column name="_id">90360</column>
       <column name="entry_name">nanwI'</column>
       <column name="part_of_speech">n:2,deriv,body</column>
       <column name="definition">fourth toe</column>
@@ -733,7 +735,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="source">[1] {HQ 10.2, Jun. 2001:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90380</column>
+      <column name="_id">90370</column>
       <column name="entry_name">nap</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be simple</column>
@@ -752,7 +754,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90390</column>
+      <column name="_id">90380</column>
       <column name="entry_name">naQ</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be full, whole, entire, complete</column>
@@ -771,7 +773,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90400</column>
+      <column name="_id">90390</column>
       <column name="entry_name">naQ</column>
       <column name="part_of_speech">n:1</column>
       <column name="definition">cain, staff</column>
@@ -790,7 +792,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90410</column>
+      <column name="_id">90400</column>
       <column name="entry_name">naQ</column>
       <column name="part_of_speech">n:2,slang</column>
       <column name="definition">ponytail</column>
@@ -809,7 +811,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90420</column>
+      <column name="_id">90410</column>
       <column name="entry_name">naQHom</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">stick (used to strike percussion instrument)</column>
@@ -828,7 +830,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90430</column>
+      <column name="_id">90420</column>
       <column name="entry_name">naQjej</column>
       <column name="part_of_speech">n:weap</column>
       <column name="definition">spear</column>
@@ -850,7 +852,7 @@ Do not confuse this word with {naHjej:n}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.30. -->
-      <column name="_id">90440</column>
+      <column name="_id">90430</column>
       <column name="entry_name">naQ 'er</column>
       <column name="part_of_speech">n:anim</column>
       <column name="definition">brush devil (a Klingon animal)</column>
@@ -869,7 +871,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90450</column>
+      <column name="_id">90440</column>
       <column name="entry_name">nargh</column>
       <column name="part_of_speech">v:1,i</column>
       <column name="definition">appear</column>
@@ -888,7 +890,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90460</column>
+      <column name="_id">90450</column>
       <column name="entry_name">nargh</column>
       <column name="part_of_speech">v:2,i</column>
       <column name="definition">escape</column>
@@ -909,7 +911,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {TKDA:src}, [2] {KGT p.117:src}, [3] {TKW p.145:src}, [4] {s.e 1998.01.18:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90470</column>
+      <column name="_id">90460</column>
       <column name="entry_name">narghbe'chugh SuvwI' qa' taH may'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">If the warrior's spirit has not escaped, the battle is still going on.</column>
@@ -928,7 +930,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {TKW p.147:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90480</column>
+      <column name="_id">90470</column>
       <column name="entry_name">naS</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be vicious</column>
@@ -947,7 +949,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90490</column>
+      <column name="_id">90480</column>
       <column name="entry_name">natlIS</column>
       <column name="part_of_speech">n</column>
       <column name="definition">last item in a list</column>
@@ -966,7 +968,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {HQ 12.2, Jun. 2003:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90500</column>
+      <column name="_id">90490</column>
       <column name="entry_name">natlh</column>
       <column name="part_of_speech">v:1,t</column>
       <column name="definition">use up, consume, expend, drain</column>
@@ -985,7 +987,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {KGT:src}, [2] {SkyBox 33:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src})</column>
     </table>
     <table name="mem">
-      <column name="_id">90510</column>
+      <column name="_id">90500</column>
       <column name="entry_name">natlh</column>
       <column name="part_of_speech">v:2,i,slang</column>
       <column name="definition">be reprehensible, be disgusting, be contemptible</column>
@@ -1004,7 +1006,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90520</column>
+      <column name="_id">90510</column>
       <column name="entry_name">nav</column>
       <column name="part_of_speech">n</column>
       <column name="definition">paper, sheet of paper</column>
@@ -1024,7 +1026,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {TKD:src}, [2] {TNK:src}, [3] {Klingon Monopoly:src}, [4] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90530</column>
+      <column name="_id">90520</column>
       <column name="entry_name">nav HablI'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">fax machine</column>
@@ -1043,7 +1045,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {HQ 5.2, p.20, Jun. 1996:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90540</column>
+      <column name="_id">90530</column>
       <column name="entry_name">nav qatwI'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">envelope</column>
@@ -1063,7 +1065,7 @@ Do not confuse this word with {naHjej:n}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2015.10.28. -->
-      <column name="_id">90550</column>
+      <column name="_id">90540</column>
       <column name="entry_name">nav QIn</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">letter (message written on paper)</column>
@@ -1083,7 +1085,7 @@ Do not confuse this word with {naHjej:n}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2015.10.28. -->
-      <column name="_id">90560</column>
+      <column name="_id">90550</column>
       <column name="entry_name">nav vaH</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">envelope</column>
@@ -1102,7 +1104,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90570</column>
+      <column name="_id">90560</column>
       <column name="entry_name">nawlogh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">squadron</column>
@@ -1121,7 +1123,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90580</column>
+      <column name="_id">90570</column>
       <column name="entry_name">naw'</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">access</column>
@@ -1140,7 +1142,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90590</column>
+      <column name="_id">90580</column>
       <column name="entry_name">naw'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">access</column>
@@ -1160,7 +1162,7 @@ Do not confuse this word with {naHjej:n}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">90600</column>
+      <column name="_id">90590</column>
       <column name="entry_name">naw'wat</column>
       <column name="part_of_speech">n</column>
       <column name="definition">remote, small, desolate place</column>
@@ -1179,7 +1181,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90610</column>
+      <column name="_id">90600</column>
       <column name="entry_name">nay</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">marry (wife does this)</column>
@@ -1199,7 +1201,7 @@ Do not confuse this word with {naHjej:n}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">90620</column>
+      <column name="_id">90610</column>
       <column name="entry_name">nayjerya'</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Nigeria</column>
@@ -1218,7 +1220,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90630</column>
+      <column name="_id">90620</column>
       <column name="entry_name">nay'</column>
       <column name="part_of_speech">n:food</column>
       <column name="definition">course, dish (at a meal)</column>
@@ -1237,7 +1239,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90640</column>
+      <column name="_id">90630</column>
       <column name="entry_name">na'</column>
       <column name="part_of_speech">v:1,is</column>
       <column name="definition">be salty, be brackish</column>
@@ -1256,7 +1258,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90650</column>
+      <column name="_id">90640</column>
       <column name="entry_name">na'</column>
       <column name="part_of_speech">v:2,is,slang</column>
       <column name="definition">be sure, be definite, be positive, be certain</column>
@@ -1275,7 +1277,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90660</column>
+      <column name="_id">90650</column>
       <column name="entry_name">na'ran</column>
       <column name="part_of_speech">n:food</column>
       <column name="definition">type of fruit</column>
@@ -1294,7 +1296,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90670</column>
+      <column name="_id">90660</column>
       <column name="entry_name">neb</column>
       <column name="part_of_speech">n:1,body</column>
       <column name="definition">beak, bill</column>
@@ -1314,7 +1316,7 @@ Do not confuse this word with {naHjej:n}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2016.07.25. -->
-      <column name="_id">90680</column>
+      <column name="_id">90670</column>
       <column name="entry_name">neb</column>
       <column name="part_of_speech">n:2</column>
       <column name="definition">nozzle</column>
@@ -1334,14 +1336,14 @@ Do not confuse this word with {naHjej:n}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.30. -->
-      <column name="_id">90690</column>
+      <column name="_id">90680</column>
       <column name="entry_name">nebeylI'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">sarcophagus</column>
       <column name="definition_de">Sarkophag</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{nev'aQ:n}, {pel'aQ:n:2}, {jItup'ep:n}, {'Impey:n}</column>
+      <column name="see_also">{nev'aQ:n}, {pel'aQ:n:2}, {jItuj'ep:n}, {'Impey':n}</column>
       <column name="notes">This is associated with ritual and honor, and is much more than just a repository.</column>
       <column name="notes_de">Dies ist in Verbindung mit Ehre und Zeremonie, und nicht nur ein Behälter.</column>
       <column name="hidden_notes"></column>
@@ -1353,7 +1355,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90700</column>
+      <column name="_id">90690</column>
       <column name="entry_name">nech</column>
       <column name="part_of_speech">v:i</column>
       <column name="definition">be lateral, move laterally</column>
@@ -1372,7 +1374,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90710</column>
+      <column name="_id">90700</column>
       <column name="entry_name">negh</column>
       <column name="part_of_speech">n:inhpl</column>
       <column name="definition">soldiers</column>
@@ -1391,14 +1393,14 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90720</column>
+      <column name="_id">90710</column>
       <column name="entry_name">neghvar</column>
       <column name="part_of_speech">n:fic</column>
       <column name="definition">Negh'Var (vessel)</column>
       <column name="definition_de">Negh'Var (Schiffsklasse)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Duj:n:2}</column>
+      <column name="see_also">{Duj:n:1}</column>
       <column name="notes">It is unclear why Federation Standard corrupted the spelling of this word by adding an extraneous {qaghwI':n}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -1410,7 +1412,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90730</column>
+      <column name="_id">90720</column>
       <column name="entry_name">neH</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">only, merely, just</column>
@@ -1429,6 +1431,7 @@ This adverbial can also follow a noun, in which case it means "only" or "alone".
 ▶ {Duj yIQotlh neH:sen:nolink} "Just disable the ship!"[1]
 ▶ {yaS neH:sen:nolink} "only the officer, the officer alone"[1]
 ▶ {jonta' neH:sen:nolink} "only the engine"[1]
+▶ {baHwI', DoS yIbuS. QuQ neH.:sen}
 ▶ {Hagh qoHpu' neH HeghtaHvIS SuvwI'pu'.:sen}
 ▶ {Hegh neH chav qoH.:sen}
 ▶ {not qoHpu''e' neH ghIjlu'.:sen}
@@ -1441,7 +1444,7 @@ This adverbial can also follow a noun, in which case it means "only" or "alone".
       <column name="source">[1] {TKD 5.4:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90740</column>
+      <column name="_id">90730</column>
       <column name="entry_name">neH</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">want</column>
@@ -1457,6 +1460,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="components"></column>
       <column name="examples">
 ▶ {Dochvetlh DIlmeH Huch 'ar DaneH?:sen}
+▶ {qama'pu' jonta' neH.:sen}
 ▶ {qatlh tuneH?:sen}[2]</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -1464,7 +1468,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="source">[1] {TKD 6.2.5:src}, [2] {Enterprise - Affliction:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90750</column>
+      <column name="_id">90740</column>
       <column name="entry_name">neHjej</column>
       <column name="part_of_speech">n:alt</column>
       <column name="definition">{naHjej:n}</column>
@@ -1483,7 +1487,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90760</column>
+      <column name="_id">90750</column>
       <column name="entry_name">neHmaH</column>
       <column name="part_of_speech">n</column>
       <column name="definition">neutral zone</column>
@@ -1502,7 +1506,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90770</column>
+      <column name="_id">90760</column>
       <column name="entry_name">nej</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">look for, seek, search for</column>
@@ -1522,7 +1526,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">90780</column>
+      <column name="_id">90770</column>
       <column name="entry_name">nejwI'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">probe</column>
@@ -1539,6 +1543,26 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/JyeePTU
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKDA:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">90780</column>
+      <column name="entry_name">nejwI' tIQ 'oH.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">(It is) a probe of ancient origin.</column>
+      <column name="definition_de">(Sie ist) eine historische Probe.</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek V:src}</column>
     </table>
     <table name="mem">
       <column name="_id">90790</column>
@@ -1754,7 +1778,7 @@ Sometimes, {'e':n:pro} with {-lu':v} is used instead of {net:n:pro,nolink}. It i
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mI':n}, {SaD:n}, {bIp:n}</column>
-      <column name="notes">Note that the Klingon word for "ten thousand" is independent of the words for "ten" ({maH:n:1,num}) and "thousand" ({SaD:n}).</column>
+      <column name="notes">Note that the Klingon word for "ten thousand" is independent of the words for "ten" ({maH:n:2,num}) and "thousand" ({SaD:n}).</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -1811,7 +1835,7 @@ Sometimes, {'e':n:pro} with {-lu':v} is used instead of {net:n:pro,nolink}. It i
       <column name="definition_de">Sarg, Sarkophag</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{nebeylI':n}, {pel'aQ:n:2, {jItup'ep:n}, {'Impey:n}}</column>
+      <column name="see_also">{nebeylI':n}, {pel'aQ:n:2, {jItuj'ep:n}, {'Impey':n}}</column>
       <column name="notes">This refers to an everyday sarcophagus, which is strictly utilitarian.</column>
       <column name="notes_de">Dies ist der Begriff für einen normalen, alltäglichen Sarg.</column>
       <column name="hidden_notes"></column>
@@ -2133,7 +2157,47 @@ This verb is used to express the concept that two things have the same amount of
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
       <column name="_id">91090</column>
+      <column name="entry_name">nImbuS wej maghoS, He yInab.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Plot course for Nimbus III.</column>
+      <column name="definition_de">Wir fliegen zu Nimbus III. Plan den Kurs.</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">The prefix should have been {wI-:v} instead of {ma-:v}.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek V:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">91100</column>
+      <column name="entry_name">nImbuS wejDaq 'ejDo' 'entepray' ngeHlu'pu'.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">The Starship Enterprise has been dispatched to Nimbus III.</column>
+      <column name="definition_de">Man hat das Raumschiff Enterprise nach Nimbus III geschickt.</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek V:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">91110</column>
       <column name="entry_name">nIn</column>
       <column name="part_of_speech">n</column>
       <column name="definition">fuel</column>
@@ -2152,7 +2216,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91100</column>
+      <column name="_id">91120</column>
       <column name="entry_name">nIn 'ar wIghaj?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">How much fuel do we have?</column>
@@ -2171,7 +2235,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="source">[1] {TKD p.70,170:src}, [2] {CK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91110</column>
+      <column name="_id">91130</column>
       <column name="entry_name">nIpon</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Japan</column>
@@ -2190,7 +2254,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91120</column>
+      <column name="_id">91140</column>
       <column name="entry_name">nIq</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">weave</column>
@@ -2210,7 +2274,7 @@ This verb is used to express the concept that two things have the same amount of
     </table>
     <table name="mem">
       <!-- Checked on: 2015.10.28. -->
-      <column name="_id">91130</column>
+      <column name="_id">91150</column>
       <column name="entry_name">nIqDob</column>
       <column name="part_of_speech">n</column>
       <column name="definition">perforator, hole punch</column>
@@ -2230,7 +2294,7 @@ This verb is used to express the concept that two things have the same amount of
     </table>
     <table name="mem">
       <!-- Checked on: 2016.07.25. -->
-      <column name="_id">91140</column>
+      <column name="_id">91160</column>
       <column name="entry_name">nIqHom</column>
       <column name="part_of_speech">n</column>
       <column name="definition">software</column>
@@ -2249,7 +2313,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91150</column>
+      <column name="_id">91170</column>
       <column name="entry_name">nIQ</column>
       <column name="part_of_speech">n</column>
       <column name="definition">breakfast</column>
@@ -2268,7 +2332,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91160</column>
+      <column name="_id">91180</column>
       <column name="entry_name">nIS</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">hinder, interfere (with), disrupt</column>
@@ -2291,7 +2355,7 @@ This verb is used to express the concept that two things have the same amount of
       <column name="source">[1] {TKD:src}, [2] {TKDA:src}, [3] {SkyBox 19:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91170</column>
+      <column name="_id">91190</column>
       <column name="entry_name">nISwI'</column>
       <column name="part_of_speech">n:deriv,fic,weap</column>
       <column name="definition">disruptor</column>
@@ -2313,7 +2377,7 @@ Watch Gowron say {nISwI'mey:n@@nISwI':n, -mey:n}: {YouTube video:url:http://www.
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91180</column>
+      <column name="_id">91200</column>
       <column name="entry_name">nISwI' beH</column>
       <column name="part_of_speech">n:deriv,fic,weap</column>
       <column name="definition">disruptor rifle</column>
@@ -2336,7 +2400,7 @@ Watch Gowron say {nISwI'mey:n@@nISwI':n, -mey:n}: {YouTube video:url:http://www.
       <column name="source">[1] {KGT:src}, [2] {SkyBox 14:src} (reprinted in {HQ 3.4, p.10-11, Dec. 1994:src})</column>
     </table>
     <table name="mem">
-      <column name="_id">91190</column>
+      <column name="_id">91210</column>
       <column name="entry_name">nISwI' DaH</column>
       <column name="part_of_speech">n:deriv,fic,weap</column>
       <column name="definition">disruptor banks</column>
@@ -2355,7 +2419,7 @@ Watch Gowron say {nISwI'mey:n@@nISwI':n, -mey:n}: {YouTube video:url:http://www.
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91200</column>
+      <column name="_id">91220</column>
       <column name="entry_name">nISwI' HIch</column>
       <column name="part_of_speech">n:deriv,fic,weap</column>
       <column name="definition">disruptor pistol, hand-held disruptor</column>
@@ -2374,7 +2438,7 @@ Watch Gowron say {nISwI'mey:n@@nISwI':n, -mey:n}: {YouTube video:url:http://www.
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91210</column>
+      <column name="_id">91230</column>
       <column name="entry_name">nISwI' tal</column>
       <column name="part_of_speech">n:deriv,fic,weap</column>
       <column name="definition">disruptor cannon</column>
@@ -2393,7 +2457,7 @@ Watch Gowron say {nISwI'mey:n@@nISwI':n, -mey:n}: {YouTube video:url:http://www.
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91220</column>
+      <column name="_id">91240</column>
       <column name="entry_name">nIt</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be plain, be pure, be uncorrupted, be unsullied</column>
@@ -2413,7 +2477,7 @@ Watch Gowron say {nISwI'mey:n@@nISwI':n, -mey:n}: {YouTube video:url:http://www.
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91230</column>
+      <column name="_id">91250</column>
       <column name="entry_name">nIteb</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">alone, acting alone</column>
@@ -2433,7 +2497,7 @@ Watch Gowron say {nISwI'mey:n@@nISwI':n, -mey:n}: {YouTube video:url:http://www.
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
-      <column name="_id">91240</column>
+      <column name="_id">91260</column>
       <column name="entry_name">nIteb Qob qaD jup 'e' chaw'be' SuvwI'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">A warrior does not let a friend face danger alone.</column>
@@ -2452,7 +2516,7 @@ Watch Gowron say {nISwI'mey:n@@nISwI':n, -mey:n}: {YouTube video:url:http://www.
       <column name="source">[1] {TKW p.37:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91250</column>
+      <column name="_id">91270</column>
       <column name="entry_name">nIteb DujlIj yIchIj.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Navigate your vessel alone.</column>
@@ -2463,7 +2527,7 @@ Watch Gowron say {nISwI'mey:n@@nISwI':n, -mey:n}: {YouTube video:url:http://www.
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{nIteb:adv}, {Duj:n:2}, {-lIj:n}, {yI-:v}, {chIj:v}</column>
+      <column name="components">{nIteb:adv}, {Duj:n:1}, {-lIj:n}, {yI-:v}, {chIj:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -2471,7 +2535,7 @@ Watch Gowron say {nISwI'mey:n@@nISwI':n, -mey:n}: {YouTube video:url:http://www.
       <column name="source">[1] {TKW p.63:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91260</column>
+      <column name="_id">91280</column>
       <column name="entry_name">nIteb SuvnIS DevwI'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">A leader must stand alone.</column>
@@ -2490,7 +2554,7 @@ Watch Gowron say {nISwI'mey:n@@nISwI':n, -mey:n}: {YouTube video:url:http://www.
       <column name="source">[1] {TKW p.63:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91270</column>
+      <column name="_id">91290</column>
       <column name="entry_name">nItebHa'</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">together</column>
@@ -2510,7 +2574,7 @@ Watch Gowron say {nISwI'mey:n@@nISwI':n, -mey:n}: {YouTube video:url:http://www.
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91280</column>
+      <column name="_id">91300</column>
       <column name="entry_name">nItlh</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">finger</column>
@@ -2535,7 +2599,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}, [2] {HQ 10.2, Jun. 2001:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91290</column>
+      <column name="_id">91310</column>
       <column name="entry_name">nItlh naQ</column>
       <column name="part_of_speech">n:slang</column>
       <column name="definition">pigment stick</column>
@@ -2555,7 +2619,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2014.11.16. -->
-      <column name="_id">91300</column>
+      <column name="_id">91320</column>
       <column name="entry_name">nItlh 'echlet</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">keyboard (computer device)</column>
@@ -2574,7 +2638,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91310</column>
+      <column name="_id">91330</column>
       <column name="entry_name">nItlhpach</column>
       <column name="part_of_speech">n:1,body</column>
       <column name="definition">fingernail</column>
@@ -2593,7 +2657,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91320</column>
+      <column name="_id">91340</column>
       <column name="entry_name">nItlhpach</column>
       <column name="part_of_speech">n:2</column>
       <column name="definition">flat end of a pigment stick</column>
@@ -2612,7 +2676,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91330</column>
+      <column name="_id">91350</column>
       <column name="entry_name">nIv</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be superior</column>
@@ -2632,7 +2696,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91340</column>
+      <column name="_id">91360</column>
       <column name="entry_name">nIvnav</column>
       <column name="part_of_speech">n</column>
       <column name="definition">pajamas</column>
@@ -2651,7 +2715,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91350</column>
+      <column name="_id">91370</column>
       <column name="entry_name">nIylo roDIS</column>
       <column name="part_of_speech">n:name</column>
       <column name="definition">Nilo Rodis</column>
@@ -2671,7 +2735,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91360</column>
+      <column name="_id">91380</column>
       <column name="entry_name">nIyma'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">phantom, apparition</column>
@@ -2690,7 +2754,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {KLI mailing list 2008.11.23:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91370</column>
+      <column name="_id">91390</column>
       <column name="entry_name">nI'</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be long, lengthy (duration)</column>
@@ -2709,7 +2773,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91380</column>
+      <column name="_id">91400</column>
       <column name="entry_name">nob</column>
       <column name="part_of_speech">n</column>
       <column name="definition">gift</column>
@@ -2728,7 +2792,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91390</column>
+      <column name="_id">91410</column>
       <column name="entry_name">nob</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">give</column>
@@ -2747,7 +2811,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91400</column>
+      <column name="_id">91420</column>
       <column name="entry_name">nobHa'</column>
       <column name="part_of_speech">v:t,deriv</column>
       <column name="definition">give back, return</column>
@@ -2767,7 +2831,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKW:src}, [2] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91410</column>
+      <column name="_id">91430</column>
       <column name="entry_name">nobmey qembogh yIrIDnganpu''e' yIvoqQo'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Don't trust Yridians who bring gifts.</column>
@@ -2786,7 +2850,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKW p.189:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91420</column>
+      <column name="_id">91440</column>
       <column name="entry_name">noch</column>
       <column name="part_of_speech">n</column>
       <column name="definition">sensor</column>
@@ -2805,7 +2869,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91430</column>
+      <column name="_id">91450</column>
       <column name="entry_name">noch pat</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">remote sensing system</column>
@@ -2825,7 +2889,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">91440</column>
+      <column name="_id">91460</column>
       <column name="entry_name">noD</column>
       <column name="part_of_speech">v:i</column>
       <column name="definition">retaliate</column>
@@ -2846,7 +2910,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.30. -->
-      <column name="_id">91450</column>
+      <column name="_id">91470</column>
       <column name="entry_name">noDwI'</column>
       <column name="part_of_speech">n:deriv,being</column>
       <column name="definition">avenger</column>
@@ -2865,7 +2929,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91460</column>
+      <column name="_id">91480</column>
       <column name="entry_name">nogh</column>
       <column name="part_of_speech">v:i</column>
       <column name="definition">writhe</column>
@@ -2884,7 +2948,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91470</column>
+      <column name="_id">91490</column>
       <column name="entry_name">noH</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">judge, estimate</column>
@@ -2897,14 +2961,14 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {chorghSaD qelI'qam HIvchuq'e' vInoH.:sen:nolink} "Estimating attack range in 8,000 kellicams."[2]</column>
+▶ {chorghSaD qelI'qam HIvchuq'e' vInoH.:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}, [2] {Star Trek V:src}</column>
+      <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91480</column>
+      <column name="_id">91500</column>
       <column name="entry_name">noH</column>
       <column name="part_of_speech">n</column>
       <column name="definition">war (an individual war)</column>
@@ -2925,7 +2989,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.28. -->
-      <column name="_id">91490</column>
+      <column name="_id">91510</column>
       <column name="entry_name">noH ghoblu'DI' yay quv law' Hoch quv puS.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">In war, there is nothing more honorable than victory.</column>
@@ -2944,7 +3008,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKW p.179:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91500</column>
+      <column name="_id">91520</column>
       <column name="entry_name">noHva'Dut Sep</column>
       <column name="part_of_speech">n:place,fic</column>
       <column name="definition">No'hvadut region</column>
@@ -2963,7 +3027,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {KGT p.26:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91510</column>
+      <column name="_id">91530</column>
       <column name="entry_name">noH QapmeH wo' Qaw'lu'chugh yay chavbe'lu' 'ej wo' choqmeH may' DoHlu'chugh lujbe'lu'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Destroying an empire to win a war is no victory, and ending a battle to save an empire is no defeat.</column>
@@ -2982,7 +3046,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKW p.211:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91520</column>
+      <column name="_id">91540</column>
       <column name="entry_name">noj</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">lend</column>
@@ -3001,7 +3065,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91530</column>
+      <column name="_id">91550</column>
       <column name="entry_name">nol</column>
       <column name="part_of_speech">n</column>
       <column name="definition">funeral</column>
@@ -3020,7 +3084,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91540</column>
+      <column name="_id">91560</column>
       <column name="entry_name">nom</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">fast, quickly</column>
@@ -3040,7 +3104,27 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91550</column>
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">91570</column>
+      <column name="entry_name">nom yIghoSqu'!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Maximum speed!</column>
+      <column name="definition_de">Fahre besonders schnell fort!</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{cha'maH vagh vatlhvI' Hong, QIt yIghoS.:sen}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek V:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">91580</column>
       <column name="entry_name">non</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be rotten</column>
@@ -3059,7 +3143,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91560</column>
+      <column name="_id">91590</column>
       <column name="entry_name">nong</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be passionate</column>
@@ -3078,7 +3162,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91570</column>
+      <column name="_id">91600</column>
       <column name="entry_name">nong</column>
       <column name="part_of_speech">v:2,is,slang,archaic,alt</column>
       <column name="definition">{qu':v:2,slang}</column>
@@ -3097,7 +3181,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {KGT p.161:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91580</column>
+      <column name="_id">91610</column>
       <column name="entry_name">nop</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">omit</column>
@@ -3117,7 +3201,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.04.04. -->
-      <column name="_id">91590</column>
+      <column name="_id">91620</column>
       <column name="entry_name">noq</column>
       <column name="part_of_speech">n:1,body</column>
       <column name="definition">nipple (anatomy)</column>
@@ -3137,7 +3221,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.04.04. -->
-      <column name="_id">91600</column>
+      <column name="_id">91630</column>
       <column name="entry_name">noq</column>
       <column name="part_of_speech">n:2</column>
       <column name="definition">nipple (on bottles, etc.)</column>
@@ -3156,7 +3240,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91610</column>
+      <column name="_id">91640</column>
       <column name="entry_name">noregh</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Norway</column>
@@ -3175,7 +3259,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91620</column>
+      <column name="_id">91650</column>
       <column name="entry_name">norgh</column>
       <column name="part_of_speech">n:anim</column>
       <column name="definition">type of animal, norg (shark-like sea creature)</column>
@@ -3194,7 +3278,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91630</column>
+      <column name="_id">91660</column>
       <column name="entry_name">noS</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">eat in small mouthfuls, nibble</column>
@@ -3213,7 +3297,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91640</column>
+      <column name="_id">91670</column>
       <column name="entry_name">noSvagh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">deodorant</column>
@@ -3232,7 +3316,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91650</column>
+      <column name="_id">91680</column>
       <column name="entry_name">not</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">never</column>
@@ -3253,7 +3337,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.05. -->
-      <column name="_id">91660</column>
+      <column name="_id">91690</column>
       <column name="entry_name">not lay'Ha' tlhIngan.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">No Klingon ever breaks his word.</column>
@@ -3272,7 +3356,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKW p.80:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91670</column>
+      <column name="_id">91700</column>
       <column name="entry_name">not mev peghmey.</column>
       <column name="part_of_speech">sen:sp</column>
       <column name="definition">Secrets never cease.</column>
@@ -3291,7 +3375,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {PK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91680</column>
+      <column name="_id">91710</column>
       <column name="entry_name">not qoHpu''e' neH ghIjlu'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Only fools have no fear.</column>
@@ -3310,7 +3394,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKW p.105:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91690</column>
+      <column name="_id">91720</column>
       <column name="entry_name">not toj tlhInganpu'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Klingons never bluff.</column>
@@ -3329,7 +3413,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKW p.46:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91700</column>
+      <column name="_id">91730</column>
       <column name="entry_name">not vIleghpu'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">I've never seen him/her before.</column>
@@ -3348,7 +3432,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD p.172:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91710</column>
+      <column name="_id">91740</column>
       <column name="entry_name">notqa'</column>
       <column name="part_of_speech">n:anim</column>
       <column name="definition">a large, black bird</column>
@@ -3367,7 +3451,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {HQ 10.4, Dec. 2001:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91720</column>
+      <column name="_id">91750</column>
       <column name="entry_name">notlh</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be obsolete</column>
@@ -3388,7 +3472,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91730</column>
+      <column name="_id">91760</column>
       <column name="entry_name">notlh tonSaw'lIj.</column>
       <column name="part_of_speech">sen:idiom</column>
       <column name="definition">Your argument is invalid.</column>
@@ -3408,7 +3492,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.08.17. -->
-      <column name="_id">91735</column>
+      <column name="_id">91770</column>
       <column name="entry_name">notlh veS, 'a tugh manotlhchoH je maH.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">War is obsolete, as we are in danger of becoming.</column>
@@ -3419,7 +3503,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">The first part of this sentence, {notlh veS:sen:nolink}, appears on {KGT p.47:src}.</column>
-      <column name="components">{notlh:v}, {veS:n}, {'a:conj}, {tugh:adv}, {ma-:v}, {notlh:v}, {-choH:v}, {je:adv}, {maH:n:2}</column>
+      <column name="components">{notlh:v}, {veS:n}, {'a:conj}, {tugh:adv}, {ma-:v}, {notlh:v}, {-choH:v}, {je:adv}, {maH:n:1h}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -3427,7 +3511,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {Star Trek VI:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91740</column>
+      <column name="_id">91780</column>
       <column name="entry_name">nov</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">alien, outsider, foreigner</column>
@@ -3446,7 +3530,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91750</column>
+      <column name="_id">91790</column>
       <column name="entry_name">nov</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be foreign, alien</column>
@@ -3465,7 +3549,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91760</column>
+      <column name="_id">91800</column>
       <column name="entry_name">noy</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be famous, well known</column>
@@ -3484,7 +3568,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91770</column>
+      <column name="_id">91810</column>
       <column name="entry_name">no'</column>
       <column name="part_of_speech">n:inhpl</column>
       <column name="definition">ancestors</column>
@@ -3503,7 +3587,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91780</column>
+      <column name="_id">91820</column>
       <column name="entry_name">no' DIr</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">ancestor hanging (wall ornament)</column>
@@ -3522,7 +3606,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91790</column>
+      <column name="_id">91830</column>
       <column name="entry_name">no' Hol</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">ancient language</column>
@@ -3542,7 +3626,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2015.10.28. -->
-      <column name="_id">91800</column>
+      <column name="_id">91840</column>
       <column name="entry_name">no'negh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">sulfur</column>
@@ -3561,7 +3645,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91810</column>
+      <column name="_id">91850</column>
       <column name="entry_name">no''och</column>
       <column name="part_of_speech">n:reg,body</column>
       <column name="definition">forehead</column>
@@ -3580,7 +3664,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91820</column>
+      <column name="_id">91860</column>
       <column name="entry_name">nu-</column>
       <column name="part_of_speech">v:pref</column>
       <column name="definition">he/she/it-us, they-us</column>
@@ -3588,7 +3672,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="synonyms"></column>
       <column name="antonyms">{wI-:v:pref}, {DI-:v:pref}</column>
       <column name="see_also">{mu-:v:pref}</column>
-      <column name="notes">{ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n}:{maH:n:2h} = {nu-:v:pref,nolink}</column>
+      <column name="notes">{ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n}:{maH:n:1h} = {nu-:v:pref,nolink}</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3599,7 +3683,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91830</column>
+      <column name="_id">91870</column>
       <column name="entry_name">nub</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be suspect</column>
@@ -3618,7 +3702,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91840</column>
+      <column name="_id">91880</column>
       <column name="entry_name">nubwI'</column>
       <!-- Not "deriv" because not derived from {nub} + {wI'}. -->
       <column name="part_of_speech">n</column>
@@ -3640,7 +3724,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91850</column>
+      <column name="_id">91890</column>
       <column name="entry_name">nuch</column>
       <column name="part_of_speech">n</column>
       <column name="definition">coward</column>
@@ -3659,7 +3743,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91860</column>
+      <column name="_id">91900</column>
       <column name="entry_name">nuch Hergh</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">aspirin</column>
@@ -3678,7 +3762,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91870</column>
+      <column name="_id">91910</column>
       <column name="entry_name">nuD</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">examine</column>
@@ -3697,7 +3781,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91880</column>
+      <column name="_id">91920</column>
       <column name="entry_name">nugh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">society; group of people with shared culture</column>
@@ -3716,7 +3800,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {HQ 4.4, p.11:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91890</column>
+      <column name="_id">91930</column>
       <column name="entry_name">nughQeD</column>
       <column name="part_of_speech">n</column>
       <column name="definition">sociology</column>
@@ -3735,7 +3819,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {KLI mailing list 2005.01.18:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91900</column>
+      <column name="_id">91940</column>
       <column name="entry_name">nughI'</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">twist knuckle into someone's head</column>
@@ -3754,7 +3838,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91910</column>
+      <column name="_id">91950</column>
       <column name="entry_name">nuH</column>
       <column name="part_of_speech">n:1,weap</column>
       <column name="definition">weapon</column>
@@ -3767,14 +3851,15 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="hidden_notes">"Nuke".</column>
       <column name="components"></column>
       <column name="examples">
-▶ {Hoch nuH qel:sen}</column>
+▶ {Hoch nuH qel:sen}
+▶ {vISeHmeH Hoch nuHmey Qay!:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91920</column>
+      <column name="_id">91960</column>
       <column name="entry_name">nuH</column>
       <column name="part_of_speech">n:2</column>
       <column name="definition">possibility</column>
@@ -3793,7 +3878,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91930</column>
+      <column name="_id">91970</column>
       <column name="entry_name">nuH bey'</column>
       <column name="part_of_speech">n:weap,deriv,fic</column>
       <column name="definition">Pride of Weapons</column>
@@ -3812,7 +3897,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {KCD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91940</column>
+      <column name="_id">91980</column>
       <column name="entry_name">nuH HoS 'och</column>
       <column name="part_of_speech">n:deriv,weap,fic</column>
       <column name="definition">weapon(s) power conduit</column>
@@ -3831,7 +3916,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91950</column>
+      <column name="_id">91990</column>
       <column name="entry_name">nuHHom</column>
       <column name="part_of_speech">n:deriv,weap</column>
       <!-- plural? -->
@@ -3851,7 +3936,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91960</column>
+      <column name="_id">92000</column>
       <column name="entry_name">nuHlIj DawIvpu', vaj yISuv!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">You have chosen your weapon, so fight!</column>
@@ -3870,7 +3955,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKW p.151:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91970</column>
+      <column name="_id">92010</column>
       <column name="entry_name">nuHmey</column>
       <column name="part_of_speech">n:deriv,plural</column>
       <column name="definition">arsenal</column>
@@ -3889,7 +3974,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91980</column>
+      <column name="_id">92020</column>
       <column name="entry_name">nuHpIn</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">weapons officer</column>
@@ -3908,7 +3993,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">91990</column>
+      <column name="_id">92030</column>
       <column name="entry_name">nuj</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">mouth</column>
@@ -3927,7 +4012,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92000</column>
+      <column name="_id">92040</column>
       <column name="entry_name">num</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">promote</column>
@@ -3950,14 +4035,14 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.15. -->
-      <column name="_id">92010</column>
+      <column name="_id">92050</column>
       <column name="entry_name">numagh!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">They have betrayed us!</column>
       <column name="definition_de">Sie haben uns verraten!</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{nutojbej!:sen}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -3969,7 +4054,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {Star Trek VI:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92020</column>
+      <column name="_id">92060</column>
       <column name="entry_name">nung</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">precede</column>
@@ -3988,7 +4073,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92030</column>
+      <column name="_id">92070</column>
       <column name="entry_name">nup</column>
       <column name="part_of_speech">v:i_c</column>
       <column name="definition">decrease</column>
@@ -4007,7 +4092,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92040</column>
+      <column name="_id">92080</column>
       <column name="entry_name">nuq</column>
       <column name="part_of_speech">ques</column>
       <column name="definition">what?</column>
@@ -4019,7 +4104,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
 
 Questions in English often map more naturally to imperatives in Klingon. If you want to ask a "what" question, consider using a command with a verb such as {ngu':v} instead.[2]  For example, consider {per:v}, {ja':v}, {Del:v}, etc.
 
-Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?:sen:nolink}  See {chay':ques}.</column>
+Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?:sen} See {chay':ques}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -4033,7 +4118,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
       <column name="source">[1] {TKD 6.4:src}, [2] {msn 1996.12.12:src}, [3] {CK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92050</column>
+      <column name="_id">92090</column>
       <column name="entry_name">nuqDaq</column>
       <column name="part_of_speech">ques</column>
       <column name="definition">where?</column>
@@ -4053,7 +4138,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.05. -->
-      <column name="_id">92060</column>
+      <column name="_id">92100</column>
       <column name="entry_name">nuqDaq Dochvam vIlan?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Where do I put this?  What do I do with this?</column>
@@ -4072,7 +4157,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
       <column name="source">[1] {TKD p.172:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92070</column>
+      <column name="_id">92110</column>
       <column name="entry_name">nuqDaq jIQong?</column>
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">Where do I sleep?</column>
@@ -4091,7 +4176,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
       <column name="source">[1] {TKD p.172:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92080</column>
+      <column name="_id">92120</column>
       <column name="entry_name">nuqDaq 'oH ...'e'?</column>
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">Where is a/the ...?</column>
@@ -4115,7 +4200,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
       <column name="source"></column>
     </table>
     <table name="mem">
-      <column name="_id">92090</column>
+      <column name="_id">92130</column>
       <column name="entry_name">nuqDaq 'oH bIQ'a' HeH'e'?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Where is the beach?</column>
@@ -4135,7 +4220,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
     </table>
     <table name="mem">
       <!-- Checked on: 2013.01.15. -->
-      <column name="_id">92100</column>
+      <column name="_id">92140</column>
       <column name="entry_name">nuqDaq 'oH juHlIj'e'?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Where do you live?  Where is your home?</column>
@@ -4156,7 +4241,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.16. -->
-      <column name="_id">92110</column>
+      <column name="_id">92150</column>
       <column name="entry_name">nuqDaq 'oH puchpa''e'?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Where is the bathroom?</column>
@@ -4175,7 +4260,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
       <column name="source">[1] {TKD p.170:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92120</column>
+      <column name="_id">92160</column>
       <column name="entry_name">nuqDaq 'oH Qe' QaQ'e'?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Where is a good restaurant?</column>
@@ -4194,7 +4279,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
       <column name="source">[1] {TKD p.170:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92130</column>
+      <column name="_id">92170</column>
       <column name="entry_name">nuqDaq yuch Dapol?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Where do you keep the chocolate?</column>
@@ -4213,7 +4298,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
       <column name="source">[1] {TKD p.172:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92140</column>
+      <column name="_id">92180</column>
       <column name="entry_name">nuqjatlh</column>
       <column name="part_of_speech">excl</column>
       <column name="definition">what did you say?  huh?  what?</column>
@@ -4233,7 +4318,7 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.15. -->
-      <column name="_id">92150</column>
+      <column name="_id">92190</column>
       <column name="entry_name">nuqneH</column>
       <column name="part_of_speech">excl</column>
       <column name="definition">what do you want? (greeting)</column>
@@ -4258,7 +4343,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/auqS6FR
       <column name="source">[1] {TKD:src}, [2] {KGT p.184:src}, [3] {msn 1997.09.01:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92160</column>
+      <column name="_id">92200</column>
       <column name="entry_name">nuq mI'lIj?</column>
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">What is your number?</column>
@@ -4278,7 +4363,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/auqS6FR
     </table>
     <table name="mem">
       <!-- Checked on: 2013.01.25. -->
-      <column name="_id">92170</column>
+      <column name="_id">92210</column>
       <column name="entry_name">nuq 'oH Dochvam'e'?</column>
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">What is this?</column>
@@ -4298,7 +4383,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/auqS6FR
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.15. -->
-      <column name="_id">92180</column>
+      <column name="_id">92220</column>
       <column name="entry_name">nuq 'oH ponglIj'e'?</column>
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">What is your name?</column>
@@ -4317,7 +4402,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/auqS6FR
       <column name="source"></column>
     </table>
     <table name="mem">
-      <column name="_id">92190</column>
+      <column name="_id">92230</column>
       <column name="entry_name">nuQ</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">annoy, bother</column>
@@ -4336,7 +4421,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/auqS6FR
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92200</column>
+      <column name="_id">92240</column>
       <column name="entry_name">nur</column>
       <column name="part_of_speech">n</column>
       <column name="definition">dignity</column>
@@ -4355,7 +4440,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/auqS6FR
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92210</column>
+      <column name="_id">92250</column>
       <column name="entry_name">nural</column>
       <column name="part_of_speech">n:place,fic</column>
       <column name="definition">Neural</column>
@@ -4374,7 +4459,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/auqS6FR
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92220</column>
+      <column name="_id">92260</column>
       <column name="entry_name">nuralngan</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">Neuralese</column>
@@ -4393,7 +4478,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/auqS6FR
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92230</column>
+      <column name="_id">92270</column>
       <column name="entry_name">nuS</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">ridicule</column>
@@ -4412,7 +4497,27 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/auqS6FR
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92240</column>
+      <!-- Checked on: 2017.08.20. -->
+      <column name="_id">92275</column>
+      <column name="entry_name">nutojbej!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">We've been betrayed!</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{numagh!:sen}</column>
+      <column name="notes">This means "They've definitely tricked us!"</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{nu-:v}, {toj:v}, {-bej:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek VI:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">92280</column>
       <column name="entry_name">nuv</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">person (humanoid)</column>
@@ -4448,7 +4553,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/auqS6FR
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">92250</column>
+      <column name="_id">92290</column>
       <column name="entry_name">nuyorgh</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">New York</column>
@@ -4467,7 +4572,7 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/auqS6FR
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">92260</column>
+      <column name="_id">92300</column>
       <column name="entry_name">nu'SIylan</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">New Zealand</column>

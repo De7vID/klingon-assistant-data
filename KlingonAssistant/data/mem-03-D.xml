@@ -228,6 +228,26 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="source">[1] {PK:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.08.20. -->
+      <column name="_id">30105</column>
+      <column name="entry_name">DaH machegh.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">We're returning now.</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This line was not subtitled.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{DaH:adv}, {ma-:v}, {chegh:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek VI:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">30110</column>
       <column name="entry_name">DaH yIDIl!</column>
       <column name="part_of_speech">sen:phr</column>
@@ -1117,31 +1137,11 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="_id">30540</column>
       <column name="entry_name">Degh</column>
       <column name="part_of_speech">n:1</column>
-      <column name="definition">helm</column>
-      <column name="definition_de">Steuer</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{'orwI':n}, {Degh:n:2}</column>
-      <column name="notes">This refers to a duty station on a ship, not to something worn on the head (which would be {mIv:n:1}).</column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}</column>
-    </table>
-    <table name="mem">
-      <!-- Checked on: 2012.11.28. -->
-      <column name="_id">30550</column>
-      <column name="entry_name">Degh</column>
-      <column name="part_of_speech">n:2</column>
       <column name="definition">medal, emblem, symbol, insignia</column>
       <column name="definition_de">Medaille, Emblem, Zeichen, Ehren-/Abzeichen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tuq Degh:n}, {ngutlh:n}, {tIq'ghob:n:archaic,hyp}, {joqwI':n}, {'oS:v}, {maQ:n}, {Degh:n:1}</column>
+      <column name="see_also">{tuq Degh:n}, {ngutlh:n}, {pIqaD:n}, {joqwI':n}, {'oS:v}, {maQ:n}, {tIq'ghob:n:archaic,hyp}, {Degh:n:2}</column>
       <column name="notes">This can also refer to the suits in a deck of playing cards, for which see {meyrI':n}, {por:n}, {Sor:n}, and {'eSpeD:n}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -1158,6 +1158,26 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.28. -->
+      <column name="_id">30550</column>
+      <column name="entry_name">Degh</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">helm</column>
+      <column name="definition_de">Steuer</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{'orwI':n}, {Degh:n:1}</column>
+      <column name="notes">This refers to a duty station on a ship, not to something worn on the head (which would be {mIv:n:1}).</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2012.11.28. -->
       <column name="_id">30560</column>
       <column name="entry_name">Degh</column>
       <column name="part_of_speech">v:slang</column>
@@ -1165,7 +1185,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="definition_de">planlos agieren, improvisieren</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Degh:n:1}, {DeghwI':n}</column>
+      <column name="see_also">{Degh:n:2}, {DeghwI':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -1186,7 +1206,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="definition_de">Steuermann</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Degh:n:1}</column>
+      <column name="see_also">{Degh:n:2}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -1691,7 +1711,8 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="notes_de"></column>
       <column name="hidden_notes">If you're looking for someone named "Data", see {qoqyoq:n:hyp}.</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {yo'SeH yaHnIvvo' potlh De' wIHevtaH.:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -1837,11 +1858,11 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2017.08.17. -->
-      <column name="_id">30895</column>
+      <column name="_id">30900</column>
       <column name="entry_name">De' yIlI'... DaH!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Transmit data... Now!</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Sende die Daten ... jetzt!</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1856,7 +1877,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="source">[1] {Star Trek III:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">30900</column>
+      <column name="_id">30910</column>
       <column name="entry_name">De'vID</column>
       <column name="part_of_speech">n:name,deriv</column>
       <column name="definition">De'vID</column>
@@ -1876,7 +1897,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">30910</column>
+      <column name="_id">30920</column>
       <column name="entry_name">De'wI'</column>
       <!-- Not "deriv" because not derived from {De'} + {wI'}. -->
       <column name="part_of_speech">n</column>
@@ -1897,7 +1918,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2014.11.16. -->
-      <column name="_id">30920</column>
+      <column name="_id">30930</column>
       <column name="entry_name">De'wI' loHjan</column>
       <column name="part_of_speech">n:alt</column>
       <column name="definition">{loHjan:n}</column>
@@ -1916,7 +1937,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="source"></column>
     </table>
     <table name="mem">
-      <column name="_id">30930</column>
+      <column name="_id">30940</column>
       <column name="entry_name">De'wI' nItlh 'echlet</column>
       <column name="part_of_speech">n:alt</column>
       <column name="definition">{nItlh 'echlet:n}</column>
@@ -1935,7 +1956,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="source"></column>
     </table>
     <table name="mem">
-      <column name="_id">30940</column>
+      <column name="_id">30950</column>
       <column name="entry_name">De'wI' pat</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">computer system</column>
@@ -1954,7 +1975,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">30950</column>
+      <column name="_id">30960</column>
       <column name="entry_name">De'wI' Qulpa'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">computer research lab</column>
@@ -1973,7 +1994,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">30960</column>
+      <column name="_id">30970</column>
       <column name="entry_name">De'wI' SoSbor'a'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">main computer core</column>
@@ -1984,7 +2005,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="notes">This term is normally used only for fairly big (or powerful) computers.[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{De'wI':n}, {SoSbor:n}, {-'a':n}</column>
+      <column name="components">{De'wI':n}, {SoSbor'a':n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -1993,7 +2014,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2014.11.16. -->
-      <column name="_id">30970</column>
+      <column name="_id">30980</column>
       <column name="entry_name">De'wI' tIS</column>
       <column name="part_of_speech">n:alt</column>
       <column name="definition">{De'wI'Hom:n}</column>
@@ -2012,7 +2033,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="source">[1] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">30980</column>
+      <column name="_id">30990</column>
       <column name="entry_name">De'wI' 'echlet Hab</column>
       <column name="part_of_speech">n:alt</column>
       <column name="definition">{'echlet Hab:n}</column>
@@ -2032,7 +2053,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2014.11.16. -->
-      <column name="_id">30990</column>
+      <column name="_id">31000</column>
       <column name="entry_name">De'wI'Hom</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">laptop computer</column>
@@ -2052,7 +2073,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31000</column>
+      <column name="_id">31010</column>
       <column name="entry_name">DI</column>
       <column name="part_of_speech">n</column>
       <column name="definition">litter, rubble, debris</column>
@@ -2073,7 +2094,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31010</column>
+      <column name="_id">31020</column>
       <column name="entry_name">DI-</column>
       <column name="part_of_speech">v:pref</column>
       <column name="definition">we-them</column>
@@ -2081,7 +2102,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="synonyms"></column>
       <column name="antonyms">{nu-:v:pref}</column>
       <column name="see_also">{vI-:v:pref}, {wI-:v:pref}</column>
-      <column name="notes">{maH:n:2h}:{chaH:n}/{bIH:n} = {DI-:v:pref,nolink}</column>
+      <column name="notes">{maH:n:1h}:{chaH:n}/{bIH:n} = {DI-:v:pref,nolink}</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -2093,7 +2114,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31020</column>
+      <column name="_id">31030</column>
       <column name="entry_name">DIb</column>
       <column name="part_of_speech">n</column>
       <column name="definition">right, privilege</column>
@@ -2114,7 +2135,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31030</column>
+      <column name="_id">31040</column>
       <column name="entry_name">DIch</column>
       <column name="part_of_speech">n</column>
       <column name="definition">certainty</column>
@@ -2134,7 +2155,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31040</column>
+      <column name="_id">31050</column>
       <column name="entry_name">-DIch</column>
       <column name="part_of_speech">n:num,suff</column>
       <column name="definition">ordinal number (suffix)</column>
@@ -2156,7 +2177,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2016.07.25. -->
-      <column name="_id">31050</column>
+      <column name="_id">31060</column>
       <column name="entry_name">DIgh</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">undertake, deal with</column>
@@ -2177,7 +2198,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31060</column>
+      <column name="_id">31070</column>
       <column name="entry_name">DIghna'</column>
       <column name="part_of_speech">n:fic</column>
       <column name="definition">type of plant, digna</column>
@@ -2197,7 +2218,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31070</column>
+      <column name="_id">31080</column>
       <column name="entry_name">DIghna' por</column>
       <column name="part_of_speech">n:deriv,fic</column>
       <column name="definition">digna leaf</column>
@@ -2217,7 +2238,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2017.08.17. -->
-      <column name="_id">31075</column>
+      <column name="_id">31090</column>
       <column name="entry_name">DIHIvlaHtaHvIS DaH DIHIvnIS!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Attack them now, while we still can!</column>
@@ -2237,7 +2258,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31080</column>
+      <column name="_id">31100</column>
       <column name="entry_name">DIj</column>
       <column name="part_of_speech">v:1,t</column>
       <column name="definition">slide sword blade along opponent's blade</column>
@@ -2257,7 +2278,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31090</column>
+      <column name="_id">31110</column>
       <column name="entry_name">DIj</column>
       <column name="part_of_speech">v:2,t</column>
       <column name="definition">use a pigment stick, paint with pigment stick</column>
@@ -2276,27 +2297,8 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31100</column>
-      <column name="entry_name">DIj</column>
-      <column name="part_of_speech">n:hyp</column>
-      <column name="definition">court, trial?</column>
-      <column name="definition_de">Gerichtssaal?</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This element is not known to exist as a word, but appears as a component of {bo'DIj:n} and {ghIpDIj:v}. Its homophony to {DIj:v:1} suggests that it describes two parties pitted against one another.</column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source"></column>
-    </table>
-    <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31110</column>
+      <column name="_id">31120</column>
       <column name="entry_name">DIl</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">pay for</column>
@@ -2317,7 +2319,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="source">[1] {TKD:src}, [2] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31120</column>
+      <column name="_id">31130</column>
       <column name="entry_name">DIlmeH Huch</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">price</column>
@@ -2338,7 +2340,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31130</column>
+      <column name="_id">31140</column>
       <column name="entry_name">DIlyum</column>
       <column name="part_of_speech">n:fic</column>
       <column name="definition">trillium (a traded commodity)</column>
@@ -2358,7 +2360,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31140</column>
+      <column name="_id">31150</column>
       <column name="entry_name">DIn</column>
       <column name="part_of_speech">n</column>
       <column name="definition">open entryway (to corridor, tunnel, conduit, Jeffries tube, branch of sewer)</column>
@@ -2378,7 +2380,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2013.08.02. -->
-      <column name="_id">31150</column>
+      <column name="_id">31160</column>
       <column name="entry_name">DIng</column>
       <column name="part_of_speech">v:i_c</column>
       <column name="definition">spin</column>
@@ -2398,7 +2400,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31160</column>
+      <column name="_id">31170</column>
       <column name="entry_name">DIp</column>
       <column name="part_of_speech">n</column>
       <column name="definition">noun</column>
@@ -2451,7 +2453,7 @@ Noun Type 5: Syntactic markers
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31170</column>
+      <column name="_id">31180</column>
       <column name="entry_name">DIr</column>
       <column name="part_of_speech">n</column>
       <column name="definition">skin</column>
@@ -2471,7 +2473,7 @@ Noun Type 5: Syntactic markers
     </table>
     <table name="mem">
       <!-- Checked on: 2015.10.28. -->
-      <column name="_id">31180</column>
+      <column name="_id">31190</column>
       <column name="entry_name">DIr bID</column>
       <column name="part_of_speech">n:alt</column>
       <column name="definition">{DIr paH bID:n}</column>
@@ -2491,7 +2493,7 @@ Noun Type 5: Syntactic markers
     </table>
     <table name="mem">
       <!-- Checked on: 2015.10.28. -->
-      <column name="_id">31190</column>
+      <column name="_id">31200</column>
       <column name="entry_name">DIr paH bID</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">kilt-like garment</column>
@@ -2510,7 +2512,7 @@ Noun Type 5: Syntactic markers
       <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31200</column>
+      <column name="_id">31210</column>
       <column name="entry_name">DIr QanwI' taS</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">suntan lotion</column>
@@ -2529,7 +2531,7 @@ Noun Type 5: Syntactic markers
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31210</column>
+      <column name="_id">31220</column>
       <column name="entry_name">DIr rop</column>
       <column name="part_of_speech">n:archaic,deriv</column>
       <column name="definition">a type of skin disease</column>
@@ -2549,7 +2551,7 @@ Noun Type 5: Syntactic markers
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31220</column>
+      <column name="_id">31230</column>
       <column name="entry_name">DIr 'In</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">skin drum</column>
@@ -2570,7 +2572,7 @@ Noun Type 5: Syntactic markers
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31230</column>
+      <column name="_id">31240</column>
       <column name="entry_name">DIron</column>
       <column name="part_of_speech">n</column>
       <column name="definition">bagpipes</column>
@@ -2590,7 +2592,7 @@ Noun Type 5: Syntactic markers
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31240</column>
+      <column name="_id">31250</column>
       <column name="entry_name">DIS</column>
       <column name="part_of_speech">n:1</column>
       <column name="definition">cave</column>
@@ -2610,7 +2612,7 @@ Noun Type 5: Syntactic markers
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31250</column>
+      <column name="_id">31260</column>
       <column name="entry_name">DIS</column>
       <column name="part_of_speech">n:2</column>
       <column name="definition">year (Klingon)</column>
@@ -2630,7 +2632,7 @@ Noun Type 5: Syntactic markers
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31260</column>
+      <column name="_id">31270</column>
       <column name="entry_name">DIS</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">confess</column>
@@ -2650,7 +2652,7 @@ Noun Type 5: Syntactic markers
     </table>
     <table name="mem">
       <!-- Checked on: 2013.12.14. -->
-      <column name="_id">31270</column>
+      <column name="_id">31280</column>
       <column name="entry_name">DIS chu'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">New Year</column>
@@ -2670,7 +2672,7 @@ Noun Type 5: Syntactic markers
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31280</column>
+      <column name="_id">31290</column>
       <column name="entry_name">DIv</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be guilty</column>
@@ -2690,7 +2692,7 @@ Noun Type 5: Syntactic markers
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31290</column>
+      <column name="_id">31300</column>
       <column name="entry_name">DIvI'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">federation, organization, association, league, union</column>
@@ -2712,7 +2714,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31300</column>
+      <column name="_id">31310</column>
       <column name="entry_name">DIvI' Hol</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">Federation Standard, English (language)</column>
@@ -2731,7 +2733,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
       <column name="source">[1] {CK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31310</column>
+      <column name="_id">31320</column>
       <column name="entry_name">DIvI' Hol Dajatlh'a'?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Do you speak Federation Standard?</column>
@@ -2750,8 +2752,28 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
       <column name="source">[1] {CK:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">31330</column>
+      <column name="entry_name">DIvI' Se' wI'IjtaHvIS DaH ngoqDe' wIHevta'.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">We've just received an encoded message on the Federation frequency.</column>
+      <column name="definition_de">Wir haben jetzt eine verschlüsselte Nachricht auf der Föderationsfrequenz empfangen.</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This line was cut from {Star Trek V:src}</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{DIvI':n}, {Se':n}, {wI-:v}, {'Ij:v}, {-taH:v}, {-vIS:v}, {DaH:adv}, {ngoqDe':n}, {wI-:v}, {Hev:v}, {-ta':v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {HQ 8.4, p.12, Dec. 1999:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31320</column>
+      <column name="_id">31340</column>
       <column name="entry_name">DIvI'may'Duj</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">Federation battle cruiser</column>
@@ -2762,7 +2784,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{DIvI':n}, {may':n}, {Duj:n:2}</column>
+      <column name="components">{DIvI':n}, {may':n}, {Duj:n:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -2771,7 +2793,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">31330</column>
+      <column name="_id">31350</column>
       <column name="entry_name">DI'on</column>
       <column name="part_of_speech">n</column>
       <column name="definition">characteristic, trait</column>
@@ -2791,7 +2813,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2016.07.25. -->
-      <column name="_id">31340</column>
+      <column name="_id">31360</column>
       <column name="entry_name">DI'ruj</column>
       <column name="part_of_speech">n</column>
       <column name="definition">reality</column>
@@ -2811,7 +2833,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2016.07.25. -->
-      <column name="_id">31350</column>
+      <column name="_id">31370</column>
       <column name="entry_name">DI'ruj velqa'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">virtual reality</column>
@@ -2832,7 +2854,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31360</column>
+      <column name="_id">31380</column>
       <column name="entry_name">Do</column>
       <column name="part_of_speech">n</column>
       <column name="definition">velocity</column>
@@ -2851,7 +2873,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31370</column>
+      <column name="_id">31390</column>
       <column name="entry_name">Do juvwI'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">speedometer</column>
@@ -2871,7 +2893,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31380</column>
+      <column name="_id">31400</column>
       <column name="entry_name">Do Qe'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">fast-food restaurant</column>
@@ -2890,7 +2912,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31390</column>
+      <column name="_id">31410</column>
       <column name="entry_name">Do QIn</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">instant message</column>
@@ -2910,7 +2932,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31400</column>
+      <column name="_id">31420</column>
       <column name="entry_name">Doch</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be rude</column>
@@ -2930,7 +2952,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31410</column>
+      <column name="_id">31430</column>
       <column name="entry_name">Doch</column>
       <column name="part_of_speech">n</column>
       <column name="definition">thing</column>
@@ -2950,7 +2972,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2013.01.25. -->
-      <column name="_id">31420</column>
+      <column name="_id">31440</column>
       <column name="entry_name">... 'oH Dochvam'e'.</column>
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">This is a ... .</column>
@@ -2970,7 +2992,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.01. -->
-      <column name="_id">31430</column>
+      <column name="_id">31450</column>
       <column name="entry_name">Dochvetlh DIlmeH Huch 'ar DaneH?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">How much do you want for that?</column>
@@ -2989,7 +3011,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
       <column name="source">[1] {TKD p.171:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31440</column>
+      <column name="_id">31460</column>
       <column name="entry_name">Dochvetlh vISoplaHbe'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">I can't eat that.</column>
@@ -3008,7 +3030,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
       <column name="source">[1] {TKD p.171:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31450</column>
+      <column name="_id">31470</column>
       <column name="entry_name">Dochvetlh vItlhutlhlaHbe'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">I can't drink that.</column>
@@ -3028,7 +3050,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31460</column>
+      <column name="_id">31480</column>
       <column name="entry_name">DoD</column>
       <column name="part_of_speech">n</column>
       <column name="definition">mark (in coordinates)</column>
@@ -3041,8 +3063,8 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {He wej pagh Soch DoD cha':sen:nolink} "course 3-0-7-mark-2"
-▶ {He pagh-pagh-pagh-DoD-cha' yInab!:sen:nolink} "Plot course zero-zero-zero, mark two."</column>
+▶ {He wej pagh Soch DoD cha':sen:nolink} "course 3-0-7-mark-2"[2]
+▶ {He pagh-pagh-pagh-DoD-cha' yInab!:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -3050,7 +3072,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31470</column>
+      <column name="_id">31490</column>
       <column name="entry_name">Dogh</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be foolish, silly</column>
@@ -3070,7 +3092,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31480</column>
+      <column name="_id">31500</column>
       <column name="entry_name">Doghjey</column>
       <column name="part_of_speech">n</column>
       <column name="definition">unconditional surrender</column>
@@ -3090,7 +3112,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31490</column>
+      <column name="_id">31510</column>
       <column name="entry_name">DoH</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">back away from, back off, get away from</column>
@@ -3111,7 +3133,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31500</column>
+      <column name="_id">31520</column>
       <column name="entry_name">DoHmoH</column>
       <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">drive back</column>
@@ -3131,7 +3153,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2013.11.10. -->
-      <column name="_id">31510</column>
+      <column name="_id">31530</column>
       <column name="entry_name">Doj</column>
       <!-- Not deriv because don't want to show components. -->
       <column name="part_of_speech">n:inhps</column>
@@ -3152,7 +3174,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2013.11.10. -->
-      <column name="_id">31520</column>
+      <column name="_id">31540</column>
       <column name="entry_name">Dojmey</column>
       <!-- Not deriv because don't want to show components. -->
       <column name="part_of_speech">n:inhpl</column>
@@ -3175,7 +3197,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31530</column>
+      <column name="_id">31550</column>
       <column name="entry_name">Doj</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be impressive</column>
@@ -3195,7 +3217,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31540</column>
+      <column name="_id">31560</column>
       <column name="entry_name">Dol</column>
       <column name="part_of_speech">n</column>
       <column name="definition">entity, whole</column>
@@ -3217,7 +3239,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31550</column>
+      <column name="_id">31570</column>
       <column name="entry_name">Dom</column>
       <column name="part_of_speech">n</column>
       <column name="definition">radan (crude dilithium crystal)</column>
@@ -3237,7 +3259,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2014.11.12. -->
-      <column name="_id">31560</column>
+      <column name="_id">31580</column>
       <column name="entry_name">Don</column>
       <!-- The "go parallel to" definition suggests that this verb is actually transitive, however, the noun {HeDon} also suggests that {Don} acts like a verb of quality. -->
       <column name="part_of_speech">v:ambi</column>
@@ -3258,7 +3280,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2014.11.12. -->
-      <column name="_id">31570</column>
+      <column name="_id">31590</column>
       <column name="entry_name">DonHa'</column>
       <!-- This should have the same transitivity as {Don:v}. -->
       <column name="part_of_speech">v:ambi,deriv</column>
@@ -3279,7 +3301,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31580</column>
+      <column name="_id">31600</column>
       <column name="entry_name">Dop</column>
       <column name="part_of_speech">n</column>
       <!-- Possibly means "face" in the geometric sense. -->
@@ -3302,7 +3324,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31590</column>
+      <column name="_id">31610</column>
       <column name="entry_name">DopDaq qul yIchenmoH QobDI' ghu'.</column>
       <column name="part_of_speech">sen:rp</column>
       <column name="definition">Set fire on the side when there is danger.</column>
@@ -3322,7 +3344,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31600</column>
+      <column name="_id">31620</column>
       <column name="entry_name">Doq</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be orange, red</column>
@@ -3341,7 +3363,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
       <column name="source">[1] {TKD:src}, [2] {s.k 1998.02.21:src} (reprinted in {HQ 8.1, p.7, Mar. 1999:src})</column>
     </table>
     <table name="mem">
-      <column name="_id">31610</column>
+      <column name="_id">31630</column>
       <column name="entry_name">Doq bIQtIq bIQ</column>
       <column name="part_of_speech">sen:idiom</column>
       <column name="definition">something momentous has happened</column>
@@ -3361,7 +3383,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31620</column>
+      <column name="_id">31640</column>
       <column name="entry_name">Doq 'ej Qaj wuS rur</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">to be a particular shade of brown</column>
@@ -3381,7 +3403,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31630</column>
+      <column name="_id">31650</column>
       <column name="entry_name">Doq 'ej wovbe'</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">be brown</column>
@@ -3401,7 +3423,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
     </table>
     <table name="mem">
       <!-- Checked on: 2013.01.19. -->
-      <column name="_id">31640</column>
+      <column name="_id">31660</column>
       <column name="entry_name">Doq'a' SuvwI'pu'?</column>
       <column name="part_of_speech">sen:joke</column>
       <column name="definition">Are warriors red?</column>
@@ -3430,7 +3452,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.04. -->
-      <column name="_id">31650</column>
+      <column name="_id">31670</column>
       <column name="entry_name">DoQ</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">claim (territory)</column>
@@ -3454,7 +3476,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">31660</column>
+      <column name="_id">31680</column>
       <column name="entry_name">DoQmIv</column>
       <column name="part_of_speech">n</column>
       <column name="definition">sink for cleaning hands, face, food, etc.</column>
@@ -3474,7 +3496,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31670</column>
+      <column name="_id">31690</column>
       <column name="entry_name">Dor</column>
       <column name="part_of_speech">v:1,t</column>
       <column name="definition">escort</column>
@@ -3495,7 +3517,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31680</column>
+      <column name="_id">31700</column>
       <column name="entry_name">Dor</column>
       <column name="part_of_speech">v:2,i</column>
       <column name="definition">end (of a period of time)</column>
@@ -3516,7 +3538,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31690</column>
+      <column name="_id">31710</column>
       <column name="entry_name">DoS</column>
       <column name="part_of_speech">n:inhps</column>
       <column name="definition">target</column>
@@ -3531,6 +3553,9 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
       <column name="hidden_notes"></column>
       <column name="components">{ray':n:inhpl}</column>
       <column name="examples">
+▶ {baHwI', DoS yIbuS. QuQ neH.:sen}
+▶ {matHa', DoS jonta' neH.:sen}
+▶ {wa' DoS neH yIbuS.:sen}
 ▶ {wa' DoS wIqIp.:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -3538,7 +3563,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31700</column>
+      <column name="_id">31720</column>
       <column name="entry_name">DoS chIl</column>
       <column name="part_of_speech">sen:idiom</column>
       <column name="definition">to digress</column>
@@ -3557,7 +3582,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
       <column name="source">[1] {qep'a' 2008:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31710</column>
+      <column name="_id">31730</column>
       <column name="entry_name">DoSmey DIqIp.</column>
       <column name="part_of_speech">sen:alt</column>
       <column name="definition">{cha' DoSmey DIqIp.:sen}</column>
@@ -3576,7 +3601,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
       <column name="source">[1] {KGT p.106:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31720</column>
+      <column name="_id">31740</column>
       <column name="entry_name">DoS wIqIp.</column>
       <column name="part_of_speech">sen:alt</column>
       <column name="definition">{wa' DoS wIqIp.:sen}</column>
@@ -3595,8 +3620,28 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
       <column name="source">[1] {KGT p.106:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">31750</column>
+      <column name="entry_name">DoS wIpuStaH.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">We have a target in sight.</column>
+      <column name="definition_de">Wir haben ein Ziel in Sicht.</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{DoS:n}, {wI-:v}, {puS:v:2}, {-taH:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek V:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31730</column>
+      <column name="_id">31760</column>
       <column name="entry_name">Dotlh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">status</column>
@@ -3616,7 +3661,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31740</column>
+      <column name="_id">31770</column>
       <column name="entry_name">Dov'agh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">flute, fife</column>
@@ -3636,7 +3681,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31750</column>
+      <column name="_id">31780</column>
       <column name="entry_name">DoyIchlan</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Germany</column>
@@ -3656,7 +3701,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31760</column>
+      <column name="_id">31790</column>
       <column name="entry_name">DoyIchlan Hol</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">German (language)</column>
@@ -3676,7 +3721,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31770</column>
+      <column name="_id">31800</column>
       <column name="entry_name">Doy'</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be tired</column>
@@ -3695,7 +3740,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31780</column>
+      <column name="_id">31810</column>
       <column name="entry_name">Doy'yuS</column>
       <column name="part_of_speech">n:place,fic</column>
       <column name="definition">Troyius</column>
@@ -3715,7 +3760,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31790</column>
+      <column name="_id">31820</column>
       <column name="entry_name">Do'</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be fortunate, lucky</column>
@@ -3728,15 +3773,15 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {bach Do', qaH!:sen:nolink} "A lucky shot, sir!"[2]</column>
+▶ {bach Do', qaH!:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}, [2] {Star Trek III:src}</column>
+      <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31800</column>
+      <column name="_id">31830</column>
       <column name="entry_name">Do'</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">luckily, with luck</column>
@@ -3755,27 +3800,8 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31810</column>
-      <column name="entry_name">Do'</column>
-      <column name="part_of_speech">n:archaic,hyp</column>
-      <column name="definition">ship, vessel</column>
-      <column name="definition_de">Schiff, Fahrzeug</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">According to {TKD p.20:src}, it's likely that {Do':n:archaic,hyp,nolink} is an archaic word for the modern {Duj:n:2}. This conjecture is supported by {'ejDo':n} and {Delaq Do':excl}.</column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD p.20:src}</column>
-    </table>
-    <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31820</column>
+      <column name="_id">31840</column>
       <column name="entry_name">Do'Ha'</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">unfortunately</column>
@@ -3795,7 +3821,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31830</column>
+      <column name="_id">31850</column>
       <column name="entry_name">Do'Ha'</column>
       <column name="part_of_speech">v:is,deriv</column>
       <column name="definition">be unfortunate</column>
@@ -3814,7 +3840,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31840</column>
+      <column name="_id">31860</column>
       <column name="entry_name">Do'Ha'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">That is unfortunate.</column>
@@ -3834,7 +3860,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.30. -->
-      <column name="_id">31850</column>
+      <column name="_id">31870</column>
       <column name="entry_name">Do'natu vagh</column>
       <column name="part_of_speech">n</column>
       <column name="definition">Donatu V</column>
@@ -3854,7 +3880,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31860</column>
+      <column name="_id">31880</column>
       <column name="entry_name">Du-</column>
       <column name="part_of_speech">v:pref</column>
       <column name="definition">he/she/it-you</column>
@@ -3874,7 +3900,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31870</column>
+      <column name="_id">31890</column>
       <column name="entry_name">Dub</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">back (of body)</column>
@@ -3894,7 +3920,7 @@ Watch a lesson on this joke: {YouTube video:url:http://www.youtube.com/v/HciuEJS
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31880</column>
+      <column name="_id">31900</column>
       <column name="entry_name">Dub</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">improve</column>
@@ -3916,7 +3942,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->
-      <column name="_id">31890</column>
+      <column name="_id">31910</column>
       <column name="entry_name">Dubotchugh yIpummoH.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">If it's in your way, knock it down.</column>
@@ -3936,7 +3962,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31900</column>
+      <column name="_id">31920</column>
       <column name="entry_name">DuD</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">mix</column>
@@ -3956,7 +3982,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31910</column>
+      <column name="_id">31930</column>
       <column name="entry_name">DuDwI'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">stirring stick</column>
@@ -3976,7 +4002,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31920</column>
+      <column name="_id">31940</column>
       <column name="entry_name">Dugh</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be vigilant</column>
@@ -3996,7 +4022,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31930</column>
+      <column name="_id">31950</column>
       <column name="entry_name">DuH</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be possible</column>
@@ -4017,7 +4043,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31940</column>
+      <column name="_id">31960</column>
       <column name="entry_name">DuH</column>
       <column name="part_of_speech">n</column>
       <column name="definition">possibility, option</column>
@@ -4037,34 +4063,9 @@ This verb is used for improvement of a more abstract nature, such as in status, 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31950</column>
+      <column name="_id">31970</column>
       <column name="entry_name">Duj</column>
-      <column name="part_of_speech">n:1,inhpl,inhps</column>
-      <column name="definition">instinct, instincts</column>
-      <column name="definition_de">Instinkte</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{vaj Duj:n}</column>
-      <column name="notes">It is grammatically correct to treat this word as singular (a bundle of instincts) or plural (individual instincts).[2, p.27]</column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <!-- Even though this word is an inherent plural/singular form of
-           itself, leave components empty so it won't be displayed. -->
-      <column name="components"></column>
-      <column name="examples">
-▶ {Duj tIvoqtaH.:sen}
-▶ {DujlIj yIvoq.:sen}
-▶ {vaj Duj chIj:sen:idiom}</column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}, [2] {TKW:src}</column>
-    </table>
-    <table name="mem">
-      <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31960</column>
-      <column name="entry_name">Duj</column>
-      <column name="part_of_speech">n:2</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">ship, vessel</column>
       <column name="definition_de">Schiff, Raumschiff</column>
       <column name="synonyms"></column>
@@ -4088,7 +4089,32 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31970</column>
+      <column name="_id">31980</column>
+      <column name="entry_name">Duj</column>
+      <column name="part_of_speech">n:2,inhpl,inhps</column>
+      <column name="definition">instinct, instincts</column>
+      <column name="definition_de">Instinkte</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{vaj Duj:n}</column>
+      <column name="notes">It is grammatically correct to treat this word as singular (a bundle of instincts) or plural (individual instincts).[2, p.27]</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <!-- Even though this word is an inherent plural/singular form of
+           itself, leave components empty so it won't be displayed. -->
+      <column name="components"></column>
+      <column name="examples">
+▶ {Duj tIvoqtaH.:sen}
+▶ {DujlIj yIvoq.:sen}
+▶ {vaj Duj chIj:sen:idiom}</column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {TKD:src}, [2] {TKW:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2012.11.29. -->
+      <column name="_id">31990</column>
       <column name="entry_name">Duj ngaDHa'</column>
       <column name="part_of_speech">n:slang,deriv</column>
       <column name="definition">irresponsible person, undisciplined person</column>
@@ -4099,7 +4125,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Duj:n:2}, {ngaD:v}, {-Ha':v}</column>
+      <column name="components">{Duj:n:1}, {ngaD:v}, {-Ha':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -4108,7 +4134,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">31980</column>
+      <column name="_id">32000</column>
       <column name="entry_name">Duj tIvoqtaH.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Always trust your instincts.</column>
@@ -4119,7 +4145,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Duj:n:1}, {tI-:v}, {voq:v}, {-taH:v}</column>
+      <column name="components">{Duj:n:2}, {tI-:v}, {voq:v}, {-taH:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -4127,7 +4153,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="source">[1] {TKD p.170:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">31990</column>
+      <column name="_id">32010</column>
       <column name="entry_name">DujDaj HubtaHvIS Hegh 'e' tul Hoch tlhIngan.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">To die defending his ship is the hope of every Klingon.</column>
@@ -4138,7 +4164,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Duj:n:2}, {-Daj:n}, {Hub:v}, {-taH:v}, {-vIS:v}, {Hegh:v}, {'e':n}, {tul:v}, {Hoch:n}, {tlhIngan:n}</column>
+      <column name="components">{Duj:n:1}, {-Daj:n}, {Hub:v}, {-taH:v}, {-vIS:v}, {Hegh:v}, {'e':n}, {tul:v}, {Hoch:n}, {tlhIngan:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -4146,8 +4172,28 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="source">[1] {TKW p.74:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">32020</column>
+      <column name="entry_name">DujHomDaq ghaHtaH.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">He's on the shuttlecraft.</column>
+      <column name="definition_de">Er verweilt im Shuttle.</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{lupDujHom:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{Duj:n:1}, {-Hom:n}, {-Daq:n}, {ghaH:n}, {-taH:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek V:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2012.12.01. -->
-      <column name="_id">32000</column>
+      <column name="_id">32030</column>
       <column name="entry_name">Dujeychugh jagh nIv yItuHQo'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">There is nothing shameful in falling before a superior enemy.</column>
@@ -4167,7 +4213,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">32010</column>
+      <column name="_id">32040</column>
       <column name="entry_name">DujlIj yIvoq.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Trust your instincts.</column>
@@ -4178,7 +4224,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Duj:n:1}, {-lIj:n}, {yI:v}, {voq:v}</column>
+      <column name="components">{Duj:n:2}, {-lIj:n}, {yI:v}, {voq:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -4186,7 +4232,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="source">[1] {TKW p.27:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">32020</column>
+      <column name="_id">32050</column>
       <column name="entry_name">Dujmey law' chIjpu'</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">has navigated many ships</column>
@@ -4197,7 +4243,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes">This expression means "be experienced".</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Duj:n:2}, {-mey:n}, {law':v}, {chIj:v}, {-pu':v}</column>
+      <column name="components">{Duj:n:1}, {-mey:n}, {law':v}, {chIj:v}, {-pu':v}</column>
       <column name="examples">
 ▶ {Dujmey law' DachIjpu':sen:nolink} "You have navigated many ships", i.e., "You are experienced".</column>
       <column name="examples_de"></column>
@@ -4207,7 +4253,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
     </table>
     <table name="mem">
       <!-- Checked on: 2014.01.27. -->
-      <column name="_id">32030</column>
+      <column name="_id">32060</column>
       <column name="entry_name">DujtlhuQ</column>
       <column name="part_of_speech">n</column>
       <column name="definition">star (geometry)</column>
@@ -4217,7 +4263,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="see_also">{mey':n}, {QIn:n:2}, {'ejvoH:n}</column>
       <column name="notes">This refers to the geometric figure, and not to an astronomical body, for which see {Hov:n}.</column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">This seems to be made up of the words {Duj:n:2} and {tlhuQ:n}.
+      <column name="hidden_notes">This seems to be made up of the words {Duj:n:1} and {tlhuQ:n}.
 
 The logo of Star Alliance, the largest airline alliance on Earth, is often painted on the tailfins of its members' airplanes.</column>
       <column name="components"></column>
@@ -4229,7 +4275,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">32040</column>
+      <column name="_id">32070</column>
       <column name="entry_name">Dum</column>
       <column name="part_of_speech">v:i</column>
       <column name="definition">nap</column>
@@ -4249,7 +4295,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">32050</column>
+      <column name="_id">32080</column>
       <column name="entry_name">Dun</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be wonderful, great</column>
@@ -4271,7 +4317,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">32060</column>
+      <column name="_id">32090</column>
       <column name="entry_name">Dung</column>
       <column name="part_of_speech">n</column>
       <column name="definition">area above, area overhead</column>
@@ -4291,7 +4337,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">32070</column>
+      <column name="_id">32100</column>
       <column name="entry_name">DungluQ</column>
       <column name="part_of_speech">n</column>
       <column name="definition">noon</column>
@@ -4311,7 +4357,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">32080</column>
+      <column name="_id">32110</column>
       <column name="entry_name">Dup</column>
       <column name="part_of_speech">n</column>
       <column name="definition">strategy</column>
@@ -4331,7 +4377,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">32090</column>
+      <column name="_id">32120</column>
       <column name="entry_name">Duq</column>
       <column name="part_of_speech">n</column>
       <column name="definition">bowl (small)</column>
@@ -4351,7 +4397,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
     </table>
     <table name="mem">
       <!-- Checked on: 2017.07.30. -->
-      <column name="_id">32100</column>
+      <column name="_id">32130</column>
       <column name="entry_name">Duq</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be stunned</column>
@@ -4371,7 +4417,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">32110</column>
+      <column name="_id">32140</column>
       <column name="entry_name">DuQ</column>
       <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">stab</column>
@@ -4392,7 +4438,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.29. -->
-      <column name="_id">32120</column>
+      <column name="_id">32150</column>
       <column name="entry_name">DuQ</column>
       <column name="part_of_speech">v:2,t_c</column>
       <column name="definition">touch (emotionally)</column>
@@ -4412,7 +4458,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">32130</column>
+      <column name="_id">32160</column>
       <column name="entry_name">DuQwI'</column>
       <column name="part_of_speech">n:deriv,weap</column>
       <column name="definition">spike</column>
@@ -4433,7 +4479,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">32140</column>
+      <column name="_id">32170</column>
       <column name="entry_name">DuQwI'Hom</column>
       <column name="part_of_speech">n:deriv,weap</column>
       <column name="definition">little spike</column>
@@ -4453,7 +4499,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">32150</column>
+      <column name="_id">32180</column>
       <column name="entry_name">Duran lung DIr</column>
       <column name="part_of_speech">n:inhpl,food,fic</column>
       <column name="definition">Durani lizard skins</column>
@@ -4472,7 +4518,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="source">[1] {KCD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">32160</column>
+      <column name="_id">32190</column>
       <column name="entry_name">DuraS</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Duras</column>
@@ -4492,7 +4538,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">32170</column>
+      <column name="_id">32200</column>
       <column name="entry_name">DuS</column>
       <column name="part_of_speech">n</column>
       <column name="definition">torpedo tube</column>
@@ -4514,7 +4560,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n} has to do with how th
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">32180</column>
+      <column name="_id">32210</column>
       <column name="entry_name">DuSaQ</column>
       <column name="part_of_speech">n</column>
       <column name="definition">school</column>
@@ -4534,7 +4580,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n} has to do with how th
     </table>
     <table name="mem">
       <!-- Checked on: 2015.10.28. -->
-      <column name="_id">32190</column>
+      <column name="_id">32220</column>
       <column name="entry_name">Dut</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">slam down</column>
@@ -4555,7 +4601,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n} has to do with how th
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">32200</column>
+      <column name="_id">32230</column>
       <column name="entry_name">Duv</column>
       <column name="part_of_speech">v:i</column>
       <column name="definition">advance</column>
@@ -4575,7 +4621,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n} has to do with how th
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">32210</column>
+      <column name="_id">32240</column>
       <column name="entry_name">Duy</column>
       <column name="part_of_speech">n</column>
       <column name="definition">agent, emissary</column>
@@ -4595,7 +4641,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n} has to do with how th
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">32220</column>
+      <column name="_id">32250</column>
       <column name="entry_name">Duy'</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be defective</column>
@@ -4615,7 +4661,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n} has to do with how th
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">32230</column>
+      <column name="_id">32260</column>
       <column name="entry_name">Duy'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">defect</column>
@@ -4635,7 +4681,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n} has to do with how th
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">32240</column>
+      <column name="_id">32270</column>
       <column name="entry_name">Duy'a'</column>
       <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">ambassador</column>
@@ -4655,7 +4701,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n} has to do with how th
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">32250</column>
+      <column name="_id">32280</column>
       <column name="entry_name">Du'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">farm</column>
@@ -4675,7 +4721,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n} has to do with how th
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">32260</column>
+      <column name="_id">32290</column>
       <column name="entry_name">Du'Hom</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">garden</column>
@@ -4695,7 +4741,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n} has to do with how th
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">32270</column>
+      <column name="_id">32300</column>
       <column name="entry_name">Du' naH</column>
       <column name="part_of_speech">n:deriv,food</column>
       <column name="definition">produce</column>
@@ -4715,7 +4761,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n} has to do with how th
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
-      <column name="_id">32280</column>
+      <column name="_id">32310</column>
       <column name="entry_name">Du'IHchoHmoH mIvvam.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">This helmet suits you.</column>
