@@ -67,7 +67,7 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chuch:n}, {bIQ:n}, {mev:v}</column>
-      <column name="notes">This word also has the idiomatic sense of "don't move!" when given as a command, either as {yItaD:sen:nolink} (spoken to one person) or {petaD:sen:nolink} (spoken to a group of people).[2; 3] To order someone to literally freeze, the suffixes {-'egh:v} and {-moH:v} would be used: {yItaD'eghmoH} "Freeze yourself!" ("Cause yourself to be frozen!")[3]</column>
+      <column name="notes">This word also has the idiomatic sense of "don't move!" when given as a command, either as {yItaD:sen@@yI-:v, taD:v} (spoken to one person) or {petaD:sen@@pe-:v, taD:v} (spoken to a group of people).[2; 3] To order someone to literally freeze, the suffixes {-'egh:v} and {-moH:v} would be used: {yItaD'eghmoH:sen@@yI-:v, taD:v, -'egh:v, -moH;v} "Freeze yourself!" ("Cause yourself to be frozen!")[3]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes">According to {Diplomatic Implausibility:src}, {taD:n:place,fic,nolink} is the name of an ice-covered colony planet in the Klingon Empire.</column>
       <column name="components"></column>
@@ -3008,10 +3008,9 @@ Klingons do not typically speak about music in terms of enjoyment, but rather in
     <table name="mem">
       <column name="_id">161470</column>
       <column name="entry_name">tI'ang</column>
-      <!-- Not annotated with "name" because it's already in the definition. -->
-      <column name="part_of_speech">n:fic</column>
-      <column name="definition">T'Ong (name of ship)</column>
-      <column name="definition_de">T'Ong (Name eines Raumschiffs)</column>
+      <column name="part_of_speech">n:fic,name</column>
+      <column name="definition">T'Ong</column>
+      <column name="definition_de">T'Ong</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
