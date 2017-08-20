@@ -184,7 +184,7 @@
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This line was cut from {Star Trek V:src}.</column>
       <column name="components">{naDev:n}, {maH:n:1h}, {'e':n}, {lu-:v}, {Sov:v}, {-be':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4042,7 +4042,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="definition_de">Sie haben uns verraten!</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{nutojbej!:sen}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -4495,6 +4495,26 @@ Watch a lesson on this word: {YouTube video:url:http://www.youtube.com/v/auqS6FR
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.20. -->
+      <column name="_id">92275</column>
+      <column name="entry_name">nutojbej!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">We've been betrayed!</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{numagh!:sen}</column>
+      <column name="notes">This means "They've definitely tricked us!"</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{nu-:v}, {toj:v}, {-bej:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek VI:src}</column>
     </table>
     <table name="mem">
       <column name="_id">92280</column>
