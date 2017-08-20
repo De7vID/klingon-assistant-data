@@ -8,7 +8,7 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{jI-:v:pref}, {wI-:v:pref}</column>
-      <column name="notes">{maH:n:2h}:{pagh:n:1h} = {ma-:v:pref,nolink}</column>
+      <column name="notes">{maH:n:1h}:{pagh:n:1h} = {ma-:v:pref,nolink}</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -201,15 +201,30 @@ Possibly a reference to the fairy Queen Mab in Romeo and Juliet, who is known fo
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2012.12.15. -->
       <column name="_id">80100</column>
       <column name="entry_name">maH</column>
-      <column name="part_of_speech">n:1,num</column>
-      <column name="definition">ten (number-forming element)</column>
-      <column name="definition_de">zig (Zahlenformelement)</column>
+      <column name="part_of_speech">n:1,pro</column>
+      <column name="definition">we, us</column>
+      <column name="definition_de">wir, uns</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{wa':n:num}, {vatlh:n:num}</column>
-      <column name="notes">Note that this is a number-forming element, and not itself a number. The number ten is {wa'maH:n:num}, literally "one ten", in Klingon.</column>
+      <column name="see_also">{-maj:n}, {-ma':n}</column>
+      <column name="notes">This is the plural of {jIH:n:1h,pro}.
+
+Verb prefixes when {maH:n:1h,nolink} is the subject:
+▶ {maH:n:1h,nolink}:{pagh:n:1h} = {ma-:v:pref}
+▶ {maH:n:1h,nolink}:{SoH:n} = {pI-:v:pref}
+▶ {maH:n:1h,nolink}:{tlhIH:n} = {re-:v:pref}
+▶ {maH:n:1h,nolink}:{ghaH:n}/{'oH:n} = {wI-:v:pref}
+▶ {maH:n:1h,nolink}:{chaH:n}/{bIH:n} = {DI-:v:pref}
+
+Verb prefixes when {maH:n:1h,nolink} is the object:
+▶ {SoH:n}:{maH:n:1h,nolink} = {ju-:v:pref}
+▶ {tlhIH:n}:{maH:n:1h,nolink} = {che-:v:pref}
+▶ {ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n}:{maH:n:1h,nolink} = {nu-:v:pref}
+
+The imperative verb prefix when {maH:n:1h,nolink} is the object is {gho-:v:pref}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -220,30 +235,15 @@ Possibly a reference to the fairy Queen Mab in Romeo and Juliet, who is known fo
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.12.15. -->
       <column name="_id">80110</column>
       <column name="entry_name">maH</column>
-      <column name="part_of_speech">n:2,pro</column>
-      <column name="definition">we, us</column>
-      <column name="definition_de">wir, uns</column>
+      <column name="part_of_speech">n:2,num</column>
+      <column name="definition">ten (number-forming element)</column>
+      <column name="definition_de">zig (Zahlenformelement)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{-maj:n}, {-ma':n}</column>
-      <column name="notes">This is the plural of {jIH:n:1h,pro}.
-
-Verb prefixes when {maH:n:2h,nolink} is the subject:
-▶ {maH:n:2h,nolink}:{pagh:n:1h} = {ma-:v:pref}
-▶ {maH:n:2h,nolink}:{SoH:n} = {pI-:v:pref}
-▶ {maH:n:2h,nolink}:{tlhIH:n} = {re-:v:pref}
-▶ {maH:n:2h,nolink}:{ghaH:n}/{'oH:n} = {wI-:v:pref}
-▶ {maH:n:2h,nolink}:{chaH:n}/{bIH:n} = {DI-:v:pref}
-
-Verb prefixes when {maH:n:2h,nolink} is the object:
-▶ {SoH:n}:{maH:n:2h,nolink} = {ju-:v:pref}
-▶ {tlhIH:n}:{maH:n:2h,nolink} = {che-:v:pref}
-▶ {ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n}:{maH:n:2h,nolink} = {nu-:v:pref}
-
-The imperative verb prefix when {maH:n:2h,nolink} is the object is {gho-:v:pref}.</column>
+      <column name="see_also">{wa':n:num}, {vatlh:n:num}</column>
+      <column name="notes">Note that this is a number-forming element, and not itself a number. The number ten is {wa'maH:n:num}, literally "one ten", in Klingon.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -285,7 +285,7 @@ The imperative verb prefix when {maH:n:2h,nolink} is the object is {gho-:v:pref}
       <column name="notes">This term has not been used in canon, but its meaning is inferred by analogy with {vatlh DIS poH:n}, etc. This entry is here for ease of reference only.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{maH:n:1}, {DIS:n:2}, {poH:n}</column>
+      <column name="components">{maH:n:2}, {DIS:n:2}, {poH:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -3018,7 +3018,7 @@ This idiom has its origin in {HenrI' vagh:n:name}, a play by {wIlyam SeQpIr:n:na
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{togh:v}</column>
-      <column name="notes">Number-forming elements include {maH:n:1,num}, {vatlh:n:num}, {SaD:n:num} ({SanID:n:num}), {netlh:n:num}, {bIp:n:num}, {'uy':n:num}.
+      <column name="notes">Number-forming elements include {maH:n:2,num}, {vatlh:n:num}, {SaD:n:num} ({SanID:n:num}), {netlh:n:num}, {bIp:n:num}, {'uy':n:num}.
 
 When a number is used for numbering (labeling), as opposed to counting, it follows the noun. Ordinal numbers are formed with {-DIch:n:num,suff}. Repetitions are formed with {-logh:n:num,suff}.</column>
       <column name="notes_de"></column>
@@ -3304,7 +3304,7 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
 
 See under each of the following pronouns for the related verb prefixes:
 ▶ {jIH:n:1h}
-▶ {maH:n:2h}
+▶ {maH:n:1h}
 ▶ {SoH:n}
 ▶ {tlhIH:n}
 ▶ {ghaH:n}/{'oH:n}

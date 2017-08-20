@@ -562,7 +562,7 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="definition_de">eins</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{cha':n:num}, {maH:n:1,num}</column>
+      <column name="see_also">{cha':n:num}, {maH:n:2,num}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -853,7 +853,7 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
     <table name="mem">
       <column name="_id">190430</column>
       <column name="entry_name">wa'maH</column>
-      <column name="part_of_speech">n:num</column>
+      <column name="part_of_speech">n:num,deriv</column>
       <column name="definition">ten</column>
       <column name="definition_de">zehn</column>
       <column name="synonyms"></column>
@@ -862,7 +862,7 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{wa':n:num}, {maH:n:1,num}</column>
+      <column name="components">{wa':n:num}, {maH:n:2,num}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -921,7 +921,7 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="notes">Klingons consider the number 13 to be special because of the way they used to count. The decimal number 12 used to be expressed as 3 x 3 + 3, and then the system became complicated. This association remained even after Klingons switched over to the decimal number system.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{wa':n:num}, {maH:n:1,num}, {wej:n:num}</column>
+      <column name="components">{wa':n:num}, {maH:n:2,num}, {wej:n:num}</column>
       <column name="examples">
 ▶ {qatlh Suvbe' chaH? wa'maH wej.:sen:nolink} "Why aren't they fighting? It's complicated."[1]</column>
       <column name="examples_de"></column>
@@ -1478,7 +1478,7 @@ Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving
       <column name="synonyms"></column>
       <column name="antonyms">{nu-:v:pref}</column>
       <column name="see_also">{vI-:v:pref}, {ma-:v:pref}, {DI-:v:pref}</column>
-      <column name="notes">{maH:n:2h}:{ghaH:n}/{'oH:n} = {wI-:v:pref,nolink}
+      <column name="notes">{maH:n:1h}:{ghaH:n}/{'oH:n} = {wI-:v:pref,nolink}
 
 When used with {-lu':v}, this prefix means "Someone (indefinite subject) does something to us".</column>
       <column name="notes_de"></column>
