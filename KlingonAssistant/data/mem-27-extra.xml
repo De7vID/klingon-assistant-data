@@ -150,7 +150,7 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is the name of a {HoD:n} of a starship named {'entepray':n}.
+      <column name="notes">This is the name of a {HoD:n} of a starship named {'entepray':n:name}.
 
 In Klingon, titles generally go after the name, so "Captain Archer" would be {'archer HoD:n@@'archer:n, HoD:n}.</column>
       <column name="notes_de"></column>
@@ -1404,10 +1404,9 @@ To address a single person, say {qatlh choneH?:sen@@qatlh:ques, cho-:v, neH:v}</
       <!-- Checked on: 2012.12.18. -->
       <column name="_id">270710</column>
       <column name="entry_name">rotarran</column>
-      <!-- Not annotated with "name" because it's already in the definition. -->
-      <column name="part_of_speech">n:fic,extcan</column>
-      <column name="definition">Rotarran (name of ship)</column>
-      <column name="definition_de">Rotarran (Name eines Schiffs)</column>
+      <column name="part_of_speech">n:fic,extcan,name</column>
+      <column name="definition">Rotarran</column>
+      <column name="definition_de">Rotarran</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>

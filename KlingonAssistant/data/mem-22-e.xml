@@ -498,10 +498,9 @@ The suits in a deck of playing cards are called {Degh:n:1}.</column>
     <table name="mem">
       <column name="_id">220250</column>
       <column name="entry_name">'entepray'</column>
-      <!-- Not annotated with "name" because it's already in the definition. -->
-      <column name="part_of_speech">n:fic</column>
-      <column name="definition">Enterprise (name of ship)</column>
-      <column name="definition_de">Enterprise (bekanntes Raumschiff)</column>
+      <column name="part_of_speech">n:fic,name</column>
+      <column name="definition">Enterprise</column>
+      <column name="definition_de">Enterprise</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Hov leng:n}</column>
@@ -529,7 +528,7 @@ The suits in a deck of playing cards are called {Degh:n:1}.</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{'entepray':n}, {Hub:n}, {pat:n}, {-mey:n}, {lu-:v}, {chu':v:2}, {-be':v}, {-lu':v}, {-pu':v}</column>
+      <column name="components">{'entepray':n:name}, {Hub:n}, {pat:n}, {-mey:n}, {lu-:v}, {chu':v:2}, {-be':v}, {-lu':v}, {-pu':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>

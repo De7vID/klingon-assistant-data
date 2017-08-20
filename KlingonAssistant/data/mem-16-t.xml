@@ -3008,10 +3008,9 @@ Klingons do not typically speak about music in terms of enjoyment, but rather in
     <table name="mem">
       <column name="_id">161470</column>
       <column name="entry_name">tI'ang</column>
-      <!-- Not annotated with "name" because it's already in the definition. -->
-      <column name="part_of_speech">n:fic</column>
-      <column name="definition">T'Ong (name of ship)</column>
-      <column name="definition_de">T'Ong (Name eines Raumschiffs)</column>
+      <column name="part_of_speech">n:fic,name</column>
+      <column name="definition">T'Ong</column>
+      <column name="definition_de">T'Ong</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
