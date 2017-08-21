@@ -138,14 +138,34 @@
       <column name="entry_name">tlham chach chu'qa'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Restoring auxiliary gravity.</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Gravitation wieder aktiviert.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{tlham chu'Ha'lu'!:sen}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components">{tlham:n:1}, {chach:n}, {chu':v:2}, {-qa':v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek VI:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.20. -->
+      <column name="_id">170066</column>
+      <column name="entry_name">tlham chu'Ha'lu'!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">We've lost gravity!</column>
+      <column name="definition_de">Die Gravitation ist ausgeschaltet!</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tlham chach chu'qa'.:sen}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{tlham:n:1}, {chu'Ha':v}, {-lu':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>

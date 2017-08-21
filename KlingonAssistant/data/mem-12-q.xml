@@ -1003,7 +1003,7 @@ This word is applied to people and animals.[2]</column>
       <column name="_id">120510</column>
       <column name="entry_name">qaStaH nuq?</column>
       <column name="part_of_speech">sen:bc</column>
-      <column name="definition">What's happening?  What's up?</column>
+      <column name="definition">What's happening? What's up?</column>
       <column name="definition_de">Was passiert? Was ist los?</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1155,6 +1155,28 @@ This word is applied to people and animals.[2]</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 6.4:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.20. -->
+      <column name="_id">120585</column>
+      <column name="entry_name">qatlh pa' ghoS?</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">What's she doing? (Why is she going there?)</column>
+      <column name="definition_de">Warum geht sie/er dorthin?</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">Here, "she" refers to the Enterprise ({'entepray':n:name}). Chang ({cheng:n:name}) was expressing puzzlement about the movement of the Enterprise.
+
+The subtitle was "What's she doing?" but a more literal translation is "Why is she going there?"</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{qatlh:ques}, {pa':n:2}, {ghoS:v:1}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek V:src}</column>
     </table>
     <table name="mem">
       <column name="_id">120590</column>
