@@ -233,11 +233,11 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="entry_name">DaH machegh.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">We're returning now.</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Wir kehren jetzt zurück.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This line was not subtitled.</column>
+      <column name="notes">This line was spoken in Klingon but was not subtitled.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components">{DaH:adv}, {ma-:v}, {chegh:v}</column>
@@ -597,6 +597,28 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKDA:src}, [2] {Klingon Monopoly:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2013.12.27. -->
+      <column name="_id">30275</column>
+      <column name="entry_name">Daq'a'</column>
+      <!-- Even though this has only appeared in a deleted scene, its meaning is clear from its components, so treat it as canon. -->
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">jurisdiction, territory</column>
+      <column name="definition_de">Terrirorium, Gebiet</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{teblaw':n}, {yer:n}</column>
+      <column name="notes">This word has appeared only in a deleted scene from the 2009 {Star Trek:src} movie.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{Daq:n}, {-'a':n}</column>
+      <column name="examples">
+▶ {tlhIngan wo' Daq'a' bo'elpu'!:sen}</column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek 2009 deleted scene:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
@@ -2237,12 +2259,32 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2017.08.17. -->
+      <!-- Checked on: 2017.08.21. -->
       <column name="_id">31090</column>
+      <column name="entry_name">DIHIvbe'chugh qo'chajDaq toy'wI''a' DImoj!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Attack or be slaves in their world!</column>
+      <column name="definition_de">Wir werden Sklaven in ihrer Welt, wenn wir sie nicht angreifen.</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{DI-:v}, {HIv:v}, {-be':v}, {-chugh:v}, {qo':n}, {-chaj:n}, {-Daq:n}, {toy'wI''a':n}, {DI-:v}, {moj:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Star Trek VI:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.08.17. -->
+      <column name="_id">31091</column>
       <column name="entry_name">DIHIvlaHtaHvIS DaH DIHIvnIS!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Attack them now, while we still can!</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Wir müssen sie jetzt angreifen, solange wir sie angreifen können!</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>

@@ -18,6 +18,9 @@ $sm_export =~ s/\s*<!--.*?-->//sg;
 $sm_export =~ s/<table name="mem">(.*?)<\/table>/<mem>\1<\/mem>/sg;
 $sm_export =~ s/<column name="(.*?)">(.*?)<\/column>/<\1>\2<\/\1>/sg;
 $sm_export =~ s/'/''/g;
+open (my $sm_export_file, '>', 'mem_processed.xml') or die "Failed to write processed xml.";
+print $sm_export_file $sm_export;
+close $sm_export_file;
 
 # convert processed xml file to xml
 $data = $xml->XMLin($sm_export, suppressempty => '');
