@@ -2,7 +2,7 @@
       <!-- Checked on: 2017.08.22. -->
       <column name="_id"></column>
       <column name="entry_name">lay</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">the consonant {l:sen:nolink}</column>
       <column name="definition_de">der Konsonant {l:sen:nolink}</column>
       <column name="synonyms"></column>
@@ -644,13 +644,13 @@ Examples of similes (all from [3]):
       <!-- Checked on: 2016.07.25. -->
       <column name="_id">70290</column>
       <column name="entry_name">lay</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:2</column>
       <column name="definition">air (technical term)</column>
       <column name="definition_de">Luft (nur als technischer Begriff)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{rewve':n}, {muD:n:1}</column>
-      <column name="notes">This is some sort of technical term. It would be odd to say {lay vItlhuH:sen@@lay:n, vI-:v, tlhuH:v:1} for "I breathe air", but it would be understood.</column>
+      <column name="notes">This is some sort of technical term. It would be odd to say {lay vItlhuH:sen@@lay:n:2, vI-:v, tlhuH:v:1} for "I breathe air", but it would be understood.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>

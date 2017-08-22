@@ -2,7 +2,7 @@
       <!-- Checked on: 2017.08.22. -->
       <column name="_id"></column>
       <column name="entry_name">tlhay</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">the consonant {tlh:sen:nolink}</column>
       <column name="definition_de">der Konsonant {tlh:sen:nolink}</column>
       <column name="synonyms"></column>
@@ -410,7 +410,7 @@
     <table name="mem">
       <column name="_id">170180</column>
       <column name="entry_name">tlhay</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:2</column>
       <column name="definition">sleeve</column>
       <column name="definition_de">Ärmel</column>
       <column name="synonyms"></column>
@@ -1627,8 +1627,8 @@ One can say either {B tlhogh A:sen:nolink} for "{A:sen:nolink} marries {B:sen:no
       <column name="definition_de">Vorne, Bereich vor etwas</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'em:n}</column>
-      <column name="see_also">{tlhop:n:2}, {bIng:n}, {Dung:n}, {joj:n}, {retlh:n}, {poS:n}, {nIH:n}, {'et:n}</column>
-      <column name="notes">For the front section of an object, see {'et:n}. See also {lurgh:n} for other words related to spatial directions.</column>
+      <column name="see_also">{tlhop:n:2}, {bIng:n}, {Dung:n}, {joj:n}, {retlh:n}, {poS:n}, {nIH:n}</column>
+      <column name="notes">For the front section of an object, see {'et:n:2h}. See also {lurgh:n} for other words related to spatial directions.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>

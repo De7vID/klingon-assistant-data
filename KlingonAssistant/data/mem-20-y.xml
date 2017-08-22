@@ -2,7 +2,7 @@
       <!-- Checked on: 2017.08.22. -->
       <column name="_id"></column>
       <column name="entry_name">yay</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">the consonant {y:sen:nolink}</column>
       <column name="definition_de">der Konsonant {y:sen:nolink}</column>
       <column name="synonyms"></column>
@@ -697,7 +697,7 @@ Someone of rank {Sogh:n} or higher can also be referred to as {ra'wI':n}.
     <table name="mem">
       <column name="_id">200340</column>
       <column name="entry_name">yay</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:2</column>
       <column name="definition">victory, triumph</column>
       <column name="definition_de">Sieg, Triumph</column>
       <column name="synonyms"></column>
@@ -1944,7 +1944,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/HVOJkR51lBU}<
       <column name="definition_de">Hemd, Blouse</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tlhay:n}</column>
+      <column name="see_also">{tlhay:n:2h}</column>
       <column name="notes">This word originally referred to a sleeveless garment (see {yIvbeH:n:2}).
 
 In {TNK:src}, this word is used to translate "shirt", and {yIvbeH SeQHa':n:nolink} is used for "T-shirt".</column>
@@ -1965,7 +1965,7 @@ In {TNK:src}, this word is used to translate "shirt", and {yIvbeH SeQHa':n:nolin
       <column name="definition_de">Hemd ohne Ärmel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{yIvbeH:n:1}, {wep:n:2}, {tlhay:n}</column>
+      <column name="see_also">{yIvbeH:n:1}, {wep:n:2}, {tlhay:n:2h}</column>
       <column name="notes">This word has this meaning in the {voSpegh Sep:n} dialect.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>

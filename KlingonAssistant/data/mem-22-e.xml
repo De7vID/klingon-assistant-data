@@ -2,7 +2,7 @@
       <!-- Checked on: 2017.08.22. -->
       <column name="_id"></column>
       <column name="entry_name">'et</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">the vowel {e:sen:nolink}</column>
       <column name="definition_de">der Vokal {e:sen:nolink}</column>
       <column name="synonyms"></column>
@@ -870,7 +870,7 @@ This word should not be confused with {'eQway:n}.</column>
     <table name="mem">
       <column name="_id">220410</column>
       <column name="entry_name">'et</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:2</column>
       <column name="definition">fore</column>
       <column name="definition_de">Vorn, Bug</column>
       <column name="synonyms"></column>
