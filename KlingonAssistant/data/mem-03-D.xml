@@ -275,7 +275,8 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="definition_de">Bezahle jetzt!</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{bIDIlbe'chugh vaj bIHegh!:sen}</column>
+      <column name="see_also">
+▶ {bIDIlbe'chugh vaj bIHegh!:sen}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -293,12 +294,12 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="part_of_speech">n</column>
       <column name="definition">today</column>
       <column name="definition_de">heute</column>
-      <column name="synonyms">{jajvam:n}</column>
+      <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{jaj:n}</column>
-      <column name="notes">While both {DaHjaj:n:nolink} and {jajvam:n} mean "today", they are not quite interchangeable. {DaHjaj:n:nolink} (but not {jajvam:n}) is used as the time element in a sentence: {DaHjaj romuluSngan vIHoHpu':sen:nolink} "today I killed a Romulan".[2]
+      <column name="notes">While both {DaHjaj:n:nolink} and {jajvam:n} mean "today", they are not quite interchangeable. {DaHjaj:n:nolink} (but not {jajvam:n:nolink}) is used as the time element in a sentence: {DaHjaj romuluSngan vIHoHpu':sen:nolink} "today I killed a Romulan".[2]
 
-As the subject of a sentence, {jajvam:n} is more typically found, though {DaHjaj:n:nolink} is not impossible. Compare:
+As the subject of a sentence, {jajvam:n:nolink} is more typically found, though {DaHjaj:n:nolink} is not impossible. Compare:
 ▶ {nI' jajvam:sen:nolink} "this day is long"
 ▶ {nI' DaHjaj:sen:nolink} "today is long"[2]
 
@@ -2374,6 +2375,8 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="components"></column>
       <column name="examples">
 ▶ {Dochvetlh DIlmeH Huch 'ar DaneH?:sen}
+▶ {DaH yIDIl!:sen}
+▶ {Soj yIDIl!:sen}
 ▶ {HoSHal ghajchugh vay', mI' naghmey tIronmoH. wa'maHlogh boq'egh mI' naghmey; chen qav'ap. ghajwI'vaD qav'ap yIDIl.:sen:nolink} "If [energy source is] owned, throw dice and pay owner a total ten times amount shown."[2]</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -2391,7 +2394,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">This word is not defined as such in canon, but appears in the example from {TKD p.171:src}, the exact grammar of which is not clear. This entry is here for ease of reference only.</column>
+      <column name="hidden_notes">This word is not defined as such in canon, but appears in the example from {TKD p.171:src}. This entry is here for ease of reference only.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {Dochvetlh DIlmeH Huch 'ar DaneH?:sen} "How much do you want for that?"[1]</column>
@@ -2984,7 +2987,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">This is not canonical but is apparently widely known.</column>
+      <column name="hidden_notes">This is not canonical but is apparently widely known, after the model of {Do Qe':n}.</column>
       <column name="components">{Do:n}, {QIn:n:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>

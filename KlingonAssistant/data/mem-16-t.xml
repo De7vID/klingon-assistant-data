@@ -2232,23 +2232,63 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
     <table name="mem">
       <column name="_id">161070</column>
       <column name="entry_name">tey</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">scrape</column>
       <column name="definition_de">kratzen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Hew:n}, {nan:v:1}, {ghItlh:v}</column>
-      <column name="notes">Aside from its literal meaning, this can also be used for the sense of being close or not having wriggle room or leeway in a situation.[2]</column>
+      <column name="notes">Aside from its literal meaning, this can also be used for the sense of being close or not having wiggle room or leeway in a situation. See {tey:v:2}.[2]</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {KGT:src}, [2] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.09.08. -->
+      <column name="_id">161071</column>
+      <column name="entry_name">tey</column>
+      <column name="part_of_speech">v:2,is</column>
+      <column name="definition">be uncomfortable, be close, not have wiggle room or leeway </column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{teybe':v}</column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {teybe' yay:sen@@tey:v, -be':v, yay:n:2h} "the victory didn't scrape", "the victory was comfortable"[2]
-▶ {tey yay:sen:@@tey:v, yay:n:2h} (this describes something which was just barely a victory or a last-minute victory, or something like that)[2]</column>
+▶ {tey yay:sen:@@tey:v:2, yay:n:2h} (this describes something which was just barely a victory or a last-minute victory, or something like that)</column>
       <column name="examples_de"></column>
-      <column name="search_tags">comfortable, uncomfortable</column>
+      <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {KGT:src}, [2] {qep'a' 2017:src}</column>
+      <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.09.08. -->
+      <column name="_id">161072</column>
+      <column name="entry_name">teybe'</column>
+      <column name="part_of_speech">v:is,deriv</column>
+      <column name="definition">be comfortable, be not close, have wiggle room or leeway</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{tey:v:2}</column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {teybe' yay:sen@@tey:v:2, -be':v, yay:n:2h} "the victory didn't scrape", "the victory was comfortable"</column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source"></column>
     </table>
     <table name="mem">
       <column name="_id">161080</column>
@@ -2262,7 +2302,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="notes">This means "file" in the sense of a nail file and the like, not a data file (for which see {ta:n}).</column>
       <column name="notes_de"></column>
       <column name="hidden_notes">This is defined as "file" in {KGT:src}. The "tool" part was added for clarification.</column>
-      <column name="components">{tey:v}, {-wI':v}</column>
+      <column name="components">{tey:v:1}, {-wI':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
