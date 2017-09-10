@@ -54,11 +54,6 @@
           app:showAsAction="ifRoom"
           android:visible="false" />
 
-    <item android:id="@+id/float_mode"
-          android:title="@string/menu_float_mode"
-          android:icon="@drawable/ic_menu_float_mode"
-          app:showAsAction="ifRoom" />
-
     <item android:id="@+id/about"
           android:title="@string/menu_about"
           android:icon="@drawable/ic_menu_help" />

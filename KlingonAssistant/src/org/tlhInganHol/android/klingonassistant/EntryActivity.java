@@ -45,7 +45,6 @@ import android.view.MenuItem;
 import android.view.View;
 import java.util.Locale;
 import java.util.regex.Matcher;
-import wei.mark.standout.StandOutWindow;
 
 /** Displays an entry and its definition. */
 public class EntryActivity extends BaseActivity
@@ -548,43 +547,7 @@ public class EntryActivity extends BaseActivity
 
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
-    if (item.getItemId() == R.id.float_mode) {
-      // Minimize the app and cause it to "float".
-      Log.d(TAG, "Show floating window.");
-      StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
-      String query;
-      if (mParentQuery != null && !mParentQuery.equals("") && mParentQuery.indexOf('*') == -1) {
-        // If we have the parent query, it overrides this entry.
-        query = mParentQuery;
-      } else {
-        // Otherwise, just use this entry's name.
-        query = mEntryName;
-      }
-      int colonLoc = query.indexOf(':');
-      if (colonLoc != -1) {
-        query = query.substring(0, colonLoc);
-      }
-      if (!query.equals("")) {
-        // If we have a non-empty query, pass it along.
-        Bundle data = new Bundle();
-        data.putString("query", query);
-        StandOutWindow.sendData(
-            getBaseContext(),
-            FloatingWindow.class,
-            StandOutWindow.DEFAULT_ID,
-            DATA_CHANGED_QUERY,
-            data,
-            FloatingWindow.class,
-            StandOutWindow.DEFAULT_ID);
-      }
-
-      // Broadcast the kill order to finish all non-floating activities.
-      Log.d(TAG, "Broadcast kill order to non-floating window.");
-      Intent intent = new Intent(ACTION_KILL);
-      intent.setType(KILL_TYPE);
-      sendBroadcast(intent);
-      return true;
-    } else if (item.getItemId() == R.id.speak) {
+    if (item.getItemId() == R.id.speak) {
       // TTS:
       if (mEntryName != null) {
         // Log.d(TAG, "Speaking");

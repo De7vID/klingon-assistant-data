@@ -27,7 +27,6 @@
     <!-- For TUTORIAL, minimum is version 4.0 (14). For TTS, it's 4.1 (16). -->
     <uses-sdk android:minSdkVersion="16"
               android:targetSdkVersion="19"/>
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <supports-screens android:resizeable="true"
                   android:smallScreens="true"
                   android:normalScreens="true"
@@ -115,10 +114,6 @@
         <!-- Points to searchable activity so the whole app can invoke search. -->
         <meta-data android:name="android.app.default_searchable"
                    android:value=".KlingonAssistant" />
-
-        <!-- A floating window which is overlayed on top of other apps. -->
-        <service android:name=".FloatingWindow" >
-        </service>
 
     </application>
 </manifest>

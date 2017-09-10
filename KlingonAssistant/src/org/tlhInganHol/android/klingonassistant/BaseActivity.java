@@ -45,7 +45,6 @@ import java.util.ArrayList;
 import java.util.List;
 import net.simonvt.menudrawer.MenuDrawer;
 import net.simonvt.menudrawer.Position;
-import wei.mark.standout.StandOutWindow;
 
 // TUTORIAL:
 // import com.google.android.gms.plus.PlusShare;
@@ -89,9 +88,6 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
   protected static final String KILL_TYPE =
       "org.tlhInganHol.android.klingonassistant.intent.action/kill";
 
-  // Request code to change FloatingWindow's data.
-  public static final int DATA_CHANGED_QUERY = 0;
-
   private MenuDrawer mDrawer;
 
   protected SlideMenuAdapter mAdapter;
@@ -117,17 +113,6 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
     if (savedInstanceState != null) {
       mActivePosition = savedInstanceState.getInt(STATE_ACTIVE_POSITION);
     }
-
-    // Close the floating window, if there is one. Work around a race condition.
-    Log.d(TAG, "Starting activity with non-floating window. Close floating window.");
-    Handler killFloatingWindowHandler = new Handler();
-    Runnable killFloatingWindowRunnable =
-        new Runnable() {
-          public void run() {
-            StandOutWindow.closeAll(BaseActivity.this, FloatingWindow.class);
-          }
-        };
-    killFloatingWindowHandler.postDelayed(killFloatingWindowRunnable, 100); // 100 ms
 
     // Get the action bar.
     ActionBar actionBar = getSupportActionBar();
@@ -603,26 +588,6 @@ public class BaseActivity extends ActionBarActivity implements SlideMenuAdapter.
       case R.id.request_translation:
         requestTranslation();
         break;
-      case R.id.float_mode:
-        // Minimize the app and cause it to "float".
-        Log.d(TAG, "Show floating window.");
-        StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
-
-        // Broadcast the kill order to finish all non-floating activities.
-        // Work around race condition.
-        Log.d(TAG, "Broadcast kill order to non-floating window.");
-        final Intent intent = new Intent(ACTION_KILL);
-        intent.setType(KILL_TYPE);
-        Handler killNonFloatingWindowHandler = new Handler();
-        Runnable killNonFloatingWindowRunnable =
-            new Runnable() {
-              public void run() {
-                sendBroadcast(intent);
-              }
-            };
-        killNonFloatingWindowHandler.postDelayed(killNonFloatingWindowRunnable, 100); // 100 ms
-
-        return true;
       case R.id.about:
         // Show "About" screen.
         displayHelp(QUERY_FOR_ABOUT);

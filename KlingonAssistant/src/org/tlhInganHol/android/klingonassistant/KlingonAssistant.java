@@ -39,7 +39,6 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.TwoLineListItem;
-import wei.mark.standout.StandOutWindow;
 
 // TUTORIAL:
 // import com.espian.showcaseview.ShowcaseView;
@@ -65,9 +64,6 @@ public class KlingonAssistant extends BaseActivity {
   // The two main views in app's main screen.
   private TextView mTextView;
   private ListView mListView;
-
-  // Keep the query for passing to the FloatingWindow.
-  private String mQuery = "";
 
   // private int mTutorialCounter;
   @Override
@@ -204,7 +200,7 @@ public class KlingonAssistant extends BaseActivity {
 
     } else if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
       // handles a search query
-      mQuery = intent.getStringExtra(SearchManager.QUERY);
+      String mQuery = intent.getStringExtra(SearchManager.QUERY);
       Log.d(TAG, "ACTION_SEARCH: " + mQuery);
       showResults(mQuery);
 
@@ -277,10 +273,6 @@ public class KlingonAssistant extends BaseActivity {
     // Form the URI for the entry.
     Uri uri = Uri.parse(KlingonContentProvider.CONTENT_URI + "/get_entry_by_id/" + entryId);
     entryIntent.setData(uri);
-    // Note: We don't save the query that this entry came from here, because we
-    // want the entry name to be sent to the FloatingWindow if float mode is
-    // activated from within an entry.
-
     startActivity(entryIntent);
     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
   }
@@ -332,7 +324,6 @@ public class KlingonAssistant extends BaseActivity {
     }
 
     private void bindView(TwoLineListItem view, Cursor cursor) {
-      // Keep this in sync with FloatingWindow's bindview.
       KlingonContentProvider.Entry entry =
           new KlingonContentProvider.Entry(cursor, getBaseContext());
 
@@ -481,49 +472,5 @@ public class KlingonAssistant extends BaseActivity {
     if (!isTaskRoot()) {
       overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
-  }
-
-  @Override
-  public boolean onOptionsItemSelected(MenuItem item) {
-    if (item.getItemId() == R.id.float_mode) {
-      // Minimize the app and cause it to "float".
-      Log.d(TAG, "Show floating window.");
-      StandOutWindow.show(this, FloatingWindow.class, StandOutWindow.DEFAULT_ID);
-      String query = mQuery;
-      if (!mQuery.equals("") && mQuery.indexOf('*') == -1) {
-        // If we have a non-empty query, pass it along.
-        int colonLoc = query.indexOf(':');
-        if (colonLoc != -1) {
-          query = query.substring(0, colonLoc);
-        }
-        Bundle data = new Bundle();
-        data.putString("query", query);
-        StandOutWindow.sendData(
-            getBaseContext(),
-            FloatingWindow.class,
-            StandOutWindow.DEFAULT_ID,
-            DATA_CHANGED_QUERY,
-            data,
-            FloatingWindow.class,
-            StandOutWindow.DEFAULT_ID);
-      }
-
-      // Broadcast the kill order to finish all non-floating activities.
-      // Work around race condition.
-      Log.d(TAG, "Broadcast kill order to non-floating window.");
-      final Intent intent = new Intent(ACTION_KILL);
-      intent.setType(KILL_TYPE);
-      Handler killNonFloatingWindowHandler = new Handler();
-      Runnable killNonFloatingWindowRunnable =
-          new Runnable() {
-            public void run() {
-              sendBroadcast(intent);
-            }
-          };
-      killNonFloatingWindowHandler.postDelayed(killNonFloatingWindowRunnable, 100); // 100 ms
-
-      return true;
-    }
-    return super.onOptionsItemSelected(item);
   }
 }

@@ -32,12 +32,8 @@
 -keep interface android.support.v7.** { *; }
 
 # Library projects.
--keep class com.actionbarsherlock.** { *; }
--keep interface com.actionbarsherlock.** { *; }
 -keep class net.simonvt.menudrawer.** { *; }
 -keep interface net.simonvt.menudrawer.** { *; }
--keep class wei.mark.standout.** { *; }
--keep interface wei.mark.standout.** { *; }
 
 # Google Play Services
 -keep class com.google.android.gms.plus.** { *; }
