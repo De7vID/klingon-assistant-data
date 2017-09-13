@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2014 De'vID jonpIn (David Yonge-Mallo)
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:ignore="MissingTranslation">
+
+    <!-- The name of the Klingon Assistant application. -->
+    <string name="app_name">boQwI\' v2</string>
+
+    <!-- Messages for database creation and upgrade. -->
+    <string name="database_created">Database v%1$s created.</string>
+    <string name="database_upgraded">Database upgraded from v%1$s to v%2$s.</string>
+
+    <!-- The label for use as a searchable item, e.g., "Dictionary". -->
+    <string name="search_label">qawHaq</string>
+
+    <!-- The hint text that appears in the search box, e.g., "Search the dictionary".
+         We leave the Klingon one empty because we don't have access to the language preference when it is displayed. -->
+    <string name="search_hint"></string>
+
+    <!-- The primary menu entry that invokes search, e.g., "Search". -->
+    <string name="menu_search">nej</string>
+
+    <!-- The "Speak" button. -->
+    <string name="menu_speak">tavam jatlh</string>
+
+    <!-- The "Share" button, popup menu, and "shared from" string. -->
+    <string name="menu_share">tavam ngeH</string>
+    <string name="share_popup_title">ngeHwI\'vam lo\':</string>
+    <string name="shared_from">Shared from {boQwI\'}.</string>
+
+    <!-- The menu entry that sends a request for translation to the G+ Klingon language community. -->
+    <string name="menu_request_translation">mugh \'e\' tlhob</string>
+
+    <!-- The description that will show up in the search settings for this source, e.g., "Definitions of words".  -->
+    <string name="settings_description">tlhIngan Hol mu\'mey mu\'tlheghmey je</string>
+
+    <!-- General instructions in the main activity. -->
+    <string name="search_instructions">De\' DaSammeH nejwI\' yIlo\' pagh HIDjolevDaq Doch yIwIv.</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+      <item quantity="one"><![CDATA[&lt;<b>%2$s</b>&gt;mo\' %1$d ta tu\'lu\': ]]></item>
+      <item quantity="other"><![CDATA[&lt;<b>%2$s</b>&gt;mo\' %1$d tamey lutu\'lu\': ]]></item>
+    </plurals>
+
+    <!-- Search failure message, e.g., "No results found for \"%s\"". -->
+    <string name="no_results"><![CDATA[&lt;<b>%s</b>&gt; Sambe\'lu\'.]]></string>
+
+    <!-- Other menu items. -->
+    <string name="menu_about">boQwI\' - QaH</string>
+    <string name="menu_preferences">DuH DamaSbogh</string>
+    <string name="menu_reference">De\' lI\'</string>
+    <string name="menu_pronunciation">QIch</string>
+    <string name="menu_prefixes">moHaq</string>
+    <string name="menu_prefix_chart">moHaq DaH</string>
+    <string name="menu_noun_suffixes">DIp mojaq</string>
+    <string name="menu_verb_suffixes">wot mojaq</string>
+    <string name="menu_sources">Halmey</string>
+    <string name="menu_phrases">mu\'tlheghmey lI\'</string>
+    <string name="menu_lists">tetlhmey</string>
+    <string name="menu_media">muchmey</string>
+    <string name="menu_social">nugh</string>
+    <string name="menu_kli">tlhIngan Hol yejHaD</string>
+    <string name="menu_kli_lessons">Hol paQDI\'norgh</string>
+    <string name="menu_kli_questions">yIghel!</string>
+    <!--
+    <string name="menu_kli_discord">DISqorD</string>
+    -->
+
+    <!-- Social networks. -->
+    <string name="menu_social_network">nugh</string>
+    <string name="menu_gplus">G+ nughHom</string>
+    <string name="menu_facebook">Facebook ghom</string>
+    <string name="menu_kag">tlh.H.gh. Qum</string>
+    <string name="menu_kidc">tlhIngan wo\' ja\'chuqmeH Daq</string>
+
+    <!-- Media. -->
+    <string name="media_1_title">tlhIngan Hol ghojmoHmeH SoQmey</string>
+    <string name="media_1_list_id">PLJrTr05h0I0OcaX5G6_5TCuIisvS4Xed6</string>
+
+    <string name="media_2_title">ja\'chuq</string>
+    <string name="media_2_list_id">PLJrTr05h0I0MazOxYJq47Eqdsa9F2glPg</string>
+
+    <string name="media_3_title">may\'Daq ra\'meH mu\'tlheghmey</string>
+    <string name="media_3_list_id">PLJrTr05h0I0Mwfo-f1YJv1VC7pNgiqicp</string>
+
+    <string name="media_4_title">ra\'meH latlh mu\'tlheghmey</string>
+    <string name="media_4_list_id">PLJrTr05h0I0PuQHLzrhp0n4TXsOZVzYzo</string>
+
+    <string name="media_5_title">mu\'qaDmey</string>
+    <string name="media_5_list_id">PLJrTr05h0I0NHU5zsb7rd7Vz0Ed_4hLhg</string>
+
+    <string name="media_6_title">latlh mu\'mey mu\'tlheghmey je</string>
+    <string name="media_6_list_id">PLJrTr05h0I0MsVYmwqMCXp8rwDjSKZzWC</string>
+
+    <!-- Classes of phrases. -->
+    <string name="empire_union_day">wo\' boq jaj</string>
+    <string name="curse_warfare">mu\'qaD veS</string>
+    <string name="nentay">nentay</string>
+    <string name="military_celebration">QI\'lop</string>
+    <string name="rejection">nga\'chuq \'e\' lajQo\'</string>
+    <string name="replacement_proverbs">qa\'meH vIttlheghmey</string>
+    <string name="secrecy_proverbs">peghmey vIttlheghmey</string>
+    <string name="proverbs">latlh vIttlheghmey</string>
+    <string name="toasts">tlhutlhwI\' mu\'tlheghmey</string>
+    <string name="lyrics">bom mu\'</string>
+    <string name="idioms">(Idioms)</string>
+    <string name="beginners_conversation">ghojchoHwI\' mu\'tlheghmey</string>
+    <string name="jokes">qIDmey, lutmey tlhaQ je</string>
+
+    <!-- Lists. -->
+    <string name="list_names">pongmey</string>
+    <string name="list_places">Daqmey</string>
+
+</resources>
