@@ -1296,13 +1296,13 @@ public class KlingonContentProvider extends ContentProvider {
         // if (useKlingonUI) {
         //   return mContext.getResources().getString(R.string.empire_union_day_tlh);
         // } else {
-          return mContext.getResources().getString(R.string.empire_union_day);
+        return mContext.getResources().getString(R.string.empire_union_day);
         // }
       } else if (mSentenceType == SentenceType.CURSE_WARFARE) {
         // if (useKlingonUI) {
         //   return mContext.getResources().getString(R.string.curse_warfare_tlh);
         // } else {
-          return mContext.getResources().getString(R.string.curse_warfare);
+        return mContext.getResources().getString(R.string.curse_warfare);
         // }
         /*
          * IDIOM is commented out because it's not in the menu yet, since we have no good
@@ -1314,7 +1314,7 @@ public class KlingonContentProvider extends ContentProvider {
         // if (useKlingonUI) {
         //   return mContext.getResources().getString(R.string.nentay_tlh);
         // } else {
-          return mContext.getResources().getString(R.string.nentay);
+        return mContext.getResources().getString(R.string.nentay);
         // }
         /*
          * PROVERB is also commented out because it's not in the menu yet either, due to
@@ -1326,49 +1326,49 @@ public class KlingonContentProvider extends ContentProvider {
         // if (useKlingonUI) {
         //   return mContext.getResources().getString(R.string.military_celebration_tlh);
         // } else {
-          return mContext.getResources().getString(R.string.military_celebration);
+        return mContext.getResources().getString(R.string.military_celebration);
         // }
       } else if (mSentenceType == SentenceType.REJECTION) {
         // if (useKlingonUI) {
         //   return mContext.getResources().getString(R.string.rejection_tlh);
         // } else {
-          return mContext.getResources().getString(R.string.rejection);
+        return mContext.getResources().getString(R.string.rejection);
         // }
       } else if (mSentenceType == SentenceType.REPLACEMENT_PROVERB) {
         // if (useKlingonUI) {
         //   return mContext.getResources().getString(R.string.replacement_proverbs_tlh);
         // } else {
-          return mContext.getResources().getString(R.string.replacement_proverbs);
+        return mContext.getResources().getString(R.string.replacement_proverbs);
         // }
       } else if (mSentenceType == SentenceType.SECRECY_PROVERB) {
         // if (useKlingonUI) {
         //   return mContext.getResources().getString(R.string.secrecy_proverbs_tlh);
         // } else {
-          return mContext.getResources().getString(R.string.secrecy_proverbs);
+        return mContext.getResources().getString(R.string.secrecy_proverbs);
         // }
       } else if (mSentenceType == SentenceType.TOAST) {
         // if (useKlingonUI) {
         //   return mContext.getResources().getString(R.string.toasts_tlh);
         // } else {
-          return mContext.getResources().getString(R.string.toasts);
+        return mContext.getResources().getString(R.string.toasts);
         // }
       } else if (mSentenceType == SentenceType.LYRICS) {
         // if (useKlingonUI) {
         //   return mContext.getResources().getString(R.string.lyrics_tlh);
         // } else {
-          return mContext.getResources().getString(R.string.lyrics);
+        return mContext.getResources().getString(R.string.lyrics);
         // }
       } else if (mSentenceType == SentenceType.BEGINNERS_CONVERSATION) {
         // if (useKlingonUI) {
         //   return mContext.getResources().getString(R.string.beginners_conversation_tlh);
         // } else {
-          return mContext.getResources().getString(R.string.beginners_conversation);
+        return mContext.getResources().getString(R.string.beginners_conversation);
         // }
       } else if (mSentenceType == SentenceType.JOKE) {
         // if (useKlingonUI) {
         //   return mContext.getResources().getString(R.string.jokes_tlh);
         // } else {
-          return mContext.getResources().getString(R.string.jokes);
+        return mContext.getResources().getString(R.string.jokes);
         // }
       }
 

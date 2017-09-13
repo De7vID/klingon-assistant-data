@@ -33,33 +33,27 @@ public class PrefixChartActivity extends BaseActivity {
 
     boolean useKlingonUI =
         sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false);
-    // if (useKlingonUI) {
-    //   setDrawerContentView(R.layout.prefix_chart_tlh);
-    // } else {
-    setDrawerContentView(R.layout.prefix_chart);
-    // }
+    if (useKlingonUI) {
+      setDrawerContentView(R.layout.prefix_chart_tlh);
+    } else {
+      setDrawerContentView(R.layout.prefix_chart);
+    }
 
     Resources resources = getResources();
     TextView entryTitle = (TextView) findViewById(R.id.entry_title);
 
     // Set the title.
     entryTitle.invalidate();
-    // if (useKlingonUI) {
-    //   if (sharedPrefs.getBoolean(
-    //       Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
-    //     // Klingon (in {pIqaD}).
-    //     entryTitle.setTypeface(KlingonAssistant.getKlingonFontTypeface(getBaseContext()));
-    //     entryTitle.setText(
-    //         KlingonContentProvider.convertStringToKlingonFont(
-    //             resources.getString(R.string.menu_prefix_chart_tlh)));
-    //   } else {
-    //     // Klingon (but in Latin).
-    //     entryTitle.setText(resources.getString(R.string.menu_prefix_chart_tlh));
-    //   }
-    // } else {
-      // Title in system language.
+    if (sharedPrefs.getBoolean(
+        Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
+      // Klingon (in {pIqaD}).
+      entryTitle.setTypeface(KlingonAssistant.getKlingonFontTypeface(getBaseContext()));
+      entryTitle.setText(
+          KlingonContentProvider.convertStringToKlingonFont(
+              resources.getString(R.string.menu_prefix_chart)));
+    } else {
       entryTitle.setText(resources.getString(R.string.menu_prefix_chart));
-    // }
+    }
   }
 
   @Override

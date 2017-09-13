@@ -526,8 +526,7 @@ public class EntryActivity extends BaseActivity
     //   mShareEntryIntent.putExtra(
     //       Intent.EXTRA_TITLE, resources.getString(R.string.share_popup_title_tlh));
     // } else {
-      mShareEntryIntent.putExtra(
-          Intent.EXTRA_TITLE, resources.getString(R.string.share_popup_title));
+    mShareEntryIntent.putExtra(Intent.EXTRA_TITLE, resources.getString(R.string.share_popup_title));
     // }
 
     mShareEntryIntent.setType("text/plain");

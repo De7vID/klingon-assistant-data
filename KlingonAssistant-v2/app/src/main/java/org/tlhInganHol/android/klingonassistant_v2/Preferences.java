@@ -23,13 +23,16 @@ import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
-import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
+import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
+import android.view.ViewGroup;
 import java.util.Locale;
 
 // Since this needs to extend PreferenceActivity, it does not have an action bar.
-public class Preferences extends PreferenceActivity implements OnSharedPreferenceChangeListener {
+public class Preferences extends AppCompatPreferenceActivity
+    implements OnSharedPreferenceChangeListener {
 
   // Tutorial preferences.
   // public static final String KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE = "run_tutorial_checkbox_preference";
@@ -78,6 +81,9 @@ public class Preferences extends PreferenceActivity implements OnSharedPreferenc
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
+    // Set up the toolbar for an AppCompatPreferenceActivity.
+    setupActionBar();
+
     // Load the preferences from an XML resource.
     addPreferencesFromResource(R.xml.preferences);
 
@@ -105,6 +111,17 @@ public class Preferences extends PreferenceActivity implements OnSharedPreferenc
     //   Preference tutorialPreference = findPreference(KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE);
     //   tutorialPreference.setEnabled(true);
     // }
+  }
+
+  private void setupActionBar() {
+    // This only works in ICS (API 14) and up.
+    ViewGroup root =
+        (ViewGroup) findViewById(android.R.id.list).getParent().getParent().getParent();
+    Toolbar toolbar =
+        (Toolbar) LayoutInflater.from(this).inflate(R.layout.view_toolbar, root, false);
+    root.addView(toolbar, 0);
+    setSupportActionBar(toolbar);
+    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
   }
 
   @Override

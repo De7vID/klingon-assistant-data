@@ -393,8 +393,8 @@ public class KlingonAssistant extends BaseActivity {
       //   mTextView.setText(
       //       Html.fromHtml(getString(R.string.no_results_tlh, new Object[] {entryNameWithPoS})));
       // } else {
-        mTextView.setText(
-            Html.fromHtml(getString(R.string.no_results, new Object[] {entryNameWithPoS})));
+      mTextView.setText(
+          Html.fromHtml(getString(R.string.no_results, new Object[] {entryNameWithPoS})));
       // }
 
     } else {
@@ -413,12 +413,12 @@ public class KlingonAssistant extends BaseActivity {
           // Display, e.g., "Lyrics:".
           countString += ":";
         }
-      // } else if (sharedPrefs.getBoolean(
-      //     Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-      //   countString =
-      //       getResources()
-      //           .getQuantityString(
-      //               R.plurals.search_results_tlh, count, new Object[] {count, entryNameWithPoS});
+        // } else if (sharedPrefs.getBoolean(
+        //     Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+        //   countString =
+        //       getResources()
+        //           .getQuantityString(
+        //               R.plurals.search_results_tlh, count, new Object[] {count, entryNameWithPoS});
       } else {
         countString =
             getResources()
@@ -452,8 +452,8 @@ public class KlingonAssistant extends BaseActivity {
       // if (sharedPrefs.getBoolean(
       //     Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
       //   // Use the Klingon UI strings.
-        searchManager.startSearch(
-            null, false, new ComponentName(this, KlingonAssistant.class), null, false);
+      searchManager.startSearch(
+          null, false, new ComponentName(this, KlingonAssistant.class), null, false);
       // } else {
       //   // Use the non-Klingon UI strings.
       //   searchManager.startSearch(

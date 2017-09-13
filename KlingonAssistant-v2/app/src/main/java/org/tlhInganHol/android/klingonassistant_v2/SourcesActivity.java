@@ -38,23 +38,16 @@ public class SourcesActivity extends BaseActivity {
 
     // Set the title.
     entryTitle.invalidate();
-    // if (sharedPrefs.getBoolean(
-    //     Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-    //   if (sharedPrefs.getBoolean(
-    //       Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
-    //     // Klingon (in {pIqaD}).
-    //     entryTitle.setTypeface(KlingonAssistant.getKlingonFontTypeface(getBaseContext()));
-    //     entryTitle.setText(
-    //         KlingonContentProvider.convertStringToKlingonFont(
-    //             resources.getString(R.string.menu_sources_tlh)));
-    //   } else {
-    //     // Klingon (but in Latin).
-    //     entryTitle.setText(resources.getString(R.string.menu_sources_tlh));
-    //   }
-    // } else {
-      // Title in system language.
+    if (sharedPrefs.getBoolean(
+        Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
+      // Klingon (in {pIqaD}).
+      entryTitle.setTypeface(KlingonAssistant.getKlingonFontTypeface(getBaseContext()));
+      entryTitle.setText(
+          KlingonContentProvider.convertStringToKlingonFont(
+              resources.getString(R.string.menu_sources)));
+    } else {
       entryTitle.setText(resources.getString(R.string.menu_sources));
-    // }
+    }
 
     // TODO: Bold the names of sources.
   }

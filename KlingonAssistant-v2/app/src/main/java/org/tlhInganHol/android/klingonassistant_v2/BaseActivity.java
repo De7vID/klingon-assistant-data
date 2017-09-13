@@ -17,22 +17,18 @@
 package org.tlhInganHol.android.klingonassistant_v2;
 
 import android.app.SearchManager;
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.database.Cursor;
 import android.graphics.Typeface;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -40,20 +36,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Spannable;
 import android.text.SpannableString;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.SubMenu;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ListView;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Locale;
 
 public class BaseActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+    implements NavigationView.OnNavigationItemSelectedListener {
   private static final String TAG = "BaseActivity";
 
   // This must uniquely identify the {boQwI'} entry.
@@ -83,16 +75,8 @@ public class BaseActivity extends AppCompatActivity
   private static final String QUERY_FOR_BEGINNERS_CONVERSATION = "*:sen:bc";
   private static final String QUERY_FOR_JOKES = "*:sen:joke";
 
-  // private KillReceiver mKillReceiver;
-  // protected static final String ACTION_KILL =
-  //     "org.tlhInganHol.android.klingonassistant_v2.intent.action.KILL";
-  // protected static final String KILL_TYPE =
-  //     "org.tlhInganHol.android.klingonassistant_v2.intent.action/kill";
-
-  // private MenuDrawer mDrawer;
-
   // protected SlideMenuAdapter mAdapter;
-  protected ListView mList;
+  // protected ListView mList;
 
   private int mActivePosition = 0;
 
@@ -111,58 +95,77 @@ public class BaseActivity extends AppCompatActivity
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
-    // Override for Klingon language.
-    SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-    if (sharedPrefs.getBoolean(
-        Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-      Configuration configuration = getBaseContext().getResources().getConfiguration(); // new Configuration();
-      configuration.locale = new Locale("tlh", "CAN");
-      getBaseContext().getResources().updateConfiguration(configuration, getBaseContext().getResources().getDisplayMetrics());
-    }
-
-        setContentView(R.layout.activity_base);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
-
     // if (savedInstanceState != null) {
     //   mActivePosition = savedInstanceState.getInt(STATE_ACTIVE_POSITION);
     // }
 
-    // // Get the action bar.
-    // ActionBar actionBar = getSupportActionBar();
-    // actionBar.setDisplayHomeAsUpEnabled(true);
+    // Override for Klingon language.
+    SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+    if (sharedPrefs.getBoolean(
+        Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
+      Configuration configuration = getBaseContext().getResources().getConfiguration();
+      configuration.locale = new Locale("tlh", "CAN");
+      getBaseContext()
+          .getResources()
+          .updateConfiguration(configuration, getBaseContext().getResources().getDisplayMetrics());
+    }
 
-    // SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-    // if (sharedPrefs.getBoolean(
-    //     Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
-    //   // Display the action bar title in Klingon font.
-    //   SpannableString title = new SpannableString("");
-    //   Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(getBaseContext());
-    //   title.setSpan(
-    //       new KlingonTypefaceSpan("", klingonTypeface),
-    //       0,
-    //       title.length(),
-    //       Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-    //   actionBar.setTitle(title);
-    // }
+    setContentView(R.layout.activity_base);
+    Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+    setSupportActionBar(toolbar);
+    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    // getSupportActionBar().setIcon(R.drawable.ic_ka);
+
+    // Display the toolbar title in Klingon font.
+    SpannableString title =
+        new SpannableString(KlingonContentProvider.convertStringToKlingonFont("boQwI\'"));
+    Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(getBaseContext());
+    title.setSpan(
+        new KlingonTypefaceSpan("", klingonTypeface),
+        0,
+        title.length(),
+        Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+    getSupportActionBar().setTitle(title);
+
+    FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+    fab.setOnClickListener(
+        new View.OnClickListener() {
+          @Override
+          public void onClick(View view) {
+            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                .setAction("Action", null)
+                .show();
+          }
+        });
+
+    DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+    ActionBarDrawerToggle toggle =
+        new ActionBarDrawerToggle(
+            this,
+            drawer,
+            toolbar,
+            R.string.navigation_drawer_open,
+            R.string.navigation_drawer_close);
+    drawer.setDrawerListener(toggle);
+    toggle.syncState();
+
+    NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+    navigationView.setNavigationItemSelectedListener(this);
+    if (sharedPrefs.getBoolean(
+        Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
+      Menu navMenu = navigationView.getMenu();
+      for (int i = 0; i < navMenu.size(); i++) {
+        MenuItem menuItem = navMenu.getItem(i);
+        SubMenu subMenu = menuItem.getSubMenu();
+        if (subMenu != null && subMenu.size() > 0) {
+          for (int j = 0; j < subMenu.size(); j++) {
+            MenuItem subMenuItem = subMenu.getItem(j);
+            applyKlingonTypeFaceToMenuItem(subMenuItem);
+          }
+        }
+        applyKlingonTypeFaceToMenuItem(menuItem);
+      }
+    }
 
     // If the device is in landscape orientation and the screen size is large (or bigger), then
     // make the slide-out menu static. Otherwise, hide it by default.
@@ -174,41 +177,33 @@ public class BaseActivity extends AppCompatActivity
     // Activate type-to-search for local search. Typing will automatically
     // start a search of the database.
     setDefaultKeyMode(DEFAULT_KEYS_SEARCH_LOCAL);
-
-    // Register a receiver for the kill order.
-    // mKillReceiver = new KillReceiver();
-    // registerReceiver(mKillReceiver, IntentFilter.create(ACTION_KILL, KILL_TYPE));
   }
 
-  // @Override
-  // protected void onDestroy() {
-  //   unregisterReceiver(mKillReceiver);
-  //   super.onDestroy();
-  // }
-
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
-    }
+  private void applyKlingonTypeFaceToMenuItem(MenuItem menuItem) {
+    Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(getBaseContext());
+    String title = menuItem.getTitle().toString();
+    SpannableString klingonFontTitle =
+        new SpannableString(KlingonContentProvider.convertStringToKlingonFont(title));
+    klingonFontTitle.setSpan(
+        new KlingonTypefaceSpan("", klingonTypeface),
+        0,
+        klingonFontTitle.length(),
+        Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+    menuItem.setTitle(klingonFontTitle);
+  }
 
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
-    // TODO: Use Klingon typeface in options menu too.
     MenuInflater inflater = getMenuInflater();
+    inflater.inflate(R.menu.options_menu, menu);
     SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-    // getMenuInflater().inflate(R.menu.base, menu);
-    // if (sharedPrefs.getBoolean(
-    //     Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false)) {
-    //   inflater.inflate(R.menu.options_menu_tlh, menu);
-    // } else {
-      inflater.inflate(R.menu.options_menu, menu);
-    // }
-
+    if (sharedPrefs.getBoolean(
+        Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
+      for (int i = 0; i < menu.size(); i++) {
+        MenuItem menuItem = menu.getItem(i);
+        applyKlingonTypeFaceToMenuItem(menuItem);
+      }
+    }
     return true;
   }
 
@@ -219,10 +214,10 @@ public class BaseActivity extends AppCompatActivity
     LayoutInflater.from(getBaseContext()).inflate(layoutResId, constraintLayout, true);
   }
 
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+  @SuppressWarnings("StatementWithEmptyBody")
+  @Override
+  public boolean onNavigationItemSelected(MenuItem item) {
+    // Handle navigation view item clicks here.
 
     switch (item.getItemId()) {
       case R.id.pronunciation:
@@ -355,10 +350,10 @@ public class BaseActivity extends AppCompatActivity
       default:
     }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
-    }
+    DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+    drawer.closeDrawer(GravityCompat.START);
+    return true;
+  }
 
   // Private method to launch a YouTube playlist.
   private void launchYouTubePlaylist(String listId) {
@@ -497,7 +492,7 @@ public class BaseActivity extends AppCompatActivity
 
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
-        //noinspection SimplifiableIfStatement
+    //noinspection SimplifiableIfStatement
     switch (item.getItemId()) {
       case R.id.search:
         onSearchRequested();
@@ -543,23 +538,13 @@ public class BaseActivity extends AppCompatActivity
   }
 
   // Collapse slide-out menu if "Back" key is pressed and it's open.
-  // @Override
-  // public void onBackPressed() {
-  //   final int drawerState = mDrawer.getDrawerState();
-  //   if (drawerState == MenuDrawer.STATE_OPEN || drawerState == MenuDrawer.STATE_OPENING) {
-  //     mDrawer.closeMenu();
-  //     return;
-  //   }
-
-  //   super.onBackPressed();
-  // }
-
-  // private final class KillReceiver extends BroadcastReceiver {
-  //   @Override
-  //   public void onReceive(Context context, Intent intent) {
-  //     Log.d(TAG, "Received kill order, finishing.");
-  //     finish();
-  //   }
-  // }
+  @Override
+  public void onBackPressed() {
+    DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+    if (drawer.isDrawerOpen(GravityCompat.START)) {
+      drawer.closeDrawer(GravityCompat.START);
+    } else {
+      super.onBackPressed();
+    }
+  }
 }
-
