@@ -30,12 +30,12 @@ import android.view.MenuItem;
 import android.view.ViewGroup;
 import java.util.Locale;
 
-// Since this needs to extend PreferenceActivity, it does not have an action bar.
 public class Preferences extends AppCompatPreferenceActivity
     implements OnSharedPreferenceChangeListener {
 
   // Tutorial preferences.
-  // public static final String KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE = "run_tutorial_checkbox_preference";
+  // public static final String KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE =
+  // "run_tutorial_checkbox_preference";
 
   // Language preferences.
   public static final String KEY_KLINGON_UI_CHECKBOX_PREFERENCE = "klingon_ui_checkbox_preference";

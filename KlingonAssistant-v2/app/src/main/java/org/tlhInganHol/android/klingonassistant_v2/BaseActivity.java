@@ -26,9 +26,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.constraint.ConstraintLayout;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -36,12 +34,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Spannable;
 import android.text.SpannableString;
+import android.text.style.RelativeSizeSpan;
+import android.text.style.TypefaceSpan;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.SubMenu;
 import android.view.View;
+import android.widget.TextView;
 import java.util.Locale;
 
 public class BaseActivity extends AppCompatActivity
@@ -116,27 +117,29 @@ public class BaseActivity extends AppCompatActivity
     getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     // getSupportActionBar().setIcon(R.drawable.ic_ka);
 
-    // Display the toolbar title in Klingon font.
-    SpannableString title =
-        new SpannableString(KlingonContentProvider.convertStringToKlingonFont("boQwI\'"));
+    // Display the title in Klingon font.
+    SpannableString klingonAppName =
+        new SpannableString(
+            KlingonContentProvider.convertStringToKlingonFont(
+                getBaseContext().getResources().getString(R.string.app_name)));
     Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(getBaseContext());
-    title.setSpan(
+    klingonAppName.setSpan(
         new KlingonTypefaceSpan("", klingonTypeface),
         0,
-        title.length(),
+        klingonAppName.length(),
         Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-    getSupportActionBar().setTitle(title);
+    getSupportActionBar().setTitle(klingonAppName);
 
-    FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-    fab.setOnClickListener(
-        new View.OnClickListener() {
-          @Override
-          public void onClick(View view) {
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null)
-                .show();
-          }
-        });
+    // FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+    // fab.setOnClickListener(
+    //     new View.OnClickListener() {
+    //       @Override
+    //       public void onClick(View view) {
+    //         Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+    //             .setAction("Action", null)
+    //             .show();
+    //       }
+    //     });
 
     DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
     ActionBarDrawerToggle toggle =
@@ -151,21 +154,24 @@ public class BaseActivity extends AppCompatActivity
 
     NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
     navigationView.setNavigationItemSelectedListener(this);
-    if (sharedPrefs.getBoolean(
-        Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
-      Menu navMenu = navigationView.getMenu();
-      for (int i = 0; i < navMenu.size(); i++) {
-        MenuItem menuItem = navMenu.getItem(i);
-        SubMenu subMenu = menuItem.getSubMenu();
-        if (subMenu != null && subMenu.size() > 0) {
-          for (int j = 0; j < subMenu.size(); j++) {
-            MenuItem subMenuItem = subMenu.getItem(j);
-            applyKlingonTypeFaceToMenuItem(subMenuItem);
-          }
+    Menu navMenu = navigationView.getMenu();
+    for (int i = 0; i < navMenu.size(); i++) {
+      MenuItem menuItem = navMenu.getItem(i);
+      SubMenu subMenu = menuItem.getSubMenu();
+      if (subMenu != null && subMenu.size() > 0) {
+        for (int j = 0; j < subMenu.size(); j++) {
+          MenuItem subMenuItem = subMenu.getItem(j);
+          applyTypefaceToMenuItem(subMenuItem, false);
         }
-        applyKlingonTypeFaceToMenuItem(menuItem);
       }
+      applyTypefaceToMenuItem(menuItem, true);
     }
+
+    View headerView = navigationView.getHeaderView(0);
+    TextView appNameView = (TextView) headerView.findViewById(R.id.app_name_view);
+    TextView versionView = (TextView) headerView.findViewById(R.id.version_view);
+    appNameView.setText(klingonAppName);
+    versionView.setText("v" + KlingonContentDatabase.getDatabaseVersion() + " (alpha)");
 
     // If the device is in landscape orientation and the screen size is large (or bigger), then
     // make the slide-out menu static. Otherwise, hide it by default.
@@ -179,30 +185,53 @@ public class BaseActivity extends AppCompatActivity
     setDefaultKeyMode(DEFAULT_KEYS_SEARCH_LOCAL);
   }
 
-  private void applyKlingonTypeFaceToMenuItem(MenuItem menuItem) {
+  private void applyTypefaceToMenuItem(MenuItem menuItem, boolean enlarge) {
+    final SharedPreferences sharedPrefs =
+        PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+    boolean useKlingonUI =
+        sharedPrefs.getBoolean(Preferences.KEY_KLINGON_UI_CHECKBOX_PREFERENCE, /* default */ false);
+    boolean useKlingonFont =
+        sharedPrefs.getBoolean(
+            Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false);
     Typeface klingonTypeface = KlingonAssistant.getKlingonFontTypeface(getBaseContext());
     String title = menuItem.getTitle().toString();
-    SpannableString klingonFontTitle =
-        new SpannableString(KlingonContentProvider.convertStringToKlingonFont(title));
-    klingonFontTitle.setSpan(
-        new KlingonTypefaceSpan("", klingonTypeface),
-        0,
-        klingonFontTitle.length(),
-        Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-    menuItem.setTitle(klingonFontTitle);
+    SpannableString spannableString;
+    if (useKlingonFont) {
+      spannableString =
+          new SpannableString(KlingonContentProvider.convertStringToKlingonFont(title));
+      spannableString.setSpan(
+          new KlingonTypefaceSpan("", klingonTypeface),
+          0,
+          spannableString.length(),
+          Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+    } else {
+      spannableString = new SpannableString(title);
+      if (useKlingonUI) {
+        // If the UI is in Klingon (Latin), use a serif typeface.
+        spannableString.setSpan(
+            new TypefaceSpan("serif"),
+            0,
+            spannableString.length(),
+            Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+      }
+    }
+    if (enlarge) {
+      spannableString.setSpan(
+          new RelativeSizeSpan(1.5f),
+          0,
+          spannableString.length(),
+          Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+    }
+    menuItem.setTitle(spannableString);
   }
 
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
     MenuInflater inflater = getMenuInflater();
     inflater.inflate(R.menu.options_menu, menu);
-    SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-    if (sharedPrefs.getBoolean(
-        Preferences.KEY_KLINGON_FONT_CHECKBOX_PREFERENCE, /* default */ false)) {
-      for (int i = 0; i < menu.size(); i++) {
-        MenuItem menuItem = menu.getItem(i);
-        applyKlingonTypeFaceToMenuItem(menuItem);
-      }
+    for (int i = 0; i < menu.size(); i++) {
+      MenuItem menuItem = menu.getItem(i);
+      applyTypefaceToMenuItem(menuItem, false);
     }
     return true;
   }
@@ -492,7 +521,7 @@ public class BaseActivity extends AppCompatActivity
 
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
-    //noinspection SimplifiableIfStatement
+    // noinspection SimplifiableIfStatement
     switch (item.getItemId()) {
       case R.id.search:
         onSearchRequested();
