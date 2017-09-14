@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2014 De'vID jonpIn (David Yonge-Mallo)
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- The name of the Klingon Assistant application. -->
+    <string name="app_name">boQwI\'</string>
+
+    <!-- Messages for database creation and upgrade. -->
+    <string name="database_created">Datenbank v%1$s erstellt.</string>
+    <string name="database_upgraded">Datenbank aktualisiert von v%1$s zu v%2$s.</string>
+
+    <!-- The label for use as a searchable item, e.g., "Dictionary". -->
+    <string name="search_label">Datenbank</string>
+
+    <!-- The hint text that appears in the search box, e.g., "Search the dictionary". -->
+    <string name="search_hint">Datenbank durchsuchen</string>
+
+    <!-- The primary menu entry that invokes search, e.g., "Search". -->
+    <string name="menu_search">Suchen</string>
+
+    <!-- The "Speak" button. -->
+    <string name="menu_speak">Diesen Eintrag vorlesen</string>
+
+    <!-- The "Share" button, popup menu, and "shared from" string. -->
+    <string name="menu_share">Senden</string>
+    <string name="share_popup_title">Senden mit...</string>
+    <string name="shared_from">Aus {boQwI\'} gesendet.</string>
+
+    <!-- The menu entry that sends a request for translation to the G+ Klingon language community. -->
+    <string name="menu_request_translation">Übersetzung anfragen</string>
+
+    <!-- The description that will show up in the search settings for this source, e.g., "Definitions of words".  -->
+    <string name="settings_description">Klingonische Wörter und Sätze</string>
+
+    <!-- General instructions in the main activity. -->
+    <string name="search_instructions">Nutze die Suchfunktion um Vokabeln zu suchen oder wähle ein Thema im Menü.</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+      <item quantity="one"><![CDATA[%1$d Ergebnis für &lt;<b>%2$s</b>&gt;: ]]></item>
+      <item quantity="other"><![CDATA[%1$d Ergebnisse für &lt;<b>%2$s</b>&gt;: ]]></item>
+    </plurals>
+
+    <!-- Search failure message, e.g., "No results found for \"%s\"". -->
+    <string name="no_results"><![CDATA[Kein Ergebnis für &lt;<b>%s</b>&gt;.]]></string>
+
+    <!-- Other menu items. -->
+    <string name="menu_about">boQwI\' - Hilfe</string>
+    <string name="menu_preferences">Einstellungen</string>
+    <string name="menu_reference">Allgemein</string>
+    <string name="menu_pronunciation">Aussprache</string>
+    <string name="menu_prefixes">Vorsilben</string>
+    <string name="menu_prefix_chart">Vorsilben-Tabelle</string>
+    <string name="menu_noun_suffixes">Nomensuffixe</string>
+    <string name="menu_verb_suffixes">Verbsuffixe</string>
+    <string name="menu_sources">Quellen</string>
+    <string name="menu_phrases">Nützliche Sätze</string>
+    <string name="menu_lists">Listen</string>
+    <string name="menu_media">Medien</string>
+    <string name="menu_social">Soziale Netzwerke</string>
+    <string name="menu_kli">Klingonisch-Institut</string>
+    <string name="menu_kli_lessons">Onlinekurs</string>
+    <string name="menu_kli_questions">Frage stellen</string>
+    <string name="menu_gplus">Forum auf Google+</string>
+    <string name="menu_facebook">Facebook-Gruppe</string>
+    <string name="menu_kag">KAG Kommunikationskanal</string>
+    <string name="menu_kidc">Klingon Imperial Forum</string>
+
+    <!-- Media. -->
+    <string name="media_1_title">Klingonischkurs</string>
+    <!-- Override the German version with a different playlist. -->
+    <string name="media_1_list_id">PLJrTr05h0I0MUv7QVLpG32cMAR1uiJ_Rs</string>
+    <string name="media_2_title">Konversation</string>
+    <string name="media_3_title">Kampfbefehle</string>
+    <string name="media_4_title">Andere Befehle</string>
+    <string name="media_5_title">Flüche</string>
+    <string name="media_6_title">Andere Wörter und Sätze</string>
+
+    <!-- Classes of phrases. -->
+    <string name="empire_union_day">Reichsfeiertag</string>
+    <string name="curse_warfare">Wettfluchen</string>
+    <string name="nentay">Ritus des Aufsteigens</string>
+    <string name="military_celebration">QI\'lop</string>
+    <string name="rejection">Ablehnen einer Anmache</string>
+    <string name="replacement_proverbs">Ersatz-Sprichwörter</string>
+    <string name="secrecy_proverbs">Geheimnis-Sprichwörter</string>
+    <string name="proverbs">andere Sprichwörter</string>
+    <string name="toasts">Trinksprüche</string>
+    <string name="lyrics">Liedtexte</string>
+    <string name="idioms">Redewendungen</string>
+    <string name="beginners_conversation">Sätze für Anfänger</string>
+    <string name="jokes">Witze</string>
+
+    <!-- Lists. -->
+    <string name="list_names">Namen</string>
+    <string name="list_places">Geografie</string>
+
+    <!-- Strings for the Preferences settings. -->
+    <string name="klingon_assistant_settings">boQwI\' Einstellungen</string>
+      <!--
+      <string name="tutorial_preferences">Tutorial</string>
+        <string name="run_tutorial_preference_title">Tutorial einschalten</string>
+        <string name="run_tutorial_preference_summary">Beginne das Tutorial beim nächsten Start der Anwendung (benötigt Android 4.1+).</string>
+      -->
+      <string name="language_preferences">Spracheinstellungen</string>
+        <string name="klingon_ui_preference_title">Klingonische Menüs</string>
+        <string name="klingon_ui_preference_summary">Benutzeroberfläche auf Klingonisch anzeigen.</string>
+        <string name="klingon_font_preference_title">{pIqaD}</string>
+        <string name="klingon_font_preference_summary">Klingonische Schriftzeichen anzeigen.</string>
+        <string name="show_german_definitions_preference_title">Deutsche Definitionen</string>
+        <string name="show_german_definitions_preference_summary">Deutsche Übersetzungen anzeigen.</string>
+        <string name="search_german_definitions_preference_title">Deutsche Suche</string>
+        <string name="search_german_definitions_preference_summary">Auch deutsche Definitionen durchsuchen.</string>
+      <string name="input_preferences">Eingabeeinstellungen</string>
+        <string name="xifan_hol_preference_title">\"xifan hol\" Eingabe</string>
+        <string name="xifan_hol_preference_summary">Erlaube \"x\" für {tlh}, \"f\" für {ng}, usw.</string>
+        <string name="swap_qs_preference_title">{Q} und {q} tauschen</string>
+        <string name="swap_qs_preference_summary">Nutze \"k\" als {q} und \"q\" als {Q}.</string>
+      <string name="social_preferences">Soziale Einstellungen</string>
+        <string name="social_network_preference_title">Soziales Netzwerk</string>
+        <string name="social_network_preference_summary">Soziales Netzwerk einstellen.</string>
+      <string name="informational_preferences">Zusätzliche Informationen</string>
+        <string name="use_colours_preference_title">Farben verwenden</string>
+        <string name="use_colours_preference_summary">Verschiedene Wortarten farblich unterscheiden.</string>
+        <string name="show_transitivity_preference_title">Transitivität</string>
+        <string name="show_transitivity_preference_summary">Eine \"beste Vermutung\" anzeigen, ob ein Verb ein Objekt haben kann.</string>
+        <string name="show_additional_information_preference_title">Zusatzinfos</string>
+        <string name="show_additional_information_preference_summary">Hintergrundinfos wie Wortspiele, Fehler, usw. anzeigen</string>
+
+    <string name="warning">Warnung</string>
+    <string name="change_ui_language_warning">Die Änderungen der Sprachauswahl sind eventuell erst nach dem Neustart der Anwendung sichtbar.\n\nFortfahren?</string>
+
+    <!-- Metadata labels and descriptions. -->
+    <string name="label_see_alt_entry">Siehe</string>
+    <string name="label_english">Englisch</string>
+    <string name="label_german">Deutsch</string>
+    <string name="label_synonyms">Synonym</string>
+    <string name="label_antonyms">Gegenteil</string>
+    <string name="label_see_also">Siehe auch</string>
+    <string name="label_category">Kategorie</string>
+    <string name="label_analyze">Analysiere</string>
+    <string name="label_components">Einzelteile</string>
+    <string name="label_examples">Beispiel</string>
+    <string name="label_sources">Quelle</string>
+    <string name="label_transitivity">Transitivität</string>
+      <string name="transitivity_ambi">Die Bedeutung dieses Verbes ändert sich je nachdem, ob es ein direktes Objekt hat oder nicht.</string>
+      <string name="transitivity_intransitive">Dieses Verb kann wahrscheinlich kein direktes Objekt haben.</string>
+      <string name="transitivity_intransitive_confirmed">Dieses Verb kann eindeutig kein Objekt verlangen.</string>
+      <string name="transitivity_stative">Dieses Verb beschreibt einen Zustand oder Eigenschaft und kann eindeutig kein Objekt haben.</string>
+      <string name="transitivity_transitive">Dieses Verb kann wahrscheinlich ein direktes Objekt haben.</string>
+      <string name="transitivity_transitive_confirmed">Dieses Verb kann eindeutig ein Objekt verlangen. </string>
+      <string name="transitivity_unknown">unbekannt</string>
+    <string name="label_additional_information">Zusätzliche Informationen</string>
+    <string name="info_being">Dieses Wort beschreibt ein sprachfähiges Wesen. Die Mehrzahl wird mit dem Suffix {-pu\':n:suff} gebildet.</string>
+    <string name="info_body">Dieses Wort beschreibt ein Körperteil. Die Mehrzahl wird mit dem Suffix {-Du\':n:suff} gebildet.</string>
+    <string name="info_inherent_plural">Dieses Wort ist eine unregelmäßge Mehrzahlform. Seine Einzahl heißt %1$s.</string>
+    <string name="info_singular_form">Die unregelmäßige Mehrzahlform dieses Wortes lautet %1$s.</string>
+    <string name="warning_hypothetical">Achtung: Dieser Eintrag ist hypothetisch. Vorsichtig benutzen!</string>
+    <string name="warning_extended_canon">Achtung: Dieses Wort stammt aus erweitertem Kanon. Vorsichtig benutzen!</string>
+
+    <!-- Strings for the ShowcaseView tutorial. -->
+    <!--
+    <string name="tutorial_1_title">qavan! (Ich grüße dir!)</string>
+    <string name="tutorial_1_msg">Dieses Tutorial wird dich kurz durch den boQwI\' leiten.\n\n* neueste Änderungen *\n2014-12-17: Added words from K.R.A. DeCandido.\n2014-12-02: color-coded parts of speech, bug fixes, show Klingon font in more places.\n2014-11-16: new vocab from qepHom\'a\' 2014.</string>
+    <string name="tutorial_2_title">Suche</string>
+    <string name="tutorial_2_msg">Durchsuche die Datenbank auf Englisch oder Klingonisch.</string>
+    <string name="tutorial_3_title">Ressourcen</string>
+    <string name="tutorial_3_msg">Tippe hier um das Resourcen-Menü zu öffen. Dort findest du nützliche Tabellen, Sätze und Links zu verschiedenen Medien.</string>
+    <string name="tutorial_4_title">Soziale Netzwerke</string>
+    <string name="tutorial_4_msg">Kommuniziere mit anderen Klingonisch-Schülern und -Experten in der Google+ Klingonisch-Community.\n\nMöchtest du etwas übersetzen, was nicht in der Datenbank steht? Dann Frage den Klingonischlehrer Lieven L. Litaer.</string>
+    <string name="tutorial_5_title">Andere Funktionen</string>
+    <string name="tutorial_5_msg">Benutze den Menü-Button für weitere Funktionen.</string>
+    <string name="tutorial_6_title">Noch mehr Funktionen</string>
+    <string name="tutorial_6_msg">Willst du hören, wie sich ein Wort anhört? Nutze den "Vorlese"-Button. (benötigt Klingonische Text-To-Speech engine.)\n\nLiest du einen langen Text auf Klingonisch (wie Hamlet)?</string>
+    <string name="tutorial_7_title">Qapla\'! (Erfolg!)</string>
+    <string name="tutorial_7_msg">Fortgeschrittene Nutzer finden weitere Optionen im Einstellungs-Menü.</string>
+    -->
+</resources>

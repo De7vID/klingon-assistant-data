@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2014 De'vID jonpIn (David Yonge-Mallo)
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- TUTORIAL -->
+    <!--
+    <PreferenceCategory
+            android:title="@string/tutorial_preferences">
+        <CheckBoxPreference
+                android:key="run_tutorial_checkbox_preference"
+                android:title="@string/run_tutorial_preference_title"
+                android:summary="@string/run_tutorial_preference_summary"
+                android:enabled="false"
+                android:defaultValue="true" />
+    </PreferenceCategory>
+    -->
+
+    <PreferenceCategory
+            android:title="@string/language_preferences">
+
+        <CheckBoxPreference
+                android:key="klingon_ui_checkbox_preference"
+                android:title="@string/klingon_ui_preference_title"
+                android:summary="@string/klingon_ui_preference_summary"
+                android:defaultValue="false" />
+        <CheckBoxPreference
+                android:key="klingon_font_checkbox_preference"
+                android:dependency="klingon_ui_checkbox_preference"
+                android:layout="?android:attr/preferenceLayoutChild"
+                android:title="@string/klingon_font_preference_title"
+                android:summary="@string/klingon_font_preference_summary"
+                android:defaultValue="false" />
+
+        <CheckBoxPreference
+                android:key="show_german_definitions_checkbox_preference"
+                android:title="@string/show_german_definitions_preference_title"
+                android:summary="@string/show_german_definitions_preference_summary"
+                android:defaultValue="false" />
+        <CheckBoxPreference
+                android:key="search_german_definitions_checkbox_preference"
+                android:dependency="show_german_definitions_checkbox_preference"
+                android:layout="?android:attr/preferenceLayoutChild"
+                android:title="@string/search_german_definitions_preference_title"
+                android:summary="@string/search_german_definitions_preference_summary"
+                android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/input_preferences">
+
+        <CheckBoxPreference
+                android:key="xifan_hol_checkbox_preference"
+                android:title="@string/xifan_hol_preference_title"
+                android:summary="@string/xifan_hol_preference_summary"
+                android:defaultValue="false" />
+        <CheckBoxPreference
+                android:key="swap_qs_checkbox_preference"
+                android:dependency="xifan_hol_checkbox_preference"
+                android:layout="?android:attr/preferenceLayoutChild"
+                android:title="@string/swap_qs_preference_title"
+                android:summary="@string/swap_qs_preference_summary"
+                android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <!--
+    <PreferenceCategory
+            android:title="@string/social_preferences">
+
+        <ListPreference
+                android:key="social_network_list_preference"
+                android:title="@string/social_network_preference_title"
+                android:summary="@string/social_network_preference_summary"
+                android:entries="@array/social_network_entries"
+                android:entryValues="@array/social_network_entries_values"
+                android:defaultValue="gplus" />
+    </PreferenceCategory>
+    -->
+
+    <PreferenceCategory
+            android:title="@string/informational_preferences">
+
+        <CheckBoxPreference
+                android:key="use_colours_checkbox_preference"
+                android:title="@string/use_colours_preference_title"
+                android:summary="@string/use_colours_preference_summary"
+                android:defaultValue="true" />
+
+        <CheckBoxPreference
+                android:key="show_transitivity_checkbox_preference"
+                android:title="@string/show_transitivity_preference_title"
+                android:summary="@string/show_transitivity_preference_summary"
+                android:defaultValue="true" />
+
+        <CheckBoxPreference
+                android:key="show_additional_information_checkbox_preference"
+                android:title="@string/show_additional_information_preference_title"
+                android:summary="@string/show_additional_information_preference_summary"
+                android:defaultValue="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

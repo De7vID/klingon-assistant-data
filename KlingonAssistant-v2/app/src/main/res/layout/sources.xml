@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright (C) 2014 De'vID jonpIn (David Yonge-Mallo)
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<!-- Layout for SourcesActivity. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp">
+    <!-- Entry must be serif, to distinguish capital-I from lowercase-l. -->
+    <TextView
+            android:id="@+id/entry_title"
+            android:textSize="35sp"
+            android:textColor="?android:textColorPrimary"
+            android:typeface="serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <!-- Definition can default to sans (embedded Klingon must be serif). -->
+    <ScrollView
+            android:id="@+id/scroller"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:fillViewport="true">
+        <TextView
+                android:id="@+id/definition"
+                android:textSize="18sp"
+                android:textColor="?android:textColorSecondary"
+                android:typeface="sans"
+                android:paddingTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fillViewport="true"
+                android:layout_weight="1.0"
+                android:text="
+\nCanon books:
+\nTKD = The Klingon Dictionary, 2ed (1992)
+\nTKDA = The Klingon Dictionary Addendum (1992)
+\nTKW = The Klingon Way (1996)
+\nKGT = Klingon for the Galactic Traveler (1997)
+\n
+\nOther canon media:
+\nCK = Conversational Klingon (1992)
+\nPK = Power Klingon (1993)
+\nKCD = Star Trek: Klingon (CD game) (1996)
+\nSkyBox = SkyBox trading cards (1994-1997)
+\nBoP = Bird of Prey poster (1998)
+\n
+\nJournals and mailing lists:
+\nHQ = HolQeD (journal of the Klingon Language Institute) (1992-2005)
+\nmsn = msn.onstage.startrek.expert.okrand (1996-1997)
+\ns.e = startrek.expertforum (1998)
+\ns.k = startrek.klingon (1998-1999)
+\n
+\nStar Trek series:
+\nTOS = The Original Series (1966-1969)
+\nTNG = The Next Generation (1987-1994)
+\nDS9 = Deep Space Nine (1993-1999)
+\nVOY = Voyager (1995-2001)
+\nENT = Enterprise (2001-2005)
+\nDSC = Discovery (2017-)
+\n
+\nOther:
+\nFTG = Federation Travel Guide (1997)
+\nTNK = Talk Now! Klingon from eurotalk (2011)
+\n"/>
+    </ScrollView>
+</LinearLayout>

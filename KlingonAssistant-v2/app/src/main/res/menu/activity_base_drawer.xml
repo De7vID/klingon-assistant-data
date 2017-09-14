@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+    -->
+
+    <item android:id="@+id/reference"
+        android:title="@string/menu_reference">
+        <menu>
+            <item android:id="@+id/pronunciation"
+                android:title="@string/menu_pronunciation" />
+            <item android:id="@+id/prefixes"
+                android:title="@string/menu_prefixes" />
+            <item android:id="@+id/prefix_chart"
+                android:title="@string/menu_prefix_chart" />
+            <item android:id="@+id/noun_suffixes"
+                android:title="@string/menu_noun_suffixes" />
+            <item android:id="@+id/verb_suffixes"
+                android:title="@string/menu_verb_suffixes" />
+            <item android:id="@+id/sources"
+                android:title="@string/menu_sources" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/phrases"
+        android:title="@string/menu_phrases">
+        <menu>
+            <item android:id="@+id/beginners_conversation"
+                android:title="@string/beginners_conversation" />
+            <item android:id="@+id/jokes"
+                android:title="@string/jokes" />
+            <item android:id="@+id/nentay"
+                android:title="@string/nentay" />
+            <item android:id="@+id/military_celebration"
+                android:title="@string/military_celebration" />
+            <item android:id="@+id/toasts"
+                android:title="@string/toasts" />
+            <item android:id="@+id/lyrics"
+                android:title="@string/lyrics" />
+            <item android:id="@+id/curse_warfare"
+                android:title="@string/curse_warfare" />
+            <item android:id="@+id/replacement_proverbs"
+                android:title="@string/replacement_proverbs" />
+            <item android:id="@+id/secrecy_proverbs"
+                android:title="@string/secrecy_proverbs" />
+            <item android:id="@+id/empire_union_day"
+                android:title="@string/empire_union_day" />
+            <item android:id="@+id/rejection"
+                android:title="@string/rejection" />
+            <!-- Not all general proverbs are properly tagged yet.
+            <item android:id="@+id/proverbs"
+                android:title="@string/proverbs" />
+            -->
+            <!-- Too many; also no known Klingon term for "idiom".
+            <item android:id="@+id/idioms"
+                android:title="@string/idioms" />
+            -->
+        </menu>
+    </item>
+
+    <!--
+    <item android:id="@+id/lists"
+        android:title="@string/menu_lists">
+        <menu>
+            <item android:id="@+id/list_names"
+                android:title="@string/list_names" />
+            <item android:id="@+id/list_places"
+                android:title="@string/list_places" />
+        </menu>
+    </item>
+    -->
+
+    <item android:id="@+id/media"
+        android:title="@string/menu_media">
+        <menu>
+            <item android:id="@+id/media_1"
+                android:title="@string/media_1_title" />
+            <item android:id="@+id/media_2"
+                android:title="@string/media_2_title" />
+            <item android:id="@+id/media_3"
+                android:title="@string/media_3_title" />
+            <item android:id="@+id/media_4"
+                android:title="@string/media_4_title" />
+            <item android:id="@+id/media_5"
+                android:title="@string/media_5_title" />
+            <item android:id="@+id/media_6"
+                android:title="@string/media_6_title" />
+        </menu>
+    </item>
+
+    <!--
+    <item android:id="@+id/social"
+        android:title="@string/menu_social">
+        <menu>
+            <item android:id="@+id/gplus"
+                android:title="@string/menu_gplus" />
+            <item android:id="@+id/facebook"
+                android:title="@string/menu_facebook" />
+            <item android:id="@+id/kag"
+                android:title="@string/menu_kag" />
+            <item android:id="@+id/kidc"
+                android:title="@string/menu_kidc" />
+        </menu>
+    </item>
+    -->
+
+    <item android:id="@+id/kli"
+        android:title="@string/menu_kli">
+        <menu>
+            <item android:id="@+id/kli_lessons"
+                android:title="@string/menu_kli_lessons" />
+            <item android:id="@+id/kli_questions"
+                android:title="@string/menu_kli_questions" />
+            <!--
+            <item android:id="@+id/kli_discord"
+                android:title="@string/menu_kli_discord" />
+            -->
+        </menu>
+    </item>
+
+    <!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+    -->
+
+</menu>
