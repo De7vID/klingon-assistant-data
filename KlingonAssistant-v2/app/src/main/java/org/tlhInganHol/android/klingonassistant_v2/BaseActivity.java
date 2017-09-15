@@ -217,7 +217,7 @@ public class BaseActivity extends AppCompatActivity
     }
     if (enlarge) {
       spannableString.setSpan(
-          new RelativeSizeSpan(1.5f),
+          new RelativeSizeSpan(1.2f),
           0,
           spannableString.length(),
           Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
