@@ -27,6 +27,7 @@
             android:id="@+id/entry_title"
             style="@android:style/TextAppearance.Large"
             android:typeface="serif"
+            android:paddingBottom="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     <!-- Definition can default to sans (embedded Klingon must be serif). -->
