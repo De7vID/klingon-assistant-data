@@ -135,7 +135,8 @@ public class EntryActivity extends BaseActivity
     String pos = entry.getFormattedPartOfSpeech(/* isHtml */ false);
     String expandedDefinition = pos;
 
-    // Determine whether to show the German definition. If shown, it is primary, and the English definition is shown as secondary.
+    // Determine whether to show the German definition. If shown, it is primary, and the English
+    // definition is shown as secondary.
     String englishDefinition = entry.getDefinition();
     boolean displayGermanEntry = entry.shouldDisplayGermanDefinition();
     int englishDefinitionStart = -1;
@@ -144,7 +145,8 @@ public class EntryActivity extends BaseActivity
       // The simple case: just the English definition.
       expandedDefinition += englishDefinition;
     } else {
-      // We display the German definition as the primary one, but keep track of the location of the English definition to change its font size later.
+      // We display the German definition as the primary one, but keep track of the location of the
+      // English definition to change its font size later.
       expandedDefinition += entry.getDefinition_DE();
       englishDefinitionStart = expandedDefinition.length();
       expandedDefinition += englishDefinitionHeader + englishDefinition;
@@ -414,8 +416,10 @@ public class EntryActivity extends BaseActivity
       if (useColours) {
         // if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
         //   // Work around a bug in Android 6.0.
-        //   // http://stackoverflow.com/questions/34631851/multiple-foregroundcolorspan-on-editable-issue-on-android-6-0
-        //   ForegroundColorSpan[] oldSpans = ssb.getSpans(m.start(), end, ForegroundColorSpan.class);
+        //   //
+        // http://stackoverflow.com/questions/34631851/multiple-foregroundcolorspan-on-editable-issue-on-android-6-0
+        //   ForegroundColorSpan[] oldSpans = ssb.getSpans(m.start(), end,
+        // ForegroundColorSpan.class);
         //   for (ForegroundColorSpan span : oldSpans) {
         //     ssb.removeSpan(span);
         //   }

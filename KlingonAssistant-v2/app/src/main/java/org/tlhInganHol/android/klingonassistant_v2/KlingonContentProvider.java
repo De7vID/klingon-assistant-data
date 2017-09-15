@@ -270,7 +270,8 @@ public class KlingonContentProvider extends ContentProvider {
 
   public static String convertStringToKlingonFont(String s) {
     // Strip anything we don't recognise.
-    // This pattern should be kept mostly in sync with ENTRY_PATTERN. Note that "ü" and "+" will never be in an entry name.
+    // This pattern should be kept mostly in sync with ENTRY_PATTERN. Note that "ü" and "+" will
+    // never be in an entry name.
     String klingonString = s.replaceAll("[^A-Za-z0-9 '\\\":;,\\.\\-?!_/()@=%&\\*]", "");
 
     // This is a hack: change the separators between words and their affixes.
@@ -1489,7 +1490,8 @@ public class KlingonContentProvider extends ContentProvider {
 
         default:
           // This is reached if the verb transitivity type is unknown, or if for some reason this
-          // function is called on a verb with a type 5 noun suffix attached, which shouldn't happen.
+          // function is called on a verb with a type 5 noun suffix attached, which shouldn't
+          // happen.
           return mContext.getResources().getString(R.string.transitivity_unknown);
       }
     }
@@ -1578,10 +1580,12 @@ public class KlingonContentProvider extends ContentProvider {
   }
 
   // This class is for complex Klingon words. A complex word is a noun or verb with affixes.
-  // Note: To debug parsing, you likely want to use "adb logcat -s KlingonContentProvider.ComplexWord"
+  // Note: To debug parsing, you likely want to use "adb logcat -s
+  // KlingonContentProvider.ComplexWord"
   // or "adb logcat -s KlingonContentProvider.ComplexWord KlingonContentProvider".
   public static class ComplexWord {
-    // The logging tag can be at most 23 characters. "KlingonContentProvider.ComplexWord" was too long.
+    // The logging tag can be at most 23 characters. "KlingonContentProvider.ComplexWord" was too
+    // long.
     String TAG = "KCP.ComplexWord";
 
     // The noun suffixes.
@@ -1833,7 +1837,8 @@ public class KlingonContentProvider extends ContentProvider {
         String suffixType;
         if (anotherComplexWord != null) {
           if (BuildConfig.DEBUG) {
-            // Verb suffix level doesn't correspond exactly: {-Ha'}, types 1 through 8, {-Qo'}, then 9.
+            // Verb suffix level doesn't correspond exactly: {-Ha'}, types 1 through 8, {-Qo'}, then
+            // 9.
             if (mSuffixLevel == 1) {
               suffixType = "-Ha'";
             } else if (mSuffixLevel == 10) {

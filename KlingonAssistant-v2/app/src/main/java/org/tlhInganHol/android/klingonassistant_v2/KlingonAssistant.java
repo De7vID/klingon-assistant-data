@@ -50,7 +50,8 @@ import android.widget.TwoLineListItem;
 public class KlingonAssistant extends BaseActivity {
   private static final String TAG = "KlingonAssistant";
 
-  // Whether to include the tutorial or not. If false, the code should be stripped out of the binary.
+  // Whether to include the tutorial or not. If false, the code should be stripped out of the
+  // binary.
   // public static final boolean INCLUDE_TUTORIAL = false;
 
   // Preference key for whether to show help.
@@ -96,12 +97,14 @@ public class KlingonAssistant extends BaseActivity {
   //     final ActionItemTarget searchTarget = new ActionItemTarget(this, R.id.search);
   //     final ActionItemTarget socialTarget = new ActionItemTarget(this, R.id.social_network);
   //     final ActionViewTarget homeTarget = new ActionViewTarget(this, ActionViewTarget.Type.HOME);
-  //     final ActionViewTarget overflowTarget = new ActionViewTarget(this, ActionViewTarget.Type.OVERFLOW);
+  //     final ActionViewTarget overflowTarget = new ActionViewTarget(this,
+  // ActionViewTarget.Type.OVERFLOW);
 
   //     // TODO: Change the display depending on isHorizontalTablet().
   //     // Display an introductory message.
   //     mTutorialCounter = 1;
-  //     // The ShowcaseView library doesn't seem to support setting NONE to be the first target, so work
+  //     // The ShowcaseView library doesn't seem to support setting NONE to be the first target, so
+  // work
   //     // around by temporarily setting a target then setting it to NONE.
   //     final ShowcaseView mShowcaseView = ShowcaseView.insertShowcaseView(searchTarget, this,
   //                     R.string.tutorial_1_title, R.string.tutorial_1_msg, mShowcaseViewOptions);
@@ -147,10 +150,12 @@ public class KlingonAssistant extends BaseActivity {
   //                displayHelp(QUERY_FOR_ABOUT);
 
   //                // Unset the two flags since the tutorial and help have been shown.
-  //                SharedPreferences.Editor sharedPrefsEd = PreferenceManager.getDefaultSharedPreferences(
+  //                SharedPreferences.Editor sharedPrefsEd =
+  // PreferenceManager.getDefaultSharedPreferences(
   //                        getBaseContext()).edit();
   //                sharedPrefsEd.putBoolean(KEY_SHOW_HELP, false);
-  //                sharedPrefsEd.putBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, false);
+  //                sharedPrefsEd.putBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE,
+  // false);
   //                sharedPrefsEd.commit();
 
   //                /*
@@ -233,7 +238,8 @@ public class KlingonAssistant extends BaseActivity {
       SharedPreferences sharedPrefs =
           PreferenceManager.getDefaultSharedPreferences(getBaseContext());
       try {
-        // if (sharedPrefs.getBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, /* default */true)) {
+        // if (sharedPrefs.getBoolean(Preferences.KEY_RUN_TUTORIAL_CHECKBOX_PREFERENCE, /* default
+        // */true)) {
         //   // Show the tutorial (ending on the help screen).
         //   // TUTORIAL
         //   setupTutorial();
@@ -325,7 +331,9 @@ public class KlingonAssistant extends BaseActivity {
       KlingonContentProvider.Entry entry =
           new KlingonContentProvider.Entry(cursor, getBaseContext());
 
-      // TODO: Format with different size.
+      // Note that we override the typeface and text size here, instead of in
+      // the xml, because putting it there would also change the appearance of
+      // the Preferences page.
       String indent1 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;" : "";
       String indent2 = entry.isIndented() ? "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" : "";
 
@@ -342,6 +350,7 @@ public class KlingonAssistant extends BaseActivity {
         view.getText1().setTypeface(KlingonAssistant.getKlingonFontTypeface(getBaseContext()));
         view.getText1().setText(Html.fromHtml(indent1 + entry.getEntryNameInKlingonFont()));
       }
+      view.getText1().setTextSize(22);
 
       // TODO: Colour attached affixes differently from verb.
       boolean useColours =
@@ -355,6 +364,8 @@ public class KlingonAssistant extends BaseActivity {
       view.getText2().setTypeface(Typeface.SANS_SERIF);
       view.getText2()
           .setText(Html.fromHtml(indent2 + entry.getFormattedDefinition(/* isHtml */ true)));
+      view.getText2().setTextSize(14);
+      view.getText2().setTextColor(0xFFC0C0C0);
     }
 
     @Override
@@ -418,7 +429,8 @@ public class KlingonAssistant extends BaseActivity {
         //   countString =
         //       getResources()
         //           .getQuantityString(
-        //               R.plurals.search_results_tlh, count, new Object[] {count, entryNameWithPoS});
+        //               R.plurals.search_results_tlh, count, new Object[] {count,
+        // entryNameWithPoS});
       } else {
         countString =
             getResources()
