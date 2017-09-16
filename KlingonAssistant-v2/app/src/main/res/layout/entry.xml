@@ -38,18 +38,38 @@
             android:layout_height="wrap_content"
             android:scrollbars="vertical"
             android:fillViewport="true">
-        <!-- The bottom padding is needed so the entry doesn't overlap with
-             the floating action button. -->
-        <TextView
-                android:id="@+id/definition"
-                android:textSize="18sp"
-                android:textColor="?android:textColorSecondary"
-                android:typeface="sans"
-                android:paddingTop="10dp"
-                android:paddingBottom="70dp"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:fillViewport="true"
-                android:layout_weight="1.0" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <!-- The bottom padding is needed so the entry doesn't overlap with
+                 the floating action button. -->
+            <TextView
+                    android:id="@+id/definition"
+                    android:textSize="18sp"
+                    android:textColor="?android:textColorSecondary"
+                    android:typeface="sans"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fillViewport="true"
+                    android:layout_weight="1.0" />
+            <!-- Set the itemIconTint and itemTextColor to white to work around
+                 a bug where the selected item is coloured differentl.
+                 Unfortunately, this means that when the button is disabled,
+                 it's not visually distinct. -->
+            <android.support.design.widget.BottomNavigationView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/bottom_navigation"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_gravity="start"
+                    app:itemIconTint="@android:color/white"
+                    app:itemTextColor="@android:color/white"
+                    app:menu="@menu/bottom_navigation_items" />
+        </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -26,7 +26,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.constraint.ConstraintLayout;
-// import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 // import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
@@ -132,6 +132,7 @@ public class BaseActivity extends AppCompatActivity
         Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
     getSupportActionBar().setTitle(klingonAppName);
 
+    // FAB:
     // FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
     // fab.setOnClickListener(
     //     new View.OnClickListener() {
@@ -140,8 +141,8 @@ public class BaseActivity extends AppCompatActivity
     //         // Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
     //         //     .setAction("Action", null)
     //         //     .show();
-    //         // displaySearchResults("jagh qIp SuvwI':sen@@jagh:n, qIp:v, SuvwI':n");
-    //         onSearchRequested();
+    //         displaySearchResults("This button doesn't work yet!:sen@@wej:adv, Qap:v:2, leQ:n, -vam:n");
+    //         // onSearchRequested();
     //       }
     //     });
 

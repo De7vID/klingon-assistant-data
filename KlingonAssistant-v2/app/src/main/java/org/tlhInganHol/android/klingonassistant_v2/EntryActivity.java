@@ -26,6 +26,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.speech.tts.TextToSpeech;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.widget.ShareActionProvider;
 import android.text.Html;
@@ -60,6 +62,13 @@ public class EntryActivity extends BaseActivity
   // The parent query that this entry is a part of.
   private String mParentQuery = null;
   private String mEntryName = null;
+
+  // Intents for the bottom navigation buttons.
+  // Note that the renumber.py script ensures a max difference of 10 between
+  // the IDs of adjacent entries, within the same "mem" file.
+  private Intent mPreviousEntryIntent = null;
+  private Intent mNextEntryIntent = null;
+  private static final int MAX_ENTRY_ID_DIFF = 10;
 
   // TTS:
   /** The {@link TextToSpeech} used for speaking. */
@@ -98,7 +107,54 @@ public class EntryActivity extends BaseActivity
     // Retrieve the entry's data.
     // Note: managedQuery is deprecated since API 11.
     Cursor cursor = managedQuery(uri, KlingonContentDatabase.ALL_KEYS, null, null, null);
-    KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor, getBaseContext());
+    final KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor, getBaseContext());
+    int entryId = entry.getId();
+
+    // Set up the bottom navigation buttons.
+    BottomNavigationView bottomNavView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
+    // This could be used to work around a bug where the selected button is
+    // coloured differently. For now, fix this in entry.xml by overriding the
+    // colours instead.
+    // bottomNavView.setSelectedItemId(R.id.action_random);
+    for (int i = 1; i <= MAX_ENTRY_ID_DIFF; i++) {
+        Intent entryIntent = getEntryByIdIntent(entryId + i);
+        if (entryIntent != null) {
+            mNextEntryIntent = entryIntent;
+            break;
+        }
+    }
+    if (mNextEntryIntent == null) {
+      MenuItem nextButton = (MenuItem) bottomNavView.getMenu().findItem(R.id.action_next);
+      nextButton.setEnabled(false);
+    }
+    for (int i = 1; i <= MAX_ENTRY_ID_DIFF; i++) {
+        Intent entryIntent = getEntryByIdIntent(entryId - i);
+        if (entryIntent != null) {
+            mPreviousEntryIntent = entryIntent;
+            break;
+        }
+    }
+    if (mPreviousEntryIntent == null) {
+      MenuItem previousButton = (MenuItem) bottomNavView.getMenu().findItem(R.id.action_previous);
+      previousButton.setEnabled(false);
+    }
+    bottomNavView.setOnNavigationItemSelectedListener(
+        new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.action_previous:
+                        goToPreviousEntry();
+                        break;
+                    case R.id.action_random:
+                        goToRandomEntry();
+                        break;
+                    case R.id.action_next:
+                        goToNextEntry();
+                        break;
+                }
+                return false;
+            }});
 
     // Handle alternative spellings here.
     if (entry.isAlternativeSpelling()) {
@@ -454,6 +510,55 @@ public class EntryActivity extends BaseActivity
     entryText.setMovementMethod(LinkMovementMethod.getInstance());
   }
 
+  private Intent getEntryByIdIntent(int entryId) {
+    Cursor cursor;
+    cursor = managedQuery(
+        Uri.parse(KlingonContentProvider.CONTENT_URI + "/get_entry_by_id/" + entryId),
+        null /* all columns */,
+        null,
+        null,
+        null);
+    if (cursor.getCount() == 1) {
+        Uri uri =
+            Uri.parse(
+                KlingonContentProvider.CONTENT_URI
+                    + "/get_entry_by_id/"
+                    + cursor.getString(KlingonContentDatabase.COLUMN_ID));
+
+        Intent entryIntent = new Intent(this, EntryActivity.class);
+
+        // Form the URI for the entry.
+        entryIntent.setData(uri);
+
+        return entryIntent;
+    }
+    return null;
+  }
+
+  private void goToPreviousEntry() {
+    if (mPreviousEntryIntent != null) {
+        startActivity(mPreviousEntryIntent);
+        // TODO: Ideally, this should transition the other way, but then pressing the back key looks weird.
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
+  }
+
+  private void goToRandomEntry() {
+    Cursor cursor;
+    Uri uri = Uri.parse( KlingonContentProvider.CONTENT_URI + "/get_random_entry");
+    Intent randomEntryIntent = new Intent(this, EntryActivity.class);
+    randomEntryIntent.setData(uri);
+    startActivity(randomEntryIntent);
+    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+  }
+
+  private void goToNextEntry() {
+    if (mNextEntryIntent != null) {
+        startActivity(mNextEntryIntent);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
+  }
+
   @Override
   protected void onResume() {
     super.onResume();
@@ -562,6 +667,7 @@ public class EntryActivity extends BaseActivity
 
   @Override
   public void onBackPressed() {
+    // TODO: Make the animation go in the other direction if this entry was reached using the "Previous" button.
     super.onBackPressed();
     overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
   }

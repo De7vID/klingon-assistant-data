@@ -101,7 +101,7 @@ public class KlingonContentDatabase {
 
   // This should be kept in sync with the version number in the database
   // entry {boQwI':n}.
-  private static final int DATABASE_VERSION = 201709105;
+  private static final int DATABASE_VERSION = 201709106;
 
   private final KlingonDatabaseOpenHelper mDatabaseOpenHelper;
   private static final HashMap<String, String> mColumnMap = buildColumnMap();
@@ -171,11 +171,10 @@ public class KlingonContentDatabase {
     String selection = "rowid = ?";
     String[] selectionArgs = new String[] {rowId};
 
-    return query(selection, selectionArgs, columns);
-
     /*
      * This builds a query that looks like: SELECT <columns> FROM <table> WHERE rowid = <rowId>
      */
+    return query(selection, selectionArgs, columns);
   }
 
   /**
@@ -896,6 +895,30 @@ public class KlingonContentDatabase {
       cursor.moveToFirst();
     }
     // Log.d(TAG, "cursor.getCount() = " + cursor.getCount());
+    return cursor;
+  }
+
+  /**
+   * Returns a cursor containing a random entry.
+   */
+  public Cursor getRandomEntry(String[] columns) {
+    // TODO: This is very inefficient.
+    Cursor cursor =
+        mDatabaseOpenHelper
+            .getReadableDatabase()
+            .query(
+                true,
+                FTS_VIRTUAL_TABLE,
+                columns,
+                null,
+                null,
+                null,
+                null,
+                "RANDOM()",
+                "1");
+    if (cursor != null) {
+      cursor.moveToFirst();
+    }
     return cursor;
   }
 
