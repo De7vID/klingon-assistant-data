@@ -175,7 +175,7 @@ public class BaseActivity extends AppCompatActivity
     TextView appNameView = (TextView) headerView.findViewById(R.id.app_name_view);
     TextView versionView = (TextView) headerView.findViewById(R.id.version_view);
     appNameView.setText(klingonAppName);
-    versionView.setText("v" + KlingonContentDatabase.getDatabaseVersion());
+    versionView.setText("v" + KlingonContentDatabase.getDatabaseVersion() + " (alpha)");
 
     // If the device is in landscape orientation and the screen size is large (or bigger), then
     // make the slide-out menu static. Otherwise, hide it by default.
