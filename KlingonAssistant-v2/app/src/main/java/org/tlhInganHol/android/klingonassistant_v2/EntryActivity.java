@@ -90,22 +90,6 @@ public class EntryActivity extends BaseActivity
     TextView entryTitle = (TextView) findViewById(R.id.entry_title);
     TextView entryText = (TextView) findViewById(R.id.definition);
 
-    BottomNavigationView bottomNavView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
-    bottomNavView.setOnNavigationItemSelectedListener(
-        new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.action_previous:
-                        break;
-                    case R.id.action_random:
-                        break;
-                    case R.id.action_next:
-                        break;
-                }
-                return false;
-            }});
-
     // TODO: Save and restore bundle state to preserve links.
 
     Uri uri = getIntent().getData();
@@ -116,7 +100,27 @@ public class EntryActivity extends BaseActivity
     // Retrieve the entry's data.
     // Note: managedQuery is deprecated since API 11.
     Cursor cursor = managedQuery(uri, KlingonContentDatabase.ALL_KEYS, null, null, null);
-    KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor, getBaseContext());
+    final KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor, getBaseContext());
+
+    // Set up the bottom navigation buttons.
+    BottomNavigationView bottomNavView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
+    bottomNavView.setOnNavigationItemSelectedListener(
+        new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.action_previous:
+                        goToPreviousEntry(entry.getId());
+                        break;
+                    case R.id.action_random:
+                        goToRandomEntry(entry.getId());
+                        break;
+                    case R.id.action_next:
+                        goToNextEntry(entry.getId());
+                        break;
+                }
+                return false;
+            }});
 
     // Handle alternative spellings here.
     if (entry.isAlternativeSpelling()) {
@@ -470,6 +474,48 @@ public class EntryActivity extends BaseActivity
     entryText.invalidate();
     entryText.setText(ssb);
     entryText.setMovementMethod(LinkMovementMethod.getInstance());
+  }
+
+  private Intent getEntryByIdIntent(int entryId) {
+    Cursor cursor;
+    cursor = managedQuery(
+        Uri.parse(KlingonContentProvider.CONTENT_URI + "/get_entry_by_id/" + (entryId)),
+        null /* all columns */,
+        null,
+        null,
+        null);
+    if (cursor.getCount() == 1) {
+        Uri uri =
+            Uri.parse(
+                KlingonContentProvider.CONTENT_URI
+                    + "/get_entry_by_id/"
+                    + cursor.getString(KlingonContentDatabase.COLUMN_ID));
+
+        Intent entryIntent = new Intent(this, EntryActivity.class);
+
+        // Form the URI for the entry.
+        entryIntent.setData(uri);
+
+        return entryIntent;
+    }
+    return null;
+  }
+
+  private void goToPreviousEntry(int entryId) {
+  }
+
+  private void goToRandomEntry(int entryId) {
+  }
+
+  private void goToNextEntry(int entryId) {
+    for (int i = 1; i < 15; i++) {
+        Intent entryIntent = getEntryByIdIntent(entryId + i);
+        if (entryIntent != null) {
+            startActivity(entryIntent);
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+            break;
+        }
+    }
   }
 
   @Override
