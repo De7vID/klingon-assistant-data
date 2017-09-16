@@ -112,7 +112,10 @@ public class EntryActivity extends BaseActivity
 
     // Set up the bottom navigation buttons.
     BottomNavigationView bottomNavView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
-    bottomNavView.setSelectedItemId(R.id.action_random);
+    // This could be used to work around a bug where the selected button is
+    // coloured differently. For now, fix this in entry.xml by overriding the
+    // colours instead.
+    // bottomNavView.setSelectedItemId(R.id.action_random);
     for (int i = 1; i <= MAX_ENTRY_ID_DIFF; i++) {
         Intent entryIntent = getEntryByIdIntent(entryId + i);
         if (entryIntent != null) {
@@ -510,7 +513,7 @@ public class EntryActivity extends BaseActivity
   private Intent getEntryByIdIntent(int entryId) {
     Cursor cursor;
     cursor = managedQuery(
-        Uri.parse(KlingonContentProvider.CONTENT_URI + "/get_entry_by_id/" + (entryId)),
+        Uri.parse(KlingonContentProvider.CONTENT_URI + "/get_entry_by_id/" + entryId),
         null /* all columns */,
         null,
         null,
@@ -535,11 +538,18 @@ public class EntryActivity extends BaseActivity
   private void goToPreviousEntry() {
     if (mPreviousEntryIntent != null) {
         startActivity(mPreviousEntryIntent);
-        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+        // TODO: Ideally, this should transition the other way, but then pressing the back key looks weird.
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
   }
 
   private void goToRandomEntry() {
+    Cursor cursor;
+    Uri uri = Uri.parse( KlingonContentProvider.CONTENT_URI + "/get_random_entry");
+    Intent randomEntryIntent = new Intent(this, EntryActivity.class);
+    randomEntryIntent.setData(uri);
+    startActivity(randomEntryIntent);
+    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
   }
 
   private void goToNextEntry() {

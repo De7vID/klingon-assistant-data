@@ -70,6 +70,7 @@ public class KlingonContentProvider extends ContentProvider {
   private static final int SEARCH_SUGGEST = 2;
   private static final int REFRESH_SHORTCUT = 3;
   private static final int GET_ENTRY_BY_ID = 4;
+  private static final int GET_RANDOM_ENTRY = 5;
   private static final UriMatcher sURIMatcher = buildUriMatcher();
 
   /** Builds up a UriMatcher for search suggestion and shortcut refresh queries. */
@@ -84,6 +85,9 @@ public class KlingonContentProvider extends ContentProvider {
 
     // This is needed internally to get an entry by its id.
     matcher.addURI(AUTHORITY, "get_entry_by_id/#", GET_ENTRY_BY_ID);
+
+    // This is needed internally to get a random entry.
+    matcher.addURI(AUTHORITY, "get_random_entry", GET_RANDOM_ENTRY);
 
     /*
      * The following are unused in this implementation, but if we include {@link
@@ -139,6 +143,8 @@ public class KlingonContentProvider extends ContentProvider {
         }
         // Log.d(TAG, "entryId = " + entryId);
         return getEntryById(entryId, projection);
+      case GET_RANDOM_ENTRY:
+        return getRandomEntry(projection);
       default:
         throw new IllegalArgumentException("Unknown Uri: " + uri);
     }
@@ -229,6 +235,11 @@ public class KlingonContentProvider extends ContentProvider {
   private Cursor getEntryById(String entryId, String[] projection) {
     // Log.d(TAG, "getEntryById called with entryid: " + entryId);
     return mContentDatabase.getEntryById(entryId, projection);
+  }
+
+  /** Get a single random entry. */
+  private Cursor getRandomEntry(String[] projection) {
+    return mContentDatabase.getRandomEntry(projection);
   }
 
   /**

@@ -55,6 +55,10 @@
                     android:layout_height="fill_parent"
                     android:fillViewport="true"
                     android:layout_weight="1.0" />
+            <!-- Set the itemIconTint and itemTextColor to white to work around
+                 a bug where the selected item is coloured differentl.
+                 Unfortunately, this means that when the button is disabled,
+                 it's not visually distinct. -->
             <android.support.design.widget.BottomNavigationView
                     xmlns:android="http://schemas.android.com/apk/res/android"
                     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -63,6 +67,8 @@
                     android:layout_height="56dp"
                     android:layout_marginBottom="70dp"
                     android:layout_gravity="start"
+                    app:itemIconTint="@android:color/white"
+                    app:itemTextColor="@android:color/white"
                     app:menu="@menu/bottom_navigation_items" />
         </LinearLayout>
     </ScrollView>
