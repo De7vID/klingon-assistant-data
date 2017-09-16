@@ -132,18 +132,19 @@ public class BaseActivity extends AppCompatActivity
         Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
     getSupportActionBar().setTitle(klingonAppName);
 
-    FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-    fab.setOnClickListener(
-        new View.OnClickListener() {
-          @Override
-          public void onClick(View view) {
-            // Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-            //     .setAction("Action", null)
-            //     .show();
-            displaySearchResults("This button doesn't work yet!:sen@@wej:adv, Qap:v:2, leQ:n, -vam:n");
-            // onSearchRequested();
-          }
-        });
+    // FAB:
+    // FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+    // fab.setOnClickListener(
+    //     new View.OnClickListener() {
+    //       @Override
+    //       public void onClick(View view) {
+    //         // Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+    //         //     .setAction("Action", null)
+    //         //     .show();
+    //         displaySearchResults("This button doesn't work yet!:sen@@wej:adv, Qap:v:2, leQ:n, -vam:n");
+    //         // onSearchRequested();
+    //       }
+    //     });
 
     DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
     ActionBarDrawerToggle toggle =
