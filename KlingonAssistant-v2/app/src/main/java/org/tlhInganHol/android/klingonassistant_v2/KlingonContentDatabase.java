@@ -101,7 +101,7 @@ public class KlingonContentDatabase {
 
   // This should be kept in sync with the version number in the database
   // entry {boQwI':n}.
-  private static final int DATABASE_VERSION = 201709106;
+  private static final int DATABASE_VERSION = 201709157;
 
   private final KlingonDatabaseOpenHelper mDatabaseOpenHelper;
   private static final HashMap<String, String> mColumnMap = buildColumnMap();
@@ -898,24 +898,13 @@ public class KlingonContentDatabase {
     return cursor;
   }
 
-  /**
-   * Returns a cursor containing a random entry.
-   */
+  /** Returns a cursor containing a random entry. */
   public Cursor getRandomEntry(String[] columns) {
     // TODO: This is very inefficient.
     Cursor cursor =
         mDatabaseOpenHelper
             .getReadableDatabase()
-            .query(
-                true,
-                FTS_VIRTUAL_TABLE,
-                columns,
-                null,
-                null,
-                null,
-                null,
-                "RANDOM()",
-                "1");
+            .query(true, FTS_VIRTUAL_TABLE, columns, null, null, null, null, "RANDOM()", "1");
     if (cursor != null) {
       cursor.moveToFirst();
     }
