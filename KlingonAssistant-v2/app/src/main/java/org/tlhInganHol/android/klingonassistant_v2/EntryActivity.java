@@ -63,6 +63,13 @@ public class EntryActivity extends BaseActivity
   private String mParentQuery = null;
   private String mEntryName = null;
 
+  // Intents for the bottom navigation buttons.
+  // Note that the renumber.py script ensures a max difference of 10 between
+  // the IDs of adjacent entries, within the same "mem" file.
+  private Intent mPreviousEntryIntent = null;
+  private Intent mNextEntryIntent = null;
+  private static final int MAX_ENTRY_ID_DIFF = 15;
+
   // TTS:
   /** The {@link TextToSpeech} used for speaking. */
   private TextToSpeech mTts;
@@ -101,22 +108,37 @@ public class EntryActivity extends BaseActivity
     // Note: managedQuery is deprecated since API 11.
     Cursor cursor = managedQuery(uri, KlingonContentDatabase.ALL_KEYS, null, null, null);
     final KlingonContentProvider.Entry entry = new KlingonContentProvider.Entry(cursor, getBaseContext());
+    int entryId = entry.getId();
 
     // Set up the bottom navigation buttons.
     BottomNavigationView bottomNavView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
+    for (int i = 1; i < MAX_ENTRY_ID_DIFF; i++) {
+        Intent entryIntent = getEntryByIdIntent(entryId + i);
+        if (entryIntent != null) {
+            mNextEntryIntent = entryIntent;
+            break;
+        }
+    }
+    for (int i = 1; i < MAX_ENTRY_ID_DIFF; i++) {
+        Intent entryIntent = getEntryByIdIntent(entryId - i);
+        if (entryIntent != null) {
+            mPreviousEntryIntent = entryIntent;
+            break;
+        }
+    }
     bottomNavView.setOnNavigationItemSelectedListener(
         new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.action_previous:
-                        goToPreviousEntry(entry.getId());
+                        goToPreviousEntry();
                         break;
                     case R.id.action_random:
-                        goToRandomEntry(entry.getId());
+                        goToRandomEntry();
                         break;
                     case R.id.action_next:
-                        goToNextEntry(entry.getId());
+                        goToNextEntry();
                         break;
                 }
                 return false;
@@ -501,20 +523,20 @@ public class EntryActivity extends BaseActivity
     return null;
   }
 
-  private void goToPreviousEntry(int entryId) {
+  private void goToPreviousEntry() {
+    if (mPreviousEntryIntent != null) {
+        startActivity(mPreviousEntryIntent);
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+    }
   }
 
-  private void goToRandomEntry(int entryId) {
+  private void goToRandomEntry() {
   }
 
-  private void goToNextEntry(int entryId) {
-    for (int i = 1; i < 15; i++) {
-        Intent entryIntent = getEntryByIdIntent(entryId + i);
-        if (entryIntent != null) {
-            startActivity(entryIntent);
-            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-            break;
-        }
+  private void goToNextEntry() {
+    if (mNextEntryIntent != null) {
+        startActivity(mNextEntryIntent);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
   }
 
@@ -626,6 +648,7 @@ public class EntryActivity extends BaseActivity
 
   @Override
   public void onBackPressed() {
+    // TODO: Make the animation go in the other direction if this entry was reached using the "Previous" button.
     super.onBackPressed();
     overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
   }
