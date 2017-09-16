@@ -50,7 +50,7 @@
                     android:textColor="?android:textColorSecondary"
                     android:typeface="sans"
                     android:paddingTop="10dp"
-                    android:paddingBottom="14dp"
+                    android:paddingBottom="70dp"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:fillViewport="true"
@@ -62,6 +62,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
                     android:layout_gravity="start"
+                    app:itemIconTint="@android:color/white"
+                    app:itemTextColor="@android:color/white"
                     app:menu="@menu/bottom_navigation_items" />
         </LinearLayout>
     </ScrollView>
