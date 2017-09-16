@@ -140,7 +140,7 @@ public class BaseActivity extends AppCompatActivity
             // Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
             //     .setAction("Action", null)
             //     .show();
-            displaySearchResults("The warrior hits the enemy.:sen@@jagh:n, qIp:v, SuvwI':n");
+            displaySearchResults("This button doesn't work yet!:sen@@wej:adv, Qap:v:2, leQ:n, -vam:n");
             // onSearchRequested();
           }
         });
