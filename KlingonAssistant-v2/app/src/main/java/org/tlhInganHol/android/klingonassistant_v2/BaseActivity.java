@@ -26,7 +26,9 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.constraint.ConstraintLayout;
+// import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
+// import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -135,9 +137,11 @@ public class BaseActivity extends AppCompatActivity
     //     new View.OnClickListener() {
     //       @Override
     //       public void onClick(View view) {
-    //         Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-    //             .setAction("Action", null)
-    //             .show();
+    //         // Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+    //         //     .setAction("Action", null)
+    //         //     .show();
+    //         // displaySearchResults("jagh qIp SuvwI':sen@@jagh:n, qIp:v, SuvwI':n");
+    //         onSearchRequested();
     //       }
     //     });
 
@@ -171,7 +175,7 @@ public class BaseActivity extends AppCompatActivity
     TextView appNameView = (TextView) headerView.findViewById(R.id.app_name_view);
     TextView versionView = (TextView) headerView.findViewById(R.id.version_view);
     appNameView.setText(klingonAppName);
-    versionView.setText("v" + KlingonContentDatabase.getDatabaseVersion() + " (alpha)");
+    versionView.setText("v" + KlingonContentDatabase.getDatabaseVersion());
 
     // If the device is in landscape orientation and the screen size is large (or bigger), then
     // make the slide-out menu static. Otherwise, hide it by default.
@@ -217,7 +221,7 @@ public class BaseActivity extends AppCompatActivity
     }
     if (enlarge) {
       spannableString.setSpan(
-          new RelativeSizeSpan(1.5f),
+          new RelativeSizeSpan(1.2f),
           0,
           spannableString.length(),
           Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
