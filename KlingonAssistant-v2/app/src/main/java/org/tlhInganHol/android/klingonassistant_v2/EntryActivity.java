@@ -26,6 +26,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.speech.tts.TextToSpeech;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.widget.ShareActionProvider;
 import android.text.Html;
@@ -87,6 +89,22 @@ public class EntryActivity extends BaseActivity
 
     TextView entryTitle = (TextView) findViewById(R.id.entry_title);
     TextView entryText = (TextView) findViewById(R.id.definition);
+
+    BottomNavigationView bottomNavView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
+    bottomNavView.setOnNavigationItemSelectedListener(
+        new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.action_previous:
+                        break;
+                    case R.id.action_random:
+                        break;
+                    case R.id.action_next:
+                        break;
+                }
+                return false;
+            }});
 
     // TODO: Save and restore bundle state to preserve links.
 

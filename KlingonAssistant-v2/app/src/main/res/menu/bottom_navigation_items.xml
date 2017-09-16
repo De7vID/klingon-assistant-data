@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_previous"
+        android:title="@string/menu_previous"
+        android:icon="@drawable/ic_menu_previous" />
+    <item
+        android:id="@+id/action_next"
+        android:title="@string/menu_random"
+        android:icon="@drawable/ic_menu_random" />
+    <item
+        android:id="@+id/action_random"
+        android:title="@string/menu_next"
+        android:icon="@drawable/ic_menu_next" />
+</menu>
