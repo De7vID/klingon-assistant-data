@@ -63,8 +63,6 @@
                     android:layout_height="56dp"
                     android:layout_marginBottom="70dp"
                     android:layout_gravity="start"
-                    app:itemIconTint="@android:color/white"
-                    app:itemTextColor="@android:color/white"
                     app:menu="@menu/bottom_navigation_items" />
         </LinearLayout>
     </ScrollView>

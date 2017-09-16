@@ -68,7 +68,7 @@ public class EntryActivity extends BaseActivity
   // the IDs of adjacent entries, within the same "mem" file.
   private Intent mPreviousEntryIntent = null;
   private Intent mNextEntryIntent = null;
-  private static final int MAX_ENTRY_ID_DIFF = 15;
+  private static final int MAX_ENTRY_ID_DIFF = 10;
 
   // TTS:
   /** The {@link TextToSpeech} used for speaking. */
@@ -112,19 +112,28 @@ public class EntryActivity extends BaseActivity
 
     // Set up the bottom navigation buttons.
     BottomNavigationView bottomNavView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
-    for (int i = 1; i < MAX_ENTRY_ID_DIFF; i++) {
+    bottomNavView.setSelectedItemId(R.id.action_random);
+    for (int i = 1; i <= MAX_ENTRY_ID_DIFF; i++) {
         Intent entryIntent = getEntryByIdIntent(entryId + i);
         if (entryIntent != null) {
             mNextEntryIntent = entryIntent;
             break;
         }
     }
-    for (int i = 1; i < MAX_ENTRY_ID_DIFF; i++) {
+    if (mNextEntryIntent == null) {
+      MenuItem nextButton = (MenuItem) bottomNavView.getMenu().findItem(R.id.action_next);
+      nextButton.setEnabled(false);
+    }
+    for (int i = 1; i <= MAX_ENTRY_ID_DIFF; i++) {
         Intent entryIntent = getEntryByIdIntent(entryId - i);
         if (entryIntent != null) {
             mPreviousEntryIntent = entryIntent;
             break;
         }
+    }
+    if (mPreviousEntryIntent == null) {
+      MenuItem previousButton = (MenuItem) bottomNavView.getMenu().findItem(R.id.action_previous);
+      previousButton.setEnabled(false);
     }
     bottomNavView.setOnNavigationItemSelectedListener(
         new BottomNavigationView.OnNavigationItemSelectedListener() {
