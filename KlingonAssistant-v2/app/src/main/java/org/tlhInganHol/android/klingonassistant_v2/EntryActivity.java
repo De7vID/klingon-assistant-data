@@ -684,10 +684,11 @@ public class EntryActivity extends BaseActivity
         // The TTS engine is not installed (or disabled). Send user to Google Play Store or other market.
         try {
           launchExternal(
-              "https://play.google.com/store/apps/details?id=org.tlhInganHol.android.klingonttsengine");
-        } catch (android.content.ActivityNotFoundException e) {
-          launchExternal(
               "market://details?id=org.tlhInganHol.android.klingonttsengine");
+        } catch (android.content.ActivityNotFoundException e) {
+          // Fall back to browser.
+          launchExternal(
+              "https://play.google.com/store/apps/details?id=org.tlhInganHol.android.klingonttsengine");
         }
       } else if (mEntryName != null) {
         // The TTS engine is working, and there's something to say, say it.
