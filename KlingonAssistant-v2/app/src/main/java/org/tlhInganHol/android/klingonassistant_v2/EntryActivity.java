@@ -682,6 +682,7 @@ public class EntryActivity extends BaseActivity
       // TTS:
       if (!ttsInitialized) {
         // The TTS engine is not installed (or disabled). Send user to Google Play Store.
+        // TODO: Use a "market://details?id=org.tlhInganHol.android.klingonttsengine" link.
         launchExternal(
             "https://play.google.com/store/apps/details?id=org.tlhInganHol.android.klingonttsengine");
       } else if (mEntryName != null) {
