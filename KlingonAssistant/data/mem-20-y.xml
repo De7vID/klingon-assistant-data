@@ -1263,22 +1263,42 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
     </table>
     <table name="mem">
       <column name="_id">200610</column>
-      <column name="entry_name">yIHotlh.</column>
-      <column name="part_of_speech">sen:phr</column>
+      <column name="entry_name">yIHotlh!</column>
+      <column name="part_of_speech">sen:1,phr</column>
       <column name="definition">Put him on screen.</column>
       <column name="definition_de">Zeige es auf den Bildschirm.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Hotlh:v:1}</column>
+      <column name="see_also">{yIHotlh!:sen:2}</column>
       <column name="notes">This can also mean "Put her on screen" or "Put it on screen". A shorter way of putting it in English is just "On screen". However, "Put them on screen" would be {tIHotlh.:sen:nolink}</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{yI-:v}, {Hotlh:v:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags">On screen.</column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD p.171:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.09.17. -->
+      <column name="_id">200611</column>
+      <column name="entry_name">yIHotlh!</column>
+      <column name="part_of_speech">sen:2,phr</column>
+      <column name="definition">Scan it!</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{yIHotlh!:sen:1}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{yI-:v}, {Hotlh:v:2}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {KGT p.189:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.08.17. -->
