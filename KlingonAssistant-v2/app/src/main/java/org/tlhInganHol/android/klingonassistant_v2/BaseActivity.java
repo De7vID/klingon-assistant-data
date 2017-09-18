@@ -181,9 +181,12 @@ public class BaseActivity extends AppCompatActivity
 
     // If the device is in landscape orientation and the screen size is large (or bigger), then
     // lock the navigation drawer in open mode.
-    if (isHorizontalTablet()) {
-      drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_OPEN);
-    }
+    // make the slide-out menu static. Otherwise, hide it by default.
+    // // MenuDrawer.Type drawerType = MenuDrawer.Type.BEHIND;
+    // if (isHorizontalTablet()) {
+    //   // drawerType = MenuDrawer.Type.STATIC;
+    //   drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_OPEN);
+    // }
 
     // Activate type-to-search for local search. Typing will automatically
     // start a search of the database.
