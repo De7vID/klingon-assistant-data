@@ -85,13 +85,14 @@ public class BaseActivity extends AppCompatActivity
 
   // Helper method to determine whether the device is (likely) a tablet in horizontal orientation.
   public boolean isHorizontalTablet() {
-    Configuration config = getResources().getConfiguration();
-    if (config.orientation == Configuration.ORIENTATION_LANDSCAPE
-        && (config.screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK)
-            >= Configuration.SCREENLAYOUT_SIZE_LARGE) {
-      return true;
-    }
-    return false;
+    // Configuration config = getResources().getConfiguration();
+    // if (config.orientation == Configuration.ORIENTATION_LANDSCAPE
+    //     && (config.screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK)
+    //         >= Configuration.SCREENLAYOUT_SIZE_LARGE) {
+    //   return true;
+    // }
+    // return false;
+    return getResources().getBoolean(R.bool.drawer_layout_locked);
   }
 
   @Override
@@ -179,10 +180,12 @@ public class BaseActivity extends AppCompatActivity
     versionView.setText("v" + KlingonContentDatabase.getDatabaseVersion());
 
     // If the device is in landscape orientation and the screen size is large (or bigger), then
+    // lock the navigation drawer in open mode.
     // make the slide-out menu static. Otherwise, hide it by default.
-    // MenuDrawer.Type drawerType = MenuDrawer.Type.BEHIND;
+    // // MenuDrawer.Type drawerType = MenuDrawer.Type.BEHIND;
     // if (isHorizontalTablet()) {
-    //   drawerType = MenuDrawer.Type.STATIC;
+    //   // drawerType = MenuDrawer.Type.STATIC;
+    //   drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_OPEN);
     // }
 
     // Activate type-to-search for local search. Typing will automatically

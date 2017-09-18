@@ -56,9 +56,10 @@
                     android:fillViewport="true"
                     android:layout_weight="1.0" />
             <!-- Set the itemIconTint and itemTextColor to white to work around
-                 a bug where the selected item is coloured differentl.
+                 a bug where the selected item is coloured different.
                  Unfortunately, this means that when the button is disabled,
-                 it's not visually distinct. -->
+                 it's not visually distinct, so we make it invisible
+                 programmatically. -->
             <android.support.design.widget.BottomNavigationView
                     xmlns:android="http://schemas.android.com/apk/res/android"
                     xmlns:app="http://schemas.android.com/apk/res-auto"

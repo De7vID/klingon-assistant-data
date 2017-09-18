@@ -72,7 +72,7 @@ public class EntryActivity extends BaseActivity
 
   // TTS:
   /** The {@link TextToSpeech} used for speaking. */
-  private TextToSpeech mTts;
+  private TextToSpeech mTts = null;
 
   private MenuItem mSpeakButton;
   private boolean ttsInitialized = false;
@@ -85,6 +85,7 @@ public class EntryActivity extends BaseActivity
     // Initialize text-to-speech. This is an asynchronous operation.
     // The OnInitListener (second argument) is called after initialization completes.
     // Log.d(TAG, "Initialising TTS");
+    clearTTS();
     mTts =
         new TextToSpeech(
             this,
@@ -573,6 +574,7 @@ public class EntryActivity extends BaseActivity
     // install the TTS engine if it isn't already installed, so the status of the TTS
     // engine may change when this app resumes.
     // Log.d(TAG, "Initialising TTS");
+    clearTTS();
     mTts =
         new TextToSpeech(
             this,
@@ -580,15 +582,19 @@ public class EntryActivity extends BaseActivity
             "org.tlhInganHol.android.klingonttsengine"); // Requires API 14.
   }
 
+  private void clearTTS() {
+    if (mTts != null) {
+      mTts.stop();
+      mTts.shutdown();
+    }
+  }
+
   @Override
   protected void onDestroy() {
     // TTS:
     // Don't forget to shutdown!
     // Log.d(TAG, "Shutting down TTS");
-    if (mTts != null) {
-      mTts.stop();
-      mTts.shutdown();
-    }
+    clearTTS();
     super.onDestroy();
   }
 
@@ -681,9 +687,15 @@ public class EntryActivity extends BaseActivity
     if (item.getItemId() == R.id.speak) {
       // TTS:
       if (!ttsInitialized) {
-        // The TTS engine is not installed (or disabled). Send user to Google Play Store.
-        launchExternal(
-            "https://play.google.com/store/apps/details?id=org.tlhInganHol.android.klingonttsengine");
+        // The TTS engine is not installed (or disabled). Send user to Google Play Store or other market.
+        try {
+          launchExternal(
+              "market://details?id=org.tlhInganHol.android.klingonttsengine");
+        } catch (android.content.ActivityNotFoundException e) {
+          // Fall back to browser.
+          launchExternal(
+              "https://play.google.com/store/apps/details?id=org.tlhInganHol.android.klingonttsengine");
+        }
       } else if (mEntryName != null) {
         // The TTS engine is working, and there's something to say, say it.
         // Log.d(TAG, "Speaking");
