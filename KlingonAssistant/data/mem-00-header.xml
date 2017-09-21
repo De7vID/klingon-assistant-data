@@ -18,11 +18,12 @@
    Klingon, Star Trek, and related marks are trademarks of CBS Studios, Inc.
 -->
 <!--
-▶ {...:sen}
-    _id            = Must be in ascending order
-                     (sort order has space before any letter; however,
+    Fields:
+    _id            = Must be unique and in ascending order; use renumber.py to
+                     automatically assign.
+                     (Sort order has space before any letter; however,
                      suffixed words should be grouped with their stem, and
-                     non-canon or extended canon entries may be put last)
+                     non-canon or extended canon entries may be put last.)
     entry_name     = tlhIngan Hol word or sentence; or, a source
     part_of_speech = v (verb):
                        ambi (ambitransitive): may be either i or t
@@ -121,7 +122,16 @@
                      optionally be hidden
                      (use XML comments for *really* invisible notes)
     components     = if entry is constructed, list components here
-    examples       = list examples (must exist as entries)
+    examples       = list examples; long examples should be placed on multiple lines, like this:
+                     ▶ {example}
+
+    Klingon words and phrases must be in brackets, like this: {tlhIngan Hol}. Part of speech may
+    be specified with ":", like this: {tlhIngan Hol:n}. This will cause the part of speech to be
+    displayed, e.g., "(n)", where appropriate in the app. Also, links will go to such an entry
+    directly, instead of attempting to analyse its components. Components may be explicitly
+    specified by using "@@", like this: {tlhIngan Hol:n@@tlhIngan:n, Hol:n}. If part of speech
+    is not specified, links will behave the same as if the user had typed in the query (so that
+    for example the user can edit the search query).
 
     Note: Be careful to use American spellings, e.g., "honor", "color",
           "-ization". Canadian spellings should be added under "search_tags".

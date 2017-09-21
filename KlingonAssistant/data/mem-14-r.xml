@@ -3116,20 +3116,21 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="notes_de"></column>
       <column name="hidden_notes">Possibly a reference to the science fiction play R.U.R. (Rossum's Universal Robots) by Karel Čapek.</column>
       <column name="components"></column>
+      <!-- Note: When components are specified with "@@", don't annotate with ":sen", to allow user to edit the search query. -->
       <column name="examples">
 ▶ {bIr; bortaS rur}
 ▶ {bIt; tI'qa' vIghro' rur}
 ▶ {boch; ghIch rur}
 ▶ {Dejpu'bogh Hov rur qablIj!:sen}
-▶ {Dogh; tIghla' rur:sen@@Dogh:v, tIghla':n, rur:v}
+▶ {Dogh; tIghla' rur@@Dogh:v, tIghla':n, rur:v}
 ▶ {lo'laHbe'; chetvI' chIm rur}
-▶ {ghung; qagh rur}
+▶ {ghung; qagh rur@@ghung:v, qagh:n, rur:v}
 ▶ {Hem; tlhIngan rur}
 ▶ {Hoj; tera'ngan rur}
 ▶ {HoS; 'Iw rur}
 ▶ {HoSghaj; mupwI' rur}
 ▶ {jej; Daqtagh rur}
-▶ {jejHa'; naH taj rur}
+▶ {jejHa'; naH taj rur@@jejHa':v, naH taj:n, rur:v}
 ▶ {jeD; ghevI' rur}
 ▶ {let mInDu'Daj; Separmey rur}
 ▶ {lugh; Sor rur}
