@@ -131,7 +131,11 @@
     directly, instead of attempting to analyse its components. Components may be explicitly
     specified by using "@@", like this: {tlhIngan Hol:n@@tlhIngan:n, Hol:n}. If part of speech
     is not specified, links will behave the same as if the user had typed in the query (so that
-    for example the user can edit the search query).
+    for example the user can edit the search query). Homophones which are the same part of speech
+    can be identified by a number, like {ghIt:n:1} and {ghIt:n:2}. The number "0" can be used to
+    return all matching homophones belonging to the same part of speech. A "h" after the number
+    suppresses the display of that number, e.g., {jIH:n:1} will display as "jIH (def'n 1)" whereas
+    {jIH:n:1h} will display as "jIH".
 
     Note: Be careful to use American spellings, e.g., "honor", "color",
           "-ization". Canadian spellings should be added under "search_tags".
