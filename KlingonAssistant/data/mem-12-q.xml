@@ -2346,18 +2346,36 @@ Do not confuse with {Qeq:v}.</column>
     <!-- {qeylIn:n:name,fic} is used by MO in a message {msn 1997.09.01:src},
          but was not invented by MO and does not appear in Star Trek canon. -->
     <table name="mem">
-      <column name="_id">12381</column>
-      <column name="entry_name">qeylIS</column>
-      <column name="part_of_speech">n:name,fic</column>
-      <column name="definition">Kahless</column>
-      <column name="definition_de">Kahless</column>
+      <!-- Checked on: 2017.09.25. -->
+      <column name="_id"></column>
+      <column name="entry_name">qeylIS'e' lIjlaHbe'bogh vay'</column>
+      <column name="part_of_speech">n:name,fic,deriv</column>
+      <column name="definition">Kahless the Unforgettable</column>
+      <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{luqara':n:name}, {moratlh:n:name}, {qeylIS bov:n}, {qeylIS bov nubwI':n}</column>
-      <column name="notes">Kahless is the legendary first Klingon Emperor who united the Klingon people.
-
-He is commonly known as "Kahless the Unforgettable" ({qeylIS'e' lIjlaHbe'bogh vay':sen:nolink}[2] or {qeylIS lIjlaHbogh pagh:sen:nolink}[3]).</column>
+      <column name="notes">Kahless is the legendary first Klingon Emperor who united the Klingon people.</column>
+      <column name="notes_de"></column>
       <!-- This may have originally been intended to be "Khaless" (خالص), the Arabic or Persian word for "pure". -->
+      <column name="hidden_notes">The spelling of {qeylIS:n:name,nolink} (without "the Unforgettable") was introduced in {TKD:src}. His title has been translated as {qeylIS'e' lIjlaHbe'bogh vay':sen:nolink}[2] and {qeylIS lIjlaHbogh pagh:sen:nolink}[3].</column>
+      <column name="components">{qeylIS:n:name}, {-'e':n}, {lIj:v}, {-laH:v}, {-be':v}, {-bogh:v}, {vay':n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {TKD:src}, [2] {SkyBox 8:src}, [3] {paq'batlh:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">12382</column>
+      <column name="entry_name">qeylIS</column>
+      <column name="part_of_speech">n:name,fic,alt</column>
+      <column name="definition">{qeylIS lIjlaHbe'bogh vay':n:name}</column>
+      <column name="definition_de">{qeylIS lIjlaHbe'bogh vay':n:name}</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -2365,7 +2383,7 @@ He is commonly known as "Kahless the Unforgettable" ({qeylIS'e' lIjlaHbe'bogh va
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}, [2] {SkyBox 8:src}, [3] {paq'batlh:src}</column>
+      <column name="source"></column>
     </table>
     <table name="mem">
       <column name="_id">12382</column>
