@@ -396,13 +396,15 @@ To address a single person, say {qatlh choneH?:sen@@qatlh:ques, cho-:v, neH:v}</
       <column name="see_also">{bo'retlh:n}</column>
       <column name="notes">This is part of the Story of the Promise, which tells of the departure (and prophesies the return) of {qeylIS:n:name}.</column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">The Klingon text comes from one of the {DSC:src} trailers, while the English translation is from {TNG - Rightful Heir:src}.</column>
+      <column name="hidden_notes">The Klingon text comes from an inscription seen on one of the {DSC:src} trailers, while the English translation is from {TNG - Rightful Heir:src}.
+
+Set photos show that this sentence is preceded by {Suto'vo'qor vIjaH 'ach 'opleS jIchegh 'e' vIlay'.:sen@@Suto'vo'qor:n, vI-:v, jaH:v, 'ach:conj, 'opleS:n, jI-:v, chegh:v, 'e':n, vI-:v, lay':v}</column>
       <column name="components">{ghIq:adv}, {chal:n}, {-Daq:n}, {Hov:n}, {-Daq:n}, {SIq:v}, {qeylIS:n:name}, {'ej:conj}, {jatlh:v}, {pa':n:2}, {Daq:n}, {-Hom:n}, {-vetlh:n}, {wov:v}, {-Daq:n}, {HI-:v}, {nej:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {DSC trailer:src}, [2] {TNG - Rightful Heir:src}</column>
+      <column name="source">[1] {DSC trailer:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.09.25. -->
@@ -441,6 +443,26 @@ The speech concludes with the words (in Federation Standard): "We come in peace.
       <column name="notes_de"></column>
       <column name="hidden_notes">The Klingon translation was done by {Qov:n:name}. The English comes directly from the subtitles.</column>
       <column name="components">{ghoS:v:1}, {-lI':v}, {chaH:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {DSC - The Vulcan Hello:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.09.26. -->
+      <column name="_id"></column>
+      <column name="entry_name">tlhIngan maH, taHjaj!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Remain Klingon!</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This literally means "We are Klingon, may it continue". The English subtitles render this as "Remain Klingon!"</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">This can also be interpreted as {tlhIngan maHtaHjaj!:sen@@tlhIngan:n, maH:n:1h, taH:v:1, -jaj:v}, "May we continue to be Klingon". This technically violates the rule that a Type 7 suffix cannot be used with {-jaj:v:nolink} (see {TKD 4.2.9:src}), but this rule has been violated in canon.</column>
+      <column name="components">{tlhIngan:n}, {maH:n:1h}, {taH:v:1}, {-jaj:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
