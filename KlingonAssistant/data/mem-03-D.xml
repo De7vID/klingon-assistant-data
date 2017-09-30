@@ -166,6 +166,26 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.09.30. -->
+      <column name="_id"></column>
+      <column name="entry_name">Daghor tuq</column>
+      <column name="part_of_speech">n:name,fic</column>
+      <column name="definition">House of D'Ghor</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is the House ({tuq:n}) of {DennaS:n:name}.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {DSC - Battle at the Binary Stars:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2012.11.26. -->
       <column name="_id">10432</column>
       <column name="entry_name">Daghtuj</column>
@@ -1527,7 +1547,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">He is a member of the House of D'Ghor ({Daghor tuq:n:name}).</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -1535,7 +1555,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {DSC:src}</column>
+      <column name="source">[1] {DSC - Battle at the Binary Stars:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.28. -->
