@@ -870,6 +870,26 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.10.04. -->
+      <column name="_id"></column>
+      <column name="entry_name">Sech qengwI'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">Torchbearer</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is a ceremonial position whose role is to activate the Beacon of Kahless.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{Sech:n}, {qeng:n}, {-wI':n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {DSC - The Vulcan Hello:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2016.10.31. -->
       <column name="_id">12933</column>
       <column name="entry_name">SeD</column>
@@ -1053,7 +1073,7 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
       <!-- Checked on: 2019.09.26. -->
       <column name="_id">12942</column>
       <column name="entry_name">Senjo'</column>
-      <column name="part_of_speech">n:fic,name</column>
+      <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Shenzhou</column>
       <column name="definition_de">Shenzhou</column>
       <column name="synonyms"></column>
@@ -1075,7 +1095,7 @@ As this is a non-Klingon name, there is some variation in how Klingons pronounce
       <!-- Checked on: 2019.09.26. -->
       <column name="_id">12943</column>
       <column name="entry_name">Senjaw</column>
-      <column name="part_of_speech">n:fic,name,alt</column>
+      <column name="part_of_speech">n:name,fic,alt</column>
       <column name="definition">{Senjo':n:name}</column>
       <column name="definition_de">{Senjo':n:name}</column>
       <column name="synonyms"></column>
