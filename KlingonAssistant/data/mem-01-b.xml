@@ -4026,7 +4026,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.11.19. -->
+      <!-- Checked on: 2017.10.11. -->
       <column name="_id">10198</column>
       <column name="entry_name">boQ</column>
       <column name="part_of_speech">v:t_c</column>
@@ -4034,8 +4034,8 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="definition_de">assistieren, beistehen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{QaH:v}, {Sot:v}, {boQ:n:2}, {vuy:v}</column>
-      <column name="notes"></column>
+      <column name="see_also">{Sot:v}, {boQ:n:2}, {vuy:v}</column>
+      <column name="notes">This would be used in situations where someone might be able to do a task alone, but it's easier or better or more efficient if someone helps out. The object of {boQ:v:nolink} retains the responsibility for the activity being aided. This is in contrast to {QaH:v}.[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -4043,7 +4043,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KLI mailing list 2017.10.10:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.19. -->

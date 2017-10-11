@@ -190,6 +190,7 @@
       <column name="source">[1] {TKW p.212:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2017.10.11. -->
       <column name="_id">12538</column>
       <column name="entry_name">QaH</column>
       <column name="part_of_speech">v:t_c</column>
@@ -197,8 +198,8 @@
       <column name="definition_de">helfen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{boQ:v}, {Sot:v}, {QaH:n}, {vuy:v}</column>
-      <column name="notes">For help on using this program, see under {boQwI':n}.</column>
+      <column name="see_also">{Sot:v}, {QaH:n}, {vuy:v}</column>
+      <column name="notes">This would be used in situations where the person needing help can't do whatever needs to be done without assistance, in contrast to {boQ:v}. The object of {QaH:v:nolink} can't carry out the task alone, so responsibility falls to the subject (or it is shared). There's nothing weak about asking for {QaH:v:nolink} when it is warranted, but an offer to {QaH:v:nolink} when {boQ:v:nolink} is expected may sometimes be mildly insulting.[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -206,7 +207,7 @@
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KLI mailing list 2017.10.10:src}</column>
     </table>
     <table name="mem">
       <column name="_id">12539</column>
