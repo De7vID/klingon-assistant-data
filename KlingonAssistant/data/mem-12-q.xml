@@ -3366,9 +3366,9 @@ Note that {qItbe'@@qIt:v, -be':v} means "impossible".</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">He is a member of the House of Kor ({qor tuq:n:name}).</column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">At {STLV:src}, it was stated that {qol:n:name} is a member of the House of Kor (see {qor:n:name}).</column>
+      <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3629,6 +3629,26 @@ There is another verb, {gher:v}, which is used for compiling lists and the like,
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.10.12. -->
+      <column name="_id"></column>
+      <column name="entry_name">qor tuq</column>
+      <column name="part_of_speech">n:name,fic</column>
+      <column name="definition">House of Kor</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tuq:n}</column>
+      <column name="notes">This is the House of {qol:n:name} and, of course, {qor:n:name}.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {DSC - The Butcher's Knife Cares Not for the Lamb's Cry:src}</column>
     </table>
     <table name="mem">
       <column name="_id">12452</column>
