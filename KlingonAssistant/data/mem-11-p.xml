@@ -792,11 +792,11 @@ Do not confuse this with {paw:v}.</column>
       <column name="hidden_notes">It's what it sounds like.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {pe'vIl Supaw'jaj!} A Klingon greeting used for welcoming a group to an event.[4]</column>
+▶ {pe'vIl Supaw'jaj!:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}, [2] {HQ 7.4, p.2-12, Dec. 1998:src}, [3] {KGT p.157:src}, [4] {Saarbrücken qepHom'a' 2014:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {HQ 7.4, p.2-12, Dec. 1998:src}, [3] {KGT p.157:src}</column>
     </table>
     <table name="mem">
       <column name="_id">12073</column>
@@ -1727,11 +1727,11 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/QAd6OugYyxw}<
 ▶ {pe'vIl bI'chu':sen}
 ▶ {pe'vIl mu'qaDmey tIbach.:sen}
 ▶ {pe'vIl roS:sen}
-▶ {pe'vIl Supaw'jaj!} A Klingon greeting used for welcoming a group to an event.[2]</column>
+▶ {pe'vIl Supaw'jaj!:sen}</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKDA:src}, [2] {Saarbrücken qepHom'a' 2014:src}</column>
+      <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
       <column name="_id">12120</column>
@@ -1811,6 +1811,26 @@ The verb {roS:v:2} means "to use the third toe". It is also homophonous with a v
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {HQ 10.2, Jun. 2001:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.10.26. -->
+      <column name="_id"></column>
+      <column name="entry_name">pe'vIl Supaw'jaj!</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Welcome!</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is a Klingon greeting used for welcoming a group to an event.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{pe'vIl:adv}, {Su-:v}, {paw':v:2}, {-jaj:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
       <column name="_id">12124</column>
