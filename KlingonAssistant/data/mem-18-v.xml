@@ -1897,12 +1897,12 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <!-- Checked on: 2016.07.25. -->
       <column name="_id">13551</column>
       <column name="entry_name">vIb</column>
-      <column name="part_of_speech">v:t_c</column>
-      <column name="definition">move through time toward the future, propagate</column>
+      <column name="part_of_speech">v:1,t_c</column>
+      <column name="definition">move through time toward the future</column>
       <column name="definition_de">durch die Zeit in die Zukunft reisen</column>
       <column name="synonyms"></column>
       <column name="antonyms">{vIbHa':v}</column>
-      <column name="see_also"></column>
+      <column name="see_also">{vIb:v:2}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -1917,18 +1917,38 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
     </table>
     <table name="mem">
       <!-- Checked on: 2016.07.25. -->
+      <column name="_id">13551</column>
+      <column name="entry_name">vIb</column>
+      <column name="part_of_speech">v:2,t_c</column>
+      <column name="definition">propagate (not in reference to plants)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{vIb:v:1}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">This was defined parenthetically in the definition of {vIb:v:1,nolink}. The note that this is not used in reference to plants implies that this means "to be transmitted, as through a medium", and not "to breed".</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2016.07.25. -->
       <column name="_id">13552</column>
       <column name="entry_name">vIbHa'</column>
       <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">move through time toward the past</column>
       <column name="definition_de">durch die Zeit in die Vergangenheit reisen</column>
       <column name="synonyms"></column>
-      <column name="antonyms">{vIb:v}</column>
+      <column name="antonyms">{vIb:v:1}</column>
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{vIb:v}, {-Ha':v}</column>
+      <column name="components">{vIb:v:1}, {-Ha':v}</column>
       <column name="examples">
 ▶ {jIvIbHa'pu' 'ej qeylIS vIqIHpu'.:sen:nolink} "I time-traveled into the past and I met Kahless."
 ▶ {jIvIbHa'. wejHu' jImev.:sen:nolink} "I time-travel three days into the past."</column>
