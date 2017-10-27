@@ -120,45 +120,29 @@ Possibly a reference to the fairy Queen Mab in Romeo and Juliet, who is known fo
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.12.15. -->
+      <!-- Checked on: 2017.10.27. -->
       <column name="_id">11472</column>
       <column name="entry_name">magh</column>
-      <column name="part_of_speech">v:1,t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">betray</column>
       <column name="definition_de">(jdn.) verraten, denunzieren</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'ur:v}, {bolwI':n}, {magh:v:2}</column>
+      <column name="see_also">{'ur:v}, {bolwI':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">See the related {mugh:v}.</column>
+      <column name="hidden_notes">See the note under {mugh:v}.
+
+Some word lists erroneously give another definition of {magh:v:nolink} with the meaning "indicate, reveal". This came from an old website called "Star Trek: Continuum", which had a "Klingon Linguistics Studies" section where someone (not Marc Okrand) took the official definitions and "expanded" them. This person apparently did not understand which meaning of the English word "betray" the Klingon word {magh:v:nolink} corresponded to.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {numagh!:sen}</column>
+▶ {numagh!:sen}
+▶ {DuraS tuq tlhIngan yejquv patlh luDub 'e' reH lunIDtaH DuraS be'nI'pu' lurSa' be'etor je. ngoQvam luchavmeH ghawran maghpu' be'nI'pu'. woQ luSuqmeH jIjpu' chaH romuluSngan'e' je.:sen:nolink}
+  "The sisters of the House of Duras, Lursa and B'Etor, are constantly seeking a higher standing for the House of Duras within the Klingon High Council. To this end, the sisters have acted against Gowron, going as far as to work with Romulan factions in order to gain power."[2]</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id">11473</column>
-      <column name="entry_name">magh</column>
-      <column name="part_of_speech">v:2,t</column>
-      <column name="definition">indicate, reveal</column>
-      <column name="definition_de">anzeigen, verraten</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{'agh:v}, {magh:v:1}, {'otHa':v}</column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes">Possibly a typo for {'agh:v}?</column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <!-- STC 104? -->
-      <column name="source">[1] {STC:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {SkyBox 26:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.12.15. -->
@@ -173,7 +157,7 @@ Possibly a reference to the fairy Queen Mab in Romeo and Juliet, who is known fo
       <column name="notes">This is a person who betrays someone. For a person who commits treason, see {'urwI':n}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{magh:v:1}, {-wI':n}</column>
+      <column name="components">{magh:v}, {-wI':n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -192,7 +176,7 @@ Possibly a reference to the fairy Queen Mab in Romeo and Juliet, who is known fo
       <column name="see_also"></column>
       <column name="notes">This refers to a Klingon plant that most closely resembles grass.</column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">In British English slang, to "grass on" someone means to betray them to a person in authority, such as police. (See {magh:v:1}.)</column>
+      <column name="hidden_notes">In British English slang, to "grass on" someone means to betray them to a person in authority, such as police. (See {magh:v}.)</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4235,7 +4219,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="see_also">{Hoch Holmey mughwI':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">This is similar to {magh:v:1}, and as the proverb goes, "a translator is a traitor".</column>
+      <column name="hidden_notes">This is similar to {magh:v}, and as the proverb goes, "a translator is a traitor".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
