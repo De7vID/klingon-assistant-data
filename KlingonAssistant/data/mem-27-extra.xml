@@ -1,6 +1,46 @@
     <!-- This section is for entries whose provenance is uncertain or known not to be from Marc Okrand.
          Note that some Trek canon falls into "non-canon" by the definition of "canon" used by Klingonists. -->
     <table name="mem">
+      <!-- Checked on: 2017.10.31. -->
+      <column name="_id"></column>
+      <column name="entry_name">buran</column>
+      <column name="part_of_speech">n:fic,extcan,name</column>
+      <column name="definition">Buran</column>
+      <column name="definition_de">Buran</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is the name of Captain Lorca's previous ship.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {DSC:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.10.31. -->
+      <column name="_id"></column>
+      <column name="entry_name">ghormaghenDer</column>
+      <column name="part_of_speech">n:extcan</column>
+      <column name="definition">gormagander</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {DSC - Magic to Make the Sanest Man Go Mad:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2017.10.16. -->
       <column name="_id">14253</column>
       <column name="entry_name">jonSeH yaH</column>
@@ -139,7 +179,7 @@
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {DSC:src}</column>
+      <column name="source">[1] {DSC - Battle at the Binary Stars:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.10.27. -->
@@ -267,8 +307,28 @@
       <!-- Checked on: 2017.10.26. -->
       <column name="_id">14266</column>
       <column name="entry_name">weS</column>
-      <column name="part_of_speech">v:t_c</column>
-      <column name="definition">lose, suffer loss of?</column>
+      <column name="part_of_speech">v:t_c,hyp</column>
+      <column name="definition">lose (permanently), suffer loss of?</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{chIl:v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {DSC - Lethe:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.10.31. -->
+      <column name="_id"></column>
+      <column name="entry_name">woq</column>
+      <column name="part_of_speech">v:t_c,hyp</column>
+      <column name="definition">confirm?</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -281,7 +341,47 @@
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source"></column>
+      <column name="source">[1] {DSC - Magic to Make the Sanest Man Go Mad:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.10.31. -->
+      <column name="_id"></column>
+      <column name="entry_name">yuryum</column>
+      <column name="part_of_speech">n:extcan</column>
+      <column name="definition">yurium</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is a chemical compound which reacts to create an explosion when combined with {'anISyum:n}.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {DSC - Magic to Make the Sanest Man Go Mad:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2017.10.31. -->
+      <column name="_id"></column>
+      <column name="entry_name">'anISyum</column>
+      <column name="part_of_speech">n:extcan</column>
+      <column name="definition">anicium</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is a chemical compound which reacts to create an explosion when combined with {yuryum:n}.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {DSC - Magic to Make the Sanest Man Go Mad:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.08.17. -->
