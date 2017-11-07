@@ -7,11 +7,11 @@
       <!-- Checked on: 2017.11.07. -->
       <column name="_id">14253</column>
       <column name="entry_name">but</column>
-      <column name="part_of_speech">v:i,hyp</column>
-      <column name="definition">be natural? occur naturally?</column>
+      <column name="part_of_speech">v:is,hyp</column>
+      <column name="definition">be natural</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
-      <column name="antonyms"></column>
+      <column name="antonyms">{pargh:v:hyp}</column>
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="notes_de"></column>
@@ -109,10 +109,10 @@
       <column name="_id">14258</column>
       <column name="entry_name">pargh</column>
       <column name="part_of_speech">v:i,hyp</column>
-      <column name="definition">be synthetic? be rationed? protein?</column>
+      <column name="definition">be artificial</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
-      <column name="antonyms"></column>
+      <column name="antonyms">{but:v:hyp}</column>
       <column name="see_also"></column>
       <column name="notes"></column>
       <column name="notes_de"></column>
@@ -285,26 +285,6 @@
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {DSC - Context is for Kings:src}</column>
-    </table>
-    <table name="mem">
-      <!-- Checked on: 2017.11.07. -->
-      <column name="_id">14267</column>
-      <column name="entry_name">SIr</column>
-      <column name="part_of_speech">v:t,hyp</column>
-      <column name="definition">signify? characterize? permeate?</column>
-      <column name="definition_de"></column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source">[1] {DSC - Si Vis Pacem, Para Bellum:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2017.10.16. -->
