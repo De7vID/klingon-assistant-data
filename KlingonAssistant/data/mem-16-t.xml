@@ -662,15 +662,16 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">A dim light would be {tamghay wovHa':n@@tamghay:n, wov:v, -Ha':v} (whereas {tamghay Hurgh:n:nolink} sounds odd).[1]</column>
+      <!-- This note is from a part of the email which wasn't made public. -->
+      <column name="notes">A dim light would be {tamghay wovHa':n@@tamghay:n, wov:v, -Ha':v} (whereas {tamghay Hurgh:n@@tamghay:n, Hurgh:v} sounds odd).</column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">This word has been used in {DSC:src} subtitles but hasn't been officially revealed.</column>
+      <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {Email from Quvar 2018.01.25:src}</column>
+      <column name="source">[1] {KLI mailing list 2018.01.26:src}</column>
     </table>
     <table name="mem">
       <column name="_id">13174</column>
@@ -1405,26 +1406,6 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {KGT:src}</column>
-    </table>
-    <table name="mem">
-      <!-- Checked on: 2018.01.01. -->
-      <column name="_id">13210</column>
-      <column name="entry_name">ta' jem'IH</column>
-      <column name="part_of_speech">n:deriv</column>
-      <column name="definition">palace, emperor's castle</column>
-      <column name="definition_de"></column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{DuHmor:n}</column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
-      <column name="components">{ta':n:2}, {jem'IH:n}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="source">[1] {KLI mailing list 2018.01.01:src}</column>
     </table>
     <table name="mem">
       <column name="_id">13211</column>
@@ -4085,11 +4066,11 @@ Pitching downwards is indicated using a negative angle (see {taH:v:2}).</column>
       <column name="entry_name">tuch rIt</column>
       <column name="part_of_speech">sen:phrase</column>
       <column name="definition">to prophesize, see the future, know the future</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">hellsehen, die Zukunft vorhersagen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">For Klingons, to prophesize is to be able to "summon" the future somehow.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components">{tuch:n}, {rIt:v}</column>
