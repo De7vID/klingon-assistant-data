@@ -1284,7 +1284,7 @@ The subtitle was "What's she doing?" but a more literal translation is "Why is s
       <column name="definition_de">sich erinnern an, an etwas denken</column>
       <column name="synonyms"></column>
       <column name="antonyms">{lIj:v}, {qawHa':v}</column>
-      <column name="see_also"></column>
+      <column name="see_also">{qaw:n}, {wov'on:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -1296,6 +1296,28 @@ The subtitle was "What's she doing?" but a more literal translation is "Why is s
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2018.02.06. -->
+      <column name="_id"></column>
+      <column name="entry_name">qaw</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">memory (ability)</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{qaw:v}</column>
+      <column name="notes">This refers to "memory" in the sense of the ability to remember or the power of recall. It does not refer to specific memories or recollections, for which see {wov'on:n}.
+
+Someone who has an excellent memory may be said to have a {qaw pov:n@@qaw:n, pov:v}.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {KLI mailing list 2018.02.06:src}</column>
     </table>
     <table name="mem">
       <column name="_id">12364</column>
@@ -4891,7 +4913,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{qutluch:n}, {patlh:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
