@@ -1427,7 +1427,46 @@ Do not confuse with {qeq:v}.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghogh:n}, {wab:n}, {SoQ:n}</column>
-      <!-- Do not confuse this word with {SoQ:n}. -->
+      <column name="notes">This refers to the phenomenon of speech. For speech sounds, see {QIch wab:n}. For pronunciation, see {QIch wab Ho'DoS:n}.[2]</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {TKD:src}, [2] {KLI mailing list 2018.02.17:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2018.02.23. -->
+      <column name="_id"></column>
+      <column name="entry_name">QIch wab</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">speech sound</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{QIch wab Ho'DoS:n}</column>
+      <column name="notes">An individual speech sound is {QIch wab:n:nolink}. Speech sounds collectively are {QIch wabmey:n@@QIch wab:n, -mey:n}.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{QIch:n}, {wab:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {KLI mailing list 2018.02.17:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2018.02.23. -->
+      <column name="_id"></column>
+      <column name="entry_name">QIch wab Ho'DoS</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">pronunciation</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
       <column name="notes">To fully understand the sounds of Klingon, it is recommended that you purchase {The Klingon Dictionary:src}, which has a fuller description of the sounds, as well as the audio recordings {Conversational Klingon:src} and {Power Klingon:src}, in which you can hear them spoken.[1; 2; 3]
 
 The transcription system used to write Klingon in the Roman (English) alphabet is phonetic, meaning that words are written exactly as they are pronounced. In the following description of the sounds of Klingon, which is intended only as a rough guide, IPA phonetic symbols are shown between a pair of slashes following the Roman letter or letters used to transcribe each sound.
@@ -1467,12 +1506,12 @@ The diphthongs {aw:sen:nolink}, {ew:sen:nolink}, {Iw:sen:nolink}, {ay:sen:nolink
 The names of the Klingon consonants consist of the sound followed by {ay:sen:nolink}, and the names of the vowels consist of the sound preceded by {':sen:nolink} and followed by {t:sen:nolink}. The glottal stop is an exception, being called the {qaghwI':n}.[4]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{QIch wab:n}, {Ho'DoS:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags">speaking, talking, accent, pronunciation</column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}, [2] {CK:src}, [3] {PK:src}, [4] {KLI mailing list 2009.07.27:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {CK:src}, [3] {PK:src}, [4] {KLI mailing list 2009.07.27:src}, [5] {KLI mailing list 2018.02.17:src}</column>
     </table>
     <table name="mem">
       <column name="_id">12647</column>
