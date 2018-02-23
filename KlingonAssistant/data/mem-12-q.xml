@@ -113,7 +113,7 @@ For the {qoD:n} parts of a {qach:n}, see {pa':n:1}.</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
+      <column name="search_tags_de">Haus</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
@@ -1243,12 +1243,12 @@ The subtitle was "What's she doing?" but a more literal translation is "Why is s
       <column name="entry_name">qavan!</column>
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">I salute you!</column>
-      <column name="definition_de">Ich grüße dir!</column>
+      <column name="definition_de">Ich salutiere dir!</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is used when addressing a single person. To salute multiple people, say {Savan!:sen}</column>
-      <column name="notes_de"></column>
+      <column name="notes">This is used when addressing a single person. To salute multiple people, say {Savan!:sen}.</column>
+      <column name="notes_de">Diese Form richtet sich an eine einzelne Person. Um mehreren Personen zu salutieren, sagt man {Savan!:sen}.</column>
       <column name="hidden_notes"></column>
       <column name="components">{qa-:v:pref}, {van:v:1}</column>
       <column name="examples"></column>
@@ -1292,7 +1292,9 @@ The subtitle was "What's she doing?" but a more literal translation is "Why is s
       <column name="examples">
 ▶ {bomDI' 'IwwIj qaqaw.:sen}
 ▶ {batlh Daqawlu'taH.:sen} "You will be remembered with honor."</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {bomDI' 'IwwIj qaqaw.:sen}
+▶ {batlh Daqawlu'taH.:sen} "Man wird sich ehrenhaft an dich erinnern."</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
@@ -1303,14 +1305,14 @@ The subtitle was "What's she doing?" but a more literal translation is "Why is s
       <column name="entry_name">qaw</column>
       <column name="part_of_speech">n</column>
       <column name="definition">memory (ability)</column>
-      <column name="definition_de"></column>
+      <column name="definition_de">Gedächtnis, Erinnerungsvermögen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qaw:v}</column>
       <column name="notes">This refers to "memory" in the sense of the ability to remember or the power of recall. It does not refer to specific memories or recollections, for which see {wov'on:n}.
 
 Someone who has an excellent memory may be said to have a {qaw pov:n@@qaw:n, pov:v}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Wenn jemand ein gutes Gedächtnis hat, kann man sagen, er habe ein {qaw pov:n@@qaw:n, pov:v}</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1324,7 +1326,7 @@ Someone who has an excellent memory may be said to have a {qaw pov:n@@qaw:n, pov
       <column name="entry_name">qawHaq</column>
       <column name="part_of_speech">n</column>
       <column name="definition">memory banks, data banks</column>
-      <column name="definition_de">Speicherbanken, Datenbanken</column>
+      <column name="definition_de">Speicherbank, Datenbank</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{De':n}, {mem:n}, {wa'chaw:n}</column>
@@ -1335,7 +1337,7 @@ Someone who has an excellent memory may be said to have a {qaw pov:n@@qaw:n, pov
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags">database</column>
-      <column name="search_tags_de"></column>
+      <column name="search_tags_de">Datenspeicher</column>
       <column name="source">[1] {TKD:src}, [2] {TKDA:src}</column>
     </table>
     <table name="mem">
@@ -1663,12 +1665,12 @@ Do not confuse this with the similarly named {Qaj:n}.</column>
       <column name="entry_name">qa'rol</column>
       <column name="part_of_speech">n:anim</column>
       <column name="definition">a really big bird</column>
-      <column name="definition_de">sehr großer, schwarzer Vogel (viel größer als {notqa':n})</column>
+      <column name="definition_de">sehr großer Vogel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">It is much larger than a {notqa':n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Er ist viel größer als ein {notqa':n}</column>
       <column name="hidden_notes">The character of Big Bird on the children's show Sesame Street is played by Caroll Edwin Spinney.</column>
       <column name="components"></column>
       <column name="examples">
@@ -1768,7 +1770,7 @@ The word itself means "origin of everything" or "start of it all" or the like, a
       <column name="entry_name">qeb</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">squeeze (windbag instrument)</column>
-      <column name="definition_de">(ein Schusdek-Instrument) zusammen drücken</column>
+      <column name="definition_de">(ein Schusdek-Instrument) zusammendrücken</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chu':v:3}, {rey:v}, {ngaH:v}</column>
@@ -2044,7 +2046,7 @@ The word itself means "origin of everything" or "start of it all" or the like, a
       <column name="antonyms"></column>
       <column name="see_also">{mara:n:name}</column>
       <column name="notes">Played by {mayqel 'anSara':n:name}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dargestellt durch {mayqel 'anSara':n:name}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2071,7 +2073,7 @@ The word itself means "origin of everything" or "start of it all" or the like, a
 ▶ {qepHom'a':n}</column>
       <column name="examples_de"></column>
       <column name="search_tags">summit, conference</column>
-      <column name="search_tags_de"></column>
+      <column name="search_tags_de">Tagung, Konferenz</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
@@ -2087,7 +2089,9 @@ The word itself means "origin of everything" or "start of it all" or the like, a
       <column name="notes">The {qepHom'a':n:nolink} is the annual Klingon Language meeting in Saarbrücken, Germany. Please visit their website at {www.qepHom.de:url:http://www.qepHom.de/} for more information.
 
 The official annual conference of the Klingon Language Institute is known as the {qep'a':n}, while other gatherings of Klingonists are known as {qepHommey:n:nolink}. The meeting in Saarbrücken, Germany, is the largest {qepHom:n:nolink} (and it sometimes even has more participants than the {qep'a':n:nolink}). For this reason, it is called {qepHom'a':n:nolink}. Its name contains an intentional ungrammaticality: two type 1 noun suffixes.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Das {qepHom'a':n:nolink} ist das jährlich stattfindende Klingonisch-Treffen in Saarbrücken, Deutschland. Siehe {www.qepHom.de:url:http://www.qepHom.de/} für mehr Informationen.
+
+Die Hauptversammlung des Klingon Language Institute ist bekannt als {qep'a':n}, während all anderen kleineren Klingonisten-Treffen üblicherweise als {qepHommey:n:nolink} bekannt sind. Das Treffen in Saarbrücken ist das größte {qepHom:n:nolink} (und hat in der Regel mehr Teilnehmer als das {qep'a':n:nolink}). Aus diesem Grund wird es {qepHom'a':n:nolink} genannt. Dieser Name enthält einen beabsichtigten Fehler, denn er enthält zwei Nomensuffixe des Typ 1.</column>
       <column name="hidden_notes">This intentional use of improper grammar was approved by MO.</column>
       <!-- Warning: This is ungrammatical and will probably break something if we use pass it into the analyser. -->
       <column name="components">{qep:n}, {-Hom:n:suff}, {-'a':n:suff}</column>
@@ -2107,7 +2111,7 @@ The official annual conference of the Klingon Language Institute is known as the
       <column name="antonyms"></column>
       <column name="see_also">{qepHom'a':n}</column>
       <column name="notes">The {qep'a':n:nolink} is the official annual conference of the Klingon Language Institute ({tlhIngan Hol yejHaD:n}).</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Das {qep'a':n:nolink} ist die offizielle Hauptversammlung des Klingon Language Institute ({tlhIngan Hol yejHaD:n}).</column>
       <column name="hidden_notes"></column>
       <column name="components">{qep:n}, {-'a':n:suff}</column>
       <column name="examples"></column>
@@ -4387,7 +4391,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is the name of a famous novel written by {Qa'taq:n:name}.</column>
+      <column name="notes">This is the name of a famous novel written by {Qa'taq:n:name}. In this phrase, {naj:v} is used as a verb.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components">{qul:n}, {naj:v}</column>
