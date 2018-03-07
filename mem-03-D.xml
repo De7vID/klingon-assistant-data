@@ -2390,7 +2390,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="definition_de">malen mit Malstab</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{nItlh:n}, {nagh beQ:n}, {ngoH:v}, {DIj:v:1}</column>
+      <column name="see_also">{nItlh:n}, {nagh beQ:n}, {ngoH:v:2}, {DIj:v:1}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -2410,7 +2410,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/v/7qXuTn9HpP4}<
       <column name="definition_de">etw. bezahlen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{je':v}, {ghaq:v}, {nob:v}, {rup:v}, {qav'ap:n}</column>
+      <column name="see_also">{je':v:1}, {ghaq:v}, {nob:v}, {rup:v}, {qav'ap:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">This sounds like "deal".</column>
@@ -3619,8 +3619,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
       <column name="definition_de">Sind Krieger rot?</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <!-- This returns both entries for {SuD:v}. -->
-      <column name="see_also">{SuD:v}</column>
+      <column name="see_also">{SuD:v:0}</column>
       <column name="notes">The joke goes like this:
 
 ▶ {Doq'a' SuvwI'pu'?:sen:nolink}
@@ -4757,7 +4756,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="see_also">{chetvI':n:1}</column>
       <column name="notes">This is used for launching a {peng:n}.
 
-The distinction between a {DuS:n:nolink} and a {chetvI':n} has to do with how the projectile is loaded.[2]</column>
+The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how the projectile is loaded.[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>

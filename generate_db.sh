@@ -52,6 +52,15 @@ then
     echo
 fi
 
+# Print any broken references.
+BROKEN_REFERENCES=$(./xml2json.py 2> >(sort|uniq) > /dev/null)
+if [[ ! -z "$BROKEN_REFERENCES" ]]
+then
+    echo "Broken references:"
+    echo "$BROKEN_REFERENCES"
+    echo
+fi
+
 # Pause (in case of error).
 if [[ ! $NONINTERACTIVE && (! -z "$POS_DEFINITION_MIXUP" || ! -z "$MISSING_DE") ]]
 then
