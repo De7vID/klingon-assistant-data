@@ -2332,7 +2332,7 @@ Verb prefixes when {SoH:n:nolink} is the object:
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{SoH:n}, {'Iv:ques}</column>
+      <column name="components">{SoH:n}, {'Iv:ques:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags">What is your name?</column>
@@ -4013,7 +4013,7 @@ This can also be used for blowing out a candle. Unlike with {jo':v}, air gets ou
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Suv:v}, {-be':v}, {-chugh:v}, {SuvwI':n}, {tlhuH:v}, {-be':v}</column>
+      <column name="components">{Suv:v}, {-be':v}, {-chugh:v}, {SuvwI':n}, {tlhuH:v:0}, {-be':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>

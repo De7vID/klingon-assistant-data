@@ -968,7 +968,7 @@ Examples of similes (all from [3]):
       <column name="definition_de">Huf</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qam:n}, {namwech:n}, {Ha'DIbaH:n}</column>
+      <column name="see_also">{qam:n}, {namwech:n}, {Ha'DIbaH:n:1}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -1375,7 +1375,7 @@ This word can be used to refer to traveling with or without a special purpose. I
       <column name="definition_de">hart (wie ein Stein)</column>
       <column name="synonyms"></column>
       <column name="antonyms">{tun:v}</column>
-      <column name="see_also">{Separ:n}, {Sub:v}</column>
+      <column name="see_also">{Separ:n}, {Sub:v:1}</column>
       <column name="notes">For "be hard (be difficult)", see {Qatlh:v}.
 
 This word can be used figuratively. There is an idiom, {let mInDu'Daj; Separmey rur}.</column>
@@ -1790,7 +1790,7 @@ This word can be used figuratively. There is an idiom, {let mInDu'Daj; Separmey 
       <column name="definition_de">einführen, vorstellen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qIH:v}, {pIH:v}, {lIH:v:2}</column>
+      <column name="see_also">{qIH:v}, {lIH:v:2}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -3110,7 +3110,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="definition_de">Cousin</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{vIn:n}, {tey':n}, {lor:n:2}</column>
+      <column name="see_also">{vIn:n}, {tey':n:0}, {lor:n:2}</column>
       <column name="notes">This word refers to one's mother's brother's child or one's father's sister's child (i.e., "cross-cousins").</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -3151,10 +3151,10 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">A female {lor:n}, that is, a cousin who is one's mother's brother's daughter or one's father's sister's daughter, or a niece in the sense of a man's sister's daughter or a woman's brother's daughter.</column>
+      <column name="notes">A female {lor:n:0}, that is, a cousin who is one's mother's brother's daughter or one's father's sister's daughter, or a niece in the sense of a man's sister's daughter or a woman's brother's daughter.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{lor:n}, {be':n}</column>
+      <column name="components">{lor:n:0}, {be':n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -3171,10 +3171,10 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">A male {lor:n}, that is, a cousin who is one's mother's brother's son or one's father's sister's son, or a nephew in the sense of a man's sister's son or a woman's brother's son.</column>
+      <column name="notes">A male {lor:n:0}, that is, a cousin who is one's mother's brother's son or one's father's sister's son, or a nephew in the sense of a man's sister's son or a woman's brother's son.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{lor:n}, {loD:n}</column>
+      <column name="components">{lor:n:0}, {loD:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -3716,7 +3716,6 @@ This prefix is sometimes dropped for unknown reasons. While an error, this is of
       <column name="definition_de">(jemanden) dazu veranlassen, ein Geheimnis preiszugeben</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <!-- No number on {pegh:v} to show both entries. -->
       <column name="see_also">{DIS:v}, {pegh:v:0}, {pegh:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>

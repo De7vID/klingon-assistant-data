@@ -280,7 +280,7 @@ The lyrics are as follows:
 
 The entire soliloquy from Act III, Scene I, goes as follows:
 ▶ {taH pagh taHbe'.:sen:nolink} {DaH mu'tlheghvam vIqelnIS.@@DaH:adv, mu'tlhegh:n, -vam:n, vI-:v, qel:v, -nIS:v}
-   {quv'a', yabDaq San vaQ cha, pu' je SIQDI'?@@quv:v, -'a':v, yab:n, -Daq:n, San:n, vaQ:v, cha:n, pu':n, je:conj, SIQ:v, -DI':v}
+   {quv'a', yabDaq San vaQ cha, pu' je SIQDI'?@@quv:v, -'a':v, yab:n, -Daq:n, San:n, vaQ:v, cha:n, pu':n:1, je:conj, SIQ:v, -DI':v}
    {pagh, Seng bIQ'a'Hey SuvmeH nuHmey SuqDI',@@pagh:conj, Seng:n, bIQ'a':n, -Hey:n, Suv:v, -meH:v, nuH:n:1, -mey:n, Suq:v, -DI':v}
    {'ej, Suvmo', rInmoHDI'? Hegh. Qong - Qong neH -}
    {'ej QongDI', tIq 'oy', wa'SanID Daw''e' je}
@@ -1012,7 +1012,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="definition_de">Lösung (d.h. Flüssigkeit)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{betgham:n}, {ngoS:v}, {Sub:v}, {jeD:v}, {pey:n}, {bIQ:n}</column>
+      <column name="see_also">{betgham:n}, {ngoS:v}, {Sub:v:1}, {jeD:v}, {pey:n}, {bIQ:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -2361,7 +2361,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="definition_de">Cousin (Kind von {tennuS:n} oder {me':n})</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lor:n}, {vIn:n}, {tey':n:2}</column>
+      <column name="see_also">{lor:n:0}, {vIn:n}, {tey':n:2}</column>
       <column name="notes">This word refers to one's mother's sister's child or one's father's brother's child (i.e., "parallel cousins").</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -2400,10 +2400,10 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">A female {tey':n}, that is, a cousin who is one's mother's sister's child or one's father's brother's child, or a niece in the sense of a man's brother's daughter or a woman's sister's daughter.</column>
+      <column name="notes">A female {tey':n:0}, that is, a cousin who is one's mother's sister's child or one's father's brother's child, or a niece in the sense of a man's brother's daughter or a woman's sister's daughter.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{tey':n}, {be':n}</column>
+      <column name="components">{tey':n:0}, {be':n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -2419,10 +2419,10 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">A male {tey':n}, that is, a cousin who is one's mother's sister's son or one's father's brother's son, or nephew in the sense of a man's brother's son or a woman's sister's son.</column>
+      <column name="notes">A male {tey':n:0}, that is, a cousin who is one's mother's sister's son or one's father's brother's son, or nephew in the sense of a man's brother's son or a woman's sister's son.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{tey':n}, {loD:n}</column>
+      <column name="components">{tey':n:0}, {loD:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -2984,7 +2984,7 @@ His supporters include {lIr'el:n:name} and {voq:n:name}. His flagship is a sarco
       <column name="definition_de">alt, antik, aus alter Zeit</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qan:v}, {ngo':v}</column>
+      <column name="see_also">{qan:v:1}, {ngo':v}</column>
       <column name="notes">This verb is also used for equilateral triangles (see {ra'Duch tIQ:n}).</column>
       <column name="notes_de"></column>
       <column name="hidden_notes">"Antique".</column>
@@ -4092,7 +4092,7 @@ Pitching downwards is indicated using a negative angle (see {taH:v:2}).</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This could also be shortened to {rItwI':n} if the context is clear.</column>
+      <column name="notes">This could also be shortened to {rItwI':n:nolink} if the context is clear.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components">{tuch:n}, {rIt:v}, {-wI':n}</column>
@@ -4917,7 +4917,7 @@ A prism with a three-sided base is a {ra'Duch tut:n@@ra'Duch:n, tut:n:2}, and so
       <column name="definition_de">entdecken, finden, beobachten, bemerken</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Sam:v}, {bej:v}, {tu'lu':v}</column>
+      <column name="see_also">{Sam:v}, {bej:v:1}, {tu'lu':v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
