@@ -60,6 +60,7 @@ import xml.etree.ElementTree as ET
 import json
 import sys
 import fileinput
+import os
 
 # A single entry parsed from the XML tree
 class EntryNode:
@@ -175,9 +176,10 @@ memparts = ['header', 'b', 'ch', 'D', 'gh', 'H', 'j', 'l', 'm', 'n', 'ng', 'p',
             'u', 'suffixes', 'extra', 'footer']
 filenames = []
 concat=''
+sdir = os.path.dirname(os.path.realpath(sys.argv[0]))
 
 for i, part in enumerate(memparts):
-    filenames.append('mem-{0:02d}-{1}.xml'.format(i, part))
+    filenames.append(os.path.join(sdir,'mem-{0:02d}-{1}.xml'.format(i, part)))
 
 # Concatenate the individual files into a single database string
 mem = fileinput.FileInput(files=filenames)
@@ -186,7 +188,7 @@ for line in mem:
 mem.close()
 
 # Read the database version from the version file
-ver = fileinput.FileInput(files=('VERSION'))
+ver = fileinput.FileInput(files=(os.path.join(sdir,'VERSION')))
 version = ver[0].strip()
 ver.close()
 
