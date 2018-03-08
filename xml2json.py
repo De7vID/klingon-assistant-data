@@ -33,8 +33,8 @@
 #           "en" : "<examples>",
 #         },
 #         "search_tags" : {
-#           "de" : "<search_tags_de>",
-#           "en" : "<search_tags>",
+#           "de" : ["<search_tag_de>", ...],
+#           "en" : ["<search_tag>", ...],
 #         },
 #         "source" : "<source>"
 #     },
@@ -53,6 +53,9 @@
 # homophone number parsed from the part_of_speech field, if present. Entries
 # with no homophones do not specify a homophone field.
 #
+# The search_tags and search_tags_de fields are treated as comma-separated lists
+# and split into arrays of separate search tags.
+#
 # The remaining values are taken directly from the XML database. Empty values
 # are omitted from the JSON representation.
 
@@ -61,6 +64,7 @@ import json
 import sys
 import fileinput
 import os
+import re
 
 # A single entry parsed from the XML tree
 class EntryNode:
@@ -88,7 +92,11 @@ class EntryNode:
                             locale = 'en'
                         if not localized in self.data:
                             self.data[localized] = {}
-                        self.data[localized][locale] = text
+                        # Split search tags into array
+                        if name.startswith('search_tags'):
+                            self.data[localized][locale] = re.split(', *', text)
+                        else:
+                            self.data[localized][locale] = text
                     # Non localized fields are stored at the entry's top level
                     else:
                         self.data[name] = text
@@ -121,10 +129,13 @@ def normalize(name, pos):
 # Traverse the database tree and try to identify links that cannot be resolved
 # unambiguously to an entry. Report any unresolvable links to stderr.
 def validatelinks(root, node):
-    # If this node is a dict, recurse into its children
+    # If this node is a dict or a list, recurse into its children
     if isinstance(node, dict):
         for subnode in node:
             validatelinks(root, node[subnode])
+    elif isinstance(node, list):
+        for item in node:
+            validatelinks(root, item)
     else:
         # Find all text in {curly braces}
         remaining = node
@@ -203,4 +214,8 @@ for child in xmltree[0]:
 validatelinks(qawHaq, qawHaq)
 
 # Dump the database as JSON
-print(json.dumps({'version' : version, 'qawHaq' : qawHaq}))
+print(json.dumps({
+    'format_version' : '1',
+    'version' : version,
+    'qawHaq' : qawHaq
+}))
