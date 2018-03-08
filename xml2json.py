@@ -75,17 +75,16 @@ class EntryNode:
         for child in node:
             if child.tag == 'column':
                 name = child.attrib['name']
-                localized = ''
+                localized = name.rstrip('_de')
                 text = ''.join(child.itertext())
                 if text:
                     # Store localized fields hierarchically
-                    if name in [
-                        'definition', 'definition_de',
-                        'notes', 'notes_de',
-                        'search_tags', 'search_tags_de',
-                        'examples', 'examples_de',
+                    if localized in [
+                        'definition',
+                        'notes',
+                        'search_tags',
+                        'examples',
                     ]:
-                        localized = name.rstrip('_de')
                         if name.endswith('_de'):
                             locale = 'de'
                         else:
