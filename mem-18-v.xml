@@ -280,8 +280,7 @@ Watch this song performed by Rachel Bloom: {YouTube video:url:http://www.youtube
       <column name="notes">This idiomatic expression literally means "warrior ship" or "warrior instincts", due to the homophony between {Duj:n:1} and {Duj:n:2}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <!-- Both definitions of {Duj:n} should show up. -->
-      <column name="components">{vaj:n}, {Duj:n}</column>
+      <column name="components">{vaj:n}, {Duj:n:0}</column>
       <column name="examples">
 ▶ {vaj Duj DachIj.:sen:nolink} "You have strength of character."</column>
       <column name="examples_de"></column>
@@ -672,7 +671,7 @@ The original line was to have been {logh veQDaq bachchugh, yoH 'e' toblaHbe' Suv
       <column name="definition_de">Halle, Versammlungshalle</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{vaS:'a'}</column>
+      <column name="see_also">{vaS'a':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">"Vast".</column>
@@ -973,7 +972,7 @@ The original line was to have been {logh veQDaq bachchugh, yoH 'e' toblaHbe' Suv
       <column name="notes_de"></column>
       <column name="hidden_notes">While {nungbogh:v:nolink} precedes a noun, {veb:v:nolink} comes after one.</column>
       <column name="components"></column>
-      <column name="examples">{puH poH veb:n}</column>
+      <column name="examples">{puq poH veb:n}</column>
       <column name="examples_de"></column>
       <column name="search_tags">after, next</column>
       <column name="search_tags_de"></column>
@@ -1883,7 +1882,7 @@ In {Klingon Monopoly:src}, "Free Parking" is translated as {vergh 'ach DIlnISbe'
       <column name="see_also">{leng:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">The example sentence is a lip-match for {DevwI' ghaH 'Iv'e'?@@DevwI':n, ghaH:n, 'Iv:ques, -'e':n:suff}.</column>
+      <column name="hidden_notes">The example sentence is a lip-match for {DevwI' ghaH 'Iv'e'?@@DevwI':n, ghaH:n, 'Iv:ques:1, -'e':n:suff}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {jIvuylaH. jIve'.} "I am here to help you."</column>
@@ -2194,11 +2193,11 @@ For an idiomatic expression used to tell someone not to move, see {taD:v}.</colu
       <column name="_id">13639</column>
       <column name="entry_name">vIn</column>
       <column name="part_of_speech">n:being</column>
-      <column name="definition">{lor:n} or {tey':n}; cousin, nephew/niece</column>
-      <column name="definition_de">{lor:n} oder {tey':n}; Cousin, Neffe/Nichte</column>
+      <column name="definition">{lor:n:0} or {tey':n:0}; cousin, nephew/niece</column>
+      <column name="definition_de">{lor:n:0} oder {tey':n:0}; Cousin, Neffe/Nichte</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lor:n}, {tey':n}, {yur:n}</column>
+      <column name="see_also">{lor:n:0}, {tey':n:0}, {yur:n}</column>
       <column name="notes">In the singular, typically {tey':n:nolink} or {lor:n:nolink} is preferred unless the individual is being referred to as a member of a group that likely includes both {tey':n:nolink} and/or {lor:n:nolink}. The plural form {vInpu':n:nolink} is used for a group that includes {tey':n:nolink} and/or {lor:n:nolink}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes">A reference to the movie "My Cousin Vinny".</column>
@@ -3517,7 +3516,7 @@ There is a Klingon idiom, {nong; vulqangan rur}, which is meant ironically.</col
       <column name="see_also">{QaH:v}, {boQ:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">The example sentence is a lip-match for {DevwI' ghaH 'Iv'e'?@@DevwI':n, ghaH:n, 'Iv:ques, -'e':n:suff}.</column>
+      <column name="hidden_notes">The example sentence is a lip-match for {DevwI' ghaH 'Iv'e'?@@DevwI':n, ghaH:n, 'Iv:ques:1, -'e':n:suff}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {jIvuylaH. jIve'.} "I am here to help you."</column>

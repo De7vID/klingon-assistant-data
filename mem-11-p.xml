@@ -234,7 +234,7 @@ The imperative verb prefix when {pagh:n:1h,nolink} is the object is {yI-:v:pref}
       <column name="definition_de">Umhang, Robe</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mop:n:1}, {paH bID:n}</column>
+      <column name="see_also">{mop:n}, {paH bID:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">This is defined in {TKD:src} as "gown". In {TNK:src}, it is used for "dress", while {paH bID:n} is used for "skirt".</column>
@@ -764,7 +764,7 @@ Note that the Klingon term for a star system is {Hovtay':n}.</column>
       <column name="definition_de"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{patlh:n}, {patlhmoH:v}, {tetlh:v}</column>
+      <column name="see_also">{patlh:n}, {patlhmoH:v}, {tetlh:n}</column>
       <column name="notes">To sort a list of English words alphabetically, use a construction such as {wa'DIch a, HochDIch z:sen:nolink} (or {wa'DIch z, HochDIch a:sen:nolink} for reverse order). For Klingon words, use {wa'DIch bay, HochDIch qaghwI':sen:nolink} or {wa'DIch qaghwI', HochDIch bay:sen:nolink}. To reverse a list, use {DopmoH:v@@Dop:v, -moH:v}.[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -1251,7 +1251,7 @@ This verb can also be used with an object. See {pegh:v:1}.</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{peH:n:hyp} or {peH:v:hyp}, {ghep:n:hyp}</column>
+      <column name="components">{peH:n:hyp,nolink} or {peH:v:hyp,nolink}, {ghep:n:hyp}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -1946,7 +1946,7 @@ The verb {roS:v:2} means "to use the third toe". It is also homophonous with a v
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mIvwa':n}, {mIvwa'mey poj:n}, {mI' poj:n}</column>
-      <column name="notes">The word {mIvwa'mey:n@@mIvwa':n, -mey:n} is used to keep a tally or score. To say "out of", use a construction like {loSlogh pe''egh; vaghlogh nID:sen@@loS:n:num, -logh:n:num, pe''egh:v, vagh:n:num, -logh:n, nID:v} (i.e., 4 out of 5 points). This is used even if the person stopped after four and didn't attempt to get the fifth point.[2]</column>
+      <column name="notes">The word {mIvwa'mey:n@@mIvwa':n, -mey:n} is used to keep a tally or score. To say "out of", use a construction like {loSlogh pe''egh; vaghlogh nID:sen@@loS:n:1,num, -logh:n:num, pe''egh:v, vagh:n:1,num, -logh:n, nID:v} (i.e., 4 out of 5 points). This is used even if the person stopped after four and didn't attempt to get the fifth point.[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -2101,7 +2101,7 @@ The verb {roS:v:2} means "to use the third toe". It is also homophonous with a v
       <column name="definition_de">erwarten</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qIH:v}, {lIH:v}, {ghom:v}</column>
+      <column name="see_also">{qIH:v}, {ghom:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -3130,7 +3130,7 @@ In the promotional posters and videos for {DSC:src}, as well as in the backgroun
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{pol:v}, {-Ha:v}</column>
+      <column name="components">{pol:v}, {-Ha':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
@@ -4027,7 +4027,7 @@ In the promotional posters and videos for {DSC:src}, as well as in the backgroun
       <column name="hidden_notes">This is missing from the E-K side of {TKD:src}.</column>
       <column name="components">{puj:v}, {-moH:v}</column>
       <column name="examples">
-▶ {jaghpu'ra' bopujmoHtaHvIS, ghur tuqmeyraj quv.:sen@@jagh:n, -pu':n, -ra':n, bo-:v, pujmoH:v, -taH:v, -vIS:v, ghur:v, tuq:n, -mey:n, -raj:n quv:n} "Honor will rise in your houses as you bring your enemies to their knees."[3]</column>
+▶ {jaghpu'ra' bopujmoHtaHvIS, ghur tuqmeyraj quv.:sen@@jagh:n, -pu':n, -ra':n, bo-:v, pujmoH:v, -taH:v, -vIS:v, ghur:v, tuq:n, -mey:n, -raj:n, quv:n} "Honor will rise in your houses as you bring your enemies to their knees."[3]</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -4466,7 +4466,7 @@ In the promotional posters and videos for {DSC:src}, as well as in the backgroun
       <column name="definition_de">genug (von etw.) haben, es satt haben</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{QeH:v}, {Qay':v}, {nuQ:v}, {bergh:v}</column>
+      <column name="see_also">{QeH:v}, {Qay':v:1}, {nuQ:v}, {bergh:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">"Puke".</column>
@@ -4561,7 +4561,7 @@ In the promotional posters and videos for {DSC:src}, as well as in the backgroun
       <column name="definition_de">fliegen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qaj:v}, {'or:v}, {muD Duj:v}, {'al:v}</column>
+      <column name="see_also">{qaj:v}, {'or:v}, {muD Duj:n}, {'al:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>

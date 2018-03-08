@@ -241,10 +241,10 @@ The toe verbs are used in the same way as the finger verbs, but they are not hea
       <column name="definition_de">Zeh-Nagel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{nItlhpach:n}</column>
+      <column name="see_also">{nItlhpach:n:1}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">This word does not seem to have appeared in canon, but it is obvious by analogy with {nItlhpach:n}.</column>
+      <column name="hidden_notes">This word does not seem to have appeared in canon, but it is obvious by analogy with {nItlhpach:n:1}.</column>
       <column name="components">{yaD:n:1}, {pach:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -536,7 +536,7 @@ The toe verbs are used in the same way as the finger verbs, but they are not hea
       <column name="definition_de">genug, ausreichend</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{vey':v}, {law':v}, {puS:v}, {vuS:v}, {lach:v}</column>
+      <column name="see_also">{vey':v}, {law':v}, {puS:v:1}, {vuS:v}, {lach:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">Enough "yap"ping.</column>
@@ -942,7 +942,7 @@ Do not confuse this with a society in the cultural sense, for which see {nugh:n}
       <column name="synonyms"></column>
       <column name="antonyms">{yep:v}</column>
       <column name="see_also"></column>
-      <column name="notes">In the {ruq'e'vet:n} dialect, {ghIH:v:2} means {yepHa':2}.</column>
+      <column name="notes">In the {ruq'e'vet:n} dialect, {ghIH:v:2} means {yepHa':v:nolink}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components">{yep:v}, {-Ha':v}</column>
@@ -1491,7 +1491,7 @@ Watch Gowron say this: {YouTube video:url:http://www.youtube.com/watch?v=YogSytv
       <column name="definition_de">leben</column>
       <column name="synonyms"></column>
       <column name="antonyms">{Hegh:v}</column>
-      <column name="see_also">{taH:v}, {Dab:v}, {yIn:n}</column>
+      <column name="see_also">{taH:v:1}, {Dab:v}, {yIn:n}</column>
       <column name="notes">This word can be used transitively to say things like {tlhIngan yIn DayIn:sen:nolink} "You live a Klingon life."[2]
 
 To say that someone "lives at" a place, use {Dab:v}.</column>
@@ -2733,8 +2733,7 @@ The first and second {yu:n:nolink} are not an octave apart, but rather a nonave 
       <column name="definition_de">ehrlich</column>
       <column name="synonyms"></column>
       <column name="antonyms">{yuD:v}</column>
-      <!-- Both senses of {ghIt:n} are intended. -->
-      <column name="see_also">{ghIt:n}</column>
+      <column name="see_also">{ghIt:n:0}</column>
       <column name="notes">There is an idiom, {yuDHa'; ghIt rur@@yuDHa':v, ghIt:n:0, rur:v}.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -2971,7 +2970,7 @@ The tones of the Klingon musical scale are: {yu:n:nolink}, {bIm:n}, {'egh:n}, {l
       <column name="definition_de">entfernte Cousin/e/Neffe/Nichte</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tey':n}, {lor:n}, {vIn:n}</column>
+      <column name="see_also">{tey':n:0}, {lor:n:0}, {vIn:n}</column>
       <column name="notes">The singular form is never used in place of {tey':n:nolink} or {lor:n:nolink}, but the plural may be used for a group including {tey':n:nolink} and/or {lor:n:nolink}, so long as there is at least one more distant cousin, niece or nephew in the group.</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
