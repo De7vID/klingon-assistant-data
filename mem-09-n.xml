@@ -648,7 +648,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="definition_de">Pfote, Tatze</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{targh:n}, {ghop:n}, {qam:n}, {lem:n}</column>
+      <column name="see_also">{targh:n}, {ghop:n}, {qam:n}, {gham:n}, {lem:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -796,20 +796,20 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="_id">11787</column>
       <column name="entry_name">naQ</column>
       <column name="part_of_speech">n:1</column>
-      <column name="definition">cain, staff</column>
+      <column name="definition">cane, staff, stick</column>
       <column name="definition_de">Stock, Stab</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chaS:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as "cain, staff" in {TKDA:src}, but "cain" appears to have been a misspelling of "cane". It was subsequently glossed as "stick" in {HQ 12.2:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
-      <column name="search_tags">cane</column>
+      <column name="search_tags">cain</column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKDA:src}</column>
+      <column name="source">[1] {TKDA:src}, [2] {HQ 12.2, Jun. 2003:src}</column>
     </table>
     <table name="mem">
       <column name="_id">11788</column>
@@ -976,7 +976,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="definition_de">letzter Punkt in einer Liste</column>
       <column name="synonyms">{HochDIch:n}</column>
       <column name="antonyms"></column>
-      <column name="see_also">{ghu'lIS:n}</column>
+      <column name="see_also">{ghu'lIS:n}, {tetlh:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes">Last, but "not least".</column>
@@ -1438,7 +1438,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="definition">only, merely, just</column>
       <column name="definition_de">nur, lediglich</column>
       <column name="synonyms"></column>
-      <column name="antonyms"></column>
+      <column name="antonyms">{neHHa':adv}</column>
       <column name="see_also">{nIteb:adv}, {mob:v:1}</column>
       <column name="notes">This follows the verb it modifies, and has the effect of trivializing the action.
 
@@ -1486,6 +1486,27 @@ Watch a lesson on this word: {YouTube video:url:http://youtu.be/JyeePTUXVa8}</co
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD 6.2.5:src}, [2] {ENT - Affliction:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2018.03.17. -->
+      <column name="_id"></column>
+      <column name="entry_name">neHHa'</column>
+      <column name="part_of_speech">adv</column>
+      <column name="definition">not only</column>
+      <column name="definition_de"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{neH:adv}</column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes">The example Klingon sentence was presented to Marc Okrand by Chris Lipscombe. Okrand then translated it into English.</column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {tlhIngan Hol neHHa' vIjatlh.:sen@@tlhIngan Hol:n, neHHa':adv, vI-:v, jatlh:v} "I speak not only Klingon", as in "I speak many languages including Klingon".</column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {KLI mailing list 2017.07.28:src}</column>
     </table>
     <table name="mem">
       <column name="_id">11822</column>
@@ -1728,7 +1749,7 @@ Watch a lesson on this word: {YouTube video:url:http://youtu.be/JyeePTUXVa8}</co
       <column name="definition_de">lügen</column>
       <column name="synonyms"></column>
       <column name="antonyms">{vIt:v}</column>
-      <column name="see_also">{lay':v}, {lay'Ha':v}, {nop:v}, {toj:v}, {ngor:v}</column>
+      <column name="see_also">{lay':v}, {lay'Ha':v}, {nop:v}, {toj:v}, {ngor:v}, {ghIchwIj DabochmoHchugh ghIchlIj qanob.:sen}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -3750,7 +3771,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="definition_de">verdächtig, suspekt sein</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{pIH:v:2}</column>
+      <column name="see_also">{pIH:v:2}, {qagh Sopbe'!:sen}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -3791,7 +3812,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="definition_de">Feigling</column>
       <column name="synonyms"></column>
       <column name="antonyms">{yoHwI':n}</column>
-      <column name="see_also">{qorvaq:n:name}</column>
+      <column name="see_also">{qorvaq:n:name}, {qagh Sopbe'!:sen}</column>
       <column name="notes">Watch Gowron say {nuchpu':n@@nuch:n, -pu':n}: {YouTube video:url:http://youtu.be/VEQMLy2X2Y8}</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
@@ -4080,7 +4101,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="definition_de">Mund</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qab:n}, {wuS:n}, {qevpob:n}, {Ho':n:1}, {tlhepQe':n}, {lev:n}</column>
+      <column name="see_also">{jat:n}, {qab:n}, {wuS:n}, {qevpob:n}, {Ho':n:1}, {tlhepQe':n}, {lev:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
