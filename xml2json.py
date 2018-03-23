@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # xml2json.py
 #
@@ -65,6 +65,7 @@ import sys
 import fileinput
 import os
 import re
+import unicodedata
 
 # A single entry parsed from the XML tree
 class EntryNode:
@@ -76,7 +77,8 @@ class EntryNode:
             if child.tag == 'column':
                 name = child.attrib['name']
                 localized = name.rstrip('_de')
-                text = ''.join(child.itertext())
+                # Normalize Unicode characters into decomposed form
+                text = unicodedata.normalize('NFKD', ''.join(child.itertext()))
                 if text:
                     # Store localized fields hierarchically
                     if localized in [
