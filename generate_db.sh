@@ -69,25 +69,23 @@ then
 fi
 
 # Create db binary.
-# Note: qawHaq.db was removed from the repository due to size.
-# git checkout ../app/src/main/assets/qawHaq.db
-if [[ -f ../app/src/main/assets/qawHaq.db ]]
+if [[ -f qawHaq.db ]]
 then
     if [[ ! $NONINTERACTIVE ]]
     then
         # If the db already exists, show a diff.
-        sqlite3 ../app/src/main/assets/qawHaq.db .dump > old-mem.sql
+        sqlite3 qawHaq.db .dump > old-mem.sql
         sed -i 's/INSERT INTO "mem"/INSERT INTO mem/g' old-mem.sql
         vimdiff old-mem.sql mem.sql
         read -n1 -r -p "Press any key to generate new db..."
         echo
     fi
-    mv ../app/src/main/assets/qawHaq.db ../app/src/main/assets/qawHaq.db~
+    mv qawHaq.db qawHaq.db~
 fi
-sqlite3 ../app/src/main/assets/qawHaq.db < mem.sql
+sqlite3 qawHaq.db < mem.sql
 
 # Sanity check.
-sqlite3 ../app/src/main/assets/qawHaq.db .dump > sanity.sql
+sqlite3 qawHaq.db .dump > sanity.sql
 sed -i 's/INSERT INTO "mem"/INSERT INTO mem/g' sanity.sql
 IN_OUT_DIFF=$(diff mem.sql sanity.sql)
 if [[ ! -z "$IN_OUT_DIFF" ]]
@@ -110,4 +108,4 @@ rm mem.sql
 rm mem_processed.xml
 rm sanity.sql
 rm -f old-mem.sql
-rm -f ../app/src/main/assets/qawHaq.db~
+rm -f qawHaq.db~
