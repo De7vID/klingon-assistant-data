@@ -19,7 +19,10 @@ for filename in filenames:
             if num_subs != 0:
                 id += 1
 
-# Write the ID of the first entry in the "extra" section to the KlingonContentDatabase.java file.
+# Write the ID of the first entry in the "extra" section to the "EXTRA" file and the KlingonContentDatabase.java file.
+extra_file = open("EXTRA", "w")
+extra_file.write(str(max_id_plus_one))
+extra_file.close()
 with fileinput.FileInput(java_filename, inplace=True) as java_file:
     for line in java_file:
         (line, num_subs) = re.subn(r"ID_OF_FIRST_EXTRA_ENTRY = (\d*);", "ID_OF_FIRST_EXTRA_ENTRY = %s;" % max_id_plus_one, line)
