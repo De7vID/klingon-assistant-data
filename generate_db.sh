@@ -25,11 +25,11 @@ fi
 # Write database version number.
 VERSION=$(cat VERSION)
 echo Writing database version $VERSION...
-sed -i "s/\[\[VERSION\]\]/$VERSION/" mem.xml
+sed -i -e "s/\[\[VERSION\]\]/$VERSION/" mem.xml
 
 # Convert from xml to sql instructions.
 ./xml2sql.pl > mem.sql
-sed -i 's/INSERT INTO "mem"/INSERT INTO mem/g' mem.sql
+sed -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' mem.sql
 
 # Print any entries with duplicate columns.
 grep "ARRAY" mem.sql
@@ -75,7 +75,7 @@ then
     then
         # If the db already exists, show a diff.
         sqlite3 qawHaq.db .dump > old-mem.sql
-        sed -i 's/INSERT INTO "mem"/INSERT INTO mem/g' old-mem.sql
+        sed -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' old-mem.sql
         vimdiff old-mem.sql mem.sql
         read -n1 -r -p "Press any key to generate new db..."
         echo
@@ -86,7 +86,7 @@ sqlite3 qawHaq.db < mem.sql
 
 # Sanity check.
 sqlite3 qawHaq.db .dump > sanity.sql
-sed -i 's/INSERT INTO "mem"/INSERT INTO mem/g' sanity.sql
+sed -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' sanity.sql
 IN_OUT_DIFF=$(diff mem.sql sanity.sql)
 if [[ ! -z "$IN_OUT_DIFF" ]]
 then
