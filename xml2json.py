@@ -66,6 +66,7 @@ import fileinput
 import os
 import re
 import unicodedata
+from collections import OrderedDict
 
 # A single entry parsed from the XML tree
 class EntryNode:
@@ -206,7 +207,7 @@ ver.close()
 
 # Parse the database XML tree and store the parsed entries in a dict
 xmltree = ET.fromstring(concat)
-qawHaq = {}
+qawHaq = OrderedDict()
 for child in xmltree[0]:
     node = EntryNode(child)
     qawHaq[node.searchName()] = node.data
@@ -214,9 +215,10 @@ for child in xmltree[0]:
 # Now that the database has been parsed, search for unfollowable links
 validatelinks(qawHaq, qawHaq)
 
+ret = OrderedDict()
+ret['format_version'] = '1'
+ret['version'] = version
+ret['qawHaq'] = qawHaq
+
 # Dump the database as JSON
-print(json.dumps({
-    'format_version' : '1',
-    'version' : version,
-    'qawHaq' : qawHaq
-}))
+print(json.dumps(ret))
