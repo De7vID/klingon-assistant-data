@@ -1240,7 +1240,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.11.28. -->
+      <!-- Checked on: 2018.04.11. -->
       <column name="_id">10487</column>
       <column name="entry_name">Degh</column>
       <column name="part_of_speech">v:slang</column>
@@ -1248,10 +1248,10 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="definition_de">planlos agieren, improvisieren</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Degh:n:2}, {DeghwI':n}</column>
-      <column name="notes"></column>
+      <column name="see_also">{Degh:n:2}, {DeghwI':n}, {nab:v}</column>
+      <column name="notes">In non-slang vocabulary, this idea can be expressed using a phrase such as {nab Hutlh 'ach vang:sen@@nab:n, Hutlh:v, 'ach:conj, vang:v}.[1, p.149]</column>
       <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is defined as "act without a plan, improvise" in the word lists in the back of {KGT:src}, but as "take action without a plan, improvise" on {KGT p.149:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -1260,17 +1260,17 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.11.28. -->
+      <!-- Checked on: 2018.04.11. -->
       <column name="_id">10488</column>
       <column name="entry_name">DeghwI'</column>
-      <!-- Not "deriv" because not derived from {Degh} + {wI'}. -->
+      <!-- Not "deriv" because not derived from {Degh:v} + {-wI':v}. -->
       <column name="part_of_speech">n:being</column>
       <column name="definition">helmsman</column>
       <column name="definition_de">Steuermann</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Degh:n:2}</column>
-      <column name="notes"></column>
+      <column name="see_also">{Degh:n:2}, {Degh:v:slang}</column>
+      <column name="notes">There seems to have been a verb {Degh:v:hyp,nolink} at one time with the meaning of "steer" which has fallen out of use.[2]</column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
       <column name="components">{Degh:v:hyp,nolink}, {-wI':v}</column>
@@ -1278,7 +1278,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="examples_de"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.149:src}</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.28. -->
@@ -2989,7 +2989,7 @@ Coincidentally or not, this words sounds similar to {DI vI':n:nolink} "it accumu
       <column name="definition_de">Virtuelle Realität</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{tojbogh pa':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="hidden_notes"></column>
