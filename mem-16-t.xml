@@ -93,7 +93,7 @@
       <column name="see_also">{chuch:n}, {bIQ:n}, {mev:v}</column>
       <column name="notes">This word also has the idiomatic sense of "don't move!" when given as a command, either as {yItaD:sen@@yI-:v, taD:v} (spoken to one person) or {petaD:sen@@pe-:v, taD:v} (spoken to a group of people).[2; 3] To order someone to literally freeze, the suffixes {-'egh:v} and {-moH:v} would be used: {yItaD'eghmoH:sen@@yI-:v, taD:v, -'egh:v, -moH:v} "Freeze yourself!" ("Cause yourself to be frozen!")[3]</column>
       <column name="notes_de"></column>
-      <column name="hidden_notes">According to {Diplomatic Implausibility:src}, {taD:n:place,fic,nolink} is the name of an ice-covered colony planet in the Klingon Empire.</column>
+      <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -119,6 +119,25 @@
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">taD</column>
+      <column name="part_of_speech">n:place,fic</column>
+      <column name="definition">taD (planet)</column>
+      <column name="definition_de">taD (der Name eines Planeten)</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{HuDyuQ:n:place}</column>
+      <column name="notes">The name of an ice-covered colony planet in the Klingon Empire. Its name literally means "frozen" ({taD:v}).</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {Diplomatic Implausibility:src}</column>
     </table>
     <table name="mem">
       <column name="_id">13181</column>
@@ -2872,7 +2891,6 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="search_tags">sword, longsword</column>
-      <!-- Other source? -->
       <column name="search_tags_de"></column>
       <column name="source">[1] {Diplomatic Implausibility:src}</column>
     </table>
