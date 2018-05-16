@@ -4706,18 +4706,18 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <!-- Checked on: 2012.11.22. -->
+      <!-- Checked on: 2018.05.16. -->
       <column name="_id">10656</column>
-      <column name="entry_name">Duran lung DIr</column>
-      <column name="part_of_speech">n:inhpl,food,fic</column>
-      <column name="definition">Durani lizard skins</column>
-      <column name="definition_de">Durani Echsenhäute</column>
+      <column name="entry_name">Duran lung</column>
+      <column name="part_of_speech">n:anim</column>
+      <column name="definition">Durani lizard</column>
+      <column name="definition_de">Durani Echse</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This is a food item. It never uses any plural suffix.</column>
+      <column name="see_also">{lung:n}, {Duran lung DIr:n}</column>
+      <column name="notes"></column>
       <column name="notes_de"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This term was not defined independently, but is inferred from {Duran lung DIr:n:nolink}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4726,7 +4726,28 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="source">[1] {KCD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2012.11.22. -->
       <column name="_id">10657</column>
+      <column name="entry_name">Duran lung DIr</column>
+      <column name="part_of_speech">n:inhpl,food,fic</column>
+      <column name="definition">Durani lizard skins</column>
+      <column name="definition_de">Durani Echsenhäute</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Duran lung:n}, {DIr:n}</column>
+      <column name="notes">This is a food item. It never uses any plural suffix.</column>
+      <column name="notes_de"></column>
+      <column name="hidden_notes"></column>
+      <!-- Note that since this is "inhpl" with no singular form, we have to leave this blank. -->
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="source">[1] {KCD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id">10658</column>
       <column name="entry_name">DuraS</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Duras</column>
@@ -4746,7 +4767,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">10658</column>
+      <column name="_id">10659</column>
       <column name="entry_name">DuS</column>
       <column name="part_of_speech">n</column>
       <column name="definition">torpedo tube</column>
@@ -4768,7 +4789,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">10659</column>
+      <column name="_id">10660</column>
       <column name="entry_name">DuSaQ</column>
       <column name="part_of_speech">n</column>
       <column name="definition">school</column>
@@ -4788,7 +4809,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
     </table>
     <table name="mem">
       <!-- Checked on: 2015.10.28. -->
-      <column name="_id">10660</column>
+      <column name="_id">10661</column>
       <column name="entry_name">Dut</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">slam down</column>
@@ -4809,7 +4830,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">10661</column>
+      <column name="_id">10662</column>
       <column name="entry_name">Duv</column>
       <column name="part_of_speech">v:i</column>
       <column name="definition">advance</column>
@@ -4829,7 +4850,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">10662</column>
+      <column name="_id">10663</column>
       <column name="entry_name">Duy</column>
       <column name="part_of_speech">n</column>
       <column name="definition">agent, emissary</column>
@@ -4849,7 +4870,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">10663</column>
+      <column name="_id">10664</column>
       <column name="entry_name">Duy'</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be defective</column>
@@ -4869,7 +4890,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">10664</column>
+      <column name="_id">10665</column>
       <column name="entry_name">Duy'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">defect</column>
@@ -4889,7 +4910,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">10665</column>
+      <column name="_id">10666</column>
       <column name="entry_name">Duy'a'</column>
       <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">ambassador</column>
@@ -4909,7 +4930,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">10666</column>
+      <column name="_id">10667</column>
       <column name="entry_name">Du'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">farm</column>
@@ -4929,7 +4950,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
     </table>
     <table name="mem">
       <!-- Checked on: 2016.10.31. -->
-      <column name="_id">10667</column>
+      <column name="_id">10668</column>
       <column name="entry_name">Du'Hom</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">garden</column>
@@ -4949,7 +4970,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.22. -->
-      <column name="_id">10668</column>
+      <column name="_id">10669</column>
       <column name="entry_name">Du' naH</column>
       <column name="part_of_speech">n:deriv,food</column>
       <column name="definition">produce</column>
@@ -4969,7 +4990,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
-      <column name="_id">10669</column>
+      <column name="_id">10670</column>
       <column name="entry_name">Du'IHchoHmoH mIvvam.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">This helmet suits you.</column>
