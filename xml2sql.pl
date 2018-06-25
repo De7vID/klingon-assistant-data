@@ -30,7 +30,7 @@ print "PRAGMA foreign_keys=OFF;\n".
       "BEGIN TRANSACTION;\n".
       "CREATE TABLE \"android_metadata\" (\"locale\" TEXT DEFAULT 'en_US');\n".
       "INSERT INTO \"android_metadata\" VALUES('en_US');\n".
-      "CREATE TABLE \"mem\" (\"_id\" INTEGER PRIMARY KEY ,\"entry_name\" TEXT,\"part_of_speech\" TEXT,\"definition\" TEXT,\"synonyms\" TEXT,\"antonyms\" TEXT,\"see_also\" TEXT,\"notes\" TEXT,\"hidden_notes\" TEXT,\"components\" TEXT,\"examples\" TEXT,\"search_tags\" TEXT,\"source\" TEXT,\"definition_de\" TEXT,\"notes_de\" TEXT,\"examples_de\" TEXT,\"search_tags_de\",\"definition_fa\" TEXT,\"notes_fa\" TEXT,\"examples_fa\" TEXT,\"search_tags_fa\" ,\"definition_ru\" TEXT,\"notes_ru\" TEXT,\"examples_ru\" TEXT,\"search_tags_ru\" TEXT DEFAULT \"\");\n";
+      "CREATE TABLE \"mem\" (\"_id\" INTEGER PRIMARY KEY ,\"entry_name\" TEXT,\"part_of_speech\" TEXT,\"definition\" TEXT,\"synonyms\" TEXT,\"antonyms\" TEXT,\"see_also\" TEXT,\"notes\" TEXT,\"hidden_notes\" TEXT,\"components\" TEXT,\"examples\" TEXT,\"search_tags\" TEXT,\"source\" TEXT,\"definition_de\" TEXT,\"notes_de\" TEXT,\"examples_de\" TEXT,\"search_tags_de\" TEXT,\"definition_fa\" TEXT,\"notes_fa\" TEXT,\"examples_fa\" TEXT,\"search_tags_fa\" TEXT,\"definition_sv\" TEXT,\"notes_sv\" TEXT,\"examples_sv\" TEXT,\"search_tags_sv\" TEXT,\"definition_ru\" TEXT,\"notes_ru\" TEXT,\"examples_ru\" TEXT,\"search_tags_ru\" TEXT DEFAULT \"\");\n";
 
 # cycle through and print the entries
 foreach $e (@{$data->{database}->{mem}})
@@ -57,6 +57,10 @@ foreach $e (@{$data->{database}->{mem}})
     print $e->{notes_fa}, "','";
     print $e->{examples_fa}, "','";
     print $e->{search_tags_fa}, "','";
+    print $e->{definition_sv}, "','";
+    print $e->{notes_sv}, "','";
+    print $e->{examples_sv}, "','";
+    print $e->{search_tags_sv}, "','";
     print $e->{definition_ru}, "','";
     print $e->{notes_ru}, "','";
     print $e->{examples_ru}, "','";
