@@ -18,13 +18,13 @@ dictfile = fileinput.FileInput("dict.zdb", mode='r')
 while dictfile.readline() != "=== start-of-word-list ===\n":
     pass
 
-# Read and process the word list.
+# Read and process the word list and the verb prefix list.
 for line in dictfile:
 
     # Each entry begins after a blank line.
     if line == "\n":
         tlh = dictfile.readline()
-        if tlh == "=== end-of-word-list ===\n":
+        if tlh == "=== end-of-verb-prefix-list ===\n":
             break
         tlh = re.sub(r"tlh:\t(?:\[\d\] )?{(.*)}(?: \[\d?\.?\d\])?", r"\1", tlh.rstrip())
 
@@ -33,10 +33,12 @@ for line in dictfile:
 
         en  = dictfile.readline().rstrip()
         en  = re.sub(r"en:\t(.*)", r"\1", en)
+        en  = en.replace("--", "-")
         en  = en.translate(strip_characters)
 
         sv  = dictfile.readline().rstrip()
         sv  = re.sub(r"sv:\t(.*)", r"\1", sv)
+        sv  = sv.replace("--", "-")
         sv  = sv.translate(strip_characters)
 
         key = Entry(entry_name = tlh, part_of_speech = pos, definition = en)
@@ -76,6 +78,8 @@ for filename in glob.glob("mem-*.xml"):
                     part_of_speech = "noun"
                 elif re.compile("ques(?:.*)").match(part_of_speech):
                     part_of_speech = "question word"
+                elif re.compile("v:pref").match(part_of_speech):
+                    part_of_speech = "verb prefix"
                 elif re.compile("v:.*").match(part_of_speech):
                     part_of_speech = "verb"
 
