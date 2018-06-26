@@ -27,16 +27,19 @@ for line in dictfile:
         if tlh == "=== end-of-verb-prefix-list ===\n":
             break
         tlh = re.sub(r"tlh:\t(?:\[\d\] )?{(.*)}(?: \[\d?\.?\d\])?", r"\1", tlh.rstrip())
+        tlh = tlh.translate(strip_characters)
 
         pos = dictfile.readline().rstrip()
         pos = re.sub(r"pos:\t(.*)", r"\1", pos)
 
         en  = dictfile.readline().rstrip()
+        en  = re.sub(r"(.*) \[.*\]", r"\1", en)
         en  = re.sub(r"en:\t(.*)", r"\1", en)
         en  = en.replace("--", "-")
         en  = en.translate(strip_characters)
 
         sv  = dictfile.readline().rstrip()
+        sv  = re.sub(r"(.*) \[.*\]", r"\1", sv)
         sv  = re.sub(r"sv:\t(.*)", r"\1", sv)
         sv  = sv.replace("--", "-")
         sv  = sv.translate(strip_characters)
@@ -74,7 +77,7 @@ for filename in glob.glob("mem-*.xml"):
                     part_of_speech = "numeral"
                 elif re.compile("n:(?:.*)pro(?:.*)").match(part_of_speech):
                     part_of_speech = "pronoun"
-                elif re.compile("n:(?:.*)").match(part_of_speech):
+                elif re.compile("n|n:(?:.*)").match(part_of_speech):
                     part_of_speech = "noun"
                 elif re.compile("ques(?:.*)").match(part_of_speech):
                     part_of_speech = "question word"
