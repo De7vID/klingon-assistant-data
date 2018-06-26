@@ -32,11 +32,13 @@ for line in dictfile:
         pos = re.sub(r"pos:\t(.*)", r"\1", pos)
 
         en  = dictfile.readline().rstrip()
+        en  = re.sub(r"(.*) \[.*\]", r"\1", en)
         en  = re.sub(r"en:\t(.*)", r"\1", en)
         en  = en.replace("--", "-")
         en  = en.translate(strip_characters)
 
         sv  = dictfile.readline().rstrip()
+        sv  = re.sub(r"(.*) \[.*\]", r"\1", sv)
         sv  = re.sub(r"sv:\t(.*)", r"\1", sv)
         sv  = sv.replace("--", "-")
         sv  = sv.translate(strip_characters)
