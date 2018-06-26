@@ -76,7 +76,7 @@ for filename in glob.glob("mem-*.xml"):
                     part_of_speech = "numeral"
                 elif re.compile("n:(?:.*)pro(?:.*)").match(part_of_speech):
                     part_of_speech = "pronoun"
-                elif re.compile("n:(?:.*)").match(part_of_speech):
+                elif re.compile("n|n:(?:.*)").match(part_of_speech):
                     part_of_speech = "noun"
                 elif re.compile("ques(?:.*)").match(part_of_speech):
                     part_of_speech = "question word"
