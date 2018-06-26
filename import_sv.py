@@ -27,6 +27,7 @@ for line in dictfile:
         if tlh == "=== end-of-verb-prefix-list ===\n":
             break
         tlh = re.sub(r"tlh:\t(?:\[\d\] )?{(.*)}(?: \[\d?\.?\d\])?", r"\1", tlh.rstrip())
+        tlh = tlh.translate(strip_characters)
 
         pos = dictfile.readline().rstrip()
         pos = re.sub(r"pos:\t(.*)", r"\1", pos)
