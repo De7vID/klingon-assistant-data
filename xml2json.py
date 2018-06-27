@@ -77,28 +77,28 @@ class EntryNode:
         for child in node:
             if child.tag == 'column':
                 name = child.attrib['name']
-                localized = name.rstrip('_de')
+                namesplit = name.split('_')
                 # Normalize Unicode characters into decomposed form
                 text = unicodedata.normalize('NFKD', ''.join(child.itertext()))
                 if text:
                     # Store localized fields hierarchically
-                    if localized in [
+                    if namesplit[0] in [
                         'definition',
                         'notes',
                         'search_tags',
                         'examples',
                     ]:
-                        if name.endswith('_de'):
-                            locale = 'de'
+                        if len(namesplit) > 1:
+                            locale = namesplit[1]
                         else:
                             locale = 'en'
-                        if not localized in self.data:
-                            self.data[localized] = {}
+                        if not namesplit[0] in self.data:
+                            self.data[namesplit[0]] = {}
                         # Split search tags into array
                         if name.startswith('search_tags'):
-                            self.data[localized][locale] = re.split(', *', text)
+                            self.data[namesplit[0]][locale] = re.split(', *', text)
                         else:
-                            self.data[localized][locale] = text
+                            self.data[namesplit[0]][locale] = text
                     # Non localized fields are stored at the entry's top level
                     else:
                         self.data[name] = text
