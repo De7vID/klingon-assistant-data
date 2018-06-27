@@ -331,7 +331,7 @@
       <column name="definition">emergency, auxiliary, backup</column>
       <column name="definition_de">Notfall</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv"></column>
+      <column name="definition_sv">nödläge, nödsituation</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -5355,6 +5355,42 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Checked on: 2018.06.27. -->
+      <column name="_id"></column>
+      <column name="entry_name">chotwI'</column>
+      <column name="part_of_speech">n:deriv,being</column>
+      <column name="definition">murderer</column>
+      <column name="definition_de">Mörder</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv">mördare</column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{chot:v}, {-wI':v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KGT p.25:src}</column>
+    </table>
+    <table name="mem">
       <!-- Checked on: 2012.11.21. -->
       <column name="_id">10388</column>
       <column name="entry_name">chov</column>
@@ -5830,14 +5866,14 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
     </table>
     <table name="mem">
       <!-- Checked on: 2012.11.21. -->
-      <column name="_id">10401</column>
       <!-- Is this someone's name? -->
+      <column name="_id">10401</column>
       <column name="entry_name">chun</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be innocent</column>
       <column name="definition_de">unschuldig</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv"></column>
+      <column name="definition_sv">vara oskyldig</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>

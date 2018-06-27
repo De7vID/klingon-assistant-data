@@ -36,8 +36,8 @@ for line in dictfile:
         en  = ""
         nextline = dictfile.readline().rstrip()
         while not(re.compile("sv:.*").match(nextline)):
+            en = en + nextline
             nextline = dictfile.readline().rstrip()
-            en += nextline
         en  = re.sub(r"(.*) \[.*\]", r"\1", en)
         en  = re.sub(r"en:\t(.*)", r"\1", en)
         en  = en.replace("--", "-")
@@ -128,6 +128,13 @@ for filename in glob.glob("mem-*.xml"):
                 print(sv_line)
             else:
                 print(line, end='')
+
+count = 0
+for key in definitions_map:
+    if not(definitions_map[key] == []):
+        print(key, definitions_map[key])
+        count = count + 1
+print(count)
 
 # print(definitions_map)
 # print(len(definitions_map))
