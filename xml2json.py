@@ -85,20 +85,34 @@ class EntryNode:
                     if namesplit[0] in [
                         'definition',
                         'notes',
-                        'search_tags',
+                        'search', # 'search_tags'
                         'examples',
                     ]:
+                        if namesplit[0] == 'search':
+                            component = 'search_tags'
+                        else:
+                            component = namesplit[0]
+
                         if len(namesplit) > 1:
-                            locale = namesplit[1]
+                            locale = namesplit[-1]
+                            if locale == 'tags': # 'search_tags'
+                                locale = 'en'
                         else:
                             locale = 'en'
-                        if not namesplit[0] in self.data:
-                            self.data[namesplit[0]] = {}
+
+                        if locale == 'HK': # 'zh_HK'
+                            locale = 'zh_HK'
+
+                        if not component in self.data:
+                            self.data[component] = {}
+
                         # Split search tags into array
-                        if name.startswith('search_tags'):
-                            self.data[namesplit[0]][locale] = re.split(', *', text)
+                        if component == 'search_tags':
+                            data = re.split(', *', text)
                         else:
-                            self.data[namesplit[0]][locale] = text
+                            data = text
+
+                        self.data[component][locale] = data
                     # Non localized fields are stored at the entry's top level
                     else:
                         self.data[name] = text
