@@ -77,7 +77,11 @@ class EntryNode:
         for child in node:
             if child.tag == 'column':
                 name = child.attrib['name']
-                localized = name.rstrip('_de')
+                localized = name.rstrip('_de') \
+                                .rstrip('_fa') \
+                                .rstrip('_ru') \
+                                .rstrip('_sv') \
+                                .rstrip('_zh_HK')
                 # Normalize Unicode characters into decomposed form
                 text = unicodedata.normalize('NFKD', ''.join(child.itertext()))
                 if text:
@@ -90,6 +94,14 @@ class EntryNode:
                     ]:
                         if name.endswith('_de'):
                             locale = 'de'
+                        elif name.endswith('_fa'):
+                            locale = 'fa'
+                        elif name.endswith('_ru'):
+                            locale = 'ru'
+                        elif name.endswith('_sv'):
+                            locale = 'sv'
+                        elif name.endswith('_zh_HK'):
+                            locale = 'zh-HK'
                         else:
                             locale = 'en'
                         if not localized in self.data:
