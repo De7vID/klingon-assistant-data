@@ -45,7 +45,7 @@
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
-      <column name="antonyms">{bIv:v}</column>
+      <column name="antonyms">{bIv:v}, {pabHa':v}</column>
       <column name="see_also">{chut:n}, {HeQ:v}, {lob:v}, {pab:n}</column>
       <column name="notes">Some possible objects of this verb are {pab:n}, {chut:n}, {nab:n}, {'Ip:n}, and {lurDech:n}.
 
@@ -76,6 +76,42 @@ In the context of a vow or promise which has been made (see {'Ip:v} and {lay':v}
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}, [2] {paq'batlh:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2018.06.27. -->
+      <column name="_id"></column>
+      <column name="entry_name">pabHa'</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
+      <column name="definition">misfollow [the rules], follow [the rules] wrongly</column>
+      <column name="definition_de">[Regeln] brechen, falsch [Regeln] befolgen</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv">felanvända (regler), följa (regler) felaktigt</column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{pab:v}</column>
+      <column name="see_also"></column>
+      <column name="notes">This describes an obviously deliberate slight bending of grammatical rules, a common way to construct {mu'mey ru':n}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{pab:v}, {-Ha':v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KGT p.176:src}</column>
     </table>
     <table name="mem">
       <column name="_id">12083</column>
@@ -1316,7 +1352,7 @@ Note that the Klingon term for a star system is {Hovtay':n}.</column>
       <column name="definition">rank (military, governmental), level, layer, standing</column>
       <column name="definition_de">Rang, Niveau, Schicht, Stellung</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">potatis</column>
+      <column name="definition_sv">rang, grad (i regering och militär), nivå, ställning, status, anseende</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -1753,7 +1789,7 @@ Do not confuse this with {paw:v}.</column>
       <column name="definition">room, enclosed area, chamber</column>
       <column name="definition_de">Raum, Zimmer, Kammer</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv"></column>
+      <column name="definition_sv">rum, kammare, inhägnat område</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -2225,7 +2261,7 @@ This is also infrequently shortened to {pegh vIttlhegh:n:nolink}.[1]</column>
       <column name="definition">Age of Inclusion</column>
       <column name="definition_de">Alter der Einbeziehung</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv"></column>
+      <column name="definition_sv">Inbegripandets ålder</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -2688,7 +2724,7 @@ This is also infrequently shortened to {pegh vIttlhegh:n:nolink}.[1]</column>
       <column name="definition">magnetic field</column>
       <column name="definition_de">Magnetfeld</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv"></column>
+      <column name="definition_sv">magnetfält</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -6109,7 +6145,7 @@ In the promotional posters and videos for {DSC:src}, as well as in the backgroun
       <column name="definition">body</column>
       <column name="definition_de">Körper</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv"></column>
+      <column name="definition_sv">kropp</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -7613,7 +7649,7 @@ In the promotional posters and videos for {DSC:src}, as well as in the backgroun
       <column name="definition">be perfect, exact</column>
       <column name="definition_de">perfekt, exakt</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv"></column>
+      <column name="definition_sv">vara perfekt, vara exakt</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>

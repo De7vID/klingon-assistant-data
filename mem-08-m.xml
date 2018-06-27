@@ -3124,15 +3124,15 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">11580</column>
       <!-- Checked on: 2012.12.16. -->
+      <column name="_id">11580</column>
       <column name="entry_name">melchoQ</column>
       <!-- Is this a body part if it is removed from the body? -->
       <column name="part_of_speech">n</column>
       <column name="definition">marrow, bone marrow</column>
       <column name="definition_de">(Knochen-)Mark</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv"></column>
+      <column name="definition_sv">märg, benmärg</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -3456,7 +3456,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition">Mekro'vak region</column>
       <column name="definition_de">Mekro'vak-Region</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv"></column>
+      <column name="definition_sv">Mekro'vak region</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -5099,7 +5099,7 @@ This was clarified to mean "mental confusion" at {qep'a' 2017:src}.</column>
       <column name="definition">helmet</column>
       <column name="definition_de">Helm</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv"></column>
+      <column name="definition_sv">hjälm, hatt</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -7487,7 +7487,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition">present, perform (music)</column>
       <column name="definition_de">präsentieren, vorführen (Musik)</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">vara laglig</column>
+      <column name="definition_sv">framföra (musik)</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -8812,7 +8812,7 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="definition">initiation</column>
       <column name="definition_de">(feierliche) Einführung, Initiationsritus</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv"></column>
+      <column name="definition_sv">invigning, initiering</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -9054,6 +9054,42 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {KGT p.143:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Checked on: 2018.06.27. -->
+      <column name="_id"></column>
+      <column name="entry_name">mu'mey ru'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">temporary words</column>
+      <column name="definition_de">temporäre Wörter</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv">tillfälliga ord (ogrammatiskt uttryck använt för effekt)</column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{pabHa':v}</column>
+      <column name="notes">This refers to words or phrases coined for a specific occasion, and which intentionally violate grammatical rules for impact.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{mu':n}, {-mey:n}, {ru':v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KGT p.176:src}</column>
     </table>
     <table name="mem">
       <column name="_id">11744</column>
