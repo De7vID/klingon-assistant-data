@@ -7,8 +7,9 @@ import fileinput
 import glob
 import re
 
-Entry = namedtuple("Entry", ["entry_name", "part_of_speech", "definition"])
-entry_to_sv_map = defaultdict(str)
+EntryKey = namedtuple("EntryKey", ["entry_name", "part_of_speech"])
+DefinitionPair = namedtuple("DefinitionPair", ["definition", "definition_sv"])
+definitions_map = defaultdict(list)
 strip_characters = dict.fromkeys(map(ord, '<>«»~'), None)
 
 # Note: This file must be downloaded from [ http://klingonska.org/dict/dict.zdb ].
@@ -32,22 +33,31 @@ for line in dictfile:
         pos = dictfile.readline().rstrip()
         pos = re.sub(r"pos:\t(.*)", r"\1", pos)
 
-        en  = dictfile.readline().rstrip()
+        en  = ""
+        nextline = dictfile.readline().rstrip()
+        while not(re.compile("sv:.*").match(nextline)):
+            nextline = dictfile.readline().rstrip()
+            en += nextline
         en  = re.sub(r"(.*) \[.*\]", r"\1", en)
         en  = re.sub(r"en:\t(.*)", r"\1", en)
         en  = en.replace("--", "-")
         en  = en.translate(strip_characters)
 
-        sv  = dictfile.readline().rstrip()
+        sv  = nextline
+        nextline = dictfile.readline().rstrip()
+        while not(re.compile("[a-z][a-z][a-z]?[a-z]?:.*").match(nextline)):
+            nextline = dictfile.readline().rstrip()
+            sv += nextline
         sv  = re.sub(r"(.*) \[.*\]", r"\1", sv)
         sv  = re.sub(r"sv:\t(.*)", r"\1", sv)
         sv  = sv.replace("--", "-")
         sv  = sv.translate(strip_characters)
 
-        key = Entry(entry_name = tlh, part_of_speech = pos, definition = en)
-        entry_to_sv_map[key] = sv
+        key = EntryKey(entry_name = tlh, part_of_speech = pos)
+        pair = DefinitionPair(definition = en, definition_sv = sv)
+        definitions_map[key].append(pair)
 
-# print(entry_to_sv_map)
+# print(definitions_map)
 
 # Put the Swedish entries into the mem-*.xml files.
 for filename in glob.glob("mem-*.xml"):
@@ -95,12 +105,23 @@ for filename in glob.glob("mem-*.xml"):
                 print(memfile.readline().rstrip())
 
                 # Try to match the Swedish definition.
-                key = Entry(entry_name = entry_name, part_of_speech = part_of_speech, definition = definition)
-                definition_sv = entry_to_sv_map[key]
+                key = EntryKey(entry_name = entry_name, part_of_speech = part_of_speech)
+                pairs_list = definitions_map[key]
+                if len(pairs_list) == 0:
+                    definition_sv = ""
+                elif len(pairs_list) == 1:
+                    definition_sv = pairs_list[0].definition_sv
+                    del definitions_map[key]
+                else:
+                    for i in range(0, len(pairs_list)):
+                        if pairs_list[i].definition == definition:
+                          definition_sv = pairs_list[i].definition_sv
+                          del pairs_list[i]
+                          break
 
                 sv_line = memfile.readline().rstrip()
                 if definition_sv != "":
-                    sv_line = re.sub(r">(?:.*)<", ">%s<" % definition_sv, sv_line)
+                    sv_line = re.sub(r"><", ">%s<" % definition_sv, sv_line)
                 print(sv_line)
             else:
                 print(line, end='')
