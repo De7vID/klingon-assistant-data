@@ -10,14 +10,20 @@
 # {
 #   "format_version" : "1"
 #   "version" : "<database_version>",
+#   "locales" : {
+#     "de" : "Deutsch",
+#     "en" : "English",
+#     ...
+#   }
 #   "qawHaq" : {
 #     "<search_name>" : {
 #         "_id" : "<id>",
 #         "entry_name" : "<entry name>",
 #         "part_of_speech" : "<part_of_speech>",
 #         "definition" : {
-#           "de" : "<definition_de>"
-#           "en" : "<definition>"
+#           "de" : "<definition_de>",
+#           "en" : "<definition>",
+#           ...
 #         },
 #         "synonyms" : "<synonyms>",
 #         "antonyms" : "<antonyms>",
@@ -25,16 +31,19 @@
 #         "notes" : {
 #           "de" : "<notes_de>",
 #           "en" : "<notes>",
+#           ...
 #         },
 #         "hidden_notes" : "<hidden_notes>",
 #         "components" : "<components>",
 #         "examples" : {
 #           "de" : "<examples_de>",
 #           "en" : "<examples>",
+#           ...
 #         },
 #         "search_tags" : {
 #           "de" : ["<search_tag_de>", ...],
 #           "en" : ["<search_tag>", ...],
+#           ...
 #         },
 #         "source" : "<source>"
 #     },
@@ -232,6 +241,14 @@ validatelinks(qawHaq, qawHaq)
 ret = OrderedDict()
 ret['format_version'] = '1'
 ret['version'] = version
+ret['locales'] = {
+  'de' : 'Deutsch',
+  'en' : 'English',
+  'fa' : 'فارسى',
+  'ru' : 'Русский язык',
+  'sv' : 'Svenska',
+  'zh_HK' : '中文 (香港)',
+}
 ret['qawHaq'] = qawHaq
 
 # Dump the database as JSON
