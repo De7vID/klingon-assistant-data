@@ -73,6 +73,9 @@ for filename in glob.glob("mem-*.xml"):
                 entry_name = re.sub(r"      <column name=\"entry_name\">(.*)</column>", r"\1", entry_name)
 
                 part_of_speech = memfile.readline().rstrip()
+                while not(re.compile(".*part_of_speech.*").match(part_of_speech)):
+                    print(part_of_speech)
+                    part_of_speech = memfile.readline().rstrip()
                 print(part_of_speech)
                 part_of_speech = re.sub(r"      <column name=\"part_of_speech\">(.*)</column>", r"\1", part_of_speech)
                 if re.compile("adv(?:.*)").match(part_of_speech):
@@ -126,3 +129,5 @@ for filename in glob.glob("mem-*.xml"):
             else:
                 print(line, end='')
 
+# print(definitions_map)
+# print(len(definitions_map))
