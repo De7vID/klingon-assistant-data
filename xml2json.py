@@ -241,14 +241,14 @@ validatelinks(qawHaq, qawHaq)
 ret = OrderedDict()
 ret['format_version'] = '1'
 ret['version'] = version
-ret['locales'] = {
+ret['locales'] = OrderedDict({
   'de' : 'Deutsch',
   'en' : 'English',
   'fa' : 'فارسى',
   'ru' : 'Русский язык',
   'sv' : 'Svenska',
   'zh_HK' : '中文 (香港)',
-}
+})
 ret['qawHaq'] = qawHaq
 
 # Dump the database as JSON
