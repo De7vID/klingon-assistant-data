@@ -111,10 +111,10 @@
       <column name="part_of_speech">n:body</column>
       <column name="definition">head</column>
       <column name="definition_de">Kopf</column>
-      <column name="definition_fa"></column>
+      <column name="definition_fa">سر</column>
       <column name="definition_sv">huvud</column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK"></column>
+      <column name="definition_zh_HK">頭</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qab:n}, {mong:n}, {jIb:n}, {Quch:n}</column>
@@ -889,7 +889,7 @@ Do not confuse this word with {naQjej:n}.</column>
     <table name="mem">
       <column name="_id">11777</column>
       <column name="entry_name">naHlet</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,deriv</column>
       <column name="definition">nut, nuts</column>
       <column name="definition_de">Nuss, Nüsse</column>
       <column name="definition_fa"></column>
@@ -941,7 +941,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{naHlet:n}, {yub:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -7988,10 +7988,10 @@ Also, note that "What are your orders?" is expressed in Klingon as {chay' jura'?
       <column name="part_of_speech">excl</column>
       <column name="definition">what did you say? huh? what?</column>
       <column name="definition_de">Was sagst du? Hä? Was?</column>
-      <column name="definition_fa"></column>
+      <column name="definition_fa">چی گفتی؟</column>
       <column name="definition_sv">vad sa du?, va?, hursa?</column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK"></column>
+      <column name="definition_zh_HK">你說什麼？</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{nuq:ques}, {jatlh:v}</column>
@@ -8137,10 +8137,10 @@ Watch a lesson on this word: {YouTube video:url:http://youtu.be/auqS6FR_RDE}</co
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">What is your name?</column>
       <column name="definition_de">Wie heißt du?</column>
-      <column name="definition_fa"></column>
+      <column name="definition_fa">اسم تو چیست؟</column>
       <column name="definition_sv"></column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK"></column>
+      <column name="definition_zh_HK">你叫什麼名字？</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{... 'oH pongwIj'e'.:sen}, {SoH 'Iv?:sen}</column>
