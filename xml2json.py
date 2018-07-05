@@ -14,7 +14,12 @@
 #     "de" : "Deutsch",
 #     "en" : "English",
 #     ...
-#   }
+#   },
+#   "supported_locales" : [
+#     "de",
+#     "en",
+#     ...
+#   ],
 #   "qawHaq" : {
 #     "<search_name>" : {
 #         "_id" : "<id>",
@@ -55,6 +60,12 @@
 # incompatible way (adding new fields ought to be backwards compatible).
 #
 # version is the version of the database
+#
+# locales is a map of key/value pairs with locale codes as the key and localized
+# locale names as the value
+#
+# supported_locales is a list of locale codes that are considered complete enough
+# to display in the menu by default
 #
 # search_name is constructed as: entry_name:base_part_of_speech(:homophone_num),
 # where entry_name is the entry name, base_part_of_speech is the first field of
@@ -241,14 +252,20 @@ validatelinks(qawHaq, qawHaq)
 ret = OrderedDict()
 ret['format_version'] = '1'
 ret['version'] = version
-ret['locales'] = {
-  'de' : 'Deutsch',
-  'en' : 'English',
-  'fa' : 'فارسى',
-  'ru' : 'Русский язык',
-  'sv' : 'Svenska',
-  'zh_HK' : '中文 (香港)',
-}
+ret['locales'] = OrderedDict()
+
+ret['locales']['de'] = 'Deutsch'
+ret['locales']['en'] = 'English'
+ret['locales']['fa'] = 'فارسى'
+ret['locales']['ru'] = 'Русский язык'
+ret['locales']['sv'] = 'Svenska'
+ret['locales']['zh_HK'] = '中文 (香港)'
+
+ret['supported_locales'] = [
+  'de',
+  'en',
+  'sv',
+]
 ret['qawHaq'] = qawHaq
 
 # Dump the database as JSON
