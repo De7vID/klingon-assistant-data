@@ -252,14 +252,15 @@ validatelinks(qawHaq, qawHaq)
 ret = OrderedDict()
 ret['format_version'] = '1'
 ret['version'] = version
-ret['locales'] = OrderedDict({
-  'de' : 'Deutsch',
-  'en' : 'English',
-  'fa' : 'فارسى',
-  'ru' : 'Русский язык',
-  'sv' : 'Svenska',
-  'zh_HK' : '中文 (香港)',
-})
+ret['locales'] = OrderedDict()
+
+ret['locales']['de'] = 'Deutsch'
+ret['locales']['en'] = 'English'
+ret['locales']['fa'] = 'فارسى'
+ret['locales']['ru'] = 'Русский язык'
+ret['locales']['sv'] = 'Svenska'
+ret['locales']['zh_HK'] = '中文 (香港)'
+
 ret['supported_locales'] = [
   'de',
   'en',
