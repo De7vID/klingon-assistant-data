@@ -10,14 +10,25 @@
 # {
 #   "format_version" : "1"
 #   "version" : "<database_version>",
+#   "locales" : {
+#     "de" : "Deutsch",
+#     "en" : "English",
+#     ...
+#   },
+#   "supported_locales" : [
+#     "de",
+#     "en",
+#     ...
+#   ],
 #   "qawHaq" : {
 #     "<search_name>" : {
 #         "_id" : "<id>",
 #         "entry_name" : "<entry name>",
 #         "part_of_speech" : "<part_of_speech>",
 #         "definition" : {
-#           "de" : "<definition_de>"
-#           "en" : "<definition>"
+#           "de" : "<definition_de>",
+#           "en" : "<definition>",
+#           ...
 #         },
 #         "synonyms" : "<synonyms>",
 #         "antonyms" : "<antonyms>",
@@ -25,16 +36,19 @@
 #         "notes" : {
 #           "de" : "<notes_de>",
 #           "en" : "<notes>",
+#           ...
 #         },
 #         "hidden_notes" : "<hidden_notes>",
 #         "components" : "<components>",
 #         "examples" : {
 #           "de" : "<examples_de>",
 #           "en" : "<examples>",
+#           ...
 #         },
 #         "search_tags" : {
 #           "de" : ["<search_tag_de>", ...],
 #           "en" : ["<search_tag>", ...],
+#           ...
 #         },
 #         "source" : "<source>"
 #     },
@@ -46,6 +60,12 @@
 # incompatible way (adding new fields ought to be backwards compatible).
 #
 # version is the version of the database
+#
+# locales is a map of key/value pairs with locale codes as the key and localized
+# locale names as the value
+#
+# supported_locales is a list of locale codes that are considered complete enough
+# to display in the menu by default
 #
 # search_name is constructed as: entry_name:base_part_of_speech(:homophone_num),
 # where entry_name is the entry name, base_part_of_speech is the first field of
@@ -77,28 +97,42 @@ class EntryNode:
         for child in node:
             if child.tag == 'column':
                 name = child.attrib['name']
-                localized = name.rstrip('_de')
+                namesplit = name.split('_')
                 # Normalize Unicode characters into decomposed form
                 text = unicodedata.normalize('NFKD', ''.join(child.itertext()))
                 if text:
                     # Store localized fields hierarchically
-                    if localized in [
+                    if namesplit[0] in [
                         'definition',
                         'notes',
-                        'search_tags',
+                        'search', # 'search_tags'
                         'examples',
                     ]:
-                        if name.endswith('_de'):
-                            locale = 'de'
+                        if namesplit[0] == 'search':
+                            component = 'search_tags'
+                        else:
+                            component = namesplit[0]
+
+                        if len(namesplit) > 1:
+                            locale = namesplit[-1]
+                            if locale == 'tags': # 'search_tags'
+                                locale = 'en'
                         else:
                             locale = 'en'
-                        if not localized in self.data:
-                            self.data[localized] = {}
+
+                        if locale == 'HK': # 'zh_HK'
+                            locale = 'zh_HK'
+
+                        if not component in self.data:
+                            self.data[component] = {}
+
                         # Split search tags into array
-                        if name.startswith('search_tags'):
-                            self.data[localized][locale] = re.split(', *', text)
+                        if component == 'search_tags':
+                            data = re.split(', *', text)
                         else:
-                            self.data[localized][locale] = text
+                            data = text
+
+                        self.data[component][locale] = data
                     # Non localized fields are stored at the entry's top level
                     else:
                         self.data[name] = text
@@ -218,6 +252,20 @@ validatelinks(qawHaq, qawHaq)
 ret = OrderedDict()
 ret['format_version'] = '1'
 ret['version'] = version
+ret['locales'] = OrderedDict()
+
+ret['locales']['de'] = 'Deutsch'
+ret['locales']['en'] = 'English'
+ret['locales']['fa'] = 'فارسى'
+ret['locales']['ru'] = 'Русский язык'
+ret['locales']['sv'] = 'Svenska'
+ret['locales']['zh_HK'] = '中文 (香港)'
+
+ret['supported_locales'] = [
+  'de',
+  'en',
+  'sv',
+]
 ret['qawHaq'] = qawHaq
 
 # Dump the database as JSON
