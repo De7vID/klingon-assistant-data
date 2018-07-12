@@ -154,10 +154,6 @@ The suffix {-Daq:n} marks the target.</column>
       <column name="antonyms"></column>
       <column name="see_also">{bach:v}</column>
       <column name="notes">See {KGT p.145:src} for an explanation of this verb.</column>
-      <!-- The gunner on the Bird of Prey commanded by Commander Kruge made
-           a mistake ({bachHa':v:nolink}) when he destroyed the USS Grissom
-           instead of merely disabling its engines as he was ordered.
-           ({Star Trek III:src}) -->
       <column name="notes_de">Siehe {KGT p.145:src} für Details zu diesem Verb.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -844,8 +840,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/kWP0lgIYMBA}</column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
-      <!-- Both {baq:v} and {ghol:n} are words, but this appears unrelated. -->
+      <column name="hidden_notes">{baq:v} means "terminate" and {ghol:n} means "opponent".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -950,8 +945,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/kWP0lgIYMBA}</column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Данное ругательство не имеет прямого перевода.</column>
       <column name="notes_zh_HK"></column>
-      <!-- In Japanese, "baka" means "fool" or "idiot". -->
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3249,12 +3243,11 @@ The {betleH:n:nolink} is also called the {betleH quv:n:nolink}, to differentiate
       <column name="see_also"></column>
       <column name="notes">This word refers to a financial establishment.</column>
       <column name="notes_de"></column>
-      <!-- There is also a chain of jewellery stores called "Bailey Banks and Biddle". -->
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">This is a reference to the Bailey Bros. Building &amp; Loan Association, from the movie "It's a Wonderful Life".</column>
+      <column name="hidden_notes">This is a reference to the Bailey Bros. Building &amp; Loan Association, from the movie "It's a Wonderful Life". There is also a chain of jewellery stores called "Bailey Banks &amp; Biddle".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4834,12 +4827,12 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
-      <!-- This was told by Marc Okrand to Belora and others at lunch during the qepHom. Confirmed by Quvar. -->
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
+      <!-- This was told by Marc Okrand to Belora and others at lunch during the qepHom. Confirmed by Quvar. -->
       <column name="source">[1] {KGT:src}, [2] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
@@ -5597,12 +5590,12 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="antonyms">{'aqroS:n:1}</column>
       <column name="see_also">{bIng:n}, {rav:n:1}, {yor:n}</column>
       <column name="notes">For example, this word would be used to describe the inside bottom of a box. The other face of the box's {bIS'ub:n:nolink} is its {pIrmuS:n}.</column>
-      <!-- TODO: Find the pun. It is somehow related to {pIrmuS:n}. -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
+      <!-- TODO: Find the pun. It is somehow related to {pIrmuS:n}. -->
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -6207,11 +6200,11 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghIch:n}, {bochmoHwI':n}, {wov:v}</column>
-      <column name="notes">There is an idiom, {boch; ghIch rur}.[2, p.133]</column>
+      <column name="notes">There is an idiom, {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2, p.133]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">Это идиома, {boch; ghIch rur}.[2, p.133]</column>
+      <column name="notes_ru">Это идиома, {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2, p.133]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -6321,7 +6314,6 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <!-- Needs date, source. -->
       <column name="examples">
 ▶ {bogh tlhInganpu', SuvwI'pu' moj, Hegh.:sen}
 ▶ {SuvmeH 'ej charghmeH bogh tlhInganpu'.:sen}
@@ -6786,13 +6778,12 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
-      <!-- maybe also "by chance"? -->
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">by chance</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -6830,13 +6821,12 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
 ▶ {HolQeD bopbe' paqvam.:sen@@HolQeD:n, bop:v, -be':v, paq:n:1h, -vam:n} "Эта книга не о лингвистике."</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
-      <!-- This should have a year. -->
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {qep'a' 12:src}</column>
+      <column name="source">[1] {qep'a' 2005:src}</column>
     </table>
     <table name="mem">
       <column name="_id">10190</column>
@@ -7002,9 +6992,8 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <!-- Use the "times" symbol. -->
       <column name="examples">
-▶ {cha'logh boq'egh wej; chen jav:sen:nolink} 2 x 3 = 6
+▶ {cha'logh boq'egh wej; chen jav:sen:nolink} 2 × 3 = 6
 ▶ {pIraqSIS HoS waw' ghajlu'chugh, loSlogh boq'egh mI' naghmey mI'; chen qav'ap.:sen:nolink} "If Praxis Energy Facility is owned, rent is 4 times amount shown on dice."</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>

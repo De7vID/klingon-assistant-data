@@ -2584,7 +2584,6 @@ More generally, it seems that when {-moH:v} is added to a verb {X:sen:nolink} wh
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
-      <!-- This isn't a mistake. It does appear in Hamlet. -->
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -3465,14 +3464,15 @@ The word itself means "origin of everything" or "start of it all" or the like, a
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chuq:n}, {loghqam:n}</column>
-      <!-- Source? -->
       <column name="notes">This is a unit of measurement roughly akin to two kilometers.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">"Kilo-foot".</column>
+      <column name="hidden_notes">"Kilo-foot".
+
+The information about the length comes from {The Star Trek Encyclopedia, 4th ed., vol.1, p.409:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
