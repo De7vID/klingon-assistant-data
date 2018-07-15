@@ -7,7 +7,7 @@
       <column name="definition_fa"></column>
       <column name="definition_sv">klingonskans {I:sen:nolink}-ljud</column>
       <column name="definition_ru">буква {I:sen:nolink}</column>
-      <column name="definition_zh_HK"></column>
+      <column name="definition_zh_HK">元音{I:sen:nolink}</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1000,13 +1000,12 @@ See {rav:n:1} for an idiom related to sadness.</column>
       <column name="antonyms"></column>
       <column name="see_also">{DIS:n:2}, {jar:n}, {Hogh:n}, {jaj:n}</column>
       <column name="notes"></column>
-      <!-- TODO: I had "penum. for {DIS} + {jar}" in the note, what does this mean? -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is {DIS:n:2} plus {jar:n} with the first and last letters replaced.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
