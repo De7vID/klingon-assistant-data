@@ -433,7 +433,7 @@
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lam:v}</column>
+      <column name="see_also">{lam:v}, {tlhan:v}</column>
       <column name="notes"></column>
       <!-- Possibly Spanish "lama" or German "leim". -->
       <column name="notes_de"></column>
@@ -498,7 +498,7 @@
       <column name="_id">11304</column>
       <column name="entry_name">lang</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be thin</column>
+      <column name="definition">be thin, be narrow</column>
       <column name="definition_de">dünn</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">vara tunn</column>
@@ -513,7 +513,9 @@
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">Something that is "long" is usually thin.</column>
+      <column name="hidden_notes">Something that is "long" is usually thin.
+
+This was defined as "be thin" in {TKD:src} and expanded to include "be narrow" at {qep'a' 2018:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -527,7 +529,7 @@
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 2018:src}</column>
     </table>
     <table name="mem">
       <column name="_id">11305</column>
@@ -1033,7 +1035,7 @@ For things that are measurable or quantifiable, but not necessarily countable, u
     <table name="mem">
       <column name="_id">11319</column>
       <column name="entry_name">... X law' ... X puS</column>
-      <column name="part_of_speech">sen</column>
+      <column name="part_of_speech">sen:phrase</column>
       <column name="definition">... is more X than...</column>
       <column name="definition_de">... ist mehr X als ...</column>
       <column name="definition_fa"></column>
@@ -1116,7 +1118,7 @@ The following example shows that the verb of quality can take a suffix:
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{rewve':n}, {muD:n:1}</column>
+      <column name="see_also">{rewve':n}, {muD:n:1}, {HIS:v}</column>
       <column name="notes">This is some sort of technical term. It would be odd to say {lay vItlhuH:sen@@lay:n:2, vI-:v, tlhuH:v:1} for "I breathe air", but it would be understood.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1440,7 +1442,7 @@ The following example shows that the verb of quality can take a suffix:
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms">{Don:v}</column>
-      <column name="see_also">{tajvaj leD:n}, {Dop:v}</column>
+      <column name="see_also">{tajvaj leD:n}, {Dop:v}, {neq:v}</column>
       <column name="notes">This is normally used with a plural subject.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -3575,6 +3577,41 @@ This word is also used to express that a computer (or computer system) is online
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">lIQ</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be stuck (mentally, on a problem)</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This means being stuck like when you can't solve an algebra problem or a crossword puzzle.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes">To "be licked" is to be soundly defeated by something.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2018:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">11389</column>
       <column name="entry_name">lIr</column>
       <column name="part_of_speech">n:anim</column>
@@ -4561,6 +4598,41 @@ The text of {SkyBox 99:src} reads:
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {BoP:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">logh'ob</column>
+      <column name="part_of_speech">n:body</column>
+      <column name="definition">chest</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{porgh:n}, {ro:n}</column>
+      <column name="notes">This refers to the upper front of the torso.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2018:src}</column>
     </table>
     <table name="mem">
       <column name="_id">11417</column>
@@ -6163,7 +6235,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tu'HomI'raH:n}</column>
+      <column name="see_also">{tu'HomI'raH:n}, {qey:v}</column>
       <column name="notes">See {chetvI':n:1} for an idiom related to worthlessness.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -6578,6 +6650,41 @@ This prefix is sometimes dropped for unknown reasons. While an error, this is of
       <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {HQ 2.4, p.18, Dec. 1993:src}</column>
     </table>
     <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">lujwI' mIr</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">losing streak</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms">{quvHa'ghach mIr:n}</column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{luj:v}, {-wI':v}, {mIr:n:2}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2018:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">11474</column>
       <column name="entry_name">lul</column>
       <column name="part_of_speech">v:t</column>
@@ -6983,7 +7090,7 @@ This prefix is sometimes dropped for unknown reasons. While an error, this is of
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{lupwI':n}, {mIr:n}</column>
+      <column name="components">{lupwI':n}, {mIr:n:1}</column>
       <column name="examples">
 ▶ {nuqDaq lupwI' mIr vItIj?@@nuqDaq:ques, lupwI' mIr:n, vI-:v, tIj:v} "Where is the train station?"[1]</column>
       <column name="examples_de"></column>
@@ -7230,6 +7337,41 @@ The points in between the three cardinal directions are {tIng chan:n:nolink}, {'
       <column name="source">[1] {HQ 5.3, Sept. 1996:src}, [2] {SkyBox 26:src}</column>
     </table>
     <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">luS</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be submerged in, immersed in, surrounded by</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{'oq:v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2018:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id">11492</column>
       <column name="entry_name">luSpet</column>
       <column name="part_of_speech">n</column>
@@ -7322,7 +7464,7 @@ The points in between the three cardinal directions are {tIng chan:n:nolink}, {'
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This was used in the Netflix Klingon-language press release for {DSC:src}, which was written by {Quvar:n:name}.</column>
-      <column name="components">{lut:n}, {mIr:n}</column>
+      <column name="components">{lut:n}, {mIr:n:2}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
