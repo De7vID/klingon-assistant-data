@@ -1,5 +1,5 @@
     <table name="mem">
-      <column name="_id">14003</column>
+      <column name="_id"></column>
       <column name="entry_name">'at</column>
       <column name="part_of_speech">n</column>
       <column name="definition">the vowel {a:sen:nolink}</column>
@@ -7,7 +7,7 @@
       <column name="definition_fa"></column>
       <column name="definition_sv">klingonskans {a:sen:nolink}-ljud</column>
       <column name="definition_ru">буква {a:sen:nolink}</column>
-      <column name="definition_zh_HK"></column>
+      <column name="definition_zh_HK">元音{a:sen:nolink}</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -34,7 +34,7 @@
       <column name="source">[1] {KLI mailing list 2009.07.27:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14004</column>
+      <column name="_id"></column>
       <column name="entry_name">'a</column>
       <column name="part_of_speech">conj:alt</column>
       <column name="definition">{'ach:conj}</column>
@@ -69,7 +69,7 @@
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14005</column>
+      <column name="_id"></column>
       <column name="entry_name">'ab</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">have a length/height of</column>
@@ -109,10 +109,10 @@
       <column name="source">[1] {SkyBox 32:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src}), [2] {msn 1997.10.22:src}, [3] {BoP:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14006</column>
+      <column name="_id"></column>
       <column name="entry_name">'ach</column>
       <column name="part_of_speech">conj</column>
-      <column name="definition">but, nevertheless, even so, however</column>
+      <column name="definition">but, nevertheless, even so, however, whereas</column>
       <column name="definition_de">aber, nichtsdestoweniger, dennoch, jedoch</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">men, ändå, dock, trots allt, emellertid</column>
@@ -120,14 +120,15 @@
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">
+▶ {ro' mojchugh ghIt:sen}</column>
       <column name="notes">This is sometimes shortened to {'a:conj:nolink}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as "but, nevertheless, even so, however, whereas" in {TKD:src}. The definition "whereas" for expressing contrast was added at {qep'a' 2018:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -141,10 +142,10 @@
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 2018:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14007</column>
+      <column name="_id"></column>
       <column name="entry_name">'aD</column>
       <column name="part_of_speech">n</column>
       <column name="definition">vein, artery, blood vessel</column>
@@ -179,7 +180,7 @@
       <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14008</column>
+      <column name="_id"></column>
       <column name="entry_name">'aD</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">have a length of, measure</column>
@@ -214,7 +215,7 @@
       <column name="source">[1] {KGT:src}, [2] {msn 1997.10.22:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14009</column>
+      <column name="_id"></column>
       <column name="entry_name">'agh</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">show, demonstrate, display</column>
@@ -262,7 +263,7 @@
       <column name="source">[1] {KGT:src}, [2] {Star Trek Constellations p.259:src}, [3] {paq'batlh p.118-121:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14010</column>
+      <column name="_id"></column>
       <column name="entry_name">'aH</column>
       <column name="part_of_speech">n</column>
       <column name="definition">paraphernalia</column>
@@ -297,7 +298,7 @@
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14011</column>
+      <column name="_id"></column>
       <column name="entry_name">'aj</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">admiral</column>
@@ -332,7 +333,7 @@
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14012</column>
+      <column name="_id"></column>
       <column name="entry_name">'al</column>
       <column name="part_of_speech">v:i_c</column>
       <column name="definition">float (in/on air)</column>
@@ -342,8 +343,8 @@
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{puv:v}</column>
+      <column name="antonyms">{'oq:v}</column>
+      <column name="see_also">{puv:v}, {'ay:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -367,7 +368,7 @@
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14013</column>
+      <column name="_id"></column>
       <column name="entry_name">'alnIl</column>
       <column name="part_of_speech">n</column>
       <column name="definition">(belt) buckle</column>
@@ -402,7 +403,7 @@
       <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14014</column>
+      <column name="_id"></column>
       <column name="entry_name">'alngegh</column>
       <column name="part_of_speech">n:weap</column>
       <column name="definition">ax with spike at end</column>
@@ -437,7 +438,7 @@
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14015</column>
+      <column name="_id"></column>
       <column name="entry_name">'al'on</column>
       <column name="part_of_speech">n</column>
       <column name="definition">glass (material)</column>
@@ -474,7 +475,7 @@
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14016</column>
+      <column name="_id"></column>
       <column name="entry_name">'ambay</column>
       <column name="part_of_speech">n</column>
       <column name="definition">island</column>
@@ -509,7 +510,7 @@
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14017</column>
+      <column name="_id"></column>
       <column name="entry_name">'amerI'qa' SepjIjQa'</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">United States of America</column>
@@ -544,7 +545,7 @@
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14018</column>
+      <column name="_id"></column>
       <column name="entry_name">'amerI'qa' tIng chan tIng</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">South America</column>
@@ -579,7 +580,7 @@
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14019</column>
+      <column name="_id"></column>
       <column name="entry_name">'amerI'qa' 'ev chan 'ev</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">North America</column>
@@ -614,7 +615,7 @@
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14020</column>
+      <column name="_id"></column>
       <column name="entry_name">'ampaS</column>
       <column name="part_of_speech">n</column>
       <column name="definition">academy</column>
@@ -649,7 +650,77 @@
       <column name="source">[1] {KGT:src}, [2] {HQ 4.4, p.11:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14021</column>
+      <column name="_id"></column>
+      <column name="entry_name">'an</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">waste</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This can be used for when someone sacrifices forces for a certain goal or just wastes their resources.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2018:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">'anmoH</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
+      <column name="definition">sacrifice</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{'an:v}, {-moH:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2018:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">'anDor</column>
       <column name="part_of_speech">n:place,fic</column>
       <column name="definition">Andoria</column>
@@ -686,7 +757,7 @@
       <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14022</column>
+      <column name="_id"></column>
       <column name="entry_name">'anDorya'</column>
       <column name="part_of_speech">n:place,fic,alt</column>
       <column name="definition">{'anDor:n}</column>
@@ -721,7 +792,7 @@
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14023</column>
+      <column name="_id"></column>
       <column name="entry_name">'anDorya'ngan</column>
       <column name="part_of_speech">n:being,fic</column>
       <column name="definition">Andorian</column>
@@ -756,7 +827,7 @@
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14024</column>
+      <column name="_id"></column>
       <column name="entry_name">'anDo'ra'</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Andorra</column>
@@ -791,7 +862,7 @@
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14025</column>
+      <column name="_id"></column>
       <column name="entry_name">'anISyum</column>
       <column name="part_of_speech">n</column>
       <column name="definition">anicium</column>
@@ -826,7 +897,7 @@
       <column name="source">[1] {Saarbrücken qepHom'a' 2017:src}, [2] {DSC - Magic to Make the Sanest Man Go Mad:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14026</column>
+      <column name="_id"></column>
       <column name="entry_name">'antartIq</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Antarctica</column>
@@ -861,7 +932,7 @@
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14027</column>
+      <column name="_id"></column>
       <column name="entry_name">'antonI'</column>
       <column name="part_of_speech">n:name</column>
       <column name="definition">Antony</column>
@@ -896,7 +967,7 @@
       <column name="source">[1] {KGT p.110:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14028</column>
+      <column name="_id"></column>
       <column name="entry_name">'anyan 'oQqar</column>
       <column name="part_of_speech">n:food</column>
       <column name="definition">onion</column>
@@ -931,7 +1002,7 @@
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14029</column>
+      <column name="_id"></column>
       <column name="entry_name">'ang</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">show, reveal</column>
@@ -968,7 +1039,7 @@
       <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14030</column>
+      <column name="_id"></column>
       <column name="entry_name">'ang'eghQo' quv Hutlhbogh jagh neH ghobtaHvIS ghaH.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Only an enemy without honor refuses to show himself in battle.</column>
@@ -1003,7 +1074,7 @@
       <column name="source">[1] {TKW p.61:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14031</column>
+      <column name="_id"></column>
       <column name="entry_name">'angweD</column>
       <column name="part_of_speech">n</column>
       <column name="definition">museum</column>
@@ -1039,7 +1110,7 @@
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14032</column>
+      <column name="_id"></column>
       <column name="entry_name">'ap</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be dented</column>
@@ -1074,7 +1145,7 @@
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14033</column>
+      <column name="_id"></column>
       <column name="entry_name">'apmoH</column>
       <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">dent</column>
@@ -1109,7 +1180,7 @@
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14034</column>
+      <column name="_id"></column>
       <column name="entry_name">'aplom</column>
       <column name="part_of_speech">n</column>
       <column name="definition">pellet</column>
@@ -1144,7 +1215,7 @@
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14035</column>
+      <column name="_id"></column>
       <column name="entry_name">'aplom chuch</column>
       <column name="part_of_speech">n:alt</column>
       <column name="definition">{chuch 'aplom:n}</column>
@@ -1179,7 +1250,7 @@
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14036</column>
+      <column name="_id"></column>
       <column name="entry_name">'aplo'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">case, container</column>
@@ -1215,7 +1286,7 @@
       <column name="source">[1] {Klingon Monopoly:src}, [2] {TNK:src}, [3] {Facebook "Learn Klingon" group 2013.08.10:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14037</column>
+      <column name="_id"></column>
       <column name="entry_name">'apuStoQ</column>
       <column name="part_of_speech">n:anim</column>
       <column name="definition">a hawk-like bird</column>
@@ -1250,7 +1321,7 @@
       <column name="source">[1] {KLI mailing list 2018.01.10:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14038</column>
+      <column name="_id"></column>
       <column name="entry_name">'aq</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">predict, prognosticate</column>
@@ -1296,7 +1367,7 @@ Man beachte dass es bei der Wettervorhersage (siehe {muD Dotlh:n}) üblich ist {
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14039</column>
+      <column name="_id"></column>
       <column name="entry_name">'aqleH</column>
       <column name="part_of_speech">n:weap,fic</column>
       <column name="definition">type of weapon (half ax, half bat'leth)</column>
@@ -1331,7 +1402,7 @@ Man beachte dass es bei der Wettervorhersage (siehe {muD Dotlh:n}) üblich ist {
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14040</column>
+      <column name="_id"></column>
       <column name="entry_name">'aqnaw</column>
       <column name="part_of_speech">n</column>
       <column name="definition">type of knife (general purpose)</column>
@@ -1366,7 +1437,7 @@ Man beachte dass es bei der Wettervorhersage (siehe {muD Dotlh:n}) üblich ist {
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14041</column>
+      <column name="_id"></column>
       <column name="entry_name">'aqroS</column>
       <column name="part_of_speech">n:1</column>
       <column name="definition">bottom surface of a table, ceiling</column>
@@ -1402,7 +1473,7 @@ Man beachte dass es bei der Wettervorhersage (siehe {muD Dotlh:n}) üblich ist {
       <column name="source">[1] {HQ 8.3, p.2, Sept. 1999:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14042</column>
+      <column name="_id"></column>
       <column name="entry_name">'aqroS</column>
       <column name="part_of_speech">n:2</column>
       <column name="definition">maximum</column>
@@ -1442,7 +1513,7 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="source">[1] {BoP:src}, [2] {HQ 8.3, p.2, Sept. 1999:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14043</column>
+      <column name="_id"></column>
       <column name="entry_name">'aqroS qughDo</column>
       <column name="part_of_speech">n</column>
       <column name="definition">maximum cruising speed</column>
@@ -1477,7 +1548,7 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14044</column>
+      <column name="_id"></column>
       <column name="entry_name">'aqtu'</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Aktuh</column>
@@ -1512,7 +1583,7 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="source">[1] {TKW:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14045</column>
+      <column name="_id"></column>
       <column name="entry_name">'aQlo'</column>
       <column name="part_of_speech">n:reg,body</column>
       <column name="definition">forehead</column>
@@ -1547,7 +1618,7 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14046</column>
+      <column name="_id"></column>
       <column name="entry_name">'aQvoH</column>
       <column name="part_of_speech">n</column>
       <column name="definition">act of watching over a fallen warrior's body</column>
@@ -1582,7 +1653,7 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14047</column>
+      <column name="_id"></column>
       <column name="entry_name">'ar</column>
       <column name="part_of_speech">ques</column>
       <column name="definition">how many? how much?</column>
@@ -1620,7 +1691,7 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="source">[1] {TKD 6.4:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14048</column>
+      <column name="_id"></column>
       <column name="entry_name">'arDeH</column>
       <column name="part_of_speech">n</column>
       <column name="definition">ivy-like plant</column>
@@ -1655,7 +1726,7 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14049</column>
+      <column name="_id"></column>
       <column name="entry_name">'argh</column>
       <column name="part_of_speech">v:i</column>
       <column name="definition">worsen</column>
@@ -1690,7 +1761,7 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14050</column>
+      <column name="_id"></column>
       <column name="entry_name">'arHentInya'</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Argentina</column>
@@ -1725,7 +1796,7 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14051</column>
+      <column name="_id"></column>
       <column name="entry_name">'arlogh</column>
       <column name="part_of_speech">ques:deriv</column>
       <column name="definition">how many times?</column>
@@ -1760,7 +1831,7 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="source">[1] {s.k 1999.02.02:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14052</column>
+      <column name="_id"></column>
       <column name="entry_name">'arlogh Qoylu'pu'?</column>
       <column name="part_of_speech">sen:idiom</column>
       <column name="definition">What time is it?</column>
@@ -1798,7 +1869,7 @@ The Federation's 24-hour system ({tera' poH:n}) is sometimes used in interplanet
       <column name="source">[1] {s.k 1999.02.02:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14053</column>
+      <column name="_id"></column>
       <column name="entry_name">'aSralya'</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Australia</column>
@@ -1833,7 +1904,7 @@ The Federation's 24-hour system ({tera' poH:n}) is sometimes used in interplanet
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14054</column>
+      <column name="_id"></column>
       <column name="entry_name">'aSya'</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Asia</column>
@@ -1868,7 +1939,7 @@ The Federation's 24-hour system ({tera' poH:n}) is sometimes used in interplanet
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14055</column>
+      <column name="_id"></column>
       <column name="entry_name">'atlantIq bIQ'a'</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Atlantic Ocean</column>
@@ -1903,7 +1974,7 @@ The Federation's 24-hour system ({tera' poH:n}) is sometimes used in interplanet
       <column name="source">[1] {Smithsonian GO FLIGHT app:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14056</column>
+      <column name="_id"></column>
       <column name="entry_name">'atrom</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">A'trom</column>
@@ -1938,7 +2009,7 @@ The Federation's 24-hour system ({tera' poH:n}) is sometimes used in interplanet
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14057</column>
+      <column name="_id"></column>
       <column name="entry_name">'atlhqam</column>
       <column name="part_of_speech">n</column>
       <column name="definition">type of fungus</column>
@@ -1973,7 +2044,42 @@ The Federation's 24-hour system ({tera' poH:n}) is sometimes used in interplanet
       <column name="source">[1] {KGT p.92:src}, [2] {KLI mailing list 2017.11.20:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14058</column>
+      <column name="_id"></column>
+      <column name="entry_name">'atlhqam tun</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">a type of mold</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This literally means "soft fungus".</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{'atlhqam:n}, {tun:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2018:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">'av</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">guard</column>
@@ -2008,7 +2114,7 @@ The Federation's 24-hour system ({tera' poH:n}) is sometimes used in interplanet
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14059</column>
+      <column name="_id"></column>
       <column name="entry_name">'avwI'</column>
       <column name="part_of_speech">n:deriv,being</column>
       <column name="definition">guard</column>
@@ -2043,7 +2149,7 @@ The Federation's 24-hour system ({tera' poH:n}) is sometimes used in interplanet
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14060</column>
+      <column name="_id"></column>
       <column name="entry_name">'avwI' nejDI' narghta'bogh qama' reH 'avwI' Sambej.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">When an escaped prisoner looks for a guard, he always finds one.</column>
@@ -2078,7 +2184,7 @@ The Federation's 24-hour system ({tera' poH:n}) is sometimes used in interplanet
       <column name="source">[1] {TKW p.200:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14061</column>
+      <column name="_id"></column>
       <column name="entry_name">'avwI'vaD jatlh qama'...</column>
       <column name="part_of_speech">sen:joke</column>
       <column name="definition">A prisoner says to the guard...</column>
@@ -2131,7 +2237,7 @@ The Federation's 24-hour system ({tera' poH:n}) is sometimes used in interplanet
       <column name="source">[1] {PK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14062</column>
+      <column name="_id"></column>
       <column name="entry_name">'avrI'qa'</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Africa</column>
@@ -2166,7 +2272,7 @@ The Federation's 24-hour system ({tera' poH:n}) is sometimes used in interplanet
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14063</column>
+      <column name="_id"></column>
       <column name="entry_name">'awje'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">type of beverage (root beer)</column>
@@ -2203,7 +2309,7 @@ This word refers not to a specific drink, but to a narrow class of related drink
       <column name="source">[1] {KGT:src} [2] {HQ 6.2, p.20, Jun. 1997:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14064</column>
+      <column name="_id"></column>
       <column name="entry_name">'aw'</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">sting</column>
@@ -2241,7 +2347,42 @@ The example literally means "My eyes sting me", which shows that {'aw':v:nolink}
       <column name="source">[1] {TKD:src}, [2] {CK:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14065</column>
+      <column name="_id"></column>
+      <column name="entry_name">'ay</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">float</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{'oq:v}</column>
+      <column name="see_also">{'al:v}</column>
+      <column name="notes">This means to float in/on water or other liquids. For floating in space, see {rIjHa':v}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2018:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">'ay'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">section, part, component, piece</column>
@@ -2252,7 +2393,7 @@ The example literally means "My eyes sting me", which shows that {'aw':v:nolink}
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mutlh:v}</column>
+      <column name="see_also">{mutlh:v}, {baylaD:n}</column>
       <column name="notes">This can be used for any kind of building element, construction part, or even Lego pieces.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -2276,7 +2417,7 @@ The example literally means "My eyes sting me", which shows that {'aw':v:nolink}
       <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14066</column>
+      <column name="_id"></column>
       <column name="entry_name">'a'ghen</column>
       <column name="part_of_speech">n</column>
       <column name="definition">master teacher, professor</column>
@@ -2311,7 +2452,7 @@ The example literally means "My eyes sting me", which shows that {'aw':v:nolink}
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14067</column>
+      <column name="_id"></column>
       <column name="entry_name">'a'leghen'I'</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Allegheny</column>
@@ -2346,7 +2487,7 @@ The example literally means "My eyes sting me", which shows that {'aw':v:nolink}
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
-      <column name="_id">14068</column>
+      <column name="_id"></column>
       <column name="entry_name">'a'Setbur</column>
       <column name="part_of_speech">n:name</column>
       <column name="definition">Azetbur</column>

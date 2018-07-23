@@ -244,7 +244,12 @@ xmltree = ET.fromstring(concat)
 qawHaq = OrderedDict()
 for child in xmltree[0]:
     node = EntryNode(child)
-    qawHaq[node.searchName()] = node.data
+
+    # Every entry should have a definition
+    if 'definition' in node.data:
+        qawHaq[node.searchName()] = node.data
+    else:
+        sys.stderr.write('no definition for entry ' + node.searchName() + '\n')
 
 # Now that the database has been parsed, search for unfollowable links
 validatelinks(qawHaq, qawHaq)
