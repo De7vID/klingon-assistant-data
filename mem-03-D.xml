@@ -41,7 +41,7 @@
       <column name="definition_de">verhalten, benehmen wie</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">bete sig som, agera på samma sätt som</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">вести себя как,действовать в стиле кого-то</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -62,7 +62,11 @@
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {jIlay'ta' 'ej batlh jIpabta':sen:nolink}
+   {vaj choDanIS:sen:nolink}
+  "Я сдержал свое слово чести,
+   и тебе следуюет поступить также."[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -80,7 +84,7 @@
       <column name="definition_de">du-ihn/sie/es/sie (pl.)</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">du-honom/henne/det/dem</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">ты-ему/ей/им/этому(вещи), вы-ему/ей/им/этому(вещи)</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms">{Du-:v:pref}, {nI-:v:pref}</column>
@@ -91,7 +95,9 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">{SoH:n}:{ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n} = {Da-:v:pref,nolink}
+
+Когда используется вместе с {-lu':v}, этот префикс означает, что "кто-то (неоределнный субъект) делает что-то для тебя".</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -105,7 +111,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">ты-ему, ты-ей, ты-этому, ты-им, вы-ему, вы-ей, вы-этому, вы-им</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
@@ -188,7 +194,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="definition_de">Wenn du bedroht wirst, dann kämpfe.</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Когда тебе угрожают, дерись.</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -223,7 +229,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="definition_de">abwesend</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">vara frånvarande</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">отсутствовать</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms">{SaH:v:1}</column>
@@ -251,14 +257,19 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+<<<<<<< HEAD
       <column name="_id"></column>
+=======
+      <!-- Checked on: 2012.11.26. -->
+      <column name="_id">10434</column>
+>>>>>>> finished AT10450
       <column name="entry_name">Dach</column>
       <column name="part_of_speech">v:2,i,slang</column>
       <column name="definition">be not attentive, be distracted, lack focus</column>
       <column name="definition_de">unaufmerksam, abgelenkt, unkonzentriert</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">vara ouppmärksam, vara distraherad, sakna koncentration</column>
-      <column name="definition_ru"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru">быть невнимательным, быть отвлеченным, не уделять должного внимания</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -267,7 +278,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это применяют к человеку, кто не сфокусирован на задании.[1, стр.149]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -293,7 +304,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="definition_de">Haus des D'Ghor</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Дом ДэГора</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -327,7 +338,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="definition">mixture of animal parts</column>
       <column name="definition_de">Gemisch von Tierteilen</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">blandning av djurdelar, ihopblandade djurdelar</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -363,7 +374,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="definition_de">jetzt</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">nu</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">сейчас</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms">{SIbI'Ha':adv}</column>
@@ -372,7 +383,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="notes_de">Siehe wie Gowron dies sagt: {YouTube video:url:http://youtu.be/eM5zeoAf2Ek}</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Смотрите, как Гаурон говорит это: {YouTube video:url:http://youtu.be/eM5zeoAf2Ek}</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -397,8 +408,8 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="definition">array, bank</column>
       <column name="definition_de">Phalanx</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">batteri, uppsättning (av vapen)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru">массив, батарея </column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -423,7 +434,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">батарея(военный термин)</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {BoP:src}, [2] {KGT:src}</column>
     </table>
@@ -498,14 +509,18 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="source">[1] {Star Trek VI:src}</column>
     </table>
     <table name="mem">
+<<<<<<< HEAD
       <column name="_id"></column>
+=======
+      <column name="_id">10441</column>
+>>>>>>> finished AT10450
       <column name="entry_name">DaH yIDIl!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Pay now!</column>
       <column name="definition_de">Bezahle jetzt!</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Плати сейчас же!</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -541,7 +556,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="definition_de">heute</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">idag</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Сегодня</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -560,7 +575,17 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Пока {DaHjaj:n:nolink} и {jajvam:n} означают "сегодня", они не совсем взаимозаменяемые. {DaHjaj:n:nolink} (но не {jajvam:n:nolink}) используется, как элемент времени в предложении: {DaHjaj romuluSngan vIHoHpu':sen:nolink} "сегодня я убил ромуланца".[2]
+
+Как субъект предложения, {jajvam:n:nolink} более типичен, хотя {DaHjaj:n:nolink} и не является невозможным. Сравните:
+▶ {nI' jajvam:sen:nolink} "Этот день долгий"
+▶ {nI' DaHjaj:sen:nolink} "Сегодняшний день долгий"[2]
+
+{DaHjaj:n:nolink} также ведет себя, как существительное в таких конструкциях "подлежащее-подлежащее", как {DaHjaj gheD:n} "добыча на сегодня", термин, часто слышимый в Клинонских ресторанах, со значением, что сравнимо с "блюдом дня".[2]
+
+{DaHjaj:n:nolink} также используется со словами, обозначающими время дня, чтобы упомянуть, что это часть текущего дня. Например, {DaHjaj ram:n}, дословно "сегодняшня ночь", значит "сегодня".[2]
+
+Как элемент времени, {DaHjaj:n} предшествует любым прилагательным.[1, секция. 6.7]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{DaH:adv}, {jaj:n}</column>
@@ -579,7 +604,11 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="source">[1] {TKDA:src}, [2] {msn 1997.06.29:src}</column>
     </table>
     <table name="mem">
+<<<<<<< HEAD
       <column name="_id"></column>
+=======
+      <column name="_id">10443</column>
+>>>>>>> finished AT10450
       <column name="entry_name">DaHjaj ram</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">tonight</column>
@@ -621,8 +650,8 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="definition_de">Heute bin ich ein Krieger.</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru">Сегодня я воитель(ница).</column>
-      <column name="definition_zh_HK">我今天成為戰士。</column>
+      <column name="definition_ru">Сегодня я воин</column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{DaHjaj SuvwI' SoH.:sen}</column>
@@ -656,8 +685,8 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="definition_de">Heute bist du ein Krieger.</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru">Сегодня ты воитель(ница).</column>
-      <column name="definition_zh_HK">你今天成為戰士。</column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{DaHjaj SuvwI''e' jIH.:sen}</column>
@@ -691,7 +720,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="definition_de">"Heute Beute", "Beute von Heute"</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">rätt på restaurang, "dagens fångst"</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">блюдо в ресторане, "блюдо дня"</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -726,7 +755,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="definition_de">interessant</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">vara intressant</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Быть интересным</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms">{Dal:v}, {qetlh:v}</column>
@@ -761,7 +790,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="definition_de">nicht schlüssig prüfen, beweisen</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">pröva, testa (på ett icke-avgörande sätt)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">тестировать безрезультатно</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms">{tob:v}</column>
@@ -797,7 +826,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="definition_de">Mögest du sterben bevor du gefangen genommen wirst.</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Желаю тебе умереть до того, как тебя схватят</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -832,7 +861,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="definition_de">langweilig</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">vara tråkig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть скучным</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms">{qetlh:v}</column>
       <column name="antonyms">{Daj:v:1,is}</column>
@@ -1055,6 +1084,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
+      <!-- Example of "intercept" from Klingon Monopoly? -->
       <column name="examples">
 ▶ {lojmIt poSDaq Daq pagh.:sen}
 ▶ {bIDaqchu' 'ej jagh De' lI' DaSuq.:sen@@bI-:v, Daq:v, -chu':v, 'ej:conj, jagh:n, De':n, lI':v:1, Da-:v, Suq:v} "Intercept useful enemy information."[2]</column>
@@ -1069,7 +1099,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}, [2] {Klingon Monopoly:src}</column>
+      <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -1078,7 +1108,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="definition">site, location</column>
       <column name="definition_de">Ort, Platz, Bereich</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">plats, ställe</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -1221,10 +1251,10 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">Where do you live?</column>
       <column name="definition_de">Wo wohnst du?</column>
-      <column name="definition_fa">کجا زندگی می‌کنی؟</column>
+      <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru">Где живёшь?</column>
-      <column name="definition_zh_HK">你住在哪裡？</column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms">
 ▶ {nuqDaq 'oH juHlIj'e'?:sen}</column>
       <column name="antonyms"></column>
@@ -1261,7 +1291,7 @@ An acceptable way to phrase this demand as a question is {nuq DaDab?:sen:nolink}
       <column name="definition_de">Ich begleite dich zum ... .</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru">Я провожу тебя до ... .</column>
+      <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1513,7 +1543,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="definition">darsek, unit of currency</column>
       <column name="definition_de">Darsek (Geldeinheit)</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">darsek (valutaenhet)</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -1560,7 +1590,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">The movie "Das Boot" is a submarine thriller which inspired some of the cloaked ship battle sequences in Star Trek.</column>
+      <column name="hidden_notes">There is movie called "Das Boot".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -1614,12 +1644,12 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DaSpu'</column>
-      <!-- Not deriv because one component is archaic. -->
+      <!-- Not deriv because one word. -->
       <column name="part_of_speech">n</column>
       <column name="definition">boot spike</column>
       <column name="definition_de">Stiefeldorn</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">stövelspik, kängspik, tåspik</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -1654,7 +1684,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="definition">everywhere</column>
       <column name="definition_de">überall</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">överallt, alla platser</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -1691,7 +1721,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="definition">sway (aircraft moves to the side without yawing)</column>
       <column name="definition_de">schwanken (Flugzeug bewegt zur Seite ohne zu neigen)</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">vara i rörelse i sidled (flygmaskin rör sig till höger ellerdef vänster utan att svänga)</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -1973,7 +2003,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="definition">a bird characterized by erratic, unpredictable behavior</column>
       <column name="definition_de">Vogel typisch für sein unberechenbares Verhalten</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">en slags fågel (kännetecknad av irrande, oförutsägbart beteende)</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -2008,7 +2038,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="definition">a bird characterized by erratic, unpredictable behavior</column>
       <column name="definition_de">Vogel typisch für sein unberechenbares Verhalten</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">en slags fågel (kännetecknad av irrande, oförutsägbart beteende)</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -2224,7 +2254,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="definition">helmsman</column>
       <column name="definition_de">Steuermann</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">rorsman</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -2472,7 +2502,7 @@ In {DSC - The Vulcan Hello:src}, the albino Voq's (see {voq:n:name}) skin colour
       <column name="definition">Deneb</column>
       <column name="definition_de">Deneb</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">Denebia</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -2506,10 +2536,10 @@ In {DSC - The Vulcan Hello:src}, the albino Voq's (see {voq:n:name}) skin colour
       <column name="part_of_speech">n:place,fic,alt</column>
       <column name="definition">{DenIb:n}</column>
       <column name="definition_de">{DenIb:n}</column>
-      <column name="definition_fa">{DenIb:n}</column>
-      <column name="definition_sv">{DenIb:n}</column>
-      <column name="definition_ru">{DenIb:n}</column>
-      <column name="definition_zh_HK">{DenIb:n}</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -2578,10 +2608,10 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="part_of_speech">n:anim,alt</column>
       <column name="definition">{DenIb Qatlh:n}</column>
       <column name="definition_de">{DenIb Qatlh:n}</column>
-      <column name="definition_fa">{DenIb Qatlh:n}</column>
-      <column name="definition_sv">{DenIb Qatlh:n}</column>
-      <column name="definition_ru">{DenIb Qatlh:n}</column>
-      <column name="definition_zh_HK">{DenIb Qatlh:n}</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -2648,10 +2678,10 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="part_of_speech">n:being,alt</column>
       <column name="definition">{DenIbngan:n}</column>
       <column name="definition_de">{DenIbngan:n}</column>
-      <column name="definition_fa">{DenIbngan:n}</column>
-      <column name="definition_sv">{DenIbngan:n}</column>
-      <column name="definition_ru">{DenIbngan:n}</column>
-      <column name="definition_zh_HK">{DenIbngan:n}</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -2683,10 +2713,10 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Denmark</column>
       <column name="definition_de">Dänemark</column>
-      <column name="definition_fa">دانمارک</column>
+      <column name="definition_fa"></column>
       <column name="definition_sv">Danmark</column>
-      <column name="definition_ru">Дания</column>
-      <column name="definition_zh_HK">丹麥</column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -2755,7 +2785,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="definition">being (non-humanoid)</column>
       <column name="definition_de">nicht-humanoides Wesen</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">varelse (icke-humanoid)</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -2826,7 +2856,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="definition">credit (monetary unit)</column>
       <column name="definition_de">Credit (Währungseinheit)</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">kredit (valutaenhet)</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -2861,9 +2891,9 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="definition">yaw (aircraft nose points left or right)</column>
       <column name="definition_de">aer. (um die Hochachse) gieren, scheren</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">vara girande, vara svängande (flygmaskin rör nosen till höger eller vänster)</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK">平擺</column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Dav:v}, {jer:v}, {jIm:v}, {lol:v:2}, {ron:v}, {tor:v:2}, {'or:v}</column>
@@ -2930,10 +2960,10 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="part_of_speech">n:1,body</column>
       <column name="definition">arm (body part)</column>
       <column name="definition_de">Arm (Körperteil)</column>
-      <column name="definition_fa">دست، بازو</column>
+      <column name="definition_fa"></column>
       <column name="definition_sv">arm</column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK">手臂</column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghop:n}, {ghIv:n}, {volchaH:n}, {DeSqIv:n}, {to'waQ:n}, {yeb:n}, {ghIt:n:1}, {DeS:n:2}</column>
@@ -2966,7 +2996,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="definition">ax handle</column>
       <column name="definition_de">Axtgriff</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">skaft, yxskaft</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -3285,7 +3315,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="definition">CD, data disc</column>
       <column name="definition_de">CD, Datenträger</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">CD-skiva</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -3495,10 +3525,10 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="part_of_speech">n:name,deriv</column>
       <column name="definition">De'vID</column>
       <column name="definition_de">De'vID</column>
-      <column name="definition_fa">De'vID</column>
-      <column name="definition_sv">De'vID</column>
-      <column name="definition_ru">De'vID</column>
-      <column name="definition_zh_HK">De'vID</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{boQwI':n:deriv}</column>
@@ -3531,10 +3561,10 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="part_of_speech">n</column>
       <column name="definition">computer</column>
       <column name="definition_de">Computer</column>
-      <column name="definition_fa">کامپیوتر</column>
-      <column name="definition_sv">dator</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK">電腦</column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghun:v:1}, {qawHaq:n}, {De':n}</column>
@@ -3566,10 +3596,10 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="part_of_speech">n:alt</column>
       <column name="definition">{loHjan:n}</column>
       <column name="definition_de">{loHjan:n}</column>
-      <column name="definition_fa">{loHjan:n}</column>
-      <column name="definition_sv">{loHjan:n}</column>
-      <column name="definition_ru">{loHjan:n}</column>
-      <column name="definition_zh_HK">{loHjan:n}</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -3601,10 +3631,10 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="part_of_speech">n:alt</column>
       <column name="definition">{nItlh 'echlet:n}</column>
       <column name="definition_de">{nItlh 'echlet:n}</column>
-      <column name="definition_fa">{nItlh 'echlet:n}</column>
-      <column name="definition_sv">{nItlh 'echlet:n}</column>
-      <column name="definition_ru">{nItlh 'echlet:n}</column>
-      <column name="definition_zh_HK">{nItlh 'echlet:n}</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -3741,10 +3771,10 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="part_of_speech">n:alt</column>
       <column name="definition">{De'wI'Hom:n}</column>
       <column name="definition_de">{De'wI'Hom:n}</column>
-      <column name="definition_fa">{De'wI'Hom:n}</column>
-      <column name="definition_sv">{De'wI'Hom:n}</column>
-      <column name="definition_ru">{De'wI'Hom:n}</column>
-      <column name="definition_zh_HK">{De'wI'Hom:n}</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -3811,10 +3841,10 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="part_of_speech">n:alt</column>
       <column name="definition">{'echlet Hab:n}</column>
       <column name="definition_de">{'echlet Hab:n}</column>
-      <column name="definition_fa">{'echlet Hab:n}</column>
-      <column name="definition_sv">{'echlet Hab:n}</column>
-      <column name="definition_ru">{'echlet Hab:n}</column>
-      <column name="definition_zh_HK">{'echlet Hab:n}</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -3882,7 +3912,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="definition">litter, rubble, debris</column>
       <column name="definition_de">Abfälle, Schutt, Trümmer</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">skräp, avfall, spillror, grus, sopor</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -3953,7 +3983,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="definition">right, privilege</column>
       <column name="definition_de">Recht, Privileg</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">rätt, privilegium, rättighet</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -4097,7 +4127,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="definition">type of plant, digna</column>
       <column name="definition_de">Digna (Pflanze)</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">en slags planta</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -4382,7 +4412,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="definition">trillium (a traded commodity)</column>
       <column name="definition_de">Trillium</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">trillium</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -4417,7 +4447,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="definition">open entryway (to corridor, tunnel, conduit, Jeffries tube, branch of sewer)</column>
       <column name="definition_de">offener Durchgang (zu Korridor, Tunnel, Rohrleitung, Jeffriesröhre, Kanalisation usw.</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">ingång, öppning (till en tunnel, rör etc., utan dörr)</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -4589,10 +4619,10 @@ Noun Type 5: Syntactic markers
       <column name="part_of_speech">n:alt</column>
       <column name="definition">{DIr paH bID:n}</column>
       <column name="definition_de">{DIr paH bID:n}</column>
-      <column name="definition_fa">{DIr paH bID:n}</column>
-      <column name="definition_sv">{DIr paH bID:n}</column>
-      <column name="definition_ru">{DIr paH bID:n}</column>
-      <column name="definition_zh_HK">{DIr paH bID:n}</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -4660,7 +4690,7 @@ Noun Type 5: Syntactic markers
       <column name="definition">suntan lotion</column>
       <column name="definition_de">Sonnencreme</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">sololja</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -4766,7 +4796,7 @@ Noun Type 5: Syntactic markers
       <column name="definition">skin drum</column>
       <column name="definition_de">Schlaginstrument, Trommel</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">trumma (slaginstrument med ett sträckt djurskinn)</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -4919,7 +4949,7 @@ Noun Type 5: Syntactic markers
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">To "cave" (see {DIS:n:1}) is to give in to something under pressure. To "dish (out)" is slang for giving away information.</column>
+      <column name="hidden_notes">To "dish (out)" is slang for giving away information.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -5049,7 +5079,7 @@ Noun Type 5: Syntactic markers
       <column name="definition_fa"></column>
       <column name="definition_sv">federation, organisation, förening, sammanslutning, förbund,</column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK">聯邦、聯合會、聯盟</column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms">{Qa':n:2,hyp}</column>
       <column name="antonyms"></column>
       <column name="see_also">{yuQjIjDIvI':n}, {boq:n:1}, {ghom:n}, {qev:n}, {tlhach:n}</column>
@@ -5256,6 +5286,8 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- Checked on: 2018.01.12. -->
+      <column name="_id">10570</column>
       <column name="entry_name">DI'on</column>
       <column name="part_of_speech">n</column>
       <column name="definition">characteristic, trait</column>
@@ -5368,7 +5400,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">velocity</column>
       <column name="definition_de">Geschwindigkeit</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">hastighet, fart</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -5438,7 +5470,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">fast-food restaurant</column>
       <column name="definition_de">Fast-Food Restaurant, wörtl. Geschwindigkeit-Restaurant</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">hastighetsrestaurang, snabbmatsservering, Dok'e</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -5614,7 +5646,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition_de">Dies ist ein ... .</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru">Это ... .</column>
+      <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5790,7 +5822,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">be foolish, silly</column>
       <column name="definition_de">albern</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">vara fånig, vara löjlig</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -6184,7 +6216,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">side</column>
       <column name="definition_de">Seite</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">sida</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -6292,7 +6324,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">be orange, red</column>
       <column name="definition_de">orange, rot</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">vara orange, vara röd</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -6397,7 +6429,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">be brown</column>
       <column name="definition_de">braun</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">vara brun</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -6585,7 +6617,7 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="definition">end (of a period of time)</column>
       <column name="definition_de">enden, zu ende gehen</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">ta slut (om tidsperiod, t.ex. månad, år)</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -6696,10 +6728,10 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="part_of_speech">sen:alt</column>
       <column name="definition">{cha' DoSmey DIqIp.:sen}</column>
       <column name="definition_de">{cha' DoSmey DIqIp.:sen}</column>
-      <column name="definition_fa">{cha' DoSmey DIqIp.:sen}</column>
-      <column name="definition_sv">{cha' DoSmey DIqIp.:sen}</column>
-      <column name="definition_ru">{cha' DoSmey DIqIp.:sen}</column>
-      <column name="definition_zh_HK">{cha' DoSmey DIqIp.:sen}</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -6731,10 +6763,10 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="part_of_speech">sen:alt</column>
       <column name="definition">{wa' DoS wIqIp.:sen}</column>
       <column name="definition_de">{wa' DoS wIqIp.:sen}</column>
-      <column name="definition_fa">{wa' DoS wIqIp.:sen}</column>
-      <column name="definition_sv">{wa' DoS wIqIp.:sen}</column>
-      <column name="definition_ru">{wa' DoS wIqIp.:sen}</column>
-      <column name="definition_zh_HK">{wa' DoS wIqIp.:sen}</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -6866,15 +6898,20 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+<<<<<<< HEAD
       <column name="_id"></column>
+=======
+      <!-- Checked on: 2012.11.29. -->
+      <column name="_id">10615</column>
+>>>>>>> finished AT10450
       <column name="entry_name">DoyIchlan</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Germany</column>
       <column name="definition_de">Deutschland</column>
-      <column name="definition_fa">آلمان</column>
+      <column name="definition_fa"></column>
       <column name="definition_sv">Tyskland</column>
-      <column name="definition_ru">Германия</column>
-      <column name="definition_zh_HK">德國</column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -7012,7 +7049,7 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="definition">be fortunate, lucky</column>
       <column name="definition_de">Glück haben</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">vara tursam, vara lyckosam, ha tur, ha lycka</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -7118,7 +7155,7 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="definition">be unfortunate</column>
       <column name="definition_de">unglücklich</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">vara otursam, vara olycksdrabbad, ha otur</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -7217,7 +7254,7 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-      <column name="_id"></column>
+<<    <column name="_id"></column>
       <column name="entry_name">Do'ol</column>
       <column name="part_of_speech">n</column>
       <column name="definition">sand</column>
@@ -7323,7 +7360,7 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">Du-</column>
+==    <column name="entry_name">Du-</column>
       <column name="part_of_speech">v:pref</column>
       <column name="definition">he/she/it-you</column>
       <column name="definition_de">er/sie/es-dich</column>
@@ -7357,8 +7394,8 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">Dub</column>
+<<    <column name="_id"></column>
+==    <column name="entry_name">Dub</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">back (of body)</column>
       <column name="definition_de">Rücken (Körperteil)</column>
@@ -7505,7 +7542,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
       <column name="definition">stirring stick</column>
       <column name="definition_de">Rührstab</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">blandningskäpp, omrörningspinne, käpp/pinne för omrörning</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -7680,7 +7717,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
       <column name="part_of_speech">n:1</column>
       <column name="definition">ship, vessel</column>
       <column name="definition_de">Schiff, Raumschiff</column>
-      <column name="definition_fa">船輛、車輛</column>
+      <column name="definition_fa"></column>
       <column name="definition_sv">skepp, farkost</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
@@ -7707,7 +7744,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags">vehicle, craft, boat, barge, spaceship</column>
+      <column name="search_tags">vehicle, craft, boat, barge</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -7722,7 +7759,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="definition">instinct, instincts</column>
       <column name="definition_de">Instinkte</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">instinkter</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -8080,7 +8117,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="definition">be wonderful, great</column>
       <column name="definition_de">wunderbar, großartig, bewundernswert</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">vara underbar, vara storslagen</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -8328,7 +8365,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="definition">touch (emotionally)</column>
       <column name="definition_de">emotionell berühren</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">göra (någon) rörd</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
@@ -8470,7 +8507,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="definition">Durani lizard skins</column>
       <column name="definition_de">Durani Echsenhäute</column>
       <column name="definition_fa"></column>
-      <column name="definition_sv">Duraniska ödleskinn (en slags mat, tar aldrig pluralsuffix)</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
