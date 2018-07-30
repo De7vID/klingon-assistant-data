@@ -257,12 +257,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-<<<<<<< HEAD
       <column name="_id"></column>
-=======
-      <!-- Checked on: 2012.11.26. -->
-      <column name="_id">10434</column>
->>>>>>> finished AT10450
       <column name="entry_name">Dach</column>
       <column name="part_of_speech">v:2,i,slang</column>
       <column name="definition">be not attentive, be distracted, lack focus</column>
@@ -509,11 +504,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="source">[1] {Star Trek VI:src}</column>
     </table>
     <table name="mem">
-<<<<<<< HEAD
       <column name="_id"></column>
-=======
-      <column name="_id">10441</column>
->>>>>>> finished AT10450
       <column name="entry_name">DaH yIDIl!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Pay now!</column>
@@ -604,11 +595,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="source">[1] {TKDA:src}, [2] {msn 1997.06.29:src}</column>
     </table>
     <table name="mem">
-<<<<<<< HEAD
       <column name="_id"></column>
-=======
-      <column name="_id">10443</column>
->>>>>>> finished AT10450
       <column name="entry_name">DaHjaj ram</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">tonight</column>
@@ -6919,12 +6906,7 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-<<<<<<< HEAD
       <column name="_id"></column>
-=======
-      <!-- Checked on: 2012.11.29. -->
-      <column name="_id">10615</column>
->>>>>>> finished AT10450
       <column name="entry_name">DoyIchlan</column>
       <column name="part_of_speech">n:place</column>
       <column name="definition">Germany</column>
@@ -7275,7 +7257,7 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="source">[1] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
-<<    <column name="_id"></column>
+      <column name="_id"></column>
       <column name="entry_name">Do'ol</column>
       <column name="part_of_speech">n</column>
       <column name="definition">sand</column>
@@ -7381,13 +7363,13 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
     </table>
     <table name="mem">
       <column name="_id"></column>
-==    <column name="entry_name">Du-</column>
+      <column name="entry_name">Du-</column>
       <column name="part_of_speech">v:pref</column>
       <column name="definition">he/she/it-you</column>
       <column name="definition_de">er/sie/es-dich</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">han/hon/det-dig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">он/она/это(действие)-тебе, он/она/это(действие)-вам(единственное число)</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms">{Da-:v:pref}</column>
@@ -7415,14 +7397,14 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-<<    <column name="_id"></column>
-==    <column name="entry_name">Dub</column>
+      <column name="_id"></column>
+      <column name="entry_name">Dub</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">back (of body)</column>
       <column name="definition_de">Rücken (Körperteil)</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">rygg</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">спина</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7457,7 +7439,7 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="definition_de">verbessern</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">förbättra</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">улучшать</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms">{Sab:v}, {'argh:v}</column>
@@ -7468,7 +7450,9 @@ This verb is used for improvement of a more abstract nature, such as in status, 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Объектом является вещь, которую улучшили.
+
+Этот глагол использован для улучшения более абстрактных вещей, таких как статус, опыт, понимание и т.д.. Для улучшения  в более конкретном смысле, смотрите {rach:v}.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -7494,7 +7478,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
       <column name="definition_de">Wenn dir etwas im Wege steht, schlag es nieder.</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Если он на твоем пути, сбей его</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7529,7 +7513,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
       <column name="definition_de">mischen, rühren</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">blanda</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">мешать(компоненты друг с другом), перемешивать, смешивать</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7564,7 +7548,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
       <column name="definition_de">Rührstab</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">палка для перемешивания</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7599,7 +7583,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
       <column name="definition_de">aufmerksam sein</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">vara vaksam, vara försiktig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть бдительным</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7634,7 +7618,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
       <column name="definition_de">möglich</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">vara möjlig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Быть возможным</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms">{qIt:v}</column>
       <column name="antonyms"></column>
@@ -7652,7 +7636,8 @@ This verb is used for improvement of a more abstract nature, such as in status, 
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {yIntaHvIS qIrq DuHbe' roj.:sen:nolink} "Не будет мира, пока жив Кирк."</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -7670,7 +7655,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
       <column name="definition_de">Möglichkeit, Option</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">möjlighet</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">возможность, опция</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7679,7 +7664,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это может быть использовано в качестве "настройки" в {SeHlaw:n}.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -7740,7 +7725,7 @@ This verb is used for improvement of a more abstract nature, such as in status, 
       <column name="definition_de">Schiff, Raumschiff</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">skepp, farkost</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">корабль, судно</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7755,7 +7740,11 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Слово может относиться к любому транспортному средству, необязательно к космическим кораблям, определением среды, в котором судно будет перемещаться. Смотрите {puH Duj:n}, {muD Duj:n}, {bIQ Duj:n}.
+
+Для глаголов, относящихся к движению корабля, смотрите {'or:v}.
+
+Известные классы Клингонских кораблей включают {neghvar:n}, {vorcha':n}, {qItI'nga':n}, {qISa'ruj:n}, и {toQDuj:n}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -7781,7 +7770,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="definition_de">Instinkte</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">инстинкт, инстинкты</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7790,7 +7779,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Грамматически корректно рассматривать это слово в единственном числе(набор инстинктов) или во множественном (индивидуальные инстинкты)</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <!-- Even though this word is an inherent plural/singular form of
@@ -7856,7 +7845,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="definition_de">Vertraue immer deinen Instinkten.</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Всегда доверяй своим инстинктам.</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7891,7 +7880,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="definition_de">Es ist die Hoffnung jedes Klingon zu sterben während er sein Schiff verteidigt.</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Умереть, защищая его корабль, надежда каждого Клингона.</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7926,7 +7915,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="definition_de">Er verweilt im Shuttle.</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Он на шаттле</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7961,7 +7950,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="definition_de">Es ist nicht schmachvoll vor einem überlegenen Feind zu verlieren.</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Нет ничего постыдного, чтобы пасть перед превосходящим врагом</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7996,7 +7985,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="definition_de">Vertraue deinen Instinkten.</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Доверяй своим инстинктам.</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8031,7 +8020,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="definition_de">hat viele Schiffe gesteuert</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">управлял многими кораблями</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8040,7 +8029,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это выражение означает "быть опытным"</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{Duj:n:1}, {-mey:n}, {law':v}, {chIj:v}, {-pu':v}</column>
@@ -8055,7 +8044,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">быть опытным</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {KGT p.115:src}</column>
     </table>
@@ -8067,7 +8056,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="definition_de">Stern (geometrische Form)</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Звездна(геометрическая фигура)</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8076,7 +8065,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это относится к геометрической фигуре, а не к астрономическому телу, для которого смотрите {Hov:n}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This seems to be made up of the words {Duj:n:1} and {tlhuQ:n}.
 
@@ -8104,7 +8093,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="definition_de">Nickerchen machen</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">ta (sig) en tupplur</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">вздремнуть</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8139,7 +8128,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="definition_de">wunderbar, großartig, bewundernswert</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть чудесным, быть великим</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8176,7 +8165,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="definition_de">Bereich über, oberhalb</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">område ovanför, område över</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">территория над, территория вверху</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms">{bIng:n}</column>
@@ -8185,7 +8174,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Смотрите {'aqroS:n:1} и {yor:n} для верхних частей объекта. Смотрите также {lurgh:n} для других слов, имеющих отношение к направлениям в пространстве.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -8211,7 +8200,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="definition_de">Mittag, Mittagszeit</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">middagstid, mitt på dagen</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">полдень</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms">{ramjep:n:1}</column>
@@ -8246,7 +8235,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="definition_de">Strategie</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">strategi</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Стратегия</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8316,7 +8305,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="definition_de">schockiert, erstaunt</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть оглушенным, быть остолбеневшим</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8325,7 +8314,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="notes_de">Dies ist im sinne von erstaunt, umgeworfen, schockiert. Es ist stärker als {yay':v}</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это употребляется в смысле изумленный, ошеломленный, шокированый. Это сильнее, чем {yay':v}</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">To be "bowled over" (see {Duq:n}).</column>
       <column name="components"></column>
@@ -8351,7 +8340,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="definition_de">stechen, mit spitzen Gegenstand treffen</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">hugga, sticka ned, genomborra</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">колоть, наносить удар холодным оружием</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8494,7 +8483,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="definition_de">Durani Echse</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Ящерица Дюрани</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8529,7 +8518,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="definition_de">Durani Echsenhäute</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Шкуры ящериц Дюрани</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8538,7 +8527,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Этот предмет употребляется в пищу. Он никогда не используется ни с какими суффиксами множественного числа</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <!-- Note that since this is "inhpl" with no singular form, we have to leave this blank. -->
@@ -8565,7 +8554,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="definition_de">Duras</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">Duras</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Дюрас</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8574,7 +8563,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Брат Лурсы и БэТор</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -8600,7 +8589,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="definition_de">Torpedorohr</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">torpedtub</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Торпедная труба</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8611,7 +8600,10 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Используется для запуска торпеды {peng:n}.
+
+Различие между {DuS:n:nolink} и {chetvI':n:1} прийдется сделать по мере загруженности проэкта.[2]
+      </column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -8637,7 +8629,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="definition_de">Schule</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">skola</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Школа</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8646,7 +8638,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это наиболее общее слово для места обучения.[1]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">It's probably just a coincidence that this word looks like it's formed from {Du-:v} and {SaQ:v}.</column>
       <column name="components"></column>
@@ -8708,7 +8700,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="definition_de">vordringen, voranschreiten</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">avancera, gå framåt</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">продвигаться, делать успехи</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8743,7 +8735,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="definition_de">Botschafter, Vertreter</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">agent, emmisarie, sändebud</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Агент, эмиссар</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8752,7 +8744,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Не путать с {Duy':n}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -8778,7 +8770,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="definition_de">defekt, unvollständig, nicht perfekt</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">vara defekt, vara trasig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть дефектным</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8813,7 +8805,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="definition_de">Defekt</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">defekt, fel</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Дефект</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8822,7 +8814,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Не путать с {Duy:n}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -8848,7 +8840,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="definition_de">Abgesandter</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">ambassadör</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Посол</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8883,7 +8875,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="definition_de">Bauernhof</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">gård, bondgård</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Ферма</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8918,7 +8910,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="definition_de">Garten</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Сад</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8953,7 +8945,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="definition_de">Produkt (landwirtsch. Erzeugnis)</column>
       <column name="definition_fa"></column>
       <column name="definition_sv">jordbruksprodukter, jordbruksvaror</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">производить(сельское хозяйство)</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8962,7 +8954,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это относится к фруктам или овощам, что приходят с фермы, как противоположность к {naH tlhab:n}.[1, стр.89]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{Du':n}, {naH:n}</column>
@@ -8988,7 +8980,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="definition_de">Dieser Helm steht dir.</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Этот шлем подходит тебе</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
