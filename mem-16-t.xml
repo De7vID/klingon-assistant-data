@@ -4411,41 +4411,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">tIb</column>
-      <column name="part_of_speech">v:alt</column>
-      <column name="definition">{bIt:v}</column>
-      <column name="definition_de">{bIt:v}</column>
-      <column name="definition_fa">{bIt:v}</column>
-      <column name="definition_sv">{bIt:v}</column>
-      <column name="definition_ru">{bIt:v}</column>
-      <column name="definition_zh_HK">{bIt:v}</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This word appears on {KGT p.132:src}, but based on the context it is clearly a typo for {bIt:v}.</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KGT p.132:src}</column>
-    </table>
+    <!-- Note: {tIb:v} is in the "extra" section, since it's a typo. -->
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tIch</column>
