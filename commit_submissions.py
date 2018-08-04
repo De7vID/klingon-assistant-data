@@ -51,7 +51,7 @@ for filename in filenames:
           line = re.sub(r">(.*)<", ">%s<" % language_match[-1].definition_translation, line)
 
           # Mark submission as used by removing it.
-          submissions = [s for s in submissions if s not in language_match]
+          submissions = [s for s in submissions if s != language_match[-1]]
 
       print(line, end='')
 
