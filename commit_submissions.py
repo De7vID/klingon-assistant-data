@@ -28,7 +28,8 @@ for filename in filenames:
   with fileinput.FileInput(filename, inplace=True) as file:
     matches = []
     for line in file:
-      entry_name_match = re.search(r"entry_name\">(.+)<", line)
+      # Note that Google Sheets swallows any initial apostrophe, so take that into account.
+      entry_name_match = re.search(r"entry_name\">'?(.+)<", line)
       part_of_speech_match = re.search(r"part_of_speech\">(.+)<", line)
       definition_translation_match = re.search(r"definition_(.+)\">(.*)<", line)
 
@@ -50,7 +51,7 @@ for filename in filenames:
           line = re.sub(r">(.*)<", ">%s<" % language_match[-1].definition_translation, line)
 
           # Mark submission as used by removing it.
-          submissions = [s for s in submissions if s not in language_match]
+          submissions = [s for s in submissions if s != language_match[-1]]
 
       print(line, end='')
 
