@@ -28,7 +28,8 @@ for filename in filenames:
   with fileinput.FileInput(filename, inplace=True) as file:
     matches = []
     for line in file:
-      entry_name_match = re.search(r"entry_name\">(.+)<", line)
+      # Note that Google Sheets swallows any initial apostrophe, so take that into account.
+      entry_name_match = re.search(r"entry_name\">'?(.+)<", line)
       part_of_speech_match = re.search(r"part_of_speech\">(.+)<", line)
       definition_translation_match = re.search(r"definition_(.+)\">(.*)<", line)
 
