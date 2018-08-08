@@ -1479,7 +1479,7 @@ The following example shows that the verb of quality can take a suffix:
       <column name="definition_zh_HK">看到 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{ghan:v:2}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1994,7 +1994,7 @@ This word can be used to refer to traveling with or without a special purpose. I
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{leng:n}, {Dotlh:n}, {SeH:v}, {-wI':v}, {pat:n}</column>
+      <column name="components">{leng:n}, {Dotlh:n}, {SeHwI' pat:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -2161,7 +2161,7 @@ This word can be used to refer to traveling with or without a special purpose. I
       <column name="definition_zh_HK">細菌</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{rop:n}, {ngej:v}, {HanDI':n}, {javtIm:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -4611,7 +4611,7 @@ The text of {SkyBox 99:src} reads:
       <column name="definition_zh_HK">胸部</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{porgh:n}, {ro:n}</column>
+      <column name="see_also">{porgh:n}, {ro:n}, {chor:n:1}</column>
       <column name="notes">This refers to the upper front of the torso.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5462,7 +5462,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="definition_zh_HK">堂兄（{'IrneH:n}的孩子或{'e'mam:n}） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{vIn:n}, {tey':n:0}, {lor:n:2}</column>
+      <column name="see_also">{tey':n:0}, {vIn:n}, {yur:n}, {lor:n:2}</column>
       <column name="notes">This word refers to one's mother's brother's child or one's father's sister's child (i.e., "cross-cousins").</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5497,7 +5497,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="definition_zh_HK">侄子侄女 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lor:n:1}</column>
+      <column name="see_also">{lor:n:1}, {tey':n:2}</column>
       <column name="notes">For a man, this word refers to a child of his sister. For a woman, this word refers to a child of her brother.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7268,7 +7268,7 @@ This prefix is sometimes dropped for unknown reasons. While an error, this is of
       <column name="see_also">{Dop:n}</column>
       <column name="notes">The Klingon compass has three points, rather than four: {chan:n} (east), {'ev:n} (northwest), and {tIng:n} (southwest).
 
-The areas around an object are its {Dung:n} (area above), {bIng:n} (area below), {retlh:n} (area beside), {tlhop:n:1} (front), and {'em:n} (behind). Something in an object's {retlh:n:nolink} can be on its {poS:n} (left) or its {nIH:n} (right). The area between two objects are their {joj:n} (area between).
+The areas around an object are its {Dung:n} (area above), {bIng:n} (area below), {retlh:n} (area beside), {tlhop:n:1} (front), and {'em:n} (behind). Something in an object's {retlh:n:nolink} can be on its {poS:n} (left) or its {nIH:n} (right). The area between two objects are their {joj:n} (area between). The area beyond an object is its {Hay:n:2h}.
 
 In standard Klingon, locative nouns follow pronouns, e.g., {jIH tlhop:n:nolink} "in front of me". But in the dialect of the Sakrej region ({Sa'Qej Sep:n}), locative nouns take pronominal possessive suffixes, e.g., {tlhopwIj:n:nolink} "my area in front".[2]  However, the directional nouns are an exception to this rule, and take possessive suffixes in every known dialect, e.g., {chanwIj:n:nolink} "east of me, to my east". If the full pronoun is used with a directional noun, the pronoun is emphasized, e.g., {jIH chan:n:nolink} "east of ME, to MY east".[4]
 
@@ -7339,7 +7339,7 @@ The points in between the three cardinal directions are {tIng chan:n:nolink}, {'
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">luS</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">be submerged in, immersed in, surrounded by</column>
       <column name="definition_de">von etwas umgeben</column>
       <column name="definition_fa">غرق در، غوطه ور در، احاطه شده توسط [AUTOTRANSLATED]</column>
