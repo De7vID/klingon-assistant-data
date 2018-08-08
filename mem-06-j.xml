@@ -785,10 +785,10 @@ For "days ago" and "days from now", see {Hu':n} and {leS:n}, respectively.</colu
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">today</column>
       <column name="definition_de">heute</column>
-      <column name="definition_fa">امروز [AUTOTRANSLATED]</column>
+      <column name="definition_fa">امروز</column>
       <column name="definition_sv">idag</column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK">今天 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">本日、今日</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1195,7 +1195,7 @@ In Klingon, titles generally go after the name, so "Captain Jean-Luc Picard" wou
       <column name="part_of_speech">v:is</column>
       <column name="definition">be deep</column>
       <column name="definition_de">tief</column>
-      <column name="definition_fa">عمیق باش [AUTOTRANSLATED]</column>
+      <column name="definition_fa">عمیق بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara djup</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK">要深 [AUTOTRANSLATED]</column>
@@ -1744,7 +1744,7 @@ In the {msn:src} newsgroup message, it says only that the verb prefix indicating
       <column name="definition_zh_HK">病毒 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{lerup:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -4139,7 +4139,7 @@ To express a wish for something to happen, see {-jaj:v}.</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be ignorant</column>
       <column name="definition_de">unwissend</column>
-      <column name="definition_fa">نادان باش [AUTOTRANSLATED]</column>
+      <column name="definition_fa">نادان بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara okunnig, vara obildad</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK">無知 [AUTOTRANSLATED]</column>
@@ -4499,7 +4499,7 @@ The first half of the example sentence was a lip-match for {ghaH vISammeH}.</col
       <column name="definition_zh_HK">哈腰 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tor:v:1}, {'eS:v}</column>
+      <column name="see_also">{tor:v:1}, {'ung:v}, {'eS:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -4607,7 +4607,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="definition_zh_HK">之間的區域 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{botlh:n}, {qoD:n}, {bIng:n}, {Dung:n}, {retlh:n}, {tlhop:n:1}, {'em:n}</column>
+      <column name="see_also">{botlh:n}, {qoD:n}, {bIng:n}, {Dung:n}, {retlh:n}, {tlhop:n:1}, {'em:n}, {Hay:n:2h}</column>
       <column name="notes">For the area within an object, see {qoD:n} or {botlh:n}. See also {lurgh:n} for other words related to spatial directions.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5851,7 +5851,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="part_of_speech">v:1,is</column>
       <column name="definition">be calm</column>
       <column name="definition_de">ruhig</column>
-      <column name="definition_fa">آرام باش [AUTOTRANSLATED]</column>
+      <column name="definition_fa">آرام بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara lugn</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK">淡定 [AUTOTRANSLATED]</column>
@@ -5921,7 +5921,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="part_of_speech">v:is,deriv</column>
       <column name="definition">be uneasy</column>
       <column name="definition_de">unruhig</column>
-      <column name="definition_fa">ناراحت نباش [AUTOTRANSLATED]</column>
+      <column name="definition_fa">ناراحت نبودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara rastlös</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK">不安 [AUTOTRANSLATED]</column>
@@ -6357,7 +6357,7 @@ If {-Daq:n} is used, it implies a miss: air was blown towards the object, but by
       <column name="definition_zh_HK">家庭世界 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{Qo'noS:n}, {tera':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -6373,7 +6373,7 @@ If {-Daq:n} is used, it implies a miss: air was blown towards the object, but by
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">homeworld</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>

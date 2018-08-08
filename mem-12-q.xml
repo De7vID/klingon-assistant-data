@@ -74,7 +74,7 @@
       <column name="part_of_speech">v:is</column>
       <column name="definition">be bad</column>
       <column name="definition_de">böse, schlecht</column>
-      <column name="definition_fa">بد باش [AUTOTRANSLATED]</column>
+      <column name="definition_fa">بد بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara dålig</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK">壞 [AUTOTRANSLATED]</column>
@@ -186,7 +186,7 @@
       <column name="definition_zh_HK">房屋、樓</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{HuDyar:n}, {chalqach:n}, {jem'IH:n}, {DuHmor:n}</column>
+      <column name="see_also">{HuDyar:n}, {chalqach:n}, {jem'IH:n}, {DuHmor:n}, {qappam:n}</column>
       <column name="notes">The {yor:n} of a {qach:n} is its {beb:n}, and its {Hur:n}-facing walls are called {reD:n:1}. The other side of the {beb:n} (that is, the {'aqroS:n:1} of a {qach:n}) is called the {pa' beb:n}; the {qoD:n} face of a {reD:n:1} is referred to as {pa' reD:n}.
 
 For the {qoD:n} parts of a {qach:n}, see {pa':n:1}.</column>
@@ -1227,7 +1227,7 @@ This word is applied to people and animals.[2]</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{qan:v:1}, {-choH:v}, {-pa':v}, {qoH:n}, {Hegh:v}, {qoH:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -1537,7 +1537,7 @@ This word is applied to people and animals.[2]</column>
       <column name="definition_zh_HK">基礎（結構） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{qach:n}, {Qutlh:v}</column>
       <column name="notes">This refers to the supporting understructure of a building.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1636,7 +1636,7 @@ This word is applied to people and animals.[2]</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be accurate</column>
       <column name="definition_de">exakt</column>
-      <column name="definition_fa">دقیق باش [AUTOTRANSLATED]</column>
+      <column name="definition_fa">دقیق بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara riktig, vara exakt, vara korrekt</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK">準確 [AUTOTRANSLATED]</column>
@@ -3219,7 +3219,7 @@ The word itself means "origin of everything" or "start of it all" or the like, a
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{gho:n}, {naQ:n:1}</column>
-      <column name="notes"></column>
+      <column name="notes">The idiom {vIHtaH gho:sen} comes from this activity.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -4564,7 +4564,7 @@ The famous author {Qa'taq:n:name} wrote a commentary on this work.</column>
       <column name="part_of_speech">n:name,fic,deriv</column>
       <column name="definition">Kahless the Unforgettable</column>
       <column name="definition_de">Kahless der Unvergessliche</column>
-      <column name="definition_fa">Kahless فراموش نشدنی [AUTOTRANSLATED]</column>
+      <column name="definition_fa">کاهلِس ازیادنرفتنی</column>
       <column name="definition_sv">Kahless den oförglömliga [AUTOTRANSLATED]</column>
       <column name="definition_ru">Кейлесс Незабываемый</column>
       <column name="definition_zh_HK">令人難忘的凱勒斯</column>
@@ -4589,7 +4589,7 @@ His return is prophesied in the Story of the Promise, which states that:
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">qeylIS lIjlaHbogh pagh</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -5779,7 +5779,7 @@ Note that {qItbe'@@qIt:v, -be':v} means "impossible".</column>
       <column name="definition_zh_HK">膝頭蓋</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tor:v:1}, {'uS:n}, {DeSqIv:n}</column>
+      <column name="see_also">{tor:v:1}, {'eD:v}, {'uS:n}, {DeSqIv:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5996,7 +5996,7 @@ Note that {qItbe'@@qIt:v, -be':v} means "impossible".</column>
       <column name="definition_zh_HK">擠壓（進入一個空間） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ngaH:v}</column>
+      <column name="see_also">{ngaH:v}, {'olQan:n}</column>
       <column name="notes">The object of this verb is the space being squeezed into, such as a small car or crowded elevator, or clothes or shoes that are too small.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -6210,8 +6210,10 @@ Note that {qItbe'@@qIt:v, -be':v} means "impossible".</column>
       <column name="definition_zh_HK">聽不到 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tuQmoH:v}, {Qoy:v}</column>
-      <column name="notes">This expression literally means "take off one's belt". It derives its slang meaning from the homophony between {qogh:n:1} and {qogh:n:2}.</column>
+      <column name="see_also">{tuQmoH:v}, {Qoy:v}, {peghmey vIttlhegh:n}</column>
+      <column name="notes">This expression literally means "take off one's belt". It derives its slang meaning from the homophony between {qogh:n:1} and {qogh:n:2}.
+
+</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6289,7 +6291,7 @@ Note that {qItbe'@@qIt:v, -be':v} means "impossible".</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{qoH:n}, {vuv:v}, {-be':v}, {SuS:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -6707,7 +6709,7 @@ There is another verb, {gher:v}, which is used for compiling lists and the like,
       <column name="definition_zh_HK">逮捕 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{HeS:v}, {HeSwI':n}</column>
+      <column name="see_also">{HeS:v}, {HeSwI':n}, {Hung:n}, {ghan'Iq:n}, {chut:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7976,10 +7978,10 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="part_of_speech">n</column>
       <column name="definition">fire</column>
       <column name="definition_de">Feuer</column>
-      <column name="definition_fa">آتش [AUTOTRANSLATED]</column>
+      <column name="definition_fa">آتش</column>
       <column name="definition_sv">eld</column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK">火 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">火</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tlhIch:n}, {meQ:v}, {qerjIq:n}</column>
@@ -8082,10 +8084,10 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">fire skin (food)</column>
       <column name="definition_de">Feuerhaut (Gericht)</column>
-      <column name="definition_fa">پوست آتش (غذا) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">پوست آتش (غذا)</column>
       <column name="definition_sv">eld hud (mat) [AUTOTRANSLATED]</column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK">火皮（食物） [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">火皮（食物）</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qul DIr yISop!:sen}</column>
@@ -8803,13 +8805,13 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="part_of_speech">v:is</column>
       <column name="definition">be greedy</column>
       <column name="definition_de">gierig</column>
-      <column name="definition_fa">حریص باش [AUTOTRANSLATED]</column>
+      <column name="definition_fa">حریص بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara girig</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK">貪得無厭 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mut:v}, {verengan:n}</column>
+      <column name="see_also">{mut:v}, {var:v}, {verengan:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -9224,7 +9226,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="part_of_speech">v:is</column>
       <column name="definition">be cheap</column>
       <column name="definition_de">günstig, billig</column>
-      <column name="definition_fa">ارزان باش [AUTOTRANSLATED]</column>
+      <column name="definition_fa">ارزان بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara billig</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK">便宜 [AUTOTRANSLATED]</column>
@@ -9383,7 +9385,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{quv:n}, {Hutlh:v}, {HoH:v}, {-bogh:v}, {tlhIngan:n}, {'ach:conj}, {qab:n}, {-Daj:n}, {'ang:v}, {-be':v}, {-bogh:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -9404,7 +9406,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
       <column name="part_of_speech">v:is,deriv</column>
       <column name="definition">be dishonored</column>
       <column name="definition_de">entehrt</column>
-      <column name="definition_fa">نگران نباش [AUTOTRANSLATED]</column>
+      <column name="definition_fa">نگران نبودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara vanärad, vara vanhedrad</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK">被羞辱 [AUTOTRANSLATED]</column>
