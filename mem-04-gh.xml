@@ -41,7 +41,7 @@
       <column name="definition_de">Fleisch vom Rumpf des Tieres</column>
       <column name="definition_fa">گوشت از جنس حیوانات [AUTOTRANSLATED]</column>
       <column name="definition_sv">kött från mittdelen av djur</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">мясо с туловища животного, животное, животное(лёгкое оскорбление)</column>
       <column name="definition_zh_HK">肉從動物的腹部 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -51,7 +51,7 @@
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Данное "мясо" может иметь кости. В некоторых региональных диалектах, слово {ghab:n:nolink} не применяется к мясу, у которого отсутствуют кости. Для этого предпочтительней использовать {ghab tun:n}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">A "gob" of meat.</column>
       <column name="components"></column>
@@ -86,7 +86,7 @@
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">В стандартном диалекте, это может быть выражено, используя фразу {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{ghab:n}, {tun:v}</column>
@@ -100,7 +100,7 @@
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">филе</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
@@ -148,7 +148,7 @@
       <column name="definition_de">gurgeln</column>
       <column name="definition_fa">گول زدن [AUTOTRANSLATED]</column>
       <column name="definition_sv">gurgla</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">полоскать</column>
       <column name="definition_zh_HK">漱口 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -183,7 +183,7 @@
       <column name="definition_de">er, sie (ihn, ihm, ihr, usw.)</column>
       <column name="definition_fa">او</column>
       <column name="definition_sv">han, hon, honom, henne</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">он, она, его, её</column>
       <column name="definition_zh_HK">他、她</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -210,7 +210,22 @@ The imperative verb prefix when {ghaH:n:nolink} is the object is {yI-:v:pref}.</
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Множественное число для этого местоимения будет {chaH:n:pro}.
+Глагольные префиксы, когда {ghaH:n:nolink} предмет:
+▶ {ghaH:n:nolink}:{pagh:n:1h} = {0:v:pref}
+▶ {ghaH:n:nolink}:{jIH:n:1h} = {mu-:v:pref}
+▶ {ghaH:n:nolink}:{maH:n:1h} = {nu-:v:pref}
+▶ {ghaH:n:nolink}:{SoH:n} = {Du-:v:pref}
+▶ {ghaH:n:nolink}:{tlhIH:n} = {lI-:v:pref}
+▶ {ghaH:n:nolink}:{ghaH:n:nolink}/{'oH:n}/{chaH:n}/{bIH:n} = {0:v:pref}
+Глагольные префиксы, когда {ghaH:n:nolink} объект:
+▶ {jIH:n:1h}:{ghaH:n:nolink} = {vI-:v:pref}
+▶ {maH:n:1h}:{ghaH:n:nolink} = {wI-:v:pref}
+▶ {SoH:n}:{ghaH:n:nolink} = {Da-:v:pref}
+▶ {tlhIH:n}:{ghaH:n:nolink} = {bo-:v:pref}
+▶ {ghaH:n:nolink}/{'oH:n}:{ghaH:n:nolink} = {0:v:pref}
+▶ {chaH:n}/{bIH:n}:{ghaH:n:nolink} = {lu-:v:pref}
+Глагольный префикс повелительного наклонения, когда {ghaH:n:nolink} является объектом, {yI-:v:pref}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -236,7 +251,7 @@ The imperative verb prefix when {ghaH:n:nolink} is the object is {yI-:v:pref}.</
       <column name="definition_de">er benimmt sich idiotisch</column>
       <column name="definition_fa">احمق باش، احمق بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">var dumt, var en dåre [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть глупым, быть дураком</column>
       <column name="definition_zh_HK">是愚蠢的，是個傻瓜 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -245,7 +260,7 @@ The imperative verb prefix when {ghaH:n:nolink} is the object is {yI-:v:pref}.</
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Дословно это означает "он/она хочет, чтобы ветер уважал её"</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{ghaH:n}, {vuv:v}, {SuS:n}, {neH:v}</column>
@@ -255,7 +270,9 @@ The imperative verb prefix when {ghaH:n:nolink} is the object is {yI-:v:pref}.</
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {muvuvpu' SuS vIneH.:sen:nolink} "Я действовал, как дурак."
+▶ {bImaw''a'? Duvuv SuS DaneH'a'?:sen:nolink} "Что с тобой такое? Ты идиот?"</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -273,7 +290,7 @@ The imperative verb prefix when {ghaH:n:nolink} is the object is {yI-:v:pref}.</
       <column name="definition_de">haben, besitzen</column>
       <column name="definition_fa">داشتن، داشتن، خودت [AUTOTRANSLATED]</column>
       <column name="definition_sv">ha, äga</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">иметь в собственности, владеть, обладать</column>
       <column name="definition_zh_HK">擁有</column>
       <column name="synonyms"></column>
       <column name="antonyms">{Hutlh:v}</column>
@@ -282,7 +299,7 @@ The imperative verb prefix when {ghaH:n:nolink} is the object is {yI-:v:pref}.</
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это слово может быть использовано как для обозначения владения над объектом (see {yer ghajwI' chaw':n}) как и для владения более абстрактными вещами (see {pIch:n} and {quv:n}).</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -294,7 +311,11 @@ The imperative verb prefix when {ghaH:n:nolink} is the object is {yI-:v:pref}.</
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {pIch vIghajbe'.:sen} "Это не моя вина."[1]
+▶ {Hov ghajbe'bogh ram rur pegh ghajbe'bogh jaj.:sen}[2]
+▶ {quv lughaj 'archer HoD beqDaj je.:sen}[3]
+▶ {Duj ghajchugh pagh, beylI'vo' 'oH Daje' net chaw'.:sen:nolink} "Если (корабль) безхозный, вы можете выкупить его у банка."[4]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags">hold</column>
       <column name="search_tags_de"></column>
@@ -770,7 +791,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">entweder/oder (bei Substantiven)</column>
       <column name="definition_fa">یا، یا / (پیوند اسم ها) [AUTOTRANSLATED]</column>
       <column name="definition_sv">eller, antingen eller</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">или, или/или (объединяющие существительные)</column>
       <column name="definition_zh_HK">或者，或者/或（加入名詞） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -779,7 +800,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это следует за последним существительным.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -840,7 +861,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">beitragen</column>
       <column name="definition_fa">مشارکت [AUTOTRANSLATED]</column>
       <column name="definition_sv">bidra</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">способствовать, делать вклад в какое-то дело</column>
       <column name="definition_zh_HK">有助於 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -849,7 +870,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это слово также используется для обозначения денежной поддержки</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -858,7 +879,9 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {potlhqu' Huch Daghaqbogh:sen:nolink} "деньги, что вы вложили, очень важны"[3]
+      </column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags">support</column>
       <column name="search_tags_de"></column>
@@ -876,7 +899,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">Diplomatie betreiben</column>
       <column name="definition_fa">انجام دیپلماسی [AUTOTRANSLATED]</column>
       <column name="definition_sv">utöva diplomati</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">проводить дипломатию</column>
       <column name="definition_zh_HK">進行外交 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -911,7 +934,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">Diplomatie</column>
       <column name="definition_fa">دیپلماسی [AUTOTRANSLATED]</column>
       <column name="definition_sv">diplomati</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">дипломатия</column>
       <column name="definition_zh_HK">外交 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -946,7 +969,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">Wurm</column>
       <column name="definition_fa">مار، کرم [AUTOTRANSLATED]</column>
       <column name="definition_sv">orm, mask</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">змей, червь</column>
       <column name="definition_zh_HK">蛇，蠕蟲 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -969,7 +992,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">змей, змея</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
@@ -981,7 +1004,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">Knoblauch</column>
       <column name="definition_fa">سیر [AUTOTRANSLATED]</column>
       <column name="definition_sv">vitlök</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">чеснок</column>
       <column name="definition_zh_HK">大蒜 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -990,7 +1013,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это то, что Клингоны называют земным овощем.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -1016,7 +1039,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">Diplomat</column>
       <column name="definition_fa">دیپلمات [AUTOTRANSLATED]</column>
       <column name="definition_sv">diplomat</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">дипломат(профессия)</column>
       <column name="definition_zh_HK">外交官 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1051,7 +1074,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">beherrschen</column>
       <column name="definition_fa">تسلط داشتن [AUTOTRANSLATED]</column>
       <column name="definition_sv">dominera</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">доминировать</column>
       <column name="definition_zh_HK">支配 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1156,7 +1179,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">Gowron</column>
       <column name="definition_fa">گاوون [AUTOTRANSLATED]</column>
       <column name="definition_sv">Gowron</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Гаурон</column>
       <column name="definition_zh_HK">Gowron [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1165,7 +1188,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Имя Клингонского канцлера. Он сыгран актёром {rabe'rIt 'o'raylIy:n:name}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -1191,7 +1214,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">Igvah-Lebersuppe</column>
       <column name="definition_fa">سوپ کبدی اگوا [AUTOTRANSLATED]</column>
       <column name="definition_sv">igvah-leversoppa</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Печеночный суп Игва</column>
       <column name="definition_zh_HK">igvah肝湯 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1261,7 +1284,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">sprühen</column>
       <column name="definition_fa">اسپری، بمبارد، باران [AUTOTRANSLATED]</column>
       <column name="definition_sv">spraya, spruta, bombardera, fälla, regna ner</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">распылять, разбрызгивать, бомбардировать, закидывать, заливать чем-то</column>
       <column name="definition_zh_HK">噴霧，轟擊，下雨 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1280,7 +1303,9 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {bIQ ghaywI' pa':n}
+▶ {jorwI'mey ghaymo' qarDaSnganpu', Hegh SuvwI'pu'lI' law' 'ej rIQ SuvwI'pu'lI' law'.:sen:nolink} "Страдают от крупных потерь после Кардассианской бомбардировки."[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -1298,7 +1323,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">wahrscheinlich</column>
       <column name="definition_fa">احتمال دارد [AUTOTRANSLATED]</column>
       <column name="definition_sv">sannolikt, antagligen, förmodligen</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">вероятно</column>
       <column name="definition_zh_HK">容易 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms">{ghaytanHa':adv}</column>
@@ -1321,7 +1346,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">возможно, возможный</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKDA:src}</column>
     </table>
@@ -1333,7 +1358,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">unwahrscheinlich</column>
       <column name="definition_fa">بعید است [AUTOTRANSLATED]</column>
       <column name="definition_sv">osannolikt</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Ругательство общего характера(Прямого перевода не имеет)</column>
       <column name="definition_zh_HK">不會 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms">{ghaytan:adv}</column>
@@ -1403,7 +1428,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">Grapok-Soße</column>
       <column name="definition_fa">سس گوجه فرنگی [AUTOTRANSLATED]</column>
       <column name="definition_sv">grapoksås</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Соус грапок</column>
       <column name="definition_zh_HK">grapok醬 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1543,7 +1568,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_de">rau, grob, nicht glatt</column>
       <column name="definition_fa">خشن بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara ojämn, vara skrovlig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть грубым, быть жестким</column>
       <column name="definition_zh_HK">粗暴 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms">{Hab:v}</column>
@@ -1615,7 +1640,7 @@ The object of this verb is the question asked.</column>
       <column name="definition_de">Mitternachtshappen</column>
       <column name="definition_fa">میان وعده نیمه شب [AUTOTRANSLATED]</column>
       <column name="definition_sv">nattmat</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Ночная закуска</column>
       <column name="definition_zh_HK">午夜小吃 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2003,7 +2028,7 @@ The object of this verb is the question asked.</column>
       <column name="definition_de">Insekt</column>
       <column name="definition_fa">اشکال، cootie [AUTOTRANSLATED]</column>
       <column name="definition_sv">småkryp, lus, syrsa</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">жук, платяная вошь, насекомое</column>
       <column name="definition_zh_HK">bug，cootie [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2039,7 +2064,7 @@ The object of this verb is the question asked.</column>
       <column name="definition_de">Holt euch keine Bazillen!</column>
       <column name="definition_fa">هر گونه اشکال را نگیرید. [AUTOTRANSLATED]</column>
       <column name="definition_sv">Fånga inga buggar. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Не подцепите никаких насекомых</column>
       <column name="definition_zh_HK">不要抓到任何錯誤。 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2216,7 +2241,7 @@ The object of this verb is the question asked.</column>
       <column name="definition_de">Gre'thor, Unterwelt (wohin die Seelen der Entehrten gehen)</column>
       <column name="definition_fa">Gre'thor، netherworld (جایی که ارواح فریب خورده اند) [AUTOTRANSLATED]</column>
       <column name="definition_sv">Gre'thor (där de vanärades själar hamnar)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Гретор, преисподняя (место, куда уходят души обесчещенных)</column>
       <column name="definition_zh_HK">Gre'thor，地獄世界（被羞辱的精神去哪裡） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2225,7 +2250,7 @@ The object of this verb is the question asked.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Также это может быть написано {ghe''or:n:place,nolink}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">It is written {ghe''or:n:place,nolink} in {TKDA:src} and pronounced that way in {PK:src}, but is consistently written {ghe'tor:n:place,nolink} in later sources.</column>
       <column name="components"></column>
@@ -2237,13 +2262,17 @@ The object of this verb is the question asked.</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {quvHa'; ghe'tor ngan rur}
+▶ {ghe''orDaq luSpet 'oH DaqlIj'e'!:sen}
+▶ {ghe'torvo' narghDI' qa'pu':sen}
+▶ {Hegh Duj DatIj 'ej ghe'torDaq Duqeng.:sen:nolink} "Баржа мёртвых переправит тебя в Гретор!"[3]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags">dishonoured, hell, afterlife</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">обесчещенный, ад, жизнь после смерти</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {KGT:src}, [2] {TKDA:src}, [3] {Klingon Monopoly:src}, [4] {paq'batlh:src}</column>
     </table>
@@ -2255,7 +2284,7 @@ The object of this verb is the question asked.</column>
       <column name="definition_de">wenn Geister aus Gre'thor entfliehen</column>
       <column name="definition_fa">هنگامی که ارواح فرار از Gre'thor [AUTOTRANSLATED]</column>
       <column name="definition_sv">när andar fly från Gre'thor [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Когда души убегут из Гретора</column>
       <column name="definition_zh_HK">當靈魂逃離格雷索時 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2264,7 +2293,7 @@ The object of this verb is the question asked.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это похоже на земное выражение "когда свиньи полетят" или "когда рак на горе свистнет"</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -2273,7 +2302,8 @@ The object of this verb is the question asked.</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {jIjegh ghe'torvo' narghDI' qa'pu'.:sen:nolink} "Я сдамся, когда души сбегут из Гретора!" (т.е, "Я никогда не сдамся.")</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -2362,7 +2392,7 @@ The object of this verb is the question asked.</column>
       <column name="definition_de">zustimmen, einwilligen</column>
       <column name="definition_fa">رضایت [AUTOTRANSLATED]</column>
       <column name="definition_sv">samtycka, gå med på</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">соглашаться, давать согласие</column>
       <column name="definition_zh_HK">同意 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2397,7 +2427,7 @@ The object of this verb is the question asked.</column>
       <column name="definition_de">Nase</column>
       <column name="definition_fa">بینی [AUTOTRANSLATED]</column>
       <column name="definition_sv">näsa</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">нос</column>
       <column name="definition_zh_HK">鼻子 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2408,7 +2438,8 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Есть идиома, {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2, стр.133]
+Есть слово {ley':n}, которое означает рыло.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -2505,7 +2536,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">Halskette, Collier</column>
       <column name="definition_fa">گردنبند [AUTOTRANSLATED]</column>
       <column name="definition_sv">halsband</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">ожерелье</column>
       <column name="definition_zh_HK">項鍊 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2575,7 +2606,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">unordentlich, schlampig, unsauber, nachlässig</column>
       <column name="definition_fa">خجالت بکش [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara slarvig, vara sjabbig, vara rörig, vara kladdig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть грязным, быть неаккуратным</column>
       <column name="definition_zh_HK">凌亂，邋.. [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2646,7 +2677,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">jdn. erschrecken</column>
       <column name="definition_fa">ترساندن [AUTOTRANSLATED]</column>
       <column name="definition_sv">skrämma</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">пугать</column>
       <column name="definition_zh_HK">嚇 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2682,7 +2713,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">Mögen deine Feinde mit Schrecken davonrennen</column>
       <column name="definition_fa">ممکن است دشمنان شما با ترس کار کنند [AUTOTRANSLATED]</column>
       <column name="definition_sv">Må dina fiender springa av rädsla. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Пусть твои враги бегут в ужасе</column>
       <column name="definition_zh_HK">願你的敵人恐懼地奔跑。 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2691,7 +2722,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Предложение является архаичным</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <!-- We don't follow the same order as in the actual sentence because the analysis has to attach {-jaj} to a verb. -->
@@ -2755,7 +2786,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">Achte nicht auf Globfliegen.</column>
       <column name="definition_fa">هیچ توجهی به مگس های کوه نکنید. [AUTOTRANSLATED]</column>
       <column name="definition_sv">Betala ingen hänsyn till globflugor. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Не обращайте внимания на шариковых мух</column>
       <column name="definition_zh_HK">不要理會蒼蠅。 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2791,7 +2822,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">alte polit. Bewegung, Glasnost</column>
       <column name="definition_fa">جنبش سیاسی جنبش، Glasnost [AUTOTRANSLATED]</column>
       <column name="definition_sv">en ålderdomlig politisk rörelse</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">"Гласность"(курс Горбачёва)</column>
       <column name="definition_zh_HK">古老的政治運動，格拉斯諾斯特 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2861,7 +2892,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">ausstoßen, auswerfen</column>
       <column name="definition_fa">تبعید [AUTOTRANSLATED]</column>
       <column name="definition_sv">sända i exil</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">ссылать, изгонять</column>
       <column name="definition_zh_HK">流亡 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2896,7 +2927,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">Auspuff</column>
       <column name="definition_fa">اگزوز [AUTOTRANSLATED]</column>
       <column name="definition_sv">uttömma [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">депортировать, высылать</column>
       <column name="definition_zh_HK">排氣 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3037,7 +3068,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">Gin'tak, Kampfspeer</column>
       <column name="definition_fa">قطار نبرد، Gin'tak [AUTOTRANSLATED]</column>
       <column name="definition_sv">stridsspjut, gin'tak</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Боевое копьё, Джинтак</column>
       <column name="definition_zh_HK">戰鬥矛，Gin'tak [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3073,7 +3104,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">vor Kriegsgericht gestellt werden</column>
       <column name="definition_fa">دادگاه نظامی [AUTOTRANSLATED]</column>
       <column name="definition_sv">ställa inför krigsrätt</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Военный трибунал</column>
       <column name="definition_zh_HK">軍事法庭 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3082,7 +3113,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Обратите внимание, что это глагол, а не существительное</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3178,7 +3209,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">Urlaub machen</column>
       <column name="definition_fa">تعطیلات، تعطیلات را ترک کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">semestra, ta semester</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">отдыхать, брать отпуск</column>
       <column name="definition_zh_HK">假期，去度假 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3213,7 +3244,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">absteigen</column>
       <column name="definition_fa">فرود آمدن [AUTOTRANSLATED]</column>
       <column name="definition_sv">stiga nedför, fara ned, komma ned, slutta nedåt</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">нисходить, снижаться, происходить</column>
       <column name="definition_zh_HK">降落 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms">{Sal:v}</column>
@@ -3237,7 +3268,12 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {SaqSub'e' muSHa'bogh:sen:nolink}
+   {pawmeH leng qeylIS:sen:nolink}
+   {HuDmey Sal ghIq ghIr:sen:nolink}
+  "И Кейлес путешествовал в его любимый Saq'sub через горы "[2, стр.114-115]
+▶ {HuDmeyvo' ghIr chaH:sen:nolink} "Они пришли из-за холмов"[2, p.118-119]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -3255,7 +3291,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">Traube</column>
       <column name="definition_fa">انگور [AUTOTRANSLATED]</column>
       <column name="definition_sv">vindruva</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">виноград</column>
       <column name="definition_zh_HK">葡萄 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3264,7 +3300,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это то, что Клингоны называют земным фруктом</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3290,7 +3326,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">Grilka</column>
       <column name="definition_fa">گریلکا [AUTOTRANSLATED]</column>
       <column name="definition_sv">Grilka</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Грилка(женское имя)</column>
       <column name="definition_zh_HK">Grilka [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3395,7 +3431,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">Grischnar-Katze</column>
       <column name="definition_fa">گرشنار گربه [AUTOTRANSLATED]</column>
       <column name="definition_sv">grishnarkatt</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Гришнарский кот</column>
       <column name="definition_zh_HK">Grishnar貓 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3606,7 +3642,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_de">schreiben, eingravieren, einritzen</column>
       <column name="definition_fa">حکاکی کردن، برش دادن، علامت گذاری (بر)، نوشتن [AUTOTRANSLATED]</column>
       <column name="definition_sv">skriva, gravera, rista in, skära in, märka</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">гравировать, насекать, стаить отметку, расписывать</column>
       <column name="definition_zh_HK">雕刻，切割，標記（上），寫 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3615,7 +3651,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Этот глагол используется, чтобы обозначить нанесение отметок на поверхности. Применяется не просто для "написания", но для любых видов нанесения отметок. Здесь идет речь, чтобы существлять физический процесс письма.  Для создания композиций используйте {qon:v}.[2; 3] Другой глагол, {gher:v}, используется для создания списков и т.п[4]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This is defined in {TKD:src} as "write". In {KGT:src}, it was clarified that this meant "engrave, incise, mark (upon)", that is, the phyiscal act of making marks on a surface.</column>
       <column name="components"></column>
@@ -3624,7 +3660,8 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {ghItlh vIghItlhta'bogh DalaD'a'?:sen:nolink} "Ты прочтешь мою рукопись?"[1, стр.172]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -3819,7 +3856,7 @@ In {TNK:src}, {ghItlhwI':n:nolink} is used for "pen" and {ghojmeH ghItlhwI':n:no
       <column name="definition_de">imp: du-uns, ihr-uns</column>
       <column name="definition_fa">ضروری: شما-ما، شما (جمع) -us [AUTOTRANSLATED]</column>
       <column name="definition_sv">imperativ: du/ni-oss</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">повелительное наклонение:ты(действие)-нам, вы(множественное число)(дейтсвие)-нам, вы(единственное число)-нам</column>
       <column name="definition_zh_HK">（命令）你、你們：我們</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3829,7 +3866,8 @@ In {TNK:src}, {ghItlhwI':n:nolink} is used for "pen" and {ghojmeH ghItlhwI':n:no
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">{SoH:n}:{maH:n:1h} = {gho-:v:pref,nolink} (пов.накл.)
+{tlhIH:n}:{maH:n:1h} = {gho-:v:pref,nolink} (пов.накл.)</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3855,7 +3893,7 @@ In {TNK:src}, {ghItlhwI':n:nolink} is used for "pen" and {ghojmeH ghItlhwI':n:no
       <column name="definition_de">Kreis, Reifen</column>
       <column name="definition_fa">حلقه، حلقه [AUTOTRANSLATED]</column>
       <column name="definition_sv">cirkel, tunnband, rullband</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">круг, обруч</column>
       <column name="definition_zh_HK">圈，箍 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3866,7 +3904,9 @@ There are 243 {lawmey:n:nolink} in a {gho:n:nolink}, or 360 {lawrI'mey:n:nolink}
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Есть идиома, {vIHtaH gho:sen}.
+
+          Есть 243 {lawmey:n:nolink} в {gho:n:nolink}, или 360 {lawrI'mey:n:nolink}. (See {law:n} and {lawrI':n}.)</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3875,7 +3915,8 @@ There are 243 {lawmey:n:nolink} in a {gho:n:nolink}, or 360 {lawrI'mey:n:nolink}
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {meyrI'Daq 'oHtaH gho'e':sen:nolink} "Круг в квадрате."[3]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -3998,7 +4039,7 @@ There are 243 {lawmey:n:nolink} in a {gho:n:nolink}, or 360 {lawrI'mey:n:nolink}
       <column name="definition_de">Ethos, Tugend</column>
       <column name="definition_fa">اخلاق، فضیلت [AUTOTRANSLATED]</column>
       <column name="definition_sv">etik, moral, dygd</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">этика, добродетель</column>
       <column name="definition_zh_HK">道德，美德 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4007,7 +4048,7 @@ There are 243 {lawmey:n:nolink} in a {gho:n:nolink}, or 360 {lawrI'mey:n:nolink}
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Вероятно, что это обозначение словf? что является омофоном для глагола для осуществления битвы или ведения войны</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -4034,7 +4075,7 @@ There are 243 {lawmey:n:nolink} in a {gho:n:nolink}, or 360 {lawrI'mey:n:nolink}
       <column name="definition_de">kämpfen, Krieg führen</column>
       <column name="definition_fa">جنگیدن، نبرد، نبرد، جنگ در راه است [AUTOTRANSLATED]</column>
       <column name="definition_sv">slåss, strida, föra krig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">сражаться, бороться, вести битву, вести войну</column>
       <column name="definition_zh_HK">戰鬥，戰鬥，戰鬥，發動戰爭 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4047,7 +4088,11 @@ In ascending order of ferocity, the verbs used to describe military confrontatio
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Этот глагол относится к конкретному бою. Для концепции ведения войны, смотрите {Qoj:v}.
+
+Возможно, что это указание, что данное слово является омофоном для слов этика или добродетель ({ghob:n}).[2]
+
+Чтобы описать свирепость военных противостояний по нарастающей, глаголы расположены в следующем порядке: {Qor:v}, {tlhaS:v}, {vay:v}, {lul:v}, {Hargh:v}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -4144,7 +4189,7 @@ In ascending order of ferocity, the verbs used to describe military confrontatio
       <column name="definition_de">nein (Antwort auf eine Frage)</column>
       <column name="definition_fa">نه (پاسخ به سوال) [AUTOTRANSLATED]</column>
       <column name="definition_sv">nej (svar på ja/nej fråga)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Нет (ответ на вопрос)</column>
       <column name="definition_zh_HK">不（回答問題） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms">{HIja':excl}, {HISlaH:excl}</column>
@@ -4155,7 +4200,9 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это отрицательный ответ на вопрос да/нет (смотрите {-'a':v}). В отличие от слова "нет", данное восклицание не используется, как автономное восклицание, что обозначает отказ, недоверие, и т.д (для обозначения отказа, недоверия и пр, смотрите {Qo':excl}).
+
+Смотрите, как это говорит Гаурон: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -4181,7 +4228,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Bestimmungsort, Reiseziel</column>
       <column name="definition_fa">مقصد [AUTOTRANSLATED]</column>
       <column name="definition_sv">destination</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Получатель, пункт назначения</column>
       <column name="definition_zh_HK">目的地 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4216,7 +4263,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">verfolgen, aufspüren</column>
       <column name="definition_fa">پیگیری، پیگیری کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">spåra, spåra upp</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">выслеживать, отслеживать</column>
       <column name="definition_zh_HK">跟踪，追踪 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4251,7 +4298,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Sternkonstellation "Aufspürer"</column>
       <column name="definition_fa">صورت فلکی "ردیاب" [AUTOTRANSLATED]</column>
       <column name="definition_sv">Spanaren (en stjärnbild)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Созвездие "Охотник"</column>
       <column name="definition_zh_HK">星座“追踪者” [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4260,7 +4307,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">{qeylIS'e' lIjlaHbe'bogh vay':n:name} предсказывал, что он вернется сюда.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{ghoch:v}, {-wI':v}</column>
@@ -4274,7 +4321,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">Охотник, следопыт</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {KCD:src}</column>
     </table>
@@ -4286,7 +4333,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">stopfen, füllen</column>
       <column name="definition_fa">چیز [AUTOTRANSLATED]</column>
       <column name="definition_sv">proppa (in), packa (full), stoppa (upp)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">начинять, набивать, заполнять</column>
       <column name="definition_zh_HK">東東 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4295,7 +4342,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Используется, чтобы описать, как вещи помещаются внутрь рюкзака или мешка, но с незаканчивающимся свободным местом, которое могло бы {qorgh:v}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -4323,7 +4370,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Stimme</column>
       <column name="definition_fa">صدای [AUTOTRANSLATED]</column>
       <column name="definition_sv">röst</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">голос</column>
       <column name="definition_zh_HK">語音 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4428,7 +4475,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">streiten, diskutieren</column>
       <column name="definition_fa">استدلال کن، اختلاف نظر [AUTOTRANSLATED]</column>
       <column name="definition_sv">argumentera, gräla</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">аргументировать, вести спор</column>
       <column name="definition_zh_HK">辯論，爭執 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4437,7 +4484,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Идиома {jop 'ej way':sen:idiom} выражает похожую мысль.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -4463,7 +4510,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">lernen</column>
       <column name="definition_fa">فرا گرفتن [AUTOTRANSLATED]</column>
       <column name="definition_sv">lära sig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">учиться, обучаться</column>
       <column name="definition_zh_HK">學習</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4498,7 +4545,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Lektion</column>
       <column name="definition_fa">درس [AUTOTRANSLATED]</column>
       <column name="definition_sv">lektion [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Урок</column>
       <column name="definition_zh_HK">課</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4507,7 +4554,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это относится к уроку, наподобие того, что в тетради или в учебнике. Слово нельзя использовать в выражениях, наподобие "Пусть это будет тебе уроком!". Для подобных слов смотрите {ghuH:n}. Также может быть использовано, чтобы сказать "руководство о ..." {X ghojmeH mIw:n:nolink}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -4568,7 +4615,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">lehren, unterrichten</column>
       <column name="definition_fa">آموزش، آموزش [AUTOTRANSLATED]</column>
       <column name="definition_sv">lära ut, instruera</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">учить, обучать</column>
       <column name="definition_zh_HK">教導、指導</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4577,7 +4624,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="notes_de">Siehe {qawmoH:v} für Beispiele, wie man dieses Verb verwenden kann.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Смотрите {qawmoH:v} как пример того, как использовать глагол, подобный этому.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{ghoj:v}, {-moH:v}</column>
@@ -4604,7 +4651,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Mentor, Lehrer</column>
       <column name="definition_fa">معلم، مربی [AUTOTRANSLATED]</column>
       <column name="definition_sv">lärare, mentor [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">учитель, наставник</column>
       <column name="definition_zh_HK">老師、教師</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4613,7 +4660,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Наиболее почитаемый учитель или учитель рангом выше, чем остальные учителя в том же учреждении - {ghojmoHwI' quv@@ghojmoHwI':n, quv:v} или {ghojmoHwI' Han@@ghojmoHwI':n, Han:v}. Возможно, что наивысшая ступень всего этого - {'a'ghen:n:nolink}.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{ghoj:v}, {-moH:v}, {-wI':v}</column>
@@ -4639,7 +4686,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Schwester, Kindermädchen, Erzieherin, Gouvernante</column>
       <column name="definition_fa">پرستار، پرستار بچه، مدافع [AUTOTRANSLATED]</column>
       <column name="definition_sv">barnsköterska, amma, guvernant</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">медсестра, няня, гувернантка</column>
       <column name="definition_zh_HK">護士，保姆，家庭教師 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4674,7 +4721,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Student, Lernender, Schüler</column>
       <column name="definition_fa">دانشجو [AUTOTRANSLATED]</column>
       <column name="definition_sv">studerande, elev</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">студент</column>
       <column name="definition_zh_HK">學生 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4709,7 +4756,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Kümmere dich um deine Schüler.</column>
       <column name="definition_fa">مراقبت از دانش آموزان خود. [AUTOTRANSLATED]</column>
       <column name="definition_sv">Ta hand om dina elever. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Заботьтесь о ваших студентах</column>
       <column name="definition_zh_HK">關心你的學生。 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4744,7 +4791,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Widersacher, Gegner</column>
       <column name="definition_fa">حریف، دشمن [AUTOTRANSLATED]</column>
       <column name="definition_sv">motståndare</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">оппонент, соперник</column>
       <column name="definition_zh_HK">對手，對手 [AUTOTRANSLATED]</column>
       <column name="synonyms">{jagh:n}</column>
       <column name="antonyms"></column>
@@ -4762,7 +4809,8 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {ngIq gholvo' wa'maH QaS yItlhap.:sen:nolink} "Соберите 10 военнослужащих с каждого игрока."[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags">player</column>
       <column name="search_tags_de"></column>
@@ -4780,7 +4828,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Gruppe, Partei</column>
       <column name="definition_fa">باند، گروه، حزب [AUTOTRANSLATED]</column>
       <column name="definition_sv">grupp, samling, skara, gäng, liga</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">банда, группа, отряд</column>
       <column name="definition_zh_HK">樂隊，團體，派對 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4803,7 +4851,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">команда</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
     </table>
@@ -4815,7 +4863,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">treffen, begegnen</column>
       <column name="definition_fa">ملاقات، برخورد، ملاقات، ملاقات [AUTOTRANSLATED]</column>
       <column name="definition_sv">möta, träffa, samlas</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">встречать, сталкиваться, встретиться неожиданно, собираться</column>
       <column name="definition_zh_HK">相遇，相遇，聚會，約會 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms">{ghomHa':v}</column>
@@ -4824,7 +4872,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Этот глагол может использоваться как с глаголом, так и без него. Если есть объект, тогда субъект встречает объект. Если нет объекта, тогда субъекты собираются или встречаются друг с другом.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -4843,7 +4891,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">рандеву</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}, [2] {HQ 7.4, p.11, Dec. 1998:src}</column>
     </table>
@@ -4855,7 +4903,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">verstreuen, verteilen</column>
       <column name="definition_fa">پراکنده، پراکنده [AUTOTRANSLATED]</column>
       <column name="definition_sv">spridas</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">рассеивать, разбросать, разбрасывать, расходиться</column>
       <column name="definition_zh_HK">分散，分散 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms">{ghom:v}</column>
@@ -4925,7 +4973,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Menschenmenge</column>
       <column name="definition_fa">جمعیت [AUTOTRANSLATED]</column>
       <column name="definition_sv">folksamling</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">толпа</column>
       <column name="definition_zh_HK">人群 [AUTOTRANSLATED]</column>
       <column name="synonyms">{qev:n}</column>
       <column name="antonyms"></column>
@@ -5065,7 +5113,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Missbrauch</column>
       <column name="definition_fa">سو استفاده کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">missbruk</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">злоупотребление</column>
       <column name="definition_zh_HK">濫用 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5100,7 +5148,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">missbrauchen</column>
       <column name="definition_fa">سو استفاده کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">missbruka</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">злоупотреблять</column>
       <column name="definition_zh_HK">濫用 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5135,7 +5183,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Hand</column>
       <column name="definition_fa">دست (از مچ تا سر انگشتان)</column>
       <column name="definition_sv">hand</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">рука</column>
       <column name="definition_zh_HK">手</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5144,7 +5192,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Части руки(о которой здесь упоминается) включают в себя {toch:n} "ладонь", {chap:n} "заднюю сторону (руки)", and {nItlh:n} "палец(цы)" (включая большой палец). Рука прикреплена к {DeS:n:1} "кисти руки" через {yeb:n} "запястье".</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">Something you "grope" with. The reverse of this is {pogh:n}.</column>
       <column name="components"></column>
@@ -5153,7 +5201,8 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {ghopDu'wIjDaq yInmeyraj vIlaj} "Я прнимаю ваши жизни в свои руки"[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -5171,7 +5220,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Asteroid</column>
       <column name="definition_fa">سیارک [AUTOTRANSLATED]</column>
       <column name="definition_sv">asteroid</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">астеройд</column>
       <column name="definition_zh_HK">小行星 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5206,7 +5255,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">(jdn. aus)spionieren</column>
       <column name="definition_fa">جاسوسی، جاسوسی بر روی [AUTOTRANSLATED]</column>
       <column name="definition_sv">spionera (på)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">шпионить, шпионить за</column>
       <column name="definition_zh_HK">間諜，間諜 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5241,7 +5290,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Spion</column>
       <column name="definition_fa">جاسوس</column>
       <column name="definition_sv">spion, spejare</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">шпион</column>
       <column name="definition_zh_HK">間諜</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5311,7 +5360,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Hilf uns!</column>
       <column name="definition_fa">به ما کمک کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">Hjälp oss! [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Помогите нам!</column>
       <column name="definition_zh_HK">幫助我們！ [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5346,7 +5395,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">brechen</column>
       <column name="definition_fa">زنگ تفريح [AUTOTRANSLATED]</column>
       <column name="definition_sv">bryta</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">ломать, нарушать, взламывать</column>
       <column name="definition_zh_HK">打破 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5384,7 +5433,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Planetenoberfläche</column>
       <column name="definition_fa">سطح (یک سیاره) [AUTOTRANSLATED]</column>
       <column name="definition_sv">yta (på planet)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Поверхность (планеты)</column>
       <column name="definition_zh_HK">表面（行星） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5419,7 +5468,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">wann</column>
       <column name="definition_fa">کِی؟ چه زمانی؟</column>
       <column name="definition_sv">när?</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Когда?</column>
       <column name="definition_zh_HK">何時？</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5454,7 +5503,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Wann gehen wir (weg)?</column>
       <column name="definition_fa">وقتی ما می رویم؟ [AUTOTRANSLATED]</column>
       <column name="definition_sv">När går vi? [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Когда мы уйдём?</column>
       <column name="definition_zh_HK">我們什麼時候離開？ [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5489,7 +5538,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Wann ist das Wasser heiß (geworden)?</column>
       <column name="definition_fa">وقتی آب داغ می شود؟ [AUTOTRANSLATED]</column>
       <column name="definition_sv">När kommer vattnet vara varmt? [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Когда вода станет горячей?</column>
       <column name="definition_zh_HK">水什麼時候會變熱？ [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5559,7 +5608,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Gorkon (Kanzler)</column>
       <column name="definition_fa">گورکون (صدراعظم) [AUTOTRANSLATED]</column>
       <column name="definition_sv">Gorkon (kansler)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Горкон (имя одного из канцлеров)</column>
       <column name="definition_zh_HK">戈爾康（首相）</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5594,7 +5643,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Gorkon (legendärer Vorfahre)</column>
       <column name="definition_fa">گورکون (افسانه ای) [AUTOTRANSLATED]</column>
       <column name="definition_sv">Gorkon (legendarisk förfader)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Горкон (легендарный)</column>
       <column name="definition_zh_HK">戈爾康（傳說中的祖先）</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5603,7 +5652,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">В {Hamlet:src} упоминается не ({ghorqan:n:name}), кто стремился заключить мир с Федерацией, а один из его предков</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -5664,7 +5713,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">etw. nähern, weggehen, entfernen</column>
       <column name="definition_fa">رویکرد، از بین برود، ادامه دهید، بیا، دنبال (یک دوره) [AUTOTRANSLATED]</column>
       <column name="definition_sv">fortsätta framåt, nalkas, komma närmare, avlägsna sig ifrån</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">приближаться, уходить от, приступать, идти, следовать (курсу)</column>
       <column name="definition_zh_HK">接近，離開，繼續，來，跟隨（一門課程） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5673,7 +5722,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это может означать как "приближение" так и "уходить от", в зависимости от присутствия существительных с суффиксами {-Daq:n} и {-vo':n}. Способ использования {ghoS:v:nolink} и других глаголов, описывающих движение, смотрите в {HQ 7.4:src}[2]. Смотрите {jaH:v} для более подробной информации.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -5683,7 +5732,10 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {bIghHa'Daq yIghoS:sen:nolink} "Отправляйся в тюрьму"[1, стр.170]
+▶ {He chu' ghoS, DIvI' neHmaH.:sen}
+      </column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -5701,7 +5753,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">vorstoßen</column>
       <column name="definition_fa">محور [AUTOTRANSLATED]</column>
       <column name="definition_sv">köra, driva</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">толкать, засовывать</column>
       <column name="definition_zh_HK">推力 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5736,7 +5788,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Um fortzufahren halte es geheim.</column>
       <column name="definition_fa">رویکرد مخفی [AUTOTRANSLATED]</column>
       <column name="definition_sv">Stealth approach. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Скрытное приближение</column>
       <column name="definition_zh_HK">隱身方法。 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5771,7 +5823,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Person</column>
       <column name="definition_fa">شخص (انسان) [AUTOTRANSLATED]</column>
       <column name="definition_sv">person (humanoid)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Личность (гуманойд)</column>
       <column name="definition_zh_HK">人（人形） [AUTOTRANSLATED]</column>
       <column name="synonyms">{nuv:n}</column>
       <column name="antonyms"></column>
@@ -5796,7 +5848,15 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {ghotpu' tamey:n}
+▶ {reH tay' ghot tuqDaj je.:sen}
+▶ {vaj ruS cher 'Iw:sen:nolink}
+   {rap cha' ghot HoS rap cha' ghot vuD:sen:nolink}
+   {chen yIn ruS:sen:nolink}
+  "Таким образом была запечатана в крови
+   В теле и мыслях,
+   Связь жизни."[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -5884,7 +5944,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">erkennen</column>
       <column name="definition_fa">تشخیص [AUTOTRANSLATED]</column>
       <column name="definition_sv">känna igen</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">распознавать, узнавать</column>
       <column name="definition_zh_HK">認識 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5954,7 +6014,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_de">Unterlichtgeschwindigkeit</column>
       <column name="definition_fa">سرعت نور [AUTOTRANSLATED]</column>
       <column name="definition_sv">underljushastighet</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">досветовая скорость</column>
       <column name="definition_zh_HK">亞光速度 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6026,7 +6086,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="definition_de">Baby, Säugling</column>
       <column name="definition_fa">عزیزم [AUTOTRANSLATED]</column>
       <column name="definition_sv">baby, spädbarn</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">младенец</column>
       <column name="definition_zh_HK">寶寶 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6166,7 +6226,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="definition_de">Alarm</column>
       <column name="definition_fa">هشدار [AUTOTRANSLATED]</column>
       <column name="definition_sv">förvarning</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">тревога</column>
       <column name="definition_zh_HK">警報 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6175,7 +6235,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это также может означать "урок" в контексте "Пусть это будет тебе уроком!"[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -6189,7 +6249,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">урок</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}, [2] {KLI mailing list 2018.02.17:src}</column>
     </table>
@@ -6201,7 +6261,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="definition_de">auf etw. vorbereitet sein, gewarnt</column>
       <column name="definition_fa">برای آماده شدن آماده شوید [AUTOTRANSLATED]</column>
       <column name="definition_sv">förbereda för, vara förvarnad om</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">приготовиться к, быть предупрежденным о чем-то</column>
       <column name="definition_zh_HK">準備，警惕 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6210,7 +6270,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Смотрите также суффиксы {-rup:v} и {-beH:v} для обозначения подготовки или готовности.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -6220,7 +6280,10 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {tlhIngan quv DatIchDI' Seng yIghuH.:sen}
+▶ {may' yIghuH!:sen:nolink} "Боевая тревога!"[2]
+      </column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -6238,7 +6301,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="definition_de">alarmieren, warnen</column>
       <column name="definition_fa">هشدار، هشدار [AUTOTRANSLATED]</column>
       <column name="definition_sv">varna</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">предупреждать, предостерегать</column>
       <column name="definition_zh_HK">警告，警告 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6247,7 +6310,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="notes_de">Siehe {qawmoH:v} für Beispiele, wie man dieses Verb verwenden kann.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Смотрите {qawmoH:v} для примера того, как использовать глагол, как этот.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{ghuH:v}, {-moH:v}</column>
@@ -6308,7 +6371,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="definition_de">Alarm</column>
       <column name="definition_fa">زنگ خطر [AUTOTRANSLATED]</column>
       <column name="definition_sv">alarm</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">тревога, сигнал тревоги</column>
       <column name="definition_zh_HK">報警 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6343,7 +6406,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="definition_de">alarmieren, Alarm auslösen</column>
       <column name="definition_fa">زنگ هشدار صدا [AUTOTRANSLATED]</column>
       <column name="definition_sv">alarmera, sätta igång ett alarm</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">поднять тревогу, дать сигнал тревоги</column>
       <column name="definition_zh_HK">報警，發出警報 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6378,7 +6441,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="definition_de">(einen Computer) programmieren</column>
       <column name="definition_fa">برنامه (کامپیوتر) [AUTOTRANSLATED]</column>
       <column name="definition_sv">programmera (en dator)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">компьютерная программа</column>
       <column name="definition_zh_HK">程序（電腦） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6413,7 +6476,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="definition_de">warm</column>
       <column name="definition_fa">گرم بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara varm</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть тёплым(температура)</column>
       <column name="definition_zh_HK">要溫暖 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms">{bIr:v}</column>
@@ -6431,7 +6494,8 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {ghun 'Iw HIq, rap boqrat chej.} "Печень бократа такая же тёплая, как и кровавое вино."[1]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -6449,7 +6513,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="definition_de">hungrig sein, hunger haben</column>
       <column name="definition_fa">گرسنه بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara hungrig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть голодным</column>
       <column name="definition_zh_HK">餓 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6458,7 +6522,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Есть идиома {ghung; qagh rur}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -6484,7 +6548,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="definition_de">schlucken</column>
       <column name="definition_fa">بلع [AUTOTRANSLATED]</column>
       <column name="definition_sv">svälja</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">глотать, поглощать</column>
       <column name="definition_zh_HK">吞 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6555,7 +6619,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <!-- {ghurmoH:v} would be "erhöhen, steigern". -->
       <column name="definition_fa">افزایش دادن [AUTOTRANSLATED]</column>
       <column name="definition_sv">öka</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">увеличивать, усиливать, возрастать, множить, нарасти, возвышать</column>
       <column name="definition_zh_HK">增加 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6576,7 +6640,9 @@ MO confirmed at {Saarbrücken qepHom'a' 2011:src} that {ghur:v:nolink} is intran
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {jaghpu'ra' bopujmoHtaHvIS, ghur tuqmeyraj quv.} "Честь возвышается в ваших домах, также как вы ставите врагов на колени."[3]
+      </column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -6594,7 +6660,7 @@ MO confirmed at {Saarbrücken qepHom'a' 2011:src} that {ghur:v:nolink} is intran
       <column name="definition_de">bereit, feuerbereit</column>
       <column name="definition_fa">آماده، آماده (برای راه اندازی) [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara beredd, vara redo (att avfyra)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть готовым, готовиться к запуску</column>
       <column name="definition_zh_HK">準備好，準備好（發布） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6614,7 +6680,8 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {cha yIghuS!:sen}[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -6702,7 +6769,7 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="definition_de">Rekrut</column>
       <column name="definition_fa">استخدام [AUTOTRANSLATED]</column>
       <column name="definition_sv">rekryt, ny medlem</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">рекрут</column>
       <column name="definition_zh_HK">招 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6746,7 +6813,7 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Она актриса, которая играет {be'etor:n:name}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -6772,7 +6839,7 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="definition_de">Klingonischer Fluch, verdammt</column>
       <column name="definition_fa">لعنت کلینگان، لعنت [AUTOTRANSLATED]</column>
       <column name="definition_sv">fan, djävlar (svordom)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">черт(ругательство), проклятие(ругательство)</column>
       <column name="definition_zh_HK">克林崗詛咒，該死的 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6789,7 +6856,7 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">{ghuy' po'qu'!:sen}</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -6807,7 +6874,7 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="definition_de">Verdammt! Er ist sehr geschickt.</column>
       <column name="definition_fa">لعنتی او خوب است! [AUTOTRANSLATED]</column>
       <column name="definition_sv">Fan är han bra! [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Он хорош черт возьми!</column>
       <column name="definition_zh_HK">該死的他很好！ [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6842,7 +6909,7 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="definition_de">Fluch, viel stärker als "verdammt"</column>
       <column name="definition_fa">expletive، بسیار قوی تر از "darn آن" [AUTOTRANSLATED]</column>
       <column name="definition_sv">generellt invektiv</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">ругательное слово, гораздо сильнее, чем "черт возьми"</column>
       <column name="definition_zh_HK">咒罵，強於“愚弄” [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6877,7 +6944,7 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="definition_de">Situation</column>
       <column name="definition_fa">وضعیت [AUTOTRANSLATED]</column>
       <column name="definition_sv">situation</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">ситуация</column>
       <column name="definition_zh_HK">情況 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6895,7 +6962,8 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {ghu' Dachupbogh vIlaj.:sen}</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -6913,7 +6981,7 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="definition_de">Sie verstehen anscheinend die Situation nicht.</column>
       <column name="definition_fa">به نظر نمی رسد که وضعیت ما را درک کنیم. [AUTOTRANSLATED]</column>
       <column name="definition_sv">Du verkar inte förstå vår situation. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Похоже, что вы не понимаете нашу ситуацию</column>
       <column name="definition_zh_HK">你似乎不了解我們的情況。 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6948,7 +7016,7 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="definition_de">Ich akzeptiere deinen Vorschlag.</column>
       <column name="definition_fa">پیشنهاد شما را قبول میکنم [AUTOTRANSLATED]</column>
       <column name="definition_sv">Jag accepterar ditt förslag. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Я принимаю ваше предложение</column>
       <column name="definition_zh_HK">我接受你的提議。 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6957,7 +7025,7 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Сказано в диалоге между {qeylIS'e' lIjlaHbe'bogh vay':n:name} и {qotar:n:name} в {paq'batlh:src}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -6983,7 +7051,7 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="definition_de">ein Punkt in einer Liste</column>
       <column name="definition_fa">مورد در یک لیست [AUTOTRANSLATED]</column>
       <column name="definition_sv">objekt i en lista [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">пункт в списке, пункт списка</column>
       <column name="definition_zh_HK">列表中的項目 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
