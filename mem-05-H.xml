@@ -608,7 +608,7 @@
       <column name="definition_fa">سلول [AUTOTRANSLATED]</column>
       <column name="definition_sv">cell [AUTOTRANSLATED]</column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK">細胞 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">細胞</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{lerup:n}</column>
@@ -2523,7 +2523,7 @@ A physical path would be a {taw:n}.</column>
       <column name="definition_fa">آیین مرگ [AUTOTRANSLATED]</column>
       <column name="definition_sv">dödsritual</column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK">死亡儀式 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">死亡儀式</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{SonchIy:n}, {nol:n}, {'aQvoH:n}</column>
@@ -4585,7 +4585,9 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/KArQlviVXMk}</column>
       <column name="synonyms"></column>
       <column name="antonyms">{pagh:n:1}</column>
       <column name="see_also">{'op:n}, {HochHom:n}, {ngIq:n}, {HochDIch:n}, {Hochlogh:adv}</column>
-      <column name="notes">If the following noun is explicitly plural, it means "all the X's", taken collectively. If the noun is not explicitly plural, then it means "each X", considered individually.[2]</column>
+      <column name="notes">If {Hoch:n:nolink} is followed by a noun which is explicitly plural, it means "all the X's", taken collectively. If the following noun is not explicitly plural, then it means "each X", considered individually.[2]
+
+If {Hoch:n:nolink} follows a noun, it means "all of X".[3; 4] Note that this is different from {naQ:v} following a noun, which means "a complete X".</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -4597,7 +4599,15 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/KArQlviVXMk}</column>
 ▶ {Hoch tlhInganpu':sen:nolink} "all Klingons"[2]
 ▶ {Hoch paqmey:sen:nolink} "all the books"[2]
 ▶ {Hoch 'ebmey tIjon.:sen} "Capture all opportunities" (and not "each opportunity")
-▶ {wo' toy'taHvIS Hegh 'e' tul Hoch tlhIngan.:sen} "To die while serving the Empire is the hope of every Klingon" (i.e., every Klingon, individually)</column>
+▶ {wo' toy'taHvIS Hegh 'e' tul Hoch tlhIngan.:sen} "To die while serving the Empire is the hope of every Klingon" (i.e., every Klingon, individually)
+▶ {targhlIj yab tIn law' no'lI' Hoch yabDu' tIn puS!:sen}
+▶ {nIn Hoch natlhlu'pu'.:sen:nolink} "All the fuel has been consumed."[3]
+▶ {chalqachlIj rachlu'ta'bogh tutDaq:sen:nolink}
+   {mol'egh betleH:sen:nolink}
+   {muptaHvIS tay''eghmoH QeHDaj Hoch:sen:nolink}
+  "The bat'leth sunk into the post
+   Of your fortified tower,
+   All his rage focussed in one blow"[4]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -4609,7 +4619,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/KArQlviVXMk}</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}, [2] {HQ 5.2, p.11, Jun. 1996:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {HQ 5.2, p.11, Jun. 1996:src}, [3] {KGT p.155:src}, [4] {paq'batlh p.159:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -4658,7 +4668,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/KArQlviVXMk}</column>
       <column name="definition_zh_HK">大部分，大部分 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'op:n}</column>
+      <column name="see_also">{'op:n}, {bID:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5268,13 +5278,13 @@ The identifier is usually a country, region, or political unit of some kind. For
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">linguistics</column>
       <column name="definition_de">Linguistik</column>
-      <column name="definition_fa">زبانشناسی [AUTOTRANSLATED]</column>
+      <column name="definition_fa">زبان‌شناسی</column>
       <column name="definition_sv">lingvistik</column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK">語言學 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">語言學</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{Hol tej:n}</column>
       <column name="notes">This is also the name of the journal of the {tlhIngan Hol yejHaD:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5303,10 +5313,10 @@ The identifier is usually a country, region, or political unit of some kind. For
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">dialect</column>
       <column name="definition_de">Dialekt</column>
-      <column name="definition_fa">گویش [AUTOTRANSLATED]</column>
+      <column name="definition_fa">گویش، زبان محلی</column>
       <column name="definition_sv">dialekt [AUTOTRANSLATED]</column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK">方言 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">話（方言）</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Sep Hol Sar:n}, {ta' Hol:n}</column>
@@ -5338,13 +5348,13 @@ The identifier is usually a country, region, or political unit of some kind. For
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">linguist</column>
       <column name="definition_de">Linguist, Grammatiker</column>
-      <column name="definition_fa">زبانشناس [AUTOTRANSLATED]</column>
+      <column name="definition_fa">زبان‌شناس، زبان‌دان</column>
       <column name="definition_sv">lingvist [AUTOTRANSLATED]</column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK">語言學家 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">語言學家</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{HolQeD:n}</column>
       <column name="notes">This term does not appear in canon, but is an obvious construction from {Hol:n} and {tej:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5373,10 +5383,10 @@ The identifier is usually a country, region, or political unit of some kind. For
       <column name="part_of_speech">n:1,body</column>
       <column name="definition">bone</column>
       <column name="definition_de">Knochen</column>
-      <column name="definition_fa">استخوان [AUTOTRANSLATED]</column>
+      <column name="definition_fa">استخوان</column>
       <column name="definition_sv">ben (i skelett)</column>
       <column name="definition_ru"></column>
-      <column name="definition_zh_HK">骨 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">骨</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qal'aq:n}, {pIp:n}, {melchoQ:n}, {Somraw:n}, {Ha'DIbaH:n:1}</column>
