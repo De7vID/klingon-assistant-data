@@ -6035,8 +6035,8 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="definition_zh_HK">通信 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{rI':v}, {Qum:n}</column>
-      <column name="notes"></column>
+      <column name="see_also">{rI':v}</column>
+      <column name="notes">Outside of compounds such as {QumpIn:n}, {Qum:sen:nolink} is found only as a verb. This suggests that a noun {Qum:n:archaic} existed at some time in the past.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6056,12 +6056,12 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.160:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qum</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:archaic</column>
       <column name="definition">communications, communications-related technology</column>
       <column name="definition_de">Kommunikation</column>
       <column name="definition_fa">ارتباطات، فن آوری ارتباطات مرتبط است [AUTOTRANSLATED]</column>
@@ -6071,7 +6071,7 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Qum:v}</column>
-      <column name="notes"></column>
+      <column name="notes">The existence of {Qum:sen:nolink} as a noun in the past is attested to by words such as {QumpIn:n}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6091,7 +6091,7 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {BoP:src}</column>
+      <column name="source">[1] {BoP:src}, [2] {KGT p.160:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6113,7 +6113,7 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Qum:n}, {De'wI':n}</column>
+      <column name="components">{Qum:v}, {De'wI':n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -6148,7 +6148,7 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{Qum:v}, {pat:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -6183,7 +6183,7 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Qum:n}, {SeHlaw:n}</column>
+      <column name="components">{Qum:v}, {SeHlaw:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -6211,14 +6211,14 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">The first part of this word, {Qum:sen:nolink}, is found elsewhere only as a verb. This suggests that a noun {Qum:n:archaic} existed in the past.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Qum:n}, {pIn:n:1}</column>
+      <column name="components">{Qum:v}, {pIn:n:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -6231,7 +6231,7 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.160:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6253,7 +6253,7 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{Qum:v}, {-wI':v}</column>
       <column name="examples">
 ▶ {labmeH 'evnagh Se' lo' tlhIngan QumwI'. janmey ngo' lulo'lu'DI' pIj jabbI'ID nISpu' woj.:sen:nolink}
   "A Klingon communicator sends a signal through subspace radio. Older models were susceptible to radiation."[2]</column>
@@ -6290,7 +6290,7 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">{Sam:v} is probably better for this sense of "find" than {tu':v}, but that's how the sentence appears on {TKD p.171:src}.</column>
-      <column name="components"></column>
+      <column name="components">{QumwI':n}, {-wIj:n}, {vI-:v}, {tu':v}, {-laH:v}, {-be':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
