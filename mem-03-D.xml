@@ -4298,7 +4298,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DIj</column>
-      <column name="part_of_speech">v:1,t</column>
+      <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">slide sword blade along opponent's blade</column>
       <column name="definition_de">Schwertklinge an Gegnerklinge entlang gleiten</column>
       <column name="definition_fa">اسلاید تیغه شمشیر را در کنار تیغه حریف قرار دهید [AUTOTRANSLATED]</column>
@@ -4333,7 +4333,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DIj</column>
-      <column name="part_of_speech">v:2,t</column>
+      <column name="part_of_speech">v:2,t_c</column>
       <column name="definition">use a pigment stick, paint with pigment stick</column>
       <column name="definition_de">malen mit Malstab</column>
       <column name="definition_fa">استفاده از چوب رنگدانه، رنگ با چوب رنگدانه [AUTOTRANSLATED]</column>
@@ -4342,8 +4342,12 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="definition_zh_HK">使用顏料棒、塗上顏料棒 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{nItlh:n}, {nagh beQ:n}, {vol:n}, {ngoH:v:2}, {DIj:v:1}</column>
-      <column name="notes"></column>
+      <column name="see_also">{rItlh:n}, {DIjwI':n}, {ngoH:v:2}, {vol:n}, {DIj:v:1}</column>
+      <column name="notes">The object of this verb is the thing which is touched by a {rItlh naQ:n}, for example a {nagh beQ:n}. Since {DIj:v:2,nolink} is already associated with {nagh beQ:n:nolink}, it can be left out. However, if painting or drawing on something other than a {nagh beQ:n:nolink}, it should be specified.[2]
+
+To specify the thing to be drawn, one can use the verbs {cha':v} or {nargh:v:0}. The latter means both "appear" and "escape", and similar to how {qon:v} is used for composing music or writing stories, its use suggests that the picture already exists and the {DIjwI':n} is somehow enabling it to escape and appear. It's also possible to use {nargh:v:0,nolink} without the {-moH:v} suffix, but this construction is heard less frequently. The {cha':v:nolink} version is more common in informal settings and the {nargh:v:nolink} (usually {narghmoH:v:nolink}) version is more common in literature or in discussions about art.[2]
+
+This verb can be used for producing a visual image even if no paint or pigment stick is involved, for example with a pencil, or with a device or computer software.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -4351,6 +4355,47 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
+      <column name="examples">
+▶ {DI'raq Dacha'meH nagh beQ yIDIj:sen:nolink} "Paint the stone panel with [a picture of] a sheep!"[2]
+▶ {DI'raq Dacha'meH yIDIj:sen:nolink} "Paint [a picture of] a sheep!"[2]
+▶ {DI'raq DanarghmoHmeH nagh beQ yIDIj:sen:nolink} "Paint the stone panel with [a picture of] a sheep!"[2]
+▶ {DI'raq DanarghmoHmeH yIDIj:sen:nolink} "Paint [a picture of] a sheep!"[2]
+▶ {narghmeH DI'raq (nagh beQ) yIDIj:sen:nolink} "Paint (the stone panel with) [a picture of] a sheep!"[2]
+▶ {DI'raq Dacha'meH nav yIDIj:sen:nolink} or {DI'raq DanarghmoHmeH nav yIDIj:sen:nolink} "Draw a sheep on the paper!"[2]</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags">draw, paint</column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KGT:src}, [2] {KLI mailing list 2018.09.03:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">DIjwI'</column>
+      <column name="part_of_speech">n:being,deriv</column>
+      <column name="definition">artist, painter</column>
+      <column name="definition_de">Künstler, Maler</column>
+      <column name="definition_fa">هنرمند، نقاش</column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK">藝術家、畫家</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{DIj:v:2}, {-wI':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4363,7 +4408,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KGT:src}</column>
+      <column name="source">[1] {KLI mailing list 2018.09.03:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
