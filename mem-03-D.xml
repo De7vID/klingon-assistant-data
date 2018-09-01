@@ -1361,7 +1361,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="definition_zh_HK">井</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{bIQ:n}</column>
       <column name="notes">This normally refers to a water well, but could be for other substances. If clarity is needed, one can say {bIQ Daqrab:n@@bIQ:n, Daqrab:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1670,8 +1670,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DaSpu'</column>
-      <!-- Not deriv because one component is archaic. -->
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">boot spike</column>
       <column name="definition_de">Stiefeldorn</column>
       <column name="definition_fa">بوت سنبله [AUTOTRANSLATED]</column>
@@ -1680,7 +1679,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="definition_zh_HK">引導穗 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{pu':n:2,archaic}</column>
+      <column name="see_also">{pu':n:2}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1688,7 +1687,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{DaS:n}, {pu':n:2,archaic}</column>
+      <column name="components">{DaS:n}, {pu':n:2}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
