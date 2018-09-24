@@ -41,7 +41,7 @@
       <column name="definition_de">wir (kein Objekt)</column>
       <column name="definition_fa">ما هیچ کدام [AUTOTRANSLATED]</column>
       <column name="definition_sv">vi-ingen</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Мы(действие)</column>
       <column name="definition_zh_HK">我們：無</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -76,7 +76,7 @@
       <column name="definition_de">Übereinkommen, Vertrag, Zugeständnis</column>
       <column name="definition_fa">پیمان، قرارداد، کنترات</column>
       <column name="definition_sv">avtal</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">соглашение, договорённость, контракт</column>
       <column name="definition_zh_HK">條約、合同、承諾、協議</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -85,7 +85,7 @@
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это также может использоваться для обозначения "аккаунта", который регистрируется для пользования какой-то услугой.[3]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This is defined only as "treaty" in {TKD:src}. The additional definitions come from {Saarbrücken qepHom'a' 2016:src}.
 
@@ -113,7 +113,7 @@ Possibly a reference to the fairy Queen Mab in Romeo and Juliet, who is known fo
       <column name="definition_de">klein</column>
       <column name="definition_fa">کوچک بودن</column>
       <column name="definition_sv">vara liten</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть маленьким, быть небольшим, быть малым, быть мелким</column>
       <column name="definition_zh_HK">小、細</column>
       <column name="synonyms"></column>
       <column name="antonyms">{tIn:v}, {muq:v}</column>
@@ -148,7 +148,7 @@ Possibly a reference to the fairy Queen Mab in Romeo and Juliet, who is known fo
       <column name="definition_de">reduzieren, klein machen</column>
       <column name="definition_fa">کوچک کردن</column>
       <column name="definition_sv">krympa (något) [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">уменьшать что-то в размерах</column>
       <column name="definition_zh_HK">縮小、縮細</column>
       <column name="synonyms"></column>
       <column name="antonyms">{tInmoH:v}</column>
@@ -218,7 +218,7 @@ Possibly a reference to the fairy Queen Mab in Romeo and Juliet, who is known fo
       <column name="definition_de">(jdn.) verraten, denunzieren</column>
       <column name="definition_fa">خیانت کردن</column>
       <column name="definition_sv">förråda, svika</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">предавать, изменять</column>
       <column name="definition_zh_HK">背叛、出賣</column>
       <column name="synonyms">{bol:v:2}</column>
       <column name="antonyms"></column>
@@ -240,7 +240,10 @@ Some word lists erroneously give another definition of {magh:v:nolink} with the 
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {numagh!:sen}
+▶ {DuraS tuq tlhIngan yejquv patlh luDub 'e' reH lunIDtaH DuraS be'nI'pu' lurSa' be'etor je. ngoQvam luchavmeH ghawran maghpu' be'nI'pu'. woQ luSuqmeH jIjpu' chaH romuluSngan'e' je.:sen:nolink}
+  "Сёстры из дома Дюраса, Лурса и Бетор, постоянно ищут высокого положения для дома Дюраса внутри клингонского высшего совета. В конце, сёстры выступили против Гаурона, зайдя так далеко, что работали с ромуланскими группировками, чтобы усилить власть."[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -258,7 +261,7 @@ Some word lists erroneously give another definition of {magh:v:nolink} with the 
       <column name="definition_de">Verräter</column>
       <column name="definition_fa">خائن، خیانتکار</column>
       <column name="definition_sv">förrädare</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">предатель</column>
       <column name="definition_zh_HK">背叛者、出賣者</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -267,7 +270,7 @@ Some word lists erroneously give another definition of {magh:v:nolink} with the 
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Речь идёт о человеке, который предаёт кого-то. Для лица, которое совершает измену смотрите {'urwI':n}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{magh:v}, {-wI':n}</column>
@@ -421,7 +424,21 @@ The imperative verb prefix when {maH:n:1h,nolink} is the object is {gho-:v:pref}
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Является множественным числом местоимения {jIH:n:1h,pro}.
+
+Глагольные префиксы, когда {maH:n:1h,nolink} является субъектом:
+▶ {maH:n:1h,nolink}:{pagh:n:1h} = {ma-:v:pref}
+▶ {maH:n:1h,nolink}:{SoH:n} = {pI-:v:pref}
+▶ {maH:n:1h,nolink}:{tlhIH:n} = {re-:v:pref}
+▶ {maH:n:1h,nolink}:{ghaH:n}/{'oH:n} = {wI-:v:pref}
+▶ {maH:n:1h,nolink}:{chaH:n}/{bIH:n} = {DI-:v:pref}
+
+Глагольные префиксы, когда {maH:n:1h,nolink} является объектом:
+▶ {SoH:n}:{maH:n:1h,nolink} = {ju-:v:pref}
+▶ {tlhIH:n}:{maH:n:1h,nolink} = {che-:v:pref}
+▶ {ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n}:{maH:n:1h,nolink} = {nu-:v:pref}
+
+Префиксом повелительного наклонения когда {maH:n:1h,nolink} является объектом, будет {gho-:v:pref}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -447,7 +464,7 @@ The imperative verb prefix when {maH:n:1h,nolink} is the object is {gho-:v:pref}
       <column name="definition_de">zig (Zahlenformelement)</column>
       <column name="definition_fa">ده (عدد تشکیل دهنده عدد) [AUTOTRANSLATED]</column>
       <column name="definition_sv">tio (nummerbildande element)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">десять (числообразующий элемент)</column>
       <column name="definition_zh_HK">十（數字形成元素） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -456,7 +473,7 @@ The imperative verb prefix when {maH:n:1h,nolink} is the object is {gho-:v:pref}
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Заметьте, что это числообразующий элемент, а не число само по себе. Число десять будет -{wa'maH:n:num}. Дословно переводится, как "один десять".</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -482,7 +499,7 @@ The imperative verb prefix when {maH:n:1h,nolink} is the object is {gho-:v:pref}
       <column name="definition_de">(große) Schale</column>
       <column name="definition_fa">کاسه (بزرگ) [AUTOTRANSLATED]</column>
       <column name="definition_sv">skål (stor)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru"> большая чаша, большая миска</column>
       <column name="definition_zh_HK">碗（大）</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -491,7 +508,7 @@ The imperative verb prefix when {maH:n:1h,nolink} is the object is {gho-:v:pref}
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это большая миска, используемая для подачи {chatlh:n:1}, который обедающий вливает в {Duq:n} чтобы есть.[1, стр.99]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">"Ten-pin bowling" is a popular game.</column>
       <column name="components"></column>
@@ -517,7 +534,7 @@ The imperative verb prefix when {maH:n:1h,nolink} is the object is {gho-:v:pref}
       <column name="definition_de">Dekade</column>
       <column name="definition_fa">دهه</column>
       <column name="definition_sv">årtionde [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">десяток, десятилетие</column>
       <column name="definition_zh_HK">年代</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -552,7 +569,7 @@ The imperative verb prefix when {maH:n:1h,nolink} is the object is {gho-:v:pref}
       <column name="definition_de">Gut!</column>
       <column name="definition_fa">خوبه!</column>
       <column name="definition_sv">bra (uttrycker belåtenhet)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">хорошо (выражение удовлетворения)</column>
       <column name="definition_zh_HK">好！</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -563,7 +580,9 @@ This word does not have the sense of "good" as used in a greeting, such as "good
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это выражение удовлетворения. Для глагола (или прилагательного) означающего "быть хорошим", смотрите {QaQ:v}.
+
+Это слово не имеет смысл "добрый"(или "хороший") который используется в поздравлении или пожелании, такой как "доброе утро" или "доброй ночи". Есть идиоматическое выражение в Клингонском языке, {maj ram:sen:nolink}, которое используется на манер "доброй ночи". Дословно это значит что-то типа "Хорошо!!!Сейчас ночь".[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">In {TNK:src}, "Good morning" is given as {maj po:excl:nolink}, "Good afternoon" as {maj pov:excl:nolink}, and "Good evening" as {maj choS:excl:nolink}. In {DS9 - The Sword of Kahless:src}, Jadzia Dax and Kor said {maj ram:excl:nolink} to each other as she headed for bed.</column>
       <column name="components"></column>
@@ -589,7 +608,7 @@ This word does not have the sense of "good" as used in a greeting, such as "good
       <column name="definition_de">Gut gemacht! Sehr gut!</column>
       <column name="definition_fa">آفرین!</column>
       <column name="definition_sv">bra gjort, mycket bra</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">отлично сработано, очень хорошо (выражение удовлетворения)</column>
       <column name="definition_zh_HK">做得好！</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -624,7 +643,7 @@ This word does not have the sense of "good" as used in a greeting, such as "good
       <column name="definition_de">Fliese, Platte</column>
       <column name="definition_fa">کاشی [AUTOTRANSLATED]</column>
       <column name="definition_sv">platta, bricka (t.ex. kakel, klinker)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">плитка, черепица, кафель</column>
       <column name="definition_zh_HK">瓦 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -764,7 +783,7 @@ This word does not have the sense of "good" as used in a greeting, such as "good
       <column name="definition_de">Handel, Geschäft, Unternehmen</column>
       <column name="definition_fa">کسب و کار [AUTOTRANSLATED]</column>
       <column name="definition_sv">affär, ärende, syssla, göromål, angelägenhet</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">бизнес, дело, обязанность</column>
       <column name="definition_zh_HK">生意、公業</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -838,7 +857,7 @@ This word does not have the sense of "good" as used in a greeting, such as "good
       <column name="definition_de">Soldat</column>
       <column name="definition_fa">سرباز</column>
       <column name="definition_sv">soldat (en krigare i en grupp om flera)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">солдат</column>
       <column name="definition_zh_HK">士兵</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -847,7 +866,7 @@ This word does not have the sense of "good" as used in a greeting, such as "good
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Слово {mangpu':n@@mang:n, -pu':n} редко используется, и несет смысловую нагрузку, что есть люди, которые создают группу. Слово {negh:n} фокусируется на группе, как на подразделении.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{negh:n}</column>
@@ -873,7 +892,7 @@ This word does not have the sense of "good" as used in a greeting, such as "good
       <column name="definition_de">Armee</column>
       <column name="definition_fa">ارتش [AUTOTRANSLATED]</column>
       <column name="definition_sv">armé</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">армия</column>
       <column name="definition_zh_HK">軍隊</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -882,7 +901,7 @@ This word does not have the sense of "good" as used in a greeting, such as "good
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это относится ко всем {negh:n} вместе.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{mang:n}, {ghom:n}</column>
@@ -908,7 +927,7 @@ This word does not have the sense of "good" as used in a greeting, such as "good
       <column name="definition_de">Kadett</column>
       <column name="definition_fa">کاردان [AUTOTRANSLATED]</column>
       <column name="definition_sv">kadett</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">кадет</column>
       <column name="definition_zh_HK">學員</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -917,7 +936,7 @@ This word does not have the sense of "good" as used in a greeting, such as "good
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это не используется, как звание</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{mang:n}, {-Hom:n}</column>
@@ -943,7 +962,7 @@ This word does not have the sense of "good" as used in a greeting, such as "good
       <column name="definition_de">proklamieren, verkünden</column>
       <column name="definition_fa">اعلام [AUTOTRANSLATED]</column>
       <column name="definition_sv">proklamera, utropa, utse till</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">объявлять, провозглашать</column>
       <column name="definition_zh_HK">宣布、宣告</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -980,7 +999,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Kumpel, Freund (enger männlicher Freund eines Mannes)</column>
       <column name="definition_fa">دوست پسر، دوست نزدیک مرد دوست مرد [AUTOTRANSLATED]</column>
       <column name="definition_sv">polare, nära manlig vän till en man</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">дружок, дружбан, приятель, близкий друг мужского пола лица мужского пола</column>
       <column name="definition_zh_HK">老兄、老友記</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -989,7 +1008,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Слово используется одним лицом мужского пола, адресуемое другому лицу(того же пола), являющемуся близким другом. Использование этого слова в других контекстах может быть сочтено оскорбительным или обидным. Слово может происходить от {may' qoch:n@@may':n, qoch:n}. Не является редким для Клингонского отца, который адресует подобное слово сыну {maqoch:n:nolink}, но не наоборот.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">"My coach". See also {qoch:n}. Note that {maqoch:sen@@ma-:v, qoch:v} may be read as a sentence.</column>
       <column name="components"></column>
@@ -1003,7 +1022,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">приятель, дружбан</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
@@ -1015,7 +1034,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Omen, Zeichen</column>
       <column name="definition_fa">علامت، نشانه [AUTOTRANSLATED]</column>
       <column name="definition_sv">tecken, omen</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">знамение, предзнаменование, знак</column>
       <column name="definition_zh_HK">徵兆、兆頭</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1038,7 +1057,13 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {ghIq jach qa'rol:sen:nolink}
+   {maQ 'oH:sen:nolink}
+   {HemHa'choH 'ej cho'choH moratlh:sen:nolink}
+  "Затем Ка'рол громко крикнул,
+   Это сигнал для Мората
+   Потерять его гордость и заявить притязания на трон."[3]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags">signal</column>
       <column name="search_tags_de"></column>
@@ -1091,7 +1116,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Wir greifen an um zu gewinnen.</column>
       <column name="definition_fa">برای موفقیت، ما حمله می کنیم. [AUTOTRANSLATED]</column>
       <column name="definition_sv">För att lyckas attackerar vi. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">С целью преуспеть, мы атакуем</column>
       <column name="definition_zh_HK">為了成功，我們進行攻擊。</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1161,7 +1186,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Mara</column>
       <column name="definition_fa">مارا [AUTOTRANSLATED]</column>
       <column name="definition_sv">Mara</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Мара</column>
       <column name="definition_zh_HK">「馬拉」</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1170,7 +1195,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Мара является женой Канга (смотрите {qeng:n:name}) и офицером по науке, которая появилась в эпизоде {TOS - Day of the Dove:src}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -1266,7 +1291,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Marcellus</column>
       <column name="definition_fa">مارسلوس [AUTOTRANSLATED]</column>
       <column name="definition_sv">Marcellus [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Марцелл</column>
       <column name="definition_zh_HK">馬塞勒斯 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1301,7 +1326,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Martok</column>
       <column name="definition_fa">مارکک [AUTOTRANSLATED]</column>
       <column name="definition_sv">Martok</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Марток</column>
       <column name="definition_zh_HK">「馬托」</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1336,7 +1361,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">großer Zehe, erster Zehe</column>
       <column name="definition_fa">انگشت پا، انگشت پا [AUTOTRANSLATED]</column>
       <column name="definition_sv">stortå, förstatå</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">большой палец, первый палец</column>
       <column name="definition_zh_HK">大腳趾、第一個腳趾 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1371,7 +1396,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Mond</column>
       <column name="definition_fa">ماه</column>
       <column name="definition_sv">måne</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">луна</column>
       <column name="definition_zh_HK">月</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1408,7 +1433,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">bevorzugen</column>
       <column name="definition_fa">ترجیح می دهند [AUTOTRANSLATED]</column>
       <column name="definition_sv">föredra</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">предпочитать</column>
       <column name="definition_zh_HK">偏、寧</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1426,7 +1451,8 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {jar DamaSqu'bogh yIngu'!:sen:nolink} "Какой твой любимый месяц?"[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -1479,7 +1505,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Mondlicht</column>
       <column name="definition_fa">مهتاب [AUTOTRANSLATED]</column>
       <column name="definition_sv">månljus</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Лунный свет</column>
       <column name="definition_zh_HK">月光</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1514,7 +1540,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Halbmond</column>
       <column name="definition_fa">هلال ماه [AUTOTRANSLATED]</column>
       <column name="definition_sv">halv måne [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">полумесяц</column>
       <column name="definition_zh_HK">月牙</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1523,7 +1549,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Выражение использовано для того, чтобы описать форму {betleH:n}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{maS:n}, {-'e':n}, {loQ:adv}, {So':v}, {-be':v}, {-bogh:v}, {QIb:n}</column>
@@ -1537,7 +1563,13 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {nuH'e' qengbogh mangghomvam:sen:nolink}
+   {luDel 'e' ra' molor:sen:nolink}
+   {lujang maS'e' loQ So'be'bogh QIb lurur:sen:nolink}
+  "Молор спросил их
+   Какое оружие несет в руках эта армия,
+   Они ответили, что оно изогнуто в виде полумесяца."</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -1590,7 +1622,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Wir müssen ausbreiten, um zu überleben.</column>
       <column name="definition_fa">برای زنده ماندن، باید گسترش یابد. [AUTOTRANSLATED]</column>
       <column name="definition_sv">För att överleva måste vi expandera. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Чтобы выжить, мы должны расширяться</column>
       <column name="definition_zh_HK">為了生存，我們必須擴大。</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1625,7 +1657,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Beleidigungen laufen zwischen uns durch wie Wasser.</column>
       <column name="definition_fa">بین ما curses مانند آب اجرا می شود. [AUTOTRANSLATED]</column>
       <column name="definition_sv">Mellan oss springar förbannelser som vatten. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Проклятия между нами бегут, как вода</column>
       <column name="definition_zh_HK">在我們之間，咒語像水一樣流淌。</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1660,7 +1692,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Schütze, Kanonier</column>
       <column name="definition_fa">تفنگدار [AUTOTRANSLATED]</column>
       <column name="definition_sv">skytt, artillerist</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">стрелок, оружейник</column>
       <column name="definition_zh_HK">砲手</column>
       <column name="synonyms">{baHwI':n}</column>
       <column name="antonyms"></column>
@@ -1684,7 +1716,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">стрелок</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
@@ -1696,7 +1728,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Schütze: Nur die Maschine anvisieren.</column>
       <column name="definition_fa">توپچی ها، فقط موتور هدف. [AUTOTRANSLATED]</column>
       <column name="definition_sv">Gunner, endast målmotor. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Стрелок, целиться только в двигатели</column>
       <column name="definition_zh_HK">炮手……瞄準他們的引擎。</column>
       <column name="synonyms">{baHwI', DoS yIbuS. QuQ neH.:sen}</column>
       <column name="antonyms"></column>
@@ -1731,7 +1763,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">loyal, treu</column>
       <column name="definition_fa">وفادار بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara lojal</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть верным, быть лояльным</column>
       <column name="definition_zh_HK">忠心</column>
       <column name="synonyms"></column>
       <column name="antonyms">{matlhHa':v}</column>
@@ -1766,7 +1798,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Maltz</column>
       <column name="definition_fa">مالت [AUTOTRANSLATED]</column>
       <column name="definition_sv">Maltz</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Мальц</column>
       <column name="definition_zh_HK">「馬爾茨」</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1775,7 +1807,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Мальц это пленник от Федерации, который живёт в подвале Марка Окранда, и который является источником знаний Федерации о Клингонском языке.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -1801,7 +1833,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">untreu sein</column>
       <column name="definition_fa">بی عدالتی [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara illojal</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть неверным, быть нелояльным</column>
       <column name="definition_zh_HK">違心</column>
       <column name="synonyms"></column>
       <column name="antonyms">{matlh:v}</column>
@@ -1871,7 +1903,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Büroklammer</column>
       <column name="definition_fa">گیره کاغذ [AUTOTRANSLATED]</column>
       <column name="definition_sv">gem</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">скрепка</column>
       <column name="definition_zh_HK">紙夾</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1906,7 +1938,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">angreifen, beleidigen</column>
       <column name="definition_fa">جرم [AUTOTRANSLATED]</column>
       <column name="definition_sv">förolämpa</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">обижать, задевать</column>
       <column name="definition_zh_HK">得罪</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1941,7 +1973,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">verrückt</column>
       <column name="definition_fa">دیوانه شو [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara galen</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть сумасшедшим, быть безумным</column>
       <column name="definition_zh_HK">瘋了 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1976,7 +2008,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">fair, gerecht</column>
       <column name="definition_fa">عادلانه باشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara rättvis</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть честным, быть счастливым</column>
       <column name="definition_zh_HK">平心而論 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2020,7 +2052,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это актёр, который играет Ворфа ({wo'rIv:n:name}).</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -2055,7 +2087,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Актёр, который играет Канга ({qeng:n:name}).</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -2337,7 +2369,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это было сказано Ворфом, во время его ритуала посвящения.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -2386,7 +2418,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">красная тревога</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {Star Trek III:src}</column>
     </table>
@@ -2398,7 +2430,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Wenn ein Krieger in die Schlacht zieht, lässt er seine Freunde nicht alleine.</column>
       <column name="definition_fa">هنگامی که یک جنگجو به یک نبرد می رود، دوستانش را ترک نمی کند. [AUTOTRANSLATED]</column>
       <column name="definition_sv">När en krigare går till en kamp, ​​överger han inte sina vänner. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Когда воин идёт в битву, он не оставляет своих друзей</column>
       <column name="definition_zh_HK">戰士去戰鬥時不會拋棄他的朋友。</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2433,7 +2465,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Ein Klingone rennt nicht weg von seinen Schlachten.</column>
       <column name="definition_fa">کلینگان از جنگ هایش فرار نمی کند. [AUTOTRANSLATED]</column>
       <column name="definition_sv">En Klingon går inte bort från sina strider. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Клингон не убегает от битв</column>
       <column name="definition_zh_HK">克林崗人不會逃避他的戰鬥。 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2504,7 +2536,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Kampfkreuzer</column>
       <column name="definition_fa">کروز نبرد [AUTOTRANSLATED]</column>
       <column name="definition_sv">stridskryssare</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">боевой крейсер</column>
       <column name="definition_zh_HK">戰艦</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2574,7 +2606,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Schlachtordnung</column>
       <column name="definition_fa">آرایه نبرد [AUTOTRANSLATED]</column>
       <column name="definition_sv">slagordning, krigsuppställning, stridsgruppering</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">боевой порядок</column>
       <column name="definition_zh_HK">陣勢、陣容、戰鬥序列</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2644,7 +2676,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">anpassen</column>
       <column name="definition_fa">تطبیق [AUTOTRANSLATED]</column>
       <column name="definition_sv">inhysa, ge husrum, betjäna, utrusta, förse</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">вмещать, приспосабливать</column>
       <column name="definition_zh_HK">容納 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2688,7 +2720,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Смертельный ритуал, который позволяет тому, кто потерял честь, умереть достойно и почить в Стовокорре, будучи убитым. Ритуал проводит член дома, в котором состоит Клингон, или кто-то достаточно близкий.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This is written as {ma' to'vor:n:nolink} in the glossary to {Diplomatic Implausibility:src}, but the space appears to be a typo, as the word appears as {ma'to'vor:n:nolink} in the glossary to {A Good Day to Die:src}.</column>
       <column name="components"></column>
@@ -2714,7 +2746,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">eine Art Messer</column>
       <column name="definition_fa">نوع چاقو [AUTOTRANSLATED]</column>
       <column name="definition_sv">ett slags ceremoniell kniv, mevak (används i Mauk-To'Vor-ritualen)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">М'Век (тип ножа)</column>
       <column name="definition_zh_HK">刀的類型 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2723,7 +2755,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">М'Век это церемониальный нож, используемый для ритуала Мактовор ({ma'to'vor:n}).</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This word's spelling was confirmed by MO. However, in the glossary to the non-canon {A Good Day to Die:src}, DeCandido writes this as {mevaq:n:nolink} "mevak dagger".</column>
       <column name="components"></column>
@@ -2749,7 +2781,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Gast</column>
       <column name="definition_fa">مهمان</column>
       <column name="definition_sv">gäst</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">гость</column>
       <column name="definition_zh_HK">客人</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2784,7 +2816,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Hotel</column>
       <column name="definition_fa">هتل</column>
       <column name="definition_sv">hotell</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">отель, гостиница</column>
       <column name="definition_zh_HK">客棧、旅館</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2819,7 +2851,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">handeln</column>
       <column name="definition_fa">تجارت [AUTOTRANSLATED]</column>
       <column name="definition_sv">handla, idka handel</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">торговать, вести торговлю</column>
       <column name="definition_zh_HK">貿易 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2837,7 +2869,8 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {nom yer mechmeH Quj} "Торговая игра с быстрыми сделками"[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -2855,7 +2888,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Mittagessen</column>
       <column name="definition_fa">ناهار [AUTOTRANSLATED]</column>
       <column name="definition_sv">lunch</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">ланч</column>
       <column name="definition_zh_HK">午餐</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2925,7 +2958,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">Brücke (eines Schiffes)</column>
       <column name="definition_fa">پل فرماندهی (کشتی)</column>
       <column name="definition_sv">brygga (på skepp)</column>
-      <column name="definition_ru">Мостик (морской термин)</column>
+      <column name="definition_ru">Мостик (корабельный термин)</column>
       <column name="definition_zh_HK">艦橋</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2934,7 +2967,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Для слова мост(сооружение через реку), смотрите {QI:n}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3031,7 +3064,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_de">verlassen, abfahren, weggehen</column>
       <column name="definition_fa">ترک، ترک [AUTOTRANSLATED]</column>
       <column name="definition_sv">lämna, avvika, ge sig av, avlägsna sig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">уходить, покидать, отправляться</column>
       <column name="definition_zh_HK">走、離開</column>
       <column name="synonyms">{tlheD:v}</column>
       <column name="antonyms">{paw:v}</column>
@@ -3042,7 +3075,10 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">
+В {TNK:src}, {DaH jImej:sen:nolink} используется для земного выражения "досвидания".[2] Дословно это значит "Я ухожу сейчас". Клингон конечно же просто уйдет, без лишних тонкостей, таких, как объявление о своем уходе.
+
+Чтобы выразить уход от какого-то человека или объекта (скорее из какой-то локации), предпочитается слово {lon:v}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3051,13 +3087,14 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {bIghHa' DamejDI' pagh QaS yInob.:sen@@bIghHa':n, Da-:v, mej:v, -DI':v, pagh:n:2,num, QaS:n:1, yI-:v, nob:v} "Уходи из тюрьмы свободно."[3]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags">bye, goodbye</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">прощай, досвидания</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKDA:src}, [2] {TNK:src}, [3] {Klingon Monopoly:src}</column>
     </table>
@@ -3140,7 +3177,7 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="definition_de">Melota</column>
       <column name="definition_fa">ملته [AUTOTRANSLATED]</column>
       <column name="definition_sv">Melota</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Мелота</column>
       <column name="definition_zh_HK">Melota [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3149,7 +3186,7 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Персонаж известной клингонской оперы</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3175,7 +3212,7 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="definition_de">Katalog</column>
       <column name="definition_fa">کاتالوگ [AUTOTRANSLATED]</column>
       <column name="definition_sv">katalog</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">каталог</column>
       <column name="definition_zh_HK">目錄、編目</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3210,7 +3247,7 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="definition_de">Mango</column>
       <column name="definition_fa">مانگو [AUTOTRANSLATED]</column>
       <column name="definition_sv">mango</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">манго</column>
       <column name="definition_zh_HK">芒果</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3219,7 +3256,7 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это то, что Клингон назовет земным фруктом</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3245,7 +3282,7 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="definition_de">Plastik, Kunstoff</column>
       <column name="definition_fa">پلاستیک [AUTOTRANSLATED]</column>
       <column name="definition_sv">plast</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">пластик, пластмасса</column>
       <column name="definition_zh_HK">塑料、膠</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3280,7 +3317,7 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="definition_de">Grund, Motiv, Anlass, Thema</column>
       <column name="definition_fa">دلیل، انگیزه، تفکر منطقی، موضوع، موضوع، موضوع [AUTOTRANSLATED]</column>
       <column name="definition_sv">orsak, motiv, anledning, skäl, tankesätt</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">причина, мотив, логичное мышление, тема, субъект, предмет обсуждения</column>
       <column name="definition_zh_HK">理性、動機、邏輯思維、主題、主題、主題 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3289,7 +3326,7 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это может быть использовано, чтобы упомянуть о теме разговора, обсуждения, разговора и т.д.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This is defined as "reason" in {TKD:src} and as "motive" in the word lists in {KGT:src}. It is also glossed as "logical thinking" (in the sense of "motive") in the body of {KGT:src} on p.154. At {qep'a' 2018:src}, its definition was expanded to include "topic, subject, theme".
 
@@ -3318,7 +3355,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_de">begründen, logisch denken</column>
       <column name="definition_fa">دلیل منطقی فکر می کنم [AUTOTRANSLATED]</column>
       <column name="definition_sv">resonera, tänka logiskt</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">рассуждать, аргументировать, мыслить логически</column>
       <column name="definition_zh_HK">理由、邏輯思考 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms">{tIw:v}</column>
@@ -3353,7 +3390,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_de">Klingonisches rechtliches Verfahren</column>
       <column name="definition_fa">روند قانونی، نوع [AUTOTRANSLATED]</column>
       <column name="definition_sv">ett slags rättegångsförfarande, Mek'ba</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">тип судебного разбирательства</column>
       <column name="definition_zh_HK">法律訴訟、類型 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3362,7 +3399,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это часть разбирательства или аппеляции, когда заслушано доказательство</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3388,7 +3425,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_de">Mek'leth (Waffe)</column>
       <column name="definition_fa">نوع سلاح، mk'leth [AUTOTRANSLATED]</column>
       <column name="definition_sv">ett slags vapen, mek'leth</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Меклет(тип оружия)</column>
       <column name="definition_zh_HK">武器類型、mek'leth [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3397,7 +3434,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">{meqleH:n:nolink} также называется {meqleH matlh:n:nolink}, чтобы отличить от {betleH:n}, который звучит похоже.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3423,7 +3460,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_de">Mekro'vak-Region</column>
       <column name="definition_fa">منطقه مكروواك [AUTOTRANSLATED]</column>
       <column name="definition_sv">Mekro'vak region</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Мекро'вак. Название региона</column>
       <column name="definition_zh_HK">Mekro'vak州 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3432,7 +3469,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">В некоторых диалектах в данном регионе, {letlh:n:2} относится только к лестнице, соединённой с кораблём, а {ngep'oS:n} от носится ко всем остальным видам лестниц.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This word appears only in the body of {KGT:src} on p.29 and not in the glossary. It appears as {meqro'vaq:n:nolink} and not as {meqro'vaq Sep:n:nolink}, but it is described as a region (see {Sep:n}).</column>
       <column name="components"></column>
@@ -3458,7 +3495,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_de">brennen, verbrennen</column>
       <column name="definition_fa">سوزاندن [AUTOTRANSLATED]</column>
       <column name="definition_sv">brinna</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">гореть, сжигать, обжечь, спалить, получить ожог</column>
       <column name="definition_zh_HK">燒</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3467,7 +3504,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Если нет объекта, тогда субъект это вещь, которая горит, например {meQtaHbogh qachDaq Suv qoH neH.:sen}[2] Если есть объект, тогда субъект сжигает объект, например., {to'waQ meQ vutwI'.}[3] {meQ:v:nolink} может также использоваться для прикладных вещей, например, {Ha'DIbaHmey meQ Sop 'e' tIv tera'nganpu'@@Ha'DIbaH:n:1, -mey:n, meQ:v, Sop:v, 'e':n, tIv:v, tera'ngan:n, -pu':n}.[4]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">In the sentence from {CK:src}, {tIv:sen:nolink} should have been {lutIv:sen:nolink} since {tera'nganpu':n:nolink} is plural.</column>
       <column name="components"></column>
@@ -3493,7 +3530,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_de">Revolutionsflagge des Kahless</column>
       <column name="definition_fa">پرچم انقلابی Kahless [AUTOTRANSLATED]</column>
       <column name="definition_sv">Kahless 'revolutionerande banner [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Флаг революции Кейлеса</column>
       <column name="definition_zh_HK">「凱勒斯」的革命旗幟</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3502,7 +3539,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это "флаг единства и революции" использовался {qeylIS'e' lIjlaHbe'bogh vay':n:name} чтобы сплотить его войска.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{meQ:v}, {bogh:v}, {nom:adv}</column>
@@ -3522,7 +3559,19 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {nIteb chegh molor ngIq ghoqwI':sen:nolink}
+   {joqwI''e' cha'bogh qeylIS:sen:nolink}
+   {luDel 'e' ra' molor:sen:nolink}
+  "Один за одним вернулись разведчики Молора,
+   Он спрашивает их, под каким флагом
+   Марширует Кейлес"
+   {lujang meQboghnom 'oH:sen:nolink}
+   {yeqchuqchu'taHghach:sen:nolink}
+   {Daw' je joqwI':sen:nolink}
+  "Они ответили, что это "Мекборном",
+   Флаг единства
+   И революции."</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -3540,7 +3589,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_de">Nur ein Narr kämpft in einem brennenden Haus.</column>
       <column name="definition_fa">فقط یک احمقانه در یک خانه سوزان می جنگد. [AUTOTRANSLATED]</column>
       <column name="definition_sv">Bara en dåre slåss i ett brinnande hus. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Только глупец сражается в горящем доме</column>
       <column name="definition_zh_HK">只有傻瓜在燃燒的房屋裡打架。</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3575,7 +3624,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_de">überraschen</column>
       <column name="definition_fa">تعجب [AUTOTRANSLATED]</column>
       <column name="definition_sv">överraska</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">удивлять, поражать, заставать врасплох</column>
       <column name="definition_zh_HK">震驚</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3823,7 +3872,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_de">stoppen, aufhören (etwas zu tun)</column>
       <column name="definition_fa">توقف، متوقف [AUTOTRANSLATED]</column>
       <column name="definition_sv">sluta, upphöra</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">останавливаться, прекращать, прерывать, останавливать, пресекать</column>
       <column name="definition_zh_HK">停止</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3832,7 +3881,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Когда используется в качестве команды, это слово значит прекратить что-либо делать. Это слово не используется чтобы приказать что-либо выключить.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -4107,7 +4156,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_de">Sektor, Zone</column>
       <column name="definition_fa">بخش، منطقه [AUTOTRANSLATED]</column>
       <column name="definition_sv">sektor, zon</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">сектор, зона</column>
       <column name="definition_zh_HK">部門、區域 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4142,7 +4191,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_de">Kolonie</column>
       <column name="definition_fa">مستعمره [AUTOTRANSLATED]</column>
       <column name="definition_sv">koloni</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">колония, поселение</column>
       <column name="definition_zh_HK">殖民地 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4177,7 +4226,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_de">böse, bösartig</column>
       <column name="definition_fa">شرم کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara ond, vara ondskeful</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть злым, быть порочным, быть зловещим</column>
       <column name="definition_zh_HK">是邪惡的 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4428,7 +4477,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_de">verzögern, verschieben</column>
       <column name="definition_fa">تاخیر انداختن [AUTOTRANSLATED]</column>
       <column name="definition_sv">försena, fördröja, skjuta upp</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">задерживать, откладывать, медлить, мешкать</column>
       <column name="definition_zh_HK">延遲 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4499,7 +4548,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_de">Auge</column>
       <column name="definition_fa">چشم [AUTOTRANSLATED]</column>
       <column name="definition_sv">öga</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">глаз</column>
       <column name="definition_zh_HK">眼睛</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4534,7 +4583,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_de">Augenlid</column>
       <column name="definition_fa">پلک چشم</column>
       <column name="definition_sv">ögonlock [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">веко</column>
       <column name="definition_zh_HK">眼皮</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4569,7 +4618,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_de">Sonnenbrille</column>
       <column name="definition_fa">عینک آفتابی</column>
       <column name="definition_sv">solglasögon</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">солнцезащитные очки</column>
       <column name="definition_zh_HK">太陽眼鏡</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4604,7 +4653,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_de">optische Täuschung</column>
       <column name="definition_fa">توهم نوری [AUTOTRANSLATED]</column>
       <column name="definition_sv">optisk illusion [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">оптический обман</column>
       <column name="definition_zh_HK">光學錯覺 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4709,7 +4758,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_de">reich</column>
       <column name="definition_fa">ثروتمند بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara rik</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть богатым</column>
       <column name="definition_zh_HK">富有</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4779,7 +4828,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_de">Maschinerie</column>
       <column name="definition_fa">دستگاه [AUTOTRANSLATED]</column>
       <column name="definition_sv">maskineri, mekanism</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">механизм, аппарат, машинное оборудование</column>
       <column name="definition_zh_HK">機械</column>
       <column name="synonyms">{jo':n}</column>
       <column name="antonyms"></column>
@@ -4884,7 +4933,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_de">Kette</column>
       <column name="definition_fa">زنجیر [AUTOTRANSLATED]</column>
       <column name="definition_sv">kedja</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">цепь</column>
       <column name="definition_zh_HK">鎖鏈</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4893,7 +4942,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это может быть использовано, как метафора(см. {mIr:n:2}).</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -4989,7 +5038,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_de">verwirrt, durcheinander, konfus</column>
       <column name="definition_fa">اشتباه گرفته شود، مخلوط شود [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara förvirrad, vara ihopblandad</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть смущенным, быть беспорядочным</column>
       <column name="definition_zh_HK">混淆、迷、一頭煙</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5026,7 +5075,7 @@ This was clarified to mean "mental confusion" at {qep'a' 2017:src}.</column>
       <column name="definition_de">Verwirrung</column>
       <column name="definition_fa">گیجی [AUTOTRANSLATED]</column>
       <column name="definition_sv">förvirring</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">смущение, путаница</column>
       <column name="definition_zh_HK">混亂 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5035,7 +5084,7 @@ This was clarified to mean "mental confusion" at {qep'a' 2017:src}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Шекспировская пьеса {paghmo' tIn mIS:sen:nolink}, дословно "Велико смущение из ничего", было переведено, как "Много шума из ничего" {tlhIngan Hol yejHaD:n}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">"Mish" mash.
 
@@ -5063,7 +5112,7 @@ This was clarified to mean "mental confusion" at {qep'a' 2017:src}.</column>
       <column name="definition_de">verwirren</column>
       <column name="definition_fa">اشتباه [AUTOTRANSLATED]</column>
       <column name="definition_sv">förvirra</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">смущаться, путаться</column>
       <column name="definition_zh_HK">迷惑 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5098,7 +5147,7 @@ This was clarified to mean "mental confusion" at {qep'a' 2017:src}.</column>
       <column name="definition_de">?Mischtak</column>
       <column name="definition_fa">؟ میستک [AUTOTRANSLATED]</column>
       <column name="definition_sv">en känd skulptör</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Миштак</column>
       <column name="definition_zh_HK">？Mishtak [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5107,7 +5156,7 @@ This was clarified to mean "mental confusion" at {qep'a' 2017:src}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это имя скульптора, который создал круги кровной клятвы ({'Iw 'Ip ghomey:n}).</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">The English spelling of this name was never given in {KCD:src}. The spelling is therefore uncertain.</column>
       <column name="components"></column>
@@ -5238,7 +5287,7 @@ This was clarified to mean "mental confusion" at {qep'a' 2017:src}.</column>
       <column name="definition_de">Helm</column>
       <column name="definition_fa">کلاه ایمنی</column>
       <column name="definition_sv">hjälm, hatt</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">шлем</column>
       <column name="definition_zh_HK">頭盔</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5249,7 +5298,9 @@ See {mIvDaq pogh cha':sen} for an idiom involving {mIv:n:nolink}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">В {TNK:src}, {mIv:n:1,nolink} используется, как "шляпа".
+
+Смотрите {mIvDaq pogh cha':sen} для идиомы, где используется слово {mIv:n:nolink}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -5263,7 +5314,7 @@ See {mIvDaq pogh cha':sen} for an idiom involving {mIv:n:nolink}.</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">шапка, шляпа</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}, [2] {TNK:src}</column>
     </table>
@@ -5527,7 +5578,7 @@ A tally or score is kept by counting {mIvwa'mey:n@@mIvwa':n, -mey:n}. This is al
       <column name="definition_de">Prozedur, Prozess, Ablauf; Schritt, Stadium (in einem Ablauf)</column>
       <column name="definition_fa">روش، فرآیند، مرحله، مرحله (در یک روند) [AUTOTRANSLATED]</column>
       <column name="definition_sv">delsteg, moment (i ett förlopp)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">процедура, процесс, шаг, этап процесса</column>
       <column name="definition_zh_HK">程序、過程、步驟、階段（在一個過程中） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5562,7 +5613,7 @@ A tally or score is kept by counting {mIvwa'mey:n@@mIvwa':n, -mey:n}. This is al
       <column name="definition_de">rühmen, prahlen</column>
       <column name="definition_fa">تسلیم شدن [AUTOTRANSLATED]</column>
       <column name="definition_sv">skryta</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">хвастаться, похвастать, бахвалиться</column>
       <column name="definition_zh_HK">吹牛、作大</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5620,7 +5671,7 @@ A tally or score is kept by counting {mIvwa'mey:n@@mIvwa':n, -mey:n}. This is al
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">Мьянма</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
@@ -5632,7 +5683,7 @@ A tally or score is kept by counting {mIvwa'mey:n@@mIvwa':n, -mey:n}. This is al
       <column name="definition_de">Nummer, Zahl</column>
       <column name="definition_fa">عدد [AUTOTRANSLATED]</column>
       <column name="definition_sv">nummer, siffra</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Число, номер</column>
       <column name="definition_zh_HK">數目、號碼</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5643,7 +5694,9 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Элементы для формирования чисел, включают {maH:n:2,num}, {vatlh:n:num}, {SaD:n:num} ({SanID:n:num}), {netlh:n:num}, {bIp:n:num}, {'uy':n:num}.
+
+Когда число используется для нумерации чего-то, в отличие от счёта, оно следует за существительным. Порядковые номера сформированы с {-DIch:n:num,suff}. Повторы сформированы с помощью {-logh:n:num,suff}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -5652,7 +5705,8 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {ghogh HablI' mI' yIper:sen:nolink} "Каков номер телефона?"[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -6022,7 +6076,7 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="definition_de">M'Lind</column>
       <column name="definition_fa">M'Lind [AUTOTRANSLATED]</column>
       <column name="definition_sv">M'Lind [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">М'Линд</column>
       <column name="definition_zh_HK">M'Lind [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6031,7 +6085,7 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это отец {Qa'taq:n:name}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -6057,7 +6111,7 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="definition_de">alleine, einsam</column>
       <column name="definition_fa">تنها بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara ensam</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть одному, быть одиноким</column>
       <column name="definition_zh_HK">一個人 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6162,7 +6216,7 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="definition_de">Vorgesetzter</column>
       <column name="definition_fa">برتر [AUTOTRANSLATED]</column>
       <column name="definition_sv">överordnad</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">старший</column>
       <column name="definition_zh_HK">優越 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6197,7 +6251,7 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="definition_de">sich beeilen</column>
       <column name="definition_fa">عجله کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">skynda sig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">торопиться, спешить</column>
       <column name="definition_zh_HK">匆忙 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6215,7 +6269,8 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {moD Soj:sen:nolink} "пища торопится" (подпись в {Do Qe':n})[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -6233,7 +6288,7 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="definition_de">frustriert</column>
       <column name="definition_fa">ناامید نشو [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara frustrerad</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть разочарованным, быть несостоявшимся</column>
       <column name="definition_zh_HK">感到沮喪 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6268,7 +6323,7 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="definition_de">Mogh</column>
       <column name="definition_fa">مگو [AUTOTRANSLATED]</column>
       <column name="definition_sv">Mogh</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Мог</column>
       <column name="definition_zh_HK">Mogh [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6277,7 +6332,7 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Отец Ворфа. Смотрите {wo'rIv:n:name}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -6303,7 +6358,7 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="definition_de">hässlich</column>
       <column name="definition_fa">زشت باشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara ful</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть уродливым, быть некрасивым</column>
       <column name="definition_zh_HK">難看、醜象、肉酸</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'IH:v}</column>
@@ -6373,7 +6428,7 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="definition_de">Präfix, Vorsilbe</column>
       <column name="definition_fa">پیشوند [AUTOTRANSLATED]</column>
       <column name="definition_sv">prefix</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">префикс</column>
       <column name="definition_zh_HK">前綴</column>
       <column name="synonyms"></column>
       <column name="antonyms">{mojaq:n}</column>
@@ -6394,7 +6449,19 @@ See under {wot:n} for the verb suffixes.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">В Клингонском, глагольные префиксы обозначают субъект и объект предложения.
+
+Смотрите под каждым из следующих местоимений для соответствующего глагольного префикса:
+▶ {jIH:n:1h}
+▶ {maH:n:1h}
+▶ {SoH:n}
+▶ {tlhIH:n}
+▶ {ghaH:n}/{'oH:n}
+▶ {chaH:n}/{bIH:n}
+
+Также смотрите {pagh:n:1h} для глагола без объекта, и {-lu':v:suff} когда субъект неопределён.
+
+Смотрите {wot:n} для глагольных суффиксов.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -6420,7 +6487,7 @@ See under {wot:n} for the verb suffixes.</column>
       <column name="definition_de">werden</column>
       <column name="definition_fa">تبدیل شدن به [AUTOTRANSLATED]</column>
       <column name="definition_sv">bli</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">становиться, делаться, случаться</column>
       <column name="definition_zh_HK">成為</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6456,7 +6523,7 @@ See under {wot:n} for the verb suffixes.</column>
       <column name="definition_de">Suffix, Anhängsel</column>
       <column name="definition_fa">پسوند [AUTOTRANSLATED]</column>
       <column name="definition_sv">suffix</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">суффикс</column>
       <column name="definition_zh_HK">後綴</column>
       <column name="synonyms"></column>
       <column name="antonyms">{moHaq:n}</column>
@@ -6467,7 +6534,9 @@ There are five types of noun suffixes and nine types of verb suffixes in Klingon
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это слово также может быть записано, как {mojaQ:n:nolink}.
+
+Есть 5 типов суффиксов существительных и 9 типов глагольных суффиксов в Клингонском языке, для которых смотрите {DIp:n} и {wot:n}, соответственно.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -6528,7 +6597,7 @@ There are five types of noun suffixes and nine types of verb suffixes in Klingon
       <column name="definition_de">graben</column>
       <column name="definition_fa">دفن کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">begrava, gräva ned</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">хоронить, погрузить, похоронить</column>
       <column name="definition_zh_HK">埋葬 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms">{molHa':v}</column>
@@ -6551,7 +6620,13 @@ There are five types of noun suffixes and nine types of verb suffixes in Klingon
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {chalqachlIj rachlu'ta'bogh tutDaq:sen:nolink}
+   {mol'egh betleH:sen:nolink}
+   {muptaHvIS tay''eghmoH QeHDaj Hoch:sen:nolink}
+  "Батлет потонул в столбе
+   Твоей укрепленной башни,
+   Вся его ярость сфокусировалась в одном дуновении"[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -6604,7 +6679,7 @@ There are five types of noun suffixes and nine types of verb suffixes in Klingon
       <column name="definition_de">Grab</column>
       <column name="definition_fa">قبر [AUTOTRANSLATED]</column>
       <column name="definition_sv">grav</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">могила</column>
       <column name="definition_zh_HK">墳 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6639,7 +6714,7 @@ There are five types of noun suffixes and nine types of verb suffixes in Klingon
       <column name="definition_de">Molor</column>
       <column name="definition_fa">مولر [AUTOTRANSLATED]</column>
       <column name="definition_sv">Molor</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Молор</column>
       <column name="definition_zh_HK">Molor [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6650,7 +6725,9 @@ There is an idiom, {mIgh; molor rur}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это злой тиран ({HI''a':n}) побежденный {qeylIS'e' lIjlaHbe'bogh vay':n:name}, как рассказано в {paq'batlh:n}.
+
+Есть идиома, {mIgh; molor rur}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -6676,7 +6753,7 @@ There is an idiom, {mIgh; molor rur}.</column>
       <column name="definition_de">Hauptstadt</column>
       <column name="definition_fa">سرمایه (از یک محل) [AUTOTRANSLATED]</column>
       <column name="definition_sv">huvudstad</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Столица</column>
       <column name="definition_zh_HK">首都</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6748,7 +6825,7 @@ This word is defined in {KGT:src} as "smile, grin, sneer".[1]  It is explained t
       <column name="definition_de">Hals, Nacken</column>
       <column name="definition_fa">گردن</column>
       <column name="definition_sv">hals, nacke</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">шея</column>
       <column name="definition_zh_HK">頸部</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6818,7 +6895,7 @@ This word is defined in {KGT:src} as "smile, grin, sneer".[1]  It is explained t
       <column name="definition_de">Kragen</column>
       <column name="definition_fa">یقه [AUTOTRANSLATED]</column>
       <column name="definition_sv">krage</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">воротник, ошейник, хомут, шиворот</column>
       <column name="definition_zh_HK">領兒</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6888,7 +6965,7 @@ This word is defined in {KGT:src} as "smile, grin, sneer".[1]  It is explained t
       <column name="definition_de">Robe</column>
       <column name="definition_fa">لباس بلند و گشاد [AUTOTRANSLATED]</column>
       <column name="definition_sv">kappa, dräkt</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">роба, халат, мантия</column>
       <column name="definition_zh_HK">長袍</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6997,7 +7074,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Kugel</column>
       <column name="definition_fa">کره [AUTOTRANSLATED]</column>
       <column name="definition_sv">sfär</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Сфера</column>
       <column name="definition_zh_HK">領域 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7006,7 +7083,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это слово также используется, чтобы упомяуть о шипованной головке на конце {Daqtagh:n}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -7020,7 +7097,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">головка</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
@@ -7032,7 +7109,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Mok'bara (Kampfsportart)</column>
       <column name="definition_fa">Mok'bara (فرم هنرهای رزمی) [AUTOTRANSLATED]</column>
       <column name="definition_sv">stridskonstform, kampkonstform, Mok'bara</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Мок'бара</column>
       <column name="definition_zh_HK">Mok'bara（武術形式） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7137,7 +7214,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Morath</column>
       <column name="definition_fa">مورات [AUTOTRANSLATED]</column>
       <column name="definition_sv">Morath [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Морат</column>
       <column name="definition_zh_HK">Morath [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7146,7 +7223,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это брат {qeylIS'e' lIjlaHbe'bogh vay':n:name}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -7172,7 +7249,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">protestieren</column>
       <column name="definition_fa">اعتراض کردن </column>
       <column name="definition_sv">protestera, invända emot</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">протестовать, возражать, опротестовывать</column>
       <column name="definition_zh_HK">抗議</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7242,7 +7319,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Kompromiss schließen</column>
       <column name="definition_fa">مصالحه [AUTOTRANSLATED]</column>
       <column name="definition_sv">kompromissa</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">идти на компромисс</column>
       <column name="definition_zh_HK">妥協 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7312,7 +7389,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">gewöhnlich sein, standard</column>
       <column name="definition_fa">به طور معمول، استاندارد باشد، طبیعی باشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara vanlig, vara normal, vara standard</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть обычным, быть стандартным, быть нормальным</column>
       <column name="definition_zh_HK">平常、標準、普通、正常</column>
       <column name="synonyms"></column>
       <column name="antonyms">{motlhbe':v}, {qub:v}</column>
@@ -7382,7 +7459,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">ungewöhnlich sein</column>
       <column name="definition_fa">غیر معمول باشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara ovanlig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть необычным</column>
       <column name="definition_zh_HK">不尋常、不平常</column>
       <column name="synonyms"></column>
       <column name="antonyms">{motlh:v}</column>
@@ -7522,7 +7599,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">(Stein)Schleuder, Katapult</column>
       <column name="definition_fa">تیرکمان بچه گانه [AUTOTRANSLATED]</column>
       <column name="definition_sv">slunga, slungmanöver, gravitationsslunga (runt himlakropp med rymdskepp)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">рогатка</column>
       <column name="definition_zh_HK">彈弓 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7558,7 +7635,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Käfig</column>
       <column name="definition_fa">قفس</column>
       <column name="definition_sv">bur</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">клетка</column>
       <column name="definition_zh_HK">籠</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7629,7 +7706,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Haus von Mo'Kai</column>
       <column name="definition_fa">خانه Mo'Kai [AUTOTRANSLATED]</column>
       <column name="definition_sv">House of Mo'Kai [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Дом Мо'каи</column>
       <column name="definition_zh_HK">Mo'Kai之家 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7638,7 +7715,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это дом {'uj'IllI':n:name}</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -7664,7 +7741,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">er/sie/es/sie(pl.)-mich</column>
       <column name="definition_fa">او / او / آن-من، آنها-من [AUTOTRANSLATED]</column>
       <column name="definition_sv">han/hon/det/de-mig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">он/она/оно/они(действие)-мне</column>
       <column name="definition_zh_HK">他、它、他們、它們：我</column>
       <column name="synonyms"></column>
       <column name="antonyms">{vI-:v:pref}</column>
@@ -7687,7 +7764,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">он-мне, она-мне, оно-мне</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
@@ -7699,7 +7776,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">legal</column>
       <column name="definition_fa">قانونی بودن</column>
       <column name="definition_sv">vara laglig</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть законным</column>
       <column name="definition_zh_HK">合法</column>
       <column name="synonyms"></column>
       <column name="antonyms">{Hat:v}</column>
@@ -7734,7 +7811,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">präsentieren, vorführen (Musik)</column>
       <column name="definition_fa">حضور، اجرا (موسیقی) [AUTOTRANSLATED]</column>
       <column name="definition_sv">framföra (musik)</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">представлять, исполнять (музыка) </column>
       <column name="definition_zh_HK">演出、表演（音樂） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7743,7 +7820,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Вне музыкального контекста, это слово может также означать "презентовать подарок" кому-то.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This word was defined in {TKD:src} as "present". The definition "perform (music)" was added in {KGT:src}.</column>
       <column name="components"></column>
@@ -7769,7 +7846,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Präsentation</column>
       <column name="definition_fa">ارائه [AUTOTRANSLATED]</column>
       <column name="definition_sv">presentation</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">презентация</column>
       <column name="definition_zh_HK">介紹 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7778,7 +7855,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это может быть использовано для чего-то наподобие шоу или кино.[2] Тем не менее, не совсем корректно для обозначения "медиа" в общем.[3]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -7792,7 +7869,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
+      <column name="search_tags_ru">шоу, фильм</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}, [2] {KLI mailing list 2017.11.20:src}, [3] {KLI mailing list 2018.02.25:src}</column>
     </table>
@@ -7944,7 +8021,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Atmosphäre</column>
       <column name="definition_fa">اتمسفر [AUTOTRANSLATED]</column>
       <column name="definition_sv">atmosfär</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">атмосфера</column>
       <column name="definition_zh_HK">大氣層 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7953,7 +8030,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Слово для погоды, означающее состояние атмосферы, это тоже самое слово, как и для атмосферы (смотрите {muD:n:2}).[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -8154,7 +8231,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">übersetzen</column>
       <column name="definition_fa">ترجمه کردن</column>
       <column name="definition_sv">översätta</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">переводить</column>
       <column name="definition_zh_HK">翻譯</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8189,7 +8266,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Mugato</column>
       <column name="definition_fa">موگاتو [AUTOTRANSLATED]</column>
       <column name="definition_sv">mugato</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Мугато</column>
       <column name="definition_zh_HK">mugato [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8198,7 +8275,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Одна из наиболее заметных животных форм на {nural:n}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -8259,7 +8336,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Übersetzer</column>
       <column name="definition_fa">مترجم</column>
       <column name="definition_sv">översättare</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">переводчик</column>
       <column name="definition_zh_HK">翻譯者</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8268,7 +8345,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Если это относится к человеку, то, его форма во множественном числе принимает {-pu':n:suff} суффикс. Если это относится к устройству, то форма во множественном числе принимает {-mey:n:suff} суффикс.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{mugh:v}, {-wI':v}</column>
@@ -8294,7 +8371,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">hinrichten</column>
       <column name="definition_fa">اعدام کردن</column>
       <column name="definition_sv">avrätta, avliva</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">казнить, предавать смерти</column>
       <column name="definition_zh_HK">處死</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8330,7 +8407,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Henker</column>
       <column name="definition_fa">جلاد, دژخیم, سیاف</column>
       <column name="definition_sv">bödel [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">палач</column>
       <column name="definition_zh_HK">劊子手</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8365,7 +8442,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">inkorrekt, falsch sein</column>
       <column name="definition_fa">اشتباه</column>
       <column name="definition_sv">ha fel, vara fel</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть неверным, быть некорректным, быть неправильным</column>
       <column name="definition_zh_HK">錯</column>
       <column name="synonyms"></column>
       <column name="antonyms">{lugh:v}</column>
@@ -8374,7 +8451,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Заметьте, что это значит "быть неверным, фактически неправильным", в отличии от {waS:v} "что-то не так, идти наперекосяк".</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This is missing from the E-K side of {TKD:src}.</column>
       <column name="components"></column>
@@ -8400,7 +8477,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">stur</column>
       <column name="definition_fa">سر سخت بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara envis</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть упрямым, быть упорным</column>
       <column name="definition_zh_HK">頑固 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8470,7 +8547,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">eingreifen</column>
       <column name="definition_fa">دخالت [AUTOTRANSLATED]</column>
       <column name="definition_sv">ingripa, komma emellan</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">вмешиваться, являться помехой</column>
       <column name="definition_zh_HK">干預 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8505,7 +8582,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Upsprung</column>
       <column name="definition_fa">اصل و نسب [AUTOTRANSLATED]</column>
       <column name="definition_sv">ursprung</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">источник, подлинник, первоисточник</column>
       <column name="definition_zh_HK">來源、起源</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8540,7 +8617,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">(auf)schlagen</column>
       <column name="definition_fa">ضربه، اعتصاب [AUTOTRANSLATED]</column>
       <column name="definition_sv">träffa, stöta, slå</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">удар, столкновение, толчок, забастовка, стачка</column>
       <column name="definition_zh_HK">影響、罷工 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8563,7 +8640,13 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {chalqachlIj rachlu'ta'bogh tutDaq:sen:nolink}
+   {mol'egh betleH:sen:nolink}
+   {muptaHvIS tay''eghmoH QeHDaj Hoch:sen:nolink}
+  "Батлет потонул в столбе
+   Твоей укрепленной башни,
+   Вся его ярость сфокусировалась в одном дуновении"[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -8721,7 +8804,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">hassen, verabscheuen, starke Abneigung haben, Animositäten hegen</column>
       <column name="definition_fa">نفرت، نفرت [AUTOTRANSLATED]</column>
       <column name="definition_sv">hata, avsky</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">ненавидеть, питать отвращение</column>
       <column name="definition_zh_HK">憎恨、討厭</column>
       <column name="synonyms"></column>
       <column name="antonyms">{muSHa':v}</column>
@@ -8797,7 +8880,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Ich brauche ein Ziel, das zurückschießt.</column>
       <column name="definition_fa">من به یک هدف نیاز دارم که به مبارزه می پردازد. [AUTOTRANSLATED]</column>
       <column name="definition_sv">Jag behöver ett mål som kämpar tillbaka. [AUTOTRANSLATED]</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">Мне нужна цель, которая сопротивляется</column>
       <column name="definition_zh_HK">我需要一個反擊的目標。</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8832,7 +8915,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">egoistisch</column>
       <column name="definition_fa">خودخواه بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara självisk</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">быть эгоистичным</column>
       <column name="definition_zh_HK">自私</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8868,7 +8951,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_de">Spezies</column>
       <column name="definition_fa">گونه ها [AUTOTRANSLATED]</column>
       <column name="definition_sv">ras, art</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">вид(биология)</column>
       <column name="definition_zh_HK">物種</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8948,7 +9031,7 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="definition_de">anschließen</column>
       <column name="definition_fa">پیوستن [AUTOTRANSLATED]</column>
       <column name="definition_sv">förena</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">присоединять, присоединяться</column>
       <column name="definition_zh_HK">加入 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -9019,7 +9102,7 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="definition_de">rekrutieren</column>
       <column name="definition_fa">استخدام [AUTOTRANSLATED]</column>
       <column name="definition_sv">rekrytera, värva</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">рекрутировать, вербовать, нанимать на работу</column>
       <column name="definition_zh_HK">招 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -9028,7 +9111,7 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="notes_de">Siehe {qawmoH:v} für Beispiele, wie man dieses Verb verwenden kann.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Смотрите {qawmoH:v} для примера того, как использовать глагол, подобный этому.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -9055,7 +9138,7 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="definition_de">(feierliche) Einführung, Initiationsritus</column>
       <column name="definition_fa">شروع [AUTOTRANSLATED]</column>
       <column name="definition_sv">invigning, initiering</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">инициация, введение, посвящение во что-то</column>
       <column name="definition_zh_HK">入會儀式</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -9126,7 +9209,7 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="definition_de">Wort</column>
       <column name="definition_fa">کلمه [AUTOTRANSLATED]</column>
       <column name="definition_sv">ord</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">слово</column>
       <column name="definition_zh_HK">字</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -9161,7 +9244,7 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="definition_de">Wörterbuch</column>
       <column name="definition_fa">فرهنگ لغت [AUTOTRANSLATED]</column>
       <column name="definition_sv">ordbok</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">словарь</column>
       <column name="definition_zh_HK">字典</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -9407,7 +9490,7 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="definition_de">Vokabeln, Wortschatz</column>
       <column name="definition_fa">واژگان [AUTOTRANSLATED]</column>
       <column name="definition_sv">ordförråd</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">словарь</column>
       <column name="definition_zh_HK">詞彙 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -9442,7 +9525,7 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="definition_de">Satz</column>
       <column name="definition_fa">جمله [AUTOTRANSLATED]</column>
       <column name="definition_sv">mening</column>
-      <column name="definition_ru"></column>
+      <column name="definition_ru">предложение(грамматика)</column>
       <column name="definition_zh_HK">句子 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
