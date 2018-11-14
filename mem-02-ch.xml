@@ -435,7 +435,7 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{woH:v}, {roQ:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This verb implies that the subject is holding the object, and then (either accidentally or on purpose) lets it fall. If a cat knocks a glass off a table, the proper verb to use would be {pummoH:v@@pum:v:2, -moH:v} instead.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -455,7 +455,7 @@
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2018:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -4184,6 +4184,41 @@ This verb can be used for misplacing your keys, but also for things like losing 
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">chI'ID</column>
+      <column name="part_of_speech">n:body</column>
+      <column name="definition">uterus</column>
+      <column name="definition_de">Gebärmutter</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{qey'Hav:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2018:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">cho-</column>
       <column name="part_of_speech">v:pref</column>
       <column name="definition">you-me</column>
@@ -4344,8 +4379,10 @@ This verb can be used for misplacing your keys, but also for things like losing 
       <column name="hidden_notes">This was used to translate "update" (change the value of a variable) in Klingon Blockly.[2]</column>
       <column name="components"></column>
       <column name="examples">
-▶ {woj choHwI':n}
+▶ {Hap choHwI':n}
 ▶ {HoS choHwI':n}
+▶ {Soj choHwI':n}
+▶ {woj choHwI':n}
 ▶ {mImQo'. DaH Heraj yIchoH.:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -6069,6 +6106,41 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">chuq'a' leghwI'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">space telescope</column>
+      <column name="definition_de">Weltraum-Teleskop</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Hov tut:n}</column>
+      <column name="notes">This refers to a telescope in space, like the Hubble.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2018:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">chuQun</column>
       <column name="part_of_speech">n</column>
       <column name="definition">nobility</column>
@@ -6219,7 +6291,7 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <column name="definition_zh_HK">囓齒動物的類型 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qorvIt:n}</column>
+      <column name="see_also">{qorvIt:n}, {HaS:v}</column>
       <column name="notes">According to the glossary of {A Burning House:src}, this is a rodent that mostly lives underground and makes an annoying noise. Its name literally means "one which is noisy".</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>

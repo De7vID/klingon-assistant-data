@@ -1043,6 +1043,41 @@ In Klingon, titles generally go after the name, so "Captain Jean-Luc Picard" wou
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">jantor</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">witness</column>
+      <column name="definition_de">Zeuge</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{nguHwI':n}</column>
+      <column name="notes">This refers to a person who has seen or been part of an event.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes">The 1981 film "Eyewitness" was released in the UK as "The Janitor". The film starred Christopher Plummer (among others).</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags">eyewitness</column>
+      <column name="search_tags_de">Augenzeuge</column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2018:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">jang</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">answer, reply</column>
@@ -1615,7 +1650,7 @@ Note that in Klingon, "deep space" is called {logh Hop:n}, literally, "far space
       <column name="definition_zh_HK">說、話、講</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Hol:n}, {SoQ:n}, {ja':v}, {jat:v:1}, {jaw:v}, {ghugh:v}</column>
+      <column name="see_also">{Hol:n}, {SoQ:n}, {ja':v}, {jat:v:1}, {jaw:v}, {ghugh:v}, {rIch:v}</column>
       <column name="notes">A typical object of this verb is that which is spoken, which might be a language or lecture. The listener is the indirect object and is marked with {-vaD:n}.[3; 4]
 
 The "prefix trick" may be used with this verb: if the verb prefix indicates a first- or second-person object, that person is the indirect object, that is, the person to whom the subject is speaking.[3]
@@ -1997,7 +2032,7 @@ In {TKD:src} this word is defined as "lord" only, same as {joH:n:nolink}. Howeve
       <column name="definition_zh_HK">討論、商量 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{rIch:v}</column>
       <column name="notes">This verb is made up of {ja':v} plus the suffix {-chuq:v}[1, p.66]. In spite of this, it seems that it can take the topic of discussion as its object, although the exact grammar is unclear.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -2393,7 +2428,7 @@ In addition to nouns, {je:sen:nolink} can also follow a verb. See {je:adv}.</col
       <column name="definition_ru">быть острым</column>
       <column name="definition_zh_HK">利（刃）</column>
       <column name="synonyms"></column>
-      <column name="antonyms">{jejHa':v}</column>
+      <column name="antonyms">{jejHa':v}, {Qung:v}</column>
       <column name="see_also"></column>
       <column name="notes">The idiomatic expression {jej pach} "the claw is sharp" means "the food is pungent (that is, good)".
 
@@ -2433,7 +2468,7 @@ There is also an idiom, {jej; Daqtagh rur}.</column>
       <column name="definition_zh_HK">鈍（刃）</column>
       <column name="synonyms"></column>
       <column name="antonyms">{jej:v}</column>
-      <column name="see_also">{naH taj:n}</column>
+      <column name="see_also">{naH taj:n}, {Qung:v}</column>
       <column name="notes">The idiomatic expression {jejHa' pach} "the claw is dull" means "the food is bland (that is, bad)".</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -3367,7 +3402,7 @@ This verb is used in Sonnet 116, where its explicit subject is {muD:n:nolink}.[2
       <column name="definition_zh_HK">頭髮</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chIp:v}, {SIrgh:n}, {veD:n}</column>
+      <column name="see_also">{chIp:v}, {SIrgh:n}, {veD:n}, {qur'ep:n}</column>
       <column name="notes">This refers only to hair on the top of the head, and not to facial hair (see {rol:n} and {loch:n}) or body hair (see {pob:n}).</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5870,7 +5905,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">George Chann was a landscape painter.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -5885,6 +5920,41 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {qep'a' 2018:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">jorja</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">Georgia (US state)</column>
+      <column name="definition_de">Georgia (US-Bundesstaat)</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is the name of a state located in {'amerI'qa' SepjIjQa':n}. It should not be confused with {SaQatvelo':n}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2018:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

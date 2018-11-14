@@ -241,7 +241,7 @@ The imperative verb prefix when {ghaH:n:nolink} is the object is {yI-:v:pref}.</
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2018:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -1008,7 +1008,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_zh_HK">蛇、蠕蟲</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qagh:n}, {ghIS:v}, {nogh:v}</column>
+      <column name="see_also">{qagh:n}, {ghIS:v}, {nogh:v}, {Humlaw':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1511,7 +1511,8 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">{gheb rIl:sen:nolink} is a reference to the horn of Gabriel.</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {nItlh gheb:n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -1666,6 +1667,45 @@ The object of this verb is the question asked.</column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">ghenraq</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">orchestra</column>
+      <column name="definition_de">Orchester</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This refers to a reasonably large group of instrumentalists. The verb used for conducting an orchestra is {ra':v}.
+
+A more general term for a group (of any size) playing music is {QoQ ghom:n}.</column>
+      <column name="notes_de">Dies wird für eine sehr große Gruppe von Musikern verwendet. Das Verb zur ein Orchester dirigieren ist {ra':v}.
+
+Ein allgemeiner Begriff für jede Musik spielende Gruppe (egal welcher Größe) ist {QoQ ghom:n}.</column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes">Carnegie Hall is a place where many famous orchestras come to play.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2018:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3097,7 +3137,7 @@ There is also a regional word {ley':n} which means "nose".</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghIpDIj</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">court-martial</column>
       <column name="definition_de">vor Kriegsgericht gestellt werden</column>
       <column name="definition_fa">دادگاه نظامی [AUTOTRANSLATED]</column>
@@ -3107,11 +3147,11 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bo'DIj:n}</column>
-      <column name="notes">Note that this is a verb, not a noun.</column>
+      <column name="notes">The object of this verb is the person charged and subject to trial (or actually tried) by a military tribunal. The subject is whoever brought the indictment.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">Обратите внимание, что это глагол, а не существительное</column>
+      <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3127,7 +3167,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2018:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3895,7 +3935,7 @@ In {TNK:src}, {ghItlhwI':n:nolink} is used for "pen" and {ghojmeH ghItlhwI':n:no
       <column name="definition_zh_HK">圈、箍 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{meyrI':n}, {rutlh:n}, {qa'vaQ:n}, {yergho:n}</column>
+      <column name="see_also">{meyrI':n}, {rutlh:n}, {rutlh:v}, {qa'vaQ:n}, {yergho:n}</column>
       <column name="notes">There is an idiom, {vIHtaH gho:sen}.
 
 There are 243 {lawmey:n:nolink} in a {gho:n:nolink}, or 360 {lawrI'mey:n:nolink}. (See {law:n} and {lawrI':n}.)</column>
@@ -4372,7 +4412,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="definition_zh_HK">語音 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{QIch:n}, {wab:n}</column>
+      <column name="see_also">{QIch:n}, {wab:n}, {Ham:v}, {pun:v}</column>
       <column name="notes">See under {QIch wab Ho'DoS:n} for the names of the Klingon consonants and vowels.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5825,7 +5865,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="synonyms">{nuv:n}</column>
       <column name="antonyms"></column>
       <column name="see_also">{Dep:n}, {yoq:n}</column>
-      <column name="notes"></column>
+      <column name="notes">When this word is plural, it focuses more on the individuals making up the group. So {ghotpu':n@@ghot:n, -pu':n} would probably be translated as "persons" (rather than "people"), but this is not a strict rule.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5861,7 +5901,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}, [2] {paq'batlh p.136-137:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh p.136-137:src}, [3] {Saarbrücken qepHom'a' 2018:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6192,7 +6232,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="definition_zh_HK">發聲（動物）</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{jatlh:v}, {'Imyagh:excl}, {welwelwel:excl}</column>
+      <column name="see_also">{jatlh:v}, {'Imyagh:excl}, {welwelwel:excl}, {ghughugh:v}</column>
       <column name="notes">This refers to sound emitted by an animal, but not speech.</column>
       <column name="notes_de">Dies wird nur bei Tiergeräuschen verwendet, nicht bei Sprache.</column>
       <column name="notes_fa"></column>
@@ -6214,6 +6254,41 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {qep'a' 2017:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">ghughugh</column>
+      <column name="part_of_speech">v:i_c</column>
+      <column name="definition">growl</column>
+      <column name="definition_de">knurren</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ghugh:v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2018:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
