@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Note: renumber.py must be run first.
+
 # Check for non-interactive mode flag.
 if [[ "$1" = "--noninteractive" ]]
 then

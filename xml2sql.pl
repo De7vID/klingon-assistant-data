@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+use utf8;
 
 # use modules
 use File::Slurp;
@@ -32,9 +33,29 @@ print "PRAGMA foreign_keys=OFF;\n".
       "INSERT INTO \"android_metadata\" VALUES('en_US');\n".
       "CREATE TABLE \"mem\" (\"_id\" INTEGER PRIMARY KEY ,\"entry_name\" TEXT,\"part_of_speech\" TEXT,\"definition\" TEXT,\"synonyms\" TEXT,\"antonyms\" TEXT,\"see_also\" TEXT,\"notes\" TEXT,\"hidden_notes\" TEXT,\"components\" TEXT,\"examples\" TEXT,\"search_tags\" TEXT,\"source\" TEXT,\"definition_de\" TEXT,\"notes_de\" TEXT,\"examples_de\" TEXT,\"search_tags_de\" TEXT,\"definition_fa\" TEXT,\"notes_fa\" TEXT,\"examples_fa\" TEXT,\"search_tags_fa\" TEXT,\"definition_sv\" TEXT,\"notes_sv\" TEXT,\"examples_sv\" TEXT,\"search_tags_sv\" TEXT,\"definition_ru\" TEXT,\"notes_ru\" TEXT,\"examples_ru\" TEXT,\"search_tags_ru\" TEXT,\"definition_zh_HK\" TEXT,\"notes_zh_HK\" TEXT,\"examples_zh_HK\" TEXT,\"search_tags_zh_HK\" TEXT DEFAULT \"\");\n";
 
+# Regex to check "en" language fields.
+$valid_en = qr/^[A-Za-z0-9 '":;,.\-?!_\/\()@=%&*{}\[\]<>▶\nàéü+×÷神舟]*$/;
+
 # cycle through and print the entries
 foreach $e (@{$data->{database}->{mem}})
 {
+    # Sanity check for "en" fields.
+    if ($e->{entry_name} ne "boQwI''" && $e->{entry_name} ne "QIch wab Ho''DoS") {
+        if ("$e->{definition}" !~ "$valid_en") {
+            print STDERR "Non-staniard characters: ", "$e->{definition}", "\n";
+        }
+        if ("$e->{notes}" !~ "$valid_en") {
+            print STDERR "Non-standard characters: ", "$e->{notes}", "\n";
+        }
+        if ("$e->{examples}" !~ "$valid_en") {
+            print STDERR "Non-standard characters: ", "$e->{examples}", "\n";
+        }
+        if ("$e->{search_tags}" !~ "$valid_en") {
+            print STDERR "Non-standard characters: ", "$e->{search_tags}", "\n";
+        }
+    }
+
+    # Output a row.
     print "INSERT INTO \"mem\" VALUES(";
     print $e->{_id}, ",'";
     print $e->{entry_name}, "','";
