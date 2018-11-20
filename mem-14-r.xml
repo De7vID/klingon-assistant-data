@@ -1380,7 +1380,7 @@ The first element of this word is {rav:n:1} "floor", but the second element is u
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ra'</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">order, command</column>
       <column name="definition_de">befehlen, kommandieren</column>
       <column name="definition_fa">دستور، فرمان [AUTOTRANSLATED]</column>
@@ -1389,9 +1389,9 @@ The first element of this word is {rav:n:1} "floor", but the second element is u
       <column name="definition_zh_HK">命令</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lob:v}, {SeH:v}, {ngep:v}, {vun:v}</column>
-      <column name="notes">This verb is also used for conducting an orchestra ({ghenraq:n}).[2]</column>
-      <column name="notes_de">Dieses Verb wird auch für ein Orchester ({ghenraq:n}) dirigieren verwendet.[2]</column>
+      <column name="see_also">{lob:v}, {SeH:v}, {ngep:v}, {vun:v}, {ra':v:2}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -1404,13 +1404,48 @@ The first element of this word is {rav:n:1} "floor", but the second element is u
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags">conduct</column>
+      <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2018:src}</column>
+      <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">ra'</column>
+      <column name="part_of_speech">v:2,t_c</column>
+      <column name="definition">conduct (an orchestra)</column>
+      <column name="definition_de">(ein Orchester) dirigieren</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ghenraq:n}, {QoQ ghom:n}, {ra':v:1}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2018:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -1574,7 +1609,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This word is not defined, but its meaning is clear from the example and from {ra'ghomquv:n:nolink}.</column>
-      <column name="components">{ra':v}, {ghom:n}</column>
+      <column name="components">{ra':v:1}, {ghom:n}</column>
       <column name="examples">
 ▶ {tera' jar Soch, DIS wa' Hut jav Hut, maSDaq SaqmeH Qu' wa'DIch HochHom turlu'taHvIS, wej logh lengwI'pu' pa'mey 'oH Apollo wa'maH wa' ra'ghom bobcho' Columbia'e'.:sen:nolink} "The Apollo 11 Command Module, 'Columbia,' was the living quarters for the three-person crew during most of the first manned lunar landing mission in July 1969."</column>
       <column name="examples_de"></column>
@@ -3093,7 +3128,8 @@ For other units of time, {ret:n:nolink} is used.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">"Retro".</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+{cha' tup ret:n@@cha':n, tup:n, ret:n} "two minutes ago"</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
