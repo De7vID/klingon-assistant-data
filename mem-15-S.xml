@@ -153,8 +153,8 @@
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Sach:v:1}</column>
-      <column name="notes"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is an expansion of the meaning of the existing verb {Sach:v:1}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -162,7 +162,10 @@
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {paq SachmoH.:sen@@paq:n:1h, Sach:v:2, -moH:v} (if someone makes an expanded version of a book)
+▶ {Sach paq.:sen@@Sach:v:2, paq:n:1h} "the book expands"
+▶ {paq Sach:n@@paq:n:1h, Sach:v:2} "an extended book"</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -1941,7 +1944,7 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
       <column name="definition_zh_HK">控制 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lIS:v}, {ngep:v}, {ra':v}, {ruQ:v}</column>
+      <column name="see_also">{lIS:v}, {ngep:v}, {ra':v:1}, {ruQ:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
