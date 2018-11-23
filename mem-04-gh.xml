@@ -6776,15 +6776,14 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Even though the definition starts with "be", this is not a stative verb. The subject is a person getting ready to use a device to launch something, not the device itself.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {cha yIghuS!:sen}[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru">
-▶ {cha yIghuS!:sen}[2]</column>
+      <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -6792,7 +6791,7 @@ See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readin
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Star Trek I:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
