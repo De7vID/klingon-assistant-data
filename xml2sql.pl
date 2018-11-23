@@ -36,6 +36,9 @@ print "PRAGMA foreign_keys=OFF;\n".
 # Regex to check "en" language fields.
 $valid_en = qr/^[A-Za-z0-9 '":;,.\-?!_\/\()@=%&*{}\[\]<>▶\nàéü+×÷神舟]*$/;
 
+# Language tags.
+@langs = qw(de fa ru sv zh-HK);
+
 # cycle through and print the entries
 foreach $e (@{$data->{database}->{mem}})
 {
@@ -52,6 +55,13 @@ foreach $e (@{$data->{database}->{mem}})
         }
         if ("$e->{search_tags}" !~ "$valid_en") {
             print STDERR "Non-standard characters: ", "$e->{search_tags}", "\n";
+        }
+    }
+
+    # Check that non-"en" examples do not duplicate "en" fields.
+    foreach $lang (@langs) {
+        if ("$e->{examples}" ne "" && $e->{"examples_$lang"} eq "$e->{examples}") {
+            print STDERR "Duplicated examples (", $lang, "): ", "$e->{examples}", "\n";
         }
     }
 
