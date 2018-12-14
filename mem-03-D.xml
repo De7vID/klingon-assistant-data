@@ -2707,7 +2707,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DenIbngan</column>
-      <column name="part_of_speech">n:being,fic</column>
+      <column name="part_of_speech">n:being,fic,deriv</column>
       <column name="definition">Denebian</column>
       <column name="definition_de">Denebianer</column>
       <column name="definition_fa">Denebian [AUTOTRANSLATED]</column>
@@ -2742,7 +2742,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DenIbya'ngan</column>
-      <column name="part_of_speech">n:being,alt</column>
+      <column name="part_of_speech">n:being,fic,alt,deriv</column>
       <column name="definition">{DenIbngan:n}</column>
       <column name="definition_de">{DenIbngan:n}</column>
       <column name="definition_fa">{DenIbngan:n}</column>
@@ -6251,8 +6251,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Doj</column>
-      <!-- Not deriv because don't want to show components. -->
-      <column name="part_of_speech">n:inhps</column>
+      <column name="part_of_speech">n</column>
       <column name="definition">batch, pile, heap, accumulation</column>
       <column name="definition_de">Haufen, Stapel, Ansammlung</column>
       <column name="definition_fa">دسته ای، شمع، پشته، انباشت [AUTOTRANSLATED]</column>
@@ -6262,14 +6261,14 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This word can refer to people or otherwise. Even if referring only to beings capable of using language, one would normally not say {Dojpu':n:nolink}.</column>
+      <column name="notes">This word can refer to people or otherwise. Even if referring only to beings capable of using language, one would normally say {Dojmey:n} rather than {Dojpu':n:nolink}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Dojmey:n:inhpl}</column>
+      <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -6287,8 +6286,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Dojmey</column>
-      <!-- Not deriv because don't want to show components. -->
-      <column name="part_of_speech">n:inhpl</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">mass, masses, multitude, a very large but indeterminate group of something</column>
       <column name="definition_de">Massen, Mengen, eine große aber unbekannte Anzahl von Gegenständen oder Personen</column>
       <column name="definition_fa">توده، توده ها، جمعیت، یک گروه بسیار بزرگ اما نامعلوم چیزی است [AUTOTRANSLATED]</column>
@@ -6298,14 +6296,14 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghom'a':n}, {qev:n}, {qabDu' law':n}</column>
-      <column name="notes">This word can refer to people or otherwise. Even if referring only to beings capable of using language, one would normally not say {Dojpu':n:nolink}.</column>
+      <column name="notes">This word can refer to people or otherwise. Even if referring only to beings capable of using language, one would normally say {Dojmey:n} rather than {Dojpu':n:nolink}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">The example sentence is a lip-match for {'ej DochmeywIj vItlhapqa'meH}.</column>
-      <column name="components">{Doj:n:inhps}</column>
+      <column name="components">{Doj:n}, {-mey:n}</column>
       <column name="examples">
 ▶ {'ej Dojmey wID, vInDa'ma' peq.} "He has killed many of our people."
 ▶ {qoq De'wI' Dojmey:n}</column>
