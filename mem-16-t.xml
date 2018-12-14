@@ -1036,7 +1036,7 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="definition_zh_HK">塔拉里安（人） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{ngan:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1044,7 +1044,7 @@ Watch a performance of these lines by {Brian Rivera:url:http://www.imdb.com/name
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">Presumably, there is a place called {talar:n:place,fic,nolink}.</column>
-      <column name="components">{ngan:n}</column>
+      <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -3006,7 +3006,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tellarngan</column>
-      <column name="part_of_speech">n:being,fic</column>
+      <column name="part_of_speech">n:being,fic,deriv</column>
       <column name="definition">Tellarite</column>
       <column name="definition_de">Tellarit</column>
       <column name="definition_fa">تلاریت [AUTOTRANSLATED]</column>
@@ -3023,7 +3023,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{tellar wa':n}, {ngan:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
