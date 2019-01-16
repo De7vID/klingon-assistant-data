@@ -491,6 +491,41 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">ngang</column>
+      <column name="part_of_speech">v:i_c</column>
+      <column name="definition">vary, be varying</column>
+      <column name="definition_de">unterschiedlich sein</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Sar:v}</column>
+      <column name="notes">This verb is used to express that something is varying or deviating from the norm, or is fluctuating so much that there isn't a norm.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2019.01.16:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">ngaq</column>
       <column name="part_of_speech">n</column>
       <column name="definition">support (military term)</column>
@@ -3143,8 +3178,8 @@ This word is also found in the archaic expression {ngoS tlhogh cha:sen:nolink} (
       <column name="definition_zh_HK">要負責任 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{pIch:v}, {rang:v}, {Hovmey Davan.:sen}</column>
-      <column name="notes">This means "be accountable, be answerable". It can also be used in the sense of "be trustworthy, sensible, dependable".[2]</column>
+      <column name="see_also">{pIch:v}, {Hovmey Davan.:sen}</column>
+      <column name="notes">This means "be accountable, be answerable". It can also be used in the sense of "be trustworthy, sensible, dependable". There is some overlap in meaning with {rang:v}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3153,6 +3188,7 @@ This word is also found in the archaic expression {ngoS tlhogh cha:sen:nolink} (
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
+▶ {ghom ngoy':n}
 ▶ {vangDI' tlhIngan SuvwI' ngoy' qorDu'Daj; vangDI' qorDu'Daj ngoy' tlhIngan SuvwI'.:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
