@@ -647,13 +647,13 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{pel'aQ:n:1}</column>
-      <column name="notes"></column>
+      <column name="notes">This takes the plural suffix {-Du':n:suff}, whether the shell is still on the animal or not. But if the shell (off the animal) is broken up, and a piece or pieces of it are used for something, then the plural takes {-mey:n:suff}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">It is unclear if this is considered a body part (i.e., takes {-Du':n:suff}), but it probably works the same way as for {DIr:n}.</column>
+      <column name="hidden_notes"></column>
       <column name="components">{nagh:n}, {DIr:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -667,7 +667,7 @@
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KGT:src}</column>
+      <column name="source">[1] {KGT:src}, [2] {KLI mailing list 2019.01.22:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2974,10 +2974,12 @@ Watch a lesson on this word: {YouTube video:url:http://youtu.be/JyeePTUXVa8}</co
       <column name="definition_zh_HK">匹配、配對、映射到 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{rap:v}, {nIb:v}</column>
+      <column name="see_also">{rap:v}, {nIb:v}, {mey:v}</column>
       <column name="notes">This might be used if fingerprints match up (see {nItlh Su'nIm:n} and {nItlh Su'nIm vem:n}).[1]
 
-Grammatically, this verb works like {rur:v}. One can say {A nel B:sen:nolink} "B matches A", or {nelchuq A B je:sen:nolink} "A and B match each other".[2]</column>
+Grammatically, this verb works like {rur:v}. One can say {A nel B:sen:nolink} "B matches A", or {nelchuq A B je:sen:nolink} "A and B match each other".[2]
+
+When used for objects which come in pairs, such as socks and gloves, the subject is one item of the pair, and the object is the other.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2997,7 +2999,7 @@ Grammatically, this verb works like {rur:v}. One can say {A nel B:sen:nolink} "B
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {qep'a' 2018:src}, [2] {KLI mailing list 2018.11.20:src}</column>
+      <column name="source">[1] {qep'a' 2018:src}, [2] {KLI mailing list 2018.11.20:src}, [3] {KLI mailing list 2019.01.22:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3033,6 +3035,41 @@ Grammatically, this verb works like {rur:v}. One can say {A nel B:sen:nolink} "B
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2018:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">nelwI'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">partner (for objects which come in matching pairs)</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This word is used to refer to the partner of objects which come in pairs, such as socks and gloves and the like.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{nel:v}, {-wI':n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2019.01.22:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7807,8 +7844,8 @@ It's probably a coincidence, but نوک is also the Persian word for "nipple".</
       <column name="hidden_notes">The "Friend of Maltz" certificates are considered by some to be non-canon (since it's unclear which parts of the text came from the KLI and which were provided by Marc Okrand), but the Pop Culture Hero Coalition announcement (which was translated by Marc Okrand) uses {num:v:nolink} with the same meaning.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {tlhIngan Hol Danummo' pIquvmoH.} "Because you promote the Klingon language, we honor you."[2]
-▶ {Danumlu'. Sa' Damoj.} "Promoted to General."[3]
+▶ {tlhIngan Hol Danummo' pIquvmoH.:sen@@tlhIngan Hol:n, Da-:v, num:v, -mo':v, pI-:v, quv:v, -moH:v} "Because you promote the Klingon language, we honor you."[2]
+▶ {Danumlu'. Sa' Damoj.:sen@@Da-:v, num:v, -lu':v, Sa':n, Da-:v, moj:v} "Promoted to General."[3]
 ▶ {qum DuSaQmeyDaq 'Irghbe'meH ghotpu' nabmey ghojmoH, 'ej pIj tay'taH Doch pIm num.:sen:nolink} "In public schools, it teaches procedures so that people don't bully, and it promotes Infinite Diversity in Infinite Combinations."[4]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
