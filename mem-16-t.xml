@@ -4031,6 +4031,41 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">tetlh</column>
+      <column name="part_of_speech">v:i_c</column>
+      <column name="definition">roll (down a hill like a log)</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ron:v:1}, {Hay:v}</column>
+      <column name="notes">Though this verb is related to the noun {tetlh:n}, it is not used for scrolls (unless a scroll happens to be rolling down a hill).</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2019.03.01:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">tev</column>
       <column name="part_of_speech">n</column>
       <column name="definition">prize</column>
@@ -6342,7 +6377,9 @@ This verb can be used reflexively to mean "enjoy oneself", "have a good time".[3
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{moQbara':n}, {tuH:n}</column>
-      <column name="notes">This refers to a single technique executed in a fight or, by extension, a single maneuver played in a game.</column>
+      <column name="notes">This refers to a single technique executed in a fight or, by extension, a single maneuver played in a game.[3]
+
+It is also used to name martial arts stances. To command someone to strike a stance or pose, the verb {much:v} is used. The word {tonSaw':n:nolink} may be left out of the name if the context is clear.[4]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6351,6 +6388,7 @@ This verb can be used reflexively to mean "enjoy oneself", "have a good time".[3
       <column name="hidden_notes">To translate "The Final Reflection", where "reflection" is a maneuver in a game (see {tlhInja:n}), Maltz suggested {tonSaw' Qav:n:nolink} or {neSlo' tonSaw' Qav:n:nolink}.[3]</column>
       <column name="components"></column>
       <column name="examples">
+▶ {notlh tonSaw'lIj.:sen}
 ▶ {ngIq tonSaw' lo' 'ej tIqDu' lel:sen:nolink}
    {ngIq tonSaw' lo' 'ej quvqa':sen:nolink}
    {ngIq tonSaw' lo' 'ej rIn may':sen:nolink}
@@ -6363,19 +6401,20 @@ This verb can be used reflexively to mean "enjoy oneself", "have a good time".[3
   "In one single move,
    Kahless decided the fate
    Of thousands, and those to come."[2, p.171]
-▶ {notlh tonSaw'lIj.:sen} "Your fighting technique is obsolete."</column>
+▶ {mIl'oD tonSaw' yImuch:sen@@mIl'oD:n, tonSaw':n, yI-:v, much:v} "strike the sabre bear pose!"[4]
+▶ {mIl'oD yImuch:sen@@mIl'oD:n, yI-:v, much:v} "strike the sabre bear (pose)!"[4]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags">move, maneuver, manoeuvre, manoeuver</column>
+      <column name="search_tags">move, maneuver, manoeuvre, manoeuver, stance</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KGT:src}, [2] {paq'batlh:src}, [3] {KLI mailing list 2010.09.01:src}</column>
+      <column name="source">[1] {KGT:src}, [2] {paq'batlh:src}, [3] {KLI mailing list 2010.09.01:src}, [4] {KLI mailing list 2019.03.01:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6698,7 +6737,7 @@ To use such a stamp, one must first ink it up ({laS:v}) with an ink pad ({rItlh 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tor</column>
-      <column name="part_of_speech">v:1,i</column>
+      <column name="part_of_speech">v:1,i_c</column>
       <column name="definition">kneel</column>
       <column name="definition_de">knieen</column>
       <column name="definition_fa">زانو زدن [AUTOTRANSLATED]</column>
@@ -6708,7 +6747,7 @@ To use such a stamp, one must first ink it up ({laS:v}) with an ink pad ({rItlh 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'eD:v}, {ba':v}, {Hu':v}, {Qam:v}, {Qot:v}, {'ung:v}, {joD:v}, {qIv:n}</column>
-      <column name="notes">This verb describes the action of a person or animal. There is a homophonous verb {tor:v:2} which seems to describe a similar action applied to aircraft or spacecraft.</column>
+      <column name="notes">This verb describes the action of a person or animal. It can also be applied to aircraft, for which see {tor:v:2}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6733,7 +6772,7 @@ To use such a stamp, one must first ink it up ({laS:v}) with an ink pad ({rItlh 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tor</column>
-      <column name="part_of_speech">v:2,i</column>
+      <column name="part_of_speech">v:2,i_c</column>
       <column name="definition">pitch (aircraft tilts nose up or down)</column>
       <column name="definition_de">sich neigen (Spitze des Flugzeugs geht nach oben oder nach unten)</column>
       <column name="definition_fa">زمین (هواپیما به بالا یا پایین بینی) [AUTOTRANSLATED]</column>
@@ -6742,8 +6781,8 @@ To use such a stamp, one must first ink it up ({laS:v}) with an ink pad ({rItlh 
       <column name="definition_zh_HK">俯仰（飛機向上或向下傾斜） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Dav:v}, {Der:v}, {jer:v}, {jIm:v}, {lol:v:2}, {ron:v}, {'or:v}</column>
-      <column name="notes">There is a homophonous verb {tor:v:1} which describes a similar action undertaken by a person or animal.
+      <column name="see_also">{Dav:v:2}, {Der:v:2}, {jer:v}, {jIm:v:2}, {lol:v:2}, {ron:v:2}, {'or:v}</column>
+      <column name="notes">This is just the verb {tor:v:1} applied to aircraft.
 
 Pitching downwards is indicated using a negative angle (see {taH:v:2}).</column>
       <column name="notes_de"></column>
