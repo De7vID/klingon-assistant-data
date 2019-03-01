@@ -1833,7 +1833,7 @@ The following example shows that the verb of quality can take a suffix:
       <column name="notes_sv"></column>
       <column name="notes_ru">Обитатели Ленмака используют восьмидневную неделю ({Hogh:n}).</column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is a reference to John Lennon and McCartney. The names of the days of the week are all references to the Beatles.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2248,6 +2248,43 @@ This word can be used to refer to traveling with or without a special purpose. I
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">ler</column>
+      <column name="part_of_speech">v:i_c</column>
+      <column name="definition">wobble</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This describes the back-and-forth motion of the pendulum of a metronome. When appplied to a person, it means the feet stay put on the ground while the body leans left and right.
+
+For movement to the side without rotation or being fixed to a point, see {Dav:v:1}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2019.03.01:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3049,6 +3086,43 @@ This word can be used figuratively. There is an idiom, {let mInDu'Daj; Separmey 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">lID</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">travel or move a specified or measurable distance or trajectory</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">The object of this verb is the distance or range of motion. It is used with movement verbs such as {ron:v:1}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {ron SuvwI'; chorgh 'ujmey lID:sen@@ron:v:1, SuvwI':n, chorgh:n:1, 'uj:n, -mey:n, lID:v} or {chorgh 'ujmey lID SuvwI'; ron:sen@@chorgh:n:1, 'uj:n, -mey:n, lID:v, SuvwI':n, ron:v:1} "the warrior rolled (haphazardly) for eight ujes"
+▶ {ron muD Duj; javmaH lawrI'mey lID:sen@@ron:v:2, muD Duj:n, jav:n:1, maH:n:2, lawrI':n, -mey:n, lID:v} "the airplane rolled 60 degrees"</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2019.03.01:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5030,8 +5104,7 @@ The text of {SkyBox 99:src} reads:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lol</column>
-      <!-- It is unclear if this can take a subject, such as the name of a stance. -->
-      <column name="part_of_speech">v:1</column>
+      <column name="part_of_speech">v:1,i_c</column>
       <column name="definition">be in a stance, be in a pose (people, animals, or martial arts)</column>
       <column name="definition_de">in einer bestimmten Pose stehen (Personen, Tiere oder Kampfsport)</column>
       <column name="definition_fa">در موقعیت قرار گیرید، در یک موقعیت قرار بگیرید (مردم، حیوانات، یا هنرهای رزمی) [AUTOTRANSLATED]</column>
@@ -5041,7 +5114,7 @@ The text of {SkyBox 99:src} reads:
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{lol:n}, {moQbara':n}, {lol:v:2}</column>
-      <column name="notes"></column>
+      <column name="notes">The verb to use for striking a pose or stance is {much:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5061,13 +5134,12 @@ The text of {SkyBox 99:src} reads:
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {HQ 11.2, Jun. 2002:src}</column>
+      <column name="source">[1] {HQ 11.2, Jun. 2002:src}, [2] {KLI mailing list 2019.03.01:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lol</column>
-      <column name="part_of_speech">v:2</column>
-      <!-- It is unclear if this can take a subject, such as an angle. -->
+      <column name="part_of_speech">v:2,i_c</column>
       <column name="definition">be in an attitude (aircraft)</column>
       <column name="definition_de">in einer Fluglage befinden (Flugzeug)</column>
       <column name="definition_fa">در یک نگرش (هواپیما) [AUTOTRANSLATED]</column>
@@ -5076,7 +5148,7 @@ The text of {SkyBox 99:src} reads:
       <column name="definition_zh_HK">態度（飛機） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Dav:v}, {Der:v}, {jer:v}, {jIm:v}, {ron:v}, {tor:v:2}, {taH:v:2}, {'or:v}, {lol:v:1}</column>
+      <column name="see_also">{Dav:v:2}, {Der:v:2}, {jer:v}, {jIm:v:2}, {ron:v:2}, {tor:v:2}, {taH:v:2}, {'or:v}, {lol:v:1}</column>
       <column name="notes">Note that there is a homophonous verb {lol:v:1} which can be applied to people or animals.
 
 Some of the verb suffixes have a precise meaning when used with this verb, when it is applied to aircraft or spacecraft:
@@ -5118,7 +5190,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{moQbara':n}, {lol:v:1}</column>
-      <column name="notes"></column>
+      <column name="notes">This refers to a specific martial arts stance, and is not a general term for "stance", for which see {tonSaw':n}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5138,7 +5210,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {HQ 11.2, Jun. 2002:src}</column>
+      <column name="source">[1] {HQ 11.2, Jun. 2002:src}, [2] {KLI mailing list 2019.03.01:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6311,7 +6383,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="definition_ru">Быть ценным</column>
       <column name="definition_zh_HK">有價值</column>
       <column name="synonyms"></column>
-      <column name="antonyms"></column>
+      <column name="antonyms">{lo'laHbe':v}</column>
       <column name="see_also">{Qej:v}, {lI':v:1}</column>
       <column name="notes">This is not the verb {lo':v} with the suffix {-laH:v}.[2]</column>
       <column name="notes_de"></column>
@@ -6346,7 +6418,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="definition_ru">быть бесполезным, быть никчемным</column>
       <column name="definition_zh_HK">毫無價值</column>
       <column name="synonyms"></column>
-      <column name="antonyms"></column>
+      <column name="antonyms">{lo'laH:v}</column>
       <column name="see_also">{tu'HomI'raH:n}, {qey:v}</column>
       <column name="notes">See {chetvI':n:1} for an idiom related to worthlessness.</column>
       <column name="notes_de"></column>
@@ -6354,7 +6426,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="notes_sv"></column>
       <column name="notes_ru">Смотрите {chetvI':n:1} для идиомы, связанной с никчемностью.</column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Despite appearing to be composed from {lo':v}, {-laH:v}, and {-be':v}, this word doesn't exactly have the same meaning as the composition of the parts. It means "he/she can't use it", which is what happens to one's hand when one's writer's cramp worsens.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>

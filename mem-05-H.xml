@@ -1480,6 +1480,41 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">Hay</column>
+      <column name="part_of_speech">v:i_c</column>
+      <column name="definition">somersault</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is a controlled roll. If a person is rolling haphazardly, the verb to use is {ron:v:1}. If someone is rolling down a hill (like a log), see {tetlh:v}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags">roll</column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2019.03.01:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">Hay'</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">duel</column>
@@ -3837,12 +3872,12 @@ Siehe wie Gowron dies sagt: {YouTube video:url:http://youtu.be/Wq5mvIWRSKc}</col
       <column name="hidden_notes">{HIj:v:nolink} is used for transporting goods, whereas it seems that {lup:v} is used for transporting people.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {yIHmey DaHIj'a'?  ghobe', yIHmey vIHIjbe'.} "Are you transporting tribbles?  No. I'm not transporting tribbles."[2]</column>
+▶ {yIHmey DaHIj'a'? ghobe', yIHmey vIHIjbe'.:sen@@yIH:n, -mey:n, Da-:v, HIj:v, -'a':v, ghobe':excl, yIH:n, -mey:n, vI-:v, HIj:v, -be':v} "Are you transporting tribbles? No. I'm not transporting tribbles."[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
-▶ {yIHmey DaHIj'a'?  ghobe', yIHmey vIHIjbe'.} "Вы перевозите трибблов?Нет.Я не перевожу трибблов."[2]</column>
+▶ {yIHmey DaHIj'a'? ghobe', yIHmey vIHIjbe'.:sen@@yIH:n, -mey:n, Da-:v, HIj:v, -'a':v, ghobe':excl, yIH:n, -mey:n, vI-:v, HIj:v, -be':v} "Вы перевозите трибблов? Нет. Я не перевожу трибблов."[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -6397,7 +6432,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">HoSDo'</column>
-      <!-- Is this a plural or an inherent plural?  Also, are these capable of language? -->
+      <!-- Is this a plural or an inherent plural? Also, are these capable of language? -->
       <column name="part_of_speech">n:plural</column>
       <column name="definition">energy beings</column>
       <column name="definition_de">Energiewesen</column>

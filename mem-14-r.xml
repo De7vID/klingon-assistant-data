@@ -4892,28 +4892,31 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ron</column>
-      <column name="part_of_speech">v:i_c</column>
+      <column name="part_of_speech">v:1,i_c</column>
       <column name="definition">roll, be rolling</column>
       <column name="definition_de">rollen</column>
       <column name="definition_fa">رول نورد [AUTOTRANSLATED]</column>
-      <column name="definition_sv">vara bankande, vara rollande, vara krängande (flygmaskin roterar runt sin ländaxel), vara rullande (om tärning)</column>
+      <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK">轆、翻</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Dav:v}, {Der:v}, {jer:v}, {jIm:v}, {lol:v:2}, {tor:v:2}, {'or:v}, {mI' nagh:n}</column>
-      <column name="notes">In the context of aircraft attitude, {HQ 11.2:src} glosses this word as "aircraft wings tilt, one up, one down". (For a pilot to roll an aircraft would be {ronmoH:v:nolink}.)
+      <column name="see_also"></column>
+      <column name="notes">In the context of playing dice, this word refers to the action of the dice as they are rolling. (To "throw" or "roll" the dice would be {ronmoH:v:nolink}.)[1]
 
-In the context of playing dice, this word refers to the action of the dice as they are rolling. (To "throw" or "roll" the dice would be {ronmoH:v:nolink}.)</column>
+When applied to a person, it means the person is rolling haphazardly. To perform a somersault is {Hay:v}, and to roll down a hill (like a log) is {tetlh:v}.[2]
+
+This verb can be applied to aircraft, for which see {ron:v:2}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">The aile"ron"s control the roll on an airplane.</column>
+      <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {mI' naghmey tIronmoH:sen:nolink} "throw dice"[2]</column>
+▶ {mI' naghmey tIronmoH:sen:nolink} "throw dice"[1]
+▶ {ron SuvwI'; chorgh 'ujmey lID:sen@@ron:v:1, SuvwI':n, chorgh:n:1, 'uj:n, -mey:n, lID:v} or {chorgh 'ujmey lID SuvwI'; ron:sen@@chorgh:n:1, 'uj:n, -mey:n, lID:v, SuvwI':n, ron:v:1} "the warrior rolled (haphazardly) for eight ujes"[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -4925,7 +4928,43 @@ In the context of playing dice, this word refers to the action of the dice as th
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {HQ 11.2, Jun. 2002:src}, [2] {Klingon Monopoly:src}</column>
+      <column name="source">[1] {Klingon Monopoly:src}, [2] {KLI mailing list 2019.03.01:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">ron</column>
+      <column name="part_of_speech">v:2,i_c</column>
+      <column name="definition">roll (aircraft wings tilt, one up, one down)</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv">vara bankande, vara rollande, vara krängande (flygmaskin roterar runt sin ländaxel), vara rullande (om tärning)</column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Dav:v:2}, {Der:v:2}, {jer:v}, {jIm:v:2}, {lol:v:2}, {tor:v:2}, {'or:v}, {mI' nagh:n}</column>
+      <column name="notes">This is just the verb {ron:v:1} applied to aircraft. For a pilot to roll an aircraft would be {ronmoH:v:nolink}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes">The aile"ron"s control the roll on an airplane.</column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {ron muD Duj; javmaH lawrI'mey lID:sen@@ron:v:2, muD Duj:n, jav:n:1, maH:n:2, lawrI':n, -mey:n, lID:v} "the airplane rolled 60 degrees"</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {HQ 11.2, Jun. 2002:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

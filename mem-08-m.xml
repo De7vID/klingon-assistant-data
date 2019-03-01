@@ -5881,7 +5881,7 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ngutlh nagh:n}, {SuD:v:2}, {qeylIS mInDu':n}</column>
-      <column name="notes">In {Klingon Monopoly:src}, {mI' naghmey:n:nolink} refers to the playing dice. The verb {ron:v} is used for the action of throwing or rolling the dice.</column>
+      <column name="notes">In {Klingon Monopoly:src}, {mI' naghmey:n:nolink} refers to the playing dice. The verb {ronmoH:v@@ron:v:1, -moH:v} is used for the action of throwing or rolling the dice.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -7923,7 +7923,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="_id"></column>
       <column name="entry_name">much</column>
       <column name="part_of_speech">v:t_c</column>
-      <column name="definition">present, perform (music)</column>
+      <column name="definition">present, perform (music), strike a pose or stance (martial arts)</column>
       <column name="definition_de">präsentieren, vorführen (Musik)</column>
       <column name="definition_fa">حضور، اجرا (موسیقی) [AUTOTRANSLATED]</column>
       <column name="definition_sv">framföra (musik)</column>
@@ -7932,15 +7932,19 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bom:v}, {bom:n}, {QoQ:n}, {much:n}, {nob:v}, {DawI':n}</column>
-      <column name="notes">Outside of a musical context, this word can also mean to "present a gift" to someone.</column>
+      <column name="notes">Outside of a musical context, this word can also mean to "present a gift" to someone.[2]
+
+This verb is also used in martial arts for striking a pose or a stance. The object is the name of the pose or stance, which usually ends in {tonSaw':n}. If the context is clear, {tonSaw':n:nolink} can be left out.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Вне музыкального контекста, это слово может также означать "презентовать подарок" кому-то.</column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">This word was defined in {TKD:src} as "present". The definition "perform (music)" was added in {KGT:src}.</column>
+      <column name="hidden_notes">This word was defined in {TKD:src} as "present".[1] The definition "perform (music)" was added in {KGT:src}[2], and the definition "strike a pose or stance" was added in {KLI mailing list 2019.03.01:src}[3].</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {mIl'oD tonSaw' yImuch:sen@@mIl'oD:n, tonSaw':n, yI-:v, much:v} "strike the sabre bear pose!"[3]
+▶ {mIl'oD yImuch:sen@@mIl'oD:n, yI-:v, much:v} "strike the sabre bear (pose)!"[3]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -7952,7 +7956,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {KLI mailing list 2019.03.01:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

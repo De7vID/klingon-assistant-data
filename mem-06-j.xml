@@ -2861,8 +2861,8 @@ Note that {jemS:n:nolink} and {qIrq:n:nolink} do not follow proper Klingon phono
       <column name="definition_zh_HK">激增（飛機突然向前或向後移動） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Dav:v}, {Der:v}, {jIm:v}, {lol:v:2}, {ron:v}, {tor:v:2}, {'or:v}</column>
-      <column name="notes">It is unknown if this has meaning outside of the context of aircraft attitude descriptions.</column>
+      <column name="see_also">{Dav:v:2}, {Der:v:2}, {jIm:v:2}, {lol:v:2}, {ron:v:2}, {tor:v:2}, {'or:v}</column>
+      <column name="notes">This verb has no known meaning outside of the context of aircraft attitude descriptions.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2882,7 +2882,7 @@ Note that {jemS:n:nolink} and {qIrq:n:nolink} do not follow proper Klingon phono
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {HQ 11.2, Jun. 2002:src}</column>
+      <column name="source">[1] {HQ 11.2, Jun. 2002:src}, [2] {KLI mailing list 2019.03.01:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3814,7 +3814,47 @@ The imperative verb prefix when {jIH:n:1h,nolink} is the object is {HI-:v:pref}.
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jIm</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:1,i_c</column>
+      <column name="definition">shrug</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This verb refers to a movement of the shoulders.
+
+This verb can also be applied to aircraft, for which see {jIm:v:2}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {jIm SuvwI' volchaHDu':sen@@jIm:v:1, SuvwI':n, volchaH:n, -Du':n} "the warrior's shoulders shrug"
+▶ {jIm SuvwI':sen@@jIm:v:1, SuvwI':n} "the warrior shrugs" (most common for {volchaH:n} to be left out)
+▶ {volchaHDu'Daj jImmoH SuvwI':sen@@volchaH:n, -Du':n, -Daj:n, jIm:v:1, -moH:v, SuvwI':n} "the warrior shrugs his/her shoulders" (If the context is clear, {-Du':n} and/or {-Daj:n} can be dropped.)</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2019.03.01:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">jIm</column>
+      <column name="part_of_speech">v:2,i_c</column>
       <column name="definition">heave (aircraft rising or falling without pitching)</column>
       <column name="definition_de">heben und senken (eines Flugzeugs ohne sich zu neigen; absacken)</column>
       <column name="definition_fa">هوا (هواپیما افزایش یا افتادن بدون سنگ فرش) [AUTOTRANSLATED]</column>
@@ -3823,8 +3863,8 @@ The imperative verb prefix when {jIH:n:1h,nolink} is the object is {HI-:v:pref}.
       <column name="definition_zh_HK">升起（飛機上升或下降而不投球） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Dav:v}, {Der:v}, {jer:v}, {lol:v:2}, {ron:v}, {tor:v:2}, {'or:v}, {nech:v}</column>
-      <column name="notes">It is unknown if this has meaning outside of the context of aircraft attitude descriptions.</column>
+      <column name="see_also">{Dav:v:2}, {Der:v:2}, {jer:v}, {lol:v:2}, {ron:v:2}, {tor:v:2}, {'or:v}, {nech:v}</column>
+      <column name="notes">This is just the verb {jIm:v:1} applied to aircraft.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>

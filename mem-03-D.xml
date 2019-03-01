@@ -1742,8 +1742,46 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Dav</column>
-      <!-- It is unclear if this can take a subject, such as a direction or an angle. -->
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:1,i_c</column>
+      <column name="definition">sidestep, sway</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This applies to movement by the whole body or thing to the left or right.
+
+It's not used if a person's feet stay put but the body leans left or right, for which see {ler:v}.
+
+This verb can be applied to aircraft, for which see {Dav:v:2}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2019.03.01:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">Dav</column>
+      <column name="part_of_speech">v:2,i_c</column>
       <column name="definition">sway (aircraft moves to the side without yawing)</column>
       <column name="definition_de">schwanken (Flugzeug bewegt zur Seite ohne zu neigen)</column>
       <column name="definition_fa">چرخش (هواپیما به سمت حرکت می کند بدون چرخش) [AUTOTRANSLATED]</column>
@@ -1752,8 +1790,8 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="definition_zh_HK">搖擺（飛機在沒有偏航的情況下向側面移動） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Der:v}, {jer:v}, {jIm:v}, {lol:v:2}, {ron:v}, {tor:v:2}, {'or:v}, {nech:v}</column>
-      <column name="notes">It is unknown if this has meaning outside of the context of aircraft attitude descriptions.</column>
+      <column name="see_also">{Der:v:2}, {jer:v}, {jIm:v:2}, {lol:v:2}, {ron:v:2}, {tor:v:2}, {'or:v}, {nech:v}</column>
+      <column name="notes">This is just the verb {Dav:v:1} applied to aircraft.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2954,7 +2992,44 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Der</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:1,i_c</column>
+      <column name="definition">veer (to the left or right while traveling or moving)</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This means to change direction to the left or right while traveling or moving.
+
+This verb can be applied to aircraft, for which see {Der:v:2}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2019.03.01:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">Der</column>
+      <column name="part_of_speech">v:2,i_c</column>
       <column name="definition">yaw (aircraft nose points left or right)</column>
       <column name="definition_de">aer. (um die Hochachse) gieren, scheren</column>
       <column name="definition_fa">انهدام (نقطه بینی هواپیما چپ یا راست) [AUTOTRANSLATED]</column>
@@ -2963,8 +3038,8 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="definition_zh_HK">平擺</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Dav:v}, {jer:v}, {jIm:v}, {lol:v:2}, {ron:v}, {tor:v:2}, {'or:v}</column>
-      <column name="notes">It is unknown if this word has meaning outside the context of aircraft attitude.</column>
+      <column name="see_also">{Dav:v:2}, {jer:v}, {jIm:v:2}, {lol:v:2}, {ron:v:2}, {tor:v:2}, {'or:v}</column>
+      <column name="notes">This is just the verb {Der:v:1} applied to aircraft.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3040,7 +3115,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">A writer's arm rests on his or her desk when writing.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
