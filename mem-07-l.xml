@@ -898,6 +898,45 @@ In English slang, a "lat"rine is sometimes called a "shrine".</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">lav</column>
+      <column name="part_of_speech">v:i_c</column>
+      <column name="definition">lean, incline, slant</column>
+      <column name="definition_de">neigen, kippen, schräg stellen</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{bo'ghey:n}, {janbI':n}</column>
+      <column name="notes">This means to move to a slanted or angled position. The starting position is often, but doesn't have to be, upright or perpendicular. If applied to a person, it means the person's feet stay put. The pivot could be at the top, bottom, or somewhere else.
+
+Returning to the upright (or earlier) position is {lavHa':v@@lav:v, -Ha':v}.
+
+If the swinging is continuously back and forth, use {ler:v} instead.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2019.03.02:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">law</column>
       <column name="part_of_speech">n:archaic</column>
       <column name="definition">degree (traditional unit of angle)</column>
@@ -2253,7 +2292,7 @@ This word can be used to refer to traveling with or without a special purpose. I
       <column name="_id"></column>
       <column name="entry_name">ler</column>
       <column name="part_of_speech">v:i_c</column>
-      <column name="definition">wobble</column>
+      <column name="definition">wobble, oscillate</column>
       <column name="definition_de">schwanken, wiegen</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
@@ -2262,7 +2301,9 @@ This word can be used to refer to traveling with or without a special purpose. I
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This describes the back-and-forth motion of the pendulum of a metronome. When appplied to a person, it means the feet stay put on the ground while the body leans left and right.
+      <column name="notes">This describes the back-and-forth motion of something fixed at one end to a pivot. When applied to a person, it means the feet stay put on the ground while the body leans left and right.[1] The pivot could be at the top, bottom, or somewhere else. A rhythmic oscillation like that of a pendulum or metronome would be {lerchu':v@@ler:v, -chu':v}.[2]
+
+For motion around a pivot in one direction only, which comes to a stop, see {lav:v}.[2]
 
 For movement to the side without rotation or being fixed to a point, see {Dav:v:1}.</column>
       <column name="notes_de"></column>
@@ -2284,7 +2325,7 @@ For movement to the side without rotation or being fixed to a point, see {Dav:v:
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KLI mailing list 2019.03.01:src}</column>
+      <column name="source">[1] {KLI mailing list 2019.03.01:src}, [2] {KLI mailing list 2019.03.02:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5122,7 +5163,8 @@ The text of {SkyBox 99:src} reads:
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">"Lol about".</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {lol SuvwI'; mIl'oD much:sen@@lol:v:1, SuvwI':n, mIl'oD:n, much:v}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
