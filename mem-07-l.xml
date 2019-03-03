@@ -2292,7 +2292,7 @@ This word can be used to refer to traveling with or without a special purpose. I
       <column name="_id"></column>
       <column name="entry_name">ler</column>
       <column name="part_of_speech">v:i_c</column>
-      <column name="definition">wobble, oscillate</column>
+      <column name="definition">wobble</column>
       <column name="definition_de">schwanken, wiegen</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
@@ -2301,7 +2301,7 @@ This word can be used to refer to traveling with or without a special purpose. I
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This describes the back-and-forth motion of something fixed at one end to a pivot. When applied to a person, it means the feet stay put on the ground while the body leans left and right.[1] The pivot could be at the top, bottom, or somewhere else. A rhythmic oscillation like that of a pendulum or metronome would be {lerchu':v@@ler:v, -chu':v}.[2]
+      <column name="notes">This describes the back-and-forth motion of something fixed at one end to a pivot. When applied to a person, it means the feet stay put on the ground while the body leans left and right.[1] The pivot could be at the top, bottom, or somewhere else. A rhythmic oscillation like that of a pendulum would be {lerchu':v}.[2]
 
 For motion around a pivot in one direction only, which comes to a stop, see {lav:v}.[2]
 
@@ -2326,6 +2326,41 @@ For movement to the side without rotation or being fixed to a point, see {Dav:v:
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {KLI mailing list 2019.03.01:src}, [2] {KLI mailing list 2019.03.02:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">lerchu'</column>
+      <column name="part_of_speech">v:deriv,i_c</column>
+      <column name="definition">oscillate</column>
+      <column name="definition_de">oszillieren</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This refers to the rhythmic back-and-forth motion of something fixed at one end, like a pendulum, whether the pivot is at the top, the bottom (like the inverted pendulum of a metronome), or somewhere else.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{ler:v}, {-chu':v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2019.03.02:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5257,7 +5292,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lolchu'</column>
-      <column name="part_of_speech">v:deriv</column>
+      <column name="part_of_speech">v:deriv,i_c</column>
       <column name="definition">be in a correct attitude (aircraft)</column>
       <column name="definition_de">in korrekter Lage sein (Flugzeug)</column>
       <column name="definition_fa">در برخورد صحیح (هواپیما) [AUTOTRANSLATED]</column>
@@ -5267,7 +5302,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">It is unknown if this is used outside the context of aircraft attitude.</column>
+      <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5292,7 +5327,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lolchu'taH</column>
-      <column name="part_of_speech">v:deriv</column>
+      <column name="part_of_speech">v:deriv,i_c</column>
       <column name="definition">maintain a correct attitude (aircraft)</column>
       <column name="definition_de">korrekte Lage halten (Flugzeug)</column>
       <column name="definition_fa">حفظ نگرش صحیح (هواپیما) [AUTOTRANSLATED]</column>
@@ -5302,7 +5337,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">It is unknown if this is used outside the context of aircraft attitude.</column>
+      <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5398,7 +5433,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">loltaH</column>
-      <column name="part_of_speech">v:deriv</column>
+      <column name="part_of_speech">v:deriv,i_c</column>
       <column name="definition">maintain an attitude (aircraft)</column>
       <column name="definition_de">Fluglage halten (Flugzeug)</column>
       <column name="definition_fa">حفظ نگرش (هواپیما) [AUTOTRANSLATED]</column>
@@ -5408,7 +5443,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">It is unknown if this is used outside the context of aircraft attitude.</column>
+      <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
