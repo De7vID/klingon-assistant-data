@@ -7230,7 +7230,7 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
       <column name="definition_zh_HK">Mok'bara（武術形式） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tonSaw':n}, {mI':v}, {lol:n}, {lol:v:1}</column>
+      <column name="see_also">{tonSaw':n}, {lol:v:1}, {much:v:3}, {mI':v}, {lol:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7922,29 +7922,27 @@ Note that the verb used for a heartbeat is {joq:v}.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">much</column>
-      <column name="part_of_speech">v:t_c</column>
-      <column name="definition">present, perform (music), strike a pose or stance (martial arts)</column>
-      <column name="definition_de">präsentieren, vorführen (Musik)</column>
+      <column name="part_of_speech">v:1,t_c</column>
+      <column name="definition">present</column>
+      <column name="definition_de">präsentieren</column>
       <column name="definition_fa">حضور، اجرا (موسیقی) [AUTOTRANSLATED]</column>
-      <column name="definition_sv">framföra (musik)</column>
-      <column name="definition_ru">представлять, исполнять (музыка) </column>
+      <column name="definition_sv">framföra</column>
+      <column name="definition_ru">представлять</column>
       <column name="definition_zh_HK">演出、表演（音樂） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{bom:v}, {bom:n}, {QoQ:n}, {much:n}, {nob:v}, {DawI':n}</column>
-      <column name="notes">Outside of a musical context, this word can also mean to "present a gift" to someone.[2]
+      <column name="see_also">{much:n}, {nob:n}, {nob:v}</column>
+      <column name="notes">In a general context, this word means to "present", as in "present a gift" to someone.[2]
 
-This verb is also used in martial arts for striking a pose or a stance. The object is the name of the pose or stance, which usually ends in {tonSaw':n}. If the context is clear, {tonSaw':n:nolink} can be left out.[3]</column>
+This verb is also used in music ({much:v:2}) and martial arts ({much:v:3}).</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">Вне музыкального контекста, это слово может также означать "презентовать подарок" кому-то.</column>
+      <column name="notes_ru">Вне музыкального контекста, это слово может также означать "презентовать подарок" кому-то.[2]</column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">This word was defined in {TKD:src} as "present".[1] The definition "perform (music)" was added in {KGT:src}[2], and the definition "strike a pose or stance" was added in {KLI mailing list 2019.03.01:src}[3].</column>
+      <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples">
-▶ {mIl'oD tonSaw' yImuch:sen@@mIl'oD:n, tonSaw':n, yI-:v, much:v} "strike the sabre bear pose!"[3]
-▶ {mIl'oD yImuch:sen@@mIl'oD:n, yI-:v, much:v} "strike the sabre bear (pose)!"[3]</column>
+      <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -7956,7 +7954,79 @@ This verb is also used in martial arts for striking a pose or a stance. The obje
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {KLI mailing list 2019.03.01:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">much</column>
+      <column name="part_of_speech">v:2,t_c</column>
+      <column name="definition">perform (music)</column>
+      <column name="definition_de">vorführen (Musik)</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv">framföra (musik)</column>
+      <column name="definition_ru">исполнять (музыка)</column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{much:n}, {bom:v}, {bom:n}, {QoQ:n}, {nob:v}, {DawI':n}</column>
+      <column name="notes">This is the verb {much:v:1} applied to music.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">much</column>
+      <column name="part_of_speech">v:3,t_c</column>
+      <column name="definition">strike a pose or stance (martial arts)</column>
+      <column name="definition_de">eine Pose einnehmen (Kampftkunst)</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{moQbara':n}</column>
+      <column name="notes">This is the verb {much:v:1} applied to martial arts, where it means to strike a pose or a stance (see {lol:v:1}). The object is the name of the pose or stance, which usually ends in {tonSaw':n}. If the context is clear, {tonSaw':n:nolink} can be left out.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {mIl'oD tonSaw' yImuch:sen@@mIl'oD:n, tonSaw':n, yI-:v, much:v:3} "strike the sabre bear pose!"
+▶ {mIl'oD yImuch:sen@@mIl'oD:n, yI-:v, much:v:3} "strike the sabre bear (pose)!"</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2019.03.01:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7970,7 +8040,7 @@ This verb is also used in martial arts for striking a pose or a stance. The obje
       <column name="definition_zh_HK">介紹 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{much:v}, {DawI':n}, {muchpa':n}, {HaSta ta:n}, {wab ta:n}</column>
+      <column name="see_also">{much:v:1}, {DawI':n}, {muchpa':n}, {HaSta ta:n}, {wab ta:n}</column>
       <column name="notes">This can be used for something like a show or a movie.[2] However, it isn't quite right for expressing "media" in general.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
