@@ -4584,7 +4584,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="definition_zh_HK">和平協議</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qI':v}, {mab:n}, {Sutlh:v}</column>
+      <column name="see_also">{qI':v:1}, {mab:n:1}, {Sutlh:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -4592,7 +4592,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{roj:n}, {mab:n}</column>
+      <column name="components">{roj:n}, {mab:n:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4726,7 +4726,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="definition_zh_HK">符合 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qI':v}</column>
+      <column name="see_also">{qI':v:1}</column>
       <column name="notes">This word is also used by Klingon grammarians to refer to the rule that governs the use of pronominal prefixes, a rule Federation grammarians call "agreement".[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5863,7 +5863,7 @@ This verb can be applied to aircraft, for which see {ron:v:2}.</column>
       <column name="definition_zh_HK">反氫</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{bIQSIp 'ugh:n}</column>
+      <column name="see_also">{bIQSIp:n}, {bIQSIp 'ugh:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5871,7 +5871,7 @@ This verb can be applied to aircraft, for which see {ron:v:2}.</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{rugh:n}, {bIQSIp:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -5885,6 +5885,41 @@ This verb can be applied to aircraft, for which see {ron:v:2}.</column>
       <column name="search_tags_ru">антиводород</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {BoP:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">rugh tem</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">positron</column>
+      <column name="definition_de">Positron</column>
+      <column name="definition_fa">پوزیترون</column>
+      <column name="definition_sv">Positron</column>
+      <column name="definition_ru">Позитрон</column>
+      <column name="definition_zh_HK">正電子</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tem:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{rugh:n}, {tem:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source"></column>
     </table>
     <table name="mem">
       <column name="_id"></column>

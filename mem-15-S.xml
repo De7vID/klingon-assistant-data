@@ -4523,7 +4523,7 @@ Verb prefixes when {SoH:n:nolink} is the object:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Soj</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:1,food</column>
       <column name="definition">food, drink</column>
       <column name="definition_de">Essen, Getränk</column>
       <column name="definition_fa">غذا نوشیدنی [AUTOTRANSLATED]</column>
@@ -4533,9 +4533,9 @@ Verb prefixes when {SoH:n:nolink} is the object:
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Sop:v}, {tlhutlh:v}, {'ep:v}, {vut:v}, {je':v:2}, {ngal:v}, {char:v}, {tlher:v}, {ghoQ:v}, {baQ:v:2}, {DeH:v}, {QaD:v:1}</column>
-      <column name="notes">This word applies to both food and beverages[2], or anything consumed for sustenance.[5] A single dish or course is called a {nay':n}.[2]
+      <column name="notes">This word applies to both food and beverages[2], or anything consumed for sustenance.[4] A single dish or course is called a {nay':n}.[2]
 
-This word carries the idiomatic meaning of "matter, concern, affair". For example, {tlhIngan Soj 'oH; not bIyaj:sen:nolink} means "It is a Klingon matter -- you'll never understand."[3]</column>
+This word carries the idiomatic meaning of "matter, concern, affair", for which see {Soj:n:2}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -4545,19 +4545,55 @@ This word carries the idiomatic meaning of "matter, concern, affair". For exampl
       <column name="components"></column>
       <column name="examples">
 ▶ {yIntaHbogh tlhIngan Soj tlhol jablu'DI' tIvqu'lu'. qagh, ro'qegh'Iwachab, targh tIq Sop 'e' lungIl Humanpu' puS.:sen:nolink}
-  "Klingon food is best when served fresh and live. Few humans dare to eat gagh, rokeg blood pie, or heart of targ."[4]</column>
+  "Klingon food is best when served fresh and live. Few humans dare to eat gagh, rokeg blood pie, or heart of targ."[3]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags">nourishment, sustenance, matter, concern, affair</column>
+      <column name="search_tags">nourishment, sustenance</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKDA:src}, [2] {KGT p.83:src}, [3] {HQ 12.3, p.9, Sept. 2003:src}, [4] {SkyBox 21:src}, [5] {Saarbrücken qepHom'a' 2011:src}</column>
+      <column name="source">[1] {TKDA:src}, [2] {KGT p.83:src}, [3] {SkyBox 21:src}, [4] {Saarbrücken qepHom'a' 2011:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">Soj</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">matter, concern, affair</column>
+      <column name="definition_de">Angelegenheit, Interesse, Anliegen</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is an idiomatic meaning of the word {Soj:n:1}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {tlhIngan Soj 'oH; not bIyaj:sen:nolink} "It is a Klingon matter -- you'll never understand."</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {HQ 12.3, p.9, Sept. 2003:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -4579,7 +4615,7 @@ This word carries the idiomatic meaning of "matter, concern, affair". For exampl
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Soj:n}, {choH:v}, {-wI':v}</column>
+      <column name="components">{Soj:n:1}, {choH:v}, {-wI':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4719,7 +4755,7 @@ This word carries the idiomatic meaning of "matter, concern, affair". For exampl
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Soj:n}, {qub:v}</column>
+      <column name="components">{Soj:n:1}, {qub:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4754,7 +4790,7 @@ This word carries the idiomatic meaning of "matter, concern, affair". For exampl
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Soj:n}, {tetlh:n}</column>
+      <column name="components">{Soj:n:1}, {tetlh:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4826,7 +4862,7 @@ This word carries the idiomatic meaning of "matter, concern, affair". For exampl
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Soj:n}, {vut:v}, {-lu':v}, {-pu':v}, {-bogh:v}</column>
+      <column name="components">{Soj:n:1}, {vut:v}, {-lu':v}, {-pu':v}, {-bogh:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4862,7 +4898,7 @@ This word carries the idiomatic meaning of "matter, concern, affair". For exampl
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Soj:n}, {yI-:v}, {DIl:v}</column>
+      <column name="components">{Soj:n:1}, {yI-:v}, {DIl:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -5134,7 +5170,7 @@ This word carries the idiomatic meaning of "matter, concern, affair". For exampl
       <column name="definition_zh_HK">吃、食</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Soj:n}, {ghung:v}, {'ep:v}, {tlhutlh:v}, {je':v:2}</column>
+      <column name="see_also">{Soj:n:1}, {ghung:v}, {'ep:v}, {tlhutlh:v}, {je':v:2}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7606,7 +7642,7 @@ This can also be used for blowing out a candle. Unlike with {jo':v}, air gets ou
       <column name="definition_zh_HK">談判</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qI':v}, {mab:n}, {rojmab:n}, {rojmab qep:n}</column>
+      <column name="see_also">{qI':v:1}, {mab:n:1}, {rojmab:n}, {rojmab qep:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>

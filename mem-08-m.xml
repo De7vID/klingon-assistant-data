@@ -71,7 +71,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mab</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">treaty, agreement, contract, commitment</column>
       <column name="definition_de">Übereinkommen, Vertrag, Zugeständnis</column>
       <column name="definition_fa">پیمان، قرارداد، کنترات</column>
@@ -80,12 +80,12 @@
       <column name="definition_zh_HK">條約、合同、承諾、協議</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qI':v}, {Sutlh:v}, {ngaQHa'moH:v}</column>
-      <column name="notes">This can also be used for an "account" that someone can sign up for to use a service.[3]</column>
+      <column name="see_also">{qI':v:1}, {Sutlh:v}</column>
+      <column name="notes">This word is also used when Klingons talk about an account that one signs up for to use a service, such as a computer accounts. See {mab:n:2}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">Это также может использоваться для обозначения "аккаунта", который регистрируется для пользования какой-то услугой.[3]</column>
+      <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This is defined only as "treaty" in {TKD:src}. The additional definitions come from {Saarbrücken qepHom'a' 2016:src}.
 
@@ -97,13 +97,48 @@ Possibly a reference to the fairy Queen Mab in Romeo and Juliet, who is known fo
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags">account</column>
+      <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2016:src}, [3] {KLI mailing list 2018.02.17:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">mab</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">account (for using a service)</column>
+      <column name="definition_de">Account, Konto (z.B. Computerkonto)</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru">аккаунта</column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is an extension of {mab:n:1} to mean an account that someone can sign up for to use a service, such as a computer account. The verb to sign up for an account is {qI':v:2}. To log in to an account is {ngaQHa'moH:v:2}, and to log off is {ngaQmoH:v:2}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes">This was used in Netflix's Klingon language promotional material.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2018.02.17:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5125,15 +5160,13 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{rel:v}, {mIS:n}, {mISmoH:v}, {DuD:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This refers to mental confusion.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">"Mish" mash.
-
-This was clarified to mean "mental confusion" at {qep'a' 2017:src}.</column>
+      <column name="hidden_notes">"Mish" mash.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -5199,13 +5232,13 @@ This was clarified to mean "mental confusion" at {qep'a' 2017:src}.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This refers to mental confusion.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">This was clarified to mean "mental confusion" at {qep'a' 2017:src}.</column>
+      <column name="hidden_notes"></column>
       <column name="components">{mIS:v}, {-moH:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -9232,9 +9265,11 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The {paq'batlh:src} example suggests that the subject becomes a part or member of the object. The medical instrument example seems to suggest otherwise, but device names are often abbreviated.</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {tuj muvwI':n}
+▶ {Qo'noS tuqmey muvchuqmoH qeylIS:sen:nolink} "Kahless united the tribes of Kronos"[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -9246,7 +9281,7 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh p.179:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -9270,7 +9305,7 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {Qo'noS tuqmey muvchuqmoH qeylIS:sen:nolink} "Kahless united the tribes of Kronos"[1, p.179]</column>
+▶ {Qo'noS tuqmey muvchuqmoH qeylIS:sen:nolink} "Kahless united the tribes of Kronos"</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -9282,7 +9317,7 @@ When applied to {tlhIm:n}, {mutlh:v:nolink} means to assemble the carpet. The ve
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {paq'batlh:src}</column>
+      <column name="source">[1] {paq'batlh p.179:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

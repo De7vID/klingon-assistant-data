@@ -6132,7 +6132,7 @@ Maltz seemed reluctant to talk about what exactly this is.[2]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qI'</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">sign (a treaty)</column>
       <column name="definition_de">unterzeichnen (einen Vertrag)</column>
       <column name="definition_fa">علامت (معاهده) [AUTOTRANSLATED]</column>
@@ -6141,8 +6141,43 @@ Maltz seemed reluctant to talk about what exactly this is.[2]</column>
       <column name="definition_zh_HK">簽署（條約） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mab:n}, {rom:n}, {Sutlh:v}, {ngaQHa'moH:v}</column>
-      <column name="notes">To register or sign up for an account is also {mab qI':sen@@mab:n, qI':v}.[2]</column>
+      <column name="see_also">{mab:n:1}, {rom:n}, {Sutlh:v}</column>
+      <column name="notes">This verb is also used for signing up for an account to use a service. See {qI':v:2}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">qI'</column>
+      <column name="part_of_speech">v:2,t_c</column>
+      <column name="definition">register for, sign up for (an account)</column>
+      <column name="definition_de">registrieren, anmelden</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ngaQHa'moH:v:1}</column>
+      <column name="notes">This is an extension of {qI':v:1} to mean signing up for an account to use a service. The typical object of this verb is {mab:n:2}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6151,19 +6186,19 @@ Maltz seemed reluctant to talk about what exactly this is.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {mab qI'lu'ta':sen:nolink} "account already exists"[2]</column>
+▶ {mab qI'lu'ta':sen:nolink} "account already exists"</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags">register, sign up</column>
+      <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}, [2] {KLI mailing list 2018.02.17:src}</column>
+      <column name="source">[1] {KLI mailing list 2018.02.17:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -9955,7 +9990,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {quwargh tach Qe' je qoDDaq Hov leng Soj DatIv.:sen@@quwargh:n, tach:n, Qe':n, je:conj, qoD:n, -Daq:n, Hov leng:n, Soj:n, Da-:v, tIv:v} "Enjoy Star Trek themed food and drink at Quark's Bar and Restaurant."[1]</column>
+▶ {quwargh tach Qe' je qoDDaq Hov leng Soj DatIv.:sen@@quwargh:n, tach:n, Qe':n, je:conj, qoD:n, -Daq:n, Hov leng:n, Soj:n:1, Da-:v, tIv:v} "Enjoy Star Trek themed food and drink at Quark's Bar and Restaurant."[1]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
