@@ -3592,7 +3592,7 @@ This word can be used figuratively. There is an idiom, {let mInDu'Daj; Separmey 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lIn</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">share</column>
       <column name="definition_de">teilen</column>
       <column name="definition_fa">اشتراک گذاری [AUTOTRANSLATED]</column>
@@ -3604,7 +3604,7 @@ This word can be used figuratively. There is an idiom, {let mInDu'Daj; Separmey 
       <column name="see_also">{bon:v}, {lInchuq:sen}</column>
       <column name="notes">When {A:sen:nolink} and {B:sen:nolink} share {C:sen:nolink} with each other, the construction is {C lulIn A B je:sen:nolink} (or {C lIn A B je:sen:nolink} if {C:sen:nolink} is plural). In this case, the speaker is non-committal about whether {A:sen:nolink} or {B:sen:nolink} is the one who decided to do the sharing with the other.[1]
 
-This word is also used to express that a computer (or computer system) is online. (Offline would be expressed using {lInHa':v@@lIn:v, -Ha':v}.)[2]</column>
+When a computer (or computer system) is online, it's said to be "sharing". See {lIn:v:2}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3618,13 +3618,48 @@ This word is also used to express that a computer (or computer system) is online
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags">online, offline</column>
+      <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}, [2] {KLI mailing list 2018.02.25:src}</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">lIn</column>
+      <column name="part_of_speech">v:2,t_c</column>
+      <column name="definition">online</column>
+      <column name="definition_de">online</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{lInHa':v}</column>
+      <column name="see_also"></column>
+      <column name="notes">This is just the application of {lIn:v:1} to a computer networking context. Klingons think of a computer (or computer system) which is online as "sharing".</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2018.02.25:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3698,6 +3733,41 @@ This word is also used to express that a computer (or computer system) is online
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">lInHa'</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
+      <column name="definition">offline</column>
+      <column name="definition_de">offline</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{lIn:v:2}</column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2018.02.25:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
