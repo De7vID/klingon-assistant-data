@@ -1903,7 +1903,8 @@ Ein allgemeiner Begriff für jede Musik spielende Gruppe (egal welcher Größe) 
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">"Get" a life.</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {vulqangan jIH 'e' vIghet.:sen@@link}[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -1915,7 +1916,7 @@ Ein allgemeiner Begriff für jede Musik spielende Gruppe (egal welcher Größe) 
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {HQ 12.3, Sept. 2003:src}</column>
+      <column name="source">[1] {HQ 12.3, Sept. 2003:src}, [2] {Saarbrücken qepHom'a' 2011:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2036,7 +2037,7 @@ Ein allgemeiner Begriff für jede Musik spielende Gruppe (egal welcher Größe) 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qagh:n}, {qagh vIychorgh:n}, {Se'tu':n}</column>
-      <column name="notes">There is an idiom, {jeD; ghevI' rur}.</column>
+      <column name="notes">There is an idiom, {jeD; ghevI' rur@@jeD:v, ghevI':n, rur:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3901,7 +3902,7 @@ In {TNK:src}, {ghItlhwI':n:nolink} is used for "pen" and {ghojmeH ghItlhwI':n:no
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Sech:n}</column>
-      <column name="notes">There is an idiom, {wov; ghI'boj Sech rur}.</column>
+      <column name="notes">There is an idiom, {wov; ghI'boj Sech rur@@wov:v, ghI'boj:n, Sech:n, rur:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6624,11 +6625,15 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bor:v}, {'oj:v}, {qagh:n}, {Sop:v}</column>
-      <column name="notes">There is an idiom {ghung; qagh rur}.</column>
+      <column name="notes">There is an idiom {ghung; qagh rur@@ghung:v, qagh:n, rur:v}.
+
+{ghungHa':v@@ghung:v, -Ha':v} would something like "not hungry any more".[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">Есть идиома {ghung; qagh rur}.</column>
+      <column name="notes_ru">Есть идиома {ghung; qagh rur@@ghung:v, qagh:n, rur:v}.
+
+{ghungHa':v@@ghung:v, -Ha':v} would something like "not hungry any more".[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -6644,7 +6649,7 @@ This word is alien in origin. The reason Klingons use an alien word for this is 
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KLI mailing list 2011.11.15:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
