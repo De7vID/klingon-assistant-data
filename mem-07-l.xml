@@ -1348,7 +1348,7 @@ The following example shows that the verb of quality can take a suffix:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lay'Ha'</column>
-      <column name="part_of_speech">v:t,deriv</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">break one's word</column>
       <column name="definition_de">sein Wort brechen</column>
       <column name="definition_fa">شکستن یک کلمه [AUTOTRANSLATED]</column>
@@ -3630,7 +3630,7 @@ When a computer (or computer system) is online, it's said to be "sharing". See {
       <column name="_id"></column>
       <column name="entry_name">lIn</column>
       <column name="part_of_speech">v:2,t_c</column>
-      <column name="definition">online</column>
+      <column name="definition">go online (connect to computer network)</column>
       <column name="definition_de">online</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
@@ -3645,7 +3645,7 @@ When a computer (or computer system) is online, it's said to be "sharing". See {
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The definition was not given. It's just explained that going online would use the verb {lIn':v:2,nolink}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3738,7 +3738,7 @@ When a computer (or computer system) is online, it's said to be "sharing". See {
       <column name="_id"></column>
       <column name="entry_name">lInHa'</column>
       <column name="part_of_speech">v:t_c,deriv</column>
-      <column name="definition">offline</column>
+      <column name="definition">go offline (disconnect from computer network)</column>
       <column name="definition_de">offline</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
@@ -3753,7 +3753,7 @@ When a computer (or computer system) is online, it's said to be "sharing". See {
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The definition was not given. It's just explained that going offline would use the verb {lInHa':v:nolink}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4087,7 +4087,7 @@ When a computer (or computer system) is online, it's said to be "sharing". See {
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lItHa'</column>
-      <column name="part_of_speech">v:t,deriv</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">get off (of)</column>
       <column name="definition_de">(von etwas) absteigen</column>
       <column name="definition_fa">از ( [AUTOTRANSLATED]</column>
@@ -4336,7 +4336,7 @@ This was used to refer to "variables" (a memory location used for storing data i
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lobHa'</column>
-      <column name="part_of_speech">v:t,deriv</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">disobey</column>
       <column name="definition_de">nicht gehorchen</column>
       <column name="definition_fa">نادیده گرفتن [AUTOTRANSLATED]</column>
@@ -7512,9 +7512,7 @@ This prefix is sometimes dropped for unknown reasons. While an error, this is of
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
-    <!-- 
-    Gowron says {luq, ratlh}: http://youtu.be/86MOuHE90jg
-    -->
+    <!-- Gowron says {luq, ratlh}: http://youtu.be/86MOuHE90jg -->
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">luqara'</column>
