@@ -4521,7 +4521,8 @@ Agreement is also expressed by the idiomatic expression {wa' DoS wIqIp.:sen:idio
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qom</column>
-      <column name="part_of_speech">v:2,is,slang</column>
+      <!-- KGT p.163 says that this is not treated grammatically as a "be" verb. -->
+      <column name="part_of_speech">v:2,t,slang</column>
       <column name="definition">be hazardous, be perilous, be treacherous</column>
       <column name="definition_de">gewagt, gefährlich, riskant</column>
       <column name="definition_fa">خطرناک باشید، خطرناک باشید، خائن باشید [AUTOTRANSLATED]</column>
@@ -4539,7 +4540,10 @@ Agreement is also expressed by the idiomatic expression {wa' DoS wIqIp.:sen:idio
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {Qom Qu':sen:nolink} "The mission is perilous."[1, p.161]
+▶ {Qom He:sen:nolink} "The route is treacherous."[1, p.161]
+▶ {Qompu' Duj:sen:nolink} "The ship is hazardous, has been left in a hazardous condition."[1, p.163]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
