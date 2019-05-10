@@ -5711,7 +5711,7 @@ This verb can be applied to aircraft, for which see {ron:v:2}.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ruch</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t</column>
       <column name="definition">proceed, go ahead, do it</column>
       <column name="definition_de">vorgehen, loslegen, etwas tun</column>
       <column name="definition_fa">ادامه دهید، پیش بروید، انجام دهید [AUTOTRANSLATED]</column>
@@ -5727,15 +5727,16 @@ This verb can be applied to aircraft, for which see {ron:v:2}.</column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.[2]</column>
+      <column name="hidden_notes">This was used with an object in {Hamlet:src}.
+
+This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.[2]</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {targhlIj yIngagh, yIruch!:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru">
-▶ {targhlIj yIngagh, yIruch!:sen} "Действуй, вступай в отношения со своим таргом!"</column>
+      <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags">okay</column>
       <column name="search_tags_de"></column>
