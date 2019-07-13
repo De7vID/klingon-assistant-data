@@ -871,7 +871,7 @@ This verb can also be used to express the concept that two things have the same 
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{rar:v}, {-chuq:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -976,7 +976,7 @@ This verb can also be used to express the concept that two things have the same 
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{raS:n}, {De'wI':n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -1723,7 +1723,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="notes_ru">Относится к кому-то с рангом {Sogh:n} или выше.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{ra':v:1}, {-wI':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -2039,7 +2039,7 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="notes_ru">Туристический напиток</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{reghuluS:n}, {'Iw HIq:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -2067,14 +2067,14 @@ For other polygons with equal sides/angles, {HoS:v} is used instead of {tIQ:v:no
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">There is an idiom, {tun; reghuluS 'Iwghargh rur}.</column>
+      <column name="notes">There is an idiom, {tun; reghuluS 'Iwghargh rur@@tun:v, reghuluS 'Iwghargh:n, rur:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">Есть идиома, {tun; reghuluS 'Iwghargh rur}.</column>
+      <column name="notes_ru">Есть идиома, {tun; reghuluS 'Iwghargh rur@@tun:v, reghuluS 'Iwghargh:n, rur:v}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{reghuluS:n}, {'Iwghargh:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4067,7 +4067,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{rItlh:n}, {naQ:n:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4102,7 +4102,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{rItlh:n}, {'echlet:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4804,7 +4804,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="notes_ru">Считается слишком сильнодействующим для туристов</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{romuluS:n}, {HIq:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4874,7 +4874,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="notes_ru">Также назван {HoHwI':n} для краткости.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{romuluSngan:n}, {Sam:v}, {-bogh:v}, {'ej:conj}, {HoH:v}, {-bogh:v}, {nejwI':n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -5200,7 +5200,7 @@ This verb can be applied to aircraft, for which see {ron:v:2}.</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{ropyaH:n}, {qach:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -6160,7 +6160,6 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
 ▶ {boch; ghIch rur@@boch:v, ghIch:n, rur:v}
 ▶ {Dejpu'bogh Hov rur qablIj!:sen}
 ▶ {Dogh; tIghla' rur@@Dogh:v, tIghla':n, rur:v}
-▶ {lo'laHbe'; chetvI' chIm rur@@lo'laHbe':v, chetvI':n:1, chIm:v, rur:v}
 ▶ {ghung; qagh rur@@ghung:v, qagh:n, rur:v}
 ▶ {Hem; tlhIngan rur@@Hem:v, tlhIngan:n, rur:v}
 ▶ {Hoj; tera'ngan rur@@Hoj:v, tera'ngan:n, rur:v}
@@ -6170,6 +6169,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
 ▶ {jejHa'; naH taj rur@@jejHa':v, naH taj:n, rur:v}
 ▶ {jeD; ghevI' rur@@jeD:v, ghevI':n, rur:v}
 ▶ {let mInDu'Daj; Separmey rur@@let:v, mIn:n, -Du':n, -Daj:n, Separ:n, -mey:n, rur:v}
+▶ {lo'laHbe'; chetvI' chIm rur@@lo'laHbe':v, chetvI':n:1, chIm:v, rur:v}
 ▶ {lugh; Sor rur@@lugh:v, Sor:n, rur:v}
 ▶ {matlhHa'; romuluSngan rur@@matlhHa':v, romuluSngan:n, rur:v}
 ▶ {mIgh; molor rur@@mIgh:v, molor:n, rur:v}
