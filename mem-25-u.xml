@@ -118,7 +118,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="definition_zh_HK">包括、由...組成 [AUTOTRANSLATED]</column>
       <column name="synonyms">{yugh:v}</column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{tamlerQeD:n}</column>
       <column name="notes">This is used for talking about chemistry.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -659,7 +659,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_zh_HK">有資格</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'umHa':v}</column>
-      <column name="see_also">{po':v}, {Han:v}</column>
+      <column name="see_also">{po':v}, {Han:v}, {Hen:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -757,6 +757,41 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {qep'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">'umber</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">ecosystem, environment</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{but:v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes">Umberto Eco.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -980,7 +1015,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_zh_HK">吹哨</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{bom:v}, {bo'Degh:n}, {Huy:v}</column>
+      <column name="see_also">{bom:v}, {bo'Degh:n}, {Huy:v:1}</column>
       <column name="notes">If there's an object, it's the thing being whistled.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1648,7 +1683,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_zh_HK">百萬</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{bIp:n:num}</column>
+      <column name="see_also">{mI':n}, {bIp:n:num}, {Saghan:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1726,7 +1761,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">A "Doppelgänger" is the double of a person from the mirror universe.</column>
-      <column name="components">{'u':n}, {Dop:v}</column>
+      <column name="components">{'u':n}, {Dop:v:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
