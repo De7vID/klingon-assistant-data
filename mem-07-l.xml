@@ -366,7 +366,7 @@
       <column name="definition_zh_HK">宗教</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{paQDI'norgh:n}</column>
+      <column name="see_also">{paQDI'norgh:n}, {ghIn:n}, {maqlegh:n}, {bulvar:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -4941,7 +4941,7 @@ This was used to refer to "variables" (a memory location used for storing data i
       <column name="definition_zh_HK">深空九號（太空站）</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Hov leng:n}</column>
+      <column name="see_also">{Hov leng:n}, {logh mIn:n}</column>
       <column name="notes">This is the name of a Federation space station.
 
 The text of {SkyBox 99:src} reads:
@@ -4966,6 +4966,41 @@ The text of {SkyBox 99:src} reads:
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {SkyBox 99:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">logh mIn</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">wormhole</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{logh Hop Hut tengchaH:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{logh:n}, {mIn:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6237,6 +6272,41 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {KLI mailing list 2014.01.27:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">loScha'</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">coincidence</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes">"42".</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7558,7 +7628,7 @@ This prefix is sometimes dropped for unknown reasons. While an error, this is of
       <column name="definition_zh_HK">火車</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tIHmey:n}, {tlharwIl Duj:n}, {lIgh:v}, {lIt:v}</column>
+      <column name="see_also">{tIHmey:n}, {tlharwIl Duj:n}, {lIgh:v}, {lIt:v}, {manggha:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
