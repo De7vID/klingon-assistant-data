@@ -3286,7 +3286,7 @@ Do not confuse this with the similarly named {Qaj:n}.</column>
       <column name="definition_zh_HK">結束（走廊，隧道，管道、杰弗里斯管、下水道、道路、橋樑、長場等） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'och:n}, {QI:n}, {megh'an:n}, {'er'In:n}</column>
+      <column name="see_also">{'och:n}, {QI:n}, {megh'an:n}, {'er'In:n}, {'ImSIng:n}</column>
       <column name="notes">This refers to both (or all) ends of any longish enclosed space that one is typically inside of or experiences from the inside, or a bounded space which is seen as having length even if not enclosed. A {qa'rI':n:nolink} at or from which one can enter or exit is a {DIn:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -3863,7 +3863,7 @@ The word itself means "origin of everything" or "start of it all" or the like, a
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lop:n}, {tlhogh:n}</column>
+      <column name="see_also">{tawI'yan:n}, {lop:n}, {tlhogh:n}</column>
       <column name="notes">This is a "mental and spiritual journey" that a Klingon groom undertakes with his closest male friends. It lasts four days and the fasting participants are required to endure six trials: deprivation, blood, pain, sacrifice, anguish, and death. It has been inaccurately referred to as a "Klingon bacheler party".</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -3960,6 +3960,7 @@ The information about the length comes from {The Star Trek Encyclopedia, 4th ed.
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- The Russian note needs to be updated to include the new info. В {paq'batlh:src}, {qempa'QeH:n:nolink} являются разъяренными (см. {QeH:v}) родовыми душами, населяющими {ghe'tor:n}.[2] -->
       <column name="_id"></column>
       <column name="entry_name">qempa'</column>
       <column name="part_of_speech">n:inhps</column>
@@ -3971,12 +3972,14 @@ The information about the length comes from {The Star Trek Encyclopedia, 4th ed.
       <column name="definition_zh_HK">祖先</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'emrIgh:n}</column>
-      <column name="notes">In the {paq'batlh:src}, the {qempa'QeH:n:nolink} are the enraged (see {QeH:v}) ancestral spirits populating {ghe'tor:n}.[2]</column>
+      <column name="see_also"></column>
+      <column name="notes">This refers to a cultural or societal ancestor or forebearer (who is not necessarily related by blood). For a direct ancestor, see {'emrIgh:n}.
+
+In the {paq'batlh:src}, the {qempa'QeH:n:nolink} are the enraged (see {QeH:v}) ancestral spirits populating {ghe'tor:n}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">В {paq'batlh:src}, {qempa'QeH:n:nolink} являются разъяренными (см. {QeH:v}) родовыми душами, населяющими {ghe'tor:n}.[2]</column>
+      <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{no':n:inhpl}</column>
@@ -6039,7 +6042,7 @@ This was used for "Cancel" (while {ruch:v} was used for "Ok") in Klingon Blockly
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tlhey'at:n}</column>
+      <column name="see_also">{tlhey'at:n}, {roDSer:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -8235,22 +8238,22 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="_id"></column>
       <column name="entry_name">qo'rIn</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">chromium</column>
+      <column name="definition">chromium (tanning agent)</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
-      <column name="synonyms">{velSo':n}</column>
+      <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This refers to chromium salts like the ones used in leather tanning, whereas {velSo':n} is elemental chromium.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">Corinthian bronze was an alloy of copper, gold, and silver.</column>
+      <column name="hidden_notes">Corinthian leather.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -9723,7 +9726,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="definition_zh_HK">建築師（Morskan） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{mo'rISqa':n}</column>
       <column name="notes">This is allegedly the Morskan term for an architect. The {ta' Hol:n} term is {renwI':n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>

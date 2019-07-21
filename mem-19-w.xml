@@ -142,7 +142,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">wab naQ</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">vowel</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
@@ -159,7 +159,7 @@
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{wab:n}, {naQ:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -177,7 +177,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">wab poD</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">consonant</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
@@ -194,7 +194,7 @@
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{wab:n}, {poD:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -3520,7 +3520,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="definition_zh_HK">選擇</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{wuq:v}, {maS:v}, {wIv:n}</column>
+      <column name="see_also">{wuq:v}, {maS:v}, {wIv:n}, {lap:v}</column>
       <column name="notes">This verb is also used for clicking on a hyperlink on a computer.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -4727,7 +4727,7 @@ This verb is also used to describe a sunny day.[2]</column>
       <column name="definition_zh_HK">決定</column>
       <column name="synonyms"></column>
       <column name="antonyms">{wuqHa':v}</column>
-      <column name="see_also">{wIv:v}</column>
+      <column name="see_also">{wIv:v}, {lap:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
