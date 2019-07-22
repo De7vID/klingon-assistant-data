@@ -458,7 +458,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'Im</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">render, boil (fat)</column>
       <column name="definition_de">kochen (bei Fett)</column>
       <column name="definition_fa">رطوبت، جوش (چربی) [AUTOTRANSLATED]</column>
@@ -468,16 +468,16 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{pub:v}, {tlhagh:n}, {mIQ:v}</column>
-      <column name="notes"></column>
+      <column name="notes">While the general word for "boil" is {pub:v}, the verb used specifically to refer to the boiling of fat is {'Im:v:nolink}.[1, p.94]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">[...] heating it up so that it boils. The general word for "boil" is {pub:sen:nolink}, but the verb used specifically to refer to the boiling of fat is {'Im:sen:nolink}. ({KGT p.94:src})</column>
-      <!-- looks to me like it must be intransitive: "it (the fat) boils" -->
+      <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {'o'mat ghIrI', tI'Im, pIvyoch:n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
