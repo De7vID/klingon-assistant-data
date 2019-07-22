@@ -374,7 +374,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'al</column>
-      <column name="part_of_speech">v:i_c</column>
+      <column name="part_of_speech">v:is</column>
       <column name="definition">float (in/on air)</column>
       <column name="definition_de">treiben, schweben (in/auf Luft)</column>
       <column name="definition_fa">شناور (در / در هوا) [AUTOTRANSLATED]</column>
@@ -384,27 +384,31 @@
       <column name="synonyms"></column>
       <column name="antonyms">{'oq:v}</column>
       <column name="see_also">{puv:v}, {'ay:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This is also used for random numbers, such as when throwing dice ({mI' nagh:n}).</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">Muhammad Ali said to "float like a butterfly and sting like a bee".</column>
+      <column name="hidden_notes">Muhammad Ali said to "float like a butterfly and sting like a bee".
+
+It's confirmed that this doesn't take an object, and can be used adjectivally (be floating).</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {'al mI':sen@@'al:v, mI':n} "the number is random"[2]
+▶ {mI' 'al:n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">random</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}, [2] {qep'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -1221,7 +1225,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'angwIl</column>
-      <column name="part_of_speech">n:anim</column>
+      <column name="part_of_speech">n:inhps,anim</column>
       <column name="definition">Kos'Karii (single)</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
@@ -1230,7 +1234,7 @@
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qoSqa'rIy:n}</column>
+      <column name="see_also"></column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1238,7 +1242,7 @@
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{qoSqa'rIy:n:inhpl}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>

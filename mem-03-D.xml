@@ -929,9 +929,11 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">To "damn" someone as something.</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {HumanvaD 'urwI' wIDam:sen@@Human:n, -vaD:n, 'urwI':n, wI-:v, Dam:v} "We treat the human as a traitor"
+▶ {'urwI' ghaH 'e' vIDam:sen@@'urwI':n, ghaH:n, 'e':n, vI-:v, Dam:v} "I consider him (to be) a traitor"</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -6690,9 +6692,9 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- Possibly means "face" in the geometric sense. -->
       <column name="entry_name">Dop</column>
       <column name="part_of_speech">n</column>
-      <!-- Possibly means "face" in the geometric sense. -->
       <column name="definition">side</column>
       <column name="definition_de">Seite</column>
       <column name="definition_fa">سمت [AUTOTRANSLATED]</column>
@@ -6785,7 +6787,8 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+{wej Dop:sen@@wej:n:num, Dop:v:2} "minus three", "negative three"</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -7941,7 +7944,7 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Do'ol:n}, {HuD:n}</column>
+      <column name="components">{Do'ol:n}, {HuD:n:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -9565,6 +9568,41 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">Du'Hom mI'</column>
+      <column name="part_of_speech">n:slang,deriv</column>
+      <column name="definition">random number</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms">{mI' 'al:n}</column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This literally means "garden number".</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
