@@ -1014,7 +1014,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/kWP0lgIYMBA}</column>
       <column name="definition_zh_HK">將bat'leth從一隻手扔向另一隻手 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{betleH:n}, {jop:v}, {way':v}, {chaQ:v}, {ngol:v}, {lev:v}, {DIj:v:1}, {jIrmoH:v}</column>
+      <column name="see_also">{betleH:n}, {jop:v:1}, {way':v}, {chaQ:v}, {ngol:v}, {lev:v}, {DIj:v:1}, {jIrmoH:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1071,6 +1071,42 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/kWP0lgIYMBA}</column>
       <column name="search_tags_ru">незрелый, сырой, фрукт</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">baQ</column>
+      <column name="part_of_speech">v:3,i_c</column>
+      <column name="definition">take turns</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is an extension of {baQ:v:1} to gaming or other situations where players, etc., act in a predefined order. To specify someone's turn, use {jop:v:2}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {mabaQ:sen@@ma-:v, baQ:v:3} "we take turns"</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3367,7 +3403,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
       <column name="definition_zh_HK">《bat'leth》（光榮聖劍）</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{yan:n}, {yan:v}, {chaQ:v}, {jop:v}, {way':v}, {ngol:v}, {lev:v}, {DIj:v:1}, {jIrmoH:v}, {baQ:v:1}, {Qach:v}, {ret'aq:n}</column>
+      <column name="see_also">{yan:n}, {yan:v}, {chaQ:v}, {jop:v:1}, {way':v}, {ngol:v}, {lev:v}, {DIj:v:1}, {jIrmoH:v}, {baQ:v:1}, {Qach:v}, {ret'aq:n}</column>
       <column name="notes">The elements of the name of this weapon are archaic, but it means "sword of honor". In modern Klingon, of course, "sword of honor" would be {batlh 'etlh:n:nolink}. See {paq'batlh:n}.
 
 In Klingon legend, the original Sword of Honor was forged by {qeylIS'e' lIjlaHbe'bogh vay':n:name} from a lock of his hair dipped into the {qul ngeng:n} of the volcano {QIStaq:n}. The weapon is shaped like a {maS'e' loQ So'be'bogh QIb:n}.[5]
