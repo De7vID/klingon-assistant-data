@@ -7254,6 +7254,7 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- Allegedly, Marc Okrand didn't like working with PCs before Windows. -->
       <column name="entry_name">DoS</column>
       <column name="part_of_speech">n:inhps</column>
       <column name="definition">target</column>
@@ -7271,7 +7272,6 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <!-- Allegedly, Marc Okrand didn't like working with PCs before Windows. -->
       <column name="hidden_notes"></column>
       <column name="components">{ray':n:inhpl}</column>
       <column name="examples">
@@ -9144,6 +9144,7 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- Note that since this is "inhpl" with no singular form, we have to leave components blank. -->
       <column name="entry_name">Duran lung DIr</column>
       <column name="part_of_speech">n:inhpl,food,fic</column>
       <column name="definition">Durani lizard skins</column>
@@ -9162,7 +9163,6 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="notes_ru">Этот предмет употребляется в пищу. Он никогда не используется ни с какими суффиксами множественного числа</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <!-- Note that since this is "inhpl" with no singular form, we have to leave this blank. -->
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
