@@ -2081,7 +2081,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="definition_zh_HK">道路、街道、路徑等 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chIq:v}</column>
+      <column name="see_also">{chIq:v}, {nagh HeH:n}</column>
       <column name="notes">This is the physical counterpart of {He:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -2152,7 +2152,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yan:n}, {qelHay'ya:n}</column>
-      <column name="notes">This is an archaic word meaning "sword-bearer", and is the equivalent of a "best man" at a Klingon wedding.</column>
+      <column name="notes">Klingon counterpart (more or less) of the "best man" at a wedding. This is normally translated as "sword-bearer", but etymologically that's not quite right. It's a frozen and somewhat modified form of an old word which was apparently something like {taywI'yan:n:nolink}, having something to do with ceremony or ritual {tay:n:2} and sword {yan:n}, but the details of the old grammatical construction are unknown.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5131,8 +5131,9 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
     <table name="mem">
       <column name="_id"></column>
       <!-- "Tip can"? -->
+      <!-- Note that since this is "inhpl" with no singular form, we have to leave components blank. -->
       <column name="entry_name">tIpqan</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:inhpl</column>
       <column name="definition">ash, ashes</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
@@ -5694,9 +5695,10 @@ His supporters include {lIr'el:n:name} and {voq:n:name}. His flagship is a sarco
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- What is {lal:v} in the example? -->
       <column name="entry_name">tIr</column>
       <column name="part_of_speech">v:i</column>
-      <column name="definition">be arranged in a stack (superimpose, superpose)</column>
+      <column name="definition">be arranged in a stack, be superimposed</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
@@ -5704,8 +5706,8 @@ His supporters include {lIr'el:n:name} and {voq:n:name}. His flagship is a sarco
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">In a physics context, this refers to the phenomenon of quantum superposition.</column>
+      <column name="see_also">{mergh:v}</column>
+      <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5713,13 +5715,15 @@ His supporters include {lIr'el:n:name} and {voq:n:name}. His flagship is a sarco
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {A B je tIrmoHchu':sen:nolink} "Superimpose A and B"
+▶ {B-Daq A lalchu':sen:nolink} "superimpose A on(to) B"</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags">superposition</column>
+      <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -6514,7 +6518,7 @@ This verb can be used reflexively to mean "enjoy oneself", "have a good time".[3
       <column name="_id"></column>
       <column name="entry_name">tol</column>
       <column name="part_of_speech">v:t_c</column>
-      <column name="definition">go through, pass through</column>
+      <column name="definition">go through, pass through, pass among</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
@@ -6523,7 +6527,7 @@ This verb can be used reflexively to mean "enjoy oneself", "have a good time".[3
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{vegh:v}, {'aw:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This is used for traveling through an undifferentiated mass or collection of objects using the space between them (a forest, a crowd, water, soil, space).</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -7131,7 +7135,7 @@ Pitching downwards is indicated using a negative angle (see {taH:v:2}).</column>
       <column name="_id"></column>
       <column name="entry_name">torSIv</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">friction</column>
+      <column name="definition">fiction</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
@@ -7139,7 +7143,7 @@ Pitching downwards is indicated using a negative angle (see {taH:v:2}).</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Surma':n}</column>
+      <column name="see_also">{lut:n}, {rorgh:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>

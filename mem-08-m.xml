@@ -1077,7 +1077,7 @@ The writers who came up with this apparently looked up words for "good" and "nig
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{lupwI' mIr:n}</column>
-      <column name="notes"></column>
+      <column name="notes">This is a place where medium/long range transport arrive and depart.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -1140,7 +1140,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="_id"></column>
       <column name="entry_name">maqlegh</column>
       <column name="part_of_speech">n:being</column>
-      <column name="definition">priest</column>
+      <column name="definition">priest, priestess</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
@@ -1148,8 +1148,8 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">{lalDan:n}, {bulvar:n}</column>
+      <column name="see_also">{lalDan:n}, {bulvar:n}</column>
+      <column name="notes">This word is gender-neutral. If a distinction is required, add {loD:n} or {be':n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3943,6 +3943,41 @@ This was also used for the "logic" menu (instructions about program flow control
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">mergh</column>
+      <column name="part_of_speech">v:i_c</column>
+      <column name="definition">be combined, be mixed together</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tIr:v}</column>
+      <column name="notes">This is also used in a physics context, where it refers to the phenomenon of quantum superposition.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes">"Merge".</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags">superposition, superpose</column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2019:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">meS</column>
       <column name="part_of_speech">n</column>
       <column name="definition">knot</column>
@@ -6163,8 +6198,10 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="definition_zh_HK">骰子、色子</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ngutlh nagh:n}, {SuD:v:2}, {qeylIS mInDu':n}</column>
-      <column name="notes">In {Klingon Monopoly:src}, {mI' naghmey:n:nolink} refers to the playing dice. The verb {ronmoH:v@@ron:v:1, -moH:v} is used for the action of throwing or rolling the dice.</column>
+      <column name="see_also">{ngutlh nagh:n}, {SuD:v:2}, {qeylIS mInDu':n}, {Haw:v}</column>
+      <column name="notes">In {Klingon Monopoly:src}, {mI' naghmey:n:nolink} refers to the playing dice. The verb {ronmoH:v@@ron:v:1, -moH:v} is used for the action of throwing or rolling the dice.
+
+The verb {'al:v} is used for random numbers ({mI' 'al:n}).</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6292,6 +6329,41 @@ When a number is used for numbering (labeling), as opposed to counting, it follo
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">mI' 'al</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">random number</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms">{Du'Hom mI':n}</column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{mI':n}, {'al:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -9134,7 +9206,7 @@ This verb is also used in music ({much:v:2}) and martial arts ({much:v:3}).</col
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{men:v}, {morgh:n}</column>
-      <column name="notes"></column>
+      <column name="notes">One {mun'a':n:nolink} is 729 {morghmey:n@@morgh:n, -mey:n}.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>

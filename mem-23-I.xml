@@ -45,7 +45,7 @@
       <column name="definition_zh_HK">盆、桶</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{bargh:n}</column>
+      <column name="see_also">{bargh:n}, {HaySIn:n}</column>
       <column name="notes">This is a square or rectangular tub used to hold food while fermenting.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -458,7 +458,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'Im</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">render, boil (fat)</column>
       <column name="definition_de">kochen (bei Fett)</column>
       <column name="definition_fa">رطوبت، جوش (چربی) [AUTOTRANSLATED]</column>
@@ -468,16 +468,16 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{pub:v}, {tlhagh:n}, {mIQ:v}</column>
-      <column name="notes"></column>
+      <column name="notes">While the general word for "boil" is {pub:v}, the verb used specifically to refer to the boiling of fat is {'Im:v:nolink}.[1, p.94]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">[...] heating it up so that it boils. The general word for "boil" is {pub:sen:nolink}, but the verb used specifically to refer to the boiling of fat is {'Im:sen:nolink}. ({KGT p.94:src})</column>
-      <!-- looks to me like it must be intransitive: "it (the fat) boils" -->
+      <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {'o'mat ghIrI', tI'Im, pIvyoch:n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -539,7 +539,7 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{wutlh:n}, {DIn:n}, {qa'rI':n}</column>
-      <column name="notes"></column>
+      <column name="notes">This refers to the whole sewer system: tunnels, conduits, valves, etc.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -643,7 +643,7 @@
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'ISQIm:n}, {jaghIv:n}</column>
+      <column name="see_also"></column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -819,7 +819,7 @@
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{'ISQIm:n}, {jaghIv:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1147,7 +1147,8 @@ See {rav:n:1} for an idiom related to sadness.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+{mejpu' SuvwI' 'e' vI'Ir:sen@@mej:v, -pu':v, SuvwI':n, 'e':n, vI-:v, 'Ir:v} "I guess the warrior has left"</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -1384,8 +1385,8 @@ See {rav:n:1} for an idiom related to sadness.</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'InDogh:n}, {jaghIv:n}</column>
-      <column name="notes"></column>
+      <column name="see_also">{'IngSav:n}, {jaghIv:n}</column>
+      <column name="notes">This refers to music only, and not to people getting along.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -1666,7 +1667,7 @@ See {rav:n:1} for an idiom related to sadness.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This is a largish fruit with thorny projections on a reasonably hard shell or skin. The inside is more bitter than sweet (unlike an Earth pineapple, which may be referred to as a {tera' 'IventoH:n@@tera':n, 'IventoH:n}).[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>

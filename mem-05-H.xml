@@ -1489,8 +1489,8 @@
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="see_also">{SuD:v:2}, {mI' nagh:n}</column>
+      <column name="notes">For random numbers, as when throwing dice, use {'al:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -1632,7 +1632,7 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ngaSwI':n}</column>
-      <column name="notes"></column>
+      <column name="notes">This is typically round (so it could be a {'Ib rutlh:n@@'Ib:n, rutlh:v}) and portable (so it's not a {qegh:n}).</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3001,7 +3001,7 @@ This word is listed among other militaristic terminology in the body of {KGT:src
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'um:v}, {Han:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This means "experienced" in the sense of involvement in, exposure to, familiarity with, or hands-on dealing with a given area of knowledge or type of skill.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3036,7 +3036,7 @@ This word is listed among other militaristic terminology in the body of {KGT:src
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">For the verb "whip", make use of {Qach:v}.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -4219,8 +4219,8 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/KArQlviVXMk}</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mIw:n}</column>
-      <column name="notes"></column>
+      <column name="see_also">{mIw:n}, {qurme':n}</column>
+      <column name="notes">This is singular. {HIl'aDmey:n@@HIl'aD:n, -mey:n} would mean several sets of instructions.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -4234,7 +4234,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/KArQlviVXMk}</column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">formula, recipe</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -8202,7 +8202,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">HuD</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">mountain, hill</column>
       <column name="definition_de">Berg, Hügel</column>
       <column name="definition_fa">کوه، تپه [AUTOTRANSLATED]</column>
@@ -8254,7 +8254,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{HuD:n}, {qIj:v}</column>
+      <column name="components">{HuD:n:1}, {qIj:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -8289,7 +8289,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{HuD:n}, {beQ:v}, {yoS:n}</column>
+      <column name="components">{HuD:n:1}, {beQ:v}, {yoS:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -8359,7 +8359,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{HuD:n}, {yuQ:n}</column>
+      <column name="components">{HuD:n:1}, {yuQ:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -8373,6 +8373,41 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {Diplomatic Implausibility:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">HuD</column>
+      <column name="part_of_speech">n:2,body,slang</column>
+      <column name="definition">breast</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms">{ngob'at:n}</column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source"></column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -9696,7 +9731,7 @@ Types of {HurDagh:n:nolink} include the {Supghew:n} (small), the {leSpal:n} (med
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is a filler word.</column>
+      <column name="notes">This is a filler word. It's sometimes {Hu'mI:sen:nolink} and sometimes just {Hu:sen:nolink}. Another pause vocalization is just a low-toned {ghghgh:sen:nolink}.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>

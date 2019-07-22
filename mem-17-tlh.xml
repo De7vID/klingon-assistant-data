@@ -325,7 +325,7 @@
       <column name="definition_zh_HK">重力</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tlham:n:2}</column>
+      <column name="see_also">{wa'lay:n}, {tlham:n:2}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -741,7 +741,7 @@
       <column name="_id"></column>
       <column name="entry_name">tlhar</column>
       <column name="part_of_speech">v:t_c</column>
-      <column name="definition">be allergic (to)</column>
+      <column name="definition">be allergic, be allergic to</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
@@ -1020,8 +1020,9 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- Note that since this is "inhpl" with no singular form, we have to leave components blank. -->
       <column name="entry_name">tlhavqop</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:inhpl</column>
       <column name="definition">punctuation</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
@@ -1031,7 +1032,7 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">A slang expression for punctuation is {ghewmey:n}. {tlhavqop:n:nolink} is inherently plural, but one can say {tlhavqop ngutlh(mey):n@@tlhavqop:n, ngutlh:n, -mey:n} "punctuation mark(s)".[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -1584,6 +1585,41 @@
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">tlher'aq</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">reef</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{'oqe':n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3957,7 +3993,7 @@ The spelling of "klorn" comes from the script to {DS9 - Blood Oath:src}.[2]</col
       <column name="_id"></column>
       <column name="entry_name">tlhub</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">climax</column>
+      <column name="definition">climax (literary term)</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
@@ -3966,7 +4002,7 @@ The spelling of "klorn" comes from the script to {DS9 - Blood Oath:src}.[2]</col
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This refers to the height of action in a narrative. (It is not used for orgasm.)[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -4249,7 +4285,7 @@ Some people believe that this word means "to expel exhaust", based on its simila
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{jon:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This means to grab in midair, like catching a baseball.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>

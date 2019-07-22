@@ -584,7 +584,7 @@ This was defined as "be thin" in {TKD:src} and expanded to include "be narrow" a
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{wIv:v}, {wuq:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This is to vote in an election or to vote for a motion. It doesn't have the idiomatic sense of "express an opinion" and is only used if a formal vote is actually taken.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -944,7 +944,7 @@ In English slang, a "lat"rine is sometimes called a "shrine".</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">Less formally, one could end the list of things by saying {latlh lath lath:sen@@latlh:n, latlh:n, latlh:n} or {taH taH taH:sen@@taH:v:1, taH:v:1, taH:v:1}.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2901,7 +2901,7 @@ This word can be used figuratively. There is an idiom, {let mInDu'Daj; Separmey 
       <column name="definition_zh_HK">將bat'leth從垂直方向移動到水平方向 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms">{ngol:v}</column>
-      <column name="see_also">{betleH:n}, {jop:v}, {baQ:v:1}, {way':v}, {chaQ:v}, {jIrmoH:v}, {DIj:v:1}</column>
+      <column name="see_also">{betleH:n}, {jop:v:1}, {baQ:v:1}, {way':v}, {chaQ:v}, {jIrmoH:v}, {DIj:v:1}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -4546,7 +4546,7 @@ This was used to refer to "variables" (a memory location used for storing data i
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">loch</column>
-      <column name="part_of_speech">v</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">be a fraction of, make up a portion of, constitute part of</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
@@ -4556,7 +4556,9 @@ This was used to refer to "variables" (a memory location used for storing data i
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yugh:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This is used to express fractions in math.
+
+If appropriate in a mathematical discussion, no prefix is used even if the denominator is one, even though this is a bit grammatically aberrant. (One would not say {wa' luloch wej:sen@@wa':n:num, lu-:v, loch:v, wej:n:num}.)[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -4564,7 +4566,11 @@ This was used to refer to "variables" (a memory location used for storing data i
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {wej loch cha':sen@@wej:n:num, loch:v, cha':n:num} "2/3"
+▶ {vagh loch wej:sen@@vagh:n:1,num, loch:v, wej:n:num} "3/5"
+▶ {loS loch jav:sen@@loS:n:1,num, loch:v, jav:n:1,num} "6/4"
+▶ {wa' loch wej:sen@@wa':n:num, loch:v, wej:n:num} "3/1"</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -6356,7 +6362,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">The verb usually associated with this is {qaS:v}.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -8041,6 +8047,7 @@ The points in between the three cardinal directions are {tIng chan:n:nolink}, {'
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- Possibly a pun based on the tradition of accompanying oral tellings of stories with "lute" music. -->
       <column name="entry_name">lut</column>
       <column name="part_of_speech">n</column>
       <column name="definition">story</column>
@@ -8051,9 +8058,8 @@ The points in between the three cardinal directions are {tIng chan:n:nolink}, {'
       <column name="definition_zh_HK">故事</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{torSIv:n}, {rorgh:v}</column>
       <column name="notes"></column>
-      <!-- Possibly a pun based on the tradition of accompanying oral tellings of stories with "lute" music. -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>

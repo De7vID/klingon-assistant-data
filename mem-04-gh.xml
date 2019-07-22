@@ -116,8 +116,8 @@
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{wam:v}, {HoH:v}</column>
-      <column name="notes"></column>
+      <column name="see_also">{wam:v}</column>
+      <column name="notes">The general word for kill is {HoH:v}. {ghab:v:nolink} means "kill" as a result of hunting (thus the hunt was a successful one), or when the killing is the result of a planned-out process.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -867,7 +867,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This may also be used for things that resemble jaws, in which case the plural remains {ghapqa'Du':n@@ghapqa':n, -Du':n}.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2293,7 +2293,7 @@ Ein allgemeiner Begriff für jede Musik spielende Gruppe (egal welcher Größe) 
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">According to the novelisation of {Star Trek VI:src}, this is an idiom which is smugglers' slang for wishing someone good luck in avoiding border officials.</column>
-      <column name="components"></column>
+      <column name="components">{ghew:n}, {-mey:n}, {tI-:v}, {Suq:v}, {-Qo':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -2307,6 +2307,41 @@ Ein allgemeiner Begriff für jede Musik spielende Gruppe (egal welcher Größe) 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKW p.207:src}, [2] {Star Trek VI:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">ghewmey</column>
+      <column name="part_of_speech">n:slang,deriv</column>
+      <column name="definition">punctuation</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{ghew:n}, {-mey:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2961,7 +2996,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="_id"></column>
       <column name="entry_name">ghIl</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be the mean (average, used in math)</column>
+      <column name="definition">be the mean, be the average (arithmetic mean, used in math)</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
@@ -2969,7 +3004,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{botlh:n:2}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -3464,7 +3499,7 @@ There is also a regional word {ley':n} which means "nose".</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mI'QeD:n}, {tamlerQeD:n}, {wItte':n}</column>
-      <column name="notes"></column>
+      <column name="notes">This is written or represented using symbols.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5475,7 +5510,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7_rXiSTQmAE}</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghong:n}</column>
-      <column name="notes"></column>
+      <column name="notes">This refers to abuse or exploitation, but does not refer to physical abuse.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>

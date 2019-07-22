@@ -3688,7 +3688,7 @@ The word itself means "origin of everything" or "start of it all" or the like, a
       <column name="definition_zh_HK">桶、桶（用於儲存酒） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{HIq:n}, {pugh:n}</column>
+      <column name="see_also">{HIq:n}, {pugh:n}, {HaySIn:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -3960,8 +3960,8 @@ The information about the length comes from {The Star Trek Encyclopedia, 4th ed.
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <!-- The Russian note needs to be updated to include the new info. В {paq'batlh:src}, {qempa'QeH:n:nolink} являются разъяренными (см. {QeH:v}) родовыми душами, населяющими {ghe'tor:n}.[2] -->
       <column name="_id"></column>
+      <!-- TODO: Fix Russian note. -->
       <column name="entry_name">qempa'</column>
       <column name="part_of_speech">n:inhps</column>
       <column name="definition">ancestor</column>
@@ -3979,7 +3979,9 @@ In the {paq'batlh:src}, the {qempa'QeH:n:nolink} are the enraged (see {QeH:v}) a
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">This refers to a cultural or societal ancestor or forebearer (who is not necessarily related by blood). For a direct ancestor, see {'emrIgh:n}.
+
+В {paq'batlh:src}, {qempa'QeH:n:nolink} являются разъяренными (см. {QeH:v}) родовыми душами, населяющими {ghe'tor:n}.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{no':n:inhpl}</column>
@@ -6221,6 +6223,41 @@ Note that {qItbe'@@qIt:v, -be':v} means "impossible".</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">qItoy</column>
+      <column name="part_of_speech">n:being,slang</column>
+      <column name="definition">prostitute</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms">{'opuHwI':n}</column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source"></column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">qIv</column>
       <column name="part_of_speech">n:body</column>
       <column name="definition">knee</column>
@@ -6528,7 +6565,7 @@ Maltz seemed reluctant to talk about what exactly this is.[2]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This refers to the gummy material.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6562,7 +6599,7 @@ Maltz seemed reluctant to talk about what exactly this is.[2]</column>
       <column name="definition_zh_HK">裡面、入便</column>
       <column name="synonyms"></column>
       <column name="antonyms">{Hur:n}</column>
-      <column name="see_also">{ngaS:v}, {joj:n}, {botlh:n}</column>
+      <column name="see_also">{ngaS:v}, {joj:n}, {botlh:n:1}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -6853,7 +6890,7 @@ It's unclear why the expression uses {tuQmoHHa':sen:nolink} and not {tuQHa'moH:v
       <column name="definition_zh_HK">懸崖、山崖</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{HuD:n}</column>
+      <column name="see_also">{HuD:n:1}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7812,7 +7849,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qoSqa'rIy</column>
-      <column name="part_of_speech">n:anim</column>
+      <column name="part_of_speech">n:inhpl,anim</column>
       <column name="definition">Kos'Karii</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
@@ -7821,15 +7858,15 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'angwIl:n}</column>
-      <column name="notes"></column>
+      <column name="see_also"></column>
+      <column name="notes">These are pale, serpent-like creatures which inhabit the waters crossed by the Barge of the Dead ({Hegh Duj:n}) on its way to Gre'thor ({ghe'tor:n}).</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{'angwIl:n:inhps}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -7967,7 +8004,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{targh:n}, {ngavyaw':n}</column>
-      <column name="notes"></column>
+      <column name="notes">This is a creature like Kruge's pet (see {Qugh:n:2,name}).</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -8177,7 +8214,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This is a borrowing and not a native Klingon word.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -8238,7 +8275,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="_id"></column>
       <column name="entry_name">qo'rIn</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">chromium (tanning agent)</column>
+      <column name="definition">chromium salts</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
@@ -8282,7 +8319,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{DIr:n}</column>
-      <column name="notes"></column>
+      <column name="notes">This is considered a material, not a body part.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -8290,7 +8327,8 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">Corinthian leather.</column>
       <column name="components">{qo'rIn:n}, {DIr:n}</column>
-      <column name="examples"></column>
+      <column name="examples">
+{qo'rIn DIr qogh:n@@qo'rIn DIr:n, qogh:n:1} "leather belt"[1]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -8459,7 +8497,9 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{SIch:v}, {joj:n}</column>
-      <column name="notes"></column>
+      <column name="notes">This refers to the full stretch of time or distance or whatever between the two ends of a range.
+
+To express the idea of some point (perhaps unknown) between the two ends of a range, use {rav ... 'aqroS ...:sen}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -8467,13 +8507,16 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {DaSjaj buqjaj (je) qubbID maleng:sen@@DaSjaj:n, buqjaj:n, je:conj, qubbID:n, ma-:v, leng:v} "we travel Monday to Friday", "we travel between Monday and Friday"
+▶ {DaSjaj buqjaj (je) qubbID maghom:sen@@DaSjaj:n, buqjaj:n, je:conj, qubbID:n, ma-:v, ghom:v} "we meet between Monday and Friday", "we meet Monday to Friday"
+▶ {rav DaSjaj 'aqroS buqjaj maghom:sen@@rav:n:2, DaSjaj:n, 'aqroS:n:2, buqjaj:n, ma-:v, ghom;v} "we meet between Monday and Friday", "we meet at some point between Monday and Friday"</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">between, range</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -8854,7 +8897,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{qul:n}, {HuD:n}</column>
+      <column name="components">{qul:n}, {HuD:n:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -9796,8 +9839,8 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="see_also">{mIw:n}, {HIl'aD:n}</column>
+      <column name="notes">A "formula" which is the list of ingredients of something would be {qurme'mey:n@@qurme':n, -mey:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -9811,7 +9854,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">formula</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -10044,7 +10087,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This is also sometimes {Do'ol na':n@@Do'ol:n, na':v:1}, presumably depending on the exact form of the substance.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -10058,7 +10101,7 @@ This word can't be used for a hole in the ground (for which see {QemjIq:n}), but
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">Do'ol na'</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>

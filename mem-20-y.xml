@@ -3188,7 +3188,7 @@ An earlier translation of this phrase appears in UPN's Star Trek 25th Anniversar
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yIn 'eSqa'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">environmental suit</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
@@ -3204,8 +3204,8 @@ An earlier translation of this phrase appears in UPN's Star Trek 25th Anniversar
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">The first word appears to be {yIn:n}, but it's unclear what {'eSqa':n:nolink} means.</column>
-      <column name="components"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{yIn:n}, {'eSqa':n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
