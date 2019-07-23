@@ -5695,9 +5695,8 @@ His supporters include {lIr'el:n:name} and {voq:n:name}. His flagship is a sarco
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <!-- What is {lal:v} in the example? -->
       <column name="entry_name">tIr</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:i_c</column>
       <column name="definition">be arranged in a stack, be superimposed</column>
       <column name="definition_de"></column>
       <column name="definition_fa"></column>
@@ -5713,11 +5712,11 @@ His supporters include {lIr'el:n:name} and {voq:n:name}. His flagship is a sarco
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">The second example appeared on the KLI web site as {B-Daq A lalchu':sen:nolink}. Is {lal:v:nolink} somehow a typo for {tIrmoH:v:nolink}, or a new verb?</column>
+      <column name="hidden_notes">It's not clear if {lal:v} in the second example is a new word, or an error.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {A B je tIrmoHchu':sen:nolink} "Superimpose A and B"
-▶ {B-Daq A lalchu':sen:nolink} "superimpose A on(to) B"</column>
+▶ {B-Daq A lalchu':sen:nolink} (one way to say) "superimpose A on(to) B"</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
