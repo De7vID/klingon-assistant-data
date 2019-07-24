@@ -356,41 +356,6 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">lal</column>
-      <column name="part_of_speech">v:t_c,alt</column>
-      <column name="definition">{tIr:v}</column>
-      <column name="definition_de">{tIr:v}</column>
-      <column name="definition_fa">{tIr:v}</column>
-      <column name="definition_sv">{tIr:v}</column>
-      <column name="definition_ru">{tIr:v}</column>
-      <column name="definition_zh_HK">{tIr:v}</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This word was not defined independently, but appeared in an example for {tIr:v}.</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">It's not clear if this is an error, or a new word.</column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {qep'a' 2019:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
       <column name="entry_name">lalDan</column>
       <column name="part_of_speech">n</column>
       <column name="definition">religion</column>
@@ -461,6 +426,7 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- Possibly Spanish "lama" or German "leim". -->
       <column name="entry_name">lam</column>
       <column name="part_of_speech">n</column>
       <column name="definition">dirt</column>
@@ -473,7 +439,6 @@
       <column name="antonyms"></column>
       <column name="see_also">{lam:v}, {tlhan:v}</column>
       <column name="notes"></column>
-      <!-- Possibly Spanish "lama" or German "leim". -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -508,7 +473,7 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chIl:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This verb can be used with the suffix {-chu':v} to express the idea of superimposing something on(to) something else. See {tIr:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -1112,6 +1077,7 @@ If the swinging is continuously back and forth, use {ler:v} instead.</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- {law chu':n} can't be linked because {law:n} is archaic. -->
       <column name="entry_name">lawrI'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">degree (unit of angle)</column>
@@ -1123,7 +1089,6 @@ If the swinging is continuously back and forth, use {ler:v} instead.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{law:n}, {tajvaj:n:1}, {lID:v}</column>
-      <!-- {law chu':n} can't be linked because {law:n} is archaic. -->
       <column name="notes">This is a modern unit of angle adopted from other civilizations in the galaxy. It is also referred to as a {law chu':n:nolink} (although that term is used less and less). There are 360 {lawrI'mey:n:nolink} in a {gho:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1627,6 +1592,7 @@ The following example shows that the verb of quality can take a suffix:
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- This may be a reference to Klingonist {lay'tel SIvten:n:name,nolink}, or {lay'SIv:n:name} for short. -->
       <column name="entry_name">la'SIv</column>
       <column name="part_of_speech">n:anim</column>
       <column name="definition">turtle, tortoise</column>
@@ -1640,7 +1606,6 @@ The following example shows that the verb of quality can take a suffix:
       <column name="see_also">{lung:n}</column>
       <column name="notes">This refers to a Klingon creature that resembles a Terran turtle, which might be called a {tera' la'SIv:n:nolink}.</column>
       <column name="notes_de"></column>
-      <!-- This may be a reference to Klingonist {lay'tel SIvten:n:name,nolink}, or {lay'SIv:n:name} for short. -->
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2254,10 +2219,10 @@ This word can be used to refer to traveling with or without a special purpose. I
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- In the subentry under {leng}, "der Lieven" (a printed Klingon-German dictionary) has "Fluglage-Kontrollsystem". -->
       <column name="entry_name">leng Dotlh SeHwI' pat</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">flight reaction control system</column>
-      <!-- Under {leng}, der Lieven has "Fluglage-Kontrollsystem". -->
       <column name="definition_de">Flugreaktionskontrollsystem</column>
       <column name="definition_fa">سیستم کنترل واکنش پرواز [AUTOTRANSLATED]</column>
       <column name="definition_sv">flygreaktionsstyrsystem [AUTOTRANSLATED]</column>
@@ -6177,41 +6142,6 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">loS</column>
-      <column name="part_of_speech">n:1,num</column>
-      <column name="definition">four</column>
-      <column name="definition_de">vier</column>
-      <column name="definition_fa">چهار</column>
-      <column name="definition_sv">fyra</column>
-      <column name="definition_ru">четыре</column>
-      <column name="definition_zh_HK">四</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{loS:n:2} (musical tone)</column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">loS</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">wait (for)</column>
       <column name="definition_de">warten (auf)</column>
@@ -6244,6 +6174,111 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">loS</column>
+      <column name="part_of_speech">n:1,num</column>
+      <column name="definition">four</column>
+      <column name="definition_de">vier</column>
+      <column name="definition_fa">چهار</column>
+      <column name="definition_sv">fyra</column>
+      <column name="definition_ru">четыре</column>
+      <column name="definition_zh_HK">四</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{loS:n:2} (musical tone)</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {TKD:src}</column>
+    </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">loSDIch</column>
+          <column name="part_of_speech">n:num,deriv</column>
+          <column name="definition">fourth</column>
+          <column name="definition_de">vierte/r</column>
+          <column name="definition_fa">چهارمین</column>
+          <column name="definition_sv">fjärde</column>
+          <column name="definition_ru">четвертый</column>
+          <column name="definition_zh_HK">第四</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{loS:n:1,num}, {-DIch:n:num,suff}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="search_tags">4th</column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="source">[1] {TKD:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">loSmaH</column>
+          <column name="part_of_speech">n:num,deriv</column>
+          <column name="definition">forty</column>
+          <column name="definition_de">vierzig</column>
+          <column name="definition_fa"></column>
+          <column name="definition_sv"></column>
+          <column name="definition_ru"></column>
+          <column name="definition_zh_HK"></column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{loS:n:1,num}, {maH:n:2,num}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="source"></column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">loS</column>
@@ -6281,38 +6316,40 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">loSDIch</column>
-      <column name="part_of_speech">n:num,deriv</column>
-      <column name="definition">fourth</column>
-      <column name="definition_de">vierte/r</column>
-      <column name="definition_fa">چهارمین</column>
-      <column name="definition_sv">fjärde</column>
-      <column name="definition_ru">четвертый</column>
-      <column name="definition_zh_HK">第四</column>
+      <column name="entry_name">loScha'</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">coincidence</column>
+      <column name="definition_de"></column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">The verb usually associated with this is {qaS:v}.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
-      <column name="components">{loS:n:1,num}, {-DIch:n:num,suff}</column>
+      <column name="hidden_notes">"42". Four-two-itous (fortuitous).
+
+Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Klingon vocabulary "coincidences".</column>
+      <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags">4th</column>
+      <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {qep'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6383,41 +6420,6 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {KLI mailing list 2014.01.27:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">loScha'</column>
-      <column name="part_of_speech">n</column>
-      <column name="definition">coincidence</column>
-      <column name="definition_de"></column>
-      <column name="definition_fa"></column>
-      <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
-      <column name="definition_zh_HK"></column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">The verb usually associated with this is {qaS:v}.[1]</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">"42".</column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {qep'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7459,7 +7461,7 @@ This prefix is sometimes dropped for unknown reasons. While an error, this is of
       <column name="definition_zh_HK">膨脹、膨脹起來 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{tlhar:v}</column>
       <column name="notes">While this is an anatomy term, it can be used for other things, such as wood which has gotten wet.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7924,7 +7926,7 @@ This prefix is sometimes dropped for unknown reasons. While an error, this is of
       <column name="definition_zh_HK">方向</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Dop:n}</column>
+      <column name="see_also">{Dop:n}, {roDSer:n}</column>
       <column name="notes">The Klingon compass has three points, rather than four: {chan:n} (east), {'ev:n} (northwest), and {tIng:n} (southwest).
 
 The areas around an object are its {Dung:n} (area above), {bIng:n} (area below), {retlh:n} (area beside), {tlhop:n:1} (front), and {'em:n} (behind). Something in an object's {retlh:n:nolink} can be on its {poS:n} (left) or its {nIH:n} (right). The area between two objects are their {joj:n} (area between). The area beyond an object is its {Hay:n:2h}.

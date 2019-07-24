@@ -1120,7 +1120,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/kWP0lgIYMBA}</column>
       <column name="definition_zh_HK">一般粗口</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{bep:v}, {ghughugh:v}</column>
       <column name="notes">When used for booing, it is often preceded or followed by general grumbling and growling. Sometimes, just grumbling and growling alone can also expressed this sentiment.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -2154,7 +2154,6 @@ In Japanese, "baka" means "fool" or "idiot".</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <!-- "Bias"? -->
       <column name="entry_name">bay'eS</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">inferior, subordinate</column>
@@ -2172,7 +2171,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">{bay:n} "b" + {'eS:v} "low" = "below". Also "bias".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2235,14 +2234,14 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{Sargh:n}, {Hun:n}</column>
       <column name="notes">This refers to the seat strapped to the back of an animal.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">A "bakin" (ばきん, 馬巾) is a padded cover for a samurai saddle.</column>
+      <column name="hidden_notes">"Back in" the saddle.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2984,7 +2983,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
       <column name="definition_zh_HK">抱怨</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{bep:n}, {vIng:v}, {boj:v}, {morgh:v}</column>
+      <column name="see_also">{bep:n}, {vIng:v}, {boj:v}, {morgh:v}, {baQa':excl}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -4825,7 +4824,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The Greek word "hypothesis" comes from roots meaning "under" ({bIng:n}) and "placing" ({lan:v}).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -5489,7 +5488,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="definition_zh_HK">海洋</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{yu'egh:n}, {vI'Ir:n}, {bIQtIq:n}, {bIQ'a' HeH:n}</column>
+      <column name="see_also">{yu'egh:n}, {vI'Ir:n}, {bIQtIq:n}, {bIQ'a' HeH:n}, {tlher'aq:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -6925,7 +6924,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">A reference to the Colonel Bogey March.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7128,7 +7127,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="definition_zh_HK">歌曲</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{bom mu':n}, {ghuQ:n}, {gha'tlhIq:n}, {wup:v}, {bom:v}</column>
+      <column name="see_also">{bom mu':n}, {ghuQ:n}, {gha'tlhIq:n}, {wup:v}, {bom:v}, {'ISQIm:n}, {'IngSav:n}, {jaghIv:n}, {romta':n}, {Savvanwer:n}</column>
       <column name="notes">Kinds of {bom:n:nolink} include: {bang bom:n}, {HIvje' bom:n}, {van bom:n}, {chon bom:n}, {Dap bom:n}, {ghe'naQ:n}, {may' bom:n}, {najmoHwI':n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7896,11 +7895,11 @@ Please support the Klingon language by purchasing {The Klingon Dictionary:src}, 
 Klingon, Star Trek, and related marks are trademarks of CBS Studios, Inc., and are used under "fair use" guidelines.
 
 Android programming: {De'vID:n:name}
-Flutter (iOS) port: {De'nIl:n:name,nolink} (Daniel Dadap)
+Flutter (iOS) port: Daniel Dadap
 Klingon-English data: {De'vID:n:name,nolink}, with help from others
 German translations: {Quvar:n:name} (Lieven L. Litaer)
 Swedish translations: {Klingonska Akademien:url:http://klingonska.org/}
-Russian translations: Кирилл Шилов, {De'nIl:n:name,nolink} (Дэниел Дэдеп) and Sirglin (Ольга Косарева)
+Russian translations: Кирилл Шилов, Дэниел Дэдеп and Sirglin (Ольга Косарева)
 TNG {pIqaD:n} font: Admiral {qurgh lungqIj:n:name,nolink} of the {Klingon Assault Group:url:http://www.kag.org/}
 DSC {pIqaD:n:nolink} font: {Quvar:n:name,nolink} (Lieven L. Litaer)
 
@@ -7924,11 +7923,11 @@ Bitte unterstütze die klingonische Sprache durch den Erwerb der Bücher {The Kl
 Klingon, Star Trek, und verwandte Begriffe sind Schutzmarken von CBS Studios, Inc., und werden unter "fair use" verwendet.
 
 Android Programmierung: {De'vID:n:name}
-Flutter (iOS) Portierung: {De'nIl:n:name,nolink} (Daniel Dadap)
+Flutter (iOS) Portierung: Daniel Dadap
 Klingonisch-Englische Informationen: {De'vID:n:name,nolink}, mit Unterstützung von Anderen
 Deutsche Übersetzung: {Quvar:n:name} (Lieven L. Litaer)
 Schwedische Übersetzung: {Klingonska Akademien:url:http://klingonska.org/}
-Russische Übersetzung: Кирилл Шилов, {De'nIl:n:name,nolink} (Дэниел Дэдеп) und Sirglin (Ольга Косарева)
+Russische Übersetzung: Кирилл Шилов, Дэниел Дэдеп und Sirglin (Ольга Косарева)
 TNG {pIqaD:n} Schriftart: Admiral {qurgh lungqIj:n:name,nolink} von der {Klingon Assault Group:url:http://www.kag.org/}
 DSC {pIqaD:n:nolink} Schriftart: {Quvar:n:name,nolink} (Lieven L. Litaer)
 
@@ -7954,11 +7953,11 @@ Ein besonderer Dank richtet sich an Marc Okrand ({marq 'oqranD:n:name}) für das
 Клингонский язык, Стар Трек, и связанные марки и торговые марки CBS Studios, Inc., использованы согласно рекомендациям доктрины "Добросовестного использования".
 
 Программирование под Android: {De'vID:n:name}
-Flutter (iOS) port: {De'nIl:n:name,nolink} (Daniel Dadap)
+Flutter (iOS) port: Daniel Dadap
 Клингоно-агнглийская информация: {De'vID:n:name,nolink}, с помощью других
 Переводы на немецкий язык: {Quvar:n:name} (Ливен Л. Литар)
 Переводы на шведский язык: {Klingonska Akademien:url:http://klingonska.org/}
-Переводы на русский язык: Кирилл Шилов ({tlhIngan:n:name,nolink} в KLI и {qrell:n:name,nolink} в Klingon Assault Group), De'nIl (Дэниел Дэдеп) и Sirglin (Ольга Косарева)
+Переводы на русский язык: Кирилл Шилов ({tlhIngan:n:name,nolink} в KLI и {qrell:n:name,nolink} в Klingon Assault Group), Дэниел Дэдеп и Sirglin (Ольга Косарева)
 TNG {pIqaD:n} font: Адмирал {qurgh lungqIj:n:name,nolink} из {Клингонской штурмовой группы:url:http://www.kag.org/}
 DSC {pIqaD:n:nolink} font: {Quvar:n:name,nolink} (Ливен Л. Литар)
 

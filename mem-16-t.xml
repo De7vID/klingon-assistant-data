@@ -2166,13 +2166,13 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">sword bearer, sword-bearer, best man</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {qep'a' 2019:src}</column>
+      <column name="source">[1] {qep'a' 2019:src}, [2] {DS9 - You Are Cordially Invited:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3607,7 +3607,7 @@ The continents of Earth are:
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">Terra</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -4944,7 +4944,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">large, huge</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -5130,7 +5130,6 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <!-- "Tip can"? -->
       <!-- Note that since this is "inhpl" with no singular form, we have to leave components blank. -->
       <column name="entry_name">tIpqan</column>
       <column name="part_of_speech">n:inhpl</column>
@@ -5149,7 +5148,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">"Tippecanoe and Tyler Too". Ash Tyler is a character in {Star Trek Discovery:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -5706,17 +5705,15 @@ His supporters include {lIr'el:n:name} and {voq:n:name}. His flagship is a sarco
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mergh:v}</column>
-      <column name="notes"></column>
+      <column name="notes">"Superimpose A and B" is {A B je tIrmoHchu':sen:nolink}. One way to say "superimpose A on(to) B" is {B-Daq A lanchu':sen:nolink} (see {lan:v}).</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">It's not clear if {lal:v} in the second example is a new word, or an error.</column>
+      <column name="hidden_notes">"Tier".</column>
       <column name="components"></column>
-      <column name="examples">
-▶ {A B je tIrmoHchu':sen:nolink} "Superimpose A and B"
-▶ {B-Daq A lalchu':sen:nolink} (one way to say) "superimpose A on(to) B"</column>
+      <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -5791,8 +5788,8 @@ This verb can be used reflexively to mean "enjoy oneself", "have a good time".[3
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-{petIv'egh. qara'qu'.:sen@@pe-:v, tIv:v, -'egh:v, qa-:v, ra':v:1, -qu':v} "Enjoy yourselves. That's an order."[3]
-{SutIv'egh'a'?:sen@@Su-:v, tIv:v, -'egh:v, -'a':v} "You will enjoy yourselves?"[4]</column>
+▶ {petIv'egh. qara'qu'.:sen@@pe-:v, tIv:v, -'egh:v, qa-:v, ra':v:1, -qu':v} "Enjoy yourselves. That's an order."[3]
+▶ {SutIv'egh'a'?:sen@@Su-:v, tIv:v, -'egh:v, -'a':v} "You will enjoy yourselves?"[4]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -7149,7 +7146,7 @@ Pitching downwards is indicated using a negative angle (see {taH:v:2}).</column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Tor Books is a publisher of speculative (see {SIv:v}) fiction.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
