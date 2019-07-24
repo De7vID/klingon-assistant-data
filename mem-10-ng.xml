@@ -1082,7 +1082,7 @@ One can say {mab ngaQmoH:sen@@mab:n:2, ngaQmoH:v:2} and so on, but this is a spe
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">wolf, wolfdog, dog</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -3646,7 +3646,6 @@ Note that "then" in the sense of "subsequently" is {ghIq:adv}.[1]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ngun</column>
-      <!-- Check HQ 10.4 for examples, and if this is transitive or intransitive. -->
       <column name="part_of_speech">v:t</column>
       <column name="definition">perch</column>
       <column name="definition_de">auf Baum landen bzw. setzen</column>
