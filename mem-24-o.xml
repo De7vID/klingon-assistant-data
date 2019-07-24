@@ -116,7 +116,7 @@
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms">{wan:v}</column>
-      <column name="see_also"></column>
+      <column name="see_also">{SIH:v}, {rutlh:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -2324,6 +2324,7 @@ This word is also written {'orghenya'ngan:n:nolink}.</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- Possibly a visual pun. -->
       <column name="entry_name">'o'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">aft</column>
@@ -2336,7 +2337,6 @@ This word is also written {'orghenya'ngan:n:nolink}.</column>
       <column name="antonyms">{'et:n:2h}</column>
       <column name="see_also">{poS:n}, {nIH:n}, {'em:n}, {Sa'Hut:n}</column>
       <column name="notes">For the area behind an object, see {'em:n}.</column>
-      <!-- Possibly a visual pun. -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>

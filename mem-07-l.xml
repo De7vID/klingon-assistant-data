@@ -426,6 +426,7 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- Possibly Spanish "lama" or German "leim". -->
       <column name="entry_name">lam</column>
       <column name="part_of_speech">n</column>
       <column name="definition">dirt</column>
@@ -438,7 +439,6 @@
       <column name="antonyms"></column>
       <column name="see_also">{lam:v}, {tlhan:v}</column>
       <column name="notes"></column>
-      <!-- Possibly Spanish "lama" or German "leim". -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -1077,6 +1077,7 @@ If the swinging is continuously back and forth, use {ler:v} instead.</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- {law chu':n} can't be linked because {law:n} is archaic. -->
       <column name="entry_name">lawrI'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">degree (unit of angle)</column>
@@ -1088,7 +1089,6 @@ If the swinging is continuously back and forth, use {ler:v} instead.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{law:n}, {tajvaj:n:1}, {lID:v}</column>
-      <!-- {law chu':n} can't be linked because {law:n} is archaic. -->
       <column name="notes">This is a modern unit of angle adopted from other civilizations in the galaxy. It is also referred to as a {law chu':n:nolink} (although that term is used less and less). There are 360 {lawrI'mey:n:nolink} in a {gho:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1592,6 +1592,7 @@ The following example shows that the verb of quality can take a suffix:
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- This may be a reference to Klingonist {lay'tel SIvten:n:name,nolink}, or {lay'SIv:n:name} for short. -->
       <column name="entry_name">la'SIv</column>
       <column name="part_of_speech">n:anim</column>
       <column name="definition">turtle, tortoise</column>
@@ -1605,7 +1606,6 @@ The following example shows that the verb of quality can take a suffix:
       <column name="see_also">{lung:n}</column>
       <column name="notes">This refers to a Klingon creature that resembles a Terran turtle, which might be called a {tera' la'SIv:n:nolink}.</column>
       <column name="notes_de"></column>
-      <!-- This may be a reference to Klingonist {lay'tel SIvten:n:name,nolink}, or {lay'SIv:n:name} for short. -->
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2219,10 +2219,10 @@ This word can be used to refer to traveling with or without a special purpose. I
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- In the subentry under {leng}, "der Lieven" (a printed Klingon-German dictionary) has "Fluglage-Kontrollsystem". -->
       <column name="entry_name">leng Dotlh SeHwI' pat</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">flight reaction control system</column>
-      <!-- Under {leng}, der Lieven has "Fluglage-Kontrollsystem". -->
       <column name="definition_de">Flugreaktionskontrollsystem</column>
       <column name="definition_fa">سیستم کنترل واکنش پرواز [AUTOTRANSLATED]</column>
       <column name="definition_sv">flygreaktionsstyrsystem [AUTOTRANSLATED]</column>
@@ -7461,7 +7461,7 @@ This prefix is sometimes dropped for unknown reasons. While an error, this is of
       <column name="definition_zh_HK">膨脹、膨脹起來 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{tlhar:v}</column>
       <column name="notes">While this is an anatomy term, it can be used for other things, such as wood which has gotten wet.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7926,7 +7926,7 @@ This prefix is sometimes dropped for unknown reasons. While an error, this is of
       <column name="definition_zh_HK">方向</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Dop:n}</column>
+      <column name="see_also">{Dop:n}, {roDSer:n}</column>
       <column name="notes">The Klingon compass has three points, rather than four: {chan:n} (east), {'ev:n} (northwest), and {tIng:n} (southwest).
 
 The areas around an object are its {Dung:n} (area above), {bIng:n} (area below), {retlh:n} (area beside), {tlhop:n:1} (front), and {'em:n} (behind). Something in an object's {retlh:n:nolink} can be on its {poS:n} (left) or its {nIH:n} (right). The area between two objects are their {joj:n} (area between). The area beyond an object is its {Hay:n:2h}.
