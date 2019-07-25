@@ -9423,7 +9423,7 @@ To express the idea of some point (perhaps unknown) between the two ends of a ra
       <column name="definition_zh_HK">歷史學</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{quntej:n}</column>
+      <column name="see_also">{qun:n}, {QeD:n}, {quntej:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -9449,7 +9449,7 @@ To express the idea of some point (perhaps unknown) between the two ends of a ra
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">quntej</column>
-      <column name="part_of_speech">n:deriv</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">historian</column>
       <column name="definition_de">Historiker</column>
       <column name="definition_fa">تاریخ شناس</column>
@@ -9458,7 +9458,7 @@ To express the idea of some point (perhaps unknown) between the two ends of a ra
       <column name="definition_zh_HK">歷史學家</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qunQeD:n}</column>
+      <column name="see_also">{qunQeD:n}, {tej:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
