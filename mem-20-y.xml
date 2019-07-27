@@ -292,13 +292,13 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{teywI':n}</column>
-      <column name="notes">This word does not appear in canon by itself, but can be inferred from {jIb yachwI':n}.</column>
+      <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This word does not appear in canon by itself, but can be inferred from {jIb yachwI':n}.</column>
       <column name="components">{yach:v:1}, {-wI':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2083,41 +2083,6 @@ Do not confuse this with a society in the cultural sense, for which see {nugh:n}
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">yeru'Sala'yIm</column>
-      <column name="part_of_speech">n:place</column>
-      <column name="definition">Jerusalem</column>
-      <column name="definition_de">Jerusalem</column>
-      <column name="definition_fa">اورشلیم</column>
-      <column name="definition_sv">Jerusalem</column>
-      <column name="definition_ru">Иерусалим</column>
-      <column name="definition_zh_HK">耶路撒冷</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
       <column name="entry_name">yev</column>
       <column name="part_of_speech">v:i</column>
       <column name="definition">pause</column>
@@ -3435,41 +3400,6 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/HVOJkR51lBU}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">yISra'el</column>
-      <column name="part_of_speech">n:place</column>
-      <column name="definition">Israel</column>
-      <column name="definition_de">Israel</column>
-      <column name="definition_fa">اسرائيل</column>
-      <column name="definition_sv">Israel</column>
-      <column name="definition_ru">Израиль</column>
-      <column name="definition_zh_HK">以色列</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TNK:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
       <column name="entry_name">yISo'rup.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Prepare to cloak.</column>
@@ -3643,7 +3573,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/HVOJkR51lBU}</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KLI mailing list 2018.08.31:src}</column>
+      <column name="source">[1] {KLI mailing list 2018.08.31:src}, [2] {The Little Prince:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3678,7 +3608,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/HVOJkR51lBU}</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KLI mailing list 2018.08.31:src}</column>
+      <column name="source">[1] {KLI mailing list 2018.08.31:src}, [2] {The Little Prince:src}</column>
     </table>
     <!-- Gowron says {yItlhutlhchu'!}: http://youtu.be/BClxiHuCjh4-->
     <table name="mem">
@@ -5592,7 +5522,7 @@ The first and second {yu:n:nolink} are not an octave apart, but rather a nonave 
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KLI mailing list 2018.08.31:src}</column>
+      <column name="source">[1] {KLI mailing list 2018.08.31:src}, [2] {The Little Prince:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5627,7 +5557,7 @@ The first and second {yu:n:nolink} are not an octave apart, but rather a nonave 
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KLI mailing list 2018.08.31:src}</column>
+      <column name="source">[1] {KLI mailing list 2018.08.31:src}, [2] {The Little Prince:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

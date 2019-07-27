@@ -1371,6 +1371,7 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- The components does not point to {jIrmoH:v}, because that entry is specifically for a martial arts move. -->
       <column name="entry_name">tlhegh jIrmoHwI'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">windlass</column>
@@ -1389,7 +1390,6 @@
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <!-- Not {jIrmoH:v}, because that entry is specifically for a martial arts move. -->
       <column name="components">{tlhegh:n}, {jIr:v}, {-moH:v}, {-wI':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -1403,7 +1403,7 @@
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KLI mailing list 2018.08.31:src}</column>
+      <column name="source">[1] {KLI mailing list 2018.08.31:src}, [2] {The Little Prince:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

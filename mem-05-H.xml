@@ -533,41 +533,6 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">Hamburgh</column>
-      <column name="part_of_speech">n:place</column>
-      <column name="definition">Hamburg</column>
-      <column name="definition_de">Hamburg</column>
-      <column name="definition_fa"></column>
-      <column name="definition_sv"></column>
-      <column name="definition_ru"></column>
-      <column name="definition_zh_HK"></column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{Ha'DIbaH ghIH tIr ngogh je:n}</column>
-      <column name="notes">This is the name of a Terran city.</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KLI mailing list 2019.04.01:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
       <column name="entry_name">Hamlet</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Hamlet</column>
@@ -865,7 +830,7 @@
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
-          <column name="hidden_notes"></column>
+          <column name="hidden_notes">This word does not appear in canon, but is an obvious construction based on {HapQeD:n:nolink}.</column>
           <column name="components">{Hap:n}, {tej:n}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
@@ -5527,7 +5492,7 @@ If an alien calendar contains more than six days, additional days are numbered b
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KLI mailing list 2018.08.31:src}</column>
+      <column name="source">[1] {KLI mailing list 2018.08.31:src}, [2] {The Little Prince:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5897,13 +5862,15 @@ The identifier is usually a country, region, or political unit of some kind. For
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{HolQeD:n}, {tej:n}</column>
-      <column name="notes">This term does not appear in canon, but is an obvious construction from {Hol:n} and {tej:n}.</column>
+      <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">{Holtej:n:name,nolink} (no space) is the Klingon name of linguist and Klingonist d'Armond Speers.</column>
+      <column name="hidden_notes">This term does not appear in canon, but is an obvious construction from {Hol:n} and {tej:n}.
+
+{Holtej:n:name,nolink} (no space) is the Klingon name of linguist and Klingonist d'Armond Speers.</column>
       <column name="components">{Hol:n}, {tej:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7282,7 +7249,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KLI mailing list 2018.08.31:src}</column>
+      <column name="source">[1] {KLI mailing list 2018.08.31:src}, [2] {The Little Prince:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7352,7 +7319,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KLI mailing list 2018.08.31:src}</column>
+      <column name="source">[1] {KLI mailing list 2018.08.31:src}, [2] {The Little Prince:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7387,7 +7354,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KLI mailing list 2018.08.31:src}</column>
+      <column name="source">[1] {KLI mailing list 2018.08.31:src}, [2] {The Little Prince:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -8217,7 +8184,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Presumably, an economist would be a {Huchtej:n@@Huch:n, tej:n}, but this word has never appeared in canon.</column>
       <column name="components">{Huch:n}, {QeD:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
