@@ -865,7 +865,7 @@
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
-          <column name="hidden_notes"></column>
+          <column name="hidden_notes">This word does not appear in canon, but is an obvious construction based on {HapQeD:n:nolink}.</column>
           <column name="components">{Hap:n}, {tej:n}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
@@ -5897,13 +5897,15 @@ The identifier is usually a country, region, or political unit of some kind. For
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{HolQeD:n}, {tej:n}</column>
-      <column name="notes">This term does not appear in canon, but is an obvious construction from {Hol:n} and {tej:n}.</column>
+      <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">{Holtej:n:name,nolink} (no space) is the Klingon name of linguist and Klingonist d'Armond Speers.</column>
+      <column name="hidden_notes">This term does not appear in canon, but is an obvious construction from {Hol:n} and {tej:n}.
+
+{Holtej:n:name,nolink} (no space) is the Klingon name of linguist and Klingonist d'Armond Speers.</column>
       <column name="components">{Hol:n}, {tej:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8217,7 +8219,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Presumably, an economist would be a {Huchtej:n@@Huch:n, tej:n}, but this word has never appeared in canon.</column>
       <column name="components">{Huch:n}, {QeD:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
