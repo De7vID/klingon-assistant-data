@@ -855,6 +855,7 @@ The writers who came up with this apparently looked up words for "good" and "nig
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <!-- TODO: Fix Russian note. -->
       <column name="entry_name">mang</column>
       <column name="part_of_speech">n:inhps</column>
       <column name="definition">soldier</column>
@@ -865,12 +866,12 @@ The writers who came up with this apparently looked up words for "good" and "nig
       <column name="definition_zh_HK">士兵（單數）</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{QaS:n:1h}</column>
-      <column name="notes">The word {mangpu':n@@mang:n, -pu':n} is seldom-used, and carries the notion that there are individuals making up the group. {negh:n} focuses on the group as a unit.[2]</column>
+      <column name="see_also"></column>
+      <column name="notes">The word {mangpu':n@@mang:n, -pu':n} is seldom-used, and carries the notion that there are individuals making up the group. {negh:n} focuses on the group as a unit. {QaS:n:1h} is similar to {negh:n:nolink}, but excludes officers.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">Слово {mangpu':n@@mang:n, -pu':n} редко используется, и несет смысловую нагрузку, что есть люди, которые создают группу. Слово {negh:n} фокусируется на группе, как на подразделении.[2]</column>
+      <column name="notes_ru">Слово {mangpu':n@@mang:n, -pu':n} редко используется, и несет смысловую нагрузку, что есть люди, которые создают группу. Слово {negh:n} фокусируется на группе, как на подразделении. {QaS:n:1h} is similar to {negh:n:nolink}, but excludes officers.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{negh:n}</column>
