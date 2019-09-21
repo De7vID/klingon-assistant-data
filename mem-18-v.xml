@@ -5934,6 +5934,7 @@ This region has some vocabulary differences from {ta' Hol:n}. Terms which have a
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Double-check the example sentence. -->
       <column name="_id"></column>
       <column name="entry_name">vo'</column>
       <column name="part_of_speech">v:t_c</column>
@@ -5954,7 +5955,6 @@ This region has some vocabulary differences from {ta' Hol:n}. Terms which have a
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <!-- Double-check this sentence. -->
       <column name="examples">
 ▶ {QIStaq qul bIQtIqHomDaq 'etlhDaj vo' nuch:sen:nolink} "The coward throws his sword into the fire streams of Kri'stak"[2]</column>
       <column name="examples_de"></column>
@@ -5969,6 +5969,41 @@ This region has some vocabulary differences from {ta' Hol:n}. Terms which have a
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}, [2] {paq'batlh p.76-77:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">vo'yajer</column>
+      <column name="part_of_speech">n:name,fic</column>
+      <column name="definition">Voyager</column>
+      <column name="definition_de">Voyager</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Hov leng:n}</column>
+      <column name="notes">This is the name of a Federation starship.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru">Это название корабля Федерации.</column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Kauderwelsch Klingonisch:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
