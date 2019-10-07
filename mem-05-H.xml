@@ -1040,7 +1040,7 @@
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Marc Okrand decided to put this word into {TKD:src} because he thought artificial sweetener would be something that would be around in the future.[2]</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -1054,9 +1054,10 @@
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KLI mailing list 2019.09.26:src}</column>
     </table>
     <table name="mem">
+      <!-- {HarnIS} sounds like "harness"? -->
       <column name="_id"></column>
       <column name="entry_name">Har</column>
       <column name="part_of_speech">v:t_c</column>
@@ -1070,7 +1071,6 @@
       <column name="antonyms">{Hon:v}</column>
       <column name="see_also">{DIch:n}, {voq:v}, {loy:v}, {Sov:v}</column>
       <column name="notes"></column>
-      <!-- {HarnIS} sounds like "harness"? -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
