@@ -2242,9 +2242,9 @@ In addition to nouns, {je:sen:nolink} can also follow a verb. See {je:adv}.</col
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- This is an adverbial, despite not being labeled as such in TKD. -->
       <column name="_id"></column>
       <column name="entry_name">je</column>
-      <!-- This is an adverbial, despite not being labeled as such in TKD. -->
       <column name="part_of_speech">adv</column>
       <column name="definition">also (follows the verb it modifies)</column>
       <column name="definition_de">auch (folgt dem Verb das es modifiziert)</column>
@@ -2256,7 +2256,6 @@ In addition to nouns, {je:sen:nolink} can also follow a verb. See {je:adv}.</col
       <column name="antonyms"></column>
       <column name="see_also">{je:conj}, {vabDot:adv}</column>
       <column name="notes">When {je:adv:nolink} follows a verb, it means "also, too". {qaleghpu' je:sen:nolink} means "I also saw you, I saw you too", and as in English, its meaning is ambiguous. (It could mean "I and others saw you" or "I saw you and others".)[1]</column>
-      <!-- The sentence {pe'laH je:sen:nolink} appears on {SkyBox 2:src} and seems to mean "they cut, in addition to doing other things", even though such a meaning is not indicated in the explanation of {je:adv:nolink} found in {TKD:src}. But the sentence can also be interpreted to mean "they (in addition to the main blade) cut". (See {taj:n} for the actual text.) -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2264,7 +2263,16 @@ In addition to nouns, {je:sen:nolink} can also follow a verb. See {je:adv}.</col
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This is considered a noun conjunction, rather than an adverbial, in {TKD:src}.</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {SoHvaD 'uQ wej vIqem. Dargh vIqem je.:sen:nolink}[2]
+▶ {jIghung. jIghung je. jI'oj. jI'oj je.:sen@@'avwI'vaD jatlh qama...:sen}[3]
+▶ {notlh veS, 'a tugh manotlhchoH je maH.:sen}
+▶ {pInaDqu' tuqlIj wInaDqu' je.:sen}
+▶ {ghop luQan tajHommey. pe'laH je.:sen@@taj:n}
+▶ {qep'a' wejDIchDaq jatlhtaH tlhIngan Hol HaDwI'pu'. ghoHtah je. tIv'eghtaH je. vaj SuquvmoH.:sen:nolink}[4]
+▶ {chalqachDaq bIQaDbe' je:sen:nolink} "Even in a tower you are not safe."[5]
+▶ {Qo'noSDaq boqwI'mey nejmeH je leng qeylIS 'ej chaHvaD lut ja':sen:nolink} "Kahless also went out to search for allies across Kronos, and told them his tale."[5]
+▶ {QIStaqDaq cholonDI' jIyIn DaH jIyIn je:sen:nolink} "I am alive as I was when you left me at Kri'stak."[5]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -2276,7 +2284,7 @@ In addition to nouns, {je:sen:nolink} can also follow a verb. See {je:adv}.</col
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD 5.3:src}</column>
+      <column name="source">[1] {TKD 5.3:src}, [2] {CK:src}, [3] {PK:src}, [4] {msn 1996.11.10:src}, [5] {paq'batlh:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

@@ -6943,6 +6943,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="source">[1] {s.k 1998.02.21:src} (reprinted in {HQ 8.1, p.7, Mar. 1999:src})</column>
     </table>
     <table name="mem">
+      <!-- Analysis isn't possible for {ghobe'. SuD.} since {ghobe'} since the analyser doesn't handle exclamations as a component. -->
       <column name="_id"></column>
       <column name="entry_name">Doq'a' SuvwI'pu'?</column>
       <column name="part_of_speech">sen:joke</column>
@@ -6960,7 +6961,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
 ▶ {Doq'a' SuvwI'pu'?:sen:nolink}
   "Are warriors red?"
 
-▶ {ghobe'. SuD.:sen:ghobe':excl, SuD:v:0}
+▶ {ghobe'. SuD.:sen:nolink}
   "No. They are green."
 
 Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</column>
