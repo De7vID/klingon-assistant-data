@@ -315,8 +315,8 @@
       <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
-      <column name="_id"></column>
       <!-- Some people think this is also a verb. -->
+      <column name="_id"></column>
       <column name="entry_name">chach</column>
       <column name="part_of_speech">n</column>
       <column name="definition">emergency, auxiliary, backup</column>
@@ -759,8 +759,8 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">chamwI'</column>
       <!-- Not "deriv" because not derived from {cham} + {wI'}. -->
+      <column name="entry_name">chamwI'</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">technician</column>
       <column name="definition_de">Techniker</column>
@@ -864,6 +864,7 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- But which region? -->
       <column name="_id"></column>
       <column name="entry_name">chanDoq jeD</column>
       <column name="part_of_speech">n:food,deriv,reg</column>
@@ -876,7 +877,6 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <!-- But which region? -->
       <column name="notes">This is a regional word for {qettlhup:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -2144,6 +2144,7 @@ A {chaw':n:nolink} shows that you are officially or legally allowed to do or get
       <column name="source">[1] {Star Trek V:src}</column>
     </table>
     <table name="mem">
+      <!-- Possibilities behind the word's origin: the National Audubon Society, a mythical creature called the "nasnas", the yiddish word "nosh", or Clarence Charles Nash (the voice of Donald Duck). The "bugs" could be a reference to Bugs Bunny. -->
       <column name="_id"></column>
       <column name="entry_name">cha'naS</column>
       <column name="part_of_speech">n:anim</column>
@@ -2157,7 +2158,6 @@ A {chaw':n:nolink} shows that you are officially or legally allowed to do or get
       <column name="antonyms"></column>
       <column name="see_also">{bo'Degh:n}</column>
       <column name="notes"></column>
-      <!-- Possibilities behind the word's origin: the National Audubon Society, a mythical creature called the "nasnas", the yiddish word "nosh", or Clarence Charles Nash (the voice of Donald Duck). The "bugs" could be a reference to Bugs Bunny. -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2805,6 +2805,7 @@ The following four examples illustrate the role of the object(s) and how to use 
       <column name="source">[1] {TKD:src}, [2] {CK:src}, [3] {KGT:src}, [4] {Star Trek VI:src}, [5] {KLI mailing list 1999.07.19:src}</column>
     </table>
     <table name="mem">
+      <!-- Where there any famous Czech defectors? -->
       <column name="_id"></column>
       <column name="entry_name">cheH</column>
       <column name="part_of_speech">v:t</column>
@@ -2818,7 +2819,6 @@ The following four examples illustrate the role of the object(s) and how to use 
       <column name="antonyms"></column>
       <column name="see_also">{choS:v}</column>
       <column name="notes"></column>
-      <!-- Where there any famous Czech defectors? -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3972,6 +3972,7 @@ This verb can be used for misplacing your keys, but also for things like losing 
       <column name="source">[1] {TKD:src}, [2] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
+      <!-- MO has mentioned, but not in writing, that "hair" is just an example, and this could be used to cut other things, such as grass. -->
       <column name="_id"></column>
       <column name="entry_name">chIp</column>
       <column name="part_of_speech">v:t_c</column>
@@ -3986,7 +3987,6 @@ This verb can be used for misplacing your keys, but also for things like losing 
       <column name="see_also">{jIb:n}, {pob:n}, {pe':v}, {magh:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <!-- MO has mentioned, but not in writing, that "hair" is just an example, and this could be used to cut other things, such as grass. -->
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -5967,9 +5967,9 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- {chungHa'wI'} suggests this may be transitive. -->
       <column name="_id"></column>
       <column name="entry_name">chung</column>
-      <!-- {chungHa'wI'} suggests this may be transitive. -->
       <column name="part_of_speech">v:t</column>
       <column name="definition">accelerate</column>
       <column name="definition_de">beschleunigen</column>

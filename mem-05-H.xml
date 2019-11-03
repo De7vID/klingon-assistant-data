@@ -329,7 +329,6 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yIQ:v}, {HaH:v:2}, {Qal:v}</column>
-      <!-- Source? -->
       <column name="notes">The object is the thing being soaked or drenched.
 
 {HaH'egh:v@@HaH:v:1, -'egh:v} is used to refer to drinking a great deal, or bathing.</column>
@@ -1944,6 +1943,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
+      <!-- Marc Okrand has said to Quvar that it's not related to the Biblical Noah, and the pun is quite complicated, but not so much so that nobody would solve it. -->
       <column name="_id"></column>
       <column name="entry_name">Ha'on</column>
       <column name="part_of_speech">n</column>
@@ -1957,7 +1957,6 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="antonyms"></column>
       <column name="see_also">{Ha'on vevwI':n}</column>
       <column name="notes">This refers to the little piece of metal that holds sheets of paper together.</column>
-      <!-- Marc Okrand has said to Quvar that it's not related to the Biblical Noah, and the pun is quite complicated, but not so much so that nobody would solve it. -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2529,8 +2528,8 @@ This word is listed among other militaristic terminology in the body of {KGT:src
       <column name="source">[1] {SkyBox 31:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src})</column>
     </table>
     <table name="mem">
-      <column name="_id"></column>
       <!-- In Klingon, literally: Barge of Death -->
+      <column name="_id"></column>
       <column name="entry_name">Hegh Duj</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">Barge of the Dead</column>
@@ -3801,6 +3800,7 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Why is this a "boring gun"? -->
       <column name="_id"></column>
       <column name="entry_name">HIchDal</column>
       <column name="part_of_speech">n</column>
@@ -3814,7 +3814,6 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
       <column name="antonyms"></column>
       <column name="see_also">{lojmIt:n}</column>
       <column name="notes"></column>
-      <!-- Why is this a "boring gun"? -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3984,6 +3983,7 @@ This was explicitly noted not to take an object.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- High Noon? -->
       <column name="_id"></column>
       <column name="entry_name">HIgh</column>
       <column name="part_of_speech">v:t</column>
@@ -3997,7 +3997,6 @@ This was explicitly noted not to take an object.</column>
       <column name="antonyms"></column>
       <column name="see_also">{Suv:v}, {toj:v}</column>
       <column name="notes"></column>
-      <!-- High Noon? -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5191,6 +5190,7 @@ If {Hoch:n:nolink} follows a noun, it means "all of X".[3; 4] Note that this is 
       <column name="source">[1] {KGT p.178:src}</column>
     </table>
     <table name="mem">
+      <!-- https://www.airspacemag.com/as-interview/say-what-linguist-elaborates-180960198/ -->
       <column name="_id"></column>
       <column name="entry_name">Hoch Holmey mughwI'</column>
       <column name="part_of_speech">n:deriv</column>
@@ -5220,7 +5220,6 @@ If {Hoch:n:nolink} follows a noun, it means "all of X".[3; 4] Note that this is 
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <!-- https://www.airspacemag.com/as-interview/say-what-linguist-elaborates-180960198/ -->
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
@@ -6679,9 +6678,9 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Is this a plural or an inherent plural? Also, are these capable of language? -->
       <column name="_id"></column>
       <column name="entry_name">HoSDo'</column>
-      <!-- Is this a plural or an inherent plural? Also, are these capable of language? -->
       <column name="part_of_speech">n:plural</column>
       <column name="definition">energy beings</column>
       <column name="definition_de">Energiewesen</column>
@@ -8661,6 +8660,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/tAK-hgXMH-M}</column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2018:src}</column>
     </table>
     <table name="mem">
+      <!-- check example from paq'batlh -->
       <column name="_id"></column>
       <column name="entry_name">Hun</column>
       <column name="part_of_speech">n:anim</column>
@@ -8681,7 +8681,6 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/tAK-hgXMH-M}</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <!-- check example from paq'batlh -->
       <column name="examples">
 ▶ {nom leng Hun nom lengqu' lut:sen:nolink} "Stories travel faster than a Khrun"[2]</column>
       <column name="examples_de"></column>
@@ -8841,6 +8840,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/tAK-hgXMH-M}</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- The "hurdy gurdy" is a type of stringed instrument. -->
       <column name="_id"></column>
       <column name="entry_name">HurDagh</column>
       <column name="part_of_speech">n</column>
@@ -8856,7 +8856,6 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/tAK-hgXMH-M}</column>
       <column name="notes">This is the general term for a musical instrument with strings ({SIrgh:n}), which one may either pluck ({pang:v}) or strum ({yach:v:2}). To vary the sound, one "fingers" ({Heng:v}) the strings (touch them at different points while plucking or strumming).
 
 Types of {HurDagh:n:nolink} include the {Supghew:n} (small), the {leSpal:n} (medium), and the {tIngDagh:n} (large).</column>
-      <!-- The "hurdy gurdy" is a type of stringed instrument. -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>

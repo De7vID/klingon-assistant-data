@@ -2091,6 +2091,7 @@ In {TKD:src} this word is defined as "lord" only, same as {joH:n:nolink}. Howeve
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
+      <!-- See paq'batlh canto 7 stanza 8, {chaHvaD lut ja':sen:nolink}. -->
       <column name="_id"></column>
       <column name="entry_name">ja'</column>
       <column name="part_of_speech">v:t_c</column>
@@ -2111,7 +2112,6 @@ In {TKD:src} this word is defined as "lord" only, same as {joH:n:nolink}. Howeve
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">In the {HolQeD:src} interview, Will Martin suggested that a typical direct object of this verb is the person addressed. This was not contradicted by Marc Okrand, but not explicitly affirmed, either.[2]</column>
       <column name="components"></column>
-      <!-- See paq'batlh canto 7 stanza 8, {chaHvaD lut ja':sen:nolink}. -->
       <column name="examples">
 ▶ {nuja'rup.:sen:nolink} "They are prepared to tell us."[1]</column>
       <column name="examples_de"></column>
@@ -2752,8 +2752,8 @@ Note that {jemS:n:nolink} and {qIrq:n:nolink} do not follow proper Klingon phono
       <column name="source">[1] {KLI mailing list 2018.01.01:src}</column>
     </table>
     <table name="mem">
-      <column name="_id"></column>
       <!-- "High and Low" is an Akira Kurosawa film distributed by Janus ({jen} + {'eS}?) films. -->
+      <column name="_id"></column>
       <column name="entry_name">jen</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be high</column>
@@ -2788,6 +2788,8 @@ Note that {jemS:n:nolink} and {qIrq:n:nolink} do not follow proper Klingon phono
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- https://twitter.com/pduff1964/status/366399958833827841 -->
+      <!-- https://twitter.com/pduff1964/status/366556390304661505 -->
       <column name="_id"></column>
       <column name="entry_name">jentu'</column>
       <column name="part_of_speech">n:anim</column>
@@ -2815,8 +2817,6 @@ Note that {jemS:n:nolink} and {qIrq:n:nolink} do not follow proper Klingon phono
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags">penguin</column>
-      <!-- https://twitter.com/pduff1964/status/366399958833827841 -->
-      <!-- https://twitter.com/pduff1964/status/366556390304661505 -->
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -3544,9 +3544,9 @@ This verb is used in Sonnet 116, where its explicit subject is {muD:n:nolink}.[2
       <column name="source">[1] {TKD:src}, [2] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
+      <!-- Is this plural? -->
       <column name="_id"></column>
       <column name="entry_name">jIb Ho'Du'</column>
-      <!-- Is this plural? -->
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">comb</column>
       <column name="definition_de">Kamm</column>
@@ -4287,6 +4287,7 @@ To express a wish for something to happen, see {-jaj:v}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Reported by Zrajm, on Facebook: https://www.facebook.com/zrajm/posts/10154361398897846 -->
       <column name="_id"></column>
       <column name="entry_name">jIr</column>
       <column name="part_of_speech">excl</column>
@@ -4314,7 +4315,6 @@ To express a wish for something to happen, see {-jaj:v}.</column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
-      <!-- Reported by Zrajm, on Facebook: https://www.facebook.com/zrajm/posts/10154361398897846 -->
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -5498,6 +5498,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="source">[1] {Saarbrücken qepHom'a' 2017:src}, [2] {DSC - The Butcher's Knife Cares Not for the Lamb's Cry:src}</column>
     </table>
     <table name="mem">
+      <!-- The {ta'} here is possibly {ta':n:1}. -->
       <column name="_id"></column>
       <column name="entry_name">jonta'</column>
       <column name="part_of_speech">n</column>
@@ -5517,7 +5518,6 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">This word is a side-effect of the backfit that also gave us {qama':n}.</column>
-      <!-- The {ta'} here is possibly {ta':n:1}. -->
       <column name="components">{jon:n:hyp}, {ta':n:hyp,nolink}</column>
       <column name="examples">{matHa', DoS jonta' neH.:sen}</column>
       <column name="examples_de"></column>
@@ -5783,6 +5783,13 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="source">[1] {qep'a' 2019:src}</column>
     </table>
     <table name="mem">
+      <!-- Suto'vo'qor botlhDaq
+           pe'vIl joqchu'taH
+           quvbogh 'ej valbogh tIqDu' tIQ.
+
+           SIqral bIQtIqDaq
+           joqtaHbogh molor tIqDu' qem qeylIS
+           bIQ DoqDaq tlhabmoH. -->
       <column name="_id"></column>
       <column name="entry_name">joq</column>
       <column name="part_of_speech">v:i_c</column>
@@ -5803,13 +5810,6 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <!-- Suto'vo'qor botlhDaq
-           pe'vIl joqchu'taH
-           quvbogh 'ej valbogh tIqDu' tIQ.
-
-           SIqral bIQtIqDaq
-           joqtaHbogh molor tIqDu' qem qeylIS
-           bIQ DoqDaq tlhabmoH. -->
       <column name="examples">
 ▶ {Hay'chu' luneHqu':sen:nolink}
    {vaj pe'vIl joqqu':sen:nolink}

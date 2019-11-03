@@ -1164,9 +1164,9 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="source">[1] {TKDA:src}, [2] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
+      <!-- Even though this has only appeared in a deleted scene, its meaning is clear from its components, so treat it as canon. -->
       <column name="_id"></column>
       <column name="entry_name">Daq'a'</column>
-      <!-- Even though this has only appeared in a deleted scene, its meaning is clear from its components, so treat it as canon. -->
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">jurisdiction, territory</column>
       <column name="definition_de">Terrirorium, Gebiet</column>
@@ -1311,6 +1311,7 @@ An acceptable way to phrase this demand as a question is {nuq DaDab?:sen:nolink}
       <column name="source">[1] {KLI mailing list 1999.07.19:src}</column>
     </table>
     <table name="mem">
+      <!-- This is needed because the analyser won't pick up {-Daq} with no attached noun. -->
       <column name="_id"></column>
       <column name="entry_name">...-Daq qaDor.</column>
       <column name="part_of_speech">sen:bc</column>
@@ -1332,7 +1333,6 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <!-- This is needed because the analyser won't pick up {-Daq} with no attached noun. -->
       <column name="components">{-Daq:n:suff}, {qa-:v:pref}, {Dor:v:1}</column>
       <column name="examples">
 ▶ {pa'lIjDaq qaDor.:sen:nolink} "I will escort you to your quarters."
@@ -1886,6 +1886,7 @@ This verb can be applied to aircraft, for which see {Dav:v:2}.</column>
       <column name="source">[1] {HQ 12.3, Sept. 2003:src}</column>
     </table>
     <table name="mem">
+      <!-- The text was translated by Marc Okrand. -->
       <column name="_id"></column>
       <column name="entry_name">DawI'</column>
       <column name="part_of_speech">n:deriv,being</column>
@@ -1919,7 +1920,6 @@ This verb can be applied to aircraft, for which see {Dav:v:2}.</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <!-- The text was translated by Marc Okrand. -->
       <column name="source">[1] {"A Klingon Christmas Carol" trailer:src}</column>
     </table>
     <table name="mem">
@@ -2387,9 +2387,9 @@ This verb can be applied to aircraft, for which see {Dav:v:2}.</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Not "deriv" because not derived from {Degh:v} + {-wI':v}. -->
       <column name="_id"></column>
       <column name="entry_name">DeghwI'</column>
-      <!-- Not "deriv" because not derived from {Degh:v} + {-wI':v}. -->
       <column name="part_of_speech">n:being</column>
       <column name="definition">helmsman</column>
       <column name="definition_de">Steuermann</column>
@@ -2885,9 +2885,10 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="source">[1] {DSC - Battle at the Binary Stars:src}</column>
     </table>
     <table name="mem">
+      <!-- This may or may not be a being capable of speech (because of {bIQDep:n}). -->
+      <!-- Somehow a reference to Johnny Depp? -->
       <column name="_id"></column>
       <column name="entry_name">Dep</column>
-      <!-- This may or may not be a being capable of speech (because of {bIQDep:n}). -->
       <column name="part_of_speech">n</column>
       <column name="definition">being (non-humanoid)</column>
       <column name="definition_de">nicht-humanoides Wesen</column>
@@ -2899,7 +2900,6 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="antonyms"></column>
       <column name="see_also">{yagh:n}, {ghot:n}, {nuv:n}, {yoq:n}, {bIQDep:n}</column>
       <column name="notes">The suffix for the plural of this word depends on whether it is used to refer to beings capable of using language (see {-pu':n:suff}) or beings incapable of using language (see {-mey:n:suff}).</column>
-      <!-- Somehow a reference to Johnny Depp? -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3454,9 +3454,9 @@ This verb can be applied to aircraft, for which see {Der:v:2}.</column>
       <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
+      <!-- Not deriv because don't want to show components. -->
       <column name="_id"></column>
       <column name="entry_name">De' jengva'</column>
-      <!-- Not deriv because don't want to show components. -->
       <column name="part_of_speech">n:inhps</column>
       <column name="definition">CD, data disc</column>
       <column name="definition_de">CD, Datenträger</column>
@@ -3560,9 +3560,9 @@ This verb can be applied to aircraft, for which see {Der:v:2}.</column>
       <column name="source">[1] {STC 104:src}</column>
     </table>
     <table name="mem">
+      <!-- Not deriv because don't want to show components. -->
       <column name="_id"></column>
       <column name="entry_name">De' ngop</column>
-      <!-- Not deriv because don't want to show components. -->
       <column name="part_of_speech">n:inhpl</column>
       <column name="definition">CDs, data discs</column>
       <column name="definition_de">CDs, Datenträger (Mehrzahl)</column>
@@ -3701,9 +3701,9 @@ This verb can be applied to aircraft, for which see {Der:v:2}.</column>
       <column name="source"></column>
     </table>
     <table name="mem">
+      <!-- Not "deriv" because not derived from {De'} + {wI'}. -->
       <column name="_id"></column>
       <column name="entry_name">De'wI'</column>
-      <!-- Not "deriv" because not derived from {De'} + {wI'}. -->
       <column name="part_of_speech">n</column>
       <column name="definition">computer</column>
       <column name="definition_de">Computer</column>
@@ -5022,6 +5022,7 @@ Noun Type 5: Syntactic markers
       <column name="source">[1] {The Klingon Art of War:src}, [2] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
+      <!-- Reported by Robyn Stewart, on Facebook: https://www.facebook.com/groups/LearnKlingon/permalink/1474580219316856/ -->
       <column name="_id"></column>
       <column name="entry_name">DIr tutlh</column>
       <column name="part_of_speech">n:deriv</column>
@@ -5050,7 +5051,6 @@ Noun Type 5: Syntactic markers
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
-      <!-- Reported by Robyn Stewart, on Facebook: https://www.facebook.com/groups/LearnKlingon/permalink/1474580219316856/ -->
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
@@ -5058,6 +5058,7 @@ Noun Type 5: Syntactic markers
       <column name="source">[1] {Facebook "Learn Klingon" group 2017.10.07:src}, [2] {Saarbrücken qepHom'a' 2017:src}</column>
     </table>
     <table name="mem">
+      <!-- A reference to a person named Darren? -->
       <column name="_id"></column>
       <column name="entry_name">DIr 'In</column>
       <column name="part_of_speech">n:deriv</column>
@@ -5071,7 +5072,6 @@ Noun Type 5: Syntactic markers
       <column name="antonyms"></column>
       <column name="see_also">{'In:n}</column>
       <column name="notes">This is a drum made with animal skin stretched over a cylinder, usually over only one end. If skin is stretched over both ends of a drum, it is an {'o'lav:n}.[1]</column>
-      <!-- A reference to a person named Darren? -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6477,6 +6477,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Some people believe that "entity" was a typo for "entirety", based on the second definition. However, from the example, it seems that this word really does mean "entity", in the sense of a "unit" or "whole". -->
       <column name="_id"></column>
       <column name="entry_name">Dol</column>
       <column name="part_of_speech">n</column>
@@ -6490,7 +6491,6 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="antonyms"></column>
       <column name="see_also">{naQ:v}, {bID:n}</column>
       <column name="notes"></column>
-      <!-- Some people believe that "entity" was a typo for "entirety", based on the second definition. However, from the example, it seems that this word really does mean "entity", in the sense of a "unit" or "whole". -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6585,9 +6585,9 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
+      <!-- This should have the same transitivity as {Don:v}. -->
       <column name="_id"></column>
       <column name="entry_name">DonHa'</column>
-      <!-- This should have the same transitivity as {Don:v}. -->
       <column name="part_of_speech">v:ambi,deriv</column>
       <column name="definition">be misaligned</column>
       <column name="definition_de">nicht parallel, windschief</column>
@@ -6621,8 +6621,8 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="source">[1] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
-      <column name="_id"></column>
       <!-- Possibly means "face" in the geometric sense. -->
+      <column name="_id"></column>
       <column name="entry_name">Dop</column>
       <column name="part_of_speech">n</column>
       <column name="definition">side</column>
@@ -7184,8 +7184,8 @@ Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</co
       <column name="source">[1] {HQ 12.2, Jun. 2003:src}, [2] {KLI mailing list 2012.03.30:src}</column>
     </table>
     <table name="mem">
-      <column name="_id"></column>
       <!-- Allegedly, Marc Okrand didn't like working with PCs before Windows. -->
+      <column name="_id"></column>
       <column name="entry_name">DoS</column>
       <column name="part_of_speech">n:inhps</column>
       <column name="definition">target</column>
@@ -8257,6 +8257,7 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Even though this word is an inherent plural/singular form of itself, leave components empty so it won't be displayed. -->
       <column name="_id"></column>
       <column name="entry_name">Duj</column>
       <column name="part_of_speech">n:2,inhpl,inhps</column>
@@ -8276,7 +8277,6 @@ Known classes of Klingon ships include {neghvar:n}, {vorcha':n}, {qItI'nga':n}, 
       <column name="notes_ru">Грамматически корректно рассматривать это слово в единственном числе(набор инстинктов) или во множественном (индивидуальные инстинкты)</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
-      <!-- Even though this word is an inherent plural/singular form of itself, leave components empty so it won't be displayed. -->
       <column name="components"></column>
       <column name="examples">
 ▶ {Duj tIvoqtaH.:sen}
@@ -9004,8 +9004,8 @@ For a stand-alone spike such as a stake, see {wIl:n}.</column>
       <column name="source">[1] {KCD:src}</column>
     </table>
     <table name="mem">
-      <column name="_id"></column>
       <!-- Note that since this is "inhpl" with no singular form, we have to leave components blank. -->
+      <column name="_id"></column>
       <column name="entry_name">Duran lung DIr</column>
       <column name="part_of_speech">n:inhpl,food,fic</column>
       <column name="definition">Durani lizard skins</column>
