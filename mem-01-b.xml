@@ -1800,9 +1800,9 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="source">[1] {HQ 8.4, p.11, Dec. 1999:src}</column>
     </table>
     <table name="mem">
+      <!-- Not marked "deriv" (and {-Ha'} not listed in components) because the analysis won't stick a verb suffix to an adverbial. Same for all other adverbials plus {-Ha'}. -->
       <column name="_id"></column>
       <column name="entry_name">batlhHa'</column>
-      <!-- Not marked "deriv" (and {-Ha'} not listed in components) because the analysis won't stick a verb suffix to an adverbial. Same for all other adverbials plus {-Ha'}. -->
       <column name="part_of_speech">adv</column>
       <column name="definition">dishonorably</column>
       <column name="definition_de">ehrlos</column>
@@ -2716,6 +2716,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- The link to {ben:n:1} in the first example is not a mistake. -->
       <column name="_id"></column>
       <column name="entry_name">ben</column>
       <column name="part_of_speech">n:2</column>
@@ -2740,7 +2741,6 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <!-- The link to {ben:n:1} in the first example is not a mistake. -->
       <column name="examples">
 ▶ {loSmaH ben jIboghpu'.:sen@@loS:n:1, maH:n:2, ben:n:1, jI-:v, bogh:v, -pu':v} "I am 40 years old."[2]
 ▶ {cha'vatlh ben HIq:n} "two century old ale"[3]
@@ -5053,6 +5053,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="source">[1] {TKW p.73:src}</column>
     </table>
     <table name="mem">
+      <!-- The clarification was told by Marc Okrand to Belora and others at lunch during the qepHom. Confirmed by Quvar. -->
       <column name="_id"></column>
       <column name="entry_name">bIQDep</column>
       <column name="part_of_speech">n:anim,deriv</column>
@@ -5085,7 +5086,6 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <!-- This was told by Marc Okrand to Belora and others at lunch during the qepHom. Confirmed by Quvar. -->
       <column name="source">[1] {KGT:src}, [2] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
@@ -5194,6 +5194,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
+      <!-- Need page number for paq'batlh example, also double-check this sentence. -->
       <column name="_id"></column>
       <column name="entry_name">bIQtIq</column>
       <column name="part_of_speech">n</column>
@@ -5214,7 +5215,6 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components">{bIQ:n}, {tIq:v} or {tIq:n} or a homophonous element</column>
-      <!-- Need page number, also double-check this sentence. -->
       <column name="examples">
 ▶ {SIqral bIQtIq:n}[2]
 ▶ {QIStaq qul bIQtIqHomDaq 'etlhDaj vo' nuch} "The coward throws his sword into the fire streams of Kri'stak"[2]</column>
@@ -5796,6 +5796,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="source">[1] {PK:src}</column>
     </table>
     <table name="mem">
+      <!-- TODO: Find the pun. It is somehow related to {pIrmuS:n}. -->
       <column name="_id"></column>
       <column name="entry_name">bIS'ub</column>
       <column name="part_of_speech">n</column>
@@ -5814,7 +5815,6 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <!-- TODO: Find the pun. It is somehow related to {pIrmuS:n}. -->
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -7191,8 +7191,8 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {BoP:src}</column>
     </table>
-    <!-- TODO: Maybe split this into two entries. -->
     <table name="mem">
+      <!-- TODO: Maybe split this into two entries. -->
       <column name="_id"></column>
       <column name="entry_name">boq</column>
       <column name="part_of_speech">v:t_c</column>
