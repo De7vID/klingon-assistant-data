@@ -574,7 +574,7 @@ This was defined as "be thin" in {TKD:src} and expanded to include "be narrow" a
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">laq</column>
-      <column name="part_of_speech">v:i_c</column>
+      <column name="part_of_speech">v:1,i_c</column>
       <column name="definition">flap</column>
       <column name="definition_de">flattern (wie Flügel eines Vogels, nicht wie Fahne)</column>
       <column name="definition_fa">فلاپ [AUTOTRANSLATED]</column>
@@ -584,7 +584,7 @@ This was defined as "be thin" in {TKD:src} and expanded to include "be narrow" a
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bo'Degh:n}, {tel:n}</column>
-      <column name="notes">This verb describes movement like that of a bird's wings, and not like that of a flag (for which see {joq:v}). In flight, a bird's wings {laq:v:nolink}, and the bird is said to {laqmoH@@laq:v, -moH:v} its wings.</column>
+      <column name="notes">This verb describes movement like that of a bird's wings, and not like that of a flag (for which see {joq:v}). In flight, a bird's wings {laq:v:1:nolink}, and the bird is said to {laqmoH@@laq:v:1, -moH:v} its wings.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -606,6 +606,77 @@ This was defined as "be thin" in {TKD:src} and expanded to include "be narrow" a
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {HQ 10.4, Dec. 2001:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">laq</column>
+      <column name="part_of_speech">v:2,i_c,slang</column>
+      <column name="definition">speak gibberish</column>
+      <column name="definition_de">Kauderwelsch sprechen</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{laqlaq:n}</column>
+      <column name="notes">The non-slang way to say this would be {jat Hol jatlh:sen@@jat Hol:n, jatlh:v}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {tlhIngan Hol Dajatlh 'e' DaQub 'ach bIlaq.:sen:nolink}</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2019:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">laqlaq</column>
+      <column name="part_of_speech">n:slang</column>
+      <column name="definition">gibberish</column>
+      <column name="definition_de">Kauderwelsch</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms">{jat Hol:n}</column>
+      <column name="antonyms"></column>
+      <column name="see_also">{laq:v:2}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -788,6 +859,7 @@ In English slang, a "lat"rine is sometimes called a "shrine".</column>
       <column name="source">[1] {KGT:src}, [2] {Saarbrücken qepHom'a' 2016:src}</column>
     </table>
     <table name="mem">
+      <!-- There are two other examples of {latlhpu'}, one in the "Death Howl" SkyBox card, and one in the paq'batlh. -->
       <column name="_id"></column>
       <column name="entry_name">latlh</column>
       <column name="part_of_speech">n</column>
@@ -3942,7 +4014,7 @@ When a computer (or computer system) is online, it's said to be "sharing". See {
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {DSC - Battle at the Binary Stars:src}</column>
+      <column name="source">[1] {DSC - Battle at the Binary Stars:src}, [2] {Saarbrücken qepHom'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5196,7 +5268,7 @@ The text of {SkyBox 99:src} reads:
       <column name="definition_zh_HK">門</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{jI'ev:n}, {lIvqa'nan:n}, {DIn:n}, {Qorwagh:n}, {poS:v}, {SoQ:v}, {ngaQ:v}, {HIchDal:n}</column>
+      <column name="see_also">{jI'ev:n}, {lIvqa'nan:n}, {DIn:n}, {Qorwagh:n}, {poS:v}, {SoQ:v}, {ngaQ:v}, {HIchDal:n}, {Durghang:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5823,6 +5895,41 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKW p.46:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">loq</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be extinct</column>
+      <column name="definition_de">ausgestorben sein</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{SIntlher:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

@@ -1354,6 +1354,41 @@ The first element of this word is {rav:n:1} "floor", but the second element is u
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">raywal</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">booth (small building)</column>
+      <column name="definition_de">Stand, Kabine, Hütte (kleines Gebäude)</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{qach:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2019:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">ray'</column>
       <column name="part_of_speech">n:inhpl</column>
       <column name="definition">targets</column>
@@ -2872,6 +2907,7 @@ o      <column name="definition_sv">Det är alltid de modiga som dör.</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- TODO: Fix Russian. -->
       <column name="_id"></column>
       <column name="entry_name">rej'aq</column>
       <column name="part_of_speech">n:name,fic</column>
@@ -2884,11 +2920,11 @@ o      <column name="definition_sv">Det är alltid de modiga som dör.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">He was a follower of {tIquvma:n:name} who was given the role of {Sech qengwI':n}.</column>
+      <column name="notes">He was a follower of {tIquvma:n:name} who was given the role of {Sech qengwI':n}. He was the brother of {'or'eq:n:name}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">Он был последователем {tIquvma:n:name}, кому была отдана роль {Sech qengwI':n}.</column>
+      <column name="notes_ru">Он был последователем {tIquvma:n:name}, кому была отдана роль {Sech qengwI':n}. He was the brother of {'or'eq:n:name}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -3199,13 +3235,15 @@ o      <column name="definition_sv">Det är alltid de modiga som dör.</column>
       <column name="definition_zh_HK">時間段前（過去） [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms">{pIq:n}</column>
-      <column name="see_also">{pa'logh:n}</column>
+      <column name="see_also">{pa'logh:n}, {ret:v}</column>
       <column name="notes">A specialised word is used to indicate a time in the past for the following units:
 ▶ {jaj:n} "day" - {Hu':n} "days ago"
 ▶ {jar:n} "month" - {wen:n} "months ago"
 ▶ {DIS:n:2} "year" - {ben:n:1} "years ago"
 
-For other units of time, {ret:n:nolink} is used.</column>
+For other units of time, {ret:n:nolink} is used.[1]
+
+This is the same word as the verb {ret:v}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3226,7 +3264,48 @@ For other units of time, {ret:n:nolink} is used.</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {HQ 8.3, p.3, Sept. 1999:src}</column>
+      <column name="source">[1] {HQ 8.3, p.3, Sept. 1999:src}, [2] {Saarbrücken qepHom'a' 2019:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">ret</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be most recent</column>
+      <column name="definition_de">aktuell, jüngst sein</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ret:n}, {vorgh:v}</column>
+      <column name="notes">This is the same word as the noun {ret:n}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {cha' tup ret jIQuch:sen:nolink} "Two minutes ago, I was happy."
+▶ {qaStaHvIS cha' tup ret jIQuch:sen:nolink} "I was happy during the past (that is, most recent) two minutes." or "...for the past two minutes." or "... over the past two minutes."
+▶ {qep'a' ret:n:nolink} "the most recent {qep'a':sen:nolink}"</column>
+      <column name="examples_de">
+▶ {cha' tup ret jIQuch:sen:nolink} "Vor zwei Minuten war ich glücklich."
+▶ {qaStaHvIS cha' tup ret jIQuch:sen:nolink} "Ich war glücklich während den aktuellen (d.h. gerade vergangenen) zwei Minuten" or "...in den letzten zwei Minuten."
+▶ {qep'a' ret:n:nolink} "das letzte / gerade passierte {qep'a':sen:nolink}"</column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3274,7 +3353,7 @@ For other units of time, {ret:n:nolink} is used.</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK">凹痕</column>
       <column name="synonyms"></column>
-      <column name="antonyms">{ghul:n}</column>
+      <column name="antonyms">{ghul:n}, {Su'nIm:n}</column>
       <column name="see_also">{'ap:v}</column>
       <column name="notes">This does not refer to how to format a paragraph.</column>
       <column name="notes_de"></column>
@@ -5615,7 +5694,9 @@ This verb can be applied to aircraft, for which see {ron:v:2}.</column>
       <column name="synonyms">{pI':v}</column>
       <column name="antonyms">{lang:v}</column>
       <column name="see_also">{tlhagh:n}, {juch:v}, {vaS:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This implies bulk due to body fat or the like, while {pI':v} does not have this connotation. Both can be used to express "not thin", but {ror:v:nolink} is more appropriate to convey "not lean". When this verb is used to describe an inanimate object, there is usually a bit of anthropomorphizing, likening the object to a person or an animal.[2]
+
+A "fat book" would be a {paq qargh:n@@paq:n:1, qargh:v}, unless the book comes to life as a character in a cartoon or something like that. (In that case, the plural suffix {-pu':n:suff} might also be expected.)[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5635,7 +5716,7 @@ This verb can be applied to aircraft, for which see {ron:v:2}.</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5742,11 +5823,11 @@ This verb can be applied to aircraft, for which see {ron:v:2}.</column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {HQ 10.2, Jun. 2001:src}</column>
     </table>
+    <!-- Not marked "deriv" because {roS:v:3} is hypothetical. -->
     <!-- Note: {roS:v:3} is in the "extra" section. -->
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">roSHa'moH</column>
-      <!-- Not marked "deriv" because {roS:v:3} is hypothetical. -->
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">paralyze</column>
       <column name="definition_de">lähmen</column>
@@ -5886,18 +5967,18 @@ This verb can be applied to aircraft, for which see {ron:v:2}.</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">roSqa'QeD</column>
+      <column name="entry_name">roSqa'</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">archaeology</column>
-      <column name="definition_de">Archäologie</column>
+      <column name="definition">archaeological artifact</column>
+      <column name="definition_de">archäologisches Artefakt</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{QeD:n}</column>
-      <column name="notes">An archaeologist would presumably be a {roSqa'tej:n:nolink}, though it's unclear what the root {roSqa':sen:hyp,nolink} means.</column>
+      <column name="see_also">{roSqa'QeD:n}, {roSqa'tej:n}</column>
+      <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5911,14 +5992,84 @@ This verb can be applied to aircraft, for which see {ron:v:2}.</column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags">archeology, archaeologist, archeologist, roSqa'tej</column>
+      <column name="search_tags">relic</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {qep'a' 2019:src}</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2019:src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">roSqa'QeD</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">archaeology</column>
+          <column name="definition_de">Archäologie</column>
+          <column name="definition_fa"></column>
+          <column name="definition_sv"></column>
+          <column name="definition_ru"></column>
+          <column name="definition_zh_HK"></column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also">{roSqa':n}, {QeD:n}</column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{roSqa':n}, {QeD:n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="search_tags">archeology</column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="source">[1] {qep'a' 2019:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">roSqa'tej</column>
+          <column name="part_of_speech">n:being,deriv</column>
+          <column name="definition">archaeologst</column>
+          <column name="definition_de">Archäologe</column>
+          <column name="definition_fa"></column>
+          <column name="definition_sv"></column>
+          <column name="definition_ru"></column>
+          <column name="definition_zh_HK"></column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also">{roSqa':n}, {tej:n}</column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{roSqa':n}, {tej:n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="search_tags">archeologist</column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="source">[1] {qep'a' 2019:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">rotlh</column>
