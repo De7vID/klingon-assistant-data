@@ -529,15 +529,15 @@
       <column name="entry_name">tlhan</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">dig</column>
-      <column name="definition_de">buddeln</column>
+      <column name="definition_de">buddeln, graben</column>
       <column name="definition_fa">حفر کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">gräv [AUTOTRANSLATED]</column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK">挖 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{molHa':v}, {ghevjur:n}, {lam:n}</column>
-      <column name="notes">The object is dirt or soil or a field or a road, not a hole.</column>
+      <column name="see_also">{molHa':v}, {ghaw:v}, {ghevjur:n}, {lam:n}</column>
+      <column name="notes">The object is dirt or soil or a field or a road, not a hole, for which see {ghaw:v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -557,7 +557,7 @@
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {qep'a' 2018:src}</column>
+      <column name="source">[1] {qep'a' 2018:src}, [2] {Saarbrücken qepHom'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -1302,7 +1302,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tlheD</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">depart</column>
       <column name="definition_de">aufbrechen, abfahren</column>
       <column name="definition_fa">ترک [AUTOTRANSLATED]</column>
@@ -1312,7 +1312,8 @@
       <column name="synonyms">{mej:v}</column>
       <column name="antonyms">{paw:v}</column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">Generally, {tlheD:v:nolink} implies setting out on a journey, with a goal or destination in mind, while {mej:v} refers simply to leaving one's current location. In both cases, the object is the place you're leaving or departing from.[2]
+      </column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -1332,7 +1333,7 @@
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3026,6 +3027,7 @@ The object of this verb is the person of whom the request is made, or {'e':n:pro
       <column name="source">[1] {TKD:src}, [2] {TKDA:src}, [3] {HQ 7.4, p.3-4, Dec. 1998:src}, [4] {PK:src}, [5] {KGT p.184:src}, [6] {paq'batlh:src}</column>
     </table>
     <table name="mem">
+      <!-- There's {HItlhochQo'.:sen:nolink} "Don't contradict me." from the old "Star Trek: Continuum" website, which had a "Klingon Linguistics Studies" section, but it's unclear if Marc Okrand wrote this sentence. -->
       <column name="_id"></column>
       <column name="entry_name">tlhoch</column>
       <column name="part_of_speech">v:t</column>
@@ -3046,7 +3048,6 @@ The object of this verb is the person of whom the request is made, or {'e':n:pro
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <!-- {HItlhochQo'.:sen:nolink} "Don't contradict me." from {Star Trek Continuum, Klingon Linguistics Studies:src}. -->
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4306,6 +4307,42 @@ Some people believe that this word means "to expel exhaust", based on its simila
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {qep'a' 2019:src}</column>
+    </table>
+    <table name="mem">
+      <!-- Should be "piñata" but can't have non-ASCII characters in notes body. -->
+      <column name="_id"></column>
+      <column name="entry_name">tlhut</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be stuffed</column>
+      <column name="definition_de">ausgestopft sein</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">The difference between {tlhutmoH:v@@tlhut:v, -moH:v} and {ghoD:v} is that for the latter, the container is used to hold or store what you're putting into it, such as a pinata, whereas {tlhut:v:nolink} is used for filling something to have a certain shape or look, such as with taxidermy and stuffed animals.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2019:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
