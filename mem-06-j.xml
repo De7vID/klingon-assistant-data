@@ -2240,6 +2240,7 @@ In {TKD:src} this word is defined as "lord" only, same as {joH:n:nolink}. Howeve
       <column name="source">[1] {TKDA:src}, [2] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
+      <!-- TODO: Fix Russian note. -->
       <column name="_id"></column>
       <column name="entry_name">je</column>
       <column name="part_of_speech">conj</column>
@@ -2258,11 +2259,20 @@ In addition to nouns, {je:sen:nolink} can also follow a verb. See {je:adv}.</col
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">Следует за последним существительным</column>
+      <column name="notes_ru">Следует за последним существительным.
+
+In addition to nouns, {je:sen:nolink} can also follow a verb. See {je:adv}.</column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {Ha'DIbaH ghIH tIr ngogh je:sen}
+▶ {logh chal je 'angweD qach:n}
+▶ {qaStaHvIS wej puq poHmey vav puqloDpu' puqloDpu'chaj je quvHa'moH vav quvHa'ghach.:sen}
+▶ {SenwI' rIlwI' je:n}
+▶ {tay'taHbe' 'Iw bIQ je.:sen}
+▶ Paramount Pictures {malja' permey bIH:sen:nolink} Star Trek {pong'e' Deghmey'e' je.:sen:nolink}[2]
+▶ {wa' Dol bIH qa''e' porgh'e' je.:sen@@wa':n:num, Dol:n, bIH:n:pro, qa':n, -'e':n, porgh:n, -'e':n, je:conj} "Spirit and body are one."[3]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -2274,7 +2284,7 @@ In addition to nouns, {je:sen:nolink} can also follow a verb. See {je:adv}.</col
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {SkyBox cards:src}, [3] {paq'batlh p.102-103:src}</column>
     </table>
     <table name="mem">
       <!-- This is an adverbial, despite not being labeled as such in TKD. -->
