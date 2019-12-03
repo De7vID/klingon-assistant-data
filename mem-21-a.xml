@@ -159,8 +159,8 @@
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">{mong:n}, {mong'em:n}</column>
+      <column name="see_also">{mong:n}, {mong'em:n}</column>
+      <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -635,7 +635,9 @@ It's confirmed that this doesn't take an object, and can be used adjectivally (b
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This can be used for when someone sacrifices forces for a certain goal or just wastes their resources.</column>
+      <column name="notes">This can be used for when someone sacrifices forces for a certain goal or just wastes their resources.[1]
+
+Most Klingon lexicographers consider this and {'an:v:2} to be two homophonous words, but historically, the "be a waste" meaning developed out of the "be petrified" meaning, perhaps because something loses any original use it may have had if it is turned to stone.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -655,7 +657,7 @@ It's confirmed that this doesn't take an object, and can be used adjectivally (b
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {qep'a' 2018:src}</column>
+      <column name="source">[1] {qep'a' 2018:src}, [2] {Saarbrücken qepHom'a' 2019:src}</column>
     </table>
         <table name="mem">
           <column name="_id"></column>
