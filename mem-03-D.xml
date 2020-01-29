@@ -1315,7 +1315,6 @@ An acceptable way to phrase this demand as a question is {nuq DaDab?:sen:nolink}
       <column name="source">[1] {KLI mailing list 1999.07.19:src}</column>
     </table>
     <table name="mem">
-      <!-- This is needed because the analyser won't pick up {-Daq} with no attached noun. -->
       <column name="_id"></column>
       <column name="entry_name">...-Daq qaDor.</column>
       <column name="part_of_speech">sen:bc</column>
@@ -1337,6 +1336,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
+      <!-- This is needed because the analyser won't pick up {-Daq} with no attached noun. -->
       <column name="components">{-Daq:n:suff}, {qa-:v:pref}, {Dor:v:1}</column>
       <column name="examples">
 ▶ {pa'lIjDaq qaDor.:sen:nolink} "I will escort you to your quarters."
@@ -2029,7 +2029,7 @@ This verb can be applied to aircraft, for which see {Dav:v:2}.</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2018:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
