@@ -2319,7 +2319,7 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source"></column>
+      <column name="source">[1] {qep'a' 2016:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5061,6 +5061,7 @@ Types of Klingon musical instruments include: percussion ({'In:n}), wind (no ove
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- "expensive very minor battle", referring to Windows? -->
       <column name="_id"></column>
       <column name="entry_name">Qorwagh</column>
       <column name="part_of_speech">n</column>
@@ -5072,9 +5073,8 @@ Types of Klingon musical instruments include: percussion ({'In:n}), wind (no ove
       <column name="definition_zh_HK">窗口</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lojmIt:n}</column>
+      <column name="see_also">{notron:n}, {lojmIt:n}</column>
       <column name="notes"></column>
-      <!-- "expensive very minor battle", referring to Windows? -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5419,6 +5419,7 @@ In the Krotmag region, speakers replace {b:sen:nolink} with {m:sen:nolink} and {
       <column name="source">[1] {TKD:src}, [2] {TKW:src}</column>
     </table>
     <table name="mem">
+      <!-- TODO: Fix Russian note on the archaic grammar to match the English.-->
       <column name="_id"></column>
       <column name="entry_name">QoymoH</column>
       <column name="part_of_speech">v:t_c,deriv</column>
@@ -5489,7 +5490,7 @@ In the Krotmag region, speakers replace {b:sen:nolink} with {m:sen:nolink} and {
 
 There is a variant of this song in which the word {Say'moHchu':v:nolink} is replaced with {SeymoHchu':v:nolink}. The variant line means "The blood of battle perfectly excites the warrior brave and true."
 
-The line {yoHbogh matlhbogh je SuvwI':sen:nolink} is not a mistake, but a deliberately poetic or archaic usage, which is mirrored by the English "warrior brave and true". In standard Klingon, it would be {yoHbogh 'ej matlhbogh SuvwI':sen:nolink}.[2]</column>
+The line {yoHbogh matlhbogh je SuvwI':sen:nolink} should be {yoHbogh 'ej matlhbogh SuvwI':sen:nolink} in standard Klingon. However, this may not be a mistake, but rather Okrand deliberately mirroring the marked, archaic English phrase "warrior brave and true".[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>

@@ -1075,7 +1075,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Этот глагол может принимать содержимое или объект мечтания в качестве объекта.[2]</column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The noun {Suchtuv:n:hyp} was rumoured to have been revealed at {qep'a' 2019:src}, but has not been officially confirmed.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3489,12 +3489,14 @@ Sometimes, {'e':n:pro} with {-lu':v} is used instead of {net:n:pro,nolink}. It i
 ▶ {qama'pu' DIHoH net Sov:sen:nolink} "One knows we kill prisoners."[1, p.66]
 ▶ {Qu'vaD lI' net tu'bej.:sen} "One certainly finds it useful for the mission."[1, p.66]
 ▶ {Duj ghajchugh pagh, beylI'vo' 'oH Daje' net chaw'.:sen:nolink} "If (the ship is) unowned, you may buy it from the Bank."[3]
+▶ {vImuHlu' net wuqHa'!:sen}
 
 (using {X 'e' Y-lu':sen:nolink})
 ▶ {yInlu'taH 'e' bajnISlu'.:sen} "Survival must be earned."[2]
 ▶ {yay chavlu' 'e' bajnISlu'.:sen} "Victory must be earned."[2]
 ▶ {DIvI' rojmab qep ghanglu' 'e' nIDlu', 'ach taH qep.:sen:nolink} "Despite efforts to halt them, peace talks with Federation continue."[3]
-▶ {Qang QanmeH yan 'ISletlh Damuv 'e' wIvlu'.:sen:nolink} "You are chosen to serve on the Yan-Isleth and protect the Chancellor."[3]</column>
+▶ {Qang QanmeH yan 'ISletlh Damuv 'e' wIvlu'.:sen:nolink} "You are chosen to serve on the Yan-Isleth and protect the Chancellor."[3]
+▶ {SIS 'e' 'aqlu':sen@@SIS:v, 'e':n, 'aq:v, -lu':v} "it is predicted that it will rain" (see {'aq:v})[4]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -3503,12 +3505,14 @@ Sometimes, {'e':n:pro} with {-lu':v} is used instead of {net:n:pro,nolink}. It i
 ▶ {qama'pu' DIHoH net Sov:sen:nolink} "Кто-то знает, что мы убьем заключенных."[1, стр.66]
 ▶ {Qu'vaD lI' net tu'bej.:sen} "Кто-то определенно найдёт это полезным для миссии."[1, стр.66]
 ▶ {Duj ghajchugh pagh, beylI'vo' 'oH Daje' net chaw'.:sen:nolink} "Если (корабль) никому не принадлежит, вы можете выкупить его у банка."[3]
+▶ {vImuHlu' net wuqHa'!:sen}
 
 (Использование конструкции {X 'e' Y-lu':sen:nolink})
 ▶ {yInlu'taH 'e' bajnISlu'.:sen} "Выживание должно быть заслужено."[2]
 ▶ {yay chavlu' 'e' bajnISlu'.:sen} "Победа должна быть заработана."[2]
 ▶ {DIvI' rojmab qep ghanglu' 'e' nIDlu', 'ach taH qep.:sen:nolink} "Вопреки усилиям остановить их, мирные переговоры с Федерацией продолжаются."[3]
-▶ {Qang QanmeH yan 'ISletlh Damuv 'e' wIvlu'.:sen:nolink} "Вы избраны для службы в Ян-Ислет и защиты канцлера."[3]</column>
+▶ {Qang QanmeH yan 'ISletlh Damuv 'e' wIvlu'.:sen:nolink} "Вы избраны для службы в Ян-Ислет и защиты канцлера."[3]
+▶ {SIS 'e' 'aqlu':sen@@SIS:v, 'e':n, 'aq:v, -lu':v} "it is predicted that it will rain" (see {'aq:v})[4]</column>
       <column name="examples_zh_HK"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
@@ -3516,7 +3520,7 @@ Sometimes, {'e':n:pro} with {-lu':v} is used instead of {net:n:pro,nolink}. It i
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD 6.2.5:src}, [2] {TKW p.125:src}, [3] {Klingon Monopoly:src}</column>
+      <column name="source">[1] {TKD 6.2.5:src}, [2] {TKW p.125:src}, [3] {Klingon Monopoly:src}, [4] {qep'a' 2017:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6833,6 +6837,42 @@ It's probably a coincidence, but نوک is also the Persian word for "nipple".</
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {HQ 10.4, Dec. 2001:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">notron</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">curtain, drape</column>
+      <column name="definition_de">Gardine, Vorhang, Fensterdekoration</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Qorwagh:n}, {lojmIt:n}</column>
+      <column name="notes">This can also be used for things like a door or gate that opens and closes vertically, like a portcullis.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {bIQ notron:n}</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags">portcullis</column>
+      <column name="search_tags_de">Fallgatter, Fallgitter</column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {KLI mailing list 2020.01.28:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
