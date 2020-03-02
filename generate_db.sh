@@ -2,6 +2,14 @@
 
 # Note: renumber.py must be run first.
 
+# Check for MacOS and use GNU-sed if detected.
+if [[ "$(uname -s)" = "Darwin" ]]
+then
+    SED=gsed
+else
+    SED=sed
+fi
+
 # Check for non-interactive mode flag.
 if [[ "$1" = "--noninteractive" ]]
 then
@@ -36,11 +44,11 @@ fi
 # Write database version number.
 VERSION=$(cat VERSION)
 echo Writing database version $VERSION...
-sed -i -e "s/\[\[VERSION\]\]/$VERSION/" mem.xml
+${SED} -i -e "s/\[\[VERSION\]\]/$VERSION/" mem.xml
 
 # Convert from xml to sql instructions.
 ./xml2sql.pl > mem.sql
-sed -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' mem.sql
+${SED} -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' mem.sql
 
 # Print any entries with duplicate columns.
 grep "ARRAY" mem.sql
@@ -86,12 +94,12 @@ then
     then
         # If the db already exists, show a diff.
         sqlite3 qawHaq.db .dump > old-mem.sql
-        sed -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' old-mem.sql
+        ${SED} -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' old-mem.sql
         # This is necessary after sqlite3 v3.19.
         # See: https://stackoverflow.com/questions/44989176/sqlite3-dump-inserts-replace-function-in-dump-change-from-3-18-to-3-19
-        sed -i -e "s/replace(//g" old-mem.sql
-        sed -i -e "s/,'\\\\n',char(10))//g" old-mem.sql
-        sed -i -e "s/\\\\n/\n/g" old-mem.sql
+        ${SED} -i -e "s/replace(//g" old-mem.sql
+        ${SED} -i -e "s/,'\\\\n',char(10))//g" old-mem.sql
+        ${SED} -i -e "s/\\\\n/\n/g" old-mem.sql
         vimdiff old-mem.sql mem.sql
         read -n1 -r -p "Press any key to generate new db..."
         echo
@@ -103,10 +111,10 @@ sqlite3 qawHaq.db < mem.sql
 # Sanity check.
 # TODO: Refactor the creation of old-mem.sql and sanity.sql into function.
 sqlite3 qawHaq.db .dump > sanity.sql
-sed -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' sanity.sql
-sed -i -e "s/replace(//g" sanity.sql
-sed -i -e "s/,'\\\\n',char(10))//g" sanity.sql
-sed -i -e "s/\\\\n/\n/g" sanity.sql
+${SED} -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' sanity.sql
+${SED} -i -e "s/replace(//g" sanity.sql
+${SED} -i -e "s/,'\\\\n',char(10))//g" sanity.sql
+${SED} -i -e "s/\\\\n/\n/g" sanity.sql
 IN_OUT_DIFF=$(diff mem.sql sanity.sql)
 if [[ ! -z "$IN_OUT_DIFF" ]]
 then
