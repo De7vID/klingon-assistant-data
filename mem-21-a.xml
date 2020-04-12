@@ -374,7 +374,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'al</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:1,i</column>
       <column name="definition">float (in/on air)</column>
       <column name="definition_de">treiben, schweben (in/auf Luft)</column>
       <column name="definition_fa">شناور (در / در هوا) [AUTOTRANSLATED]</column>
@@ -384,19 +384,15 @@
       <column name="synonyms"></column>
       <column name="antonyms">{'oq:v}</column>
       <column name="see_also">{puv:v}, {'ay:v}</column>
-      <column name="notes">This is also used for random numbers, such as when throwing dice ({mI' nagh:n}).</column>
+      <column name="notes">This is also used for random numbers, such as when throwing dice ({mI' nagh:n}). See {'al:v:2}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">Muhammad Ali said to "float like a butterfly and sting like a bee".
-
-It's confirmed that this doesn't take an object, and can be used adjectivally (be floating).</column>
+      <column name="hidden_notes">Muhammad Ali said to "float like a butterfly and sting like a bee".</column>
       <column name="components"></column>
-      <column name="examples">
-▶ {'al mI':sen@@'al:v, mI':n} "the number is random"[2]
-▶ {mI' 'al:n}</column>
+      <column name="examples">The fact that this can be used adjectivally for numbers[2] suggests that it is a stative verb, but it is not out of the question that maybe it can be used adjectivally only for numbers but can take an object otherwise.</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -409,6 +405,43 @@ It's confirmed that this doesn't take an object, and can be used adjectivally (b
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}, [2] {qep'a' 26 (2019):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">'al</column>
+      <column name="part_of_speech">v:2,is</column>
+      <column name="definition">be random (number)</column>
+      <column name="definition_de">zufällig sein (Zahlen)</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{mI':n}</column>
+      <column name="notes">This is just the verb {'al:v:1} applied to numbers.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes">Based on the explanation and the examples, this is a stative verb. However, the definition of {'al:v:1:nolink} as "float (in/on air)" rather than "be floating" leaves open the possibility that it can take an object in other contexts.</column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {'al mI':sen@@'al:v:2, mI':n} "the number is random"[2]
+▶ {mI' 'al:n}</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {qep'a' 26 (2019):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2409,7 +2442,7 @@ The example literally means "My eyes sting me", which shows that {'aw':v:nolink}
       <column name="definition_zh_HK">漂浮（液體中或上）</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'oq:v}</column>
-      <column name="see_also">{'al:v}</column>
+      <column name="see_also">{'al:v:1}</column>
       <column name="notes">This means to float in/on water or other liquids. For something floating freely in space, see {rIjHa':v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
