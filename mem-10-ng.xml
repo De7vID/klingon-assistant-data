@@ -2416,6 +2416,43 @@ In {TNK:src}, "Where is the shop?" is translated as {nuqDaq ghaH ngevwI''e'?:sen
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">ngIS</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">lubricant (special type)</column>
+      <column name="definition_de">Schmierstoff (besondere Art)</column>
+      <column name="definition_fa">نوع روان کننده [AUTOTRANSLATED]</column>
+      <column name="definition_sv">typ av smörjmedel [AUTOTRANSLATED]</column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK">潤滑劑類型 [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{nISwI' tal:n}, {watrIn:n}, {QIn:v}</column>
+      <column name="notes">This is a type of lubricant used on disruptor cannons.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes">The fact that this is used on disruptor cannons comes from the glossary to {Honor Bound:src}.
+
+For a very long time, this was an unofficial word, but it was confirmed by Okrand for a translation of The Wizard of Oz.[2]</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags">oil</column>
+      <column name="search_tags_de">Öl</column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {Honor Bound:src}, [2] {KLI mailing list 2020.04.21:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">ngItHel</column>
       <column name="part_of_speech">n</column>
       <column name="definition">stringed instrument which is bowed, violin</column>
@@ -2822,14 +2859,14 @@ One of these was used in the production of the opera {'u':src}.</column>
       <column name="definition_zh_HK">塗抹 [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ngoH:v:2}</column>
+      <column name="see_also">{ngoH:v:2}, {watrIn:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is a possible verb to use with {watrIn:n}.[2]</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2843,7 +2880,7 @@ One of these was used in the production of the opera {'u':src}.</column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KLI mailing list 2020.04.21:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
