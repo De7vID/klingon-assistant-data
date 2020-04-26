@@ -8098,8 +8098,8 @@ When referring to one's left and right sides, possessive suffixes are used. For 
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <column name="_id"></column>
       <!-- Possibly a pun based on the tradition of accompanying oral tellings of stories with "lute" music. -->
+      <column name="_id"></column>
       <column name="entry_name">lut</column>
       <column name="part_of_speech">n</column>
       <column name="definition">story</column>
@@ -8111,13 +8111,13 @@ When referring to one's left and right sides, possessive suffixes are used. For 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{torSIv:n}, {rorgh:v}</column>
-      <column name="notes"></column>
+      <column name="notes">The concept of a "fairy tale" might be expressed as {puq lut:n@@puq:n, lut:n} or {lut rorgh:n@@lut:n, rorgh:v} or {puq lut rorgh:n@@puq:n, lut:n, rorgh:v}.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The translations for "fairy tales" are suggestions only. In particular, it was noted that {SIqnaSwaq:n} would probably not be used to translate this term.[3]</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {meb, lut tlhaQ DaSov'a'?} "Guest, do you know any funny stories?"[2]</column>
@@ -8127,13 +8127,13 @@ When referring to one's left and right sides, possessive suffixes are used. For 
       <column name="examples_ru">
 ▶ {meb, lut tlhaQ DaSov'a'?} "Гость, ты знаешь какие-то забавные истории?"[2]</column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
+      <column name="search_tags">fairy tale, tale</column>
+      <column name="search_tags_de">Kindergeschichte, Märchen</column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}, [2] {PK:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {PK:src}, [3] {KLI mailing list 2020.04.21:src}</column>
     </table>
         <table name="mem">
           <column name="_id"></column>
@@ -8169,41 +8169,6 @@ When referring to one's left and right sides, possessive suffixes are used. For 
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="source">[1] {Saarbrücken qepHom'a' 2017:src}</column>
-        </table>
-        <table name="mem">
-          <column name="_id"></column>
-          <column name="entry_name">lut rorgh</column>
-          <column name="part_of_speech">n:deriv</column>
-          <column name="definition">fairy tale</column>
-          <column name="definition_de">Märchen</column>
-          <column name="definition_fa"></column>
-          <column name="definition_sv"></column>
-          <column name="definition_ru"></column>
-          <column name="definition_zh_HK"></column>
-          <column name="synonyms">{puq lut:n}, {puq lut rorgh:n}</column>
-          <column name="antonyms"></column>
-          <column name="see_also"></column>
-          <column name="notes"></column>
-          <column name="notes_de"></column>
-          <column name="notes_fa"></column>
-          <column name="notes_sv"></column>
-          <column name="notes_ru"></column>
-          <column name="notes_zh_HK"></column>
-          <column name="hidden_notes"></column>
-          <column name="components">{lut:n}, {rorgh:v}</column>
-          <column name="examples"></column>
-          <column name="examples_de"></column>
-          <column name="examples_fa"></column>
-          <column name="examples_sv"></column>
-          <column name="examples_ru"></column>
-          <column name="examples_zh_HK"></column>
-          <column name="search_tags"></column>
-          <column name="search_tags_de"></column>
-          <column name="search_tags_fa"></column>
-          <column name="search_tags_sv"></column>
-          <column name="search_tags_ru"></column>
-          <column name="search_tags_zh_HK"></column>
-          <column name="source">[1] {KLI mailing list 2020.04.21:src}</column>
         </table>
     <table name="mem">
       <column name="_id"></column>
