@@ -4199,6 +4199,41 @@ There is no traditional Klingon way to say something like "Merry Christmas". An 
       <column name="search_tags_zh_HK"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">Qob lIb bam SoH chuDlI' je.</column>
+          <column name="part_of_speech">sen:phr</column>
+          <column name="definition">You and your people are in danger.</column>
+          <column name="definition_de">Du und deine Leute sind in Gefahr.</column>
+          <column name="definition_fa"></column>
+          <column name="definition_sv"></column>
+          <column name="definition_ru"></column>
+          <column name="definition_zh_HK"></column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">The expected prefix on {bam:v} is {bo-:v:pref}, since the subject is plural and second-person. However, occasionally and under certain circumstances, in a sentence with a compound second- and third-person subject, a non-prefixed verb is used. There is scant evidence that this usage is becoming more widespread in casual speech, and perhaps Uhura was speaking informally or idiomatically. This sentence shouldn't be taken as textbook Klingon, but might be an example of colloquial Klingon.[2]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="hidden_notes">Possibly {bo-:v:pref} was mixed up with {lI-:v:pref} during filming or editing, which forced {lIb:v} to be created.</column>
+          <column name="components">{Qob:n}, {lIb:v}, {bam:v}, {SoH:n}, {chuD:n}, {-lI':n}, {je:conj}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="source">[1] {Star Trek Into Darkness:src}, [2] {KLI mailing list 2020.05.22:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qoch</column>
@@ -4513,7 +4548,25 @@ Agreement is also expressed by the idiomatic expression {wa' DoS wIqIp.:sen:idio
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {juSmeH qochpu'chaj:sen:nolink}
+   {jachtaHvIS je chal luSIch beychaj:sen:nolink}
+   {'ej Qo'noS yav luQommoH:sen:nolink}
+  "They too started to shout to the heavens
+   For the passage of their comrades,
+   Their howls made Kronos's soil tremble."[2, p.150-151]
+▶ {'ach DaH Qom chalqachlIj:sen:nolink}
+   {'ej qamDu'lIj bIngvo':sen:nolink}
+   {tugh ngabchu' 'oH:sen:nolink}
+  "But now your tower rumbles,
+   And soon it will disappear
+   From under your feet."[2, p.158-159]
+▶ {qeylISvaD jach 'ej beyDaj luqImmo':sen:nolink}
+   {yuQDaq ghaHtaHbogh Hoch tlhIngan'e':sen:nolink}
+   {Qomqa' Hoch Qo'noS nuvpu':sen:nolink}
+  "All of Kronos trembled once more,
+   For every Klingon on the planet
+   Followed her cry for Kahless."[2, p.186-187]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -4525,12 +4578,12 @@ Agreement is also expressed by the idiomatic expression {wa' DoS wIqIp.:sen:idio
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru">дрожь</column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh:src}</column>
     </table>
     <table name="mem">
+      <!-- KGT p.163 says that this is not treated grammatically as a "be" verb. -->
       <column name="_id"></column>
       <column name="entry_name">Qom</column>
-      <!-- KGT p.163 says that this is not treated grammatically as a "be" verb. -->
       <column name="part_of_speech">v:2,t,slang</column>
       <column name="definition">be hazardous, be perilous, be treacherous</column>
       <column name="definition_de">gewagt, gefährlich, riskant sein</column>
@@ -4541,7 +4594,7 @@ Agreement is also expressed by the idiomatic expression {wa' DoS wIqIp.:sen:idio
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Qob:v}, {Qom:v:1}</column>
-      <column name="notes"></column>
+      <column name="notes">Despite its definition, the way this verb is used grammatically is based on its literal sense, and it is ungrammatically to use this adjectivally.[1, p.163]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
