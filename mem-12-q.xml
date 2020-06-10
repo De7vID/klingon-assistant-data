@@ -2800,16 +2800,16 @@ Someone who has an excellent memory may be said to have a {qaw pov:n@@qaw:n, pov
       <column name="_id"></column>
       <column name="entry_name">qaw'</column>
       <column name="part_of_speech">v:i_c</column>
-      <column name="definition">flip over, tip over</column>
-      <column name="definition_de">kippen, umfallen</column>
+      <column name="definition">tip over, flip over</column>
+      <column name="definition_de">umfallen, kippen</column>
       <column name="definition_fa"></column>
       <column name="definition_sv"></column>
       <column name="definition_ru"></column>
       <column name="definition_zh_HK"></column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="see_also">{pum:v:2}</column>
+      <column name="notes">This would be used if something tipped over on its own accord or seemingly on its own accord (even if there is a known cause). For example, this would be used if one lost one's balance. For "flip (all the way) over", see {yoymoH:v} and {tach:v}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2817,9 +2817,9 @@ Someone who has an excellent memory may be said to have a {qaw pov:n@@qaw:n, pov
       <column name="notes_zh_HK"></column>
       <column name="hidden_notes">"Cow tipping" is an urban legend about the activity of pushing over a cow for entertainment.
 
-This is defined as "flip over", but it was revealed in answer to a question about cars being overturned in the street, a chair or big box being kicked over, or a drinking glass or anything else falling over from a vertical into a horizontal position. Thus, "tip over" also seems like an appropriate definition.
+This was first defined as "flip over", but it was revealed in answer to a question about cars being overturned in the street, a chair or big box being kicked over, or a drinking glass or anything else falling over from a vertical into a horizontal position.[1] It was later clarified that "tip over" is a better definition.[2]
 
-This is confirmed as intransitive since {qaw'moH:v@@qaw':v, -moH:v} was also defined as "make something flip over".</column>
+This is confirmed as intransitive since {qaw'moH:v} was also glossed as "make something flip over".[1]</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2827,14 +2827,49 @@ This is confirmed as intransitive since {qaw'moH:v@@qaw':v, -moH:v} was also def
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">fall down, fall over</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <column name="source">[1] {KLI mailing list 2020.03.30:src}</column>
+      <column name="source">[1] {KLI mailing list 2020.03.30:src}, [2] {KLI mailing list 2020.06.09:src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">qaw'moH</column>
+          <column name="part_of_speech">v:t_c,deriv</column>
+          <column name="definition">tip over, knock over, knock down</column>
+          <column name="definition_de">umkippen, umwerfen</column>
+          <column name="definition_fa"></column>
+          <column name="definition_sv"></column>
+          <column name="definition_ru"></column>
+          <column name="definition_zh_HK"></column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{qaw':v}, {-moH:v}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="source">[1] {KLI mailing list 2020.06.09:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qay</column>
