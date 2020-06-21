@@ -236,7 +236,7 @@ mem.close()
 
 # Read the database version from the version file
 ver = fileinput.FileInput(files=(os.path.join(sdir,'VERSION')))
-version = ver[0].strip()
+version = next(iter(ver)).strip()
 ver.close()
 
 # Parse the database XML tree and store the parsed entries in a dict
