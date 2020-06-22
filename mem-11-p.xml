@@ -1746,7 +1746,7 @@ Do not confuse this with {paw:v}.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">paw'aD</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:body</column>
       <column name="definition">vein</column>
       <column name="definition_de">Vene</column>
       <column name="definition_fa">رگ [AUTOTRANSLATED]</column>
@@ -4699,7 +4699,7 @@ The verb {roS:v:2} means "to use the third toe". It is also homophonous with a v
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">backbone</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -6576,9 +6576,9 @@ To Klingons outside of {bo'retlh:n}, time crystals were a myth, a symbol of Kahl
       <column name="source">[1] {qep'a' 25 (2018):src}</column>
     </table>
     <table name="mem">
+      <!-- Note that this isn't marked as a body part because it refers to an entire body. -->
       <column name="_id"></column>
       <column name="entry_name">porgh</column>
-      <!-- Note that this isn't marked as a body part because it refers to an entire body. -->
       <column name="part_of_speech">n</column>
       <column name="definition">body</column>
       <column name="definition_de">Körper</column>

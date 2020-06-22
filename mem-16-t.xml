@@ -3088,7 +3088,7 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tel</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:body</column>
       <column name="definition">wing</column>
       <column name="definition_de">Flügel</column>
       <column name="definition_fa">بال</column>
@@ -3104,7 +3104,9 @@ This dialect is sort of half-way between the standard dialect and the {Qotmagh S
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="hidden_notes">This is missing from the E-K side of {TKD:src}.</column>
+      <column name="hidden_notes">This is missing from the E-K side of {TKD:src}.
+
+This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-mey:n:suff} otherwise.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7685,7 +7687,7 @@ Pitching downwards is indicated using a negative angle (see {taH:v:2}).</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">to'waQ</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:body</column>
       <column name="definition">ligament, tendon</column>
       <column name="definition_de">Ligamentum, Bänder</column>
       <column name="definition_fa">رباط، تاندون [AUTOTRANSLATED]</column>
