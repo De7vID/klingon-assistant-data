@@ -3577,7 +3577,7 @@ While {mej:v:nolink} refers simply to leaving one's current location, {tlheD:v} 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mej'aD</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:body</column>
       <column name="definition">artery</column>
       <column name="definition_de">Arterie</column>
       <column name="definition_fa">شریان [AUTOTRANSLATED]</column>
@@ -3614,10 +3614,10 @@ While {mej:v:nolink} refers simply to leaving one's current location, {tlheD:v} 
       <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
+      <!-- Is this a body part if it is removed from the body? -->
       <column name="_id"></column>
       <column name="entry_name">melchoQ</column>
-      <!-- Is this a body part if it is removed from the body? -->
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:body</column>
       <column name="definition">marrow, bone marrow</column>
       <column name="definition_de">(Knochen-)Mark</column>
       <column name="definition_fa">مغز استخوان، مغز استخوان [AUTOTRANSLATED]</column>
@@ -7834,7 +7834,7 @@ This word is defined in {KGT:src} as "smile, grin, sneer".[1]  It is explained t
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mong</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:body</column>
       <column name="definition">neck</column>
       <column name="definition_de">Hals, Nacken</column>
       <column name="definition_fa">گردن</column>
