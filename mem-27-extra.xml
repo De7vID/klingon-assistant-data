@@ -5754,7 +5754,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">be'joy'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:extcan</column>
       <column name="definition">a form of ritualistic torture</column>
       <column name="definition_de">eine Form der rituellen Folter</column>
       <column name="definition_fa">یک شکل شکنجه روحانی [AUTOTRANSLATED]</column>
@@ -5789,6 +5789,43 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {Sarek:src}, [2] {KLI mailing list 2018.07.29:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">bIHnuch</column>
+      <column name="part_of_speech">n:extcan,archaic</column>
+      <column name="definition">coward</column>
+      <column name="definition_de">Feigling</column>
+      <column name="definition_fa">ترسو</column>
+      <column name="definition_sv">ynkrygg, fegis</column>
+      <column name="definition_ru">Трус</column>
+      <column name="definition_zh_HK">膽小鬼、懦夫</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is said during the ritual of discommendation ({naDHa'ghach:n}). The usual way to say "coward" is {nuch:n}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="hidden_notes">According to the script for {TNG - Sins of the Father:src}, Worf says {tlhIH ghIj jIHyoj:sen@@tlhIH:n, ghIj:v, jIH:n:1, yoj:n}, which is not grammatical, but is supposed to mean "I fear your judgment". K'mpec then replies with {bIHnuch:sen:nolink}. It is reasonable to assume that these two phrases are archaic and ritualised.
+
+It's likely that these sentences were made up by a writer who consulted {TKD:src}, as they contain existing words, but did not have an understanding of Klingon grammar.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="source">[1] {TNG - Sins of the Father:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
