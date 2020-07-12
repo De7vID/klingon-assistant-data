@@ -71,6 +71,15 @@ then
     echo
 fi
 
+# Print any empty Portuguese definitions.
+MISSING_PT=$(grep -B3 "definition_pt\"><" mem.xml)
+if [[ ! -z "$MISSING_PT" ]]
+then
+    echo "Missing Portuguese definitions:"
+    echo "$MISSING_PT"
+    echo
+fi
+
 # Print any broken references.
 BROKEN_REFERENCES=$(./xml2json.py 2> >(sort|uniq) > /dev/null)
 if [[ ! -z "$BROKEN_REFERENCES" ]]
@@ -81,7 +90,7 @@ then
 fi
 
 # Pause (in case of error).
-if [[ ! $NONINTERACTIVE && (! -z "$POS_DEFINITION_MIXUP" || ! -z "$MISSING_DE") ]]
+if [[ ! $NONINTERACTIVE && (! -z "$POS_DEFINITION_MIXUP" || ! -z "$MISSING_DE" || ! -z "$MISSING_PT" || ! -z "$BROKEN_REFERENCES") ]]
 then
     read -n1 -r -p "Press any key to continue..."
     echo
