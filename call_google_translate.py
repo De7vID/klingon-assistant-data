@@ -13,6 +13,11 @@
 # sed -i $"s/\(\s*\)\(<column name=\"search_tags\">\)/\1<column name=\"examples_xx\"><\/column>\\n\1\2/g" mem-*.xml
 # sed -i $"s/\(\s*\)\(<column name=\"source\">\)/\1<column name=\"search_tags_xx\"><\/column>\\n\1\2/g" mem-*.xml
 
+# Note: To maintain consistent transliteration of "Klingon" in zh-HK, run:
+# sed -i "s/克林貢/克林崗/" mem-*.xml
+# Also, in some cases the fullwidth semicolon may have to be replaced:
+# grep "{.*：.*}" mem-*
+
 from googletrans import Translator
 
 import fileinput
@@ -35,6 +40,7 @@ supported_languages_map = {
 
 translator = Translator()
 for filename in filenames:
+  print("Translating file: {}".format(filename))
   with fileinput.FileInput(filename, inplace=True) as file:
     definition = ""
     for line in file:
@@ -64,4 +70,5 @@ for filename in filenames:
             # Rate-limit calls to Google Translate.
             time.sleep(0.01)
 
+      # The variable 'line' already contains a newline at the end, don't add another.
       print(line, end='')
