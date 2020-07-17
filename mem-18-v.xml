@@ -6637,7 +6637,6 @@ This region has some vocabulary differences from {ta' Hol:n}. Terms which have a
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <!-- Double-check the example sentence. -->
       <column name="_id"></column>
       <column name="entry_name">vo'</column>
       <column name="part_of_speech">v:t_c</column>
@@ -6661,7 +6660,10 @@ This region has some vocabulary differences from {ta' Hol:n}. Terms which have a
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {QIStaq qul bIQtIqHomDaq 'etlhDaj vo' nuch:sen:nolink} "The coward throws his sword into the fire streams of Kri'stak"[2]</column>
+▶ {QIStaq qul bIQtIqHomDaq:sen:nolink}
+   {'etlhDaj vo' nuch:sen:nolink}
+  "The coward threw his sword
+   Into the fire streams of Kri'stak"[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
