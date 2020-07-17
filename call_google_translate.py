@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
 # Calls Google Translate to produce translations. To use, fill in any missing
-# definition_[language] fields in the mem-*.xml files with "TRANSLATE" or
-# "TRANSLATE: [replacement definition]". The latter is to allow for a better
-# translation when the original definition is ambiguous, e.g., if the
-# definition is "launcher", a better translation might result from "TRANSLATE:
-# rocket launcher".
+# definition_[language] or notes_[language] fields in the mem-*.xml files with
+# "TRANSLATE". For definitions, it's also possible to fill in "TRANSLATE:
+# [replacement definition]". This allows for a better translation when the
+# original definition is ambiguous, e.g., if the definition is "launcher", a
+# better translation might result from "TRANSLATE: rocket launcher".
 
 # Commands to add the required fields for a new language with language code "xx":
 # sed -i $"s/\(\s*\)\(<column name=\"synonyms\">\)/\1<column name=\"definition_xx\">TRANSLATE<\/column>\\n\1\2/g" mem-*.xml
-# sed -i $"s/\(\s*\)\(<column name=\"hidden_notes\">\)/\1<column name=\"notes_xx\"><\/column>\\n\1\2/g" mem-*.xml
+# sed -i $"s/\(\s*\)\(<column name=\"hidden_notes\">\)/\1<column name=\"notes_xx\">TRANSLATE<\/column>\\n\1\2/g" mem-*.xml
 # sed -i $"s/\(\s*\)\(<column name=\"search_tags\">\)/\1<column name=\"examples_xx\"><\/column>\\n\1\2/g" mem-*.xml
 # sed -i $"s/\(\s*\)\(<column name=\"source\">\)/\1<column name=\"search_tags_xx\"><\/column>\\n\1\2/g" mem-*.xml
 
@@ -43,6 +43,7 @@ for filename in filenames:
   print("Translating file: {}".format(filename))
   with fileinput.FileInput(filename, inplace=True) as file:
     definition = ""
+    notes = ""
     for line in file:
       definition_match = re.search(r"definition\">(.*)<", line)
       definition_translation_match = re.search(r"definition_(.+)\">TRANSLATE(?:: (.*))?<", line)
@@ -69,6 +70,35 @@ for filename in filenames:
 
             # Rate-limit calls to Google Translate.
             time.sleep(0.01)
+
+      # TODO: Refactor common parts with code for translating definitions.
+      notes_match = re.search(r"\"notes\">(.*)", line)
+      notes_translation_match = re.search(r"notes_(.+)\">TRANSLATE<", line)
+
+      # Get the source (English) notes to translate.
+      if (notes_match):
+        if notes_match.group(1) == "</column>":
+          # Skip empty notes.
+          notes = ""
+        elif not notes_match.group(1).endswith("</column>"):
+          # Skip multiline notes.
+          notes = ""
+        elif re.search(r".*[{}\[\]].*", notes_match.group(1)):
+          # Skip notes with links or references.
+          notes = ""
+        else:
+          notes = notes_match.group(1)[:-len("</column>")]
+
+      if (notes and notes_translation_match):
+        language = supported_languages_map.get(notes_translation_match.group(1).replace('_','-'), "")
+        if language != "":
+          translation = translator.translate(notes, src='en', dest=language)
+          # Note that Google Translate returns the original text if translation fails for some reason.
+          if translation.text != notes:
+            line = re.sub(r">(.*)<", ">%s [AUTOTRANSLATED]<" % translation.text, line)
+
+          # Rate-limit calls to Google Translate.
+          time.sleep(0.01)
 
       # The variable 'line' already contains a newline at the end, don't add another.
       print(line, end='')
