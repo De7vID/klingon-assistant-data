@@ -45,7 +45,7 @@ foreach $e (@{$data->{database}->{mem}})
     # Sanity check for "en" fields.
     if ($e->{entry_name} ne "boQwI''" && $e->{entry_name} ne "QIch wab Ho''DoS") {
         if ("$e->{definition}" !~ "$valid_en") {
-            print STDERR "Non-staniard characters: ", "$e->{definition}", "\n";
+            print STDERR "Non-standard characters: ", "$e->{definition}", "\n";
         }
         if ("$e->{notes}" !~ "$valid_en") {
             print STDERR "Non-standard characters: ", "$e->{notes}", "\n";

@@ -27,17 +27,17 @@ fi
 # Concatenate data into one xml file.
 cat mem-00-header.xml mem-01-b.xml mem-02-ch.xml mem-03-D.xml mem-04-gh.xml mem-05-H.xml mem-06-j.xml mem-07-l.xml mem-08-m.xml mem-09-n.xml mem-10-ng.xml mem-11-p.xml mem-12-q.xml mem-13-Q.xml mem-14-r.xml mem-15-S.xml mem-16-t.xml mem-17-tlh.xml mem-18-v.xml mem-19-w.xml mem-20-y.xml mem-21-a.xml mem-22-e.xml mem-23-I.xml mem-24-o.xml mem-25-u.xml mem-26-suffixes.xml mem-27-extra.xml mem-28-footer.xml > mem.xml
 
+if [[ $XMLONLY ]]
+then
+    exit
+fi
+
 # Ensure entries are numbered first.
 MISSING_IDS=$(grep "_id\"><" mem.xml)
 if [[ ! -z "$MISSING_IDS" ]]
 then
     echo "Missing IDs: run renumber.py."
     echo
-    exit
-fi
-
-if [[ $XMLONLY ]]
-then
     exit
 fi
 
@@ -71,6 +71,15 @@ then
     echo
 fi
 
+# Print any empty Portuguese definitions.
+MISSING_PT=$(grep -B3 "definition_pt\"><" mem.xml)
+if [[ ! -z "$MISSING_PT" ]]
+then
+    echo "Missing Portuguese definitions:"
+    echo "$MISSING_PT"
+    echo
+fi
+
 # Print any broken references.
 BROKEN_REFERENCES=$(./xml2json.py 2> >(sort|uniq) > /dev/null)
 if [[ ! -z "$BROKEN_REFERENCES" ]]
@@ -81,7 +90,7 @@ then
 fi
 
 # Pause (in case of error).
-if [[ ! $NONINTERACTIVE && (! -z "$POS_DEFINITION_MIXUP" || ! -z "$MISSING_DE") ]]
+if [[ ! $NONINTERACTIVE && (! -z "$POS_DEFINITION_MIXUP" || ! -z "$MISSING_DE" || ! -z "$MISSING_PT" || ! -z "$BROKEN_REFERENCES") ]]
 then
     read -n1 -r -p "Press any key to continue..."
     echo
