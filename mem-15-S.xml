@@ -1770,7 +1770,6 @@ This word is not used for sort order.[3]</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <!-- "手禮" but possibly a coincidence. -->
       <column name="entry_name">Sawlay</column>
       <column name="part_of_speech">n</column>
       <column name="definition">gesture</column>
@@ -1783,14 +1782,16 @@ This word is not used for sort order.[3]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">To use a gesture is {Sawlay lo':sen@@Sawlay:n, lo':v} or else a specific gesture verb (such as {SIq:v}, {qay:v}, etc.).</column>
+      <column name="notes">To use a gesture is {Sawlay lo':sen@@Sawlay:n, lo':v} or else a specific gesture verb (such as {SIq:v}, {qay:v}, etc.).
+
+Maltz didn't know a generic verb for this.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes">Maltz didn't know a generic verb for this.[1]</column>
+      <column name="hidden_notes">In Chinese, "伴手禮" means souvenir (a gift given when traveling). In particular, "手" means "hand".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2454,9 +2455,7 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This word appears to consist of {SeH:v} (or a homophonous element) and {law:n:archaic} (or an otherwise unattested homophone).
-
-This can be used for a "settings" or "preferences" page in software, but not individual settings, which are {DuH:n}.[2]</column>
+      <column name="notes">This can be used for a "settings" or "preferences" page in software, but not individual settings, which are {DuH:n}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2464,7 +2463,7 @@ This can be used for a "settings" or "preferences" page in software, but not ind
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{SeH:v} or {SeH:n:hyp,nolink}, {law:n:archaic} or {law:n:hyp,nolink}</column>
       <column name="examples">
 ▶ {jol SeHlaw:n}
 ▶ {QeD SeHlaw:n}
@@ -2816,12 +2815,12 @@ As this is a non-Klingon name, there is some variation in how Klingons pronounce
       <column name="antonyms"></column>
       <column name="see_also">{ngagh:v}, {nga'chuq:v}</column>
       <column name="notes">Klingons breed some small animals for food.[2]</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="notes_de">Klingonen züchten einige kleine Tiere als Nahrung.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">کلینگون برخی حیوانات کوچک را برای غذا پرورش می دهد.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Klingons avlar några små djur för mat.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Клингоны разводят некоторых мелких животных для еды.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">克林貢人繁殖了一些小動物作為食物。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Os klingons criam alguns pequenos animais como alimento.[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes">"Shep"herds breed sheep.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -4985,12 +4984,12 @@ If an implement is used for an activity typically performed by a finger, a finge
       <column name="antonyms"></column>
       <column name="see_also">{chal bIQ:n}, {jev:v:1}, {muD Dotlh:n}, {ghay:v}, {Har'ey:n}, {Heq:v}, {peD:v}, {vI'laS:n}, {'eng:n}, {'onroS:n}</column>
       <column name="notes">This verb can take an object. Its subject is usually unstated.[2]</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="notes_de">Dieses Verb kann ein Objekt aufnehmen. Sein Thema ist normalerweise nicht angegeben.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این فعل می تواند یک جسم را بگیرد. موضوع آن معمولاً بدون سابقه است.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta verb kan ta ett objekt. Ämnet är vanligtvis ostat.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Этот глагол может взять объект. Его тема обычно не установлена.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這個動詞可以帶一個賓語。它的主題通常是未知的。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Este verbo pode pegar um objeto. Seu assunto geralmente não é declarado.[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes">It's the sound of rain falling.</column>
       <column name="components"></column>
       <column name="examples">

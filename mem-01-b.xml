@@ -5700,7 +5700,6 @@ For tens of millions, one could combine {maH:n:2} with {'uy':n:nolink} or {vatlh
           <column name="source">[1] {BoP:src}</column>
         </table>
         <table name="mem">
-          <!-- Need page number for paq'batlh example, also double-check this sentence. -->
           <column name="_id"></column>
           <column name="entry_name">bIQtIq</column>
           <column name="part_of_speech">n</column>
@@ -5725,7 +5724,10 @@ For tens of millions, one could combine {maH:n:2} with {'uy':n:nolink} or {vatlh
           <column name="components">{bIQ:n}, {tIq:v} or {tIq:n} or a homophonous element</column>
           <column name="examples">
 ▶ {SIqral bIQtIq:n}[2]
-▶ {QIStaq qul bIQtIqHomDaq 'etlhDaj vo' nuch} "The coward throws his sword into the fire streams of Kri'stak"[2]</column>
+▶ {QIStaq qul bIQtIqHomDaq:sen:nolink}
+   {'etlhDaj vo' nuch:sen:nolink}
+  "The coward threw his sword
+   Into the fire streams of Kri'stak"[2]</column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
           <column name="examples_sv"></column>
