@@ -18,6 +18,10 @@
 # Also, in some cases the fullwidth semicolon may have to be replaced:
 # grep "{.*：.*}" mem-*
 
+# It might be useful to run this command to remove extraneous spaces before
+# references after this script is run:
+# sed -i "s/\(notes_.*\) \(\[[1-9]\]\)/\1\2/g" mem-*
+
 from googletrans import Translator
 
 import fileinput
@@ -63,10 +67,10 @@ for filename in filenames:
 
           # Preserve definitions of the form "{...}" verbatim.
           if definition.startswith('{') and definition.endswith('}'):
-            line = re.sub(r">(.*)<", ">%s<" % definition, line)
+            line = re.sub(r">(.*)<", ">{}<".format(definition), line)
           else:
             translation = translator.translate(definition, src='en', dest=language)
-            line = re.sub(r">(.*)<", ">%s [AUTOTRANSLATED]<" % translation.text, line)
+            line = re.sub(r">(.*)<", ">{} [AUTOTRANSLATED]<".format(translation.text), line)
 
             # Rate-limit calls to Google Translate.
             time.sleep(0.01)
@@ -83,11 +87,15 @@ for filename in filenames:
         elif not notes_match.group(1).endswith("</column>"):
           # Skip multiline notes.
           notes = ""
-        elif re.search(r".*[{}\[\]].*", notes_match.group(1)):
-          # Skip notes with links or references.
-          notes = ""
         else:
           notes = notes_match.group(1)[:-len("</column>")]
+
+        # Handle links and references by replacing them with "DONOTTRANSLATE" tokens.
+        link_matches = re.findall(r"({[^{}]*}|\[[^\[\]]*\])", notes)
+        link_number = 1
+        for link_match in link_matches:
+          notes = re.sub(link_match.replace("[", "\[").replace("]", "\]"), "DONOTTRANSLATE{}".format(link_number), notes, 1)
+          link_number += 1
 
       if (notes and notes_translation_match):
         language = supported_languages_map.get(notes_translation_match.group(1).replace('_','-'), "")
@@ -95,7 +103,19 @@ for filename in filenames:
           translation = translator.translate(notes, src='en', dest=language)
           # Note that Google Translate returns the original text if translation fails for some reason.
           if translation.text != notes:
-            line = re.sub(r">(.*)<", ">%s [AUTOTRANSLATED]<" % translation.text, line)
+            translation_text = translation.text
+            # Restore the links and references.
+            link_number = 1
+            missing_links = ""
+            for link_match in link_matches:
+              prev_translation_text = translation_text
+              translation_text = re.sub(r"DONOTTRANSLATE{}".format(link_number), link_match, translation_text, 1)
+              if translation_text == prev_translation_text:
+                print("<!-- ERROR: Missing link #{}. -->".format(link_number))
+                missing_links += link_match
+              link_number += 1
+            # Missing links and references are appended to the end and may require manual correction.
+            line = re.sub(r">(.*)<", ">{}{} [AUTOTRANSLATED]<".format(translation_text, missing_links), line)
 
           # Rate-limit calls to Google Translate.
           time.sleep(0.01)
