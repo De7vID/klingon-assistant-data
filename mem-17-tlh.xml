@@ -1528,7 +1528,6 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <!-- The components does not point to {jIrmoH:v}, because that entry is specifically for a martial arts move. -->
       <column name="entry_name">tlhegh jIrmoHwI'</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">windlass</column>
@@ -1549,7 +1548,7 @@
       <column name="notes_zh_HK">字面意思是“絞線/轉子”。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso significa literalmente "trava-cabos / rotador". [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
-      <column name="components">{tlhegh:n}, {jIr:v}, {-moH:v}, {-wI':v}</column>
+      <column name="components">{tlhegh:n}, {jIrmoH:v:2}, {-wI':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
