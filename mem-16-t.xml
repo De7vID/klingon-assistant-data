@@ -4666,6 +4666,45 @@ The Terran months are:
       <column name="search_tags_pt"></column>
       <column name="source">[1] {KGT:src}, [2] {HQ 2.4, p.17, Dec. 1993:src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">teS HablI'</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">earpiece</column>
+          <column name="definition_de">Hörmuschel [AUTOTRANSLATED]</column>
+          <column name="definition_fa">گوش گوش [AUTOTRANSLATED]</column>
+          <column name="definition_sv">hörlur [AUTOTRANSLATED]</column>
+          <column name="definition_ru">наушник [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">聽筒 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">fone de ouvido [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also">{DannI':n}</column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="hidden_notes">This was not given an English definition, but described as the device Uhura wears like a headphone.</column>
+          <column name="components">{teS:n}, {HablI':n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="search_tags">headset, earbud</column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="source">[1] {qep'a' 27 (2020):src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">teSra'</column>
@@ -7781,7 +7820,7 @@ It is also used to name martial arts stances. To command someone to strike a sta
       <column name="see_also"></column>
       <column name="notes">This refers to a tool or device, and not a postage stamp (for which see {HIjmeH chaw':n}).
 
-To use such a stamp, one must first ink it up ({laS:v}) with an ink pad ({rItlh 'echlet:n}), then slam it down ({Dut:v}). The resulting image is called a {yang:n}.</column>
+To use such a stamp, one must first ink it up ({laS:v}) with an ink pad ({rItlh 'echlet:n}), then slam it down ({Dut:v:1}). The resulting image is called a {yang:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -7791,7 +7830,7 @@ To use such a stamp, one must first ink it up ({laS:v}) with an ink pad ({rItlh 
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {toqwIn vIDut@@toqwIn:n, vI-:v, Dut:v} "I slam down the stamp."</column>
+▶ {toqwIn vIDut@@toqwIn:n, vI-:v, Dut:v:1} "I slam down the stamp."</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
