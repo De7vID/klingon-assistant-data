@@ -2644,7 +2644,7 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Sen</column>
-      <column name="part_of_speech">v:2,i</column>
+      <column name="part_of_speech">v:2,i,slang</column>
       <column name="definition">scoff</column>
       <column name="definition_de">spotten [AUTOTRANSLATED]</column>
       <column name="definition_fa">مسخره کردن [AUTOTRANSLATED]</column>
@@ -4041,6 +4041,45 @@ The existence of the homophonous noun {Sev:n} may suggest that Klingons view the
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">SIHHa'moH</column>
+      <column name="part_of_speech">v:t_c,deriv,slang</column>
+      <column name="definition">solve</column>
+      <column name="definition_de">lösen [AUTOTRANSLATED]</column>
+      <column name="definition_fa">حل [AUTOTRANSLATED]</column>
+      <column name="definition_sv">lösa [AUTOTRANSLATED]</column>
+      <column name="definition_ru">решить [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">解決 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">resolver [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">The non-slang way to say this is {pan:v:2}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{SIH:v}, {-Ha':v}, {-moH:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source"></column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6566,7 +6605,7 @@ This word carries the idiomatic meaning of "matter, concern, affair", for which 
       <column name="definition_pt">árvore</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lav:n}, {por:n}, {bartIq:n}, {Qechjem'a':n}, {tI:n}</column>
+      <column name="see_also">{lav:n}, {por:n}, {bartIq:n}, {Qechjem'a':n}, {tI:n}, {perletlh:n}</column>
       <column name="notes">There is an idiom, {lugh; Sor rur@@lugh:v, Sor:n, rur:v}, which is connected to the verb {Sor:v}.
 
 This word can also refer to the "club" suit in a deck of playing cards (see {Degh:n:1}).[2]</column>
