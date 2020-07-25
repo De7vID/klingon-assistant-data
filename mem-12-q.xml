@@ -4921,9 +4921,9 @@ The resemblance to "Captain Kang" ({qeng HoD:n@@qeng:n, HoD:n}) is coincidental,
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Don't annotation as "deriv" because the bad grammar breaks the parser. -->
       <column name="_id"></column>
       <column name="entry_name">qepHom'a'</column>
-      <!-- Don't annotation as "deriv" because the bad grammar breaks the parser. -->
       <column name="part_of_speech">n</column>
       <column name="definition">annual meeting of Klingon speakers in Germany</column>
       <column name="definition_de">jährlicher Klingonischkurs Saarbrücken</column>
@@ -4935,10 +4935,10 @@ The resemblance to "Captain Kang" ({qeng HoD:n@@qeng:n, HoD:n}) is coincidental,
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Quvar:n:name}</column>
-      <column name="notes">The {qepHom'a':n:nolink} is the annual Klingon Language meeting in Saarbrücken, Germany. Please visit their website at {www.qepHom.de:url:http://www.qepHom.de/} for more information.
+      <column name="notes">The {qepHom'a':n:nolink} is the annual Klingon Language meeting in Saarbrücken ({Sarbruqen:n}), Germany. Please visit their website at {www.qepHom.de:url:http://www.qepHom.de/} for more information.
 
 The official annual conference of the Klingon Language Institute is known as the {qep'a':n}, while other gatherings of Klingonists are known as {qepHommey:n:nolink}. The meeting in Saarbrücken, Germany, is the largest {qepHom:n:nolink} (and it sometimes even has more participants than the {qep'a':n:nolink}). For this reason, it is called {qepHom'a':n:nolink}. Its name contains an intentional ungrammaticality: two type 1 noun suffixes.</column>
-      <column name="notes_de">Das {qepHom'a':n:nolink} ist das jährlich stattfindende Klingonisch-Treffen in Saarbrücken, Deutschland. Siehe {www.qepHom.de:url:http://www.qepHom.de/} für mehr Informationen.
+      <column name="notes_de">Das {qepHom'a':n:nolink} ist das jährlich stattfindende Klingonisch-Treffen in Saarbrücken ({Sarbruqen:n}), Deutschland. Siehe {www.qepHom.de:url:http://www.qepHom.de/} für mehr Informationen.
 
 Die Hauptversammlung des Klingon Language Institute ist bekannt als {qep'a':n}, während all anderen kleineren Klingonisten-Treffen üblicherweise als {qepHommey:n:nolink} bekannt sind. Das Treffen in Saarbrücken ist das größte {qepHom:n:nolink} (und hat in der Regel mehr Teilnehmer als das {qep'a':n:nolink}). Aus diesem Grund wird es {qepHom'a':n:nolink} genannt. Dieser Name enthält einen beabsichtigten Fehler, denn er enthält zwei Nomensuffixe des Typ 1.</column>
       <column name="notes_fa"></column>
