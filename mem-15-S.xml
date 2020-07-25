@@ -119,6 +119,7 @@
       <column name="source">[1] {qep'a' 26 (2019):src}</column>
     </table>
     <table name="mem">
+      <!-- Maybe a reference to a Saab? -->
       <column name="_id"></column>
       <column name="entry_name">Sab</column>
       <column name="part_of_speech">v:i</column>
@@ -131,9 +132,8 @@
       <column name="definition_pt">declinar, deteriorar</column>
       <column name="synonyms">{'argh:v}</column>
       <column name="antonyms">{Dub:v}</column>
-      <column name="see_also">{Qop:v:1}, {ragh:v}</column>
+      <column name="see_also">{Qop:v:1}, {ragh:v}, {ngaw:v}</column>
       <column name="notes"></column>
-      <!-- Maybe a reference to a Saab? -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -4336,13 +4336,13 @@ The existence of the homophonous noun {Sev:n} may suggest that Klingons view the
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="notes">This is the amount of energy transferred or converted per unit time.</column>
+      <column name="notes_de">Dies ist die Menge an Energie, die pro Zeiteinheit übertragen oder umgewandelt wird. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این مقدار انرژی منتقل شده یا تبدیل شده در واحد زمان است. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är mängden energi som överförs eller konverteras per tidsenhet. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это количество энергии, переданной или преобразованной за единицу времени. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是每單位時間傳輸或轉換的能量。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Essa é a quantidade de energia transferida ou convertida por unidade de tempo. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -4426,7 +4426,7 @@ Some reference temperatures for the {SImyon:sen:nolink} scale (left) vs. Celsius
       <column name="definition_pt">bússola [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{lurgh:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -4482,7 +4482,7 @@ Some reference temperatures for the {SImyon:sen:nolink} scale (left) vs. Celsius
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">extinct</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -7081,7 +7081,7 @@ This word can also refer to the "club" suit in a deck of playing cards (see {Deg
       <column name="definition_pt">mãe</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{vav:n}, {SoSoy:n}, {'emrIgh:n}</column>
+      <column name="see_also">{vav:n}, {SoSoy:n}, {'emrIgh:n}, {qaytu':n}</column>
       <column name="notes">The siblings of a {SoS:n:nolink} are {me':n} and {'IrneH:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7791,7 +7791,7 @@ This verb is also used for the encryption of data.[3]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">The closest approximation to this is a stepbrother or stepsister, whose role is similar to that of a godparent.[2]</column>
+      <column name="notes">The closest approximation to this is a kind of stepbrother or stepsister, whose role is similar to that of a godparent. The role is bestowed on a family friend who would care for a child if their parents were incapacitated.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -9687,7 +9687,7 @@ This can also be used for blowing out a candle ({weQ:n}). Unlike with {jo':v}, a
       <column name="definition_pt">qubit (bit quântico) [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{San'on:n}</column>
+      <column name="see_also">{San'on:n}, {mergh:v}</column>
       <column name="notes">Sometimes {SuyDar San'on:n@@SuyDar:n, San'on:n} is also used.</column>
       <column name="notes_de">Manchmal wird auch {SuyDar San'on:n@@SuyDar:n, San'on:n} verwendet. [AUTOTRANSLATED]</column>
       <column name="notes_fa">گاهی اوقات از {SuyDar San'on:n@@SuyDar:n, San'on:n} نیز استفاده می شود. [AUTOTRANSLATED]</column>

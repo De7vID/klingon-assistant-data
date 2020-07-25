@@ -533,7 +533,7 @@
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The request was for a musteloid (otter-like or wolver-like animal).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -542,7 +542,7 @@
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">otter, wolverine, musteloid</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -603,7 +603,7 @@
       <column name="definition_pt">seja poroso [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{bum:v}, {betgham:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -724,15 +724,9 @@
       <column name="notes">This is a wound or sore with at least some abrasion, not just a bruise.[1] For the plural, {-mey:n} is used even if the scab is still attached.</column>
       <column name="notes_de">Dies ist eine Wunde oder Wunde mit mindestens etwas Abrieb, nicht nur ein Bluterguss. [1] Für den Plural wird {-mey:n} verwendet, auch wenn der Schorf noch anhaftet. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta är ett sår eller öm med åtminstone en del nötning, inte bara ett blåmärke. [1] För flertalet används {-mey:n} även om skurven fortfarande är fäst. [AUTOTRANSLATED]</column>
-<!-- ERROR: Missing link #1. -->
-<!-- ERROR: Missing link #2. -->
-      <column name="notes_ru">Это рана или рана, по крайней мере, с некоторым истиранием, а не просто ушибом.[1]{-mey:n} [AUTOTRANSLATED]</column>
-<!-- ERROR: Missing link #1. -->
-<!-- ERROR: Missing link #2. -->
-      <column name="notes_zh_HK">這是至少有一些磨損的傷口或瘡，而不僅僅是瘀傷。[1]{-mey:n} [AUTOTRANSLATED]</column>
-<!-- ERROR: Missing link #1. -->
-<!-- ERROR: Missing link #2. -->
-      <column name="notes_pt">Trata-se de uma ferida ou ferida com pelo menos alguma abrasão, não apenas uma contusão.[1]{-mey:n} [AUTOTRANSLATED]</column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
       <column name="hidden_notes">This was defined as "wound, sore" at {qep'a' 25 (2018):src} and expanded to include "scab" at {qep'a' 27 (2020):src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -754,7 +748,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hampun</column>
-      <column name="part_of_speech">v:i,slang</column>
+      <column name="part_of_speech">v:i,deriv,slang</column>
       <column name="definition">yodel</column>
       <column name="definition_de">jodeln [AUTOTRANSLATED]</column>
       <column name="definition_fa">یدل [AUTOTRANSLATED]</column>
@@ -764,7 +758,7 @@
       <column name="definition_pt">yodel [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{Ham:v}, {pun:v}, {bom:v}</column>
       <column name="notes">This is a two-syllable verb, and it's slang.</column>
       <column name="notes_de">Dies ist ein zweisilbiges Verb und es ist Slang. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این یک فعل دو هجا است و زبان عامیانه است. [AUTOTRANSLATED]</column>
@@ -773,7 +767,7 @@
       <column name="notes_zh_HK">這是一個兩個音節的動詞，它是語。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é um verbo de duas sílabas e é uma gíria. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{Ham:v}, {pun:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -1390,13 +1384,13 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="notes">This refers to something like a medical condition that affects someone mentally or physically.</column>
+      <column name="notes_de">Dies bezieht sich auf so etwas wie eine Krankheit, die jemanden geistig oder körperlich betrifft. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این به چیزی مثل یک وضعیت پزشکی مربوط می شود که از نظر روحی یا جسمی به کسی مبتلا می شود. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta avser något som ett medicinskt tillstånd som påverkar någon mentalt eller fysiskt. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это относится к состоянию здоровья, которое влияет на человека психически или физически. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這指的是諸如醫療狀況之類的東西，會在心理上或身體上影響某人。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso se refere a algo como uma condição médica que afeta alguém mentalmente ou fisicamente. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3758,7 +3752,7 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
       <column name="definition_pt">medicamento</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{vor:v}, {Qel:n:1h}, {tar:n}, {ngej:v}, {Sev:n}, {Hergh QaywI':n}</column>
+      <column name="see_also">{vor:v}, {Qel:n:1h}, {tar:n}, {ngej:v}, {Sev:n}, {Hergh QaywI':n}, {'enteD:n}, {'enteD:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -4951,7 +4945,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/KArQlviVXMk}</column>
       <column name="definition_pt">licor, cerveja, vinho, cerveja ale</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qegh:n}, {chech:v}, {'uH:v}</column>
+      <column name="see_also">{qegh:n}, {chech:v}, {'uH:v}, {pIchSIv:n}, {'enteD:n}</column>
       <column name="notes">Types of {HIq:n} include {baqghol:n}, {chechtlhutlh:n}, and {wornagh:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa">انواع {HIq:n} شامل {baqghol:n} ، {chechtlhutlh:n} و {wornagh:n} است. [AUTOTRANSLATED]</column>
@@ -6549,7 +6543,7 @@ If an alien calendar contains more than six days, additional days are numbered b
       <column name="definition_pt">adolescente, adolescente, adolescente, juventude, adulto jovem [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{puq:n}, {nen:v}</column>
       <column name="notes">A slang term for this is {yaD:n:3}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -6986,14 +6980,14 @@ The identifier is usually a country, region, or political unit of some kind. For
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This refers to a type of dense, non-vascular tissue, usually found at the end of joints, the rib cage, the ear, the nose, and between intervertebral disks. It is an ingredient of {ngat:n:2}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">It's not clear if {HomHap:n:nolink} exists as an independent word.</column>
       <column name="components">{Hom:n:1}, {Hap:n}, {tun:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8022,14 +8016,14 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="definition_pt">basalto [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="see_also">{nagh:n}, {lIvrI':n}</column>
+      <column name="notes">This refers to a type of hard igneous rock, which is very common in oceanic crust.</column>
+      <column name="notes_de">Dies bezieht sich auf eine Art hartes magmatisches Gestein, das in der ozeanischen Kruste sehr häufig vorkommt. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این به نوعی سنگ آذرین سخت اشاره دارد که در پوسته اقیانوس بسیار رایج است. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta hänvisar till en typ av hårt, stollande berg, som är mycket vanligt i havskorpan. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это относится к типу твердых магматических пород, которые очень распространены в океанической коре. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是指一種堅硬的火成岩，在大洋地殼中非常常見。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso se refere a um tipo de rocha ígnea dura, muito comum na crosta oceânica. [AUTOTRANSLATED]</column>
       <column name="hidden_notes">Basalt comes from an ancient Greek word meaning "touchstone" ({Hot:v} + {nagh:n}).</column>
       <column name="components"></column>
       <column name="examples"></column>

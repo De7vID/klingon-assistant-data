@@ -609,13 +609,13 @@ When connecting multiple sentences, only the final conjunction is needed. See th
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This comes at the beginning of a sentence. This is the full form. In everyday conversation, {'ej:conj} and/or {De':} (and even {vI-:v:pref}) are often omitted. Klingon grammarians argue about whether the resulting {De'chel:adv} should be considered an adverbial in its own right.</column>
-      <column name="notes_de">Dies kommt am Anfang eines Satzes. Dies ist die vollständige Form. Im alltäglichen Gespräch werden {'ej:conj} und / oder {De':} (und sogar {vI-:v:pref}) häufig weggelassen. Klingonische Grammatiker streiten darüber, ob das resultierende {De'chel:adv} als eigenständiges Adverbial betrachtet werden sollte. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این در ابتدای یک جمله می آید. این فرم کامل است. در مکالمه روزمره ، {'ej:conj} و / یا {De':} (و حتی {vI-:v:pref}) غالبا حذف می شوند. گرامرهای کلینگون در مورد اینکه آیا نتیجه گیری {De'chel:adv} نتیجه گرفته باید در نوع خودش یک قید تلقی شود ، استدلال می کنند. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta kommer i början av en mening. Detta är den fullständiga formen. I vardagliga konversationer utelämnas ofta {'ej:conj} och / eller {De':} (och till och med {vI-:v:pref}). Klingons grammatikare argumenterar om huruvida den resulterande {De'chel:adv} bör betraktas som ett adverbial i sig. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это приходит в начале предложения. Это полная форма. В повседневной беседе {'ej:conj} и / или {De':} (и даже {vI-:v:pref}) часто опускаются. Клингонские грамматики спорят о том, следует ли считать получившийся в результате {De'chel:adv} наречным по своей сути. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這是在句子的開頭。這是完整表格。在日常對話中，通常會忽略{'ej:conj}和/或{De':}（甚至{vI-:v:pref}）。克林貢語語法學家爭論是否應將產生的{De'chel:adv}本身視為副詞。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Isso vem no início de uma frase. Este é o formulário completo. Na conversa cotidiana, {'ej:conj} e / ou {De':} (e até {vI-:v:pref}) são frequentemente omitidos. Os gramáticos de Klingon discutem se o {De'chel:adv} resultante deve ser considerado um adverbial por si só. [AUTOTRANSLATED]</column>
+      <column name="notes">This comes at the beginning of a sentence. This is the full form. In everyday conversation, {'ej:conj} and/or {De':n} (and even {vI-:v:pref}) are often omitted. Klingon grammarians argue about whether the resulting {De'chel:adv} should be considered an adverbial in its own right.</column>
+      <column name="notes_de">Dies kommt am Anfang eines Satzes. Dies ist die vollständige Form. Im alltäglichen Gespräch werden {'ej:conj} und / oder {De':n} (und sogar {vI-:v:pref}) häufig weggelassen. Klingonische Grammatiker streiten darüber, ob das resultierende {De'chel:adv} als eigenständiges Adverbial betrachtet werden sollte. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این در ابتدای یک جمله می آید. این فرم کامل است. در مکالمه روزمره ، {'ej:conj} و / یا {De':n} (و حتی {vI-:v:pref}) غالبا حذف می شوند. گرامرهای کلینگون در مورد اینکه آیا نتیجه گیری {De'chel:adv} نتیجه گرفته باید در نوع خودش یک قید تلقی شود ، استدلال می کنند. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta kommer i början av en mening. Detta är den fullständiga formen. I vardagliga konversationer utelämnas ofta {'ej:conj} och / eller {De':n} (och till och med {vI-:v:pref}). Klingons grammatikare argumenterar om huruvida den resulterande {De'chel:adv} bör betraktas som ett adverbial i sig. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это приходит в начале предложения. Это полная форма. В повседневной беседе {'ej:conj} и / или {De':n} (и даже {vI-:v:pref}) часто опускаются. Клингонские грамматики спорят о том, следует ли считать получившийся в результате {De'chel:adv} наречным по своей сути. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是在句子的開頭。這是完整表格。在日常對話中，通常會忽略{'ej:conj}和/或{De':n}（甚至{vI-:v:pref}）。克林貢語語法學家爭論是否應將產生的{De'chel:adv}本身視為副詞。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso vem no início de uma frase. Este é o formulário completo. Na conversa cotidiana, {'ej:conj} e / ou {De':n} (e até {vI-:v:pref}) são frequentemente omitidos. Os gramáticos de Klingon discutem se o {De'chel:adv} resultante deve ser considerado um adverbial por si só. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -742,7 +742,7 @@ When connecting multiple sentences, only the final conjunction is needed. See th
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">tumour</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -1405,14 +1405,14 @@ It takes the suffix {-Du':n} even when used metaphorically.[2]</column>
       <column name="definition_pt">medicamento [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{Hergh:n}, {HIq:n}</column>
       <column name="notes">Most {'enteDmey:n@@'enteD:n, -mey:n} are used ritualistically, but recreational use is not unheard of (as with alcohol).</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="notes_de">Die meisten {'enteDmey:n@@'enteD:n, -mey:n} werden rituell verwendet, aber der Freizeitgebrauch ist nicht ungewöhnlich (wie bei Alkohol). [AUTOTRANSLATED]</column>
+      <column name="notes_fa">بیشتر {'enteDmey:n@@'enteD:n, -mey:n} بصورت آیینی استفاده می شود ، اما استفاده تفریحی از آن غافل نیست (مانند الکل). [AUTOTRANSLATED]</column>
+      <column name="notes_sv">De flesta {'enteDmey:n@@'enteD:n, -mey:n} används ritualistiskt, men fritidsanvändning är inte ovanligt (som med alkohol). [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Большинство {'enteDmey:n@@'enteD:n, -mey:n} используются ритуально, но для рекреационного использования не является неслыханным (как с алкоголем). [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">多數{'enteDmey:n@@'enteD:n, -mey:n}都在儀式上使用，但娛樂用途並不是聞所未聞的（與酒精一樣）。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">A maioria do {'enteDmey:n@@'enteD:n, -mey:n} é usada ritualisticamente, mas o uso recreativo não é inédito (como no álcool). [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1737,7 +1737,7 @@ It takes the suffix {-Du':n} even when used metaphorically.[2]</column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">plum, apricot</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -2036,7 +2036,7 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="definition_pt">telepatia [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{tova'Daq:n}, {relleghDaq:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -2102,8 +2102,8 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="source">[1] {HQ 12.2, Jun. 2003:src}</column>
     </table>
     <table name="mem">
-      <column name="_id"></column>
       <!-- "High and Low" is a famous lithograph by M.C. Escher, and an Akira Kurosawa film distributed by Janus ({jen:v} + {'eS:v}?) films. -->
+      <column name="_id"></column>
       <column name="entry_name">'eS</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be low</column>
@@ -2193,7 +2193,7 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="definition_pt">orvalho [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{po:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>

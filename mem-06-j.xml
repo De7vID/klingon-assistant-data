@@ -3397,15 +3397,15 @@ Note that {jemS:n:nolink} and {qIrq:n:nolink} do not follow proper Klingon phono
       <column name="definition_pt">espasmo [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{ghan'ach:n}</column>
       <column name="notes">To cause something to spasm is {jerghmoH:v@@jergh:v, -moH:v}.</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
+      <column name="notes_de">Etwas zu verkrampfen ist {jerghmoH:v@@jergh:v, -moH:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">برای ایجاد اسپاسم ، {jerghmoH:v@@jergh:v, -moH:v} است. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Att få något att krascha är {jerghmoH:v@@jergh:v, -moH:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Причинять что-то к спазму {jerghmoH:v@@jergh:v, -moH:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">引起痙攣的是{jerghmoH:v@@jergh:v, -moH:v}。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Causar algo a espasmo é {jerghmoH:v@@jergh:v, -moH:v}. [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">"Jerk".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3960,14 +3960,14 @@ This verb is used in Sonnet 116, where its explicit subject is {muD:n:nolink}.[2
       <column name="definition_pt">balcão, bancada [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="see_also">{raS:n}</column>
+      <column name="notes">This is a work space attached to the wall.</column>
+      <column name="notes_de">Dies ist ein an der Wand befestigter Arbeitsbereich. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این یک فضای کار متصل به دیوار است. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är ett arbetsutrymme fäst på väggen. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это рабочее место, прикрепленное к стене. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是附著在牆上的工作空間。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Este é um espaço de trabalho preso à parede. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -4038,7 +4038,7 @@ This verb is used in Sonnet 116, where its explicit subject is {muD:n:nolink}.[2
       <column name="definition_pt">cabelo (na cabeça)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chIp:v}, {SIrgh:n}, {veD:n}, {qur'ep:n}</column>
+      <column name="see_also">{chIp:v}, {SIrgh:n}, {veD:n}, {qur'ep:n}, {wan:v}, {tIy:v}</column>
       <column name="notes">This refers only to hair on the top of the head, and not to facial hair (see {rol:n} and {loch:n}) or body hair (see {pob:n}).</column>
       <column name="notes_de"></column>
       <column name="notes_fa">این فقط مربوط به موهای بالای سر است ، و نه موهای صورت (به {rol:n} و {loch:n}) یا موهای بدن (مراجعه کنید به {pob:n}). [AUTOTRANSLATED]</column>
@@ -5020,7 +5020,7 @@ To express a wish for something to happen, see {-jaj:v}.</column>
       <column name="definition_pt">manivela [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{QaplaStep:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7323,7 +7323,7 @@ Além disso, é usado para expressar o conceito de revezamento.[2] [AUTOTRANSLAT
       <column name="definition_pt">cratera [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{chunDab:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -8210,7 +8210,14 @@ If {-Daq:n} is used, it implies a miss: air was blown towards the object, but by
       <column name="notes_pt"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples">{yIjuntaH!:sen}</column>
+      <column name="examples">
+▶ {yIjuntaH!:sen}
+▶ {pa' bIQam bIHIvDI':sen:nolink}
+   {QIncha' Darur qu' 'ej run:sen:nolink}
+   {Qobbogh may' nI' jun:sen:nolink}
+  "You stood there, you attack
+   Like a krencha, short and fierce,
+   Avoiding long and dangerous battle."[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -8224,7 +8231,7 @@ If {-Daq:n} is used, it implies a miss: air was blown towards the object, but by
       <column name="search_tags_ru">избегать</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh p.158-159:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
