@@ -326,7 +326,7 @@ The title of the book may be a reference to the Twilight Zone episode "To Serve 
       <column name="definition_pt">jogar ao redor, arremessar</column>
       <column name="synonyms"></column>
       <column name="antonyms">{tlhur:v}</column>
-      <column name="see_also">{vo':v}, {woD:v}</column>
+      <column name="see_also">{vo':v}, {woD:v:1}</column>
       <column name="notes">This means to throw or hurl something like a projectile.[1, p.91]
 
 To juggle, that is, to throw objects into the air and catch them in a rhythmic pattern, is {jaDchu':v}.[2]</column>
@@ -968,7 +968,7 @@ For "days ago" and "days from now", see {Hu':n} and {leS:n}, respectively.</colu
       <column name="definition_pt">imaginar, prever</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Qub:v}, {'Ir:v}</column>
+      <column name="see_also">{Qub:v}, {'Ir:v:1}</column>
       <column name="notes">For a counterfactual (or "irrealis") statement, the phrase {... net jalchugh:sen:nolink} "if one imagines that...", "if it is imagined that..." is used.[2]</column>
       <column name="notes_de">Für eine kontrafaktische (oder "irrealis") Aussage wird der Ausdruck {... net jalchugh:sen:nolink} "wenn man sich das vorstellt ...", "wenn man sich das vorstellt ..." verwendet.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fa">برای یک عبارت ضد واقعیت (یا "غیر واقعی") از عبارت {... net jalchugh:sen:nolink} "اگر کسی تصور کند که ..." ، "اگر تصور شود که ..." استفاده می شود.[2] [AUTOTRANSLATED]</column>
@@ -1076,45 +1076,6 @@ For "days ago" and "days from now", see {Hu':n} and {leS:n}, respectively.</colu
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {KGT:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">jan qalI'qoS</column>
-      <column name="part_of_speech">n:name</column>
-      <column name="definition">John Colicos</column>
-      <column name="definition_de">John Colicos</column>
-      <column name="definition_fa">جان کالیکوس</column>
-      <column name="definition_sv">John Colicos</column>
-      <column name="definition_ru">Джон Коликос</column>
-      <column name="definition_zh_HK">約翰·科利科斯</column>
-      <column name="definition_pt">John Colicos</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{qolqoS:n}</column>
-      <column name="notes">This is the name of the actor who played Kor (see {qor:n:name}).</column>
-      <column name="notes_de">Dies ist der Name des Schauspielers, der Kor gespielt hat (siehe {qor:n:name}). [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این نام بازیگرانی است که Kor را بازی کرده است (به {qor:n:name} مراجعه کنید). [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är namnet på skådespelaren som spelade Kor (se {qor:n:name}). [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Имя актёра, который играл Кора (смотрите {qor:n:name}).</column>
-      <column name="notes_zh_HK">這是扮演Kor的演員的名字（請參閱{qor:n:name}）。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Este é o nome do ator que interpretou Kor (consulte {qor:n:name}). [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="source">[1] {STC 104:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3425,6 +3386,45 @@ Note that {jemS:n:nolink} and {qIrq:n:nolink} do not follow proper Klingon phono
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">jergh</column>
+      <column name="part_of_speech">v:i_c</column>
+      <column name="definition">spasm</column>
+      <column name="definition_de">Krampf [AUTOTRANSLATED]</column>
+      <column name="definition_fa">اسپاسم [AUTOTRANSLATED]</column>
+      <column name="definition_sv">spasm [AUTOTRANSLATED]</column>
+      <column name="definition_ru">спазм [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">痙攣 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">espasmo [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{ghan'ach:n}</column>
+      <column name="notes">To cause something to spasm is {jerghmoH:v@@jergh:v, -moH:v}.</column>
+      <column name="notes_de">Etwas zu verkrampfen ist {jerghmoH:v@@jergh:v, -moH:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">برای ایجاد اسپاسم ، {jerghmoH:v@@jergh:v, -moH:v} است. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Att få något att krascha är {jerghmoH:v@@jergh:v, -moH:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Причинять что-то к спазму {jerghmoH:v@@jergh:v, -moH:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">引起痙攣的是{jerghmoH:v@@jergh:v, -moH:v}。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Causar algo a espasmo é {jerghmoH:v@@jergh:v, -moH:v}. [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">"Jerk".</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 27 (2020):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">jeS</column>
       <column name="part_of_speech">v:i_c</column>
       <column name="definition">participate</column>
@@ -3947,6 +3947,46 @@ This verb is used in Sonnet 116, where its explicit subject is {muD:n:nolink}.[2
       <column name="source">[1] {TKD:src}, [2] {TKW:src}</column>
     </table>
     <table name="mem">
+      <!-- This was defined as "counter / workbench", but only because the request for it was written that way. -->
+      <column name="_id"></column>
+      <column name="entry_name">je'ton</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">counter, workbench</column>
+      <column name="definition_de">Theke, Werkbank [AUTOTRANSLATED]</column>
+      <column name="definition_fa">پیشخوان ، میز کار [AUTOTRANSLATED]</column>
+      <column name="definition_sv">räknare, arbetsbänk [AUTOTRANSLATED]</column>
+      <column name="definition_ru">счетчик, верстак [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">櫃檯，工作台 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">balcão, bancada [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{raS:n}</column>
+      <column name="notes">This is a work space attached to the wall.</column>
+      <column name="notes_de">Dies ist ein an der Wand befestigter Arbeitsbereich. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این یک فضای کار متصل به دیوار است. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är ett arbetsutrymme fäst på väggen. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это рабочее место, прикрепленное к стене. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是附著在牆上的工作空間。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Este é um espaço de trabalho preso à parede. [AUTOTRANSLATED]</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 27 (2020):src}</column>
+    </table>
+    <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jI-</column>
       <column name="part_of_speech">v:pref</column>
@@ -3998,7 +4038,7 @@ This verb is used in Sonnet 116, where its explicit subject is {muD:n:nolink}.[2
       <column name="definition_pt">cabelo (na cabeça)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chIp:v}, {SIrgh:n}, {veD:n}, {qur'ep:n}</column>
+      <column name="see_also">{chIp:v}, {SIrgh:n}, {veD:n}, {qur'ep:n}, {wan:v}, {tIy:v}</column>
       <column name="notes">This refers only to hair on the top of the head, and not to facial hair (see {rol:n} and {loch:n}) or body hair (see {pob:n}).</column>
       <column name="notes_de"></column>
       <column name="notes_fa">این فقط مربوط به موهای بالای سر است ، و نه موهای صورت (به {rol:n} و {loch:n}) یا موهای بدن (مراجعه کنید به {pob:n}). [AUTOTRANSLATED]</column>
@@ -4696,6 +4736,45 @@ To express a wish for something to happen, see {-jaj:v}.</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">jInay'</column>
+      <column name="part_of_speech">n:place</column>
+      <column name="definition">J'naii (planet)</column>
+      <column name="definition_de">J'naii (Planet) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">جنایی (سیاره) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">J'naii (planet) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">J'naii (планета) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">吉奈（行星） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">J'naii (planeta) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes">Presumably, a J'naii (a member of the humanoid species native to the planet) would be a {jInay'ngan:n@@jInay':n, ngan:n}, but this was not stated.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 27 (2020):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">jInjoq</column>
       <column name="part_of_speech">n:food</column>
       <column name="definition">type of bread</column>
@@ -4863,7 +4942,7 @@ To express a wish for something to happen, see {-jaj:v}.</column>
       <column name="definition_pt">girar, rodopiar</column>
       <column name="synonyms">{DIng:v}</column>
       <column name="antonyms"></column>
-      <column name="see_also">{jIrmoH:v}, {jIr:excl}</column>
+      <column name="see_also">{jIrmoH:v:1}, {jIr:excl}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -4871,7 +4950,7 @@ To express a wish for something to happen, see {-jaj:v}.</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes">MO confirmed at {Saarbrücken qepHom'a' 2011:src} that {jIr:v:nolink} is intransitive. (This was already known from the existence of {jIrmoH:v:nolink}.)</column>
+      <column name="hidden_notes">MO confirmed at {Saarbrücken qepHom'a' 2011:src} that {jIr:v:nolink} is intransitive. (This was already known from the existence of {jIrmoH:v:1,nolink}.)</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4892,7 +4971,7 @@ To express a wish for something to happen, see {-jaj:v}.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jIrmoH</column>
-      <column name="part_of_speech">v:t_c,deriv</column>
+      <column name="part_of_speech">v:1,t_c,deriv</column>
       <column name="definition">twirl bat'leth, cause bat'leth to rotate</column>
       <column name="definition_de">Bat'leth (herum)wirbeln</column>
       <column name="definition_fa">چرخش بته، باعث می شود بطول به چرخش [AUTOTRANSLATED]</column>
@@ -4927,6 +5006,45 @@ To express a wish for something to happen, see {-jaj:v}.</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">jIrmoH</column>
+      <column name="part_of_speech">v:2,t_c,deriv</column>
+      <column name="definition">crank</column>
+      <column name="definition_de">Kurbel [AUTOTRANSLATED]</column>
+      <column name="definition_fa">میل لنگ [AUTOTRANSLATED]</column>
+      <column name="definition_sv">vev [AUTOTRANSLATED]</column>
+      <column name="definition_ru">кривошип [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">曲柄 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">manivela [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{QaplaStep:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{jIr:v}, {-moH:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <!-- Reported by Zrajm, on Facebook: https://www.facebook.com/zrajm/posts/10154361398897846 -->
@@ -5322,6 +5440,45 @@ The first half of the example sentence was a lip-match for the beginning of {'ej
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {TKD p.170:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">jIyeStaS</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">inflammation</column>
+      <column name="definition_de">Entzündung [AUTOTRANSLATED]</column>
+      <column name="definition_fa">التهاب [AUTOTRANSLATED]</column>
+      <column name="definition_sv">inflammation [AUTOTRANSLATED]</column>
+      <column name="definition_ru">воспаление [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">炎 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">inflamação [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tlhaw:v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6092,13 +6249,13 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="synonyms"></column>
       <column name="antonyms">{jonHa':v}</column>
       <column name="see_also">{nargh:v:2}, {bIghHa':n}, {tlhur:v}</column>
-      <column name="notes">This verb is used colloquially with {'eb:n} to express the idea of "seizing an opportunity".[2]</column>
-      <column name="notes_de">Dieses Verb wird umgangssprachlich mit {'eb:n} verwendet, um die Idee des "Ergreifens einer Gelegenheit" auszudrücken .[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru">Глагол используется в просторечии с {'eb:n} чтобы выразить идею "использования подвернувшейся возможности".[2]</column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="notes">This verb is used colloquially with {'eb:n} to express the idea of "seizing an opportunity".[2] It can be used for fishing (in addition to hunting).[3]</column>
+      <column name="notes_de">Dieses Verb wird umgangssprachlich mit {'eb:n} verwendet, um die Idee des "Ergreifens einer Gelegenheit" auszudrücken .[2] Es kann zum Angeln (zusätzlich zur Jagd) verwendet werden .[3] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این فعل به صورت محاوره ای با {'eb:n} برای بیان ایده "گرفتن فرصت" استفاده می شود .[2] می توان برای ماهیگیری (علاوه بر شکار) استفاده کرد.[3] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta verb används i samverkan med {'eb:n} för att uttrycka idén att "gripa en möjlighet". [2] Det kan användas för fiske (förutom jakt) .[3] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Глагол используется в просторечии с {'eb:n} чтобы выразить идею "использования подвернувшейся возможности".[2] Он может использоваться для рыбалки (в дополнение к охоте) .[3] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">該動詞與{'eb:n}口語化地表達了“抓住機會”的概念。[2]可以用於釣魚（除了狩獵）。[3] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Este verbo é usado coloquialmente com {'eb:n} para expressar a idéia de "aproveitar uma oportunidade" .[2] Ele pode ser usado para pescar (além de caçar) .[3] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -6118,7 +6275,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKD:src}, [2] {s.e 1998.01.18:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {s.e 1998.01.18:src}, [3] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6446,31 +6603,47 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="definition_pt">estocada, impulso</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{baQ:v:1}, {way':v}, {chaQ:v}, {ngol:v}, {lev:v}, {DIj:v:1}, {jIrmoH:v}</column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="see_also">{baQ:v:1}, {way':v}, {chaQ:v}, {ngol:v}, {lev:v}, {DIj:v:1}, {jIrmoH:v:1}</column>
+      <column name="notes">This is used also for arguments (see {jop 'ej way':sen}).
+
+Furthermore, it's used to express the concept of taking turns.[2]</column>
+      <column name="notes_de">Dies wird auch für Argumente verwendet (siehe {jop 'ej way':sen}).
+
+Darüber hinaus wird es verwendet, um das Konzept der Abwechslung auszudrücken. [2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این همچنین برای استدلال ها استفاده می شود (به {jop 'ej way':sen} مراجعه کنید)
+
+. علاوه بر این ، از آن برای بیان مفهوم گردش استفاده می شود. [2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta används också för argument (se {jop 'ej way':sen}).
+
+Dessutom används det för att uttrycka konceptet att ta turns.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это также используется для аргументов (см. {jop 'ej way':sen}).
+
+Кроме того, он используется для выражения концепции принятия поворотов. [2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這也用於參數（請參閱{jop 'ej way':sen}）。
+
+此外，它還用於表達轉彎的概念。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso também é usado para argumentos (consulte {jop 'ej way':sen}).
+
+Além disso, é usado para expressar o conceito de revezamento.[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {jopDI' 'ovwI' veb, 'echletHom tlhap:sen@@jop:v:1, -DI':v, 'ov:v, -wI':v, veb:v, 'echletHom:n, tlhap:v} "When the next player takes his/her turn, he/she takes a card"[2]
+▶ {ngop yISay'moH! yIjop!:sen@@ngop:n, yI-:v, Say':v, -moH:v, yI-:v, jop:v:1} "Clean the plates! It's your turn!"[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">turn</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {KGT:src}</column>
+      <column name="source">[1] {KGT:src}, [2] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7139,6 +7312,45 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">joSraD</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">crater</column>
+      <column name="definition_de">Krater [AUTOTRANSLATED]</column>
+      <column name="definition_fa">دهانه [AUTOTRANSLATED]</column>
+      <column name="definition_sv">krater [AUTOTRANSLATED]</column>
+      <column name="definition_ru">кратер [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">火山口 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">cratera [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{chunDab:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 27 (2020):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">jot</column>
       <column name="part_of_speech">v:1,is</column>
       <column name="definition">be calm</column>
@@ -7674,10 +7886,10 @@ If {-Daq:n} is used, it implies a miss: air was blown towards the object, but by
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'uj:n}, {lang:v}, {pI':v}, {ror:v}, {vaS:v}, {'ab:v}, {'aD:v}, {Saw':v}, {juv:v}, {men:v}</column>
-      <column name="notes">For measuring a flat object such as a tabletop, {juch:v:nolink} and {'aD:v} are used for the two dimensions.[1]</column>
+      <column name="notes">For measuring a flat object such as a tabletop, {juch:v:nolink} and {'aD:v} are used for the two dimensions.[1] For a circle, this measures the diameter.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
-      <column name="notes_sv">För mätning av ett plant föremål såsom en bordsskiva används {juch:v:nolink} och {'aD:v} för de två dimensionerna.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
@@ -7690,14 +7902,14 @@ If {-Daq:n} is used, it implies a miss: air was blown towards the object, but by
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="search_tags">wide</column>
+      <column name="search_tags">wide, diameter</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {msn 1997.10.22:src}</column>
+      <column name="source">[1] {msn 1997.10.22:src}, [2] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7998,7 +8210,14 @@ If {-Daq:n} is used, it implies a miss: air was blown towards the object, but by
       <column name="notes_pt"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples">{yIjuntaH!:sen}</column>
+      <column name="examples">
+▶ {yIjuntaH!:sen}
+▶ {pa' bIQam bIHIvDI':sen:nolink}
+   {QIncha' Darur qu' 'ej run:sen:nolink}
+   {Qobbogh may' nI' jun:sen:nolink}
+  "You stood there, you attack
+   Like a krencha, short and fierce,
+   Avoiding long and dangerous battle."[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -8012,7 +8231,7 @@ If {-Daq:n} is used, it implies a miss: air was blown towards the object, but by
       <column name="search_tags_ru">избегать</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh p.158-159:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

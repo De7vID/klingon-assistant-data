@@ -639,7 +639,7 @@
       <column name="definition_pt">rocha, pedra, material cerâmico</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'an:v:2}, {Hew:n}, {De'lor:n}</column>
+      <column name="see_also">{'an:v:2}, {Hew:n}, {De'lor:n}, {Hotnagh:n}, {lIvrI':n}, {mISjennegh:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1189,7 +1189,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="definition_pt">sonhar</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Qong:v}</column>
+      <column name="see_also">{Qong:v}, {robwIl:n}</column>
       <column name="notes">This verb can take the content or subject matter of a dream as an object.[2]</column>
       <column name="notes_de">Dieses Verb kann den Inhalt oder Gegenstand eines Traums als Objekt nehmen.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fa">این فعل می تواند محتوا یا موضوع یک رویا را به عنوان یک شیء در نظر بگیرد.[2] [AUTOTRANSLATED]</column>
@@ -1197,7 +1197,7 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="notes_ru">Этот глагол может принимать содержимое или объект мечтания в качестве объекта.[2]</column>
       <column name="notes_zh_HK">這個動詞可以將夢的內容或主題作為對象。[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esse verbo pode levar o conteúdo ou o assunto de um sonho como um objeto.[2] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">The nouns {Suchtuv:n:hyp} and {luvnup:n:hyp} and the verb {'ergh:v:hyp} were rumoured to have been revealed at {qep'a' 26 (2019):src}, but have not been officially confirmed.</column>
+      <column name="hidden_notes">The nouns {Suchtuv:n:hyp} and {luvnup:n:hyp} and the verb {'ergh:v} were rumoured to have been revealed at {qep'a' 26 (2019):src}. The first two have not been officially confirmed, while {'ergh:v:nolink} was confirmed at {qep'a' 27 (2020):src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -1268,13 +1268,13 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">It seems that this word is composed of {nal:n:hyp}, a component found also in {loDnal:n} and {be'nal:n}, and {qaD:n}.</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv">Det verkar som om detta ord består av {nal:n:hyp}, en komponent som också finns i {loDnal:n} och {be'nal:n} och {qaD:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt">Parece que esta palavra é composta por {nal:n:hyp}, um componente encontrado também em {loDnal:n} e {be'nal:n} e {qaD:n}. [AUTOTRANSLATED]</column>
+      <column name="notes">It seems that this word is composed of {nal:n:hyp} (a component found also in {loDnal:n}, {be'nal:n}, and {'Ipnal:n}) and {qaD:n}.</column>
+      <column name="notes_de">Es scheint, dass dieses Wort aus {nal:n:hyp} (eine Komponente, die auch in {loDnal:n}, {be'nal:n} und {'Ipnal:n} enthalten ist) und {qaD:n} besteht. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">به نظر می رسد این کلمه از {nal:n:hyp} (یک مؤلفه موجود در {loDnal:n} ، {be'nal:n} و {'Ipnal:n}) تشکیل شده است و {qaD:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Det verkar som om detta ord består av {nal:n:hyp} (en komponent som också finns i {loDnal:n}, {be'nal:n} och {'Ipnal:n}) och {qaD:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Кажется, что это слово состоит из {nal:n:hyp} (компонент, также найденный в {loDnal:n}, {be'nal:n} и {'Ipnal:n}) и {qaD:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">看來這個詞是由{nal:n:hyp}（也在{loDnal:n}，{be'nal:n}和{'Ipnal:n}中找到的組件）和{qaD:n}組成的。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Parece que essa palavra é composta por {nal:n:hyp} (um componente encontrado também em {loDnal:n}, {be'nal:n} e {'Ipnal:n}) e {qaD:n}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components">{nal:n:hyp}, {qaD:n}</column>
       <column name="examples"></column>
@@ -1292,6 +1292,45 @@ Do not confuse this word with {naQjej:n}.</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">namchIl</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">chlorophyll</column>
+      <column name="definition_de">Chlorophyll [AUTOTRANSLATED]</column>
+      <column name="definition_fa">کلروفیل [AUTOTRANSLATED]</column>
+      <column name="definition_sv">klorofyll [AUTOTRANSLATED]</column>
+      <column name="definition_ru">хлорофилл [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">葉綠素 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">clorofila [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{monQIv:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -1887,6 +1926,45 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {qep'a' 24 (2017):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">nar</column>
+      <column name="part_of_speech">v:i</column>
+      <column name="definition">reflect</column>
+      <column name="definition_de">reflektieren [AUTOTRANSLATED]</column>
+      <column name="definition_fa">بازتاب [AUTOTRANSLATED]</column>
+      <column name="definition_sv">reflektera [AUTOTRANSLATED]</column>
+      <column name="definition_ru">отражать [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">反映 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">refletir [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is the mirror-image/reverse-image sense of "reflect"; compare {'et:v}.</column>
+      <column name="notes_de">Dies ist der Spiegelbild-/Umkehrbildsinn von "reflektieren"; Vergleiche {'et:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این حس آینه-تصویر/تصویر معکوس از "بازتاب" است. مقایسه {'et:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är en spegelbild/omvänd bild av "reflektera"; Jämför {'et:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это зеркальное отражение/обратное изображение в смысле «отражать»; сравнить {'et:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是“反射”的鏡像/反面感；比較{'et:v}。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Esse é o sentido de imagem refletida/imagem reversa de "refletir"; compare {'et:v}. [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">The request was related to beams of light reflecting off of mirrors and beam-splitters.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2607,7 +2685,7 @@ Do not confuse this word with {naHjej:n}.</column>
       <column name="definition_pt">ser salgado</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{wIb:v}, {na'ran:n}</column>
+      <column name="see_also">{wIb:v}, {na'ran:n}, {popSop:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -3465,7 +3543,7 @@ When used for objects which come in pairs, such as socks and gloves, the subject
       <column name="definition_pt">ser maduro, ser adulto, ser crescido</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{nen:n}, {nenchoH:v}</column>
+      <column name="see_also">{nen:n}, {nenchoH:v}, {HojnIy:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -3807,6 +3885,45 @@ When used for objects which come in pairs, such as socks and gloves, the subject
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {qep'a' 25 (2018):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">neS</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be crunchy, be crispy</column>
+      <column name="definition_de">Sei knusprig, sei knusprig [AUTOTRANSLATED]</column>
+      <column name="definition_fa">ترد باشید ، ترد باشید [AUTOTRANSLATED]</column>
+      <column name="definition_sv">vara krispigt, vara krispigt [AUTOTRANSLATED]</column>
+      <column name="definition_ru">быть хрустящим, быть хрустящим [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">脆脆脆 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">ser crocante, ser crocante [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tlher:v}</column>
+      <column name="notes">This refers to texture, not sound.</column>
+      <column name="notes_de">Dies bezieht sich auf Textur, nicht auf Klang. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این به بافت اشاره دارد ، نه صدا. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta avser textur, inte ljud. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это относится к текстуре, а не к звуку. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是指紋理，而不是聲音。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso se refere à textura, não ao som. [AUTOTRANSLATED]</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -4603,7 +4720,7 @@ A line which was cut from {Star Trek Into Darkness:src} reveals that the person 
       <column name="definition_pt">leite</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{noq:n:1}</column>
+      <column name="see_also">{noq:n:1}, {qulcher:n}</column>
       <column name="notes">Milk is seldom consumed by itself, but the milk of some creatures, such as the {targh:n}, is combined with other ingredients to create more complex drinks.[1, p.95]</column>
       <column name="notes_de">Milch wird selten von selbst konsumiert, aber die Milch einiger Kreaturen, wie z. B. {targh:n}, wird mit anderen Zutaten kombiniert, um komplexere Getränke zu erhalten.[1, p.95] [AUTOTRANSLATED]</column>
       <column name="notes_fa"></column>
@@ -4629,84 +4746,123 @@ A line which was cut from {Star Trek Into Darkness:src} reveals that the person 
       <column name="search_tags_pt"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">nIm tlhagh</column>
-      <column name="part_of_speech">n:deriv</column>
-      <column name="definition">butter</column>
-      <column name="definition_de">Butter</column>
-      <column name="definition_fa">کره</column>
-      <column name="definition_sv">smör</column>
-      <column name="definition_ru">масло</column>
-      <column name="definition_zh_HK">牛油</column>
-      <column name="definition_pt">manteiga</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
-      <column name="components">{nIm:n}, {tlhagh:n}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="source">[1] {TNK:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">nIm wIb ngogh</column>
-      <column name="part_of_speech">n:deriv</column>
-      <column name="definition">cheese</column>
-      <column name="definition_de">Käse</column>
-      <column name="definition_fa">پنیر [AUTOTRANSLATED]</column>
-      <column name="definition_sv">ost</column>
-      <column name="definition_ru">сыр</column>
-      <column name="definition_zh_HK">起司 [AUTOTRANSLATED]</column>
-      <column name="definition_pt">queijo</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This is how Klingons might refer to a lump or block ({ngogh:n:nolink}) of Terran cheese.</column>
-      <column name="notes_de">So könnten sich Klingonen auf einen Klumpen oder Block ({ngogh:n:nolink}) von terranischem Käse beziehen. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">بدین ترتیب کلینگونها می توانند به یک توده یا بلوک ({ngogh:n:nolink}) پنیر تران مراجعه کنند. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Så här kan Klingons hänvisa till en klump eller block ({ngogh:n:nolink}) Terranost. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это то, как Клингоны могут упомянуть о куске или о бруске ({ngogh:n:nolink}) земного сыра.</column>
-      <column name="notes_zh_HK">這就是克林貢人可能提到的人族奶酪塊或塊（{ngogh:n:nolink}）的方式。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">É assim que os klingons podem se referir a um pedaço ou bloco ({ngogh:n:nolink}) de queijo terráqueo. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
-      <column name="components">{nIm:n}, {wIb:v}, {ngogh:n}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="source">[1] {TNK:src}</column>
-    </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">nIm tlhagh</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">butter</column>
+          <column name="definition_de">Butter</column>
+          <column name="definition_fa">کره</column>
+          <column name="definition_sv">smör</column>
+          <column name="definition_ru">масло</column>
+          <column name="definition_zh_HK">牛油</column>
+          <column name="definition_pt">manteiga</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{nIm:n}, {tlhagh:n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="source">[1] {TNK:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">nIm qulcher taD</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">ice cream</column>
+          <column name="definition_de">Eis [AUTOTRANSLATED]</column>
+          <column name="definition_fa">بستنی [AUTOTRANSLATED]</column>
+          <column name="definition_sv">glass [AUTOTRANSLATED]</column>
+          <column name="definition_ru">мороженое [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">冰淇淋 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">sorvete [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">Ice cream is really a Terran thing; there is no native Klingon equivalent.</column>
+          <column name="notes_de">Eis ist wirklich eine terranische Sache; Es gibt kein einheimisches klingonisches Äquivalent. [AUTOTRANSLATED]</column>
+          <column name="notes_fa">بستنی واقعا یک چیز Terran است. معادل کلینگون بومی وجود ندارد. [AUTOTRANSLATED]</column>
+          <column name="notes_sv">Glass är verkligen en Terran-sak; det finns ingen inhemsk Klingon-ekvivalent. [AUTOTRANSLATED]</column>
+          <column name="notes_ru">Мороженое - это действительно терранская вещь; нет родного клингонского эквивалента. [AUTOTRANSLATED]</column>
+          <column name="notes_zh_HK">冰淇淋確實是人族的事。沒有本地的克林貢語。 [AUTOTRANSLATED]</column>
+          <column name="notes_pt">Sorvete é realmente uma coisa terráquea; não existe equivalente klingon nativo. [AUTOTRANSLATED]</column>
+          <column name="hidden_notes"></column>
+          <column name="components">{nIm:n}, {qulcher:n}, {taD:v}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="source">[1] {qep'a' 27 (2020):src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">nIm wIb ngogh</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">cheese</column>
+          <column name="definition_de">Käse</column>
+          <column name="definition_fa">پنیر [AUTOTRANSLATED]</column>
+          <column name="definition_sv">ost</column>
+          <column name="definition_ru">сыр</column>
+          <column name="definition_zh_HK">起司 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">queijo</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">This is how Klingons might refer to a lump or block ({ngogh:n:nolink}) of Terran cheese.</column>
+          <column name="notes_de">So könnten sich Klingonen auf einen Klumpen oder Block ({ngogh:n:nolink}) von terranischem Käse beziehen. [AUTOTRANSLATED]</column>
+          <column name="notes_fa">بدین ترتیب کلینگونها می توانند به یک توده یا بلوک ({ngogh:n:nolink}) پنیر تران مراجعه کنند. [AUTOTRANSLATED]</column>
+          <column name="notes_sv">Så här kan Klingons hänvisa till en klump eller block ({ngogh:n:nolink}) Terranost. [AUTOTRANSLATED]</column>
+          <column name="notes_ru">Это то, как Клингоны могут упомянуть о куске или о бруске ({ngogh:n:nolink}) земного сыра.</column>
+          <column name="notes_zh_HK">這就是克林貢人可能提到的人族奶酪塊或塊（{ngogh:n:nolink}）的方式。 [AUTOTRANSLATED]</column>
+          <column name="notes_pt">É assim que os klingons podem se referir a um pedaço ou bloco ({ngogh:n:nolink}) de queijo terráqueo. [AUTOTRANSLATED]</column>
+          <column name="hidden_notes"></column>
+          <column name="components">{nIm:n}, {wIb:v}, {ngogh:n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="source">[1] {TNK:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nImbuS wej</column>
@@ -5150,13 +5306,13 @@ A line which was cut from {Star Trek Into Darkness:src} reveals that the person 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mun:v}, {Haq:v:2}</column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="notes">To express casting/throwing/making a shadow, {QIb:n} could be used as the subject of this verb. The object, if specified, would be the surface onto which the shadow is cast.[4]</column>
+      <column name="notes_de">{QIb:n} könnte als Subjekt dieses Verbs verwendet werden, um das Werfen / Werfen / Schattenmachen auszudrücken. Das Objekt wäre, falls angegeben, die Oberfläche, auf die der Schatten geworfen wird.[4] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">برای بیان ریخته گری / پرتاب / ایجاد سایه ، {QIb:n} می تواند به عنوان موضوع این فعل استفاده شود. در صورت مشخص بودن ، این سطح می تواند سطحی باشد که سایه بر روی آن ریخته می شود.[4] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">För att uttrycka gjutning / kasta / göra en skugga kan {QIb:n} användas som ämne för detta verb. Objektet, om det anges, skulle vara ytan som skuggan kastas på. [4] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Чтобы выразить приведение / бросание / создание тени, {QIb:n} может быть использован в качестве субъекта этого глагола. Объект, если указан, будет поверхностью, на которую отбрасывается тень. [4] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">為了表達投射/投擲/製作陰影，可以將{QIb:n}用作該動詞的主語。如果指定該對象，則將是將陰影投射到其上的表面.[4] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Para expressar a projeção / lançamento / criação de uma sombra, {QIb:n} pode ser usado como assunto desse verbo. O objeto, se especificado, seria a superfície na qual a sombra é projetada.[4] [AUTOTRANSLATED]</column>
       <column name="hidden_notes">This is defined in {TKD:src} as "hinder, interfere" and in {TKDA:src} as "disrupt, interfere (with)".
 
 "Trespassing vessel" was translated as {nISbogh Duj:n:nolink} in a deleted scene from the 2009 {Star Trek:src} movie.</column>
@@ -5172,14 +5328,14 @@ A line which was cut from {Star Trek Into Darkness:src} reveals that the person 
   "Клингонский коммуникатор посылает сигнал через подпространственный приемник. Более старые модели были восприимчивы к радиации."[3]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="search_tags">trespass</column>
+      <column name="search_tags">trespass, shadow</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru">посягательство</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKD:src}, [2] {TKDA:src}, [3] {SkyBox 19:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {TKDA:src}, [3] {SkyBox 19:src}, [4] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5641,7 +5797,7 @@ Watch Gowron say {nISwI'mey:n@@nISwI':n, -mey:n}: {YouTube video:url:http://yout
       <column name="see_also">{Qeb:n:1}, {ngoH:v:2}, {Heng:v}, {yaD:n:1}, {ghop:n}</column>
       <column name="notes">This word refers to any digit on the hand, including the thumb.
 
-Klingon has five verbs corresponding to each of the {nItlh:n:nolink}: {Sen:v}, {SIq:v}, {qay:v}, {qew:v}, and {qan:v:2}. In addition, when referring to a child's thumb, {rIl:v:1} is used instead of {Sen:v}.
+Klingon has five verbs corresponding to each of the {nItlh:n:nolink}: {Sen:v:1}, {SIq:v}, {qay:v}, {qew:v}, and {qan:v:2}. In addition, when referring to a child's thumb, {rIl:v:1} is used instead of {Sen:v:1,nolink}.
 
 Correspondingly, the fingers are called {SenwI':n} ({rIlwI':n} if it belongs to a child), {SIqwI':n}, {qaywI':n}, {qewwI':n}, and {qanwI':n}.
 
@@ -5651,7 +5807,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Это слово относится к любому пальцу на руке, включая большой палец.
 
-Клингонский язык имеет пять глаголов, соответствующих каждому из {nItlh:n:nolink}: {Sen:v}, {SIq:v}, {qay:v}, {qew:v}, и {qan:v:2}. В дополнении, когда упоминают о детском большом пальце, {rIl:v:1} использовано вместо {Sen:v}.
+Клингонский язык имеет пять глаголов, соответствующих каждому из {nItlh:n:nolink}: {Sen:v:1}, {SIq:v}, {qay:v}, {qew:v}, и {qan:v:2}. В дополнении, когда упоминают о детском большом пальце, {rIl:v:1} использовано вместо {Sen:v:1,nolink}.
 
 Соответственно, пальцы названы {SenwI':n} ({rIlwI':n} если они принадлежат ребенку), {SIqwI':n}, {qaywI':n}, {qewwI':n}, и {qanwI':n}.
 
@@ -6129,9 +6285,15 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="notes_ru">не путайте это слово с {tIq:v}.</column>
       <column name="notes_zh_HK">不要將此詞與{tIq:v}混淆。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Não confunda esta palavra com {tIq:v}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">It says on {TKD p.50:src} that a verb expressing a state or quality can be used "immediately following a noun". The {paq'batlh:src} excerpt is an example of two adjectives on a noun ("long and dangerous battle"), where one of the Klingon verbs uses {-bogh:v:suff}, which suggests two verbs used adjectivally cannot follow one noun.</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {pa' bIQam bIHIvDI':sen:nolink}
+   {QIncha' Darur qu' 'ej run:sen:nolink}
+   {Qobbogh may' nI' jun:sen:nolink}
+  "You stood there, you attack
+   Like a krencha, short and fierce,
+   Avoiding long and dangerous battle."[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -6145,7 +6307,7 @@ See {SIq:v} for an explanation of the usage of these finger verbs.</column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh p.158-159:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -8804,7 +8966,7 @@ It's probably a coincidence, but نوک is also the Persian word for "nipple".</
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{nuH:n:1}, {HoS:n}, {'och:n}</column>
+      <column name="components">{nuH:n:1}, {HoS:n:1}, {'och:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
