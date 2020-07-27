@@ -4645,7 +4645,7 @@ The reflexive form of this verb has a special meaning. See the example below, an
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">It was confirmed during the Q &amp; A session at {qep'a'2 27 (2020):src} that this is not grammatically considered a body part.</column>
       <column name="components"></column>
       <column name="examples">{may' rImbey:n}</column>
       <column name="examples_de"></column>
@@ -4661,7 +4661,7 @@ The reflexive form of this verb has a special meaning. See the example below, an
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {qep'a' 26 (2019):src}</column>
+      <column name="source">[1] {qep'a' 26 (2019):src}, [2] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5398,7 +5398,7 @@ This also refers to ink, as for a rubber stamp ({toqwIn:n}).[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{begh:n:inhpl}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -7015,7 +7015,9 @@ The concept of a "fairy tale" might be expressed as {puq lut:n@@puq:n, lut:n} or
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes">"He licks", helix.</column>
+      <column name="hidden_notes">"He licks", helix.
+
+It was confirmed during the Q &amp; A session at {qep'a'2 27 (2020):src} that this is not grammatically considered a body part.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7626,7 +7628,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ruH</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:i_c</column>
       <column name="definition">blush</column>
       <column name="definition_de">erröten [AUTOTRANSLATED]</column>
       <column name="definition_fa">سرخ شدن [AUTOTRANSLATED]</column>
@@ -7644,7 +7646,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
       <column name="notes_ru">Мальц утверждает, что клингоны никогда не краснеют. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">馬爾茨斷言，克林貢人從不臉紅。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Maltz afirma que os klingons nunca coram. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was confirmed as intransitive during the Q &amp; A session.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7996,13 +7998,13 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is a Klingon penal colony, a planet mostly covered in ice. Prisoners are sent to work in its {tlhIlHalmey:n:nolink} (see {tlhIlHal:n}).</column>
-      <column name="notes_de">Dies ist eine klingonische Strafkolonie, ein Planet, der größtenteils mit Eis bedeckt ist. Gefangene werden in ihrem {tlhIlHalmey:n:nolink} zur Arbeit geschickt (siehe {tlhIlHal:n}). [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این مستعمره جزایی کلینگون است ، سیاره ای که اکثراً در یخ پوشیده شده است. زندانیان برای کار در {tlhIlHalmey:n:nolink} خود فرستاده می شوند (به {tlhIlHal:n} مراجعه کنید). [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är en Klingon straffkoloni, en planet som mestadels är täckt av is. Fångar skickas till arbetet i dess {tlhIlHalmey:n:nolink} (se {tlhIlHal:n}). [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Клингонская каторжная колония, планета преимущественно покрытая льдом. Заключенные посланы туда, чтобы там работать {tlhIlHalmey:n:nolink} (смотрите {tlhIlHal:n}).</column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="notes">This is a Klingon penal colony, a planet mostly covered in ice. Prisoners are sent to work in its {tlhIlHalmey:n@@tlhIlHal:n, -mey:n}.</column>
+      <column name="notes_de">Dies ist eine klingonische Strafkolonie, ein Planet, der größtenteils mit Eis bedeckt ist. Gefangene werden zur Arbeit in ihre {tlhIlHalmey:n@@tlhIlHal:n, -mey:n} geschickt. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این مستعمره جزایی کلینگون است ، سیاره ای که اکثراً در یخ پوشیده شده است. زندانیان برای کار در {tlhIlHalmey:n@@tlhIlHal:n, -mey:n} خود فرستاده می شوند. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är en Klingon straffkoloni, en planet som mestadels är täckt av is. Fångar skickas till arbetet i dess {tlhIlHalmey:n@@tlhIlHal:n, -mey:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Клингонская каторжная колония, планета преимущественно покрытая льдом. Заключенные посланы туда, чтобы там работать {tlhIlHalmey:n@@tlhIlHal:n, -mey:n}.</column>
+      <column name="notes_zh_HK">這是克林貢半島的一個殖民地，這個星球大部分被冰覆蓋。囚犯被派往其{tlhIlHalmey:n@@tlhIlHal:n, -mey:n}工作。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Esta é uma colônia penal de Klingon, um planeta coberto principalmente de gelo. Os presos são enviados para trabalhar em seu {tlhIlHalmey:n@@tlhIlHal:n, -mey:n}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes">The name is based on Rorapandi, the penal colony island in the Disney movie "20,000 Leagues Under the Sea".</column>
       <column name="components"></column>
       <column name="examples"></column>

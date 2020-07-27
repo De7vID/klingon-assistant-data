@@ -7120,13 +7120,13 @@ This verb can be used reflexively to mean "enjoy oneself", "have a good time".[3
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tI'rIl</column>
-      <column name="part_of_speech">n:place</column>
-      <column name="definition">Trill</column>
-      <column name="definition_de">Triller [AUTOTRANSLATED]</column>
-      <column name="definition_fa">تریل [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Drill [AUTOTRANSLATED]</column>
-      <column name="definition_ru">Трель [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">顫音 [AUTOTRANSLATED]</column>
+      <column name="part_of_speech">n:place,fic</column>
+      <column name="definition">Trill (planet)</column>
+      <column name="definition_de">Trill (Planet) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">تریل (سیاره) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Trill (planet) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Трель (планета) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">顫音（行星） [AUTOTRANSLATED]</column>
       <column name="definition_pt">Trill (planeta)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7138,7 +7138,7 @@ This verb can be used reflexively to mean "enjoy oneself", "have a good time".[3
       <column name="notes_ru">Это название планеты. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是地球的名字。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é o nome do planeta. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">Presumably, a Trill (a member of the humanoid species native to the planet) would be a {tI'rIlngan:n@@tI'rIl:n, ngan:n}, but this was not stated.</column>
+      <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7156,6 +7156,45 @@ This verb can be used reflexively to mean "enjoy oneself", "have a good time".[3
       <column name="search_tags_pt"></column>
       <column name="source">[1] {qep'a' 27 (2020):src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">tI'rIlngan</column>
+          <column name="part_of_speech">n:being,fic,deriv</column>
+          <column name="definition">Trill (person)</column>
+          <column name="definition_de">Trill (Person) [AUTOTRANSLATED]</column>
+          <column name="definition_fa">تریل (شخص) [AUTOTRANSLATED]</column>
+          <column name="definition_sv">Trill (person) [AUTOTRANSLATED]</column>
+          <column name="definition_ru">Трель (человек) [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">顫音（人） [AUTOTRANSLATED]</column>
+          <column name="definition_pt">Trill (pessoa)</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="hidden_notes">This was confirmed during the Q &amp; A session.</column>
+          <column name="components">{tI'rIl:n}, {ngan:n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="source">[1] {qep'a' 27 (2020):src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tI'vIS</column>
@@ -7589,6 +7628,7 @@ This verb can be used reflexively to mean "enjoy oneself", "have a good time".[3
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- {HItojQo'.:sen:nolink} "Don't deceive me." from {Star Trek Continuum, Klingon Linguistics Studies:src} -->
       <column name="_id"></column>
       <column name="entry_name">toj</column>
       <column name="part_of_speech">v:t_c</column>
@@ -7601,7 +7641,7 @@ This verb can be used reflexively to mean "enjoy oneself", "have a good time".[3
       <column name="definition_pt">enganar, truque, blefar</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ngor:v}, {jech:v}, {ghet:v}, {HIgh:v}, {Qaq:v}, {nep:v}, {ghIchwIj DabochmoHchugh ghIchlIj qanob.:sen}</column>
+      <column name="see_also">{ngor:v}, {jech:v}, {ghet:v}, {HIgh:v}, {Qaq:v}, {nep:v}, {chem:v}, {ghIchwIj DabochmoHchugh ghIchlIj qanob.:sen}</column>
       <column name="notes">If the deception involves honor or social status, see {Qaq:v}.</column>
       <column name="notes_de">Wenn die Täuschung Ehre oder sozialen Status beinhaltet, siehe {Qaq:v}. [AUTOTRANSLATED]</column>
       <column name="notes_fa">اگر فریب شامل افتخار یا وضعیت اجتماعی است ، به {Qaq:v} مراجعه کنید. [AUTOTRANSLATED]</column>
@@ -7611,7 +7651,6 @@ This verb can be used reflexively to mean "enjoy oneself", "have a good time".[3
       <column name="notes_pt">Se o engano envolver honra ou status social, consulte {Qaq:v}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <!-- {HItojQo'.:sen:nolink} "Don't deceive me." from {Star Trek Continuum, Klingon Linguistics Studies:src} -->
       <column name="examples">
 ▶ {mIn tojwI':n}
 ▶ {not toj tlhInganpu'.:sen}
@@ -8967,7 +9006,7 @@ Pitching downwards is indicated using a negative angle (see {taH:v:2}).</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tu</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:i_c</column>
       <column name="definition">blink</column>
       <column name="definition_de">blinken [AUTOTRANSLATED]</column>
       <column name="definition_fa">چشمک زدن [AUTOTRANSLATED]</column>
@@ -8978,14 +9017,14 @@ Pitching downwards is indicated using a negative angle (see {taH:v:2}).</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{wang:v}</column>
-      <column name="notes">This means to blink involuntarily. A slang way to say this is {mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:2}.</column>
-      <column name="notes_de">Dies bedeutet, unwillkürlich zu blinken. Eine umgangssprachliche Art, dies zu sagen, ist {mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:2}. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این به معنای چشمک زدن غیر ارادی است. یک روش عامیانه برای گفتن این مطلب {mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:2} است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta betyder att blinka ofrivilligt. Ett slang sätt att säga detta är {mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:2}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это значит невольно мигать. Сленговым способом сказать, что это {mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:2}. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這意味著不由自主地眨眼。 this語是{mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:2}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Isso significa piscar involuntariamente. Uma forma de gíria para dizer isso é {mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:2}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="notes">This means to blink involuntarily. A slang way to say this is {mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:1}. For example, {mInDu'(wIj) vIyIv:sen@@mIn:n, -Du':n, -wIj:n, vI-:v, yIv:v:1} means "I blink".</column>
+      <column name="notes_de">Dies bedeutet, unwillkürlich zu blinken. Eine umgangssprachliche Art, dies zu sagen, ist {mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:1}. Zum Beispiel bedeutet {mInDu'(wIj) vIyIv:sen@@mIn:n, -Du':n, -wIj:n, vI-:v, yIv:v:1} "Ich blinke". [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این به معنای چشمک زدن غیر ارادی است. یک روش عامیانه برای گفتن این مطلب {mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:1} است. به عنوان مثال ، {mInDu'(wIj) vIyIv:sen@@mIn:n, -Du':n, -wIj:n, vI-:v, yIv:v:1} به معنی "من چشمک می زنم" است. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta betyder att blinka ofrivilligt. Ett slang sätt att säga detta är {mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:1}. Till exempel betyder {mInDu'(wIj) vIyIv:sen@@mIn:n, -Du':n, -wIj:n, vI-:v, yIv:v:1} "jag blinkar". [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это значит невольно мигать. Сленговым способом сказать, что это {mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:1}. Например, {mInDu'(wIj) vIyIv:sen@@mIn:n, -Du':n, -wIj:n, vI-:v, yIv:v:1} означает «Я моргаю». [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這意味著不由自主地眨眼。 this語是{mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:1}。例如，{mInDu'(wIj) vIyIv:sen@@mIn:n, -Du':n, -wIj:n, vI-:v, yIv:v:1}表示“我眨眼”。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso significa piscar involuntariamente. Uma forma de gíria para dizer isso é {mInDu' yIv:sen@@mIn:n, -Du':n, yIv:v:1}. Por exemplo, {mInDu'(wIj) vIyIv:sen@@mIn:n, -Du':n, -wIj:n, vI-:v, yIv:v:1} significa "Eu pisco". [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">It was stated during the Q &amp; A session that this does not generally take an object. It is used for eyes, not lights.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -9417,7 +9456,7 @@ Pitching downwards is indicated using a negative angle (see {taH:v:2}).</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">It was clarified during the Q &amp; A session at {qep'a' 27 (2020):src} that the temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {tujqu'choH QuQ.:sen}
@@ -9435,7 +9474,7 @@ Pitching downwards is indicated using a negative angle (see {taH:v:2}).</column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

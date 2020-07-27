@@ -2523,7 +2523,7 @@ This word is applied to people and animals.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{qaS:v}, {-taH:v}, {-vIS:v}, {wa':n}, {ram:n}, {loS:n:1}, {SaD:n}, {Hugh:n}, {SIj:v:1}, {-laH:v}, {qet:v}, {-bogh:v}, {loD:n}</column>
+      <column name="components">{qaS:v}, {-taH:v}, {-vIS:v}, {wa':n}, {ram:n}, {loS:n:1}, {SaD:n:num}, {Hugh:n}, {SIj:v:1}, {-laH:v}, {qet:v}, {-bogh:v}, {loD:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4455,7 +4455,7 @@ The word itself means "origin of everything" or "start of it all" or the like, a
       <column name="notes_ru">Это означает, что голова немного опущена, независимо от того, поднята голова или нет. Так что, между прочим, это может означать кивание в такт музыке или сонливость (засыпание). Субъектом может быть, например, «голова» {nach:n} (даже если это может считаться избыточным) или кивок. Это не берет объект. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這意味著無論是否再次抬起頭部，都要稍微降低頭部。因此，除其他外，它可以指點拍音樂節拍或點頭睡著（入睡）。例如，主題可能是{nach:n}“頭”（即使這可能被認為是多餘的）或點頭。它不帶對象。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso significa abaixar a cabeça levemente, independentemente de a cabeça ser novamente levantada. Portanto, entre outras coisas, pode se referir a citar a batida da música ou a adormecer (adormecer). O sujeito pode ser, por exemplo, {nach:n} "head" (mesmo que isso possa ser considerado redundante) ou o nodder. Não é necessário um objeto. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This refers to the motion, not any particular meaning (such as nodding to indicate "yes" in some cultures). This was clarified during the Q &amp; A session.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6362,7 +6362,7 @@ His return is prophesied in the Story of the Promise, which states that:
       <column name="definition_pt">fazer uma piada, contar uma piada</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Sagh:v}, {tlhaQ:v}, {qID:n}</column>
+      <column name="see_also">{Sagh:v}, {tlhaQ:v}, {chem:v}, {qID:n}</column>
       <column name="notes">This verb normally doesn't take an object (unless one is playing word games or something).[2]</column>
       <column name="notes_de">Dieses Verb nimmt normalerweise kein Objekt (es sei denn, man spielt Wortspiele oder so).[2] [AUTOTRANSLATED]</column>
       <column name="notes_fa">این فعل معمولاً از یک شیء استفاده نمی کند (مگر اینکه کسی در حال بازی با کلمات یا چیزی باشد).[2] [AUTOTRANSLATED]</column>
@@ -12106,7 +12106,7 @@ Note that {ghaj:v} and {Hutlh:v} can be used with this noun to indicate that som
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">quvamaq</column>
-      <column name="part_of_speech">n:being</column>
+      <column name="part_of_speech">n</column>
       <column name="definition">Kuvah'magh</column>
       <column name="definition_de">Kuvah'magh [AUTOTRANSLATED]</column>
       <column name="definition_fa">کواوهماغ [AUTOTRANSLATED]</column>
