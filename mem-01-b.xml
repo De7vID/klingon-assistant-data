@@ -2580,7 +2580,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{rI'gheS:n:inhps}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -5244,16 +5244,16 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="definition_pt">cem mil</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mI':n}, {netlh:n}, {'uy':n}</column>
-      <column name="notes">Note that the Klingon word for "hundred thousand" is independent of the words for "hundred" ({vatlh:n}) and "thousand" ({SaD:n}). The Klingon {bIp:n:num,nolink} is equivalent to the "lakh" which is used in South Asian numbering systems on Earth.
+      <column name="see_also">{mI':n}, {netlh:n:num}, {'uy':n:num}</column>
+      <column name="notes">Note that the Klingon word for "hundred thousand" is independent of the words for "hundred" ({vatlh:n:num}) and "thousand" ({SaD:n:num}). The Klingon {bIp:n:num,nolink} is equivalent to the "lakh" which is used in South Asian numbering systems on Earth.
 
-For tens of millions, one could combine {maH:n:2} with {'uy':n:nolink} or {vatlh:n} with {bIp:n}.[2]</column>
+For tens of millions, one could combine {maH:n:2,num} with {'uy':n:num,nolink} or {vatlh:n:num} with {bIp:n:num}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">Обратите внимание, что клингонское слово для "сотни тысяч" не зависит от слов "сотня" ({vatlh:n}) и "тысяча" ({SaD:n}). Клингонский слово {bIp:n:num,nolink} эквивалент "lakh" которое используетсяв южно-азиатской системе счисления Земли.
+      <column name="notes_ru">Обратите внимание, что клингонское слово для "сотни тысяч" не зависит от слов "сотня" ({vatlh:n:num}) и "тысяча" ({SaD:n:num}). Клингонский слово {bIp:n:num,nolink} эквивалент "lakh" которое используетсяв южно-азиатской системе счисления Земли.
 
-For tens of millions, one could combine {maH:n:2} with {'uy':n:nolink} or {vatlh:n} with {bIp:n}.[2]</column>
+For tens of millions, one could combine {maH:n:2,num} with {'uy':n:num,nolink} or {vatlh:n:num} with {bIp:n:num}.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="hidden_notes"></column>
@@ -5720,14 +5720,14 @@ For tens of millions, one could combine {maH:n:2} with {'uy':n:nolink} or {vatlh
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
-          <column name="notes"></column>
-          <column name="notes_de"></column>
-          <column name="notes_fa"></column>
-          <column name="notes_sv"></column>
-          <column name="notes_ru"></column>
-          <column name="notes_zh_HK"></column>
-          <column name="notes_pt"></column>
-          <column name="hidden_notes">Okrand suggested to express "faucet" by using "{bIQ SeH jan:sen:nolink} or the like", which is a sentence since {SeH:v} is a verb. However, there is precedent for a construction like this in {voD jan:n}.</column>
+          <column name="notes">This is a similar construction to {voD jan:n} in that one would expect the suffix {-meH:v} on {SeH:v}. Saying {bIQ SeHmeH jan:n:nolink} would sound strange, even though people would know what was meant.</column>
+          <column name="notes_de">Dies ist eine ähnliche Konstruktion wie {voD jan:n}, da man das Suffix {-meH:v} auf {SeH:v} erwarten würde. {bIQ SeHmeH jan:n:nolink} zu sagen, würde seltsam klingen, obwohl die Leute wissen würden, was gemeint ist. [AUTOTRANSLATED]</column>
+          <column name="notes_fa">این یک ساختاری مشابه با {voD jan:n} است که در آن انتظار می رود پسوند {-meH:v} در {SeH:v} باشد. گفتن {bIQ SeHmeH jan:n:nolink} عجیب به نظر می رسد ، حتی اگر مردم بدانند منظور چیست. [AUTOTRANSLATED]</column>
+          <column name="notes_sv">Detta är en liknande konstruktion som {voD jan:n} genom att man kan förvänta sig suffixet {-meH:v} på {SeH:v}. Att säga {bIQ SeHmeH jan:n:nolink} skulle låta konstigt, även om människor skulle veta vad som menades. [AUTOTRANSLATED]</column>
+          <column name="notes_ru">Это конструкция, аналогичная {voD jan:n}, в которой можно ожидать суффикс {-meH:v} для {SeH:v}. Сказать, что {bIQ SeHmeH jan:n:nolink} звучит странно, даже если бы люди знали, что это значит. [AUTOTRANSLATED]</column>
+          <column name="notes_zh_HK">這與{voD jan:n}的結構類似，因為它應該在{SeH:v}上帶有後綴{-meH:v}。說{bIQ SeHmeH jan:n:nolink}聽起來很奇怪，儘管人們會知道這是什麼意思。 [AUTOTRANSLATED]</column>
+          <column name="notes_pt">Essa é uma construção semelhante a {voD jan:n}, pois seria de esperar o sufixo {-meH:v} em {SeH:v}. Dizer {bIQ SeHmeH jan:n:nolink} soaria estranho, mesmo que as pessoas soubessem o que isso significava. [AUTOTRANSLATED]</column>
+          <column name="hidden_notes">The grammar was clarified during the Q &amp; A session.</column>
           <column name="components">{bIQ:n}, {SeH:v}, {jan:n:1}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
@@ -6162,7 +6162,9 @@ For tens of millions, one could combine {maH:n:2} with {'uy':n:nolink} or {vatlh
       <column name="notes_ru">Существует идиома {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">有一個成語，{bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Existe um idioma, {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">A cold "beer", or alternatively, "brrrr" is the sound one makes when one is cold.</column>
+      <column name="hidden_notes">A cold "beer", or alternatively, "brrrr" is the sound one makes when one is cold.
+
+It was clarified during the Q &amp; A session at {qep'a' 27 (2020):src} that the temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {bortaS bIr jablu'DI' reH QaQqu' nay'.:sen}</column>
@@ -6179,7 +6181,7 @@ For tens of millions, one could combine {maH:n:2} with {'uy':n:nolink} or {vatlh
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -8459,14 +8461,14 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tI'rIl:n}</column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
+      <column name="notes">Which plural suffix this takes depends on the type of symbiont. In the case of Trill (see {tI'rIlngan:n}) symbionts, the suffix {-pu':n:suff} is used.</column>
+      <column name="notes_de">Welches Plural-Suffix dies erfordert, hängt von der Art des Symbionten ab. Bei Trill-Symbionten (siehe {tI'rIlngan:n}) wird das Suffix {-pu':n:suff} verwendet. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">کدام پسوند جمع در این مورد بستگی به نوع Symiont دارد. در مورد نمادهای تریل (نگاه کنید به {tI'rIlngan:n}) از پسوند {-pu':n:suff} استفاده می شود. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Vilket flertalssuffiks detta tar beror på typen av symbiont. När det gäller Trill (se {tI'rIlngan:n}) -symbioner används suffixet {-pu':n:suff}. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Какой суффикс множественного числа это принимает, зависит от типа симбионта. В случае симбионтов Trill (см. {tI'rIlngan:n}) используется суффикс {-pu':n:suff}. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這採用哪個後綴取決於共生體的類型。對於Trill（請參見{tI'rIlngan:n}）共鳴符，將使用後綴{-pu':n:suff}。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">O sufixo plural usado depende do tipo de simbionte. No caso dos simbiontes Trill (consulte {tI'rIlngan:n}), o sufixo {-pu':n:suff} é usado. [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">The plural suffix this word takes was clarified during the Q &amp; A session.</column>
       <column name="components">{boq:n:1}, {yIn:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -9416,7 +9418,7 @@ This word is used in the idioms {bo'Dagh'a' lo':sen} and {bo'DaghHom lo':sen}.</
       <column name="definition_pt">corte (justiça)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ghIpDIj:v}, {bo'DIj pa':n}, {bo'DIj qach:n}</column>
+      <column name="see_also">{ghIpDIj:v}, {bo'DIj pa':n}, {bo'DIj qach:n}, {bo'DIj qaD:n}</column>
       <column name="notes">This refers to the institution of the court, a judicial organization.</column>
       <column name="notes_de">Dies bezieht sich auf die Einrichtung des Gerichts, einer Justizorganisation. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این مربوط به نهاد دادگاه ، یک سازمان قضایی است. [AUTOTRANSLATED]</column>
@@ -9781,7 +9783,9 @@ The Story of the Promise states that:
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes">This is a combination of {bIr:v} and {tuj:v}.</column>
+      <column name="hidden_notes">This is a combination of {bIr:v} and {tuj:v}.
+
+It was clarified during the Q &amp; A session that the temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>

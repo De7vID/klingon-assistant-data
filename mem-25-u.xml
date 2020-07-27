@@ -256,7 +256,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">It was confirmed during the Q &amp; A session that this is not grammatically considered a body part.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -1992,10 +1992,10 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_pt">milhão</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mI':n}, {bIp:n:num}, {Saghan:n}</column>
-      <column name="notes">For tens of millions, one could combine {maH:n:2} with {'uy':n:nolink} or {vatlh:n} with {bIp:n}.[2]
+      <column name="see_also">{mI':n}, {bIp:n:num}, {Saghan:n:num}</column>
+      <column name="notes">For tens of millions, one could combine {maH:n:2,num} with {'uy':n:num,nolink} or {vatlh:n:num} with {bIp:n:num}.[2]
 
-For hundreds of millions, the number-forming elements {vatlh'uy':n@@vatlh:n, 'uy':n} or {SaDbIp:n@@SaD:n, bIp:n} or {SanIDbIp:n@@SanID:n, bIp:n} are possible.[3]</column>
+For hundreds of millions, the number-forming elements {vatlh'uy':n:num@@vatlh:n, 'uy':n} or {SaDbIp:n:num@@SaD:n, bIp:n} or {SanIDbIp:n:num@@SanID:n, bIp:n} are possible.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>

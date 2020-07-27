@@ -254,7 +254,7 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mI':n}, {vatlh:n:num}, {netlh:n:num}</column>
-      <column name="notes">Another variant of this word which is used with roughly equal frequency is {SanID:n:nolink}.
+      <column name="notes">Another variant of this word which is used with roughly equal frequency is {SanID:n:num,nolink}.
 
 Note that Klingon has words for "ten thousand" ({netlh:n:num}) and "hundred thousand" ({bIp:n:num}) which are independent of the word for "thousand".
 
@@ -318,7 +318,7 @@ While {SaD law':n:nolink} is a grammatical expression, {SaDmey:n:nolink} is not.
       <column name="notes_zh_HK">為了表示“千年前”或“從現在開始千年”，分別使用{ret:n}和{pIq:n}代替{poH:n}。[1] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Para indicar "milênios atrás" ou "milênios a partir de agora", {ret:n} e {pIq:n} são usados ​​no lugar de {poH:n}, respectivamente.[1] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
-      <column name="components">{SaD:n}, {DIS:n:2}, {poH:n}</column>
+      <column name="components">{SaD:n:num}, {DIS:n:2}, {poH:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -387,14 +387,14 @@ While {SaD law':n:nolink} is a grammatical expression, {SaDmey:n:nolink} is not.
       <column name="definition_pt">bilhão</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mI':n}, {'uy':n}</column>
+      <column name="see_also">{mI':n}, {'uy':n:num}</column>
       <column name="notes">This is a short-scale billion (i.e., one thousand million).[1]
 
-For tens of billions, the number-forming elements {maHSaghan:n@@maH:n:2, Saghan:n} or {netlh'uy':n@@netlh:n, 'uy':n} are possible.[2]
+For tens of billions, the number-forming elements {maHSaghan:n:num@@maH:n:2, Saghan:n} or {netlh'uy':n:num@@netlh:n, 'uy':n} are possible.[2]
 
-For hundreds of billions, the number-forming elements {vatlhSaghan:n@@vatlh:n, Saghan:n} or {bIp'uy':n@@bIp:n, 'uy':n} are possible.[2]
+For hundreds of billions, the number-forming elements {vatlhSaghan:n:num@@vatlh:n, Saghan:n} or {bIp'uy':n:num@@bIp:n, 'uy':n} are possible.[2]
 
-For trillions, the number-forming elements {SaDSaghan:n@@SaD:n, Saghan:n} or {SanIDSaghan:n@@SanID:n, Saghan:n} are possible.[2]</column>
+For trillions, the number-forming elements {SaDSaghan:n:num@@SaD:n, Saghan:n} or {SanIDSaghan:n:num@@SanID:n, Saghan:n} are possible.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2668,7 +2668,7 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">It was hypothesised during the Q &amp; A session that this might have originated as a gesture (see {Sen:v:1}), but MO wasn't sure.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4427,14 +4427,14 @@ Some reference temperatures for the {SImyon:sen:nolink} scale (left) vs. Celsius
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{lurgh:n}</column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
+      <column name="notes">This refers to the geographic tool, not the drawing tool.</column>
+      <column name="notes_de">Dies bezieht sich auf das geografische Werkzeug, nicht auf das Zeichenwerkzeug. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این به ابزار جغرافیایی و نه ابزار ترسیم اشاره دارد. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta hänvisar till det geografiska verktyget, inte till ritverktyget. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это относится к географическому инструменту, а не к инструменту рисования. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是指地理工具，而不是繪圖工具。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso se refere à ferramenta geográfica, não à ferramenta de desenho. [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">This is what early compasses were called in China (司南).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8093,6 +8093,45 @@ This verb is also used for the encryption of data.[3]</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">Suchtuv</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">dream, hallucination</column>
+      <column name="definition_de">Traum, Halluzination</column>
+      <column name="definition_fa">خواب ، توهم [AUTOTRANSLATED]</column>
+      <column name="definition_sv">dröm, hallucination [AUTOTRANSLATED]</column>
+      <column name="definition_ru">мечта, галлюцинация [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">幻夢 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">sonho, alucinação</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{naj:v}, {'ergh:v}, {luvnup:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes">This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was confirmed at {qep'a' 27 (2020):src} during the Q &amp; A session.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 27 (2020):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">SuD</column>
       <column name="part_of_speech">v:1,is</column>
       <column name="definition">be green, blue, yellow</column>
@@ -9687,7 +9726,7 @@ This can also be used for blowing out a candle ({weQ:n}). Unlike with {jo':v}, a
       <column name="definition_pt">qubit (bit quântico)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{San'on:n}, {mergh:v}</column>
+      <column name="see_also">{San'on:n}, {mergh:v}, {'otlhQeD:n}, {maySon:n}</column>
       <column name="notes">Sometimes {SuyDar San'on:n@@SuyDar:n, San'on:n} is also used.</column>
       <column name="notes_de">Manchmal wird auch {SuyDar San'on:n@@SuyDar:n, San'on:n} verwendet. [AUTOTRANSLATED]</column>
       <column name="notes_fa">گاهی اوقات از {SuyDar San'on:n@@SuyDar:n, San'on:n} نیز استفاده می شود. [AUTOTRANSLATED]</column>
