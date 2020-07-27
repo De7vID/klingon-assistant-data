@@ -1883,7 +1883,7 @@ The following example shows that the verb of quality can take a suffix:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lech</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">blackmail</column>
       <column name="definition_de">Erpressung [AUTOTRANSLATED]</column>
       <column name="definition_fa">باج خواهی [AUTOTRANSLATED]</column>
@@ -1894,14 +1894,14 @@ The following example shows that the verb of quality can take a suffix:
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{buQ:v}</column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
+      <column name="notes">The object of this verb is the victim of blackmail.</column>
+      <column name="notes_de">Das Objekt dieses Verbs ist das Opfer der Erpressung. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">هدف این فعل قربانی باج خواهی است. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Syftet med detta verb är offer för utpressning. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Объект этого глагола является жертвой шантажа. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">該動詞的賓語是勒索的受害者。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">O objeto desse verbo é vítima de chantagem. [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">The object was confirmed during the Q &amp; A session.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2307,8 +2307,7 @@ This word can be used to refer to traveling with or without a special purpose. I
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">
-{leng:v:nolink} работает, как {jaH:v}.[2]
+      <column name="notes_ru">{leng:v:nolink} работает, как {jaH:v}.[2]
 
 Это слово может быть использовано, чтобы упомянуть путешествие с целью или без неё. Если есть желание обозначить путешествие с целью выполнить миссию, используйте {ve':v} вместо этого.[3]</column>
       <column name="notes_zh_HK"></column>
@@ -9060,8 +9059,7 @@ The points in between the three cardinal directions are {tIng chan:n:nolink}, {'
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">
-Клингонский компас имеет 3 точки: {chan:n} (восток), {'ev:n} (северо-запад), и {tIng:n} (юго-запад).
+      <column name="notes_ru">Клингонский компас имеет 3 точки: {chan:n} (восток), {'ev:n} (северо-запад), и {tIng:n} (юго-запад).
 
 Территории вокруг объекта {Dung:n} (територия над), {bIng:n} (территория под), {retlh:n} (территория рядом), {tlhop:n:1} (спереди), и {'em:n} (позади). Объект {retlh:n:nolink} может быть {poS:n} (слева) или {nIH:n} (справа). Территория между двумя объектами их {joj:n} (территория между). Территория за пределами объекта {Hay:n:2h}.
 
@@ -9341,6 +9339,47 @@ When referring to one's left and right sides, possessive suffixes are used. For 
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">luvnup</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">daydream</column>
+      <column name="definition_de">Tagtraum</column>
+      <column name="definition_fa">روزمرگی [AUTOTRANSLATED]</column>
+      <column name="definition_sv">dagdröm</column>
+      <column name="definition_ru">помечтать [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">白日夢</column>
+      <column name="definition_pt">sonhar acordado</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{naj:v}, {Suchtuv:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes">This is a reference to the song "Daydream" by The Lovin' Spoonful.
+
+This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was confirmed at {qep'a' 27 (2020):src} during the Q &amp; A session.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
