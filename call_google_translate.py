@@ -43,6 +43,7 @@ supported_languages_map = {
 }
 
 translator = Translator()
+num_errors = 0
 for filename in filenames:
   print("Translating file: {}".format(filename))
   with fileinput.FileInput(filename, inplace=True) as file:
@@ -57,6 +58,7 @@ for filename in filenames:
         definition = definition_match.group(1)
         if not definition:
           print("<!-- ERROR: Missing definition. -->")
+          num_errors += 1
 
       if (definition and definition_translation_match):
         language = supported_languages_map.get(definition_translation_match.group(1).replace('_','-'), "")
@@ -113,6 +115,7 @@ for filename in filenames:
               if translation_text == prev_translation_text:
                 print("<!-- ERROR: Missing link #{}. -->".format(link_number))
                 missing_links += link_match
+                num_errors += 1
               link_number += 1
             # Missing links and references are appended to the end and may require manual correction.
             line = re.sub(r">(.*)<", ">{}{} [AUTOTRANSLATED]<".format(translation_text, missing_links), line)
@@ -122,3 +125,6 @@ for filename in filenames:
 
       # The variable 'line' already contains a newline at the end, don't add another.
       print(line, end='')
+
+if num_errors > 0:
+  print("*** Number of errors: {} ***".format(num_errors))
