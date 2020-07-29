@@ -533,7 +533,9 @@
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes">The request was for a musteloid (otter-like or wolver-like animal).</column>
+      <column name="hidden_notes">{vav:n} "father", or colloquially "pop", and {jaH:v} "go" together make "pop goes the weasel".
+
+The request was for a musteloid (otter-like or wolver-like animal).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -767,7 +769,7 @@
           <column name="notes_ru">Для множественного числа используется {-mey:n}, даже если струп все еще прикреплен. [AUTOTRANSLATED]</column>
           <column name="notes_zh_HK">對於復數，即使結the仍然附著，也使用{-mey:n}。 [AUTOTRANSLATED]</column>
           <column name="notes_pt">Para o plural, {-mey:n} é usado mesmo se a crosta ainda estiver anexada. [AUTOTRANSLATED]</column>
-          <column name="hidden_notes"></column>
+          <column name="hidden_notes">When it was first revealed, the {DIr:sen:nolink} was accidentally dropped. This was corrected in the Q &amp; A session.</column>
           <column name="components">{Hampong:n}, {DIr:n}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
@@ -1431,7 +1433,7 @@
       <column name="notes_ru">Это относится к состоянию здоровья, которое влияет на человека психически или физически. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這指的是諸如醫療狀況之類的東西，會在心理上或身體上影響某人。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso se refere a algo como uma condição médica que afeta alguém mentalmente ou fisicamente. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The Americans with Disabilities Act of 1990 was authored by Senator Tom Harkin.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6387,7 +6389,7 @@ If an alien calendar contains more than six days, additional days are numbered b
       <column name="definition_pt">matar</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Hegh:v}, {HeghmoH:v}, {chot:v}, {muH:v}, {HoH:n}, {peq:v}, {wID:v}, {ghab:v}</column>
+      <column name="see_also">{Hegh:v}, {HeghmoH:v}, {chot:v}, {muH:v}, {HoH:n}, {peq:v}, {wID:v}, {ghab:v}, {jIb:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -8769,7 +8771,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="definition_pt">dente</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{nuj:n}, {wuS:n}, {ghapqa':n}, {Hom:n:1}</column>
+      <column name="see_also">{nuj:n}, {wuS:n}, {ghapqa':n}, {repnuj:n}, {Hom:n:1}</column>
       <column name="notes">Aside from its literal meaning as a body part, this word can also be used to refer to the "teeth" on a cogwheel or sprocket wheel (see {Ho':n:3}).</column>
       <column name="notes_de">Abgesehen von seiner wörtlichen Bedeutung als Körperteil kann dieses Wort auch verwendet werden, um sich auf die "Zähne" eines Zahnrads oder Kettenrads zu beziehen (siehe {Ho':n:3}). [AUTOTRANSLATED]</column>
       <column name="notes_fa">گذشته از معنای تحت اللفظی آن به عنوان بخش بدن ، این کلمه همچنین می تواند برای اشاره به "دندان" بر روی چرخ دستی یا چرخ دستی (چرخ دنده ای) استفاده شود (نگاه کنید به {Ho':n:3}). [AUTOTRANSLATED]</column>
@@ -9188,6 +9190,45 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">Hu</column>
+      <column name="part_of_speech">excl:alt</column>
+      <column name="definition">{Hu'ma:excl}</column>
+      <column name="definition_de">{Hu'ma:excl}</column>
+      <column name="definition_fa">{Hu'ma:excl}</column>
+      <column name="definition_sv">{Hu'ma:excl}</column>
+      <column name="definition_ru">{Hu'ma:excl}</column>
+      <column name="definition_zh_HK">{Hu'ma:excl}</column>
+      <column name="definition_pt">{Hu'ma:excl}</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 26 (2019):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -9868,7 +9909,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="definition_pt">garganta</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ghup:v}, {qo'qaD:n}</column>
+      <column name="see_also">{ghup:v}, {qo'qaD:n}, {chayqa':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -11424,7 +11465,7 @@ This is not used to mean "execute by hanging", which is {jIb:v}.</column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="search_tags">Hu'mI, Hu, ghghgh</column>
+      <column name="search_tags">ghghgh, hmm, uhh, filler word</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -11433,6 +11474,45 @@ This is not used to mean "execute by hanging", which is {jIb:v}.</column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {qep'a' 26 (2019):src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">Hu'mI</column>
+          <column name="part_of_speech">excl:alt</column>
+          <column name="definition">{Hu'ma:excl}</column>
+          <column name="definition_de">{Hu'ma:excl}</column>
+          <column name="definition_fa">{Hu'ma:excl}</column>
+          <column name="definition_sv">{Hu'ma:excl}</column>
+          <column name="definition_ru">{Hu'ma:excl}</column>
+          <column name="definition_zh_HK">{Hu'ma:excl}</column>
+          <column name="definition_pt">{Hu'ma:excl}</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="hidden_notes"></column>
+          <column name="components"></column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="source">[1] {qep'a' 26 (2019):src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hu'tegh</column>
