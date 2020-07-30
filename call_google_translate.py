@@ -16,15 +16,15 @@
 # Note: To maintain consistent transliteration of "Klingon" in zh-HK, run:
 # sed -i "s/克林貢/克林崗/" mem-*.xml
 # Also, in some cases the fullwidth semicolon may have to be replaced:
-# grep "{[^}]*：.*}" mem-*
+# grep "{[^}]*：.*}" mem-*.xml
 
 # It might also be useful to replace full-width commas with enumeration commas
 # (but care should be taken that the replacements are appropriate):
-# sed -i "s/\(：[^，]*\)}，{/\1}、{/g" mem-*
+# sed -i "s/\(：[^，]*\)}，{/\1}、{/g" mem-*.xml
 
 # It might be useful to run this command to remove extraneous spaces before
 # references after this script is run:
-# sed -i "s/\(notes_.*\) \(\[[1-9]\]\)/\1\2/g" mem-*
+# sed -i "s/\(notes_.*\) \(\[[1-9]\]\)/\1\2/g" mem-*.xml
 
 from googletrans import Translator
 
