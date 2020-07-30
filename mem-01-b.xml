@@ -5231,7 +5231,6 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="source">[1] {qep'a' 26 (2019):src}</column>
     </table>
     <table name="mem">
-      <!-- TODO: Fix Russian. -->
       <column name="_id"></column>
       <column name="entry_name">bIp</column>
       <column name="part_of_speech">n:num</column>
@@ -5248,14 +5247,22 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="notes">Note that the Klingon word for "hundred thousand" is independent of the words for "hundred" ({vatlh:n:num}) and "thousand" ({SaD:n:num}). The Klingon {bIp:n:num,nolink} is equivalent to the "lakh" which is used in South Asian numbering systems on Earth.
 
 For tens of millions, one could combine {maH:n:2,num} with {'uy':n:num,nolink} or {vatlh:n:num} with {bIp:n:num}.[2]</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
+      <column name="notes_de">Beachten Sie, dass das klingonische Wort für "hunderttausend" unabhängig von den Wörtern für "hundert" ({vatlh:n:num}) und "tausend" ({SaD:n:num}) ist. Das klingonische {bIp:n:num,nolink} entspricht dem "lakh", das in südasiatischen Nummerierungssystemen auf der Erde verwendet wird.
+
+Für zig Millionen könnte man {maH:n:2,num} mit {'uy':n:num,nolink} oder {vatlh:n:num} mit {bIp:n:num}.[2] kombinieren [AUTOTRANSLATED]</column>
+      <column name="notes_fa">توجه داشته باشید که کلمه کلینگون برای "صد هزار" مستقل از کلمات "صد" ({vatlh:n:num}) و "هزار" ({SaD:n:num}) است. Klingon {bIp:n:num,nolink} معادل "دریاچه" است که در سیستم های شماره گذاری آسیای جنوبی در کره زمین استفاده می شود. برای دهها میلیون نفر ، می توان {maH:n:2,num} را با {'uy':n:num,nolink} یا {vatlh:n:num} با {bIp:n:num}.[2] ترکیب کرد [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Observera att Klingon-ordet för "hundra tusen" är oberoende av orden för "hundra" ({vatlh:n:num}) och "tusen" ({SaD:n:num}). Klingon {bIp:n:num,nolink} motsvarar "lakh" som används i sydasiatiska nummersystem på jorden.
+
+För tiotals miljoner kunde man kombinera {maH:n:2,num} med {'uy':n:num,nolink} eller {vatlh:n:num} med {bIp:n:num}.[2] [AUTOTRANSLATED]</column>
       <column name="notes_ru">Обратите внимание, что клингонское слово для "сотни тысяч" не зависит от слов "сотня" ({vatlh:n:num}) и "тысяча" ({SaD:n:num}). Клингонский слово {bIp:n:num,nolink} эквивалент "lakh" которое используетсяв южно-азиатской системе счисления Земли.
 
-For tens of millions, one could combine {maH:n:2,num} with {'uy':n:num,nolink} or {vatlh:n:num} with {bIp:n:num}.[2]</column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+На десятки миллионов можно было бы комбинировать {maH:n:2,num} с {'uy':n:num,nolink} или {vatlh:n:num} с {bIp:n:num}. [2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">請注意，克林貢語單詞“十萬”與單詞“一百”（{vatlh:n:num}）和“千”（{SaD:n:num}）無關。 Klingon {bIp:n:num,nolink}等效於地球上南亞編號系統中使用的“ lakh”。
+
+數千萬美元可以將{maH:n:2,num}與{'uy':n:num,nolink}或{vatlh:n:num}與{bIp:n:num}組合在一起。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Observe que a palavra klingon para "cem mil" é independente das palavras para "cem" ({vatlh:n:num}) e "mil" ({SaD:n:num}). O Klingon {bIp:n:num,nolink} é equivalente ao "lakh" usado nos sistemas de numeração do sul da Ásia na Terra.
+
+Para dezenas de milhões, pode-se combinar {maH:n:2,num} com {'uy':n:num,nolink} ou {vatlh:n:num} com {bIp:n:num}.[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -9123,7 +9130,6 @@ There is also a related idiom {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}.</column
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <!-- TODO: Update German and Russian notes -->
       <column name="entry_name">botlh</column>
       <column name="part_of_speech">n:1</column>
       <column name="definition">center, middle</column>
@@ -9141,14 +9147,20 @@ There is also a related idiom {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}.</column
 This word is also used in mathematics (see {botlh:n:2}).</column>
       <column name="notes_de">Für den Bereich zwischen zwei (oder mehreren) Gegenständen, siehe {joj:n}. Für das Innere eines Gegenstandes, siehe {qoD:n}.
 
-This word is also used in mathematics (see {botlh:n:2}).</column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
+Dieses Wort wird auch in der Mathematik verwendet (siehe {botlh:n:2}). [AUTOTRANSLATED]</column>
+      <column name="notes_fa">برای منطقه بین دو (یا چند) مورد ، به {joj:n} مراجعه کنید. برای داخلی داخلی یک شی به طور کلی ، به {qoD:n} مراجعه کنید. این کلمه در ریاضیات نیز به کار می رود (به {botlh:n:2} مراجعه کنید). [AUTOTRANSLATED]</column>
+      <column name="notes_sv">För {joj:n} för området mellan två (eller fler) objekt. För insidan av ett objekt i allmänhet, se {qoD:n}.
+
+Detta ord används också i matematik (se {botlh:n:2}). [AUTOTRANSLATED]</column>
       <column name="notes_ru">Для территории между двумя (или более) объектами, смотрите {joj:n}. Для внутренностей объекта в целом, смотрите {qoD:n}.
 
-This word is also used in mathematics (see {botlh:n:2}).</column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+Это слово также используется в математике (см. {botlh:n:2}). [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">有關兩個（或更多）對象之間的區域，請參見{joj:n}。有關對象內部的一般信息，請參見{qoD:n}。
+
+這個詞也用於數學中（請參閱{botlh:n:2}）。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Para a área entre dois (ou mais) objetos, consulte {joj:n}. Para o interior de um objeto em geral, consulte {qoD:n}.
+
+Essa palavra também é usada em matemática (consulte {botlh:n:2}). [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
