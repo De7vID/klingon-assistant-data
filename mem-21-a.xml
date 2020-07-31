@@ -176,7 +176,7 @@
       <column name="definition_pt">vazio</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{logh:n}</column>
+      <column name="see_also">{logh:n}, {chIm:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -184,7 +184,9 @@
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes">The example which came with the request is about outer space, so this seems to be a scientific term rather than a philosophical term.</column>
+      <column name="hidden_notes">The Beatles song "Tomorrow Never Knows" contains the lyric "surrender to the void" ({jegh:v} "surrender" + {cha':n:num} "two").
+
+The example which came with the request is about outer space, so this seems to be a scientific term rather than a philosophical term.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -651,16 +653,16 @@
       <column name="_id"></column>
       <column name="entry_name">'alnum</column>
       <column name="part_of_speech">n:body</column>
-      <column name="definition">freckle(s)</column>
-      <column name="definition_de">Sommersprossen) [AUTOTRANSLATED]</column>
-      <column name="definition_fa">تکه (های) [AUTOTRANSLATED]</column>
-      <column name="definition_sv">freckle (s) [AUTOTRANSLATED]</column>
-      <column name="definition_ru">веснушки) [AUTOTRANSLATED]</column>
+      <column name="definition">freckle</column>
+      <column name="definition_de">Sommersprossen [AUTOTRANSLATED]</column>
+      <column name="definition_fa">کک مک [AUTOTRANSLATED]</column>
+      <column name="definition_sv">fräkne [AUTOTRANSLATED]</column>
+      <column name="definition_ru">веснушка [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">雀斑 [AUTOTRANSLATED]</column>
       <column name="definition_pt">sardas</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{qab:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -668,7 +670,7 @@
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The request was "freckle(s)" so this is how it may appear in other word lists, but the "(s)" has been removed here for consistency with other definitions.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -1420,7 +1422,7 @@ When applied to people, it can only mean literal turning to stone. (It does not 
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {qablIj HI'ang:sen:nolink} "Show me your face!" (see {Hay':v})[2, p.68]
+▶ {qablIj HI'ang!:sen}[2, p.68]
 ▶ {ro'lIj HI'ang!:sen}[2, p.195]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -1764,14 +1766,14 @@ When applied to people, it can only mean literal turning to stone. (It does not 
       <column name="definition_pt">cálcio</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'evtlhev:n}, {baS:n}</column>
-      <column name="notes">This is the metallic chemical element with atomic number 20.</column>
-      <column name="notes_de">Dies ist das metallische chemische Element mit der Ordnungszahl 20. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این عنصر شیمیایی فلزی با عدد اتمی 20 است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är det metalliska kemiska elementet med atomnummer 20. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это металлический химический элемент с атомным номером 20. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這是原子序數為20的金屬化學元素。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Este é o elemento químico metálico com número atômico 20. [AUTOTRANSLATED]</column>
+      <column name="see_also">{'evtlhev:n}, {baS:n}, {tamler:n}</column>
+      <column name="notes">This is the metallic chemical element with the symbol Ca and atomic number 20.</column>
+      <column name="notes_de">Dies ist das metallische chemische Element mit dem Symbol Ca und der Ordnungszahl 20. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این عنصر شیمیایی فلزی با نماد Ca و عدد اتمی 20 است. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är det metalliska kemiska elementet med symbolen Ca och atomnummer 20. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это металлический химический элемент с символом Ca и атомным номером 20. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是金屬化學元素，符號為Ca，原子序數為20。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Este é o elemento químico metálico com o símbolo Ca e o número atômico 20. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2172,14 +2174,16 @@ In other contexts, consider using the verb suffix {-qu':v}. For example: {nom yI
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{naH:n}</column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes">Based on the request, this should refer to the trailing or climbing plant itself, rather than the fruit (which would presumably be {'aquta' naH:n@@'aquta':n, naH:n}).</column>
+      <column name="notes">This refers to the trailing or climbing plant itself.</column>
+      <column name="notes_de">Dies bezieht sich auf die Schlepp- oder Kletterpflanze selbst. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این مربوط به خود گیاه کوهنوردی یا کوهنوردی است. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta avser släp- eller klättringsanläggningen själv. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это относится к самому висячему или вьющемуся растению. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是指拖尾植物或攀援植物本身。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Refere-se à planta de reboque ou trepadeira em si. [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">"Luffa acutangula" is a type of gourd known as vegetable gourd or Chinese okra. In the episode {TOS - The Apple:src}, a character named Akuta smashes a Persian melon.
+
+The request was for the plant. Presumably, the fruit be {'aquta' naH:n@@'aquta':n, naH:n}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>

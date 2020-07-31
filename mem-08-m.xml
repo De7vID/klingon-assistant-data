@@ -589,7 +589,7 @@ The imperative verb prefix when {maH:n:1h,nolink} is the object is {gho-:v:pref}
       <column name="entry_name">maHnaD</column>
       <column name="part_of_speech">n</column>
       <column name="definition">protein</column>
-      <column name="definition_de">Protein [AUTOTRANSLATED]</column>
+      <column name="definition_de">Protein, Eiweiß</column>
       <column name="definition_fa">پروتئین [AUTOTRANSLATED]</column>
       <column name="definition_sv">protein [AUTOTRANSLATED]</column>
       <column name="definition_ru">белок [AUTOTRANSLATED]</column>
@@ -986,7 +986,6 @@ The writers who came up with this apparently looked up words for "good" and "nig
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <!-- TODO: Fix Russian note. -->
       <column name="entry_name">mang</column>
       <column name="part_of_speech">n:inhps</column>
       <column name="definition">soldier</column>
@@ -1001,10 +1000,10 @@ The writers who came up with this apparently looked up words for "good" and "nig
       <column name="see_also"></column>
       <column name="notes">The word {mangpu':n@@mang:n, -pu':n} is seldom-used, and carries the notion that there are individuals making up the group. {negh:n} focuses on the group as a unit. {QaS:n:1h} is similar to {negh:n:nolink}, but excludes officers.[2]</column>
       <column name="notes_de">Das Wort {mangpu':n@@mang:n, -pu':n} wird selten verwendet und enthält die Vorstellung, dass es Einzelpersonen gibt, aus denen die Gruppe besteht. {negh:n} konzentriert sich auf die Gruppe als Einheit. {QaS:n:1h} ähnelt {negh:n:nolink}, schließt jedoch Offiziere aus.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fa"></column>
+      <column name="notes_fa">کلمه {mangpu':n@@mang:n, -pu':n} به ندرت مورد استفاده قرار می گیرد و این تصور را به وجود می آورد که افراد تشکیل دهنده این گروه وجود دارند. {negh:n} در گروه به عنوان واحد تمرکز دارد. {QaS:n:1h} مشابه {negh:n:nolink} است ، اما افسران را مستثنی نمی کند.[2] [AUTOTRANSLATED]</column>
       <column name="notes_sv">Ordet {mangpu':n@@mang:n, -pu':n} används sällan och bär uppfattningen att det finns individer som utgör gruppen. {negh:n} fokuserar på gruppen som en enhet. {QaS:n:1h} liknar {negh:n:nolink}, men utesluter officerare.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Слово {mangpu':n@@mang:n, -pu':n} редко используется, и несет смысловую нагрузку, что есть люди, которые создают группу. Слово {negh:n} фокусируется на группе, как на подразделении. {QaS:n:1h} is similar to {negh:n:nolink}, but excludes officers.[2]</column>
-      <column name="notes_zh_HK"></column>
+      <column name="notes_ru">Слово {mangpu':n@@mang:n, -pu':n} редко используется, и несет смысловую нагрузку, что есть люди, которые создают группу. Слово {negh:n} фокусируется на группе, как на подразделении. {QaS:n:1h} похож на {negh:n:nolink}, но исключает офицеров.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">單詞{mangpu':n@@mang:n, -pu':n}很少使用，帶有這樣的概念，即由個人組成該組。 {negh:n}將小組作為一個單元來關注。 {QaS:n:1h}與{negh:n:nolink}類似，但不包括人員。[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt">A palavra {mangpu':n@@mang:n, -pu':n} é raramente usada e carrega a noção de que há indivíduos que compõem o grupo. O {negh:n} foca o grupo como uma unidade. {QaS:n:1h} é semelhante ao {negh:n:nolink}, mas exclui oficiais.[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components">{negh:n}</column>
@@ -2437,13 +2436,13 @@ It's unclear what sense of "fair" is meant by this word.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{SuyDar:n}</column>
-      <column name="notes">For "be superconductive," say maySon chIw "express superconductivity" or the like</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="notes">For "be superconductive," say {maySon chIw:sen@@maySon:n, chIw:v} "express superconductivity" or the like.</column>
+      <column name="notes_de">Für "supraleitend sein" sagen Sie {maySon chIw:sen@@maySon:n, chIw:v} "Supraleitung ausdrücken" oder dergleichen. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">برای اینکه "ابررسانا باشید" ، بگویید {maySon chIw:sen@@maySon:n, chIw:v} "ابررسانایی را ابراز کنید" یا موارد مشابه. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">För "vara superledande", säger {maySon chIw:sen@@maySon:n, chIw:v} "uttryck superkonduktivitet" eller liknande. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Для «быть сверхпроводящим», скажем {maySon chIw:sen@@maySon:n, chIw:v} «выразить сверхпроводимость» или тому подобное. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">{maySon chIw:sen@@maySon:n, chIw:v}表示“超導”或“表達超導”等。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Para "seja supercondutor", diga {maySon chIw:sen@@maySon:n, chIw:v} "expresse supercondutividade" ou algo semelhante. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3563,7 +3562,6 @@ It's unclear what sense of "fair" is meant by this word.</column>
       <column name="source">[1] {Pop Culture Hero Coalition announcement:src} ({KLI mailing list 2016.11.30:src})</column>
     </table>
     <table name="mem">
-      <!-- TODO: Fix Russian. -->
       <column name="_id"></column>
       <column name="entry_name">mej</column>
       <column name="part_of_speech">v:t_c</column>
@@ -3582,16 +3580,36 @@ It's unclear what sense of "fair" is meant by this word.</column>
 While {mej:v:nolink} refers simply to leaving one's current location, {tlheD:v} generally implies setting out on a journey, with a goal or destination in mind. In both cases, the object is the place you're leaving or departing from.[4]
 
 To express leaving a person or object (rather than a location), consider {lon:v}.</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
+      <column name="notes_de">In {TNK:src} wird {DaH jImej:sen:nolink} für den terranischen Ausdruck "Auf Wiedersehen" verwendet.[2] Dies bedeutet wörtlich "Ich gehe jetzt". Ein Klingone würde natürlich einfach gehen, ohne überflüssige Feinheiten wie die Erklärung seiner Absicht, dies zu tun.
+
+Während sich {mej:v:nolink} lediglich auf das Verlassen des aktuellen Standorts bezieht, bedeutet {tlheD:v} im Allgemeinen, sich auf eine Reise zu begeben, die ein Ziel oder ein Ziel vor Augen hat. In beiden Fällen ist das Objekt der Ort, den Sie verlassen oder von dem Sie abreisen. [4]
+
+Um das Verlassen einer Person oder eines Objekts (anstelle eines Ortes) auszudrücken, ziehen Sie {lon:v} in Betracht. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">در {TNK:src} ، از {DaH jImej:sen:nolink} برای عبارت Terran "خداحافظ" استفاده شده است .[2] این به معنای واقعی کلمه به معنای "من در حال ترک هستم" است. البته ، یک کلینگون بدون داشتن سادگی های اضافی مانند اعلام قصد خود برای انجام این کار ، فقط ترک می شود.
+
+در حالی که {mej:v:nolink} به سادگی به ترک مکان فعلی شخص اشاره دارد ، {tlheD:v} به طور کلی دلالت بر مسافرت با هدف یا مقصد در ذهن دارد. در هر دو حالت ، شیء محلی است که شما از آن خارج می شوید یا از آن خارج می شوید. [4]
+
+برای بیان ترک شخص یا شیء (به جای مکان) ، {lon:v} را در نظر بگیرید. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">I {TNK:src} används {DaH jImej:sen:nolink} för Terran-uttrycket "adjö".[2] Detta betyder bokstavligen "Jag lämnar nu". En Klingon skulle naturligtvis bara lämna, utan överflödiga godisar som att förklara hans eller hennes avsikt att göra det.
+
+Medan {mej:v:nolink} helt enkelt hänvisar till att lämna sin nuvarande plats, innebär {tlheD:v} i allmänhet att man utgår på en resa med ett mål eller destination i åtanke. I båda fallen är objektet den plats du lämnar eller avgår från. [4]
+
+För att uttrycka att du lämnar en person eller ett objekt (snarare än en plats), överväga {lon:v}. [AUTOTRANSLATED]</column>
       <column name="notes_ru">В {TNK:src}, {DaH jImej:sen:nolink} используется для земного выражения "досвидания".[2] Дословно это значит "Я ухожу сейчас". Клингон конечно же просто уйдет, без лишних тонкостей, таких, как объявление о своем уходе.
 
-While {mej:v:nolink} refers simply to leaving one's current location, {tlheD:v} generally implies setting out on a journey, with a goal or destination in mind. In both cases, the object is the place you're leaving or departing from.[4]
+В то время как {mej:v:nolink} относится просто к тому, чтобы покинуть свое текущее местоположение, {tlheD:v}, как правило, подразумевает отправку в путешествие, имея в виду цель или пункт назначения. В обоих случаях объект - это место, из которого вы покидаете или покидаете. [4]
 
-Чтобы выразить уход от какого-то человека или объекта (скорее из какой-то локации), предпочитается слово {lon:v}.</column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+Чтобы выразить уход от какого-то человека или объекта (скорее из какой-то локации), предпочитается слово {lon:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">在{TNK:src}中，{DaH jImej:sen:nolink}用於人族表情“再見”。[2]的字面意思是“我現在要離開”。當然，克林貢人只會離開，而沒有多餘的好處，例如宣布他或她打算這樣做。
+
+{mej:v:nolink}只是指離開當前位置，而{tlheD:v}通常意味著出發時要牢記目標或目的地。在這兩種情況下，物體都是您要離開或離開的地方。[4]
+
+要表示要離開人或物體（而不是位置），請考慮{lon:v}。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Em {TNK:src}, {DaH jImej:sen:nolink} é usado para a expressão terráquea "adeus" .[2] Isso significa literalmente "Estou saindo agora". Um Klingon, é claro, acabaria de sair, sem sutilezas supérfluas, como declarar sua intenção de fazê-lo.
+
+Embora {mej:v:nolink} se refira simplesmente a deixar a localização atual, {tlheD:v} geralmente implica sair em uma jornada, com um objetivo ou destino em mente. Nos dois casos, o objeto é o local de onde você sai ou sai.[4]
+
+Para expressar a saída de uma pessoa ou objeto (em vez de um local), considere {lon:v}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -4717,7 +4735,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_pt">quadrado (forma)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{buq'Ir:n}, {gho:n}, {mey':n}, {letbaQ:n}</column>
+      <column name="see_also">{buq'Ir:n}, {gho:n}, {mey':n}, {letbaQ:n}, {loS reD mey':n}</column>
       <column name="notes">This is technically a {letbaQ HoS:n@@letbaQ:n, HoS:v}.
 
 This word can also refer to the "diamond" suit in a deck of playing cards (see {Degh:n:1}).[2]</column>
@@ -4764,7 +4782,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="notes_fa">چند ضلعی n یک طرفه {n reD mey':n:nolink} برای n> 3 است. به عنوان مثال: {loS reD mey':n} ، {vagh reD mey':n}. [AUTOTRANSLATED]</column>
       <column name="notes_sv">En n-sidig polygon är en {n reD mey':n:nolink} för n> 3. Till exempel: {loS reD mey':n}, {vagh reD mey':n}. [AUTOTRANSLATED]</column>
       <column name="notes_ru">N-сторонний многоугольник - это {n reD mey':n:nolink} для n> 3. Например: {loS reD mey':n}, {vagh reD mey':n}. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">n邊的多邊形是n> 3的{n reD mey':n:nolink}。例如：{loS reD mey':n}，{vagh reD mey':n}。 [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">n邊的多邊形是n> 3的{n reD mey':n:nolink}。例如：{loS reD mey':n}、{vagh reD mey':n}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -5350,7 +5368,7 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="definition_pt">olho</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lur:n}, {Separ:n}, {Huy':n}, {mInyoD:n}, {muylIS:n}, {valQav:n}</column>
+      <column name="see_also">{lur:n}, {valQav:n}, {Separ:n}, {Huy':n}, {mInyoD:n}, {muylIS:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5806,7 +5824,6 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-     <!-- TODO: Fix Russian note. -->
       <column name="_id"></column>
       <column name="entry_name">mIr</column>
       <column name="part_of_speech">n:1</column>
@@ -5821,10 +5838,10 @@ This word can also refer to the "diamond" suit in a deck of playing cards (see {
       <column name="antonyms"></column>
       <column name="see_also">{tlharwIl:n}</column>
       <column name="notes">This can also be used metaphorically or symbolically (see {mIr:n:2}). As well, if things are clear, it can be used as a slang term to mean {wIyqap:n} or {lanSoy:n} (though probably not {wev:n}).</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies kann auch metaphorisch oder symbolisch verwendet werden (siehe {mIr:n:2}). Wenn die Dinge klar sind, kann es auch als Slang-Begriff verwendet werden, um {wIyqap:n} oder {lanSoy:n} zu bedeuten (obwohl wahrscheinlich nicht {wev:n}). [AUTOTRANSLATED]</column>
       <column name="notes_fa">این همچنین می تواند به صورت استعاری یا نمادین استفاده شود (به {mIr:n:2} مراجعه کنید). همچنین ، اگر مسائل واضح باشند ، می تواند به عنوان اصطلاح عامیانه به معنای {wIyqap:n} یا {lanSoy:n} باشد (البته احتمالاً {wev:n} نیست). [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta kan också användas metaforiskt eller symboliskt (se {mIr:n:2}). Om saker och ting är tydliga kan det också användas som en slangbegrepp för att betyda {wIyqap:n} eller {lanSoy:n} (men förmodligen inte {wev:n}). [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это может быть использовано, как метафора(см. {mIr:n:2}). As well, if things are clear, it can be used as a slang term to mean {wIyqap:n} or {lanSoy:n} (though probably not {wev:n}).</column>
+      <column name="notes_ru">Это может быть использовано, как метафора(см. {mIr:n:2}). Кроме того, если все ясно, его можно использовать как сленговый термин для обозначения {wIyqap:n} или {lanSoy:n} (хотя, вероятно, не {wev:n}). [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">也可以隱喻或像徵性地使用它（請參閱{mIr:n:2}）。同樣，如果情況清楚的話，它可以用作a語來表示{wIyqap:n}或{lanSoy:n}（儘管可能不是{wev:n}）。 [AUTOTRANSLATED]</column>
       <column name="notes_pt"></column>
       <column name="hidden_notes"></column>
@@ -7586,7 +7603,7 @@ See under {wot:n} for the verb suffixes.</column>
       <column name="definition_pt">trapézio</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qarpal:n}</column>
+      <column name="see_also">{qarpal:n}, {loS reD mey':n}</column>
       <column name="notes">This refers to a quadrilateral with no parallel sides.</column>
       <column name="notes_de">Dies bezieht sich auf ein Viereck ohne parallele Seiten. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این به چهار ضلعی اشاره دارد که طرفین موازی ندارند. [AUTOTRANSLATED]</column>
@@ -7594,7 +7611,9 @@ See under {wot:n} for the verb suffixes.</column>
       <column name="notes_ru">Это относится к четырехугольнику без параллельных сторон. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是指沒有平行邊的四邊形。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Refere-se a um quadrilátero sem lados paralelos. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">In British English, this word refers to what would be called a general irregular quadrilateral (whereas the word "trapezium" refers to what in American English would be called a "trapezoid").</column>
+      <column name="hidden_notes">The word "trapezium" also refers to a bone ({Hom:n:1}) in the wrist ({yeb:n:1}).
+
+In British English, this word refers to what would be called a general irregular quadrilateral (whereas the word "trapezium" refers to what in American English would be called a "trapezoid").</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8038,7 +8057,7 @@ This word is defined in {KGT:src} as "smile, grin, sneer".[1]  It is explained t
       <column name="definition_pt">pescoço</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{nach:n}, {volchaH:n}, {mong Ha'quj:n}, {mongDech:n}, {'achler:n}</column>
+      <column name="see_also">{nach:n}, {volchaH:n}, {mong Ha'quj:n}, {mongDech:n}, {'achler:n}, {chayqa':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -10044,7 +10063,7 @@ This verb is also used in music ({much:v:2}) and martial arts ({much:v:3}).</col
       <column name="definition_pt">executar, matar</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{HoH:v}</column>
+      <column name="see_also">{jIb:v}, {HoH:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>

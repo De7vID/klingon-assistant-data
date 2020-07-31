@@ -1565,7 +1565,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
       <column name="definition_fa">دلار [AUTOTRANSLATED]</column>
       <column name="definition_sv">dollar [AUTOTRANSLATED]</column>
       <column name="definition_ru">доллар [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">美元 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">蚊（美元、港幣等等）</column>
       <column name="definition_pt">dólar</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -1643,7 +1643,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
       <column name="definition_fa">دیترویت [AUTOTRANSLATED]</column>
       <column name="definition_sv">Detroit [AUTOTRANSLATED]</column>
       <column name="definition_ru">Детройт [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">底特律 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">底特律</column>
       <column name="definition_pt">Detroit</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2891,7 +2891,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
       <column name="definition_fa">نیاگارا [AUTOTRANSLATED]</column>
       <column name="definition_sv">niagara [AUTOTRANSLATED]</column>
       <column name="definition_ru">Niagara [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">尼亞加拉 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">尼亞加拉</column>
       <column name="definition_pt">Niágara</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4694,7 +4694,6 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
       <column name="source">[1] {Saarbrücken qepHom'a' 2019:src}</column>
     </table>
     <table name="mem">
-      <!-- TODO: Fix Russian. -->
       <column name="_id"></column>
       <column name="entry_name">teqSaS</column>
       <column name="part_of_speech">n:place</column>
@@ -4709,12 +4708,12 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is the name of a state located in {'amerI'qa' SepjIjQa':n}. Its capital city is {'oStIn:n}.</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
+      <column name="notes_de">Dies ist der Name eines Status in {'amerI'qa' SepjIjQa':n}. Die Hauptstadt ist {'oStIn:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این نام دولتی است که در {'amerI'qa' SepjIjQa':n} واقع شده است. پایتخت آن {'oStIn:n} است. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta är namnet på ett tillstånd som ligger i {'amerI'qa' SepjIjQa':n}. Dess huvudstad är {'oStIn:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Название штата, расположенного в {'amerI'qa' SepjIjQa':n}. Its capital city is {'oStIn:n}.</column>
+      <column name="notes_ru">Название штата, расположенного в {'amerI'qa' SepjIjQa':n}. Его столицей является {'oStIn:n}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是位於{'amerI'qa' SepjIjQa':n}中的州的名稱。它的首都是{'oStIn:n}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt"></column>
+      <column name="notes_pt">Este é o nome de um estado localizado em {'amerI'qa' SepjIjQa':n}. Sua capital é {'oStIn:n}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -6734,6 +6733,7 @@ DSC {pIqaD:n:nolink} font: {Quvar:n:name,nolink} (Ливен Л. Литар)
       <column name="source"></column>
     </table>
     <table name="mem">
+      <!-- http://nordicebm.wordpress.com/2014/11/12/igniting-the-hidden-fire-of-demand-for-understandable-scientific-evidence/ -->
       <column name="_id"></column>
       <column name="entry_name">chalqut ngat</column>
       <column name="part_of_speech">n:deriv,extcan</column>
@@ -6764,7 +6764,6 @@ DSC {pIqaD:n:nolink} font: {Quvar:n:name,nolink} (Ливен Л. Литар)
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="search_tags"></column>
-      <!-- http://nordicebm.wordpress.com/2014/11/12/igniting-the-hidden-fire-of-demand-for-understandable-scientific-evidence/ -->
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -7919,7 +7918,7 @@ DSC {pIqaD:n:nolink} font: {Quvar:n:name,nolink} (Ливен Л. Литар)
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is a hypothetical component that is found in {loDnal:n}, {be'nal:n}, {nalqaD:n}, as well as {'e'nal:n}. According to {KCD:src}, {nal:n:hyp,nolink} is not used as a word on its own.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist eine hypothetische Komponente, die in {loDnal:n}, {be'nal:n}, {nalqaD:n} sowie {'e'nal:n} enthalten ist. Laut {KCD:src} wird {nal:n:hyp,nolink} nicht als eigenständiges Wort verwendet. [AUTOTRANSLATED]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">Detta är en hypotetisk komponent som finns i {loDnal:n}, {be'nal:n}, {nalqaD:n} samt {'e'nal:n}. Enligt {KCD:src} används {nal:n:hyp,nolink} inte som ett ord på egen hand. [AUTOTRANSLATED]</column>
       <column name="notes_ru">Это гипотетический компонент, который находится в {loDnal:n}, {be'nal:n}, {nalqaD:n}, а также в {'e'nal:n}. Согласно {KCD:src}, {nal:n:hyp,nolink} не используется как слово само по себе. [AUTOTRANSLATED]</column>
@@ -8334,6 +8333,7 @@ DSC {pIqaD:n:nolink} font: {Quvar:n:name,nolink} (Ливен Л. Литар)
       <column name="source">[1] {Duolingo:src}</column>
     </table>
     <table name="mem">
+      <!-- http://nordicebm.wordpress.com/2014/11/12/igniting-the-hidden-fire-of-demand-for-understandable-scientific-evidence/ -->
       <column name="_id"></column>
       <column name="entry_name">qulSo'</column>
       <column name="part_of_speech">n:deriv,extcan</column>
@@ -8369,7 +8369,6 @@ DSC {pIqaD:n:nolink} font: {Quvar:n:name,nolink} (Ливен Л. Литар)
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
-      <!-- http://nordicebm.wordpress.com/2014/11/12/igniting-the-hidden-fire-of-demand-for-understandable-scientific-evidence/ -->
       <column name="search_tags_pt"></column>
       <column name="source"></column>
     </table>
@@ -8883,6 +8882,45 @@ DSC {pIqaD:n:nolink} font: {Quvar:n:name,nolink} (Ливен Л. Литар)
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source"></column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">SeH</column>
+      <column name="part_of_speech">n:archaic,hyp</column>
+      <column name="definition">control</column>
+      <column name="definition_de">Steuerung [AUTOTRANSLATED]</column>
+      <column name="definition_fa">کنترل [AUTOTRANSLATED]</column>
+      <column name="definition_sv">kontrollera [AUTOTRANSLATED]</column>
+      <column name="definition_ru">контроль [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">控制 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">controle</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">Maltz said he's never heard of a noun {SeH:n:nolink}, but that the {SeH:sen:nolink} in {SeHjan:n}, {SeHlaw:n}, and {'eDSeHcha:n} and elsewhere is clearly related to the verb {SeH:v}. Using {SeH:n:nolink} as an independent word (as a noun) felt weird to him (but he's changed his mind before).</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes">This was revealed after the Q &amp; A session in a document explaining the grammar of {bIQ SeHjan:n:nolink}.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -9665,47 +9703,6 @@ The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, 
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {Duolingo:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">'ergh</column>
-      <column name="part_of_speech">v:t</column>
-      <column name="definition">hallucinate?</column>
-      <column name="definition_de">halluzinieren?</column>
-      <column name="definition_fa">توهم؟ [AUTOTRANSLATED]</column>
-      <column name="definition_sv">hallucinate? [AUTOTRANSLATED]</column>
-      <column name="definition_ru">hallucinate? [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">幻覺？ [AUTOTRANSLATED]</column>
-      <column name="definition_pt">alucinar?</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{naj:v}</column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes">This was rumoured to have been revealed at {qep'a' 26 (2019):src}, but has not been officially confirmed.
-
-LSD is short for Lys"erg"ic Acid Diethylamide.</column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="source"></column>
     </table>
     <table name="mem">
       <column name="_id"></column>
