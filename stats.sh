@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function get_count() {
-  echo $(grep "definition_${1}\">\(.*\[AUTOTRANSLATED\]\)\?<" mem-* | wc -l)
+  echo $(grep "definition_${1}\">\(.*\[AUTOTRANSLATED\]\)\?<" mem-*.xml | wc -l)
 }
 
 DE_COUNT=$(get_count "de")
