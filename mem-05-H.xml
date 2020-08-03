@@ -2161,7 +2161,7 @@ To agree to the duel, say {vISo'be':sen@@vI-:v, So':v, -be':v} "I don't hide it"
       <column name="entry_name">Ha', ... wIjaH!</column>
       <column name="part_of_speech">sen:bc</column>
       <column name="definition">Come, let's go to ... !</column>
-      <column name="definition_de">Los, lass uns gehen!</column>
+      <column name="definition_de">Los, lass uns nach ... gehen!</column>
       <column name="definition_fa">بیا! برویم ... !</column>
       <column name="definition_sv">Kom, låt oss gå till ...! [AUTOTRANSLATED]</column>
       <column name="definition_ru">Давайте, пойдём в/на/к ... !</column>
@@ -2187,7 +2187,10 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
 ▶ {Ha', pa'lIj wIjaH!:sen:nolink} "Come, let's go to your quarters!"
 ▶ {Ha', tach wIjaH!:sen:nolink} "Come, let's go to a bar!"
 ▶ {Ha', vaS'a' wIjaH!:sen:nolink} "Come, let's go to the Great Hall."</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {Ha', pa'lIj wIjaH!:sen:nolink} "Los, lass uns in dein Zimmer gehen!"
+▶ {Ha', tach wIjaH!:sen:nolink} "Los, lass uns zur Bar gehen!"
+▶ {Ha', vaS'a' wIjaH!:sen:nolink} "Los, lass uns zur Großen Halle gehen!"</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
@@ -2337,7 +2340,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="antonyms"></column>
       <column name="see_also">{Hamburgh:n}</column>
       <column name="notes">This is what Klingons would call the Terran food.</column>
-      <column name="notes_de">So würden Klingonen das terranische Essen nennen. [AUTOTRANSLATED]</column>
+      <column name="notes_de">So würden Klingonen das terranische Essen nennen.</column>
       <column name="notes_fa">این چیزی است که کلینگونها آن را غذای تران می نامند. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Det här är vad Klingons skulle kalla Terran-maten. [AUTOTRANSLATED]</column>
       <column name="notes_ru">Это то, что Клингоны называют земной пищей</column>
@@ -2377,7 +2380,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="antonyms"></column>
       <column name="see_also">{Ha'on vevwI':n}</column>
       <column name="notes">This refers to the little piece of metal that holds sheets of paper together.</column>
-      <column name="notes_de">Dies bezieht sich auf das kleine Stück Metall, das die Blätter zusammenhält. [AUTOTRANSLATED]</column>
+      <column name="notes_de">Dies bezieht sich auf das kleine Stück Metall, das die Blätter zusammenhält.</column>
       <column name="notes_fa">این مربوط به قطعه کوچکی از فلز است که صفحات کاغذ را در کنار هم نگه می دارد. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta hänvisar till det lilla metallstycket som håller samman pappersark. [AUTOTRANSLATED]</column>
       <column name="notes_ru">Это относится к маленькому кусочку металла, который скрепляет листы бумаги. [AUTOTRANSLATED]</column>
@@ -2457,7 +2460,7 @@ To use such a device, one may {qIp:v}, {'uy:v}, or {ngaH:v} it, depending on the
       <column name="antonyms"></column>
       <column name="see_also">{Ha'quj nge':sen:idiom}, {mong Ha'quj:n}</column>
       <column name="notes">In ancient times, this supported a sword. Now it is symbolic of one's {tuq:n}.</column>
-      <column name="notes_de">In der Antike stützte dies ein Schwert. Jetzt ist es ein Symbol für die {tuq:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_de">In der Antike stützte dies ein Schwert. Jetzt ist es ein Symbol für das {tuq:n}.</column>
       <column name="notes_fa">در زمان های قدیم ، این از شمشیر پشتیبانی می کرد. اکنون این نماد {tuq:n} است. [AUTOTRANSLATED]</column>
       <column name="notes_sv">I forntiden stödde detta ett svärd. Nu är det symboliskt för ens {tuq:n}. [AUTOTRANSLATED]</column>
       <column name="notes_ru">В древние времена использовалась для ношения меча. Сейчас это символ {tuq:n}.</column>
@@ -2498,7 +2501,7 @@ To use such a device, one may {qIp:v}, {'uy:v}, or {ngaH:v} it, depending on the
       <column name="antonyms"></column>
       <column name="see_also">{Ha'quj:n}, {le'yo':n}, {nur:n}</column>
       <column name="notes">The expression {Ha'qujlIj nge':sen:nolink} "take away your sash" means "wound your pride".</column>
-      <column name="notes_de">Der Ausdruck {Ha'qujlIj nge':sen:nolink} "Nimm deine Schärpe weg" bedeutet "Verwunde deinen Stolz". [AUTOTRANSLATED]</column>
+      <column name="notes_de">Der Ausdruck {Ha'qujlIj nge':sen:nolink} "jemandes Schärpe wegnehmen" bedeutet "jemandes Stolz verletzen".</column>
       <column name="notes_fa">عبارت {Ha'qujlIj nge':sen:nolink} "تو را از خود دور کن" به معنای "غرور افتخار تو" است. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Uttrycket {Ha'qujlIj nge':sen:nolink} "ta bort din skärm" betyder "lindra din stolthet". [AUTOTRANSLATED]</column>
       <column name="notes_ru">Выражение {Ha'qujlIj nge':sen:nolink} "сними свою перевязь" значит "ущеми свою гордость".</column>
@@ -2583,7 +2586,7 @@ A physical path would be a {taw:n}.</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">Here, "her" refers to the Enterprise ({'entepray':n:name}).</column>
-      <column name="notes_de">Hier bezieht sich "sie" auf das Unternehmen ({'entepray':n:name}). [AUTOTRANSLATED]</column>
+      <column name="notes_de">Hier bezieht sich "ihren" auf die Enterprise ({'entepray':n:name}).</column>
       <column name="notes_fa">در اینجا ، "او" به Enterprise ({'entepray':n:name}) اشاره دارد. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Här hänvisar "henne" till Enterprise ({'entepray':n:name}). [AUTOTRANSLATED]</column>
       <column name="notes_ru">Здесь «она» относится к Предприятию ({'entepray':n:name}). [AUTOTRANSLATED]</column>
@@ -2612,7 +2615,7 @@ A physical path would be a {taw:n}.</column>
       <column name="entry_name">Hevetlh wIghoSchugh, veH tIn wI'el maH'e'.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">That course will take us into the Barrier as well.</column>
-      <column name="definition_de">Wenn wir jenem Kurs folgen, überschreiten wir die große Grenze.</column>
+      <column name="definition_de">Wenn wir jenem Kurs folgen, überschreiten wir die große Barriere.</column>
       <column name="definition_fa">این دوره ما را به سمت مانع نیز خواهد برد. [AUTOTRANSLATED]</column>
       <column name="definition_sv">Den kursen tar oss också in i barriären. [AUTOTRANSLATED]</column>
       <column name="definition_ru">Этот курс приведет нас и к Барьеру. [AUTOTRANSLATED]</column>
@@ -2690,7 +2693,7 @@ A physical path would be a {taw:n}.</column>
       <column name="entry_name">He pagh-pagh-pagh-DoD-cha' yInab!</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Plot course zero-zero-zero, mark two.</column>
-      <column name="definition_de">Plan den Kurs, null-null-null, mark zwei.</column>
+      <column name="definition_de">Setze einen Kurs auf null-null-null, Komma zwei.</column>
       <column name="definition_fa">قطعه صفر صفر صفر، علامت دو. [AUTOTRANSLATED]</column>
       <column name="definition_sv">Plot kurs noll-noll-noll, markera två. [AUTOTRANSLATED]</column>
       <column name="definition_ru">Проложить курс 0-0-0, отметка 2</column>
@@ -2899,7 +2902,7 @@ This word is listed among other militaristic terminology in the body of {KGT:src
       <column name="antonyms">{yIn:v}</column>
       <column name="see_also">{bogh:v}, {HoH:v}, {jub:v}, {jubbe':v}</column>
       <column name="notes">The fact that {yIn:v} can be used transitively suggests that {Hegh:v:nolink} can be too.</column>
-      <column name="notes_de">Die Tatsache, dass {yIn:v} transitiv verwendet werden kann, legt nahe, dass {Hegh:v:nolink} dies auch sein kann. [AUTOTRANSLATED]</column>
+      <column name="notes_de">Die Tatsache, dass {yIn:v} transitiv verwendet werden kann, legt nahe, dass {Hegh:v:nolink} dies auch sein kann.</column>
       <column name="notes_fa">این واقعیت که {yIn:v} می تواند به صورت انتقالی استفاده شود نشان می دهد که {Hegh:v:nolink} نیز می تواند باشد. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Det faktum att {yIn:v} kan användas övergående antyder att {Hegh:v:nolink} kan vara alltför. [AUTOTRANSLATED]</column>
       <column name="notes_ru">Фактически {yIn:v} может быть использована транзитивно. Как и {Hegh:v:nolink}.</column>
@@ -3132,7 +3135,7 @@ This word is listed among other militaristic terminology in the body of {KGT:src
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This may also be written as {Heghba':n:nolink}.</column>
-      <column name="notes_de">Dies kann auch als {Heghba':n:nolink} geschrieben werden. [AUTOTRANSLATED]</column>
+      <column name="notes_de">Dies kann auch als {Heghba':n:nolink} geschrieben werden.</column>
       <column name="notes_fa">این همچنین ممکن است به عنوان {Heghba':n:nolink} نوشته شود. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta kan också skrivas som {Heghba':n:nolink}. [AUTOTRANSLATED]</column>
       <column name="notes_ru">Это также может быть написано как {Heghba':n:nolink}. [AUTOTRANSLATED]</column>
@@ -3366,7 +3369,7 @@ This word is listed among other militaristic terminology in the body of {KGT:src
       <column name="antonyms"></column>
       <column name="see_also">{SonchIy:n}, {nol:n}, {'aQvoH:n}</column>
       <column name="notes">See under {Hegh bey:n} for a description of this ritual.</column>
-      <column name="notes_de">Eine Beschreibung dieses Rituals finden Sie unter {Hegh bey:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_de">Eine Beschreibung dieses Rituals ist zu finden unter {Hegh bey:n}.</column>
       <column name="notes_fa">برای شرح این آئین زیر به زیر {Hegh bey:n} مراجعه کنید. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Se under {Hegh bey:n} för en beskrivning av denna ritual. [AUTOTRANSLATED]</column>
       <column name="notes_ru">Смотрите под {Hegh bey:n} для описания этого ритуала. [AUTOTRANSLATED]</column>
@@ -3483,7 +3486,7 @@ This word is listed among other militaristic terminology in the body of {KGT:src
       <column name="antonyms"></column>
       <column name="see_also">{nur:n}, {jeQ:v}, {tuH:v}, {tlhIngan:n}, {le'yo':n}</column>
       <column name="notes">This is an admirable trait and does not carry connotations of arrogance, for which see {nguq:v}.</column>
-      <column name="notes_de">Dies ist eine bewundernswerte Eigenschaft und enthält keine Konnotationen der Arroganz, für die siehe {nguq:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_de">Dies ist eine bewundernswerte Eigenschaft und enthält keine Konnotationen der Arroganz, für letztere siehe {nguq:v}.</column>
       <column name="notes_fa">این یک صفت تحسین برانگیز است و حاوی استکبار نیست ، که برای آن مراجعه کنید {nguq:v}. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta är en beundransvärd egenskap och har inte konnotationer av arrogans, för vilka se {nguq:v}. [AUTOTRANSLATED]</column>
       <column name="notes_ru">Используется в контексте восхищения. Для описания высокомерия, смотрите {nguq:v}.</column>
