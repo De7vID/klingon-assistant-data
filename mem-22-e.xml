@@ -715,7 +715,7 @@ When connecting multiple sentences, only the final conjunction is needed. See th
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'ejtlhal</column>
-      <column name="part_of_speech">n:body</column>
+      <column name="part_of_speech">n</column>
       <column name="definition">tumor</column>
       <column name="definition_de">Tumor [AUTOTRANSLATED]</column>
       <column name="definition_fa">تومور [AUTOTRANSLATED]</column>
@@ -733,7 +733,7 @@ When connecting multiple sentences, only the final conjunction is needed. See th
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The request which resulted in this word was categorised as a body part question by the requester, but it seems the word isn't a body part.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
