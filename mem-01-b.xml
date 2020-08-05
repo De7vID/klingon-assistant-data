@@ -3069,7 +3069,6 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <!-- The link to {ben:n:1} in the first example is not a mistake. -->
       <column name="_id"></column>
       <column name="entry_name">ben</column>
       <column name="part_of_speech">n:2</column>
@@ -3097,16 +3096,13 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {loSmaH ben jIboghpu'.:sen@@loS:n:1, maH:n:2, ben:n:1, jI-:v, bogh:v, -pu':v} "I am 40 years old."[2]
-▶ {cha'vatlh ben HIq:n} "two century old ale"[3]
-▶ {wa'maH ben loDnI'wI':n@@wa':n, maH:n:2, ben:n:2, loDnI':n, -wI':n} "My 10-year old brother"[4]</column>
+▶ {loSmaH ben jIboghpu'.:sen}
+▶ {cha'vatlh ben HIq:n}
+▶ {wa'maH ben loDnI'wI':n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru">
-▶ {loSmaH ben jIboghpu'.:sen@@loS:n:1, maH:n:2, ben:n:1, jI-:v, bogh:v, -pu':v} "Мне 40 лет."[2]
-▶ {cha'vatlh ben HIq:n} "двухсотлетний эль"[3]
-▶ {wa'maH ben loDnI'wI':n@@wa':n, maH:n:2, ben:n:2, loDnI':n, -wI':n} "Мой десятилетний брат"[4]</column>
+      <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="search_tags"></column>
@@ -3116,7 +3112,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {KGT:src}, [2] {msn 1996.12.12:src}, [3] {PK:src}, [4] {Saarbrücken qepHom'a' 2015:src}</column>
+      <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7524,14 +7520,11 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="examples">
 ▶ {bogh tlhInganpu', SuvwI'pu' moj, Hegh.:sen}
 ▶ {SuvmeH 'ej charghmeH bogh tlhInganpu'.:sen}
-▶ {loSmaH ben jIboghpu'.:sen@@loS:n:1, maH:n:2, ben:n:1, jI-:v, bogh:v, -pu':v} "I am 40 years old."[2]</column>
+▶ {loSmaH ben jIboghpu'.:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru">
-▶ {bogh tlhInganpu', SuvwI'pu' moj, Hegh.:sen}
-▶ {SuvmeH 'ej charghmeH bogh tlhInganpu'.:sen}
-▶ {loSmaH ben jIboghpu'.:sen@@loS:n:1, maH:n:2, ben:n:1, jI-:v, bogh:v, -pu':v} "Мне 40 лет."[2]</column>
+      <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="search_tags"></column>
@@ -7541,7 +7534,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKD:src}, [2] {msn 1996.12.12:src}</column>
+      <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
