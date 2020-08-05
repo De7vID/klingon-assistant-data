@@ -2736,7 +2736,7 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qeq</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">aim (at)</column>
       <column name="definition_de">zielen (auf)</column>
       <column name="definition_fa">هدف [AUTOTRANSLATED]</column>
@@ -2747,17 +2747,27 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{puS:v:2}</column>
-      <column name="notes">The object is the projectile or weapon, and the target is marked with {-Daq:n:suff}. See {bach:v}.
+      <column name="notes">The object is the projectile or weapon, and the target is marked with {-Daq:n:suff} (see {bach:v} for details).
 
-To express the idea of "face" (orient towards), the object is the one oriented toward someone or something, and the thing or person being faced is marked with {-Daq:n:suff}. With this meaning, this verb is often used with {-'egh:v:suff} or {-chuq:v:suff}.[4]
+This verb is also used to express the idea of "face" (orient towards) (see {Qeq:v:2}).</column>
+      <column name="notes_de">Das Objekt ist das Projektil oder die Waffe, und das Ziel ist mit {-Daq:n:suff} markiert (Einzelheiten siehe {bach:v}).
 
-Do not confuse with {qeq:v}.</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+Dieses Verb wird auch verwendet, um die Idee von "Gesicht" auszudrücken (orientieren Sie sich an) (siehe {Qeq:v:2}). [AUTOTRANSLATED]</column>
+      <column name="notes_fa">هدف پرتابه یا سلاح است و هدف با {-Daq:n:suff} مشخص شده است (برای جزئیات بیشتر به {bach:v} مراجعه کنید).
+
+این فعل همچنین برای بیان ایده "چهره" (جهت گیری به سمت) استفاده می شود (به {Qeq:v:2} مراجعه کنید). [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Objektet är projektilen eller vapnet, och målet är markerat med {-Daq:n:suff} (se {bach:v} för detaljer).
+
+Detta verb används också för att uttrycka idén om "ansikte" (orientera mot) (se {Qeq:v:2}). [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Объектом является снаряд или оружие, а цель помечена {-Daq:n:suff} (подробнее см. {bach:v}).
+
+Этот глагол также используется, чтобы выразить идею «лица» (ориентироваться на) (см. {Qeq:v:2}). [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">對像是彈丸或武器，目標標有{-Daq:n:suff}（有關詳細信息，請參閱{bach:v}）。
+
+此動詞還用於表達“面部”（面向）的概念（請參閱{Qeq:v:2}）。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">O objeto é o projétil ou arma e o alvo é marcado com {-Daq:n:suff} (consulte {bach:v} para obter detalhes).
+
+Este verbo também é usado para expressar a idéia de "face" (orientar para) (consulte {Qeq:v:2}). [AUTOTRANSLATED]</column>
       <column name="hidden_notes">This was defined as "aim" in {KGT:src} and clarified to "aim (at)" at {qep'a' 27 (2020):src}.</column>
       <column name="components"></column>
       <column name="examples">
@@ -2769,7 +2779,7 @@ Do not confuse with {qeq:v}.</column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="search_tags">face</column>
+      <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -2777,6 +2787,45 @@ Do not confuse with {qeq:v}.</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {KGT:src}, [2] {TKW p.191:src}, [3] {ENT - Affliction:src}, [4] {qep'a' 27 (2020):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">Qeq</column>
+      <column name="part_of_speech">v:2,t_c</column>
+      <column name="definition">face (orient towards)</column>
+      <column name="definition_de">Gesicht (orientieren sich an) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">چهره (جهت گیری به سمت) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">ansikte (orientera mot) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">лицо (ориентировано на) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">面對（面向） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">face (orientar em direção) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is just an application of {Qeq:v:1}. The object is the one oriented toward someone or something, and the thing or person being faced is marked with {-Daq:n:suff}. With this meaning, this verb is often used with {-'egh:v:suff} or {-chuq:v:suff}.[1]</column>
+      <column name="notes_de">Dies ist nur eine Anwendung von {Qeq:v:1}. Das Objekt ist auf jemanden oder etwas ausgerichtet, und das Objekt oder die Person, mit der es konfrontiert ist, ist mit {-Daq:n:suff} gekennzeichnet. In dieser Bedeutung wird dieses Verb häufig mit {-'egh:v:suff} oder {-chuq:v:suff}.[1] verwendet [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این فقط برنامه {Qeq:v:1} است. شیء شخصی است که به سمت شخص یا چیزی متمایل است و چیز یا شخص مورد نظر با {-Daq:n:suff} مشخص شده است. با این معنی ، این فعل اغلب با {-'egh:v:suff} یا {-chuq:v:suff}.[1] استفاده می شود [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är bara en applikation av {Qeq:v:1}. Objektet är det som är orienterat mot någon eller något, och den eller personen som står inför är markerad med {-Daq:n:suff}. Med denna betydelse används detta verb ofta med {-'egh:v:suff} eller {-chuq:v:suff}.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это просто приложение {Qeq:v:1}. Объект - это объект, ориентированный на кого-то или что-то, а находящаяся на нем вещь или человек помечается {-Daq:n:suff}. В этом значении этот глагол часто используется с {-'egh:v:suff} или {-chuq:v:suff}.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這只是{Qeq:v:1}的應用程序。該對像是面向某人或某物的對象，並且所面對的某物或某人用{-Daq:n:suff}標記。具有此含義的此動詞通常與{-'egh:v:suff}或{-chuq:v:suff}.[1]一起使用。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Esta é apenas uma aplicação do {Qeq:v:1}. O objeto é aquele orientado para alguém ou algo, e a coisa ou pessoa que está sendo confrontada é marcada com {-Daq:n:suff}. Com esse significado, esse verbo é frequentemente usado com {-'egh:v:suff} ou {-chuq:v:suff}.[1] [AUTOTRANSLATED]</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags">orient towards</column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
