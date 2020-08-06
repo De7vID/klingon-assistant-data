@@ -7,7 +7,9 @@ The `notes` fields are for typical users of the lexicon. An attempt should be
 made to keep information there "in-universe". The `hidden_notes` field is for
 (typically) "out-of-universe" information such as puns (what Marc Okrand calls
 "coincidences"), or background stories about how a word or phrase was invented
-(such as having to retrofit a movie edit).
+(such as having to retrofit a movie edit). For some entries (e.g., {Hov leng:n}
+or the names of actors or actresses), keeping the notes "in-universe" might not
+be possible, so this is not a strict requirement.
 
 The `entry_name` field should exactly match how the definition appears in the
 original source if possible. This is important as the database is used by
@@ -93,3 +95,10 @@ neutral form ("for x, y is used"). The autotranslated sentences use the very
 formal "Sie" which looks too formal for this app. To avoid discussions about
 using the informal "du", such phrases can be rearranged into general statements
 like "dieses Wort wird verwendet" ("this word is used").
+
+### Chinese (Hong Kong)
+
+- The Cantonese transliteration of "Klingon" used in Hong Kong is "克林崗", and
+  not "克林貢" which is used in Taiwanese Mandarin (and which is returned by
+  Google Translate for "Traditional Chinese").
+
