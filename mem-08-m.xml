@@ -1766,12 +1766,11 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {jar DamaSqu'bogh yIngu'!:sen:nolink} "What is your favorite month?"[2]</column>
+▶ {jar DamaSqu'bogh yIngu'!:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru">
-▶ {jar DamaSqu'bogh yIngu'!:sen:nolink} "Какой твой любимый месяц?"[2]</column>
+      <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="search_tags"></column>
@@ -1781,7 +1780,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKD:src}, [2] {msn 1996.12.12:src}</column>
+      <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -1844,14 +1843,14 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_zh_HK">此表達式用於描述{betleH:n}的形狀。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esta expressão é usada para descrever a forma do {betleH:n}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
-      <column name="components">{maS:n}, {-'e':n}, {loQ:adv}, {So':v}, {-be':v}, {-bogh:v}, {QIb:n}</column>
+      <column name="components">{maS:n}, {-'e':n}, {loQ:adv}, {So':v:1}, {-be':v}, {-bogh:v}, {QIb:n}</column>
       <column name="examples">
 ▶ {nuH'e' qengbogh mangghomvam:sen:nolink}
    {luDel 'e' ra' molor:sen:nolink}
    {lujang maS'e' loQ So'be'bogh QIb lurur:sen:nolink}
   "Molor asks them
    What weapons this army carries,
-  They reply, shaped as the crescent moon."</column>
+   They reply, shaped as the crescent moon."</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -1895,7 +1894,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_zh_HK"></column>
       <column name="notes_pt">Na versão original em klingon de {yulyuS qaySar:n:name} (Julius Caesar), o personagem titular é avisado para tomar cuidado com o {maS'e' So'bogh pagh:n:nolink}. Não está claro por que isso foi alterado para os "ides" de março na tradução.[1] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
-      <column name="components">{maS:n}, {-'e':n}, {So':v}, {-bogh:v}, {pagh:n:1h}</column>
+      <column name="components">{maS:n}, {-'e':n}, {So':v:1}, {-bogh:v}, {pagh:n:1h}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -2563,7 +2562,7 @@ It's unclear what sense of "fair" is meant by this word.</column>
           <column name="hidden_notes"></column>
           <column name="components">{may' bom:n}, {pIm:v}, {bom:v}</column>
           <column name="examples">
-    ▶ {DaH may' bom pIm Dabom.:sen:nolink} "Well, that's another matter altogether."</column>
+▶ {DaH may' bom pIm Dabom.:sen:nolink} "Well, that's another matter altogether."</column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
           <column name="examples_sv"></column>
@@ -2759,7 +2758,7 @@ It's unclear what sense of "fair" is meant by this word.</column>
           <column name="hidden_notes"></column>
           <column name="components">{may':n}, {ta:n}</column>
           <column name="examples">
-    ▶ {beq may' ta vIlajpu'} "I have accepted the crew's record of battle"[1]</column>
+▶ {beq may' ta vIlajpu'} "I have accepted the crew's record of battle"[1]</column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
           <column name="examples_sv"></column>
@@ -4413,7 +4412,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_ru">шифровать [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">加密 [AUTOTRANSLATED]</column>
       <column name="definition_pt">criptografar</column>
-      <column name="synonyms">{So':v}</column>
+      <column name="synonyms">{So':v:2}</column>
       <column name="antonyms">{meSHa':v:2}</column>
       <column name="see_also">{meS:v:1}</column>
       <column name="notes"></column>
@@ -4491,16 +4490,16 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_ru">расшифровывать [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">解碼 [AUTOTRANSLATED]</column>
       <column name="definition_pt">decifrar</column>
-      <column name="synonyms">{So'Ha':v}</column>
+      <column name="synonyms">{So'Ha':v:2}</column>
       <column name="antonyms">{meS:v:2}</column>
       <column name="see_also">{meSHa':v:1}, {baghHa':v}</column>
-      <column name="notes">As with {So'Ha':v:nolink}, this implies that the person doing the decryption knows what he or she is doing ahead of time and is not cracking a code.[1]</column>
-      <column name="notes_de">Wie bei {So'Ha':v:nolink} bedeutet dies, dass die Person, die die Entschlüsselung durchführt, im Voraus weiß, was sie tut, und keinen Code knackt.[1] [AUTOTRANSLATED]</column>
+      <column name="notes">As with {So'Ha':v:2,nolink}, this implies that the person doing the decryption knows what he or she is doing ahead of time and is not cracking a code.[1]</column>
+      <column name="notes_de">Wie bei {So'Ha':v:2,nolink} bedeutet dies, dass die Person, die die Entschlüsselung durchführt, im Voraus weiß, was sie tut, und keinen Code knackt.[1] [AUTOTRANSLATED]</column>
       <column name="notes_fa"></column>
-      <column name="notes_sv">Liksom med {So'Ha':v:nolink}, innebär detta att den som gör dekrypteringen vet vad han eller hon gör i förväg och inte spricker en kod.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Liksom med {So'Ha':v:2,nolink}, innebär detta att den som gör dekrypteringen vet vad han eller hon gör i förväg och inte spricker en kod.[1] [AUTOTRANSLATED]</column>
       <column name="notes_ru"></column>
-      <column name="notes_zh_HK">與{So'Ha':v:nolink}一樣，這意味著進行解密的人可以提前知道自己在做什麼，並且不會破解代碼。[1] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Assim como no {So'Ha':v:nolink}, isso implica que a pessoa que está executando a descriptografia sabe o que está fazendo com antecedência e não está decifrando um código.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">與{So'Ha':v:2,nolink}一樣，這意味著進行解密的人可以提前知道自己在做什麼，並且不會破解代碼。[1] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Assim como no {So'Ha':v:2,nolink}, isso implica que a pessoa que está executando a descriptografia sabe o que está fazendo com antecedência e não está decifrando um código.[1] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components">{meS:v:2}, {-Ha':v}</column>
       <column name="examples"></column>

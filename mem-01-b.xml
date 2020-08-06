@@ -296,7 +296,7 @@ O sufixo {-Daq:n} marca o destino.</column>
       <column name="definition_pt">decifrar um código</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{So'Ha':v}, {meSHa':v:2}</column>
+      <column name="see_also">{So'Ha':v:2}, {meSHa':v:2}</column>
       <column name="notes">This slang term is used for figuring out how to decrypt previously encrypted data (and successfully doing so), without knowing how to do so ahead of time. That is, it refers to unauthorized decryption.[1]</column>
       <column name="notes_de">Dieser umgangssprachliche Begriff wird verwendet, um verschlüsselte Daten erfolgreich zu entschlüsseln, ohne verher jedoch den Code zu kennen. Es ist also ein unerlaubtes Knacken einer Verschlüsselung.[1]</column>
       <column name="notes_fa">این اصطلاح عامیانه برای فهمیدن نحوه رمزگشایی داده های رمزگذاری شده قبلی (و با موفقیت انجام این کار) ، بدون دانستن چگونگی انجام این کار در پیش از زمان ، استفاده می شود. یعنی به رمزگشایی غیرمجاز اشاره دارد.[1] [AUTOTRANSLATED]</column>
@@ -3069,7 +3069,6 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
-      <!-- The link to {ben:n:1} in the first example is not a mistake. -->
       <column name="_id"></column>
       <column name="entry_name">ben</column>
       <column name="part_of_speech">n:2</column>
@@ -3097,16 +3096,13 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {loSmaH ben jIboghpu'.:sen@@loS:n:1, maH:n:2, ben:n:1, jI-:v, bogh:v, -pu':v} "I am 40 years old."[2]
-▶ {cha'vatlh ben HIq:n} "two century old ale"[3]
-▶ {wa'maH ben loDnI'wI':n@@wa':n, maH:n:2, ben:n:2, loDnI':n, -wI':n} "My 10-year old brother"[4]</column>
+▶ {loSmaH ben jIboghpu'.:sen}
+▶ {cha'vatlh ben HIq:n}
+▶ {wa'maH ben loDnI'wI':n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru">
-▶ {loSmaH ben jIboghpu'.:sen@@loS:n:1, maH:n:2, ben:n:1, jI-:v, bogh:v, -pu':v} "Мне 40 лет."[2]
-▶ {cha'vatlh ben HIq:n} "двухсотлетний эль"[3]
-▶ {wa'maH ben loDnI'wI':n@@wa':n, maH:n:2, ben:n:2, loDnI':n, -wI':n} "Мой десятилетний брат"[4]</column>
+      <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="search_tags"></column>
@@ -3116,7 +3112,7 @@ To say "when I was X years old", the construction is, for example, {qaStaHvIS DI
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {KGT:src}, [2] {msn 1996.12.12:src}, [3] {PK:src}, [4] {Saarbrücken qepHom'a' 2015:src}</column>
+      <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -4737,7 +4733,9 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Это предложение дословно означает, "Если ты не сдашься, то умрешь". Обратите внимание, что союз "или" {pagh:conj} не используется в Клингонском предложении. В общем случае предложения вида "X или Y!" (требование, чтобы слушатель выбрал один из двух вариантов) должны быть переделаны в {bI-X-be'chugh vaj bI-Y:sen:nolink} "Если ты не X, то ты Y" на клингонском.
+
+Смотрите, как это говорит Гаурон: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="hidden_notes"></column>
@@ -4746,9 +4744,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru">Это предложение дословно означает, "Если ты не сдашься, то умрешь". Обратите внимание, что союз "или" {pagh:conj} не используется в Клингонском предложении. В общем случае предложения вида "X или Y!" (требование, чтобы слушатель выбрал один из двух вариантов) должны быть переделаны в {bI-X-be'chugh vaj bI-Y:sen:nolink} "Если ты не X, то ты Y" на клингонском.
-
-Смотрите, как это говорит Гаурон: {YouTube video:url:http://youtu.be/NpFDKTzINH8}</column>
+      <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="search_tags"></column>
@@ -7156,7 +7152,9 @@ To answer in the negative, say {ghobe':excl} or {jItlhutlh vIneHbe'} "I don't wa
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Чтобы ответить утвердительно,скажите {HIja':excl} "да" или {jItlhutlh vIneH} "Я хочу пить."
+
+Чтобы ответить отрицательно, скажите {ghobe':excl} "нет" или {jItlhutlh vIneHbe'} "Я не хочу пить."</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="hidden_notes"></column>
@@ -7165,9 +7163,7 @@ To answer in the negative, say {ghobe':excl} or {jItlhutlh vIneHbe'} "I don't wa
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru">Чтобы ответить утвердительно,скажите {HIja':excl} "да" или {jItlhutlh vIneH} "Я хочу пить."
-
-Чтобы ответить отрицательно, скажите {ghobe':excl} "нет" или {jItlhutlh vIneHbe'} "Я не хочу пить."</column>
+      <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="search_tags"></column>
@@ -7524,14 +7520,11 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="examples">
 ▶ {bogh tlhInganpu', SuvwI'pu' moj, Hegh.:sen}
 ▶ {SuvmeH 'ej charghmeH bogh tlhInganpu'.:sen}
-▶ {loSmaH ben jIboghpu'.:sen@@loS:n:1, maH:n:2, ben:n:1, jI-:v, bogh:v, -pu':v} "I am 40 years old."[2]</column>
+▶ {loSmaH ben jIboghpu'.:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru">
-▶ {bogh tlhInganpu', SuvwI'pu' moj, Hegh.:sen}
-▶ {SuvmeH 'ej charghmeH bogh tlhInganpu'.:sen}
-▶ {loSmaH ben jIboghpu'.:sen@@loS:n:1, maH:n:2, ben:n:1, jI-:v, bogh:v, -pu':v} "Мне 40 лет."[2]</column>
+      <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="search_tags"></column>
@@ -7541,7 +7534,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKD:src}, [2] {msn 1996.12.12:src}</column>
+      <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -8148,7 +8141,7 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
       <column name="definition_pt">aliança, bloco, coalizão</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tlhoQ:n}, {DIvI':n}, {ghom:n}, {qev:n}, {tlhach:n}, {boq:v}, {boq:n:2}</column>
+      <column name="see_also">{tlhoQ:n}, {DIvI':n}, {ghom:n}, {qev:n}, {tlhach:n}, {boq:v:1}, {boq:n:2}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -8214,27 +8207,65 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
       <column name="source">[1] {BoP:src}</column>
     </table>
     <table name="mem">
-      <!-- TODO: Maybe split this into two entries. -->
       <column name="_id"></column>
       <column name="entry_name">boq</column>
-      <column name="part_of_speech">v:t_c</column>
-      <column name="definition">ally with, form an alliance with; add (used in math)</column>
-      <column name="definition_de">sich verbünden mit, eine Allianz formen; plus (in der Mathematik)</column>
-      <column name="definition_fa">با هم متحد شوید اضافه (استفاده در ریاضی) [AUTOTRANSLATED]</column>
+      <column name="part_of_speech">v:1,t_c</column>
+      <column name="definition">ally with, form an alliance with</column>
+      <column name="definition_de">sich verbünden mit, eine Allianz formen</column>
+      <column name="definition_fa">با آنها متحد شوید ، اتحاد کنید [AUTOTRANSLATED]</column>
       <column name="definition_sv">alliera med, förena med, skapa en allians med</column>
-      <column name="definition_ru">Вступать в союз с, заключать альянс с, добавлять(используется в математике)</column>
-      <column name="definition_zh_HK">結盟；加（數學）</column>
-      <column name="definition_pt">aliado com, formar uma aliança com; adição (usado em matemática)</column>
+      <column name="definition_ru">Вступать в союз с, заключать альянс с</column>
+      <column name="definition_zh_HK">結盟</column>
+      <column name="definition_pt">aliado com, formar uma aliança com</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chen:v}, {boq:n:1}, {chel:v}</column>
-      <column name="notes">The four basic arithmetic operations are: + {boq:v:nolink}, - {boqHa':v}, × {boq'egh:v}, ÷ {boqHa''egh:v}. In these operations, numbers are treated as if they are grammatically singular.</column>
-      <column name="notes_de">Die vier grundlegenden arithmetischen Operationen sind: + {boq:v:nolink}, - {boqHa':v}, × {boq'egh:v}, ÷ {boqHa''egh:v}. Bei diesen Operationen werden Zahlen so behandelt, als wären sie grammatikalisch singulär. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">چهار عملیات حسابی اساسی عبارتند از: + {boq:v:nolink} ، - {boqHa':v} ، × {boq'egh:v} ، ÷ {boqHa''egh:v}. در این عملیات ، با اعداد طوری رفتار می شود که انگار از لحاظ گرامری مفرد هستند. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">De fyra grundläggande aritmetiska operationerna är: + {boq:v:nolink}, - {boqHa':v}, × {boq'egh:v}, ÷ {boqHa''egh:v}. I dessa operationer behandlas siffror som om de är grammatiskt singular. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">4 базовые арифеметические операции: + {boq:v:nolink}, - {boqHa':v}, × {boq'egh:v}, ÷ {boqHa''egh:v}. В этих операциях числа трактуются так, как если бы они были в единственном числе.</column>
-      <column name="notes_zh_HK">四個基本算術運算是：+ {boq:v:nolink}，-{boqHa':v}，×{boq'egh:v}，÷{boqHa''egh:v}。在這些運算中，將數字視為在語法上是單數的。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">As quatro operações aritméticas básicas são: + {boq:v:nolink}, - {boqHa':v}, × {boq'egh:v}, ÷ {boqHa''egh:v}. Nessas operações, os números são tratados como se fossem gramaticalmente singulares. [AUTOTRANSLATED]</column>
+      <column name="see_also">{boq:n:1}</column>
+      <column name="notes">This word is also used in mathematics for addition (see {boq:v:2}).</column>
+      <column name="notes_de">Dieses Wort wird auch in der Mathematik zur Addition verwendet (siehe {boq:v:2}). [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این کلمه در ریاضیات علاوه بر این نیز به کار می رود (به {boq:v:2} مراجعه کنید). [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta ord används också i matematik för tillägg (se {boq:v:2}). [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это слово также используется в математике для сложения (см. {boq:v:2}). [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這個詞在數學中也用於加法（請參閱{boq:v:2}）。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Essa palavra também é usada em matemática para adição (consulte {boq:v:2}). [AUTOTRANSLATED]</column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {HQ 9.3, Sept. 2000:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">boq</column>
+      <column name="part_of_speech">v:2,t_c</column>
+      <column name="definition">add (used in math)</column>
+      <column name="definition_de">plus (in der Mathematik)</column>
+      <column name="definition_fa">اضافه کردن (مورد استفاده در ریاضی) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">lägg till (används i matematik) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">добавлять(используется в математике)</column>
+      <column name="definition_zh_HK">加（數學）</column>
+      <column name="definition_pt">adição (usado em matemática)</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{boq:v:1}, {chen:v}, {chel:v}</column>
+      <column name="notes">The four basic arithmetic operations are: + {boq:v:2,nolink}, - {boqHa':v}, × {boq'egh:v}, ÷ {boqHa''egh:v}. In these operations, numbers are treated as if they are grammatically singular.</column>
+      <column name="notes_de">Die vier grundlegenden arithmetischen Operationen sind: + {boq:v:2,nolink}, - {boqHa':v}, × {boq'egh:v}, ÷ {boqHa''egh:v}. Bei diesen Operationen werden Zahlen so behandelt, als wären sie grammatikalisch singulär. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">چهار عملیات حسابی اساسی عبارتند از: + {boq:v:2,nolink} ، - {boqHa':v} ، × {boq'egh:v} ، ÷ {boqHa''egh:v}. در این عملیات ، با اعداد طوری رفتار می شود که انگار از لحاظ گرامری مفرد هستند. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">De fyra grundläggande aritmetiska operationerna är: + {boq:v:2,nolink}, - {boqHa':v}, × {boq'egh:v}, ÷ {boqHa''egh:v}. I dessa operationer behandlas siffror som om de är grammatiskt singular. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">4 базовые арифеметические операции: + {boq:v:2,nolink}, - {boqHa':v}, × {boq'egh:v}, ÷ {boqHa''egh:v}. В этих операциях числа трактуются так, как если бы они были в единственном числе.</column>
+      <column name="notes_zh_HK">四個基本算術運算是：+ {boq:v:2,nolink}，-{boqHa':v}，×{boq'egh:v}，÷{boqHa''egh:v}。在這些運算中，將數字視為在語法上是單數的。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">As quatro operações aritméticas básicas são: + {boq:v:2,nolink}, - {boqHa':v}, × {boq'egh:v}, ÷ {boqHa''egh:v}. Nessas operações, os números são tratados como se fossem gramaticalmente singulares. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -8267,7 +8298,7 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
           <column name="definition_pt">subtrair (usado em matemática)</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
-          <column name="see_also">{boq:v}, {chen:v}, {Dop:v:2}</column>
+          <column name="see_also">{boq:v:2}, {chen:v}, {Dop:v:2}</column>
           <column name="notes"></column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
@@ -8276,9 +8307,9 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="hidden_notes"></column>
-          <column name="components">{boq:v}, {-Ha':v}</column>
+          <column name="components">{boq:v:2}, {-Ha':v}</column>
           <column name="examples">
-    ▶ {loS boqHa' wej; chen wa':sen:nolink} 4 - 3 = 1</column>
+▶ {loS boqHa' wej; chen wa':sen:nolink} 4 - 3 = 1</column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
           <column name="examples_sv"></column>
@@ -8307,7 +8338,7 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
           <column name="definition_pt">multiplicar (usado em matemática)</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
-          <column name="see_also">{boq:v}, {chen:v}, {-logh:n:num,suff}</column>
+          <column name="see_also">{boq:v:2}, {chen:v}, {-logh:n:num,suff}</column>
           <column name="notes"></column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
@@ -8316,10 +8347,10 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="hidden_notes"></column>
-          <column name="components">{boq:v}, {-'egh:v}</column>
+          <column name="components">{boq:v:2}, {-'egh:v}</column>
           <column name="examples">
-    ▶ {cha'logh boq'egh wej; chen jav:sen:nolink} 2 × 3 = 6
-    ▶ {pIraqSIS HoS waw' ghajlu'chugh, loSlogh boq'egh mI' naghmey mI'; chen qav'ap.:sen:nolink} "If Praxis Energy Facility is owned, rent is 4 times amount shown on dice."</column>
+▶ {cha'logh boq'egh wej; chen jav:sen:nolink} 2 × 3 = 6
+▶ {pIraqSIS HoS waw' ghajlu'chugh, loSlogh boq'egh mI' naghmey mI'; chen qav'ap.:sen:nolink} "If Praxis Energy Facility is owned, rent is 4 times amount shown on dice."</column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
           <column name="examples_sv"></column>
@@ -8348,7 +8379,7 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
           <column name="definition_pt">dividir (usado em matemática)</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
-          <column name="see_also">{boq:v}, {chen:v}, {wav:v}, {loch:v}</column>
+          <column name="see_also">{boq:v:2}, {chen:v}, {wav:v}, {loch:v}</column>
           <column name="notes"></column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
@@ -8357,9 +8388,9 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="hidden_notes"></column>
-          <column name="components">{boq:v}, {-Ha':v}, {-'egh:v}</column>
+          <column name="components">{boq:v:2}, {-Ha':v}, {-'egh:v}</column>
           <column name="examples">
-    ▶ {wejlogh boqHa''egh jav; chen cha':sen:nolink} 6 / 3 = 2</column>
+▶ {wejlogh boqHa''egh jav; chen cha':sen:nolink} 6 / 3 = 2</column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
           <column name="examples_sv"></column>

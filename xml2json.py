@@ -220,7 +220,7 @@ def validatelinks(root, node):
 # Section names of the individual XML fragments that make up the database
 memparts = ['header', 'b', 'ch', 'D', 'gh', 'H', 'j', 'l', 'm', 'n', 'ng', 'p',
             'q', 'Q', 'r', 'S' ,'t', 'tlh', 'v', 'w', 'y', 'a', 'e', 'I', 'o',
-            'u', 'suffixes', 'extra', 'footer']
+            'u', 'suffixes', 'extra', 'examples', 'footer']
 filenames = []
 concat=''
 sdir = os.path.dirname(os.path.realpath(sys.argv[0]))
