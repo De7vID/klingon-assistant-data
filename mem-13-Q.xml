@@ -4688,7 +4688,7 @@ There is no traditional Klingon way to say something like "Merry Christmas". An 
       <column name="notes_ru">Смотрите, как это говорит Гаурон: {YouTube video:url:http://youtu.be/IWW3uAXvOeM}</column>
       <column name="notes_zh_HK">觀看Gowron這樣說：{YouTube video:url:http://youtu.be/IWW3uAXvOeM} [AUTOTRANSLATED]</column>
       <column name="notes_pt">Assista Gowron dizer o seguinte: {YouTube video:url:http://youtu.be/IWW3uAXvOeM} [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is only noted as a curse in {TKD:src}. The explanation that it is a vulgar expression which defies translation comes from {KCD:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -5434,7 +5434,7 @@ Agreement is also expressed by the idiomatic expression {wa' DoS wIqIp.:sen:idio
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">{Qong:v:nolink} is used in {TKD:src} to illustrate the pronominal prefixes with no object. While the text strongly suggests that it does not take an object, it isn't explicitly stated.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6280,7 +6280,7 @@ In the Krotmag region, speakers replace {b:sen:nolink} with {m:sen:nolink} and {
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -8454,7 +8454,7 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="definition_pt">Insulto Klingon, dito em momentos de extrema raiva</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Hutvagh:n}</column>
+      <column name="see_also">{va:excl}, {Hutvagh:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -8462,7 +8462,9 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="hidden_notes">In a deleted scene from {Star Trek V:src}, the response to this curse was an invective in Klingon followed by the English "Screw you too!"</column>
+      <column name="hidden_notes">This is only noted as a curse in {TKD:src}. The explanation that this is something one might say in moments of extreme anger comes from {CK:src}.
+
+In a deleted scene from {Star Trek V:src}, the response to this curse was an invective in Klingon followed by the English "Screw you too!"</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8478,5 +8480,5 @@ The slang meaning of {chong:v:2,slang}, when applied to a person, is equivalent 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {CK:src}</column>
     </table>
