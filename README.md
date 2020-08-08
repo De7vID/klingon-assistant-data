@@ -47,6 +47,8 @@ The `notes` fields in languages other than English should be direct
 translations if possible, but may differ if it is necessary to include
 information specific to a language. For example, the German entry for
 {ngech:n:2} notes a common misunderstanding specific to the German language.
+Every link and source referenced in the English notes should be referenced in
+the translations.
 
 When adding a new entry, the `blank.xml` template should be used. There is a
 script `call_google_translate.py` which may be used to automatically translate
@@ -56,6 +58,26 @@ contain only the content "TRANSLATE". (The non-English `definition` fields are
 already filled in with "TRANSLATE" in the template.) After calling the
 translation script, it may be necessary to do some postprocessing. Instructions
 are found in the comments to the script file.
+
+The database source files are divided into letters, with additional sections for
+suffixes, extra entries, and example entries. For the purposes of this database,
+"canon" is defined as having come from (or approved by) Marc Okrand. Canon
+words and phrases which appear in pedagogical sources (books, audiotapes or CDs,
+software, and **qep'a'** or **qepHom**) belong in the main section (i.e., any
+file other than `extra` or `examples). The `extra` section is for miscellaneous
+entries such as words of uncertain provenance or known not to have come from or
+been approved by Marc Okrand (e.g., they were invented by the author of a Star
+Trek novel), transliterations of Terran fauna, flora, or place names not
+accepted as native Klingon words (such as strawberry or New York), and things
+which are low-priority when searching or don't belong elsewhere. It is also for
+canon sentences which appear in the TV shows or movies, or on DVD cases or
+advertising materials (because, from an "in-universe" point of view, these
+would not normally be found in a dictionary or phrasebook). The `examples`
+section is for entries created for pedagogical purposes (such as Beginner's
+Conversation sentences) or to make search easier (because a search term
+corresponds to a verb with suffixes or a complex noun). It also contains canon
+examples, if they are parenthetical (created by Okrand merely for the purpose
+of explaining an entry which is in the main section).
 
 It is a convention to link only once to another entry within each entry.
 Subsequent references to another entry should be tagged with `nolink`. If there
