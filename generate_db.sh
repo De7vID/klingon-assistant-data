@@ -1,33 +1,7 @@
 #!/bin/bash
 
 # Get the directory with the original data.
-SOURCE_DIR=$(dirname $(readlink -f $0))
-
-# Check whether qawHaq.db exists and is at least as new as the source files.
-ALREADY_UP_TO_DATE=true
-if [[ ! -f $SOURCE_DIR/qawHaq.db ]]; then
-    ALREADY_UP_TO_DATE=
-else
-    for f in $SOURCE_DIR/mem-*.xml
-    do
-        [[ "$f" -nt $SOURCE_DIR/qawHaq.db ]] && ALREADY_UP_TO_DATE=
-    done
-    [[ $SOURCE_DIR/VERSION -nt $SOURCE_DIR/qawHaq.db ]] && ALREADY_UP_TO_DATE=
-fi
-if [[ $ALREADY_UP_TO_DATE ]]
-then
-    echo "qawHaq.db is up-to-date."
-    exit
-fi
-echo "Generating qawHaq.db."
-
-# Check for MacOS and use GNU-sed if detected.
-if [[ "$(uname -s)" = "Darwin" ]]
-then
-    SED=gsed
-else
-    SED=sed
-fi
+SOURCE_DIR=$PWD
 
 # Check for non-interactive mode flag.
 if [[ "$1" = "--noninteractive" ]]
@@ -43,9 +17,35 @@ then
     shift
 fi
 
+# Check whether qawHaq.db exists and is at least as new as the source files.
+ALREADY_UP_TO_DATE=true
+if [[ ! -f $SOURCE_DIR/qawHaq.db ]]; then
+    ALREADY_UP_TO_DATE=
+else
+    for f in $SOURCE_DIR/mem-*.xml
+    do
+        [[ "$f" -nt $SOURCE_DIR/qawHaq.db ]] && ALREADY_UP_TO_DATE=
+    done
+    [[ $SOURCE_DIR/VERSION -nt $SOURCE_DIR/qawHaq.db ]] && ALREADY_UP_TO_DATE=
+fi
+if [[ $ALREADY_UP_TO_DATE ]] && [[ ! $XMLONLY ]]
+then
+    echo "qawHaq.db is up-to-date."
+    exit
+fi
+echo "Generating qawHaq.db."
+
+# Check for MacOS and use GNU-sed if detected.
+if [[ "$(uname -s)" = "Darwin" ]]
+then
+    SED=gsed
+else
+    SED=sed
+fi
+
 # Copy files into temporary directory, renumber, and concatenate data into one
 # xml file.
-TMP_DIR=$(mktemp -d --tmpdir klingon-assistant-data.XXXXXXXX)
+TMP_DIR=$(mktemp -d "${TMPDIR:-/tmp/}klingon-assistant-data.XXXXXXXX")
 cp $SOURCE_DIR/mem-*.xml $TMP_DIR
 cp $SOURCE_DIR/renumber.py $TMP_DIR
 cd $TMP_DIR
