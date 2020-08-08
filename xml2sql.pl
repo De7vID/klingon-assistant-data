@@ -12,14 +12,19 @@ binmode(STDOUT, ":utf8");
 $xml = new XML::Simple;
 
 # read xml file
-$sm_export = read_file('mem.xml');
+if (@ARGV != 1) {
+    print "Usage: xml2sql.pl tmp_dir\n";
+    exit;
+}
+$tmp_dir=$ARGV[0];
+$sm_export = read_file("$tmp_dir/mem.xml");
 
 # do substitutions to make it ready for conversion
 $sm_export =~ s/\s*<!--.*?-->//sg;
 $sm_export =~ s/<table name="mem">(.*?)<\/table>/<mem>\1<\/mem>/sg;
 $sm_export =~ s/<column name="(.*?)">(.*?)<\/column>/<\1>\2<\/\1>/sg;
 $sm_export =~ s/'/''/g;
-open (my $sm_export_file, '>', 'mem_processed.xml') or die "Failed to write processed xml.";
+open (my $sm_export_file, '>', "$tmp_dir/mem_processed.xml") or die "Failed to write processed xml.";
 print $sm_export_file $sm_export;
 close $sm_export_file;
 

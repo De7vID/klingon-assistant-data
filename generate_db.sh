@@ -1,6 +1,25 @@
 #!/bin/bash
 
-# Note: renumber.py must be run first.
+# Get the directory with the original data.
+SOURCE_DIR=$(dirname $(readlink -f $0))
+
+# Check whether qawHaq.db exists and is at least as new as the source files.
+ALREADY_UP_TO_DATE=true
+if [[ ! -f $SOURCE_DIR/qawHaq.db ]]; then
+    ALREADY_UP_TO_DATE=
+else
+    for f in $SOURCE_DIR/mem-*.xml
+    do
+        [[ "$f" -nt $SOURCE_DIR/qawHaq.db ]] && ALREADY_UP_TO_DATE=
+    done
+    [[ $SOURCE_DIR/VERSION -nt $SOURCE_DIR/qawHaq.db ]] && ALREADY_UP_TO_DATE=
+fi
+if [[ $ALREADY_UP_TO_DATE ]]
+then
+    echo "qawHaq.db is up-to-date."
+    exit
+fi
+echo "Generating qawHaq.db."
 
 # Check for MacOS and use GNU-sed if detected.
 if [[ "$(uname -s)" = "Darwin" ]]
@@ -24,16 +43,25 @@ then
     shift
 fi
 
-# Concatenate data into one xml file.
-cat mem-00-header.xml mem-01-b.xml mem-02-ch.xml mem-03-D.xml mem-04-gh.xml mem-05-H.xml mem-06-j.xml mem-07-l.xml mem-08-m.xml mem-09-n.xml mem-10-ng.xml mem-11-p.xml mem-12-q.xml mem-13-Q.xml mem-14-r.xml mem-15-S.xml mem-16-t.xml mem-17-tlh.xml mem-18-v.xml mem-19-w.xml mem-20-y.xml mem-21-a.xml mem-22-e.xml mem-23-I.xml mem-24-o.xml mem-25-u.xml mem-26-suffixes.xml mem-27-extra.xml mem-28-examples.xml mem-29-footer.xml > mem.xml
+# Copy files into temporary directory, renumber, and concatenate data into one
+# xml file.
+TMP_DIR=$(mktemp -d --tmpdir klingon-assistant-data.XXXXXXXX)
+cp $SOURCE_DIR/mem-*.xml $TMP_DIR
+cp $SOURCE_DIR/renumber.py $TMP_DIR
+cd $TMP_DIR
+./renumber.py
+cat mem-00-header.xml mem-01-b.xml mem-02-ch.xml mem-03-D.xml mem-04-gh.xml mem-05-H.xml mem-06-j.xml mem-07-l.xml mem-08-m.xml mem-09-n.xml mem-10-ng.xml mem-11-p.xml mem-12-q.xml mem-13-Q.xml mem-14-r.xml mem-15-S.xml mem-16-t.xml mem-17-tlh.xml mem-18-v.xml mem-19-w.xml mem-20-y.xml mem-21-a.xml mem-22-e.xml mem-23-I.xml mem-24-o.xml mem-25-u.xml mem-26-suffixes.xml mem-27-extra.xml mem-28-examples.xml mem-29-footer.xml > $TMP_DIR/mem.xml
+cd $SOURCE_DIR
 
+# We only want the xml file for debugging purposes, so stop.
 if [[ $XMLONLY ]]
 then
+    cp $TMP_DIR/mem.xml $SOURCE_DIR
     exit
 fi
 
 # Ensure entries are numbered first.
-MISSING_IDS=$(grep "_id\"><" mem.xml)
+MISSING_IDS=$(grep "_id\"><" $TMP_DIR/mem.xml)
 if [[ ! -z "$MISSING_IDS" ]]
 then
     echo "Missing IDs: run renumber.py."
@@ -44,17 +72,17 @@ fi
 # Write database version number.
 VERSION=$(cat VERSION)
 echo Writing database version $VERSION...
-${SED} -i -e "s/\[\[VERSION\]\]/$VERSION/" mem.xml
+${SED} -i -e "s/\[\[VERSION\]\]/$VERSION/" $TMP_DIR/mem.xml
 
 # Convert from xml to sql instructions.
-./xml2sql.pl > mem.sql
-${SED} -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' mem.sql
+./xml2sql.pl $TMP_DIR > $TMP_DIR/mem.sql
+${SED} -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' $TMP_DIR/mem.sql
 
 # Print any entries with duplicate columns.
-grep "ARRAY" mem.sql
+grep "ARRAY" $TMP_DIR/mem.sql
 
 # Print any parts of speech accidentally entered into the definition.
-POS_DEFINITION_MIXUP=$(grep -B2 "definition\">\(v\|n\|adv\|conj\|ques\|sen\|excl\)[:<]" mem.xml)
+POS_DEFINITION_MIXUP=$(grep -B2 "definition\">\(v\|n\|adv\|conj\|ques\|sen\|excl\)[:<]" $TMP_DIR/mem.xml)
 if [[ ! -z "$POS_DEFINITION_MIXUP" ]]
 then
     echo "Part of speech information entered into definition:"
@@ -63,7 +91,7 @@ then
 fi
 
 # Print any empty German definitions.
-MISSING_DE=$(grep -B3 "definition_de\"><" mem.xml)
+MISSING_DE=$(grep -B3 "definition_de\"><" $TMP_DIR/mem.xml)
 if [[ ! -z "$MISSING_DE" ]]
 then
     echo "Missing German definitions:"
@@ -72,7 +100,7 @@ then
 fi
 
 # Print any empty Portuguese definitions.
-MISSING_PT=$(grep -B3 "definition_pt\"><" mem.xml)
+MISSING_PT=$(grep -B3 "definition_pt\"><" $TMP_DIR/mem.xml)
 if [[ ! -z "$MISSING_PT" ]]
 then
     echo "Missing Portuguese definitions:"
@@ -97,34 +125,34 @@ then
 fi
 
 # Create db binary.
-if [[ -f qawHaq.db ]]
+if [[ -f $SOURCE_DIR/qawHaq.db ]]
 then
     if [[ ! $NONINTERACTIVE ]]
     then
         # If the db already exists, show a diff.
-        sqlite3 qawHaq.db .dump > old-mem.sql
-        ${SED} -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' old-mem.sql
+        sqlite3 $SOURCE_DIR/qawHaq.db .dump > $TMP_DIR/old-mem.sql
+        ${SED} -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' $TMP_DIR/old-mem.sql
         # This is necessary after sqlite3 v3.19.
         # See: https://stackoverflow.com/questions/44989176/sqlite3-dump-inserts-replace-function-in-dump-change-from-3-18-to-3-19
-        ${SED} -i -e "s/replace(//g" old-mem.sql
-        ${SED} -i -e "s/,'\\\\n',char(10))//g" old-mem.sql
-        ${SED} -i -e "s/\\\\n/\n/g" old-mem.sql
-        vimdiff old-mem.sql mem.sql
+        ${SED} -i -e "s/replace(//g" $TMP_DIR/old-mem.sql
+        ${SED} -i -e "s/,'\\\\n',char(10))//g" $TMP_DIR/old-mem.sql
+        ${SED} -i -e "s/\\\\n/\n/g" $TMP_DIR/old-mem.sql
+        vimdiff $TMP_DIR/old-mem.sql $TMP_DIR/mem.sql
         read -n1 -r -p "Press any key to generate new db..."
         echo
     fi
-    mv qawHaq.db qawHaq.db~
+    mv $SOURCE_DIR/qawHaq.db $TMP_DIR/qawHaq.db~
 fi
-sqlite3 qawHaq.db < mem.sql
+sqlite3 $SOURCE_DIR/qawHaq.db < $TMP_DIR/mem.sql
 
 # Sanity check.
 # TODO: Refactor the creation of old-mem.sql and sanity.sql into function.
-sqlite3 qawHaq.db .dump > sanity.sql
-${SED} -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' sanity.sql
-${SED} -i -e "s/replace(//g" sanity.sql
-${SED} -i -e "s/,'\\\\n',char(10))//g" sanity.sql
-${SED} -i -e "s/\\\\n/\n/g" sanity.sql
-IN_OUT_DIFF=$(diff mem.sql sanity.sql)
+sqlite3 $SOURCE_DIR/qawHaq.db .dump > $TMP_DIR/sanity.sql
+${SED} -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' $TMP_DIR/sanity.sql
+${SED} -i -e "s/replace(//g" $TMP_DIR/sanity.sql
+${SED} -i -e "s/,'\\\\n',char(10))//g" $TMP_DIR/sanity.sql
+${SED} -i -e "s/\\\\n/\n/g" $TMP_DIR/sanity.sql
+IN_OUT_DIFF=$(diff $TMP_DIR/mem.sql $TMP_DIR/sanity.sql)
 if [[ ! -z "$IN_OUT_DIFF" ]]
 then
     echo "Sanity check failed, entries possibly missing or out of order:"
@@ -140,9 +168,4 @@ then
 fi
 
 # Clean up temporary files.
-rm mem.xml
-rm mem.sql
-rm mem_processed.xml
-rm sanity.sql
-rm -f old-mem.sql
-rm -f qawHaq.db~
+rm -R $TMP_DIR
