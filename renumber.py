@@ -29,4 +29,4 @@ try:
             (line, num_subs) = re.subn(r"ID_OF_FIRST_EXTRA_ENTRY = (\d*);", "ID_OF_FIRST_EXTRA_ENTRY = %s;" % max_id_plus_one, line)
             print(line, end='')
 except IOError:
-    print("Warning: KlingonContentDatabase.java not updated.")
+    print("Info: KlingonContentDatabase.java not updated.")
