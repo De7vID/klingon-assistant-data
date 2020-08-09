@@ -390,6 +390,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="source"></column>
     </table>
     <table name="mem">
+      <!-- Explicit components are needed because the analyser won't pick up {-'e'} with no attached noun. -->
       <column name="_id"></column>
       <column name="entry_name">nuqDaq 'oH ...'e'?</column>
       <column name="part_of_speech">sen:bc</column>
@@ -411,7 +412,6 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt">Para perguntar onde uma pessoa está, {ghaH:n} deve ser usado em vez de {'oH:n}. {nuqDaq ghaH ...'e'?:sen:nolink} "Onde está ...?" [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
-      <!-- This is needed because the analyser won't pick up {-'e'} with no attached noun. -->
       <column name="components">{nuqDaq:ques}, {'oH:n:pro}, {-'e':n:suff}</column>
       <column name="examples">
 ▶ {nuqDaq 'oH bIQ'a' HeH'e'?:sen} "Where is the beach?"
@@ -2018,6 +2018,47 @@ If the people you're speaking to are your superiors, consider adding {-neS:v:suf
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source"></column>
+    </table>
+
+    <!-- Section: Dialogue sentences from CK and PK. -->
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">qIp'egh nachDu'chaj, tlhIngan SuvwI'pu'.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Klingon warriors are butting heads.</column>
+      <column name="definition_de">Klingonische Krieger stoßen an die Köpfe. [AUTOTRANSLATED]</column>
+      <column name="definition_fa">رزمندگان كلنگون سر به سر دارند. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Klingon krigare är rasande huvuden. [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Клингонские воины бодаются головами. [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">克林貢族的勇士正在對頭。 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">Os guerreiros Klingon estão batendo cabeça. [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{paw':v:2}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes">This sentence literally means "their heads are hitting themselves, Klingon warriors". Because of the strange grammar, many people consider this sentence to be in error.</column>
+      <column name="components">{qIp:v}, {-'egh:v}, {nach:n}, {-Du':n}, {-chaj:n}, {tlhIngan:n}, {SuvwI':n}, {-pu':n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {CK:src}</column>
     </table>
 
     <!-- Section: Phrases from fan clubs, etc. -->
