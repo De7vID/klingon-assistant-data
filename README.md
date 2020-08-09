@@ -64,7 +64,7 @@ suffixes, extra entries, and example entries. For the purposes of this database,
 "canon" is defined as having come from (or approved by) Marc Okrand. Canon
 words and phrases which appear in pedagogical sources (books, audiotapes or CDs,
 software, and **qep'a'** or **qepHom**) belong in the main section (i.e., any
-file other than `extra` or `examples). The `extra` section is for miscellaneous
+file other than `extra` or `examples`). The `extra` section is for miscellaneous
 entries such as words of uncertain provenance or known not to have come from or
 been approved by Marc Okrand (e.g., they were invented by the author of a Star
 Trek novel), transliterations of Terran fauna, flora, or place names not
