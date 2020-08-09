@@ -48,6 +48,7 @@ supported_languages_map = {
 
 translator = Translator()
 num_errors = 0
+multiline_notes = ""
 for filename in filenames:
   print("Translating file: {}".format(filename))
   with fileinput.FileInput(filename, inplace=True) as file:
@@ -82,7 +83,10 @@ for filename in filenames:
             time.sleep(0.01)
 
       # TODO: Refactor common parts with code for translating definitions.
-      notes_match = re.search(r"\"notes\">(.*)", line)
+      if multiline_notes == "":
+        notes_match = re.search(r"\"notes\">(.*)", line)
+      else:
+        notes_match = re.search(r"(.*)", line)
       notes_translation_match = re.search(r"notes_(.+)\">TRANSLATE<", line)
 
       # Get the source (English) notes to translate.
@@ -91,10 +95,13 @@ for filename in filenames:
           # Skip empty notes.
           notes = ""
         elif not notes_match.group(1).endswith("</column>"):
-          # Skip multiline notes.
+          # Start or middle of multiline notes.
           notes = ""
+          multiline_notes += notes_match.group(1) + "\n"
         else:
-          notes = notes_match.group(1)[:-len("</column>")]
+          # Single-line note or end of multiline notes.
+          notes = multiline_notes + notes_match.group(1)[:-len("</column>")]
+          multiline_notes = ""
 
         # Handle links and references by replacing them with "DONOTTRANSLATE" tokens.
         link_matches = re.findall(r"({[^{}]*}|\[[^\[\]]*\])", notes)
