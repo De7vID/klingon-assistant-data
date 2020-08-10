@@ -1,12 +1,100 @@
-    <!-- This file is for entries whose provenance is uncertain or known not to be from Marc Okrand,
-         or for entries which need to be pushed to the end for some reason. For example, words which
-         are borrowed from Federation Standard and aren't really Klingon words should be placed here.
-         There are subsections for sentences from the movie DVD cases, ENT, and DSC, followed by a
-         subsection for other entries.
+    <!-- This file is for entries which need to be pushed to the end for some reason even though
+         they do come from Marc Okrand, or whose provenance is uncertain or known not to be from
+         Marc Okrand. For example, words which have been transliterated from Federation Standard by
+         Marc Okrand (and which are not accepted as native Klingon words) should be placed here.
+         There are subsections for sentences from the audiotapes, movie DVD cases, TV series (ENT
+         and DSC), and movies, followed by a subsection for borrowings and a subsection for other
+         entries.
 
-         Note that some Trek canon falls into "non-canon" by the definition of "canon" used by Klingonists. -->
+         Note that some Trek canon falls into "non-canon" by the definition of "canon" used by
+         Klingonists. -->
+
+    <!-- Section: Dialogue sentences from CK and PK. -->
+    <!-- These were written by Marc Okrand. -->
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">qIp'egh nachDu'chaj, tlhIngan SuvwI'pu'.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Klingon warriors are butting heads.</column>
+      <column name="definition_de">Klingonische Krieger stoßen an die Köpfe. [AUTOTRANSLATED]</column>
+      <column name="definition_fa">رزمندگان كلنگون سر به سر دارند. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Klingon krigare är rasande huvuden. [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Клингонские воины бодаются головами. [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">克林崗族的勇士正在對頭。 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">Os guerreiros Klingon estão batendo cabeça. [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{paw':v:2}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes">This sentence literally means "their heads are hitting themselves, Klingon warriors". Because of the strange grammar, many people consider this sentence to be in error.</column>
+      <column name="components">{qIp:v}, {-'egh:v}, {nach:n}, {-Du':n}, {-chaj:n}, {tlhIngan:n}, {SuvwI':n}, {-pu':n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {CK:src}</column>
+    </table>
+
+    <!-- Section: Sentences from Star Trek Into Darkness -->
+    <!-- These were written by Marc Okrand. -->
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">ghach jIvvo' naH. DaH pIghvamDaq So''eghtaH.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">There is a criminal hiding in these ruins.</column>
+      <column name="definition_de">In diesen Ruinen versteckt sich ein Verbrecher. [AUTOTRANSLATED]</column>
+      <column name="definition_fa">در این ویرانه ها یک مخفی جنایی وجود دارد. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Det finns en brottsling som gömmer sig i dessa ruiner. [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Есть преступник, что прячется в этих развалинах.</column>
+      <column name="definition_zh_HK">這些廢墟中藏有罪犯。 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">Há um criminoso escondido nessas ruínas. [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes">The first half of this sentence was a lip-match for the beginning of {'ej jIHvo' nIHDI' jIbup:sen@@'ej:conj, jIH:n:1h, -vo':n, nIH:v, -DI':v, jI-:v, bup:v}.</column>
+      <column name="components">{ghach:v}, {jIvvo':n}, {naH:v}, {DaH:adv}, {pIgh:n}, {-vam:n}, {-Daq:n}, {So':v:1}, {-'egh:v}, {-taH:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {Star Trek Into Darkness:src}</column>
+    </table>
 
     <!-- Section: Sentences from movie DVD cases -->
+    <!-- These were written by Marc Okrand. -->
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qugh la'vaD QIn pav.</column>
@@ -282,6 +370,7 @@
     </table>
 
     <!-- Section: Sentences from ENT -->
+    <!-- These were written by Marc Okrand. -->
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'archer HoD</column>
@@ -678,6 +767,7 @@ To address a single person, say {qatlh choneH?:sen@@qatlh:ques, cho-:v, neH:v}</
     </table>
 
     <!-- Section: Sentences from DSC -->
+    <!-- These were NOT written by Marc Okrand, but by other expert Klingonists and thus are of generally high quality. -->
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghetwI' luwIvlu'ta'.</column>
@@ -970,48 +1060,8 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
       <column name="source">[1] {DSC - Battle at the Binary Stars:src}, [2] {DSC - Despite Yourself:src}, [3] {DSC - The Wolf Inside:src}</column>
     </table>
 
-    <!-- Section: Sentences from Star Trek Into Darkness -->
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">ghach jIvvo' naH. DaH pIghvamDaq So''eghtaH.</column>
-      <column name="part_of_speech">sen:phr</column>
-      <column name="definition">There is a criminal hiding in these ruins.</column>
-      <column name="definition_de">In diesen Ruinen versteckt sich ein Verbrecher. [AUTOTRANSLATED]</column>
-      <column name="definition_fa">در این ویرانه ها یک مخفی جنایی وجود دارد. [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Det finns en brottsling som gömmer sig i dessa ruiner. [AUTOTRANSLATED]</column>
-      <column name="definition_ru">Есть преступник, что прячется в этих развалинах.</column>
-      <column name="definition_zh_HK">這些廢墟中藏有罪犯。 [AUTOTRANSLATED]</column>
-      <column name="definition_pt">Há um criminoso escondido nessas ruínas. [AUTOTRANSLATED]</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes">The first half of this sentence was a lip-match for the beginning of {'ej jIHvo' nIHDI' jIbup:sen@@'ej:conj, jIH:n:1h, -vo':n, nIH:v, -DI':v, jI-:v, bup:v}.</column>
-      <column name="components">{ghach:v}, {jIvvo':n}, {naH:v}, {DaH:adv}, {pIgh:n}, {-vam:n}, {-Daq:n}, {So':v:1}, {-'egh:v}, {-taH:v}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="source">[1] {Star Trek Into Darkness:src}</column>
-    </table>
-
     <!-- Section: Borrowings from Federation Standard -->
+    <!-- These were generally created by Marc Okrand. -->
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'aqaD</column>
@@ -6413,6 +6463,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     </table>
 
     <!-- Section: Other -->
+    <!-- These are generally not from Marc Okrand, but TV scriptwriters and other Star Trek authors. -->
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">be'joy'</column>
