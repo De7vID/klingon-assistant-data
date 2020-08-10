@@ -390,6 +390,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="source"></column>
     </table>
     <table name="mem">
+      <!-- Explicit components are needed because the analyser won't pick up {-'e'} with no attached noun. -->
       <column name="_id"></column>
       <column name="entry_name">nuqDaq 'oH ...'e'?</column>
       <column name="part_of_speech">sen:bc</column>
@@ -411,7 +412,6 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt">Para perguntar onde uma pessoa está, {ghaH:n} deve ser usado em vez de {'oH:n}. {nuqDaq ghaH ...'e'?:sen:nolink} "Onde está ...?" [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
-      <!-- This is needed because the analyser won't pick up {-'e'} with no attached noun. -->
       <column name="components">{nuqDaq:ques}, {'oH:n:pro}, {-'e':n:suff}</column>
       <column name="examples">
 ▶ {nuqDaq 'oH bIQ'a' HeH'e'?:sen} "Where is the beach?"
@@ -1315,6 +1315,47 @@ If the people you're speaking to are your superiors, consider adding {-neS:v:suf
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">Hung buv rav</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">minimum security classification</column>
+      <column name="definition_de">Mindestsicherheitsklassifizierung [AUTOTRANSLATED]</column>
+      <column name="definition_fa">حداقل طبقه بندی امنیتی [AUTOTRANSLATED]</column>
+      <column name="definition_sv">lägsta säkerhetsklassificering [AUTOTRANSLATED]</column>
+      <column name="definition_ru">минимальная классификация безопасности [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">最低安全等級 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">classificação mínima de segurança [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes">This is not explicitly defined, but its meaning is clear from the example.</column>
+      <column name="components">{Hung:n}, {buv:n}, {rav:n:2}</column>
+      <column name="examples">
+▶ {Hung buv rav:sen:nolink}: {patlh Hut:sen:nolink} "Classified Level 9 and Above"[1]</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru">
+▶ {Hung buv rav:sen:nolink}: {patlh Hut:sen:nolink} "Объявленный уровень от 9 и выше"[1]</column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {BoP:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">maH DIS poH</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">decade</column>
@@ -1429,6 +1470,46 @@ If the people you're speaking to are your superiors, consider adding {-neS:v:suf
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source"></column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">nen rav</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">minimum age</column>
+      <column name="definition_de">Mindestalter [AUTOTRANSLATED]</column>
+      <column name="definition_fa">کمترین سن [AUTOTRANSLATED]</column>
+      <column name="definition_sv">lägsta ålder [AUTOTRANSLATED]</column>
+      <column name="definition_ru">минимальный возраст [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">最低年齡 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">idade minima [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes">This is not explicitly defined, but its meaning is clear from the example.</column>
+      <column name="components">{nen:n}, {rav:n:2}</column>
+      <column name="examples">
+▶ {nen rav:sen:nolink}: {chorgh ben:sen:nolink} "Ages 8 to adult"[1]</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2734,7 +2815,7 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
       <column name="definition_fa">کلینگون ها هرگز غذای خوب را از بین نمی برند. [AUTOTRANSLATED]</column>
       <column name="definition_sv">Klingons förstör aldrig god mat. [AUTOTRANSLATED]</column>
       <column name="definition_ru">Клингоны никогда не уничтожат хорошую еду.</column>
-      <column name="definition_zh_HK">克林貢人從不破壞美食。 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">克林崗人從不破壞美食。 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Klingons nunca destroem boa comida. [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>

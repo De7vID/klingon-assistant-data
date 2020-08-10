@@ -13,17 +13,20 @@
 # sed -i $"s/\(\s*\)\(<column name=\"search_tags\">\)/\1<column name=\"examples_xx\"><\/column>\\n\1\2/g" mem-*.xml
 # sed -i $"s/\(\s*\)\(<column name=\"source\">\)/\1<column name=\"search_tags_xx\"><\/column>\\n\1\2/g" mem-*.xml
 
-# Note: To maintain consistent transliteration of "Klingon" in zh-HK, run:
-# sed -i "s/克林貢/克林崗/" mem-*.xml
-# Also, in some cases the fullwidth semicolon may have to be replaced:
+# Special handling for Hong Kong Chinese: Because Google Translate does not
+# support "zh-HK", the language code "zh-TW" is used instead. There are some
+# differences between Hong Kong Chinese and Taiwan Chinese, and in particular,
+# the zh-HK transliteration of "Klingon" is "克林貢" (and not "克林崗" as is
+# used in Taiwan Chinese). This is fixed automatically below, but other changes
+# may need to be made. Chinese uses fullwidth punctuation, and in some cases
+# the fullwidth semicolon may have to be replaced:
 # grep "{[^}]*：.*}" mem-*.xml
-
 # It might also be useful to replace full-width commas with enumeration commas
 # (but care should be taken that the replacements are appropriate):
 # sed -i "s/\(：[^，]*\)}，{/\1}、{/g" mem-*.xml
 
-# It might be useful to run this command to remove extraneous spaces before
-# references after this script is run:
+# For all languages: It might be useful to run this command to remove
+# extraneous spaces before references after this script is run:
 # sed -i "s/\(notes_.*\) \(\[[1-9]\]\)/\1\2/g" mem-*.xml
 
 from googletrans import Translator
@@ -128,6 +131,10 @@ for filename in filenames:
                 missing_links += link_match
                 num_errors += 1
               link_number += 1
+            # Fix Hong Kong Chinese translation of the word "Klingon", which is different from the
+            # one used in Taiwan Chinese.
+            if language == "zh-TW":
+              translation_text = translation_text.replace(u'克林貢',u'克林崗')
             # Missing links and references are appended to the end and may require manual correction.
             line = re.sub(r">(.*)<", ">{}{} [AUTOTRANSLATED]<".format(translation_text, missing_links), line)
 
