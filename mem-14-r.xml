@@ -7943,6 +7943,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Note: When components are specified with "@@", don't annotate with ":sen", to allow user to edit the search query. -->
       <column name="_id"></column>
       <column name="entry_name">rur</column>
       <column name="part_of_speech">v:t_c</column>
@@ -7965,7 +7966,6 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
       <column name="notes_pt">Esse verbo é usado para formar símiles, como {puj verengan; bIQ rur@@puj:v, verengan:n, bIQ:n, rur:v} "o Ferengi é tão fraco quanto a água" .[2; 4] Também pode ser usado para traduzir "like" no sentido de "aparência" .[3] [AUTOTRANSLATED]</column>
       <column name="hidden_notes">Possibly a reference to the science fiction play R.U.R. (Rossum's Universal Robots) by Karel Čapek.</column>
       <column name="components"></column>
-      <!-- Note: When components are specified with "@@", don't annotate with ":sen", to allow user to edit the search query. -->
       <column name="examples">
 ▶ {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}
 ▶ {bIt; tI'qa' vIghro' rur@@bIt:v, tI'qa' vIghro':n, rur:v}
