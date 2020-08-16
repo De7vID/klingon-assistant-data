@@ -12,6 +12,93 @@
     <!-- Section: Dialogue sentences from CK and PK. -->
     <!-- These were written by Marc Okrand. -->
     <table name="mem">
+      <!-- Analysis isn't possible for {ghobe'. SuD.} because of {ghobe'} since the analyser doesn't handle exclamations as a component. -->
+      <column name="_id"></column>
+      <column name="entry_name">Doq'a' SuvwI'pu'?</column>
+      <column name="part_of_speech">sen:joke</column>
+      <column name="definition">Are warriors red?</column>
+      <column name="definition_de">Sind Krieger rot?</column>
+      <column name="definition_fa">آیا جنگجویان قرمز هستند؟ [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Är krigare röda? [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Красные воины? [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">戰士是紅色的嗎？</column>
+      <column name="definition_pt">Os guerreiros são vermelhos?</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{SuD:v:0}</column>
+      <column name="notes">The joke goes like this:
+
+▶ {Doq'a' SuvwI'pu'?:sen:nolink}
+  "Are warriors red?"
+
+▶ {ghobe'. SuD.:sen:nolink}
+  "No. They are green."
+
+Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes">The verb {SuD:v:0} means both "be green" and "take a risk". Also, Starfleet "redshirts" are infamous for dying.</column>
+      <column name="components">{Doq:v}, {-'a':v}, {SuvwI':n}, {-pu':n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {PK:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">not Soj QaQ Qaw' tlhInganpu'.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Klingons never destroy good food.</column>
+      <column name="definition_de">Klingonen zerstören niemals gutes Essen. [AUTOTRANSLATED]</column>
+      <column name="definition_fa">کلینگون ها هرگز غذای خوب را از بین نمی برند. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Klingons förstör aldrig god mat. [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Клингоны никогда не уничтожат хорошую еду.</column>
+      <column name="definition_zh_HK">克林崗人從不破壞美食。 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">Klingons nunca destroem boa comida. [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{not:adv}, {Soj:n:1}, {QaQ:v}, {Qaw':v}, {tlhIngan:n}, {-pu':n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {CK:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qIp'egh nachDu'chaj, tlhIngan SuvwI'pu'.</column>
       <column name="part_of_speech">sen:phr</column>
@@ -49,6 +136,116 @@
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {CK:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">Qo'noSDaq paw cha' DIvI' beq.</column>
+      <column name="part_of_speech">sen:joke</column>
+      <column name="definition">Two Federation crewmen arrive on Kronos.</column>
+      <column name="definition_de">Zwei Föderationsoffizieren kommen auf Kronos an.</column>
+      <column name="definition_fa">دو خدمه فدراسیون به Kronos می آیند. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Två federala besättningsmän anländer till Kronos. [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Два члена Федерации прибыли на Кронос. [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">兩名聯邦船員抵達克羅諾斯。 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">Dois tripulantes da Federação chegam a Cronos.</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">The joke goes like this:
+
+▶ {Qo'noSDaq paw cha' DIvI' beq.:sen:nolink}
+  "Two Federation crewmen arrive on Kronos."
+
+▶ {tlhIngan 'avwI' lughom.:sen@@tlhIngan:n, 'avwI':n, lu-:v, ghom:v}
+  "They meet a Klingon guard."
+
+▶ {lutlhob; naDevvo' vaS'a'Daq majaHlaH'a'?:sen@@lu-:v, tlhob:v, naDev:n, -vo':n, vaS'a':n, -Daq:n, ma-:v, jaH:v, -laH:v, -'a':v}
+  "They ask him: 'Can we get to the Great Hall from here?'"
+
+▶ {jang 'avwI'; lIchopbe'chugh ghewmey.:sen@@jang:v, 'avwI':n, lI-:v, chop:v, -be':v, -chugh:v, ghew:n, -mey:n}
+  "The guard answers: 'If the bugs do not bite you.'"
+
+Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{Qo'noS:n}, {-Daq:n}, {paw:v}, {cha':n}, {DIvI':n}, {beq:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {PK:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">'avwI'vaD jatlh qama'...</column>
+      <column name="part_of_speech">sen:joke</column>
+      <column name="definition">A prisoner says to the guard...</column>
+      <column name="definition_de">Ein Gefangener sagt zur Wache...</column>
+      <column name="definition_fa">یک زندانی به محافظ می گوید ... [AUTOTRANSLATED]</column>
+      <column name="definition_sv">En fånge säger till vakten ... [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Заключенный говорит охраннику ... [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">一名囚犯對警衛說……</column>
+      <column name="definition_pt">Um prisioneiro diz ao guarda ...</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">The joke goes like this:
+
+▶ {'avwI'vaD jatlh qama'; jIghung.:sen@@'avwI':n, -vaD:n, jatlh:v, qama':n, jI-:v, ghung:v}
+  "A prisoner says to the guard: 'I am hungry.'"
+
+▶ {jang 'avwI'; jIghung je.:sen@@jang:v, 'avwI':n, jI-:v, ghung:v, je:adv}
+  "The guard replies: 'I am also hungry.'"
+
+▶ {jatlh qama'; jI'oj.:sen@@jatlh:v, qama':n, jI-:v, 'oj:v}
+  "The prisoner says: 'I am thirsty.'"
+
+▶ {jang 'avwI'; jI'oj je.:sen@@jang:v, 'avwI':n, jI-:v, 'oj:v, je:adv}
+  "The guard replies: 'I am also thirsty.'"
+
+▶ {jatlh qama'; jIDoy'qu'.:sen@@jatlh:v, qama':n, jI-:v, Doy':v, -qu':v}
+  "The prisoner says: 'I am very tired.'"
+
+▶ {jatlh 'avwI'; jIDoy'be'.:sen@@jatlh:v, 'avwI':n, jI-:v, Doy':v, -be':v}
+  "The guard says: 'I am not tired.'"</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{'avwI':n}, {-vaD:n}, {jatlh:v}, {qama':n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="source">[1] {PK:src}</column>
     </table>
 
     <!-- Section: Sentences from Star Trek Into Darkness -->
