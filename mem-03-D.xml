@@ -1904,7 +1904,7 @@ Uma maneira aceitável de expressar essa demanda como uma pergunta é {nuq DaDab
       <column name="entry_name">DaS</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">pinch</column>
-      <column name="definition_de">Prise [AUTOTRANSLATED]</column>
+      <column name="definition_de">kneifen, zwicken</column>
       <column name="definition_fa">خرج کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">nypa [AUTOTRANSLATED]</column>
       <column name="definition_ru">зажимать [AUTOTRANSLATED]</column>
@@ -4248,7 +4248,7 @@ Este verbo pode ser aplicado a aeronaves, para as quais consulte {Der:v:2}. [1 [
       <column name="entry_name">De'chel</column>
       <column name="part_of_speech">adv</column>
       <column name="definition">by the way, parenthetically</column>
-      <column name="definition_de">übrigens in Klammern [AUTOTRANSLATED]</column>
+      <column name="definition_de">übrigens</column>
       <column name="definition_fa">به هر حال ، از نظر والدین [AUTOTRANSLATED]</column>
       <column name="definition_sv">förresten, parentetiskt [AUTOTRANSLATED]</column>
       <column name="definition_ru">кстати, в скобках [AUTOTRANSLATED]</column>
@@ -7932,54 +7932,6 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
           <column name="source">[1] {s.k 1998.02.21:src} (reprinted in {HQ 8.1, p.7, Mar. 1999:src})</column>
-        </table>
-        <table name="mem">
-          <!-- Analysis isn't possible for {ghobe'. SuD.} because of {ghobe'} since the analyser doesn't handle exclamations as a component. -->
-          <column name="_id"></column>
-          <column name="entry_name">Doq'a' SuvwI'pu'?</column>
-          <column name="part_of_speech">sen:joke</column>
-          <column name="definition">Are warriors red?</column>
-          <column name="definition_de">Sind Krieger rot?</column>
-          <column name="definition_fa">آیا جنگجویان قرمز هستند؟ [AUTOTRANSLATED]</column>
-          <column name="definition_sv">Är krigare röda? [AUTOTRANSLATED]</column>
-          <column name="definition_ru">Красные воины? [AUTOTRANSLATED]</column>
-          <column name="definition_zh_HK">戰士是紅色的嗎？</column>
-          <column name="definition_pt">Os guerreiros são vermelhos?</column>
-          <column name="synonyms"></column>
-          <column name="antonyms"></column>
-          <column name="see_also">{SuD:v:0}</column>
-          <column name="notes">The joke goes like this:
-
-▶ {Doq'a' SuvwI'pu'?:sen:nolink}
-  "Are warriors red?"
-
-▶ {ghobe'. SuD.:sen:nolink}
-  "No. They are green."
-
-Watch a lesson on this joke: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</column>
-          <column name="notes_de"></column>
-          <column name="notes_fa"></column>
-          <column name="notes_sv"></column>
-          <column name="notes_ru"></column>
-          <column name="notes_zh_HK"></column>
-          <column name="notes_pt"></column>
-          <column name="hidden_notes">The verb {SuD:v:0} means both "be green" and "take a risk". Also, Starfleet "redshirts" are infamous for dying.</column>
-          <column name="components">{Doq:v}, {-'a':v}, {SuvwI':n}, {-pu':n}</column>
-          <column name="examples"></column>
-          <column name="examples_de"></column>
-          <column name="examples_fa"></column>
-          <column name="examples_sv"></column>
-          <column name="examples_ru"></column>
-          <column name="examples_zh_HK"></column>
-          <column name="examples_pt"></column>
-          <column name="search_tags"></column>
-          <column name="search_tags_de"></column>
-          <column name="search_tags_fa"></column>
-          <column name="search_tags_sv"></column>
-          <column name="search_tags_ru"></column>
-          <column name="search_tags_zh_HK"></column>
-          <column name="search_tags_pt"></column>
-          <column name="source">[1] {PK:src}</column>
         </table>
     <table name="mem">
       <column name="_id"></column>
