@@ -38,7 +38,6 @@
       <column name="source">[1] {KLI mailing list 2009.07.27:src}</column>
     </table>
     <table name="mem">
-      <!-- Be more specific about the dialect, and find a source. -->
       <column name="_id"></column>
       <column name="entry_name">ghab</column>
       <column name="part_of_speech">n:food</column>
@@ -52,13 +51,13 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Ha'DIbaH:n:1}</column>
-      <column name="notes">This may have bones. In some regional dialects, {ghab:n:nolink} is not applied to meat lacking bones, but rather, {ghab tun:n} is used instead.</column>
-      <column name="notes_de">Dies kann Knochen haben. In einigen regionalen Dialekten wird {ghab:n:nolink} nicht auf Fleisch ohne Knochen angewendet, sondern stattdessen auf {ghab tun:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این ممکن است دارای استخوان باشد. در بعضی از گویش های منطقه ای ، {ghab:n:nolink} در گوشت فاقد استخوان اعمال می شود ، بلکه در عوض ، از {ghab tun:n} استفاده می شود. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta kan ha ben. I vissa regionala dialekter används inte {ghab:n:nolink} på kött som saknar ben utan snarare används {ghab tun:n} istället. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Данное "мясо" может иметь кости. В некоторых региональных диалектах, слово {ghab:n:nolink} не применяется к мясу, у которого отсутствуют кости. Для этого предпочтительней использовать {ghab tun:n}.</column>
-      <column name="notes_zh_HK">這可能有骨頭。在某些地區性方言中，{ghab:n:nolink}不適用於缺少骨骼的肉類，而是使用{ghab tun:n}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Isso pode ter ossos. Em alguns dialetos regionais, {ghab:n:nolink} não é aplicado a carne sem ossos, mas em vez disso, {ghab tun:n} é usado. [AUTOTRANSLATED]</column>
+      <column name="notes">This may have bones. In some regional dialects, {ghab:n:nolink} is not applied to meat lacking bones, but rather, {ghab tun:n} is used instead.[1, p.27]</column>
+      <column name="notes_de">Dies kann Knochen haben. In einigen regionalen Dialekten wird {ghab:n:nolink} nicht auf Fleisch ohne Knochen angewendet, sondern stattdessen auf {ghab tun:n}.[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این ممکن است دارای استخوان باشد. در بعضی از گویش های منطقه ای ، {ghab:n:nolink} در گوشت فاقد استخوان اعمال می شود ، بلکه در عوض ، از {ghab tun:n} استفاده می شود.[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta kan ha ben. I vissa regionala dialekter används inte {ghab:n:nolink} på kött som saknar ben utan snarare används {ghab tun:n} istället.[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Данное "мясо" может иметь кости. В некоторых региональных диалектах, слово {ghab:n:nolink} не применяется к мясу, у которого отсутствуют кости. Для этого предпочтительней использовать {ghab tun:n}.[1, p.27]</column>
+      <column name="notes_zh_HK">這可能有骨頭。在某些地區性方言中，{ghab:n:nolink}不適用於缺少骨骼的肉類，而是使用{ghab tun:n}。[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso pode ter ossos. Em alguns dialetos regionais, {ghab:n:nolink} não é aplicado a carne sem ossos, mas em vez disso, {ghab tun:n} é usado.[1, p.27] [AUTOTRANSLATED]</column>
       <column name="hidden_notes">A "gob" of meat.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -91,13 +90,13 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">In the standard dialect, this would be expressed using the phrase {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}.</column>
-      <column name="notes_de">Im Standard-Dialekt würde dies mit dem Ausdruck {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n} ausgedrückt. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">در گویش استاندارد ، این می تواند با استفاده از عبارت {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n} بیان شود. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">I standarddialekten skulle detta uttryckas med frasen {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">В стандартном диалекте, это может быть выражено, используя фразу {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}.</column>
-      <column name="notes_zh_HK">在標準方言中，將使用短語{Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}來表達。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">No dialeto padrão, isso seria expresso usando a frase {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}. [AUTOTRANSLATED]</column>
+      <column name="notes">In the standard dialect, this would be expressed using the phrase {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}.[1, p.27]</column>
+      <column name="notes_de">Im Standard-Dialekt würde dies mit dem Ausdruck {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n} ausgedrückt.[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">در گویش استاندارد ، این می تواند با استفاده از عبارت {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n} بیان شود.[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">I standarddialekten skulle detta uttryckas med frasen {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}.[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">В стандартном диалекте, это может быть выражено, используя фразу {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}.[1, p.27]</column>
+      <column name="notes_zh_HK">在標準方言中，將使用短語{Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}來表達。[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">No dialeto padrão, isso seria expresso usando a frase {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}.[1, p.27] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components">{ghab:n}, {tun:v}</column>
       <column name="examples"></column>
@@ -456,7 +455,7 @@ The imperative verb prefix when {ghaH:n:nolink} is the object is {yI-:v:pref}.</
       <column name="notes_ru">Ревность также выражается идиомой {SuD veqlargh mInDu'.:sen} [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">嫉妒也由成語{SuD veqlargh mInDu'.:sen}表達 [AUTOTRANSLATED]</column>
       <column name="notes_pt">O ciúme também é expresso pelo idioma {SuD veqlargh mInDu'.:sen} [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">The word {ghal:v:nolink} was mistakenly used as a noun meaning "envoy" in the Dramatis Personae on {paq'batlh p.40-41:src}.</column>
+      <column name="hidden_notes">The word {ghal:v:nolink} was mistakenly used as a noun meaning "envoy" in the Dramatis Personae on {paq'batlh p.40-41:src} in the first edition.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2401,8 +2400,8 @@ Ein allgemeiner Begriff für jede Musik spielende Gruppe (egal welcher Größe) 
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {DaH yaS wa'DIch vIgheS@@DaH:adv, yaS:n, wa'DIch:n, vI-:v, gheS:v} "I now take my place as first officer", or literally, "Now I assume the responsibilities of first officer"[1, p.182]
-▶ {juDev 'ej Dujvam ra'wI' DagheS 'e' vItlhob:sen@@ju-:v, Dev:v, 'ej:conj, Duj:n:1, ra'wI':n, Da-:v, gheS:v, 'e':n, vI-:v, tlhob:v} "I ask you to lead us as commander of this ship", or literally, "I request that you lead us and that you assume the duties of commander of this ship"[1, p.184]</column>
+▶ {DaH yaS wa'DIch vIgheS.:sen}
+▶ {juDev 'ej Dujvam ra'wI' DagheS 'e' vItlhob.:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -2695,45 +2694,6 @@ Ein allgemeiner Begriff für jede Musik spielende Gruppe (egal welcher Größe) 
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {TKDA:src}, [2] {PK:src}, [3] {Radio Times Star Trek 30th Anniversary Special Issue:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">ghewmey tISuqQo'.</column>
-      <column name="part_of_speech">sen:phr</column>
-      <column name="definition">Don't catch any bugs.</column>
-      <column name="definition_de">Holt euch keine Bazillen!</column>
-      <column name="definition_fa">هر گونه اشکال را نگیرید. [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Fånga inga buggar. [AUTOTRANSLATED]</column>
-      <column name="definition_ru">Не подцепите никаких насекомых</column>
-      <column name="definition_zh_HK">可別捉蟲子。</column>
-      <column name="definition_pt">Não pegue nenhum inseto.</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes">According to the novelisation of {Star Trek VI:src}, this is an idiom which is smugglers' slang for wishing someone good luck in avoiding border officials.</column>
-      <column name="components">{ghew:n}, {-mey:n}, {tI-:v}, {Suq:v}, {-Qo':v}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKW p.207:src}, [2] {Star Trek VI:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6523,12 +6483,11 @@ Veja Gowron dizer o seguinte: {YouTube video:url:http://youtu.be/7_rXiSTQmAE} [A
       <column name="hidden_notes">Something you "grope" with. The reverse of this is {pogh:n}.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {ghopDu'wIjDaq yInmeyraj vIlaj} "I accept your lives into my hands"[2]</column>
+▶ {ghopDu'wIjDaq yInmeyraj vIlaj:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru">
-▶ {ghopDu'wIjDaq yInmeyraj vIlaj} "Я прнимаю ваши жизни в свои руки"[2]</column>
+      <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="search_tags"></column>
@@ -6538,7 +6497,7 @@ Veja Gowron dizer o seguinte: {YouTube video:url:http://youtu.be/7_rXiSTQmAE} [A
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT p.184:src}</column>
+      <column name="source">[1] {TKD:src}</column>
     </table>
         <table name="mem">
           <column name="_id"></column>
@@ -7262,45 +7221,6 @@ Um de seus lendários antepassados ​​também foi chamado de "Gorkon", mas o 
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {TKD:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">ghoSmeH yIpegh.</column>
-      <column name="part_of_speech">sen:phr</column>
-      <column name="definition">Stealth approach.</column>
-      <column name="definition_de">Um fortzufahren halte es geheim.</column>
-      <column name="definition_fa">رویکرد مخفی [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Stealth approach. [AUTOTRANSLATED]</column>
-      <column name="definition_ru">Скрытное приближение</column>
-      <column name="definition_zh_HK">秘密行動。</column>
-      <column name="definition_pt">Abordagem furtiva</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
-      <column name="components">{ghoS:v:1}, {-meH:v}, {yI-:v}, {pegh:v:1}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="source">[1] {Star Trek V:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -8741,84 +8661,6 @@ Consulte também os sufixos {-rup:v} e {-beH:v} para indicar a preparação ou p
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="source">[1] {TKD:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">ghu'maj Dayajbe'law'.</column>
-      <column name="part_of_speech">sen:phr</column>
-      <column name="definition">You don't seem to understand our situation.</column>
-      <column name="definition_de">Sie verstehen anscheinend die Situation nicht.</column>
-      <column name="definition_fa">به نظر نمی رسد که وضعیت ما را درک کنیم. [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Du verkar inte förstå vår situation. [AUTOTRANSLATED]</column>
-      <column name="definition_ru">Похоже, что вы не понимаете нашу ситуацию</column>
-      <column name="definition_zh_HK">你似乎不了解我們的情況。</column>
-      <column name="definition_pt">Você parece não entender nossa situação.</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
-      <column name="components">{ghu':n}, {-maj:n}, {Da-:v}, {yaj:v}, {-be':v}, {-law':v}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="source">[1] {Star Trek VI:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">ghu' Dachupbogh vIlaj.</column>
-      <column name="part_of_speech">sen:phr</column>
-      <column name="definition">I accept your proposal.</column>
-      <column name="definition_de">Ich akzeptiere deinen Vorschlag.</column>
-      <column name="definition_fa">پیشنهاد شما را قبول میکنم [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Jag accepterar ditt förslag. [AUTOTRANSLATED]</column>
-      <column name="definition_ru">Я принимаю ваше предложение</column>
-      <column name="definition_zh_HK">我接受你的提議。</column>
-      <column name="definition_pt">Eu aceito sua proposta.</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">Spoken by {qeylIS'e' lIjlaHbe'bogh vay':n:name} to {qotar:n:name} in the {paq'batlh:src}.</column>
-      <column name="notes_de">Wird von {qeylIS'e' lIjlaHbe'bogh vay':n:name} bis {qotar:n:name} im {paq'batlh:src} gesprochen. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">توسط {qeylIS'e' lIjlaHbe'bogh vay':n:name} به {qotar:n:name} در {paq'batlh:src} گفت. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Talat av {qeylIS'e' lIjlaHbe'bogh vay':n:name} till {qotar:n:name} i {paq'batlh:src}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Сказано в диалоге между {qeylIS'e' lIjlaHbe'bogh vay':n:name} и {qotar:n:name} в {paq'batlh:src}.</column>
-      <column name="notes_zh_HK">在{paq'batlh:src}中由{qeylIS'e' lIjlaHbe'bogh vay':n:name}說話到{qotar:n:name}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="source">[1] {paq'batlh p.144-145:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
