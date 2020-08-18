@@ -72,12 +72,13 @@ accepted as native Klingon words (such as strawberry or New York), and things
 which are low-priority when searching or don't belong elsewhere. It is also for
 canon sentences which appear in the TV shows or movies, or on DVD cases or
 advertising materials (because, from an "in-universe" point of view, these
-would not normally be found in a dictionary or phrasebook). The `examples`
-section is for entries created for pedagogical purposes (such as Beginner's
-Conversation sentences) or to make search easier (because a search term
-corresponds to a verb with suffixes or a complex noun). It also contains canon
-examples, if they are parenthetical (created by Okrand merely for the purpose
-of explaining an entry which is in the main section).
+would not normally be found in a dictionary or phrasebook, unless they happen to
+be proverbs or such). The `examples` section is for entries created for
+pedagogical purposes (such as Beginner's Conversation sentences) or to make
+search easier (because a search term corresponds to a verb with suffixes or a
+complex noun). It also contains canon examples, if they are parenthetical
+(created by Okrand merely for the purpose of explaining an entry which is in
+the main section).
 
 It is a convention to link only once to another entry within each entry.
 Subsequent references to another entry should be tagged with `nolink`. If there
