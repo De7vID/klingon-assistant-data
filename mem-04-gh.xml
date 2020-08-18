@@ -38,7 +38,6 @@
       <column name="source">[1] {KLI mailing list 2009.07.27:src}</column>
     </table>
     <table name="mem">
-      <!-- Be more specific about the dialect, and find a source. -->
       <column name="_id"></column>
       <column name="entry_name">ghab</column>
       <column name="part_of_speech">n:food</column>
@@ -52,13 +51,13 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Ha'DIbaH:n:1}</column>
-      <column name="notes">This may have bones. In some regional dialects, {ghab:n:nolink} is not applied to meat lacking bones, but rather, {ghab tun:n} is used instead.</column>
-      <column name="notes_de">Dies kann Knochen haben. In einigen regionalen Dialekten wird {ghab:n:nolink} nicht auf Fleisch ohne Knochen angewendet, sondern stattdessen auf {ghab tun:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این ممکن است دارای استخوان باشد. در بعضی از گویش های منطقه ای ، {ghab:n:nolink} در گوشت فاقد استخوان اعمال می شود ، بلکه در عوض ، از {ghab tun:n} استفاده می شود. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta kan ha ben. I vissa regionala dialekter används inte {ghab:n:nolink} på kött som saknar ben utan snarare används {ghab tun:n} istället. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Данное "мясо" может иметь кости. В некоторых региональных диалектах, слово {ghab:n:nolink} не применяется к мясу, у которого отсутствуют кости. Для этого предпочтительней использовать {ghab tun:n}.</column>
-      <column name="notes_zh_HK">這可能有骨頭。在某些地區性方言中，{ghab:n:nolink}不適用於缺少骨骼的肉類，而是使用{ghab tun:n}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Isso pode ter ossos. Em alguns dialetos regionais, {ghab:n:nolink} não é aplicado a carne sem ossos, mas em vez disso, {ghab tun:n} é usado. [AUTOTRANSLATED]</column>
+      <column name="notes">This may have bones. In some regional dialects, {ghab:n:nolink} is not applied to meat lacking bones, but rather, {ghab tun:n} is used instead.[1, p.27]</column>
+      <column name="notes_de">Dies kann Knochen haben. In einigen regionalen Dialekten wird {ghab:n:nolink} nicht auf Fleisch ohne Knochen angewendet, sondern stattdessen auf {ghab tun:n}.[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این ممکن است دارای استخوان باشد. در بعضی از گویش های منطقه ای ، {ghab:n:nolink} در گوشت فاقد استخوان اعمال می شود ، بلکه در عوض ، از {ghab tun:n} استفاده می شود.[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta kan ha ben. I vissa regionala dialekter används inte {ghab:n:nolink} på kött som saknar ben utan snarare används {ghab tun:n} istället.[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Данное "мясо" может иметь кости. В некоторых региональных диалектах, слово {ghab:n:nolink} не применяется к мясу, у которого отсутствуют кости. Для этого предпочтительней использовать {ghab tun:n}.[1, p.27]</column>
+      <column name="notes_zh_HK">這可能有骨頭。在某些地區性方言中，{ghab:n:nolink}不適用於缺少骨骼的肉類，而是使用{ghab tun:n}。[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso pode ter ossos. Em alguns dialetos regionais, {ghab:n:nolink} não é aplicado a carne sem ossos, mas em vez disso, {ghab tun:n} é usado.[1, p.27] [AUTOTRANSLATED]</column>
       <column name="hidden_notes">A "gob" of meat.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -91,13 +90,13 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">In the standard dialect, this would be expressed using the phrase {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}.</column>
-      <column name="notes_de">Im Standard-Dialekt würde dies mit dem Ausdruck {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n} ausgedrückt. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">در گویش استاندارد ، این می تواند با استفاده از عبارت {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n} بیان شود. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">I standarddialekten skulle detta uttryckas med frasen {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">В стандартном диалекте, это может быть выражено, используя фразу {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}.</column>
-      <column name="notes_zh_HK">在標準方言中，將使用短語{Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}來表達。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">No dialeto padrão, isso seria expresso usando a frase {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}. [AUTOTRANSLATED]</column>
+      <column name="notes">In the standard dialect, this would be expressed using the phrase {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}.[1, p.27]</column>
+      <column name="notes_de">Im Standard-Dialekt würde dies mit dem Ausdruck {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n} ausgedrückt.[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">در گویش استاندارد ، این می تواند با استفاده از عبارت {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n} بیان شود.[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">I standarddialekten skulle detta uttryckas med frasen {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}.[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">В стандартном диалекте, это может быть выражено, используя фразу {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}.[1, p.27]</column>
+      <column name="notes_zh_HK">在標準方言中，將使用短語{Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}來表達。[1, p.27] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">No dialeto padrão, isso seria expresso usando a frase {Hom Hutlhbogh ghab@@Hom:n:1, Hutlh:v, -bogh:v, ghab:n}.[1, p.27] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components">{ghab:n}, {tun:v}</column>
       <column name="examples"></column>
