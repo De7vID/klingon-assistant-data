@@ -4759,7 +4759,7 @@ For an idiomatic expression used to tell someone not to move, see {taD:v}.</colu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {KCD:src}, [2] {HQ 5.1, Mar. 1996:src}</column>
+      <column name="source">[1] {KCD:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5191,9 +5191,9 @@ For an idiomatic expression used to tell someone not to move, see {taD:v}.</colu
       <column name="source">[1] {TKD p.172:src}</column>
     </table>
     <table name="mem">
+      <!-- Not marked "deriv", so components will show. -->
       <column name="_id"></column>
       <column name="entry_name">vItHay'</column>
-      <!-- Not marked "deriv", so components will show. -->
       <column name="part_of_speech">n</column>
       <column name="definition">truth test, truth duel</column>
       <column name="definition_de">Wahrheits-Test</column>
