@@ -33,7 +33,12 @@ then
     echo "qawHaq.db is up-to-date."
     exit
 fi
-echo "Generating qawHaq.db."
+if [[ ! $XMLONLY ]]
+then
+    echo "Generating qawHaq.db."
+else
+    echo "Generating mem.xml."
+fi
 
 # Check for MacOS and use GNU-sed if detected.
 if [[ "$(uname -s)" = "Darwin" ]]
