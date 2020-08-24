@@ -59,6 +59,14 @@ cat mem-00-header.xml mem-01-b.xml mem-02-ch.xml mem-03-D.xml mem-04-gh.xml mem-
 cp $TMP_DIR/EXTRA $SOURCE_DIR
 cd $SOURCE_DIR
 
+# Write the ID of the first entry in the "extra" section to the KlingonContentDatabase.java file.
+JAVA_FILE="$SOURCE_DIR/../app/src/main/java/org/tlhInganHol/android/klingonassistant/KlingonContentDatabase.java"
+if [[ ! -f $JAVA_FILE ]]; then
+    echo "Info: KlingonContentDatabase.java not updated."
+else
+    sed -i "s/\(private static final int ID_OF_FIRST_EXTRA_ENTRY = \).*;/\1$(cat EXTRA);/" $JAVA_FILE
+fi
+
 # We only want the xml file for debugging purposes, so stop.
 if [[ $XMLONLY ]]
 then
