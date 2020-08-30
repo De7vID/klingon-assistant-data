@@ -49,6 +49,19 @@ supported_languages_map = {
   "pt": "pt",
 }
 
+# Check for balanced brackets.
+def balanced_brackets(line):
+  BRACKETS = dict(zip('{[(','}])'))
+  stack = []
+  for char in line:
+    if char in BRACKETS:
+      stack.append(BRACKETS[char])
+    elif char not in BRACKETS.values():
+      pass
+    elif not (stack and char == stack.pop()):
+      return False
+  return not stack
+
 translator = Translator()
 num_errors = 0
 multiline_notes = ""
@@ -57,89 +70,103 @@ for filename in filenames:
   with fileinput.FileInput(filename, inplace=True) as file:
     definition = ""
     notes = ""
+    in_comment = False
     for line in file:
-      definition_match = re.search(r"definition\">(.*)<", line)
-      definition_translation_match = re.search(r"definition_(.+)\">TRANSLATE(?:: (.*))?<", line)
+      # Detect start of comment block.
+      if "<!-- " in line:
+        in_comment = True
 
-      # Get the source (English) text to translate.
-      if (definition_match):
-        definition = definition_match.group(1)
-        if not definition:
-          print("<!-- ERROR: Missing definition. -->")
-          num_errors += 1
+      if not in_comment:
+        definition_match = re.search(r"definition\">(.*)<", line)
+        definition_translation_match = re.search(r"definition_(.+)\">TRANSLATE(?:: (.*))?<", line)
 
-      if (definition and definition_translation_match):
-        language = supported_languages_map.get(definition_translation_match.group(1).replace('_','-'), "")
-        if language != "":
-          # Check for an override like "TRANSLATE: rocket launcher".
-          if definition_translation_match.group(2):
-            definition = definition_translation_match.group(2)
+        # Get the source (English) text to translate.
+        if (definition_match):
+          definition = definition_match.group(1)
+          if not definition:
+            print("<!-- ERROR: Missing definition. -->")
+            num_errors += 1
 
-          # Preserve definitions of the form "{...}" verbatim.
-          if definition.startswith('{') and definition.endswith('}'):
-            line = re.sub(r">(.*)<", ">{}<".format(definition), line)
+        if (definition and definition_translation_match):
+          language = supported_languages_map.get(definition_translation_match.group(1).replace('_','-'), "")
+          if language != "":
+            # Check for an override like "TRANSLATE: rocket launcher".
+            if definition_translation_match.group(2):
+              definition = definition_translation_match.group(2)
+
+            # Preserve definitions of the form "{...}" verbatim.
+            if definition.startswith('{') and definition.endswith('}'):
+              line = re.sub(r">(.*)<", ">{}<".format(definition), line)
+            else:
+              translation = translator.translate(definition, src='en', dest=language)
+              line = re.sub(r">(.*)<", ">{} [AUTOTRANSLATED]<".format(translation.text), line)
+
+              # Rate-limit calls to Google Translate.
+              time.sleep(0.01)
+
+        # TODO: Refactor common parts with code for translating definitions.
+        if multiline_notes == "":
+          notes_match = re.search(r"\"notes\">(.*)", line)
+        else:
+          notes_match = re.search(r"(.*)", line)
+        notes_translation_match = re.search(r"notes_(.+)\">TRANSLATE<", line)
+
+        # Get the source (English) notes to translate.
+        if (notes_match):
+          if notes_match.group(1) == "</column>":
+            # Skip empty notes.
+            notes = ""
+          elif not notes_match.group(1).endswith("</column>"):
+            # Start or middle of multiline notes.
+            notes = ""
+            multiline_notes += notes_match.group(1) + "\n"
           else:
-            translation = translator.translate(definition, src='en', dest=language)
-            line = re.sub(r">(.*)<", ">{} [AUTOTRANSLATED]<".format(translation.text), line)
+            # Single-line note or end of multiline notes.
+            notes = multiline_notes + notes_match.group(1)[:-len("</column>")]
+            multiline_notes = ""
+
+          # Handle links and references by replacing them with "DONOTTRANSLATE" tokens.
+          link_matches = re.findall(r"({[^{}]*}|\[[^\[\]]*\])", notes)
+          link_number = 1
+          for link_match in link_matches:
+            notes = re.sub(link_match.replace("[", "\[").replace("]", "\]"), "DONOTTRANSLATE{}".format(link_number), notes, 1)
+            link_number += 1
+
+        if (notes and notes_translation_match):
+          language = supported_languages_map.get(notes_translation_match.group(1).replace('_','-'), "")
+          if language != "":
+            translation = translator.translate(notes, src='en', dest=language)
+            # Note that Google Translate returns the original text if translation fails for some reason.
+            if translation.text != notes:
+              translation_text = translation.text
+              # Restore the links and references.
+              link_number = 1
+              missing_links = ""
+              for link_match in link_matches:
+                prev_translation_text = translation_text
+                translation_text = re.sub(r"DONOTTRANSLATE{}".format(link_number), link_match, translation_text, 1)
+                if translation_text == prev_translation_text:
+                  print("<!-- ERROR: Missing link #{}. -->".format(link_number))
+                  missing_links += link_match
+                  num_errors += 1
+                link_number += 1
+              # Fix Hong Kong Chinese translation of the word "Klingon", which is different from the
+              # one used in Taiwan Chinese.
+              if language == "zh-TW":
+                translation_text = translation_text.replace(u'克林貢',u'克林崗')
+              # Missing links and references are appended to the end and may require manual correction.
+              line = re.sub(r">(.*)<", ">{}{} [AUTOTRANSLATED]<".format(translation_text, missing_links), line)
 
             # Rate-limit calls to Google Translate.
             time.sleep(0.01)
 
-      # TODO: Refactor common parts with code for translating definitions.
-      if multiline_notes == "":
-        notes_match = re.search(r"\"notes\">(.*)", line)
-      else:
-        notes_match = re.search(r"(.*)", line)
-      notes_translation_match = re.search(r"notes_(.+)\">TRANSLATE<", line)
+        # Check that mismatched brackets were not introduced.
+        if not balanced_brackets(line):
+          print("<!-- ERROR: Mismatched brackets. -->")
 
-      # Get the source (English) notes to translate.
-      if (notes_match):
-        if notes_match.group(1) == "</column>":
-          # Skip empty notes.
-          notes = ""
-        elif not notes_match.group(1).endswith("</column>"):
-          # Start or middle of multiline notes.
-          notes = ""
-          multiline_notes += notes_match.group(1) + "\n"
-        else:
-          # Single-line note or end of multiline notes.
-          notes = multiline_notes + notes_match.group(1)[:-len("</column>")]
-          multiline_notes = ""
-
-        # Handle links and references by replacing them with "DONOTTRANSLATE" tokens.
-        link_matches = re.findall(r"({[^{}]*}|\[[^\[\]]*\])", notes)
-        link_number = 1
-        for link_match in link_matches:
-          notes = re.sub(link_match.replace("[", "\[").replace("]", "\]"), "DONOTTRANSLATE{}".format(link_number), notes, 1)
-          link_number += 1
-
-      if (notes and notes_translation_match):
-        language = supported_languages_map.get(notes_translation_match.group(1).replace('_','-'), "")
-        if language != "":
-          translation = translator.translate(notes, src='en', dest=language)
-          # Note that Google Translate returns the original text if translation fails for some reason.
-          if translation.text != notes:
-            translation_text = translation.text
-            # Restore the links and references.
-            link_number = 1
-            missing_links = ""
-            for link_match in link_matches:
-              prev_translation_text = translation_text
-              translation_text = re.sub(r"DONOTTRANSLATE{}".format(link_number), link_match, translation_text, 1)
-              if translation_text == prev_translation_text:
-                print("<!-- ERROR: Missing link #{}. -->".format(link_number))
-                missing_links += link_match
-                num_errors += 1
-              link_number += 1
-            # Fix Hong Kong Chinese translation of the word "Klingon", which is different from the
-            # one used in Taiwan Chinese.
-            if language == "zh-TW":
-              translation_text = translation_text.replace(u'克林貢',u'克林崗')
-            # Missing links and references are appended to the end and may require manual correction.
-            line = re.sub(r">(.*)<", ">{}{} [AUTOTRANSLATED]<".format(translation_text, missing_links), line)
-
-          # Rate-limit calls to Google Translate.
-          time.sleep(0.01)
+      # Detect end of comment block.
+      if " -->" in line:
+        in_comment = False
 
       # The variable 'line' already contains a newline at the end, don't add another.
       print(line, end='')
