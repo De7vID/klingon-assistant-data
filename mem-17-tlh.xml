@@ -2208,7 +2208,7 @@ Verb prefixes when {tlhIH:n:nolink} is the object:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tlhIj</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">apologize</column>
       <column name="definition_de">entschuldigen</column>
       <column name="definition_fa">عذر خواهی کردن [AUTOTRANSLATED]</column>
@@ -2228,7 +2228,8 @@ Verb prefixes when {tlhIH:n:nolink} is the object:
       <column name="notes_pt"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {qeylIS qatlhIjneS:sen:nolink} "Kahless, my apologies."[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -2242,7 +2243,7 @@ Verb prefixes when {tlhIH:n:nolink} is the object:
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKDA:src}</column>
+      <column name="source">[1] {TKDA:src}, [2] {paq'batlh p.128-129:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
