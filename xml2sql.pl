@@ -42,7 +42,7 @@ print "PRAGMA foreign_keys=OFF;\n".
 $valid_en = qr/^[A-Za-z0-9 '":;,.\-?!_\/\()@=%&*{}\[\]<>▶\nàéü+×÷#神舟]*$/;
 
 # Language tags.
-@langs = qw(de fa ru sv zh-HK pt);
+@langs = qw(de fa ru sv zh-HK pt fi);
 
 # cycle through and print the entries
 foreach $e (@{$data->{database}->{mem}})
