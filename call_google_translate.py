@@ -47,6 +47,7 @@ supported_languages_map = {
   "ru": "ru",
   "zh-HK": "zh-TW",
   "pt": "pt",
+  "fi": "fi",
 }
 
 # Check for balanced brackets.
