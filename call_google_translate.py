@@ -24,6 +24,9 @@
 # It might also be useful to replace full-width commas with enumeration commas
 # (but care should be taken that the replacements are appropriate):
 # sed -i "s/\(：[^，]*\)}，{/\1}、{/g" mem-*.xml
+# Likewise, "smart" quotes should be replaced with the correct quotation marks:
+# sed -i "s/“/「/g" mem-*.xml
+# sed -i "s/”/」/g" mem-*.xml
 
 # For all languages: It might be useful to run this command to remove
 # extraneous spaces before references after this script is run:
