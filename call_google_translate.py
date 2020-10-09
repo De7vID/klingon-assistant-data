@@ -13,6 +13,10 @@
 # sed -i $"s/\(\s*\)\(<column name=\"search_tags\">\)/\1<column name=\"examples_xx\"><\/column>\\n\1\2/g" mem-*.xml
 # sed -i $"s/\(\s*\)\(<column name=\"source\">\)/\1<column name=\"search_tags_xx\"><\/column>\\n\1\2/g" mem-*.xml
 
+# To align the definition field for the new language code "xx", assuming the previously last language code is "ww":
+# sed -i -E ':a;N;$!ba;s:(\s*)<column name="definition_ww">([^<]*)</column>\n\s*<column name="definition_xx">([^<]*)</column>:\1<column name="definition_ww">\2</column>\1<column name="definition_xx">\3</column>:g' mem-*.xml
+# (Repeat for the other fields: notes, examples, search_tags.)
+
 # Special handling for Hong Kong Chinese: Because Google Translate does not
 # support "zh-HK", the language code "zh-TW" is used instead. There are some
 # differences between Hong Kong Chinese and Taiwan Chinese, and in particular,
