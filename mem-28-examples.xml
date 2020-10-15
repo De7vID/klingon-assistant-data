@@ -32,9 +32,9 @@ To answer in the negative, say {ghobe':excl} or {jISop vIneHbe'} "I don't want t
 Чтобы ответить отрицательно, скажите {ghobe':excl} "нет" or {jISop vIneHbe'} "Я не хочу есть."</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Vastaa myöntävästi sanomalla {HIja':excl} "kyllä" tai {jISop vIneH} "Haluan syödä".
+      <column name="notes_fi">Vastaa myöntävästi sanomalla {HIja':excl} "kyllä" tai {jISop vIneH} "haluan syödä".
 
-Jos haluat vastata kieltävästi, sano {ghobe':excl} tai {jISop vIneHbe'} "En halua syödä". [AUTOTRANSLATED]</column>
+Jos haluat vastata kieltävästi, sano {ghobe':excl} tai {jISop vIneHbe'} "en halua syödä".</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -81,9 +81,9 @@ To answer in the negative, say {ghobe':excl} or {jItlhutlh vIneHbe'} "I don't wa
 Чтобы ответить отрицательно, скажите {ghobe':excl} "нет" или {jItlhutlh vIneHbe'} "Я не хочу пить."</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Vastaa myöntävästi sanomalla {HIja':excl} "kyllä" tai {jItlhutlh vIneH} "Haluan juoda".
+      <column name="notes_fi">Vastaa myöntävästi sanomalla {HIja':excl} "kyllä" tai {jItlhutlh vIneH} "haluan juoda".
 
-Jos haluat vastata kieltävästi, sano {ghobe':excl} tai {jItlhutlh vIneHbe'} "En halua juoda". [AUTOTRANSLATED]</column>
+Jos haluat vastata kieltävästi, sano {ghobe':excl} tai {jItlhutlh vIneHbe'} "en halua juoda".</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -130,7 +130,7 @@ If the person you're speaking to is your superior, consider adding {-neS:v:suff}
       <column name="notes_pt"></column>
       <column name="notes_fi">Tätä ilmausta käytetään puhuttaessa yhdelle henkilölle. Kun puhut ihmisryhmälle, sano {tuquvmoH.:sen@@tu-:v, quv:v, -moH:v}
 
-Jos puhumasi henkilö on esimiehesi, harkitse {-neS:v:suff}: n lisäämistä. [AUTOTRANSLATED]</column>
+Jos puhuttelet ylempääsi, harkitse {-neS:v:suff}-päätteen lisäämistä.</column>
       <column name="hidden_notes"></column>
       <column name="components">{cho-:v}, {quv:v}, {-moH:v}</column>
       <column name="examples"></column>
@@ -223,7 +223,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="notes_pt"></column>
       <column name="notes_fi">Jos haluat vastata myöntävästi, sano {luq:excl} "ok".
 
-Jos haluat vastata kieltävästi, sano {Qo':excl} "ei, kieltäydyn". [AUTOTRANSLATED]</column>
+Jos haluat vastata kieltävästi, sano {Qo':excl} "ei, kieltäydyn".</column>
       <column name="hidden_notes"></column>
       <!-- This is needed because the analyser won't pick up {-Daq} with no attached noun. -->
       <column name="components">{-Daq:n:suff}, {qa-:v:pref}, {Dor:v:1}</column>
@@ -319,7 +319,7 @@ To answer in the negative, say {Qo':excl} "no, I refuse".</column>
       <column name="notes_pt"></column>
       <column name="notes_fi">Jos haluat vastata myöntävästi, sano {luq:excl} "ok".
 
-Jos haluat vastata kieltävästi, sano {Qo':excl} "ei, kieltäydyn". [AUTOTRANSLATED]</column>
+Jos haluat vastata kieltävästi, sano {Qo':excl} "ei, kieltäydyn".</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -338,7 +338,11 @@ Jos haluat vastata kieltävästi, sano {Qo':excl} "ei, kieltäydyn". [AUTOTRANSL
 ▶ {Ha', vaS'a' wIjaH!:sen:nolink} "Давайте, пойдём в Зал Великого совета."</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
+      <column name="examples_fi">
+▶ {Ha', pa'lIj wIjaH!:sen:nolink} "Tule, mennään sinun hyttiisi!"
+▶ {Ha', tach wIjaH!:sen:nolink} "Tule, mennään baariin!"
+▶ {Ha', vaS'a' wIjaH!:sen:nolink} "Tule, mennään Suureen Saliin."
+      </column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -371,7 +375,7 @@ Jos haluat vastata kieltävästi, sano {Qo':excl} "ei, kieltäydyn". [AUTOTRANSL
       <column name="notes_ru">В клингоне это скорее команда, чем вопрос. Это буквально означает: «Определите языки, на которых вы говорите!» [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">在克林崗語中，這是命令而不是問題。它的字面意思是「確定您說的語言！」 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Em Klingon, isso é um comando, e não uma pergunta. Literalmente significa: "Identifique os idiomas que você fala!" [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Klingonissa tämä on pikemminkin komento kuin kysymys. Se tarkoittaa kirjaimellisesti: "Tunnista kielet, joita puhut!" [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Klingonissa tämä on pikemminkin komento kuin kysymys. Se tarkoittaa kirjaimellisesti: "Nimeä kielet, joita puhut!"</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -414,7 +418,7 @@ Jos haluat vastata kieltävästi, sano {Qo':excl} "ei, kieltäydyn". [AUTOTRANSL
       <column name="notes_ru">Возможные ответы: {HIja':excl} и {ghobe':excl}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">可能的答案是{HIja':excl}和{ghobe':excl}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Mahdollisia vastauksia ovat {HIja':excl} ja {ghobe':excl}. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">{HIja':excl} ja {ghobe':excl} ovat mahdollisia vastauksia.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -458,7 +462,7 @@ Jos haluat vastata kieltävästi, sano {Qo':excl} "ei, kieltäydyn". [AUTOTRANSL
       <column name="notes_ru">Чтобы спросить где находится человек, следует использовать {ghaH:n} вместо {'oH:n}. {nuqDaq ghaH ...'e'?:sen:nolink} "Где ...?</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt">Para perguntar onde uma pessoa está, {ghaH:n} deve ser usado em vez de {'oH:n}. {nuqDaq ghaH ...'e'?:sen:nolink} "Onde está ...?" [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Jos haluat kysyä, missä henkilö on, {'oH:n}: n sijaan tulisi käyttää {ghaH:n}. {nuqDaq ghaH ...'e'?:sen:nolink} "Missä on ...?" [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Jos kysymys koskee henkilöä eikä asiaa, käytä {'oH:n}-sanan sijaan sanaa {ghaH:n}. {nuqDaq ghaH ...'e'?:sen:nolink} "Missä ... on?"</column>
       <column name="hidden_notes"></column>
       <column name="components">{nuqDaq:ques}, {'oH:n:pro}, {-'e':n:suff}</column>
       <column name="examples">
@@ -476,7 +480,11 @@ Jos haluat vastata kieltävästi, sano {Qo':excl} "ei, kieltäydyn". [AUTOTRANSL
 ▶ {nuqDaq 'oH Qe' QaQ'e'?:sen} "Где хороший ресторан?"</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
+      <column name="examples_fi">
+▶ {nuqDaq 'oH bIQ'a' HeH'e'?:sen} "Missä ranta on?"
+▶ {nuqDaq 'oH puchpa''e'?:sen} "Missä vessa on?"
+▶ {nuqDaq 'oH juHlIj'e'?:sen} "Missä asut? Missä kotisi on?"
+▶ {nuqDaq 'oH Qe' QaQ'e'?:sen} "Missä olisi hyvä ravintola?"</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -682,7 +690,7 @@ Jos haluat vastata kieltävästi, sano {Qo':excl} "ei, kieltäydyn". [AUTOTRANSL
       <column name="notes_ru">Используется для обращения к одному лицу. Чтобы приветствовать множество лиц, скажите {Savan!:sen}</column>
       <column name="notes_zh_HK">稱呼一個人時使用。 {Savan!:sen}說要向多個人致敬 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso é usado ao endereçar uma única pessoa. Para saudar várias pessoas, diga {Savan!:sen} [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tätä käytetään puhuttaessa yksittäiseen henkilöön. Tervehdi useita ihmisiä sanomalla {Savan!:sen} [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Useita henkilöitä tervehditään sanomalla {Savan!:sen}</column>
       <column name="hidden_notes"></column>
       <column name="components">{qa-:v:pref}, {van:v:1}</column>
       <column name="examples"></column>
@@ -768,7 +776,7 @@ Jos haluat vastata kieltävästi, sano {Qo':excl} "ei, kieltäydyn". [AUTOTRANSL
       <column name="notes_ru">Это используется при обращении к нескольким людям. Чтобы приветствовать одного человека, скажите {qavan!:sen} [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">在與多個人聯繫時使用。要向一個人致敬，請說{qavan!:sen} [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso é usado ao endereçar várias pessoas. Para saudar uma pessoa, diga {qavan!:sen} [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tätä käytetään puhuttaessa useille ihmisille. Tervehdi yhtä henkilöä sanomalla {qavan!:sen} [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Yhtä henkilöä tervehditään sanomalla {qavan!:sen}</column>
       <column name="hidden_notes"></column>
       <column name="components">{Sa-:v:pref}, {van:v:1}</column>
       <column name="examples"></column>
@@ -899,9 +907,9 @@ If the people you're speaking to are your superiors, consider adding {-neS:v:suf
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Tätä ilmausta käytetään puhuttaessa useille ihmisille. Kun puhut yhdelle henkilölle, sano {choquvmoH.:sen}
+      <column name="notes_fi">"Te kunnioitette minua" olisi {choquvmoH.:sen}
 
-Jos puhut ihmiset ovat esimiehiäsi, harkitse {-neS:v:suff}: n lisäämistä. [AUTOTRANSLATED]</column>
+Jos puhuttelet ylempiäsi, harkitse {-neS:v:suff}-päätteen käyttämistä.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -933,7 +941,7 @@ Jos puhut ihmiset ovat esimiehiäsi, harkitse {-neS:v:suff}: n lisäämistä. [A
       <column name="definition_ru">Я учу клингонский язык.</column>
       <column name="definition_zh_HK">我學克林崗語。</column>
       <column name="definition_pt">Eu aprendo Klingon.</column>
-      <column name="definition_fi">Opin klingonia.</column>
+      <column name="definition_fi">Opettelen klingonia.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tlhIngan Hol Dajatlh'a'?:sen}</column>
@@ -946,9 +954,9 @@ Jos puhut ihmiset ovat esimiehiäsi, harkitse {-neS:v:suff}: n lisäämistä. [A
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Harkitse tyypin 7 verbiliitteen, kuten {-taH:v:suff} tai {-lI':v:suff}, käyttöä:
-▶ {tlhIngan Hol vIghojtaH.:sen:nolink} "Oppin klingonia (jatkuu)."
-▶ {tlhIngan Hol vIghojlI'.:sen:nolink} "Oppin klingonia (etenen kohti tunnettua tavoitetta)." [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Harkitse tyypin 7 päätteen, kuten {-taH:v:suff} tai {-lI':v:suff}, käyttämistä:
+▶ {tlhIngan Hol vIghojtaH.:sen:nolink} "Opettelen klingonia (jatkuvasti)."
+▶ {tlhIngan Hol vIghojlI'.:sen:nolink} "Opettelen klingonia (etenen kohti tunnettua tavoitetta)."</column>
       <column name="hidden_notes"></column>
       <column name="components">{tlhIngan:n}, {Hol:n}, {vI-:v}, {ghoj:v}</column>
       <column name="examples"></column>
@@ -1255,7 +1263,7 @@ Jos puhut ihmiset ovat esimiehiäsi, harkitse {-neS:v:suff}: n lisäämistä. [A
       <column name="notes_ru">Посмотрите {qawmoH:v} для примера того, как использовать глагол как этот. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">有關如何使用此類動詞的示例，請參見{qawmoH:v}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Veja {qawmoH:v} para um exemplo de como usar um verbo como este. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Katso {qawmoH:v} esimerkki siitä, miten tämän kaltaista verbiä käytetään. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Katso artikkeli {qawmoH:v} malliksi siitä, miten tällaista verbiä käytetään.</column>
       <column name="hidden_notes">This word does not appear in canon. This entry is here for ease of reference only.</column>
       <column name="components">{Sov:v}, {-moH:v}</column>
       <column name="examples"></column>
@@ -1391,7 +1399,7 @@ Jos puhut ihmiset ovat esimiehiäsi, harkitse {-neS:v:suff}: n lisäämistä. [A
       <column name="notes_ru">Это слово не появляется в каноне. Тем не менее, он следует шаблону других слов {tay:n:2} и включен сюда для справки. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這個詞沒有出現在佳能中。但是，它遵循其他{tay:n:2}單詞的模式，在此包含以供參考。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esta palavra não aparece no cânon. No entanto, segue o padrão das outras palavras {tay:n:2} e é incluído aqui para referência. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tätä sanaa ei näy kaanonissa. Se noudattaa kuitenkin muiden {tay:n:2}-sanojen mallia ja sisältyy tähän viitteeksi. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tätä sanaa ei ole käytetty kaanonissa. Se noudattaa kuitenkin muiden {tay:n:2}-sanojen mallia ja on siksi sisällytetty tähän viitteeksi.</column>
       <column name="hidden_notes"></column>
       <column name="components">{cho':n}, {tay:n:2}</column>
       <column name="examples"></column>
@@ -1608,7 +1616,7 @@ Jos puhut ihmiset ovat esimiehiäsi, harkitse {-neS:v:suff}: n lisäämistä. [A
       <column name="notes_ru">«Страхование от отмены рейса» было странным понятием для Мальца, а не термина или фразы, которые он слышал раньше, но он сказал, что {leng chach mab:n:nolink} «контракт на экстренную поездку» будет пониматься клингонами как означающее соглашение о том, кто за что отвечает, если что-то идет не так во время путешествия. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">「航程取消保險」對於馬爾茨來說是一個奇怪的概念，不是他以前聽過的術語或短語，但是他說，克林崗斯將{leng chach mab:n:nolink}的「航程緊急合同」理解為是關於誰對什麼負責的協議，如果在旅途中出了點問題。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">"Seguro de cancelamento de viagem" era um conceito estranho para Maltz, e não um termo ou frase que ele já ouvira antes, mas ele disse que Klingons "{leng chach mab:n:nolink}" contrato de emergência de viagem "seria entendido por Klingons como um acordo sobre quem é responsável por quê, se algo dá errado durante uma jornada. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">"Matkan peruutusvakuutus" oli outo käsite Maltzille, eikä termi tai lause, jonka hän oli aiemmin kuullut, mutta hän sanoi, että {leng chach mab:n:nolink} "matkan hätäsopimus" ymmärretään Klingonsin mukaan sopimuksena siitä, kuka on vastuussa mistä, jos jokin menee pieleen matkan aikana. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">"Matkanperuutusvakuutus" oli vieras käsite Maltzille, eikä hän ollut kuullut sellaisesta aiemmin, mutta hän sanoi, että klingoninen ymmärtävän sanan {leng chach mab:n:nolink} "matkahätäsopimus" viittaavan sopimukseen siitä, kuka on vastuussa mistä, jos jokin menee pieleen matkan aikana.</column>
       <column name="hidden_notes"></column>
       <column name="components">{leng:n}, {chach:n}, {mab:n:1}</column>
       <column name="examples"></column>
@@ -1651,7 +1659,7 @@ Jos puhut ihmiset ovat esimiehiäsi, harkitse {-neS:v:suff}: n lisäämistä. [A
       <column name="notes_ru">Этот термин не использовался в каноне, но его значение выведено по аналогии с {vatlh DIS poH:n} и т. Д. Эта запись приведена здесь только для удобства. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">該術語未在佳能中使用，但其含義是通過與{vatlh DIS poH:n}等類似推論得出的。此條目僅出於便於參考的目的。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este termo não foi usado no cânone, mas seu significado é inferido por analogia com {vatlh DIS poH:n}, etc. Esta entrada está aqui apenas para facilitar a referência. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tätä termiä ei ole käytetty kaanonissa, mutta sen merkitys päätetään analogisesti {vatlh DIS poH:n}: n jne. Kanssa. Tämä merkintä on tarkoitettu vain viitteeksi. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tätä sanaa ei ole käytetty kaanonissa, mutta se noudattaa {vatlh DIS poH:n}in ja muiden vastaavien mallia. Tämä artikkeli on tarkoitettu vain viitteeksi.</column>
       <column name="hidden_notes"></column>
       <column name="components">{maH:n:2,num}, {DIS:n:2}, {poH:n}</column>
       <column name="examples"></column>
@@ -1953,7 +1961,7 @@ Jos puhut ihmiset ovat esimiehiäsi, harkitse {-neS:v:suff}: n lisäämistä. [A
       <column name="notes_ru">{yoqqoq:n@@yoq:n, -qoq:n}, конечно, будет «так называемым гуманоидом». [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">{yoqqoq:n@@yoq:n, -qoq:n}當然將是「所謂的類人動物」。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Um {yoqqoq:n@@yoq:n, -qoq:n} seria, obviamente, um "chamado humanóide". [AUTOTRANSLATED]</column>
-      <column name="notes_fi">{yoqqoq:n@@yoq:n, -qoq:n} olisi tietysti "niin kutsuttu humanoidi". [AUTOTRANSLATED]</column>
+      <column name="notes_fi">{yoqqoq:n@@yoq:n, -qoq:n} olisi luonnollisesti "niin kutsuttu humanoidi". [AUTOTRANSLATED]</column>
       <column name="hidden_notes">This word does not appear in canon. This entry is here for ease of reference only.</column>
       <column name="components">{qoq:n}, {yoq:n}</column>
       <column name="examples"></column>
@@ -2129,7 +2137,7 @@ Jos puhut ihmiset ovat esimiehiäsi, harkitse {-neS:v:suff}: n lisäämistä. [A
       <column name="notes_ru">Подумайте об использовании суффикса {-qu':v:suff}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">考慮使用後綴{-qu':v:suff}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Considere usar o sufixo {-qu':v:suff}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Harkitse loppuliitteen {-qu':v:suff} käyttöä. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Harkitse {-qu':v:suff}-päätteen käyttämistä tämän sijasta.</column>
       <column name="hidden_notes">This word does not appear in canon. This entry is here for ease of reference only.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2258,7 +2266,7 @@ Jos puhut ihmiset ovat esimiehiäsi, harkitse {-neS:v:suff}: n lisäämistä. [A
       <column name="notes_ru">Подумайте об использовании {ben law':sen@@ben:n:1, law':v}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">考慮使用{ben law':sen@@ben:n:1, law':v}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Considere usar {ben law':sen@@ben:n:1, law':v}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Harkitse {ben law':sen@@ben:n:1, law':v}: n käyttöä. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Harkitse ilmauksen {ben law':sen@@ben:n:1, law':v} käyttämistä tämän sijasta.</column>
       <column name="hidden_notes">This word does not appear in canon. This entry is here for ease of reference only.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2646,7 +2654,7 @@ Buy the full "Warrior Woman" album: {Google Play store:url:https://play.google.c
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Tämä on klingonilainen karaokeklassikko.
+      <column name="notes_fi">Tämä on klingonikaraokeklassikko.
 
 ▶ {HIchop:sen@@HI-:v, chop:v}
    {rol ghajbogh tIrvo' HIghoS:sen@@rol:n, ghaj:v, -bogh:v, tIr:n, -vo':n, HI-:v, ghoS:v:1}
@@ -2749,7 +2757,7 @@ The lyrics are as follows:
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Tämä on {tlhIngan Hol yejHaD:n}:in (epävirallinen) hymni, joka on laulettu jokaisella {qep'a':n:nolink}:lla.
+      <column name="notes_fi">Tämä on {tlhIngan Hol yejHaD:n}in (epävirallinen) hymni, joka on laulettu jokaisella {qep'a':n:nolink}lla.
 
 Sanat ovat:
 ▶ {taHjaj wo', 'ej taHjaj voDleHma'!:sen:nolink}
@@ -2849,7 +2857,7 @@ Watch this song performed by Rachel Bloom: {YouTube video:url:http://youtu.be/Y3
    {parmaq Dalo'laH'a'?:sen:nolink}
    {bIjuvmeH parmaq yIlo'.:sen@@bI-:v, juv:v, -meH:v, parmaq:n, yI-:v, lo':v}
 
-Katso tämä kappale Rachel Bloomin esittämänä: {YouTube video:url:http://youtu.be/Y3Q2HXXRlBM}</column>
+Katso tämä kappale Rachel Bloomin esittämänä: {YouTube-video:url:http://youtu.be/Y3Q2HXXRlBM}</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3057,7 +3065,7 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
       <column name="notes_ru">Это глагол с каждым из типов суффиксов. Он ничего не означает.</column>
       <column name="notes_zh_HK">這是一個帶每種後綴類型的動詞。這真的沒有任何意義。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é um verbo com um de cada tipo de sufixo. Realmente não significa nada. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on verbi, jolla on yksi kustakin päätteestä. Se ei oikeastaan ​​tarkoita mitään. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tässä verbissä on yksi pääte kustakin päätetyypistä. Se ei oikeastaan ​​tarkoita mitään.</column>
       <column name="hidden_notes">The invention of this verbal phrase is attributed to Mark Shoulson.</column>
       <column name="components">{bI-:v}, {Qong:v}, {-'egh:v}, {-qang:v}, {-choH:v}, {-moH:v}, {-laH:v}, {-chu':v}, {-pu':v}, {-neS:v}, {-chugh:v}</column>
       <column name="examples"></column>
@@ -3143,7 +3151,7 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
       <column name="notes_ru">Это буквально означает «Теперь я беру на себя обязанности первого помощника». [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這字面意思是「現在我承擔副駕駛的職責」。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso significa literalmente "Agora eu assumo as responsabilidades de primeiro oficial". [AUTOTRANSLATED]</column>
-      <column name="notes_fi"></column>
+      <column name="notes_fi">Tämä tarkoittaa kirjaimellisesti "Otan nyt yliperämiehen tehtävät".</column>
       <column name="hidden_notes"></column>
       <column name="components">{DaH:adv}, {yaS:n}, {wa'DIch:n}, {vI-:v}, {gheS:v}</column>
       <column name="examples"></column>
@@ -3229,7 +3237,7 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
       <column name="notes_ru">Об этом говорится в ответе на {juDev 'ej Dujvam ra'wI' DagheS 'e' vItlhob.:sen}. За ним следует фраза {no' Hol:n} {Delaq Do':sen}.[1] [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">據說這是對{juDev 'ej Dujvam ra'wI' DagheS 'e' vItlhob.:sen}的響應，其後是{no' Hol:n}短語{Delaq Do':sen}.[1] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso é dito em resposta a {juDev 'ej Dujvam ra'wI' DagheS 'e' vItlhob.:sen}. É seguido pela frase {no' Hol:n} {Delaq Do':sen}.[1] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä sanotaan vastauksena {juDev 'ej Dujvam ra'wI' DagheS 'e' vItlhob.:sen}: een. Sitä seuraa {no' Hol:n}-lause {Delaq Do':sen}.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on vastaus ilmaukseen {juDev 'ej Dujvam ra'wI' DagheS 'e' vItlhob.:sen}. Sitä seuraa {no' Hol:n} -lause {Delaq Do':sen}.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3315,7 +3323,7 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
       <column name="notes_ru">Это буквально означает: "Я прошу, чтобы вы повели нас и чтобы вы приняли обязанности командира этого корабля." Ответ: {ghopDu'wIjDaq yInmeyraj vIlaj.:sen}[1]. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">字面意思是「我要求您領導我們，並承擔這艘船的指揮官的職責。」響應為{ghopDu'wIjDaq yInmeyraj vIlaj.:sen}[1] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso significa literalmente "Solicito que nos lidere e assuma as funções de comandante deste navio". A resposta é {ghopDu'wIjDaq yInmeyraj vIlaj.:sen}[1] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä tarkoittaa kirjaimellisesti "Pyydän sinua johtamaan meitä ja suorittamaan tämän aluksen komentajan tehtävät". Vastaus on {ghopDu'wIjDaq yInmeyraj vIlaj.:sen}[1] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä tarkoittaa kirjaimellisesti "Pyydän sinua johtamaan meitä ja ottamaan tämän aluksen komentajan tehtävät". Vastaus on {ghopDu'wIjDaq yInmeyraj vIlaj.:sen}[1]</column>
       <column name="hidden_notes">{ju-:v}, {Dev:v}, {'ej:conj}, {Duj:n:1}, {ra'wI':n}, {Da-:v}, {gheS:v}, {'e':n}, {vI-:v}, {tlhob:v}</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3347,7 +3355,7 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
       <column name="definition_ru">Я чувствую удачу. [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">我感覺我是幸運的。 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Estou me sentindo com sorte.</column>
-      <column name="definition_fi">Olen valmis ottamaan riskin.</column>
+      <column name="definition_fi">Kokeilen onneani.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -3358,7 +3366,7 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
       <column name="notes_ru">Это буквально означает «я готов рискнуть». Эта фраза связана с популярной поисковой системой {Google:url:http://www.google.com/}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這字面意思是「我準備好機會了」。該短語與流行的搜索引擎{Google:url:http://www.google.com/}相關。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso literalmente significa "Estou pronto para arriscar". Esta frase está associada ao popular mecanismo de pesquisa {Google:url:http://www.google.com/}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä tarkoittaa kirjaimellisesti "olen valmis ottamaan riskin". Tämä lause liittyy suosittuun hakukoneeseen {Google:url:http://www.google.com/}. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä tarkoittaa kirjaimellisesti "Olen valmis ottamaan riskin". Lause viittaa erääseen suosittuun hakukoneeseen, {Googleen:url:http://www.google.com/}.</column>
       <column name="hidden_notes"></column>
       <column name="components">{jI-:v}, {SuD:v:2}, {-rup:v}</column>
       <column name="examples"></column>
@@ -3563,6 +3571,7 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
       <column name="definition_ru">Клингонский воин никогда не сдается.</column>
       <column name="definition_zh_HK">克林貢戰士從不屈服。 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Um guerreiro Klingon nunca se rende. [AUTOTRANSLATED]</column>
+      <column name="definition_fi">Klingonisoturi ei koskaan antaudu.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -3573,6 +3582,7 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
       <column name="notes_ru">дословно, "Клингонский воин сдается ноль раз".</column>
       <column name="notes_zh_HK">從字面上看，這是「一位克林崗戰士投降了零次」。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso é literalmente "Um guerreiro Klingon se rende zero vezes". [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä tarkoittaa kirjaimellisesti "Klingonisoturi antautuu nolla kertaa".</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3582,6 +3592,7 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -3589,6 +3600,7 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT p.178:src}</column>
     </table>
     <table name="mem">
@@ -3664,7 +3676,9 @@ Contrary to some unreliable sources, the phrase "Urkuk lu Stalga" does not mean 
 Вопреки к некоторым ненадежным источникам, фраза "Urkuk lu Stalga" не означает "Я люблю тебя малышка" на Клингонском. Фактически, это совсем не Клингонский. Называя кого-то малышкой (смотрите {ghu:n}) это не считается признаком любви.</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi"></column>
+      <column name="notes_fi">Verbi {muSHa':v} ei välttämättä viittaa romanttiseen rakkauteen, jota varten on sana {parmaq:n}.
+
+Toisin kuin jotkut väittävät, lause "Urkuk lu Stalga" ei tarkoita "rakastan sinua, vauva" klingoniksi. Itse asiassa se ei ole klingonia ollenkaan. Rakkaan kutsuminen vauvaksi (katso {ghu:n}) ei myöskään ole hyvää klingonia.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3707,7 +3721,7 @@ Contrary to some unreliable sources, the phrase "Urkuk lu Stalga" does not mean 
       <column name="notes_ru">Дословно это значит "Пусть ты насладишься твоим днём рождения!". Чтобы пожелать счастья множеству людей, скажитеsay {qoSraj botIvjaj!}</column>
       <column name="notes_zh_HK">這字面意思是「祝您生日快樂！」祝多人生日快樂，請說{qoSraj botIvjaj!} [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso significa literalmente "você pode aproveitar seu aniversário!" Para desejar um feliz aniversário para várias pessoas, diga {qoSraj botIvjaj!} [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä tarkoittaa kirjaimellisesti "saatatko nauttia syntymäpäivästäsi!" Jos haluat toivottaa hyvää syntymäpäivää useille ihmisille, sano {qoSraj botIvjaj!} [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä tarkoittaa kirjaimellisesti "Toivon, että nautit syntymäpäivästäsi". Jos haluat toivottaa hyvää syntymäpäivää useille henkilöille, sano {qoSraj botIvjaj!}</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3750,7 +3764,7 @@ Contrary to some unreliable sources, the phrase "Urkuk lu Stalga" does not mean 
       <column name="notes_ru">В {TKD:src} используется, как пример существительного со всеми пятью суффиксами.</column>
       <column name="notes_zh_HK">在{TKD:src}中使用它作為帶有所有五種後綴類型的名詞的示例。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso é usado no {TKD:src} como um exemplo de um substantivo com todos os cinco tipos de sufixos. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tätä käytetään {TKD:src}: ssä esimerkkinä substantiivista, jolla on kaikki viisi päätetyyppiä. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on {TKD:src}:ssä esimerkki substantiivista, jolla on kaikki viisi mahdollista liitettä.</column>
       <column name="hidden_notes"></column>
       <column name="components">{Qagh:n}, {-Hom:n}, {-mey:n}, {-Hey:n}, {-lIj:n}, {-mo':n}</column>
       <column name="examples"></column>
