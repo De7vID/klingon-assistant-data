@@ -3886,10 +3886,10 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
       <column name="notes_sv">Talat av {qeylIS'e' lIjlaHbe'bogh vay':n:name} till {qotar:n:name} i {paq'batlh:src}. [AUTOTRANSLATED]</column>
       <column name="notes_ru">Сказано в диалоге между {qeylIS'e' lIjlaHbe'bogh vay':n:name} и {qotar:n:name} в {paq'batlh:src}.</column>
       <column name="notes_zh_HK">在{paq'batlh:src}中由{qeylIS'e' lIjlaHbe'bogh vay':n:name}說話到{qotar:n:name}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt"></column>
+      <column name="notes_pt">Falado por {qeylIS'e' lIjlaHbe'bogh vay':n:name} para {qotar:n:name} no {paq'batlh:src}. [AUTOTRANSLATED]</column>
       <column name="notes_fi">{qeylIS'e' lIjlaHbe'bogh vay':n:name} puhui {qotar:n:name}: lle {paq'batlh:src}: ssa. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{ghu':n}, {Da-:v}, {chup:v}, {-bogh:v}, {vI-:v}, {laj:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -3907,6 +3907,49 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {paq'batlh p.144-145:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">molor 'etlh bID wItlh qeylIS.</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">Kahless broke Molor's sword in half.</column>
+      <column name="definition_de">Kahless brach Molors Schwert in zwei Hälften. [AUTOTRANSLATED]</column>
+      <column name="definition_fa">Kahless شمشیر Molor را نصف کرد. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Kahless bröt Molors svärd i hälften. [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Калесс сломал меч Молора пополам. [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">Kahless將Molor的劍折成兩半。 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">Kahless quebrou a espada de Molor ao meio. [AUTOTRANSLATED]</column>
+      <column name="definition_fi">Kahless rikkoi Molorin miekan kahtia. [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{molor:n:name}, {'etlh:n}, {bID:n}, {wItlh:v}, {qeylIS:n:name}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {paq'batlh p.167-168:src}</column>
     </table>
 
     <!-- Section: Borrowings from Federation Standard -->
