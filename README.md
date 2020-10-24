@@ -16,7 +16,11 @@ original source if possible. This is important as the database is used by
 software which may compare its entries to other lexicons. In particular, KWOTD
 (Klingon Word Of The Day) functionality in {boQwI'} partially depends on
 matching the `entry_name` to the word or phase received from the {Hol 'ampaS}
-server. A mismatch may result in failure to retrieve the KWOTD.
+server. A mismatch may result in failure to retrieve the KWOTD. However, full
+sentences should have final punctuation for consistency. (If the English
+translation has final punctuation, the Klingon sentence should use the same
+punctuation mark, but otherwise it should end in a period, or an exclamation
+mark if that is more appropriate.)
 
 If a definition appears multiple times in the same source, the broadest
 definition should be used. For example, {tu':v} appears as "discover, find,
