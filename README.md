@@ -16,7 +16,11 @@ original source if possible. This is important as the database is used by
 software which may compare its entries to other lexicons. In particular, KWOTD
 (Klingon Word Of The Day) functionality in {boQwI'} partially depends on
 matching the `entry_name` to the word or phase received from the {Hol 'ampaS}
-server. A mismatch may result in failure to retrieve the KWOTD.
+server. A mismatch may result in failure to retrieve the KWOTD. However, full
+sentences should have final punctuation for consistency. (If the English
+translation has final punctuation, the Klingon sentence should use the same
+punctuation mark, but otherwise it should end in a period, or an exclamation
+mark if that is more appropriate.)
 
 If a definition appears multiple times in the same source, the broadest
 definition should be used. For example, {tu':v} appears as "discover, find,
@@ -48,7 +52,7 @@ translations if possible, but may differ if it is necessary to include
 information specific to a language. For example, the German entry for
 {ngech:n:2} notes a common misunderstanding specific to the German language.
 Every link and source referenced in the English notes should be referenced in
-the translations.
+the translations (to the degree that it is possible).
 
 When adding a new entry, the `blank.xml` template should be used. There is a
 script `call_google_translate.py` which may be used to automatically translate
@@ -78,7 +82,8 @@ pedagogical purposes (such as Beginner's Conversation sentences) or to make
 search easier (because a search term corresponds to a verb with suffixes or a
 complex noun). It also contains canon examples, if they are parenthetical
 (created by Okrand merely for the purpose of explaining an entry which is in
-the main section).
+the main section). Entries from the `extra` and `examples` sections are excluded
+when using the "random" function within the Android app.
 
 It is a convention to link only once to another entry within each entry.
 Subsequent references to another entry should be tagged with `nolink`. If there

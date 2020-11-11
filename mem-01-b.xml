@@ -13,14 +13,14 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="notes_fi"></column>
+      <column name="notes">This refers to the sound, and not to any letter or glyph.</column>
+      <column name="notes_de">Dies bezieht sich auf den Ton und nicht auf Buchstaben oder Glyphen. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این به صدا اشاره دارد و به هیچ حرف یا حروف گلی اشاره نمی کند. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta hänvisar till ljudet och inte till någon bokstav eller tecken. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это относится к звуку, а не к букве или глифу. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是指聲音，而不是任何字母或字形。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso se refere ao som, e não a qualquer letra ou glifo. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä viittaa ääneen eikä mihinkään kirjaimeen tai kuvioon. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -7102,7 +7102,9 @@ It was clarified during the Q &amp; A session at {qep'a' 27 (2020):src} that the
       <column name="notes_zh_HK">例如，該詞將用於描述盒子的內部底部。盒子的{bIS'ub:n:nolink}的另一面是{pIrmuS:n}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Por exemplo, esta palavra seria usada para descrever o fundo interno de uma caixa. A outra face da caixa {bIS'ub:n:nolink} é seu {pIrmuS:n}.</column>
       <column name="notes_fi">Tätä sanaa käytetään esimerkiksi kuvaamaan laatikon sisäosaa. Laatikon {bIS'ub:n:nolink} toinen puoli on sen {pIrmuS:n}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">In Ovid's "Metamorphoses", Pyramus and Thisbe are lovers who are separated by being on opposite sides of a wall.</column>
+      <column name="hidden_notes">In Ovid's "Metamorphoses", Pyramus and Thisbe are lovers who are separated by being on opposite sides of a wall.
+
+Speculation: This may have been intended to be {tIS'ub:n:nolink} but was changed due to a transcription error (or another reason).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
