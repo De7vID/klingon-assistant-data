@@ -2666,7 +2666,7 @@ Não confunda isso com {mum:v}, que significa "gosto" no sentido de perceber sab
       <column name="definition_pt">ainda não</column>
       <column name="definition_fi">ei vielä</column>
       <column name="synonyms"></column>
-      <column name="antonyms">{wejHa':adv:hyp}</column>
+      <column name="antonyms">{wejHa':adv}</column>
       <column name="see_also">{tagha':adv}, {not:adv}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
@@ -2696,6 +2696,49 @@ Não confunda isso com {mum:v}, que significa "gosto" no sentido de perceber sab
       <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">wejHa'</column>
+          <column name="part_of_speech">adv:deriv</column>
+          <column name="definition">already, before now, as of now</column>
+          <column name="definition_de">schon, vor jetzt, zu diesem Zeitpunkt</column>
+          <column name="definition_fa">قبلا ، قبل از الان ، از الان [AUTOTRANSLATED]</column>
+          <column name="definition_sv">redan, innan nu, från och med nu [AUTOTRANSLATED]</column>
+          <column name="definition_ru">уже, до сих пор, на данный момент [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">從現在開始，到現在為止 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">já, antes de agora, a partir de agora [AUTOTRANSLATED]</column>
+          <column name="definition_fi">jo ennen tätä, nyt [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms">{wej:adv}</column>
+          <column name="see_also">{-Ha':v:suff}, {tagha'Ha':adv:hyp}</column>
+          <column name="notes">A better (though more awkward) characterization of this word is "before or as of a time referenced in the sentence or context". It does not carry the connotation of impatience or exasperation expressed by "already" which it has in some contexts (such as "Stop already with the fidgeting").[1]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components"></column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2020:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">wej</column>
@@ -5200,7 +5243,9 @@ Tämän komennon leikattu klingonimuoto olisi {wIy cha'!:sen@@wIy:n, cha':v} [AU
       <column name="components"></column>
       <column name="examples">
 ▶ {labmeH 'evnagh Se' lo' tlhIngan QumwI'. janmey ngo' lulo'lu'DI' pIj jabbI'ID nISpu' woj.:sen:nolink}
-  "A Klingon communicator sends a signal through subspace radio. Older models were susceptible to radiation."[2]</column>
+  "A Klingon communicator sends a signal through subspace radio. Older models were susceptible to radiation."[2]
+▶ {woj tlhuD tarngeb:sen@@woj:n, tlhuD:v, tarngeb:n} "uranium is radioactive"[3]
+▶ {woj tlhuDbogh tamler:n@@woj:n, tlhuD:v, -bogh:v, tamler:n} "(a) radioactive element"[3]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -5216,7 +5261,7 @@ Tämän komennon leikattu klingonimuoto olisi {wIy cha'!:sen@@wIy:n, cha':v} [AU
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKDA:src}, [2] {SkyBox 19:src}</column>
+      <column name="source">[1] {TKDA:src}, [2] {SkyBox 19:src}, [3] {Saarbrücken qepHom'a' 2020:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

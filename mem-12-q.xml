@@ -3045,8 +3045,8 @@ In British English, this word refers to what would be called a "trapezium".</col
       <column name="_id"></column>
       <column name="entry_name">qav'ap</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">rent, fee</column>
-      <column name="definition_de">Miete, Nutzungspreis, Zoll</column>
+      <column name="definition">fee, rent</column>
+      <column name="definition_de">Entgelt, Miete, Nutzungspreis, Zoll</column>
       <column name="definition_fa">مبلغ اجاره [AUTOTRANSLATED]</column>
       <column name="definition_sv">pris, värde, belopp, summa (pengar)</column>
       <column name="definition_ru">плата, гонорар, взнос, арендная плата</column>
@@ -3055,18 +3055,26 @@ In British English, this word refers to what would be called a "trapezium".</col
       <column name="definition_fi">vuokra, käyttömaksu, hinta, tulli?</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{DIl:v}, {voHDajbo' qav'ap:n}, {ghogh'ot:n}</column>
-      <column name="notes">This word is used in {Klingon Monopoly:src} to denote how many {QaS:n:1h} a player has to pay when landing on a planet owned by another player.</column>
-      <column name="notes_de">Dieses Wort wird in {Klingon Monopoly:src} verwendet, um anzugeben, wie viele {QaS:n:1h} ein Spieler bezahlen muss, wenn er auf einem Planeten landet, der einem anderen Spieler gehört. [AUTOTRANSLATED]</column>
+      <column name="see_also">{DIl:v}, {voHDajbo' qav'ap:n}, {ghogh'ot:n}, {'ap:n}</column>
+      <column name="notes">This word is used in {Klingon Monopoly:src} to denote how many {QaS:n:1h} a player has to pay when landing on a planet owned by another player.[1]
+
+It's not clear what {qav:v:hyp,nolink} means by itself, but it's possible that this was shortened from {qavmeH 'ap:n:nolink} or something like that at some point in the past.[2]</column>
+      <column name="notes_de">Dieses Wort wird in {Klingon Monopoly:src} verwendet, um anzugeben, wie viele {QaS:n:1h} ein Spieler bezahlen muss, wenn er auf einem Planeten landet, der einem anderen Spieler gehört.[1]
+
+Es ist nicht klar, was {qav:v:hyp,nolink} für sich bedeutet, aber es ist möglich, dass dies irgendwann in der Vergangenheit von {qavmeH 'ap:n:nolink} oder ähnlichem abgekürzt wurde.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fa"></column>
-      <column name="notes_sv">Detta ord används i {Klingon Monopoly:src} för att beteckna hur många {QaS:n:1h} en spelare måste betala när han landar på en planet som ägs av en annan spelare. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Слово использовано в {Klingon Monopoly:src} чтобы указать, за сколько {QaS:n:1h} игроку прийдется заплатить за посадку на планету, которая принадлежит другому игроку.</column>
-      <column name="notes_zh_HK">在{Klingon Monopoly:src}中使用此詞表示一個玩家降落在另一個玩家擁有的星球上時必須支付多少{QaS:n:1h}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Esta palavra é usada em {Klingon Monopoly:src} para indicar quantos {QaS:n:1h} um jogador deve pagar ao pousar em um planeta pertencente a outro jogador. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tätä sanaa käytetään {Klingon Monopoly:src}: ssä merkitsemään kuinka monta {QaS:n:1h} pelaajaa on maksettava laskeutuessaan toisen pelaajan omistamalle planeetalle. [AUTOTRANSLATED]</column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru">Слово использовано в {Klingon Monopoly:src} чтобы указать, за сколько {QaS:n:1h} игроку прийдется заплатить за посадку на планету, которая принадлежит другому игроку.[1]
+
+Непонятно, что {qav:v:hyp,nolink} означает сам по себе, но возможно, что это было сокращено от {qavmeH 'ap:n:nolink} или чего-то подобного в какой-то момент в прошлом.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt">Esta palavra é usada em {Klingon Monopoly:src} para denotar quantos {QaS:n:1h} um jogador tem que pagar ao pousar em um planeta de propriedade de outro jogador.[1]
+
+Não está claro o que {qav:v:hyp,nolink} significa por si só, mas é possível que tenha sido abreviado de {qavmeH 'ap:n:nolink} ou algo parecido em algum momento no passado.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">"Cough (it) up".
 
-No English definition has been given for this word. The meaning has been derived from usage. The {KLI:src} New Klingon Words list gives the definition "rent, cost, price, value".</column>
+No English definition was originally given for this word, so it was given the definition "rent, fee" based on usage. The {KLI:src} New Klingon Words list gives the definition "rent, cost, price, value". The definition "fee, rent" was confirmed at {Saarbrücken qepHom'a' 2020:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3084,7 +3092,7 @@ No English definition has been given for this word. The meaning has been derived
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {Klingon Monopoly:src}</column>
+      <column name="source">[1] {Klingon Monopoly:src}, [2] {Saarbrücken qepHom'a' 2020:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -4714,15 +4722,31 @@ Sana itsessään tarkoittaa "kaiken alkuperää" tai "kaiken alkua" tai vastaava
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This means lower the head slightly whether or not the head is again raised. So, among other things, it can refer to nodding to the beat of music or nodding off (falling asleep). The subject might be, for example, {nach:n} "head" (even though this might be considered redundant) or the nodder. It does not take an object.</column>
-      <column name="notes_de">Dies bedeutet, dass der Kopf leicht abgesenkt wird, unabhängig davon, ob der Kopf erneut angehoben wird. So kann es sich unter anderem darauf beziehen, im Takt der Musik zu nicken oder einzuschlafen. Das Subjekt des Verbes könnte der "Kopf" {nach:n} "Kopf" sein (wobei man dies als überflüssig betrachten könnte) oder die nickende Person. Das Verb nimmt kein Objekt.</column>
-      <column name="notes_fa">این بدان معنی است که سر را کمی بلند کنید که آیا دوباره سر بلند شده است یا خیر. بنابراین ، در میان چیزهای دیگر ، می توان به گره زدن به ضرب و شتم موسیقی یا گره خوردن (خوابیدن) اشاره کرد. موضوع ممکن است مثلاً {nach:n} "سر" باشد (حتی اگر ممکن است این کار اضافی تلقی شود) یا تکان دهنده. جسم را نمی گیرد. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta innebär att du sänker huvudet något, oavsett om huvudet lyfts igen eller inte. Så bland annat kan det hänvisa till att nicka till musiken eller att nicka av (somna). Ämnet kan till exempel vara {nach:n} "huvud" (även om detta kan anses vara överflödigt) eller nodern. Det tar inget objekt. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это означает, что голова немного опущена, независимо от того, поднята голова или нет. Так что, между прочим, это может означать кивание в такт музыке или сонливость (засыпание). Субъектом может быть, например, «голова» {nach:n} (даже если это может считаться избыточным) или кивок. Это не берет объект. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這意味著無論是否再次抬起頭部，都要稍微降低頭部。因此，除其他外，它可以指點拍音樂節拍或點頭睡著（入睡）。例如，主題可能是{nach:n}「頭」（即使這可能被認為是多餘的）或點頭。它不帶對象。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Isso significa abaixar a cabeça levemente, independentemente de a cabeça ser novamente levantada. Portanto, entre outras coisas, pode se referir a citar a batida da música ou a adormecer (adormecer). O sujeito pode ser, por exemplo, {nach:n} "head" (mesmo que isso possa ser considerado redundante) ou o nodder. Não é necessário um objeto. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä tarkoittaa, että päätä lasketaan hiukan riippumatta siitä, nostetaanko pää uudelleen. Joten se voi muun muassa viitata nyökkäykseen musiikin tahtiin tai nyökkäykseen (nukahtaminen). Kohde voi olla esimerkiksi {nach:n} "pää" (vaikka tätä voidaan pitää tarpeettomana) tai nyökkääjä. Se ei vie kohdetta. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">This refers to the motion, not any particular meaning (such as nodding to indicate "yes" in some cultures). This was clarified during the Q &amp; A session.</column>
+      <column name="notes">This means lower the head slightly whether or not the head is again raised. So, among other things, it can refer to nodding to the beat of music or nodding off (falling asleep). The subject might be, for example, {nach:n} "head" (even though this might be considered redundant) or the nodder. It does not take an object.[1]
+
+This verb refers only to the motion, not what such a motion may or may not indicate. To express that the nodding means something, such as agreement, one might say {Qochbe' vaj qel nachDaj:sen@@Qochbe':v, vaj:adv, qel:v:2, nach:n, -Daj:n} or {Qochbe' 'e' ghaSmeH qel ghaH:sen@@Qochbe':v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}. In some cultures, nodding may indicate something other than agreement, so one might say something like {yaj 'e' ghaSmeH qel ghaH:sen@@yaj:v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}.[3]</column>
+      <column name="notes_de">Dies bedeutet, dass der Kopf leicht abgesenkt wird, unabhängig davon, ob der Kopf erneut angehoben wird. So kann es sich unter anderem darauf beziehen, im Takt der Musik zu nicken oder einzuschlafen. Das Subjekt des Verbes könnte der "Kopf" {nach:n} "Kopf" sein (wobei man dies als überflüssig betrachten könnte) oder die nickende Person. Das Verb nimmt kein Objekt.[1]
+
+Dieses Verb bezieht sich nur auf die Bewegung, nicht darauf, was eine solche Bewegung anzeigen kann oder nicht. Um auszudrücken, dass das Nicken etwas bedeutet, wie zum Beispiel Übereinstimmung, könnte man {Qochbe' vaj qel nachDaj:sen@@Qochbe':v, vaj:adv, qel:v:2, nach:n, -Daj:n} oder {Qochbe' 'e' ghaSmeH qel ghaH:sen@@Qochbe':v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n} sagen. In einigen Kulturen kann das Nicken auf etwas anderes als Übereinstimmung hinweisen, also könnte man etwas wie {yaj 'e' ghaSmeH qel ghaH:sen@@yaj:v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}.[3] sagen [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این بدان معنی است که سر مجدداً بلند شده یا نشود ، سر را کمی پایین بیاورید. بنابراین ، از جمله چیزهای دیگر ، می تواند اشاره به نق زدن به ضربان موسیقی یا سر تکان دادن (خواب رفتن) باشد. موضوع ممکن است به عنوان مثال ، "سر" {nach:n} (حتی اگر این کار اضافی در نظر گرفته شود) یا سر تکان دادن باشد. این یک شی را نمی گیرد.[1]
+
+این فعل فقط به حرکت اشاره دارد ، نه آنچه ممکن است چنین حرکتی نشان دهد یا نشان ندهد. برای بیان اینکه سر تکان دادن به معنای چیزی است ، مانند توافق ، می توان گفت {Qochbe' vaj qel nachDaj:sen@@Qochbe':v, vaj:adv, qel:v:2, nach:n, -Daj:n} یا {Qochbe' 'e' ghaSmeH qel ghaH:sen@@Qochbe':v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}. در بعضی از فرهنگ ها ، نق زدن با سر ممکن است چیزی غیر از توافق را نشان دهد ، بنابراین ممکن است چیزی مانند {yaj 'e' ghaSmeH qel ghaH:sen@@yaj:v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n} گفته شود. [3] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta innebär att du sänker huvudet något oavsett om huvudet åter höjs eller inte. Så bland annat kan det referera till att nicka i takt med musiken eller att nicka av (somna). Ämnet kan till exempel vara {nach:n} "huvud" (även om detta kan anses vara överflödigt) eller nicket. Det tar inte ett objekt.[1]
+
+Detta verb refererar bara till rörelsen, inte vad en sådan rörelse kan eller inte kan indikera. För att uttrycka att nickningen betyder något, till exempel överenskommelse, kan man säga {Qochbe' vaj qel nachDaj:sen@@Qochbe':v, vaj:adv, qel:v:2, nach:n, -Daj:n} eller {Qochbe' 'e' ghaSmeH qel ghaH:sen@@Qochbe':v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}. I vissa kulturer kan nickning indikera något annat än överenskommelse, så man kan säga något som {yaj 'e' ghaSmeH qel ghaH:sen@@yaj:v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}.[3] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это означает, что слегка опустите голову независимо от того, поднята она снова или нет. Так, среди прочего, это может относиться к киванию в такт музыке или кивке (засыпание). Субъектом может быть, например, «голова» {nach:n} (даже если это может считаться избыточным) или кивок. Он не принимает объект.[1]
+
+Этот глагол относится только к движению, а не к тому, что такое движение может или не может указывать. Чтобы выразить, что кивок что-то означает, например, согласие, можно сказать {Qochbe' vaj qel nachDaj:sen@@Qochbe':v, vaj:adv, qel:v:2, nach:n, -Daj:n} или {Qochbe' 'e' ghaSmeH qel ghaH:sen@@Qochbe':v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}. В некоторых культурах кивок может означать нечто иное, чем согласие, поэтому можно сказать что-то вроде {yaj 'e' ghaSmeH qel ghaH:sen@@yaj:v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}.[3] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這意味著無論是否再次抬起頭部，都要稍微降低頭部。因此，除其他外，它可以指點拍音樂節拍或點頭睡著（入睡）。例如，主題可能是{nach:n}「頭」（即使這可能被認為是多餘的）或點頭。它不帶對象。[1]
+
+這個動詞僅指運動，而不是運動所指示的內容。為了表達點頭的意思，例如達成協議，可以說{Qochbe' vaj qel nachDaj:sen@@Qochbe':v, vaj:adv, qel:v:2, nach:n, -Daj:n}或{Qochbe' 'e' ghaSmeH qel ghaH:sen@@Qochbe':v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}。在某些文化中，點頭可能表示協議以外的其他內容，因此有人可能會說類似{yaj 'e' ghaSmeH qel ghaH:sen@@yaj:v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}.[3] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso significa abaixar ligeiramente a cabeça, quer ela esteja novamente levantada ou não. Portanto, entre outras coisas, pode referir-se a acenar com a cabeça ao ritmo da música ou cochilar (adormecer). O assunto pode ser, por exemplo, {nach:n} "cabeça" (mesmo que isso possa ser considerado redundante) ou o nodder. Não requer um objeto.[1]
+
+Este verbo se refere apenas ao movimento, não o que tal movimento pode ou não indicar. Para expressar que acenar com a cabeça significa algo, como concordância, pode-se dizer {Qochbe' vaj qel nachDaj:sen@@Qochbe':v, vaj:adv, qel:v:2, nach:n, -Daj:n} ou {Qochbe' 'e' ghaSmeH qel ghaH:sen@@Qochbe':v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}. Em algumas culturas, acenar com a cabeça pode indicar algo diferente de concordância, então pode-se dizer algo como {yaj 'e' ghaSmeH qel ghaH:sen@@yaj:v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}.[3] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä tarkoittaa, että päätä lasketaan hieman, riippumatta siitä, onko pää jälleen nostettu vai ei. Joten se voi muun muassa viitata nyökkäykseen musiikin tahtiin tai nyökkäykseen (nukahtaminen). Kohde voi olla esimerkiksi {nach:n} "pää" (vaikka tätä voidaan pitää tarpeettomana) tai nyökkääjä. Se ei vie objektia.[1]
+
+Tämä verbi viittaa vain liikkeeseen, ei siihen, mitä tällainen liike voi tai ei voi osoittaa. Sen ilmaisemiseksi, että nyökkäys tarkoittaa jotain, kuten sopimusta, voidaan sanoa {Qochbe' vaj qel nachDaj:sen@@Qochbe':v, vaj:adv, qel:v:2, nach:n, -Daj:n} tai {Qochbe' 'e' ghaSmeH qel ghaH:sen@@Qochbe':v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}. Joissakin kulttuureissa nyökkäys voi viitata mihinkään muuhun kuin sopimukseen, joten voidaan sanoa jotain {yaj 'e' ghaSmeH qel ghaH:sen@@yaj:v, 'e':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}.[3] [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">This refers to the motion, not any particular meaning (such as nodding to indicate "yes" in some cultures). This was clarified during the Q &amp; A session.[1]</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4740,7 +4764,7 @@ Sana itsessään tarkoittaa "kaiken alkuperää" tai "kaiken alkua" tai vastaava
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {qep'a' 27 (2020):src}</column>
+      <column name="source">[1] {qep'a' 27 (2020):src}, [2] {Saarbrücken qepHom'a' 2020:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5406,15 +5430,31 @@ Klingonin kieli-instituutin virallinen vuosikonferenssi tunnetaan nimellä {qep'
       <column name="definition_fi">harjoitella, treenata, valmistautua</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qeq:n}, {ghuH:v}, {ghuS:v:1}</column>
-      <column name="notes">Also related are the suffixes {-rup:v} and {-beH:v}.</column>
-      <column name="notes_de">Ebenfalls verwandt sind die Suffixe {-rup:v} und {-beH:v}. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">پسوندهای {-rup:v} و {-beH:v} نیز مرتبط هستند. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Även relaterade är suffixerna {-rup:v} och {-beH:v}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Есть связанные суффиксы {-rup:v} и {-beH:v}.</column>
-      <column name="notes_zh_HK">後綴{-rup:v}和{-beH:v}也相關。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Também estão relacionados os sufixos {-rup:v} e {-beH:v}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Liittyvät myös pääte {-rup:v} ja {-beH:v}. [AUTOTRANSLATED]</column>
+      <column name="see_also">{qeq:n}, {ghuH:v}, {ghuS:v:1}, {tab:v}</column>
+      <column name="notes">Also related are the suffixes {-rup:v} and {-beH:v}.
+
+To train really well, to work really hard at it and achieve intended goals, would be {qeqchu':v@@qeq:v, -chu':v}.[2]</column>
+      <column name="notes_de">Ebenfalls verwandt sind die Suffixe {-rup:v} und {-beH:v}.
+
+Wirklich gut zu trainieren, wirklich hart daran zu arbeiten und die beabsichtigten Ziele zu erreichen, wäre {qeqchu':v@@qeq:v, -chu':v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">همچنین پسوندهای {-rup:v} و {-beH:v} مرتبط هستند.
+
+واقعا خوب آموزش دادن ، کار کردن با آن خیلی سخت و رسیدن به اهداف مورد نظر ، {qeqchu':v@@qeq:v, -chu':v}.[2] خواهد بود [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Även relaterade är suffixen {-rup:v} och {-beH:v}.
+
+Att träna riktigt bra, att arbeta riktigt hårt på det och uppnå avsedda mål skulle vara {qeqchu':v@@qeq:v, -chu':v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Есть связанные суффиксы {-rup:v} и {-beH:v}.
+
+Тренироваться действительно хорошо, много работать над этим и достигать поставленных целей - это {qeqchu':v@@qeq:v, -chu':v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">後綴{-rup:v}和{-beH:v}也相關。
+
+要真正地訓練好，真正地努力工作並實現預期的目標，那就是{qeqchu':v@@qeq:v, -chu':v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Também relacionados estão os sufixos {-rup:v} e {-beH:v}.
+
+Treinar muito bem, trabalhar muito para isso e atingir os objetivos pretendidos, seria {qeqchu':v@@qeq:v, -chu':v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Liittyvät myös pääte {-rup:v} ja {-beH:v}.
+
+Kouluttaa todella hyvin, työskennellä siinä todella paljon ja saavuttaa aiotut tavoitteet olisi {qeqchu':v@@qeq:v, -chu':v}.[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -5433,7 +5473,7 @@ Klingonin kieli-instituutin virallinen vuosikonferenssi tunnetaan nimellä {qep'
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2020:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5795,6 +5835,49 @@ Kuuluisa kirjailija {Qa'taq:n:name} kirjoitti kommentin tähän teokseen. [AUTOT
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">qet'uy</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">pine cone</column>
+      <column name="definition_de">Tannenzapfen</column>
+      <column name="definition_fa">مخروط کاج [AUTOTRANSLATED]</column>
+      <column name="definition_sv">kott [AUTOTRANSLATED]</column>
+      <column name="definition_ru">сосновая шишка [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">松果 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">Pinha [AUTOTRANSLATED]</column>
+      <column name="definition_fi">männynkäpy [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This grows on certain kinds of trees and looks much like a pine cone as seen on Earth. It contains genetic material, so it's similar in function to a pine cone as well. This is the proper term, but the term {Sor 'IventoH:n@@Sor:n, 'IventoH:n} "tree pineapple" is also heard. The Terran pine cone (or, more generally, conifer cone) should be called {tera' qet'uy:n@@tera':n, qet'uy:n}.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2020:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -8895,7 +8978,6 @@ On epäselvää, miksi lauseke käyttää {tuQmoHHa':v:nolink} eikä {tuQHa'moH:
       <column name="antonyms"></column>
       <column name="see_also">{tamler:n}, {baS:n}</column>
       <column name="notes"></column>
-      <!-- Maybe also a reference to Gollum from Lord of the Rings. -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -10870,7 +10952,9 @@ Voit ilmaista ajatuksen jostakin alueen pään välisestä pisteestä (ehkä tun
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tlhIch:n}, {meQ:v}, {qerjIq:n}, {tIpqan:n}</column>
-      <column name="notes"></column>
+      <column name="notes">A common way to express lighting or starting a fire is with {chenmoH:v}. Another way to express igniting and extinguishing a fire is with {vemmoH:v} "wake up, cause to wake up" and {QongmoH:v} "put to sleep, cause to sleep". In the Klingon way of thinking, fire is sort of there all the time, but it's normally sleeping or dormant. Spontaneous combustion would also be described by making use of {vem:v}.[2]
+
+There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire fighter, fire warrior", {qul qaDwI':n} "fire challenger", and (though less frequent) {qul tlhay'moHwI':n} "fire tamer". It's also possible to say {qul QongmoHwI':n@@qul:n, QongmoH:v, -wI':v} "one who puts fires to sleep", but that's usually not applied until the fire is actually out.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -10880,8 +10964,10 @@ Voit ilmaista ajatuksen jostakin alueen pään välisestä pisteestä (ehkä tun
       <column name="notes_fi"></column>
       <column name="hidden_notes">"Cool" or "coal".</column>
       <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
+      <column name="examples">
+▶ {qul vIchenmoH:sen@@qul:n, vI-:v, chenmoH:v} "I light a fire."</column>
+      <column name="examples_de">
+▶ {qul vIchenmoH:sen@@qul:n, vI-:v, chenmoH:v} "Ich starte eine Feuer."</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
@@ -10896,7 +10982,7 @@ Voit ilmaista ajatuksen jostakin alueen pään välisestä pisteestä (ehkä tun
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2020:src}</column>
     </table>
         <table name="mem">
           <column name="_id"></column>
@@ -11248,6 +11334,92 @@ Voit ilmaista ajatuksen jostakin alueen pään välisestä pisteestä (ehkä tun
         </table>
         <table name="mem">
           <column name="_id"></column>
+          <column name="entry_name">qul qaDwI'</column>
+          <column name="part_of_speech">n:deriv,being</column>
+          <column name="definition">fire challenger</column>
+          <column name="definition_de">Feuer-Herausforderer</column>
+          <column name="definition_fa">چالشگر آتش [AUTOTRANSLATED]</column>
+          <column name="definition_sv">eldutmanare [AUTOTRANSLATED]</column>
+          <column name="definition_ru">пожарный претендент [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">火挑戰者 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">desafiador de fogo [AUTOTRANSLATED]</column>
+          <column name="definition_fi">tulihaastaja [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">This is one way to refer to someone who puts out fires. Another expression is {qul SuvwI':n}. A (less frequent) way is {qul tlhay'moHwI':n}.</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{qul:n}, {qaD:v}, {-wI':v}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2020:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">qul SuvwI'</column>
+          <column name="part_of_speech">n:deriv,being</column>
+          <column name="definition">fire warrior, fire fighter</column>
+          <column name="definition_de">Feuer-Krieger</column>
+          <column name="definition_fa">جنگجوی آتش نشانی ، آتش نشان [AUTOTRANSLATED]</column>
+          <column name="definition_sv">brand krigare, brandman [AUTOTRANSLATED]</column>
+          <column name="definition_ru">огненный воин, пожарный [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">消防員，消防員 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">guerreiro do fogo, bombeiro [AUTOTRANSLATED]</column>
+          <column name="definition_fi">palosoturi, palomies [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">This is one way to refer to someone who puts out fires. Another expression is {qul qaDwI':n}. A (less frequent) way is {qul tlhay'moHwI':n}.</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{qul:n}, {SuvwI':n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags">firefighter</column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2020:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
           <column name="entry_name">qul tuq</column>
           <column name="part_of_speech">n:name,fic,deriv</column>
           <column name="definition">House of Fire, name of an opera</column>
@@ -11288,6 +11460,49 @@ Voit ilmaista ajatuksen jostakin alueen pään välisestä pisteestä (ehkä tun
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
           <column name="source">[1] {KCD:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">qul tlhay'moHwI'</column>
+          <column name="part_of_speech">n:deriv,being</column>
+          <column name="definition">fire tamer</column>
+          <column name="definition_de">Feuer-Zähmer</column>
+          <column name="definition_fa">رام کننده آتش [AUTOTRANSLATED]</column>
+          <column name="definition_sv">eldtamer [AUTOTRANSLATED]</column>
+          <column name="definition_ru">укротитель огня [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">馴火者 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">domador de fogo [AUTOTRANSLATED]</column>
+          <column name="definition_fi">palosammutin [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">This is less frequently heard than {qul SuvwI':n} or {qul qaDwI':n}.</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{qul:n}, {tlhay':v}, {-moH:v}, {-wI':v}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2020:src}</column>
         </table>
     <table name="mem">
       <column name="_id"></column>

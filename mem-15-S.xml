@@ -1068,7 +1068,7 @@ Tätä sanaa ei käytetä lajittelujärjestykseen.[3] [AUTOTRANSLATED]</column>
       <column name="notes_fa">از پایین ترین تا بالاترین ، این رتبه ها عبارتند از: {tay:n:3} ، {Sutay:n} ، {veStay:n} ، {Santay:n:nolink} ، {'Iptay:n}. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Från lägsta till högsta är dessa rangordningar: {tay:n:3}, {Sutay:n}, {veStay:n}, {Santay:n:nolink}, {'Iptay:n}. [AUTOTRANSLATED]</column>
       <column name="notes_ru">От низшего к высшему эти ранги: {tay:n:3}, {Sutay:n}, {veStay:n}, {Santay:n:nolink}, {'Iptay:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">從最低到最高，這些排名是：{tay:n:3}，{Sutay:n}，{veStay:n}，{Santay:n:nolink}，{'Iptay:n}。 [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">從最低到最高，這些排名是：{tay:n:3}、{Sutay:n}、{veStay:n}、{Santay:n:nolink}、{'Iptay:n}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Do mais baixo ao mais alto, essas classificações são: {tay:n:3}, {Sutay:n}, {veStay:n}, {Santay:n:nolink}, {'Iptay:n}. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Alimmasta korkeimpaan nämä rivit ovat: {tay:n:3}, {Sutay:n}, {veStay:n}, {Santay:n:nolink}, {'Iptay:n}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes">This is a rank from John M. Ford's 1984 novel "The Final Reflection". These ranks are used by many Klingon fan clubs, despite not appearing in canon (i.e., in any TV episode or movie).</column>
@@ -4525,8 +4525,8 @@ The existence of the homophonous noun {Sev:n} may suggest that Klingons view the
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SIH</column>
-      <column name="part_of_speech">v:i</column>
-      <column name="definition">bend</column>
+      <column name="part_of_speech">v:i_c</column>
+      <column name="definition">bend, be bent</column>
       <column name="definition_de">biegen</column>
       <column name="definition_fa">خم شدن [AUTOTRANSLATED]</column>
       <column name="definition_sv">böja</column>
@@ -4545,7 +4545,7 @@ The existence of the homophonous noun {Sev:n} may suggest that Klingons view the
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as just "bend" in {TKD:src}. The revelation of {SIHHa'moH:v} confirmed its transitivity, and the definition was furthermore expanded to "bend, be bent" at the {Saarbrücken qepHom'a' 2020:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4563,7 +4563,7 @@ The existence of the homophonous noun {Sev:n} may suggest that Klingons view the
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2020:src}</column>
     </table>
        <table name="mem">
          <column name="_id"></column>
@@ -6489,7 +6489,7 @@ Verbien etuliitteet, kun {SoH:n:nolink} on objekti:
 
 This word carries the idiomatic meaning of "matter, concern, affair", for which see {Soj:n:2}.</column>
       <column name="notes_de"></column>
-      <column name="notes_fa">این کلمه هم برای غذاها و هم برای نوشیدنی ها کاربرد دارد [2] یا هر چیز دیگری که برای حفظ آن مصرف می شود.[4] یک غذای یا غذای مجرد به نام {nay':n}.[2]
+      <column name="notes_fa">این کلمه هم برای غذاها و هم برای نوشیدنی ها کاربرد دارد[2] یا هر چیز دیگری که برای حفظ آن مصرف می شود.[4] یک غذای یا غذای مجرد به نام {nay':n}.[2]
 
 این کلمه معنای اصطلاح "ماده ، نگرانی ، امر" را به همراه دارد ، که برای آن مراجعه کنید {Soj:n:2}. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta ord gäller både mat och dryck[2], eller allt som konsumeras för underhåll.[4] En enda maträtt eller kurs kallas {nay':n}.[2]
@@ -8805,14 +8805,16 @@ Despite the English definition, it may be the case that the grammar follows {So'
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">The closest approximation to this is a kind of stepbrother or stepsister, whose role is similar to that of a godparent. The role is bestowed on a family friend who would care for a child if their parents were incapacitated.[2]</column>
+      <column name="notes">This is a kind of surrogate parent role which is bestowed on a family friend who would care for a child if their parents were incapacitated. The closest analogy for the relation between a soh-chim and a child's parent is a stepbrother or stepsister.[2]
+
+This term is gender-neutral and "godparent" is a good approximation. If a gender distinction needs to be made, {loD:n} or {be':n} can be added after {So'chIm:n:nolink}.[3]</column>
       <column name="notes_de"></column>
-      <column name="notes_fa">نزدیکترین تقریب به این امر نوعی ناپدری یا ناپدری است که نقش آن شبیه به یک پدر و مادر است. این نقش به یک دوست خانواده داده می شود که اگر والدین آنها ناتوان باشند ، از کودک مراقبت می کنند.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Den närmaste tillnärmningen till detta är en slags styvbror eller styvsyster, vars roll liknar en fadder. Rollen tilldelas en familjvän som skulle ta hand om ett barn om deras föräldrar var oförmögna.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
       <column name="notes_ru"></column>
-      <column name="notes_zh_HK">與之最接近的是繼父或繼母，其作用類似於教父。該角色被授予一個家庭朋友，如果父母無行為能力，該朋友將照看孩子。[2] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">A aproximação mais próxima a isto é uma espécie de meio-irmão ou meia-irmã, cujo papel é semelhante ao de um padrinho. O papel é conferido a um amigo da família que cuidaria de uma criança se seus pais fossem incapacitados[2].</column>
-      <column name="notes_fi">Lähin arvio tästä on eräänlainen velipuoli tai sisarpuoli, jonka rooli on samanlainen kuin ristivanhemman. Rooli annetaan perheen ystävälle, joka hoitaisi lasta, jos heidän vanhempansa eivät olisi kykeneviä toimintaan.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -8823,7 +8825,7 @@ Despite the English definition, it may be the case that the grammar follows {So'
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">godparent, godfather, godmother</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -8831,7 +8833,7 @@ Despite the English definition, it may be the case that the grammar follows {So'
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {qep'a' 27 (2020):src}, [2] {TNG - Parallels:src}</column>
+      <column name="source">[1] {qep'a' 27 (2020):src}, [2] {TNG - Parallels:src}, [3] {Saarbrücken qepHom'a' 2020:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -10453,7 +10455,7 @@ Tätä voidaan käyttää myös kynttilän puhaltamiseen ({weQ:n}). Toisin kuin 
       <column name="notes_fa">از پایین ترین تا بالاترین ، این رتبه ها عبارتند از: {tay:n:3} ، {Sutay:n:nolink} ، {veStay:n} ، {Santay:n} ، {'Iptay:n}. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Från lägsta till högsta är dessa rangordningar: {tay:n:3}, {Sutay:n:nolink}, {veStay:n}, {Santay:n}, {'Iptay:n}. [AUTOTRANSLATED]</column>
       <column name="notes_ru">От низшего к высшему эти ранги: {tay:n:3}, {Sutay:n:nolink}, {veStay:n}, {Santay:n}, {'Iptay:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">從最低到最高，這些排名是：{tay:n:3}，{Sutay:n:nolink}，{veStay:n}，{Santay:n}，{'Iptay:n}。 [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">從最低到最高，這些排名是：{tay:n:3}、{Sutay:n:nolink}、{veStay:n}、{Santay:n}、{'Iptay:n}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Do mais baixo ao mais alto, essas classificações são: {tay:n:3}, {Sutay:n:nolink}, {veStay:n}, {Santay:n}, {'Iptay:n}. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Alimmasta korkeimpaan nämä rivit ovat: {tay:n:3}, {Sutay:n:nolink}, {veStay:n}, {Santay:n}, {'Iptay:n}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes">This is a rank from John M. Ford's 1984 novel "The Final Reflection". These ranks are used by many Klingon fan clubs, despite not appearing in canon (i.e., in any TV episode or movie).</column>
