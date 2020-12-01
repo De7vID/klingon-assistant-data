@@ -10322,7 +10322,36 @@ DSC {pIqaD:n:nolink} font: {Quvar:n:name,nolink} (Ливен Л. Литар)
 Особая благодарность Марку Окранду ({marq 'oqranD:n:name}) за создание Клингонского языка.</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi"></column>
+      <column name="notes_fi">{tlhIngan Hol boQwI':n:nolink} "Klingonin kieliavustaja" - tietokantaversio [[VERSION]].
+
+Sanoja voi hakea painamalla "Hae"-nappia (suurennuslasia) ja kirjoittamalla hakusanan tekstikenttään.
+
+Sanojen ääntämyksen voi kuunnella erikseen ladattavalla {puhesyntetisaattorilla:url:https://play.google.com/store/apps/details?id=org.tlhInganHol.android.klingonttsengine}.
+
+On suositeltavaa ladata {klingoninkielinen asettelu ASK-näppäimistölle:url:https://play.google.com/store/apps/details?id=com.anysoftkeyboard.languagepack.tlhIngan}. Toinen vaihtoehto on ottaa käyttöön alla olevat korvaukset (ns. "xifan hol") asetusvalikossa:
+    c ▶ {ch:sen:nolink} / d ▶ {D:sen:nolink} / f ▶ {ng:sen:nolink} / g ▶ {gh:sen:nolink} / h ▶ {H:sen:nolink} /
+    i ▶ {I:sen:nolink} / k ▶ {Q:sen:nolink} / s ▶ {S:sen:nolink} / x ▶ {tlh:sen:nolink} / z ▶ {':sen:nolink}
+On myös toinen versio, missä q ja k on vaihdettu:
+    k ▶ {q:sen:nolink} / q ▶ {Q:sen:nolink}
+
+Jos sinulla on ongelmia, ota yhteys ohjelman tekijään {sähköpostitse osoitteeseen De.vID.jonpIn@gmail.com:url:mailto:De.vID.jonpIn@gmail.com?subject=boQwI%27%20feedback&amp;body=Device:%20%0D%0AAndroid%20version:%20%0D%0A}.
+
+Tue klingonin kielen kehitystä ostamalla {The Klingon Dictionary:src}, {Klingon for the Galactic Traveler:src}, {The Klingon Way:src}, {Conversational Klingon:src}, {Power Klingon:src} ja muita klingoniin tai Star Trekiin liittyviä tuotteita Pocket Booksilta, Simon &amp; Schusterilta ja Paramountilta/Viacomilta/CBS Entertainmentilta.
+
+Klingon, Star Trek ja liittyvät sanat ovat CVS Studios, Inc. -yhtiön tavaramerkkejä.
+
+Android-ohjelma: {De'vID:n:name}
+Flutter (iOS) -versio: Daniel Dadap
+Klingon-englanti-sanakirja: {De'vID:n:name,nolink}, muiden tuella
+Saksankielinen käännös: {Quvar:n:name} (Lieven L. Litaer)
+Ruotsinkielinen käännös: {Klingonska Akademien:url:http://klingonska.org/}
+Venäjänkielinen käännös: Кирилл Шилов, Дэниел Дэдеп ja Sirglin (Ольга Косарева)
+Portugalinkielinen käännös: Thiago Matos
+Suomenkielinen käännös: Iikka Hauhio
+TNG {pIqaD:n} -fontti: amiraali {qurgh lungqIj:n:name,nolink} {Klingon Assault Groupista:url:http://www.kag.org/}
+DSC {pIqaD:n:nolink} -fontti: {Quvar:n:name,nolink} (Lieven L. Litaer)
+
+Erityiset kiitokset Marc Okrandille ({marq 'oqranD:n:name}) klingonin kielen luomisesta.</column>
       <column name="hidden_notes"></column>
       <column name="components">{boQ:v}, {-wI':v}</column>
       <column name="examples"></column>
