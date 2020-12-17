@@ -37,6 +37,7 @@
 # sed -i "s/\(notes_.*\) \(\[[1-9]\]\)/\1\2/g" mem-*.xml
 
 from googletrans import Translator
+from googletrans.models import Translated
 
 import fileinput
 import re
@@ -106,8 +107,11 @@ for filename in filenames:
             if definition.startswith('{') and definition.endswith('}'):
               line = re.sub(r">(.*)<", ">{}<".format(definition), line)
             else:
-              translation = translator.translate(definition, src='en', dest=language)
-              line = re.sub(r">(.*)<", ">{} [AUTOTRANSLATED]<".format(translation.text), line)
+              try:
+                translation = translator.translate(definition, src='en', dest=language)
+                line = re.sub(r">(.*)<", ">{} [AUTOTRANSLATED]<".format(translation.text), line)
+              except Exception:
+                line = re.sub(r">(.*)<", ">TRANSLATE<", line)
 
               # Rate-limit calls to Google Translate.
               time.sleep(0.01)
@@ -143,7 +147,10 @@ for filename in filenames:
         if (notes and notes_translation_match):
           language = supported_languages_map.get(notes_translation_match.group(1).replace('_','-'), "")
           if language != "":
-            translation = translator.translate(notes, src='en', dest=language)
+            try:
+              translation = translator.translate(notes, src='en', dest=language)
+            except Exception:
+              translation = Translated(src = "", dest = "", origin = "", text = notes, pronunciation = "")
             # Note that Google Translate returns the original text if translation fails for some reason.
             if translation.text != notes:
               translation_text = translation.text

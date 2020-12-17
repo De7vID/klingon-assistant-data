@@ -2279,13 +2279,11 @@ The object was confirmed during the Q &amp; A session.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {pa'vo' pagh leghlu'.:sen:nolink} "The room has no view."</column>
-      <column name="examples_de">
-▶ {pa'vo' pagh leghlu'.:sen:nolink} "Das Zimmer hat keinen Ausblick."</column>
+▶ {pa'vo' pagh leghlu'.:sen}</column>
+      <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru">
-▶ {pa'vo' pagh leghlu'.:sen:nolink} "Комната не имеет вида."</column>
+      <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -2611,6 +2609,51 @@ The object was confirmed during the Q &amp; A session.</column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2013:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">lenmeS rop</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">lenmes disease</column>
+      <column name="definition_de">Lenmes-Krankheit</column>
+      <column name="definition_fa">بیماری لنمس [AUTOTRANSLATED]</column>
+      <column name="definition_sv">lenmes sjukdom [AUTOTRANSLATED]</column>
+      <column name="definition_ru">болезнь ленмеса [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">倫姆斯病 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">doença de lenmes [AUTOTRANSLATED]</column>
+      <column name="definition_fi">Lenmesin tauti [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is a disease caused by a bacterium. Its symptoms include high fever, weakness, and perhaps abdominal pain, headaches, and a skin rash. Klingons tend to avoid talking about it.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes">This was requested as a native Klingon equivalent for typhoid fever.
+
+Probably a coincidence: Lieven Lemnes was the author of "Diseases: Their Symptoms and Cures".</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags">typhoid fever</column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2020:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3552,7 +3595,7 @@ Tätä sanaa voidaan käyttää kuvaannollisesti. On idioomi {let mInDu'Daj; Sep
       <column name="notes_zh_HK">這是金屬化學元素，符號為Hg，原子序數為80。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é o elemento químico metálico com o símbolo Hg e o número atômico 80. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä on metallinen kemiallinen alkuaine, jolla on symboli Hg ja atominumero 80. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Read backwards, this is {ngIb tel:n@@ngIb:n:1, tel:n} "ankle wings", a reference to the talaria (winged sandals) of the god Mercury.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -9004,7 +9047,7 @@ Tämä etuliite pudotetaan joskus tuntemattomista syistä. Vaikka virhe onkin, t
       <column name="synonyms"></column>
       <column name="antonyms">{yuv:v}</column>
       <column name="see_also">{leQ:n}, {luHwI' tIH:n}</column>
-      <column name="notes"></column>
+      <column name="notes">This is used for pulling when the pulling is sudden or done with a jerk. This verb can generally be used where either {Hur:v} or {Hoq:v} might otherwise be used, but not in the case of pulling back a bowstring.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -9023,14 +9066,14 @@ Tämä etuliite pudotetaan joskus tuntemattomista syistä. Vaikka virhe onkin, t
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
       <column name="search_tags">pull</column>
-      <column name="search_tags_de"></column>
+      <column name="search_tags_de">rausreißen, reißen</column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru">тянуть</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2020:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
