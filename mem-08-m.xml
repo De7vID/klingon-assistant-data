@@ -1238,7 +1238,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">maqdar</column>
+      <column name="entry_name">maqDar</column>
       <column name="part_of_speech">excl</column>
       <column name="definition">epithet, mak'dar</column>
       <column name="definition_de">mak'dar, klingonische Beleidigung</column>
@@ -3562,7 +3562,7 @@ It's unclear what sense of "fair" is meant by this word.</column>
       <column name="definition_fi">hotelli</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{pa'mey:n:hyp}</column>
+      <column name="see_also">{tlho' Huch:n}, {pa'mey:n:hyp}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -4468,7 +4468,7 @@ This was also used for the "logic" menu (instructions about program flow control
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">meQ</column>
-      <column name="part_of_speech">v:ambi</column>
+      <column name="part_of_speech">v:1,ambi</column>
       <column name="definition">burn</column>
       <column name="definition_de">brennen, verbrennen</column>
       <column name="definition_fa">سوزاندن [AUTOTRANSLATED]</column>
@@ -4480,11 +4480,11 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mIQ:v}</column>
-      <column name="notes">If there is no object, then the subject is the thing burning, e.g., {meQtaHbogh qachDaq Suv qoH neH.:sen}[2] If there is an object, then the subject is burning the object, e.g., {to'waQ meQ vutwI'.}[3] {meQ:v:nolink} can also be used adjectivally, e.g., {Ha'DIbaHmey meQ Sop 'e' tIv tera'nganpu'@@Ha'DIbaH:n:1, -mey:n, meQ:v, Sop:v, 'e':n, tIv:v, tera'ngan:n, -pu':n}.[4]</column>
+      <column name="notes">If there is no object, then the subject is the thing burning, e.g., {meQtaHbogh qachDaq Suv qoH neH.:sen}[2] If there is an object, then the subject is burning the object, e.g., {to'waQ meQ vutwI'.}[3] {meQ:v:1,nolink} can also be used adjectivally, e.g., {Ha'DIbaHmey meQ Sop 'e' tIv tera'nganpu'@@Ha'DIbaH:n:1, -mey:n, meQ:v:1, Sop:v, 'e':n, tIv:v, tera'ngan:n, -pu':n}.[4]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">Если нет объекта, тогда субъект это вещь, которая горит, например {meQtaHbogh qachDaq Suv qoH neH.:sen}[2] Если есть объект, тогда субъект сжигает объект, например., {to'waQ meQ vutwI'.}[3] {meQ:v:nolink} может также использоваться для прикладных вещей, например, {Ha'DIbaHmey meQ Sop 'e' tIv tera'nganpu'@@Ha'DIbaH:n:1, -mey:n, meQ:v, Sop:v, 'e':n, tIv:v, tera'ngan:n, -pu':n}.[4]</column>
+      <column name="notes_ru">Если нет объекта, тогда субъект это вещь, которая горит, например {meQtaHbogh qachDaq Suv qoH neH.:sen}[2] Если есть объект, тогда субъект сжигает объект, например., {to'waQ meQ vutwI'.}[3] {meQ:v:1,nolink} может также использоваться для прикладных вещей, например, {Ha'DIbaHmey meQ Sop 'e' tIv tera'nganpu'@@Ha'DIbaH:n:1, -mey:n, meQ:v:1, Sop:v, 'e':n, tIv:v, tera'ngan:n, -pu':n}.[4]</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
@@ -4498,7 +4498,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">burnt</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -4508,32 +4508,32 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}, [2] {TKW p.111:src}, [3] {KGT p.191:src}, [4] {CK:src}</column>
     </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">meQboghnom</column>
-      <column name="part_of_speech">n:archaic,deriv</column>
-      <column name="definition">Kahless' revolutionary banner</column>
-      <column name="definition_de">Revolutionsflagge des Kahless</column>
-      <column name="definition_fa">پرچم انقلابی Kahless [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Kahless 'revolutionerande banner [AUTOTRANSLATED]</column>
-      <column name="definition_ru">Флаг революции Кейлеса</column>
-      <column name="definition_zh_HK">「凱勒斯」的革命旗幟</column>
-      <column name="definition_pt">bandeira revolucionária do Kahless</column>
-      <column name="definition_fi">Kahlessin vallankumouslippu</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{joqwI':n}</column>
-      <column name="notes">This is "the banner of unity and revolution" used by {qeylIS'e' lIjlaHbe'bogh vay':n:name} to rally his troops.</column>
-      <column name="notes_de">Dies ist "das Banner der Einheit und Revolution", mit dem {qeylIS'e' lIjlaHbe'bogh vay':n:name} seine Truppen versammelt. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این "پرچم اتحاد و انقلاب" است که توسط {qeylIS'e' lIjlaHbe'bogh vay':n:name} برای تجمع نیروهای خود استفاده شده است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är "banden för enhet och revolution" som används av {qeylIS'e' lIjlaHbe'bogh vay':n:name} för att samla sina trupper. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это "флаг единства и революции" использовался {qeylIS'e' lIjlaHbe'bogh vay':n:name} чтобы сплотить его войска.</column>
-      <column name="notes_zh_HK">這是唐諾蘭特用來集結部隊的「團結與革命的旗幟」。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Esta é "a bandeira da unidade e da revolução" usada por {qeylIS'e' lIjlaHbe'bogh vay':n:name} para reunir suas tropas. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on "yhtenäisyyden ja vallankumouksen lippu", jota {qeylIS'e' lIjlaHbe'bogh vay':n:name} käyttää joukkojensa kokoamiseksi. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
-      <column name="components">{meQ:v}, {bogh:v}, {nom:adv}</column>
-      <column name="examples">
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">meQboghnom</column>
+          <column name="part_of_speech">n:archaic,deriv</column>
+          <column name="definition">Kahless' revolutionary banner</column>
+          <column name="definition_de">Revolutionsflagge des Kahless</column>
+          <column name="definition_fa">پرچم انقلابی Kahless [AUTOTRANSLATED]</column>
+          <column name="definition_sv">Kahless 'revolutionerande banner [AUTOTRANSLATED]</column>
+          <column name="definition_ru">Флаг революции Кейлеса</column>
+          <column name="definition_zh_HK">「凱勒斯」的革命旗幟</column>
+          <column name="definition_pt">bandeira revolucionária do Kahless</column>
+          <column name="definition_fi">Kahlessin vallankumouslippu</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also">{joqwI':n}</column>
+          <column name="notes">This is "the banner of unity and revolution" used by {qeylIS'e' lIjlaHbe'bogh vay':n:name} to rally his troops.</column>
+          <column name="notes_de">Dies ist "das Banner der Einheit und Revolution", mit dem {qeylIS'e' lIjlaHbe'bogh vay':n:name} seine Truppen versammelt. [AUTOTRANSLATED]</column>
+          <column name="notes_fa">این "پرچم اتحاد و انقلاب" است که توسط {qeylIS'e' lIjlaHbe'bogh vay':n:name} برای تجمع نیروهای خود استفاده شده است. [AUTOTRANSLATED]</column>
+          <column name="notes_sv">Detta är "banden för enhet och revolution" som används av {qeylIS'e' lIjlaHbe'bogh vay':n:name} för att samla sina trupper. [AUTOTRANSLATED]</column>
+          <column name="notes_ru">Это "флаг единства и революции" использовался {qeylIS'e' lIjlaHbe'bogh vay':n:name} чтобы сплотить его войска.</column>
+          <column name="notes_zh_HK">這是唐諾蘭特用來集結部隊的「團結與革命的旗幟」。 [AUTOTRANSLATED]</column>
+          <column name="notes_pt">Esta é "a bandeira da unidade e da revolução" usada por {qeylIS'e' lIjlaHbe'bogh vay':n:name} para reunir suas tropas. [AUTOTRANSLATED]</column>
+          <column name="notes_fi">Tämä on "yhtenäisyyden ja vallankumouksen lippu", jota {qeylIS'e' lIjlaHbe'bogh vay':n:name} käyttää joukkojensa kokoamiseksi. [AUTOTRANSLATED]</column>
+          <column name="hidden_notes"></column>
+          <column name="components">{meQ:v:1}, {bogh:v}, {nom:adv}</column>
+          <column name="examples">
 ▶ {nIteb chegh molor ngIq ghoqwI':sen:nolink}
    {joqwI''e' cha'bogh qeylIS:sen:nolink}
    {luDel 'e' ra' molor:sen:nolink}
@@ -4546,10 +4546,10 @@ This was also used for the "logic" menu (instructions about program flow control
   "They reply it is the meQboghnom,
    The banner of unity
    And revolution."</column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru">
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru">
 ▶ {nIteb chegh molor ngIq ghoqwI':sen:nolink}
    {joqwI''e' cha'bogh qeylIS:sen:nolink}
    {luDel 'e' ra' molor:sen:nolink}
@@ -4562,32 +4562,75 @@ This was also used for the "logic" menu (instructions about program flow control
   "Они ответили, что это "Мекборном",
    Флаг единства
    И революции."</column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
-      <column name="source">[1] {paq'batlh p.138-139:src}</column>
-    </table>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {paq'batlh p.138-139:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">meQtaHbogh qachDaq Suv qoH neH.</column>
+          <column name="part_of_speech">sen:phr</column>
+          <column name="definition">Only a fool fights in a burning house.</column>
+          <column name="definition_de">Nur ein Narr kämpft in einem brennenden Haus.</column>
+          <column name="definition_fa">فقط یک احمقانه در یک خانه سوزان می جنگد. [AUTOTRANSLATED]</column>
+          <column name="definition_sv">Bara en dåre slåss i ett brinnande hus. [AUTOTRANSLATED]</column>
+          <column name="definition_ru">Только глупец сражается в горящем доме</column>
+          <column name="definition_zh_HK">只有傻瓜在燃燒的房屋裡打架。</column>
+          <column name="definition_pt">Apenas um tolo luta em uma casa em chamas.</column>
+          <column name="definition_fi">Vain tyhmä taistelee palavassa talossa.</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{meQ:v:1}, {-taH:v}, {-bogh:v}, {qach:n}, {-Daq:n}, {Suv:v}, {qoH:n}, {neH:adv}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {TKW p.111:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">meQtaHbogh qachDaq Suv qoH neH.</column>
-      <column name="part_of_speech">sen:phr</column>
-      <column name="definition">Only a fool fights in a burning house.</column>
-      <column name="definition_de">Nur ein Narr kämpft in einem brennenden Haus.</column>
-      <column name="definition_fa">فقط یک احمقانه در یک خانه سوزان می جنگد. [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Bara en dåre slåss i ett brinnande hus. [AUTOTRANSLATED]</column>
-      <column name="definition_ru">Только глупец сражается в горящем доме</column>
-      <column name="definition_zh_HK">只有傻瓜在燃燒的房屋裡打架。</column>
-      <column name="definition_pt">Apenas um tolo luta em uma casa em chamas.</column>
-      <column name="definition_fi">Vain tyhmä taistelee palavassa talossa.</column>
-      <column name="synonyms"></column>
+      <column name="entry_name">meQ</column>
+      <column name="part_of_speech">v:2,i_c,slang</column>
+      <column name="definition">climax (sexual)</column>
+      <column name="definition_de">Höhepunkt erreichten (sexuell)</column>
+      <column name="definition_fa">اوج (جنسی) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">klimax (sexuell) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">климакс (сексуальный) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">高潮（性） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">clímax (sexual) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">saada orgasmi</column>
+      <column name="synonyms">{ghuch:v}</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
@@ -4599,7 +4642,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{meQ:v}, {-taH:v}, {-bogh:v}, {qach:n}, {-Daq:n}, {Suv:v}, {qoH:n}, {neH:adv}</column>
+      <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4608,7 +4651,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">orgasm</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -4616,7 +4659,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKW p.111:src}</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2020:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -4676,7 +4719,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_fi">olla yhdistetty, sekoitettu</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tIr:v}, {DuD:v}, {SuyDar:n}</column>
+      <column name="see_also">{tIr:v}, {DuD:v}, {SuyDar:n}, {tay'taHbe' 'Iw bIQ je.:sen}</column>
       <column name="notes">This is also used in a physics context, where it refers to the phenomenon of quantum superposition.</column>
       <column name="notes_de">Dies wird auch in einem physikalischen Kontext verwendet, wo es sich auf das Phänomen der Quantenüberlagerung bezieht. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این نیز در زمینه فیزیک مورد استفاده قرار می گیرد ، جایی که به پدیده ابراز کوانتومی اشاره دارد. [AUTOTRANSLATED]</column>
@@ -5159,7 +5202,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_fi">neliö</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{buq'Ir:n}, {gho:n}, {mey':n}, {letbaQ:n}, {loS reD mey':n}</column>
+      <column name="see_also">{buq'Ir:n}, {gho:n}, {mey':n}, {letbaQ:n}, {loS reD mey':n}, {chenHa' meyrI':sen}</column>
       <column name="notes">This is technically a {letbaQ HoS:n@@letbaQ:n, HoS:v}.
 
 This word can also refer to the "diamond" suit in a deck of playing cards (see {Degh:n:1}).[2]</column>
@@ -6253,7 +6296,7 @@ Tämä sana voi viitata myös "timanttipukuun" pelikorttipakassa (katso {Degh:n:
       <column name="definition_fi">uppopaistaa</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{meQ:v}, {'Im:v}</column>
+      <column name="see_also">{meQ:v:1}, {'Im:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7111,7 +7154,7 @@ Tämän sanaston alkuperä on {HenrI' vagh:n:name}, {wIlyam SeQpIr:n:name}: n n�
 A tally or score is kept by counting {mIvwa'mey:n@@mIvwa':n, -mey:n}. This is also used for "census" or "headcount".[2]</column>
       <column name="notes_de">Dies ist eine Narbe als Folge einer Verletzung (egal wie diese entstanden ist).[1]
 
-A tally or score is kept by counting {mIvwa'mey:n@@mIvwa':n, -mey:n}. This is also used for "census" or "headcount".[2]</column>
+A tally or score is kept by counting {mIvwa'mey:n@@mIvwa':n, -mey:n}. This is also used for "census" or "headcount".[2] [AUTOTRANSLATED]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -7130,7 +7173,7 @@ Laskenta {mIvwa'mey:n@@mIvwa':n, -mey:n} lasketaan yhteen tai pisteet. Tätä k�
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags">tally, score</column>
+      <column name="search_tags">tally, score, census, headcount</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -9032,7 +9075,7 @@ This word is defined in {KGT:src} as "smile, grin, sneer".[1]  It is explained t
       <column name="definition_fi">kaapu, viitta; iltapuku?</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Sut:n}, {ngup:n:1}, {paH:n}, {'eSqa':n}</column>
+      <column name="see_also">{Sut:n}, {ngup:n:1}, {paH:n}, {'eSqa':n}, {namyaS:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
