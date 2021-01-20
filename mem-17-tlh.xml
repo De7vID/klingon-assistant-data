@@ -2898,7 +2898,7 @@ In many languages, the endonym for its speakers means something like "our own pe
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags">own</column>
+      <column name="search_tags">own, unique</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -5009,7 +5009,7 @@ This was defined as "almost, nearly, virtually, not quite" in {KGT:src}. The "ba
           <column name="definition_fa">نکته (پول) [AUTOTRANSLATED]</column>
           <column name="definition_sv">tips (pengar) [AUTOTRANSLATED]</column>
           <column name="definition_ru">чаевые (деньги) [AUTOTRANSLATED]</column>
-          <column name="definition_zh_HK">小費（錢） [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">小費、酒錢</column>
           <column name="definition_pt">gorjeta (dinheiro) [AUTOTRANSLATED]</column>
           <column name="definition_fi">tippi</column>
           <column name="synonyms"></column>
@@ -5570,7 +5570,7 @@ Some people believe that this word means "to expel exhaust", based on its simila
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tlhutlh</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">drink</column>
       <column name="definition_de">trinken</column>
       <column name="definition_fa">نوشیدن [AUTOTRANSLATED]</column>
@@ -5582,7 +5582,7 @@ Some people believe that this word means "to expel exhaust", based on its simila
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'oj:v}, {ghup:v}, {'ep:v:1}, {Sop:v}</column>
-      <column name="notes"></column>
+      <column name="notes">See under {tlhej:v} and {'e' qa':sen} for more examples.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5592,7 +5592,10 @@ Some people believe that this word means "to expel exhaust", based on its simila
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {bIjatlh 'e' yImev. yItlhutlh!:sen}
+▶ {Dochvetlh vItlhutlhlaHbe'.:sen}
+▶ {tlhutlhmeH HIq ngeb qaq law' bIQ qaq puS.:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>

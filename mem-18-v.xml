@@ -1788,7 +1788,7 @@
       <column name="definition_fa">قرن</column>
       <column name="definition_sv">sekel</column>
       <column name="definition_ru">века [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">世紀</column>
+      <column name="definition_zh_HK">世紀（百年）</column>
       <column name="definition_pt">século</column>
       <column name="definition_fi">vuosisata</column>
       <column name="synonyms"></column>
@@ -2779,28 +2779,28 @@ Toisin kuin {pIl:v}, tämä viittaa itse motivaatioon. [AUTOTRANSLATED]</column>
       <column name="see_also">{tetyub:n}</column>
       <column name="notes">The subject does the covering, while the object is covered.
 
-This verb is used to describe the laying of a carpet. The person who lays a carpet is called a {velwI':n:nolink} (despite the fact that the grammar suggests that {velwI':n:nolink} would refer to the carpet itself).</column>
+This verb is used to describe the laying of a carpet. The person who lays a carpet is called a {velwI':n}.</column>
       <column name="notes_de">Das Subjekt übernimmt die Abdeckung, während das Objekt abgedeckt wird.
 
-Dieses Verb wird verwendet, um das Verlegen eines Teppichs zu beschreiben. Die Person, die einen Teppich legt, heißt {velwI':n:nolink} (trotz der Tatsache, dass die Grammatik nahe legt, dass {velwI':n:nolink} sich auf den Teppich selbst beziehen würde). [AUTOTRANSLATED]</column>
-      <column name="notes_fa">موضوع پوشش را انجام می دهد ، در حالی که جسم پوشانده شده است.
+Dieses Verb wird verwendet, um das Verlegen eines Teppichs zu beschreiben. Die Person, die einen Teppich legt, heißt {velwI':n}. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">سوژه پوشش را انجام می دهد ، در حالی که شی پوشیده شده است.
 
-این فعل برای توصیف تخمگذار فرش استفاده می شود. فردی که فرش را دراز می کند ، {velwI':n:nolink} نامیده می شود (با وجود این که دستور زبان نشان می دهد که {velwI':n:nolink} به خود فرش مراجعه می کند). [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Motivet gör täckningen medan objektet täckas.
+این فعل برای توصیف فرش کردن استفاده می شود. به شخصی که فرش می گذارد {velwI':n} می گویند. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Ämnet täcker, medan föremålet är täckt.
 
-Detta verb används för att beskriva läggningen av en matta. Den som lägger en matta kallas en {velwI':n:nolink} (trots att grammatiken antyder att {velwI':n:nolink} skulle hänvisa till själva mattan). [AUTOTRANSLATED]</column>
+Detta verb används för att beskriva läggningen av en matta. Den som lägger en matta kallas {velwI':n}. [AUTOTRANSLATED]</column>
       <column name="notes_ru">Субъект покрывает, а объект покрывает.
 
-Этот глагол используется для описания укладки ковра. Человека, который укладывает ковер, называют {velwI':n:nolink} (несмотря на то, что грамматика предполагает, что {velwI':n:nolink} будет относиться к самому ковру). [AUTOTRANSLATED]</column>
+Этот глагол используется для описания укладки ковра. Человека, который расстилает ковер, называют {velwI':n}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">對像被覆蓋，而對像被覆蓋。
 
-該動詞用於描述地毯的鋪設。鋪地毯的人稱為{velwI':n:nolink}（儘管語法表明{velwI':n:nolink}會引用地毯本身）。 [AUTOTRANSLATED]</column>
+該動詞用於描述地毯的鋪設。鋪地毯的人稱為{velwI':n}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">O sujeito faz a cobertura, enquanto o objeto é coberto.
 
-Este verbo é usado para descrever a colocação de um tapete. A pessoa que coloca um tapete é chamada de {velwI':n:nolink} (apesar do fato de que a gramática sugere que {velwI':n:nolink} se refere ao próprio tapete). [AUTOTRANSLATED]</column>
+Este verbo é usado para descrever a colocação de um tapete. A pessoa que coloca um tapete é chamada de {velwI':n}. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Kohde tekee peitteen, kun esine on peitetty.
 
-Tätä verbiä käytetään kuvaamaan maton asettamista. Henkilöä, joka asettaa maton, kutsutaan {velwI':n:nolink}: ksi (huolimatta siitä, että kielioppi viittaa siihen, että {velwI':n:nolink} viittaa itse mattoon). [AUTOTRANSLATED]</column>
+Tätä verbiä käytetään kuvaamaan maton asettamista. Henkilöä, joka asettaa maton, kutsutaan {velwI':n}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes">"Veil".</column>
       <column name="components"></column>
       <column name="examples">
@@ -2823,6 +2823,49 @@ Tätä verbiä käytetään kuvaamaan maton asettamista. Henkilöä, joka asetta
       <column name="search_tags_fi"></column>
       <column name="source">[1] {KLI mailing list 2012.01.09:src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">velwI'</column>
+          <column name="part_of_speech">n:deriv,being</column>
+          <column name="definition">carpet layer (person)</column>
+          <column name="definition_de">Teppichschicht (Person) [AUTOTRANSLATED]</column>
+          <column name="definition_fa">لایه فرش (شخص) [AUTOTRANSLATED]</column>
+          <column name="definition_sv">mattlager (person) [AUTOTRANSLATED]</column>
+          <column name="definition_ru">ковровое покрытие (человек) [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">地毯層（人） [AUTOTRANSLATED]</column>
+          <column name="definition_pt">camada de tapete (pessoa) [AUTOTRANSLATED]</column>
+          <column name="definition_fi">maton kerros (henkilö) [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">This refers to the person who lays a carpet. Even though one might think (based on the meaning of {vel:v}) that {velwI':n:nolink} would be the carpet itself, it doesn't work that way.[1]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{vel:v}, {-wI':v}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {KLI mailing list 2012.01.09:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">velqa'</column>
@@ -7521,7 +7564,7 @@ It was stated during the Q &amp; A session that the primary meaning of this word
       <column name="definition_fa">غده [AUTOTRANSLATED]</column>
       <column name="definition_sv">körtel [AUTOTRANSLATED]</column>
       <column name="definition_ru">железа [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">腺 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">腺</column>
       <column name="definition_pt">glândula</column>
       <column name="definition_fi">rauhanen</column>
       <column name="synonyms"></column>
