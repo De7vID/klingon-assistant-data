@@ -4247,6 +4247,49 @@ Harkitse {lon:v}, jos haluat ilmaista henkilön tai esineen (eikä sijainnin) j�
       <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">mep vol</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">plastic sheet, vinyl</column>
+          <column name="definition_de">Plastikfolie, Vinyl [AUTOTRANSLATED]</column>
+          <column name="definition_fa">ورق پلاستیک ، وینیل [AUTOTRANSLATED]</column>
+          <column name="definition_sv">plastplåt, vinyl [AUTOTRANSLATED]</column>
+          <column name="definition_ru">пластиковый лист, винил [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">塑料板，乙烯基 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">folha de plástico, vinil [AUTOTRANSLATED]</column>
+          <column name="definition_fi">muovilevy, vinyyli [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{mep:n}, {vol:n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {Pittsburgh Art Tour:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">meq</column>
@@ -11417,7 +11460,7 @@ Tätä verbiä käytetään myös musiikissa ({much:v:2}) ja taistelulajeissa ({
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tap:v}</column>
-      <column name="notes"></column>
+      <column name="notes">Lightning ({pe'bIl:n}) may be said to do this to something.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -11455,7 +11498,7 @@ Tätä verbiä käytetään myös musiikissa ({much:v:2}) ja taistelulajeissa ({
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {paq'batlh p.159:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh p.159:src}, [3] {Pittsburgh Art Tour:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
