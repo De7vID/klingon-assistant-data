@@ -124,6 +124,15 @@ then
     echo
 fi
 
+# Print any mistyped colons.
+COLON_TYPO=$(grep ";[nv]" $TMP_DIR/mem.xml)
+if [[ ! -z "$COLON_TYPO" ]]
+then
+    echo "Mistyped colon:"
+    echo "$COLON_TYPO"
+    echo
+fi
+
 # Print any broken references.
 BROKEN_REFERENCES=$(./xml2json.py 2> >(sort|uniq) > /dev/null)
 if [[ ! -z "$BROKEN_REFERENCES" ]]
