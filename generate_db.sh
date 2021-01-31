@@ -66,7 +66,7 @@ JAVA_FILE="$SOURCE_DIR/../app/src/main/java/org/tlhInganHol/android/klingonassis
 if [[ ! -f $JAVA_FILE ]]; then
     echo "Info: KlingonContentDatabase.java not updated."
 else
-    sed -i "s/\(private static final int ID_OF_FIRST_EXTRA_ENTRY = \).*;/\1$(cat EXTRA);/" $JAVA_FILE
+    ${SED} -i "s/\(private static final int ID_OF_FIRST_EXTRA_ENTRY = \).*;/\1$(cat EXTRA);/" $JAVA_FILE
 fi
 
 # We only want the xml file for debugging purposes, so stop.
