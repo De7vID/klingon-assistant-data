@@ -116,11 +116,20 @@ then
 fi
 
 # Print any empty Portuguese definitions.
-MISSING_PT=$(grep -B3 "definition_pt\"><" $TMP_DIR/mem.xml)
+MISSING_PT=$(grep -B8 "definition_pt\"><" $TMP_DIR/mem.xml)
 if [[ ! -z "$MISSING_PT" ]]
 then
     echo "Missing Portuguese definitions:"
     echo "$MISSING_PT"
+    echo
+fi
+
+# Print any untranslated entries.
+MISSED_TRANSLATE=$(grep ">TRANSLATE<" $TMP_DIR/mem.xml)
+if [[ ! -z "$MISSED_TRANSLATE" ]]
+then
+    echo "Missing translations:"
+    echo "$MISSED_TRANSLATE"
     echo
 fi
 
