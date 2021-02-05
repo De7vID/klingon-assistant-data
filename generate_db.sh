@@ -107,7 +107,7 @@ then
 fi
 
 # Print any empty German definitions.
-MISSING_DE=$(grep -B3 "definition_de\"><" $TMP_DIR/mem.xml)
+MISSING_DE=$(grep -B3 "definition_de\"><" $TMP_DIR/mem.xml | grep "entry_name")
 if [[ ! -z "$MISSING_DE" ]]
 then
     echo "Missing German definitions:"
@@ -116,7 +116,7 @@ then
 fi
 
 # Print any empty Portuguese definitions.
-MISSING_PT=$(grep -B8 "definition_pt\"><" $TMP_DIR/mem.xml)
+MISSING_PT=$(grep -B8 "definition_pt\"><" $TMP_DIR/mem.xml | grep "entry_name")
 if [[ ! -z "$MISSING_PT" ]]
 then
     echo "Missing Portuguese definitions:"
