@@ -188,3 +188,5 @@ for filename in filenames:
 
 if num_errors > 0:
   print("*** Number of errors: {} ***".format(num_errors))
+
+print("Don't forget to do any postprocessing.")
