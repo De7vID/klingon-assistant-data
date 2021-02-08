@@ -81,19 +81,22 @@ homophone_e2k_model = genanki.Model(
   ],
   css = CSS)
 
+# Default deck name. Also used to hash the GUID.
+deck_name = "boQwI' vocabulary (en)"
+
 # Base the GUID on only the Klingon text and part of speech.
 class GeneralNote(genanki.Note):
   @property
   def guid(self):
-    return genanki.guid_for(self.fields[0], self.fields[1])
+    return genanki.guid_for(deck_name, self.fields[0], self.fields[1])
 
 # Base the GUID on only the Klingon text, part of speech, and a unique number.
 class NumberedNote(genanki.Note):
   @property
   def guid(self):
-    return genanki.guid_for(self.fields[0], self.fields[1], self.fields[3])
+    return genanki.guid_for(deck_name, self.fields[0], self.fields[1], self.fields[3])
 
-vocab_deck = genanki.Deck(2024552849, "boQwI' vocabulary")
+vocab_deck = genanki.Deck(2024552849, deck_name)
 
 def extract_definition(data):
   definition = data['definition']['en']
