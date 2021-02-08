@@ -103,6 +103,16 @@ def extract_definition(data):
     definition = re.sub(link_match, link_text, definition, 1)
   return definition
 
+pos_to_tag = {
+  'v': 'Klingon_verb',
+  'n': 'Klingon_noun',
+  'adv': 'Klingon_adverbial',
+  'conj': 'Klingon_conjunction',
+  'ques': 'Klingon_question_word',
+  'sen': 'Klingon_sentence',
+  'excl': 'Klingon_exclamation',
+}
+
 print("Generating json file...")
 cmd = subprocess.run(["xml2json.py"], capture_output=True)
 json_string = cmd.stdout.decode()
@@ -112,6 +122,7 @@ for search_name in qawHaq:
   search_name_parts = search_name.split(':')
   entry_name = search_name_parts[0]
   pos = search_name_parts[1]
+  tag = pos_to_tag[pos]
 
   if len(search_name_parts) == 2:
     # No homophones. Create one note with front and back.
@@ -131,9 +142,17 @@ for search_name in qawHaq:
     else:
       if entry_name == "0":
         entry_name = "(null prefix)"
+      elif ('pref' in attrs):
+        tag = 'Klingon_prefix'
+      elif ('suff' in attrs):
+        if pos == "v":
+          tag = 'Klingon_verb_suffix'
+        elif pos == "n":
+          tag = 'Klingon_noun_suffix'
       note = GeneralNote(
         model = basic_and_reversed_model,
-        fields = [entry_name, pos, extract_definition(data)])
+        fields = [entry_name, pos, extract_definition(data)],
+        tags = [tag])
       vocab_deck.add_note(note)
       print("wrote basic note: " + search_name)
 
@@ -149,7 +168,8 @@ for search_name in qawHaq:
         definition = extract_definition(data)
         e2k_note = NumberedNote(
           model = homophone_e2k_model,
-          fields = [entry_name, pos, definition, str(counter)])
+          fields = [entry_name, pos, definition, str(counter)],
+          tags = [tag])
         vocab_deck.add_note(e2k_note)
         print("wrote e2k note: " + entry_name + ":" + pos + ":" + str(counter))
         combined_en_definition += str(counter) + ". " + definition + "<br>"
@@ -159,7 +179,8 @@ for search_name in qawHaq:
 
       k2e_note = GeneralNote(
         model = homophone_k2e_model,
-        fields = [entry_name, pos, combined_en_definition])
+        fields = [entry_name, pos, combined_en_definition],
+        tags = [tag])
       vocab_deck.add_note(k2e_note)
       print("wrote k2e note: " + entry_name + ":" + pos)
 
