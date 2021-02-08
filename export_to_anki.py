@@ -8,6 +8,7 @@ import genanki
 import json
 import re
 import subprocess
+import sys
 
 CSS = """.card {
  font-family: arial;
@@ -116,10 +117,14 @@ pos_to_tag = {
   'excl': 'Klingon_exclamation',
 }
 
-print("Generating json file...")
-cmd = subprocess.run(["xml2json.py"], capture_output=True)
-json_string = cmd.stdout.decode()
-qawHaq = json.loads(json_string)['qawHaq']
+if '--test' in sys.argv:
+  print("Reading test json file...")
+  qawHaq = json.load(open('export_to_anki_test.json'))['qawHaq']
+else:
+  print("Generating json file...")
+  cmd = subprocess.run(["xml2json.py"], capture_output=True)
+  json_string = cmd.stdout.decode()
+  qawHaq = json.loads(json_string)['qawHaq']
 
 for search_name in qawHaq:
   search_name_parts = search_name.split(':')
