@@ -102,6 +102,8 @@ src_to_tag = {
 
 lang_to_deck_guid = {
   'en': 2024552849,
+  'de': 1699081434,
+  'pt': 1407434471,
 }
 
 # Parse arguments.
@@ -143,7 +145,7 @@ class NumberedNote(genanki.Note):
     return genanki.guid_for(deck_name, self.fields[0], self.fields[1], self.fields[3])
 
 def extract_definition(data):
-  definition = data['definition']['en']
+  definition = data['definition'][language]
   link_matches = re.findall(r"{[^{}]*}", definition)
   for link_match in link_matches:
     link_text = re.sub(r"{([^{}:]*)(:.*)?}", r"<b>\1</b>", link_match)
