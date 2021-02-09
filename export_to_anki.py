@@ -97,7 +97,14 @@ pos_to_tag = {
 src_to_tag = {
   "TKD": "Klingon_from_TKD",
   "TKDA": "Klingon_from_TKD",
+  "TKW": "Klingon_from_TKW",
   "KGT": "Klingon_from_KGT",
+  "CK": "Klingon_from_CK",
+  "PK": "Klingon_from_PK",
+  "SkyBox": "Klingon_from_SkyBox",
+  "BoP": "Klingon_from_BoP",
+  "HQ": "Klingon_from_HQ",
+  "TNK": "Klingon_from_TalkNow",
 }
 
 lang_to_deck_guid = {
