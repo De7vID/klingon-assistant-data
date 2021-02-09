@@ -197,6 +197,8 @@ def get_attrs(data):
     attrs = pos_parts[1].split(',')
   return attrs
 
+# Skip over entries explicitly marked "noanki", are hypothetical or from
+# extended canon, or have no source.
 def should_skip_entry(search_name, attrs, data):
   if 'alt' in attrs:
     print_debug("skipped alt entry: " + search_name)
