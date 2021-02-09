@@ -109,16 +109,20 @@ lang_to_deck_guid = {
 # Parse arguments.
 test_mode = False
 language = "en"
+verbose = False
 try:
-  opts, args = getopt.getopt(sys.argv[1:], "", ["test", "language="])
+  opts, args = getopt.getopt(sys.argv[1:], "", ["test", "language=", "verbose"])
 except getopt.GetoptError:
-  print("{} [--test] [--language=en]".format(sys.argv[0]))
+  print("{} [--test] [--language=en] [--verbose]".format(sys.argv[0]))
   sys.exit(2)
 for opt, arg in opts:
   if opt == "--test":
     test_mode = True
+    verbose = True
   elif opt == "--language":
     language = arg
+  elif opt == "--verbose":
+    verbose = True
 if test_mode and language != "en":
   print("Test mode only available for language \"en\".")
   sys.exit(2)
@@ -144,13 +148,20 @@ class NumberedNote(genanki.Note):
   def guid(self):
     return genanki.guid_for(deck_name, self.fields[0], self.fields[1], self.fields[3])
 
-def extract_definition(data):
+def extract_definition(data, attrs):
   definition = data['definition'][language]
   link_matches = re.findall(r"{[^{}]*}", definition)
   for link_match in link_matches:
     link_text = re.sub(r"{([^{}:]*)(:.*)?}", r"<b>\1</b>", link_match)
     definition = re.sub(link_match, link_text, definition, 1)
-  return definition
+  special_attrs = []
+  if "archaic" in attrs:
+    special_attrs.append("archaic")
+  if "reg" in attrs:
+    special_attrs.append("regional")
+  if "slang" in attrs:
+    special_attrs.append("slang")
+  return definition + (" (" + ", ".join(special_attrs) + ")" if special_attrs else "")
 
 def get_src_tag(data):
   sources = data['source'].split(',')
@@ -180,19 +191,23 @@ def get_attrs(data):
   return attrs
 
 def should_skip_entry(search_name, attrs, data):
-  if ('alt' in attrs):
-    print("skipped alt entry: " + search_name)
+  if 'alt' in attrs:
+    print_debug("skipped alt entry: " + search_name)
     return True
-  elif ('hyp' in attrs):
-    print("skipped hyp entry: " + search_name)
+  elif 'hyp' in attrs:
+    print_debug("skipped hyp entry: " + search_name)
     return True
-  elif ('extcan' in attrs):
-    print("skipped extcan entry: " + search_name)
+  elif 'extcan' in attrs:
+    print_debug("skipped extcan entry: " + search_name)
     return True
-  elif (data.get('source') == None):
-    print("skipped entry with no source: " + search_name)
+  elif data.get('source') == None:
+    print_debug("skipped entry with no source: " + search_name)
     return True
   return False
+
+def print_debug(output):
+  if verbose:
+    print(output)
 
 # Read in input.
 if test_mode:
@@ -220,9 +235,9 @@ for search_name in qawHaq:
     if not should_skip_entry(search_name, attrs, data):
       if entry_name == "0":
         entry_name = "(null prefix)"
-      elif ('pref' in attrs):
+      elif 'pref' in attrs:
         pos_tag = 'Klingon_prefix'
-      elif ('suff' in attrs):
+      elif 'suff' in attrs:
         if pos == "v":
           pos_tag = 'Klingon_verb_suffix'
         elif pos == "n":
@@ -231,10 +246,10 @@ for search_name in qawHaq:
       tags = [t for t in [pos_tag, src_tag] if t]
       note = GeneralNote(
         model = basic_and_reversed_model,
-        fields = [entry_name, pos, extract_definition(data)],
+        fields = [entry_name, pos, extract_definition(data, attrs)],
         tags = tags)
       vocab_deck.add_note(note)
-      print("wrote basic note: \"" + search_name + "\" with tags: " + str(tags))
+      print_debug("wrote basic note: \"" + search_name + "\" with tags: " + str(tags))
 
   else:
     number = search_name_parts[2]
@@ -249,7 +264,7 @@ for search_name in qawHaq:
       while (data != None):
         attrs = get_attrs(data)
         if not should_skip_entry(search_name, attrs, data):
-          definition = extract_definition(data)
+          definition = extract_definition(data, attrs)
           src_tag = get_src_tag(data)
           tags = [t for t in [pos_tag, src_tag] if t]
           d2k_note = NumberedNote(
@@ -257,7 +272,7 @@ for search_name in qawHaq:
             fields = [entry_name, pos, definition, str(counter)],
             tags = tags)
           vocab_deck.add_note(d2k_note)
-          print("wrote d2k note: \"" + search_name + "\" with tags: " + str(tags))
+          print_debug("wrote d2k note: \"" + search_name + "\" with tags: " + str(tags))
           combined_en_definition += str(counter) + ". " + definition + "<br>"
           if src_tag is not None and src_tag not in combined_src_tags:
             combined_src_tags += [src_tag]
@@ -271,7 +286,7 @@ for search_name in qawHaq:
         fields = [entry_name, pos, combined_en_definition],
         tags = tags)
       vocab_deck.add_note(k2d_note)
-      print("wrote k2d note: \"" + entry_name + ":" + pos + "\" with tags: " + str(tags))
+      print_debug("wrote k2d note: \"" + entry_name + ":" + pos + "\" with tags: " + str(tags))
 
 genanki.Package(vocab_deck).write_to_file(output_filename)
 print("Wrote deck \"{}\" to file \"{}\" with GUID {}.".format(deck_name, output_filename, deck_guid))
