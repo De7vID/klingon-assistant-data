@@ -110,6 +110,10 @@
                                other media, but not known to be from MO)
                        nolink: used in definition of another entry to prevent
                                linking
+                       noanki: used to skip an entry when generating an Anki
+                               deck using export_to_anki.py (note that hyp and
+                               extcan entries are automatically skipped, as are
+                               entries with no source)
 
     definition     = the definition in English of the entry
                      - if "hyp", and meaning is uncertain, end with "?"

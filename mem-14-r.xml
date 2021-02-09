@@ -754,7 +754,7 @@ Tätä verbiä voidaan käyttää myös ilmaisemaan käsite, että kahdella asia
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">raptor</column>
-      <column name="part_of_speech">n:fic,alt</column>
+      <column name="part_of_speech">n:fic,alt,noanki</column>
       <column name="definition">{qISa'ruj:n}</column>
       <column name="definition_de">{qISa'ruj:n}</column>
       <column name="definition_fa">{qISa'ruj:n}</column>
@@ -1375,7 +1375,7 @@ On olemassa klingonin idioomi {'IQ; rav rur@@'IQ:v, rav:n:1, rur:v}.[2] [AUTOTRA
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">rav ...</column>
-      <column name="part_of_speech">sen:alt</column>
+      <column name="part_of_speech">sen:alt,noanki</column>
       <column name="definition">{rav ... 'aqroS ...:sen}</column>
       <column name="definition_de">{rav ... 'aqroS ...:sen}</column>
       <column name="definition_fa">{rav ... 'aqroS ...:sen}</column>
@@ -8957,7 +8957,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
 ▶ {matlhHa'; romuluSngan rur@@matlhHa':v, romuluSngan:n, rur:v}
 ▶ {mIgh; molor rur@@mIgh:v, molor:n, rur:v}
 ▶ {naS; norgh rur@@naS:v, norgh:n, rur:v}
-▶ {nong; vulqangan rur@@nong:v, vulqangan:n, rur:v}
+▶ {nong; vulqangan rur@@nong:v:1, vulqangan:n, rur:v}
 ▶ {ngo'; QI'tu' rur@@ngo':v, QI'tu':n, rur:v}
 ▶ {puj; bIQ rur@@puj:v, bIQ:n, rur:v}
 ▶ {qan; QI'tu' rur@@qan:v:1, QI'tu':n, rur:v}
