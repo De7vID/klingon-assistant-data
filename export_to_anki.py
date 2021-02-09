@@ -58,12 +58,12 @@ alt_basic_and_reversed_model = genanki.Model(
     {
       'name': 'K2D Card',
       'qfmt': '<b>{{Klingon}}</b> (<i>{{PartOfSpeech}}</i>)',
-      'afmt': '{{FrontSide}}<hr id="answer">{{Definition}}<br><small>= <b>{{AltKlingon}}</b></small>',
+      'afmt': '{{FrontSide}}<hr id="answer">{{Definition}}<br><small>(= <b>{{AltKlingon}}</b>)</small>',
     },
     {
       'name': 'D2K Card',
       'qfmt': '{{Definition}} (<i>{{PartOfSpeech}}</i>)<br><small>(alternative term)</small>',
-      'afmt': '{{FrontSide}}<hr id="answer"><b>{{Klingon}}</b><br><small>= <b>{{AltKlingon}}</b></small>',
+      'afmt': '{{FrontSide}}<hr id="answer"><b>{{Klingon}}</b><br><small>(= <b>{{AltKlingon}}</b>)</small>',
     },
   ],
   css = CSS)
@@ -123,7 +123,7 @@ alt_homophone_d2k_model = genanki.Model(
     {
       'name': 'D2K Card',
       'qfmt': '{{Definition}} (<i>{{PartOfSpeech}}</i>)<br><small>(alternative term)</small>',
-      'afmt': '{{FrontSide}}<hr id="answer"><b>{{Klingon}}</b><br><small>= <b>{{AltKlingon}}</b></small>',
+      'afmt': '{{FrontSide}}<hr id="answer"><b>{{Klingon}}</b><br><small>(= <b>{{AltKlingon}}</b>)</small>',
     },
   ],
   css = CSS)
@@ -355,7 +355,7 @@ for search_name in qawHaq:
               model = alt_homophone_d2k_model,
               fields = [entry_name, pos, definition, str(counter), alt_entry_name],
               tags = tags)
-            definition += " = <b>{}</b>".format(alt_entry_name)
+            definition += " <small>(= <b>{}</b>)</small>".format(alt_entry_name)
             print_debug("wrote (alt) d2k note: \"" + search_name + "\" with tags: " + str(tags))
 
           vocab_deck.add_note(d2k_note)
