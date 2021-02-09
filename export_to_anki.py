@@ -44,11 +44,35 @@ basic_and_reversed_model = genanki.Model(
   ],
   css = CSS)
 
+# Same as above, but includes an alternative way of writing the Klingon.
+alt_basic_and_reversed_model = genanki.Model(
+  1649639163,
+  "boQwI' - Basic (and reversed card) with alternative Klingon term",
+  fields=[
+    {'name': 'Klingon'},
+    {'name': 'PartOfSpeech'},
+    {'name': 'Definition'},
+    {'name': 'AltKlingon'},
+  ],
+  templates=[
+    {
+      'name': 'K2D Card',
+      'qfmt': '<b>{{Klingon}}</b> (<i>{{PartOfSpeech}}</i>)',
+      'afmt': '{{FrontSide}}<hr id="answer">{{Definition}}<br><small>= <b>{{AltKlingon}}</b></small>',
+    },
+    {
+      'name': 'D2K Card',
+      'qfmt': '{{Definition}} (<i>{{PartOfSpeech}}</i>)<br><small>(alternative term)</small>',
+      'afmt': '{{FrontSide}}<hr id="answer"><b>{{Klingon}}</b><br><small>= <b>{{AltKlingon}}</b></small>',
+    },
+  ],
+  css = CSS)
+
 # Klingon-to-Definition card for when there are homophones with the same part of
 # speech. The Definition field should include all definitions.
 homophone_k2d_model = genanki.Model(
   1661579413,
-  "boQwI' - Homophone Klingon-to-Definition",
+  "boQwI' - Klingon-to-Definition",
   fields=[
     {'name': 'Klingon'},
     {'name': 'PartOfSpeech'},
@@ -68,7 +92,7 @@ homophone_k2d_model = genanki.Model(
 # index for identifying the particular definition of the homophone.
 homophone_d2k_model = genanki.Model(
   1325261783,
-  "boQwI' - Homophone Definition-to-Klingon",
+  "boQwI' - Definition-to-Klingon",
   fields=[
     {'name': 'Klingon'},
     {'name': 'PartOfSpeech'},
@@ -80,6 +104,26 @@ homophone_d2k_model = genanki.Model(
       'name': 'D2K Card',
       'qfmt': '{{Definition}} (<i>{{PartOfSpeech}}</i>)',
       'afmt': '{{FrontSide}}<hr id="answer"><b>{{Klingon}}</b>',
+    },
+  ],
+  css = CSS)
+
+# Same as above, but includes an alternative way of writing the Klingon.
+alt_homophone_d2k_model = genanki.Model(
+  2146265385,
+  "boQwI' - Definition-to-Klingon with alternative Klingon term",
+  fields=[
+    {'name': 'Klingon'},
+    {'name': 'PartOfSpeech'},
+    {'name': 'Definition'},
+    {'name': 'HomophoneIndex'},
+    {'name': 'AltKlingon'},
+  ],
+  templates=[
+    {
+      'name': 'D2K Card',
+      'qfmt': '{{Definition}} (<i>{{PartOfSpeech}}</i>)<br><small>(alternative term)</small>',
+      'afmt': '{{FrontSide}}<hr id="answer"><b>{{Klingon}}</b><br><small>= <b>{{AltKlingon}}</b></small>',
     },
   ],
   css = CSS)
@@ -155,6 +199,8 @@ class NumberedNote(genanki.Note):
   def guid(self):
     return genanki.guid_for(deck_name, self.fields[0], self.fields[1], self.fields[3])
 
+# Extract the definition from data. Note that attrs may not be the same as
+# get_attrs(data) because it could've come from an "alt" entry.
 def extract_definition(data, attrs):
   definition = data['definition'][language]
   link_matches = re.findall(r"{[^{}]*}", definition)
@@ -162,6 +208,7 @@ def extract_definition(data, attrs):
     link_text = re.sub(r"{([^{}:]*)(:.*)?}", r"<b>\1</b>", link_match)
     definition = re.sub(link_match, link_text, definition, 1)
   special_attrs = []
+  # TODO: Translate these into other languages.
   if "archaic" in attrs:
     special_attrs.append("archaic")
   if "reg" in attrs:
@@ -169,6 +216,16 @@ def extract_definition(data, attrs):
   if "slang" in attrs:
     special_attrs.append("slang")
   return definition + (" (" + ", ".join(special_attrs) + ")" if special_attrs else "")
+
+# Extract the definition for an "alt" entry.
+def alt_extract_definition(qawHaq, search_name, attrs):
+  # When following an "alt" entry, the actual entry to look up is in the
+  # (default, which is 'en') definition.
+  match = re.fullmatch(r"{([^:]*):([^:]*)(?::([1-9])?.*)?}",
+                       qawHaq[search_name]['definition']['en'])
+  alt_entry_name = match.group(1)
+  alt_search_name = alt_entry_name + ":" + match.group(2) + (":" + match.group(3) if match.group(3) else "")
+  return extract_definition(qawHaq[alt_search_name], attrs), alt_entry_name
 
 def get_src_tag(data):
   sources = data['source'].split(',')
@@ -200,8 +257,8 @@ def get_attrs(data):
 # Skip over entries explicitly marked "noanki", are hypothetical or from
 # extended canon, or have no source.
 def should_skip_entry(search_name, attrs, data):
-  if 'alt' in attrs:
-    print_debug("skipped alt entry: " + search_name)
+  if 'noanki' in attrs:
+    print_debug("skipped noanki entry: " + search_name)
     return True
   elif 'hyp' in attrs:
     print_debug("skipped hyp entry: " + search_name)
@@ -253,12 +310,21 @@ for search_name in qawHaq:
           pos_tag = 'Klingon_noun_suffix'
       src_tag = get_src_tag(data)
       tags = [t for t in [pos_tag, src_tag] if t]
-      note = GeneralNote(
-        model = basic_and_reversed_model,
-        fields = [entry_name, pos, extract_definition(data, attrs)],
-        tags = tags)
+
+      if 'alt' not in attrs:
+        note = GeneralNote(
+          model = basic_and_reversed_model,
+          fields = [entry_name, pos, extract_definition(data, attrs)],
+          tags = tags)
+        print_debug("wrote basic note: \"" + search_name + "\" with tags: " + str(tags))
+      else:
+        note = GeneralNote(
+          model = alt_basic_and_reversed_model,
+          fields = [entry_name, pos, *alt_extract_definition(qawHaq, search_name, attrs)],
+          tags = tags)
+        print_debug("wrote (alt) basic note: \"" + search_name + "\" with tags: " + str(tags))
+
       vocab_deck.add_note(note)
-      print_debug("wrote basic note: \"" + search_name + "\" with tags: " + str(tags))
 
   else:
     number = search_name_parts[2]
@@ -276,15 +342,27 @@ for search_name in qawHaq:
           definition = extract_definition(data, attrs)
           src_tag = get_src_tag(data)
           tags = [t for t in [pos_tag, src_tag] if t]
-          d2k_note = NumberedNote(
-            model = homophone_d2k_model,
-            fields = [entry_name, pos, definition, str(counter)],
-            tags = tags)
+
+          if 'alt' not in attrs:
+            d2k_note = NumberedNote(
+              model = homophone_d2k_model,
+              fields = [entry_name, pos, definition, str(counter)],
+              tags = tags)
+            print_debug("wrote d2k note: \"" + search_name + "\" with tags: " + str(tags))
+          else:
+            definition, alt_entry_name = alt_extract_definition(qawHaq, search_name, attrs)
+            d2k_note = NumberedNote(
+              model = alt_homophone_d2k_model,
+              fields = [entry_name, pos, definition, str(counter), alt_entry_name],
+              tags = tags)
+            definition += " = <b>{}</b>".format(alt_entry_name)
+            print_debug("wrote (alt) d2k note: \"" + search_name + "\" with tags: " + str(tags))
+
           vocab_deck.add_note(d2k_note)
-          print_debug("wrote d2k note: \"" + search_name + "\" with tags: " + str(tags))
           combined_en_definition += str(counter) + ". " + definition + "<br>"
           if src_tag is not None and src_tag not in combined_src_tags:
             combined_src_tags += [src_tag]
+
         counter += 1
         search_name = entry_name + ":" + pos + ":" + str(counter)
         data = qawHaq.get(search_name)
