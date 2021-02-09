@@ -5,6 +5,7 @@
 # Exports the entire database to an Anki deck. See xml2json.py for input file format.
 
 import genanki
+import getopt
 import json
 import re
 import subprocess
@@ -26,57 +27,58 @@ basic_and_reversed_model = genanki.Model(
   "boQwI' - Basic (and reversed card)",
   fields=[
     {'name': 'Klingon'},
-    {'name': 'pos'},
-    {'name': 'English'},
+    {'name': 'PartOfSpeech'},
+    {'name': 'Definition'},
   ],
   templates=[
     {
-      'name': 'K2E Card',
-      'qfmt': '<b>{{Klingon}}</b> (<i>{{pos}}</i>)',
-      'afmt': '{{FrontSide}}<hr id="answer">{{English}}',
+      'name': 'K2D Card',
+      'qfmt': '<b>{{Klingon}}</b> (<i>{{PartOfSpeech}}</i>)',
+      'afmt': '{{FrontSide}}<hr id="answer">{{Definition}}',
     },
     {
-      'name': 'E2K Card',
-      'qfmt': '{{English}} (<i>{{pos}}</i>)',
+      'name': 'D2K Card',
+      'qfmt': '{{Definition}} (<i>{{PartOfSpeech}}</i>)',
       'afmt': '{{FrontSide}}<hr id="answer"><b>{{Klingon}}</b>',
     },
   ],
   css = CSS)
 
-# Klingon-to-English card for when there are homophones with the same part of
-# speech. The English card should include all definitions.
-homophone_k2e_model = genanki.Model(
+# Klingon-to-Definition card for when there are homophones with the same part of
+# speech. The Definition field should include all definitions.
+homophone_k2d_model = genanki.Model(
   1661579413,
-  "boQwI' - Homophone Klingon-to-English",
+  "boQwI' - Homophone Klingon-to-Definition",
   fields=[
     {'name': 'Klingon'},
-    {'name': 'pos'},
-    {'name': 'English'},
+    {'name': 'PartOfSpeech'},
+    {'name': 'Definition'},
   ],
   templates=[
     {
-      'name': 'K2E Card',
-      'qfmt': '<b>{{Klingon}}</b> (<i>{{pos}}</i>)',
-      'afmt': '{{FrontSide}}<hr id="answer">{{English}}',
+      'name': 'K2D Card',
+      'qfmt': '<b>{{Klingon}}</b> (<i>{{PartOfSpeech}}</i>)',
+      'afmt': '{{FrontSide}}<hr id="answer">{{Definition}}',
     },
   ],
   css = CSS)
 
-# English-to-Klingon card for when there are homophones with the same part of
-# speech. Each English card contains a separate definition and a distinct number.
-homophone_e2k_model = genanki.Model(
+# Definition-to-Klingon card for when there are homophones with the same part of
+# speech. Each Definition card contains a separate definition and a distinct
+# index for identifying the particular definition of the homophone.
+homophone_d2k_model = genanki.Model(
   1325261783,
-  "boQwI' - Homophone English-to-Klingon",
+  "boQwI' - Homophone Definition-to-Klingon",
   fields=[
     {'name': 'Klingon'},
-    {'name': 'pos'},
-    {'name': 'English'},
-    {'name': 'number'},
+    {'name': 'PartOfSpeech'},
+    {'name': 'Definition'},
+    {'name': 'HomophoneIndex'},
   ],
   templates=[
     {
-      'name': 'E2K Card',
-      'qfmt': '{{English}} (<i>{{pos}}</i>)',
+      'name': 'D2K Card',
+      'qfmt': '{{Definition}} (<i>{{PartOfSpeech}}</i>)',
       'afmt': '{{FrontSide}}<hr id="answer"><b>{{Klingon}}</b>',
     },
   ],
@@ -98,17 +100,43 @@ src_to_tag = {
   "KGT": "Klingon_from_KGT",
 }
 
-# Default deck name. Also used to hash the GUID.
-# TODO: Make a dictionary from language to deck name and GUID.
-deck_name = "boQwI' vocabulary (en)"
+lang_to_deck_guid = {
+  'en': 2024552849,
+}
 
-# Base the GUID on only the Klingon text and part of speech.
+# Parse arguments.
+test_mode = False
+language = "en"
+try:
+  opts, args = getopt.getopt(sys.argv[1:], "", ["test", "language="])
+except getopt.GetoptError:
+  print("{} [--test] [--language=en]".format(sys.argv[0]))
+  sys.exit(2)
+for opt, arg in opts:
+  if opt == "--test":
+    test_mode = True
+  elif opt == "--language":
+    language = arg
+if test_mode and language != "en":
+  print("Test mode only available for language \"en\".")
+  sys.exit(2)
+if language not in lang_to_deck_guid:
+  print("Unsupported language: \"{}\".".format(language))
+  sys.exit(2)
+
+# The deck name is also used to hash the GUID for the cards.
+deck_name = "boQwI' vocabulary ({})".format(language)
+deck_guid = lang_to_deck_guid[language] if not test_mode else 0
+output_filename = ("klingon_vocab" + ("_" + language if language != "en" else "") + ".apkg") if not test_mode else "test.apkg"
+
+# Base the GUID on only the deck name, Klingon text, and part of speech.
 class GeneralNote(genanki.Note):
   @property
   def guid(self):
     return genanki.guid_for(deck_name, self.fields[0], self.fields[1])
 
-# Base the GUID on only the Klingon text, part of speech, and a unique number.
+# Base the GUID on only the deck name, Klingon text, part of speech, and an
+# index for identifying different definitions of homophones.
 class NumberedNote(genanki.Note):
   @property
   def guid(self):
@@ -165,7 +193,7 @@ def should_skip_entry(search_name, attrs, data):
   return False
 
 # Read in input.
-if '--test' in sys.argv:
+if test_mode:
   print("Reading test json file...")
   qawHaq = json.load(open('export_to_anki_test.json'))['qawHaq']
 else:
@@ -175,7 +203,7 @@ else:
   qawHaq = json.loads(json_string)['qawHaq']
 
 # Start of main logic.
-vocab_deck = genanki.Deck(2024552849, deck_name)
+vocab_deck = genanki.Deck(deck_guid, deck_name)
 
 for search_name in qawHaq:
   search_name_parts = search_name.split(':')
@@ -222,12 +250,12 @@ for search_name in qawHaq:
           definition = extract_definition(data)
           src_tag = get_src_tag(data)
           tags = [t for t in [pos_tag, src_tag] if t]
-          e2k_note = NumberedNote(
-            model = homophone_e2k_model,
+          d2k_note = NumberedNote(
+            model = homophone_d2k_model,
             fields = [entry_name, pos, definition, str(counter)],
             tags = tags)
-          vocab_deck.add_note(e2k_note)
-          print("wrote e2k note: \"" + search_name + "\" with tags: " + str(tags))
+          vocab_deck.add_note(d2k_note)
+          print("wrote d2k note: \"" + search_name + "\" with tags: " + str(tags))
           combined_en_definition += str(counter) + ". " + definition + "<br>"
           if src_tag is not None and src_tag not in combined_src_tags:
             combined_src_tags += [src_tag]
@@ -236,11 +264,12 @@ for search_name in qawHaq:
         data = qawHaq.get(search_name)
 
       tags = [pos_tag] + combined_src_tags
-      k2e_note = GeneralNote(
-        model = homophone_k2e_model,
+      k2d_note = GeneralNote(
+        model = homophone_k2d_model,
         fields = [entry_name, pos, combined_en_definition],
         tags = tags)
-      vocab_deck.add_note(k2e_note)
-      print("wrote k2e note: \"" + entry_name + ":" + pos + "\" with tags: " + str(tags))
+      vocab_deck.add_note(k2d_note)
+      print("wrote k2d note: \"" + entry_name + ":" + pos + "\" with tags: " + str(tags))
 
-genanki.Package(vocab_deck).write_to_file('klingon_vocab.apkg')
+genanki.Package(vocab_deck).write_to_file(output_filename)
+print("Wrote deck \"{}\" to file \"{}\" with GUID {}.".format(deck_name, output_filename, deck_guid))
