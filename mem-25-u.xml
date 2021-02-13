@@ -9,16 +9,18 @@
       <column name="definition_ru">буква {u:sen:nolink}</column>
       <column name="definition_zh_HK">元音{u:sen:nolink}</column>
       <column name="definition_pt">a vogal {u:sen:nolink}</column>
+      <column name="definition_fi">vokaali {u:sen:nolink}</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="notes">This refers to the sound, and not to any letter or glyph.</column>
+      <column name="notes_de">Dies bezieht sich auf den Ton und nicht auf Buchstaben oder Glyphen. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این به صدا اشاره دارد و به هیچ حرف یا حروف گلی اشاره نمی کند. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta hänvisar till ljudet och inte till någon bokstav eller tecken. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это относится к звуку, а не к букве или глифу. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是指聲音，而不是任何字母或字形。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso se refere ao som, e não a qualquer letra ou glifo. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä viittaa ääneen eikä mihinkään kirjaimeen tai kuvioon. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -28,6 +30,7 @@
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -35,6 +38,7 @@
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KLI mailing list 2009.07.27:src}</column>
     </table>
     <table name="mem">
@@ -42,12 +46,13 @@
       <column name="entry_name">'ub</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">be lonely</column>
-      <column name="definition_de">einsam sein [AUTOTRANSLATED]</column>
+      <column name="definition_de">einsam sein</column>
       <column name="definition_fa">تنها بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara ensam [AUTOTRANSLATED]</column>
       <column name="definition_ru">быть одиноким [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">孤獨 [AUTOTRANSLATED]</column>
       <column name="definition_pt">ser sozinho</column>
+      <column name="definition_fi">olla yksinäinen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'IQ:v}, {'It:v}, {mob:v:1}</column>
@@ -58,6 +63,7 @@
       <column name="notes_ru">Это относится к эмоциям, а не к фактическому состоянию одиночества. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是指情感，而不是孤獨的實際狀態。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso se refere à emoção, não ao estado real de estar sozinho. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä viittaa tunteeseen, ei todelliseen yksinolon tilaan. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -67,6 +73,7 @@
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -74,6 +81,7 @@
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
@@ -84,21 +92,35 @@
       <column name="definition_de">greifen, (fest)halten</column>
       <column name="definition_fa">نگه داشتن، درک [AUTOTRANSLATED]</column>
       <column name="definition_sv">hålla (i), gripa (om)</column>
-      <column name="definition_ru">hold, grasp [AUTOTRANSLATED]</column>
+      <column name="definition_ru">держать, хватать [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">抓</column>
       <column name="definition_pt">segurar, agarrar</column>
+      <column name="definition_fi">pitää kiinni, pidellä</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'uchHa':v}</column>
       <column name="see_also"></column>
       <column name="notes">When applied to weapons systems, this is used for locking on a target. See {'uch:v:2}.
 
 When the object of this verb is {'olQan:n}, it can often be translated "occupy" or "take up".[2]</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_de">Bei Anwendung auf Waffensysteme wird dies zum Festhalten an einem Ziel verwendet. Siehe {'uch:v:2}.
+
+Wenn das Objekt dieses Verbs {'olQan:n} ist, kann es oft mit "besetzen" oder "aufnehmen" übersetzt werden. [2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">هنگام استفاده از سیستم های تسلیحاتی ، این برای قفل کردن هدف مورد استفاده قرار می گیرد. به {'uch:v:2} مراجعه کنید.
+
+هنگامی که هدف این فعل {'olQan:n} است ، اغلب می تواند "اشغال" یا "تصاحب" ترجمه شود. [2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">När det används på vapensystem används detta för att låsas på ett mål. Se {'uch:v:2}.
+
+När objektet för detta verb är {'olQan:n} kan det ofta översättas "ockupera" eller "ta upp". [2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Применительно к системам вооружения это используется для захвата цели. Смотрите {'uch:v:2}.
+
+Когда объектом этого глагола является {'olQan:n}, его часто можно перевести как «занять» или «занять» .[2] [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="notes_pt">Quando aplicado a sistemas de armas, é usado para travar em um alvo. Consulte {'uch:v:2}.
+
+Quando o objeto deste verbo é {'olQan:n}, muitas vezes pode ser traduzido como "ocupar" ou "pegar" .[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Kun sitä käytetään asejärjestelmiin, sitä käytetään kohteen lukitsemiseen. Katso {'uch:v:2}.
+
+Kun tämän verbin kohde on {'olQan:n}, se voidaan usein kääntää "miehittää" tai "ottaa käyttöön".[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -108,6 +130,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags">occupy, take up</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -115,6 +138,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}, [2] {qep'a' 25 (2018):src}</column>
     </table>
     <table name="mem">
@@ -128,6 +152,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="definition_ru">заблокировать (цель) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">鎖定（目標） [AUTOTRANSLATED]</column>
       <column name="definition_pt">bloquear (um alvo)</column>
+      <column name="definition_fi">lukittua kohteeseen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{DoS:n}, {buS:v}</column>
@@ -138,6 +163,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="notes_ru">Это приложение {'uch:v:1} к контексту систем вооружений. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是{'uch:v:1}在武器系統環境中的應用。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esta é uma aplicação do {'uch:v:1} para um contexto de sistemas de armas. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on {'uch:v:1} -sovelluksen käyttö asejärjestelmien yhteydessä. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -148,6 +174,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -155,6 +182,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {qep'a' 24 (2017):src}</column>
     </table>
     <table name="mem">
@@ -168,6 +196,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="definition_ru">включать, состоять из, состоять из [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">包括、由...組成 [AUTOTRANSLATED]</column>
       <column name="definition_pt">incluir, consistir em, ser composto de</column>
+      <column name="definition_fi">sisältää, koostua jostakin</column>
       <column name="synonyms">{yugh:v}</column>
       <column name="antonyms"></column>
       <column name="see_also">{tamlerQeD:n}</column>
@@ -178,6 +207,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="notes_ru">Это используется для разговоров о химии. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這用於談論化學。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso é usado para falar sobre química. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tätä käytetään puhumaan kemiasta. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -187,6 +217,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -194,6 +225,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
         <table name="mem">
@@ -204,9 +236,10 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
           <column name="definition_de">loslassen</column>
           <column name="definition_fa">بیایید [AUTOTRANSLATED]</column>
           <column name="definition_sv">släppa</column>
-          <column name="definition_ru">let go of [AUTOTRANSLATED]</column>
+          <column name="definition_ru">отпустить [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">放手</column>
           <column name="definition_pt">soltar de</column>
+          <column name="definition_fi">päästää irti, hellittää ote jostain</column>
           <column name="synonyms"></column>
           <column name="antonyms">{'uch:v:1}</column>
           <column name="see_also"></column>
@@ -217,6 +250,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
           <column name="hidden_notes"></column>
           <column name="components">{'uch:v:1}, {-Ha':v}</column>
           <column name="examples"></column>
@@ -226,6 +260,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
           <column name="examples_ru"></column>
           <column name="examples_zh_HK"></column>
           <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
           <column name="search_tags"></column>
           <column name="search_tags_de"></column>
           <column name="search_tags_fa"></column>
@@ -233,6 +268,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
           <column name="source">[1] {HQ 12.2, Jun. 2003:src}</column>
         </table>
     <table name="mem">
@@ -240,12 +276,13 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="entry_name">'uchgha'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">RNA</column>
-      <column name="definition_de">RNA [AUTOTRANSLATED]</column>
+      <column name="definition_de">RNS</column>
       <column name="definition_fa">RNA [AUTOTRANSLATED]</column>
       <column name="definition_sv">RNA [AUTOTRANSLATED]</column>
       <column name="definition_ru">РНК [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">核糖核酸 [AUTOTRANSLATED]</column>
       <column name="definition_pt">RNA</column>
+      <column name="definition_fi">RNA</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{roSghaH:n}</column>
@@ -256,6 +293,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">It was confirmed during the Q &amp; A session that this is not grammatically considered a body part.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -265,6 +303,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -272,6 +311,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
@@ -285,6 +325,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="definition_ru">лазер [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">激光</column>
       <column name="definition_pt">laser</column>
+      <column name="definition_fi">laser</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'otlh:n}</column>
@@ -295,6 +336,7 @@ When the object of this verb is {'olQan:n}, it can often be translated "occupy" 
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">The word {'uD'a':n:nolink} appears in {HQ 1.3, Sept. 1992:src}, where it is also defined as just "laser".
 
 Shintaro Uda was a co-inventor of the beam antenna.</column>
@@ -306,6 +348,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -313,6 +356,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
@@ -323,9 +367,10 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="definition_de">Laserskalpell</column>
       <column name="definition_fa">scalpel لیزر [AUTOTRANSLATED]</column>
       <column name="definition_sv">laserskalpell</column>
-      <column name="definition_ru">laser scalpel [AUTOTRANSLATED]</column>
+      <column name="definition_ru">лазерный скальпель [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">激光手術刀</column>
       <column name="definition_pt">bisturi a laser</column>
+      <column name="definition_fi">laserveitsi</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{HaqwI':n}</column>
@@ -336,6 +381,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components">{'uD:n}, {Haqtaj:n}</column>
       <column name="examples"></column>
@@ -345,6 +391,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -352,6 +399,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {HQ 1.3, Sept. 1992:src}</column>
     </table>
     <table name="mem">
@@ -365,6 +413,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="definition_ru">быть тяжелым</column>
       <column name="definition_zh_HK">重</column>
       <column name="definition_pt">ser pesado</column>
+      <column name="definition_fi">olla raskas, painava</column>
       <column name="synonyms"></column>
       <column name="antonyms">{tIS:v}</column>
       <column name="see_also">{cheb:n}, {ngI':v}</column>
@@ -375,6 +424,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -385,6 +435,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags">burden</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -392,6 +443,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
@@ -405,6 +457,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="definition_ru">гусеница [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">毛蟲</column>
       <column name="definition_pt">lagarta</column>
+      <column name="definition_fi">toukka</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghargh:n}</column>
@@ -415,6 +468,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="notes_ru">Это немного извилистая вещь, которая почему-то превращается в {Su'wan ghew:n}. Не используется, чтобы сделать {qagh:n}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi">Tämä on pieni mutkikas juttu, josta joku muuttuu {Su'wan ghew:n}: ksi. Sitä ei käytetä {qagh:n}: n valmistamiseen. [AUTOTRANSLATED]</column>
       <column name="hidden_notes">The {'ugh:sen:nolink}ly {Duq:sen:nolink}ling becomes a {Su'wan:sen:nolink}.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -424,6 +478,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -431,6 +486,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KLI mailing list 2018.08.31:src}, [2] {The Little Prince:src}</column>
     </table>
     <table name="mem">
@@ -444,6 +500,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="definition_ru">иметь похмелье</column>
       <column name="definition_zh_HK">宿醉、宿酒</column>
       <column name="definition_pt">ter uma ressaca, estar de ressaca</column>
+      <column name="definition_fi">olla krapulassa</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chech:v}, {HIq:n}, {wuQ:v}, {nuch Hergh:n}</column>
@@ -454,6 +511,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -463,6 +521,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -470,6 +529,7 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
@@ -480,9 +540,10 @@ Shintaro Uda was a co-inventor of the beam antenna.</column>
       <column name="definition_de">Maßeinheit (34,83 cm)</column>
       <column name="definition_fa">uj (واحد اندازه گیری خطی، 34.83 سانتی متر) [AUTOTRANSLATED]</column>
       <column name="definition_sv">uj (längdenhet)</column>
-      <column name="definition_ru">uj (единица измерения линейной длины, 34,83 ​​см) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">uj (единица линейной меры, 34,83 ​​см) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">uj（線性測量單位、34.83 cm） [AUTOTRANSLATED]</column>
       <column name="definition_pt">uj (unidade de medida linear, 34,83 ​​cm)</column>
+      <column name="definition_fi">eräs pituuden yksikkö, uj (n. 34,83 cm)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'ab:v}, {'aD:v}, {juch:v}, {Saw':v}, {woch:v}, {juv:v}, {'uj'a':n}, {morgh:n}, {lID:v}</column>
@@ -497,6 +558,9 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi">{BoP:src}-julisteen mittausten perusteella yksi {'uj:n:nolink} on hyvin lähellä 34,83 ​​cm.
+
+Kolme {'uj:n:nolink} on noin 3'5 ", viisi {'uj:n:nolink} on noin 5'8" ja kuusi {'uj:n:nolink} on noin 6'10 ".[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes">In {KGT:src}, this unit is described as "about 35 cm". Also, Okrand has not been consistent in writing the plural of this in English, using "ujs" in earlier work but switching to "ujes" later.</column>
       <column name="components"></column>
       <column name="examples">
@@ -517,6 +581,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags">unit, meter, metre, centimeter, centimetre</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -524,6 +589,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}, [2] {msn 1997.10.22:src}, [3] {SkyBox 32:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src}), [4] {BoP:src}, [5] {Saarbrücken qepHom'a' 2015:src}, [6] {KLI mailing list 2019.03.01:src}, [7] {qep'a' 26 (2019):src}</column>
     </table>
     <table name="mem">
@@ -537,6 +603,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">единица длины (313,47 см) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">長度單位（313.47厘米） [AUTOTRANSLATED]</column>
       <column name="definition_pt">unidade de comprimento (313.47 cm)</column>
+      <column name="definition_fi">eräs pituuden yksikkö, iso uj (n. 313,47 cm)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -547,6 +614,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt">Um {'uj'a':n:nolink} é igual a nove {'uj:n:nolink}. No entanto, não existe uma unidade {'ujHom:n:nolink} que denote um nono de um {'uj:n:nolink}.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Yksi {'uj'a':n:nolink} on yhtä suuri kuin yhdeksän {'uj:n:nolink}. Ei kuitenkaan ole yksikköä {'ujHom:n:nolink}, joka merkitsisi {'uj:n:nolink}: n yhdeksäsosaa.[1] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components">{'uj:n}, {-'a':n}</column>
       <column name="examples"></column>
@@ -556,6 +624,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -563,6 +632,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {s.k 1999.02.03:src} (also forwarded to {KLI mailing list 1999.02.03:src})</column>
     </table>
     <table name="mem">
@@ -571,11 +641,12 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Ujilli</column>
       <column name="definition_de">Ujilli</column>
-      <column name="definition_fa">Ujilli [AUTOTRANSLATED]</column>
+      <column name="definition_fa">اوجیلی [AUTOTRANSLATED]</column>
       <column name="definition_sv">Ujilli [AUTOTRANSLATED]</column>
-      <column name="definition_ru">Ujilli [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Уджилли [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">Ujilli [AUTOTRANSLATED]</column>
       <column name="definition_pt">Ujilli</column>
+      <column name="definition_fi">Ujilli</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -586,6 +657,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru">Он является членом Дома Мо'Кай ({mo'qay tuq:n:name}). [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">他是莫凱家族（{mo'qay tuq:n:name}）的成員。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Ele é um membro da Casa de Mo'Kai ({mo'qay tuq:n:name}). [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Hän on Mo'Kain talon ({mo'qay tuq:n:name}) jäsen. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -595,6 +667,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -602,6 +675,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {DSC - Battle at the Binary Stars:src}, [2] {Saarbrücken qepHom'a' 2019:src}</column>
     </table>
     <table name="mem">
@@ -615,6 +689,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">электричество [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">電、電力</column>
       <column name="definition_pt">eletricidade</column>
+      <column name="definition_fi">sähkö</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{peQ:n}</column>
@@ -625,6 +700,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">This is a reference to the "Underwriter's Laboratories". A label with the acronym "UL" is found on all electrical appliances in the US.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -634,6 +710,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -641,6 +718,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
         <table name="mem">
@@ -648,12 +726,13 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="entry_name">'ul gho</column>
           <column name="part_of_speech">n:deriv</column>
           <column name="definition">circuit</column>
-          <column name="definition_de">Schaltkreis [AUTOTRANSLATED]</column>
+          <column name="definition_de">Schaltkreis</column>
           <column name="definition_fa">جریان [AUTOTRANSLATED]</column>
           <column name="definition_sv">krets [AUTOTRANSLATED]</column>
           <column name="definition_ru">схема [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">電路 [AUTOTRANSLATED]</column>
           <column name="definition_pt">circuito</column>
+          <column name="definition_fi">virtapiiri</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
@@ -664,6 +743,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
           <column name="hidden_notes">There is a note that {'ul ghomey:n:nolink} means "circuits", though it's not clear why this note is necessary.</column>
           <column name="components">{'ul:n}, {gho:n}</column>
           <column name="examples"></column>
@@ -673,6 +753,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="examples_ru"></column>
           <column name="examples_zh_HK"></column>
           <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
           <column name="search_tags"></column>
           <column name="search_tags_de"></column>
           <column name="search_tags_fa"></column>
@@ -680,6 +761,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
           <column name="source">[1] {qep'a' 27 (2020):src}</column>
         </table>
         <table name="mem">
@@ -693,6 +775,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="definition_ru">электрик [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">電工</column>
           <column name="definition_pt">eletricista</column>
+          <column name="definition_fi">sähköasentaja</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{'ul:n}</column>
@@ -703,6 +786,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
           <column name="hidden_notes"></column>
           <column name="components">{'ul:n}, {pat:n}, {mutlh:v}, {-wI':v}</column>
           <column name="examples"></column>
@@ -712,6 +796,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="examples_ru"></column>
           <column name="examples_zh_HK"></column>
           <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
           <column name="search_tags"></column>
           <column name="search_tags_de"></column>
           <column name="search_tags_fa"></column>
@@ -719,6 +804,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
           <column name="source">[1] {KLI mailing list 2012.01.10:src}</column>
         </table>
         <table name="mem">
@@ -732,6 +818,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="definition_ru">электрическая вилка [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">電源插頭</column>
           <column name="definition_pt">Tomada</column>
+          <column name="definition_fi">pistoke</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
@@ -742,6 +829,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
           <column name="hidden_notes"></column>
           <column name="components">{'ul:n}, {rarwI':n}</column>
           <column name="examples"></column>
@@ -751,6 +839,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="examples_ru"></column>
           <column name="examples_zh_HK"></column>
           <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
           <column name="search_tags"></column>
           <column name="search_tags_de"></column>
           <column name="search_tags_fa"></column>
@@ -758,6 +847,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
           <column name="source">[1] {qep'a' 25 (2018):src}</column>
         </table>
         <table name="mem">
@@ -771,6 +861,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="definition_ru">фонарик [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">電筒</column>
           <column name="definition_pt">lanterna</column>
+          <column name="definition_fi">taskulamppu</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
@@ -781,6 +872,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
           <column name="hidden_notes"></column>
           <column name="components">{'ul:n}, {Sech:n}</column>
           <column name="examples"></column>
@@ -790,6 +882,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="examples_ru"></column>
           <column name="examples_zh_HK"></column>
           <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
           <column name="search_tags">torch, electric torch</column>
           <column name="search_tags_de"></column>
           <column name="search_tags_fa"></column>
@@ -797,6 +890,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
           <column name="source">[1] {TNK:src}</column>
         </table>
         <table name="mem">
@@ -811,6 +905,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="definition_ru">батарея, электрохимическая ячейка [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">電心、電池</column>
           <column name="definition_pt">bateria, célula eletroquímica</column>
+          <column name="definition_fi">akku, paristo, sähkökemiallinen kenno</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{HoSHal:n}, {Huj:v:2}</column>
@@ -821,6 +916,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
           <column name="hidden_notes">This word appears in {TNK:src} only in the plural as {'ul 'aplo'mey:n:nolink} "batteries". Technically, what is commonly called a "battery" is a single cell, and a "battery" is an array ({DaH:n}) of such cells.</column>
           <column name="components">{'ul:n}, {'aplo':n}</column>
           <column name="examples"></column>
@@ -830,6 +926,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="examples_ru"></column>
           <column name="examples_zh_HK"></column>
           <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
           <column name="search_tags"></column>
           <column name="search_tags_de"></column>
           <column name="search_tags_fa"></column>
@@ -837,6 +934,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
           <column name="source">[1] {TNK:src}</column>
         </table>
     <table name="mem">
@@ -850,6 +948,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">быть компетентным</column>
       <column name="definition_zh_HK">有資格</column>
       <column name="definition_pt">ser qualificado</column>
+      <column name="definition_fi">olla pätevä</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'umHa':v}</column>
       <column name="see_also">{po':v}, {Han:v}, {Hen:v}</column>
@@ -860,6 +959,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -869,6 +969,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags">fit, worthy</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -876,6 +977,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
@@ -886,9 +988,10 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_de">unqualifiziert sein</column>
       <column name="definition_fa">بی فایده باشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara okvalificerad [AUTOTRANSLATED]</column>
-      <column name="definition_ru">be unqualified [AUTOTRANSLATED]</column>
+      <column name="definition_ru">быть неквалифицированным [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">冇資格、不合格</column>
       <column name="definition_pt">ser desqualificado</column>
+      <column name="definition_fi">olla epäpätevä</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'um:v}</column>
       <column name="see_also"></column>
@@ -899,6 +1002,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">This word is not actually defined in the {paq'batlh:src}, but its derivation and meaning are clear.</column>
       <column name="components">{'um:v}, {-Ha':v}</column>
       <column name="examples">
@@ -914,6 +1018,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags">unfit, unworthy</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -921,6 +1026,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {paq'batlh p.96-97:src}</column>
     </table>
     <table name="mem">
@@ -931,9 +1037,10 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_de">Blüte, Blütenblatt</column>
       <column name="definition_fa">گلبرگ</column>
       <column name="definition_sv">kronblad [AUTOTRANSLATED]</column>
-      <column name="definition_ru">petal [AUTOTRANSLATED]</column>
+      <column name="definition_ru">лепесток [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">花瓣</column>
       <column name="definition_pt">pétala</column>
+      <column name="definition_fi">terälehti</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'InSong:n}</column>
@@ -944,6 +1051,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">"Petaluma" is a town in California.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -953,6 +1061,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -960,6 +1069,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {qep'a' 23 (2016):src}</column>
     </table>
     <table name="mem">
@@ -973,6 +1083,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">экосистема, окружающая среда [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">生態系統，環境 [AUTOTRANSLATED]</column>
       <column name="definition_pt">ecossistema, meio ambiente</column>
+      <column name="definition_fi">ekosysteemi, ympäristö</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{but:v}, {qo':n}, {yIn:n}</column>
@@ -983,6 +1094,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">Umberto Eco.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -992,6 +1104,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -999,6 +1112,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {qep'a' 26 (2019):src}</column>
     </table>
     <table name="mem">
@@ -1009,9 +1123,10 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_de">Topf (allg. Begriff für Kochtopf, auch wenn Hitze nicht involviert ist)</column>
       <column name="definition_fa">گلدان (برای تهیه غذا) (اصطلاح عمومی) [AUTOTRANSLATED]</column>
       <column name="definition_sv">skål (för matberedning, generell term)</column>
-      <column name="definition_ru">pot (for food preparation) (general term) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">горшок (для приготовления пищи) (общий термин) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">鍋（用於食物準備）（總稱） [AUTOTRANSLATED]</column>
       <column name="definition_pt">panela (para preparação de alimentos) (termo geral)</column>
+      <column name="definition_fi">pata, kattila (ruoanvalmistusta varten)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{DuDwI':n}, {'un naQ:n}, {bo'Dagh:n}</column>
@@ -1022,6 +1137,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1031,6 +1147,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1038,6 +1155,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
@@ -1051,6 +1169,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">палочка для перемешивания, палочка для перемешивания [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">攪拌棒</column>
       <column name="definition_pt">bastão de agitação, bastão misturador</column>
+      <column name="definition_fi">sekoituspuikko (käytetään ruoanvalmistuksessa)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{DuDwI':n}, {ngawDeq:n}</column>
@@ -1061,6 +1180,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components">{'un:n}, {naQ:n:1}</column>
       <column name="examples"></column>
@@ -1070,6 +1190,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1077,6 +1198,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
@@ -1087,9 +1209,10 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_de">künstlich hergestelltes [qud]</column>
       <column name="definition_fa">مصنوعی تولید شده [qud] [AUTOTRANSLATED]</column>
       <column name="definition_sv">artificiellt framställd [qud]</column>
-      <column name="definition_ru">artificially produced [qud] [AUTOTRANSLATED]</column>
+      <column name="definition_ru">искусственно произведенный [qud] [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">人工製作的《qud》</column>
       <column name="definition_pt">produzido artificialmente [qud]</column>
+      <column name="definition_fi">eräs elintarvike, keinotekoisesti tuotettu [qud]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{quD:n}, {burgh quD:n}</column>
@@ -1100,6 +1223,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru">Это {quD:n} производится с использованием химических веществ. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是使用化學品生產的{quD:n}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é o {quD:n} produzido com produtos químicos. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on {quD:n}, joka on valmistettu kemikaaleilla. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components">{'un:n}, {quD:n}</column>
       <column name="examples"></column>
@@ -1109,6 +1233,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1116,6 +1241,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
@@ -1129,6 +1255,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">корзина [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">籃</column>
       <column name="definition_pt">cesta</column>
+      <column name="definition_fi">kori</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1139,7 +1266,8 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru">Это сотканный контейнер для переноски вещей. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是用於搬運物品的編織容器。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é um recipiente trançado para transportar coisas. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="notes_fi">Tämä on kudottu astia tavaroiden kuljettamiseen. [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">This is a pot ({'un:n}) made of what looks like "wattle" fencing.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -1148,6 +1276,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1155,6 +1284,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {qep'a' 25 (2018):src}</column>
     </table>
     <table name="mem">
@@ -1164,10 +1294,11 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition">squat (down)</column>
       <column name="definition_de">in die Hocke gehen</column>
       <column name="definition_fa">چمباتمه زدن</column>
-      <column name="definition_sv">huka sig) [AUTOTRANSLATED]</column>
-      <column name="definition_ru">squat (down) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">huka (sig) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">присесть [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">跁低、蹲下</column>
       <column name="definition_pt">agachamento (para baixo)</column>
+      <column name="definition_fi">kyykistyä, istua kyykyssä</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ba':v}, {joD:v}, {tor:v:1}</column>
@@ -1178,6 +1309,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1187,6 +1319,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1194,6 +1327,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {qep'a' 25 (2018):src}</column>
     </table>
     <table name="mem">
@@ -1207,6 +1341,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">быть неприятным, отвратительным, отвратительным, отвратительным, непристойным [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">是令人討厭的、令人作嘔的、令人厭惡的、令人厭惡的、icky的 [AUTOTRANSLATED]</column>
       <column name="definition_pt">ser repugnante, nojento, revoltante</column>
+      <column name="definition_fi">olla epämiellyttävä, inhottava, vastenmielinen, ällö</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'eyHa':v}, {yIH:n}, {ngIm:v}, {natlh:v:2}</column>
@@ -1217,6 +1352,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru">Существует идиома {'up; yIH rur@@'up:v, yIH:n, rur:v}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">有一個成語，{'up; yIH rur@@'up:v, yIH:n, rur:v}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Existe um idioma, {'up; yIH rur@@'up:v, yIH:n, rur:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">On idioomi {'up; yIH rur@@'up:v, yIH:n, rur:v}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes">Throw "up".</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1226,6 +1362,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1233,6 +1370,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
@@ -1246,6 +1384,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">свисток [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">吹哨</column>
       <column name="definition_pt">apitar, assobiar</column>
+      <column name="definition_fi">viheltää</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bom:v}, {bo'Degh:n}, {Huy:v:1}</column>
@@ -1256,6 +1395,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru">Если есть объект, это вещь, которую насвистывают. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">如果有物體，那就是被吹口哨的東西。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Se existe um objeto, é a coisa que está sendo assobiada. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Jos siellä on esine, se vihelletään. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1265,6 +1405,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1272,6 +1413,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {qep'a' 25 (2018):src}</column>
     </table>
     <table name="mem">
@@ -1285,6 +1427,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">ужин</column>
       <column name="definition_zh_HK">晚餐</column>
       <column name="definition_pt">jantar</column>
+      <column name="definition_fi">illallinen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ram:n}, {nay':n}, {ghem:n}, {megh:n}, {nIQ:n}</column>
@@ -1295,6 +1438,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -1305,6 +1449,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1312,6 +1457,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
@@ -1325,6 +1471,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">банкет, пир</column>
       <column name="definition_zh_HK">宴會、饗宴</column>
       <column name="definition_pt">banquete, festa</column>
+      <column name="definition_fi">juhla-ateria, pidot, kestit</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1335,6 +1482,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components">{'uQ:n}, {-'a':n}</column>
       <column name="examples"></column>
@@ -1344,6 +1492,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1351,6 +1500,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
@@ -1364,6 +1514,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">столовая, столовая [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">飯廳</column>
       <column name="definition_pt">sala de jantar</column>
+      <column name="definition_fi">ruokasali</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{SopmeH pa':n}</column>
@@ -1374,6 +1525,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">This is just a regular noun-noun construction. It was used as an example in a message on the {msn:src} newsgroup to show that the known vocabulary and existing grammar can be used to say a lot of things which aren't explicitly spelled out.</column>
       <column name="components">{'uQ:n}, {pa':n:1}</column>
       <column name="examples"></column>
@@ -1383,6 +1535,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1390,6 +1543,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {msn 1997.06.18:src}</column>
     </table>
     <table name="mem">
@@ -1403,6 +1557,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">совершать измену</column>
       <column name="definition_zh_HK">賣國</column>
       <column name="definition_pt">trair, cometer traição</column>
+      <column name="definition_fi">tehdä maanpetos</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{magh:v}, {bolwI':n}, {'urmang:n}</column>
@@ -1413,6 +1568,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">This is missing from the K-E side of {TKDA:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1422,6 +1578,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1429,6 +1586,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
@@ -1442,6 +1600,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">изменник</column>
       <column name="definition_zh_HK">賣國賊</column>
       <column name="definition_pt">traidor</column>
+      <column name="definition_fi">maanpetturi</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bolwI':n}, {maghwI':n}</column>
@@ -1452,6 +1611,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru">Это человек, который совершает государственную измену. Для человека, который предает кого-то, см. {maghwI':n}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是犯叛國罪的人。對於背叛某人的人，請參閱{maghwI':n}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esta é uma pessoa que comete traição. Para uma pessoa que trai alguém, consulte {maghwI':n}. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on henkilö, joka tekee maanpetoksen. Jos joku pettää jonkun, katso {maghwI':n}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes">This is missing from the K-E side of {TKDA:src}.</column>
       <column name="components">{'ur:v}, {-wI':v}</column>
       <column name="examples"></column>
@@ -1461,6 +1621,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1468,6 +1629,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
@@ -1481,6 +1643,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">тыкать [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">篤、戳</column>
       <column name="definition_pt">espetar</column>
+      <column name="definition_fi">pistää, tökätä</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{DuQ:v:1}, {'urghwI':n}</column>
@@ -1491,6 +1654,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1500,6 +1664,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1507,6 +1672,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
@@ -1520,6 +1686,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">Покер (карточная игра) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">撲克（紙牌遊戲）</column>
       <column name="definition_pt">Poker (jogo de cartas)</column>
+      <column name="definition_fi">pokeri</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Degh:n:1}, {'echletHom:n}, {SuD:v:2}</column>
@@ -1530,6 +1697,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi">Maltz viittasi federaation korttipeliin "Poker" nimellä {'urghwI':n:nolink}, vaikka muut klingonit eivät todennäköisesti ymmärtäisikään tätä.[1] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components">{'urgh:v}, {-wI':v}</column>
       <column name="examples"></column>
@@ -1539,6 +1707,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1546,6 +1715,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
@@ -1559,6 +1729,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">измена</column>
       <column name="definition_zh_HK">叛國罪</column>
       <column name="definition_pt">traição</column>
+      <column name="definition_fi">maanpetos</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'ur:v}, {Daw':n}, {QuS:n}</column>
@@ -1569,6 +1740,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1578,6 +1750,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1585,6 +1758,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
@@ -1598,9 +1772,10 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">нога</column>
       <column name="definition_zh_HK">腿</column>
       <column name="definition_pt">perna</column>
+      <column name="definition_fi">jalka</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qam:n}, {ghIv:n}, {qIv:n}, {to'waQ:n}, {ngIb:n:1}</column>
+      <column name="see_also">{qam:n}, {ghIv:n}, {qIv:n}, {to'waQ:n}, {ngIb:n:1}, {Do'ghI':n}, {reStav:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1608,6 +1783,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1617,6 +1793,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1624,6 +1801,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
@@ -1637,6 +1815,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">своего рода птица, петух [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">公雞</column>
       <column name="definition_pt">uma espécie de pássaro, galo</column>
+      <column name="definition_fi">eräs kukon kaltainen lintu</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bo'Degh:n}, {jajlo' Qa':n}</column>
@@ -1647,6 +1826,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru">Это шумная птица, которая, как известно, совершает шум на рассвете, которую сравнивают с петухом (но гораздо жестче, чем петух). [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是一種吵鬧的鳥，已知會在黎明時引起騷動，已被比喻為公雞（但比公雞兇猛得多）。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é um pássaro barulhento, conhecido por fazer um tumulto ao amanhecer, que foi comparado a um galo (mas é muito mais feroz do que um galo). [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on meluisa lintu, jonka tiedetään tekevän kynnyksen aamunkoitteessa, jota on verrattu kukkoon (mutta se on paljon kovempaa kuin kukko). [AUTOTRANSLATED]</column>
       <column name="hidden_notes">The "leghorn" is a type of chicken, and Foghorn Leghorn is a cartoon leghorn rooster.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1656,6 +1836,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1663,6 +1844,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {HQ 10.4, Dec. 2001:src}</column>
     </table>
     <table name="mem">
@@ -1676,6 +1858,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">железо (элемент) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">鐵（元素）</column>
       <column name="definition_pt">ferro (elemento)</column>
+      <column name="definition_fi">rauta</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tamler:n}, {baS:n}</column>
@@ -1686,6 +1869,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">The USS Constitution had the nickname "Old Ironsides".</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1695,6 +1879,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1702,6 +1887,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2015:src}</column>
     </table>
     <table name="mem">
@@ -1715,16 +1901,18 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">соус для удовольствия [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">薄醬</column>
       <column name="definition_pt">molho de gladst</column>
+      <column name="definition_fi">eräs kasti gladstille</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tlhatlh:n}, {tlhatlh vIychorgh:n}, {Se'tu':n}</column>
       <column name="notes">{'uSu':n:nolink} is native to the original inhabitants of the planet Tanganika.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">{'uSu':n:nolink} stammt von den Ureinwohnern des Planeten Tanganika.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fa">{'uSu':n:nolink} بومی ساکنان اصلی سیاره Tanganika است ..[2] [AUTOTRANSLATED]</column>
-      <column name="notes_sv"></column>
+      <column name="notes_sv">{'uSu':n:nolink} är infödd till de ursprungliga invånarna på planeten Tanganika.[2] [AUTOTRANSLATED]</column>
       <column name="notes_ru">{'uSu':n:nolink} является родным для коренных жителей планеты Танганика.[2] [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
+      <column name="notes_pt">{'uSu':n:nolink} é nativo dos habitantes originais do planeta Tanganika.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">{'uSu':n:nolink} on kotoisin Tanganika-planeetan alkuperäisiltä asukkailta.[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes">One type of lighter soy sauce is called "usukuchi shoyu" (薄口醤油) in Japanese. Also, the "yuzu" plant is used in the creation of some sauces in Asian cuisine. However, if this word is a pun, it wasn't due to Okrand, but the writers of {DS9 - Melora:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1734,6 +1922,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1741,6 +1930,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}, [2] {KCD:src}</column>
     </table>
     <table name="mem">
@@ -1754,6 +1944,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">быть необходимым</column>
       <column name="definition_zh_HK">必要、需要</column>
       <column name="definition_pt">ser essencial, ser necessário</column>
+      <column name="definition_fi">olla välttämätön, tarpeellinen</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'utbe':v}</column>
       <column name="see_also"></column>
@@ -1764,6 +1955,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">Of the "ut"most importance.</column>
       <column name="components"></column>
       <column name="examples">
@@ -1774,6 +1966,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1781,87 +1974,96 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">'utbe'</column>
-      <column name="part_of_speech">v:is</column>
-      <column name="definition">be nonessential, unnecessary</column>
-      <column name="definition_de">unnötig, nicht notwendig sein</column>
-      <column name="definition_fa">لازم نبودن</column>
-      <column name="definition_sv">vara nonessential, onödig [AUTOTRANSLATED]</column>
-      <column name="definition_ru">быть необязательным, ненужным [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">不必要、不需要</column>
-      <column name="definition_pt">ser desnecessário, não-essencial</column>
-      <column name="synonyms"></column>
-      <column name="antonyms">{'ut:v}</column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes">This word does not appear in canon. This entry is here for ease of reference only.</column>
-      <column name="components"></column>
-      <column name="examples">
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">'utbe'</column>
+          <column name="part_of_speech">v:is</column>
+          <column name="definition">be nonessential, unnecessary</column>
+          <column name="definition_de">unnötig, nicht notwendig sein</column>
+          <column name="definition_fa">لازم نبودن</column>
+          <column name="definition_sv">vara nonessential, onödig [AUTOTRANSLATED]</column>
+          <column name="definition_ru">быть необязательным, ненужным [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">不必要、不需要</column>
+          <column name="definition_pt">ser desnecessário, não-essencial</column>
+          <column name="definition_fi">olla tarpeeton</column>
+          <column name="synonyms"></column>
+          <column name="antonyms">{'ut:v}</column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes">This word is not defined as such in canon, but appears in a sentence in {TKW:src}[1]. This entry is here for ease of reference only.</column>
+          <column name="components"></column>
+          <column name="examples">
 ▶ {'utbe' bel.:sen}</column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="source"></column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">'utbe' bel.</column>
-      <column name="part_of_speech">sen:phr</column>
-      <column name="definition">Pleasure is nonessential.</column>
-      <column name="definition_de">Vergnügen ist unwesentlich.</column>
-      <column name="definition_fa">لذت غیرعادی است [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Njutning är nonessential. [AUTOTRANSLATED]</column>
-      <column name="definition_ru">Удовольствие необязательно. [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">樂趣是不重要的。</column>
-      <column name="definition_pt">Prazer não é essencial.</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="hidden_notes"></column>
-      <column name="components">{'utbe':v}, {bel:n}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="source">[1] {TKW p.45:src}</column>
-    </table>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {TKW p.45:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">'utbe' bel.</column>
+          <column name="part_of_speech">sen:phr</column>
+          <column name="definition">Pleasure is nonessential.</column>
+          <column name="definition_de">Vergnügen ist unwesentlich.</column>
+          <column name="definition_fa">لذت غیرعادی است [AUTOTRANSLATED]</column>
+          <column name="definition_sv">Njutning är nonessential. [AUTOTRANSLATED]</column>
+          <column name="definition_ru">Удовольствие необязательно. [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">樂趣是不重要的。</column>
+          <column name="definition_pt">Prazer não é essencial.</column>
+          <column name="definition_fi">Nautinto on tarpeetonta.</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{'utbe':v}, {bel:n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {TKW p.45:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'ut'at</column>
@@ -1873,6 +2075,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">комод [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">抽屜櫃 [AUTOTRANSLATED]</column>
       <column name="definition_pt">cômoda</column>
+      <column name="definition_fi">lipasto</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bo'voD:n}, {DeSwar:n}, {yorgh:n}</column>
@@ -1883,6 +2086,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru">Это относится к комоду, независимо от того, есть ли на самом деле в нем ящики в данный момент. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是指一個抽屜櫃，而不管當前是否有抽屜。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Refere-se a uma cômoda, independentemente de haver ou não gavetas no momento. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä viittaa lipastoon riippumatta siitä, onko siinä todella laatikoita tällä hetkellä. [AUTOTRANSLATED]</column>
       <column name="hidden_notes">"Drawer" is slang for "underwear", and Under Armour (UA) is a brand of casual and sports clothing.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1892,6 +2096,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1899,6 +2104,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {qep'a' 23 (2016):src}</column>
     </table>
     <table name="mem">
@@ -1912,6 +2118,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">офицер, бывший офицер</column>
       <column name="definition_zh_HK">軍官、退休人員 [AUTOTRANSLATED]</column>
       <column name="definition_pt">oficial, oficial emérito</column>
+      <column name="definition_fi">upseeri, eläköitynyt upseeri</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yaS:n}, {paj:v}, {Deq:v}</column>
@@ -1922,6 +2129,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="notes_ru">Офицер, который закончил службу в отставке. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">退休後退休的軍官 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Um oficial que terminou o serviço na aposentadoria. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Virkamies, joka lopetti palveluksensa eläkkeellä. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1931,6 +2139,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1938,6 +2147,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
     </table>
     <table name="mem">
@@ -1951,16 +2161,18 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">нажимать</column>
       <column name="definition_zh_HK">撳低</column>
       <column name="definition_pt">pressionar para baixo</column>
+      <column name="definition_fi">painaa alas</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yuv:v}, {leQ:n}</column>
       <column name="notes">This verb is used for clicking on a computer mouse button (even though the action is actually to press down and then release). For clicking on a hyperlink, the verb {wIv:v} is used rather than {'uy:v:nolink}.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieses Verb wird zum Klicken auf eine Computermaus-Taste verwendet (obwohl die Aktion tatsächlich darin besteht, zu drücken und dann loszulassen). Zum Klicken auf einen Hyperlink wird das Verb {wIv:v} anstelle von {'uy:v:nolink}.[2] verwendet [AUTOTRANSLATED]</column>
       <column name="notes_fa">این فعل برای کلیک بر روی دکمه ماوس رایانه ای استفاده می شود (حتی اگر این عمل در واقع فشار دادن پایین و سپس رها کردن باشد). برای کلیک بر روی لینک ، از فعل {wIv:v} به جای {'uy:v:nolink}.[2] استفاده می شود [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta verb används för att klicka på en datormusknapp (även om åtgärden faktiskt är att trycka ner och sedan släppa). För att klicka på en hyperlänk används verbet {wIv:v} snarare än {'uy:v:nolink}.[2] [AUTOTRANSLATED]</column>
       <column name="notes_ru">Этот глагол используется для нажатия на кнопку компьютерной мыши (хотя на самом деле нужно нажать и отпустить). Для перехода по гиперссылке используется глагол {wIv:v}, а не {'uy:v:nolink}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK"></column>
+      <column name="notes_zh_HK">該動詞用於單擊計算機鼠標按鈕（即使該操作實際上是按下然後釋放）。單擊超鏈接時，使用動詞{wIv:v}而不是{'uy:v:nolink}.[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esse verbo é usado para clicar no botão do mouse do computador (mesmo que a ação seja realmente pressionar e soltar). Para clicar em um hiperlink, o verbo {wIv:v} é usado em vez de {'uy:v:nolink}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tätä verbiä käytetään napsauttamaan tietokoneen hiiren painiketta (vaikka toiminnon tarkoituksena on todella painaa alas ja sitten vapauttaa). Hyperlinkkiä napsautettaessa käytetään verbiä {wIv:v} eikä {'uy:v:nolink}.[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1970,6 +2182,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags">click</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1977,6 +2190,7 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2014:src}</column>
     </table>
     <table name="mem">
@@ -1990,18 +2204,28 @@ Drei {'uj:n:nolink} sind etwa 3 Fuß 5 Zoll, fünf {'uj:n:nolink} sind etwa 5 Fu
       <column name="definition_ru">миллион</column>
       <column name="definition_zh_HK">百萬</column>
       <column name="definition_pt">milhão</column>
+      <column name="definition_fi">miljoonaa</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mI':n}, {bIp:n:num}, {Saghan:n:num}</column>
       <column name="notes">For tens of millions, one could combine {maH:n:2,num} with {'uy':n:num,nolink} or {vatlh:n:num} with {bIp:n:num}.[2]
 
 For hundreds of millions, the number-forming elements {vatlh'uy':n:num@@vatlh:n, 'uy':n} or {SaDbIp:n:num@@SaD:n, bIp:n} or {SanIDbIp:n:num@@SanID:n, bIp:n} are possible.[3]</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
+      <column name="notes_de">Für zig Millionen könnte man {maH:n:2,num} mit {'uy':n:num,nolink} oder {vatlh:n:num} mit {bIp:n:num}.[2] kombinieren
+
+Für Hunderte von Millionen sind die zahlenbildenden Elemente {vatlh'uy':n:num@@vatlh:n, 'uy':n} oder {SaDbIp:n:num@@SaD:n, bIp:n} oder {SanIDbIp:n:num@@SanID:n, bIp:n} möglich.[3] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">برای دهها میلیون نفر ، می توان {maH:n:2,num} را با {'uy':n:num,nolink} یا {vatlh:n:num} با {bIp:n:num}.[2] ترکیب کرد
+
+برای صدها میلیون نفر ، عناصر تشکیل دهنده شماره {vatlh'uy':n:num@@vatlh:n, 'uy':n} یا {SaDbIp:n:num@@SaD:n, bIp:n} یا {SanIDbIp:n:num@@SanID:n, bIp:n} ممکن است. [3] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">För tiotals miljoner kunde man kombinera {maH:n:2,num} med {'uy':n:num,nolink} eller {vatlh:n:num} med {bIp:n:num}.[2]
+
+För hundratals miljoner är de nummerbildande elementen {vatlh'uy':n:num@@vatlh:n, 'uy':n} eller {SaDbIp:n:num@@SaD:n, bIp:n} eller {SanIDbIp:n:num@@SanID:n, bIp:n} möjliga. [3] [AUTOTRANSLATED]</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi">Kymmenien miljoonien verran {maH:n:2,num} voidaan yhdistää {'uy':n:num,nolink}: een tai {vatlh:n:num} {bIp:n:num}: n kanssa.
+
+Satoja miljoonia lukuja muodostavat elementit {vatlh'uy':n:num@@vatlh:n, 'uy':n}, {SaDbIp:n:num@@SaD:n, bIp:n} tai {SanIDbIp:n:num@@SanID:n, bIp:n} ovat mahdollisia.[2][3] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2011,6 +2235,7 @@ For hundreds of millions, the number-forming elements {vatlh'uy':n:num@@vatlh:n,
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -2018,6 +2243,7 @@ For hundreds of millions, the number-forming elements {vatlh'uy':n:num@@vatlh:n,
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}, [2] {'eSrIv 6, Feb. 2020:src} ({KLI mailing list 2020.01.28:src}), [3] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
@@ -2031,6 +2257,7 @@ For hundreds of millions, the number-forming elements {vatlh'uy':n:num@@vatlh:n,
       <column name="definition_ru">вселенная</column>
       <column name="definition_zh_HK">宇宙</column>
       <column name="definition_pt">universo</column>
+      <column name="definition_fi">maailmankaikkeus</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ngeHbej:n}, {'u' Dop:n}, {'u' quq:n}</column>
@@ -2041,6 +2268,7 @@ For hundreds of millions, the number-forming elements {vatlh'uy':n:num@@vatlh:n,
       <column name="notes_ru">Это также название оперы, которая повествует о многих из тех же событий, что и в {paq'batlh:n}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這也是歌劇的名字，它講述了許多與《 {paq'batlh:n}》中的事件相同的事件。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este também é o nome de uma ópera, que narra muitos dos mesmos eventos encontrados no {paq'batlh:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on myös oopperan nimi, joka kertoo monia samoja tapahtumia kuin {paq'batlh:n}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2050,6 +2278,7 @@ For hundreds of millions, the number-forming elements {vatlh'uy':n:num@@vatlh:n,
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -2057,6 +2286,7 @@ For hundreds of millions, the number-forming elements {vatlh'uy':n:num@@vatlh:n,
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
@@ -2070,6 +2300,7 @@ For hundreds of millions, the number-forming elements {vatlh'uy':n:num@@vatlh:n,
       <column name="definition_ru">зеркальная вселенная [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">相反時空</column>
       <column name="definition_pt">universo espelho</column>
+      <column name="definition_fi">peilimaailma</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'u' quq:n}</column>
@@ -2080,6 +2311,7 @@ For hundreds of millions, the number-forming elements {vatlh'uy':n:num@@vatlh:n,
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">A "Doppelgänger" is the double of a person from the mirror universe.
 
 At {qep'a' 26 (2019):src}, the note expanding {Dop:v:1} to {Dop:v:2} alludes to {'u' Dop:n:nolink} being based on the "opposite" meaning.</column>
@@ -2091,6 +2323,7 @@ At {qep'a' 26 (2019):src}, the note expanding {Dop:v:1} to {Dop:v:2} alludes to 
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -2098,6 +2331,7 @@ At {qep'a' 26 (2019):src}, the note expanding {Dop:v:1} to {Dop:v:2} alludes to 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KLI mailing list 2018.01.08:src}, [2] {qep'a' 26 (2019):src}</column>
     </table>
     <table name="mem">
@@ -2108,9 +2342,10 @@ At {qep'a' 26 (2019):src}, the note expanding {Dop:v:1} to {Dop:v:2} alludes to 
       <column name="definition_de">Paralleluniversum</column>
       <column name="definition_fa">جهان موازی [AUTOTRANSLATED]</column>
       <column name="definition_sv">parallellt universum [AUTOTRANSLATED]</column>
-      <column name="definition_ru">parallel universe [AUTOTRANSLATED]</column>
+      <column name="definition_ru">параллельная вселенная [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">平行時空</column>
       <column name="definition_pt">universo paralelo</column>
+      <column name="definition_fi">rinnakkaistodellisuus</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'u' Dop:n}</column>
@@ -2121,6 +2356,7 @@ At {qep'a' 26 (2019):src}, the note expanding {Dop:v:1} to {Dop:v:2} alludes to 
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components">{'u':n}, {quq:v}</column>
       <column name="examples"></column>
@@ -2130,6 +2366,7 @@ At {qep'a' 26 (2019):src}, the note expanding {Dop:v:1} to {Dop:v:2} alludes to 
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -2137,5 +2374,6 @@ At {qep'a' 26 (2019):src}, the note expanding {Dop:v:1} to {Dop:v:2} alludes to 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
       <column name="source">[1] {KLI mailing list 2018.01.08:src}</column>
     </table>
