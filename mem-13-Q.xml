@@ -2951,7 +2951,7 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qep</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">be anxious (about)</column>
       <column name="definition_de">besorgt sein sein</column>
       <column name="definition_fa">مضطرب باشید (درباره) [AUTOTRANSLATED]</column>
@@ -2963,15 +2963,15 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{rejmorgh:n}, {bIt:v}</column>
-      <column name="notes">The object, if there is one, is the thing that the subject is anxious about.</column>
-      <column name="notes_de">Das Objekt, falls es eins gibt, ist das, worüber sich das Subjekt Sorgen macht.</column>
-      <column name="notes_fa">اگر موضوع وجود داشته باشد ، موضوعی است که موضوع از آن مضطرب است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Objektet, om det finns ett, är det som ämnet är orolig för. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Объект, если таковой имеется, - это то, о чем беспокоится субъект. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">對象（如果有）是對象所急切的東西。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">O objeto, se houver, é o motivo pelo qual o sujeito está ansioso. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Kohde, jos sellainen on, on asia, josta kohde on huolissaan. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="notes">The object, if there is one, is the thing that the subject is anxious about.[1]</column>
+      <column name="notes_de">Das Objekt, falls es eins gibt, ist das, worüber sich das Subjekt Sorgen macht.[1]</column>
+      <column name="notes_fa">اگر موضوع وجود داشته باشد ، موضوعی است که موضوع از آن مضط[1]رب است. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Objektet, om det finns ett, är det som ämnet är orolig för.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Объект, если таковой имеется, - это то, о чем беспокоится субъект.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">對象（如果有）是對象所急切的東西。[1] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">O objeto, se houver, é o motivo pelo qual o sujeito está ansioso.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Kohde, jos sellainen on, on asia, josta kohde on huolissaan.[1] [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">The original request was for "worry (about something)".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3014,7 +3014,9 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
       <column name="notes_zh_HK">這和{ruq:v}都可以用於從腸道流出並從口腔中排出的氣體，也可以用於從腸道排出並以其他方式排出的氣體。要區分從不同孔口發出的氣體，請使用涉及{nuj:n}，{Hugh:n}或{Sa'Hut:n}的短語。[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso e o {ruq:v} podem ser usados ​​para o gás que sai do seu intestino e sai da boca e também para o gás que sai do seu intestino e sai do outro lado. Para distinguir entre gases emitidos de diferentes orifícios, use uma frase que envolva {nuj:n}, {Hugh:n} ou {Sa'Hut:n}.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fi">Sekä tätä että {ruq:v}: tä voidaan käyttää kaasusta, joka tulee suolistasi ja suustasi, ja myös kaasuun, joka laskee suolistasi ja ulos muulla tavalla. Erottaaksesi eri aukoista peräisin olevat kaasut, käytä ilmausta {nuj:n}, {Hugh:n} tai {Sa'Hut:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">It sounds like "decrepit".</column>
+      <column name="hidden_notes">It sounds like "decrepit".
+
+This seems to be made up of {Qep:v} "be anxious" and {'It:v} "be depressed", but this is probably a coincidence as the words were revealed many years apart.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
