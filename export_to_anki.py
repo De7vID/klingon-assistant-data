@@ -227,6 +227,8 @@ def alt_extract_definition(qawHaq, search_name, attrs):
   alt_search_name = alt_entry_name + ":" + match.group(2) + (":" + match.group(3) if match.group(3) else "")
   return extract_definition(qawHaq[alt_search_name], attrs), alt_entry_name
 
+# Get tag for first matching source. It is assumed that earlier sources are more
+# important. The return value can be None, so it should be checked before use.
 def get_src_tag(data):
   sources = data['source'].split(',')
   for source in sources:
@@ -246,6 +248,11 @@ def get_src_tag(data):
       if source_matches:
         return "Klingon_from_Saarbrücken{}".format(year)
   return None
+
+# Get tag for deck. Currently, supports only KLCP1 (Klingon Language
+# Certification Program level 1). Returns None otherwise.
+def get_deck_tag(attrs):
+  return "Klingon_KLCP1" if "klcp1" in attrs else None
 
 def get_attrs(data):
   pos_parts = data['part_of_speech'].split(':')
@@ -309,7 +316,8 @@ for search_name in qawHaq:
         elif pos == "n":
           pos_tag = 'Klingon_noun_suffix'
       src_tag = get_src_tag(data)
-      tags = [t for t in [pos_tag, src_tag] if t]
+      deck_tag = get_deck_tag(attrs)
+      tags = [t for t in [pos_tag, deck_tag, src_tag] if t]
 
       if 'alt' not in attrs:
         note = GeneralNote(
@@ -341,7 +349,8 @@ for search_name in qawHaq:
         if not should_skip_entry(search_name, attrs, data):
           definition = extract_definition(data, attrs)
           src_tag = get_src_tag(data)
-          tags = [t for t in [pos_tag, src_tag] if t]
+          deck_tag = get_deck_tag(attrs)
+          tags = [t for t in [pos_tag, deck_tag, src_tag] if t]
 
           if 'alt' not in attrs:
             d2k_note = NumberedNote(
