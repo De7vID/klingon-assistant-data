@@ -7,6 +7,7 @@
 import genanki
 import getopt
 import json
+import os
 import re
 import subprocess
 import sys
@@ -288,7 +289,8 @@ if test_mode:
   qawHaq = json.load(open('export_to_anki_test.json'))['qawHaq']
 else:
   print("Generating json file...")
-  cmd = subprocess.run(["xml2json.py"], capture_output=True)
+  script_path = os.path.abspath(os.path.dirname(__file__))
+  cmd = subprocess.run([script_path + "/xml2json.py"], capture_output=True)
   json_string = cmd.stdout.decode()
   qawHaq = json.loads(json_string)['qawHaq']
 
