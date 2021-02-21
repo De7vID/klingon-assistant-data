@@ -44,7 +44,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'eb</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">opportunity, chance, opening</column>
       <column name="definition_de">Möglichkeit, Gelegenheit</column>
       <column name="definition_fa">فرصت، فرصت، باز کردن [AUTOTRANSLATED]</column>
@@ -80,7 +80,7 @@ Em um bar Klingon, o barman ({chom:n}) grita {'eb Qav:n} para "última chamada" 
       <column name="notes_fi">Mahdollisuuden sanotaan olevan kiinni ({jon:v}), ja jos joku menettää mahdollisuuden, sen sanotaan paenneen ({nargh:v:2}) .[3] "Aikaa tappaa" tarkoittaa {'ebmey jonHa':sen}.[5]
 
 Baarimikko ({chom:n}) huutaa Klingon-baarissa {'eb Qav:n} "viimeisestä puhelusta".[4] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as "opportunity" in {TKD:src} and as "chance, opening" in {KGT:src}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {jIpaSqu'mo' narghpu' qaSuchmeH 'eb.:sen:nolink} "Because I'm very late, the opportunity to visit you has escaped."[3]
@@ -774,7 +774,7 @@ Pelikorttipakan pukuja kutsutaan nimellä {Degh:n:1}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'eH</column>
-      <column name="part_of_speech">excl</column>
+      <column name="part_of_speech">excl:klcp1</column>
       <column name="definition">Ready!</column>
       <column name="definition_de">Bereit! Stillgestanden!</column>
       <column name="definition_fa">آماده! [AUTOTRANSLATED]</column>
@@ -794,7 +794,7 @@ Pelikorttipakan pukuja kutsutaan nimellä {Degh:n:1}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">該表達表示說話者將要發出命令。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esta expressão indica que o falante está prestes a dar um comando. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä lauseke osoittaa, että puhuja on antamassa komentoa. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is written "Ready!" in {TKD 5.5:src}, but as "ready" in the word lists.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -1272,7 +1272,7 @@ Kun yhdistetään useita lauseita, tarvitaan vain viimeinen yhdistelmä. Katso e
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'el</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">enter, go in</column>
       <column name="definition_de">betreten, hineingehen</column>
       <column name="definition_fa">وارد شوید [AUTOTRANSLATED]</column>
@@ -1895,7 +1895,7 @@ It was clarified during the Q &amp; A session that this word and {Hergh:n:nolink
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'eng</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">cloud</column>
       <column name="definition_de">Wolke</column>
       <column name="definition_fa">ابر</column>

@@ -278,7 +278,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Dach</column>
-      <column name="part_of_speech">v:1,i</column>
+      <column name="part_of_speech">v:1,i,klcp1</column>
       <column name="definition">be absent</column>
       <column name="definition_de">abwesend sein</column>
       <column name="definition_fa">غایب بودن [AUTOTRANSLATED]</column>
@@ -625,7 +625,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DaHjaj</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">today</column>
       <column name="definition_de">heute</column>
       <column name="definition_fa">امروز</column>
@@ -867,7 +867,7 @@ Aikaelementtinä {DaHjaj:n} edeltää kaikkia adverbaaleja.[2][2][2][1, sec. 6.7
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Daj</column>
-      <column name="part_of_speech">v:1,is</column>
+      <column name="part_of_speech">v:1,is,klcp1</column>
       <column name="definition">be interesting</column>
       <column name="definition_de">interessant sein</column>
       <column name="definition_fa">جالب باشد [AUTOTRANSLATED]</column>
@@ -997,7 +997,7 @@ Aikaelementtinä {DaHjaj:n} edeltää kaikkia adverbaaleja.[2][2][2][1, sec. 6.7
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Dal</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be boring</column>
       <column name="definition_de">langweilig sein</column>
       <column name="definition_fa">خسته کننده بودن [AUTOTRANSLATED]</column>
@@ -1260,7 +1260,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Dap</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">nonsense</column>
       <column name="definition_de">Unsinn</column>
       <column name="definition_fa">مزخرف [AUTOTRANSLATED]</column>
@@ -2017,7 +2017,7 @@ Hyväksyttävä tapa muotoilla tämä vaatimus kysymykseksi on {nuq DaDab?:sen:n
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DaS</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">boot</column>
       <column name="definition_de">Stiefel</column>
       <column name="definition_fa">بوت کردن [AUTOTRANSLATED]</column>
@@ -2922,7 +2922,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Dav:v:2}.[1] [AUTOTR
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Degh</column>
-      <column name="part_of_speech">n:2</column>
+      <column name="part_of_speech">n:2,klcp1</column>
       <column name="definition">helm</column>
       <column name="definition_de">Steuer</column>
       <column name="definition_fa">هلم [AUTOTRANSLATED]</column>
@@ -3009,7 +3009,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Dav:v:2}.[1] [AUTOTR
       <!-- Not "deriv" because not derived from {Degh:v} + {-wI':v}. -->
       <column name="_id"></column>
       <column name="entry_name">DeghwI'</column>
-      <column name="part_of_speech">n:being</column>
+      <column name="part_of_speech">n:being,klcp1</column>
       <column name="definition">helmsman</column>
       <column name="definition_de">Steuermann</column>
       <column name="definition_fa">راننده</column>
@@ -3182,7 +3182,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Dav:v:2}.[1] [AUTOTR
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Del</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">describe</column>
       <column name="definition_de">beschreiben</column>
       <column name="definition_fa">توصیف کردن</column>
@@ -3906,7 +3906,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DeS</column>
-      <column name="part_of_speech">n:1,body</column>
+      <column name="part_of_speech">n:1,body,klcp1</column>
       <column name="definition">arm (body part)</column>
       <column name="definition_de">Arm (Körperteil)</column>
       <column name="definition_fa">دست، بازو</column>
@@ -4121,7 +4121,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Dev</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">lead, guide</column>
       <column name="definition_de">leiten, führen</column>
       <column name="definition_fa">سرب، راهنمای [AUTOTRANSLATED]</column>
@@ -4252,7 +4252,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">De'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">data, information</column>
       <column name="definition_de">Daten, Information(en)</column>
       <column name="definition_fa">اطلاعات، داده</column>
@@ -4688,7 +4688,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <!-- Not "deriv" because not derived from {De'} + {wI'}. -->
       <column name="_id"></column>
       <column name="entry_name">De'wI'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">computer</column>
       <column name="definition_de">Computer</column>
       <column name="definition_fa">کامپیوتر</column>
@@ -5623,7 +5623,7 @@ Tätä verbiä voidaan käyttää visuaalisen kuvan tuottamiseen, vaikka siinä 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DIl</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">pay for</column>
       <column name="definition_de">etw. bezahlen</column>
       <column name="definition_fa">برای پرداخت [AUTOTRANSLATED]</column>
@@ -5888,7 +5888,7 @@ The description originally given in the {KLI:src} New Klingon Words list says th
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DIp</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">noun</column>
       <column name="definition_de">Nomen, Substantiv</column>
       <column name="definition_fa">اسم [AUTOTRANSLATED]</column>
@@ -6028,7 +6028,7 @@ Liitetyyppi 5: sijamuodot
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DIr</column>
-      <column name="part_of_speech">n:body</column>
+      <column name="part_of_speech">n:body,klcp1</column>
       <column name="definition">skin</column>
       <column name="definition_de">Haut</column>
       <column name="definition_fa">پوست</column>
@@ -6424,7 +6424,7 @@ Liitetyyppi 5: sijamuodot
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DIS</column>
-      <column name="part_of_speech">n:2</column>
+      <column name="part_of_speech">n:2,klcp1</column>
       <column name="definition">year (Klingon)</column>
       <column name="definition_de">Jahr</column>
       <column name="definition_fa">سال (تقویم کلینگانی)</column>
@@ -7423,7 +7423,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Doch</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">thing</column>
       <column name="definition_de">Ding</column>
       <column name="definition_fa">چیز</column>
@@ -7947,7 +7947,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Doj</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be impressive</column>
       <column name="definition_de">beeindruckend sein</column>
       <column name="definition_fa">موثر باشد [AUTOTRANSLATED]</column>
@@ -8388,7 +8388,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Doq</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be orange, red</column>
       <column name="definition_de">orange sein, rot sein</column>
       <column name="definition_fa">نارنجی، قرمز بودن</column>
@@ -9151,7 +9151,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Doy'</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be tired</column>
       <column name="definition_de">müde sein</column>
       <column name="definition_fa">خسته بودن</column>
@@ -9237,7 +9237,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Do'</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be fortunate, lucky</column>
       <column name="definition_de">Glück haben</column>
       <column name="definition_fa">خوش شانس، خوش شانس [AUTOTRANSLATED]</column>
@@ -10156,7 +10156,7 @@ Tätä verbiä käytetään parantamaan abstraktimpaa luonnetta, kuten tila, tai
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Duj</column>
-      <column name="part_of_speech">n:1</column>
+      <column name="part_of_speech">n:1,klcp1</column>
       <column name="definition">ship, vessel</column>
       <column name="definition_de">Schiff, Raumschiff</column>
       <column name="definition_fa">کشتی، سفینه، وسیله نقلیه</column>
@@ -10684,7 +10684,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Dung</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">area above, area overhead</column>
       <column name="definition_de">Bereich über, oberhalb</column>
       <column name="definition_fa">منطقه بالا، منطقه بالاسری</column>

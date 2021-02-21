@@ -696,7 +696,7 @@
       <!-- Look up {mu'mey val:n} "wise words" in the {paq'batlh:src}. -->
       <column name="_id"></column>
       <column name="entry_name">val</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be clever, smart, intelligent</column>
       <column name="definition_de">schlau, intelligent sein</column>
       <column name="definition_fa">هوشمندانه، هوشمند، هوشمند باشید [AUTOTRANSLATED]</column>
@@ -868,7 +868,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">van</column>
-      <column name="part_of_speech">v:1,t</column>
+      <column name="part_of_speech">v:1,t,klcp1</column>
       <column name="definition">salute</column>
       <column name="definition_de">grüßen, salutieren</column>
       <column name="definition_fa">سلام [AUTOTRANSLATED]</column>
@@ -1215,7 +1215,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vang</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:i,klcp1</column>
       <column name="definition">act, take action</column>
       <column name="definition_de">handeln, agieren</column>
       <column name="definition_fa">عمل کن، اقدام کردن [AUTOTRANSLATED]</column>
@@ -1872,7 +1872,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vav</column>
-      <column name="part_of_speech">n:being</column>
+      <column name="part_of_speech">n:being,klcp1</column>
       <column name="definition">father</column>
       <column name="definition_de">Vater</column>
       <column name="definition_fa">پدر</column>
@@ -1958,7 +1958,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vavnI'</column>
-      <column name="part_of_speech">n:being</column>
+      <column name="part_of_speech">n:being,klcp1</column>
       <column name="definition">grandfather</column>
       <column name="definition_de">Großvater</column>
       <column name="definition_fa">پدر بزرگ</column>
@@ -2146,8 +2146,8 @@ Toisin kuin {pIl:v}, tämä viittaa itse motivaatioon. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vay'</column>
-      <column name="part_of_speech">n</column>
-      <column name="definition">somebody, something, anybody, anything, someone</column>
+      <column name="part_of_speech">n:klcp1</column>
+      <column name="definition">somebody, something, anybody, anything</column>
       <column name="definition_de">jemand, etwas</column>
       <column name="definition_fa">کسی، چیزی، کسی، هر چیزی، کسی [AUTOTRANSLATED]</column>
       <column name="definition_sv">något, någon, någonting</column>
@@ -2158,14 +2158,16 @@ Toisin kuin {pIl:v}, tämä viittaa itse motivaatioon. [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Doch:n}, {vogh:n}</column>
-      <column name="notes">To express an indefinite subject, see {-lu':v:suff}.</column>
-      <column name="notes_de">Informationen zum Ausdrücken eines unbestimmten Themas finden Sie unter {-lu':v:suff}. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">برای بیان یک موضوع نامشخص ، به {-lu':v:suff} مراجعه کنید. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">För att uttrycka ett obestämt ämne, se {-lu':v:suff}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Чтобы выразить неопределенный предмет, см. {-lu':v:suff}. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">要表達不確定的主題，請參閱{-lu':v:suff}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Para expressar um assunto indefinido, consulte {-lu':v:suff}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Jos haluat ilmaista määrittelemättömän aiheen, katso {-lu':v:suff}. [AUTOTRANSLATED]</column>
+      <column name="notes">To express an indefinite subject, see {-lu':v:suff}.
+
+To express the ideas of indefinite subject and ability at the same time, it is not uncommon to use {vay':n:nolink} with {-laH:v:suff} (but see also {-la':v:suff} and {-luH:v:suff}).[2]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2176,7 +2178,7 @@ Toisin kuin {pIl:v}, tämä viittaa itse motivaatioon. [AUTOTRANSLATED]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">someone</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -2997,7 +2999,7 @@ Tätä verbiä käytetään kuvaamaan maton asettamista. Henkilöä, joka asetta
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vem</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:i,klcp1</column>
       <column name="definition">wake up, cease sleeping</column>
       <column name="definition_de">aufwachen</column>
       <column name="definition_fa">بیدار شدم</column>
@@ -3323,7 +3325,7 @@ Yleisempi termi tälle on {qatru':n:nolink}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">veng</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">city</column>
       <column name="definition_de">Stadt</column>
       <column name="definition_fa">شهر</column>
@@ -3672,7 +3674,7 @@ Yleisempi termi tälle on {qatru':n:nolink}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">veQ</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">garbage</column>
       <column name="definition_de">Müll, Abfall</column>
       <column name="definition_fa">زباله [AUTOTRANSLATED]</column>
@@ -4148,7 +4150,7 @@ Yleisempi termi tälle on {qatru':n:nolink}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vergh</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">dock</column>
       <column name="definition_de">andocken</column>
       <column name="definition_fa">اسکله [AUTOTRANSLATED]</column>
@@ -5833,7 +5835,7 @@ Katso idioomaattinen ilmaisu, jota käytetään käskemään jotakuta liikkumaan
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vIt</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t,klcp1</column>
       <column name="definition">tell the truth</column>
       <column name="definition_de">wahrheit sprechen</column>
       <column name="definition_fa">حقیقت را بگو [AUTOTRANSLATED]</column>
@@ -6672,7 +6674,7 @@ Suuri hämähäkki maan päällä olisi {tera' voDchuch:n@@tera':n, voDchuch:n},
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vogh</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">somewhere</column>
       <column name="definition_de">irgendwo</column>
       <column name="definition_fa">جایی</column>
@@ -7063,7 +7065,7 @@ Suuri hämähäkki maan päällä olisi {tera' voDchuch:n@@tera':n, voDchuch:n},
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">voq</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">trust, have faith in</column>
       <column name="definition_de">vertrauen</column>
       <column name="definition_fa">اعتماد به ایمان داشته باشید [AUTOTRANSLATED]</column>
@@ -7776,7 +7778,7 @@ It was stated during the Q &amp; A session that the primary meaning of this word
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vuD</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">opinion</column>
       <column name="definition_de">Meinung</column>
       <column name="definition_fa">نظر</column>
@@ -7955,7 +7957,7 @@ It was stated during the Q &amp; A session that the primary meaning of this word
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vulqan</column>
-      <column name="part_of_speech">n:place,fic</column>
+      <column name="part_of_speech">n:place,fic,klcp1</column>
       <column name="definition">Vulcan (planet)</column>
       <column name="definition_de">Vulkan (Planet)</column>
       <column name="definition_fa">ولکان (سیاره)</column>
@@ -7998,7 +8000,7 @@ It was stated during the Q &amp; A session that the primary meaning of this word
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">vulqangan</column>
-          <column name="part_of_speech">n:being,fic,deriv</column>
+          <column name="part_of_speech">n:being,fic,deriv,klcp1</column>
           <column name="definition">Vulcan (person)</column>
           <column name="definition_de">Vulkanier</column>
           <column name="definition_fa">ولکان (شخص)</column>
@@ -8049,7 +8051,7 @@ On olemassa klingonin idioomi {nong; vulqangan rur@@nong:v:1, vulqangan:n, rur:v
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vum</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t,klcp1</column>
       <column name="definition">work, toil</column>
       <column name="definition_de">arbeiten</column>
       <column name="definition_fa">کار، وظیفه [AUTOTRANSLATED]</column>
@@ -8401,7 +8403,7 @@ On olemassa klingonin idioomi {nong; vulqangan rur@@nong:v:1, vulqangan:n, rur:v
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vut</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">cook, prepare food, make a beverage</column>
       <column name="definition_de">kochen, Essen bereiten</column>
       <column name="definition_fa">طبخ، آماده کردن غذا، یک نوشیدنی [AUTOTRANSLATED]</column>
@@ -8659,7 +8661,7 @@ On olemassa klingonin idioomi {nong; vulqangan rur@@nong:v:1, vulqangan:n, rur:v
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vuv</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">respect</column>
       <column name="definition_de">respektieren</column>
       <column name="definition_fa">توجه [AUTOTRANSLATED]</column>

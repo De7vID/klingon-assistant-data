@@ -392,7 +392,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ram</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be trivial, be trifling, be unimportant, be insignificant</column>
       <column name="definition_de">beiläufig, banal, unwichtig, unbedeutend sein</column>
       <column name="definition_fa">بی اهمیت بودن، بی ارزش بودن، بی اهمیت بودن، بی اهمیت باشد [AUTOTRANSLATED]</column>
@@ -412,7 +412,7 @@
       <column name="notes_zh_HK">參見成語{pollaH pagh polHa'laH:sen:idiom}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Veja o idioma {pollaH pagh polHa'laH:sen:idiom}. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Katso idioomi {pollaH pagh polHa'laH:sen:idiom}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as "be trivial, be trifling, be unimportant" in {TKD:src}, and as "be insignificant" in {KGT:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -435,7 +435,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ram</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">night</column>
       <column name="definition_de">Nacht</column>
       <column name="definition_fa">شب [AUTOTRANSLATED]</column>
@@ -650,7 +650,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">rap</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be the same</column>
       <column name="definition_de">dasselbe sein, identisch</column>
       <column name="definition_fa">یکسان باشد [AUTOTRANSLATED]</column>
@@ -970,7 +970,7 @@ Tätä verbiä voidaan käyttää myös ilmaisemaan käsite, että kahdella asia
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">rar</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">connect</column>
       <column name="definition_de">verbinden</column>
       <column name="definition_fa">اتصال [AUTOTRANSLATED]</column>
@@ -1228,7 +1228,7 @@ Tätä verbiä voidaan käyttää myös ilmaisemaan käsite, että kahdella asia
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ratlh</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:i,klcp1</column>
       <column name="definition">remain</column>
       <column name="definition_de">bleiben, verweilen</column>
       <column name="definition_fa">ماندن</column>
@@ -1271,7 +1271,7 @@ Tätä verbiä voidaan käyttää myös ilmaisemaan käsite, että kahdella asia
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">rav</column>
-      <column name="part_of_speech">n:1</column>
+      <column name="part_of_speech">n:1,klcp1</column>
       <column name="definition">floor</column>
       <column name="definition_de">Boden</column>
       <column name="definition_fa">کف [AUTOTRANSLATED]</column>
@@ -1865,7 +1865,7 @@ Tämän sanan ensimmäinen osa on {rav:n:1} "lattia", mutta toinen osa ei liity 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ra'</column>
-      <column name="part_of_speech">v:1,t_c</column>
+      <column name="part_of_speech">v:1,t_c,klcp1</column>
       <column name="definition">order, command</column>
       <column name="definition_de">befehlen, kommandieren</column>
       <column name="definition_fa">دستور، فرمان [AUTOTRANSLATED]</column>
@@ -3954,7 +3954,7 @@ o      <column name="definition_sv">Det är alltid de modiga som dör.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">rep</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">hour</column>
       <column name="definition_de">Stunde</column>
       <column name="definition_fa">ساعت (مدت کم)</column>
@@ -4437,7 +4437,7 @@ Tämä on sama sana kuin verbi {ret:v}.[2][1] [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">retlh</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">area beside, area next to</column>
       <column name="definition_de">neben, Bereich neben</column>
       <column name="definition_fa">منطقه در کنار، منطقه در کنار [AUTOTRANSLATED]</column>
@@ -5273,7 +5273,7 @@ Tämän verbin refleksiivisellä muodolla on erityinen merkitys. Katso selitys a
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">rIn</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be accomplished, finished</column>
       <column name="definition_de">fertig, abgeschlossen</column>
       <column name="definition_fa">انجام شود، به پایان رسید [AUTOTRANSLATED]</column>
@@ -6553,7 +6553,7 @@ Tämä viittaa myös musteeseen, kuten kumileimasimeen ({toqwIn:n}).[2] [AUTOTRA
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">roj</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t,klcp1</column>
       <column name="definition">make peace</column>
       <column name="definition_de">Frieden stiften</column>
       <column name="definition_fa">صلح کردن [AUTOTRANSLATED]</column>
@@ -6596,7 +6596,7 @@ Tämä viittaa myös musteeseen, kuten kumileimasimeen ({toqwIn:n}).[2] [AUTOTRA
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">roj</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">peace</column>
       <column name="definition_de">Frieden</column>
       <column name="definition_fa">صلح [AUTOTRANSLATED]</column>
@@ -7235,7 +7235,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {ron:v:2}. [AUTOTRANS
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">rop</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be sick, ill</column>
       <column name="definition_de">krank, übel sein</column>
       <column name="definition_fa">بیمار باشد، بیمار باشد [AUTOTRANSLATED]</column>
@@ -7626,7 +7626,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {ron:v:2}. [AUTOTRANS
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ror</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be fat (not lean)</column>
       <column name="definition_de">fett sein</column>
       <column name="definition_fa">چربی داشته بودن [AUTOTRANSLATED]</column>
@@ -8129,7 +8129,7 @@ It was confirmed during the Q &amp; A session at {qep'a'2 27 (2020):src} that th
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">rotlh</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be tough</column>
       <column name="definition_de">hart, widerstandsfähig sein</column>
       <column name="definition_fa">قوی بودن [AUTOTRANSLATED]</column>
@@ -8915,7 +8915,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
       <!-- Note: When components are specified with "@@", don't annotate with ":sen", to allow user to edit the search query. -->
       <column name="_id"></column>
       <column name="entry_name">rur</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">resemble</column>
       <column name="definition_de">ähneln</column>
       <column name="definition_fa">شبیه به [AUTOTRANSLATED]</column>
@@ -9538,7 +9538,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ru'</column>
-      <column name="part_of_speech">v:1,is</column>
+      <column name="part_of_speech">v:1,is,klcp1</column>
       <column name="definition">be temporary</column>
       <column name="definition_de">temporär, zeitlich begrenzt, vorübergehend sein</column>
       <column name="definition_fa">موقت باشد [AUTOTRANSLATED]</column>

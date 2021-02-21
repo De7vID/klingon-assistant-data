@@ -176,7 +176,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tach</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">bar, saloon, cocktail lounge</column>
       <column name="definition_de">Bar, Cocktail Lounge, Kneipe</column>
       <column name="definition_fa">نوار، سالن، سالن کوکتل [AUTOTRANSLATED]</column>
@@ -340,7 +340,7 @@ On todennäköisempää käyttää {tachmoH:v@@tach:v, -moH:v} kuin {yoymoH:v:no
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">taD</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be frozen</column>
       <column name="definition_de">gefroren sein</column>
       <column name="definition_fa">یخ زده [AUTOTRANSLATED]</column>
@@ -883,7 +883,7 @@ Katso tämä {Brian Rivera:url:http://www.imdb.com/name/nm2092459/}n esittämän
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">taj</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">knife, dagger</column>
       <column name="definition_de">Messer, Dolch</column>
       <column name="definition_fa">چاقو، کارد</column>
@@ -1450,7 +1450,7 @@ Katso tämä {Brian Rivera:url:http://www.imdb.com/name/nm2092459/}n esittämän
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tam</column>
-      <column name="part_of_speech">v:1,i</column>
+      <column name="part_of_speech">v:1,i,klcp1</column>
       <column name="definition">be quiet</column>
       <column name="definition_de">leise sein</column>
       <column name="definition_fa">ساکت بودن</column>
@@ -2170,7 +2170,7 @@ Tämä murre on tavallaan puolivälissä tavallisen murteen ja {Qotmagh Sep:n}-m
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">taQ</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be weird</column>
       <column name="definition_de">unheimlich, seltsam sein</column>
       <column name="definition_fa">عجیب است [AUTOTRANSLATED]</column>
@@ -3437,7 +3437,7 @@ This refers to the expression "going to hell ({Hel:sen:nolink}) in a hand ({ghop
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tay'</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be together</column>
       <column name="definition_de">zusammen sein</column>
       <column name="definition_fa">با هم [AUTOTRANSLATED]</column>
@@ -3573,7 +3573,7 @@ This refers to the expression "going to hell ({Hel:sen:nolink}) in a hand ({ghop
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ta'</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">accomplish</column>
       <column name="definition_de">erreichen, erledigen</column>
       <column name="definition_fa">انجام دادن [AUTOTRANSLATED]</column>
@@ -3617,7 +3617,7 @@ This refers to the expression "going to hell ({Hel:sen:nolink}) in a hand ({ghop
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ta'</column>
-      <column name="part_of_speech">n:1</column>
+      <column name="part_of_speech">n:1,klcp1</column>
       <column name="definition">deed, accomplishment</column>
       <column name="definition_de">Leistung, vollbrachte Tat, Ausführung</column>
       <column name="definition_fa">اعمال، دستاورد [AUTOTRANSLATED]</column>
@@ -3637,7 +3637,7 @@ This refers to the expression "going to hell ({Hel:sen:nolink}) in a hand ({ghop
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as "accomplishment" in {TKD:src}, but as "deed, accomplishment" in {KGT:src}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {ta'mey Dun, bommey Dun.:sen}</column>
@@ -3833,7 +3833,7 @@ This refers to the expression "going to hell ({Hel:sen:nolink}) in a hand ({ghop
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">teb</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">fill</column>
       <column name="definition_de">(auf)füllen</column>
       <column name="definition_fa">پر کردن</column>
@@ -4005,7 +4005,7 @@ This refers to the expression "going to hell ({Hel:sen:nolink}) in a hand ({ghop
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">teH</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be true</column>
       <column name="definition_de">wahr sein</column>
       <column name="definition_fa">درست باشد [AUTOTRANSLATED]</column>
@@ -4061,7 +4061,7 @@ This refers to the expression "going to hell ({Hel:sen:nolink}) in a hand ({ghop
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tej</column>
-      <column name="part_of_speech">n:being</column>
+      <column name="part_of_speech">n:being,klcp1</column>
       <column name="definition">scientist</column>
       <column name="definition_de">Wissenschaftler</column>
       <column name="definition_fa">دانشمند</column>
@@ -4104,7 +4104,7 @@ This refers to the expression "going to hell ({Hel:sen:nolink}) in a hand ({ghop
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tel</column>
-      <column name="part_of_speech">n:body</column>
+      <column name="part_of_speech">n:body,klcp1</column>
       <column name="definition">wing</column>
       <column name="definition_de">Flügel</column>
       <column name="definition_fa">بال</column>
@@ -4493,7 +4493,7 @@ This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-me
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tem</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">deny</column>
       <column name="definition_de">abstreiten</column>
       <column name="definition_fa">انکار [AUTOTRANSLATED]</column>
@@ -4924,7 +4924,7 @@ This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-me
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">teq</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">remove, take off</column>
       <column name="definition_de">entfernen, wegnehmen</column>
       <column name="definition_fa">برداشتن، برداشتن [AUTOTRANSLATED]</column>
@@ -4968,7 +4968,7 @@ This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-me
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tera'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,klcp1</column>
       <column name="definition">Earth</column>
       <column name="definition_de">Erde (Planet)</column>
       <column name="definition_fa">زمین زمین</column>
@@ -5733,7 +5733,7 @@ Terran-kuukaudet ovat:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tet</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">melt</column>
       <column name="definition_de">schmelzen</column>
       <column name="definition_fa">ذوب شدن [AUTOTRANSLATED]</column>
@@ -6479,7 +6479,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tIch</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">insult</column>
       <column name="definition_de">beleidigen</column>
       <column name="definition_fa">توهین [AUTOTRANSLATED]</column>
@@ -6740,7 +6740,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tIj</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">board, go aboard</column>
       <column name="definition_de">entern, an Bord gehen</column>
       <column name="definition_fa">هیئت مدیره، بر روی صندلی [AUTOTRANSLATED]</column>
@@ -6870,7 +6870,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tIn</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be big</column>
       <column name="definition_de">groß sein</column>
       <column name="definition_fa">بزرگ بودن [AUTOTRANSLATED]</column>
@@ -7880,7 +7880,7 @@ In the printed booklet for {qep'a' 26 (2019):src}, there was a typo and {lanchu'
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tIv</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">enjoy</column>
       <column name="definition_de">genießen</column>
       <column name="definition_fa">لذت بردن</column>
@@ -8037,7 +8037,7 @@ Tätä verbiä voidaan käyttää refleksiivisesti tarkoittamaan "nauti", "pidä
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tI'</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">fix, repair</column>
       <column name="definition_de">flicken, reparieren</column>
       <column name="definition_fa">تعمیر، تعمیر [AUTOTRANSLATED]</column>
@@ -8771,7 +8771,7 @@ Tätä verbiä voidaan käyttää refleksiivisesti tarkoittamaan "nauti", "pidä
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">toH</column>
-      <column name="part_of_speech">excl</column>
+      <column name="part_of_speech">excl:klcp1</column>
       <column name="definition">so, well</column>
       <column name="definition_de">So! Nun! Aha!</column>
       <column name="definition_fa">خیلی خوب [AUTOTRANSLATED]</column>
@@ -9738,7 +9738,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">toS</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">climb</column>
       <column name="definition_de">klettern</column>
       <column name="definition_fa">بالا رفتن [AUTOTRANSLATED]</column>
@@ -9929,7 +9929,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">toy'</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">serve (a master)</column>
       <column name="definition_de">(einem Meister) dienen</column>
       <column name="definition_fa">خدمت (استاد) [AUTOTRANSLATED]</column>
@@ -10840,7 +10840,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tuj</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be hot</column>
       <column name="definition_de">heiß, warm sein</column>
       <column name="definition_fa">داغ بودن</column>
@@ -11149,7 +11149,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tul</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">hope</column>
       <column name="definition_de">hoffen</column>
       <column name="definition_fa">امید [AUTOTRANSLATED]</column>
@@ -11241,7 +11241,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tun</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be soft</column>
       <column name="definition_de">weich sein</column>
       <column name="definition_fa">نرم بودن [AUTOTRANSLATED]</column>
@@ -11284,7 +11284,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tung</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">discourage</column>
       <column name="definition_de">entmutigen</column>
       <column name="definition_fa">دلسرد کردن [AUTOTRANSLATED]</column>
@@ -11413,7 +11413,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tup</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">minute (of time)</column>
       <column name="definition_de">Minute</column>
       <column name="definition_fa">دقیقه (از زمان) [AUTOTRANSLATED]</column>
@@ -11686,7 +11686,7 @@ Tämä rakenne näyttää liittyvän sananlaskuun {reH tay' ghot tuqDaj je.:sen}
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tuQ</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">wear (clothes)</column>
       <column name="definition_de">(Kleidung) tragen</column>
       <column name="definition_fa">پوشیدن (لباس) [AUTOTRANSLATED]</column>
@@ -12455,7 +12455,7 @@ Kolmen puolen pohjalla oleva prisma on {ra'Duch tut:n@@ra'Duch:n, tut:n:2} ja ni
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tu'</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">discover, find, observe, notice</column>
       <column name="definition_de">entdecken, finden, beobachten, bemerken</column>
       <column name="definition_fa">کشف، پیدا کردن، مشاهده، توجه [AUTOTRANSLATED]</column>
