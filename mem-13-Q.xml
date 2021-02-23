@@ -130,7 +130,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">QaD</column>
-      <column name="part_of_speech">v:1,is</column>
+      <column name="part_of_speech">v:1,is,klcp1</column>
       <column name="definition">be dry, be dried out</column>
       <column name="definition_de">trocken, ausgetrocknet sein</column>
       <column name="definition_fa">خشک بودن</column>
@@ -302,7 +302,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qagh</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:i,klcp1</column>
       <column name="definition">err, be mistaken, make a mistake</column>
       <column name="definition_de">sich irren, einen Fehler machen</column>
       <column name="definition_fa">اشتباه کردن، خطا کردن</column>
@@ -388,7 +388,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">QaH</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">help, aid</column>
       <column name="definition_de">helfen</column>
       <column name="definition_fa">کمک کردن</column>
@@ -660,7 +660,7 @@ Não confunda isso com o {qa'raj:n} de nome semelhante. [AUTOTRANSLATED]</column
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qam</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:i,klcp1</column>
       <column name="definition">stand</column>
       <column name="definition_de">stehen</column>
       <column name="definition_fa">ایستادن</column>
@@ -746,7 +746,7 @@ Não confunda isso com o {qa'raj:n} de nome semelhante. [AUTOTRANSLATED]</column
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qan</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">protect</column>
       <column name="definition_de">beschützen</column>
       <column name="definition_fa">محافظت [AUTOTRANSLATED]</column>
@@ -832,7 +832,7 @@ Não confunda isso com o {qa'raj:n} de nome semelhante. [AUTOTRANSLATED]</column
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qap</column>
-      <column name="part_of_speech">v:1,t_c</column>
+      <column name="part_of_speech">v:1,t_c,klcp1</column>
       <column name="definition">work, function, succeed, win</column>
       <column name="definition_de">funktionieren, gewinnen</column>
       <column name="definition_fa">کار، عملکرد، موفقیت، پیروزی [AUTOTRANSLATED]</column>
@@ -1052,7 +1052,7 @@ Não confunda isso com o {qa'raj:n} de nome semelhante. [AUTOTRANSLATED]</column
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qapla'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">success</column>
       <column name="definition_de">Erfolg</column>
       <column name="definition_fa">موفقیت</column>
@@ -1257,7 +1257,7 @@ Katso oppitunti tästä sanasta: {YouTube video:url:http://youtu.be/auqS6FR_RDE}
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">QaQ</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be good</column>
       <column name="definition_de">gut sein</column>
       <column name="definition_fa">خوب</column>
@@ -1550,7 +1550,7 @@ Kohdassa {Klingon Monopoly:src} {tlhIngan QaS:n:nolink} on pelissä käytetty ra
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qatlh</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be difficult, be complex</column>
       <column name="definition_de">schwierig, kompliziert sein</column>
       <column name="definition_fa">دشوار است پیچیده شود [AUTOTRANSLATED]</column>
@@ -1570,7 +1570,7 @@ Kohdassa {Klingon Monopoly:src} {tlhIngan QaS:n:nolink} on pelissä käytetty ra
       <column name="notes_zh_HK">有關「硬（非軟）」的信息，請參閱{let:v}。另請參閱{ngem Sarghmey tlha':sen:idiom}了解與難度或複雜性有關的成語。 [AUTOTRANSLATED]</column>
       <column name="notes_pt"></column>
       <column name="notes_fi">Katso "kova (ei pehmeä)" kohdasta {let:v}. Katso myös {ngem Sarghmey tlha':sen:idiom} vaikeuksiin tai monimutkaisuuteen liittyvästä idiomasta. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as "be difficult" in {TKD:src} and as "be complex" in {KGT:src}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {qIpmeH Qatlh'a'?:sen}
@@ -1599,7 +1599,7 @@ Kohdassa {Klingon Monopoly:src} {tlhIngan QaS:n:nolink} on pelissä käytetty ra
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qav</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be final, last</column>
       <column name="definition_de">letzter sein</column>
       <column name="definition_fa">آخر، آخرین [AUTOTRANSLATED]</column>
@@ -1642,7 +1642,7 @@ Kohdassa {Klingon Monopoly:src} {tlhIngan QaS:n:nolink} on pelissä käytetty ra
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qaw'</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">destroy</column>
       <column name="definition_de">zerstören</column>
       <column name="definition_fa">از بین رفتن [AUTOTRANSLATED]</column>
@@ -2352,7 +2352,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/SIpF7Zak6
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">QeD</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">science</column>
       <column name="definition_de">Wissenschaft</column>
       <column name="definition_fa">علوم پایه [AUTOTRANSLATED]</column>
@@ -2603,7 +2603,7 @@ Jokaiselle {QeD:n:nolink}:lle on vastaava {tej:n}.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">QeH</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be angry, mad</column>
       <column name="definition_de">wütend, verärgert sein</column>
       <column name="definition_fa">عصبانی بودن</column>
@@ -2691,7 +2691,7 @@ Jokaiselle {QeD:n:nolink}:lle on vastaava {tej:n}.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qel</column>
-      <column name="part_of_speech">n:1h</column>
+      <column name="part_of_speech">n:1h,klcp1</column>
       <column name="definition">doctor, physician</column>
       <column name="definition_de">Arzt</column>
       <column name="definition_fa">دکتر، پزشک [AUTOTRANSLATED]</column>
@@ -2951,7 +2951,7 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qep</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">be anxious (about)</column>
       <column name="definition_de">besorgt sein sein</column>
       <column name="definition_fa">مضطرب باشید (درباره) [AUTOTRANSLATED]</column>
@@ -2963,15 +2963,15 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{rejmorgh:n}, {bIt:v}</column>
-      <column name="notes">The object, if there is one, is the thing that the subject is anxious about.</column>
-      <column name="notes_de">Das Objekt, falls es eins gibt, ist das, worüber sich das Subjekt Sorgen macht.</column>
-      <column name="notes_fa">اگر موضوع وجود داشته باشد ، موضوعی است که موضوع از آن مضطرب است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Objektet, om det finns ett, är det som ämnet är orolig för. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Объект, если таковой имеется, - это то, о чем беспокоится субъект. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">對象（如果有）是對象所急切的東西。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">O objeto, se houver, é o motivo pelo qual o sujeito está ansioso. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Kohde, jos sellainen on, on asia, josta kohde on huolissaan. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="notes">The object, if there is one, is the thing that the subject is anxious about.[1]</column>
+      <column name="notes_de">Das Objekt, falls es eins gibt, ist das, worüber sich das Subjekt Sorgen macht.[1]</column>
+      <column name="notes_fa">اگر موضوع وجود داشته باشد ، موضوعی است که موضوع از آن مضط[1]رب است. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Objektet, om det finns ett, är det som ämnet är orolig för.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Объект, если таковой имеется, - это то, о чем беспокоится субъект.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">對象（如果有）是對象所急切的東西。[1] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">O objeto, se houver, é o motivo pelo qual o sujeito está ansioso.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Kohde, jos sellainen on, on asia, josta kohde on huolissaan.[1] [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">The original request was for "worry (about something)".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3014,7 +3014,9 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
       <column name="notes_zh_HK">這和{ruq:v}都可以用於從腸道流出並從口腔中排出的氣體，也可以用於從腸道排出並以其他方式排出的氣體。要區分從不同孔口發出的氣體，請使用涉及{nuj:n}，{Hugh:n}或{Sa'Hut:n}的短語。[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso e o {ruq:v} podem ser usados ​​para o gás que sai do seu intestino e sai da boca e também para o gás que sai do seu intestino e sai do outro lado. Para distinguir entre gases emitidos de diferentes orifícios, use uma frase que envolva {nuj:n}, {Hugh:n} ou {Sa'Hut:n}.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fi">Sekä tätä että {ruq:v}: tä voidaan käyttää kaasusta, joka tulee suolistasi ja suustasi, ja myös kaasuun, joka laskee suolistasi ja ulos muulla tavalla. Erottaaksesi eri aukoista peräisin olevat kaasut, käytä ilmausta {nuj:n}, {Hugh:n} tai {Sa'Hut:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">It sounds like "decrepit".</column>
+      <column name="hidden_notes">It sounds like "decrepit".
+
+This seems to be made up of {Qep:v} "be anxious" and {'It:v} "be depressed", but this is probably a coincidence as the words were revealed many years apart.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3399,7 +3401,7 @@ Tätä verbiä käytetään myös ilmaisemaan ajatusta "kasvot" (suunta kohti) (
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qe'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">restaurant</column>
       <column name="definition_de">Restaurant</column>
       <column name="definition_fa">رستوران [AUTOTRANSLATED]</column>
@@ -3874,7 +3876,7 @@ The names of the Klingon consonants consist of the sound followed by {ay:sen:nol
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">QID</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">wound</column>
       <column name="definition_de">verletzen</column>
       <column name="definition_fa">زخم [AUTOTRANSLATED]</column>
@@ -4090,7 +4092,7 @@ The names of the Klingon consonants consist of the sound followed by {ay:sen:nol
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">QIj</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">explain</column>
       <column name="definition_de">erklären</column>
       <column name="definition_fa">توضیح دادن</column>
@@ -4675,7 +4677,7 @@ Sitä käytetään viittaamaan (geometrisen) tähden pisteeseen ({DujtlhuQ:n}).[
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">QIp</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be stupid</column>
       <column name="definition_de">blöd, dumm sein</column>
       <column name="definition_fa">احمق بودن [AUTOTRANSLATED]</column>
@@ -4992,7 +4994,7 @@ Ei ole perinteistä klingonilaista tapaa sanoa jotain "hyvää joulua". Lauseke,
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">QIv</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be inferior</column>
       <column name="definition_de">minderwertig, untergeordnet sein</column>
       <column name="definition_fa">پایین تر بودن [AUTOTRANSLATED]</column>
@@ -5379,7 +5381,7 @@ Ei ole perinteistä klingonilaista tapaa sanoa jotain "hyvää joulua". Lauseke,
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qob</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be dangerous</column>
       <column name="definition_de">gefährlich sein</column>
       <column name="definition_fa">خطرناک بودن [AUTOTRANSLATED]</column>
@@ -5430,7 +5432,7 @@ Ei ole perinteistä klingonilaista tapaa sanoa jotain "hyvää joulua". Lauseke,
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qob</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">danger</column>
       <column name="definition_de">Gefahr</column>
       <column name="definition_fa">خطر [AUTOTRANSLATED]</column>
@@ -5475,7 +5477,7 @@ Ei ole perinteistä klingonilaista tapaa sanoa jotain "hyvää joulua". Lauseke,
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qoch</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">disagree</column>
       <column name="definition_de">nicht zustimmen</column>
       <column name="definition_fa">مخالف بودن [AUTOTRANSLATED]</column>
@@ -6056,7 +6058,7 @@ Sopimus ilmaistaan ​​myös idiomaattisella ilmaisulla {wa' DoS wIqIp.:sen:id
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qong</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:i,klcp1</column>
       <column name="definition">sleep</column>
       <column name="definition_de">schlafen</column>
       <column name="definition_fa">خوابیدن</column>
@@ -7084,7 +7086,7 @@ Krotmagin alueella kaiuttimet korvaavat {b:sen:nolink}: n {m:sen:nolink}: lla ja
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qoy</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">hear, listen to</column>
       <column name="definition_de">(zu)hören</column>
       <column name="definition_fa">گوش کن، گوش کردن [AUTOTRANSLATED]</column>
@@ -7407,7 +7409,7 @@ Os klingons consideram os títulos de propriedade ({yer ghajwI' chaw':n}) como u
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qo'</column>
-      <column name="part_of_speech">excl</column>
+      <column name="part_of_speech">excl:klcp1</column>
       <column name="definition">no, I won't, I refuse, I disagree</column>
       <column name="definition_de">Nein, nicht! Ich werde nicht!</column>
       <column name="definition_fa">نه، من نخواهم، من موافق نیستم، من مخالف هستم [AUTOTRANSLATED]</column>
@@ -7583,7 +7585,7 @@ Os klingons consideram os títulos de propriedade ({yer ghajwI' chaw':n}) como u
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qub</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">think</column>
       <column name="definition_de">denken</column>
       <column name="definition_fa">فکر [AUTOTRANSLATED]</column>
@@ -7642,7 +7644,7 @@ O significado da gíria de {chong:v:2,slang}, quando aplicado a uma pessoa, é e
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Quch</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be happy</column>
       <column name="definition_de">glücklich sein</column>
       <column name="definition_fa">خوشحال بودن [AUTOTRANSLATED]</column>
@@ -8202,7 +8204,7 @@ O significado da gíria de {chong:v:2,slang}, quando aplicado a uma pessoa, é e
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qum</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">communicate</column>
       <column name="definition_de">kommunizieren</column>
       <column name="definition_fa">برقراری ارتباط [AUTOTRANSLATED]</column>
@@ -9073,7 +9075,7 @@ O significado da gíria de {chong:v:2,slang}, quando aplicado a uma pessoa, é e
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qu'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">duty, quest, mission, task, chore</column>
       <column name="definition_de">Pflicht, Mission, Aufgabe, Arbeit</column>
       <column name="definition_fa">وظیفه، تلاش، مأموریت، وظیفه، کاریکاتور [AUTOTRANSLATED]</column>

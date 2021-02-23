@@ -25,13 +25,16 @@
                      suffixed words should be grouped with their stem, and
                      non-canon or extended canon entries may be put last.)
     entry_name     = tlhIngan Hol word or sentence; or, a source
-    part_of_speech = v (verb):
+    part_of_speech = Despite the name of this field, it holds more information
+                     than just part of speech, but broadly includes classes or
+                     categories that an entry belongs to (such as slang). 
+                     v (verb):
                        ambi (ambitransitive): may be either i or t
-                       i (intransitive): must not take an object
+                       i (intransitive): probably cannot take an object
                         \ i_c: intransitive and confirmed
                        is (int. and stative): of the form "to be (something)",
                                               can be used as an adjective
-                       t (transitive): may take an object
+                       t (transitive): probably can take an object
                         \ t_c: transitive and confirmed
                        pref: a verb prefix
                        suff: a verb suffix
@@ -114,6 +117,8 @@
                                deck using export_to_anki.py (note that hyp and
                                extcan entries are automatically skipped, as are
                                entries with no source)
+                       klcp1: used to tag Klingon Language Certification Program
+                              level 1 vocabulary
 
     definition     = the definition in English of the entry
                      - if "hyp", and meaning is uncertain, end with "?"

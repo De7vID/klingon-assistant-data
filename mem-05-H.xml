@@ -44,7 +44,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hab</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be smooth</column>
       <column name="definition_de">glatt sein</column>
       <column name="definition_fa">صاف بودن [AUTOTRANSLATED]</column>
@@ -217,7 +217,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">HaD</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">study</column>
       <column name="definition_de">studieren, lernen</column>
       <column name="definition_fa">مطالعه [AUTOTRANSLATED]</column>
@@ -260,7 +260,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hagh</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:i,klcp1</column>
       <column name="definition">laugh</column>
       <column name="definition_de">lachen</column>
       <column name="definition_fa">خندیدن</column>
@@ -581,7 +581,7 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hal</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">source</column>
       <column name="definition_de">Quelle</column>
       <column name="definition_fa">منبع [AUTOTRANSLATED]</column>
@@ -1442,7 +1442,7 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
       <!-- {HarnIS} sounds like "harness"? -->
       <column name="_id"></column>
       <column name="entry_name">Har</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">believe</column>
       <column name="definition_de">glauben</column>
       <column name="definition_fa">ایمان داشتن [AUTOTRANSLATED]</column>
@@ -1958,7 +1958,7 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hatlh</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">country, countryside</column>
       <column name="definition_de">Land, Landschaft</column>
       <column name="definition_fa">کشور، حومه شهر [AUTOTRANSLATED]</column>
@@ -2320,7 +2320,7 @@ Hyväksy kaksintaistelu sanomalla {vISo'be':sen@@vI-:v, So':v:1, -be':v} "En pii
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Ha'</column>
-      <column name="part_of_speech">excl</column>
+      <column name="part_of_speech">excl:klcp1</column>
       <column name="definition">let's go, come on</column>
       <column name="definition_de">Los! Lasst uns gehen.</column>
       <column name="definition_fa">بیا برویم، بیا [AUTOTRANSLATED]</column>
@@ -2363,7 +2363,7 @@ Hyväksy kaksintaistelu sanomalla {vISo'be':sen@@vI-:v, So':v:1, -be':v} "En pii
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Ha'DIbaH</column>
-      <column name="part_of_speech">n:1</column>
+      <column name="part_of_speech">n:1,klcp1</column>
       <column name="definition">meat, animal</column>
       <column name="definition_de">Fleisch, Tier</column>
       <column name="definition_fa">گوشت، حیوان</column>
@@ -2383,7 +2383,9 @@ Hyväksy kaksintaistelu sanomalla {vISo'be':sen@@vI-:v, So':v:1, -be':v} "En pii
       <column name="notes_zh_HK"></column>
       <column name="notes_pt">Para diferentes maneiras pelas quais a carne pode ser preparada, consulte {wamwI' Ha'DIbaH:n}, {voDleH Ha'DIbaH:n} e {qeyvaq Ha'DIbaH:n}. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Katso eri tavoista lihan valmistamiseksi {wamwI' Ha'DIbaH:n}, {voDleH Ha'DIbaH:n} ja {qeyvaq Ha'DIbaH:n}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">A lip movement match for "animal".</column>
+      <column name="hidden_notes">A lip movement match for "animal".
+
+This was defined as "meat" in {TKD:src}, but as "meat, animal" in {TKDA:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2788,7 +2790,7 @@ Fyysinen polku (jonka voi nähdä ja kävellä) olisi {taw:n}.[2] [AUTOTRANSLATE
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hech</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">intend, mean to</column>
       <column name="definition_de">beabsichtigen, vorhaben</column>
       <column name="definition_fa">قصد دارم، به معنی [AUTOTRANSLATED]</column>
@@ -2964,7 +2966,7 @@ This word is listed among other militaristic terminology in the body of {KGT:src
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hegh</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t,klcp1</column>
       <column name="definition">die</column>
       <column name="definition_de">sterben</column>
       <column name="definition_fa">مردن، فوت کردن</column>
@@ -3604,7 +3606,7 @@ This word is listed among other militaristic terminology in the body of {KGT:src
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hem</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be proud</column>
       <column name="definition_de">stolz sein</column>
       <column name="definition_fa">افتخار کردن [AUTOTRANSLATED]</column>
@@ -4313,7 +4315,7 @@ Katso sormiin liittyvät verbit kohdasta {nItlh:n}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hev</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">receive</column>
       <column name="definition_de">erhalten, bekommen, empfangen</column>
       <column name="definition_fa">دريافت كردن [AUTOTRANSLATED]</column>
@@ -5106,7 +5108,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/Wq5mvIWRS
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">HIja'</column>
-      <column name="part_of_speech">excl</column>
+      <column name="part_of_speech">excl:klcp1</column>
       <column name="definition">yes, true (answer to yes/no question)</column>
       <column name="definition_de">ja, stimmt</column>
       <column name="definition_fa">بله، درست (پاسخ به بله / بدون سوال) [AUTOTRANSLATED]</column>
@@ -5442,7 +5444,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ngam:v}, {Hum:v}, {nguD:v}</column>
-      <column name="notes">This describes how a stamp is stuck to an evelope or a wad of spit is stuck to the wall.</column>
+      <column name="notes">This describes how a stamp is stuck to an envelope or a wad of spit is stuck to the wall.</column>
       <column name="notes_de">Dies beschreibt, wie ein Stempel an einen Umschlag geklebt wird oder ein Spucknapf an die Wand geklebt wird. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این توصیف می کند که چگونه یک مهر به یک پاکت گیر می کند یا یک تکه نطفه به دیوار چسبیده است. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta beskriver hur en stämpel sitter fast i ett kuvert eller att en spad med spets fastnar på väggen. [AUTOTRANSLATED]</column>
@@ -5602,7 +5604,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">HISlaH</column>
-      <column name="part_of_speech">excl</column>
+      <column name="part_of_speech">excl:klcp1</column>
       <column name="definition">yes, true (answer to yes/no question)</column>
       <column name="definition_de">ja, stimmt</column>
       <column name="definition_fa">بله، درست (پاسخ به بله / بدون سوال) [AUTOTRANSLATED]</column>
@@ -5645,7 +5647,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">HIv</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">attack</column>
       <column name="definition_de">angreifen</column>
       <column name="definition_fa">حمله کردن</column>
@@ -5992,7 +5994,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">HIvje'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">glass (tumbler)</column>
       <column name="definition_de">Glas, Trinkgefäß</column>
       <column name="definition_fa">لیوان</column>
@@ -6297,7 +6299,7 @@ There's no evidence that {tuy:n:nolink} exists as an independent word or compone
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hoch</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">everyone, all, everything, each</column>
       <column name="definition_de">jede/r/s, alle/s</column>
       <column name="definition_fa">همه، همه چیز، هر کدام</column>
@@ -6333,7 +6335,7 @@ Se {Hoch:n:nolink} segue um substantivo, significa "todos de X" .[3; 4] Observe 
       <column name="notes_fi">Jos {Hoch:n:nolink}: n jälkeen on substantiivi, joka on nimenomaisesti monikko, se tarkoittaa "kaikkia X: itä" yhdessä otettuna. Jos seuraava substantiivi ei ole nimenomaisesti monikko, se tarkoittaa "kukin X" erikseen tarkasteltuna.
 
 Jos {Hoch:n:nolink} seuraa substantiivia, se tarkoittaa "kaikki X: tä".[2][3; 4]{naQ:v} [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as "everyone, all, everything" in {TKD:src}. The meaning "each" was added based on an article in {HolQeD:src}.[2]</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {Hoch tlhInganpu':sen:nolink} "all Klingons"[2]
@@ -6746,7 +6748,7 @@ Jos {Hoch:n:nolink} seuraa substantiivia, se tarkoittaa "kaikki X: tä".[2][3; 4
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">HoD</column>
-      <column name="part_of_speech">n:being</column>
+      <column name="part_of_speech">n:being,klcp1</column>
       <column name="definition">captain</column>
       <column name="definition_de">Kapitän, Captain</column>
       <column name="definition_fa">کاپیتان، ناخدا</column>
@@ -6805,7 +6807,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/9CTfqKn38
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hogh</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">week (Klingon)</column>
       <column name="definition_de">Woche</column>
       <column name="definition_fa">هفته (کلینگان) [AUTOTRANSLATED]</column>
@@ -6915,7 +6917,7 @@ Jos ulkomaalaisen kalenteri sisältää yli kuusi päivää, lisäpäivät numer
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">HoH</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">kill</column>
       <column name="definition_de">töten</column>
       <column name="definition_fa">کشتن [AUTOTRANSLATED]</column>
@@ -7174,7 +7176,7 @@ Jos ulkomaalaisen kalenteri sisältää yli kuusi päivää, lisäpäivät numer
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hol</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">language</column>
       <column name="definition_de">Sprache</column>
       <column name="definition_fa">زبان [AUTOTRANSLATED]</column>
@@ -7666,7 +7668,7 @@ Tunniste on yleensä maa, alue tai jonkinlainen poliittinen yksikkö. Esimerkiks
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hon</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">doubt</column>
       <column name="definition_de">(be)zweifeln</column>
       <column name="definition_fa">شک [AUTOTRANSLATED]</column>
@@ -7883,7 +7885,7 @@ Tunniste on yleensä maa, alue tai jonkinlainen poliittinen yksikkö. Esimerkiks
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hop</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be remote, far</column>
       <column name="definition_de">weit, entfernt, auf Distanz sein</column>
       <column name="definition_fa">دور، دور [AUTOTRANSLATED]</column>
@@ -8199,7 +8201,7 @@ Se eroaa {quvHa':v}: stä siinä, että se osoittaa, että on vaadittu kunnioitu
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">HoS</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be strong</column>
       <column name="definition_de">stark sein</column>
       <column name="definition_fa">قوی بودن [AUTOTRANSLATED]</column>

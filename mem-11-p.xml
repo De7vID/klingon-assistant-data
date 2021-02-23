@@ -44,7 +44,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pab</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">follow (rules)</column>
       <column name="definition_de">Regeln befolgen</column>
       <column name="definition_fa">دنبال (قوانین) [AUTOTRANSLATED]</column>
@@ -162,7 +162,7 @@ Annetun lupauksen tai lupauksen yhteydessä (katso {'Ip:v} ja {lay':v}) {pab:v:n
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pab</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">grammar</column>
       <column name="definition_de">Grammatik</column>
       <column name="definition_fa">دستور زبان [AUTOTRANSLATED]</column>
@@ -334,7 +334,7 @@ Annetun lupauksen tai lupauksen yhteydessä (katso {'Ip:v} ja {lay':v}) {pab:v:n
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pagh</column>
-      <column name="part_of_speech">n:1</column>
+      <column name="part_of_speech">n:1,klcp1</column>
       <column name="definition">nothing, none, no one</column>
       <column name="definition_de">nichts, keine/r</column>
       <column name="definition_fa">هیچ چیز، هیچکس، هیچکس [AUTOTRANSLATED]</column>
@@ -375,7 +375,7 @@ The imperative verb prefix when {pagh:n:1h,nolink} is the object is {yI-:v:pref}
 ▶ {ghaH:n} / {'oH:n} / {chaH:n} / {bIH:n}: {pagh:n:1h,nolink} = {0:v:pref}
 
 Pakollinen verbi-etuliite, kun kohde on {pagh:n:1h,nolink}, on {yI-:v:pref}, jos komento annetaan yhdelle henkilölle, ja {pe-:v:pref}, jos se annetaan useille ihmisille. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as "nothing, none" in {TKD:src} and as "no one" in {KGT:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -782,7 +782,7 @@ Kun yhdistetään useita lauseita, tarvitaan vain viimeinen yhdistelmä. Katso e
       <column name="notes_zh_HK">這意味著確定對{ngajrun:n}，{poymar:n}，{Qay'mol:n}等的解決方案。說這句話的語是{SIHHa'moH:v}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso significa determinar a solução para um {ngajrun:n}, {poymar:n}, {Qay'mol:n} ou assim por diante. Uma forma de gíria para dizer isso é {SIHHa'moH:v}. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä tarkoittaa ratkaisun määrittämistä tuotteille {ngajrun:n}, {poymar:n}, {Qay'mol:n} tai niin edelleen. Slangitapa sanoa tämä on {SIHHa'moH:v}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">A solution may come from a "spark" ({pan:v:1}) of insight.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -848,7 +848,7 @@ Kun yhdistetään useita lauseita, tarvitaan vain viimeinen yhdistelmä. Katso e
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">paq</column>
-      <column name="part_of_speech">n:1h</column>
+      <column name="part_of_speech">n:1h,klcp1</column>
       <column name="definition">book</column>
       <column name="definition_de">Buch</column>
       <column name="definition_fa">کتاب [AUTOTRANSLATED]</column>
@@ -1263,7 +1263,7 @@ Katso myös hypoteettinen samanlainen kieliopillinen rakenne kohdasta {tIq'ghob:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">par</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">dislike</column>
       <column name="definition_de">nicht mögen</column>
       <column name="definition_fa">دوست نداشتن [AUTOTRANSLATED]</column>
@@ -1779,7 +1779,7 @@ Katso myös hypoteettinen samanlainen kieliopillinen rakenne kohdasta {tIq'ghob:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pat</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">system</column>
       <column name="definition_de">System</column>
       <column name="definition_fa">سیستم [AUTOTRANSLATED]</column>
@@ -2135,7 +2135,7 @@ Verbi-merkinnän kanssa käytettynä verbiobjektin on oltava monikko. Tarkoituks
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">paw</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">arrive</column>
       <column name="definition_de">ankommen</column>
       <column name="definition_fa">رسیدن</column>
@@ -2344,7 +2344,7 @@ Não confunda isso com {paw:v}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pay</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">regret</column>
       <column name="definition_de">bereuen</column>
       <column name="definition_fa">پشيمان شدن [AUTOTRANSLATED]</column>
@@ -2516,7 +2516,7 @@ Não confunda isso com {paw:v}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pa'</column>
-      <column name="part_of_speech">n:1</column>
+      <column name="part_of_speech">n:1,klcp1</column>
       <column name="definition">room, enclosed area, chamber</column>
       <column name="definition_de">Raum, Zimmer, Kammer</column>
       <column name="definition_fa">اتاق، محوطه محوطه، محوطه [AUTOTRANSLATED]</column>
@@ -2578,7 +2578,7 @@ O {bIS'ub:n} de um {pa':n:1h,nolink} é o seu {rav:n:1} e o {'aqroS:n:1} é o se
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pa'</column>
-      <column name="part_of_speech">n:2</column>
+      <column name="part_of_speech">n:2,klcp1</column>
       <column name="definition">there, over there, thereabouts</column>
       <column name="definition_de">da, dort, drüben</column>
       <column name="definition_fa">آنجا</column>
@@ -3120,7 +3120,7 @@ Tätä verbiä voidaan käyttää myös muihin asioihin, joiden putoava liike mu
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pegh</column>
-      <column name="part_of_speech">v:1,t_c</column>
+      <column name="part_of_speech">v:1,t_c,klcp1</column>
       <column name="definition">keep something secret</column>
       <column name="definition_de">etwas geheim halten</column>
       <column name="definition_fa">چیزی را مخفی نگه دارید [AUTOTRANSLATED]</column>
@@ -3224,7 +3224,7 @@ Tätä verbiä voidaan käyttää myös kohteen kanssa. Katso {pegh:v:1}. [AUTOT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pegh</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">secret</column>
       <column name="definition_de">Geheimnis</column>
       <column name="definition_fa">راز [AUTOTRANSLATED]</column>
@@ -4061,7 +4061,7 @@ Tämä lyhennetään harvoin myös muotoon {pegh vIttlhegh:n:nolink}.[1][2] [AUT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">per</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">label, ascertain, specify</column>
       <column name="definition_de">bestimmen, feststellen</column>
       <column name="definition_fa">برچسب، مشخص کردن [AUTOTRANSLATED]</column>
@@ -4081,7 +4081,7 @@ Tämä lyhennetään harvoin myös muotoon {pegh vIttlhegh:n:nolink}.[1][2] [AUT
       <column name="notes_zh_HK">動詞{per:v:nolink}通常表示「向其分配名稱」，但也可以用於「確定，指定，固定」這樣的概念。要求時間的一種方法是{rep yIper!:sen}，字面意思是「標註時間！」[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt">O verbo {per:v:nolink} geralmente significa "atribuir ou anexar um nome", mas também pode ser usado para noções como "verificar, especificar, fixar". Uma maneira de solicitar a hora é {rep yIper!:sen}, literalmente, "Marque a hora!"[2] [AUTOTRANSLATED]</column>
       <column name="notes_fi">Verbi {per:v:nolink} tarkoittaa yleensä "nimen nimeämistä tai liittämistä", mutta sitä voidaan käyttää myös sellaisiin käsitteisiin kuten "selvittää, määritellä, kiinnittää". Yksi tapa kysyä aikaa on {rep yIper!:sen}, kirjaimellisesti "Merkitse tunti!"[2] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as just "label" in {TKD:src}. The additional meanings come from a newsgroup post.[2]</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4091,7 +4091,7 @@ Tämä lyhennetään harvoin myös muotoon {pegh vIttlhegh:n:nolink}.[1][2] [AUT
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">pin down</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -5024,7 +5024,7 @@ Verbi {roS:v:2} tarkoittaa "kolmannen kärjen käyttämistä". Se on myös homof
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pIch</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">blame</column>
       <column name="definition_de">beschuldigen, tadeln</column>
       <column name="definition_fa">سرزنش [AUTOTRANSLATED]</column>
@@ -5328,7 +5328,7 @@ Verbi {roS:v:2} tarkoittaa "kolmannen kärjen käyttämistä". Se on myös homof
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pIH</column>
-      <column name="part_of_speech">v:1,t_c</column>
+      <column name="part_of_speech">v:1,t_c,klcp1</column>
       <column name="definition">expect</column>
       <column name="definition_de">erwarten</column>
       <column name="definition_fa">انتظار [AUTOTRANSLATED]</column>
@@ -5763,7 +5763,7 @@ Verbi {roS:v:2} tarkoittaa "kolmannen kärjen käyttämistä". Se on myös homof
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pIm</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be different</column>
       <column name="definition_de">verschieden, andersartig sein</column>
       <column name="definition_fa">مختلف، متفاوت بودن</column>
@@ -5806,7 +5806,7 @@ Verbi {roS:v:2} tarkoittaa "kolmannen kärjen käyttämistä". Se on myös homof
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pIn</column>
-      <column name="part_of_speech">n:1,being</column>
+      <column name="part_of_speech">n:1,being,klcp1</column>
       <column name="definition">boss</column>
       <column name="definition_de">Chef, Boss</column>
       <column name="definition_fa">رئیس</column>
@@ -6765,7 +6765,7 @@ In the promotional posters and videos for {DSC:src}, as well as in the backgroun
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pItlh</column>
-      <column name="part_of_speech">excl</column>
+      <column name="part_of_speech">excl:klcp1</column>
       <column name="definition">done (uttered at the completion of a task)</column>
       <column name="definition_de">Fertig. (Ausruf nach Beendigung einer Aufgabe)</column>
       <column name="definition_fa">انجام شده (در تکمیل یک کار تکمیل شده است) [AUTOTRANSLATED]</column>
@@ -6816,7 +6816,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/4gCJJiBXa
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pIv</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be healthy</column>
       <column name="definition_de">gesund sein</column>
       <column name="definition_fa">سالم بودن [AUTOTRANSLATED]</column>
@@ -7289,7 +7289,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/4gCJJiBXa
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pI'</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be fat</column>
       <column name="definition_de">fett sein</column>
       <column name="definition_fa">چربی داشته بودن [AUTOTRANSLATED]</column>
@@ -7348,7 +7348,7 @@ Sitä voidaan käyttää myös typografiassa "lihavoidun" fontin kuvaamiseen. Ka
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">po</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">morning</column>
       <column name="definition_de">Morgen</column>
       <column name="definition_fa">صبح</column>
@@ -7649,7 +7649,7 @@ Sitä voidaan käyttää myös typografiassa "lihavoidun" fontin kuvaamiseen. Ka
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">poH</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">period of time</column>
       <column name="definition_de">Zeitabschnitt</column>
       <column name="definition_fa">دوره زمانی [AUTOTRANSLATED]</column>
@@ -7683,7 +7683,7 @@ Sitä voidaan käyttää myös typografiassa "lihavoidun" fontin kuvaamiseen. Ka
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">duration</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -7841,7 +7841,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">poj</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">analyze</column>
       <column name="definition_de">analysieren</column>
       <column name="definition_fa">تجزیه و تحلیل [AUTOTRANSLATED]</column>
@@ -7885,7 +7885,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
       <!-- A Biblical pun? -->
       <column name="_id"></column>
       <column name="entry_name">pol</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">keep, save</column>
       <column name="definition_de">behalten, aufbewahren</column>
       <column name="definition_fa">نگه دارید، نجات دهید [AUTOTRANSLATED]</column>
@@ -8199,7 +8199,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pong</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">name</column>
       <column name="definition_de">Name</column>
       <column name="definition_fa">نام [AUTOTRANSLATED]</column>
@@ -8503,7 +8503,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">poQ</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">demand, require</column>
       <column name="definition_de">verlangen, (er)fordern, brauchen</column>
       <column name="definition_fa">تقاضا، نیاز است [AUTOTRANSLATED]</column>
@@ -8641,7 +8641,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
       <!-- Note that this isn't marked as a body part because it refers to an entire body. -->
       <column name="_id"></column>
       <column name="entry_name">porgh</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">body</column>
       <column name="definition_de">Körper</column>
       <column name="definition_fa">بدن [AUTOTRANSLATED]</column>
@@ -8856,7 +8856,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">poS</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be open, opened</column>
       <column name="definition_de">offen, geöffnet sein</column>
       <column name="definition_fa">باز شود، باز شود [AUTOTRANSLATED]</column>
@@ -9159,7 +9159,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pov</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">afternoon</column>
       <column name="definition_de">Nachmittag</column>
       <column name="definition_fa">بعد از ظهر [AUTOTRANSLATED]</column>
@@ -9374,7 +9374,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">po'</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be expert, skilled</column>
       <column name="definition_de">erfahren, gewandt, geschickt sein</column>
       <column name="definition_fa">متخصص، ماهر باشید [AUTOTRANSLATED]</column>
@@ -10032,7 +10032,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">puj</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be weak</column>
       <column name="definition_de">schwach, ohne kraft sein</column>
       <column name="definition_fa">ضعیف بودن [AUTOTRANSLATED]</column>
@@ -10436,7 +10436,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
       <!-- "pummel"? or from Humpty Dumpty? -->
       <column name="_id"></column>
       <column name="entry_name">pum</column>
-      <column name="part_of_speech">v:2,i_c</column>
+      <column name="part_of_speech">v:2,i_c,klcp1</column>
       <column name="definition">fall</column>
       <column name="definition_de">fallen, d.h. abwärts bewegen</column>
       <column name="definition_fa">سقوط [AUTOTRANSLATED]</column>
@@ -10871,7 +10871,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">puq</column>
-      <column name="part_of_speech">n:being</column>
+      <column name="part_of_speech">n:being,klcp1</column>
       <column name="definition">child, offspring</column>
       <column name="definition_de">Kind, Nachfahre</column>
       <column name="definition_fa">بچه، کودک، فرزند</column>
@@ -11043,7 +11043,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">puqbe'</column>
-          <column name="part_of_speech">n:deriv,being</column>
+          <column name="part_of_speech">n:deriv,being,klcp1</column>
           <column name="definition">daughter</column>
           <column name="definition_de">Tochter</column>
           <column name="definition_fa">فرزند مونث، دختر</column>
@@ -11086,7 +11086,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">puqloD</column>
-          <column name="part_of_speech">n:deriv,being</column>
+          <column name="part_of_speech">n:deriv,being,klcp1</column>
           <column name="definition">son</column>
           <column name="definition_de">Sohn</column>
           <column name="definition_fa">فرزند ذکور، پسر</column>
@@ -11344,7 +11344,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">puS</column>
-      <column name="part_of_speech">v:1,is</column>
+      <column name="part_of_speech">v:1,is,klcp1</column>
       <column name="definition">be few, be several, be a handful</column>
       <column name="definition_de">wenige, mehrere, eine Handvoll sein</column>
       <column name="definition_fa">چند نفر باشند، چند نفر باشند، یک انگشت کوچک باشند [AUTOTRANSLATED]</column>

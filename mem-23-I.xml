@@ -431,7 +431,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'IH</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be beautiful, handsome</column>
       <column name="definition_de">schön, hübsch sein</column>
       <column name="definition_fa">زیبا، خوشگل، خوشتیپ</column>
@@ -475,7 +475,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'Ij</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">listen</column>
       <column name="definition_de">zuhören</column>
       <column name="definition_fa">گوش دادن</column>
@@ -1037,7 +1037,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'Ip</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">oath, promise</column>
       <column name="definition_de">Schwur, Versprechen</column>
       <column name="definition_fa">سوگند، وعده [AUTOTRANSLATED]</column>
@@ -1049,15 +1049,15 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'Ip:v}</column>
-      <column name="notes">To make an {'Ip:n} is to {'Ip:v} or {lay':v}; to keep it is to {pab:v} the {'Ip:n}.</column>
-      <column name="notes_de">Ein {'Ip:n} zu erstellen bedeutet {'Ip:v} oder {lay':v}; um es zu behalten, muss {pab:v} die {'Ip:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">برای ایجاد {'Ip:n} به {'Ip:v} یا {lay':v} است. نگه داشتن آن به {pab:v} {'Ip:n} است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Att göra en {'Ip:n} är att {'Ip:v} eller {lay':v}; att behålla det är att {pab:v} {'Ip:n}. [AUTOTRANSLATED]</column>
+      <column name="notes">To make an {'Ip:n} is to {'Ip:v} or {lay':v}; to keep it is to {pab:v} the {'Ip:n}.[2]</column>
+      <column name="notes_de">Ein {'Ip:n} zu erstellen bedeutet {'Ip:v} oder {lay':v}; um es zu behalten, muss {pab:v} die {'Ip:n}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">برای ایجاد {'Ip:n} به {'Ip:v} یا {lay':v} است. نگه داشتن آن به {pab:v} {'Ip:n} است.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Att göra en {'Ip:n} är att {'Ip:v} eller {lay':v}; att behålla det är att {pab:v} {'Ip:n}.[2] [AUTOTRANSLATED]</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">{'Ip:n}: n tekeminen on {'Ip:v} tai {lay':v}; sen pitäminen on {pab:v} the {'Ip:n}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="notes_fi">{'Ip:n}: n tekeminen on {'Ip:v} tai {lay':v}; sen pitäminen on {pab:v} the {'Ip:n}.[2] [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">This was defined as "oath" in {TKD:src}. The definition "promise" was added based on its translation in the {paq'batlh:src}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {tugh 'Ipvetlh Dapab DaneH'a'?:sen:nolink} "How would you like to keep that promise, very soon?"[2]</column>
@@ -1081,7 +1081,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'Ip</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">vow, swear</column>
       <column name="definition_de">geloben, schwören, feierlich versprechen</column>
       <column name="definition_fa">وعده، قسم می خورم [AUTOTRANSLATED]</column>
@@ -1382,7 +1382,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'IQ</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be sad</column>
       <column name="definition_de">traurig sein</column>
       <column name="definition_fa">غمگین بودن [AUTOTRANSLATED]</column>
@@ -1698,7 +1698,7 @@ Katso {rav:n:1} surullisuuteen liittyvästä idiomasta.[2] [AUTOTRANSLATED]</col
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'ISjaH</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">calendar</column>
       <column name="definition_de">Kalender</column>
       <column name="definition_fa">تقویم</column>
@@ -1827,7 +1827,7 @@ Katso {rav:n:1} surullisuuteen liittyvästä idiomasta.[2] [AUTOTRANSLATED]</col
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'It</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be depressed</column>
       <column name="definition_de">deprimiert sein</column>
       <column name="definition_fa">افسرده بودن [AUTOTRANSLATED]</column>
@@ -1870,7 +1870,7 @@ Katso {rav:n:1} surullisuuteen liittyvästä idiomasta.[2] [AUTOTRANSLATED]</col
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'Itlh</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be advanced, highly developed</column>
       <column name="definition_de">fortgeschritten, hochentwickelt sein</column>
       <column name="definition_fa">پیشرفته، بسیار توسعه یافته است [AUTOTRANSLATED]</column>
@@ -2129,7 +2129,7 @@ Katso {rav:n:1} surullisuuteen liittyvästä idiomasta.[2] [AUTOTRANSLATED]</col
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'Iw</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">blood</column>
       <column name="definition_de">Blut</column>
       <column name="definition_fa">خون</column>

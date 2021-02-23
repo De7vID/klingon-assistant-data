@@ -521,7 +521,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chagh</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">drop</column>
       <column name="definition_de">fallen lassen</column>
       <column name="definition_fa">رها کردن [AUTOTRANSLATED]</column>
@@ -570,7 +570,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chaH</column>
-      <column name="part_of_speech">n:pro</column>
+      <column name="part_of_speech">n:pro,klcp1</column>
       <column name="definition">they, them (capable of using language)</column>
       <column name="definition_de">sie (pl.) (sprachfähige Lebewesen)</column>
       <column name="definition_fa">آنها، آنها (قادر به استفاده از زبان) [AUTOTRANSLATED]</column>
@@ -692,7 +692,7 @@ Pakollinen verbin etuliite, kun kohde on {chaH:n:nolink}, on {tI-:v:pref}. [AUTO
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chal</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">sky</column>
       <column name="definition_de">Himmel</column>
       <column name="definition_fa">آسمان</column>
@@ -1386,7 +1386,7 @@ Pakollinen verbin etuliite, kun kohde on {chaH:n:nolink}, on {tI-:v:pref}. [AUTO
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chargh</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">conquer</column>
       <column name="definition_de">erobern</column>
       <column name="definition_fa">تسخیر [AUTOTRANSLATED]</column>
@@ -1732,7 +1732,7 @@ Jos puhuja viittaa johonkin tapahtuneeseen, mikä on typerys, mitä on tapahtunu
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chav</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">achieve</column>
       <column name="definition_de">erreichen, schaffen</column>
       <column name="definition_fa">رسیدن [AUTOTRANSLATED]</column>
@@ -1787,7 +1787,7 @@ Jos puhuja viittaa johonkin tapahtuneeseen, mikä on typerys, mitä on tapahtunu
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chav</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">achievement</column>
       <column name="definition_de">Errungenschaft, Leistung</column>
       <column name="definition_fa">دستاورد [AUTOTRANSLATED]</column>
@@ -1830,7 +1830,7 @@ Jos puhuja viittaa johonkin tapahtuneeseen, mikä on typerys, mitä on tapahtunu
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chaw'</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">allow, permit</column>
       <column name="definition_de">erlauben, zulassen</column>
       <column name="definition_fa">اجازه بده، اجازه بده [AUTOTRANSLATED]</column>
@@ -3442,7 +3442,7 @@ Also, in Spanish, "parpar" is the sound made by a duck.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chech</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be drunk, intoxicated</column>
       <column name="definition_de">betrunken sein</column>
       <column name="definition_fa">مست، مست شود [AUTOTRANSLATED]</column>
@@ -3528,7 +3528,7 @@ Also, in Spanish, "parpar" is the sound made by a duck.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chegh</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">return (to)</column>
       <column name="definition_de">wiederkehren (in)</column>
       <column name="definition_fa">برگشت (به) [AUTOTRANSLATED]</column>
@@ -3548,7 +3548,7 @@ Also, in Spanish, "parpar" is the sound made by a duck.</column>
       <column name="notes_zh_HK">賓語是主語返回的地方（如果未提及，則動詞使用前綴表示沒有賓語）。如果強制退貨，請改用{tatlh'egh:v}。[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt">O objeto é o local para o qual o sujeito retorna (se não for mencionado, o verbo usa um prefixo indicando nenhum objeto). Se o retorno for forçado, use {tatlh'egh:v}.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fi">Kohde on paikka, johon kohde palaa (jos sitä ei mainita, verbi ottaa etuliitteen, joka ei osoita kohdetta). Jos palautus pakotetaan, käytä sen sijaan {tatlh'egh:v}[2] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as just "return" in {TKD:src} and also glossed the same way in the body of {KGT:src}. The definition "return (to)" was added to the KLI new words list to distinguish it from {tatlh:v} when the latter was revealed.[2]</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {ghorgh pa'wIjDaq jIchegh?:sen}
@@ -3678,7 +3678,7 @@ The following four examples illustrate the role of the object(s) and how to use 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chel</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t,klcp1</column>
       <column name="definition">add</column>
       <column name="definition_de">hinzufügen, addieren</column>
       <column name="definition_fa">اضافه کردن [AUTOTRANSLATED]</column>
@@ -4158,7 +4158,7 @@ The following four examples illustrate the role of the object(s) and how to use 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chep</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">prosper, be prosperous</column>
       <column name="definition_de">erfolgreich, gedeihend, blühend</column>
       <column name="definition_fa">خوشبختی، رفاه [AUTOTRANSLATED]</column>
@@ -4302,7 +4302,7 @@ Verbillä {ver:v:1} voidaan myös puhua tornadoista ja pyörremyrskyistä. [AUTO
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">cher</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">establish, set up</column>
       <column name="definition_de">etablieren, einrichten</column>
       <column name="definition_fa">ایجاد، راه اندازی [AUTOTRANSLATED]</column>
@@ -4951,7 +4951,7 @@ This word is defined in {TKD:src} as "rule, reign, run" and additionally in {KGT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chID</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">admit</column>
       <column name="definition_de">zugeben, gestehen</column>
       <column name="definition_fa">اقرار کردن [AUTOTRANSLATED]</column>
@@ -4995,7 +4995,7 @@ This word is defined in {TKD:src} as "rule, reign, run" and additionally in {KGT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chIj</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">navigate</column>
       <column name="definition_de">navigieren, einen Kurs fliegen</column>
       <column name="definition_fa">حرکت کردن [AUTOTRANSLATED]</column>
@@ -5306,7 +5306,7 @@ Tätä verbiä voidaan käyttää avainten väärään sijoittamiseen, mutta my�
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chIS</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be white</column>
       <column name="definition_de">weiß sein</column>
       <column name="definition_fa">سفید باشد [AUTOTRANSLATED]</column>
@@ -5783,7 +5783,7 @@ Tätä verbiä voidaan käyttää avainten väärään sijoittamiseen, mutta my�
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">choH</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">alter, change</column>
       <column name="definition_de">sich (ver)ändern, wechsein</column>
       <column name="definition_fa">تغییر، تغییر [AUTOTRANSLATED]</column>
@@ -5918,7 +5918,7 @@ Tätä verbiä voidaan käyttää avainten väärään sijoittamiseen, mutta my�
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chol</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">close in, get closer, come nearer</column>
       <column name="definition_de">sich nähern, näher rücken, aufschließen</column>
       <column name="definition_fa">نزدیک شدن، نزدیک شدن، نزدیکتر شو [AUTOTRANSLATED]</column>
@@ -6305,7 +6305,7 @@ Tätä verbiä voidaan käyttää avainten väärään sijoittamiseen, mutta my�
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chop</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">bite</column>
       <column name="definition_de">beißen</column>
       <column name="definition_fa">گاز گرفتن [AUTOTRANSLATED]</column>
@@ -7817,7 +7817,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", the British expre
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chup</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">recommend, suggest</column>
       <column name="definition_de">empfehlen, vorschlagen</column>
       <column name="definition_fa">پیشنهاد کردن</column>
@@ -8609,7 +8609,7 @@ Katso Gowronin sanovan {chuyDaH yIlaQ!:sen:nolink}: {YouTube video:url:http://yo
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chu'</column>
-      <column name="part_of_speech">v:1,is</column>
+      <column name="part_of_speech">v:1,is,klcp1</column>
       <column name="definition">be new</column>
       <column name="definition_de">neu sein</column>
       <column name="definition_fa">جدید</column>

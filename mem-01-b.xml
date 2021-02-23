@@ -44,7 +44,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bach</column>
-      <column name="part_of_speech">v:t_c,weap</column>
+      <column name="part_of_speech">v:t_c,weap,klcp1</column>
       <column name="definition">shoot</column>
       <column name="definition_de">schießen</column>
       <column name="definition_fa">(تیر) زدن</column>
@@ -105,7 +105,7 @@ That the target is marked with {-Daq:n:nolink} is known from {SkyBox 14:src} and
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bach</column>
-      <column name="part_of_speech">n:weap</column>
+      <column name="part_of_speech">n:weap,klcp1</column>
       <column name="definition">shot</column>
       <column name="definition_de">Schuss</column>
       <column name="definition_fa">گلوله</column>
@@ -371,7 +371,7 @@ That the target is marked with {-Daq:n:nolink} is known from {SkyBox 14:src} and
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">baH</column>
-      <column name="part_of_speech">v:t_c,weap</column>
+      <column name="part_of_speech">v:t_c,weap,klcp1</column>
       <column name="definition">fire (torpedo, rocket, missile)</column>
       <column name="definition_de">feuern</column>
       <column name="definition_fa">(موشک و غیره) انداختن</column>
@@ -489,7 +489,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/kWP0lgIYM
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">baHwI'</column>
-      <column name="part_of_speech">n:weap,being,deriv</column>
+      <column name="part_of_speech">n:weap,being,deriv,klcp1</column>
       <column name="definition">gunner</column>
       <column name="definition_de">Schütze</column>
       <column name="definition_fa">تفنگدار [AUTOTRANSLATED]</column>
@@ -750,7 +750,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/kWP0lgIYM
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bang</column>
-      <column name="part_of_speech">n:being</column>
+      <column name="part_of_speech">n:being,klcp1</column>
       <column name="definition">love, one who is loved</column>
       <column name="definition_de">Geliebte/r</column>
       <column name="definition_fa">عاشق</column>
@@ -2443,7 +2443,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ba'</column>
-      <column name="part_of_speech">v:i_c</column>
+      <column name="part_of_speech">v:i_c,klcp1</column>
       <column name="definition">sit</column>
       <column name="definition_de">sitzen</column>
       <column name="definition_fa">نشستن</column>
@@ -2873,7 +2873,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bej</column>
-      <column name="part_of_speech">v:1,t_c</column>
+      <column name="part_of_speech">v:1,t_c,klcp1</column>
       <column name="definition">watch</column>
       <column name="definition_de">schauen, mit den Augen beobachten</column>
       <column name="definition_fa">تماشا کردن</column>
@@ -2960,7 +2960,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bel</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be pleased</column>
       <column name="definition_de">vergnügt sein</column>
       <column name="definition_fa">خوشحال می شود [AUTOTRANSLATED]</column>
@@ -3003,7 +3003,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bel</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">pleasure</column>
       <column name="definition_de">Vergnügen, Spaß</column>
       <column name="definition_fa">لذت [AUTOTRANSLATED]</column>
@@ -4434,7 +4434,7 @@ Klingonin legendassa {qeylIS'e' lIjlaHbe'bogh vay':n:name} vääristi alkuperäi
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">be'</column>
-      <column name="part_of_speech">n:being</column>
+      <column name="part_of_speech">n:being,klcp1</column>
       <column name="definition">female, woman</column>
       <column name="definition_de">Frau, Weibchen</column>
       <column name="definition_fa">زن، ماده</column>
@@ -4524,7 +4524,7 @@ Klingonin legendassa {qeylIS'e' lIjlaHbe'bogh vay':n:name} vääristi alkuperäi
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">be'Hom</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:deriv,being,klcp1</column>
       <column name="definition">girl</column>
       <column name="definition_de">Mädchen, weibliches Kind</column>
       <column name="definition_fa">دختر </column>
@@ -4567,7 +4567,7 @@ Klingonin legendassa {qeylIS'e' lIjlaHbe'bogh vay':n:name} vääristi alkuperäi
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">be'nal</column>
-      <column name="part_of_speech">n:being</column>
+      <column name="part_of_speech">n:being,klcp1</column>
       <column name="definition">wife</column>
       <column name="definition_de">Ehefrau, Gattin</column>
       <column name="definition_fa">زن، همسر، زوجه، خانم</column>
@@ -4610,7 +4610,7 @@ Klingonin legendassa {qeylIS'e' lIjlaHbe'bogh vay':n:name} vääristi alkuperäi
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">be'nI'</column>
-      <column name="part_of_speech">n:being</column>
+      <column name="part_of_speech">n:being,klcp1</column>
       <column name="definition">sister</column>
       <column name="definition_de">Schwester</column>
       <column name="definition_fa">خواهر</column>
@@ -4878,7 +4878,7 @@ Klingonin legendassa {qeylIS'e' lIjlaHbe'bogh vay':n:name} vääristi alkuperäi
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bIH</column>
-      <column name="part_of_speech">n:pro</column>
+      <column name="part_of_speech">n:pro,klcp1</column>
       <column name="definition">they, them (incapable of language)</column>
       <column name="definition_de">sie (pl.), ihnen (Gegenstände)</column>
       <column name="definition_fa">آنها، آنها (ناتوان از زبان) [AUTOTRANSLATED]</column>
@@ -5684,7 +5684,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/NpFDKTzIN
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bIng</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">area below, area under</column>
       <column name="definition_de">Unten, Bereich unterhalb</column>
       <column name="definition_fa">منطقه زیر، منطقه تحت</column>
@@ -5870,7 +5870,7 @@ Kymmenien miljoonien kohdalla {maH:n:2,num} voidaan yhdistää {'uy':n:num,nolin
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bIQ</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">water</column>
       <column name="definition_de">Wasser</column>
       <column name="definition_fa">اب</column>
@@ -6782,7 +6782,7 @@ Kymmenien miljoonien kohdalla {maH:n:2,num} voidaan yhdistää {'uy':n:num,nolin
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bIr</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be cold</column>
       <column name="definition_de">kalt sein</column>
       <column name="definition_fa">سرد بودن</column>
@@ -7305,7 +7305,7 @@ Speculation: This may have been intended to be {tIS'ub:n:nolink} but was changed
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bIt</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be nervous, uneasy</column>
       <column name="definition_de">nervös, unruhig sein</column>
       <column name="definition_fa">عصبی، ناراحت کننده بودن [AUTOTRANSLATED]</column>
@@ -8146,7 +8146,7 @@ For the Pittsburgh Art Tour, Marc Okrand suggested to translate "space capsule" 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">boD</column>
-      <column name="part_of_speech">n:reg,body</column>
+      <column name="part_of_speech">n:reg,body,klcp1</column>
       <column name="definition">forehead</column>
       <column name="definition_de">Stirn</column>
       <column name="definition_fa">پیشانی</column>
@@ -8450,7 +8450,7 @@ For the Pittsburgh Art Tour, Marc Okrand suggested to translate "space capsule" 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bol</column>
-      <column name="part_of_speech">v:2,t_c,slang</column>
+      <column name="part_of_speech">v:2,t_c,slang,klcp1</column>
       <column name="definition">betray</column>
       <column name="definition_de">verraten</column>
       <column name="definition_fa">خیانت کردن [AUTOTRANSLATED]</column>
@@ -9669,7 +9669,7 @@ Marc Okrand ({marq 'oqranD:n:name}) is billed as Associate Producer, translated 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bortaS</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:klcp1</column>
       <column name="definition">revenge</column>
       <column name="definition_de">Rache, Vergeltung</column>
       <column name="definition_fa">انتقام گرفتن [AUTOTRANSLATED]</column>
@@ -9902,7 +9902,7 @@ On myös siihen liittyvä idioomi {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}. [AU
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bot</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">prevent, block, prohibit</column>
       <column name="definition_de">hindern, abwehren, blockieren, verhindern</column>
       <column name="definition_fa">جلوگیری، مسدود کردن، ممنوعیت [AUTOTRANSLATED]</column>
@@ -10776,7 +10776,7 @@ Lupauksen tarinassa todetaan, että:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">buD</column>
-      <column name="part_of_speech">v:is</column>
+      <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be lazy</column>
       <column name="definition_de">faul sein</column>
       <column name="definition_fa">تنبل بودن [AUTOTRANSLATED]</column>
@@ -11343,7 +11343,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">buS</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">concentrate on, focus on, think only about</column>
       <column name="definition_de">auf etwas konzentrieren, auf eine Sache achten</column>
       <column name="definition_fa">تمرکز بر روی، تمرکز بر روی، فکر کردن فقط در مورد [AUTOTRANSLATED]</column>
@@ -11882,7 +11882,7 @@ Tämä voi viitata {DuH:n}: n "luokkaan" (eli siihen liittyvään ryhmään) {Se
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bu'</column>
-      <column name="part_of_speech">n:being</column>
+      <column name="part_of_speech">n:being,klcp1</column>
       <column name="definition">sergeant</column>
       <column name="definition_de">Unteroffizier, Maat, Sergeant</column>
       <column name="definition_fa">سرباز [AUTOTRANSLATED]</column>
