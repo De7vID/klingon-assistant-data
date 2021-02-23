@@ -2428,7 +2428,7 @@ Não confunda esta palavra com {naHjej:n}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">natlh</column>
-      <column name="part_of_speech">v:1,t</column>
+      <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">use up, consume, expend, drain</column>
       <column name="definition_de">auf-, verbrauchen, konsumieren</column>
       <column name="definition_fa">مصرف، مصرف، مصرف، تخلیه [AUTOTRANSLATED]</column>
@@ -2450,7 +2450,8 @@ Não confunda esta palavra com {naHjej:n}. [AUTOTRANSLATED]</column>
       <column name="notes_fi"></column>
       <column name="hidden_notes">It is unclear if {tlhuch:v} "exhaust" means "to use something up completely".</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {nIn Hoch natlhlu'pu':sen@@nIn:n, Hoch:n, natlh:v:1, -lu':v, -pu':v} "All the fuel has been consumed"[1, p.155]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -2471,7 +2472,7 @@ Não confunda esta palavra com {naHjej:n}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">natlh</column>
-      <column name="part_of_speech">v:2,i,slang</column>
+      <column name="part_of_speech">v:2,is,slang</column>
       <column name="definition">be reprehensible, be disgusting, be contemptible</column>
       <column name="definition_de">widerlich, tadelnswert, verachtenswert, schändlich, anstößig sein</column>
       <column name="definition_fa">قابل تحسین، نفرت انگیز، تحقیر آمیز باشد [AUTOTRANSLATED]</column>
@@ -2483,17 +2484,20 @@ Não confunda esta palavra com {naHjej:n}. [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ngIm:v}, {'up:v}, {'eyHa':v}, {SaS:v:2,slang}, {natlh:v:1}</column>
-      <column name="notes">In its slang meaning, this verb does not take an object.[1, p.155]</column>
-      <column name="notes_de">In seiner umgangssprachlichen Bedeutung nimmt dieses Verb kein Objekt an.[1, p.155] [AUTOTRANSLATED]</column>
+      <column name="notes">In its slang meaning, this verb does not take an object, and the subject is what is being disparaged. Often, it is used with no overt subject, as if an exclamation.[1, p.155]</column>
+      <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Slangi-merkityksessään tämä verbi ei ota objektia.[1, p.155] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes">Based on the grammar of the non-slang meaning of this verb, it may be that this verb cannot be used adjectivally, in spite of the definition, but this is unclear.</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {natlh 'Iw HIq:sen@@natlh:v:2, 'Iw HIq:n} "The bloodwine is disgusting"[1, p.155]
+▶ {natlh romuluSnganpu':sen@@natlh:v:2, romuluSngan:n, -pu':n} "Romulans are objectionable"[1, p.155]
+▶ {bInatlh:sen@@bI-:v, natlh:v:2} "You are contemptible"[1, p.155]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
