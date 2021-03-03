@@ -862,6 +862,7 @@
       <column name="source">[1] {qep'a' 26 (2019):src}</column>
     </table>
     <table name="mem">
+      <!-- Note: Vulgar search terms have been deliberately left out. -->
       <column name="_id"></column>
       <column name="entry_name">'InSep</column>
       <column name="part_of_speech">n:body</column>
@@ -892,7 +893,6 @@
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <!-- Note: Vulgar search terms have been deliberately left out. -->
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
       <column name="search_tags"></column>
@@ -1911,6 +1911,7 @@ Katso {rav:n:1} surullisuuteen liittyvästä idiomasta.[2] [AUTOTRANSLATED]</col
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- This and {'Iv:n} need homophone numbers because {'Iv:ques} is treated as a noun during analysis, despite being of type "ques". -->
       <column name="_id"></column>
       <column name="entry_name">'Iv</column>
       <column name="part_of_speech">ques:1</column>
