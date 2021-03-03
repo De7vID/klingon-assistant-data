@@ -303,6 +303,13 @@ for search_name in qawHaq:
   pos = search_name_parts[1]
   pos_tag = pos_to_tag[pos]
 
+  # Ugly hack for {'Iv:ques} and {'Iv:n}. Since {'Iv:ques} can take the place of a noun, it is
+  # treated as one during grammar analysis (in the Android app), which means that {'Iv:ques:1}
+  # and {'Iv:n:2} were assigned homophone numbers to distinguish between them. Since we don't
+  # want these to generate one card in the Anki deck, we delete the homophone number here.
+  if entry_name == "'Iv":
+    del search_name_parts[2:]
+
   if len(search_name_parts) == 2:
     # No homophones. Create one note with front and back.
     data = qawHaq[search_name]
