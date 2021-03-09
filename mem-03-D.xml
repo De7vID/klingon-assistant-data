@@ -5519,7 +5519,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="definition_ru">используйте пигментную палочку, рисуйте пигментной палочкой [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">使用顏料棒、塗上顏料棒 [AUTOTRANSLATED]</column>
       <column name="definition_pt">use um bastão de pigmento, pinte com um bastão de pigmento</column>
-      <column name="definition_fi">käyttää maalitikkua?, maalata maalitikulla?</column>
+      <column name="definition_fi">piirtää, maalata, käyttää maalitikkua</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{wev:v}, {rItlh:n}, {DIjwI':n}, {ngoH:v:2}, {vol:n}, {DIj:v:1}</column>
@@ -5546,11 +5546,11 @@ Detta verb kan användas för att producera en visuell bild även om ingen färg
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Tämän verbin kohde on asia, jota koskettaa {rItlh naQ:n}, esimerkiksi {nagh beQ:n}. Koska {DIj:v:2,nolink} on jo liitetty {nagh beQ:n:nolink}: ään, se voidaan jättää pois. Jos kuitenkin maalataan tai piirretään jollekin muulle kuin {nagh beQ:n:nolink}: lle, se on määriteltävä.
+      <column name="notes_fi">Verbin objekti on pinta, jolle maalitikulla ({rItlh naQ:n}) piirretään, yleensä kivitaulu ({nagh beQ:n}). Koska {DIj:v:2,nolink} assosioituu vahvasti {nagh beQ:n:nolink}:iin, on se oletus jos objektia ei ole. Jos pinta on jokin muu kuin {nagh beQ:n:nolink}, on se selkeyden vuoksi hyvä kertoa.
 
-Piirrettävän asian määrittämiseksi voidaan käyttää verbejä {cha':v} tai {nargh:v:0}. Jälkimmäinen tarkoittaa sekä "esiintymistä" että "paeta", ja samanlainen kuin {qon:v}: n käyttö musiikin säveltämisessä tai kirjoitusten kirjoittamisessa, sen käyttö viittaa siihen, että kuva on jo olemassa ja {DIjwI':n} jotenkin mahdollistaa sen paeta ja ilmestyä. Yleensä {nargh:v:0,nolink}: tä käytetään liitetiedoston {-moH:v} kanssa, mutta sitä on myös mahdollista käyttää ilman, vaikka tätä rakennetta kuullaan harvemmin. {cha':v:nolink}-versio on yleisempi epävirallisissa asetuksissa ja {nargh:v:nolink} (yleensä {narghmoH:v:nolink}) -versio on yleisempi kirjallisuudessa tai taiteesta käytävissä keskusteluissa.
+Piirrettävän asia voidaan määritelllä verbillä {cha':v} (näyttää) tai {nargh:v:0} (ilmestyä, paeta, karata). Jälkimmäinen verbi on samanlainen kuin kirjoittamisen ja säveltämisen yhteydessä käytettävä {qon:v}: kuvan ajatellaan olevan jo olemassa ja maalaaja ({DIjwI':n}) mahdollistaa sen pakenemisen ja ilmestymisen. Yleensä {nargh:v:0,nolink}-verbiä käytetään {-moH:v}-päätteen kanssa, vaikka sen käyttäminen ilman päätettä on myös sallittua joskin harvinaisempaa. {cha':v:nolink}-verbin käyttäminen on yleisempää epämuodollisemmissa tilanteissa ja {nargh:v:nolink} (yleensä {narghmoH:v:nolink})-verbi on yleisempi kirjallisuudessa ja taiteessa käytävissä keskusteluissa.
 
-Tätä verbiä voidaan käyttää visuaalisen kuvan tuottamiseen, vaikka siinä ei olisikaan maalia tai pigmenttitikkua, esimerkiksi lyijykynällä tai laitteella tai tietokoneohjelmalla.[2][2][2] [AUTOTRANSLATED]</column>
+Tätä verbiä käytetään myös muunlaisesta piirtämisestä kuin maalitikulla maalaamisesta. Sitä voi käyttää esimerkiksi kynällä tai tietokoneella piirtämisestä.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -5566,7 +5566,13 @@ Tätä verbiä voidaan käyttää visuaalisen kuvan tuottamiseen, vaikka siinä 
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
+      <column name="examples_fi">
+▶ {DI'raq Dacha'meH nagh beQ yIDIj:sen:nolink} "Maalaa lammas kivitaululle!"[2]
+▶ {DI'raq Dacha'meH yIDIj:sen:nolink} "Maalaa kuva lampaasta!"[2]
+▶ {DI'raq DanarghmoHmeH nagh beQ yIDIj:sen:nolink} "Maalaa lammas kivitaululle!"[2]
+▶ {DI'raq DanarghmoHmeH yIDIj:sen:nolink} "Maalaa kuva lampaasta!"[2]
+▶ {narghmeH DI'raq (nagh beQ) yIDIj:sen:nolink} "Maalaa lammas (kivitaululle)!"[2]
+▶ {DI'raq Dacha'meH nav yIDIj:sen:nolink} or {DI'raq DanarghmoHmeH nav yIDIj:sen:nolink} "Piirrä lammas paperille!"[2]</column>
       <column name="search_tags">draw, paint</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
