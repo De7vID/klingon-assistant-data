@@ -2533,7 +2533,7 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
       <column name="notes_pt">Esta é uma posição cerimonial cujo papel é ativar o Farol de Kahless. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä on seremoniallinen asema, jonka tehtävänä on aktivoida Kahlessin majakka. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
-      <column name="components">{Sech:n}, {qeng:n}, {-wI':n}</column>
+      <column name="components">{Sech:n}, {qeng:v}, {-wI':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -11210,7 +11210,7 @@ Tätä voidaan käyttää myös kynttilän puhaltamiseen ({weQ:n}). Toisin kuin 
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
-      <!-- Marc Okrand has said to Quvar that the pun behind this isn't that it's the reverse of "minus", or "negative". -->
+      <!-- Marc Okrand has said to Lieven that the pun behind this isn't that it's the reverse of "minus", or "negative". (KLI mailing list 2015.11.01) -->
       <column name="_id"></column>
       <column name="entry_name">Su'nIm</column>
       <column name="part_of_speech">n</column>
