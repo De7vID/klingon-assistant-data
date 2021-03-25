@@ -895,14 +895,16 @@ Tätä verbiä voidaan käyttää myös ilmaisemaan käsite, että kahdella asia
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ruQ:v}, {'or:v}</column>
-      <column name="notes">This can be applied to the arts, weapons, or spaceships. It refers to any activity which involves having some control over some object. In the context of swords, it can be used with a similar meaning to {yan:v}. In the context of spaceships (see {Duj:n:1}), this refers to controlling a vessel "manually", rather than by computer. See {KGT p.79:src} for an explanation of this verb.</column>
-      <column name="notes_de">Dies kann auf Künste, Waffen oder Raumschiffe angewendet werden. Es bezieht sich auf jede Aktivität, bei der ein Objekt kontrolliert werden muss. Im Zusammenhang mit Schwertern kann es mit einer ähnlichen Bedeutung wie {yan:v} verwendet werden. Im Zusammenhang mit Raumschiffen (siehe {Duj:n:1}) bezieht sich dies auf die "manuelle" Steuerung eines Schiffes und nicht per Computer. Siehe {KGT p.79:src} für eine Erklärung dieses Verbs. [AUTOTRANSLATED]</column>
+      <column name="notes">This can be applied to the arts, weapons, or spaceships. It refers to any activity which involves having some control over some object. In the context of swords, it can be used with a similar meaning to {yan:v}. In the context of spaceships (see {Duj:n:1}), this refers to controlling a vessel "manually", rather than by computer.[1, p.79]
+
+In contrast to {ruQ:v:nolink}, which is more likely to be used when the handling alters the configuration of the thing being manipulated, {raQ:v:nolink} is used when the thing being handled doesn't do anything if it's not being handled. {raQ:v:nolink} is used when manually controlling a spaceship using switches or buttons and so on, as opposed to letting the computer control things automatically. But {ruQ:v:nolink} would be used if someone is manually controlling the thrusters by physically doing something to them directly, like yanking a thruster component, or twisting something, or banging on something.[2]</column>
+      <column name="notes_de"></column>
       <column name="notes_fa"></column>
-      <column name="notes_sv">Detta kan tillämpas på konst, vapen eller rymdskepp. Det hänvisar till alla aktiviteter som innebär att ha viss kontroll över något objekt. I samband med svärd kan det användas med en liknande betydelse som {yan:v}. När det gäller rymdskepp (se {Duj:n:1}) avser detta att manövrera ett fartyg "manuellt" snarare än med dator. Se {KGT p.79:src} för en förklaring av detta verb. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это может быть применено к искусству, оружию или космическим кораблям. Это относится к любой деятельности, которая предполагает некоторый контроль над каким-либо объектом. В контексте мечей, он может быть использован со значением, аналогичным {yan:v}. В контексте космических кораблей (см. {Duj:n:1}) это относится к управлению судном «вручную», а не с помощью компьютера. Смотрите {KGT p.79:src} для объяснения этого глагола. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這可以應用於藝術，武器或宇宙飛船。它是指涉及對某個對象進行某種控制的任何活動。在劍的上下文中，可以使用與{yan:v}類似的含義。在宇宙飛船的背景下（請參閱{Duj:n:1}），這是指「手動」控制船隻，而不是通過計算機。有關此動詞的說明，請參見{KGT p.79:src}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Isso pode ser aplicado às artes, armas ou naves espaciais. Refere-se a qualquer atividade que envolva ter algum controle sobre algum objeto. No contexto de espadas, pode ser usado com um significado semelhante ao {yan:v}. No contexto de naves espaciais (consulte {Duj:n:1}), isso se refere ao controle de uma embarcação "manualmente", e não por computador. Veja {KGT p.79:src} para uma explicação deste verbo. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tätä voidaan soveltaa taiteisiin, aseisiin tai avaruusaluksiin. Se viittaa mihin tahansa toimintaan, johon liittyy jonkinlainen hallinta jonkin objektin suhteen. Miekkojen yhteydessä sitä voidaan käyttää samanlaisella merkityksellä kuin {yan:v}. Avaruusalusten yhteydessä (katso {Duj:n:1}) tämä tarkoittaa aluksen hallintaa "manuaalisesti" eikä tietokoneella. Katso selitys tälle verbille kohdasta {KGT p.79:src}. [AUTOTRANSLATED]</column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -921,9 +923,10 @@ Tätä verbiä voidaan käyttää myös ilmaisemaan käsite, että kahdella asia
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {KGT:src}</column>
+      <column name="source">[1] {KGT:src}, [2] {KLI mailing list 2021.03.22:src}</column>
     </table>
     <table name="mem">
+      <!-- No apparent relation to {raQ:n} or {raQ:v} or {po':v}. -->
       <column name="_id"></column>
       <column name="entry_name">raQpo'</column>
       <column name="part_of_speech">n:being</column>
@@ -939,7 +942,6 @@ Tätä verbiä voidaan käyttää myös ilmaisemaan käsite, että kahdella asia
       <column name="antonyms"></column>
       <column name="see_also">{ghIQ:v}, {leng:v}, {'orwI':n}</column>
       <column name="notes"></column>
-      <!-- No apparent relation to {raQ:n} or {raQ:v} or {po':v}. -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6272,7 +6274,7 @@ Tämä viittaa myös musteeseen, kuten kumileimasimeen ({toqwIn:n}).[2] [AUTOTRA
       <column name="notes_zh_HK">這可能是{naj:v}「夢」或{SIQ:v}「忍受」和其他一些動詞的對象，但通常不是{ghaj:v}「有」（除非您從某種意義上說是一場噩夢）。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este pode ser o objeto de {naj:v} "sonho" ou {SIQ:v} "resistir" e alguns outros verbos, mas geralmente não {ghaj:v} "ter" (a menos que você literalmente possua um pesadelo). [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä voi olla {naj:v} "unelma" tai {SIQ:v} "kestää" ja joidenkin muiden verbien kohde, mutta yleensä ei {ghaj:v} "ole" (ellei sinulla ole kirjaimellisesti painajaista). [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">One of the tracks on the Robin Williams comedy album "Reality... What a Concept" is named "Shakespeare (A Meltdowner's Nightmare)".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8883,7 +8885,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{raQ:v}, {SeH:v}, {ngep:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This refers to controlling or handling something that can or may do something on its own (or due to some source of power), but the manual intervention causes it to do something else or behave differently. It is more likely to be used when the handling alters the configuration of the thing being manipulated, in comparison to {raQ:v:nolink} (which is used if the thing being handled doesn't do anything if it's not being handled). One might {ruQ:v:nolink} a robot vacuum cleaner by picking it up and reorienting it. One would not {ruQ:v:nolink} a {betleH:n} (unless it's an adjustable {betleH:n:nolink} of some sort). If one were to {ruQ:v:nolink} a work of art, that would suggest the artwork is manipulable in some way. Controlling the thrusters by pushing a button or two would be {raQ:v:nolink}, but manually controlling them by physically doing something to them directly, like yanking a thruster component, twisting something, or banging on something, would be {ruQ:v}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -8909,7 +8911,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KLI mailing list 2021.03.22:src}}</column>
     </table>
     <table name="mem">
       <!-- Note: When components are specified with "@@", don't annotate with ":sen", to allow user to edit the search query. -->
