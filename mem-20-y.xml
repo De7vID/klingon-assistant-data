@@ -2502,49 +2502,108 @@ Não confunda isso com uma sociedade no sentido cultural, para a qual veja {nugh
       <column name="search_tags_fi"></column>
       <column name="source">[1] {s.k 1998.12.07:src} (reprinted in {HQ 8.1, p.9, Mar. 1999:src}), [2] {Klingon Monopoly:src}</column>
     </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">yer ghajwI' chaw'</column>
-      <column name="part_of_speech">n:deriv</column>
-      <column name="definition">title deed</column>
-      <column name="definition_de">Eigentumsnachweis für Grundstück</column>
-      <column name="definition_fa">سند [AUTOTRANSLATED]</column>
-      <column name="definition_sv">titelbeteende [AUTOTRANSLATED]</column>
-      <column name="definition_ru">титул на право собственности [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">地契 [AUTOTRANSLATED]</column>
-      <column name="definition_pt">título de propriedade</column>
-      <column name="definition_fi">saantokirja, lainhuudatustodistus, omistusoikeustodistus</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">Note that Klingons consider title deeds to be a type of {chaw':n}, rather than a type of {Qoyje':n}.[2]</column>
-      <column name="notes_de">Beachten Sie, dass Klingonen Eigentumsurkunden als eine Art von {chaw':n} und nicht als eine Art von {Qoyje':n}.[2] betrachten [AUTOTRANSLATED]</column>
-      <column name="notes_fa">توجه داشته باشید که کلینگون به جای نوعی از {Qoyje':n}.[2] ، اعمال عنوان را نوعی {chaw':n} می داند. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Observera att Klingons anser titelakt som en typ av {chaw':n}, snarare än en typ av {Qoyje':n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Обратите внимание, что клингоны рассматривают титулы как тип {chaw':n}, а не тип {Qoyje':n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">請注意，克林崗人將產權契據視為{chaw':n}的一種，而不是{Qoyje':n}的一種。[2] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Observe que os Klingons consideram os títulos de propriedade como um tipo de {chaw':n}, em vez de um tipo de {Qoyje':n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
-      <column name="components">{yer:n}, {ghajwI':n}, {chaw':n}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
-      <column name="search_tags">property, ownership</column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
-      <column name="source">[1] {Klingon Monopoly:src}, [2] {KLI mailing list 2015.05.29:src}</column>
-    </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">yer chaw'</column>
+          <column name="part_of_speech">n:alt,deriv</column>
+          <column name="definition">{yer ghajwI' chaw':n}</column>
+          <column name="definition_de">{yer ghajwI' chaw':n}</column>
+          <column name="definition_fa">{yer ghajwI' chaw':n}</column>
+          <column name="definition_sv">{yer ghajwI' chaw':n}</column>
+          <column name="definition_ru">{yer ghajwI' chaw':n}</column>
+          <column name="definition_zh_HK">{yer ghajwI' chaw':n}</column>
+          <column name="definition_pt">{yer ghajwI' chaw':n}</column>
+          <column name="definition_fi">{yer ghajwI' chaw':n}</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{yer:n}, {chaw':n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {KLI mailing list 2021.03.26:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">yer ghajwI' chaw'</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">title deed</column>
+          <column name="definition_de">Eigentumsnachweis für Grundstück</column>
+          <column name="definition_fa">سند [AUTOTRANSLATED]</column>
+          <column name="definition_sv">titelbeteende [AUTOTRANSLATED]</column>
+          <column name="definition_ru">титул на право собственности [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">地契 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">título de propriedade</column>
+          <column name="definition_fi">saantokirja, lainhuudatustodistus, omistusoikeustodistus</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">Note that Klingons consider title deeds to be a type of {chaw':n}, rather than a type of {Qoyje':n}.[2]
+
+This can apply to things other than land or property or real estate. It just means the legally recognized right to control something (e.g., technology), so it could for example refer to something which is patented. It is often shortened to {yer chaw':n:nolink}.[3]</column>
+          <column name="notes_de">Beachten Sie, dass Klingonen Eigentumsurkunden als eine Art von {chaw':n} und nicht als eine Art von {Qoyje':n}.[2] betrachten
+
+Dies kann für andere Dinge als Grundstücke oder Immobilien gelten. Es bedeutet nur das gesetzlich anerkannte Recht, etwas zu kontrollieren (z. B. Technologie), so dass es sich beispielsweise auf etwas beziehen könnte, das patentiert ist. Es wird oft zu {yer chaw':n:nolink}.[3] gekürzt [AUTOTRANSLATED]</column>
+          <column name="notes_fa">توجه داشته باشید که کلینگون ها سند مالکیت را به جای یک نوع {Qoyje':n} ، نوعی {chaw':n} می دانند. [2]
+
+این می تواند در مورد چیزهایی غیر از زمین یا املاک یا املاک و مستغلات اعمال شود. این فقط به معنای حق شناخته شده قانونی برای کنترل چیزی است (به عنوان مثال ، فناوری) ، بنابراین می تواند به عنوان مثال به چیزی که ثبت شده است اشاره کند. اغلب به {yer chaw':n:nolink}.[3] کوتاه می شود [AUTOTRANSLATED]</column>
+          <column name="notes_sv">Observera att Klingons betraktar titelhandlingar som en typ av {chaw':n}, snarare än en typ av {Qoyje':n}.[2].
+
+Detta kan gälla andra saker än mark eller egendom eller fastigheter. Det betyder bara den juridiskt erkända rätten att kontrollera något (t.ex. teknik), så det kan till exempel referera till något som är patenterat. Det förkortas ofta till {yer chaw':n:nolink}.[3] [AUTOTRANSLATED]</column>
+          <column name="notes_ru">Обратите внимание, что клингоны рассматривают титулы как тип {chaw':n}, а не как тип {Qoyje':n}.[2]
+
+Это может относиться к вещам, отличным от земли, собственности или недвижимости. Это просто означает юридически признанное право контролировать что-либо (например, технологию), поэтому оно может, например, относиться к чему-то, что запатентовано. Его часто сокращают до {yer chaw':n:nolink}.[3]. [AUTOTRANSLATED]</column>
+          <column name="notes_zh_HK">請注意，克林崗人將產權契據視為{chaw':n}的一種，而不是{Qoyje':n}的一種。[2]
+
+這可以適用於土地，財產或房地產以外的事物。它僅表示控制某物（例如技術）的法律認可權利，因此它可以指例如獲得專利的某物。通常將其縮短為{yer chaw':n:nolink}.[3] [AUTOTRANSLATED]</column>
+          <column name="notes_pt">Observe que os Klingons consideram os títulos de propriedade como um tipo de {chaw':n}, em vez de um tipo de {Qoyje':n}.[2]
+
+Isso pode se aplicar a outras coisas além de terrenos, propriedades ou imóveis. Significa apenas o direito legalmente reconhecido de controlar algo (por exemplo, tecnologia), então pode, por exemplo, referir-se a algo que é patenteado. Muitas vezes é abreviado para {yer chaw':n:nolink}.[3] [AUTOTRANSLATED]</column>
+          <column name="notes_fi">Huomaa, että klingonit pitävät otsakkeita {chaw':n} -tyyppinä {Qoyje':n} -tyypin sijasta.[2]
+
+Tämä voi koskea muita asioita kuin maa, omaisuus tai kiinteistö. Se tarkoittaa vain laillisesti tunnustettua oikeutta hallita jotain (esim. Tekniikkaa), joten se voisi viitata esimerkiksi patentoituun. Se lyhennetään usein muotoon {yer chaw':n:nolink}.[3] [AUTOTRANSLATED]</column>
+          <column name="hidden_notes"></column>
+          <column name="components">{yer:n}, {ghajwI':n}, {chaw':n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags">property, ownership</column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {Klingon Monopoly:src}, [2] {KLI mailing list 2015.05.29:src}, [3] {KLI mailing list 2021.03.26:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yergh</column>
@@ -4658,6 +4717,49 @@ Em {TNK:src}, esta palavra é usada para traduzir "camisa" e {yIvbeH SeQHa':n:no
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2013:src}, [2] {Star Trek Into Darkness:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">yI'var</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">therapy</column>
+      <column name="definition_de">Therapie</column>
+      <column name="definition_fa">درمان [AUTOTRANSLATED]</column>
+      <column name="definition_sv">terapi [AUTOTRANSLATED]</column>
+      <column name="definition_ru">терапия [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">治療</column>
+      <column name="definition_pt">terapia [AUTOTRANSLATED]</column>
+      <column name="definition_fi">hoito [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{rach:v}</column>
+      <column name="notes">This refers to a procedure for healing.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {KLI mailing list 2021.03.26:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
