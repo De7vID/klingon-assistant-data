@@ -3551,7 +3551,7 @@ It's unclear what sense of "fair" is meant by this word.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mebpa'mey</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv,plural</column>
       <column name="definition">hotel</column>
       <column name="definition_de">Hotel</column>
       <column name="definition_fa">هتل</column>
@@ -3572,7 +3572,7 @@ It's unclear what sense of "fair" is meant by this word.</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{meb:n}, {pa':n:1}, {-mey:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
