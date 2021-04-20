@@ -647,23 +647,25 @@ Triljoonille luvut muodostavat elementit {SaDSaghan:n:num@@SaD:n, Saghan:n} tai 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tlhay':v}, {Ha'DIbaH:n:1}, {yach:v:1}</column>
-      <column name="notes">Animals kept by pets as Klingons include the {targh:n}, the {Qogh:n}, and the {'er:n}. Terrans also keep an animal resembling the {vIghro':n} as pets.</column>
-      <column name="notes_de">Zu den von Haustieren als Klingonen gehaltenen Tieren gehören das {targh:n}, das {Qogh:n} und das {'er:n}. Terraner halten auch ein Tier, das dem {vIghro':n} ähnelt, als Haustiere. [AUTOTRANSLATED]</column>
+      <column name="notes">Animals kept by pets as Klingons include the {targh:n}, the {Qogh:n}, and the {'er:n}. Terrans also keep an animal resembling the {vIghro':n} as pets.
+
+Commands given to pets should be preceded by the word {SuH:excl}, and always be in clipped Klingon.[2]</column>
+      <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
-      <column name="notes_zh_HK">寵物作為克林崗人飼養的動物包括{targh:n}，{Qogh:n}和{'er:n}。人族還飼養了類似於{vIghro':n}的動物作為寵物。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Os animais mantidos por animais de estimação como os Klingons incluem o {targh:n}, o {Qogh:n} e o {'er:n}. Os terráqueos também mantêm um animal parecido com o {vIghro':n} como animais de estimação. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Eläimet, joita lemmikkieläimet pitävät klingoneina, ovat {targh:n}, {Qogh:n} ja {'er:n}. Terraanit pitävät lemmikkinä myös {vIghro':n}: ää muistuttavaa eläintä. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">The English translation of the sentence from {Star Trek Constellations:src} does not appear in the book, but in the author's annotations which was a separate document.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {chobelHa'moH, DI'qar. SajlIj 'oHbe' quvwIj'e'.:sen:nolink} "You disappoint me, D'Kar. My honor is not your plaything."[2]</column>
+▶ {chobelHa'moH, DI'qar. SajlIj 'oHbe' quvwIj'e'.:sen:nolink} "You disappoint me, D'Kar. My honor is not your plaything."[3]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
-▶ {chobelHa'moH, DI'qar. SajlIj 'oHbe' quvwIj'e'.:sen:nolink} "Ты разочаровал меня, Д'Кар. Моя честь не твоя игрушка."[2]</column>
+▶ {chobelHa'moH, DI'qar. SajlIj 'oHbe' quvwIj'e'.:sen:nolink} "Ты разочаровал меня, Д'Кар. Моя честь не твоя игрушка."[3]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -675,7 +677,7 @@ Triljoonille luvut muodostavat elementit {SaDSaghan:n:num@@SaD:n, Saghan:n} tai 
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {Star Trek Constellations p.259:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {PK:src}, [3] {Star Trek Constellations p.259:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -10623,7 +10625,7 @@ Tätä voidaan käyttää myös kynttilän puhaltamiseen ({weQ:n}). Toisin kuin 
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{ghIqtal:excl}, {Hay'chu':v}, {HIvneS:v}, {HubneS:v}</column>
-          <column name="notes"></column>
+          <column name="notes">This is just the verb {Suv:v} with the suffix {-chu':v}. From the Klingon point of view, to fight perfectly is to fight to the death.[1]</column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
