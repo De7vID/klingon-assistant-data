@@ -3373,7 +3373,7 @@ Tätä verbiä voidaan myös käyttää ilmaisemaan, että subjekti on kääntyn
       <column name="synonyms"></column>
       <column name="antonyms">{ghun:v:2}, {tuj:v}</column>
       <column name="see_also">{bIr:v}, {buj:v}, {Hat:n}</column>
-      <column name="notes">The temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon.[2]</column>
+      <column name="notes">The temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon (but the person wearing it is).[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3381,7 +3381,7 @@ Tätä verbiä voidaan myös käyttää ilmaisemaan, että subjekti on kääntyn
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">The clarification that temperature words are not about effect or perception was made during the Q &amp; A session at {qep'a' 27 (2020):src}.</column>
+      <column name="hidden_notes">The clarification about clothing was made during the Q &amp; A session at {qep'a' 27 (2020):src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7046,7 +7046,7 @@ Krotmagin alueella kaiuttimet korvaavat {b:sen:nolink}: n {m:sen:nolink}: lla ja
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qovpatlh</column>
-      <column name="part_of_speech">excl</column>
+      <column name="part_of_speech">excl:epithet</column>
       <column name="definition">epithet</column>
       <column name="definition_de">Beleidigung</column>
       <column name="definition_fa">اپیدرم [AUTOTRANSLATED]</column>
@@ -7368,7 +7368,7 @@ Os klingons consideram os títulos de propriedade ({yer ghajwI' chaw':n}) como u
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qoy'</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:i_c</column>
       <column name="definition">spill</column>
       <column name="definition_de">auslaufen, überschwappen</column>
       <column name="definition_fa">ریختن [AUTOTRANSLATED]</column>
@@ -7391,7 +7391,7 @@ Os klingons consideram os títulos de propriedade ({yer ghajwI' chaw':n}) como u
       <column name="hidden_notes">Don't "cry" over spilled milk.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {HIq vIQoy'moHpu' jay'.:sen:nolink}</column>
+▶ {HIq vIQoy'moHpu' jay'.:sen@@HIq:n, vI-:v, Qoy':v, -moH:v, -pu':v, jay':adv}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>

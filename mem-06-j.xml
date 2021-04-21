@@ -728,13 +728,15 @@ Jongleeraaminen eli esineiden heittäminen ilmaan ja kiinniottaminen rytmikkää
       <column name="notes_zh_HK"></column>
       <column name="notes_pt">Se o prefixo do verbo indicar um objeto, o sujeito está indo para um destino associado ao objeto, que pode ser marcado com {-Daq:n}. Se o prefixo do verbo não indicar nenhum objeto, o destino não será especificado. Nesse caso, um substantivo marcado com {-Daq:n:nolink} indica o local onde o "ir" está ocorrendo.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fi">Jos verbin etuliite osoittaa objektin, kohde menee kohteeseen liittyvään kohteeseen, joka voidaan merkitä {-Daq:n}-merkinnällä. Jos verbin etuliite ei osoita mitään objektia, kohde on määrittelemätön. Tällöin {-Daq:n:nolink}: lla merkitty substantiivi osoittaa sijainnin, jossa "menee".[2] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">Some canon sentences don't seem to follow the grammar described in {HQ 7.4:src}, instead using a prefix indicating no object to indicate travel to the destination marked with {-Daq:n:nolink}.</column>
+      <column name="hidden_notes">Some canon sentences don't seem to follow the grammar described in {HQ 7.4:src}, instead using a prefix indicating no object to indicate travel to the destination marked with {-Daq:n:nolink}.
+
+In {TKD 7.1:src}, the sentence {jolpa'Daq yIjaH:sen:nolink} is used to illustrate that noun suffixes may be dropped in clipped Klingon, producing the sentence {jolpa' yIjaH:sen:nolink}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {bIQtIqDaq jIjaH.:sen:nolink} "I go in the river."  This means: I'm moving along in the river, traveling in the river.[2]
 ▶ {bIQtIq vIjaH.:sen:nolink} or {bIQtIqDaq vIjaH.:sen:nolink} (the {-Daq:n:nolink} is optional)  This means: I'm moving along to the river, traveling to the river.[2]
 ▶ {bIghHa' yIjaH:sen:nolink} "Go to jail"[3]
-▶ {Ha', ... wIjaH!:sen} "Come, let's go to ... !"</column>
+▶ {Ha', ... wIjaH!:sen} </column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -742,7 +744,7 @@ Jongleeraaminen eli esineiden heittäminen ilmaan ja kiinniottaminen rytmikkää
 ▶ {bIQtIqDaq jIjaH.:sen:nolink} "Я иду в реку."  Это значит: "Я перехожу через реку, пересекаю реку".[2]
 ▶ {bIQtIq vIjaH.:sen:nolink} или {bIQtIqDaq vIjaH.:sen:nolink} ({-Daq:n:nolink} опционален)  Это значит: "Я перехожу через реку, пересекаю реку".[2]
 ▶ {bIghHa' yIjaH:sen:nolink} "Отправляйся в тюрьму"[3]
-▶ {Ha', ... wIjaH!:sen} "Давай, пойдем ... !"</column>
+▶ {Ha', ... wIjaH!:sen} </column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -4010,7 +4012,7 @@ All of the following can be translated as "I participate in the {qepHom@@qep:n, 
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">register</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
