@@ -4100,9 +4100,9 @@ Kun sitä käytetään esineisiin, jotka tulevat pareittain, kuten sukat ja käs
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- Not deriv because components uncertain. -->
       <column name="_id"></column>
       <column name="entry_name">nenghep</column>
-      <!-- Not deriv because components uncertain. -->
       <column name="part_of_speech">n:fic</column>
       <column name="definition">Age of Ascension</column>
       <column name="definition_de">Reifealter, Reife des Aufsteigens</column>
@@ -4123,7 +4123,7 @@ Kun sitä käytetään esineisiin, jotka tulevat pareittain, kuten sukat ja käs
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The word "painsticks" on {SkyBox 9:src} is a misspelling. The correct spelling is "painstiks".</column>
       <column name="components">{nen:n} or {nen:v}, {ghep:n:hyp}</column>
       <column name="examples">
 ▶ {qaSDI' nenghep, qa' patlh chu' chav tlhIngan SuvwI'. poSDaq nIHDaq je QamtaHvIS SuvwI'pu'. chaH jojDaq yItnIS lopwI'. luchovmeH 'oy'naQmey lo'.:sen:nolink}
