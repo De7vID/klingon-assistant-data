@@ -3409,18 +3409,18 @@ Sanoa "kun olin X-vuotias", rakennus on esimerkiksi {qaStaHvIS DISwIj javDIch...
       <column name="definition_ru">экипаж, член экипажа</column>
       <column name="definition_zh_HK">船員</column>
       <column name="definition_pt">tripulação</column>
-      <column name="definition_fi">miehistö; miehistön jäsen, matruusi, sotamies</column>
+      <column name="definition_fi">(aluksen) miehistö; miehistön jäsen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">A rank given to enlisted personnel in the Defense Force ({Hubbeq:n}).</column>
-      <column name="notes_de">Ein Rang, der dem in der Defence Force eingesetzten Personal ({Hubbeq:n}) verliehen wird. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">رتبه ای که به پرسنل ثبت نام شده در نیروی دفاعی داده می شود ({Hubbeq:n}). [AUTOTRANSLATED]</column>
-      <column name="notes_sv">En rang som ges till anställd personal i försvarsmakten ({Hubbeq:n}). [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Звание, присвоенное военнослужащим в Силах обороны ({Hubbeq:n}). [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">國防軍中被徵募人員的等級。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Uma classificação dada ao pessoal alistado na Força de Defesa ({Hubbeq:n}). [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Miehistön jäsenen sotilasarvo puolustusvoimissa ({Hubbeq:n}).</column>
+      <column name="see_also">{QaS:n:1h}, {yaS:n}</column>
+      <column name="notes">This refers to non-commissioned crew that serve on ships. The word {QaS:n:1h} can be used for non-officers regardless of whether they serve on a ship or not.[2, p. 50]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi">Tämä viittaa aluksen miehistöön lukuunottamatta upseereita. Sanaa {QaS:n:1h} voi käyttää ei-upseereista riippumatta siitä, palvelevatko he aluksella vai eivät.[2, p. 50]</column>
       <column name="hidden_notes">A crewman is at "beck" and call.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3438,8 +3438,8 @@ Sanoa "kun olin X-vuotias", rakennus on esimerkiksi {qaStaHvIS DISwIj javDIch...
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="search_tags_fi">matruusi</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3452,7 +3452,7 @@ Sanoa "kun olin X-vuotias", rakennus on esimerkiksi {qaStaHvIS DISwIj javDIch...
       <column name="definition_ru">Сержантский член экипажа</column>
       <column name="definition_zh_HK">船員宿舍</column>
       <column name="definition_pt">quartos de tripulação não comissionados</column>
-      <column name="definition_fi">alipäällystön tilat?</column>
+      <column name="definition_fi">miehistön tilat</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{pa'mey:n:hyp}</column>
@@ -3463,7 +3463,7 @@ Sanoa "kun olin X-vuotias", rakennus on esimerkiksi {qaStaHvIS DISwIj javDIch...
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi"></column>
+      <column name="notes_fi">Miehistö viittaa tässä muihin kuin upseereihin.</column>
       <column name="hidden_notes"></column>
       <column name="components">{beq:n}, {pa':n:1}, {-mey:n}</column>
       <column name="examples"></column>
@@ -11948,7 +11948,7 @@ Tämä voi viitata {DuH:n}: n "luokkaan" (eli siihen liittyvään ryhmään) {Se
       <column name="notes_ru">Это высший ранг {QaS:n:1h}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是{QaS:n:1h}的最高等級。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esta é a classificação mais alta de {QaS:n:1h}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on {QaS:n:1h}: n korkein sijoitus. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on miehistön ({QaS:n:1h}) korkein sotilasarvo.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
