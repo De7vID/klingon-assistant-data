@@ -1926,7 +1926,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="entry_name">batlh malja' DaHuq.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">You transact business honorably.</column>
-      <column name="definition_de">Sie wickeln Geschäfte ehrenvoll ab.</column>
+      <column name="definition_de">Du wickelst Geschäfte ehrenvoll ab.</column>
       <column name="definition_fa">تجارت را با افتخار بکار می گیرید [AUTOTRANSLATED]</column>
       <column name="definition_sv">Du gör affärer med heder.</column>
       <column name="definition_ru">Ты ведешь дела благородно.</column>
@@ -3409,19 +3409,21 @@ Sanoa "kun olin X-vuotias", rakennus on esimerkiksi {qaStaHvIS DISwIj javDIch...
       <column name="definition_ru">экипаж, член экипажа</column>
       <column name="definition_zh_HK">船員</column>
       <column name="definition_pt">tripulação</column>
-      <column name="definition_fi">(aluksen) miehistö; miehistön jäsen</column>
+      <column name="definition_fi">(aluksen) miehistön jäsen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{QaS:n:1h}, {yaS:n}</column>
-      <column name="notes">This refers to non-commissioned crew that serve on ships. The word {QaS:n:1h} can be used for non-officers regardless of whether they serve on a ship or not.[2, p. 50]</column>
-      <column name="notes_de"></column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt"></column>
-      <column name="notes_fi">Tämä viittaa aluksen miehistöön lukuunottamatta upseereita. Sanaa {QaS:n:1h} voi käyttää ei-upseereista riippumatta siitä, palvelevatko he aluksella vai eivät.[2, p. 50]</column>
-      <column name="hidden_notes">A crewman is at "beck" and call.</column>
+      <column name="see_also">{QaS:n:1h}</column>
+      <column name="notes">This refers to a member of a ship's company ({wey:n}) who is not an officer ({yaS:n}).[2]</column>
+      <column name="notes_de">Dies bezieht sich auf ein Mitglied einer Schiffsgesellschaft ({wey:n}), das kein Offizier ({yaS:n}) ist .[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این به عضوی از شرکت کشتی ({wey:n}) اشاره دارد که افسر نیست ({yaS:n}). [2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta avser en medlem i ett fartygs företag ({wey:n}) som inte är officer ({yaS:n}).[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это относится к члену судовой компании ({wey:n}), который не является офицером ({yaS:n}).[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是指不是高級船員（{yaS:n}）的船舶公司成員（{wey:n}）。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Refere-se a um membro de uma companhia marítima ({wey:n}) que não é um oficial ({yaS:n}) .[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä viittaa aluksen miehistön ({wey:n}) jäseneen, joka ei ole upseeri ({yaS:n}).[2]</column>
+      <column name="hidden_notes">A crewman is at "beck" and call.
+
+In the episode {DS9 - Sons and Daughters:src}, this word (Anglicised "bekk") was treated as a rank given to enlisted personnel in the Klingon Defense Force ({tlhIngan Hubbeq:n}).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3431,7 +3433,7 @@ Sanoa "kun olin X-vuotias", rakennus on esimerkiksi {qaStaHvIS DISwIj javDIch...
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">crewwoman</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -3439,7 +3441,7 @@ Sanoa "kun olin X-vuotias", rakennus on esimerkiksi {qaStaHvIS DISwIj javDIch...
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi">matruusi</column>
-      <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.50:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -9864,7 +9866,7 @@ On myös siihen liittyvä idioomi {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}. [AU
       <column name="entry_name">boS</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">collect</column>
-      <column name="definition_de">sammeln</column>
+      <column name="definition_de">sammeln, einsammeln, ansammeln</column>
       <column name="definition_fa">جمع کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">samla in, hämta in</column>
       <column name="definition_ru">Собирать, коллекционировать</column>

@@ -6727,7 +6727,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="_id"></column>
       <column name="entry_name">jol</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">transport beam</column>
+      <column name="definition">transporter beam</column>
       <column name="definition_de">Transporterstrahl</column>
       <column name="definition_fa">پرتو حمل و نقل [AUTOTRANSLATED]</column>
       <column name="definition_sv">transporterstråle</column>
@@ -6746,7 +6746,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">This is better known as a "transporter beam", but {TKD:src} uses "transport beam" consistently.</column>
+      <column name="hidden_notes">This is defined and translated consistently as "transport beam" throughout {TKD:src}. However, it is more commonly known as the "transporter beam", and this definition is given in the {KCD:src} Language Lab.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {jol yIchu'!:sen}</column>
@@ -6757,7 +6757,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags">transporter beam</column>
+      <column name="search_tags">transport beam</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -6765,7 +6765,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KCD:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6816,7 +6816,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="_id"></column>
       <column name="entry_name">jolpa'</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">transport room</column>
+      <column name="definition">transporter room</column>
       <column name="definition_de">Transporterraum</column>
       <column name="definition_fa">اتاق حمل و نقل [AUTOTRANSLATED]</column>
       <column name="definition_sv">transporterrum</column>
@@ -6835,7 +6835,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">This is usually called the "transporter room", but it is written as "transport room" throughout {TKD:src}.</column>
+      <column name="hidden_notes">This is defined and translated consistently as "transport room" throughout {TKD:src}. However, it is more commonly known as the "transporter room", and this definition is used on the {BoP:src} poster.</column>
       <column name="components">{jol:n}, {pa':n:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6845,7 +6845,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags">transporter room</column>
+      <column name="search_tags">transport room</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -6853,7 +6853,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {BoP:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6878,7 +6878,9 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">According to {TKD 7.1:src}, this is the clipped version of {jolpa'Daq yIjaH:sen:nolink}.</column>
+      <column name="hidden_notes">According to {TKD 7.1:src}, this is the clipped version of {jolpa'Daq yIjaH:sen:nolink}.
+
+The term "transport room" (rather than the more common "transporter room") is used throughout {TKD:src}, and this usage is preserved here.</column>
       <column name="components">{jolpa':n}, {yI-:v}, {jaH:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6888,7 +6890,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">Go to the transporter room!</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -7009,7 +7011,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="notes_zh_HK">觀看Gowron這樣說：{YouTube video:url:http://youtu.be/Tvtfxst0IJ8} [AUTOTRANSLATED]</column>
       <column name="notes_pt">Assista Gowron dizer o seguinte: {YouTube video:url:http://youtu.be/Tvtfxst0IJ8} [AUTOTRANSLATED]</column>
       <column name="notes_fi">Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/Tvtfxst0IJ8} [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The term "transport beam" (rather than the more common "transporter beam") is used throughout {TKD:src}, and this usage is preserved here.</column>
       <column name="components">{jol:n}, {yI-:v}, {chu':v:2}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7019,7 +7021,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", Lady Di (Diana, P
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">Activate the transporter beam!</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
