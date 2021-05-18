@@ -10299,14 +10299,16 @@ Huomaa myös, että "Mitkä ovat tilauksesi?" ilmaistaan ​​Klingonissa nimel
       <column name="examples">
 ▶ {yIH nuq?:sen:nolink} "What is a tribble?"[2]
 ▶ {nuq mI'lIj?:sen}
-▶ {Dochvam nuq?:sen}</column>
+▶ {Dochvam nuq?:sen}
+▶ {nuq Datlhutlh DaneH?:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
 ▶ {yIH nuq?:sen:nolink} "Что такое триббл?"[2]
 ▶ {nuq mI'lIj?:sen}
-▶ {Dochvam nuq?:sen}</column>
+▶ {Dochvam nuq?:sen}
+▶ {nuq Datlhutlh DaneH?:sen}</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -10725,6 +10727,49 @@ Katso oppitunti tästä sanasta: {YouTube video:url:http://youtu.be/auqS6FR_RDE}
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}, [2] {KGT p.184:src}, [3] {msn 1997.09.01:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">nuq Datlhutlh DaneH?</column>
+      <column name="part_of_speech">sen:phr</column>
+      <column name="definition">What do you want to drink?</column>
+      <column name="definition_de">Was willst du trinken [AUTOTRANSLATED]</column>
+      <column name="definition_fa">چی می خوای بنوشی؟ [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Vad vill du dricka? [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Что ты хочешь выпить? [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">你想喝什麼？ [AUTOTRANSLATED]</column>
+      <column name="definition_pt">O que você quer beber? [AUTOTRANSLATED]</column>
+      <column name="definition_fi">Mitä haluat juoda? [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{nuq:ques}, {Da-:v}, {tlhutlh:v}, {Da-:v}, {neH:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {TNK:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
