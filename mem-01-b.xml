@@ -2917,7 +2917,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bej</column>
-      <column name="part_of_speech">v:2,is,slang</column>
+      <column name="part_of_speech">v:2,t_c,slang</column>
       <column name="definition">be sure, be definite, be positive, be certain</column>
       <column name="definition_de">sicher sein, definitiv sein, eindeutig sein</column>
       <column name="definition_fa">مطمئن باشید، مطمئن باشید، مثبت باشید، مطمئن باشید [AUTOTRANSLATED]</column>
@@ -2926,10 +2926,10 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="definition_zh_HK">確定、明確</column>
       <column name="definition_pt">ter certeza, ser definitivo, ser positivo, ter certeza</column>
       <column name="definition_fi">olla varma (jostakin)</column>
-      <column name="synonyms"></column>
+      <column name="synonyms">{na':v:2,slang}</column>
       <column name="antonyms"></column>
-      <column name="see_also">{-bej:v}, {DIch:n}, {na':v:2,slang}</column>
-      <column name="notes"></column>
+      <column name="see_also">{-bej:v}, {DIch:n}</column>
+      <column name="notes">This may be used when there is an object (unlike {na':v:2,slang,nolink}).[1, p.145]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2939,7 +2939,10 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {jIbej.:sen:nolink} "I am positive [about something I just said]."[1, p.145]
+▶ {bIbej'a'?:sen:nolink} "Are you sure?"[1, p.145]
+▶ {HIvrup 'e' vIbej.:sen:nolink} "I am positive they're read to attack."[1, p.145]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
