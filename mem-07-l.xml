@@ -3388,7 +3388,7 @@ Katso sivulta {Dav:v:1} liikkuminen sivulle pyörimättä tai kiinnittämättä 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">leSpoH</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">shore leave</column>
       <column name="definition_de">Landurlaub</column>
       <column name="definition_fa">ساحل ترک [AUTOTRANSLATED]</column>
@@ -3409,7 +3409,7 @@ Katso sivulta {Dav:v:1} liikkuminen sivulle pyörimättä tai kiinnittämättä 
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{leS:n}, {poH:n}</column>
+      <column name="components">{leS:v}, {poH:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
