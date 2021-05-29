@@ -7491,7 +7491,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lopno'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">party, celebration (a specific type of Klingon party or celebration)</column>
       <column name="definition_de">Feier, Fest, "offenes Haus"</column>
       <column name="definition_fa">حزب، جشن [AUTOTRANSLATED]</column>
@@ -7511,7 +7511,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="notes_zh_HK">這項活動邀請了祖先的精神。[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é um evento para o qual os espíritos dos antepassados ​​são convidados.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä on tapahtuma, johon kutsutaan esi-isien henkiä.[2] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">The gloss in {KGT:src} says simply "party, celebration". The definition has been changed for clarity based on the information from {KCD:src}.</column>
+      <column name="hidden_notes">The gloss in {KGT:src} says simply "party, celebration". The definition has been changed for clarity based on the information from {KCD:src}. In {KCD:src}, Vok says, "The celebration was declared a {lopno':n:nolink}. You have invited all the spirits of our Klingon ancestors." This suggests that a {lopno':n:nolink} is a type of party or celebration, rather than a specific event.</column>
       <column name="components">{lop:n}, {no':n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
