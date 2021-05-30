@@ -3388,7 +3388,7 @@ Katso sivulta {Dav:v:1} liikkuminen sivulle pyörimättä tai kiinnittämättä 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">leSpoH</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">shore leave</column>
       <column name="definition_de">Landurlaub</column>
       <column name="definition_fa">ساحل ترک [AUTOTRANSLATED]</column>
@@ -3409,7 +3409,7 @@ Katso sivulta {Dav:v:1} liikkuminen sivulle pyörimättä tai kiinnittämättä 
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{leS:n}, {poH:n}</column>
+      <column name="components">{leS:v}, {poH:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -7407,15 +7407,31 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as "celebrate" in {TKD:src}. The definition was clarified and narrowed to "observe, celebrate (a ritual)" in {KGT:src}.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {ja'chuq Dalopchu'. Qang Damoj.:sen:nolink} "Complete the Rite of Succession to become Chancellor."[3]</column>
+▶ {Hegh bey:sen:nolink}
+   {HeghDI' tlhIngan SuvwI' pagh tlhIngan SuvwI' HoHlu'DI' Heghtay lulop latlh tlhInganpu'. Heghtay luloptaHvIS chaH chaq bey SeQ lujach. Heghpu'bogh tlhIngan mInDu' lupoSmoHlu'. beyHom bey bey'a' jachtaH latlh tlhInganpu'. yay 'oS bey. 'IQ pagh. Heghpu'bogh latlhpu' ghuHmoH bey. ghoS tlhIngan SuvwI' maq.:sen:nolink}
+  "Death Howl
+   When a Klingon warrior dies or is killed, other Klingons may perform a ceremonial howl or yell as part of the Klingon death ritual. The eyes of the fallen Klingon are opened and others roar in a great crescendo. This yell is victorious in nature, rather than mournful and also serves to warn the other dead that a Klingon warrior is coming."[3]
+▶ {'oy'naQ:sen:nolink}
+   {nentay loptaHvIS tlhIngan potlh tlhIngan 'oy'naQ'e'. SIQwI' lu'oy'moHmeH juppu'Daj 'oy'naQmey lo' chaH. SuvwI' qa' patlh veb chavlaHmeH tlhIngan lo'chu' chaH. toDujDaj toblu'. wej 'ujmey 'ab 'oy'naQ. chIch vay' 'oy'moHmeH 'oy'naQ 'ul law' tlhuD 'oH.:sen:nolink}
+  "Painstik
+   The Klingon Painstik is an important part of a Klingon's Age of Ascension ceremony. The Painstik is employed by friends of the recipent who use the devices to inflict pain in a manner which will allow the Klingon to attain a higher state of spirituality as a warrior, proving his mettle. Painstiks are a little over one meter long and emit a highly-charged shock for the express purpose of inflicting pain."[4]
+▶ {ja'chuq Dalopchu'. Qang Damoj.:sen:nolink} "Complete the Rite of Succession to become Chancellor."[5]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
-▶ {ja'chuq Dalopchu'. Qang Damoj.:sen:nolink} "Завершите обряд посвящения, чтобы стать канцлером."[3]</column>
+▶ {Hegh bey:sen:nolink}
+   {HeghDI' tlhIngan SuvwI' pagh tlhIngan SuvwI' HoHlu'DI' Heghtay lulop latlh tlhInganpu'. Heghtay luloptaHvIS chaH chaq bey SeQ lujach. Heghpu'bogh tlhIngan mInDu' lupoSmoHlu'. beyHom bey bey'a' jachtaH latlh tlhInganpu'. yay 'oS bey. 'IQ pagh. Heghpu'bogh latlhpu' ghuHmoH bey. ghoS tlhIngan SuvwI' maq.:sen:nolink}
+  "Смертельный вой.
+   Когда клингонский воин умирает или его убивают, другие клингоны могут исполнять церемониальный вой или крик, как часть клингонского смертельного ритуала. Глаза павшего клингона открыты, и остальные рычат в нарастающем объеме. По природе этот вой скорее победоносный, нежели печальный. Также служит предупреждением другим умершим, что идет клингонский воин"[3]
+▶ {'oy'naQ:sen:nolink}
+   {nentay loptaHvIS tlhIngan potlh tlhIngan 'oy'naQ'e'. SIQwI' lu'oy'moHmeH juppu'Daj 'oy'naQmey lo' chaH. SuvwI' qa' patlh veb chavlaHmeH tlhIngan lo'chu' chaH. toDujDaj toblu'. wej 'ujmey 'ab 'oy'naQ. chIch vay' 'oy'moHmeH 'oy'naQ 'ul law' tlhuD 'oH.:sen:nolink}
+  "Painstik
+   The Klingon Painstik is an important part of a Klingon's Age of Ascension ceremony. The Painstik is employed by friends of the recipent who use the devices to inflict pain in a manner which will allow the Klingon to attain a higher state of spirituality as a warrior, proving his mettle. Painstiks are a little over one meter long and emit a highly-charged shock for the express purpose of inflicting pain."[4]
+▶ {ja'chuq Dalopchu'. Qang Damoj.:sen:nolink} "Завершите обряд посвящения, чтобы стать канцлером."[5]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -7427,7 +7443,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {Klingon Monopoly:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {SkyBox 31:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src}), [4] {SkyBox 32:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src}), [5] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7475,7 +7491,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lopno'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">party, celebration (a specific type of Klingon party or celebration)</column>
       <column name="definition_de">Feier, Fest, "offenes Haus"</column>
       <column name="definition_fa">حزب، جشن [AUTOTRANSLATED]</column>
@@ -7495,7 +7511,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="notes_zh_HK">這項活動邀請了祖先的精神。[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é um evento para o qual os espíritos dos antepassados ​​são convidados.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä on tapahtuma, johon kutsutaan esi-isien henkiä.[2] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">The gloss in {KGT:src} says simply "party, celebration". The definition has been changed for clarity based on the information from {KCD:src}.</column>
+      <column name="hidden_notes">The gloss in {KGT:src} says simply "party, celebration". The definition has been changed for clarity based on the information from {KCD:src}. In {KCD:src}, Vok says, "The celebration was declared a {lopno':n:nolink}. You have invited all the spirits of our Klingon ancestors." This suggests that a {lopno':n:nolink} is a type of party or celebration, rather than a specific event.</column>
       <column name="components">{lop:n}, {no':n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
