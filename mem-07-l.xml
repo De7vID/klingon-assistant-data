@@ -5493,7 +5493,7 @@ This was used to refer to "variables" (a memory location used for storing data i
           <column name="definition_ru">наложница [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">妾 [AUTOTRANSLATED]</column>
           <column name="definition_pt">concubina</column>
-          <column name="definition_fi">jalkavaimo, sivuvaimo</column>
+          <column name="definition_fi">rakastaja tai rakastajatar, jalkavaimo</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
@@ -5518,9 +5518,9 @@ Endast gifta personer kunde ha en partner som kan betraktas som {lIwnal:n:nolink
           <column name="notes_pt">As conotações culturais são um pouco diferentes da palavra inglesa "concubine". Na cultura klingon, tudo o que está associado a um {lIwnal:n:nolink} carece de honra, o que não é necessariamente o caso das concubinas ou cortesãs de um rei (terráqueo).
 
 Somente pessoas casadas podem ter um parceiro que possa ser considerado um {lIwnal:n:nolink}. Um {lIwnal:n:nolink} pode ser masculino ou feminino, então se for necessário distinguir, use {loD lIwnal:n@@loD:n, lIwnal:n} ou {be' lIwnal:n@@be':n, lIwnal:n}. [AUTOTRANSLATED]</column>
-          <column name="notes_fi">Kulttuurinen merkitys on hieman erilainen kuin englanninkielinen sana "sivuvaimo". Klingonin kulttuurissa kaikesta, mikä liittyy {lIwnal:n:nolink}: een, puuttuu kunnia, mikä ei välttämättä päde (Terran) kuninkaan sivuvaimoihin tai kurtisaaneihin.
+          <column name="notes_fi">Tämä viittaa avioliiton ulkopuoliseen kumppaniin. Sanalla on kielteinen merkitys ja se yhdistetään kunniattomuuteen.
 
-Ainoastaan ​​naimisissa olevilla ihmisillä voisi olla kumppani, jota voidaan pitää {lIwnal:n:nolink}: na. {lIwnal:n:nolink} voi olla mies tai nainen, joten jos se on tarpeen erottaa, käytä {loD lIwnal:n@@loD:n, lIwnal:n} tai {be' lIwnal:n@@be':n, lIwnal:n}. [AUTOTRANSLATED]</column>
+Tämä sana on sukupuolineutraali. Tarvittaessa voi käyttää termejä {loD lIwnal:n@@loD:n, lIwnal:n} tai {be' lIwnal:n@@be':n, lIwnal:n}.</column>
           <column name="hidden_notes"></column>
           <column name="components">{lIw:n}, {nal:n:hyp}</column>
           <column name="examples"></column>
@@ -5538,7 +5538,7 @@ Ainoastaan ​​naimisissa olevilla ihmisillä voisi olla kumppani, jota voidaa
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
-          <column name="search_tags_fi"></column>
+          <column name="search_tags_fi">sivuvaimo</column>
           <column name="source">[1] {KLI mailing list 2020.03.30:src}</column>
         </table>
     <table name="mem">
@@ -8190,7 +8190,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="definition_zh_HK">災難</column>
       <column name="definition_pt">catástrofe</column>
       <column name="definition_fi">katastrofi</column>
-      <column name="synonyms"></column>
+      <column name="synonyms">{Qugh:n:1h}</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This word and {Qugh:n:1h} are mostly interchangeable. To refer to something that in all likelihood one can't recover from (like the loss of {pIraqSIS:n}), {lot:n:nolink} is better.[2]</column>
