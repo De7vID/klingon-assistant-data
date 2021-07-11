@@ -192,7 +192,7 @@
       <column name="notes_ru">Это 8-й ранг {yaS:n}.</column>
       <column name="notes_zh_HK">這是{yaS:n}的第8位。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é o 8º ranking do {yaS:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on {yaS:n}: n 8. sija. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on upseeriston ({yaS:n}) kahdeksanneksi korkein sotilasarvo.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1958,7 +1958,7 @@ The following example shows that the verb of quality can take a suffix:
       <column name="definition_ru">Командер</column>
       <column name="definition_zh_HK">指揮官 [AUTOTRANSLATED]</column>
       <column name="definition_pt">comandante</column>
-      <column name="definition_fi">komentaja</column>
+      <column name="definition_fi">komentaja, komentajakapteeni</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1969,7 +1969,7 @@ The following example shows that the verb of quality can take a suffix:
       <column name="notes_ru">Это 6-й ранг {yaS:n}.</column>
       <column name="notes_zh_HK">這是{yaS:n}的第六名。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é o 6º ranking do {yaS:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on {yaS:n}: n 6. sijoitus. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on upseeriston ({yaS:n}) kuudenneksi korkein sotilasarvo.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2055,7 +2055,7 @@ The following example shows that the verb of quality can take a suffix:
       <column name="notes_ru">{la'quv:n:nolink} является главой Высшего совета клингонов и занимает первое место в рейтинге {yaS:n}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">{la'quv:n:nolink}是克林崗高級議會的主席，也是排名最高的{yaS:n}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">O {la'quv:n:nolink} é o chefe do Alto Conselho Klingon e o {yaS:n} com melhor classificação. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">{la'quv:n:nolink} on Klingonin korkean neuvoston päällikkö ja korkeimmalla sijalla {yaS:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Klingonien korkeimman neuvoston johtaja on armeijan ylipäällikkö ({la'quv:n:nolink}) eli korkea-arvoisin upseeri ({yaS:n})</column>
       <column name="hidden_notes"></column>
       <column name="components">{la':n}, {quv:v}</column>
       <column name="examples"></column>
@@ -2142,7 +2142,7 @@ The following example shows that the verb of quality can take a suffix:
       <column name="notes_ru">Это офицер на дежурстве в специальном подразделении внутри военных сил.</column>
       <column name="notes_zh_HK">這是負責軍隊中某些專門部門的軍官。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é um oficial encarregado de certas unidades especializadas nas forças armadas. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on upseeri, joka vastaa tietyistä armeijan erikoistuneista yksiköistä. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tietyistä puolustusvoimien erityisyksiköistä vastaavien upseerien nimitys.</column>
       <column name="hidden_notes"></column>
       <column name="components">{la':n}, {-'a':n}</column>
       <column name="examples"></column>
@@ -3388,7 +3388,7 @@ Katso sivulta {Dav:v:1} liikkuminen sivulle pyörimättä tai kiinnittämättä 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">leSpoH</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">shore leave</column>
       <column name="definition_de">Landurlaub</column>
       <column name="definition_fa">ساحل ترک [AUTOTRANSLATED]</column>
@@ -3409,7 +3409,7 @@ Katso sivulta {Dav:v:1} liikkuminen sivulle pyörimättä tai kiinnittämättä 
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{leS:n}, {poH:n}</column>
+      <column name="components">{leS:v}, {poH:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4649,7 +4649,7 @@ Tätä sanaa voidaan käyttää kuvaannollisesti. On idioomi {let mInDu'Daj; Sep
       <column name="definition_ru">Поделиться [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">分享 [AUTOTRANSLATED]</column>
       <column name="definition_pt">compartilhar</column>
-      <column name="definition_fi">jakaa</column>
+      <column name="definition_fi">jakaa (keskenään)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bon:v}, {lInchuq:sen}</column>
@@ -4674,9 +4674,9 @@ När en dator (eller datorsystem) är online sägs det vara "delning". Se {lIn:v
       <column name="notes_pt">Quando {A:sen:nolink} e {B:sen:nolink} compartilham {C:sen:nolink} um com o outro, a construção é {C lulIn A B je:sen:nolink} (ou {C lIn A B je:sen:nolink} se {C:sen:nolink} for plural). Neste caso, o falante não se compromete sobre se {A:sen:nolink} ou {B:sen:nolink} é quem decidiu compartilhar com o outro.[1]
 
 Quando um computador (ou sistema de computador) está online, ele está "compartilhando". Consulte {lIn:v:2}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Kun {A:sen:nolink} ja {B:sen:nolink} jakavat {C:sen:nolink} keskenään, rakenne on {C lulIn A B je:sen:nolink} (tai {C lIn A B je:sen:nolink}, jos {C:sen:nolink} on monikko). Tässä tapauksessa puhuja ei ole sitoutunut siihen, onko {A:sen:nolink} vai {B:sen:nolink} se, joka päätti jakaa jakamisen toisen kanssa.
+      <column name="notes_fi">Kun {A:sen:nolink} ja {B:sen:nolink} jakavat {C:sen:nolink}:n keskenään, rakenne on {C lulIn A B je:sen:nolink} (tai {C lIn A B je:sen:nolink}, jos {C:sen:nolink} on monikko). Puhuja ei ota kantaa siihen, jakaako {A:sen:nolink} {B:sen:nolink}:lle vai toisin päin.
 
-Kun tietokone (tai tietokonejärjestelmä) on verkossa, sen sanotaan olevan "jakamista". Katso {lIn:v:2}.[1] [AUTOTRANSLATED]</column>
+Kun tietokone (tai tietokonejärjestelmä) on verkossa, sanotaan että se "jakaa". Katso {lIn:v:2}.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -5493,7 +5493,7 @@ This was used to refer to "variables" (a memory location used for storing data i
           <column name="definition_ru">наложница [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">妾 [AUTOTRANSLATED]</column>
           <column name="definition_pt">concubina</column>
-          <column name="definition_fi">jalkavaimo, sivuvaimo</column>
+          <column name="definition_fi">rakastaja tai rakastajatar, jalkavaimo</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
@@ -5518,9 +5518,9 @@ Endast gifta personer kunde ha en partner som kan betraktas som {lIwnal:n:nolink
           <column name="notes_pt">As conotações culturais são um pouco diferentes da palavra inglesa "concubine". Na cultura klingon, tudo o que está associado a um {lIwnal:n:nolink} carece de honra, o que não é necessariamente o caso das concubinas ou cortesãs de um rei (terráqueo).
 
 Somente pessoas casadas podem ter um parceiro que possa ser considerado um {lIwnal:n:nolink}. Um {lIwnal:n:nolink} pode ser masculino ou feminino, então se for necessário distinguir, use {loD lIwnal:n@@loD:n, lIwnal:n} ou {be' lIwnal:n@@be':n, lIwnal:n}. [AUTOTRANSLATED]</column>
-          <column name="notes_fi">Kulttuurinen merkitys on hieman erilainen kuin englanninkielinen sana "sivuvaimo". Klingonin kulttuurissa kaikesta, mikä liittyy {lIwnal:n:nolink}: een, puuttuu kunnia, mikä ei välttämättä päde (Terran) kuninkaan sivuvaimoihin tai kurtisaaneihin.
+          <column name="notes_fi">Tämä viittaa avioliiton ulkopuoliseen kumppaniin. Sanalla on kielteinen merkitys ja se yhdistetään kunniattomuuteen.
 
-Ainoastaan ​​naimisissa olevilla ihmisillä voisi olla kumppani, jota voidaan pitää {lIwnal:n:nolink}: na. {lIwnal:n:nolink} voi olla mies tai nainen, joten jos se on tarpeen erottaa, käytä {loD lIwnal:n@@loD:n, lIwnal:n} tai {be' lIwnal:n@@be':n, lIwnal:n}. [AUTOTRANSLATED]</column>
+Tämä sana on sukupuolineutraali. Tarvittaessa voi käyttää termejä {loD lIwnal:n@@loD:n, lIwnal:n} tai {be' lIwnal:n@@be':n, lIwnal:n}.</column>
           <column name="hidden_notes"></column>
           <column name="components">{lIw:n}, {nal:n:hyp}</column>
           <column name="examples"></column>
@@ -5538,7 +5538,7 @@ Ainoastaan ​​naimisissa olevilla ihmisillä voisi olla kumppani, jota voidaa
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
-          <column name="search_tags_fi"></column>
+          <column name="search_tags_fi">sivuvaimo</column>
           <column name="source">[1] {KLI mailing list 2020.03.30:src}</column>
         </table>
     <table name="mem">
@@ -5822,7 +5822,7 @@ Ainoastaan ​​naimisissa olevilla ihmisillä voisi olla kumppani, jota voidaa
       <column name="notes_zh_HK">這是指上唇的頭髮。[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Refere-se a cabelos no lábio superior.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä viittaa hiuksiin ylähuulella[2] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The loach is a species of fish with barbels which look like a mustache.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6230,7 +6230,7 @@ Tarvittaessa matemaattisessa keskustelussa etuliitettä ei käytetä, vaikka nim
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The expression "cold war" in English refers to a conflict without actual fighting, but in which each side is prepared to begin fighting at any time.</column>
       <column name="components">{logh:n}, {-Daq:n}, {Suv:v}, {-rup:v}, {-bogh:v}, {SuvwI':n}, {-pu':n}, {chaH:n}, {Hoch:n}, {SuvwI':n}, {-pu':n}, {-'e':n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7407,15 +7407,31 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as "celebrate" in {TKD:src}. The definition was clarified and narrowed to "observe, celebrate (a ritual)" in {KGT:src}.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {ja'chuq Dalopchu'. Qang Damoj.:sen:nolink} "Complete the Rite of Succession to become Chancellor."[3]</column>
+▶ {Hegh bey:sen:nolink}
+   {HeghDI' tlhIngan SuvwI' pagh tlhIngan SuvwI' HoHlu'DI' Heghtay lulop latlh tlhInganpu'. Heghtay luloptaHvIS chaH chaq bey SeQ lujach. Heghpu'bogh tlhIngan mInDu' lupoSmoHlu'. beyHom bey bey'a' jachtaH latlh tlhInganpu'. yay 'oS bey. 'IQ pagh. Heghpu'bogh latlhpu' ghuHmoH bey. ghoS tlhIngan SuvwI' maq.:sen:nolink}
+  "Death Howl
+   When a Klingon warrior dies or is killed, other Klingons may perform a ceremonial howl or yell as part of the Klingon death ritual. The eyes of the fallen Klingon are opened and others roar in a great crescendo. This yell is victorious in nature, rather than mournful and also serves to warn the other dead that a Klingon warrior is coming."[3]
+▶ {'oy'naQ:sen:nolink}
+   {nentay loptaHvIS tlhIngan potlh tlhIngan 'oy'naQ'e'. SIQwI' lu'oy'moHmeH juppu'Daj 'oy'naQmey lo' chaH. SuvwI' qa' patlh veb chavlaHmeH tlhIngan lo'chu' chaH. toDujDaj toblu'. wej 'ujmey 'ab 'oy'naQ. chIch vay' 'oy'moHmeH 'oy'naQ 'ul law' tlhuD 'oH.:sen:nolink}
+  "Painstik
+   The Klingon Painstik is an important part of a Klingon's Age of Ascension ceremony. The Painstik is employed by friends of the recipent who use the devices to inflict pain in a manner which will allow the Klingon to attain a higher state of spirituality as a warrior, proving his mettle. Painstiks are a little over one meter long and emit a highly-charged shock for the express purpose of inflicting pain."[4]
+▶ {ja'chuq Dalopchu'. Qang Damoj.:sen:nolink} "Complete the Rite of Succession to become Chancellor."[5]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
-▶ {ja'chuq Dalopchu'. Qang Damoj.:sen:nolink} "Завершите обряд посвящения, чтобы стать канцлером."[3]</column>
+▶ {Hegh bey:sen:nolink}
+   {HeghDI' tlhIngan SuvwI' pagh tlhIngan SuvwI' HoHlu'DI' Heghtay lulop latlh tlhInganpu'. Heghtay luloptaHvIS chaH chaq bey SeQ lujach. Heghpu'bogh tlhIngan mInDu' lupoSmoHlu'. beyHom bey bey'a' jachtaH latlh tlhInganpu'. yay 'oS bey. 'IQ pagh. Heghpu'bogh latlhpu' ghuHmoH bey. ghoS tlhIngan SuvwI' maq.:sen:nolink}
+  "Смертельный вой.
+   Когда клингонский воин умирает или его убивают, другие клингоны могут исполнять церемониальный вой или крик, как часть клингонского смертельного ритуала. Глаза павшего клингона открыты, и остальные рычат в нарастающем объеме. По природе этот вой скорее победоносный, нежели печальный. Также служит предупреждением другим умершим, что идет клингонский воин"[3]
+▶ {'oy'naQ:sen:nolink}
+   {nentay loptaHvIS tlhIngan potlh tlhIngan 'oy'naQ'e'. SIQwI' lu'oy'moHmeH juppu'Daj 'oy'naQmey lo' chaH. SuvwI' qa' patlh veb chavlaHmeH tlhIngan lo'chu' chaH. toDujDaj toblu'. wej 'ujmey 'ab 'oy'naQ. chIch vay' 'oy'moHmeH 'oy'naQ 'ul law' tlhuD 'oH.:sen:nolink}
+  "Painstik
+   The Klingon Painstik is an important part of a Klingon's Age of Ascension ceremony. The Painstik is employed by friends of the recipent who use the devices to inflict pain in a manner which will allow the Klingon to attain a higher state of spirituality as a warrior, proving his mettle. Painstiks are a little over one meter long and emit a highly-charged shock for the express purpose of inflicting pain."[4]
+▶ {ja'chuq Dalopchu'. Qang Damoj.:sen:nolink} "Завершите обряд посвящения, чтобы стать канцлером."[5]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -7427,7 +7443,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {Klingon Monopoly:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {SkyBox 31:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src}), [4] {SkyBox 32:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src}), [5] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7475,7 +7491,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lopno'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">party, celebration (a specific type of Klingon party or celebration)</column>
       <column name="definition_de">Feier, Fest, "offenes Haus"</column>
       <column name="definition_fa">حزب، جشن [AUTOTRANSLATED]</column>
@@ -7495,7 +7511,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="notes_zh_HK">這項活動邀請了祖先的精神。[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é um evento para o qual os espíritos dos antepassados ​​são convidados.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä on tapahtuma, johon kutsutaan esi-isien henkiä.[2] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">The gloss in {KGT:src} says simply "party, celebration". The definition has been changed for clarity based on the information from {KCD:src}.</column>
+      <column name="hidden_notes">The gloss in {KGT:src} says simply "party, celebration". The definition has been changed for clarity based on the information from {KCD:src}. In {KCD:src}, Vok says, "The celebration was declared a {lopno':n:nolink}. You have invited all the spirits of our Klingon ancestors." This suggests that a {lopno':n:nolink} is a type of party or celebration, rather than a specific event.</column>
       <column name="components">{lop:n}, {no':n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7999,7 +8015,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="definition_ru">четвертый тон неатонической музыкальной гаммы [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">第四音非音階音階 [AUTOTRANSLATED]</column>
       <column name="definition_pt">quarto tom da escala musical não-atônica</column>
-      <column name="definition_fi">nonatoonisen musiikkiasteikon neljäs sävel</column>
+      <column name="definition_fi">yhdeksänsävelisen musiikkiasteikon neljäs sävel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{loS:n:1} (number)</column>
@@ -8176,15 +8192,15 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="definition_fi">katastrofi</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This word and {Qugh:n:1h} are mostly interchangeable. To refer to something that in all likelihood one can't recover from (like the loss of {pIraqSIS:n}), {lot:n:nolink} is better.[2]</column>
-      <column name="notes_de">Dieses Wort und {Qugh:n:1h} sind größtenteils austauschbar. Um auf etwas zu verweisen, von dem man sich aller Wahrscheinlichkeit nach nicht erholen kann (wie den Verlust von {pIraqSIS:n}), ist {lot:n:nolink} besser.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این کلمه و {Qugh:n:1h} بیشتر قابل تعویض هستند. برای مراجعه به مواردی که به احتمال زیاد نمی توان از آن استفاده کرد (مانند از دست دادن {pIraqSIS:n}) ، {lot:n:nolink} بهتر است.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta ord och {Qugh:n:1h} är mestadels utbytbara. Att hänvisa till något som man troligtvis inte kan återhämta sig från (som förlusten av {pIraqSIS:n}), {lot:n:nolink} är bättre.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это слово и {Qugh:n:1h} в основном взаимозаменяемы. Чтобы сослаться на то, от чего, по всей вероятности, невозможно оправиться (например, потеря {pIraqSIS:n}), {lot:n:nolink} лучше.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這個詞和{Qugh:n:1h}通常可以互換。提到某種不可能恢復的東西（例如{pIraqSIS:n}的損失，{lot:n:nolink}更好）。[2] [AUTOTRANSLATED]</column>
+      <column name="see_also">{Qugh:n:1h}</column>
+      <column name="notes">This word and {Qugh:n:1h,nolink} are mostly interchangeable. To refer to something that in all likelihood one can't recover from (like the loss of {pIraqSIS:n}), {lot:n:nolink} is better.[2]</column>
+      <column name="notes_de">Dieses Wort und {Qugh:n:1h,nolink} sind größtenteils austauschbar. Um auf etwas zu verweisen, von dem man sich aller Wahrscheinlichkeit nach nicht erholen kann (wie den Verlust von {pIraqSIS:n}), ist {lot:n:nolink} besser.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این کلمه و {Qugh:n:1h,nolink} بیشتر قابل تعویض هستند. برای مراجعه به مواردی که به احتمال زیاد نمی توان از آن استفاده کرد (مانند از دست دادن {pIraqSIS:n}) ، {lot:n:nolink} بهتر است.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta ord och {Qugh:n:1h,nolink} är mestadels utbytbara. Att hänvisa till något som man troligtvis inte kan återhämta sig från (som förlusten av {pIraqSIS:n}), {lot:n:nolink} är bättre.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это слово и {Qugh:n:1h,nolink} в основном взаимозаменяемы. Чтобы сослаться на то, от чего, по всей вероятности, невозможно оправиться (например, потеря {pIraqSIS:n}), {lot:n:nolink} лучше.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這個詞和{Qugh:n:1h,nolink}通常可以互換。提到某種不可能恢復的東西（例如{pIraqSIS:n}的損失，{lot:n:nolink}更好）。[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Tämä sana ja {Qugh:n:1h} ovat enimmäkseen vaihdettavissa. {lot:n:nolink} on parempi viitata johonkin, josta todennäköisesti ei voi toipua (kuten {pIraqSIS:n}: n menetys).[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä sana ja {Qugh:n:1h,nolink} ovat enimmäkseen vaihdettavissa. {lot:n:nolink} on parempi viitata johonkin, josta todennäköisesti ei voi toipua (kuten {pIraqSIS:n}: n menetys).[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes">Possibly a reference to the Biblical story of Lot.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -8560,7 +8576,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="definition_ru">утилита [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">實用</column>
       <column name="definition_pt">Utilitário</column>
-      <column name="definition_fi">käyttö-, hyöty-</column>
+      <column name="definition_fi">huolto-, apu-</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -8571,7 +8587,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="notes_ru">Это предшествует существительному, которое оно изменяет. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">它在它所修飾的名詞之前。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso precede o substantivo que ele modifica. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä edeltää substantiivia, jota se muuttaa. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tätä käytetään substantiivin edellä.</column>
       <column name="hidden_notes"></column>
       <column name="components">{lo':n}, {law':v}</column>
       <column name="examples">
@@ -8583,7 +8599,9 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
+      <column name="examples_fi">
+▶ {lo' law' choQ:n:nolink} "huoltokansi" (kokonainen esimerkkilause, katso {choQ:n})
+▶ {lo' law' lojmIt:n} "huoltoluukku"</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -8605,7 +8623,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="definition_ru">сервисный люк [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">實用門</column>
       <column name="definition_pt">escotilha de serviço</column>
-      <column name="definition_fi">apuluukku [AUTOTRANSLATED]</column>
+      <column name="definition_fi">huoltoluukku</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -8652,15 +8670,15 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="synonyms"></column>
       <column name="antonyms">{lo'laHbe':v}</column>
       <column name="see_also">{Qej:v}, {lI':v:1}</column>
-      <column name="notes">This is not the verb {lo':v} with the suffix {-laH:v}.[2]</column>
-      <column name="notes_de">Dies ist nicht das Verb {lo':v} mit dem Suffix {-laH:v}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این فعل {lo':v} با پسوند {-laH:v}.[2] نیست [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är inte verbet {lo':v} med suffixet {-laH:v}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это не глагол {lo':v} с суффиксом {-laH:v}.[2]</column>
-      <column name="notes_zh_HK">這不是帶後綴{-laH:v}.[2]的動詞{lo':v} [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Este não é o verbo {lo':v} com o sufixo {-laH:v}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä ei ole verbi {lo':v}, jonka pääte on {-laH:v}.[2] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="notes">This is a simple verb in its own right, and not the verb {lo':v} with the suffix {-laH:v}. It's likely that there is a historical connection to the verb plus suffix form.[2]</column>
+      <column name="notes_de">Dies ist ein einfaches Verb für sich und nicht das Verb {lo':v} mit dem Suffix {-laH:v}. Es ist wahrscheinlich, dass es eine historische Verbindung zum Verb plus Suffix form.[2] gibt [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این یک فعل ساده در نوع خود است ، و فعل {lo':v} با پسوند {-laH:v} نیست. به احتمال زیاد یک ارتباط تاریخی با فعل بعلاوه شکل پسوند وجود دارد. [2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är ett enkelt verb i sig, och inte verbet {lo':v} med suffixet {-laH:v}. Det är troligt att det finns en historisk koppling till verbet plus suffixform. [2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это простой глагол сам по себе, а не глагол {lo':v} с суффиксом {-laH:v}. Вероятно, существует историческая связь с формой суффикса глагол плюс.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這本身就是一個簡單的動詞，而不是帶後綴{-laH:v}的動詞{lo':v}。動詞加後綴形式可能存在歷史聯繫。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Este é um verbo simples por si só, e não o verbo {lo':v} com o sufixo {-laH:v}. É provável que haja uma conexão histórica com a forma de verbo e sufixo.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on yksinkertainen verbi itsessään, eikä verbi {lo':v}, jonka pääte on {-laH:v}. Todennäköisesti on olemassa historiallinen yhteys verbin ja päätteen muotoon.[2] [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">In Section 4.2.9 of {TKDA:src}, the explanation of {-ghach:v:suff} clearly implies that {lo'laH:v:nolink} is the verb {lo':v:nolink} plus the suffix {-laH:v:nolink}. However, the verb {lo':v:nolink} with the suffix {-laH:v:nolink} does not produce the meaning "be valuable". It's likely that {lo':v:nolink} and {lI':v:1} were mixed up while {TKD:src} was being written, as {lI'laHbe':v@@lI':v:1, -laH:v, -be':v} "cannot be useful" is basically synonymous with "be worthless", which appears as {lo'laHbe':v} in the {TKD:src} word list. Consequently, Section 4.2.9 of {TKDA:src} and the {msn:src} newsgroup message are somewhat contradictory.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8703,9 +8721,10 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="notes_zh_HK">有關不值錢的習語，請參見{chetvI':n:1}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Consulte {chetvI':n:1} para obter um idioma relacionado à inutilidade. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Kohdasta {chetvI':n:1} on arvottomuuteen liittyvä idioomi. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">Despite appearing to be composed from {lo':v}, {-laH:v}, and {-be':v}, this word doesn't exactly have the same meaning as the composition of the parts. It means "he/she can't use it", which is what happens to one's hand when one's writer's cramp worsens.</column>
+      <column name="hidden_notes">See under {lo'laH:v:nolink} for an analysis of this word.</column>
       <column name="components">{lo'laH:v}, {-be':v}</column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {leghlaHchu'be'chugh mIn lo'laHbe' taj jej.:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -8746,7 +8765,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">See under {lo'laH:v:nolink} for an analysis of this word.</column>
       <column name="components">{lo'laHbe':v}, {-ghach:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8789,7 +8808,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">See under {lo'laH:v:nolink} for an analysis of this word.</column>
       <column name="components">{lo'laH:v}, {-ghach:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8985,14 +9004,14 @@ Tämä etuliite pudotetaan joskus tuntemattomista syistä. Vaikka virhe onkin, t
       <column name="synonyms"></column>
       <column name="antonyms">{muj:v}</column>
       <column name="see_also">{Sor:n}, {qar:v}, {teH:v}, {vIt:v}, {lugh:v}</column>
-      <column name="notes">There is an idiom, {lugh; Sor rur}.</column>
-      <column name="notes_de">Es gibt eine Redewendung, {lugh; Sor rur}. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">یک اصطلاح ، {lugh; Sor rur} وجود دارد. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Det finns ett formspråk, {lugh; Sor rur}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Существует идиома {lugh; Sor rur}. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">有一個成語，{lugh; Sor rur}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Existe um idioma, {lugh; Sor rur}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">On idioomi {lugh; Sor rur}. [AUTOTRANSLATED]</column>
+      <column name="notes">There is an idiom, {lugh; Sor rur}.[2]</column>
+      <column name="notes_de">Es gibt eine Redewendung, {lugh; Sor rur}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">یک اصطلاح ، {lugh; Sor rur} وجود دارد.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Det finns ett formspråk, {lugh; Sor rur}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Существует идиома {lugh; Sor rur}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">有一個成語，{lugh; Sor rur}。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Existe um idioma, {lugh; Sor rur}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">On idioomi {lugh; Sor rur}.[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -9011,7 +9030,7 @@ Tämä etuliite pudotetaan joskus tuntemattomista syistä. Vaikka virhe onkin, t
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.133:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

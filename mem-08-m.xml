@@ -44,7 +44,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ma-</column>
-      <column name="part_of_speech">v:pref</column>
+      <column name="part_of_speech">v:pref,klcp1</column>
       <column name="definition">we-none</column>
       <column name="definition_de">wir (kein Objekt)</column>
       <column name="definition_fa">ما هیچ کدام [AUTOTRANSLATED]</column>
@@ -939,7 +939,7 @@ The writers who came up with this apparently looked up words for "good" and "nig
       <column name="definition_ru">бизнес, дело, обязанность</column>
       <column name="definition_zh_HK">生意、公業</column>
       <column name="definition_pt">Comércio, negócios, empresa</column>
-      <column name="definition_fi">kauppa, liike, yritys</column>
+      <column name="definition_fi">kauppa, liike, yritys; liiketoiminta, kaupankäynti</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Huq:v}, {Suy:n}, {tlhong:v}, {ghunta:n}</column>
@@ -1021,7 +1021,7 @@ The writers who came up with this apparently looked up words for "good" and "nig
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mang</column>
-      <column name="part_of_speech">n:inhps</column>
+      <column name="part_of_speech">n:inhps,being</column>
       <column name="definition">soldier</column>
       <column name="definition_de">Soldat</column>
       <column name="definition_fa">سرباز</column>
@@ -1239,7 +1239,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">maqDar</column>
-      <column name="part_of_speech">excl</column>
+      <column name="part_of_speech">excl:epithet</column>
       <column name="definition">epithet, mak'dar</column>
       <column name="definition_de">mak'dar, klingonische Beleidigung</column>
       <column name="definition_fa">epithet ، mak'dar [AUTOTRANSLATED]</column>
@@ -2087,7 +2087,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition">To survive, we must expand.</column>
       <column name="definition_de">Wir müssen ausbreiten, um zu überleben.</column>
       <column name="definition_fa">برای زنده ماندن، باید گسترش یابد. [AUTOTRANSLATED]</column>
-      <column name="definition_sv">För att överleva måste vi expandera. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">För att överleva måste vi expandera.</column>
       <column name="definition_ru">Чтобы выжить, мы должны расширяться</column>
       <column name="definition_zh_HK">為了生存，我們必須擴大。</column>
       <column name="definition_pt">Para sobreviver, precisamos expandir.</column>
@@ -3430,7 +3430,7 @@ It's unclear what sense of "fair" is meant by this word.</column>
       <column name="definition_ru">Маук-то'Вор ритуал [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">Mauk-to'Vor儀式 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Ritual de Mauk-to'Vor</column>
-      <column name="definition_fi">Mauk-to'Vor-rituaali</column>
+      <column name="definition_fi">eräs rituaali, Mauk-to'Vor</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ma'veq:n}, {'aDanjI':n:extcan}</column>
@@ -3551,7 +3551,7 @@ It's unclear what sense of "fair" is meant by this word.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mebpa'mey</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv,plural</column>
       <column name="definition">hotel</column>
       <column name="definition_de">Hotel</column>
       <column name="definition_fa">هتل</column>
@@ -3572,7 +3572,7 @@ It's unclear what sense of "fair" is meant by this word.</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{meb:n}, {pa':n:1}, {-mey:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4770,7 +4770,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="notes_ru">Это также используется в контексте физики, где это относится к явлению квантовой суперпозиции. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這也用在物理環境中，它指的是量子疊加現象。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso também é usado no contexto da física, onde se refere ao fenômeno da superposição quântica. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tätä käytetään myös fysiikan yhteydessä, jossa se viittaa kvantti-superposition ilmiöön. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Fysiikkakontekstissa tämä sana voi viitata kvanttisuperpositioon.</column>
       <column name="hidden_notes">"Merge".</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -5062,7 +5062,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="definition_ru">останавливаться, прекращать, прерывать, останавливать, пресекать</column>
       <column name="definition_zh_HK">停止</column>
       <column name="definition_pt">parar, cessar</column>
-      <column name="definition_fi">lopettaa</column>
+      <column name="definition_fi">lopettaa (jonkin tekeminen)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yev:v}, {vIH:v}, {bup:v}, {taD:v}</column>
@@ -5093,7 +5093,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">lakata, tauota</column>
       <column name="source">[1] {TKD:src}, [2] {KCD:src}</column>
     </table>
     <table name="mem">
@@ -8291,7 +8291,7 @@ Verbiä {'al:v:2} käytetään satunnaislukuihin ({mI' 'al:n}). [AUTOTRANSLATED]
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">moH</column>
-      <column name="part_of_speech">v:2,t,slang</column>
+      <column name="part_of_speech">v:2,t_c,slang</column>
       <column name="definition">exert undue influence on</column>
       <column name="definition_de">jdn. unnötig beeinflussen</column>
       <column name="definition_fa">اعمال نفوذ ناپذیر در [AUTOTRANSLATED]</column>
@@ -8303,7 +8303,7 @@ Verbiä {'al:v:2} käytetään satunnaislukuihin ({mI' 'al:n}). [AUTOTRANSLATED]
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{SIgh:v}, {-moH:v}</column>
-      <column name="notes"></column>
+      <column name="notes">In its slang meaning, this verb is used only if there is an object.[1, p.154]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -8312,7 +8312,8 @@ Verbiä {'al:v:2} käytetään satunnaislukuihin ({mI' 'al:n}). [AUTOTRANSLATED]
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">
+{DamoH:sen@@Da-:v, moH:v:2} "You exert undue influence on him/her"[1]</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -9526,7 +9527,7 @@ Huomaa, että sydämenlyönnissä käytetty verbi on {joq:v}.[1, p.75] [AUTOTRAN
       <column name="definition_ru">единица площади (27 квадратных {'ujmey:n @@'uj:n, -mey:n}) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">面積單位（27平方{'ujmey:n@@'uj:n, -mey:n}） [AUTOTRANSLATED]</column>
       <column name="definition_pt">unidade de área (27 quadrados {'ujmey:n@@'uj:n, -mey:n})</column>
-      <column name="definition_fi">eräs pinta-alan yksikkö (27 neliö-{'uj:n}:ia)</column>
+      <column name="definition_fi">eräs pinta-alan yksikkö (27 neliö-{'uj:n}:ia, n. 3,28 neliömetriä)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{men:v}, {mun'a':n}, {'uj:n}</column>
@@ -9581,7 +9582,7 @@ Huomaa, että sydämenlyönnissä käytetty verbi on {joq:v}.[1, p.75] [AUTOTRAN
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Maybe a reference to the Chicago Manual of Style.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -10141,7 +10142,7 @@ Morskanin murre ei lisää loppuliitettä {-'e':n:suff} aiheen substantiiville l
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mu-</column>
-      <column name="part_of_speech">v:pref</column>
+      <column name="part_of_speech">v:pref,klcp1</column>
       <column name="definition">he/she/it-me, they-me</column>
       <column name="definition_de">er/sie/es/sie(pl.)-mich</column>
       <column name="definition_fa">او / او / آن-من، آنها-من [AUTOTRANSLATED]</column>
@@ -11407,7 +11408,7 @@ Tätä verbiä käytetään myös musiikissa ({much:v:2}) ja taistelulajeissa ({
       <column name="entry_name">mung</column>
       <column name="part_of_speech">n</column>
       <column name="definition">origin</column>
-      <column name="definition_de">Upsprung</column>
+      <column name="definition_de">Ursprung</column>
       <column name="definition_fa">اصل و نسب [AUTOTRANSLATED]</column>
       <column name="definition_sv">ursprung</column>
       <column name="definition_ru">источник, подлинник, первоисточник</column>

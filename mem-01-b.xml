@@ -52,7 +52,7 @@
       <column name="definition_ru">Стрелять, вести огонь</column>
       <column name="definition_zh_HK">射擊</column>
       <column name="definition_pt">atirar</column>
-      <column name="definition_fi">ampua</column>
+      <column name="definition_fi">ampua jollakin</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bach:n}, {bachHa':v}, {Qeq:v:1}, {vI':n:1}</column>
@@ -99,7 +99,7 @@ That the target is marked with {-Daq:n:nolink} is known from {SkyBox 14:src} and
       <column name="search_tags_ru">дизраптор, стрелять, вести огонь</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">häiritsijä</column>
       <column name="source">[1] {TKD:src}, [2] {KGT p.56:src}</column>
     </table>
     <table name="mem">
@@ -250,7 +250,7 @@ That the target is marked with {-Daq:n:nolink} is known from {SkyBox 14:src} and
       <column name="definition_ru">Связывать веревкой</column>
       <column name="definition_zh_HK">綁</column>
       <column name="definition_pt">gravata</column>
-      <column name="definition_fi">solmia</column>
+      <column name="definition_fi">sitoa, solmia</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{QeymoH:v}, {QeyHa'moH:v}, {tay':v}, {meS:v:1}</column>
@@ -1279,7 +1279,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="definition_ru">Ветвь, ветка (дерево)</column>
       <column name="definition_zh_HK">樹枝</column>
       <column name="definition_pt">ramo (de uma árvore)</column>
-      <column name="definition_fi">(puun) haara</column>
+      <column name="definition_fi">(puun) oksa, haara</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Sor:n}, {por:n}, {Qechjem'a':n}</column>
@@ -1926,7 +1926,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="entry_name">batlh malja' DaHuq.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">You transact business honorably.</column>
-      <column name="definition_de">Sie wickeln Geschäfte ehrenvoll ab.</column>
+      <column name="definition_de">Du wickelst Geschäfte ehrenvoll ab.</column>
       <column name="definition_fa">تجارت را با افتخار بکار می گیرید [AUTOTRANSLATED]</column>
       <column name="definition_sv">Du gör affärer med heder.</column>
       <column name="definition_ru">Ты ведешь дела благородно.</column>
@@ -2709,7 +2709,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="definition_ru">Дефлекторы</column>
       <column name="definition_zh_HK">偏轉盾</column>
       <column name="definition_pt">defletores</column>
-      <column name="definition_fi">kimmottimet</column>
+      <column name="definition_fi">suojukset, kimmottimet</column>
       <column name="synonyms">{botjan:n}, {begh botjan:n}</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -2752,7 +2752,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="definition_ru">Отражатель(ли)</column>
       <column name="definition_zh_HK">偏轉防護罩</column>
       <column name="definition_pt">escudo (s) defletor (es)</column>
-      <column name="definition_fi">kimmotinlaatta</column>
+      <column name="definition_fi">suojuslaatat, kimmotinlaatta</column>
       <column name="synonyms">{begh:n}, {botjan:n}</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -2795,7 +2795,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="definition_ru">Дефлекторный массив</column>
       <column name="definition_zh_HK">偏轉器系列</column>
       <column name="definition_pt">matriz defletora</column>
-      <column name="definition_fi">kimmotinsarja</column>
+      <column name="definition_fi">suojussarja, kimmotinsarja</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -2917,7 +2917,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bej</column>
-      <column name="part_of_speech">v:2,is,slang</column>
+      <column name="part_of_speech">v:2,t_c,slang</column>
       <column name="definition">be sure, be definite, be positive, be certain</column>
       <column name="definition_de">sicher sein, definitiv sein, eindeutig sein</column>
       <column name="definition_fa">مطمئن باشید، مطمئن باشید، مثبت باشید، مطمئن باشید [AUTOTRANSLATED]</column>
@@ -2926,10 +2926,10 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="definition_zh_HK">確定、明確</column>
       <column name="definition_pt">ter certeza, ser definitivo, ser positivo, ter certeza</column>
       <column name="definition_fi">olla varma (jostakin)</column>
-      <column name="synonyms"></column>
+      <column name="synonyms">{na':v:2,slang}</column>
       <column name="antonyms"></column>
-      <column name="see_also">{-bej:v}, {DIch:n}, {na':v:2,slang}</column>
-      <column name="notes"></column>
+      <column name="see_also">{-bej:v}, {DIch:n}</column>
+      <column name="notes">This may be used when there is an object (unlike {na':v:2,slang,nolink}).[1, p.145]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2939,7 +2939,10 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {jIbej.:sen:nolink} "I am positive [about something I just said]."[1, p.145]
+▶ {bIbej'a'?:sen:nolink} "Are you sure?"[1, p.145]
+▶ {HIvrup 'e' vIbej.:sen:nolink} "I am positive they're read to attack."[1, p.145]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -3409,19 +3412,21 @@ Sanoa "kun olin X-vuotias", rakennus on esimerkiksi {qaStaHvIS DISwIj javDIch...
       <column name="definition_ru">экипаж, член экипажа</column>
       <column name="definition_zh_HK">船員</column>
       <column name="definition_pt">tripulação</column>
-      <column name="definition_fi">miehistö; matruusi, miehistön jäsen</column>
+      <column name="definition_fi">(aluksen) miehistön jäsen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">A rank given to enlisted personnel in the Defense Force ({Hubbeq:n}).</column>
-      <column name="notes_de">Ein Rang, der dem in der Defence Force eingesetzten Personal ({Hubbeq:n}) verliehen wird. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">رتبه ای که به پرسنل ثبت نام شده در نیروی دفاعی داده می شود ({Hubbeq:n}). [AUTOTRANSLATED]</column>
-      <column name="notes_sv">En rang som ges till anställd personal i försvarsmakten ({Hubbeq:n}). [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Звание, присвоенное военнослужащим в Силах обороны ({Hubbeq:n}). [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">國防軍中被徵募人員的等級。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Uma classificação dada ao pessoal alistado na Força de Defesa ({Hubbeq:n}). [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Puolustusvoimien värväytyneelle henkilöstölle annettu arvo ({Hubbeq:n}). [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">A crewman is at "beck" and call.</column>
+      <column name="see_also">{QaS:n:1h}</column>
+      <column name="notes">This refers to a member of a ship's company ({wey:n}) who is not an officer ({yaS:n}).[2]</column>
+      <column name="notes_de">Dies bezieht sich auf ein Mitglied einer Schiffsgesellschaft ({wey:n}), das kein Offizier ({yaS:n}) ist .[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این به عضوی از شرکت کشتی ({wey:n}) اشاره دارد که افسر نیست ({yaS:n}). [2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta avser en medlem i ett fartygs företag ({wey:n}) som inte är officer ({yaS:n}).[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это относится к члену судовой компании ({wey:n}), который не является офицером ({yaS:n}).[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是指不是高級船員（{yaS:n}）的船舶公司成員（{wey:n}）。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Refere-se a um membro de uma companhia marítima ({wey:n}) que não é um oficial ({yaS:n}) .[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä viittaa aluksen miehistön ({wey:n}) jäseneen, joka ei ole upseeri ({yaS:n}).[2]</column>
+      <column name="hidden_notes">A crewman is at "beck" and call.
+
+In the episode {DS9 - Sons and Daughters:src}, this word (Anglicised "bekk") was treated as a rank given to enlisted personnel in the Klingon Defense Force ({tlhIngan Hubbeq:n}).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3431,20 +3436,20 @@ Sanoa "kun olin X-vuotias", rakennus on esimerkiksi {qaStaHvIS DISwIj javDIch...
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">crewwoman</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="search_tags_fi">matruusi</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.50:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">beq pa'mey</column>
-      <column name="part_of_speech">n:deriv</column>
+      <column name="part_of_speech">n:deriv,plural</column>
       <column name="definition">non-commissioned crew quarters</column>
       <column name="definition_de">Mannschaftsquartiere</column>
       <column name="definition_fa">محوطه خدمه غیرقانونی [AUTOTRANSLATED]</column>
@@ -3452,7 +3457,7 @@ Sanoa "kun olin X-vuotias", rakennus on esimerkiksi {qaStaHvIS DISwIj javDIch...
       <column name="definition_ru">Сержантский член экипажа</column>
       <column name="definition_zh_HK">船員宿舍</column>
       <column name="definition_pt">quartos de tripulação não comissionados</column>
-      <column name="definition_fi">alipäällystön tilat?</column>
+      <column name="definition_fi">miehistön tilat</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{pa'mey:n:hyp}</column>
@@ -3463,7 +3468,7 @@ Sanoa "kun olin X-vuotias", rakennus on esimerkiksi {qaStaHvIS DISwIj javDIch...
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi"></column>
+      <column name="notes_fi">Miehistö viittaa tässä muihin kuin upseereihin.</column>
       <column name="hidden_notes"></column>
       <column name="components">{beq:n}, {pa':n:1}, {-mey:n}</column>
       <column name="examples"></column>
@@ -4696,7 +4701,7 @@ Klingonin legendassa {qeylIS'e' lIjlaHbe'bogh vay':n:name} vääristi alkuperäi
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bI-</column>
-      <column name="part_of_speech">v:pref</column>
+      <column name="part_of_speech">v:pref,klcp1</column>
       <column name="definition">you-none</column>
       <column name="definition_de">du (ohne Objekt)</column>
       <column name="definition_fa">تو هیچی نیستی [AUTOTRANSLATED]</column>
@@ -5520,7 +5525,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/NpFDKTzIN
       <column name="definition_ru">Вторая интонация неатонической музыкальной шкалы</column>
       <column name="definition_zh_HK">非音階音階的第二音 [AUTOTRANSLATED]</column>
       <column name="definition_pt">segundo tom de escala musical não-atônica</column>
-      <column name="definition_fi">nonatoonisen musiikkiasteikon toinen sävel</column>
+      <column name="definition_fi">yhdeksänsävelisen musiikkiasteikon toinen sävel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -6794,20 +6799,22 @@ Kymmenien miljoonien kohdalla {maH:n:2,num} voidaan yhdistää {'uy':n:num,nolin
       <column name="synonyms"></column>
       <column name="antonyms">{tuj:v}, {ghun:v:2}</column>
       <column name="see_also">{Qey':v}, {chuch:n}, {peD:v}, {buj:v}, {Hat:n}</column>
-      <column name="notes">There is an idiom, {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}.</column>
-      <column name="notes_de">Es gibt eine Redewendung, {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">یک اصطلاح ، {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v} وجود دارد. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Det finns ett formspråk, {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Существует идиома {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">有一個成語，{bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Existe um idioma, {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">On idioomi {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}. [AUTOTRANSLATED]</column>
+      <column name="notes">The temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon (but the person wearing it is).[3]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">A cold "beer", or alternatively, "brrrr" is the sound one makes when one is cold.
 
-It was clarified during the Q &amp; A session at {qep'a' 27 (2020):src} that the temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon.</column>
+The clarification about clothing was made during the Q &amp; A session at {qep'a' 27 (2020):src}.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {bortaS bIr jablu'DI' reH QaQqu' nay'.:sen}</column>
+▶ {bortaS bIr jablu'DI' reH QaQqu' nay'.:sen}
+▶ {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}[2, p.129]
+▶ {pa'vamDaq jIbIr:sen@@pa':n:1, -vam:n, -Daq:n, jI-:v, bIr:v} "I am cold in this room"[2, p.105]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -6823,7 +6830,7 @@ It was clarified during the Q &amp; A session at {qep'a' 27 (2020):src} that the
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {qep'a' 27 (2020):src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6965,7 +6972,7 @@ It was clarified during the Q &amp; A session at {qep'a' 27 (2020):src} that the
       <column name="definition_ru">Ритуал Бректал</column>
       <column name="definition_zh_HK">Brek'tal儀式 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Ritual de Brek'tal</column>
-      <column name="definition_fi">Brek'tal-rituaali</column>
+      <column name="definition_fi">eräs rituaali, Brek'tal</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -7313,7 +7320,7 @@ Speculation: This may have been intended to be {tIS'ub:n:nolink} but was changed
       <column name="definition_ru">Быть нервным, быть беспокойным</column>
       <column name="definition_zh_HK">緊張、不安</column>
       <column name="definition_pt">ser nervoso, ser inquieto</column>
-      <column name="definition_fi">ole hermostunut, levoton</column>
+      <column name="definition_fi">olla hermostunut, levoton</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bergh:v}, {lIm:v}, {jot:v:1}, {jotHa':v}, {tI'qa' vIghro':n}, {ghIj:v}, {Haj:v}, {Qep:v}</column>
@@ -7352,7 +7359,7 @@ On {KGT p.132:src}, the word is written as {tIb:v:nolink} instead of {bIt:v:noli
       <column name="entry_name">bItaHrup'a'?</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">Are you prepared to continue?</column>
-      <column name="definition_de">Bist du bereit weiterzumachen? [AUTOTRANSLATED]</column>
+      <column name="definition_de">Bist du bereit weiterzumachen?</column>
       <column name="definition_fa">آیا برای ادامه کار آماده هستید؟ [AUTOTRANSLATED]</column>
       <column name="definition_sv">Är du beredd att fortsätta? [AUTOTRANSLATED]</column>
       <column name="definition_ru">Вы готовы продолжить? [AUTOTRANSLATED]</column>
@@ -8071,14 +8078,14 @@ For the Pittsburgh Art Tour, Marc Okrand suggested to translate "space capsule" 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghIch:n}, {bochmoHwI':n}, {wov:v}, {chorgh:v}</column>
-      <column name="notes">There is an idiom, {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2, p.133]</column>
-      <column name="notes_de">Es gibt eine Redewendung, {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2, p.133] [AUTOTRANSLATED]</column>
-      <column name="notes_fa">اصطلاحی وجود دارد ، {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2, p.133] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Det finns ett formspråk, {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2, p.133] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это идиома, {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2, p.133]</column>
-      <column name="notes_zh_HK">有一個成語{boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2, p.133] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Existe um idioma, {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2, p.133] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">On idioomi {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2, p.133] [AUTOTRANSLATED]</column>
+      <column name="notes">There is an idiom, {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2]</column>
+      <column name="notes_de">Es gibt eine Redewendung, {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">اصطلاحی وجود دارد ، {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Det finns ett formspråk, {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это идиома, {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2]</column>
+      <column name="notes_zh_HK">有一個成語{boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Existe um idioma, {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">On idioomi {boch; ghIch rur@@boch:v, ghIch:n, rur:v}.[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -8098,7 +8105,7 @@ For the Pittsburgh Art Tour, Marc Okrand suggested to translate "space capsule" 
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.133:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -8146,7 +8153,7 @@ For the Pittsburgh Art Tour, Marc Okrand suggested to translate "space capsule" 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">boD</column>
-      <column name="part_of_speech">n:reg,body,klcp1</column>
+      <column name="part_of_speech">n:reg,body</column>
       <column name="definition">forehead</column>
       <column name="definition_de">Stirn</column>
       <column name="definition_fa">پیشانی</column>
@@ -8329,7 +8336,7 @@ For the Pittsburgh Art Tour, Marc Okrand suggested to translate "space capsule" 
       <column name="definition_ru">Быть нетерпеливым</column>
       <column name="definition_zh_HK">急切、心急、不耐煩</column>
       <column name="definition_pt">ser impaciente</column>
-      <column name="definition_fi">ole kärsimätön</column>
+      <column name="definition_fi">olla kärsimätön</column>
       <column name="synonyms"></column>
       <column name="antonyms">{tuv:v}</column>
       <column name="see_also">{loS:v}</column>
@@ -8450,7 +8457,7 @@ For the Pittsburgh Art Tour, Marc Okrand suggested to translate "space capsule" 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bol</column>
-      <column name="part_of_speech">v:2,t_c,slang,klcp1</column>
+      <column name="part_of_speech">v:2,t_c,slang</column>
       <column name="definition">betray</column>
       <column name="definition_de">verraten</column>
       <column name="definition_fa">خیانت کردن [AUTOTRANSLATED]</column>
@@ -8909,7 +8916,8 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {boq lucherDI' tlhIngan wo' romuluS Hov wo' je So'wI' cham Suqpu' tlhIngan wo'.:sen:nolink} "Cloaking technology was gained through an alliance with the Romulan Star Empire"[3]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -8925,7 +8933,7 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {SkyBox 33:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src})</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -9335,14 +9343,14 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tI'rIl:n}, {nungmaH:n}</column>
-      <column name="notes">Which plural suffix this takes depends on the type of symbiont. In the case of Trill (see {tI'rIlngan:n}) symbionts, the suffix {-pu':n:suff} is used.</column>
+      <column name="notes">Which plural suffix this takes depends on the type of symbiont. In the case of Trill (see {tI'rIlngan:n}) symbionts, the suffix {-pu':n:suff} is used. In the case of a parasite, use {-mey:n:suff}.</column>
       <column name="notes_de">Die Wahl der Mehrzahl-Bildung hängt von der Art des Symbionten ab. Bei Trill-Symbionten (siehe {tI'rIlngan:n}) wird das Suffix {-pu':n:suff} verwendet. Falls es sich um einen Parasiten handelt, verwendet man {-mey:n:suff}.</column>
-      <column name="notes_fa">کدام پسوند جمع در این مورد بستگی به نوع Symiont دارد. در مورد نمادهای تریل (نگاه کنید به {tI'rIlngan:n}) از پسوند {-pu':n:suff} استفاده می شود. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Vilket flertalssuffiks detta tar beror på typen av symbiont. När det gäller Trill (se {tI'rIlngan:n}) -symbioner används suffixet {-pu':n:suff}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Какой суффикс множественного числа это принимает, зависит от типа симбионта. В случае симбионтов Trill (см. {tI'rIlngan:n}) используется суффикс {-pu':n:suff}. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這採用哪個後綴取決於共生體的類型。對於Trill（請參見{tI'rIlngan:n}）共鳴符，將使用後綴{-pu':n:suff}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">O sufixo plural usado depende do tipo de simbionte. No caso dos simbiontes Trill (consulte {tI'rIlngan:n}), o sufixo {-pu':n:suff} é usado. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Se, minkä monikkomuodon tämä tarvitsee, riippuu symbiontin tyypistä. Trill-symbiontien (katso {tI'rIlngan:n}) tapauksessa käytetään loppuliitettä {-pu':n:suff}. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این که کدام پسوند جمع به کار می رود به نوع همزیست بستگی دارد. در مورد همزیست های Trill (به {tI'rIlngan:n} مراجعه کنید) ، از پسوند {-pu':n:suff} استفاده می شود. در مورد انگلی ، از {-mey:n:suff} استفاده کنید. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Vilket flertalssuffiks detta tar beror på typen av symbiont. När det gäller Trill-symbioner (se {tI'rIlngan:n}) används suffixet {-pu':n:suff}. I fallet med en parasit, använd {-mey:n:suff}. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Какой суффикс множественного числа это займет, зависит от типа симбионта. В случае симбионтов Trill (см. {tI'rIlngan:n}) используется суффикс {-pu':n:suff}. В случае паразита используйте {-mey:n:suff}. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這採用哪個後綴取決於共生體的類型。對於Trill共鳴器（請參閱{tI'rIlngan:n}），使用後綴{-pu':n:suff}。如果是寄生蟲，請使用{-mey:n:suff}。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">O sufixo de plural que isso leva depende do tipo de simbionte. No caso dos simbiontes Trill (consulte {tI'rIlngan:n}), o sufixo {-pu':n:suff} é usado. No caso de um parasita, use {-mey:n:suff}. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Se, minkä monikkomuodon tämä tarvitsee, riippuu symbiontin tyypistä. Trill-symbiontien (katso {tI'rIlngan:n}) symbiontien tapauksessa käytetään pääte {-pu':n:suff}. Käytä loista {-mey:n:suff}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes">The plural suffix this word takes was clarified during the Q &amp; A session.</column>
       <column name="components">{boq:n:1}, {yIn:n}</column>
       <column name="examples"></column>
@@ -9861,7 +9869,7 @@ On myös siihen liittyvä idioomi {bIr; bortaS rur@@bIr:v, bortaS:n, rur:v}. [AU
       <column name="entry_name">boS</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">collect</column>
-      <column name="definition_de">sammeln</column>
+      <column name="definition_de">sammeln, einsammeln, ansammeln</column>
       <column name="definition_fa">جمع کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">samla in, hämta in</column>
       <column name="definition_ru">Собирать, коллекционировать</column>
@@ -10831,7 +10839,7 @@ Lupauksen tarinassa todetaan, että:
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bIr:v}, {Qey':v}, {ghun:v:2}, {tuj:v}, {Hat:n}</column>
-      <column name="notes"></column>
+      <column name="notes">The temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon (but the person wearing it is).[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -10841,7 +10849,7 @@ Lupauksen tarinassa todetaan, että:
       <column name="notes_fi"></column>
       <column name="hidden_notes">This is a combination of {bIr:v} and {tuj:v}.
 
-It was clarified during the Q &amp; A session that the temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon.</column>
+The clarification about clothing was made during the Q &amp; A session at {qep'a' 27 (2020):src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -10915,7 +10923,7 @@ It was clarified during the Q &amp; A session that the temperature words really 
       <column name="definition_ru">абсорбировать [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">吸收 [AUTOTRANSLATED]</column>
       <column name="definition_pt">absorver</column>
-      <column name="definition_fi">imeä, imeytyä</column>
+      <column name="definition_fi">imeä (itseensä)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{betgham:n}, {Hal:v}</column>
@@ -10958,7 +10966,7 @@ It was clarified during the Q &amp; A session that the temperature words really 
       <column name="definition_ru">выходить, прекращать, оставлять</column>
       <column name="definition_zh_HK">退出、放棄、辭職</column>
       <column name="definition_pt">sair</column>
-      <column name="definition_fi">lopettaa</column>
+      <column name="definition_fi">lähteä (suhteesta, työpaikasta tms.)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mev:v}, {yev:v}, {qIl:v}, {jegh:v}, {luj:v}</column>
@@ -10987,7 +10995,7 @@ It was clarified during the Q &amp; A session that the temperature words really 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">lopettaa</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
@@ -11226,7 +11234,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This verb is also used to express the concept of "leap year" ({bur DIS:sen}).</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -11254,6 +11262,50 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
       <column name="search_tags_fi"></column>
       <column name="source">[1] {HQ 12.4, Dec. 2003:src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">bur DIS</column>
+          <column name="part_of_speech">sen:phrase</column>
+          <column name="definition">leap year</column>
+          <column name="definition_de">Schaltjahr</column>
+          <column name="definition_fa">سال کبیسه</column>
+          <column name="definition_sv">skottår</column>
+          <column name="definition_ru">високосный год</column>
+          <column name="definition_zh_HK">閏年</column>
+          <column name="definition_pt">ano bissexto</column>
+          <column name="definition_fi">karkausvuosi</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">To express the concept of a "leap year", just use the verb {bur:v} with {DIS:n:2}.</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes">This was revealed to provide Klingon subtitles for the 50th anniversary of the German children's TV show "Die Sendung mit der Maus".</column>
+          <column name="components">{bur:v}, {DIS:n:2}</column>
+          <column name="examples">
+▶ {qatlh bur 'op DISmey?:sen@@qatlh:ques, bur:v, 'op:n, DIS:n:2, -mey:n}[1]</column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {KLI mailing list 2021.03.07:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">burgh</column>
@@ -11485,7 +11537,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
       <column name="definition_ru">Быть натуральным, быть естественным</column>
       <column name="definition_zh_HK">自然</column>
       <column name="definition_pt">seja natural</column>
-      <column name="definition_fi">ole luonnollinen</column>
+      <column name="definition_fi">olla luonnollinen</column>
       <column name="synonyms"></column>
       <column name="antonyms">{pargh:v}</column>
       <column name="see_also">{ngar:v}, {'umber:n}</column>
@@ -11901,7 +11953,7 @@ Tämä voi viitata {DuH:n}: n "luokkaan" (eli siihen liittyvään ryhmään) {Se
       <column name="notes_ru">Это высший ранг {QaS:n:1h}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是{QaS:n:1h}的最高等級。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esta é a classificação mais alta de {QaS:n:1h}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on {QaS:n:1h}: n korkein sijoitus. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on miehistön ({QaS:n:1h}) korkein sotilasarvo.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>

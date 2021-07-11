@@ -384,7 +384,7 @@ Baarimikko ({chom:n}) huutaa Klingon-baarissa {'eb Qav:n} "viimeisestä puhelust
       <column name="notes_ru">Это 4-й ранг {yaS:n}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是{yaS:n}的第四等級。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é o 4º ranking do {yaS:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on {yaS:n}: n 4. sijoitus. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on upseeriston ({yaS:n}) neljänneksi korkein sotilasarvo.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -739,7 +739,7 @@ Pelikorttipakan pukuja kutsutaan nimellä {Degh:n:1}. [AUTOTRANSLATED]</column>
       <column name="definition_ru">третий тон неатонической музыкальной гаммы [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">非音階音階的第三音 [AUTOTRANSLATED]</column>
       <column name="definition_pt">terceiro tom da escala musical não-atônica</column>
-      <column name="definition_fi">nonatoonisen musiikkiasteikon kolmas sävel</column>
+      <column name="definition_fi">yhdeksänsävelisen musiikkiasteikon kolmas sävel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -817,7 +817,7 @@ Pelikorttipakan pukuja kutsutaan nimellä {Degh:n:1}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'ej</column>
-      <column name="part_of_speech">conj</column>
+      <column name="part_of_speech">conj:klcp1</column>
       <column name="definition">and (joining sentences)</column>
       <column name="definition_de">und (zwischen Sätzen)</column>
       <column name="definition_fa">و (جملات پیوستن) [AUTOTRANSLATED]</column>
@@ -1142,7 +1142,7 @@ Kun yhdistetään useita lauseita, tarvitaan vain viimeinen yhdistelmä. Katso e
       <column name="definition_ru">Командование операций Звездного Флота [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">星際艦隊作戰司令部 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Comando de Operações da Frota Estelar</column>
-      <column name="definition_fi">Tähtilaivaston operaatioiden johto?</column>
+      <column name="definition_fi">Tähtilaivaston laivaston johto</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'ejyo' ra'ghomquv:n}</column>
@@ -2365,7 +2365,7 @@ Tätä sanaa ei pidä sekoittaa {'eQway:n}-sanaan. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">LSD is short for Lys"erg"ic Acid Diethylamide.
+      <column name="hidden_notes">LSD is short for Lys"erg"ic Acid Diethylamide, which was first obtained from the ergot fungus.
 
 This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was officially revealed at {qep'a' 27 (2020):src}. The transitivity was confirmed during the Q &amp; A session.</column>
       <column name="components"></column>

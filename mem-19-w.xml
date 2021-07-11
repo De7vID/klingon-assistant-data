@@ -3900,18 +3900,18 @@ Vaikka käytetty toteutus voi olla mitä tahansa, ei ole yleistä käyttää tä
       <column name="definition_ru">рота (воинская часть) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">公司（軍事單位） [AUTOTRANSLATED]</column>
       <column name="definition_pt">companhia (unidade militar)</column>
-      <column name="definition_fi">komppania (sotilasyksikkö)</column>
+      <column name="definition_fi">(aluksen) miehistö</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{wey jolpat:n}, {ghotpu' tamey:n}</column>
-      <column name="notes">This is a ship's full complement of personnel, crew plus officers.</column>
-      <column name="notes_de">Dies ist die vollständige Besetzung eines Schiffes mit Personal, Besatzung und Offizieren. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این یک مکمل کامل از پرسنل ، خدمه به علاوه افسران است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är ett fartygs kompletta komplement av personal, besättning plus officerare. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это полный комплект корабельного персонала, экипажа и офицеров. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這是船舶人員，船員和高級職員的完整補充。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Este é o complemento completo de pessoal, tripulação e oficiais de um navio. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on aluksen täydellinen henkilökunta, miehistö ja upseerit. [AUTOTRANSLATED]</column>
+      <column name="notes">This is a ship's full complement of personnel, crew ({beq:n}) plus officers ({yaS:n}).[1, p.50]</column>
+      <column name="notes_de">Dies ist die vollständige Besetzung eines Schiffes aus Personal, Besatzung ({beq:n}) und Offizieren ({yaS:n}) .[1, p.50] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این یک مکمل کامل از پرسنل ، خدمه کشتی ({beq:n}) به علاوه افسران ({yaS:n}) است. [1, p.50] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är ett fartygs kompletta antal personal, besättning ({beq:n}) plus befäl ({yaS:n}). [1, p.50] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это полный укомплектованный судном персонал, экипаж ({beq:n}) и офицеры ({yaS:n}).[1, p.50] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是船舶的全部人員，船員（{beq:n}）和高級管理人員（{yaS:n}）。[1, p.50] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Este é o complemento total de pessoal, tripulação ({beq:n}) mais oficiais ({yaS:n}) .[1, p.50] de um navio. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä viittaa aluksen henkilökuntaan mukaan lukien merimiehet ({beq:n}) ja upseerit ({yaS:n}).[1, p.50]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -4668,7 +4668,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">break off</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -4776,7 +4776,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
       <column name="definition_ru">тактическое отображение</column>
       <column name="definition_zh_HK">戰術展示 [AUTOTRANSLATED]</column>
       <column name="definition_pt">display tático</column>
-      <column name="definition_fi">taktinen näyttö</column>
+      <column name="definition_fi">taktinen näkymä</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{cha':v}, {HaSta:n}, {tlhat:n}</column>
@@ -4787,7 +4787,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
       <column name="notes_ru">Это относится к абстрактной схеме поля битвы, которая отображается на {jIH:n:2}. Сравните это с {HaSta:n}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是指戰場的抽象示意圖，該示意圖顯示在{jIH:n:2}上。將此與{HaSta:n}進行對比。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso se refere a um esquema abstrato de um campo de batalha, exibido em um {jIH:n:2}. Compare isso com {HaSta:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä viittaa taistelukentän abstraktiin kaavioon, joka näytetään {jIH:n:2}-tiedostossa. Kontrasti tämä {HaSta:n}: lla. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Aluksen näytöllä ({jIH:n:2}) voi näkyä valokuvaa aluksen ulkopuolelta ({HaSta:n}) tai taktinen kaavio taistelukentästä ({wIy:n:nolink}).</column>
       <column name="hidden_notes">The first ever line of Klingon spoken on-screen was {wIy cha':sen@@wIy:n, cha':v}, in {Star Trek I:src}.</column>
       <column name="components"></column>
       <column name="examples">
@@ -6399,7 +6399,7 @@ Jos ihmisen silmät ovat "herkkiä valolle", ne voivat olla herkkiä {wovtaHghac
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">"Wounded".</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {Dumer DIvI' QaS 'ej DuHIv, vaj bIwunchoH 'ej bIrIQchoH.:sen:nolink} "Surprise attack by Federation leaves you unprotected and damaged."[1]

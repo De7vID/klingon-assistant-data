@@ -1226,7 +1226,7 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Haq</column>
-      <column name="part_of_speech">v:1,t</column>
+      <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">perform surgery (on)</column>
       <column name="definition_de">(jdn.) operieren</column>
       <column name="definition_fa">انجام عمل جراحی (روی) [AUTOTRANSLATED]</column>
@@ -1665,7 +1665,7 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
       <column name="definition_ru">Дисплей</column>
       <column name="definition_zh_HK">畫面顯示 [AUTOTRANSLATED]</column>
       <column name="definition_pt">exibição visual</column>
-      <column name="definition_fi">näyttölaite</column>
+      <column name="definition_fi">kuvanäkymä</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{HaSta jIH:n}, {cha':v}, {wIy:n}</column>
@@ -1676,7 +1676,7 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK">請注意，{jIH:n:2}是指設備，而{HaSta:n:nolink}是指顯示在其上的視覺信息。還要與{wIy:n}進行對比，也可以在{jIH:n:2}上顯示它。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Observe que {jIH:n:2} se refere ao dispositivo, enquanto {HaSta:n:nolink} se refere às informações visuais exibidas nele. Compare isso também com {wIy:n}, que também pode ser exibido em um {jIH:n:2}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Huomaa, että {jIH:n:2} viittaa laitteeseen, kun taas {HaSta:n:nolink} viittaa siinä näkyviin visuaalisiin tietoihin. Kontrastaa tämä myös {wIy:n}: een, joka voidaan näyttää myös {jIH:n:2}: llä. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Aluksen näytöllä ({jIH:n:2}) voi näkyä valokuvaa aluksen ulkopuolelta ({HaSta:n:nolink}) tai taktinen kaavio taistelukentästä ({wIy:n}).</column>
       <column name="hidden_notes">Interesting coincidence: in the Spanish phrase "Hasta la vista" ("see you later"), "la vista" means "the view".</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1866,7 +1866,7 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">kuvatallenne, videotallenne</column>
       <column name="source">[1] {KLI mailing list 2018.02.25:src}</column>
     </table>
     <table name="mem">
@@ -2287,7 +2287,7 @@ Hyväksy kaksintaistelu sanomalla {vISo'be':sen@@vI-:v, So':v:1, -be':v} "En pii
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{ghIqtal:excl}, {Suvchu':v}, {chap:n}</column>
-          <column name="notes"></column>
+          <column name="notes">This is just the verb {Hay':v} with the suffix {-chu':v}. From the Klingon point of view, to duel perfectly is to duel to the death.[1]</column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
@@ -2892,7 +2892,7 @@ This word is listed among other militaristic terminology in the body of {KGT:src
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This is just the verb {HeD:v} with the suffix {-chu':v}. While the suffix {-chu':v} is used with some verbs of fighting to imply that the fight results in death (see {Suvchu':v} and {Hay'chu':v}), there is no such implication with {HeDchu':v:nolink}. Though death may occur as part of the retreat, it is not necessarily implied.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3087,7 +3087,7 @@ This word is listed among other militaristic terminology in the body of {KGT:src
       <column name="definition_ru">Смертельный вой</column>
       <column name="definition_zh_HK">死嚎 [AUTOTRANSLATED]</column>
       <column name="definition_pt">uivo da morte</column>
-      <column name="definition_fi">kuoleman ulvonta</column>
+      <column name="definition_fi">eräs rituaali, kuoleman ulvonta</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Heghtay:n}, {bey:n}, {beyHom bey bey'a' jachtaH:sen}</column>
@@ -4362,7 +4362,7 @@ Katso sormiin liittyvät verbit kohdasta {nItlh:n}. [AUTOTRANSLATED]</column>
       <column name="part_of_speech">n</column>
       <column name="definition">statue</column>
       <column name="definition_de">Statue</column>
-      <column name="definition_fa">مجسمه [AUTOTRANSLATED]</column>
+      <column name="definition_fa">مجسمه</column>
       <column name="definition_sv">staty</column>
       <column name="definition_ru">Статуя</column>
       <column name="definition_zh_HK">雕像</column>
@@ -4957,12 +4957,14 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/Wq5mvIWRS
       <column name="hidden_notes">{HIj:v:nolink} is used for transporting goods, whereas it seems that {lup:v} is used for transporting people.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {yIHmey DaHIj'a'? ghobe', yIHmey vIHIjbe'.:sen@@yIH:n, -mey:n, Da-:v, HIj:v, -'a':v, ghobe':excl, yIH:n, -mey:n, vI-:v, HIj:v, -be':v} "Are you transporting tribbles? No. I'm not transporting tribbles."[2]</column>
+▶ {yIHmey DaHIj'a'? ghobe', yIHmey vIHIjbe'.:sen@@yIH:n, -mey:n, Da-:v, HIj:v, -'a':v, ghobe':excl, yIH:n, -mey:n, vI-:v, HIj:v, -be':v} "Are you transporting tribbles? No. I'm not transporting tribbles."[2]
+▶ {HIjmeH 'ap:n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
-▶ {yIHmey DaHIj'a'? ghobe', yIHmey vIHIjbe'.:sen@@yIH:n, -mey:n, Da-:v, HIj:v, -'a':v, ghobe':excl, yIH:n, -mey:n, vI-:v, HIj:v, -be':v} "Вы перевозите трибблов? Нет. Я не перевожу трибблов."[2]</column>
+▶ {yIHmey DaHIj'a'? ghobe', yIHmey vIHIjbe'.:sen@@yIH:n, -mey:n, Da-:v, HIj:v, -'a':v, ghobe':excl, yIH:n, -mey:n, vI-:v, HIj:v, -be':v} "Вы перевозите трибблов? Нет. Я не перевожу трибблов."[2]
+▶ {HIjmeH 'ap:n}</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -5218,7 +5220,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
       <column name="definition_ru">пошаговые инструкции [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">分步說明 [AUTOTRANSLATED]</column>
       <column name="definition_pt">instruções passo-a-passo</column>
-      <column name="definition_fi">vaiheittaiset ohjeet</column>
+      <column name="definition_fi">vaihe vaiheelta -ohjeet</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mIw:n}, {qurme':n}</column>
@@ -5247,7 +5249,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">resepti</column>
       <column name="source">[1] {qep'a' 26 (2019):src}</column>
     </table>
     <table name="mem">
@@ -5569,7 +5571,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
       <column name="definition_ru">черный эль [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">黑麥酒</column>
       <column name="definition_pt">cerveja ale preta</column>
-      <column name="definition_fi">musta ale</column>
+      <column name="definition_fi">eräs alkoholijuoma, musta olut</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -5920,14 +5922,14 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{HubneS:v}, {Suvchu':v}</column>
-          <column name="notes">When used with the verb {HIv:v}, the suffix {-neS:v:suff} indicates that suicide is part of the plan of attack.</column>
-          <column name="notes_de">Bei Verwendung mit dem Verb {HIv:v} zeigt das Suffix {-neS:v:suff} an, dass Selbstmord Teil des Angriffsplans ist. [AUTOTRANSLATED]</column>
-          <column name="notes_fa">هنگامی که از فعل {HIv:v} استفاده می شود ، پسوند {-neS:v:suff} نشان می دهد که خودکشی بخشی از برنامه حمله است. [AUTOTRANSLATED]</column>
-          <column name="notes_sv">När det används med verbet {HIv:v} indikerar suffixet {-neS:v:suff} att självmord är en del av attackplanen. [AUTOTRANSLATED]</column>
-          <column name="notes_ru">При использовании с глаголом {HIv:v} суффикс {-neS:v:suff} указывает, что самоубийство является частью плана атаки. [AUTOTRANSLATED]</column>
-          <column name="notes_zh_HK">與動詞{HIv:v}一起使用時，後綴{-neS:v:suff}表示自殺是攻擊計劃的一部分。 [AUTOTRANSLATED]</column>
-          <column name="notes_pt">Quando usado com o verbo {HIv:v}, o sufixo {-neS:v:suff} indica que o suicídio faz parte do plano de ataque. [AUTOTRANSLATED]</column>
-          <column name="notes_fi">Kun sitä käytetään verbin {HIv:v} kanssa, loppuliite {-neS:v:suff} osoittaa, että itsemurha on osa hyökkäyssuunnitelmaa. [AUTOTRANSLATED]</column>
+          <column name="notes">When used with the verb {HIv:v}, the suffix {-neS:v:suff} indicates that suicide is part of the plan of attack.[1]</column>
+          <column name="notes_de">Bei Verwendung mit dem Verb {HIv:v} zeigt das Suffix {-neS:v:suff} an, dass Selbstmord Teil des Angriffsplans ist. [1][AUTOTRANSLATED]</column>
+          <column name="notes_fa">هنگامی که از فعل {HIv:v} استفاده می شود ، پسوند {-neS:v:suff} نشان می دهد که خودکشی بخشی از برنامه حمله است. [1][AUTOTRANSLATED]</column>
+          <column name="notes_sv">När det används med verbet {HIv:v} indikerar suffixet {-neS:v:suff} att självmord är en del av attackplanen. [1][AUTOTRANSLATED]</column>
+          <column name="notes_ru">При использовании с глаголом {HIv:v} суффикс {-neS:v:suff} указывает, что самоубийство является частью плана атаки. [1][AUTOTRANSLATED]</column>
+          <column name="notes_zh_HK">與動詞{HIv:v}一起使用時，後綴{-neS:v:suff}表示自殺是攻擊計劃的一部分。 [1][AUTOTRANSLATED]</column>
+          <column name="notes_pt">Quando usado com o verbo {HIv:v}, o sufixo {-neS:v:suff} indica que o suicídio faz parte do plano de ataque. [1][AUTOTRANSLATED]</column>
+          <column name="notes_fi">Kun sitä käytetään verbin {HIv:v} kanssa, loppuliite {-neS:v:suff} osoittaa, että itsemurha on osa hyökkäyssuunnitelmaa. [1][AUTOTRANSLATED]</column>
           <column name="hidden_notes"></column>
           <column name="components">{HIv:v}, {-neS:v}</column>
           <column name="examples"></column>
@@ -6756,7 +6758,7 @@ Jos {Hoch:n:nolink} seuraa substantiivia, se tarkoittaa "kaikki X: tä".[2][3; 4
       <column name="definition_ru">Капитан</column>
       <column name="definition_zh_HK">艦長</column>
       <column name="definition_pt">capitão</column>
-      <column name="definition_fi">kapteeni</column>
+      <column name="definition_fi">kapteeni, kommodori</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -6781,9 +6783,9 @@ Se Gowron säga detta: {YouTube video:url:http://youtu.be/9CTfqKn383I} [AUTOTRAN
       <column name="notes_pt">Este é o 5º lugar do {yaS:n}.
 
 Veja Gowron dizer o seguinte: {YouTube video:url:http://youtu.be/9CTfqKn383I} [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on {yaS:n}: n 5. sijoitus.
+      <column name="notes_fi">Tämä on upseeriston ({yaS:n}) viidenneksi korkein sotilasarvo.
 
-Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/9CTfqKn383I} [AUTOTRANSLATED]</column>
+Katso, kun Gowron sanoo tämän: {YouTube video:url:http://youtu.be/9CTfqKn383I}</column>
       <column name="hidden_notes">"Head of Department".</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -7153,7 +7155,7 @@ Jos ulkomaalaisen kalenteri sisältää yli kuusi päivää, lisäpäivät numer
       <column name="notes_zh_HK">語是{yaD:n:3}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Uma gíria para isso é {yaD:n:3}. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Slangitermi tälle on {yaD:n:3}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">{Hoj:v} means "be cautious". Since teenagers are known for not being cautious, the {nIy:sen:nolink} might be a negation word (possibly "nie" from German).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8050,7 +8052,7 @@ Klingonissa "syvä avaruus" on nimeltään {logh Hop:n}, kirjaimellisesti "kauka
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">In Dutch, this verb is "trekken" (see {Hoq:n}).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -10018,14 +10020,14 @@ Tätä verbiä käytetään myös tavallisille monikulmioille ja polyhedeille.[2
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">There is a Klingon idiom, {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}.</column>
-      <column name="notes_de">Es gibt eine klingonische Sprache, {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">اصطلاح Klingon ، {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v} وجود دارد. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Det finns ett Klingon-formspråk, {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Существует клингонская идиома {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">有一個克林崗語，{Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Existe um idioma Klingon, {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">On olemassa klingonin idioomi {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}. [AUTOTRANSLATED]</column>
+      <column name="notes">There is a Klingon idiom, {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}.[2]</column>
+      <column name="notes_de">Es gibt eine klingonische Sprache, {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">اصطلاح Klingon ، {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v} وجود دارد.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Det finns ett Klingon-formspråk, {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Существует клингонская идиома {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">有一個克林崗語，{Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Existe um idioma Klingon, {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">On olemassa klingonin idioomi {Sagh; Ho''oy' rur@@Sagh:v, Ho''oy':n, rur:v}.[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components">{Ho':n:1}, {'oy':n}</column>
       <column name="examples"></column>
@@ -10044,7 +10046,7 @@ Tätä verbiä käytetään myös tavallisille monikulmioille ja polyhedeille.[2
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.133:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -10366,14 +10368,14 @@ Tätä verbiä käytetään myös tavallisille monikulmioille ja polyhedeille.[2
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{HIvneS:v}, {Suvchu':v}</column>
-          <column name="notes">When used with the verb {Hub:v}, the suffix {-neS:v:suff} indicates that suicide is part of the defense plan.</column>
-          <column name="notes_de">Bei Verwendung mit dem Verb {Hub:v} zeigt das Suffix {-neS:v:suff} an, dass Selbstmord Teil des Verteidigungsplans ist. [AUTOTRANSLATED]</column>
-          <column name="notes_fa">وقتی از فعل {Hub:v} استفاده می شود ، پسوند {-neS:v:suff} نشان می دهد که خودکشی بخشی از برنامه دفاع است. [AUTOTRANSLATED]</column>
-          <column name="notes_sv">När det används med verbet {Hub:v} indikerar suffixet {-neS:v:suff} att självmord är en del av försvarsplanen. [AUTOTRANSLATED]</column>
-          <column name="notes_ru">При использовании с глаголом {Hub:v} суффикс {-neS:v:suff} указывает, что самоубийство является частью плана защиты. [AUTOTRANSLATED]</column>
-          <column name="notes_zh_HK">與動詞{Hub:v}一起使用時，後綴{-neS:v:suff}表示自殺是防禦計劃的一部分。 [AUTOTRANSLATED]</column>
-          <column name="notes_pt">Quando usado com o verbo {Hub:v}, o sufixo {-neS:v:suff} indica que o suicídio faz parte do plano de defesa. [AUTOTRANSLATED]</column>
-          <column name="notes_fi">Kun sitä käytetään verbin {Hub:v} kanssa, loppuliite {-neS:v:suff} osoittaa, että itsemurha on osa puolustussuunnitelmaa. [AUTOTRANSLATED]</column>
+          <column name="notes">When used with the verb {Hub:v}, the suffix {-neS:v:suff} indicates that suicide is part of the defense plan.[1]</column>
+          <column name="notes_de">Bei Verwendung mit dem Verb {Hub:v} zeigt das Suffix {-neS:v:suff} an, dass Selbstmord Teil des Verteidigungsplans ist. [1][AUTOTRANSLATED]</column>
+          <column name="notes_fa">وقتی از فعل {Hub:v} استفاده می شود ، پسوند {-neS:v:suff} نشان می دهد که خودکشی بخشی از برنامه دفاع است. [1][AUTOTRANSLATED]</column>
+          <column name="notes_sv">När det används med verbet {Hub:v} indikerar suffixet {-neS:v:suff} att självmord är en del av försvarsplanen. [1][AUTOTRANSLATED]</column>
+          <column name="notes_ru">При использовании с глаголом {Hub:v} суффикс {-neS:v:suff} указывает, что самоубийство является частью плана защиты. [1][AUTOTRANSLATED]</column>
+          <column name="notes_zh_HK">與動詞{Hub:v}一起使用時，後綴{-neS:v:suff}表示自殺是防禦計劃的一部分。 [1][AUTOTRANSLATED]</column>
+          <column name="notes_pt">Quando usado com o verbo {Hub:v}, o sufixo {-neS:v:suff} indica que o suicídio faz parte do plano de defesa. [1][AUTOTRANSLATED]</column>
+          <column name="notes_fi">Kun sitä käytetään verbin {Hub:v} kanssa, loppuliite {-neS:v:suff} osoittaa, että itsemurha on osa puolustussuunnitelmaa. [1][AUTOTRANSLATED]</column>
           <column name="hidden_notes"></column>
           <column name="components">{Hub:v}, {-neS:v}</column>
           <column name="examples"></column>
@@ -10793,7 +10795,7 @@ Tätä verbiä käytetään myös tavallisille monikulmioille ja polyhedeille.[2
       <column name="definition_ru">Плоский горный район [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">平山區</column>
       <column name="definition_pt">Distrito de Flat Mountain</column>
-      <column name="definition_fi">Tasaisten vuorten vyöhyke</column>
+      <column name="definition_fi">Tasaisten vuorten piiri</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -10804,7 +10806,7 @@ Tätä verbiä käytetään myös tavallisille monikulmioille ja polyhedeille.[2
       <column name="notes_ru">Это район внутри {Sa'Qej Sep:n}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是{Sa'Qej Sep:n}內部的區域。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é um distrito dentro do {Sa'Qej Sep:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on piiri {Sa'Qej Sep:n}: n sisällä. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on piiri Sakrejin alueella ({Sa'Qej Sep:n}).</column>
       <column name="hidden_notes"></column>
       <column name="components">{HuD:n:1}, {beQ:v}, {yoS:n}</column>
       <column name="examples"></column>
@@ -11416,7 +11418,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/tAK-hgXMH
       <column name="definition_ru">совершать сделку</column>
       <column name="definition_zh_HK">辦理</column>
       <column name="definition_pt">transacionar</column>
-      <column name="definition_fi">tehdä kauppaa</column>
+      <column name="definition_fi">harjoittaa (liiketoimintaa)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{malja':n}, {Suy:n}, {tlhong:v}, {ghunta:n}</column>
@@ -11431,7 +11433,8 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/tAK-hgXMH
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {batlh malja' DaHuq.:sen}</column>
+▶ {batlh malja' DaHuq.:sen}
+▶ {HuqmeH 'ap:n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -12721,7 +12724,7 @@ Tätä ei käytetä tarkoittamaan "suorita ripustamalla", mikä on {jIb:v}. [AUT
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Huy Fong Foods is a hot sauce company, whose most popular product is sriracha sauce.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -12785,7 +12788,7 @@ Klingons generally can't raise their eyebrows (other than those suffering from t
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {cha' monmey:src} ({Saarbrücken qepHom'a' 2020:src})</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.133:src}, [3] {cha' monmey:src} ({Saarbrücken qepHom'a' 2020:src})</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

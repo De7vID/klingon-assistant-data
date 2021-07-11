@@ -313,7 +313,7 @@ The original description said "sharp and poisonous", but it was clarified that M
       <column name="definition_ru">тоннель, трубопровод</column>
       <column name="definition_zh_HK">隧道、管路</column>
       <column name="definition_pt">túnel, conduto</column>
-      <column name="definition_fi">tunneli, putki</column>
+      <column name="definition_fi">tunneli, putki, kaapeli</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chob:n}, {vegh:v}, {DIn:n}, {qa'rI':n}, {qatlhDa':n}, {qung:n}, {ghImwI':n}</column>
@@ -325,9 +325,11 @@ The original description said "sharp and poisonous", but it was clarified that M
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as just "tunnel" in {TKD:src}. The "conduit" definition comes from the {BoP:src} poster.</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {HoS QaymeH 'och:n}
+▶ {nuH HoS 'och:n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -342,7 +344,7 @@ The original description said "sharp and poisonous", but it was clarified that M
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">johto</column>
       <column name="source">[1] {TKD:src}, [2] {BoP:src}</column>
     </table>
     <table name="mem">
@@ -619,7 +621,7 @@ Verbien etuliitteet, kun {'oH:n:nolink} on objekti:
 ▶ {chaH:n} / {bIH:n}: {'oH:n:nolink} = {lu-:v:pref}
 
 Pakollinen verbin etuliite, kun kohde on {'oH:n:nolink}, on {yI-:v:pref}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The Russian word for "it" is "он" (which looks like {'oH:n:nolink} when written in Cyrillic script).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2716,7 +2718,7 @@ Tämä sana on myös kirjoitettu {'orghenya'ngan:n:nolink}. [AUTOTRANSLATED]</co
       <column name="_id"></column>
       <column name="entry_name">'oy'naQ</column>
       <column name="part_of_speech">n:deriv</column>
-      <column name="definition">painstick</column>
+      <column name="definition">painstik</column>
       <column name="definition_de">Schmerzstock</column>
       <column name="definition_fa">بدجنس [AUTOTRANSLATED]</column>
       <column name="definition_sv">smärtbatong, smärtstav, smärtstång</column>
@@ -2735,7 +2737,7 @@ Tämä sana on myös kirjoitettu {'orghenya'ngan:n:nolink}. [AUTOTRANSLATED]</co
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">This is spelled "painstik" (without the "c") throughout Star Trek canon, except in {TKDA:src} where it is spelled "painstick".</column>
+      <column name="hidden_notes">This is spelled "painstik" (without the "c") throughout Star Trek canon. It is also spelled this way in {TKW:src}, {KGT:src}, and {SkyBox 32:src} (which is even titled "Painstik"). However, it is misspelled as "painstick" in {TKDA:src} and {SkyBox 9:src}.</column>
       <column name="components">{'oy':n}, {naQ:n:1}</column>
       <column name="examples">
 ▶ {'oy'naQ Dalo'be'chugh not nenghep lop puq.:sen}
@@ -2750,7 +2752,7 @@ Tämä sana on myös kirjoitettu {'orghenya'ngan:n:nolink}. [AUTOTRANSLATED]</co
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags">painstik, pain stick</column>
+      <column name="search_tags">painstick, pain stick</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>

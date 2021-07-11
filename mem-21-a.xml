@@ -563,7 +563,7 @@ A German word for "vein" is "Ader".</column>
       <column name="notes_ru">Это 1-й ранг {yaS:n}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是{yaS:n}的第一等級。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é o 1º ranking do {yaS:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on {yaS:n}: n 1. sijoitus. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on upseeriston ({yaS:n}) korkein sotilasarvo.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2652,7 +2652,7 @@ The request was for the plant. Presumably, the fruit be {'aquta' naH:n@@'aquta':
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'ar</column>
-      <column name="part_of_speech">ques</column>
+      <column name="part_of_speech">ques:klcp1</column>
       <column name="definition">how many? how much?</column>
       <column name="definition_de">wie viel/e?</column>
       <column name="definition_fa">چند تا؟ چقدر؟ [AUTOTRANSLATED]</column>
@@ -2775,7 +2775,7 @@ Kieliopillisesti monikon etuliitettä käytetään, jos kyseenalaistettu substan
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">"Argh!" One might say this when one's writer's cramp worsens.</column>
+      <column name="hidden_notes">"Argh!"</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>

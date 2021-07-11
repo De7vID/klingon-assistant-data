@@ -260,7 +260,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yach</column>
-      <column name="part_of_speech">v:1,t</column>
+      <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">pet, stroke</column>
       <column name="definition_de">streicheln</column>
       <column name="definition_fa">حیوان خانگی، سکته مغزی [AUTOTRANSLATED]</column>
@@ -303,7 +303,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yach</column>
-      <column name="part_of_speech">v:2,t</column>
+      <column name="part_of_speech">v:2,t_c</column>
       <column name="definition">strum (a stringed instrument)</column>
       <column name="definition_de">Saite anschlagen (bei einem Saiteninstrument)</column>
       <column name="definition_fa">ریش (یک ابزار رشته ای) [AUTOTRANSLATED]</column>
@@ -421,7 +421,7 @@ Varpaiden verbejä käytetään samalla tavalla kuin sormen verbejä, mutta niit
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yaD</column>
-      <column name="part_of_speech">n:2,slang,klcp1</column>
+      <column name="part_of_speech">n:2,slang</column>
       <column name="definition">sword</column>
       <column name="definition_de">Schwert</column>
       <column name="definition_fa">شمشیر</column>
@@ -1300,25 +1300,25 @@ Tätä sanaa käytetään myös slangina "jouselle", jota käytetään pelaamaan
 ▶ {lagh:n} "ensign"
 ▶ {ne':n} "yeoman"
 
-The highest military officer, the head of the {ra'ghomquv:n}, is the {la'quv:n}. Someone of rank {Sogh:n} or higher can also be referred to as {ra'wI':n}. The special title {la''a':n} is used for officers in charge of certain specialized units within the military, regardless of their official ranks.</column>
+The highest military officer, the head of the {ra'ghomquv:n}, is the {la'quv:n}. Someone of rank {Sogh:n} or higher can also be referred to as {ra'wI':n}. The special title {la''a':n} is used for officers in charge of certain specialized units within the military, regardless of their official ranks. The officers and crew ({beq:n}) of a ship make up its company ({wey:n}).[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Virkailijoita[2] on yhdeksän ({patlh:n}):
+      <column name="notes_fi">Upseeriston sotilasarvoja ({patlh:n}) on yhdeksän[2]:
 ▶ {'aj:n} "amiraali"
-▶ {Sa':n} "yleinen"
-▶ {totlh:n} "commodore"
+▶ {Sa':n} "kenraali"
+▶ {totlh:n} "lippueamiraali"
 ▶ {'ech:n} "prikaatinkenraali"
-▶ {HoD:n} "kapteeni"
-▶ {la':n} "komentaja"
+▶ {HoD:n} "kapteeni" (kommodori)
+▶ {la':n} "komentaja" (komentajakapteeni)
 ▶ {Sogh:n} "luutnantti"
-▶ {lagh:n} "lippu"
-▶ {ne':n} "yeoman"
+▶ {lagh:n} "vänrikki, aliluutnantti"
+▶ {ne':n} "pursimies"
 
-Korkein armeijan upseeri, {ra'ghomquv:n}: n päällikkö, on {la'quv:n}. Joku, joka on {Sogh:n} tai sitä korkeampi, voidaan kutsua myös nimellä {ra'wI':n}. Erityistunnusta {la''a':n} käytetään virkamiehille, jotka vastaavat tietyistä armeijan erikoistuneista yksiköistä heidän virallisista riveistään riippumatta. [AUTOTRANSLATED]</column>
+Puolustusvoimien korkein upseeri, korkeimman esikunnan ({ra'ghomquv:n}) päällikkö, on ylipäällikkö ({la'quv:n}). Luutnanteista ({Sogh:n}) ja sitä korkeammista voidaan käyttää nimitystä {ra'wI':n}. Nimitystä {la''a':n} käytetään sotilasarvosta riippumatta upseereista, jotka ovat vastuussa tietyistä puolustusvoimien erityisyksiköistä.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1337,7 +1337,7 @@ Korkein armeijan upseeri, {ra'ghomquv:n}: n päällikkö, on {la'quv:n}. Joku, j
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT p.52:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.50-53:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -1385,7 +1385,7 @@ Korkein armeijan upseeri, {ra'ghomquv:n}: n päällikkö, on {la'quv:n}. Joku, j
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yaS pa'mey</column>
-      <column name="part_of_speech">n:deriv</column>
+      <column name="part_of_speech">n:deriv,plural</column>
       <column name="definition">officers' quarters</column>
       <column name="definition_de">Offiziersquartiere</column>
       <column name="definition_fa">چهارم افسران [AUTOTRANSLATED]</column>
@@ -2469,7 +2469,7 @@ Não confunda isso com uma sociedade no sentido cultural, para a qual veja {nugh
       <column name="definition_ru">владения, земля, территория</column>
       <column name="definition_zh_HK">領域、家當、領土</column>
       <column name="definition_pt">domínio, explorações, território</column>
-      <column name="definition_fi">maa-alue, kiinteistö</column>
+      <column name="definition_fi">maa-alue, kiinteistö, omistus</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{DoQ:v}, {yer ghajwI' chaw':n}, {yergho:n}, {teblaw':n}, {Daq'a':n}</column>
@@ -2499,52 +2499,111 @@ Não confunda isso com uma sociedade no sentido cultural, para a qual veja {nugh
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">omaisuus</column>
       <column name="source">[1] {s.k 1998.12.07:src} (reprinted in {HQ 8.1, p.9, Mar. 1999:src}), [2] {Klingon Monopoly:src}</column>
     </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">yer ghajwI' chaw'</column>
-      <column name="part_of_speech">n:deriv</column>
-      <column name="definition">title deed</column>
-      <column name="definition_de">Eigentumsnachweis für Grundstück</column>
-      <column name="definition_fa">سند [AUTOTRANSLATED]</column>
-      <column name="definition_sv">titelbeteende [AUTOTRANSLATED]</column>
-      <column name="definition_ru">титул на право собственности [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">地契 [AUTOTRANSLATED]</column>
-      <column name="definition_pt">título de propriedade</column>
-      <column name="definition_fi">saantokirja, lainhuudatustodistus, omistusoikeustodistus</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">Note that Klingons consider title deeds to be a type of {chaw':n}, rather than a type of {Qoyje':n}.[2]</column>
-      <column name="notes_de">Beachten Sie, dass Klingonen Eigentumsurkunden als eine Art von {chaw':n} und nicht als eine Art von {Qoyje':n}.[2] betrachten [AUTOTRANSLATED]</column>
-      <column name="notes_fa">توجه داشته باشید که کلینگون به جای نوعی از {Qoyje':n}.[2] ، اعمال عنوان را نوعی {chaw':n} می داند. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Observera att Klingons anser titelakt som en typ av {chaw':n}, snarare än en typ av {Qoyje':n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Обратите внимание, что клингоны рассматривают титулы как тип {chaw':n}, а не тип {Qoyje':n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">請注意，克林崗人將產權契據視為{chaw':n}的一種，而不是{Qoyje':n}的一種。[2] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Observe que os Klingons consideram os títulos de propriedade como um tipo de {chaw':n}, em vez de um tipo de {Qoyje':n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
-      <column name="components">{yer:n}, {ghajwI':n}, {chaw':n}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
-      <column name="search_tags">property, ownership</column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
-      <column name="source">[1] {Klingon Monopoly:src}, [2] {KLI mailing list 2015.05.29:src}</column>
-    </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">yer chaw'</column>
+          <column name="part_of_speech">n:alt,deriv</column>
+          <column name="definition">{yer ghajwI' chaw':n}</column>
+          <column name="definition_de">{yer ghajwI' chaw':n}</column>
+          <column name="definition_fa">{yer ghajwI' chaw':n}</column>
+          <column name="definition_sv">{yer ghajwI' chaw':n}</column>
+          <column name="definition_ru">{yer ghajwI' chaw':n}</column>
+          <column name="definition_zh_HK">{yer ghajwI' chaw':n}</column>
+          <column name="definition_pt">{yer ghajwI' chaw':n}</column>
+          <column name="definition_fi">{yer ghajwI' chaw':n}</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{yer:n}, {chaw':n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {KLI mailing list 2021.03.26:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">yer ghajwI' chaw'</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">title deed</column>
+          <column name="definition_de">Eigentumsnachweis für Grundstück</column>
+          <column name="definition_fa">سند [AUTOTRANSLATED]</column>
+          <column name="definition_sv">titelbeteende [AUTOTRANSLATED]</column>
+          <column name="definition_ru">титул на право собственности [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">地契 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">título de propriedade</column>
+          <column name="definition_fi">saantokirja, lainhuudatustodistus; omistusoikeus</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">Note that Klingons consider title deeds to be a type of {chaw':n}, rather than a type of {Qoyje':n}.[2]
+
+This can apply to things other than land or property or real estate. It just means the legally recognized right to control something (e.g., technology), so it could for example refer to something which is patented. It is often shortened to {yer chaw':n:nolink}.[3]</column>
+          <column name="notes_de">Beachten Sie, dass Klingonen Eigentumsurkunden als eine Art von {chaw':n} und nicht als eine Art von {Qoyje':n}.[2] betrachten
+
+Dies kann für andere Dinge als Grundstücke oder Immobilien gelten. Es bedeutet nur das gesetzlich anerkannte Recht, etwas zu kontrollieren (z. B. Technologie), so dass es sich beispielsweise auf etwas beziehen könnte, das patentiert ist. Es wird oft zu {yer chaw':n:nolink}.[3] gekürzt [AUTOTRANSLATED]</column>
+          <column name="notes_fa">توجه داشته باشید که کلینگون ها سند مالکیت را به جای یک نوع {Qoyje':n} ، نوعی {chaw':n} می دانند. [2]
+
+این می تواند در مورد چیزهایی غیر از زمین یا املاک یا املاک و مستغلات اعمال شود. این فقط به معنای حق شناخته شده قانونی برای کنترل چیزی است (به عنوان مثال ، فناوری) ، بنابراین می تواند به عنوان مثال به چیزی که ثبت شده است اشاره کند. اغلب به {yer chaw':n:nolink}.[3] کوتاه می شود [AUTOTRANSLATED]</column>
+          <column name="notes_sv">Observera att Klingons betraktar titelhandlingar som en typ av {chaw':n}, snarare än en typ av {Qoyje':n}.[2].
+
+Detta kan gälla andra saker än mark eller egendom eller fastigheter. Det betyder bara den juridiskt erkända rätten att kontrollera något (t.ex. teknik), så det kan till exempel referera till något som är patenterat. Det förkortas ofta till {yer chaw':n:nolink}.[3] [AUTOTRANSLATED]</column>
+          <column name="notes_ru">Обратите внимание, что клингоны рассматривают титулы как тип {chaw':n}, а не как тип {Qoyje':n}.[2]
+
+Это может относиться к вещам, отличным от земли, собственности или недвижимости. Это просто означает юридически признанное право контролировать что-либо (например, технологию), поэтому оно может, например, относиться к чему-то, что запатентовано. Его часто сокращают до {yer chaw':n:nolink}.[3]. [AUTOTRANSLATED]</column>
+          <column name="notes_zh_HK">請注意，克林崗人將產權契據視為{chaw':n}的一種，而不是{Qoyje':n}的一種。[2]
+
+這可以適用於土地，財產或房地產以外的事物。它僅表示控制某物（例如技術）的法律認可權利，因此它可以指例如獲得專利的某物。通常將其縮短為{yer chaw':n:nolink}.[3] [AUTOTRANSLATED]</column>
+          <column name="notes_pt">Observe que os Klingons consideram os títulos de propriedade como um tipo de {chaw':n}, em vez de um tipo de {Qoyje':n}.[2]
+
+Isso pode se aplicar a outras coisas além de terrenos, propriedades ou imóveis. Significa apenas o direito legalmente reconhecido de controlar algo (por exemplo, tecnologia), então pode, por exemplo, referir-se a algo que é patenteado. Muitas vezes é abreviado para {yer chaw':n:nolink}.[3] [AUTOTRANSLATED]</column>
+          <column name="notes_fi">Klingonin kielessä omistusoikeustodistus on {chaw':n}, ei {Qoyje':n}.[2]
+
+Tämä sana voi viitata muuhunkin kuin maa-alueeseen tai kiinteään omaisuuteen. Sitä voi käyttää mistä vain laillisesti tunnustetusta oikeudesta hallita jotain, myös immateriaalioikeuksista kuten patenteista. Se lyhennetään usein muotoon {yer chaw':n:nolink}.[3]</column>
+          <column name="hidden_notes"></column>
+          <column name="components">{yer:n}, {ghajwI':n}, {chaw':n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags">property, ownership, patent</column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi">omaisuus, patentti</column>
+          <column name="source">[1] {Klingon Monopoly:src}, [2] {KLI mailing list 2015.05.29:src}, [3] {KLI mailing list 2021.03.26:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yergh</column>
@@ -2642,7 +2701,7 @@ Não confunda isso com uma sociedade no sentido cultural, para a qual veja {nugh
       <column name="definition_ru">приостанавливаться</column>
       <column name="definition_zh_HK">暫停 [AUTOTRANSLATED]</column>
       <column name="definition_pt">pausa</column>
-      <column name="definition_fi">pitää tauko, levätä</column>
+      <column name="definition_fi">keskeyttää (oma tekeminen)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mev:v}, {bup:v}</column>
@@ -3364,7 +3423,7 @@ Käytä {Dab:v} -sanetta sanomaan, että joku "asuu" paikassa. [AUTOTRANSLATED]<
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">be alive</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -3680,7 +3739,7 @@ An earlier translation of this phrase appears in UPN's Star Trek 25th Anniversar
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yIntagh</column>
-      <column name="part_of_speech">excl</column>
+      <column name="part_of_speech">excl:epithet</column>
       <column name="definition">epithet</column>
       <column name="definition_de">Beleidigung</column>
       <column name="definition_fa">اپیدرم [AUTOTRANSLATED]</column>
@@ -3940,7 +3999,7 @@ An earlier translation of this phrase appears in UPN's Star Trek 25th Anniversar
       <column name="entry_name">yIr</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">gather</column>
-      <column name="definition_de">sammeln</column>
+      <column name="definition_de">sammeln, zusammensammeln</column>
       <column name="definition_fa">جمع آوری [AUTOTRANSLATED]</column>
       <column name="definition_sv">samla ihop, plocka ihop</column>
       <column name="definition_ru">собирать [AUTOTRANSLATED]</column>
@@ -4661,6 +4720,49 @@ Em {TNK:src}, esta palavra é usada para traduzir "camisa" e {yIvbeH SeQHa':n:no
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">yI'var</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">therapy</column>
+      <column name="definition_de">Therapie</column>
+      <column name="definition_fa">درمان [AUTOTRANSLATED]</column>
+      <column name="definition_sv">terapi [AUTOTRANSLATED]</column>
+      <column name="definition_ru">терапия [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">治療</column>
+      <column name="definition_pt">terapia</column>
+      <column name="definition_fi">hoito</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{rach:v}</column>
+      <column name="notes">This refers to a procedure for healing.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi">terapia</column>
+      <column name="source">[1] {KLI mailing list 2021.03.26:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">yo</column>
       <column name="part_of_speech">v:t_c</column>
       <column name="definition">slap, hit with palm</column>
@@ -4756,7 +4858,7 @@ Em {TNK:src}, esta palavra é usada para traduzir "camisa" e {yIvbeH SeQHa':n:no
       <column name="definition_ru">Праздник урожая</column>
       <column name="definition_zh_HK">豐收節日 [AUTOTRANSLATED]</column>
       <column name="definition_pt">festival da colheita</column>
-      <column name="definition_fi">sadonkorjuujuhla</column>
+      <column name="definition_fi">eräs juhla, sadonkorjuujuhla</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yob:v}, {yupma':n}</column>
@@ -5383,7 +5485,9 @@ Em {TNK:src}, esta palavra é usada para traduzir "camisa" e {yIvbeH SeQHa':n:no
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {tlhIngan wo' yuQmey chovlu'chugh Qo'noS potlh law' Hoch potlh puS. roD 'oHvaD juHqo' ponglu' neH. pa' 'oHtaH vaS'a''e'. tlhIngan qum waw' 'oH. yoq yIn yuQ 'oH Qo'noS'e'. yInSIp voQSIp je ngaS muDDaj.:sen:nolink}
+  "Главная планета Клингонской империи, Qo'noS обычно упоминается просто как "Родной мир". Здесь расположен зал Клингонского верховного совета, являющийся центром Клингонского правительства. Qo'noS планета класса "М" с кислородно/азотной атмосферой."[1]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -5494,7 +5598,7 @@ Em {TNK:src}, esta palavra é usada para traduzir "camisa" e {yIvbeH SeQHa':n:no
       <column name="definition_ru">район</column>
       <column name="definition_zh_HK">區</column>
       <column name="definition_pt">distrito, área</column>
-      <column name="definition_fi">alue, seutu, piiri</column>
+      <column name="definition_fi">seutu, piiri, maakunta</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Sep:n}, {veng:n}</column>
@@ -5509,9 +5613,9 @@ Some of the known districts on {Qo'noS:n} are:
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Tämä viittaa alueeseen {Sep:n}:issa, jossa on yleensä ainakin yksi tärkeä {veng:n}.
+      <column name="notes_fi">Tämä viittaa alueeseen {Sep:n}:n sisällä, jossa on yleensä ainakin yksi tärkeä kaupunki ({veng:n}).[2]
 
-{Qo'noS:n}:n tunnettuja alueita on:
+Kronosin ({Qo'noS:n}) tunnettuja alueita ovat:
 ▶ {HuD beQ yoS:n}
 ▶ {tlhIng yoS:n}</column>
       <column name="hidden_notes"></column>
@@ -5531,7 +5635,7 @@ Some of the known districts on {Qo'noS:n} are:
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">provinssi, lääni, alue</column>
       <column name="source">[1] {TKD:src}, [2] {KGT p.16:src}</column>
     </table>
     <table name="mem">
@@ -5933,7 +6037,7 @@ Some of the known districts on {Qo'noS:n} are:
       <column name="definition_ru">Операционная команда [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">操作命令 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Comando de operações</column>
-      <column name="definition_fi">laivaston johto?</column>
+      <column name="definition_fi">laivaston johto</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yejquv:n}, {jonSeH yaH:n}, {'ejyo'SeH yaHnIv:n}</column>
@@ -5977,7 +6081,7 @@ Some of the known districts on {Qo'noS:n} are:
       <column name="definition_ru">первый (и последний) тон неатонической музыкальной гаммы [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">非音階音階的第一個（也是最後一個）音調 [AUTOTRANSLATED]</column>
       <column name="definition_pt">primeiro (e último) tom da escala musical não-atônica</column>
-      <column name="definition_fi">nonatoonisen musiikkiasteikon ensimmäinen (ja viimeinen) sävel</column>
+      <column name="definition_fi">yhdeksänsävelisen musiikkiasteikon ensimmäinen (ja viimeinen) sävel</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -6199,18 +6303,19 @@ The first and second {yu:n:nolink} are not an octave apart, but rather a nonave 
       <column name="synonyms">{'uch:v:3}</column>
       <column name="antonyms"></column>
       <column name="see_also">{HeySel:n}, {tamler:n}, {'o'rIS:n}, {tamlerQeD:n}, {loch:v}</column>
-      <column name="notes">This is used for talking about chemistry.</column>
-      <column name="notes_de">Dies wird verwendet, um über Chemie zu sprechen. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این برای صحبت در مورد شیمی استفاده می شود. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta används för att prata om kemi. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это используется для разговоров о химии. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這用於談論化學。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Isso é usado para falar sobre química. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tätä käytetään puhumaan kemiasta. [AUTOTRANSLATED]</column>
+      <column name="notes">This is used for talking about chemistry (but not only about chemistry).</column>
+      <column name="notes_de">Dies wird verwendet, um über Chemie zu sprechen (aber nicht nur über Chemie). [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این مورد برای صحبت در مورد شیمی (اما نه تنها در مورد شیمی) استفاده می شود. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta används för att prata om kemi (men inte bara om kemi). [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это используется для разговоров о химии (но не только о химии). [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這用於談論化學（但不僅涉及化學）。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso é usado para falar sobre química (mas não apenas sobre química). [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tätä käytetään puhumaan kemiasta (mutta ei vain kemiasta). [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {cha' bIQSIp HeySelmey, wa' yInSIp HeySel je yugh bIQ 'o'rIS@@cha':n, bIQSIp:n, HeySel:n, -mey:n, wa':n, yInSIp:n, HeySel:n, je:conj, yugh:v, bIQ:n, 'o'rIS:n} "the water molecule consists of two hydrogen atoms and one oxygen atom"</column>
+▶ {cha' bIQSIp HeySelmey, wa' yInSIp HeySel je yugh bIQ 'o'rIS@@cha':n, bIQSIp:n, HeySel:n, -mey:n, wa':n, yInSIp:n, HeySel:n, je:conj, yugh:v, bIQ:n, 'o'rIS:n} "the water molecule consists of two hydrogen atoms and one oxygen atom"
+▶ {X neH yughmoH:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -6268,7 +6373,7 @@ The first and second {yu:n:nolink} are not an octave apart, but rather a nonave 
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
-          <column name="search_tags_fi"></column>
+          <column name="search_tags_fi">sisällyttää</column>
           <column name="source">[1] {KLI mailing list 2018.02.17:src}</column>
         </table>
     <table name="mem">

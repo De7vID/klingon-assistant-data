@@ -55,7 +55,7 @@
       <column name="definition_fi">virkistää, voimistaa, vahvistaa, lujittaa</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'argh:v}</column>
-      <column name="see_also">{Qorgh:v}, {rachwI':n}, {HoSmoH:v}</column>
+      <column name="see_also">{Qorgh:v}, {rachwI':n}, {HoSmoH:v}, {yI'var:n}</column>
       <column name="notes">When this verb is applied to a person, it suggests an improvement in health. When it is applied to an inanimate object, it implies improvement or betterment. It is distinguished from {tI':v} because that verb is not usually applied to living beings, and suggests a restoration to a previous state and not improvement. It also differs from {Dub:v} in that that verb is used for improvement of a more abstract nature.[1]</column>
       <column name="notes_de">Wenn dieses Verb auf eine Person angewendet wird, deutet dies auf eine Verbesserung der Gesundheit hin. Wenn es auf ein lebloses Objekt angewendet wird, bedeutet dies eine Verbesserung oder Verbesserung. Es unterscheidet sich von {tI':v}, weil dieses Verb normalerweise nicht auf Lebewesen angewendet wird und eine Wiederherstellung eines früheren Zustands und keine Verbesserung nahe legt. Es unterscheidet sich von {Dub:v} auch darin, dass dieses Verb zur Verbesserung abstrakterer Natur verwendet wird.[1] [AUTOTRANSLATED]</column>
       <column name="notes_fa"></column>
@@ -891,18 +891,20 @@ Tätä verbiä voidaan käyttää myös ilmaisemaan käsite, että kahdella asia
       <column name="definition_ru">манипулировать рукой, ручкой [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">用手操縱、處理 [AUTOTRANSLATED]</column>
       <column name="definition_pt">manipular à mão, manusear</column>
-      <column name="definition_fi">käsitellä (käsin)</column>
+      <column name="definition_fi">käsitellä, hallita, ohjata (käsin)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ruQ:v}, {'or:v}</column>
-      <column name="notes">This can be applied to the arts, weapons, or spaceships. It refers to any activity which involves having some control over some object. In the context of swords, it can be used with a similar meaning to {yan:v}. In the context of spaceships (see {Duj:n:1}), this refers to controlling a vessel "manually", rather than by computer. See {KGT p.79:src} for an explanation of this verb.</column>
-      <column name="notes_de">Dies kann auf Künste, Waffen oder Raumschiffe angewendet werden. Es bezieht sich auf jede Aktivität, bei der ein Objekt kontrolliert werden muss. Im Zusammenhang mit Schwertern kann es mit einer ähnlichen Bedeutung wie {yan:v} verwendet werden. Im Zusammenhang mit Raumschiffen (siehe {Duj:n:1}) bezieht sich dies auf die "manuelle" Steuerung eines Schiffes und nicht per Computer. Siehe {KGT p.79:src} für eine Erklärung dieses Verbs. [AUTOTRANSLATED]</column>
+      <column name="notes">This can be applied to the arts, weapons, or spaceships. It refers to any activity which involves having some control over some object. In the context of swords, it can be used with a similar meaning to {yan:v}. In the context of spaceships (see {Duj:n:1}), this refers to controlling a vessel "manually", rather than by computer.[1, p.79]
+
+In contrast to {ruQ:v:nolink}, which is more likely to be used when the handling alters the configuration of the thing being manipulated, {raQ:v:nolink} is used when the thing being handled doesn't do anything if it's not being handled. {raQ:v:nolink} is used when manually controlling a spaceship using switches or buttons and so on, as opposed to letting the computer control things automatically. But {ruQ:v:nolink} would be used if someone is manually controlling the thrusters by physically doing something to them directly, like yanking a thruster component, or twisting something, or banging on something.[2]</column>
+      <column name="notes_de"></column>
       <column name="notes_fa"></column>
-      <column name="notes_sv">Detta kan tillämpas på konst, vapen eller rymdskepp. Det hänvisar till alla aktiviteter som innebär att ha viss kontroll över något objekt. I samband med svärd kan det användas med en liknande betydelse som {yan:v}. När det gäller rymdskepp (se {Duj:n:1}) avser detta att manövrera ett fartyg "manuellt" snarare än med dator. Se {KGT p.79:src} för en förklaring av detta verb. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это может быть применено к искусству, оружию или космическим кораблям. Это относится к любой деятельности, которая предполагает некоторый контроль над каким-либо объектом. В контексте мечей, он может быть использован со значением, аналогичным {yan:v}. В контексте космических кораблей (см. {Duj:n:1}) это относится к управлению судном «вручную», а не с помощью компьютера. Смотрите {KGT p.79:src} для объяснения этого глагола. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這可以應用於藝術，武器或宇宙飛船。它是指涉及對某個對象進行某種控制的任何活動。在劍的上下文中，可以使用與{yan:v}類似的含義。在宇宙飛船的背景下（請參閱{Duj:n:1}），這是指「手動」控制船隻，而不是通過計算機。有關此動詞的說明，請參見{KGT p.79:src}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Isso pode ser aplicado às artes, armas ou naves espaciais. Refere-se a qualquer atividade que envolva ter algum controle sobre algum objeto. No contexto de espadas, pode ser usado com um significado semelhante ao {yan:v}. No contexto de naves espaciais (consulte {Duj:n:1}), isso se refere ao controle de uma embarcação "manualmente", e não por computador. Veja {KGT p.79:src} para uma explicação deste verbo. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tätä voidaan soveltaa taiteisiin, aseisiin tai avaruusaluksiin. Se viittaa mihin tahansa toimintaan, johon liittyy jonkinlainen hallinta jonkin objektin suhteen. Miekkojen yhteydessä sitä voidaan käyttää samanlaisella merkityksellä kuin {yan:v}. Avaruusalusten yhteydessä (katso {Duj:n:1}) tämä tarkoittaa aluksen hallintaa "manuaalisesti" eikä tietokoneella. Katso selitys tälle verbille kohdasta {KGT p.79:src}. [AUTOTRANSLATED]</column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -921,9 +923,10 @@ Tätä verbiä voidaan käyttää myös ilmaisemaan käsite, että kahdella asia
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {KGT:src}</column>
+      <column name="source">[1] {KGT:src}, [2] {KLI mailing list 2021.03.22:src}</column>
     </table>
     <table name="mem">
+      <!-- No apparent relation to {raQ:n} or {raQ:v} or {po':v}. -->
       <column name="_id"></column>
       <column name="entry_name">raQpo'</column>
       <column name="part_of_speech">n:being</column>
@@ -939,7 +942,6 @@ Tätä verbiä voidaan käyttää myös ilmaisemaan käsite, että kahdella asia
       <column name="antonyms"></column>
       <column name="see_also">{ghIQ:v}, {leng:v}, {'orwI':n}</column>
       <column name="notes"></column>
-      <!-- No apparent relation to {raQ:n} or {raQ:v} or {po':v}. -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -1196,7 +1198,7 @@ Tätä verbiä voidaan käyttää myös ilmaisemaan käsite, että kahdella asia
       <column name="definition_fi">siemen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tIr:n}, {tI:n}, {qet'uy:n}, {Do'ol raS'IS:n}</column>
+      <column name="see_also">{poch:v}, {tIr:n}, {tI:n}, {qet'uy:n}, {Do'ol raS'IS:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1748,10 +1750,10 @@ Tämän sanan ensimmäinen osa on {rav:n:1} "lattia", mutta toinen osa ei liity 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qach:n}</column>
-      <column name="notes">This is intended for use by people, whereas a {HuDyar:n} is typically used for storing things, although there is overlap between them..</column>
+      <column name="notes">This is intended for use by people, whereas a {HuDyar:n} is typically used for storing things, although there is overlap between them.</column>
       <column name="notes_de">Dies ist für die Verwendung durch Personen vorgesehen, während eine {HuDyar:n} normalerweise zum Speichern von Dingen verwendet wird, obwohl es Überschneidungen zwischen ihnen gibt. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این برای استفاده افراد در نظر گرفته شده است ، در حالی که معمولاً یک {HuDyar:n} برای ذخیره کردن موارد استفاده می شود ، اگرچه بین آنها همپوشانی وجود دارد. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är avsett att användas av människor, medan en {HuDyar:n} vanligtvis används för att lagra saker, även om det finns överlappning mellan dem ... [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är avsett att användas av människor, medan en {HuDyar:n} vanligtvis används för att lagra saker, även om det finns överlappning mellan dem .. [AUTOTRANSLATED]</column>
       <column name="notes_ru">Это предназначено для использования людьми, в то время как {HuDyar:n} обычно используется для хранения вещей, хотя между ними есть дублирование. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是供人使用的，而{HuDyar:n}通常用於存儲事物，儘管它們之間有重疊。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso se destina ao uso por pessoas, enquanto um {HuDyar:n} é normalmente usado para armazenar coisas, embora haja sobreposição entre elas. [AUTOTRANSLATED]</column>
@@ -2143,7 +2145,7 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="definition_ru">командная группа, командный состав [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">指揮小組、指揮人員 [AUTOTRANSLATED]</column>
       <column name="definition_pt">grupo de comando, pessoal de comando</column>
-      <column name="definition_fi">komennuskunta, iskujoukko, kommandojoukko ?; komentoesikunta</column>
+      <column name="definition_fi">johtoesikunta</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ra'ghomquv:n}</column>
@@ -2187,7 +2189,7 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="definition_ru">высшее командование</column>
       <column name="definition_zh_HK">高級指揮 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Alto Comando</column>
-      <column name="definition_fi">korkein esikunta ?</column>
+      <column name="definition_fi">Ylin johtoesikunta</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'ejyo' ra'ghomquv:n}</column>
@@ -2198,7 +2200,7 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="notes_ru">Высшее командование управляет {tlhIngan Hubbeq:n}.</column>
       <column name="notes_zh_HK">高級命令運行{tlhIngan Hubbeq:n}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">O Alto Comando executa o {tlhIngan Hubbeq:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Korkea komento suorittaa {tlhIngan Hubbeq:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Ylin johtoesikunta johtaa puolustusvoimia ({tlhIngan Hubbeq:n}).</column>
       <column name="hidden_notes"></column>
       <column name="components">{ra'ghom:n}, {quv:v}</column>
       <column name="examples"></column>
@@ -2273,7 +2275,7 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="definition_ru">командир, командующий</column>
       <column name="definition_zh_HK">指揮官、司令</column>
       <column name="definition_pt">comandante</column>
-      <column name="definition_fi">komentaja</column>
+      <column name="definition_fi">komentava upseeri</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yaS:n}</column>
@@ -2284,7 +2286,7 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="notes_ru">Относится к кому-то с рангом {Sogh:n} или выше.</column>
       <column name="notes_zh_HK">這是指{Sogh:n}或更高級別的人。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Refere-se a alguém de classificação {Sogh:n} ou superior. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä viittaa henkilöön, jonka sijoitus on {Sogh:n} tai korkeampi. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä viittaa henkilöön, jonka sotilasarvo on luutnantti ({Sogh:n}) tai korkeampi.</column>
       <column name="hidden_notes"></column>
       <column name="components">{ra':v:1}, {-wI':v}</column>
       <column name="examples"></column>
@@ -2704,7 +2706,7 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="definition_ru">Регулианское кровавое вино</column>
       <column name="definition_zh_HK">軒轅十四星血酒</column>
       <column name="definition_pt">Vinho de sangue Regulan</column>
-      <column name="definition_fi">reguluslainen veriviini</column>
+      <column name="definition_fi">eräs alkoholijuoma, reguluslainen veriviini</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -4255,7 +4257,7 @@ Ainoa tapa, jolla Maltz tiesi viittaavan sääriluuhun, on {reStav Hom:n@@reStav
       <column name="definition_fi">... (ajanjakso) sitten</column>
       <column name="synonyms"></column>
       <column name="antonyms">{pIq:n}</column>
-      <column name="see_also">{pa'logh:n}, {ret:v}</column>
+      <column name="see_also">{pa'logh:n}</column>
       <column name="notes">A specialised word is used to indicate a time in the past for the following units:
 ▶ {jaj:n} "day" - {Hu':n} "days ago"
 ▶ {jar:n} "month" - {wen:n} "months ago"
@@ -4313,7 +4315,7 @@ Tämä on sama sana kuin verbi {ret:v}.[2][1] [AUTOTRANSLATED]</column>
       <column name="definition_fi">olla viimeisin, tuorein</column>
       <column name="synonyms">{ghoQ:v:2}</column>
       <column name="antonyms"></column>
-      <column name="see_also">{ret:n}, {vorgh:v}</column>
+      <column name="see_also">{vorgh:v}</column>
       <column name="notes">This is the same word as the noun {ret:n}.</column>
       <column name="notes_de">Dies ist das gleiche Wort wie das Substantiv {ret:n}. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این همان کلمه اسمی {ret:n} است. [AUTOTRANSLATED]</column>
@@ -5464,7 +5466,7 @@ Tätä verbiä käytetään loppuliitteen {-taH:v} kanssa muodostaen {rIntaH:v},
       <column name="_id"></column>
       <column name="entry_name">rIQ</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be injured, be damaged</column>
+      <column name="definition">be injured</column>
       <column name="definition_de">verletzt sein</column>
       <column name="definition_fa">مجروح شود، آسیب ببیند [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara skadad</column>
@@ -5483,7 +5485,7 @@ Tätä verbiä käytetään loppuliitteen {-taH:v} kanssa muodostaen {rIntaH:v},
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">In {TKD:src} this is defined as "be injured". The "be damaged" extension of the meaning is from {Klingon Monopoly:src}.</column>
+      <column name="hidden_notes">The sentence from {Klingon Monopoly:src} implies that this can mean "be damaged", when applied to non-living things.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {Dumer DIvI' QaS 'ej DuHIv, vaj bIwunchoH 'ej bIrIQchoH.:sen:nolink} "Surprise attack by Federation leaves you unprotected and damaged."[2]</column>
@@ -5495,7 +5497,7 @@ Tätä verbiä käytetään loppuliitteen {-taH:v} kanssa muodostaen {rIntaH:v},
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">be damaged</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -6088,7 +6090,7 @@ Tämä viittaa myös musteeseen, kuten kumileimasimeen ({toqwIn:n}).[2] [AUTOTRA
       <column name="definition_ru">дефлектор [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">導流板 [AUTOTRANSLATED]</column>
       <column name="definition_pt">defletor</column>
-      <column name="definition_fi">kimmotin</column>
+      <column name="definition_fi">suojus, kimmotin</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -6272,7 +6274,7 @@ Tämä viittaa myös musteeseen, kuten kumileimasimeen ({toqwIn:n}).[2] [AUTOTRA
       <column name="notes_zh_HK">這可能是{naj:v}「夢」或{SIQ:v}「忍受」和其他一些動詞的對象，但通常不是{ghaj:v}「有」（除非您從某種意義上說是一場噩夢）。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este pode ser o objeto de {naj:v} "sonho" ou {SIQ:v} "resistir" e alguns outros verbos, mas geralmente não {ghaj:v} "ter" (a menos que você literalmente possua um pesadelo). [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä voi olla {naj:v} "unelma" tai {SIQ:v} "kestää" ja joidenkin muiden verbien kohde, mutta yleensä ei {ghaj:v} "ole" (ellei sinulla ole kirjaimellisesti painajaista). [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">One of the tracks on the Robin Williams comedy album "Reality... What a Concept" is named "Shakespeare (A Meltdowner's Nightmare)".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6993,7 +6995,7 @@ Tämä viittaa myös musteeseen, kuten kumileimasimeen ({toqwIn:n}).[2] [AUTOTRA
       <column name="definition_ru">Ромуланский эль</column>
       <column name="definition_zh_HK">Romulan ale [AUTOTRANSLATED]</column>
       <column name="definition_pt">Ale Romulano</column>
-      <column name="definition_fi">romuluslainen olut</column>
+      <column name="definition_fi">eräs alkoholijuoma, romuluslainen olut</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -8137,7 +8139,7 @@ It was confirmed during the Q &amp; A session at {qep'a'2 27 (2020):src} that th
       <column name="definition_ru">быть жестким, быть грубым, быть крутым</column>
       <column name="definition_zh_HK">要堅強 [AUTOTRANSLATED]</column>
       <column name="definition_pt">ser duro, ser difícil</column>
-      <column name="definition_fi">olla kova, kestävä ?</column>
+      <column name="definition_fi">olla kova, kestävä</column>
       <column name="synonyms"></column>
       <column name="antonyms">{puj:v}</column>
       <column name="see_also">{SIQ:v}</column>
@@ -8879,11 +8881,11 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
       <column name="definition_ru">управлять вручную, самолично</column>
       <column name="definition_zh_HK">手動控制、手動 [AUTOTRANSLATED]</column>
       <column name="definition_pt">controle manual, à mão</column>
-      <column name="definition_fi">ohjata manuaalisesti, käsin</column>
+      <column name="definition_fi">ohjata manuaalisesti, rukata, säätää</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{raQ:v}, {SeH:v}, {ngep:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This refers to controlling or handling something that can or may do something on its own (or due to some source of power), but the manual intervention causes it to do something else or behave differently. It is more likely to be used when the handling alters the configuration of the thing being manipulated, in comparison to {raQ:v:nolink} (which is used if the thing being handled doesn't do anything if it's not being handled). One might {ruQ:v:nolink} a robot vacuum cleaner by picking it up and reorienting it. One would not {ruQ:v:nolink} a {betleH:n} (unless it's an adjustable {betleH:n:nolink} of some sort). If one were to {ruQ:v:nolink} a work of art, that would suggest the artwork is manipulable in some way. Controlling the thrusters by pushing a button or two would be {raQ:v:nolink}, but manually controlling them by physically doing something to them directly, like yanking a thruster component, twisting something, or banging on something, would be {ruQ:v:nolink}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -8909,7 +8911,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KLI mailing list 2021.03.22:src}</column>
     </table>
     <table name="mem">
       <!-- Note: When components are specified with "@@", don't annotate with ":sen", to allow user to edit the search query. -->
@@ -9202,7 +9204,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
       <column name="definition_ru">название ритуала установления родственной связи</column>
       <column name="definition_zh_HK">結合儀式</column>
       <column name="definition_pt">ritual de ligação</column>
-      <column name="definition_fi">lähentymisrituaali</column>
+      <column name="definition_fi">eräs rituaali, lähentymisrituaali</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ruS:n}, {tay:n:2}</column>

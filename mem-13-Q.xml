@@ -56,8 +56,8 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
-      <column name="notes_de"></column>
+      <column name="notes">This is a nerve gas used by Klingons.</column>
+      <column name="notes_de">Das ist ein klingonisches Nervengift.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -1169,6 +1169,7 @@ Katso oppitunti tästä sanasta: {YouTube video:url:http://youtu.be/auqS6FR_RDE}
       <column name="source">[1] {TKD p.171:src}</column>
     </table>
     <table name="mem">
+      <!-- One step short of success? -->
       <column name="_id"></column>
       <column name="entry_name">QaplaStep</column>
       <column name="part_of_speech">n</column>
@@ -1379,7 +1380,7 @@ Jos haluat kuvailla nautittavaa ruokaa tai musiikkia, katso {'ey:v} ja {DuQ:v:2}
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">QaS</column>
-      <column name="part_of_speech">n:1h,inhpl</column>
+      <column name="part_of_speech">n:1h,inhpl,being</column>
       <column name="definition">troops</column>
       <column name="definition_de">Truppen</column>
       <column name="definition_fa">نیروهای [AUTOTRANSLATED]</column>
@@ -1387,10 +1388,10 @@ Jos haluat kuvailla nautittavaa ruokaa tai musiikkia, katso {'ey:v} ja {DuQ:v:2}
       <column name="definition_ru">Войска</column>
       <column name="definition_zh_HK">軍隊 [AUTOTRANSLATED]</column>
       <column name="definition_pt">tropas</column>
-      <column name="definition_fi">(sota)joukot</column>
+      <column name="definition_fi">(sota)joukot; miehistö (ei-upseerit)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{negh:n}, {yaS:n}</column>
+      <column name="see_also">{beq:n}, {negh:n}, {yaS:n}</column>
       <column name="notes">The meaning of this word is like {negh:n}, but it excludes officers ({yaS:n}). The highest ranks of {QaS:n:1h,nolink} are:
 ▶ {bu':n} "sergeant"
 ▶ {Da':n} "corporal"
@@ -1754,7 +1755,9 @@ Kohdassa {Klingon Monopoly:src} {tlhIngan QaS:n:nolink} on pelissä käytetty ra
       <column name="notes_zh_HK">有關相關的慣用語，請參閱{Qay':v:2}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Consulte {Qay':v:2} para obter uma expressão idiomática relacionada. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Katso aiheeseen liittyvä idiomaattinen ilme kohdasta {Qay':v:2}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">In {TKD:src} this is defined as "blow one's top".[1] In {HQ 10.2:src}, the additional definition "lose one's temper" was added for clarification.[2]</column>
+      <column name="hidden_notes">In {TKD:src} this is defined as "blow one's top".[1] In {HQ 10.2:src}, the additional definition "lose one's temper" was added for clarification.[2]
+
+"Cry".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2286,7 +2289,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/SIpF7Zak6
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The acronym STEM stands for Science ({QeD:n}), Technology ({cham:n}), Engineering ({jonta':n}), and Mathematics ({mI'QeD:n}).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2959,7 +2962,7 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
       <column name="definition_ru">беспокоиться (о) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">擔心 [AUTOTRANSLATED]</column>
       <column name="definition_pt">ser ansioso (acerca de)</column>
-      <column name="definition_fi">olla ahdistunut, huolestunut</column>
+      <column name="definition_fi">olla ahdistunut, huolestunut jostain</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{rejmorgh:n}, {bIt:v}</column>
@@ -3047,7 +3050,7 @@ This seems to be made up of {Qep:v} "be anxious" and {'It:v} "be depressed", but
       <column name="definition_ru">цель [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">目標 [AUTOTRANSLATED]</column>
       <column name="definition_pt">apontar</column>
-      <column name="definition_fi">tähdätä jotain</column>
+      <column name="definition_fi">tähdätä jollakin</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{puS:v:2}</column>
@@ -3072,9 +3075,9 @@ Detta verb används också för att uttrycka idén om "ansikte" (orientera mot) 
       <column name="notes_pt">O objeto é o projétil ou arma e o alvo é marcado com {-Daq:n:suff} (consulte {bach:v} para obter detalhes).
 
 Este verbo também é usado para expressar a idéia de "face" (orientar para) (consulte {Qeq:v:2}). [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Kohde on ammus tai ase, ja kohde on merkitty merkillä {-Daq:n:suff} (katso lisätietoja kohdasta {bach:v}).
+      <column name="notes_fi">Objekti on ammus tai ase ja tähtäyksen kohde ilmaistaan {-Daq:n:suff}-muodolla (katso {bach:v}).
 
-Tätä verbiä käytetään myös ilmaisemaan ajatusta "kasvot" (suunta kohti) (katso {Qeq:v:2}). [AUTOTRANSLATED]</column>
+Tätä verbiä voidaan myös käyttää ilmaisemaan, että subjekti on kääntynyt jotakin kohti (katso {Qeq:v:2})</column>
       <column name="hidden_notes">This was defined as "aim" in {KGT:src} and clarified to "aim (at)" at {qep'a' 27 (2020):src}.</column>
       <column name="components"></column>
       <column name="examples">
@@ -3370,7 +3373,7 @@ Tätä verbiä käytetään myös ilmaisemaan ajatusta "kasvot" (suunta kohti) (
       <column name="synonyms"></column>
       <column name="antonyms">{ghun:v:2}, {tuj:v}</column>
       <column name="see_also">{bIr:v}, {buj:v}, {Hat:n}</column>
-      <column name="notes"></column>
+      <column name="notes">The temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon (but the person wearing it is).[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3378,7 +3381,7 @@ Tätä verbiä käytetään myös ilmaisemaan ajatusta "kasvot" (suunta kohti) (
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">It was clarified during the Q &amp; A session that the temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon.</column>
+      <column name="hidden_notes">The clarification about clothing was made during the Q &amp; A session at {qep'a' 27 (2020):src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4315,7 +4318,7 @@ Tätä sanaa ei käytetä tarkoittavan "haluaa, kaipaa, kaipaa sitä, sitä tode
       <column name="search_tags_ru">почта, электронное письмо</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">sähköposti</column>
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
@@ -5088,7 +5091,7 @@ Ei ole perinteistä klingonilaista tapaa sanoa jotain "hyvää joulua". Lauseke,
       <column name="definition_ru">Название праздника</column>
       <column name="definition_zh_HK">假期的名字 [AUTOTRANSLATED]</column>
       <column name="definition_pt">nome de um feriado</column>
-      <column name="definition_fi">eräs juhla (loma?)</column>
+      <column name="definition_fi">eräs juhla</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -5099,7 +5102,7 @@ Ei ole perinteistä klingonilaista tapaa sanoa jotain "hyvää joulua". Lauseke,
       <column name="notes_ru">В {PK:src}, это произносится Майклом Дорном, как {Qetlop:sen:nolink}.</column>
       <column name="notes_zh_HK">在{PK:src}中，Michael Dorn像{Qetlop:sen:nolink}一樣發音。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">No {PK:src}, isso é pronunciado por Michael Dorn como {Qetlop:sen:nolink}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">{PK:src}: ssä tämän lausuu Michael Dorn kuten {Qetlop:sen:nolink}. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Michael Dorn lausuu tämän {PK:src}:ssa muodossa {Qetlop:sen:nolink}.</column>
       <column name="hidden_notes"></column>
       <column name="components">{QI':n}, {lop:n}</column>
       <column name="examples"></column>
@@ -5778,7 +5781,7 @@ Sopimus ilmaistaan ​​myös idiomaattisella ilmaisulla {wa' DoS wIqIp.:sen:id
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">QoH</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">tap</column>
       <column name="definition_de">tippen, antippen</column>
       <column name="definition_fa">ضربه زدن [AUTOTRANSLATED]</column>
@@ -5798,7 +5801,7 @@ Sopimus ilmaistaan ​​myös idiomaattisella ilmaisulla {wa' DoS wIqIp.:sen:id
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi">Tämä tarkoittaa koskettaa sormia varovasti johonkin, yleensä muutaman kerran. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">A person's shoulder was given as an example of a possible object for this verb.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6491,7 +6494,7 @@ Sopimus ilmaistaan ​​myös idiomaattisella ilmaisulla {wa' DoS wIqIp.:sen:id
       <column name="part_of_speech">n</column>
       <column name="definition">music</column>
       <column name="definition_de">Musik</column>
-      <column name="definition_fa">موسیقی [AUTOTRANSLATED]</column>
+      <column name="definition_fa">موسیقی</column>
       <column name="definition_sv">musik</column>
       <column name="definition_ru">Музыка [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">音樂</column>
@@ -7043,7 +7046,7 @@ Krotmagin alueella kaiuttimet korvaavat {b:sen:nolink}: n {m:sen:nolink}: lla ja
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qovpatlh</column>
-      <column name="part_of_speech">excl</column>
+      <column name="part_of_speech">excl:epithet</column>
       <column name="definition">epithet</column>
       <column name="definition_de">Beleidigung</column>
       <column name="definition_fa">اپیدرم [AUTOTRANSLATED]</column>
@@ -7365,7 +7368,7 @@ Os klingons consideram os títulos de propriedade ({yer ghajwI' chaw':n}) como u
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qoy'</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:i_c</column>
       <column name="definition">spill</column>
       <column name="definition_de">auslaufen, überschwappen</column>
       <column name="definition_fa">ریختن [AUTOTRANSLATED]</column>
@@ -7385,10 +7388,10 @@ Os klingons consideram os títulos de propriedade ({yer ghajwI' chaw':n}) como u
       <column name="notes_zh_HK">當液體從所盛裝的容器中溢出或溢出時使用。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso é usado quando o líquido cai ou sai de qualquer recipiente em que estava. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tätä käytetään, kun neste putoaa sen säiliön päälle tai pois. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Don't "cry" over spilled milk.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {HIq vIQoy'moHpu' jay'.:sen:nolink}</column>
+▶ {HIq vIQoy'moHpu' jay'.:sen@@HIq:n, vI-:v, Qoy':v, -moH:v, -pu':v, jay':adv}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -7619,7 +7622,7 @@ O significado da gíria de {chong:v:2,slang}, quando aplicado a uma pessoa, é e
       <column name="notes_fi">Tämä verbi voi ottaa objektiksi {'e':n:pro}.[2]
 
 {chong:v:2,slang}: n slangimerkitys, kun sitä sovelletaan henkilöön, vastaa {Qubchu'}: n "ajattele selkeästi".[3] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">In {msn 1996.12.12:src}, Dr. Okrand responds to a sentence someone else wrote, in which he noted that {'e' DaQub'a'?:sen:nolink} is correct for "Do you think that...?"</column>
+      <column name="hidden_notes">In {msn 1996.12.12:src}, Dr. Okrand responded to a sentence someone else wrote. In his response, he affirmed that the sentence fragment {... 'e' DaQub'a'?:sen:nolink} was the correct way to say "Do you think that...?"</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {tlhIngan Hol Dajatlh 'e' vIQub.:sen:nolink} "I think that you speak Klingon."[2]</column>
@@ -7827,15 +7830,15 @@ O significado da gíria de {chong:v:2,slang}, quando aplicado a uma pessoa, é e
       <column name="definition_fi">katastrofi</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This word and {lot:n} are mostly interchangeable. To refer to something that in all likelihood one can't recover from (like the loss of {pIraqSIS:n}), {lot:n:nolink} is better.[2]</column>
-      <column name="notes_de">Dieses Wort und {lot:n} sind größtenteils austauschbar. Um auf etwas zu verweisen, von dem man sich aller Wahrscheinlichkeit nach nicht erholen kann (wie den Verlust von {pIraqSIS:n}), ist {lot:n:nolink} besser.[2] [AUTOTRANSLATED]</column>
+      <column name="see_also">{lot:n}</column>
+      <column name="notes">This word and {lot:n:nolink} are mostly interchangeable. To refer to something that in all likelihood one can't recover from (like the loss of {pIraqSIS:n}), {lot:n:nolink} is better.[2]</column>
+      <column name="notes_de">Dieses Wort und {lot:n:nolink} sind größtenteils austauschbar. Um auf etwas zu verweisen, von dem man sich aller Wahrscheinlichkeit nach nicht erholen kann (wie den Verlust von {pIraqSIS:n}), ist {lot:n:nolink} besser.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">Это слово и {lot:n} в основном взаимозаменяемы. Чтобы сослаться на то, от чего, по всей вероятности, невозможно оправиться (например, потеря {pIraqSIS:n}), {lot:n:nolink} лучше.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這個詞和{lot:n}通常可以互換。提到某種不可能恢復的東西（例如{pIraqSIS:n}的損失，{lot:n:nolink}更好）。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это слово и {lot:n:nolink} в основном взаимозаменяемы. Чтобы сослаться на то, от чего, по всей вероятности, невозможно оправиться (например, потеря {pIraqSIS:n}), {lot:n:nolink} лучше.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這個詞和{lot:n:nolink}通常可以互換。提到某種不可能恢復的東西（例如{pIraqSIS:n}的損失，{lot:n:nolink}更好）。[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Tämä sana ja {lot:n} ovat enimmäkseen vaihdettavissa. {lot:n:nolink} on parempi viitata johonkin, josta todennäköisesti ei voi toipua (kuten {pIraqSIS:n}: n menetys).[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä sana ja {lot:n:nolink} ovat enimmäkseen vaihdettavissa. {lot:n:nolink} on parempi viitata johonkin, josta todennäköisesti ei voi toipua (kuten {pIraqSIS:n}: n menetys).[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>

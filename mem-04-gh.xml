@@ -978,7 +978,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_ru">преждевременный конец (событие, путешествие, битва, игра, опера, история, песня и т. д.) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">過早結束（事件，航程、戰鬥、戲劇、歌劇、故事、歌曲等） [AUTOTRANSLATED]</column>
       <column name="definition_pt">terminar prematuramente (um evento, viagem, batalha, peça, ópera, história, música etc.)</column>
-      <column name="definition_fi">loppua ennenaikaisesti (tapahtuma, matka, taistelu, näytelmä, ooppera, laulu, tarina tms.)</column>
+      <column name="definition_fi">lopettaa ennenaikaisesti (tapahtuma, matka, taistelu, näytelmä, ooppera, laulu, tarina tms.)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bertlham:n}, {Dor:v:2}, {rIn:v}, {van:v:2}, {'o'megh:n}</column>
@@ -989,7 +989,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="notes_ru">Субъект этого глагола - лицо, вызывающее преждевременное завершение события. Объект - это законченное событие. Если завершение события не было преждевременным, используйте вместо этого {van:v:2}. Чтобы описать окончание периода времени, используйте вместо этого {Dor:v:2}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">此動詞的主題是導致事件過早結束的人。對像是結束的事件。如果事件的結束不是不成熟的，請改用{van:v:2}。要描述一段時間的結束，請改用{Dor:v:2}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">O sujeito deste verbo é a pessoa que causa o término prematuro de um evento. O objeto é o evento que terminou. Se o término do evento não foi prematuro, use {van:v:2}. Para descrever o final de um período de tempo, use {Dor:v:2}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämän verbin aihe on henkilö, joka aiheuttaa tapahtuman ennenaikaisen päättymisen. Kohde on tapahtuma, joka on päättynyt. Jos tapahtuman loppu ei ollut ennenaikainen, käytä sen sijaan {van:v:2}. Käytä ajanjakson päättymistä kuvaamalla {Dor:v:2}. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämän verbin subjekti on henkilö, joka aiheuttaa tapahtuman ennenaikaisen päättymisen. Objekti on päätetty tapahtuma. Jos tapahtuman loppu ei ollut ennenaikainen, käytä sen sijaan verbiä {van:v:2}. Ajanjakson päättymisestä käytetään verbiä {Dor:v:2}.</column>
       <column name="hidden_notes">Quite often, the hitting of a "gong" brings an event to a premature end.</column>
       <column name="components"></column>
       <column name="examples">
@@ -1000,7 +1000,8 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
+      <column name="examples_fi">
+▶ {DIvI' rojmab qep ghanglu' 'e' nIDlu', 'ach taH qep.:sen:nolink} "Vaikka Liiton kanssa käytävät rauhanneuvottelut on yritetty pysäyttää, ne jatkuvat."[2]</column>
       <column name="search_tags">halt, stop</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1057,7 +1058,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghap</column>
-      <column name="part_of_speech">conj</column>
+      <column name="part_of_speech">conj:klcp1</column>
       <column name="definition">or, either/or (joining nouns)</column>
       <column name="definition_de">entweder/oder (bei Substantiven)</column>
       <column name="definition_fa">یا، یا / (پیوند اسم ها) [AUTOTRANSLATED]</column>
@@ -1590,15 +1591,15 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_fi">kaivaa (ojaa, vallihautaa)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{QemjIq:n}, {taSman:n}, {tlhan:v}</column>
-      <column name="notes">The object of this verb is the hole that's produced (such as a trench or a ditch).</column>
-      <column name="notes_de">Das Objekt dieses Verbs ist das Loch, das erzeugt wird (wie ein Graben oder ein Graben). [AUTOTRANSLATED]</column>
-      <column name="notes_fa">هدف این فعل سوراخ تولید شده است (مانند سنگر یا خندق). [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Syftet med detta verb är hålet som produceras (t.ex. en dike eller en dike). [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Объектом этого глагола является отверстие, которое производится (например, траншея или канава). [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">該動詞的對像是產生的孔（例如溝槽或溝渠）。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">O objeto desse verbo é o buraco produzido (como uma vala ou uma vala). [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämän verbin kohde on muodostunut reikä (kuten kaivanto tai oja). [AUTOTRANSLATED]</column>
+      <column name="see_also">{QemjIq:n}, {taSman:n}</column>
+      <column name="notes">The object of this verb is the hole that's produced (such as a trench or a ditch), not the thing in which the hole is produced, for which see {tlhan:v}.</column>
+      <column name="notes_de">Das Objekt dieses Verbs ist das Loch, das erzeugt wird (wie ein Graben oder ein Graben), nicht das Ding, in dem das Loch erzeugt wird, wofür siehe {tlhan:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">هدف این فعل حفره ای است که ایجاد می شود (مانند یک ترانشه یا یک خندق) ، نه چیزی است که در آن سوراخ ایجاد می شود ، که به آن مراجعه کنید {tlhan:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Objektet med detta verb är det hål som produceras (som en dike eller ett dike), inte det som hålet produceras i, se {tlhan:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Объект этого глагола - образовавшаяся дыра (например, траншея или канава), а не предмет, в котором образовалась дыра, для чего см. {tlhan:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">此動詞的對像是產生的孔（例如溝槽或溝渠），而不是產生孔的物體，請參見{tlhan:v}。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">O objeto deste verbo é o buraco que é produzido (como uma trincheira ou vala), não a coisa na qual o buraco é produzido, para o qual veja {tlhan:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämän verbin tarkoitus on muodostunut reikä (kuten kaivanto tai oja), ei se asia, jossa reikä syntyy, josta ks. {tlhan:v}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2021,7 +2022,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="definition_ru">Соус грапок</column>
       <column name="definition_zh_HK">grapok醬 [AUTOTRANSLATED]</column>
       <column name="definition_pt">molho grapok</column>
-      <column name="definition_fi">grapok-kastike</column>
+      <column name="definition_fi">eräs kastike, grapok</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Se'tu':n}</column>
@@ -4035,7 +4036,7 @@ On myös alueellinen sana {ley':n}, joka tarkoittaa "nenä". [AUTOTRANSLATED]</c
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">{TKW:src} only describes this as an ancient political movement, the meaning of whose name has been lost to obscurity, without any reference to the word "Glasnost". However, it is clearly a transliteration of this word.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4338,7 +4339,7 @@ On myös alueellinen sana {ley':n}, joka tarkoittaa "nenä". [AUTOTRANSLATED]</c
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">In {TNG - Birthright, Part II:src}, Worf snatches this weapon out of a young man's hand when he sees him tilling the soil with it.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4824,7 +4825,7 @@ On myös alueellinen sana {ley':n}, joka tarkoittaa "nenä". [AUTOTRANSLATED]</c
       <column name="notes_zh_HK">有一個成語{yuDHa'; ghIt rur@@yuDHa':v, ghIt:n:0, rur:v}.[1, p.131] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Existe um idioma, {yuDHa'; ghIt rur@@yuDHa':v, ghIt:n:0, rur:v}.[1, p.131] [AUTOTRANSLATED]</column>
       <column name="notes_fi">On idioomi {yuDHa'; ghIt rur@@yuDHa':v, ghIt:n:0, rur:v}.[1, p.131] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">Someone with writer's cramp might not be able to use his hand to form this.</column>
+      <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -5040,9 +5041,7 @@ On myös alueellinen sana {ley':n}, joka tarkoittaa "nenä". [AUTOTRANSLATED]</c
       <column name="notes_zh_HK">該動詞用於指示在表面上進行標記的過程。它不僅適用於書寫，而且適用於任何標記。從這個意義上說，「寫作」是指寫作的物理行為，而不是寫作的創作，而是使用{qon:v}。[2; 3]另一個動詞{gher:v}用於列表的彙編等。[4] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este verbo é usado para indicar a realização de marcações em uma superfície. Não se aplica apenas à escrita, mas a qualquer tipo de marcação. "Escrever", neste sentido, refere-se ao ato físico de escrever, e não à criação de composições, para as quais {qon:v} é usado em seu lugar.[2; 3] Outro verbo, {gher:v}, é usado para a compilação de listas e semelhantes.[4] [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tätä verbiä käytetään osoittamaan merkintöjen tekeminen pinnalle. Se ei koske vain kirjoittamista, vaan kaikenlaista merkintää. "Kirjoittaminen" tarkoittaa tässä mielessä fyysistä kirjoittamista, ei sävellysten luomista, joihin käytetään sen sijaan {qon:v}. [2; 3] Toista verbiä, {gher:v}, käytetään luetteloiden ja vastaavien kokoamiseen.[4] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">This is defined in {TKD:src} as "write". In {KGT:src}, it was clarified that this meant "engrave, incise, mark (upon)", that is, the phyiscal act of making marks on a surface.
-
-Writing a manuscript takes grit, and may lead to writer's cramp.</column>
+      <column name="hidden_notes">This is defined in {TKD:src} as "write". In {KGT:src}, it was clarified that this meant "engrave, incise, mark (upon)", that is, the phyiscal act of making marks on a surface.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {ghItlh vIghItlhta'bogh DalaD'a'?:sen:nolink} "Will you read my manuscript?"[1, p.172]</column>
@@ -6330,14 +6329,14 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7_rXiSTQm
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is a lesson as in a textbook, and not in the sense of "Let this be a lesson to you!", which is {ghuH:n}. It can also be used to express "tutorial about X", as {X ghojmeH mIw:n:nolink}.</column>
-      <column name="notes_de">Dies ist eine Lektion wie in einem Lehrbuch und nicht im Sinne von "Lass dies eine Lektion für dich sein!", Was {ghuH:n} ist. Es kann auch verwendet werden, um "Tutorial über X" als {X ghojmeH mIw:n:nolink} auszudrücken. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این یک درس مانند یک کتاب درسی است ، و نه به معنای "بگذارید این یک درس برای شما باشد!" ، که {ghuH:n} است. همچنین می تواند برای بیان "آموزش درباره X" ، به عنوان {X ghojmeH mIw:n:nolink} ، استفاده شود. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är en lektion som i en lärobok, och inte i betydelsen "Låt detta vara en lektion för dig!", Som är {ghuH:n}. Det kan också användas för att uttrycka "handledning om X", som {X ghojmeH mIw:n:nolink}. [AUTOTRANSLATED]</column>
+      <column name="notes">This is a lesson as in a textbook, and not in the sense of "Let this be a lesson to you!", which is {ghuH:n}. It can also be used to express "tutorial about X", as {X ghojmeH mIw:n:nolink}.[1]</column>
+      <column name="notes_de">Dies ist eine Lektion wie in einem Lehrbuch und nicht im Sinne von "Lass dies eine Lektion für dich sein!", Was {ghuH:n} ist. Es kann auch verwendet werden, um "Tutorial über X" als {X ghojmeH mIw:n:nolink} auszudrücken.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این یک درس مانند یک کتاب درسی است ، و نه به معنای "بگذارید این یک درس برای شما باشد!" ، که {ghuH:n} است. همچنین می تواند برای بیان "آموزش درباره X" ، به عنوان {X ghojmeH mIw:n:nolink} ، استفاده شود.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är en lektion som i en lärobok, och inte i betydelsen "Låt detta vara en lektion för dig!", Som är {ghuH:n}. Det kan också användas för att uttrycka "handledning om X", som {X ghojmeH mIw:n:nolink}.[1] [AUTOTRANSLATED]</column>
       <column name="notes_ru">Это относится к уроку, наподобие того, что в тетради или в учебнике. Слово нельзя использовать в выражениях, наподобие "Пусть это будет тебе уроком!". Для подобных слов смотрите {ghuH:n}. Также может быть использовано, чтобы сказать "руководство о ..." {X ghojmeH mIw:n:nolink}.</column>
-      <column name="notes_zh_HK">這是一本課本，就像在教科書中一樣，並不是「讓這對您來說就是一課！」（{ghuH:n}）。它也可以用來表示「關於X的教程」，例如{X ghojmeH mIw:n:nolink}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Esta é uma lição como em um livro didático, e não no sentido de "Que isso seja uma lição para você!", Que é {ghuH:n}. Também pode ser usado para expressar "tutorial sobre X", como {X ghojmeH mIw:n:nolink}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on oppitunti kuten oppikirjassa, eikä merkityksessä "Olkoon tämä sinulle oppitunti!", Joka on {ghuH:n}. Sitä voidaan käyttää myös ilmaisemaan "opetusohjelma X: stä" {X ghojmeH mIw:n:nolink}-muodossa. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是一本課本，就像在教科書中一樣，並不是「讓這對您來說就是一課！」（{ghuH:n}）。它也可以用來表示「關於X的教程」，例如{X ghojmeH mIw:n:nolink}。[1] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Esta é uma lição como em um livro didático, e não no sentido de "Que isso seja uma lição para você!", Que é {ghuH:n}. Também pode ser usado para expressar "tutorial sobre X", como {X ghojmeH mIw:n:nolink}.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on oppitunti kuten oppikirjassa, eikä merkityksessä "Olkoon tämä sinulle oppitunti!", Joka on {ghuH:n}. Sitä voidaan käyttää myös ilmaisemaan "opetusohjelma X: stä" {X ghojmeH mIw:n:nolink}-muodossa.[1] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components">{ghoj:v}, {-meH:v}, {mIw:n}</column>
       <column name="examples"></column>
@@ -6511,7 +6510,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7_rXiSTQm
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">This seems to be composed of {ghoj:v} and {moq:v}.</column>
+      <column name="hidden_notes">This word was made up by the writers for {TNG - Sins of the Father:src} to refer to Kahlest, who was Worf's childhood nurse. It appears in the script as "ghojmoK" (sic). It's likely the writers just looked up various words in {TKD:src} related to childcare, came upon {ghojmoH:v}, and changed the ending (either deliberately to create a different word, or by accidentally miscopying "H" as "K"). It was subsequently made official in the Appendix to {TKD:src} as {ghojmoq:n:nolink}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6529,7 +6528,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7_rXiSTQm
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKDA:src}</column>
+      <column name="source">[1] {TKDA:src}, [2] {TNG - Sins of the Father:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7619,7 +7618,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7_rXiSTQm
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghorgh</column>
-      <column name="part_of_speech">ques</column>
+      <column name="part_of_speech">ques:klcp1</column>
       <column name="definition">when?</column>
       <column name="definition_de">wann</column>
       <column name="definition_fa">کِی؟ چه زمانی؟</column>
@@ -7827,7 +7826,7 @@ Um de seus lendários antepassados ​​também foi chamado de "Gorkon", mas o 
       <column name="notes_fi">Kansleri Gorkon ({ghorqan Qang:n:nolink}) yritti tehdä rauhan federaation kanssa Kirkin aikaan. Kenraali Chang petti hänet (katso {cheng:n:name}).
 
 Yksi hänen legendaarisista edeltäjistään nimettiin myös "Gorkoniksi", mutta nimi lausuttiin hänen aikanaan {ghorqon:n:name}.[1] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">He appeared in {Star Trek VI:src}.</column>
+      <column name="hidden_notes">He appeared in {Star Trek VI:src}. His name is an amalgamation of Gorbachev (see {ghIlaSnoS:n}) and Lincoln.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -9065,7 +9064,7 @@ Tämä sana on alkuperältään vieras. Syy siihen, miksi Klingonit käyttävät
       <column name="synonyms"></column>
       <column name="antonyms">{Qey':v}, {bIr:v}</column>
       <column name="see_also">{tuj:v}, {Hat:n}, {buj:v}</column>
-      <column name="notes"></column>
+      <column name="notes">The temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -9073,9 +9072,9 @@ Tämä sana on alkuperältään vieras. Syy siihen, miksi Klingonit käyttävät
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">The example makes clear that this word refers to temperature, and not to perception, emotion, or character.
+      <column name="hidden_notes">The clarification that temperature words are not about effect or perception was made during the Q &amp; A session at {qep'a' 27 (2020):src}.
 
-It was clarified during the Q &amp; A session at {qep'a' 27 (2020):src} that the temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon.</column>
+The example also makes clear that "be warm" refers to temperature, and not to perception, emotion, or character.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {ghun 'Iw HIq, rap boqrat chej.} "The bokrat liver is as warm as the bloodwine."[1]</column>
@@ -9239,7 +9238,7 @@ It was clarified during the Q &amp; A session at {qep'a' 27 (2020):src} that the
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">nielaista</column>
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">

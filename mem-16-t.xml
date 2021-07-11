@@ -840,7 +840,7 @@ Katso tämä {Brian Rivera:url:http://www.imdb.com/name/nm2092459/}n esittämän
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">taHqeq</column>
-      <column name="part_of_speech">excl</column>
+      <column name="part_of_speech">excl:epithet</column>
       <column name="definition">epithet (a classic insult)</column>
       <column name="definition_de">eine klassische Beleidigung</column>
       <column name="definition_fa">epithet (یک توهین کلاسیک) [AUTOTRANSLATED]</column>
@@ -3661,7 +3661,7 @@ This refers to the expression "going to hell ({Hel:sen:nolink}) in a hand ({ghop
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ta'</column>
-      <column name="part_of_speech">n:2</column>
+      <column name="part_of_speech">n:2,being</column>
       <column name="definition">emperor</column>
       <column name="definition_de">Kaiser, Imperator</column>
       <column name="definition_fa">امپراتور</column>
@@ -4642,7 +4642,7 @@ This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-me
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi">{tennuS:n:nolink}: n lapsi on {tey':n:1}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">This is a reference to "Uncle Tenoose" from the Danny Thomas Show.</column>
+      <column name="hidden_notes">This is a reference to "Uncle Tonoose" from the Danny Thomas Show.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8350,7 +8350,7 @@ Tätä verbiä voidaan käyttää refleksiivisesti tarkoittamaan "nauti", "pidä
       <column name="synonyms"></column>
       <column name="antonyms">{Daj:v:2}</column>
       <column name="see_also">{'ol:v}, {waH:v:1}, {nuD:v}, {poj:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This verb can be used for proving one's honor ({quv tob:sen@@quv:n, tob:v}). See {Hay':v}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -8358,13 +8358,17 @@ Tätä verbiä voidaan käyttää refleksiivisesti tarkoittamaan "nauti", "pidä
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">This word appears in a deleted line from {Star Trek V:src}: {logh veQDaq bachchugh, yoH 'e' toblaHbe' SuvwI'.@@logh:n, veQ:n, -Daq:n, bach:v, -chugh:v, yoH:v, 'e':n, tob:v, -laH:v, -be':v, SuvwI':n} "Shooting space garbage is no test of a warrior's mettle." This line was changed to {vaj toDuj Daj ngeHbej DI vI'.:sen} (while maintaining the original English subtitle) in the process of editing.</column>
+      <column name="hidden_notes">In the {TKD:src} word list, this was defined as just "prove". In the {TKDA:src} word list, this was clarified to "test conclusively, prove".
+
+This word appears in a deleted line from {Star Trek V:src}: {logh veQDaq bachchugh, yoH 'e' toblaHbe' SuvwI'.@@logh:n, veQ:n, -Daq:n, bach:v, -chugh:v, yoH:v, 'e':n, tob:v, -laH:v, -be':v, SuvwI':n} "Shooting space garbage is no test of a warrior's mettle." This line was changed to {vaj toDuj Daj ngeHbej DI vI'.:sen} (while maintaining the original English subtitle) in the process of editing.</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {SIQwI' lu'oy'moHmeH juppu'Daj 'oy'naQmey lo' chaH. SuvwI' qa' patlh veb chavlaHmeH tlhIngan lo'chu' chaH. toDujDaj toblu'.:sen:nolink} "The Painstik is employed by friends of the recipent who use the devices to inflict pain in a manner which will allow the Klingon to attain a higher state of spirituality as a warrior, proving his mettle."[3]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
+      <column name="examples_ru">
+▶ {SIQwI' lu'oy'moHmeH juppu'Daj 'oy'naQmey lo' chaH. SuvwI' qa' patlh veb chavlaHmeH tlhIngan lo'chu' chaH. toDujDaj toblu'.:sen:nolink} "Посох боли употребляется друзьями посвящаемого, которые используют устройство, чтобы причинить боль способом, который позволит Клингону достигнуть более высокого духовного состояния, как воин, доказывая его храбрость."[3]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -8376,7 +8380,7 @@ Tätä verbiä voidaan käyttää refleksiivisesti tarkoittamaan "nauti", "pidä
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {TKDA:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {TKDA:src}, [3] {SkyBox 32:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src})</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -8598,7 +8602,7 @@ Tätä verbiä voidaan käyttää refleksiivisesti tarkoittamaan "nauti", "pidä
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">toDSaH</column>
-      <column name="part_of_speech">excl</column>
+      <column name="part_of_speech">excl:epithet</column>
       <column name="definition">epithet</column>
       <column name="definition_de">Fluchwort</column>
       <column name="definition_fa">اپیدرم [AUTOTRANSLATED]</column>
@@ -9851,7 +9855,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
       <column name="definition_ru">коммодор</column>
       <column name="definition_zh_HK">準將 [AUTOTRANSLATED]</column>
       <column name="definition_pt">commodoro</column>
-      <column name="definition_fi">kommodori</column>
+      <column name="definition_fi">lippueamiraali</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -9862,7 +9866,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
       <column name="notes_ru">Это 3-й ранг {yaS:n}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是{yaS:n}的第三等級。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é o terceiro ranking do {yaS:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi"></column>
+      <column name="notes_fi">Tämä on upseeriston ({yaS:n}) kolmanneksi korkein sotilasarvo.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -9880,7 +9884,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">kommodori</column>
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
@@ -10549,14 +10553,14 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This could also be shortened to {rItwI':n:nolink} if the context is clear.</column>
-      <column name="notes_de">Dies könnte auch zu {rItwI':n:nolink} gekürzt werden, wenn der Kontext klar ist.</column>
-      <column name="notes_fa">اگر متن روشن باشد ، می تواند به {rItwI':n:nolink} نیز کوتاه شود. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta kan också förkortas till {rItwI':n:nolink} om sammanhanget är klart. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это также может быть сокращено до {rItwI':n:nolink}, если контекст понятен. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">如果上下文清楚，也可以將其縮短為{rItwI':n:nolink}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Isso também pode ser reduzido para {rItwI':n:nolink}, se o contexto estiver claro. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä voidaan myös lyhentää muotoon {rItwI':n:nolink}, jos asiayhteys on selkeä. [AUTOTRANSLATED]</column>
+      <column name="notes">This could also be shortened to {rItwI':n@@rIt:v, -wI':v} if the context is clear.</column>
+      <column name="notes_de">Dies könnte auch zu {rItwI':n@@rIt:v, -wI':v} gekürzt werden, wenn der Kontext klar ist.</column>
+      <column name="notes_fa">اگر متن روشن باشد ، می تواند به {rItwI':n@@rIt:v, -wI':v} نیز کوتاه شود. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta kan också förkortas till {rItwI':n@@rIt:v, -wI':v} om sammanhanget är klart. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это также может быть сокращено до {rItwI':n@@rIt:v, -wI':v}, если контекст понятен. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">如果上下文清楚，也可以將其縮短為{rItwI':n@@rIt:v, -wI':v}。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso também pode ser reduzido para {rItwI':n@@rIt:v, -wI':v}, se o contexto estiver claro. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä voidaan myös lyhentää muotoon {rItwI':n@@rIt:v, -wI':v}, jos asiayhteys on selkeä. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components">{tuch:n}, {rIt:v}, {-wI':n}</column>
       <column name="examples"></column>
@@ -10852,7 +10856,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
       <column name="synonyms"></column>
       <column name="antonyms">{bIr:v}, {Qey':v}</column>
       <column name="see_also">{tuj:n}, {Hat:n}, {ghun:v:2}, {pub:v}, {buj:v}</column>
-      <column name="notes"></column>
+      <column name="notes">The temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon (but the person wearing it is).[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -10860,7 +10864,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">It was clarified during the Q &amp; A session at {qep'a' 27 (2020):src} that the temperature words really are about temperature and not about effect or perception, so that clothing, for example, is not said to be "hot" or "cold" in Klingon.</column>
+      <column name="hidden_notes">The clarification about clothing was made during the Q &amp; A session at {qep'a' 27 (2020):src}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {tujqu'choH QuQ.:sen}
