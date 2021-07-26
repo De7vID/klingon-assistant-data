@@ -130,3 +130,20 @@ like "dieses Wort wird verwendet" ("this word is used").
   not "克林貢" which is used in Taiwanese Mandarin (and which is returned by
   Google Translate for "Traditional Chinese").
 
+### Finnish
+
+- Translations need not to be direct translations from TKD entries, but later
+  clarifications and additions must be considered when choosing the Finnish word.
+  The Finnish translation may have less or more words than the English one, if
+  they are not necessary to understand the translation. Parenthesized notes may
+  be similarly removed if they are not necessary.
+- Adjectives are translated as "olla [adjektiivi]"
+- Fictive things (not including proper names) are translated as "eräs [X:ää]
+  muistuttava [Y]" tai "eräs [Y]" where Y is eg. "eläin" (this includes all
+  Klingon animals that are only glossed as their Earth equivalent in the English
+  dictionary)
+- If the object of a verb is inflected in Finnish in other case than accusative
+  (jokin) or partitive (jotakin), the Finnish definition must include the word
+  "jokin" inflected appropriately (for example. **parHa'** "pitää jostakin").
+- Remember to use the correct transitivity (eg. pyöriä **jIr** vs. pyörittää
+  **jIrmoH**).
