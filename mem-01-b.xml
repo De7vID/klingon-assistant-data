@@ -43,6 +43,49 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">babton</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">pepper (capsicum)</column>
+      <column name="definition_de">Pfeffer (Paprika) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">فلفل (فلفل دلمه ای) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">paprika (paprika) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">перец (стручковый перец) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">胡椒（辣椒） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">pimenta (capsicum) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">pippuri (paprika) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This refers to a kind of plant.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {qep'a' 28 (2021):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">bach</column>
       <column name="part_of_speech">v:t_c,weap,klcp1</column>
       <column name="definition">shoot</column>
@@ -1334,12 +1377,15 @@ In Japanese, "baka" means "fool" or "idiot".</column>
 ▶ {letbIng:n}
 ▶ {ngIDvoS:n}
 ▶ {qol'om:n}
+▶ {rom'on:n}
 ▶ {SIrlIy:n}
 ▶ {Sorpuq:n}
 ▶ {tarngeb:n}
 ▶ {targho'nI':n}
 ▶ {velSo':n}
 ▶ {velSo' 'uSqan:n}
+▶ {yayal:n}
+▶ {yelneHSIQ:n}
 ▶ {yuHSIQ:n}
 ▶ {'apraQ:n}
 ▶ {'uSqan:n}</column>
@@ -1354,12 +1400,15 @@ In Japanese, "baka" means "fool" or "idiot".</column>
 ▶ {letbIng:n}
 ▶ {ngIDvoS:n}
 ▶ {qol'om:n}
+▶ {rom'on:n}
 ▶ {SIrlIy:n}
 ▶ {Sorpuq:n}
 ▶ {tarngeb:n}
 ▶ {targho'nI':n}
 ▶ {velSo':n}
 ▶ {velSo' 'uSqan:n}
+▶ {yayal:n}
+▶ {yelneHSIQ:n}
 ▶ {yuHSIQ:n}
 ▶ {'apraQ:n}
 ▶ {'uSqan:n}</column>
@@ -1373,12 +1422,15 @@ In Japanese, "baka" means "fool" or "idiot".</column>
 ▶ {letbIng:n}
 ▶ {ngIDvoS:n}
 ▶ {qol'om:n}
+▶ {rom'on:n}
 ▶ {SIrlIy:n}
 ▶ {Sorpuq:n}
 ▶ {tarngeb:n}
 ▶ {targho'nI':n}
 ▶ {velSo':n}
 ▶ {velSo' 'uSqan:n}
+▶ {yayal:n}
+▶ {yelneHSIQ:n}
 ▶ {yuHSIQ:n}
 ▶ {'apraQ:n}
 ▶ {'uSqan:n}</column>
@@ -2497,7 +2549,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="definition_fi">satula</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Sargh:n}, {Hun:n}, {lIgh:v}</column>
+      <column name="see_also">{Sargh:n}, {Hun:n}, {lIgh:v}, {ngang:v:2}</column>
       <column name="notes">This refers to the seat strapped to the back of an animal.</column>
       <column name="notes_de">Dies bezieht sich auf den Sitz, der auf dem Rücken eines Tieres festgeschnallt ist. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این مربوط به صندلی است که در قسمت عقب یک حیوان بسته شده است. [AUTOTRANSLATED]</column>
@@ -2540,7 +2592,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="definition_fi">kupla</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ngon:v}, {jo':v}, {'o'nI':n}</column>
+      <column name="see_also">{ngon:v}, {jo':v:1}, {'o'nI':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -2549,7 +2601,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">"Bazooka" is a brand of bubble gum. {ba'Suq'a' jo':sen@@ba'Suq:n, -'a':n, jo':v} means "he blows a great bubble".</column>
+      <column name="hidden_notes">"Bazooka Joe" is the mascot of the Bazooka brand of bubble gum. {ba'Suq'a' jo':sen@@ba'Suq:n, -'a':n, jo':v:1} means "he blows a great bubble".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3833,6 +3885,49 @@ In the episode {DS9 - Sons and Daughters:src}, this word (Anglicised "bekk") was
           <column name="search_tags_fi"></column>
           <column name="source">[1] {cha' monmey:src} ({Saarbrücken qepHom'a' 2020:src})</column>
         </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">bet</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">impale</column>
+      <column name="definition_de">aufspießen [AUTOTRANSLATED]</column>
+      <column name="definition_fa">ناخوشایند [AUTOTRANSLATED]</column>
+      <column name="definition_sv">spetsa [AUTOTRANSLATED]</column>
+      <column name="definition_ru">пронзить [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">刺穿 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">empalar [AUTOTRANSLATED]</column>
+      <column name="definition_fi">seivästää [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{jeq:v}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {qep'a' 28 (2021):src}</column>
+    </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">betgham</column>
@@ -5344,6 +5439,49 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/NpFDKTzIN
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">bIlemtan</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">whim</column>
+      <column name="definition_de">Laune [AUTOTRANSLATED]</column>
+      <column name="definition_fa">هوی و هوس [AUTOTRANSLATED]</column>
+      <column name="definition_sv">infall [AUTOTRANSLATED]</column>
+      <column name="definition_ru">прихоть [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">心血來潮 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">capricho [AUTOTRANSLATED]</column>
+      <column name="definition_fi">kapina [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This refers to a capricious, eccentric, and often sudden idea or fancy.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {qep'a' 28 (2021):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">bIleSnIS.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">You need a rest.</column>
@@ -6276,7 +6414,7 @@ Kymmenien miljoonien kohdalla {maH:n:2,num} voidaan yhdistää {'uy':n:num,nolin
           <column name="definition_fi">kala, meriolento</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
-          <column name="see_also"></column>
+          <column name="see_also">{nIwqen:n}</column>
           <column name="notes">This covers most animals that live in the sea, such as dolphins, whales, fish, and octopuses, but not smaller animals such as shrimps or water bugs, or amphibians. Every {ghotI':n} is a {bIQDep:n:nolink}, but not every {bIQDep:n:nolink} is a {ghotI':n:nolink}.[2]</column>
           <column name="notes_de">Dies gilt für die meisten im Meer lebenden Tiere wie Delfine, Wale, Fische und Tintenfische, nicht jedoch für kleinere Tiere wie Garnelen oder Wasserwanzen oder Amphibien. Jedes {ghotI':n} ist ein {bIQDep:n:nolink}, aber nicht jedes {bIQDep:n:nolink} ist ein {ghotI':n:nolink}.[2] [AUTOTRANSLATED]</column>
           <column name="notes_fa">این شامل بیشتر حیواناتی است که در دریا زندگی می کنند ، مانند دلفین ها ، نهنگ ها ، ماهی ها و اختاپوسها ، اما حیوانات کوچکتر مانند میگو یا اشکالات آب یا دوزیستان نیز نیستند. هر {ghotI':n} یک {bIQDep:n:nolink} است ، اما همه {bIQDep:n:nolink} یک {ghotI':n:nolink}.[2] نیست [AUTOTRANSLATED]</column>
@@ -8065,6 +8203,50 @@ For the Pittsburgh Art Tour, Marc Okrand suggested to translate "space capsule" 
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">bobDar</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">splash</column>
+      <column name="definition_de">Spritzen [AUTOTRANSLATED]</column>
+      <column name="definition_fa">چلپ چلوپ [AUTOTRANSLATED]</column>
+      <column name="definition_sv">stänk [AUTOTRANSLATED]</column>
+      <column name="definition_ru">всплеск [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">濺 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">respingo [AUTOTRANSLATED]</column>
+      <column name="definition_fi">roiskua [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is used with {tlhen:v}.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {bobDar tlhen:sen@@bobDar:n, tlhen:v} "(it) produces a splash sound"[1]</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {qep'a' 28 (2021):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">boch</column>
       <column name="part_of_speech">v:is</column>
       <column name="definition">shine, be shiny</column>
@@ -9200,6 +9382,49 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
         </table>
         <table name="mem">
           <column name="_id"></column>
+          <column name="entry_name">boq Hol</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">pidgin, creole, contact language</column>
+          <column name="definition_de">Pidgin, Kreolisch, Kontaktsprache [AUTOTRANSLATED]</column>
+          <column name="definition_fa">pidgin ، creole ، زبان تماس [AUTOTRANSLATED]</column>
+          <column name="definition_sv">pidgin, creole, kontaktspråk [AUTOTRANSLATED]</column>
+          <column name="definition_ru">пиджин, креольский, язык общения [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">pidgin, 克里奧爾語, 聯繫語言 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">pidgin, crioulo, linguagem de contato [AUTOTRANSLATED]</column>
+          <column name="definition_fi">pidgin, kreoli, yhteyskieli [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">This term and {boQ Hol:n} are used interchangeably.</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{boq:n:1}, {Hol:n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {qep'a' 28 (2021):src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
           <column name="entry_name">boq ru'</column>
           <column name="part_of_speech">n:deriv</column>
           <column name="definition">coalition</column>
@@ -9544,6 +9769,49 @@ Marc Okrand ({marq 'oqranD:n:name}) is billed as Associate Producer, translated 
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">boQ Hol</column>
+      <column name="part_of_speech">n:alt,deriv</column>
+      <column name="definition">{boq Hol:n}</column>
+      <column name="definition_de">{boq Hol:n}</column>
+      <column name="definition_fa">{boq Hol:n}</column>
+      <column name="definition_sv">{boq Hol:n}</column>
+      <column name="definition_ru">{boq Hol:n}</column>
+      <column name="definition_zh_HK">{boq Hol:n}</column>
+      <column name="definition_pt">{boq Hol:n}</column>
+      <column name="definition_fi">{boq Hol:n}</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{boQ:n:2}, {Hol:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {qep'a' 28 (2021):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
