@@ -134,7 +134,7 @@ like "dieses Wort wird verwendet" ("this word is used").
 
 - Translations need not to be direct translations from TKD entries, but later
   clarifications and additions must be considered when choosing the Finnish word.
-  The Finnish translation may have less or more words than the English one, if
+  The Finnish translation may have fewer or more words than the English one, if
   they are not necessary to understand the translation. Parenthesized notes may
   be similarly removed if they are not necessary.
 - Adjectives are translated as "olla [adjektiivi]"
