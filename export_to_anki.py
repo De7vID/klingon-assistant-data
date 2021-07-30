@@ -228,8 +228,9 @@ def alt_extract_definition(qawHaq, search_name, attrs):
   alt_search_name = alt_entry_name + ":" + match.group(2) + (":" + match.group(3) if match.group(3) else "")
   return extract_definition(qawHaq[alt_search_name], attrs), alt_entry_name
 
-# Get tag for first matching source. It is assumed that earlier sources are more
-# important. The return value can be None, so it should be checked before use.
+# Get tag for first matching source. Sources appearing earlier in the list are
+# matched before sources appearing later. The return value can be None, so it
+# should be checked before use.
 def get_src_tag(data):
   sources = data['source'].split(',')
   for source in sources:
