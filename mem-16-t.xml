@@ -4620,6 +4620,7 @@ This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-me
       <column name="source">[1] {qep'a' 26 (2019):src}</column>
     </table>
     <table name="mem">
+      <!-- When this was defined, it specifically excluded certain definitions (in en and de). Be sure not to accept them as suggestions. -->
       <column name="_id"></column>
       <column name="entry_name">tem</column>
       <column name="part_of_speech">v:t_c,klcp1</column>
