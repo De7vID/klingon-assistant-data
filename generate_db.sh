@@ -160,6 +160,15 @@ then
     echo
 fi
 
+# Print any sources which are not empty but don't begin with "[".
+MISSED_SOURCE_BRACKET=$(grep "source\">[^\[<]" $TMP_DIR/mem.xml)
+if [[ ! -z "$MISSED_SOURCE_BRACKET" ]]
+then
+    echo "Missing source index:"
+    echo "$MISSED_SOURCE_BRACKET"
+    echo
+fi
+
 # Pause (in case of error).
 if [[ ! $NONINTERACTIVE && (! -z "$POS_DEFINITION_MIXUP" || ! -z "$MISSING_DE" || ! -z "$MISSING_PT" || ! -z "$BROKEN_REFERENCES") ]]
 then
