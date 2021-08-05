@@ -937,7 +937,7 @@ Katso tämä {Brian Rivera:url:http://www.imdb.com/name/nm2092459/}n esittämän
           <column name="definition_sv">propaganda [AUTOTRANSLATED]</column>
           <column name="definition_ru">пропаганда [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">宣傳 [AUTOTRANSLATED]</column>
-          <column name="definition_pt">propaganda [AUTOTRANSLATED]</column>
+          <column name="definition_pt">propaganda</column>
       <column name="definition_fi">propaganda</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
@@ -2603,12 +2603,12 @@ Tämä murre on tavallaan puolivälissä tavallisen murteen ja {Qotmagh Sep:n}-m
       <column name="entry_name">targhoroj</column>
       <column name="part_of_speech">n:anim</column>
       <column name="definition">crab</column>
-      <column name="definition_de">Krabbe</column>
+      <column name="definition_de">Krabbe, Krebs</column>
       <column name="definition_fa">خرچنگ [AUTOTRANSLATED]</column>
       <column name="definition_sv">krabba [AUTOTRANSLATED]</column>
       <column name="definition_ru">краб [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">螃蟹 [AUTOTRANSLATED]</column>
-      <column name="definition_pt">caranguejo [AUTOTRANSLATED]</column>
+      <column name="definition_pt">caranguejo</column>
       <column name="definition_fi">eräs rapua muistuttava eläin</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2871,7 +2871,7 @@ The fact that this looks like {tar:n} "poison" and {ngeb:v} "fake" might just be
           <column name="definition_sv">elektrolyt [AUTOTRANSLATED]</column>
           <column name="definition_ru">электролит [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">電解質 [AUTOTRANSLATED]</column>
-          <column name="definition_pt">eletrólito [AUTOTRANSLATED]</column>
+          <column name="definition_pt">eletrólito</column>
       <column name="definition_fi">elektrolyytti</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
@@ -4620,6 +4620,7 @@ This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-me
       <column name="source">[1] {qep'a' 26 (2019):src}</column>
     </table>
     <table name="mem">
+      <!-- When this was defined, it specifically excluded certain definitions (in en and de). Be sure not to accept them as suggestions. -->
       <column name="_id"></column>
       <column name="entry_name">tem</column>
       <column name="part_of_speech">v:t_c,klcp1</column>
@@ -5613,7 +5614,7 @@ Terran-kuukaudet ovat:
       <column name="definition_sv">granatäpple [AUTOTRANSLATED]</column>
       <column name="definition_ru">гранат [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">石榴 [AUTOTRANSLATED]</column>
-      <column name="definition_pt">romã [AUTOTRANSLATED]</column>
+      <column name="definition_pt">romã</column>
       <column name="definition_fi">granaattiomena</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -6874,12 +6875,12 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
           <column name="entry_name">tIH javmaH</column>
           <column name="part_of_speech">n:deriv</column>
           <column name="definition">X-ray</column>
-          <column name="definition_de">Röntgenstrahlen</column>
+          <column name="definition_de">Röntgenstrahl</column>
           <column name="definition_fa">اشعه ایکس [AUTOTRANSLATED]</column>
           <column name="definition_sv">Röntgen [AUTOTRANSLATED]</column>
           <column name="definition_ru">Рентгеновский [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">X射線 [AUTOTRANSLATED]</column>
-          <column name="definition_pt">Raio X [AUTOTRANSLATED]</column>
+          <column name="definition_pt">Raio X</column>
       <column name="definition_fi">röntgensäde</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
@@ -6903,7 +6904,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
           <column name="examples_pt"></column>
           <column name="examples_fi"></column>
           <column name="search_tags"></column>
-          <column name="search_tags_de"></column>
+          <column name="search_tags_de">Röntgenstrahlen, Röntgenstrahlung</column>
           <column name="search_tags_fa"></column>
           <column name="search_tags_sv"></column>
           <column name="search_tags_ru"></column>
@@ -6917,12 +6918,12 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
           <column name="entry_name">tIH wej</column>
           <column name="part_of_speech">n:deriv</column>
           <column name="definition">gamma ray</column>
-          <column name="definition_de">Gammastrahlen</column>
+          <column name="definition_de">Gammastrahl</column>
           <column name="definition_fa">اشعه گاما [AUTOTRANSLATED]</column>
           <column name="definition_sv">gammastråle [AUTOTRANSLATED]</column>
           <column name="definition_ru">гамма-луч [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">伽馬射線 [AUTOTRANSLATED]</column>
-          <column name="definition_pt">raio gama [AUTOTRANSLATED]</column>
+          <column name="definition_pt">raio gama</column>
           <column name="definition_fi">gammasäde</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
@@ -6946,7 +6947,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
           <column name="examples_pt"></column>
           <column name="examples_fi"></column>
           <column name="search_tags"></column>
-          <column name="search_tags_de"></column>
+          <column name="search_tags_de">Gammastrahlen, Gammastrahlung</column>
           <column name="search_tags_fa"></column>
           <column name="search_tags_sv"></column>
           <column name="search_tags_ru"></column>
@@ -10202,7 +10203,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
       <column name="definition_sv">taktik [AUTOTRANSLATED]</column>
       <column name="definition_ru">тактика [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">戰術 [AUTOTRANSLATED]</column>
-      <column name="definition_pt">tática [AUTOTRANSLATED]</column>
+      <column name="definition_pt">tática</column>
       <column name="definition_fi">taktiikka</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
