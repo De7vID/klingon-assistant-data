@@ -3,6 +3,15 @@
 # Get the directory with the original data.
 SOURCE_DIR=$PWD
 
+# Sanity check that the export to Anki script isn't broken.
+# TODO: Check not only that the script succeeds, but that the output is as
+# expected.
+./export_to_anki.py --test > /dev/null
+if [[ ! $? = 0 ]]; then
+    echo "Anki export is broken."
+    exit
+fi
+
 # Check for non-interactive mode flag.
 if [[ "$1" = "--noninteractive" ]]
 then
