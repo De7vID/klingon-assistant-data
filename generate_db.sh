@@ -133,6 +133,15 @@ then
     echo
 fi
 
+# Print any empty Finnish definitions.
+MISSING_FI=$(grep -B8 "definition_fi\"><" $TMP_DIR/mem.xml | grep "entry_name")
+if [[ ! -z "$MISSING_FI" ]]
+then
+    echo "Missing Finnish definitions:"
+    echo "$MISSING_FI"
+    echo
+fi
+
 # Print any untranslated entries.
 MISSED_TRANSLATE=$(grep ">TRANSLATE<" $TMP_DIR/mem.xml)
 if [[ ! -z "$MISSED_TRANSLATE" ]]
