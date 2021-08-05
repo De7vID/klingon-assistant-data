@@ -232,7 +232,10 @@ def alt_extract_definition(qawHaq, search_name, attrs):
 # matched before sources appearing later. The return value can be None, so it
 # should be checked before use.
 def get_src_tag(data):
-  sources = data['source'].split(',')
+  # TODO: There is a bug here that sources with internal commas are not
+  # detected correctly. For example, "[1] {HQ 8.4, p.11, Dec. 1999:src}" is
+  # split into 3 parts.
+  sources = data['source'].split(', ')
   for source in sources:
     for src in src_to_tag:
       # Each source is of the form: "[1] {TKD:src}", "[2] {KGT p.123:src}", etc.
@@ -242,7 +245,7 @@ def get_src_tag(data):
 
     for year in range(1994, 2022):
       ordinal = year - 1993
-      source_matches = re.findall(r"\[\d\] {{qep'a' {} ({}):src}}".format(year, ordinal), source)
+      source_matches = re.findall(r"\[\d\] {{qep'a' {} \({}\):src}}".format(ordinal, year), source)
       if source_matches:
         return "Klingon_from_qepa{}_{}".format(year, ordinal)
 

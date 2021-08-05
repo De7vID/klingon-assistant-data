@@ -3,6 +3,15 @@
 # Get the directory with the original data.
 SOURCE_DIR=$PWD
 
+# Sanity check that the export to Anki script isn't broken.
+# TODO: Check not only that the script succeeds, but that the output is as
+# expected.
+./export_to_anki.py --test > /dev/null
+if [[ ! $? = 0 ]]; then
+    echo "Anki export is broken."
+    exit
+fi
+
 # Check for non-interactive mode flag.
 if [[ "$1" = "--noninteractive" ]]
 then
@@ -124,6 +133,15 @@ then
     echo
 fi
 
+# Print any empty Finnish definitions.
+MISSING_FI=$(grep -B8 "definition_fi\"><" $TMP_DIR/mem.xml | grep "entry_name")
+if [[ ! -z "$MISSING_FI" ]]
+then
+    echo "Missing Finnish definitions:"
+    echo "$MISSING_FI"
+    echo
+fi
+
 # Print any untranslated entries.
 MISSED_TRANSLATE=$(grep ">TRANSLATE<" $TMP_DIR/mem.xml)
 if [[ ! -z "$MISSED_TRANSLATE" ]]
@@ -148,6 +166,15 @@ if [[ ! -z "$BROKEN_REFERENCES" ]]
 then
     echo "Broken references:"
     echo "$BROKEN_REFERENCES"
+    echo
+fi
+
+# Print any sources which are not empty but don't begin with "[".
+MISSED_SOURCE_BRACKET=$(grep "source\">[^\[<]" $TMP_DIR/mem.xml)
+if [[ ! -z "$MISSED_SOURCE_BRACKET" ]]
+then
+    echo "Missing source index:"
+    echo "$MISSED_SOURCE_BRACKET"
     echo
 fi
 
