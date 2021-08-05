@@ -242,7 +242,7 @@ def get_src_tag(data):
 
     for year in range(1994, 2022):
       ordinal = year - 1993
-      source_matches = re.findall(r"\[\d\] {{qep'a' {} ({}):src}}".format(year, ordinal), source)
+      source_matches = re.findall(r"\[\d\] {{qep'a' {} \({}\):src}}".format(ordinal, year), source)
       if source_matches:
         return "Klingon_from_qepa{}_{}".format(year, ordinal)
 
