@@ -156,6 +156,7 @@ lang_to_deck_guid = {
   'en': 2024552849,
   'de': 1699081434,
   'pt': 1407434471,
+  'fi': 1255797072,
 }
 
 # Parse arguments.
@@ -247,7 +248,7 @@ def get_src_tag(data):
       ordinal = year - 1993
       source_matches = re.findall(r"\[\d\] {{qep'a' {} \({}\):src}}".format(ordinal, year), source)
       if source_matches:
-        return "Klingon_from_qepa{}_{}".format(year, ordinal)
+        return "Klingon_from_qepa{}_{}".format(ordinal, year)
 
       source_matches = re.findall(r"\[\d\] {{Saarbru\u0308cken qepHom'a' {}:src}}".format(year), source)
       if source_matches:
