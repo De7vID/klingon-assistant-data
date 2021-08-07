@@ -141,7 +141,8 @@ like "dieses Wort wird verwendet" ("this word is used").
 - Fictive things (not including proper names) are translated as "eräs [X:ää]
   muistuttava [Y]" tai "eräs [Y]" where Y is eg. "eläin" (this includes all
   Klingon animals that are only glossed as their Earth equivalent in the English
-  dictionary)
+  dictionary). For example **leSpal** is translated as "eräs kielisoitin" and
+  **HurDagh** is translated as "kielisoitin" (because it is a general term).
 - If the object of a verb is inflected in Finnish in other case than accusative
   (jokin) or partitive (jotakin), the Finnish definition must include the word
   "jokin" inflected appropriately (for example. **parHa'** "pitää jostakin").
