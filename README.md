@@ -7,15 +7,15 @@ The `notes` fields are for typical users of the lexicon. An attempt should be
 made to keep information there "in-universe". The `hidden_notes` field is for
 (typically) "out-of-universe" information such as puns (what Marc Okrand calls
 "coincidences"), or background stories about how a word or phrase was invented
-(such as having to retrofit a movie edit). For some entries (e.g., {Hov leng:n}
-or the names of actors or actresses), keeping the notes "in-universe" might not
-be possible, so this is not a strict requirement.
+(such as having to retrofit a movie edit). For some entries (e.g., `{Hov
+leng:n}` or the names of actors or actresses), keeping the notes "in-universe"
+might not be possible, so this is not a strict requirement.
 
 The `entry_name` field should exactly match how the definition appears in the
 original source if possible. This is important as the database is used by
 software which may compare its entries to other lexicons. In particular, KWOTD
-(Klingon Word Of The Day) functionality in {boQwI'} partially depends on
-matching the `entry_name` to the word or phase received from the {Hol 'ampaS}
+(Klingon Word Of The Day) functionality in **boQwI'** partially depends on
+matching the `entry_name` to the word or phase received from the **Hol 'ampaS**
 server. A mismatch may result in failure to retrieve the KWOTD. However, full
 sentences should have final punctuation for consistency. (If the English
 translation has final punctuation, the Klingon sentence should use the same
@@ -23,7 +23,7 @@ punctuation mark, but otherwise it should end in a period, or an exclamation
 mark if that is more appropriate.)
 
 If a definition appears multiple times in the same source, the broadest
-definition should be used. For example, {tu':v} appears as "discover, find,
+definition should be used. For example, `{tu':v}` appears as "discover, find,
 observe, notice" in TKD in the K-E side, but also as just "find, observe" in
 the body text, as well as separately under each of those four words in the E-K
 side. The K-E definition should be used in this case. Contradictions (e.g.,
@@ -33,7 +33,7 @@ differences between K-E and E-K definitions) and errors should be noted in
 If an entry is defined differently in different sources, the definitions should
 be reconciled, and the reconciliation noted under `hidden_notes` or `notes` as
 appropriate. Sometimes, it may be appropriate to split a word into multiple
-entries. For example, {meS:v} has separate entries for "tie a knot" and
+entries. For example, `{meS:v}` has separate entries for "tie a knot" and
 "encrypt", even though the latter meaning is obviously derived from the former.
 There is some discretion in whether an entry should be split up or not.
 
@@ -50,7 +50,7 @@ automatically.)
 The `notes` fields in languages other than English should be direct
 translations if possible, but may differ if it is necessary to include
 information specific to a language. For example, the German entry for
-{ngech:n:2} notes a common misunderstanding specific to the German language.
+`{ngech:n:2}` notes a common misunderstanding specific to the German language.
 Every link and source referenced in the English notes should be referenced in
 the translations (to the degree that it is possible).
 
@@ -93,7 +93,7 @@ typically appear again in `see_also`.
 Commits containing manual translations should change only one language (though
 occasionally it may make sense to translate one or a few entries into multiple
 languages, such as after a large vocabulary reveal at an event such as the KLI
-{qep'a'} or Saarbrücken {qepHom'a'}). Commits created using the
+**qep'a'** or Saarbrücken **qepHom'a'**). Commits created using the
 `commit_submissions.py` script are exempt from this rule, but must be manually
 reviewed.
 
@@ -137,14 +137,18 @@ like "dieses Wort wird verwendet" ("this word is used").
   The Finnish translation may have fewer or more words than the English one, if
   they are not necessary to understand the translation. Parenthesized notes may
   be similarly removed if they are not necessary.
-- Adjectives are translated as "olla [adjektiivi]"
+
+- Adjectives are translated as "olla [adjektiivi]".
+
 - Fictive things (not including proper names) are translated as "eräs [X:ää]
   muistuttava [Y]" tai "eräs [Y]" where Y is eg. "eläin" (this includes all
   Klingon animals that are only glossed as their Earth equivalent in the English
   dictionary). For example **leSpal** is translated as "eräs kielisoitin" and
   **HurDagh** is translated as "kielisoitin" (because it is a general term).
+
 - If the object of a verb is inflected in Finnish in other case than accusative
   (jokin) or partitive (jotakin), the Finnish definition must include the word
   "jokin" inflected appropriately (for example. **parHa'** "pitää jostakin").
+
 - Remember to use the correct transitivity (eg. pyöriä **jIr** vs. pyörittää
   **jIrmoH**).

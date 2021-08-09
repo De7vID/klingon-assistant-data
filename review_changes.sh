@@ -7,7 +7,7 @@ then
     echo "If commit is omitted, will default to upstream/master."
     exit
 fi
-if [[ ! "$1" =~ ^(de|fa|sv|ru|zh_HK|pt)$ ]]
+if [[ ! "$1" =~ ^(de|fa|sv|ru|zh_HK|pt|fi)$ ]]
 then
     echo "Unsupported language: $1"
     exit
