@@ -116,13 +116,13 @@ Conventions for translators
 ### German
 
 - All adjectivally used verbs should be translated as "[quality] sein", not
-just the quality as an adjective.
+  just the quality as an adjective.
 
 - Any suggestions and recommendations ("for x, use y") should be written in a
-neutral form ("for x, y is used"). The autotranslated sentences use the very
-formal "Sie" which looks too formal for this app. To avoid discussions about
-using the informal "du", such phrases can be rearranged into general statements
-like "dieses Wort wird verwendet" ("this word is used").
+  neutral form ("for x, y is used"). The autotranslated sentences use the very
+  formal "Sie" which looks too formal for this app. To avoid discussions about
+  using the informal "du", such phrases can be rearranged into general
+  statements like "dieses Wort wird verwendet" ("this word is used").
 
 ### Chinese (Hong Kong)
 
