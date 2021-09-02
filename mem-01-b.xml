@@ -44,7 +44,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">babton</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:food</column>
       <column name="definition">pepper (capsicum)</column>
       <column name="definition_de">Paprika</column>
       <column name="definition_fa">فلفل (فلفل دلمه ای) [AUTOTRANSLATED]</column>
@@ -55,8 +55,8 @@
       <column name="definition_fi">paprika</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This refers to a kind of plant.[1]</column>
+      <column name="see_also">{naH:n}</column>
+      <column name="notes">This refers to a kind of plant, rather than the finely-ground spice produced from such plants.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3641,7 +3641,7 @@ In the episode {DS9 - Sons and Daughters:src}, this word (Anglicised "bekk") was
       <column name="definition_fi">ovuloida</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chI:v}, {chI'ID:n}</column>
+      <column name="see_also">{chI:v}, {chI'ID:n}, {QImHal:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -3650,7 +3650,7 @@ In the episode {DS9 - Sons and Daughters:src}, this word (Anglicised "bekk") was
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">To "bear a child".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8181,7 +8181,7 @@ For the Pittsburgh Art Tour, Marc Okrand suggested to translate "space capsule" 
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi">Tätä käytetään {tlhen:v}-verbin kanssa.[1]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">"Splish Splash" is a song by Bobby Darin.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {bobDar tlhen:sen@@bobDar:n, tlhen:v} "(it) produces a splash sound"[1]</column>
