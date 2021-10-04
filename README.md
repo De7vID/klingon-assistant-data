@@ -52,7 +52,11 @@ translations if possible, but may differ if it is necessary to include
 information specific to a language. For example, the German entry for
 `{ngech:n:2}` notes a common misunderstanding specific to the German language.
 Every link and source referenced in the English notes should be referenced in
-the translations (to the degree that it is possible).
+the translations (to the degree that it is possible). If the `notes` field in
+a non-English language is empty, the English notes will be displayed by the app.
+If this is undesirable (because the English notes are inapplicable and thus
+don't need to be translated), the translated `notes` field can be set to "-" to
+suppress the display of any notes.
 
 When adding a new entry, the `blank.xml` template should be used. There is a
 script `call_google_translate.py` which may be used to automatically translate
