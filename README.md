@@ -156,3 +156,24 @@ Conventions for translators
 
 - Remember to use the correct transitivity (eg. pyöriä **jIr** vs. pyörittää
   **jIrmoH**).
+
+Special logic in the Android parser
+-----------------------------------
+
+The parser in the [Android app](https://github.com/De7vID/klingon-assistant-android)
+makes certain assumptions, and may need to be updated if entries are added to
+the database matching certain criteria.
+
+Because "h" can stand for **H** in "xifan hol" mode, the sequence "ngh" is
+ambiguous (either **n** + **gh** or **ng** + **H**). As well, because "g" can
+stand for **gh**, the sequence "ng" may potentially be intended to mean **n** +
+**gh** (instead of **ng**). The parser has a hardcoded list of entries whose
+names contain **ngh** or **ngH**, which needs to be updated if any such entries
+are added to the database. (Otherwise, e.g., **manghom** may be expanded as
+**man** + **ghom** instead of **mang** + **Hom**).
+
+For reasons of correctness and efficiency, it is not normally attempted to
+parse queries of 4 letters or fewer as complex words.  However, because a few
+2-letter verbs exist (which can take 2-letter prefixes), there is special
+handling for a hardcoded list of such verbs. This list needs to be updated if
+any 2-letter verbs are added to the database.

@@ -178,6 +178,26 @@ then
     echo
 fi
 
+# Print any new entries containing {ngh} or {ngH}. The "xifan hol" expansion
+# logic in the Android app needs to be updated if any such entries are added.
+NGH_DIFF=$(grep "entry_name\">.*ng[hH]" $TMP_DIR/mem.xml | diff - expected_ngh.txt)
+if [[ ! -z "$NGH_DIFF" ]]
+then
+    echo "Changed entries with {ngh} or {ngH}:"
+    echo "$NGH_DIFF"
+    echo
+fi
+
+# Print any new 2-letter verbs. The parsing logic in the Android app needs to
+# be updated if any such verbs are added.
+TWO_LETTER_VERBS_DIFF=$(grep -B1 "part_of_speech\">v" $TMP_DIR/mem.xml | grep "entry_name\">..<" | diff - expected_two_letter_verbs.txt)
+if [[ ! -z "$TWO_LETTER_VERBS_DIFF" ]]
+then
+    echo "Changed two-letter verbs:"
+    echo "$TWO_LETTER_VERBS_DIFF"
+    echo
+fi
+
 # Pause (in case of error).
 if [[ ! $NONINTERACTIVE && (! -z "$POS_DEFINITION_MIXUP" || ! -z "$MISSING_DE" || ! -z "$MISSING_PT" || ! -z "$BROKEN_REFERENCES") ]]
 then
