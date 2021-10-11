@@ -5147,6 +5147,7 @@ Katso idioomaattinen ilmaisu, jota käytetään käskemään jotakuta liikkumaan
       <column name="source">[1] {qep'a' 25 (2018):src}</column>
     </table>
     <table name="mem">
+      <!-- A reference to someone named "Phil"? -->
       <column name="_id"></column>
       <column name="entry_name">vIl</column>
       <column name="part_of_speech">n</column>
@@ -5162,7 +5163,6 @@ Katso idioomaattinen ilmaisu, jota käytetään käskemään jotakuta liikkumaan
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
-      <!-- A reference to someone named "Phil"? -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5248,15 +5248,15 @@ Katso idioomaattinen ilmaisu, jota käytetään käskemään jotakuta liikkumaan
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghul:n}</column>
-      <column name="notes">The suggestion was made at {qep'a' 16 (2009):src} that a {vIlHom:n:nolink} could be a single ridge in a {Quch:n}.</column>
-      <column name="notes_de">Der Vorschlag wurde bei {qep'a' 16 (2009):src} gemacht, dass ein {vIlHom:n:nolink} ein einzelner Grat in einem {Quch:n} sein könnte. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این پیشنهاد در {qep'a' 16 (2009):src} که {vIlHom:n:nolink} می تواند یک خط الراس تک در {Quch:n} باشد. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Förslaget gjordes vid {qep'a' 16 (2009):src} att en {vIlHom:n:nolink} kan vara en enda kam i en {Quch:n}. [AUTOTRANSLATED]</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="notes_pt">A sugestão foi feita em {qep'a' 16 (2009):src} de que um {vIlHom:n:nolink} poderia ser uma única crista em um {Quch:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Ehdotus tehtiin kohdassa {qep'a' 16 (2009):src}, että {vIlHom:n:nolink} voisi olla yksi harjanne {Quch:n}: ssa. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes">The suggestion was made at {qep'a' 16 (2009):src} that a {vIlHom:n:nolink} could be a single ridge in a {Quch:n}. This was affirmed by MO.</column>
       <column name="components">{vIl:v:1} or {vIl:n:2,hyp,nolink}, {Hom:n:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
