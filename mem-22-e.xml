@@ -1264,9 +1264,9 @@ The example {'ejyaHlogh:adv:nolink} was given during the Q &amp; A session.</col
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- Should be marked "sen:lyr,archaic", but it needs to be "sen:lyr" to show up in the lyrics menu. -->
       <column name="_id"></column>
       <column name="entry_name">'ej HumtaH 'ej DechtaH 'Iw</column>
-      <!-- Should be marked "sen:lyr,archaic", but it needs to be "sen:lyr" to show up in the lyrics menu. -->
       <column name="part_of_speech">sen:lyr</column>
       <column name="definition">And the blood was ankle deep (drinking song)</column>
       <column name="definition_de">Und das Blut war knöcheltief (Trinklied)</column>
@@ -1279,7 +1279,7 @@ The example {'ejyaHlogh:adv:nolink} was given during the Q &amp; A session.</col
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{SIqral bIQtIq:n}</column>
-      <column name="notes">This is the opening line of a drinking song. The lyrics are not grammatical in modern standard Klingon, since they are ancient:
+      <column name="notes">This is the opening line of a drinking song. The lyrics are in {no' Hol:n}, and thus not grammatical in modern standard Klingon:
 ▶ {'ej HumtaH 'ej DechtaH 'Iw:sen:nolink}
    {'ej Doq SoDtaH ghoSpa' SIqral bIQtIq:sen:nolink}
    {'e' pa' jaj law' mo' jaj puS:sen:nolink}
@@ -1295,7 +1295,7 @@ The example {'ejyaHlogh:adv:nolink} was given during the Q &amp; A session.</col
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">These lyrics were presumably made up by the writers of the episode, who did a much better job than usual with the Klingon language. The Klingon translation contains most of the words one would expect to find to express the ideas in the English lyrics, even if the grammar is a bit strange. This was explained (or explained away) in {KGT:src}, which notes that many songs are in some form of {no' Hol:n:nolink}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
