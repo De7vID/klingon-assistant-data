@@ -1635,23 +1635,29 @@ Obi-Wan Kenobi is a character in Star Wars.</column>
           <column name="synonyms"></column>
           <column name="antonyms">{Qav:v}, {HochDIch:n}</column>
           <column name="see_also">{ghubDaQ:n}, {paghDIch:n}</column>
-          <column name="notes">In {Klingon Monopoly:src}, {Quj wa'DIch:n:nolink} is used to refer to the original Monopoly game. So {wa'DIch:n:nolink} can be used for "original" in the sense of "the first" (see under {qa':v} for the sentence).</column>
-          <column name="notes_de">In {Klingon Monopoly:src} wird {Quj wa'DIch:n:nolink} verwendet, um auf das ursprüngliche Monopoly-Spiel zu verweisen. So kann {wa'DIch:n:nolink} für "Original" im Sinne von "das Erste" verwendet werden (siehe unter {qa':v} für den Satz). [AUTOTRANSLATED]</column>
-          <column name="notes_fa">در {Klingon Monopoly:src} ، از {Quj wa'DIch:n:nolink} برای اشاره به بازی اصلی Monopoly استفاده می شود. بنابراین می توان از {wa'DIch:n:nolink} برای "اصلی" به معنای "اولین" استفاده کرد (برای این جمله به زیر {qa':v} مراجعه کنید). [AUTOTRANSLATED]</column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
           <column name="notes_sv"></column>
-          <column name="notes_ru">В {Klingon Monopoly:src} {Quj wa'DIch:n:nolink} используется для обозначения оригинальной монопольной игры. Таким образом, {wa'DIch:n:nolink} можно использовать для «оригинала» в смысле «первого» (см. Предложение в {qa':v}). [AUTOTRANSLATED]</column>
+          <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
-          <column name="notes_fi">Kohdassa {Klingon Monopoly:src} {Quj wa'DIch:n:nolink} käytetään viittaamaan alkuperäiseen Monopoly-peliin. Joten {wa'DIch:n:nolink}: ta voidaan käyttää "alkuperäiseksi" merkityksessä "ensimmäinen" (katso lause {qa':v}: ssä). [AUTOTRANSLATED]</column>
-          <column name="hidden_notes"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes">In the {Klingon Monopoly:src} examples, {Quj wa'DIch:n:nolink} is used to refer to the original Monopoly game. So {wa'DIch:n:nolink} can be used for "original" in the sense of "the first".</column>
           <column name="components">{wa':n:num}, {-DIch:n:num,suff}</column>
           <column name="examples">
 ▶ {veng wa'DIch:n}
-▶ {yaS wa'DIch:n}</column>
+▶ {yaS wa'DIch:n}
+▶ {Quj wa'DIch MONOPOLY Huch nav qa' tlhIngan QaS:sen:nolink} "Klingon forces replace original MONOPOLY bills"[2]
+▶ {Quj wa'DIch juH qachmey mebpa'mey je qa' raQmey chu' monmey chu' je:sen:nolink} "Custom OUTPOSTS and CAPITALS replace original Houses and Hotels"[2]</column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
           <column name="examples_sv"></column>
-          <column name="examples_ru"></column>
+          <column name="examples_ru">
+▶ {veng wa'DIch:n}
+▶ {yaS wa'DIch:n}
+▶ {Quj wa'DIch MONOPOLY Huch nav qa' tlhIngan QaS:sen:nolink} "Клингонские силы заменяют оригинальные банкноты монополии"[2]
+▶ {Quj wa'DIch juH qachmey mebpa'mey je qa' raQmey chu' monmey chu' je:sen:nolink} "Обычные аванпосты и столицы заменяют оригинальными домами и отелями"[2]</column>
           <column name="examples_zh_HK"></column>
           <column name="examples_pt"></column>
           <column name="examples_fi"></column>
@@ -1663,7 +1669,7 @@ Obi-Wan Kenobi is a character in Star Wars.</column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
-          <column name="source">[1] {TKD:src}</column>
+          <column name="source">[1] {TKD:src}, [2] {Klingon Monopoly:src}</column>
         </table>
         <table name="mem">
           <column name="_id"></column>
