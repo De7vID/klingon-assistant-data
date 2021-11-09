@@ -675,18 +675,18 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
       <column name="definition_ru">патока, сироп, жидкость, в основном состоящая из сахара [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">糖漿，糖漿，一種主要由糖製成的液體 [AUTOTRANSLATED]</column>
       <column name="definition_pt">melaço, xarope, um líquido feito principalmente de açúcar [AUTOTRANSLATED]</column>
-      <column name="definition_fi">siirappi, siirappi, enimmäkseen sokerista valmistettu neste [AUTOTRANSLATED]</column>
+      <column name="definition_fi">siirappi</column> <!--Pitäisikö olla "eräs siirappinen neste"???-->
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{SIyech:n}, {Su'ghar qut:n}</column>
-      <column name="notes"></column>
+      <column name="notes">This refers to liquid made by boiling stems of a particular plant, resembling Terran syrup. When needed, {Su'ghar Halrov:n} or {Su'ghar qut Halrov:n} can be used to refer to liquids made mostly from sugar.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi"></column>
+      <column name="notes_fi">Tämä viittaa erään kasvin juuria kiehuttamalla valmistettavaan siirappiseen nesteeseen. Sanoja {Su'ghar Halrov:n} ja {Su'ghar qut Halrov:n} voi käyttää, jos haluaa viitata erityisesti sokerista tehtyyn siirappiin.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -4284,7 +4284,7 @@ Katso sormiin liittyvät verbit kohdasta {nItlh:n}. [AUTOTRANSLATED]</column>
       <column name="definition_ru">птица с длинной шеей, длинными ногами [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">脖子長腿長的鳥 [AUTOTRANSLATED]</column>
       <column name="definition_pt">pássaro com pescoço comprido, pernas compridas [AUTOTRANSLATED]</column>
-      <column name="definition_fi">lintu, jolla on pitkä kaula, pitkät jalat [AUTOTRANSLATED]</column>
+      <column name="definition_fi">eräs flamingoa muistuttava lintu</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bo'Degh:n}</column>
@@ -4295,7 +4295,7 @@ Katso sormiin liittyvät verbit kohdasta {nItlh:n}. [AUTOTRANSLATED]</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi"></column>
+      <column name="notes_fi">Tämä viittaa erääseen lintuun, jolla on pitkä nokka ja jalat.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -4306,7 +4306,7 @@ Katso sormiin liittyvät verbit kohdasta {nItlh:n}. [AUTOTRANSLATED]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">flamingo</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -5396,7 +5396,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
       <column name="definition_ru">сделать чье-то присутствие известным [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">讓人知道某人的存在 [AUTOTRANSLATED]</column>
       <column name="definition_pt">tornar a presença de alguém conhecida [AUTOTRANSLATED]</column>
-      <column name="definition_fi">tehdä jonkun läsnäolo tunnetuksi [AUTOTRANSLATED]</column>
+      <column name="definition_fi">tehdä jonkun läsnäolo tunnetuksi</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{HIl'egh:v}</column>
@@ -5425,7 +5425,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">paljastaa joku</column>
       <column name="source">[1] {QelIS boqHarmey:src}</column>
     </table>
         <table name="mem">
@@ -5439,7 +5439,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
           <column name="definition_ru">заявить о себе [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">讓自己的存在為人所知 [AUTOTRANSLATED]</column>
           <column name="definition_pt">dar a conhecer a sua presença [AUTOTRANSLATED]</column>
-          <column name="definition_fi">tehdä läsnäolonsa tunnetuksi [AUTOTRANSLATED]</column>
+          <column name="definition_fi">tehdä oma läsnäolo tunnetuksi</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
@@ -5468,7 +5468,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
-          <column name="search_tags_fi"></column>
+          <column name="search_tags_fi">paljastaa itsensä, tulla esiin</column>
           <column name="source">[1] {QelIS boqHarmey:src}</column>
         </table>
     <table name="mem">
@@ -5790,7 +5790,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
       <column name="definition_ru">говорить сам с собой, думать [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">自言自語，思考 [AUTOTRANSLATED]</column>
       <column name="definition_pt">fala consigo mesmo, pensa [AUTOTRANSLATED]</column>
-      <column name="definition_fi">puhua itselleen, ajatella [AUTOTRANSLATED]</column>
+      <column name="definition_fi">puhua itselleen, ajatella</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Qub:v}</column>
