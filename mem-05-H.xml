@@ -669,7 +669,7 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
       <column name="entry_name">Halrov</column>
       <column name="part_of_speech">n</column>
       <column name="definition">treacle, syrup</column>
-      <column name="definition_de">Sirup, Sirup, eine Flüssigkeit, die hauptsächlich aus Zucker besteht [AUTOTRANSLATED]</column>
+      <column name="definition_de">Sirup, eine Flüssigkeit, die hauptsächlich aus Zucker besteht</column>
       <column name="definition_fa">شربت، مایعی که بیشتر از شکر درست می شود [AUTOTRANSLATED]</column>
       <column name="definition_sv">sirap, sirap, en vätska mestadels gjord av socker [AUTOTRANSLATED]</column>
       <column name="definition_ru">патока, сироп, жидкость, в основном состоящая из сахара [AUTOTRANSLATED]</column>
@@ -686,7 +686,7 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Tämä viittaa erään kasvin juuria kiehuttamalla valmistettavaan siirappiseen nesteeseen. Sanoja {Su'ghar Halrov:n} ja {Su'ghar qut Halrov:n} voi käyttää, jos haluaa viitata erityisesti sokerista tehtyyn siirappiin.[1]</column>
+      <column name="notes_fi">Tämä viittaa erään kasvin juuria kiehuttamalla valmistettavaan siirappiseen nesteeseen. Sanoja {Su'ghar Halrov:n:nolink} ja {Su'ghar qut Halrov:n@@Su'ghar qut:n, Halrov:n} voi käyttää, jos haluaa viitata erityisesti sokerista tehtyyn siirappiin.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -5782,7 +5782,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">HIt</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:t</column>
       <column name="definition">think, have an inner conversation</column>
       <column name="definition_de">mit sich selbst sprechen, denken [AUTOTRANSLATED]</column>
       <column name="definition_fa">با خود صحبت کن، فکر کن [AUTOTRANSLATED]</column>
