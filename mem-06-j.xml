@@ -4576,14 +4576,30 @@ Tätä verbiä käytetään sonetissa 116, jossa sen nimenomainen aihe on {muD:n
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chIp:v}, {SIrgh:n}, {veD:n}, {qur'ep:n}, {wan:v}, {tIy:v}</column>
-      <column name="notes">This refers only to hair on the top of the head, and not to facial hair (see {rol:n} and {loch:n}) or body hair (see {pob:n}).[2]</column>
-      <column name="notes_de">Dies bezieht sich nur auf Haare auf der Oberseite des Kopfes und nicht auf Gesichtshaare (siehe {rol:n} und {loch:n}) oder Körperhaare (siehe {pob:n}) .[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این فقط مربوط به موهای بالای سر است ، و نه موهای صورت (به {rol:n} و {loch:n}) یا موهای بدن (مراجعه کنید به {pob:n}).[2] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta avser endast hår på toppen av huvudet och inte ansiktshår (se {rol:n} och {loch:n}) eller kroppshår (se {pob:n}).[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это относится только к волосам на верхней части головы, а не на лице (смотрите {rol:n} и {loch:n}) или теле (сотрите {pob:n}).[2]</column>
-      <column name="notes_zh_HK">這僅是指頭頂的頭髮，而不是指面部毛髮（請參見{rol:n}和{loch:n}）或體毛（請參見{pob:n}）。[2] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Refere-se apenas aos cabelos na parte superior da cabeça, e não aos pêlos faciais (consulte {rol:n} e {loch:n}) ou pêlos do corpo (consulte {pob:n}).[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä viittaa vain pään yläosassa oleviin hiuksiin, ei kasvojen hiuksiin (katso {rol:n} ja {loch:n}) tai vartalokarvoihin (katso {pob:n}).[2] [AUTOTRANSLATED]</column>
+      <column name="notes">This refers only to hair on the top of the head, and not to facial hair (see {rol:n} and {loch:n}) or body hair (see {pob:n}).[2]
+
+Animals do not have {jIb:n:nolink}, but {pob:n:nolink}.[3]</column>
+      <column name="notes_de">Dies bezieht sich nur auf Haare auf der Oberseite des Kopfes und nicht auf Gesichtshaare (siehe {rol:n} und {loch:n}) oder Körperhaare (siehe {pob:n}).[2]
+
+Tiere haben kein {jIb:n:nolink}, aber {pob:n:nolink}.[3] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این فقط به موهای بالای سر اشاره دارد، و نه به موهای صورت (به {rol:n} و {loch:n} مراجعه کنید) یا موهای بدن (به {pob:n} مراجعه کنید).[2].
+
+حیوانات {jIb:n:nolink} ندارند، اما {pob:n:nolink}.[3] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta avser endast hår på toppen av huvudet och inte ansiktshår (se {rol:n} och {loch:n}) eller kroppshår (se {pob:n}).[2]
+
+Djur har inte {jIb:n:nolink}, men {pob:n:nolink}.[3] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это относится только к волосам на верхней части головы, а не на лице (смотрите {rol:n} и {loch:n}) или теле (сотрите {pob:n}).[2]
+
+У животных нет {jIb:n:nolink}, но {pob:n:nolink}.[3] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這僅指頭頂的頭髮，而不是面部毛髮（參見 {rol:n} 和 {loch:n}）或體毛（參見 {pob:n}）。[2]
+
+動物沒有 {jIb:n:nolink}，但 {pob:n:nolink}.[3] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Refere-se apenas aos cabelos na parte superior da cabeça, e não aos pêlos faciais (consulte {rol:n} e {loch:n}) ou pêlos do corpo (consulte {pob:n}).[2]
+
+Animais não têm {jIb:n:nolink}, mas {pob:n:nolink}.[3][2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä viittaa vain pään yläosassa oleviin hiuksiin, ei kasvojen hiuksiin (katso {rol:n} ja {loch:n}) tai vartalokarvoihin (katso {pob:n}).[2]
+
+Eläimillä ei ole {jIb:n:nolink}, vaan {pob:n:nolink}.[3] [AUTOTRANSLATED]</column>
       <column name="hidden_notes">The "cut of someone's jib" is an idiom referring to their appearance.</column>
       <column name="components"></column>
       <column name="examples">
@@ -4603,7 +4619,7 @@ Tätä verbiä käytetään sonetissa 116, jossa sen nimenomainen aihe on {muD:n
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {qep'a' 24 (2017):src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 24 (2017):src}, [3] {KLI mailing list 2021.11.11:src}</column>
     </table>
         <table name="mem">
           <!-- Is this plural? -->
@@ -7858,7 +7874,7 @@ The term "transport room" (rather than the more common "transporter room") is us
           <column name="entry_name">joqmoH</column>
           <column name="part_of_speech">v:t_c,deriv</column>
           <column name="definition">wave (a fan or anything else)</column>
-          <column name="definition_de">winke mit einem Fan [AUTOTRANSLATED]</column>
+          <column name="definition_de">fächern</column>
           <column name="definition_fa">تکان دادن یک فن [AUTOTRANSLATED]</column>
           <column name="definition_sv">vinka en fläkt [AUTOTRANSLATED]</column>
           <column name="definition_ru">помахать веером [AUTOTRANSLATED]</column>
