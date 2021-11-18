@@ -99,7 +99,8 @@ occasionally it may make sense to translate one or a few entries into multiple
 languages, such as after a large vocabulary reveal at an event such as the KLI
 **qep'a'** or Saarbrücken **qepHom'a'**). Commits created using the
 `commit_submissions.py` script are exempt from this rule, but must be manually
-reviewed.
+reviewed. Pull requests of large translation commits should typically be merged
+using the "Squash and merge" option.
 
 There is a script `review_changes.sh` which takes in a language code and an
 optional commit (which defaults to `upstream/master` if omitted). This should
