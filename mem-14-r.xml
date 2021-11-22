@@ -2612,7 +2612,7 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="_id"></column>
       <column name="entry_name">reD</column>
       <column name="part_of_speech">n:3</column>
-      <column name="definition">side (of something)</column>
+      <column name="definition">side (exterior surface)</column>
       <column name="definition_de">Seite (von etwas) [AUTOTRANSLATED]</column>
       <column name="definition_fa">طرف (چیزی) [AUTOTRANSLATED]</column>
       <column name="definition_sv">sida (av något) [AUTOTRANSLATED]</column>
@@ -2622,8 +2622,10 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="definition_fi">sivupuoli</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Dop:n}</column>
-      <column name="notes">This is an extension of {reD:n:1} to refer to an object's surface which is not the top, bottom, front, or back. In this context, the front of the object is its {logh'ob:n:2} and the back is its {Sa'Hut:n:2}.[1; 2]</column>
+      <column name="see_also"></column>
+      <column name="notes">This is an extension of {reD:n:1} to refer to an object's surface which is not the top, bottom, front, or back. In this context, the front of the object is its {logh'ob:n:2} and the back is its {Sa'Hut:n:2}.[1; 2]
+
+Even when applied to a person or an animal, this doesn't take the suffix {-Du':n:suff}, because it refers to an area and not a specific body part. This word does not mean "side" in the sense of one of two opposite directions such as "left" and "right" or "top" and "bottom", for which see {Dop:n}.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2631,7 +2633,9 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">This seems to be different from {Dop:n} in that {Dop:n:nolink} appears to refer to one side of something which has an opposite side.</column>
+      <column name="hidden_notes">An explanation of {logh'ob:n:2,nolink}, {Sa'Hut:n:2,nolink}, and {reD:n:3,nolink} was given during the Q &amp; A session at {Saarbrücken qepHom'a' 2021:src}.
+
+This was defined as "side". The clarification "exterior surface" was added based on the explanation, and to differentiate it from {Dop:n:nolink}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2649,7 +2653,7 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {QelIS boqHarmey:src}, [2] {KLI mailing list 2021.11.15:src}</column>
+      <column name="source">[1] {QelIS boqHarmey:src}, [2] {KLI mailing list 2021.11.15:src}, [3] {Saarbrücken qepHom'a' 2021:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
