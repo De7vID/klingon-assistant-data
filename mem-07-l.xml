@@ -4400,7 +4400,7 @@ Tätä sanaa voidaan käyttää kuvaannollisesti. On idioomi {let mInDu'Daj; Sep
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Reverse of {HIl:v}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6643,7 +6643,7 @@ Tarvittaessa matemaattisessa keskustelussa etuliitettä ei käytetä, vaikka nim
       <column name="_id"></column>
       <column name="entry_name">logh'ob</column>
       <column name="part_of_speech">n:2</column>
-      <column name="definition">front (of something)</column>
+      <column name="definition">front (exterior surface)</column>
       <column name="definition_de">vor (vor etwas) [AUTOTRANSLATED]</column>
       <column name="definition_fa">جلو (از چیزی) [AUTOTRANSLATED]</column>
       <column name="definition_sv">framför (för något) [AUTOTRANSLATED]</column>
@@ -6654,7 +6654,9 @@ Tarvittaessa matemaattisessa keskustelussa etuliitettä ei käytetä, vaikka nim
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is an extension of {logh'ob:n:1} to the front of something, in which case the back would be {Sa'Hut:n:2} and the sides would be {reD:n:3}.[1] In this usage, the plural is formed with {-mey:n:suff}.[2]</column>
+      <column name="notes">This is an extension of {logh'ob:n:1} to the front of other things, in which case the back would be {Sa'Hut:n:2} and the sides would be {reD:n:3}.[1] In this usage, the plural is formed with {-mey:n:suff}.[2]
+
+This can apply to cars, motorcycles, space ships and the like, but not to the front of a computer screen (too flat) or a bottle (because it's round). There's an overlap with {'et:n:2h}, but whereas {'et:n:2h,nolink} refers to a 3-dimensional space, {logh'ob:n:2,nolink} refers to the surface at the front.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6662,7 +6664,9 @@ Tarvittaessa matemaattisessa keskustelussa etuliitettä ei käytetä, vaikka nim
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">An explanation of {logh'ob:n:2,nolink}, {Sa'Hut:n:2,nolink}, and {reD:n:3,nolink} was given during the Q &amp; A session at {Saarbrücken qepHom'a' 2021:src}.
+
+This was defined as "front". The clarification "exterior surface" was added based on the explanation.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6680,7 +6684,7 @@ Tarvittaessa matemaattisessa keskustelussa etuliitettä ei käytetä, vaikka nim
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {QelIS boqHarmey:src}, [2] {KLI mailing list 2021.11.15:src}</column>
+      <column name="source">[1] {QelIS boqHarmey:src}, [2] {KLI mailing list 2021.11.15:src}, [3] {Saarbrücken qepHom'a' 2021:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

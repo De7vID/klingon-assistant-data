@@ -5872,7 +5872,7 @@ Tämä sana voi viitata myös "timanttipukuun" pelikorttipakassa (katso {Degh:n:
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">mIllogh qol</column>
-          <column name="part_of_speech">n:deriv</column>
+          <column name="part_of_speech">n</column>
           <column name="definition">animation, cartoon</column>
           <column name="definition_de">Animation, Zeichentrick</column>
           <column name="definition_fa">انیمیشن ، کارتون [AUTOTRANSLATED]</column>
@@ -5892,8 +5892,8 @@ Tämä sana voi viitata myös "timanttipukuun" pelikorttipakassa (katso {Degh:n:
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="hidden_notes">It's not clear what the word {qol:v} means here.</column>
-          <column name="components">{mIllogh:n}, {qol:v}</column>
+          <column name="hidden_notes">At the Q &amp; A session at {Saarbrücken qepHom'a' 2021:src}, it was explained that {qol:n:nolink} is a noun, but its meaning was not revealed.[2]</column>
+          <column name="components">{mIllogh:n}, {qol:n:hyp,nolink}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -5910,7 +5910,7 @@ Tämä sana voi viitata myös "timanttipukuun" pelikorttipakassa (katso {Degh:n:
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
-          <column name="source">[1] {qep'a' 28 (2021):src}</column>
+          <column name="source">[1] {qep'a' 28 (2021):src}, [2] {Saarbrücken qepHom'a' 2021:src}</column>
         </table>
         <table name="mem">
           <column name="_id"></column>
