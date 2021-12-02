@@ -141,7 +141,7 @@ pos_to_tag = {
 
 src_to_tag = {
   "TKD": "Klingon_from_TKD",
-  "TKDA": "Klingon_from_TKD",
+  "TKDA": "Klingon_from_TKD",  # Not a typo; treat TKD/TKDA as one tag for Anki decks.
   "TKW": "Klingon_from_TKW",
   "KGT": "Klingon_from_KGT",
   "CK": "Klingon_from_CK",
