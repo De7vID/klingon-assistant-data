@@ -87,6 +87,7 @@ import os
 import re
 import unicodedata
 from collections import OrderedDict
+import argparse
 
 # A single entry parsed from the XML tree
 class EntryNode:
@@ -99,7 +100,7 @@ class EntryNode:
                 name = child.attrib['name']
                 namesplit = name.split('_')
                 # Normalize Unicode characters into decomposed form
-                text = unicodedata.normalize('NFKD', ''.join(child.itertext()))
+                text = unicodedata.normalize(args.normalize, ''.join(child.itertext()))
                 if text:
                     # Store localized fields hierarchically
                     if namesplit[0] in [
@@ -223,6 +224,11 @@ memparts = ['header', 'b', 'ch', 'D', 'gh', 'H', 'j', 'l', 'm', 'n', 'ng', 'p',
             'u', 'suffixes', 'extra', 'examples', 'footer']
 filenames = []
 concat=''
+
+argparser = argparse.ArgumentParser(description="Read the database XML files and output a JSON representation of the database to stdout, and report unresolvable links to stderr.")
+argparser.add_argument("--normalize", type=str, default="NFKD", choices=["NFC", "NFKD"], help="Which unicode normalization to use")
+args = argparser.parse_args()
+
 sdir = os.path.dirname(os.path.realpath(sys.argv[0]))
 
 for i, part in enumerate(memparts):
