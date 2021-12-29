@@ -4570,6 +4570,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- TODO: Russian (and possibly Finnish) notes need to be updated to match the English one. -->
       <column name="_id"></column>
       <column name="entry_name">meQ</column>
       <column name="part_of_speech">v:1,ambi,klcp1</column>
@@ -4584,9 +4585,7 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mIQ:v}</column>
-      <column name="notes">If there is no object, then the subject is the thing burning, e.g., {meQtaHbogh qachDaq Suv qoH neH.:sen}[2] If there is an object, then the subject is burning the object, e.g., {to'waQ meQ vutwI'.:sen@@to'waQ:n, meQ:v:1, vutwI':n}[3] {meQ:v:1,nolink} can also be used adjectivally, e.g., {Ha'DIbaHmey meQ Sop 'e' tIv tera'nganpu'.:sen}[4]
-
-In addition to this verb's transitive usage, the form {meQmoH:v:nolink} is used to mean "put in fire, burn" (see examples)[5].</column>
+      <column name="notes">If there is no object, then the subject is the thing burning, e.g., {meQtaHbogh qachDaq Suv qoH neH.:sen}[2] If there is an object, then the subject is burning the object, e.g., {to'waQ meQ vutwI'.:sen@@to'waQ:n, meQ:v:1, vutwI':n}[3] {meQ:v:1,nolink} can also be used adjectivally, e.g., {Ha'DIbaHmey meQ Sop 'e' tIv tera'nganpu'.:sen}[4] In addition to this verb's usage with an object, the form {meQmoH:v@@meQ:v:1, -moH:v} is used to mean "set on fire, burn" (see examples).[5]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -4596,7 +4595,8 @@ In addition to this verb's transitive usage, the form {meQmoH:v:nolink} is used 
       <column name="notes_fi">Tällä verbillä on kolme merkitystä. Se on joko intransitiivinen "palaa" (esim. {meQtaHbogh qachDaq Suv qoH neH.:sen}[2]), jolla on normaalisti kausatiivi "polttaa, sytyttää tuleen" {meQmoH:v:nolink}[5]. Ainakin ruoan yhteydessä sillä on myös transitiivinen merkitys "polttaa, kypsentää" (esim. {to'waQ meQ vutwI'.:sen@@to'waQ:n, meQ:v:1, vutwI':n}[3]) ja adjektiivinen merkitys "olla poltettu, kypsennetty" (esim. {Ha'DIbaHmey meQ Sop 'e' tIv tera'nganpu'.:sen}[4]).</column>
       <column name="hidden_notes">In the sentence from {CK:src}, {tIv:sen:nolink} should have been {lutIv:sen:nolink} since {tera'nganpu':n:nolink} is plural.</column>
       <column name="components"></column>
-      <column name="examples">▶ {jIbDaj lumeQmoH:sen:nolink}
+      <column name="examples">
+▶ {jIbDaj lumeQmoH:sen:nolink}
    {jIbDaj lumeQmoH:sen:nolink}
    {qul bIQtIq qulHommey:sen:nolink}
   "Sparks from the fire river
@@ -4623,7 +4623,7 @@ In addition to this verb's transitive usage, the form {meQmoH:v:nolink} is used 
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {TKW p.111:src}, [3] {KGT p.191:src}, [4] {CK:src}, [5] {paq'batlh p. 87, 115:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {TKW p.111:src}, [3] {KGT p.191:src}, [4] {CK:src}, [5] {paq'batlh p.86-87,114-115:src}</column>
     </table>
         <table name="mem">
           <column name="_id"></column>
@@ -9420,7 +9420,7 @@ This word is defined in {KGT:src} as "smile, grin, sneer".[1]  It is explained t
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">To "mope around" is an activity stereotypically done in a bathrobe.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
