@@ -1,3 +1,7 @@
+#!/bin/bash
+
+python3 xml2json.py --normalize NFC >data.json
+
 cat data.json | jq -r '
 def fix_links: if . then gsub(":[^{}]+\\}"; "}") | gsub("\n"; "\n   ") else . end;
 
