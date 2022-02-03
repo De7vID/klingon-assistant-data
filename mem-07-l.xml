@@ -2077,8 +2077,8 @@ The following example shows that the verb of quality can take a suffix:
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <column name="_id"></column>
       <!-- This may be a reference to Klingonist {lay'tel SIvten:n:name,nolink}, or {lay'SIv:n:name} for short. -->
+      <column name="_id"></column>
       <column name="entry_name">la'SIv</column>
       <column name="part_of_speech">n:anim</column>
       <column name="definition">turtle, tortoise</column>
@@ -2119,6 +2119,49 @@ The following example shows that the verb of quality can take a suffix:
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {KLI mailing list 2012.08.03:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">la'yIgh</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">spice</column>
+      <column name="definition_de">spice [AUTOTRANSLATED]</column>
+      <column name="definition_fa">spice [AUTOTRANSLATED]</column>
+      <column name="definition_sv">spice [AUTOTRANSLATED]</column>
+      <column name="definition_ru">spice [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">spice [AUTOTRANSLATED]</column>
+      <column name="definition_pt">spice [AUTOTRANSLATED]</column>
+      <column name="definition_fi">spice [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2021:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6135,7 +6178,7 @@ Tarvittaessa matemaattisessa keskustelussa etuliitettä ei käytetä, vaikka nim
       <column name="definition_fi">veli</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{be'nI':n}</column>
+      <column name="see_also">{be'nI':n}, {qongmeS:n}</column>
       <column name="notes">A "brother-in-law" is {loDnI' loDnal:n@@loDnI':n, loDnal:n} or {be'nI' loDnal:n@@be'nI':n, loDnal:n}.</column>
       <column name="notes_de">Ein "Schwager" ist {loDnI' loDnal:n@@loDnI':n, loDnal:n} oder {be'nI' loDnal:n@@be'nI':n, loDnal:n}. [AUTOTRANSLATED]</column>
       <column name="notes_fa"></column>
