@@ -3463,6 +3463,49 @@ It's unclear what sense of "fair" is meant by this word.</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">ma'egh</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">premiere</column>
+      <column name="definition_de">premiere [AUTOTRANSLATED]</column>
+      <column name="definition_fa">premiere [AUTOTRANSLATED]</column>
+      <column name="definition_sv">premiere [AUTOTRANSLATED]</column>
+      <column name="definition_ru">premiere [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">premiere [AUTOTRANSLATED]</column>
+      <column name="definition_pt">premiere [AUTOTRANSLATED]</column>
+      <column name="definition_fi">premiere [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2021:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">ma'to'vor</column>
       <column name="part_of_speech">n</column>
       <column name="definition">Mauk-to'Vor ritual</column>
@@ -5885,7 +5928,7 @@ Tämä sana voi viitata myös "timanttipukuun" pelikorttipakassa (katso {Degh:n:
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">mIllogh qol</column>
-          <column name="part_of_speech">n</column>
+          <column name="part_of_speech">n:deriv</column>
           <column name="definition">animation, cartoon</column>
           <column name="definition_de">Animation, Zeichentrick</column>
           <column name="definition_fa">انیمیشن ، کارتون [AUTOTRANSLATED]</column>
@@ -5897,7 +5940,7 @@ Tämä sana voi viitata myös "timanttipukuun" pelikorttipakassa (katso {Degh:n:
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
-          <column name="notes">This refers to animation only, and not to printed cartoons in the newspaper.[1]</column>
+          <column name="notes">This refers to animation only, and not to printed cartoons in the newspaper.[1] Even though {qol:n:2h} refers to a multitude of things, they are being treated as a collection, so one would say {qolmey:n@@qol:n:2h, -mey:n} for multiple cartoons.[2]</column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
@@ -5905,8 +5948,8 @@ Tämä sana voi viitata myös "timanttipukuun" pelikorttipakassa (katso {Degh:n:
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="hidden_notes">At the Q &amp; A session at {Saarbrücken qepHom'a' 2021:src}, it was explained that {qol:n:nolink} is a noun, but its meaning was not revealed.[2]</column>
-          <column name="components">{mIllogh:n}, {qol:n:hyp,nolink}</column>
+          <column name="hidden_notes">At the Q &amp; A session at {Saarbrücken qepHom'a' 2021:src}, it was explained that {qol:n:2h,nolink} is a noun, but its meaning was not revealed then. The meaning was subsequently revealed in the booklet, which was published later.[2]</column>
+          <column name="components">{mIllogh:n}, {qol:n:2h}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -7532,7 +7575,7 @@ The appropriate word for a surgery scar was explained during the Q &amp; A sessi
       <column name="definition_fi">menettely, prosessi, kehityskulku?; askel, vaihe (prosessissa); resepti, kaava</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{nab:n}, {HIl'aD:n}</column>
+      <column name="see_also">{nab:n}, {HIl'aD:n}, {Deryat:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7904,7 +7947,7 @@ Verbiä {'al:v:2} käytetään satunnaislukuihin ({mI' 'al:n}). [AUTOTRANSLATED]
           <column name="definition_fi">matematiikka</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
-          <column name="see_also">{mI' tej:n}, {ghIqtu':n}, {wItte':n}</column>
+          <column name="see_also">{mI'tej:n}, {ghIqtu':n}, {wItte':n}</column>
           <column name="notes"></column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
@@ -7935,7 +7978,7 @@ Verbiä {'al:v:2} käytetään satunnaislukuihin ({mI' 'al:n}). [AUTOTRANSLATED]
         </table>
         <table name="mem">
           <column name="_id"></column>
-          <column name="entry_name">mI' tej</column>
+          <column name="entry_name">mI'tej</column>
           <column name="part_of_speech">n:being,deriv</column>
           <column name="definition">mathematician</column>
           <column name="definition_de">Mathematiker</column>
@@ -7956,7 +7999,7 @@ Verbiä {'al:v:2} käytetään satunnaislukuihin ({mI' 'al:n}). [AUTOTRANSLATED]
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="hidden_notes">This word appeared in the booklet with a space, despite {mI'QeD:n:nolink} (revealed earlier) and {'otlhtej:n} (in the same booklet) being written without a space.</column>
+          <column name="hidden_notes">This word was printed in the {Saarbrücken qepHom'a' 2016:src} booklet with a space. In a clarification about terminology for sciences and scientists printed in the {Saarbrücken qepHom'a' 2019:src} booklet, this was implied to be an error.</column>
           <column name="components">{mI':n}, {tej:n}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
@@ -7966,7 +8009,7 @@ Verbiä {'al:v:2} käytetään satunnaislukuihin ({mI' 'al:n}). [AUTOTRANSLATED]
           <column name="examples_zh_HK"></column>
           <column name="examples_pt"></column>
           <column name="examples_fi"></column>
-          <column name="search_tags">mI'tej</column>
+          <column name="search_tags">mI' tej</column>
           <column name="search_tags_de"></column>
           <column name="search_tags_fa"></column>
           <column name="search_tags_sv"></column>
@@ -7974,7 +8017,7 @@ Verbiä {'al:v:2} käytetään satunnaislukuihin ({mI' 'al:n}). [AUTOTRANSLATED]
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
-          <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}, [2] {Saarbrücken qepHom'a' 2019:src}</column>
         </table>
         <table name="mem">
           <column name="_id"></column>
