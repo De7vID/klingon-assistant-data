@@ -3466,18 +3466,22 @@ Sanoa "kun olin X-vuotias", rakennus on esimerkiksi {qaStaHvIS DISwIj javDIch...
       <column name="definition_ru">экипаж, член экипажа</column>
       <column name="definition_zh_HK">船員</column>
       <column name="definition_pt">tripulação</column>
-      <column name="definition_fi">(aluksen) miehistön jäsen</column>
+      <column name="definition_fi">(aluksen) miehistön jäsen; ei-valtiollisen, ei-sotilaallisen ryhmän jäsen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{QaS:n:1h}</column>
-      <column name="notes">This refers to a member of a ship's company ({wey:n}) who is not an officer ({yaS:n}).[2]</column>
-      <column name="notes_de">Dies bezieht sich auf ein Mitglied einer Schiffsgesellschaft ({wey:n}), das kein Offizier ({yaS:n}) ist .[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این به عضوی از شرکت کشتی ({wey:n}) اشاره دارد که افسر نیست ({yaS:n}).[2] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta avser en medlem i ett fartygs företag ({wey:n}) som inte är officer ({yaS:n}).[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это относится к члену судовой компании ({wey:n}), который не является офицером ({yaS:n}).[2] [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這是指不是高級船員（{yaS:n}）的船舶公司成員（{wey:n}）。[2] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Refere-se a um membro de uma companhia marítima ({wey:n}) que não é um oficial ({yaS:n}) .[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä viittaa aluksen miehistön ({wey:n}) jäseneen, joka ei ole upseeri ({yaS:n}).[2]</column>
+      <column name="notes">This refers to a member of a ship's company ({wey:n}) who is not an officer ({yaS:n}).[2]
+
+This can also refer to a member of a loosely organized group with no governmental- or military-like status.[3]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi">Tämä viittaa aluksen miehistön ({wey:n}) jäseneen, joka ei ole upseeri ({yaS:n}).[2]
+
+Tämä voi viitata myös löyhästi järjestäytyneiden ei-valtiollisten ja ei-sotilaallisten ryhmien jäseniin.[3]</column>
       <column name="hidden_notes">A crewman is at "beck" and call.
 
 In the episode {DS9 - Sons and Daughters:src}, this word (Anglicised "bekk") was treated as a rank given to enlisted personnel in the Klingon Defense Force ({tlhIngan Hubbeq:n}).</column>
@@ -3498,7 +3502,7 @@ In the episode {DS9 - Sons and Daughters:src}, this word (Anglicised "bekk") was
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi">matruusi</column>
-      <column name="source">[1] {TKD:src}, [2] {KGT p.50:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.50:src}, [3] {Saarbrücken qepHom'a' 2021:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3855,7 +3859,7 @@ In the episode {DS9 - Sons and Daughters:src}, this word (Anglicised "bekk") was
           <column name="definition_ru">задняя обложка (книги) [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">封底（書） [AUTOTRANSLATED]</column>
           <column name="definition_pt">contracapa (do livro) [AUTOTRANSLATED]</column>
-          <column name="definition_fi">takakansi (kirjan) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">(kirjan) takakansi</column>
           <column name="synonyms"></column>
           <column name="antonyms">{bI'reS 'echlet:n}</column>
           <column name="see_also">{paq:n:1}, {wIlHay:n}</column>
@@ -3884,7 +3888,7 @@ In the episode {DS9 - Sons and Daughters:src}, this word (Anglicised "bekk") was
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
-          <column name="search_tags_fi"></column>
+          <column name="search_tags_fi">kansi</column>
           <column name="source">[1] {Saarbrücken qepHom'a' 2021:src}</column>
         </table>
     <table name="mem">
@@ -8077,7 +8081,7 @@ For "oh, yeah?" meaning simply "Is that so?", see {qar'a'?:sen}</column>
           <column name="definition_ru">передняя обложка (книги) [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">封面（書） [AUTOTRANSLATED]</column>
           <column name="definition_pt">capa (do livro) [AUTOTRANSLATED]</column>
-          <column name="definition_fi">etukansi (kirjan) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">(kirjan) etukansi</column>
           <column name="synonyms"></column>
           <column name="antonyms">{bertlham 'echlet:n}</column>
           <column name="see_also">{paq:n:1}, {wIlHay:n}</column>
