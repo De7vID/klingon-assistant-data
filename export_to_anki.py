@@ -150,6 +150,7 @@ src_to_tag = {
   "BoP": "Klingon_from_BoP",
   "HQ": "Klingon_from_HQ",
   "TNK": "Klingon_from_TalkNow",
+  "QelIS boqHarmey": "Klingon_from_Alice_in_Wonderland",
 }
 
 lang_to_deck_guid = {
