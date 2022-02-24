@@ -12386,7 +12386,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
     </table>
 
     <!-- Section: Other -->
-    <!-- These are generally not from Marc Okrand, but TV scriptwriters and other Star Trek authors. -->
+    <!-- These are generally not from Marc Okrand, but TV scriptwriters and other Star Trek authors. (Hypothetical word elements listed here may form parts of words invented by Okrand.) -->
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">be'joy'</column>
@@ -14224,6 +14224,50 @@ Erityiset kiitokset Marc Okrandille ({marq 'oqranD:n:name}) klingonin kielen luo
       <column name="source"></column>
     </table>
     <table name="mem">
+      <!-- See also: https://twitter.com/Klingonteacher/status/1095591820925562881 -->
+      <column name="_id"></column>
+      <column name="entry_name">pojwI'</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">croupier</column>
+      <column name="definition_de">Croupier</column>
+      <column name="definition_fa">کارت‌پخش‌کن [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Croupier</column>
+      <column name="definition_ru">Крупье</column>
+      <column name="definition_zh_HK">莊荷</column>
+      <column name="definition_pt">Crupiê</column>
+      <column name="definition_fi">krupieeri [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is the person in charge of a game of {tISang:n}.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes">This word was not translated but was spoken by the players.</column>
+      <column name="components">{poj:v}, {-wI':v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags">dealer</column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {DSC - Will You Take My Hand?:src}</column>
+    </table>
+    <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">puj</column>
       <column name="part_of_speech">n:2,hyp</column>
@@ -15132,6 +15176,49 @@ The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, 
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Klingon Academy:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">tISang</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">t'Sang (board game)</column>
+      <column name="definition_de">T'Sang (Brettspiel) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">t'Sang (بازی رومیزی) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">t'Sang (brädspel) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">т'Санг (настольная игра) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">「曾」（圖版遊戲） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">t'Sang (jogo de tabuleiro) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">t'Sang (lautapeli) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{pojwI':n}</column>
+      <column name="notes">This is a Klingon board game played with dice. Its name means "obliterate them".[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes">This game was named after {DSC:src} graphic designer Andy Tsang. By coincidence, {tISang:n:nolink} happens to have an appropriate meaning in Klingon. This meaning was mentioned in the episode in which it appears.</column>
+      <column name="components">{tI-:v}, {Sang:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags">tsang</column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {DSC - Will You Take My Hand?:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
