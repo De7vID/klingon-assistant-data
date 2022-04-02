@@ -6136,7 +6136,7 @@ Terran-kuukaudet ovat:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tetyub</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">enamel, coating</column>
       <column name="definition_de">Emaille, Beschichtung</column>
       <column name="definition_fa">مینا ، پوشش [AUTOTRANSLATED]</column>
@@ -6157,7 +6157,7 @@ Terran-kuukaudet ovat:
       <column name="notes_pt">Isso se refere a qualquer tipo de revestimento artificial, não apenas ao esmalte. Não se aplica aos dentes. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä viittaa mihin tahansa keinotekoiseen pinnoitteeseen, ei vain emaliin. Se ei koske hampaita. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{tet:v}, {yub:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
