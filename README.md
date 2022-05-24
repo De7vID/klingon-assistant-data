@@ -7,7 +7,7 @@ The `notes` fields are for typical users of the lexicon. An attempt should be
 made to keep information there "in-universe". The `hidden_notes` field is for
 (typically) "out-of-universe" information such as puns (what Marc Okrand calls
 "coincidences"), or background stories about how a word or phrase was invented
-(such as having to retrofit a movie edit). For some entries (e.g., `{Hov
+(such as having to backfit a movie edit). For some entries (e.g., `{Hov
 leng:n}` or the names of actors or actresses), keeping the notes "in-universe"
 might not be possible, so this is not a strict requirement.
 
