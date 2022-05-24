@@ -1092,7 +1092,7 @@ Katso "päivät sitten" ja "päivät nyt" kohdat {Hu':n} ja {leS:n}. [AUTOTRANSL
       <column name="definition_fi">laite</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{SommI':n}, {vIqraq:n}, {jom:v}, {jo':n}, {mIqta':n}, {jan:n:2}</column>
+      <column name="see_also">{SommI':n}, {vIqraq:n}, {jom:v:1}, {jo':n}, {mIqta':n}, {jan:n:2}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -3762,10 +3762,10 @@ Huomaa, että {jemS:n:nolink} ja {qIrq:n:nolink} eivät noudata oikeaa klingonif
       <column name="part_of_speech">n</column>
       <column name="definition">push-up</column>
       <column name="definition_de">Liegestütze</column>
-      <column name="definition_fa">شنای سوئدی [AUTOTRANSLATED]</column>
+      <column name="definition_fa">شنای سوئدی</column>
       <column name="definition_sv">Armhävning</column>
       <column name="definition_ru">Отжимания</column>
-      <column name="definition_zh_HK">俯卧撑 [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">掌上壓</column>
       <column name="definition_pt">Flexão</column>
       <column name="definition_fi">punnerrus</column>
       <column name="synonyms"></column>
@@ -3778,7 +3778,7 @@ Huomaa, että {jemS:n:nolink} ja {qIrq:n:nolink} eivät noudata oikeaa klingonif
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Tätä voi käyttää verbin {mI':v} objektina.[1]</column>
+      <column name="notes_fi">Tätä sanaa voi käyttää verbin {mI':v} objektina.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3789,7 +3789,7 @@ Huomaa, että {jemS:n:nolink} ja {qIrq:n:nolink} eivät noudata oikeaa klingonif
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">pushup</column>
       <column name="search_tags_de">Push-up</column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -4621,28 +4621,44 @@ Tätä verbiä käytetään sonetissa 116, jossa sen nimenomainen aihe on {muD:n
       <column name="see_also">{chIp:v}, {SIrgh:n}, {veD:n}, {qur'ep:n}, {wan:v}, {tIy:v}</column>
       <column name="notes">This refers only to hair on the top of the head, and not to facial hair (see {rol:n} and {loch:n}) or body hair (see {pob:n}).[2]
 
-Animals do not have {jIb:n:nolink}, but {pob:n:nolink}.[3]</column>
+Animals do not have {jIb:n:nolink}, but {pob:n:nolink}.[3]
+
+To talk about someone being bald, simply say {jIb Hutlh:sen@@jIb:n, Hutlh:v}.[4]</column>
       <column name="notes_de">Dies bezieht sich nur auf Haare auf der Oberseite des Kopfes und nicht auf Gesichtshaare (siehe {rol:n} und {loch:n}) oder Körperhaare (siehe {pob:n}).[2]
 
-Tiere haben kein {jIb:n:nolink}, aber {pob:n:nolink}.[3] [AUTOTRANSLATED]</column>
+Tiere haben kein {jIb:n:nolink}, aber {pob:n:nolink}.[3]
+
+Um darüber zu sprechen, dass jemand eine Glatze hat, sagen Sie einfach {jIb Hutlh:sen@@jIb:n, Hutlh:v}.[4] [AUTOTRANSLATED]</column>
       <column name="notes_fa">این فقط به موهای بالای سر اشاره دارد، و نه به موهای صورت (به {rol:n} و {loch:n} مراجعه کنید) یا موهای بدن (به {pob:n} مراجعه کنید).[2].
 
-حیوانات {jIb:n:nolink} ندارند، اما {pob:n:nolink}.[3] [AUTOTRANSLATED]</column>
+حیوانات {jIb:n:nolink} ندارند، اما {pob:n:nolink}.[3]
+
+برای صحبت در مورد طاس بودن شخصی، به سادگی بگویید {jIb Hutlh:sen@@jIb:n, Hutlh:v}.[4] [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta avser endast hår på toppen av huvudet och inte ansiktshår (se {rol:n} och {loch:n}) eller kroppshår (se {pob:n}).[2]
 
-Djur har inte {jIb:n:nolink}, men {pob:n:nolink}.[3] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это относится только к волосам на верхней части головы, а не на лице (смотрите {rol:n} и {loch:n}) или теле (сотрите {pob:n}).[2]
+Djur har inte {jIb:n:nolink}, men {pob:n:nolink}.[3]
 
-У животных нет {jIb:n:nolink}, но {pob:n:nolink}.[3] [AUTOTRANSLATED]</column>
+För att prata om att någon är flintskallig, säg helt enkelt {jIb Hutlh:sen@@jIb:n, Hutlh:v}.[4] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это относится только к волосам на макушке, а не к волосам на лице (см. {rol:n} и {loch:n}) или волосам на теле (см. {pob:n}). [2]
+
+У животных нет {jIb:n:nolink}, но {pob:n:nolink}.[3]
+
+Чтобы рассказать о том, что кто-то лысый, просто скажите {jIb Hutlh:sen@@jIb:n, Hutlh:v}.[4]. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這僅指頭頂的頭髮，而不是面部毛髮（參見 {rol:n} 和 {loch:n}）或體毛（參見 {pob:n}）。[2]
 
-動物沒有 {jIb:n:nolink}，但 {pob:n:nolink}.[3] [AUTOTRANSLATED]</column>
+動物沒有 {jIb:n:nolink}，但 {pob:n:nolink}.[3]
+
+要談論某人禿頭，只需說 {jIb Hutlh:sen@@jIb:n, Hutlh:v}.[4] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Refere-se apenas aos cabelos na parte superior da cabeça, e não aos pêlos faciais (consulte {rol:n} e {loch:n}) ou pêlos do corpo (consulte {pob:n}).[2]
 
-Animais não têm {jIb:n:nolink}, mas {pob:n:nolink}.[3][2] [AUTOTRANSLATED]</column>
+Animais não têm {jIb:n:nolink}, mas {pob:n:nolink}.[3]
+
+Para falar sobre alguém ser careca, basta dizer {jIb Hutlh:sen@@jIb:n, Hutlh:v}.[4] [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä viittaa vain pään yläosassa oleviin hiuksiin, ei kasvojen hiuksiin (katso {rol:n} ja {loch:n}) tai vartalokarvoihin (katso {pob:n}).[2]
 
-Eläimillä ei ole {jIb:n:nolink}, vaan {pob:n:nolink}.[3] [AUTOTRANSLATED]</column>
+Eläimillä ei ole {jIb:n:nolink}, vaan {pob:n:nolink}.[3]
+
+Jos haluat puhua jonkun olevan kalju, sano yksinkertaisesti {jIb Hutlh:sen@@jIb:n, Hutlh:v}.[4] [AUTOTRANSLATED]</column>
       <column name="hidden_notes">The "cut of someone's jib" is an idiom referring to their appearance.</column>
       <column name="components"></column>
       <column name="examples">
@@ -4654,7 +4670,7 @@ Eläimillä ei ole {jIb:n:nolink}, vaan {pob:n:nolink}.[3] [AUTOTRANSLATED]</col
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">bald</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -4662,7 +4678,7 @@ Eläimillä ei ole {jIb:n:nolink}, vaan {pob:n:nolink}.[3] [AUTOTRANSLATED]</col
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {qep'a' 24 (2017):src}, [3] {KLI mailing list 2021.11.11:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 24 (2017):src}, [3] {KLI mailing list 2021.11.11:src}, [4] {Saarbrücken qepHom'a' 2021:src}</column>
     </table>
         <table name="mem">
           <!-- Is this plural? -->
@@ -7180,7 +7196,7 @@ The term "transport room" (rather than the more common "transporter room") is us
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jom</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">install (a device)</column>
       <column name="definition_de">(ein Gerät) installieren</column>
       <column name="definition_fa">نصب (یک دستگاه) [AUTOTRANSLATED]</column>
@@ -7192,7 +7208,50 @@ The term "transport room" (rather than the more common "transporter room") is us
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{jan:n:1}, {mutlh:v}</column>
-      <column name="notes"></column>
+      <column name="notes">The object of this verb is just a thing that fits properly into or onto something, and doesn't have to be something that mechanically or electronically does something. For example, it might be a pipe under a sink. It is also used for putting clothing on someone else (see {jom:v:2}).[2]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes">The "a device" in brackets is just there to differentiate this verb from "install (in office)".[2]</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {KGT:src}, [2] {KLI mailing list 2022.05.20:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">jom</column>
+      <column name="part_of_speech">v:2,t_c</column>
+      <column name="definition">put clothes on (someone else)</column>
+      <column name="definition_de">(jemanden) anziehen [AUTOTRANSLATED]</column>
+      <column name="definition_fa">لباس پوشیدن (کس دیگری) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">ta på dig kläder (någon annan) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">одеться (кому-то другому) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">給（別人）穿衣服 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">vestir (outra pessoa) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">laittaa vaatteet päälle (joku muu) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{tuQmoH:v}</column>
+      <column name="notes">This is just the word {jom:v:1} used with clothing. When used in this way, the object is the article of clothing, and the person who ends up wearing the clothes is indicated by {-Daq:n:suff}. The object can be left out if context makes things clear, but otherwise a word like {Sut:n} might be used. It's grammatically correct to say {jIHDaq DaS vIjom:sen:nolink}, and there could be contexts (such as emphasis) where it might be better than {DaS vItuQmoH:sen:nolink}. {DaS vIjom:sen:nolink} (without an overt locative expression) is odd, but might be understood in context.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -7218,7 +7277,7 @@ The term "transport room" (rather than the more common "transporter room") is us
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {KGT:src}</column>
+      <column name="source">[1] {KLI mailing list 2022.05.20:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
