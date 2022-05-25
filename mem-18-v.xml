@@ -64,7 +64,7 @@
       <column name="notes_zh_HK">這是{Qu'vatlh:excl}的簡化形式。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esta é uma forma abreviada de {Qu'vatlh:excl}. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä on lyhennetty {Qu'vatlh:excl}-muoto. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">This might be a retrofit for a line misspoken by Patrick Stewart in {TNG - The Mind's Eye:src}. The script says {Qu'vatlh:excl:nolink}, but he says {va:excl:nolink} instead.</column>
+      <column name="hidden_notes">This might be a backfit for a line misspoken by Patrick Stewart in {TNG - The Mind's Eye:src}. The script says {Qu'vatlh:excl:nolink}, but he says {va:excl:nolink} instead.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2832,11 +2832,14 @@ To express the ideas of indefinite subject and ability at the same time, it is n
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">{SkyBox 99:src} had only the Klingon text. The English and German text come from {SkyBox 01:src} and {SkyBox 95:src}, respectively, which were just translations into those languages of the same card.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {loS... qIb HeHDaq, 'u' SepmeyDaq Sovbe'lu'bogh lenglu'meH He ghoSlu'bogh retlhDaq 'oHtaH. HaDlu'meH, QuSlu'meH, SuDlu'meH lojmIt Da logh Hop Hut tengchaH. vaj loghDaq lenglaHtaH Humanpu'. veH Qav 'oH logh'e'.:sen:nolink}[1]</column>
-      <column name="examples_de"></column>
+▶ {loS... qIb HeHDaq, 'u' SepmeyDaq Sovbe'lu'bogh lenglu'meH He ghoSlu'bogh retlhDaq 'oHtaH. HaDlu'meH, QuSlu'meH, SuDlu'meH lojmIt Da logh Hop Hut tengchaH. vaj loghDaq lenglaHtaH Humanpu'. veH Qav 'oH logh'e'.:sen:nolink}
+  "It waits... on the edge of the galaxy, beside a passage to unknown regions of the universe, space station Deep Space Nine is the gateway for the exploration, intrigue and enterprise that mark the continuation of the human adventure into space - the final frontier."[1]</column>
+      <column name="examples_de">
+▶ {loS... qIb HeHDaq, 'u' SepmeyDaq Sovbe'lu'bogh lenglu'meH He ghoSlu'bogh retlhDaq 'oHtaH. HaDlu'meH, QuSlu'meH, SuDlu'meH lojmIt Da logh Hop Hut tengchaH. vaj loghDaq lenglaHtaH Humanpu'. veH Qav 'oH logh'e'.:sen:nolink}
+  "Sie wartet... am Rande der Galaxie neben einer Durchfahrt in unbekannte Regionen des Universums. Die Raumstation Deep Space Nine ist der Ausgangspunkt für Entdeckungen, Intrigen und Unternehmungen, die immer weitere Abenteuer des Menschen im Weltraum bedeuten - die letzte Grenze."[1]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
