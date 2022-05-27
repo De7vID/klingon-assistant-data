@@ -771,7 +771,7 @@ Kun yhdistetään useita lauseita, tarvitaan vain viimeinen yhdistelmä. Katso e
       <column name="definition_fi">sukulainen, perheenjäsen [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qorDu':n}, {tuqnIgh:n}, {be'nI':n}, {loDnI':n}, {qaytu':n}, {qongmeS:n}, {SoS:n}, {vav:n}</column>
+      <column name="see_also">{qorDu':n}, {tuqnIgh:n}, {chuD:n}, {be'nI':n}, {loDnI':n}, {qaytu':n}, {qongmeS:n}, {SoS:n}, {vav:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1191,6 +1191,49 @@ Kun yhdistetään useita lauseita, tarvitaan vain viimeinen yhdistelmä. Katso e
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">paq 'ay'mey</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">contents, table of contents (of a book)</column>
+      <column name="definition_de">Inhaltsverzeichnis, Inhaltsverzeichnis (eines Buches) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">مطالب، فهرست مطالب (کتاب) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">innehåll, innehållsförteckning (i en bok) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">содержание, оглавление (книги) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">內容，目錄（一本書的） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">conteúdo, índice (de um livro) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">sisältö, sisällysluettelo (kirjan) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is used for "Contents" (the heading for the table of contents) in the 2nd edition of the {paq'batlh:src}. In comparison, the heading of the "Contents" printed on the {Klingon Monopoly:src} box was {ngaS 'aplo':sen}.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {paq'batlh 2ed:src} ({KL mailing list 2022.05.27:src})</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">paq'batlh</column>
       <column name="part_of_speech">n:archaic,deriv</column>
       <column name="definition">Book of Honor</column>
@@ -1203,41 +1246,41 @@ Kun yhdistetään useita lauseita, tarvitaan vain viimeinen yhdistelmä. Katso e
       <column name="definition_fi">eräs kirja, Kunnian kirja, paq'batlh</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tlha'veq:n:name}</column>
+      <column name="see_also">{tlha'veq:n:name}, {paq'jachchu:n}</column>
       <column name="notes">This is the name of a book recounting the legendary life and deeds of {qeylIS'e' lIjlaHbe'bogh vay':n:name}. Note that the name of the book is in {no' Hol:n}, and that in modern standard Klingon "Book of Honor" would be {batlh paq:n:nolink}; the apostrophe represents what may be a missing grammatical element that would explain the transposition.[1]
 
-The {paq'batlh:n:nolink} is divided into three major parts, titled respectively {paq'yav:n:nolink} "Ground Book", {paq'raD:n:nolink} "Force Book", and {paq'QIH:n:nolink} "Impact Book".
+The {paq'batlh:n:nolink} is divided into three major parts, titled respectively {paq'yav:n} "Ground Book", {paq'raD:n} "Force Book", and {paq'QIH:n} "Impact Book".
 
 See also {tIq'ghob:n:hyp} for a hypothetical similar grammatical construction.</column>
       <column name="notes_de">Dies ist der Name eines Buches, das das legendäre Leben und die Taten von {qeylIS'e' lIjlaHbe'bogh vay':n:name} erzählt. Beachten Sie, dass der Name des Buches in {no' Hol:n} steht und dass im modernen klingonischen Standard "Ehrenbuch" {batlh paq:n:nolink} lautet. Der Apostroph stellt ein möglicherweise fehlendes grammatikalisches Element dar, das die Umsetzung erklären würde.[1]
 
-Das {paq'batlh:n:nolink} ist in drei Hauptteile unterteilt, die jeweils den Titel {paq'yav:n:nolink} "Ground Book", {paq'raD:n:nolink} "Force Book" und {paq'QIH:n:nolink} "Impact Book" tragen.
+Das {paq'batlh:n:nolink} ist in drei Hauptteile unterteilt, die jeweils den Titel {paq'yav:n} "Ground Book", {paq'raD:n} "Force Book" und {paq'QIH:n} "Impact Book" tragen.
 
 Siehe auch {tIq'ghob:n:hyp} für eine hypothetisch ähnliche grammatikalische Konstruktion. [AUTOTRANSLATED]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">Detta är namnet på en bok som berättar om det legendariska livet och gärningarna i {qeylIS'e' lIjlaHbe'bogh vay':n:name}. Observera att bokens namn är i {no' Hol:n}, och att Klingon i "hedersbok" i modern standard skulle vara {batlh paq:n:nolink}; apostrofen representerar det som kan vara ett saknat grammatiskt element som skulle förklara införlivandet.[1]
 
-{paq'batlh:n:nolink} är indelad i tre huvuddelar, med titeln {paq'yav:n:nolink} "Ground Book", {paq'raD:n:nolink} "Force Book" och {paq'QIH:n:nolink} "Impact Book".
+{paq'batlh:n:nolink} är indelad i tre huvuddelar, med titeln {paq'yav:n} "Ground Book", {paq'raD:n} "Force Book" och {paq'QIH:n} "Impact Book".
 
 Se även {tIq'ghob:n:hyp} för en hypotetisk liknande grammatisk konstruktion. [AUTOTRANSLATED]</column>
       <column name="notes_ru">Название книги, излагающей легендарную жизнь и деяния {qeylIS'e' lIjlaHbe'bogh vay':n:name}. Заметьте, что название книги приведено на диалекте {no' Hol:n}, и что в современном стандартном Клингонском диалекте "Книга чести" будет {batlh paq:n:nolink}; апостроф означает, что грамматический элемент, объясняющий перестановку, может отсутствовать.[1]
 
-{paq'batlh:n:nolink} разделен на 3 главных части, что озаглавленны соответственно {paq'yav:n:nolink} "Основная книга", {paq'raD:n:nolink} "Книга силы", а также {paq'QIH:n:nolink} "Ударная книга".
+{paq'batlh:n:nolink} разделен на 3 главных части, что озаглавленны соответственно {paq'yav:n} "Основная книга", {paq'raD:n} "Книга силы", а также {paq'QIH:n} "Ударная книга".
 
 Сморите также {tIq'ghob:n:hyp} для гипотетически похожей грамматической конструкции.</column>
       <column name="notes_zh_HK">這是一本講述{qeylIS'e' lIjlaHbe'bogh vay':n:name}傳奇生活和事蹟的書的名稱。請注意，這本書的名稱在{no' Hol:n}中，而在現代標準克林崗語「榮譽書」中則是{batlh paq:n:nolink}；撇號表示可能缺少解釋轉換的語法元素.[1]
 
-{paq'batlh:n:nolink}分為三個主要部分，分別命名為{paq'yav:n:nolink}「 Ground Book」，{paq'raD:n:nolink}「 Force Book」和{paq'QIH:n:nolink}「 Impact Book」。
+{paq'batlh:n:nolink}分為三個主要部分，分別命名為{paq'yav:n}「 Ground Book」，{paq'raD:n}「 Force Book」和{paq'QIH:n}「 Impact Book」。
 
 假設相似的語法構造，另請參見{tIq'ghob:n:hyp}。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é o nome de um livro que narra a vida e os feitos lendários de {qeylIS'e' lIjlaHbe'bogh vay':n:name}. Observe que o nome do livro está em {no' Hol:n} e que no padrão moderno Klingon "Livro de Honra" seria {batlh paq:n:nolink}; o apóstrofo representa o que pode ser um elemento gramatical ausente que explicaria a transposição.[1]
 
-O {paq'batlh:n:nolink} é dividido em três partes principais, intituladas respectivamente {paq'yav:n:nolink} "Ground Book", {paq'raD:n:nolink} "Force Book" e {paq'QIH:n:nolink} "Impact Book".
+O {paq'batlh:n:nolink} é dividido em três partes principais, intituladas respectivamente {paq'yav:n} "Ground Book", {paq'raD:n} "Force Book" e {paq'QIH:n} "Impact Book".
 
 Veja também {tIq'ghob:n:hyp} para uma construção gramatical semelhante hipotética. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä on kirjan nimi, jossa kerrotaan {qeylIS'e' lIjlaHbe'bogh vay':n:name}: n legendaarisesta elämästä ja teoista. Huomaa, että kirjan nimi on {no' Hol:n}, ja että nykyaikaisessa standardissa Klingon "Book of Honor" olisi {batlh paq:n:nolink}; heittomerkki edustaa puuttuvaa kielioppielementtiä, joka selittäisi saattamisen osaksi kansallista lainsäädäntöä.[1]
 
-{paq'batlh:n:nolink} on jaettu kolmeen pääosaan, joiden otsikot ovat {paq'yav:n:nolink} "Pohjakirja", {paq'raD:n:nolink} "Voima kirja" ja {paq'QIH:n:nolink} "Vaikutuskirja".
+{paq'batlh:n:nolink} on jaettu kolmeen pääosaan, joiden otsikot ovat {paq'yav:n} "Pohjakirja", {paq'raD:n} "Voima kirja" ja {paq'QIH:n} "Vaikutuskirja".
 
 Katso myös hypoteettinen samanlainen kieliopillinen rakenne kohdasta {tIq'ghob:n:hyp}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
