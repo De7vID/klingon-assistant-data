@@ -1865,7 +1865,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{jar:n}, {bav:v}, {SIbDoH:n}, {Hov:n}, {yuQ:n}, {jul:n}, {naptop:n}</column>
-      <column name="notes"></column>
+      <column name="notes">The Klingon moon is named {pIraqSIS:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -1876,9 +1876,9 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {maS loQ So'lu'bogh:n}
 ▶ {maS So'lu'chu'bogh:n}
 ▶ {maS'e' loQ So'be'bogh QIb:n}
+▶ {maS'e' loQ So'lu'bogh:n}
 ▶ {maS'e' So'bogh pagh:n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -1986,7 +1986,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">maS loQ So'lu'bogh</column>
+      <column name="entry_name">maS'e' loQ So'lu'bogh</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">mostly full moon</column>
       <column name="definition_de">meist Vollmond, Halbmond [AUTOTRANSLATED]</column>
@@ -2008,7 +2008,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{maS:n}, {loQ:adv}, {So':v:1}, {-lu':v}, {-bogh:v}</column>
+      <column name="components">{maS:n}, {-'e':n}, {loQ:adv}, {So':v:1}, {-lu':v}, {-bogh:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -2041,7 +2041,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_fi">uusi kuu [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{maS:n}, {maS loQ So'lu'bogh:n}, {maS'e' So'bogh pagh:n}, {maS'e' loQ So'be'bogh QIb:n}</column>
+      <column name="see_also">{maS:n}, {maS'e' loQ So'lu'bogh:n}, {maS'e' So'bogh pagh:n}, {maS'e' loQ So'be'bogh QIb:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -2084,16 +2084,16 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_fi">kuunsirppi</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{maS:n}, {maS loQ So'lu'bogh:n}, {maS So'lu'chu'bogh:n}, {maS'e' So'bogh pagh:n}</column>
+      <column name="see_also">{maS:n}, {maS'e' loQ So'lu'bogh:n}, {maS So'lu'chu'bogh:n}, {maS'e' So'bogh pagh:n}</column>
       <column name="notes">This expression is used to describe the shape of the {betleH:n}.[1]
 
-Another way to refer to the crescent moon is {maS loQHa' So'lu'bogh:n}.[2]</column>
+Another way to refer to the crescent moon is {maS'e' loQHa' So'lu'bogh:n}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Выражение использовано для того, чтобы описать форму {betleH:n}.[1]
 
-Another way to refer to the crescent moon is {maS loQHa' So'lu'bogh:n}.[2]</column>
+Another way to refer to the crescent moon is {maS'e' loQHa' So'lu'bogh:n}.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
@@ -2143,7 +2143,7 @@ Another way to refer to the crescent moon is {maS loQHa' So'lu'bogh:n}.[2]</colu
       <column name="definition_fi">täysikuu</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{maS:n}, {maS loQ So'lu'bogh:n}, {maS So'lu'chu'bogh:n}, {maS'e' loQ So'be'bogh QIb:n}</column>
+      <column name="see_also">{maS:n}, {maS'e' loQ So'lu'bogh:n}, {maS So'lu'chu'bogh:n}, {maS'e' loQ So'be'bogh QIb:n}</column>
       <column name="notes">In the original Klingon version of {yulyuS qaySar:n:name} (Julius Caesar), the titular character is warned to beware the {maS'e' So'bogh pagh:n:nolink}. It is unclear why this was changed to the "ides" of March in the translation.[1]</column>
       <column name="notes_de">In der klingonischen Originalversion von {yulyuS qaySar:n:name} (Julius Caesar) wird der Titelcharakter gewarnt, sich vor {maS'e' So'bogh pagh:n:nolink} zu hüten. Es ist unklar, warum dies in der Übersetzung in die "ides" von März geändert wurde.[1] [AUTOTRANSLATED]</column>
       <column name="notes_fa">در نسخه اصلی کلینگون {yulyuS qaySar:n:name} (جولیوس سزار) ، به شخصیت اصلی گفته می شود که از {maS'e' So'bogh pagh:n:nolink} مراقب باشید. هنوز مشخص نیست که چرا این ترجمه به "ایدز" ماه مارس در ترجمه تغییر یافته است.[1] [AUTOTRANSLATED]</column>
@@ -2174,7 +2174,7 @@ Another way to refer to the crescent moon is {maS loQHa' So'lu'bogh:n}.[2]</colu
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">maS loQHa' So'lu'bogh</column>
+      <column name="entry_name">maS'e' loQHa' So'lu'bogh</column>
       <column name="part_of_speech">n:deriv,alt</column>
       <column name="definition">{maS'e' loQ So'be'bogh QIb:n}</column>
       <column name="definition_de">{maS'e' loQ So'be'bogh QIb:n}</column>
@@ -2196,7 +2196,7 @@ Another way to refer to the crescent moon is {maS loQHa' So'lu'bogh:n}.[2]</colu
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{maS:n}, {loQHa':adv}, {So':v:1}, {-lu':v}, {-bogh:v}</column>
+      <column name="components">{maS:n}, {-'e':n}, {loQHa':adv}, {So':v:1}, {-lu':v}, {-bogh:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
