@@ -1865,7 +1865,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{jar:n}, {bav:v}, {SIbDoH:n}, {Hov:n}, {yuQ:n}, {jul:n}, {naptop:n}</column>
-      <column name="notes"></column>
+      <column name="notes">The Klingon moon is named {pIraqSIS:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -1876,9 +1876,9 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {maS loQ So'lu'bogh:n}
 ▶ {maS So'lu'chu'bogh:n}
 ▶ {maS'e' loQ So'be'bogh QIb:n}
+▶ {maS'e' loQ So'lu'bogh:n}
 ▶ {maS'e' So'bogh pagh:n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -1986,7 +1986,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">maS loQ So'lu'bogh</column>
+      <column name="entry_name">maS'e' loQ So'lu'bogh</column>
       <column name="part_of_speech">n:deriv</column>
       <column name="definition">mostly full moon</column>
       <column name="definition_de">meist Vollmond, Halbmond [AUTOTRANSLATED]</column>
@@ -2008,7 +2008,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{maS:n}, {loQ:adv}, {So':v:1}, {-lu':v}, {-bogh:v}</column>
+      <column name="components">{maS:n}, {-'e':n}, {loQ:adv}, {So':v:1}, {-lu':v}, {-bogh:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -2041,7 +2041,7 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_fi">uusi kuu [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{maS:n}, {maS loQ So'lu'bogh:n}, {maS'e' So'bogh pagh:n}, {maS'e' loQ So'be'bogh QIb:n}</column>
+      <column name="see_also">{maS:n}, {maS'e' loQ So'lu'bogh:n}, {maS'e' So'bogh pagh:n}, {maS'e' loQ So'be'bogh QIb:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -2084,16 +2084,16 @@ This was used to translate "print" or "output" (i.e., display something to the u
       <column name="definition_fi">kuunsirppi</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{maS:n}, {maS loQ So'lu'bogh:n}, {maS So'lu'chu'bogh:n}, {maS'e' So'bogh pagh:n}</column>
+      <column name="see_also">{maS:n}, {maS'e' loQ So'lu'bogh:n}, {maS So'lu'chu'bogh:n}, {maS'e' So'bogh pagh:n}</column>
       <column name="notes">This expression is used to describe the shape of the {betleH:n}.[1]
 
-Another way to refer to the crescent moon is {maS loQHa' So'lu'bogh:n}.[2]</column>
+Another way to refer to the crescent moon is {maS'e' loQHa' So'lu'bogh:n}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Выражение использовано для того, чтобы описать форму {betleH:n}.[1]
 
-Another way to refer to the crescent moon is {maS loQHa' So'lu'bogh:n}.[2]</column>
+Another way to refer to the crescent moon is {maS'e' loQHa' So'lu'bogh:n}.[2]</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
@@ -2143,7 +2143,7 @@ Another way to refer to the crescent moon is {maS loQHa' So'lu'bogh:n}.[2]</colu
       <column name="definition_fi">täysikuu</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{maS:n}, {maS loQ So'lu'bogh:n}, {maS So'lu'chu'bogh:n}, {maS'e' loQ So'be'bogh QIb:n}</column>
+      <column name="see_also">{maS:n}, {maS'e' loQ So'lu'bogh:n}, {maS So'lu'chu'bogh:n}, {maS'e' loQ So'be'bogh QIb:n}</column>
       <column name="notes">In the original Klingon version of {yulyuS qaySar:n:name} (Julius Caesar), the titular character is warned to beware the {maS'e' So'bogh pagh:n:nolink}. It is unclear why this was changed to the "ides" of March in the translation.[1]</column>
       <column name="notes_de">In der klingonischen Originalversion von {yulyuS qaySar:n:name} (Julius Caesar) wird der Titelcharakter gewarnt, sich vor {maS'e' So'bogh pagh:n:nolink} zu hüten. Es ist unklar, warum dies in der Übersetzung in die "ides" von März geändert wurde.[1] [AUTOTRANSLATED]</column>
       <column name="notes_fa">در نسخه اصلی کلینگون {yulyuS qaySar:n:name} (جولیوس سزار) ، به شخصیت اصلی گفته می شود که از {maS'e' So'bogh pagh:n:nolink} مراقب باشید. هنوز مشخص نیست که چرا این ترجمه به "ایدز" ماه مارس در ترجمه تغییر یافته است.[1] [AUTOTRANSLATED]</column>
@@ -2174,7 +2174,7 @@ Another way to refer to the crescent moon is {maS loQHa' So'lu'bogh:n}.[2]</colu
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">maS loQHa' So'lu'bogh</column>
+      <column name="entry_name">maS'e' loQHa' So'lu'bogh</column>
       <column name="part_of_speech">n:deriv,alt</column>
       <column name="definition">{maS'e' loQ So'be'bogh QIb:n}</column>
       <column name="definition_de">{maS'e' loQ So'be'bogh QIb:n}</column>
@@ -2196,7 +2196,7 @@ Another way to refer to the crescent moon is {maS loQHa' So'lu'bogh:n}.[2]</colu
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{maS:n}, {loQHa':adv}, {So':v:1}, {-lu':v}, {-bogh:v}</column>
+      <column name="components">{maS:n}, {-'e':n}, {loQHa':adv}, {So':v:1}, {-lu':v}, {-bogh:v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -4103,13 +4103,13 @@ It's unclear what sense of "fair" is meant by this word.</column>
       <column name="synonyms"></column>
       <column name="antonyms">{paw:v}</column>
       <column name="see_also"></column>
-      <column name="notes">While {mej:v:nolink} refers simply to leaving one's current location, {tlheD:v} generally implies setting out on a journey, with a goal or destination in mind. In both cases, the object is the place you're leaving or departing from.[4]
+      <column name="notes">While {mej:v:nolink} refers simply to leaving one's current location, {tlheD:v} generally implies setting out on a journey, with a goal or destination in mind. In both cases, the object is the place you're leaving or departing from.[3]
 
-The suffix {-vo':n:suff} is used when the place that one is leaving is a starting point. Without the suffix, it simply means that one is no longer at a place they've been.[6]
+The suffix {-vo':n:suff} (with the no-object prefix) is used when the place that one is leaving is a starting point. Without the suffix (and with the prefix indicating an object), it simply means that one is no longer at a place they've been. It's also possible to have both a starting point marked with {-vo'} and a place as the object, in which case one is leaving the place from that starting point.[5]
 
 If a Klingon had to say "goodbye", they might say {DaH jImej:sen@@DaH:adv, jI-:v, mej:v}, literally "I'm leaving now".[2] Of course, in most situations a Klingon would just leave, without superfluous niceties such as declaring his or her intention to do so.
 
-This would not normally be used of an inanimate object, for which see {ngab:v} (or {loj:v} if something goes away gradually).[5]
+This would not normally be used of an inanimate object, for which see {ngab:v} (or {loj:v} if something goes away gradually).[4]
 
 To express leaving a person or object (rather than a location), consider {lon:v}.</column>
       <column name="notes_de"></column>
@@ -4121,15 +4121,19 @@ To express leaving a person or object (rather than a location), consider {lon:v}
       <column name="notes_fi"></column>
       <column name="hidden_notes">The {TNK:src} software forces all languages to follow a template, which includes expressions such as "hello", "goodbye", and colour words which don't have a natural translation in Klingon.
 
-There are situations in which a Klingon might actually say {DaH jImej:sen:nolink}. See the examples under {ghIm:v} and {qIvon belmoH:sen}.</column>
+There are situations in which a Klingon might actually say {DaH jImej:sen:nolink}. See the examples under {ghIm:v} and {qIvon belmoH:sen}.
+
+The example sentences from the mailing list came out of a discussion about revisions to the {paq'batlh:src}.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {bIghHa' DamejDI' pagh QaS yInob.:sen@@bIghHa':n, Da-:v, mej:v, -DI':v, pagh:n:2,num, QaS:n:1, yI-:v, nob:v} "Get out of jail free."[3]</column>
+▶ {bIghHa' DamejDI' pagh QaS yInob.:sen}
+▶ {chalqachlIjvo' bImej:sen:nolink} (you leave, with your tower as a starting point)[5]
+▶ {chalqachlIj Damej:sen:link} (you leave your tower, where you had previously been)[5]
+▶ {lojmItmeyvo' ghe'tor Damejta':sen:nolink} (you left Gre'thor from the gates)[5]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
-      <column name="examples_ru">
-▶ {bIghHa' DamejDI' pagh QaS yInob.:sen@@bIghHa':n, Da-:v, mej:v, -DI':v, pagh:n:2,num, QaS:n:1, yI-:v, nob:v} "Уходи из тюрьмы свободно."[3]</column>
+      <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -4141,7 +4145,7 @@ There are situations in which a Klingon might actually say {DaH jImej:sen:nolink
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKDA:src}, [2] {TNK:src}, [3] {Klingon Monopoly:src}, [4] {Saarbrücken qepHom'a' 2019:src}, [5] {QelIS boqHarmey:src}, [6] {KLI mailing list 2022.05.24:src}</column>
+      <column name="source">[1] {TKDA:src}, [2] {TNK:src}, [3] {Saarbrücken qepHom'a' 2019:src}, [4] {QelIS boqHarmey:src}, [5] {KLI mailing list 2022.05.28:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
