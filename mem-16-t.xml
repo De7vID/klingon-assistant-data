@@ -9392,16 +9392,16 @@ This word appears in a deleted line from {Star Trek V:src}: {logh veQDaq bachchu
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">tojbogh pa' tuH</column>
-      <column name="part_of_speech">n:deriv</column>
-      <column name="definition">holodeck adventure</column>
+      <column name="entry_name">tojbogh pa' tuHmey</column>
+      <column name="part_of_speech">n:deriv,plural</column>
+      <column name="definition">holodeck adventures</column>
       <column name="definition_de">Holodeck-Abenteuer</column>
       <column name="definition_fa">ماجراجویی هولودک [AUTOTRANSLATED]</column>
       <column name="definition_sv">holodeck äventyr [AUTOTRANSLATED]</column>
       <column name="definition_ru">холодек приключение [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">holodeck冒險 [AUTOTRANSLATED]</column>
-      <column name="definition_pt">aventura holodeck</column>
-      <column name="definition_fi">holokansiseikkailu</column>
+      <column name="definition_pt">aventuras de holodeck [AUTOTRANSLATE]</column>
+      <column name="definition_fi">holokansiseikkailuja [AUTOTRANSLATE]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -9413,8 +9413,8 @@ This word appears in a deleted line from {Star Trek V:src}: {logh veQDaq bachchu
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">In {STC 104:src} this was given as the plural {tojbogh pa' tuHmey:n:nolink} "Holodeck Adventures".</column>
-      <column name="components">{tojbogh pa':n}, {tuH:n}</column>
+      <column name="hidden_notes">This was given in the plural. A single holodeck adventure might possibly be a {tojbogh pa' tuH:n@@tojbogh pa':n, tuH:n}, but it's not clear whether Klingons think of one holodeck adventure as one maneuver or several.</column>
+      <column name="components">{tojbogh pa':n}, {tuH:n}, {-mey:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -11309,7 +11309,7 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
-▶ {tojbogh pa' tuH:n}</column>
+▶ {tojbogh pa' tuHmey:n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
