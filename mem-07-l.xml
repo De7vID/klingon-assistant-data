@@ -8715,7 +8715,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="_id"></column>
       <column name="entry_name">lo'</column>
       <column name="part_of_speech">v:t_c,klcp1</column>
-      <column name="definition">use</column>
+      <column name="definition">use, make use of</column>
       <column name="definition_de">benutzen, gebrauchen</column>
       <column name="definition_fa">استفاده کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">använda, nyttja, bruka</column>
@@ -8734,7 +8734,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is defined as "use" in {TKD:src}. In Section 4.2.9 of {TKDA:src}, the definition "make use of" was added.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8752,7 +8752,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {TKDA:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -8769,7 +8769,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{lo':v}</column>
-      <column name="notes"></column>
+      <column name="notes">This can be used for "mode" in the sense of a mode of usage. For example, "night mode" (a mode in software to turn its user interface dark, for use at night) would be {ram lo':n@@ram:n, lo':n}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
