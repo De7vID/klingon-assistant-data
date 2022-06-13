@@ -3370,6 +3370,7 @@ Kohdassa {TNK:src} "Missä kauppa on?" käännetään nimellä {nuqDaq ghaH ngev
       <column name="source">[1] {qep'a' 28 (2021):src}</column>
     </table>
     <table name="mem">
+      <!-- PB2ED: Add more info here. -->
       <column name="_id"></column>
       <column name="entry_name">ngIq</column>
       <column name="part_of_speech">n</column>
@@ -3384,15 +3385,19 @@ Kohdassa {TNK:src} "Missä kauppa on?" käännetään nimellä {nuqDaq ghaH ngev
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghIq:adv}, {Hoch:n}, {'op:n}</column>
-      <column name="notes">This noun indicates that a single thing is being considered apart from others, or that a sequence of identical things is considered one after another. Like {Hoch:n} and {'op:n}, it precedes what it modifies.</column>
-      <column name="notes_de">Dieses Substantiv zeigt an, dass eine einzelne Sache getrennt von anderen betrachtet wird oder dass eine Folge identischer Dinge nacheinander betrachtet wird. Wie {Hoch:n} und {'op:n} geht es dem voraus, was es ändert. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این اسم نشان می دهد که یک چیز واحد جدا از دیگران در نظر گرفته می شود ، یا اینکه دنباله ای از چیزهای یکسان یکی پس از دیگری در نظر گرفته می شود. مانند {Hoch:n} و {'op:n} ، آنچه را که اصلاح می کند ، مقدم است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta substantiv indikerar att en enskild sak beaktas bortsett från andra, eller att en sekvens av identiska saker betraktas efter varandra. Liksom {Hoch:n} och {'op:n} föregår det vad den modifierar. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это существительное значит, что единственная вещь рассматривается отдельно от остальных, или это последовательность идентичных вещей, рассматриваемых одна за другой. Подобно {Hoch:n} и {'op:n}, оно предшествует тому, что модифицирует.</column>
-      <column name="notes_zh_HK">這個名詞表示單個事物被認為與其他事物分開，或者一系列相同的事物被認為是一個接一個的事物。像{Hoch:n}和{'op:n}一樣，它在修改之前。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Este substantivo indica que uma única coisa está sendo considerada à parte das outras, ou que uma sequência de coisas idênticas é considerada uma após a outra. Como {Hoch:n} e {'op:n}, precede o que modifica. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä substantiivi osoittaa, että yksittäistä asiaa pidetään erillään muista tai että samanlaisten asioiden sarjaa pidetään peräkkäin. Kuten {Hoch:n} ja {'op:n}, se edeltää sitä, mitä se muuttaa. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="notes">This noun indicates that a single thing is being considered apart from others, or that a sequence of identical things is considered one after another. Like {Hoch:n} and {'op:n}, it precedes what it modifies.[4]
+
+{ngIq:n:nolink} is always followed by a noun which is not explicitly plural. In contexts where it refers to multiple things, it can be translated as "each X". When {Hoch:n:nolink} precedes a noun which isn't explicitly plural, it also means "each X". The difference is that {Hoch:n:nolink} focuses on things as members of a group, whereas {ngIq:n:nolink} focuses on the individual things. It's a subtle difference, but a difference nonetheless. In such contexts, {ngIq:n:nolink} has a sequential meaning (whereas {Hoch:n:nolink} does not).[4]
+
+In some contexts, {ngIq:n:nolink} can be translated as "single" or "individual", but it always implies that there are (or could be) other similar things. For example, {ngIq tonSaw':n:nolink} means "one single move" in the sense of "one single move out of several. That is, {ngIq:n:nolink} is used to focus on one move in particular.[4]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes">In an article writtten for the {Saarbrücken qepHom'a' 2017:src} booklet, MO wrote that "The description of {ngIq:n:nolink} in {boQwI':n:nolink} is pretty good". This is preserved in the first paragraph in the notes.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {ngIq nuv luHoH:sen:nolink} "[They] were killed one by one."[2, p.135]
@@ -3416,7 +3421,9 @@ Kohdassa {TNK:src} "Missä kauppa on?" käännetään nimellä {nuqDaq ghaH ngev
    Of thousands, and those to come."[2, p.171]
 ▶ {ngIq raQ - 150 QaS:sen:nolink} "outposts cost 150 each"[3]
 ▶ {ngIq raQvaD cha'maH vagh QaS yInob.:sen:nolink} "For each outpost pay 25 forces."[3]
-▶ {ngIq gholvo' wa'maH QaS yItlhap.:sen:nolink} "Collect 10 forces from every player."[3]</column>
+▶ {ngIq gholvaD vaghmaH QaS yInob.:sen:nolink} "Pay each player 50 forces."[3]
+▶ {ngIq gholvo' wa'maH QaS yItlhap.:sen:nolink} "Collect 10 forces from every player."[3]
+▶ {ngIq mIch wIHotlh:sen:nolink} "we scan the sectors one by one"[4]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -3442,7 +3449,8 @@ Kohdassa {TNK:src} "Missä kauppa on?" käännetään nimellä {nuqDaq ghaH ngev
    Тысяч, и тех, что прийдут."[2, стр.171]
 ▶ {ngIq raQ - 150 QaS:sen:nolink} "Заставы стоят 150 каждая"[3]
 ▶ {ngIq raQvaD cha'maH vagh QaS yInob.:sen:nolink} "Для каждой из застав возьмите 25 отрядов."[3]
-▶ {ngIq gholvo' wa'maH QaS yItlhap.:sen:nolink} "Соберите 10 отрядов от каждого игрока."[3]</column>
+▶ {ngIq gholvo' wa'maH QaS yItlhap.:sen:nolink} "Соберите 10 отрядов от каждого игрока."[3]
+▶ {ngIq mIch wIHotlh:sen:nolink} "we scan the sectors one by one"[4]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -3454,7 +3462,7 @@ Kohdassa {TNK:src} "Missä kauppa on?" käännetään nimellä {nuqDaq ghaH ngev
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {qep'a' 18 (2011):src}, [2] {paq'batlh:src}, [3] {Klingon Monopoly:src}</column>
+      <column name="source">[1] {qep'a' 18 (2011):src}, [2] {paq'batlh:src}, [3] {Klingon Monopoly:src}, [4] {Saarbrücken qepHom'a' 2017:src} ({KLI mailing list 2017.11.20:src})</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

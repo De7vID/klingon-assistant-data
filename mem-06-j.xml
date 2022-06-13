@@ -1326,7 +1326,7 @@ Klingonissa otsikot ovat yleensä nimen perässä, joten "kapteeni Jean-Luc Pica
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghel:v}, {tlhob:v}</column>
-      <column name="notes"></column>
+      <column name="notes">This is a verb of speech (see {jatlh:v}).[4]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -1334,7 +1334,7 @@ Klingonissa otsikot ovat yleensä nimen perässä, joten "kapteeni Jean-Luc Pica
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">There is contradictory information regarding whether this is a "verb of speech". (See {jatlh:v} for an explanation.) In {HQ 7.4:src}, it is said not to be, but its usage in the {paq'batlh:src} suggests otherwise.[2; 3]</column>
+      <column name="hidden_notes">In an interview in {HQ 7.4:src}, this verb is said not to be a verb of speech.[2] However, it is used as one in the {paq'batlh:src}.[3] It was later confirmed that it is a verb of speech in the {paq'batlh:src}, suggesting that the interview is in error.[4]</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {nIteb chegh molor ngIq ghoqwI':sen:nolink}
@@ -1387,7 +1387,7 @@ Klingonissa otsikot ovat yleensä nimen perässä, joten "kapteeni Jean-Luc Pica
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {HQ 7.4, Dec. 1998:src}, [3] {paq'batlh p.138-139:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {HQ 7.4, Dec. 1998:src}, [3] {paq'batlh p.138-139:src}, [4] {KLI mailing list 2022.06.11:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2067,68 +2067,28 @@ Huomaa, että Klingonissa "syvää avaruutta" kutsutaan {logh Hop:n}, kirjaimell
       <column name="see_also">{Hol:n}, {SoQ:n}, {ja':v}, {jat:v:1}, {jaw:v}, {ghugh:v}, {rIch:v}</column>
       <column name="notes">A typical object of this verb is that which is spoken, which might be a language or lecture. The listener is the indirect object and is marked with {-vaD:n}.[3; 4]
 
-The "prefix trick" may be used with this verb: if the verb prefix indicates a first- or second-person object, that person is the indirect object, that is, the person to whom the subject is speaking.[3]
+The "prefix trick" may be used with this verb: if the verb prefix indicates a first- or second-person object, that person is the indirect object, that is, the person to whom the subject is speaking.[3] The "prefix trick" also works for third-person indirect objects in situations where it is unambiguous.[7]
 
 The verb {jatlh:v:nolink} is also used when giving a direct quotation, in which case the verb prefix indicating no object is used (except if the "prefix trick" is applied). The quotation may come before or after the sentence with {jatlh:v:nolink}.[3]
 
 This is one of the few "verbs of speech" in Klingon. In Klingon, quotations must always be accompanied by one of these verbs.[4]
 
 For expressing "read aloud" (e.g., a book), something like {paq mu'mey jatlh:sen:nolink} would work.[6]</column>
-      <column name="notes_de">Ein typisches Objekt dieses Verbs ist das, was gesprochen wird, was eine Sprache oder ein Vortrag sein kann. Der Listener ist das indirekte Objekt und mit {-vaD:n}.[3; 4] gekennzeichnet
-
-Der "Präfixtrick" kann mit diesem Verb verwendet werden: Wenn das Verbpräfix ein Objekt der ersten oder zweiten Person angibt, ist diese Person das indirekte Objekt, dh die Person, mit der das Subjekt spricht.[3]
-
-Das Verb {jatlh:v:nolink} wird auch verwendet, wenn ein direktes Zitat angegeben wird. In diesem Fall wird das Verbpräfix verwendet, das angibt, dass kein Objekt vorhanden ist (außer wenn der "Präfixtrick" angewendet wird). Das Zitat kann vor oder nach dem Satz mit {jatlh:v:nolink}.[3] stehen
-
-Dies ist eines der wenigen "Sprachverben" auf Klingonisch. In der klingonischen Sprache müssen Zitate immer von einem dieser Verben begleitet werden.[4]
-
-Zum Ausdrücken von "Vorlesen" (z. B. eines Buches) würde so etwas wie {paq mu'mey jatlh:sen:nolink} funktionieren. [6] [AUTOTRANSLATED]</column>
-      <column name="notes_fa">یک شیء معمولی از این فعل همان چیزی است که گفته می شود ، که ممکن است یک زبان یا سخنرانی باشد. شنونده شیء غیرمستقیم است و با {-vaD:n}.[3; 4] علامت گذاری شده است
-
-"ترفند پیشوند" ممکن است با این فعل استفاده شود: اگر پیشوند فعل نشانگر یک چیز اول یا دوم شخص باشد ، آن شخص مفعول غیرمستقیم است ، یعنی شخصی که موضوع برای آن صحبت می کند. [3]
-
-فعل {jatlh:v:nolink} در هنگام دادن یک نقل قول مستقیم نیز استفاده می شود ، در این حالت از پیشوند فعل که نشانگر هیچ شیء نیست استفاده می شود (مگر اینکه "ترفند پیشوند" استفاده شود). نقل قول ممکن است قبل یا بعد از جمله با {jatlh:v:nolink}.[3] باشد
-
-این یکی از معدود "افعال گفتار" در کلینگون است. در کلینگون ، نقل قولها باید همیشه با یکی از این افعال همراه باشد. [4]
-
-برای بیان "خواندن با صدای بلند" (به عنوان مثال ، یک کتاب) ، چیزی مانند {paq mu'mey jatlh:sen:nolink} مؤثر است.[6] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Ett typiskt objekt för detta verb är det som talas, vilket kan vara ett språk eller föreläsning. Lyssnaren är det indirekta objektet och är markerat med {-vaD:n}.[3; 4]
-
-"Prefix-tricket" kan användas med detta verb: om verbprefixet indikerar ett första- eller andrapersonsobjekt, är den personen det indirekta objektet, det vill säga personen som ämnet talar till. [3]
-
-Verbetet {jatlh:v:nolink} används också när man ger en direkt offert, i vilket fall verbfixet som indikerar inget objekt används (förutom om "prefix trick" används). Citatet kan komma före eller efter meningen med {jatlh:v:nolink}.[3]
-
-Detta är ett av de få "ordspråken" i Klingon. I Klingon måste citat alltid åtföljas av ett av dessa verb.[4]
-
-För att uttrycka "läsa högt" (t.ex. en bok) skulle något liknande {paq mu'mey jatlh:sen:nolink} fungera.[6] [AUTOTRANSLATED]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
       <column name="notes_ru">Типичным объектом этого глагола является то, что сказано. Это может быть язык или лекция. Слушатель это непрямой объект и помечен {-vaD:n}.[3; 4]
 
-"Трюк с префиксом" может быть использован с этим глаголом: Если глагольный префикс обозначает объект 1-го или 2-го лица, то эта персона непрямой объект по отношению, с кем субъект разговаривает.[3]
+"Трюк с префиксом" может быть использован с этим глаголом: Если глагольный префикс обозначает объект 1-го или 2-го лица, то эта персона непрямой объект по отношению, с кем субъект разговаривает.[3] The "prefix trick" also works for third-person indirect objects in situations where it is unambiguous.[7]
 
 Глагол {jatlh:v:nolink} также используется, когда даётся прямая цитата, в каком случае глагольный префикс не указывает ни на какой объект (за исключением, если применен "трюк с префиксом"). Цитата может идти до или после предложения с {jatlh:v:nolink}.[3]
 
 Это один из нескольких "речевых глаголов" в Клингонском. В Клингонском цитать должны всегда сопровождаться одним из этих глаголов.[4]
 
-For expressing "read aloud" (e.g., a book), something like {paq mu'mey jatlh:sen:nolink} would work.[6]</column>
-      <column name="notes_zh_HK">該動詞的典型對像是口語，可能是語言或演講。偵聽器是間接對象，並標記為{-vaD:n}.[3; 4]
-
-此動詞可以使用「前綴技巧」：如果動詞前綴指示第一人稱或第二人稱對象，則該人是間接對象，即與該對像說話的人。[3]
-
-在給出直接引號時也使用動詞{jatlh:v:nolink}，在這種情況下，動詞前綴指示沒有對象（除非應用了「前綴技巧」）。引號可以在{jatlh:v:nolink}.[3]句子之前或之後
-
-這是克林崗語中為數不多的「言語動詞」之一。在克林崗語中，引號必須始終帶有以下動詞之一。[4]
-
-為了表達「大聲朗讀」（例如，一本書），類似{paq mu'mey jatlh:sen:nolink}的方法將起作用。[6] [AUTOTRANSLATED]</column>
+For expressing "read aloud" (e.g., a book), something like {paq mu'mey jatlh:sen:nolink} would work.[6] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Tämän verbin tyypillinen kohde on puhuttu, joka voi olla kieli tai luento. Kuuntelija on epäsuora objekti ja se on merkitty tunnuksella {-vaD:n}.[3; 4]
-
-"Etuliitetemppua" voidaan käyttää tämän verbin kanssa: jos verbin etuliite osoittaa ensimmäisen tai toisen henkilön objektin, kyseinen henkilö on epäsuora esine eli henkilö, jolle aihe puhuu.
-
-Verbiä {jatlh:v:nolink} käytetään myös suoraa lainausta annettaessa, jolloin verbin etuliitettä, joka osoittaa, ettei mitään objektia käytetä (paitsi jos käytetään "etuliitteen temppua"). Lainaus voi tulla ennen tai jälkeen lauseen {jatlh:v:nolink}.[3]
-
-Tämä on yksi harvoista "verbeistä puhetta" Klingonissa. Klingonissa lainauksiin on aina liitettävä yksi näistä verbeistä.[4]
-
-Ilmaisun "lukea ääneen" (esim. Kirjan) toiminnalle jotain {paq mu'mey jatlh:sen:nolink}: ta voisi toimia.[3][6] [AUTOTRANSLATED]</column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">In {TKD:src}, this is defined in the K-E word list as "say", and listed in the E-K word list under "speak". In {TKDA:src}, it is defined in both word lists as "say".
 
 In the {msn:src} newsgroup message, it says only that the verb prefix indicating no object is used for a direct quotation if the speaker is first or second person.[3] It's left unclear if {lu-:v:pref} should be used if the speakers are third-person and plural, but the rule seems to be that a quotation is not treated grammatically as the object of the verb.</column>
@@ -2162,7 +2122,7 @@ In the {msn:src} newsgroup message, it says only that the verb prefix indicating
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {TKDA:src}, [3] {msn 1997.06.29:src}, [4] {HQ 7.4, Dec. 1998:src}, [5] {ENT - Affliction:src}, [6] {'eSrIv 6, Feb. 2020:src} ({KLI mailing list 2020.01.28:src})</column>
+      <column name="source">[1] {TKD:src}, [2] {TKDA:src}, [3] {msn 1997.06.29:src}, [4] {HQ 7.4, Dec. 1998:src}, [5] {ENT - Affliction:src}, [6] {'eSrIv 6, Feb. 2020:src} ({KLI mailing list 2020.01.28:src}), [7] {KLI mailing list 2022.06.11:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2780,6 +2740,7 @@ In {TKD:src} this word is defined as "lord" only, same as {joH:n:nolink}. Howeve
       <column name="source">[1] {TKDA:src}, [2] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
+      <!-- PB2ED: Revise {wa' Dol bIH...} example. -->
       <column name="_id"></column>
       <column name="entry_name">je</column>
       <column name="part_of_speech">conj:klcp1</column>
@@ -4659,10 +4620,18 @@ Para falar sobre alguém ser careca, basta dizer {jIb Hutlh:sen@@jIb:n, Hutlh:v}
 Eläimillä ei ole {jIb:n:nolink}, vaan {pob:n:nolink}.[3]
 
 Jos haluat puhua jonkun olevan kalju, sano yksinkertaisesti {jIb Hutlh:sen@@jIb:n, Hutlh:v}.[4] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">The "cut of someone's jib" is an idiom referring to their appearance.</column>
+      <column name="hidden_notes">The "cut of someone's jib" is an idiom referring to their appearance.
+
+Based on the examples, this is a mass noun.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {DaH jIbwIj vISay'nISmoH.:sen}</column>
+▶ {DaH jIbwIj vISay'nISmoH.:sen}
+▶ {jIbDaj lumeQmoH:sen:nolink}
+   {jIbDaj lumeQmoH:sen:nolink}
+   {qul bIQtIq qulHommey:sen:nolink}
+  "Sparks from the fire river
+   Caught his hair,
+   Caught his hair."[5]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -4678,7 +4647,7 @@ Jos haluat puhua jonkun olevan kalju, sano yksinkertaisesti {jIb Hutlh:sen@@jIb:
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {qep'a' 24 (2017):src}, [3] {KLI mailing list 2021.11.11:src}, [4] {Saarbrücken qepHom'a' 2021:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 24 (2017):src}, [3] {KLI mailing list 2021.11.11:src}, [4] {Saarbrücken qepHom'a' 2021:src}, [5] {paq'batlh:src}</column>
     </table>
         <table name="mem">
           <!-- Is this plural? -->
@@ -7241,7 +7210,7 @@ The term "transport room" (rather than the more common "transporter room") is us
       <column name="entry_name">jom</column>
       <column name="part_of_speech">v:2,t_c</column>
       <column name="definition">put clothes on (someone else)</column>
-      <column name="definition_de">(jemanden) anziehen [AUTOTRANSLATED]</column>
+      <column name="definition_de">(jemand anderem) Kleidung anziehen</column>
       <column name="definition_fa">لباس پوشیدن (کس دیگری) [AUTOTRANSLATED]</column>
       <column name="definition_sv">ta på dig kläder (någon annan) [AUTOTRANSLATED]</column>
       <column name="definition_ru">одеться (кому-то другому) [AUTOTRANSLATED]</column>

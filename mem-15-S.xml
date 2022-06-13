@@ -8799,7 +8799,7 @@ Tämä sana voi viitata myös "klubipukuun" pelikorttipakassa (katso {Degh:n:1})
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">So'</column>
-      <column name="part_of_speech">v:1,ambi,klcp1</column>
+      <column name="part_of_speech">v:1,t_c,klcp1</column>
       <column name="definition">hide, cloak</column>
       <column name="definition_de">verstecken</column>
       <column name="definition_fa">پنهان ، پنهان [AUTOTRANSLATED]</column>
@@ -8811,7 +8811,7 @@ Tämä sana voi viitata myös "klubipukuun" pelikorttipakassa (katso {Degh:n:1})
       <column name="synonyms"></column>
       <column name="antonyms">{So'Ha':v:1}</column>
       <column name="see_also"></column>
-      <column name="notes">If there is no object, then the subject is the one hiding (e.g., {nuqDaq So'taH yaS?:sen:nolink}[1]). If there is an object, then the subject is hiding the object (e.g., {Duj So':sen:nolink} "He/she cloaks the ship" or {Duj So'lu'pu':sen:nolink} "The ship is cloaked"[2]).
+      <column name="notes">The subject of this verb hides the object (or hides something in general, if there's no object).[3]
 
 This verb is also used for the encryption of data (see {So':v:2}).</column>
       <column name="notes_de"></column>
@@ -8821,9 +8821,13 @@ This verb is also used for the encryption of data (see {So':v:2}).</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi">Tätä verbiä voi soveltaa myös datan salaamiseen (ks. {So':v:2}).</column>
-      <column name="hidden_notes">"Show".</column>
+      <column name="hidden_notes">"Show".
+
+The example {nuqDaq So'taH yaS?:sen:nolink} on {TKD p.69:src} is in error. As written, it would mean "Where is the officer hiding [something]?"[3]</column>
       <column name="components"></column>
       <column name="examples">
+▶ {Duj So':sen:nolink} "He/she cloaks the ship"[2]
+▶ {Duj So'lu'pu':sen:nolink} "The ship is cloaked"[2]
 ▶ {ghach jIvvo' naH. DaH pIghvamDaq So''eghtaH.:sen}
 ▶ {HIvmeH Duj So'lu'.:sen}
 ▶ {maS'e' loQ So'be'bogh QIb:n}
@@ -8846,12 +8850,12 @@ This verb is also used for the encryption of data (see {So':v:2}).</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi">verhoutua, häive</column>
-      <column name="source">[1] {TKD p.69:src}, [2] {KGT p.55:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.55:src}, [3] {KLI mailing list 2022.06.10:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">So'</column>
-      <column name="part_of_speech">v:2,ambi</column>
+      <column name="part_of_speech">v:2,t_c</column>
       <column name="definition">encrypt</column>
       <column name="definition_de">verschlüsseln</column>
       <column name="definition_fa">رمزگذاری [AUTOTRANSLATED]</column>
@@ -8871,9 +8875,7 @@ This verb is also used for the encryption of data (see {So':v:2}).</column>
       <column name="notes_zh_HK">這只是{So':v:1}對數據的應用。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é apenas um aplicativo de {So':v:1} para dados. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä on vain {So':v:1} -sovelluksen tietoja. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">"Show".
-
-Despite the English definition, it may be the case that the grammar follows {So':v:1,nolink}, and that the subject is encrypted if there is no object.</column>
+      <column name="hidden_notes">"Show".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -8896,7 +8898,7 @@ Despite the English definition, it may be the case that the grammar follows {So'
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">So'Ha'</column>
-          <column name="part_of_speech">v:1,ambi,deriv</column>
+          <column name="part_of_speech">v:1,t_c,deriv</column>
           <column name="definition">unhide, decloak</column>
           <column name="definition_de">enttarnen</column>
           <column name="definition_fa">از بین بردن ، رها کردن [AUTOTRANSLATED]</column>
@@ -8940,7 +8942,7 @@ Despite the English definition, it may be the case that the grammar follows {So'
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">So'Ha'</column>
-          <column name="part_of_speech">v:2,ambi,deriv</column>
+          <column name="part_of_speech">v:2,t_c,deriv</column>
           <column name="definition">decrypt</column>
           <column name="definition_de">entschlüsseln</column>
           <column name="definition_fa">رمزگشایی [AUTOTRANSLATED]</column>
