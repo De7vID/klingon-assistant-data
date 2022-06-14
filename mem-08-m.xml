@@ -4769,34 +4769,32 @@ This was also used for the "logic" menu (instructions about program flow control
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">In general usage, the meaning of this verb is that the subject is on fire. {meQmoH:v@@meQ:v:1, -moH:v} would be used if the subject sets the object on fire.[6]
+      <column name="notes">In general usage, the meaning of this verb is that the subject is on fire. {meQmoH:v@@meQ:v:1, -moH:v} would be used if the subject sets the object on fire.[4]
 
-Due to the influence of {mIQ:v}, this verb is used differently in the context of food preparation. There, the subject of this verb burns the object. As well, it can be used adjectivally for something that is burnt.[6]</column>
+Due to the influence of {mIQ:v}, this verb is used differently in the context of food preparation. There, the subject of this verb burns the object ({meQ:v:2}). As well, it can be used adjectivally for something that is burnt ({meQ:v:3}).[4]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Tällä verbillä on kolme merkitystä. Se on joko intransitiivinen "palaa" (esim. {meQtaHbogh qachDaq Suv qoH neH.:sen}[2]), jolla on normaalisti kausatiivi "polttaa, sytyttää tuleen" {meQmoH:v:nolink}[5]. Ruoan yhteydessä sillä on myös transitiivinen merkitys "polttaa, kypsentää" (esim. {to'waQ meQ vutwI'.:sen@@to'waQ:n, meQ:v:1, vutwI':n}[3]) ja adjektiivinen merkitys "olla poltettu, kypsennetty" (esim. {Ha'DIbaHmey meQ Sop 'e' tIv tera'nganpu'.:sen}[4]).</column>
-      <column name="hidden_notes">This was originally defined just as "burn" in {TKD:src}. Its definition was clarified to "burn, be on fire", and its special usage in food preparation contexts explained, in a message to the mailing list.[6]</column>
+      <column name="notes_fi">Tällä verbillä on kolme merkitystä. Se on joko intransitiivinen "palaa" (esim. {meQtaHbogh qachDaq Suv qoH neH.:sen}[2]), jolla on normaalisti kausatiivi "polttaa, sytyttää tuleen" {meQmoH:v:nolink}[3]. Ruoan yhteydessä sillä on myös transitiivinen merkitys "polttaa, kypsentää" (esim. {to'waQ meQ vutwI'.:sen@@to'waQ:n, meQ:v:2, vutwI':n}) ja adjektiivinen merkitys "olla poltettu, kypsennetty" (esim. {Ha'DIbaHmey meQ Sop 'e' tIv tera'nganpu'.:sen}).</column>
+      <column name="hidden_notes">This was originally defined just as "burn" in {TKD:src}. Its definition was clarified to "burn, be on fire", and its special usage in food preparation contexts explained, in a message to the mailing list.[4]</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {meQtaHbogh qachDaq Suv qoH neH.:sen}[2]
-▶ {to'waQ meQ vutwI'.:sen@@to'waQ:n, meQ:v:1, vutwI':n}[3]
-▶ {Ha'DIbaHmey meQ Sop 'e' tIv tera'nganpu'.:sen}[4]
 ▶ {jIbDaj lumeQmoH:sen:nolink}
    {jIbDaj lumeQmoH:sen:nolink}
    {qul bIQtIq qulHommey:sen:nolink}
   "Sparks from the fire river
    Caught his hair,
-   Caught his hair."[5]
+   Caught his hair."[3]
 ▶ {qeylIS Qaw' 'e' nIDmeH:sen:nolink}
    {yerDaj weH molor:sen:nolink}
    {'ej juH qachDaj meQmoH:sen:nolink}
   "Molor did not destroy Kahless
    By burning his house
-   Or ravaging his lands."[5]</column>
+   Or ravaging his lands."[3]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -4812,7 +4810,7 @@ Due to the influence of {mIQ:v}, this verb is used differently in the context of
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi">paistaa</column>
-      <column name="source">[1] {TKD:src}, [2] {TKW p.111:src}, [3] {KGT p.191:src}, [4] {CK:src}, [5] {paq'batlh p.86-87,114-115:src}, [6] {KLI mailing list 2022.06.10:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {TKW p.111:src}, [3] {paq'batlh p.86-87,114-115:src}, [4] {KLI mailing list 2022.06.10:src}</column>
     </table>
         <table name="mem">
           <column name="_id"></column>
@@ -4927,7 +4925,95 @@ Due to the influence of {mIQ:v}, this verb is used differently in the context of
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">meQ</column>
-      <column name="part_of_speech">v:2,i_c,slang</column>
+      <column name="part_of_speech">v:2,t_c</column>
+      <column name="definition">burn, set on fire (food preparation)</column>
+      <column name="definition_de">verbrennen, anzünden (Zubereitung von Speisen) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">سوختن، آتش زدن (تهیه غذا) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">bränna, sätta i brand (matlagning) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">сжигать, поджигать (приготовление пищи) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">燃燒，著火（準備食物） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">queimar, incendiar (preparação de alimentos) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">polttaa, sytyttää tuleen (ruoan valmistus) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">Due to the influence of {mIQ:v}, {meQ:v:1} is used differently in the context of food preparation. In this context, the subject burns the object.[2]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {to'waQ meQ vutwI'.:sen@@to'waQ:n, meQ:v:2, vutwI':n}[1]</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {KGT p.191:src}, [2] {KLI mailing list 2022.06.10:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">meQ</column>
+      <column name="part_of_speech">v:3,is</column>
+      <column name="definition">be burnt (food preparation)</column>
+      <column name="definition_de">verbrannt werden (Zubereitung von Speisen) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">سوخته باشد (تهیه غذا) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">bli bränd (matlagning) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">сгореть (приготовление пищи) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">被燒毀（食物準備） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">ser queimado (preparação de alimentos) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">palaa (ruoan valmistus) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">Due to the influence of {mIQ:v}, {meQ:v:1} is used differently in the context of food preparation. In this context, it can be used adjectivally for something that is burnt.[2]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {Ha'DIbaHmey meQ Sop 'e' tIv tera'nganpu'.:sen}[1]</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {CK:src}, [2] {KLI mailing list 2022.06.10:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">meQ</column>
+      <column name="part_of_speech">v:4,i_c,slang</column>
       <column name="definition">climax (sexual)</column>
       <column name="definition_de">Höhepunkt erreichten (sexuell)</column>
       <column name="definition_fa">اوج (جنسی) [AUTOTRANSLATED]</column>
@@ -6775,7 +6861,7 @@ Tämä sana voi viitata myös "timanttipukuun" pelikorttipakassa (katso {Degh:n:
       <column name="definition_fi">uppopaistaa</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{meQ:v:1}, {'Im:v}</column>
+      <column name="see_also">{meQ:v:2}, {meQ:v:3}, {'Im:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
