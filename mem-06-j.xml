@@ -300,7 +300,7 @@ The title of the book may be a reference to the Twilight Zone episode "To Serve 
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {paq'batlh p.xvii,xxii,40-41:src}</column>
+      <column name="source">[1] {paq'batlh 2ed p.31,52-53:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -1343,14 +1343,14 @@ Klingonissa otsikot ovat yleensä nimen perässä, joten "kapteeni Jean-Luc Pica
   "One by one Molor's scouts return,
    He asks them which banner
    Kahless marches under."
-   {lujang meQboghnom 'oH:sen:nolink}
-   {yeqchuqchu'taHghach:sen:nolink}
-   {Daw' je joqwI':sen:nolink}
+  {lujang meQboghnom 'oH:sen:nolink}
+   {yeqchuqtaHghach Daw' je:sen:nolink}
+   {'oS joqwI':sen:nolink}
   "They reply it is the meQboghnom,
    The banner of unity
-   And revolution."[2]
-▶ {nuH'e' qengbogh mangghomvam:sen:nolink}
-   {luDel 'e' ra' molor:sen:nolink}
+   And revolution."
+  {nuH'e' qengbogh mangghomvam:sen:nolink}
+   {Del 'e' ra' molor:sen:nolink}
    {lujang maS'e' loQ So'be'bogh QIb lurur:sen:nolink}
   "Molor asks them
    What weapons this army carries,
@@ -1366,12 +1366,12 @@ Klingonissa otsikot ovat yleensä nimen perässä, joten "kapteeni Jean-Luc Pica
    Он спрашивает их, под каким флагом
    Кейлес марширует."
   {lujang meQboghnom 'oH:sen:nolink}
-  {yeqchuqchu'taHghach:sen:nolink}
-  {Daw' je joqwI':sen:nolink}
+   {yeqchuqtaHghach Daw' je:sen:nolink}
+   {'oS joqwI':sen:nolink}
  "Они отвечают, что это meQboghnom,
-  Флаг единства и революции."[2]
-▶ {nuH'e' qengbogh mangghomvam:sen:nolink}
-   {luDel 'e' ra' molor:sen:nolink}
+  Флаг единства и революции."
+  {nuH'e' qengbogh mangghomvam:sen:nolink}
+   {Del 'e' ra' molor:sen:nolink}
    {lujang maS'e' loQ So'be'bogh QIb lurur:sen:nolink}
   "Молор спрашивает их
    Что за оружие у этой армии при себе,
@@ -1387,7 +1387,7 @@ Klingonissa otsikot ovat yleensä nimen perässä, joten "kapteeni Jean-Luc Pica
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {HQ 7.4, Dec. 1998:src}, [3] {paq'batlh p.138-139:src}, [4] {KLI mailing list 2022.06.11:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {HQ 7.4, Dec. 1998:src}, [3] {paq'batlh 2ed p.138-141:src}, [4] {KLI mailing list 2022.06.11:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2601,7 +2601,7 @@ In {TKD:src} this word is defined as "lord" only, same as {joH:n:nolink}. Howeve
       <column name="source">[1] {TKDA:src}</column>
     </table>
     <table name="mem">
-      <!-- See paq'batlh canto 7 stanza 8, {chaHvaD lut ja':sen:nolink}. -->
+      <!-- PB2ED: Add examples of {ja'}. -->
       <column name="_id"></column>
       <column name="entry_name">ja'</column>
       <column name="part_of_speech">v:t_c,klcp1</column>
@@ -2647,7 +2647,6 @@ In {TKD:src} this word is defined as "lord" only, same as {joH:n:nolink}. Howeve
       <column name="source">[1] {TKD:src}, [2] {HQ 7.4, Dec. 1998:src}</column>
     </table>
     <table name="mem">
-      <!-- The paq'batlh example is a known error. Fix for 2ed. -->
       <column name="_id"></column>
       <column name="entry_name">ja'chuq</column>
       <column name="part_of_speech">v:t_c,deriv</column>
@@ -2662,25 +2661,23 @@ In {TKD:src} this word is defined as "lord" only, same as {joH:n:nolink}. Howeve
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{rIch:v}</column>
-      <column name="notes">This verb is made up of {ja':v} plus the suffix {-chuq:v}[1, p.66]. In spite of this, it seems that it can take the topic of discussion as its object, although the exact grammar is unclear.[3]</column>
-      <column name="notes_de">Dieses Verb besteht aus {ja':v} plus dem Suffix {-chuq:v}[1, p.66]. Trotzdem scheint es, dass es das Diskussionsthema zum Gegenstand haben kann, obwohl die genaue Grammatik unklar ist.[3] [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این فعل از {ja':v} به علاوه پسوند {-chuq:v}[1, p.66] تشکیل شده است. علیرغم این ، به نظر می رسد که می تواند موضوع بحث را به عنوان موضوع خود مطرح کند ، گرچه دستور زبان دقیق نامشخص است.[3] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta verb består av {ja':v} plus suffixet {-chuq:v}[1, p.66]. Trots detta verkar det som att det kan ta ämnet för diskussion som sitt objekt, även om den exakta grammatiken är oklar.[3] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Глагол составлен из {ja':v} плюс суффикс {-chuq:v}[1, стр.66]. Невзирая на это, похоже, что он может принимать тему обсуждения как объект,хотя точная грамматика неясна.[3]</column>
-      <column name="notes_zh_HK">該動詞由{ja':v}和後綴{-chuq:v}[1, p.66]組成。儘管如此，儘管確切的語法尚不清楚，但似乎可以將討論的主題作為其對象。[3] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Este verbo é composto de {ja':v} mais o sufixo {-chuq:v}[1, p.66]. Apesar disso, parece que pode tomar o tópico da discussão como seu objeto, embora a gramática exata não seja clara.[3] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä verbi koostuu sanasta {ja':v} plus pääte {-chuq:v}[1, p.66]. Tästä huolimatta näyttää siltä, ​​että se voi ottaa keskustelunaiheen kohteeksi, vaikka tarkka kielioppi on epäselvä.[3] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="notes">This verb is made up of {ja':v} plus the suffix {-chuq:v}[1, p.66].</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru">Глагол составлен из {ja':v} плюс суффикс {-chuq:v}[1, стр.66].</column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes">In {paq'batlh 1ed:src}, there was a line which read {quv HIja'chuqQo'!:sen:nolink} "Don't speak to me of honor!" However, this was an error and the line has been changed to {jIHvaD quv yIjatlhQo':sen:nolink} in {paq'batlh 2ed:src}.</column>
       <column name="components">{ja':v}, {-chuq:v}</column>
       <column name="examples">
-▶ {'uQ wISoppu'DI' maja'chuq.:sen:nolink} "We will talk after dinner."[2]
-▶ {quv HIja'chuqQo'!:sen:nolink} "Don't speak to me of honor!"[3]</column>
+▶ {'uQ wISoppu'DI' maja'chuq.:sen:nolink} "We will talk after dinner."[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
-▶ {'uQ wISoppu'DI' maja'chuq.:sen:nolink} "Мы поговори после ужина."[2]
-▶ {quv HIja'chuqQo'!:sen:nolink} "Не говори со мной о чести!"[3]</column>
+▶ {'uQ wISoppu'DI' maja'chuq.:sen:nolink} "Мы поговори после ужина."[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -2692,7 +2689,7 @@ In {TKD:src} this word is defined as "lord" only, same as {joH:n:nolink}. Howeve
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {PK:src}, [3] {paq'batlh p.156-157:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {PK:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2740,7 +2737,6 @@ In {TKD:src} this word is defined as "lord" only, same as {joH:n:nolink}. Howeve
       <column name="source">[1] {TKDA:src}, [2] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
-      <!-- PB2ED: Revise {wa' Dol bIH...} example. -->
       <column name="_id"></column>
       <column name="entry_name">je</column>
       <column name="part_of_speech">conj:klcp1</column>
@@ -2787,8 +2783,7 @@ Substantiivien lisäksi {je:sen:nolink} voi seurata myös verbiä. Katso {je:adv
 ▶ {tay'taHbe' 'Iw bIQ je.:sen}
 ▶ Paramount Pictures {malja' permey bIH:sen:nolink} Star Trek {pong'e' Deghmey'e' je.:sen:nolink}[2]
 ▶ {HoS law'qu' luch law'qu' je lo' Duj nuH pat Hub pat je.:sen:nolink} "A huge amount of the ship's power and technology is devoted to its weapons grid and defensive systems."[3]
-▶ {wa' Dol bIH qa''e' porgh'e' je.:sen@@wa':n:num, Dol:n, bIH:n:pro, qa':n, -'e':n, porgh:n, -'e':n, je:conj} "Spirit and body are one."[4]
-▶ {Quj wa'DIch juH qachmey mebpa'mey je qa' raQmey chu' monmey chu' je:sen:nolink} "Custom OUTPOSTS and CAPITALS replace original Houses and Hotels"[5]</column>
+▶ {Quj wa'DIch juH qachmey mebpa'mey je qa' raQmey chu' monmey chu' je:sen:nolink} "Custom OUTPOSTS and CAPITALS replace original Houses and Hotels"[4]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -2804,7 +2799,7 @@ Substantiivien lisäksi {je:sen:nolink} voi seurata myös verbiä. Katso {je:adv
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {SkyBox cards:src}, [3] {SkyBox 3:src} (reprinted in {HQ 3.4, p.10-11, Dec. 1994:src}), [4] {paq'batlh 1ed p.102-103:src}, [5] {Klingon Monopoly:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {SkyBox cards:src}, [3] {SkyBox 3:src} (reprinted in {HQ 3.4, p.10-11, Dec. 1994:src}), [4] {Klingon Monopoly:src}</column>
     </table>
     <table name="mem">
       <!-- This is an adverbial, despite not being labeled as such in TKD. -->
@@ -2842,8 +2837,8 @@ The {msn:src} example had a typo: {ghoHtah:sen:nolink} instead of {ghoHtaH:sen:n
 ▶ {ghop luQan tajHommey. pe'laH je.:sen:nolink} (See {taj:n}.)
 ▶ {qep'a' wejDIchDaq jatlhtaH tlhIngan Hol HaDwI'pu'. ghoHtaH je. tIv'eghtaH je. vaj SuquvmoH.:sen:nolink}[4]
 ▶ {chalqachDaq bIQaDbe' je:sen:nolink} "Even in a tower you are not safe."[5]
-▶ {Qo'noSDaq boqwI'mey nejmeH je leng qeylIS 'ej chaHvaD lut ja':sen:nolink} "Kahless also went out to search for allies across Kronos, and told them his tale."[5]
-▶ {QIStaqDaq cholonDI' jIyIn DaH jIyIn je:sen:nolink} "I am alive as I was when you left me at Kri'stak."[5]</column>
+▶ {Qo'noSDaq boqwI'mey nejmeH je ve' qeylIS 'ej chaHvaD lut jatlh:sen:nolink} "Kahless also went out to search for allies across Kronos, and told them his tale."[5, p.120-121]
+▶ {QIStaqDaq cholonDI' jIyIn DaH jIyIn je:sen:nolink} "I am as alive as I was when you left me at Kri'stak."[5, p.106-107]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -2859,7 +2854,7 @@ The {msn:src} example had a typo: {ghoHtah:sen:nolink} instead of {ghoHtaH:sen:n
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD 5.3:src}, [2] {CK:src}, [3] {PK:src}, [4] {msn 1996.11.10:src}, [5] {paq'batlh:src}</column>
+      <column name="source">[1] {TKD 5.3:src}, [2] {CK:src}, [3] {PK:src}, [4] {msn 1996.11.10:src}, [5] {paq'batlh 2ed:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -4647,7 +4642,7 @@ Based on the examples, this is a mass noun.</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {qep'a' 24 (2017):src}, [3] {KLI mailing list 2021.11.11:src}, [4] {Saarbrücken qepHom'a' 2021:src}, [5] {paq'batlh:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {qep'a' 24 (2017):src}, [3] {KLI mailing list 2021.11.11:src}, [4] {Saarbrücken qepHom'a' 2021:src}, [5] {paq'batlh 2ed p.90-91:src}</column>
     </table>
         <table name="mem">
           <!-- Is this plural? -->
@@ -7849,19 +7844,19 @@ The term "transport room" (rather than the more common "transporter room") is us
    {cha' tlhIngan tIqDu':sen:nolink}
   "Both Klingon hearts beat,
    At their strongest,
-   In lust for blood."[2, p.166-167]
+   In lust for blood."[2, p.164-165]
 ▶ {Suto'vo'qor botlhDaq:sen:nolink}
    {pe'vIl joqchu'taH:sen:nolink}
-   {quvbogh 'ej valbogh tIqDu' tIQ.:sen:nolink}
+   {quvbogh 'ej chulbogh tIqDu' tIQ.:sen:nolink}
   "At the cenre of Sto-vo-kor,
    The ancient hearts of honor and wisdom
-   Beat steady and strong."[2, p.188-189]
+   Beat steady and strong."[2, p.184-185]
 ▶ {SIqral bIQtIqDaq:sen:nolink}
    {joqtaHbogh molor tIqDu' qem qeylIS:sen:nolink}
    {bIQ DoqDaq tlhabmoH.:sen:nolink}
   "Kahless takes Molor's hearts,
    Still beating, to the river Skral,
-   He sets them free in the crimson water."[2, p.170-171]</column>
+   He sets them free in the crimson water."[2, p.166-167]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -7871,19 +7866,19 @@ The term "transport room" (rather than the more common "transporter room") is us
    {cha' tlhIngan tIqDu':sen:nolink}
   "Оба Клингонских сердца бьются,
    Сильнее всего,
-   жаждя крови."[2, стр.166-167]
+   жаждя крови."[2, стр.164-165]
 ▶ {Suto'vo'qor botlhDaq:sen:nolink}
    {pe'vIl joqchu'taH:sen:nolink}
-   {quvbogh 'ej valbogh tIqDu' tIQ.:sen:nolink}
+   {quvbogh 'ej chulbogh tIqDu' tIQ.:sen:nolink}
   "At the cenre of Sto-vo-kor,
    The ancient hearts of honor and wisdom
-   Beat steady and strong."[2, p.188-189]
+   Beat steady and strong."[2, p.184-185]
 ▶ {SIqral bIQtIqDaq:sen:nolink}
    {joqtaHbogh molor tIqDu' qem qeylIS:sen:nolink}
    {bIQ DoqDaq tlhabmoH.:sen:nolink}
   "Kahless takes Molor's hearts,
    Still beating, to the river Skral,
-   He sets them free in the crimson water."[2, p.170-171]</column>
+   He sets them free in the crimson water."[2, p.166-167]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -7895,7 +7890,7 @@ The term "transport room" (rather than the more common "transporter room") is us
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi">liehua, syke</column>
-      <column name="source">[1] {TKD:src}, [2] {paq'batlh:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh 2ed:src}</column>
     </table>
         <table name="mem">
           <column name="_id"></column>
@@ -9133,7 +9128,7 @@ Jos käytetään {-Daq:n}, se tarkoittaa epäonnistumista: ilmaa puhallettiin ko
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {paq'batlh p.122-123:src}</column>
+      <column name="source">[1] {paq'batlh 2ed p.126-127:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -9530,7 +9525,7 @@ Jos käytetään {-Daq:n}, se tarkoittaa epäonnistumista: ilmaa puhallettiin ko
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {paq'batlh p.158-159:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {paq'batlh p.156-157:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -9607,7 +9602,7 @@ Jos käytetään {-Daq:n}, se tarkoittaa epäonnistumista: ilmaa puhallettiin ko
    {'ej Qo'noS yav luQommoH:sen:nolink}
   "They too started to shout to the heavens
    For the passage of their comrades,
-   Their howls made Kronos's soil tremble."[3]
+   Their howls made Kronos's soil tremble."[3, p.150-151]
 ▶ {ghIq SIqralDaq:sen:nolink}
    {molor HoS waw' lupawmeH:sen:nolink}
    {bIQtIq HeH juS SuvwI' ghom:sen:nolink}
@@ -9624,7 +9619,7 @@ Jos käytetään {-Daq:n}, se tarkoittaa epäonnistumista: ilmaa puhallettiin ko
    {'ej Qo'noS yav luQommoH:sen:nolink}
   "They too started to shout to the heavens
    For the passage of their comrades,
-   Their howls made Kronos's soil tremble."[3]
+   Their howls made Kronos's soil tremble."[3, p.150-151]
 ▶ {ghIq SIqralDaq:sen:nolink}
    {molor HoS waw' lupawmeH:sen:nolink}
    {bIQtIq HeH juS SuvwI' ghom:sen:nolink}
@@ -9642,7 +9637,7 @@ Jos käytetään {-Daq:n}, se tarkoittaa epäonnistumista: ilmaa puhallettiin ko
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {Klingon Monopoly:src}, [3] {paq'batlh:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Klingon Monopoly:src}, [3] {paq'batlh 2ed:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
