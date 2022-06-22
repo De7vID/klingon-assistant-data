@@ -582,8 +582,8 @@ Pakollinen verbin etuliite, kun kohde on {maH:n:1h,nolink}, on {gho-:v:pref}. [A
       <column name="definition_fi">kymmenen (vain yhdyssanan jälkiosana)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{wa':n:num}, {vatlh:n:num}</column>
-      <column name="notes">Note that this is a number-forming element, and not itself a number. The number ten is {wa'maH:n:num}, literally "one ten", in Klingon.</column>
+      <column name="see_also">{mI':n}, {wa':n:num}, {vatlh:n:num}</column>
+      <column name="notes">This is a number-forming element, and not itself a number. The number 10 (ten) is {wa'maH:n:num}, literally "one ten", in Klingon.</column>
       <column name="notes_de">Beachten Sie, dass dies ein zahlenbildendes Element ist und nicht selbst eine Zahl. Die Nummer zehn ist {wa'maH:n:num}, wörtlich "eins zehn", auf Klingonisch. [AUTOTRANSLATED]</column>
       <column name="notes_fa">توجه داشته باشید که این یک عنصر تشکیل دهنده عدد است و نه خود یک عدد. شماره ده {wa'maH:n:num} است ، به معنای واقعی کلمه "یک ده" ، در کلینگون. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Observera att detta är ett nummerbildande element och inte i sig ett nummer. Nummer tio är {wa'maH:n:num}, bokstavligen "en tio", i Klingon. [AUTOTRANSLATED]</column>
@@ -8027,20 +8027,18 @@ This was used to refer to a concept in computer programming, namely, a compartme
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{togh:v}, {mob:v:2}, {mobHa':v}</column>
-      <column name="notes">Number-forming elements include {maH:n:2,num}, {vatlh:n:num}, {SaD:n:num} ({SanID:n:num}), {netlh:n:num}, {bIp:n:num}, {'uy':n:num}, {Saghan:n:num}.
+      <column name="notes">Basic number-forming elements include {maH:n:2,num}, {vatlh:n:num}, {SaD:n:num} ({SanID:n:num}), {netlh:n:num}, {bIp:n:num}, {'uy':n:num}, {Saghan:n:num}. A number-forming element must be combined with a number from one to nine, so that 10,000 (ten thousand), for example, is {wa'netlh:n:num,nolink} (and not just {netlh:n:num,nolink}). Combining multiple number-forming elements is possible, so that 10,000,000 (ten million), for example, is {wa'maH'uy':n:num,nolink}.
 
 When a number is used for numbering (labeling), as opposed to counting, it follows the noun. Ordinal numbers are formed with {-DIch:n:num,suff}. Repetitions are formed with {-logh:n:num,suff}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru">Элементы для формирования чисел, включают {maH:n:2,num}, {vatlh:n:num}, {SaD:n:num} ({SanID:n:num}), {netlh:n:num}, {bIp:n:num}, {'uy':n:num}, {Saghan:n:num}.
+      <column name="notes_ru">Элементы для формирования чисел, включают {maH:n:2,num}, {vatlh:n:num}, {SaD:n:num} ({SanID:n:num}), {netlh:n:num}, {bIp:n:num}, {'uy':n:num}, {Saghan:n:num}.  A number-forming element must be combined with a number from one to nine, so that 10,000 (ten thousand), for example, is {wa'netlh:n:num,nolink} (and not just {netlh:n:num,nolink}). Combining multiple number-forming elements is possible, so that 10,000,000 (ten million), for example, is {wa'maH'uy':n:num,nolink}.
 
-Когда число используется для нумерации чего-то, в отличие от счёта, оно следует за существительным. Порядковые номера сформированы с {-DIch:n:num,suff}. Повторы сформированы с помощью {-logh:n:num,suff}.</column>
+Когда число используется для нумерации чего-то, в отличие от счёта, оно следует за существительным. Порядковые номера сформированы с {-DIch:n:num,suff}. Повторы сформированы с помощью {-logh:n:num,suff}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
-      <column name="notes_fi">Luku muodostavia elementtejä ovat {maH:n:2,num}, {vatlh:n:num}, {SaD:n:num} ({SanID:n:num}), {netlh:n:num}, {bIp:n:num}, {'uy':n:num}, {Saghan:n:num}.
-
-Kun numeroa käytetään numeroinnissa (merkinnöissä), toisin kuin laskemisessa, se seuraa substantiivia. Järjestysnumerot muodostetaan {-DIch:n:num,suff}: llä. Toistot muodostetaan {-logh:n:num,suff}: llä. [AUTOTRANSLATED]</column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
