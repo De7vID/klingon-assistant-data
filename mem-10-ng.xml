@@ -2258,33 +2258,17 @@ In comparison, the table of contents of a book would be labeled {paq 'ay'mey:n}.
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Daqav:n}, {ngech:n:1}, {ngem:n}</column>
-      <column name="notes">The shore of a lake is its {ngeng HeH:n}.
-
-The lava-filled area of a volcano ({qulHuD:n}) is called its {qul ngeng:n}.[2]</column>
-      <column name="notes_de">Das Ufer eines Sees ist seine {ngeng HeH:n}.
-
-Das mit Lava gefüllte Gebiet eines Vulkans ({qulHuD:n}) wird als {qul ngeng:n}.[2] bezeichnet [AUTOTRANSLATED]</column>
-      <column name="notes_fa">ساحل یک دریاچه {ngeng HeH:n} آن است.
-
-منطقه پر از گدازه های آتشفشان ({qulHuD:n}) به آن {qul ngeng:n}.[2] گفته می شود [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Sjöns strand är dess {ngeng HeH:n}.
-
-Det lavafylta området i en vulkan ({qulHuD:n}) kallas dess {qul ngeng:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Берег озера будет {ngeng HeH:n}.
-
-Заполненная лавой область вулкана, будет ({qulHuD:n}) или {qul ngeng:n}.[2]</column>
-      <column name="notes_zh_HK">湖的岸邊是它的{ngeng HeH:n}。
-
-火山熔岩充滿的區域（{qulHuD:n}）稱為{qul ngeng:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">A margem de um lago é seu {ngeng HeH:n}.
-
-A área cheia de lava de um vulcão ({qulHuD:n}) é chamada de {qul ngeng:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Järven ranta on sen {ngeng HeH:n}.
-
-Tulivuoren laavalla täytettyä aluetta ({qulHuD:n}) kutsutaan sen {qul ngeng:n}: ksi.[2] [AUTOTRANSLATED]</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">{ngeng HeH:n}, {qul ngeng:n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -2300,7 +2284,7 @@ Tulivuoren laavalla täytettyä aluetta ({qulHuD:n}) kutsutaan sen {qul ngeng:n}
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {paq'batlh p.78-79:src}</column>
+      <column name="source">[1] {TKD:src}</column>
     </table>
         <table name="mem">
           <column name="_id"></column>
@@ -2343,7 +2327,19 @@ No {paq'batlh:src}, a expressão {qul ngeng HeH:n:nolink} é usada para se refer
 {paq'batlh:src}: ssa ilmaisua {qul ngeng HeH:n:nolink} käytetään viittaamaan {qul ngeng:n}: n rantaan {QIStaq:n}: n sisällä, jossa ympäristö on niin vihamielinen elämälle, ettei edes {tlheng'IQ:n} kasvaisi. [AUTOTRANSLATED]</column>
           <column name="hidden_notes"></column>
           <column name="components">{ngeng:n}, {HeH:n}</column>
-          <column name="examples"></column>
+      <column name="examples">
+▶ {mob qeylIS:sen:nolink}
+   {ngeng HeHDaq yIt:sen:nolink}
+   {SanDaj buS vaj 'It:sen:nolink}
+  "And Kahless was alone
+   Walking along the shore,
+   His fate heavy on his shoulders."
+  {qul ngeng HeHDaq:sen:nolink}
+   {ba'taHvIS qeylIS:sen:nolink}
+   {ghoS SuvwI' qan:sen:nolink}
+  "Kahless sits at the shores
+   Of the lake of fire
+   As an old warrior passes by."[2]</column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
           <column name="examples_sv"></column>
@@ -2359,7 +2355,7 @@ No {paq'batlh:src}, a expressão {qul ngeng HeH:n:nolink} é usada para se refer
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
-          <column name="source">[1] {paq'batlh p.78-79:src}</column>
+          <column name="source">[1] {paq'batlh 2ed p.86-87:src}</column>
         </table>
     <table name="mem">
       <column name="_id"></column>
