@@ -38,6 +38,7 @@
 
 from googletrans import Translator
 from googletrans.models import Translated
+import traceback
 
 import fileinput
 import re
@@ -150,6 +151,7 @@ for filename in filenames:
             try:
               translation = translator.translate(notes, src='en', dest=language)
             except Exception:
+              traceback.print_exc()
               translation = Translated(src = "", dest = "", origin = "", text = notes, pronunciation = "")
             # Note that Google Translate returns the original text if translation fails for some reason.
             if translation.text != notes:
