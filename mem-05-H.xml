@@ -1528,7 +1528,7 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hargh</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:t_c</column>
       <column name="definition">fight, battle (major confrontation)</column>
       <column name="definition_de">kämpfen (schwere Konfrontation)</column>
       <column name="definition_fa">مبارزه، نبرد (مقابله عمده) [AUTOTRANSLATED]</column>
@@ -1540,7 +1540,9 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Suv:v}, {may':n}</column>
-      <column name="notes">In ascending order of ferocity, the verbs used to describe military confrontations are: {Qor:v}, {tlhaS:v}, {vay:v}, {lul:v}, {Hargh:v:nolink}.</column>
+      <column name="notes">In ascending order of ferocity, the verbs used to describe military confrontations are: {Qor:v}, {tlhaS:v}, {vay:v}, {lul:v}, {Hargh:v:nolink}.
+
+This verb would be reserved only for situations approaching Armageddon.[1]</column>
       <column name="notes_de">In aufsteigender Reihenfolge der Wildheit werden folgende Verben verwendet, um militärische Konfrontationen zu beschreiben: {Qor:v}, {tlhaS:v}, {vay:v}, {lul:v}, {Hargh:v:nolink}. [AUTOTRANSLATED]</column>
       <column name="notes_fa">به ترتیب صعودی از خشونت ، افعال مورد استفاده برای توصیف درگیری های نظامی عبارتند از: {Qor:v} ، {tlhaS:v} ، {vay:v} ، {lul:v} ، {Hargh:v:nolink}. [AUTOTRANSLATED]</column>
       <column name="notes_sv"></column>
@@ -1550,7 +1552,13 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
       <column name="notes_fi">Armeijan nousevassa järjestyksessä sotilaallisia yhteenottoja kuvaavia verbejä ovat: {Qor:v}, {tlhaS:v}, {vay:v}, {lul:v}, {Hargh:v:nolink}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes">Armageddon (Har Megiddo).</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {QIStaq 'emDaq jenchoH jul:sen:nolink}
+   {yor DungDaq Salta'DI':sen:nolink}
+   {tagh HarghchuqmeH poH:sen:nolink}
+  "The sun rises high behind the Kri'stak
+   When it rises over its top
+   It is time to do battle"[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -1566,7 +1574,7 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {KGT:src}</column>
+      <column name="source">[1] {KGT:src}, [2] {paq'batlh 2ed p.162-163:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
