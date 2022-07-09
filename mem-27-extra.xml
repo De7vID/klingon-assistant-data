@@ -12597,6 +12597,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
       <column name="source">[1] {Hamlet:src}</column>
     </table>
     <table name="mem">
+      <!-- TODO: Figure out if Antony, Cleopatra, and Henry V (whose names appear in KGT) should be marked "fic" to be consistent with other Shakespeare characters, and similarly for the Klingon playwright himself. -->
       <column name="_id"></column>
       <column name="entry_name">wIlyam SeQpIr</column>
       <column name="part_of_speech">n:name</column>
@@ -12647,7 +12648,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yulyuS qaySar</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Julius Caesar</column>
       <column name="definition_de">Iulius Caesar</column>
       <column name="definition_fa">ژولیوس سزار</column>
@@ -12659,7 +12660,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{maS'e' So'bogh pagh:n}</column>
-      <column name="notes">This is the name of a play by {wIlyam SeQpIr:n:name}, and also the name of its titular character.</column>
+      <column name="notes">This is the name of a play by {wIlyam SeQpIr:n:name}, and also the name of its titular character, a legendary Romulan leader.[1]</column>
       <column name="notes_de">Dies ist der Name eines Stücks von {wIlyam SeQpIr:n:name} und auch der Name seines Titelcharakters. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این نام یک نمایشنامه توسط {wIlyam SeQpIr:n:name} و همچنین نام شخصیت تیتراژ آن است. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta är namnet på en pjäs av {wIlyam SeQpIr:n:name}, och även namnet på dess titelfigur. [AUTOTRANSLATED]</column>
