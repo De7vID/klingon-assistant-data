@@ -12427,7 +12427,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SeQpIr</column>
-      <column name="part_of_speech">n:name,alt,noanki</column>
+      <column name="part_of_speech">n:name,fic,alt,noanki</column>
       <column name="definition">{wIlyam SeQpIr:n:name}</column>
       <column name="definition_de">{wIlyam SeQpIr:n:name}</column>
       <column name="definition_fa">{wIlyam SeQpIr:n:name}</column>
@@ -12597,10 +12597,10 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
       <column name="source">[1] {Hamlet:src}</column>
     </table>
     <table name="mem">
-      <!-- TODO: Figure out if Antony, Cleopatra, and Henry V (whose names appear in KGT) should be marked "fic" to be consistent with other Shakespeare characters, and similarly for the Klingon playwright himself. -->
+      <!-- Note that "Shex'pir" and all characters in his plays are marked as "fic", even those based on people from Earth history, because they don't refer to these people in-universe. -->
       <column name="_id"></column>
       <column name="entry_name">wIlyam SeQpIr</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Wil'yam Shex'pir</column>
       <column name="definition_de">Wil'yam Shex'pir</column>
       <column name="definition_fa">ویلیام شکسپیر</column>
@@ -12649,7 +12649,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
       <column name="_id"></column>
       <column name="entry_name">yulyuS qaySar</column>
       <column name="part_of_speech">n:name,fic</column>
-      <column name="definition">Julius Caesar</column>
+      <column name="definition">Yulyush Kayshar</column>
       <column name="definition_de">Iulius Caesar</column>
       <column name="definition_fa">ژولیوس سزار</column>
       <column name="definition_sv">Julius Caesar [AUTOTRANSLATED]</column>
@@ -12678,7 +12678,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">Julius Caesar</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
