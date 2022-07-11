@@ -3379,16 +3379,18 @@ Joku, jolla on erinomainen muisti, voidaan sanoa olevan {qaw pov:n@@qaw:n, pov:v
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{De':n}, {mem:n}, {wa'chaw:n}</column>
-          <column name="notes">This word is singular.</column>
-          <column name="notes_de">Dieses Wort ist einzigartig. [AUTOTRANSLATED]</column>
-          <column name="notes_fa">این کلمه مفرد است. [AUTOTRANSLATED]</column>
-          <column name="notes_sv">Detta ord är singular. [AUTOTRANSLATED]</column>
-          <column name="notes_ru">Это слово в единственном числе. [AUTOTRANSLATED]</column>
-          <column name="notes_zh_HK">這個詞是單數。 [AUTOTRANSLATED]</column>
-          <column name="notes_pt">Esta palavra é singular. [AUTOTRANSLATED]</column>
-          <column name="notes_fi">Tämä sana on yksikkö. [AUTOTRANSLATED]</column>
-          <column name="hidden_notes"></column>
-          <column name="components"></column>
+          <column name="notes">This word is singular.[2]
+
+The first part of this word is {qaw:n}, but the second part has nothing to do with surgery (see {Haq:v:1}). The resemblance is just a coincidence.[3]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes">This is defined as "memory banks" in {TKD:src} and as "data banks (singular)" in {TKDA:src}.</column>
+          <column name="components">{qaw:n}, {Haq:n:hyp,nolink}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -3405,7 +3407,7 @@ Joku, jolla on erinomainen muisti, voidaan sanoa olevan {qaw pov:n@@qaw:n, pov:v
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
-          <column name="source">[1] {TKD:src}, [2] {TKDA:src}</column>
+          <column name="source">[1] {TKD:src}, [2] {TKDA:src}, [3] {KLI mailing list 2018.02.06:src}</column>
         </table>
         <table name="mem">
           <column name="_id"></column>
