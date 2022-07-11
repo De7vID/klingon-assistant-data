@@ -11864,7 +11864,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
     </table>
 
     <!-- Section: Hamlet -->
-    <!-- These were borrowed/stolen from Klingon into Federation Standard. -->
+    <!-- These were borrowed/stolen from Klingon into Federation Standard. They are not marked "extcan" because Marc Okrand has said he would be consistent with these if he were to use them. -->
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bernarDo</column>
@@ -12048,7 +12048,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
       <column name="definition_ru">Гамлет</column>
       <column name="definition_zh_HK">哈姆雷特</column>
       <column name="definition_pt">Aldeia</column>
-      <column name="definition_fi">Hamlet</column>
+      <column name="definition_fi">eräs Shex'pirin näytelmän hahmo, Khamlet</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{taH pagh taHbe'.:sen}</column>
@@ -12077,7 +12077,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">Hamlet</column>
       <column name="source">[1] {Hamlet:src}</column>
     </table>
     <table name="mem">
@@ -12427,7 +12427,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SeQpIr</column>
-      <column name="part_of_speech">n:name,alt,noanki</column>
+      <column name="part_of_speech">n:name,fic,alt,noanki</column>
       <column name="definition">{wIlyam SeQpIr:n:name}</column>
       <column name="definition_de">{wIlyam SeQpIr:n:name}</column>
       <column name="definition_fa">{wIlyam SeQpIr:n:name}</column>
@@ -12597,9 +12597,10 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
       <column name="source">[1] {Hamlet:src}</column>
     </table>
     <table name="mem">
+      <!-- Note that "Shex'pir" and all characters in his plays are marked as "fic", even those based on people from Earth history, because they don't refer to these people in-universe. -->
       <column name="_id"></column>
       <column name="entry_name">wIlyam SeQpIr</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Wil'yam Shex'pir</column>
       <column name="definition_de">Wil'yam Shex'pir</column>
       <column name="definition_fa">ویلیام شکسپیر</column>
@@ -12647,19 +12648,19 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yulyuS qaySar</column>
-      <column name="part_of_speech">n:name</column>
-      <column name="definition">Julius Caesar</column>
+      <column name="part_of_speech">n:name,fic</column>
+      <column name="definition">Yulyush Kayshar</column>
       <column name="definition_de">Iulius Caesar</column>
       <column name="definition_fa">ژولیوس سزار</column>
       <column name="definition_sv">Julius Caesar [AUTOTRANSLATED]</column>
       <column name="definition_ru">Юлий Цезарь [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">尤利烏斯·凱撒</column>
       <column name="definition_pt">Julius Caesar</column>
-      <column name="definition_fi">Julius Caesar</column>
+      <column name="definition_fi">eräs Shex'pirin näytelmän hahmo, Yulyush Kayshar</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{maS'e' So'bogh pagh:n}</column>
-      <column name="notes">This is the name of a play by {wIlyam SeQpIr:n:name}, and also the name of its titular character.</column>
+      <column name="notes">This is the name of a play by {wIlyam SeQpIr:n:name}, and also the name of its titular character, a legendary Romulan leader.[1]</column>
       <column name="notes_de">Dies ist der Name eines Stücks von {wIlyam SeQpIr:n:name} und auch der Name seines Titelcharakters. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این نام یک نمایشنامه توسط {wIlyam SeQpIr:n:name} و همچنین نام شخصیت تیتراژ آن است. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta är namnet på en pjäs av {wIlyam SeQpIr:n:name}, och även namnet på dess titelfigur. [AUTOTRANSLATED]</column>
@@ -12677,7 +12678,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">Julius Caesar</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
