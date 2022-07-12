@@ -130,7 +130,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jabmeH</column>
-      <column name="part_of_speech">n:name,fic,deriv</column>
+      <column name="part_of_speech">n:name,deriv,fic</column>
       <column name="definition">In Order to Serve</column>
       <column name="definition_de">Zum Servieren</column>
       <column name="definition_fa">به منظور خدمت [AUTOTRANSLATED]</column>
@@ -175,7 +175,7 @@ The title of the book may be a reference to the Twilight Zone episode "To Serve 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jabwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">food server, waiter, waitress</column>
       <column name="definition_de">Kellner</column>
       <column name="definition_fa">سرور غذا، پیشخدمت، پیشخدمت [AUTOTRANSLATED]</column>
@@ -622,7 +622,7 @@ Jongleeraaminen eli esineiden heittäminen ilmaan ja kiinniottaminen rytmikkää
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jaghla'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">enemy commander</column>
       <column name="definition_de">feindlicher Commander</column>
       <column name="definition_fa">فرمانده دشمن [AUTOTRANSLATED]</column>
@@ -1709,7 +1709,7 @@ Huomaa, että Klingonissa "syvää avaruutta" kutsutaan {logh Hop:n}, kirjaimell
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jargh</column>
-      <column name="part_of_speech">n:reg,body</column>
+      <column name="part_of_speech">n:body,reg</column>
       <column name="definition">forehead</column>
       <column name="definition_de">Stirn</column>
       <column name="definition_fa">پیشانی</column>
@@ -4349,7 +4349,7 @@ Tätä verbiä käytetään sonetissa 116, jossa sen nimenomainen aihe on {muD:n
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jey'naS ghoqwI'</column>
-      <column name="part_of_speech">n:deriv,slang,being</column>
+      <column name="part_of_speech">n:being,deriv,slang</column>
       <column name="definition">double agent</column>
       <column name="definition_de">Doppelagent</column>
       <column name="definition_fa">عامل دوگانه [AUTOTRANSLATED]</column>
@@ -5470,7 +5470,7 @@ Jos haluat ilmaista toiveesi tapahtumisesta, katso {-jaj:v}. [AUTOTRANSLATED]</c
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">jInay'ngan</column>
-          <column name="part_of_speech">n:being,fic,deriv</column>
+          <column name="part_of_speech">n:being,deriv,fic</column>
           <column name="definition">J'naii (person)</column>
           <column name="definition_de">J'naii (Person)</column>
           <column name="definition_fa">جنایی (شخص) [AUTOTRANSLATED]</column>

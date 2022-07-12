@@ -350,7 +350,7 @@ The original description said "sharp and poisonous", but it was clarified that M
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'och mutlhwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">plumber, pipe layer</column>
       <column name="definition_de">Klempner, Installateur</column>
       <column name="definition_fa">لوله کش، لایه لوله [AUTOTRANSLATED]</column>
@@ -436,7 +436,7 @@ The original description said "sharp and poisonous", but it was clarified that M
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'oDwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">arbitrator</column>
       <column name="definition_de">Schlichter, Mediator</column>
       <column name="definition_fa">داور [AUTOTRANSLATED]</column>
@@ -1451,7 +1451,7 @@ Um verbo comumente usado com {'olQan:n:nolink} é {'uch:v:1}. [AUTOTRANSLATED]</
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'orayya'</column>
-      <column name="part_of_speech">n:place,fic,alt</column>
+      <column name="part_of_speech">n:place,alt,fic</column>
       <column name="definition">{'oray:n}</column>
       <column name="definition_de">{'oray:n}</column>
       <column name="definition_fa">{'oray:n}</column>
@@ -1494,7 +1494,7 @@ Um verbo comumente usado com {'olQan:n:nolink} é {'uch:v:1}. [AUTOTRANSLATED]</
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'orayngan</column>
-      <column name="part_of_speech">n:being,fic,deriv</column>
+      <column name="part_of_speech">n:being,deriv,fic</column>
       <column name="definition">Orion (person)</column>
       <column name="definition_de">Orionier</column>
       <column name="definition_fa">اوریون (شخص) [AUTOTRANSLATED]</column>
@@ -1537,7 +1537,7 @@ Um verbo comumente usado com {'olQan:n:nolink} é {'uch:v:1}. [AUTOTRANSLATED]</
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'orayya'ngan</column>
-      <column name="part_of_speech">n:being,fic,alt,deriv</column>
+      <column name="part_of_speech">n:being,alt,deriv,fic</column>
       <column name="definition">{'orayngan:n}</column>
       <column name="definition_de">{'orayngan:n}</column>
       <column name="definition_fa">{'orayngan:n}</column>
@@ -1666,7 +1666,7 @@ Um verbo comumente usado com {'olQan:n:nolink} é {'uch:v:1}. [AUTOTRANSLATED]</
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'orghenya'</column>
-      <column name="part_of_speech">n:place,fic,alt</column>
+      <column name="part_of_speech">n:place,alt,fic</column>
       <column name="definition">{'orghen:n}</column>
       <column name="definition_de">{'orghen:n}</column>
       <column name="definition_fa">{'orghen:n}</column>
@@ -1709,7 +1709,7 @@ Um verbo comumente usado com {'olQan:n:nolink} é {'uch:v:1}. [AUTOTRANSLATED]</
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'orghen rojmab</column>
-      <column name="part_of_speech">n:fic,deriv</column>
+      <column name="part_of_speech">n:deriv,fic</column>
       <column name="definition">Organian Peace Treaty</column>
       <column name="definition_de">Friedensvertrag von Organia</column>
       <column name="definition_fa">پیمان صلح سازمان ملل متحد [AUTOTRANSLATED]</column>
@@ -1752,7 +1752,7 @@ Um verbo comumente usado com {'olQan:n:nolink} é {'uch:v:1}. [AUTOTRANSLATED]</
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'orghenya' rojmab</column>
-      <column name="part_of_speech">n:fic,alt</column>
+      <column name="part_of_speech">n:alt,fic</column>
       <column name="definition">{'orghen rojmab:n}</column>
       <column name="definition_de">{'orghen rojmab:n}</column>
       <column name="definition_fa">{'orghen rojmab:n}</column>
@@ -1795,7 +1795,7 @@ Um verbo comumente usado com {'olQan:n:nolink} é {'uch:v:1}. [AUTOTRANSLATED]</
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'orghengan</column>
-      <column name="part_of_speech">n:being,fic,deriv</column>
+      <column name="part_of_speech">n:being,deriv,fic</column>
       <column name="definition">Organian</column>
       <column name="definition_de">Organier</column>
       <column name="definition_fa">ارگانیک [AUTOTRANSLATED]</column>
@@ -1854,7 +1854,7 @@ Tämä sana on myös kirjoitettu {'orghenya'ngan:n:nolink}. [AUTOTRANSLATED]</co
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'orghenya'ngan</column>
-      <column name="part_of_speech">n:being,fic,alt,deriv</column>
+      <column name="part_of_speech">n:being,alt,deriv,fic</column>
       <column name="definition">{'orghengan:n}</column>
       <column name="definition_de">{'orghengan:n}</column>
       <column name="definition_fa">{'orghengan:n}</column>
@@ -1897,7 +1897,7 @@ Tämä sana on myös kirjoitettu {'orghenya'ngan:n:nolink}. [AUTOTRANSLATED]</co
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'orwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">pilot, one who operates (an aircraft)</column>
       <column name="definition_de">Pilot, jemand der ein Flugzeug lenkt</column>
       <column name="definition_fa">خلبان</column>
@@ -2029,7 +2029,7 @@ Tämä sana on myös kirjoitettu {'orghenya'ngan:n:nolink}. [AUTOTRANSLATED]</co
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">'oSwI'</column>
-          <column name="part_of_speech">n:deriv,being</column>
+          <column name="part_of_speech">n:being,deriv</column>
           <column name="definition">emissary</column>
           <column name="definition_de">Botschafter, Abgesandter</column>
           <column name="definition_fa">فرستاده [AUTOTRANSLATED]</column>
@@ -2588,7 +2588,7 @@ Tämä sana on myös kirjoitettu {'orghenya'ngan:n:nolink}. [AUTOTRANSLATED]</co
       <table name="mem">
         <column name="_id"></column>
         <column name="entry_name">'ovwI'</column>
-        <column name="part_of_speech">n:deriv,being</column>
+        <column name="part_of_speech">n:being,deriv</column>
         <column name="definition">competitor, player</column>
         <column name="definition_de">Konkurrent, Spieler</column>
         <column name="definition_fa">رقیب ، بازیکن [AUTOTRANSLATED]</column>

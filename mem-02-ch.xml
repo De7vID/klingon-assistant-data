@@ -1082,7 +1082,7 @@ Pakollinen verbin etuliite, kun kohde on {chaH:n:nolink}, on {tI-:v:pref}. [AUTO
       <!-- But which region? -->
       <column name="_id"></column>
       <column name="entry_name">chanDoq jeD</column>
-      <column name="part_of_speech">n:food,deriv,reg</column>
+      <column name="part_of_speech">n:deriv,food,reg</column>
       <column name="definition">thick marinade</column>
       <column name="definition_de">dicke Marinade</column>
       <column name="definition_fa">زعفران ضخیم [AUTOTRANSLATED]</column>
@@ -1476,7 +1476,7 @@ Pakollinen verbin etuliite, kun kohde on {chaH:n:nolink}, on {tI-:v:pref}. [AUTO
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">charghwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">victor, conqueror</column>
       <column name="definition_de">Sieger, Eroberer</column>
       <column name="definition_fa">پیروزی، فاتح [AUTOTRANSLATED]</column>
@@ -2681,7 +2681,7 @@ UM {chaw':n:nolink} mostra que você está oficialmente ou legalmente autorizado
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">cha'maH cha' joQDu'</column>
-      <column name="part_of_speech">n:deriv,idiom,plural,body</column>
+      <column name="part_of_speech">n:body,idiom,plural,deriv</column>
       <column name="definition">twenty-two ribs</column>
       <column name="definition_de">zweiundzwanzig Rippen</column>
       <column name="definition_fa">بیست و دو دنده [AUTOTRANSLATED]</column>
@@ -3269,7 +3269,7 @@ Also, in Spanish, "parpar" is the sound made by a duck.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">cha' qabDu'</column>
-      <column name="part_of_speech">n:deriv,idiom</column>
+      <column name="part_of_speech">n:idiom,deriv</column>
       <column name="definition">two faces</column>
       <column name="definition_de">zwei Gesichter</column>
       <column name="definition_fa">دو چهره [AUTOTRANSLATED]</column>
@@ -3985,7 +3985,7 @@ The following four examples illustrate the role of the object(s) and how to use 
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">chenmoHwI'</column>
-          <column name="part_of_speech">n:deriv,being</column>
+          <column name="part_of_speech">n:being,deriv</column>
           <column name="definition">creator, maker</column>
           <column name="definition_de">Schöpfer, Macher</column>
           <column name="definition_fa">خالق، سازنده [AUTOTRANSLATED]</column>
@@ -5126,7 +5126,7 @@ This word is defined in {TKD:src} as "rule, reign, run" and additionally in {KGT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chIjwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">navigator</column>
       <column name="definition_de">Navigator</column>
       <column name="definition_fa">ناوبر [AUTOTRANSLATED]</column>
@@ -6349,7 +6349,7 @@ Tätä verbiä voidaan käyttää avainten väärään sijoittamiseen, mutta my�
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chong</column>
-      <column name="part_of_speech">v:2,slang,is</column>
+      <column name="part_of_speech">v:2,is,slang</column>
       <column name="definition">be profound, be thorough, be careful; be good, be excellent</column>
       <column name="definition_de">gründlich sein, sorgfältig sein, vorsichtig sein; gut sein, ausgezeichnet sein</column>
       <column name="definition_fa">عمیق باشید، کامل باشید، مراقب باشید خوب بودن، عالی بودن [AUTOTRANSLATED]</column>
@@ -6680,7 +6680,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", the British expre
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chor</column>
-      <column name="part_of_speech">n:2,reg,food,alt</column>
+      <column name="part_of_speech">n:2,alt,food,reg</column>
       <column name="definition">{chor bargh:n}</column>
       <column name="definition_de">{chor bargh:n}</column>
       <column name="definition_fa">{chor bargh:n}</column>
@@ -6723,7 +6723,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", the British expre
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chor bargh</column>
-      <column name="part_of_speech">n:reg,food</column>
+      <column name="part_of_speech">n:food,reg</column>
       <column name="definition">ceramic flat-bottomed pot</column>
       <column name="definition_de">flacher Topf aus Keramik</column>
       <column name="definition_fa">دیگ کره زمین [AUTOTRANSLATED]</column>
@@ -7165,7 +7165,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", the British expre
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">chotwI'</column>
-          <column name="part_of_speech">n:deriv,being</column>
+          <column name="part_of_speech">n:being,deriv</column>
           <column name="definition">murderer</column>
           <column name="definition_de">Mörder</column>
           <column name="definition_fa">قاتل [AUTOTRANSLATED]</column>
@@ -7686,7 +7686,7 @@ In the "Radio Times Star Trek 30th Anniversary Special Issue", the British expre
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chuH</column>
-      <column name="part_of_speech">v:2,slang,t_c</column>
+      <column name="part_of_speech">v:2,t_c,slang</column>
       <column name="definition">explain clearly to, clarify for, specify for</column>
       <column name="definition_de">jmdm. klar machen, genau erklären</column>
       <column name="definition_fa">توضیح به وضوح، برای روشن شدن، مشخص برای [AUTOTRANSLATED]</column>
@@ -8491,7 +8491,7 @@ In the {TNG:src} novel {Power Hungry:src}, this was described as a four-stringed
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chut qeSwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">lawyer</column>
       <column name="definition_de">Anwalt</column>
       <column name="definition_fa">وکیل [AUTOTRANSLATED]</column>
@@ -8664,7 +8664,7 @@ In the {TNG:src} novel {Power Hungry:src}, this was described as a four-stringed
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chuvmey</column>
-      <column name="part_of_speech">n:deriv,plural</column>
+      <column name="part_of_speech">n:plural,deriv</column>
       <column name="definition">leftovers (grammatical term)</column>
       <column name="definition_de">Übrigbleibsel (gramm. Begriff)</column>
       <column name="definition_fa">باقی مانده (اصطلاح گرامری) [AUTOTRANSLATED]</column>
@@ -9023,7 +9023,7 @@ Katso Gowronin sanovan {chuyDaH yIlaQ!:sen:nolink}: {YouTube video:url:http://yo
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">chu'wI'</column>
-      <column name="part_of_speech">n:2,deriv,being</column>
+      <column name="part_of_speech">n:2,being,deriv</column>
       <column name="definition">player (of an instrument)</column>
       <column name="definition_de">Spieler (eines Musikinstruments)</column>
       <column name="definition_fa">بازیکن (از ابزار) [AUTOTRANSLATED]</column>

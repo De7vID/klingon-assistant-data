@@ -87,7 +87,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bach</column>
-      <column name="part_of_speech">v:t_c,weap,klcp1</column>
+      <column name="part_of_speech">v:t_c,klcp1,weap</column>
       <column name="definition">shoot</column>
       <column name="definition_de">schießen</column>
       <column name="definition_fa">(تیر) زدن</column>
@@ -148,7 +148,7 @@ That the target is marked with {-Daq:n:nolink} is known from {SkyBox 14:src} and
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bach</column>
-      <column name="part_of_speech">n:weap,klcp1</column>
+      <column name="part_of_speech">n:klcp1,weap</column>
       <column name="definition">shot</column>
       <column name="definition_de">Schuss</column>
       <column name="definition_fa">گلوله</column>
@@ -414,7 +414,7 @@ That the target is marked with {-Daq:n:nolink} is known from {SkyBox 14:src} and
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">baH</column>
-      <column name="part_of_speech">v:t_c,weap,klcp1</column>
+      <column name="part_of_speech">v:t_c,klcp1,weap</column>
       <column name="definition">fire (torpedo, rocket, missile)</column>
       <column name="definition_de">feuern</column>
       <column name="definition_fa">(موشک و غیره) انداختن</column>
@@ -532,7 +532,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/kWP0lgIYM
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">baHwI'</column>
-      <column name="part_of_speech">n:weap,being,deriv,klcp1</column>
+      <column name="part_of_speech">n:being,deriv,klcp1,weap</column>
       <column name="definition">gunner</column>
       <column name="definition_de">Schütze</column>
       <column name="definition_fa">تفنگدار [AUTOTRANSLATED]</column>
@@ -2669,7 +2669,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">beb mutlhwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">roofer, roof layer</column>
       <column name="definition_de">Dachdecker</column>
       <column name="definition_fa">روکش، لایه سقف [AUTOTRANSLATED]</column>
@@ -2755,7 +2755,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">begh</column>
-      <column name="part_of_speech">n:fic,inhpl</column>
+      <column name="part_of_speech">n:inhpl,fic</column>
       <column name="definition">deflectors</column>
       <column name="definition_de">Deflektoren</column>
       <column name="definition_fa">دفاعی [AUTOTRANSLATED]</column>
@@ -3519,7 +3519,7 @@ In the episode {DS9 - Sons and Daughters:src}, this word (Anglicised "bekk") was
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">beq pa'mey</column>
-      <column name="part_of_speech">n:deriv,plural</column>
+      <column name="part_of_speech">n:plural,deriv</column>
       <column name="definition">non-commissioned crew quarters</column>
       <column name="definition_de">Mannschaftsquartiere</column>
       <column name="definition_fa">محوطه خدمه غیرقانونی [AUTOTRANSLATED]</column>
@@ -3992,7 +3992,7 @@ In the episode {DS9 - Sons and Daughters:src}, this word (Anglicised "bekk") was
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">betleH</column>
-      <column name="part_of_speech">n:weap,fic</column>
+      <column name="part_of_speech">n:fic,weap</column>
       <column name="definition">type of hand weapon, bat'leth</column>
       <column name="definition_de">Bat'leth (Handwaffe)</column>
       <column name="definition_fa">نوع سلاح دست، بتله [AUTOTRANSLATED]</column>
@@ -4071,7 +4071,7 @@ Klingonin legendassa {qeylIS'e' lIjlaHbe'bogh vay':n:name} vääristi alkuperäi
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">betleH bey'</column>
-          <column name="part_of_speech">n:weap,deriv,fic</column>
+          <column name="part_of_speech">n:deriv,fic,weap</column>
           <column name="definition">bat'leth display</column>
           <column name="definition_de">Bat'leth-Ständer</column>
           <column name="definition_fa">نمایشگر bat'leth [AUTOTRANSLATED]</column>
@@ -4642,7 +4642,7 @@ Klingonin legendassa {qeylIS'e' lIjlaHbe'bogh vay':n:name} vääristi alkuperäi
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">be'Hom</column>
-      <column name="part_of_speech">n:deriv,being,klcp1</column>
+      <column name="part_of_speech">n:being,deriv,klcp1</column>
       <column name="definition">girl</column>
       <column name="definition_de">Mädchen, weibliches Kind</column>
       <column name="definition_fa">دختر </column>
@@ -7254,7 +7254,7 @@ The clarification about clothing was made during the Q &amp; A session at {qep'a
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bIreQtagh</column>
-      <column name="part_of_speech">n:fic,food,deriv</column>
+      <column name="part_of_speech">n:deriv,fic,food</column>
       <column name="definition">bregit lung</column>
       <column name="definition_de">Bregit-Lunge</column>
       <column name="definition_fa">رگ رگ [AUTOTRANSLATED]</column>
@@ -8450,7 +8450,7 @@ For the Pittsburgh Art Tour, Marc Okrand suggested to translate "space capsule" 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">boD</column>
-      <column name="part_of_speech">n:reg,body</column>
+      <column name="part_of_speech">n:body,reg</column>
       <column name="definition">forehead</column>
       <column name="definition_de">Stirn</column>
       <column name="definition_fa">پیشانی</column>
@@ -11735,7 +11735,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">burgh quD</column>
-      <column name="part_of_speech">n:deriv,food,fic</column>
+      <column name="part_of_speech">n:deriv,fic,food</column>
       <column name="definition">naturally produced {quD:n:nolink}</column>
       <column name="definition_de">natürlich hergestelltes {quD:n:nolink}</column>
       <column name="definition_fa">به طور طبیعی تولید می شود {quD:n:nolink} [AUTOTRANSLATED]</column>

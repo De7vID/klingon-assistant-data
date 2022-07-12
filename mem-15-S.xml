@@ -3089,7 +3089,7 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">SenwI'</column>
-          <column name="part_of_speech">n:deriv,body</column>
+          <column name="part_of_speech">n:body,deriv</column>
           <column name="definition">thumb (adult)</column>
           <column name="definition_de">Daumen (eines Erwachsenen)</column>
           <column name="definition_fa">انگشت شست (بالغ) [AUTOTRANSLATED]</column>
@@ -3320,7 +3320,7 @@ Koska tämä on muu kuin klingonilainen nimi, siinä on jonkin verran vaihtelua 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Senjaw</column>
-      <column name="part_of_speech">n:name,fic,alt</column>
+      <column name="part_of_speech">n:name,alt,fic</column>
       <column name="definition">{Senjo':n:name}</column>
       <column name="definition_de">{Senjo':n:name}</column>
       <column name="definition_fa">{Senjo':n:name}</column>
@@ -5010,7 +5010,7 @@ The existence of the homophonous noun {Sev:n} may suggest that Klingons view the
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SIjwI'</column>
-      <column name="part_of_speech">n:food,deriv</column>
+      <column name="part_of_speech">n:deriv,food</column>
       <column name="definition">type of knife (used for food preparation)</column>
       <column name="definition_de">Messer zur Essenszubereitung</column>
       <column name="definition_fa">نوع چاقو (برای تهیه غذا استفاده می شود) [AUTOTRANSLATED]</column>
@@ -5592,7 +5592,7 @@ Jos työvälinettä käytetään tyypillisesti sormen suorittamaan toimintaan, v
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">SIqwI'</column>
-          <column name="part_of_speech">n:deriv,body</column>
+          <column name="part_of_speech">n:body,deriv</column>
           <column name="definition">index finger, first finger</column>
           <column name="definition_de">Zeigefinger</column>
           <column name="definition_fa">انگشت اشاره، انگشت اول [AUTOTRANSLATED]</column>
@@ -5678,7 +5678,7 @@ Jos työvälinettä käytetään tyypillisesti sormen suorittamaan toimintaan, v
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SIqral</column>
-      <column name="part_of_speech">n:place,fic,alt,noanki</column>
+      <column name="part_of_speech">n:place,alt,fic,noanki</column>
       <column name="definition">{SIqral bIQtIq:n}</column>
       <column name="definition_de">{SIqral bIQtIq:n}</column>
       <column name="definition_fa">{SIqral bIQtIq:n}</column>
@@ -8454,7 +8454,7 @@ Tämä sana voi viitata myös "klubipukuun" pelikorttipakassa (katso {Degh:n:1})
           <!-- This is here, rather than in the examples file, for symmetry with {vavoy:n}, which does appear in canon. -->
           <column name="_id"></column>
           <column name="entry_name">SoSoy</column>
-          <column name="part_of_speech">n:deriv,being</column>
+          <column name="part_of_speech">n:being,deriv</column>
           <column name="definition">mommy</column>
           <column name="definition_de">Mami</column>
           <column name="definition_fa">مامان [AUTOTRANSLATED]</column>
@@ -8885,7 +8885,7 @@ Tämä sana voi viitata myös "klubipukuun" pelikorttipakassa (katso {Degh:n:1})
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Soy'</column>
-      <column name="part_of_speech">v:2,reg,is</column>
+      <column name="part_of_speech">v:2,is,reg</column>
       <column name="definition">be messy</column>
       <column name="definition_de">unordentlich sein</column>
       <column name="definition_fa">ببخشید [AUTOTRANSLATED]</column>
@@ -10361,7 +10361,7 @@ In a message to the {KLI mailing list 2021.02.28:src}, Maltz even said the Kling
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Suqqa'</column>
-      <column name="part_of_speech">v:deriv,t_c</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">prepare kud in a specific way</column>
       <column name="definition_de">Kud auf besondere Weise herstellen</column>
       <column name="definition_fa">kud را به روش خاصی آماده کردن [AUTOTRANSLATED]</column>
@@ -11410,7 +11410,7 @@ The way this word has appeared in English has been inconsistent between whether 
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">SuvwI'</column>
-          <column name="part_of_speech">n:deriv,being,klcp1</column>
+          <column name="part_of_speech">n:being,deriv,klcp1</column>
           <column name="definition">warrior</column>
           <column name="definition_de">Krieger</column>
           <column name="definition_fa">جنگجو، مبارز</column>
