@@ -174,7 +174,7 @@
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">qabDu' law'</column>
-          <column name="part_of_speech">n:deriv,idiom</column>
+          <column name="part_of_speech">n:idiom,deriv</column>
           <column name="definition">many faces</column>
           <column name="definition_de">viele Gesichter</column>
           <column name="definition_fa">چهره های بسیاری [AUTOTRANSLATED]</column>
@@ -620,7 +620,7 @@ Katso {qach:n}-osat {qoD:n}-osasta kohdasta {pa':n:1}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qaDrav</column>
-      <column name="part_of_speech">n:place,fic,deriv</column>
+      <column name="part_of_speech">n:place,deriv,fic</column>
       <column name="definition">challenge floor</column>
       <column name="definition_de">Herausforderungs-Plattform</column>
       <column name="definition_fa">طبقه چالش [AUTOTRANSLATED]</column>
@@ -941,7 +941,7 @@ On idioomi {ghung; qagh rur@@ghung:v, qagh:n, rur:v}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qagh vIychorgh</column>
-      <column name="part_of_speech">n:reg,fic,food,deriv</column>
+      <column name="part_of_speech">n:deriv,fic,food,reg</column>
       <column name="definition">sauce for gagh</column>
       <column name="definition_de">Gagh-Soße</column>
       <column name="definition_fa">سس برای گاگ [AUTOTRANSLATED]</column>
@@ -984,7 +984,7 @@ On idioomi {ghung; qagh rur@@ghung:v, qagh:n, rur:v}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qaH</column>
-      <column name="part_of_speech">n:klcp1,being</column>
+      <column name="part_of_speech">n:being,klcp1</column>
       <column name="definition">sir</column>
       <column name="definition_de">Sir, Lord, Herr</column>
       <column name="definition_fa">آقا [AUTOTRANSLATED]</column>
@@ -1648,7 +1648,7 @@ Tätä sanaa käytetään ihmisiin ja eläimiin[2] [AUTOTRANSLATED]</column>
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">qanwI'</column>
-          <column name="part_of_speech">n:deriv,body</column>
+          <column name="part_of_speech">n:body,deriv</column>
           <column name="definition">pinkie, little finger</column>
           <column name="definition_de">kleiner Finger</column>
           <column name="definition_fa">انگشت کوچک</column>
@@ -2390,7 +2390,7 @@ For "oh, yeah?" as an expression of disbelief or defiance, see {bItaHrup'a'?:sen
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qarDaSngan</column>
-      <column name="part_of_speech">n:being,fic,deriv</column>
+      <column name="part_of_speech">n:being,deriv,fic</column>
       <column name="definition">Cardassian (person)</column>
       <column name="definition_de">Cardassianer</column>
       <column name="definition_fa">کارداسی (شخص)</column>
@@ -3379,16 +3379,18 @@ Joku, jolla on erinomainen muisti, voidaan sanoa olevan {qaw pov:n@@qaw:n, pov:v
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{De':n}, {mem:n}, {wa'chaw:n}</column>
-          <column name="notes">This word is singular.</column>
-          <column name="notes_de">Dieses Wort ist einzigartig. [AUTOTRANSLATED]</column>
-          <column name="notes_fa">این کلمه مفرد است. [AUTOTRANSLATED]</column>
-          <column name="notes_sv">Detta ord är singular. [AUTOTRANSLATED]</column>
-          <column name="notes_ru">Это слово в единственном числе. [AUTOTRANSLATED]</column>
-          <column name="notes_zh_HK">這個詞是單數。 [AUTOTRANSLATED]</column>
-          <column name="notes_pt">Esta palavra é singular. [AUTOTRANSLATED]</column>
-          <column name="notes_fi">Tämä sana on yksikkö. [AUTOTRANSLATED]</column>
-          <column name="hidden_notes"></column>
-          <column name="components"></column>
+          <column name="notes">This word is singular.[2]
+
+The first part of this word is {qaw:n}, but the second part has nothing to do with surgery (see {Haq:v:1}). The resemblance is just a coincidence.[3]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes">This is defined as "memory banks" in {TKD:src} and as "data banks (singular)" in {TKDA:src}.</column>
+          <column name="components">{qaw:n}, {Haq:n:hyp,nolink}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -3405,7 +3407,7 @@ Joku, jolla on erinomainen muisti, voidaan sanoa olevan {qaw pov:n@@qaw:n, pov:v
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
-          <column name="source">[1] {TKD:src}, [2] {TKDA:src}</column>
+          <column name="source">[1] {TKD:src}, [2] {TKDA:src}, [3] {KLI mailing list 2018.02.06:src}</column>
         </table>
         <table name="mem">
           <column name="_id"></column>
@@ -3635,7 +3637,7 @@ This is confirmed as intransitive since {qaw'moH:v} was also glossed as "make so
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">qaywI'</column>
-          <column name="part_of_speech">n:deriv,body</column>
+          <column name="part_of_speech">n:body,deriv</column>
           <column name="definition">middle finger, second finger</column>
           <column name="definition_de">Mittelfinger</column>
           <column name="definition_fa">انگشت میانی، انگشت دوم [AUTOTRANSLATED]</column>
@@ -5068,7 +5070,7 @@ The information about the length comes from {The Star Trek Encyclopedia, 4th ed.
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qelpIya'ngan</column>
-      <column name="part_of_speech">n:being,fic,alt</column>
+      <column name="part_of_speech">n:being,alt,fic</column>
       <column name="definition">{qelpIngan:n}</column>
       <column name="definition_de">{qelpIngan:n}</column>
       <column name="definition_fa">{qelpIngan:n}</column>
@@ -5155,7 +5157,7 @@ The information about the length comes from {The Star Trek Encyclopedia, 4th ed.
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qempa'</column>
-      <column name="part_of_speech">n:inhps,being</column>
+      <column name="part_of_speech">n:being,inhps</column>
       <column name="definition">ancestor</column>
       <column name="definition_de">Vorfahre</column>
       <column name="definition_fa">اجداد [AUTOTRANSLATED]</column>
@@ -6466,7 +6468,7 @@ Kuuluisa kirjailija {Qa'taq:n:name} kirjoitti kommentin tähän teokseen. [AUTOT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qewwI'</column>
-      <column name="part_of_speech">n:deriv,body</column>
+      <column name="part_of_speech">n:body,deriv</column>
       <column name="definition">ring finger, third finger</column>
       <column name="definition_de">Ringfinger, dritter Finger</column>
       <column name="definition_fa">انگشت حلقه، انگشت سوم [AUTOTRANSLATED]</column>
@@ -6640,7 +6642,7 @@ Kuuluisa kirjailija {Qa'taq:n:name} kirjoitti kommentin tähän teokseen. [AUTOT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qeylIS'e' lIjlaHbe'bogh vay'</column>
-      <column name="part_of_speech">n:name,fic,deriv</column>
+      <column name="part_of_speech">n:name,deriv,fic</column>
       <column name="definition">Kahless the Unforgettable</column>
       <column name="definition_de">Kahless der Unvergessliche</column>
       <column name="definition_fa">کاهلِس ازیادنرفتنی</column>
@@ -6707,7 +6709,7 @@ Hänen paluunsa on ennustettu Lupauksen tarinassa, jossa todetaan seuraavaa:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qeylIS</column>
-      <column name="part_of_speech">n:name,fic,alt,noanki</column>
+      <column name="part_of_speech">n:name,alt,fic,noanki</column>
       <column name="definition">{qeylIS'e' lIjlaHbe'bogh vay':n:name}</column>
       <column name="definition_de">{qeylIS'e' lIjlaHbe'bogh vay':n:name}</column>
       <column name="definition_fa">{qeylIS'e' lIjlaHbe'bogh vay':n:name}</column>
@@ -7927,7 +7929,7 @@ This was used for "Cancel" (while {ruch:v} was used for "Ok") in Klingon Blockly
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qIrq</column>
-      <column name="part_of_speech">n:name,fic,alt,noanki</column>
+      <column name="part_of_speech">n:name,alt,fic,noanki</column>
       <column name="definition">{jemS tIy qIrq:n:name}</column>
       <column name="definition_de">{jemS tIy qIrq:n:name}</column>
       <column name="definition_fa">{jemS tIy qIrq:n:name}</column>
@@ -9245,49 +9247,6 @@ The unusual suffix placement ({tuQmoHHa':v:nolink} rather than {tuQHa'moH:v}) oc
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">qoleq</column>
-      <column name="part_of_speech">n:name,fic,alt,noanki</column>
-      <column name="definition">{qo'leq:n:name}</column>
-      <column name="definition_de">{qo'leq:n:name}</column>
-      <column name="definition_fa">{qo'leq:n:name}</column>
-      <column name="definition_sv">{qo'leq:n:name}</column>
-      <column name="definition_ru">{qo'leq:n:name}</column>
-      <column name="definition_zh_HK">{qo'leq:n:name}</column>
-      <column name="definition_pt">{qo'leq:n:name}</column>
-      <column name="definition_fi">{qo'leq:n:name}</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This name is untranslated in {KGT:src}, and is possibly a misspelling for {qo'leq:n:name}.</column>
-      <column name="notes_de">Dieser Name ist in {KGT:src} nicht übersetzt und möglicherweise ein Rechtschreibfehler für {qo'leq:n:name}.</column>
-      <column name="notes_fa">این نام در {KGT:src} ترجمه نشده است ، و احتمالاً اشتباه برای {qo'leq:n:name} است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta namn är inte översatt i {KGT:src} och är eventuellt en stavfel för {qo'leq:n:name}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это имя не переведено в {KGT:src} и, возможно, является ошибочным написанием для {qo'leq:n:name}. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">該名稱在{KGT:src}中未翻譯，可能是{qo'leq:n:name}的拼寫錯誤。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Este nome não está traduzido em {KGT:src} e é possivelmente um erro ortográfico para {qo'leq:n:name}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tätä nimeä ei ole käännetty kielellä {KGT:src}, ja se on mahdollisesti kirjoitusvirhe {qo'leq:n:name}: lle. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
-      <column name="source">[1] {KGT:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
       <column name="entry_name">qolotlh</column>
       <column name="part_of_speech">n:name,fic</column>
       <column name="definition">Koloth</column>
@@ -9518,7 +9477,7 @@ On toinenkin verbi, {gher:v}, jota käytetään luetteloiden ja vastaavien kokoa
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qonwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">songwriter</column>
       <column name="definition_de">Komponist</column>
       <column name="definition_fa">ترانه سرا [AUTOTRANSLATED]</column>
@@ -9690,7 +9649,7 @@ On toinenkin verbi, {gher:v}, jota käytetään luetteloiden ja vastaavien kokoa
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qoq De'wI' Dojmey</column>
-      <column name="part_of_speech">n:deriv,plural</column>
+      <column name="part_of_speech">n:plural,deriv</column>
       <column name="definition">botnet (computer jargon)</column>
       <column name="definition_de">Botnet (Computerbegriff)</column>
       <column name="definition_fa">بوت نت (اصطلاح کامپیوتری) [AUTOTRANSLATED]</column>
@@ -11643,7 +11602,7 @@ There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire 
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">qul mI'wI'</column>
-          <column name="part_of_speech">n:deriv,being</column>
+          <column name="part_of_speech">n:being,deriv</column>
           <column name="definition">fire dancer</column>
           <column name="definition_de">Feuer-Tänzer</column>
           <column name="definition_fa">رقصنده آتش [AUTOTRANSLATED]</column>
@@ -11821,7 +11780,7 @@ There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire 
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">qul qaDwI'</column>
-          <column name="part_of_speech">n:deriv,being</column>
+          <column name="part_of_speech">n:being,deriv</column>
           <column name="definition">fire challenger</column>
           <column name="definition_de">Feuer-Herausforderer</column>
           <column name="definition_fa">چالشگر آتش [AUTOTRANSLATED]</column>
@@ -11864,7 +11823,7 @@ There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire 
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">qul SuvwI'</column>
-          <column name="part_of_speech">n:deriv,being</column>
+          <column name="part_of_speech">n:being,deriv</column>
           <column name="definition">fire warrior, fire fighter</column>
           <column name="definition_de">Feuer-Krieger</column>
           <column name="definition_fa">جنگجوی آتش نشانی ، آتش نشان [AUTOTRANSLATED]</column>
@@ -11907,7 +11866,7 @@ There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire 
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">qul tuq</column>
-          <column name="part_of_speech">n:name,fic,deriv</column>
+          <column name="part_of_speech">n:name,deriv,fic</column>
           <column name="definition">House of Fire, name of an opera</column>
           <column name="definition_de">Haus des Feuers, Name einer Oper</column>
           <column name="definition_fa">خانه آتش، نام اپرا [AUTOTRANSLATED]</column>
@@ -11950,7 +11909,7 @@ There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire 
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">qul tlhay'moHwI'</column>
-          <column name="part_of_speech">n:deriv,being</column>
+          <column name="part_of_speech">n:being,deriv</column>
           <column name="definition">fire tamer</column>
           <column name="definition_de">Feuer-Zähmer</column>
           <column name="definition_fa">رام کننده آتش [AUTOTRANSLATED]</column>
@@ -12581,7 +12540,7 @@ Tätä sanaa ei voida käyttää maassa olevaan reikään (josta katso {QemjIq:n
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qup'a'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">patriarch, matriarch</column>
       <column name="definition_de">Patriarch, Patriarchin</column>
       <column name="definition_fa">وطن پرست، ماتریال [AUTOTRANSLATED]</column>
@@ -12778,7 +12737,7 @@ Tätä sanaa ei voida käyttää maassa olevaan reikään (josta katso {QemjIq:n
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qurbuSwI'</column>
-      <column name="part_of_speech">n:reg,being</column>
+      <column name="part_of_speech">n:being,reg</column>
       <column name="definition">architect (Morskan)</column>
       <column name="definition_de">Architekt (Morska)</column>
       <column name="definition_fa">معمار (مركان) [AUTOTRANSLATED]</column>
@@ -13253,7 +13212,7 @@ Tätä sanaa ei voida käyttää maassa olevaan reikään (josta katso {QemjIq:n
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qut na'</column>
-      <column name="part_of_speech">n:food,deriv</column>
+      <column name="part_of_speech">n:deriv,food</column>
       <column name="definition">salt (culinary, halite)</column>
       <column name="definition_de">Salz (kulinarisch, Halit)</column>
       <column name="definition_fa">نمک (آشپزی ، هالیت) [AUTOTRANSLATED]</column>
@@ -13339,7 +13298,7 @@ Tätä sanaa ei voida käyttää maassa olevaan reikään (josta katso {QemjIq:n
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qutluch</column>
-      <column name="part_of_speech">n:weap,fic</column>
+      <column name="part_of_speech">n:fic,weap</column>
       <column name="definition">kut'luch, type of hand weapon</column>
       <column name="definition_de">Kut'luch, Handwaffe</column>
       <column name="definition_fa">kut'luch، نوع سلاح دست [AUTOTRANSLATED]</column>
@@ -13794,7 +13753,7 @@ Huomaa, että {ghaj:v}: ta ja {Hutlh:v}: ää voidaan käyttää tämän substan
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">quv bey'</column>
-          <column name="part_of_speech">n:weap,deriv,fic</column>
+          <column name="part_of_speech">n:deriv,fic,weap</column>
           <column name="definition">honor display</column>
           <column name="definition_de">Ehrenanzeige</column>
           <column name="definition_fa">نماز افتخار [AUTOTRANSLATED]</column>

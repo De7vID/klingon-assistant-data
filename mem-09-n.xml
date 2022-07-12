@@ -260,7 +260,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">naD tetlh</column>
-      <column name="part_of_speech">n:fic,deriv</column>
+      <column name="part_of_speech">n:deriv,fic</column>
       <column name="definition">Commendation List</column>
       <column name="definition_de">Auszeichnungsliste</column>
       <column name="definition_fa">لیست دلبستگی [AUTOTRANSLATED]</column>
@@ -1101,7 +1101,7 @@ Não confunda esta palavra com {naQjej:n}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">naHlet</column>
-      <column name="part_of_speech">n:food,deriv</column>
+      <column name="part_of_speech">n:deriv,food</column>
       <column name="definition">nut, nuts</column>
       <column name="definition_de">Nuss, Nüsse</column>
       <column name="definition_fa">مهره، آجیل [AUTOTRANSLATED]</column>
@@ -1790,7 +1790,7 @@ Não confunda esta palavra com {naQjej:n}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nanwI'</column>
-      <column name="part_of_speech">n:2,deriv,body</column>
+      <column name="part_of_speech">n:2,body,deriv</column>
       <column name="definition">fourth toe</column>
       <column name="definition_de">vierter Zehe</column>
       <column name="definition_fa">انگشت چهارم [AUTOTRANSLATED]</column>
@@ -3426,7 +3426,7 @@ Não confunda esta palavra com {naHjej:n}. [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">negh</column>
-      <column name="part_of_speech">n:inhpl,being</column>
+      <column name="part_of_speech">n:being,inhpl</column>
       <column name="definition">soldiers</column>
       <column name="definition_de">Soldaten</column>
       <column name="definition_fa">سربازان</column>
@@ -4256,7 +4256,7 @@ Kun sitä käytetään esineisiin, jotka tulevat pareittain, kuten sukat ja käs
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nentay</column>
-      <column name="part_of_speech">n:fic,deriv</column>
+      <column name="part_of_speech">n:deriv,fic</column>
       <column name="definition">Rite of Ascension</column>
       <column name="definition_de">Ritus des Aufsteigens</column>
       <column name="definition_fa">ریاست آسمانی [AUTOTRANSLATED]</column>
@@ -6805,7 +6805,7 @@ Katso selitys näiden sormiverbien käytöstä kohdasta {SIq:v}. [AUTOTRANSLATED
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nItlh Su'nIm</column>
-      <column name="part_of_speech">n:deriv,body</column>
+      <column name="part_of_speech">n:body,deriv</column>
       <column name="definition">fingerprint (ridges on fingertip)</column>
       <column name="definition_de">Fingerabdruck (Rillen auf der Fingerkuppe)</column>
       <column name="definition_fa">اثر انگشت (رگی در نوک انگشت) [AUTOTRANSLATED]</column>
@@ -7595,7 +7595,7 @@ Katso selitys näiden sormiverbien käytöstä kohdasta {SIq:v}. [AUTOTRANSLATED
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">noDwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">avenger</column>
       <column name="definition_de">Rächer</column>
       <column name="definition_fa">انتقام گیرنده [AUTOTRANSLATED]</column>
@@ -8160,7 +8160,7 @@ Katso selitys näiden sormiverbien käytöstä kohdasta {SIq:v}. [AUTOTRANSLATED
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nong</column>
-      <column name="part_of_speech">v:2,is,slang,archaic,alt</column>
+      <column name="part_of_speech">v:2,is,alt,archaic,slang</column>
       <column name="definition">{qu':v:2,slang}</column>
       <column name="definition_de">{qu':v:2,slang}</column>
       <column name="definition_fa">{qu':v:2,slang}</column>
@@ -9115,7 +9115,7 @@ It's probably a coincidence, but نوک is also the Persian word for "nipple".</
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">no'</column>
-      <column name="part_of_speech">n:inhpl,being</column>
+      <column name="part_of_speech">n:being,inhpl</column>
       <column name="definition">ancestors</column>
       <column name="definition_de">Vorfahren</column>
       <column name="definition_fa">اجداد [AUTOTRANSLATED]</column>
@@ -9460,7 +9460,7 @@ It's probably a coincidence, but نوک is also the Persian word for "nipple".</
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">no''och</column>
-      <column name="part_of_speech">n:reg,body</column>
+      <column name="part_of_speech">n:body,reg</column>
       <column name="definition">forehead</column>
       <column name="definition_de">Stirn</column>
       <column name="definition_fa">پیشانی</column>
@@ -9935,7 +9935,7 @@ It's probably a coincidence, but نوک is also the Persian word for "nipple".</
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nuH</column>
-      <column name="part_of_speech">n:1,weap,klcp1</column>
+      <column name="part_of_speech">n:1,klcp1,weap</column>
       <column name="definition">weapon</column>
       <column name="definition_de">Waffe</column>
       <column name="definition_fa">سلاح [AUTOTRANSLATED]</column>
@@ -10023,7 +10023,7 @@ It's probably a coincidence, but نوک is also the Persian word for "nipple".</
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nuH bey'</column>
-      <column name="part_of_speech">n:weap,deriv,fic</column>
+      <column name="part_of_speech">n:deriv,fic,weap</column>
       <column name="definition">Pride of Weapons</column>
       <column name="definition_de">Waffenständer (Auslage)</column>
       <column name="definition_fa">افتخار اسلحه [AUTOTRANSLATED]</column>
@@ -10066,7 +10066,7 @@ It's probably a coincidence, but نوک is also the Persian word for "nipple".</
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nuH HoS 'och</column>
-      <column name="part_of_speech">n:deriv,weap,fic</column>
+      <column name="part_of_speech">n:deriv,fic,weap</column>
       <column name="definition">weapon(s) power conduit</column>
       <column name="definition_de">Waffenenergieleitung</column>
       <column name="definition_fa">نیروی سلاح (ها) [AUTOTRANSLATED]</column>
@@ -10195,7 +10195,7 @@ It's probably a coincidence, but نوک is also the Persian word for "nipple".</
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nuHmey</column>
-      <column name="part_of_speech">n:deriv,plural</column>
+      <column name="part_of_speech">n:plural,deriv</column>
       <column name="definition">arsenal</column>
       <column name="definition_de">Arsenal</column>
       <column name="definition_fa">انبار مهمات [AUTOTRANSLATED]</column>
@@ -11311,7 +11311,7 @@ Katso oppitunti tästä sanasta: {YouTube video:url:http://youtu.be/auqS6FR_RDE}
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nuralngan</column>
-      <column name="part_of_speech">n:being,fic,deriv</column>
+      <column name="part_of_speech">n:being,deriv,fic</column>
       <column name="definition">Neuralese</column>
       <column name="definition_de">Neuralese</column>
       <column name="definition_fa">عصبی [AUTOTRANSLATED]</column>

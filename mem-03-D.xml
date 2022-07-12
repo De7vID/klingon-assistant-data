@@ -1819,7 +1819,7 @@ Hyväksyttävä tapa muotoilla tämä vaatimus kysymykseksi on {nuq DaDab?:sen:n
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Daqtagh</column>
-      <column name="part_of_speech">n:weap,fic</column>
+      <column name="part_of_speech">n:fic,weap</column>
       <column name="definition">warrior's knife, d'k tahg</column>
       <column name="definition_de">Kriegermesser, D'ktahg</column>
       <column name="definition_fa">چاقوی جنگجو ، d tahg [AUTOTRANSLATED]</column>
@@ -1993,7 +1993,7 @@ Hyväksyttävä tapa muotoilla tämä vaatimus kysymykseksi on {nuq DaDab?:sen:n
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Dargh wIb</column>
-      <column name="part_of_speech">n:food,deriv</column>
+      <column name="part_of_speech">n:deriv,food</column>
       <column name="definition">sour tea</column>
       <column name="definition_de">Sauertee</column>
       <column name="definition_fa">چای ترش</column>
@@ -2502,7 +2502,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Dav:v:2}.[1] [AUTOTR
       <!-- The text was translated by Marc Okrand. -->
       <column name="_id"></column>
       <column name="entry_name">DawI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">actor, actress</column>
       <column name="definition_de">Schauspieler</column>
       <column name="definition_fa">بازیگر، هنرپیشه</column>
@@ -3509,7 +3509,7 @@ When asked if this was a pun about democratic governments being more transparent
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DenIbya'</column>
-      <column name="part_of_speech">n:place,fic,alt</column>
+      <column name="part_of_speech">n:place,alt,fic</column>
       <column name="definition">{DenIb:n}</column>
       <column name="definition_de">{DenIb:n}</column>
       <column name="definition_fa">{DenIb:n}</column>
@@ -3611,7 +3611,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7qXuTn9Hp
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DenIbya' Qatlh</column>
-      <column name="part_of_speech">n:anim,alt</column>
+      <column name="part_of_speech">n:alt,anim</column>
       <column name="definition">{DenIb Qatlh:n}</column>
       <column name="definition_de">{DenIb Qatlh:n}</column>
       <column name="definition_fa">{DenIb Qatlh:n}</column>
@@ -3654,7 +3654,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7qXuTn9Hp
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DenIbngan</column>
-      <column name="part_of_speech">n:being,fic,deriv</column>
+      <column name="part_of_speech">n:being,deriv,fic</column>
       <column name="definition">Denebian</column>
       <column name="definition_de">Denebianer</column>
       <column name="definition_fa">دانبیان [AUTOTRANSLATED]</column>
@@ -3697,7 +3697,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7qXuTn9Hp
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DenIbya'ngan</column>
-      <column name="part_of_speech">n:being,fic,alt,deriv</column>
+      <column name="part_of_speech">n:being,alt,deriv,fic</column>
       <column name="definition">{DenIbngan:n}</column>
       <column name="definition_de">{DenIbngan:n}</column>
       <column name="definition_fa">{DenIbngan:n}</column>
@@ -4188,7 +4188,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">DeSqIv</column>
-          <column name="part_of_speech">n:deriv,body</column>
+          <column name="part_of_speech">n:body,deriv</column>
           <column name="definition">elbow</column>
           <column name="definition_de">Ellenbogen</column>
           <column name="definition_fa">ارنج</column>
@@ -4405,7 +4405,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DevwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">leader</column>
       <column name="definition_de">Anführer</column>
       <column name="definition_fa">رهبر</column>
@@ -8149,7 +8149,7 @@ If this verb follows the example of {qawmoH:v}, then the subject of {DoHmoH:v:no
       <table name="mem">
         <column name="_id"></column>
         <column name="entry_name">Dojmey</column>
-        <column name="part_of_speech">n:deriv,plural</column>
+        <column name="part_of_speech">n:plural,deriv</column>
         <column name="definition">mass, masses, multitude, a very large but indeterminate group of something</column>
         <column name="definition_de">Massen, Mengen, eine große aber unbekannte Anzahl von Gegenständen oder Personen</column>
         <column name="definition_fa">توده، توده ها، جمعیت، یک گروه بسیار بزرگ اما نامعلوم چیزی است [AUTOTRANSLATED]</column>
@@ -9921,7 +9921,7 @@ This was defined as "side". The clarification "direction, face" was added to dif
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Do'ol na'</column>
-      <column name="part_of_speech">n:food,deriv</column>
+      <column name="part_of_speech">n:deriv,food</column>
       <column name="definition">salt (culinary, halite)</column>
       <column name="definition_de">Salz (kulinarisch, Halit)</column>
       <column name="definition_fa">نمک (آشپزی ، هالیت) [AUTOTRANSLATED]</column>
@@ -11561,7 +11561,7 @@ Katso erillinen piikki, kuten panos, kohdasta {wIl:n}. [AUTOTRANSLATED]</column>
       <!-- Note that since this is "inhpl" with no singular form, we have to leave components blank. -->
       <column name="_id"></column>
       <column name="entry_name">Duran lung DIr</column>
-      <column name="part_of_speech">n:inhpl,food,fic</column>
+      <column name="part_of_speech">n:inhpl,fic,food</column>
       <column name="definition">Durani lizard skins</column>
       <column name="definition_de">Durani Echsenhäute</column>
       <column name="definition_fa">پوست مارمولک دورانی</column>
@@ -12224,7 +12224,7 @@ A distinção entre um {DuS:n:nolink} e um {chetvI':n:1} tem a ver com como o pr
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">Du'Hom mI'</column>
-          <column name="part_of_speech">n:slang,deriv</column>
+          <column name="part_of_speech">n:deriv,slang</column>
           <column name="definition">random number</column>
           <column name="definition_de">Zufallszahl</column>
           <column name="definition_fa">شماره تصادفی [AUTOTRANSLATED]</column>

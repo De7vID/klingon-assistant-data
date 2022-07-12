@@ -957,7 +957,7 @@ Mikä tahansa paikka, joka on nimenomaisesti tarkoitettu tietyn tehtävän tai t
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yan</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:weap</column>
       <column name="definition">sword</column>
       <column name="definition_de">Schwert</column>
       <column name="definition_fa">شمشیر</column>
@@ -1061,7 +1061,7 @@ Tätä sanaa käytetään myös slangina "jouselle", jota käytetään pelaamaan
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yan</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,weap</column>
       <column name="definition">use or manipulate a sword</column>
       <column name="definition_de">ein Schwert handhaben</column>
       <column name="definition_fa">استفاده یا دستکاری شمشیر [AUTOTRANSLATED]</column>
@@ -1104,7 +1104,7 @@ Tätä sanaa käytetään myös slangina "jouselle", jota käytetään pelaamaan
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yanwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv,weap</column>
       <column name="definition">swordfighter</column>
       <column name="definition_de">Schwertkämpfer</column>
       <column name="definition_fa">شمشیرزن [AUTOTRANSLATED]</column>
@@ -1390,7 +1390,7 @@ Sotilasmerkityksen lisäksi tämä sana voi viitata säännöstelyvaltaa käytt�
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yaS pa'mey</column>
-      <column name="part_of_speech">n:deriv,plural</column>
+      <column name="part_of_speech">n:plural,deriv</column>
       <column name="definition">officers' quarters</column>
       <column name="definition_de">Offiziersquartiere</column>
       <column name="definition_fa">چهارم افسران [AUTOTRANSLATED]</column>
@@ -6989,7 +6989,7 @@ The first and second {yu:n:nolink} are not an octave apart, but rather a nonave 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yuQjIjDIvI'</column>
-      <column name="part_of_speech">n:place,fic,deriv</column>
+      <column name="part_of_speech">n:place,deriv,fic</column>
       <column name="definition">United Federation of Planets</column>
       <column name="definition_de">Vereinigte Föderation der Planeten</column>
       <column name="definition_fa">فدراسیون جهانی سیارات [AUTOTRANSLATED]</column>

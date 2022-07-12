@@ -87,7 +87,7 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghab tun</column>
-      <column name="part_of_speech">n:food,reg,deriv</column>
+      <column name="part_of_speech">n:deriv,food,reg</column>
       <column name="definition">meat from midsection of animal, no bones</column>
       <column name="definition_de">Fleisch vom Rumpf des Tieres, ohne Knochen</column>
       <column name="definition_fa">گوشت از متوسط ​​ماده حیوانی، بدون استخوان [AUTOTRANSLATED]</column>
@@ -452,7 +452,7 @@ Pakollinen verbin etuliite, kun kohde on {ghaH:n:nolink}, on {yI-:v:pref}. [AUTO
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghajwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">owner</column>
       <column name="definition_de">Besitzer</column>
       <column name="definition_fa">صاحب [AUTOTRANSLATED]</column>
@@ -1362,7 +1362,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">gharwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">diplomat</column>
       <column name="definition_de">Diplomat</column>
       <column name="definition_fa">دیپلمات</column>
@@ -2740,7 +2740,7 @@ Yleisempi termi musiikkia soittavalle ryhmälle (kaikenkokoisille) on {QoQ ghom:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghetwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">pretender</column>
       <column name="definition_de">Simulant, Schauspieler</column>
       <column name="definition_fa">تظاهر کننده [AUTOTRANSLATED]</column>
@@ -2827,7 +2827,7 @@ Yleisempi termi musiikkia soittavalle ryhmälle (kaikenkokoisille) on {QoQ ghom:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghevchoq Sep</column>
-      <column name="part_of_speech">n:place,fic,deriv</column>
+      <column name="part_of_speech">n:place,deriv,fic</column>
       <column name="definition">Gevchok region</column>
       <column name="definition_de">Gevchok Region</column>
       <column name="definition_fa">منطقه گووچک [AUTOTRANSLATED]</column>
@@ -3002,7 +3002,7 @@ Yleisempi termi musiikkia soittavalle ryhmälle (kaikenkokoisille) on {QoQ ghom:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghewmey</column>
-      <column name="part_of_speech">n:slang,deriv</column>
+      <column name="part_of_speech">n:deriv,slang</column>
       <column name="definition">punctuation</column>
       <column name="definition_de">Satzzeichen</column>
       <column name="definition_fa">نقطه گذاری [AUTOTRANSLATED]</column>
@@ -3314,7 +3314,7 @@ Yleisempi termi musiikkia soittavalle ryhmälle (kaikenkokoisille) on {QoQ ghom:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghe''or</column>
-      <column name="part_of_speech">n:place,fic,alt</column>
+      <column name="part_of_speech">n:place,alt,fic</column>
       <column name="definition">{ghe'tor:n:place}</column>
       <column name="definition_de">{ghe'tor:n:place}</column>
       <column name="definition_fa">{ghe'tor:n:place}</column>
@@ -3762,7 +3762,7 @@ On myös alueellinen sana {ley':n}, joka tarkoittaa "nenä". [AUTOTRANSLATED]</c
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghIH</column>
-      <column name="part_of_speech">v:2,reg,is</column>
+      <column name="part_of_speech">v:2,is,reg</column>
       <column name="definition">be careless</column>
       <column name="definition_de">sorglos sein</column>
       <column name="definition_fa">بی احتیاط [AUTOTRANSLATED]</column>
@@ -5128,7 +5128,7 @@ On myös alueellinen sana {ley':n}, joka tarkoittaa "nenä". [AUTOTRANSLATED]</c
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghItlhwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">stylus, engraver</column>
       <column name="definition_de">Griffel, Schreibstift</column>
       <column name="definition_fa">قلم، قلم [AUTOTRANSLATED]</column>
@@ -5509,7 +5509,7 @@ Existem 243 {lawmey:n:nolink} em um {gho:n:nolink} ou 360 {lawrI'mey:n:nolink}. 
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">gho SubmaH</column>
-          <column name="part_of_speech">n:deriv,num</column>
+          <column name="part_of_speech">n:num,deriv</column>
           <column name="definition">pi</column>
           <column name="definition_de">Pi</column>
           <column name="definition_fa">پی [AUTOTRANSLATED]</column>
@@ -5990,7 +5990,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7_rXiSTQm
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghochwI'</column>
-      <column name="part_of_speech">n:fic,deriv</column>
+      <column name="part_of_speech">n:deriv,fic</column>
       <column name="definition">the constellation "Tracker"</column>
       <column name="definition_de">Sternkonstellation "Aufspürer"</column>
       <column name="definition_fa">صورت فلکی "ردیاب" [AUTOTRANSLATED]</column>
@@ -6429,7 +6429,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7_rXiSTQm
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghojmoHwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">teacher, mentor</column>
       <column name="definition_de">Mentor, Lehrer</column>
       <column name="definition_fa">معلم، مربی [AUTOTRANSLATED]</column>
@@ -6515,7 +6515,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7_rXiSTQm
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghojwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">student</column>
       <column name="definition_de">Student, Lernender, Schüler</column>
       <column name="definition_fa">دانشجو [AUTOTRANSLATED]</column>
@@ -6951,7 +6951,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7_rXiSTQm
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghomaH</column>
-      <column name="part_of_speech">n:alt,num</column>
+      <column name="part_of_speech">n:num,alt</column>
       <column name="definition">{gho SubmaH:n}</column>
       <column name="definition_de">{gho SubmaH:n}</column>
       <column name="definition_fa">{gho SubmaH:n}</column>
@@ -7080,7 +7080,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7_rXiSTQm
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghonDoq</column>
-      <column name="part_of_speech">n:weap,fic</column>
+      <column name="part_of_speech">n:fic,weap</column>
       <column name="definition">type of knife (slender blade)</column>
       <column name="definition_de">schlankes Messer</column>
       <column name="definition_fa">نوع چاقو (تیغه بلند و باریک) [AUTOTRANSLATED]</column>
@@ -7253,7 +7253,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7_rXiSTQm
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">ghop 'etlh</column>
-          <column name="part_of_speech">n:weap,fic,deriv</column>
+          <column name="part_of_speech">n:deriv,fic,weap</column>
           <column name="definition">a kind of blade</column>
           <column name="definition_de">Art Klinge</column>
           <column name="definition_fa">نوعی تیغه [AUTOTRANSLATED]</column>
@@ -7382,7 +7382,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7_rXiSTQm
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghoqwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">spy</column>
       <column name="definition_de">Spion</column>
       <column name="definition_fa">جاسوس</column>
@@ -8066,7 +8066,7 @@ Yksi hänen legendaarisista edeltäjistään nimettiin myös "Gorkoniksi", mutta
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghotpu' tamey</column>
-      <column name="part_of_speech">n:deriv,plural</column>
+      <column name="part_of_speech">n:plural,deriv</column>
       <column name="definition">personnel files</column>
       <column name="definition_de">Personalakten</column>
       <column name="definition_fa">فایل های پرسنلی [AUTOTRANSLATED]</column>

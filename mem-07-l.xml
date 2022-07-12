@@ -1563,7 +1563,7 @@ Käytä asioita, jotka ovat mitattavissa tai mitattavissa, mutta eivät välttä
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">... law'</column>
-      <column name="part_of_speech">sen:alt,noanki</column>
+      <column name="part_of_speech">sen:alt,noanki,nodict</column>
       <column name="definition">{... X law' ... X puS:sen}</column>
       <column name="definition_de">{... X law' ... X puS:sen}</column>
       <column name="definition_fa">{... X law' ... X puS:sen}</column>
@@ -2003,7 +2003,7 @@ This example shows how to use type-6 suffixes with a comparison:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">la'quv</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">Supreme Commander</column>
       <column name="definition_de">Supreme Commander</column>
       <column name="definition_fa">فرمانده عالی [AUTOTRANSLATED]</column>
@@ -2133,7 +2133,7 @@ This example shows how to use type-6 suffixes with a comparison:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">la''a'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">commandant</column>
       <column name="definition_de">Kommandant</column>
       <column name="definition_fa">فرمانده [AUTOTRANSLATED]</column>
@@ -3140,7 +3140,7 @@ Katso sivulta {Dav:v:1} liikkuminen sivulle pyörimättä tai kiinnittämättä 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lerchu'</column>
-      <column name="part_of_speech">v:deriv,i_c</column>
+      <column name="part_of_speech">v:i_c,deriv</column>
       <column name="definition">oscillate</column>
       <column name="definition_de">oszillieren</column>
       <column name="definition_fa">نوسان [AUTOTRANSLATED]</column>
@@ -3800,7 +3800,7 @@ Tätä sanaa voidaan käyttää kuvaannollisesti. On idioomi {let mInDu'Daj; Sep
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ley'</column>
-      <column name="part_of_speech">n:reg,body</column>
+      <column name="part_of_speech">n:body,reg</column>
       <column name="definition">nose</column>
       <column name="definition_de">Nase</column>
       <column name="definition_fa">بینی [AUTOTRANSLATED]</column>
@@ -4304,7 +4304,7 @@ Tätä sanaa voidaan käyttää kuvaannollisesti. On idioomi {let mInDu'Daj; Sep
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lIghon DuQwI' pogh</column>
-      <column name="part_of_speech">n:deriv,weap,fic</column>
+      <column name="part_of_speech">n:deriv,fic,weap</column>
       <column name="definition">glavin, Ligonian spike glove</column>
       <column name="definition_de">Ligonianischer Dornenhandschuh</column>
       <column name="definition_fa">گلویین، دستکش لایه ای لژیون [AUTOTRANSLATED]</column>
@@ -4347,7 +4347,7 @@ Tätä sanaa voidaan käyttää kuvaannollisesti. On idioomi {let mInDu'Daj; Sep
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lIghonngan</column>
-      <column name="part_of_speech">n:being,fic,deriv</column>
+      <column name="part_of_speech">n:being,deriv,fic</column>
       <column name="definition">Ligonian</column>
       <column name="definition_de">Ligonianer</column>
       <column name="definition_fa">لژیون [AUTOTRANSLATED]</column>
@@ -6051,7 +6051,7 @@ Tarvittaessa matemaattisessa keskustelussa etuliitettä ei käytetä, vaikka nim
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">loDHom</column>
-      <column name="part_of_speech">n:deriv,being,klcp1</column>
+      <column name="part_of_speech">n:being,deriv,klcp1</column>
       <column name="definition">boy</column>
       <column name="definition_de">Junge</column>
       <column name="definition_fa">پسر</column>
@@ -6439,7 +6439,7 @@ Tarvittaessa matemaattisessa keskustelussa etuliitettä ei käytetä, vaikka nim
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">logh Hop Hut tengchaH</column>
-      <column name="part_of_speech">n:place,fic,deriv</column>
+      <column name="part_of_speech">n:place,deriv,fic</column>
       <column name="definition">Deep Space Nine</column>
       <column name="definition_de">Deep Space Nine</column>
       <column name="definition_fa">ایستگاه فضایی عمیق نه</column>
@@ -7196,7 +7196,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lolchu'</column>
-      <column name="part_of_speech">v:deriv,i_c</column>
+      <column name="part_of_speech">v:i_c,deriv</column>
       <column name="definition">be in a correct attitude (aircraft)</column>
       <column name="definition_de">in korrekter Lage sein (Flugzeug)</column>
       <column name="definition_fa">در برخورد صحیح (هواپیما) [AUTOTRANSLATED]</column>
@@ -7239,7 +7239,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lolchu'taH</column>
-      <column name="part_of_speech">v:deriv,i_c</column>
+      <column name="part_of_speech">v:i_c,deriv</column>
       <column name="definition">maintain a correct attitude (aircraft)</column>
       <column name="definition_de">korrekte Lage halten (Flugzeug)</column>
       <column name="definition_fa">حفظ نگرش صحیح (هواپیما) [AUTOTRANSLATED]</column>
@@ -7369,7 +7369,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">loltaH</column>
-      <column name="part_of_speech">v:deriv,i_c</column>
+      <column name="part_of_speech">v:i_c,deriv</column>
       <column name="definition">maintain an attitude (aircraft)</column>
       <column name="definition_de">Fluglage halten (Flugzeug)</column>
       <column name="definition_fa">حفظ نگرش (هواپیما) [AUTOTRANSLATED]</column>
@@ -8507,7 +8507,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lotlhwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">rebel</column>
       <column name="definition_de">Rebelle</column>
       <column name="definition_fa">شورشی [AUTOTRANSLATED]</column>
@@ -9318,7 +9318,7 @@ Tämä etuliite pudotetaan joskus tuntemattomista syistä. Vaikka virhe onkin, t
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">luH</column>
-      <column name="part_of_speech">v:2,slang,t</column>
+      <column name="part_of_speech">v:2,t,slang</column>
       <column name="definition">cause (someone) to confess or reveal a secret</column>
       <column name="definition_de">(jemanden) dazu veranlassen, ein Geheimnis preiszugeben</column>
       <column name="definition_fa">علت (کسی) اعتراف یا افشای یک راز [AUTOTRANSLATED]</column>

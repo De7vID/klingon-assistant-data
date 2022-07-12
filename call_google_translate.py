@@ -40,6 +40,7 @@ from googletrans import Translator
 from googletrans.models import Translated
 
 import fileinput
+import functools
 import re
 import time
 
@@ -70,6 +71,29 @@ def balanced_brackets(line):
     elif not (stack and char == stack.pop()):
       return False
   return not stack
+
+# Custom sort function for part_of_speech attributes.
+def compare_attrs(x, y):
+  # Put homophone number first.
+  if x.isdigit():
+    return -1
+  elif y.isdigit():
+    return 1
+
+  # Next, put the attributes which are specific to the part of speech (and which
+  # are mutually exclusive).
+  important_attrs = ['ambi','i','i_c','is','t','t_c','pref','suff','name','num','pro','body','being','place','inhpl','inhps','plural','eu','idiom','mv','nt','phr','prov','Ql','rej','rp','sp','toast','lyr','bc','epithet']
+  x_is_important = x in important_attrs
+  y_is_important = y in important_attrs
+  if x_is_important and not y_is_important:
+    return -1
+  elif not x_is_important and y_is_important:
+    return 1
+  # Put categories and metadata tags last.
+  elif x < y:
+    return -1
+  else:
+    return 1
 
 translator = Translator()
 num_errors = 0
@@ -115,6 +139,14 @@ for filename in filenames:
 
               # Rate-limit calls to Google Translate.
               time.sleep(0.01)
+
+        # For parts_of_speech with attributes, sort the attributes.
+        pos_match = re.search(r"part_of_speech\">(.*):(.*)<", line)
+        if pos_match:
+          pos = pos_match.group(1)
+          attrs = pos_match.group(2).split(',')
+          attrs = sorted(attrs, key=functools.cmp_to_key(compare_attrs))
+          line = re.sub(r">(.*)<", ">{}:{}<".format(pos, ','.join(attrs)), line)
 
         # TODO: Refactor common parts with code for translating definitions.
         if multiline_notes == "":

@@ -662,7 +662,7 @@ Não confunda isso com {mum:v}, que significa "gosto" no sentido de perceber sab
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">wamwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">hunter</column>
       <column name="definition_de">Jäger</column>
       <column name="definition_fa">شکارچی</column>
@@ -4208,7 +4208,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">wIgh</column>
-      <column name="part_of_speech">n:klcp1,being</column>
+      <column name="part_of_speech">n:being,klcp1</column>
       <column name="definition">genius</column>
       <column name="definition_de">Genie</column>
       <column name="definition_fa">نابغه [AUTOTRANSLATED]</column>
@@ -5006,7 +5006,7 @@ Tämän komennon leikattu klingonimuoto olisi {wIy cha'!:sen@@wIy:n, cha':v} [AU
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">wob</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,weap</column>
       <column name="definition">hurl a spear by means of a {chetvI':n:2}</column>
       <column name="definition_de">einen Speer mittels {chetvI':n:2} werfen</column>
       <column name="definition_fa">با استفاده از {chetvI':n:2} [AUTOTRANSLATED]</column>
@@ -6271,7 +6271,8 @@ Jos ihmisen silmät ovat "herkkiä valolle", ne voivat olla herkkiä {wovtaHghac
       <column name="hidden_notes">Light ({wov:v}) on.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {wov'on qaw:sen@@wov'on:n, qaw:v} "he/she remembers a memory", "he/she has a memory"</column>
+▶ {wov'on qaw:sen@@wov'on:n, qaw:v} "he/she remembers a memory", "he/she has a memory" (more common)
+▶ {wov'on ghaj:sen@@wov'on:n, ghaj:v} "he/she has a memory" (possible but less common)</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
