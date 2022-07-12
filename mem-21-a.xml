@@ -315,7 +315,7 @@ A German word for "vein" is "Ader".</column>
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">'aDHom</column>
-          <column name="part_of_speech">n:deriv,body</column>
+          <column name="part_of_speech">n:body,deriv</column>
           <column name="definition">capillary</column>
           <column name="definition_de">Kapillare</column>
           <column name="definition_fa">مویرگی [AUTOTRANSLATED]</column>
@@ -1307,7 +1307,7 @@ Kun sitä käytetään ihmisiin, se voi tarkoittaa vain kirjaimellista kivenmuut
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'anDorya'</column>
-      <column name="part_of_speech">n:place,fic,alt</column>
+      <column name="part_of_speech">n:place,alt,fic</column>
       <column name="definition">{'anDor:n}</column>
       <column name="definition_de">{'anDor:n}</column>
       <column name="definition_fa">{'anDor:n}</column>
@@ -1350,7 +1350,7 @@ Kun sitä käytetään ihmisiin, se voi tarkoittaa vain kirjaimellista kivenmuut
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'anDorngan</column>
-      <column name="part_of_speech">n:being,fic,alt,deriv</column>
+      <column name="part_of_speech">n:being,alt,deriv,fic</column>
       <column name="definition">{'anDorya'ngan:n}</column>
       <column name="definition_de">{'anDorya'ngan:n}</column>
       <column name="definition_fa">{'anDorya'ngan:n}</column>
@@ -1393,7 +1393,7 @@ Kun sitä käytetään ihmisiin, se voi tarkoittaa vain kirjaimellista kivenmuut
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'anDorya'ngan</column>
-      <column name="part_of_speech">n:being,fic,deriv</column>
+      <column name="part_of_speech">n:being,deriv,fic</column>
       <column name="definition">Andorian</column>
       <column name="definition_de">Andorianer</column>
       <column name="definition_fa">آندوریایی [AUTOTRANSLATED]</column>
@@ -2272,7 +2272,7 @@ Huomaa, että sääennusteissa (katso {muD Dotlh:n}) käytetään yleensä {'e' 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'aqleH</column>
-      <column name="part_of_speech">n:weap,fic</column>
+      <column name="part_of_speech">n:fic,weap</column>
       <column name="definition">type of weapon (half ax, half bat'leth)</column>
       <column name="definition_de">Waffe: Halb Axt, halb Bat'leth.</column>
       <column name="definition_fa">نوع سلاح (نیمه تبر، نیم بته) [AUTOTRANSLATED]</column>
@@ -2524,7 +2524,7 @@ It's unclear why {'aqroS:n:2,nolink} seems to precede the noun while {rav:n:2,no
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'aqroS ...</column>
-      <column name="part_of_speech">sen:alt,noanki</column>
+      <column name="part_of_speech">sen:alt,noanki,nodict</column>
       <column name="definition">{rav ... 'aqroS ...:sen}</column>
       <column name="definition_de">{rav ... 'aqroS ...:sen}</column>
       <column name="definition_fa">{rav ... 'aqroS ...:sen}</column>
@@ -2655,7 +2655,7 @@ The request was for the plant. Presumably, the fruit be {'aquta' naH:n@@'aquta':
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'aQlo'</column>
-      <column name="part_of_speech">n:reg,body</column>
+      <column name="part_of_speech">n:body,reg</column>
       <column name="definition">forehead</column>
       <column name="definition_de">Stirn</column>
       <column name="definition_fa">پیشانی</column>
@@ -3236,7 +3236,7 @@ Liiton 24 tunnin järjestelmää ({tera' poH:n}) käytetään joskus planeettoje
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'avwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">guard</column>
       <column name="definition_de">Wache</column>
       <column name="definition_fa">نگهبان [AUTOTRANSLATED]</column>

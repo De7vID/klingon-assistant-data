@@ -3089,7 +3089,7 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">SenwI'</column>
-          <column name="part_of_speech">n:deriv,body</column>
+          <column name="part_of_speech">n:body,deriv</column>
           <column name="definition">thumb (adult)</column>
           <column name="definition_de">Daumen (eines Erwachsenen)</column>
           <column name="definition_fa">انگشت شست (بالغ) [AUTOTRANSLATED]</column>
@@ -3320,7 +3320,7 @@ Koska tämä on muu kuin klingonilainen nimi, siinä on jonkin verran vaihtelua 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Senjaw</column>
-      <column name="part_of_speech">n:name,fic,alt</column>
+      <column name="part_of_speech">n:name,alt,fic</column>
       <column name="definition">{Senjo':n:name}</column>
       <column name="definition_de">{Senjo':n:name}</column>
       <column name="definition_fa">{Senjo':n:name}</column>
@@ -5010,7 +5010,7 @@ The existence of the homophonous noun {Sev:n} may suggest that Klingons view the
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SIjwI'</column>
-      <column name="part_of_speech">n:food,deriv</column>
+      <column name="part_of_speech">n:deriv,food</column>
       <column name="definition">type of knife (used for food preparation)</column>
       <column name="definition_de">Messer zur Essenszubereitung</column>
       <column name="definition_fa">نوع چاقو (برای تهیه غذا استفاده می شود) [AUTOTRANSLATED]</column>
@@ -5592,7 +5592,7 @@ Jos työvälinettä käytetään tyypillisesti sormen suorittamaan toimintaan, v
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">SIqwI'</column>
-          <column name="part_of_speech">n:deriv,body</column>
+          <column name="part_of_speech">n:body,deriv</column>
           <column name="definition">index finger, first finger</column>
           <column name="definition_de">Zeigefinger</column>
           <column name="definition_fa">انگشت اشاره، انگشت اول [AUTOTRANSLATED]</column>
@@ -5678,7 +5678,7 @@ Jos työvälinettä käytetään tyypillisesti sormen suorittamaan toimintaan, v
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SIqral</column>
-      <column name="part_of_speech">n:place,fic,alt,noanki</column>
+      <column name="part_of_speech">n:place,alt,fic,noanki</column>
       <column name="definition">{SIqral bIQtIq:n}</column>
       <column name="definition_de">{SIqral bIQtIq:n}</column>
       <column name="definition_fa">{SIqral bIQtIq:n}</column>
@@ -7837,49 +7837,6 @@ The {SkyBox 21:src} example appears to be missing a conjunction.</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">Soq</column>
-      <column name="part_of_speech">v:t_c,alt,noanki</column>
-      <column name="definition">{Suq:v}</column>
-      <column name="definition_de">{Suq:v}</column>
-      <column name="definition_fa">{Suq:v}</column>
-      <column name="definition_sv">{Suq:v}</column>
-      <column name="definition_ru">{Suq:v}</column>
-      <column name="definition_zh_HK">{Suq:v}</column>
-      <column name="definition_pt">{Suq:v}</column>
-      <column name="definition_fi">{Suq:v}</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This is a typo for {Suq:v:nolink} which appeared in {HQ 6.2:src} in the transcription of {SkyBox 33:src}. The word is spelled correctly as {Suq:v:nolink} on the card itself.</column>
-      <column name="notes_de">Dies ist ein Tippfehler für {Suq:v:nolink}, der in {HQ 6.2:src} in der Transkription von {SkyBox 33:src} enthalten ist. Das Wort wird auf der Karte selbst korrekt als {Suq:v:nolink} geschrieben. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این یک تایپی برای {Suq:v:nolink} است که در {HQ 6.2:src} در رونویسی از {SkyBox 33:src} ظاهر شده است. این کلمه به صورت صحیح به عنوان {Suq:v:nolink} روی خود کارت نوشته شده است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är en skrivfel för {Suq:v:nolink} som visades i {HQ 6.2:src} i transkriptionen av {SkyBox 33:src}. Ordet stavas korrekt som {Suq:v:nolink} på själva kortet. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это опечатка для {Suq:v:nolink}, которая появилась в {HQ 6.2:src} в транскрипции {SkyBox 33:src}. Слово написано правильно как {Suq:v:nolink} на самой карте. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這是{SkyBox 33:src}轉錄中出現在{HQ 6.2:src}中的{Suq:v:nolink}的錯字。該單詞本身在卡上的拼寫正確為{Suq:v:nolink}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Este é um erro de digitação para {Suq:v:nolink} que apareceu em {HQ 6.2:src} na transcrição de {SkyBox 33:src}. A palavra está escrita corretamente como {Suq:v:nolink} no próprio cartão. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on kirjoitusvirhe {Suq:v:nolink}: lle, joka ilmestyi {HQ 6.2:src}: ssa {SkyBox 33:src}: n transkriptiossa. Sana on kirjoitettu oikein nimellä {Suq:v:nolink} itse kortilla. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
-      <column name="source">[1] {HQ 6.2, p.9, Jun. 1997:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
       <column name="entry_name">SoQ</column>
       <column name="part_of_speech">v:is,klcp1</column>
       <column name="definition">be closed, shut</column>
@@ -8497,7 +8454,7 @@ Tämä sana voi viitata myös "klubipukuun" pelikorttipakassa (katso {Degh:n:1})
           <!-- This is here, rather than in the examples file, for symmetry with {vavoy:n}, which does appear in canon. -->
           <column name="_id"></column>
           <column name="entry_name">SoSoy</column>
-          <column name="part_of_speech">n:deriv,being</column>
+          <column name="part_of_speech">n:being,deriv</column>
           <column name="definition">mommy</column>
           <column name="definition_de">Mami</column>
           <column name="definition_fa">مامان [AUTOTRANSLATED]</column>
@@ -8928,7 +8885,7 @@ Tämä sana voi viitata myös "klubipukuun" pelikorttipakassa (katso {Degh:n:1})
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Soy'</column>
-      <column name="part_of_speech">v:2,reg,is</column>
+      <column name="part_of_speech">v:2,is,reg</column>
       <column name="definition">be messy</column>
       <column name="definition_de">unordentlich sein</column>
       <column name="definition_fa">ببخشید [AUTOTRANSLATED]</column>
@@ -10404,7 +10361,7 @@ In a message to the {KLI mailing list 2021.02.28:src}, Maltz even said the Kling
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Suqqa'</column>
-      <column name="part_of_speech">v:deriv,t_c</column>
+      <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">prepare kud in a specific way</column>
       <column name="definition_de">Kud auf besondere Weise herstellen</column>
       <column name="definition_fa">kud را به روش خاصی آماده کردن [AUTOTRANSLATED]</column>
@@ -11453,7 +11410,7 @@ The way this word has appeared in English has been inconsistent between whether 
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">SuvwI'</column>
-          <column name="part_of_speech">n:deriv,being,klcp1</column>
+          <column name="part_of_speech">n:being,deriv,klcp1</column>
           <column name="definition">warrior</column>
           <column name="definition_de">Krieger</column>
           <column name="definition_fa">جنگجو، مبارز</column>

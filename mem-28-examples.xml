@@ -1380,7 +1380,7 @@ Jos puhuttelet ylempiäsi, harkitse {-neS:v:suff}-päätteen käyttämistä.</co
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">cho'tay</column>
-      <column name="part_of_speech">n:deriv,hyp,fic</column>
+      <column name="part_of_speech">n:deriv,fic,hyp</column>
       <column name="definition">Rite of Succession</column>
       <column name="definition_de">Nachfolgeritus</column>
       <column name="definition_fa">عروسی وحشی [AUTOTRANSLATED]</column>
@@ -1726,7 +1726,7 @@ Jos puhuttelet ylempiäsi, harkitse {-neS:v:suff}-päätteen käyttämistä.</co
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">muHwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">executioner</column>
       <column name="definition_de">Henker</column>
       <column name="definition_fa">جلاد، دژخیم، سیاف</column>
@@ -2123,7 +2123,7 @@ This was not explicitly mentioned in the {Saarbrücken qepHom'a' 2021:src} bookl
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yaD pach</column>
-      <column name="part_of_speech">n:deriv,body</column>
+      <column name="part_of_speech">n:body,deriv</column>
       <column name="definition">toenail</column>
       <column name="definition_de">Zeh-Nagel</column>
       <column name="definition_fa">دست و پنجه نرم کردن [AUTOTRANSLATED]</column>
@@ -3098,7 +3098,7 @@ The lyrics are by Lawrence Schoen, and the accompanying music is by Rich Yampell
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bIQong'eghqangchoHmoHlaHchu'pu'neSchugh</column>
-      <column name="part_of_speech">v:deriv,i_c</column>
+      <column name="part_of_speech">v:i_c,deriv,nodict</column>
       <column name="definition">meaningless verbal phrase</column>
       <column name="definition_de">bedeutungslose Verbalkonstruktion</column>
       <column name="definition_fa">عبارت شفاهی بی معنی [AUTOTRANSLATED]</column>
@@ -3883,7 +3883,7 @@ Toisin kuin jotkut väittävät, lause "Urkuk lu Stalga" ei tarkoita "rakastan s
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">QaghHommeyHeylIjmo'</column>
-      <column name="part_of_speech">n:deriv</column>
+      <column name="part_of_speech">n:deriv,nodict</column>
       <column name="definition">due to your apparent minor errors</column>
       <column name="definition_de">wegen deiner scheinbar kleinen Fehler</column>
       <column name="definition_fa">به دلیل خطاهای جزئی ظاهری شما [AUTOTRANSLATED]</column>
