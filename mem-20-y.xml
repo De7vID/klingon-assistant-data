@@ -957,7 +957,7 @@ Mikä tahansa paikka, joka on nimenomaisesti tarkoitettu tietyn tehtävän tai t
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yan</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:weap</column>
       <column name="definition">sword</column>
       <column name="definition_de">Schwert</column>
       <column name="definition_fa">شمشیر</column>
@@ -1061,7 +1061,7 @@ Tätä sanaa käytetään myös slangina "jouselle", jota käytetään pelaamaan
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yan</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:t_c,weap</column>
       <column name="definition">use or manipulate a sword</column>
       <column name="definition_de">ein Schwert handhaben</column>
       <column name="definition_fa">استفاده یا دستکاری شمشیر [AUTOTRANSLATED]</column>
@@ -1104,7 +1104,7 @@ Tätä sanaa käytetään myös slangina "jouselle", jota käytetään pelaamaan
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yanwI'</column>
-      <column name="part_of_speech">n:deriv,being</column>
+      <column name="part_of_speech">n:being,deriv,weap</column>
       <column name="definition">swordfighter</column>
       <column name="definition_de">Schwertkämpfer</column>
       <column name="definition_fa">شمشیرزن [AUTOTRANSLATED]</column>
