@@ -105,25 +105,29 @@
                        inv: invectives, swear words
                        slang: a slang word or phrase
                        weap: weapons or weapon-related (for verbs, this marks
-                             those which are used exclusively for combat); if
+                             those which are used exclusively for weapons); if
                              fictional, must mark as fic also
-                             TODO: rename to "fight" to be more generic
                      metadata tags:
                        alt: alternative spelling (immediately link to other
                             entry, which is given in the definition field)
-                       fic (fictional): a fictional object or concept
+                       fic (fictional): a fictional object or concept (from the
+                                        perspective of "real life")
                        hyp: hypothesised (isn't known to exist from canon);
                             typically entry name should end in "?"
                        extcan: extended canon (appears in a Star Trek novel or
                                other media, but not known to be from MO)
-                       nolink: used in definition of another entry to prevent
-                               linking
+                       klcp1: used to tag Klingon Language Certification Program
+                              level 1 vocabulary
                        noanki: used to skip an entry when generating an Anki
                                deck using export_to_anki.py (note that hyp and
                                extcan entries are automatically skipped, as are
                                entries with no source)
-                       klcp1: used to tag Klingon Language Certification Program
-                              level 1 vocabulary
+                       nodict: not an entry that would appear in a (print)
+                               dictionary, used to skip entries which are used
+                               to make search more convenient in software when
+                               generating a printed word list
+                       nolink: used in definition of another entry to prevent
+                               linking
 
     definition     = the definition in English of the entry
                      - if "hyp", and meaning is uncertain, end with "?"
