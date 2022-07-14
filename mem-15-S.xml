@@ -1444,8 +1444,8 @@ Tätä sanaa ei käytetä lajittelujärjestykseen.[3] [AUTOTRANSLATED]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Saq</column>
-      <column name="part_of_speech">v:i</column>
-      <column name="definition">land; set down on land (like a bird)</column>
+      <column name="part_of_speech">v:i_c</column>
+      <column name="definition">land (alight on the ground, like a bird)</column>
       <column name="definition_de">landen (wie ein Vogel)</column>
       <column name="definition_fa">زمین؛ زمینی (مانند یک پرنده) [AUTOTRANSLATED]</column>
       <column name="definition_sv">landa, landsätta, gå i land</column>
@@ -1456,15 +1456,17 @@ Tätä sanaa ei käytetä lajittelujärjestykseen.[3] [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ngun:v}, {tlhot:v}, {puH:n}</column>
-      <column name="notes">If a bird lands on a tree, the verb {ngun:v} is used, and if on water, then {tlhot:v}.</column>
-      <column name="notes_de">Wenn ein Vogel auf einem Baum landet, wird das Verb {ngun:v} verwendet, und wenn er sich auf dem Wasser befindet, dann {tlhot:v}. [AUTOTRANSLATED]</column>
+      <column name="notes">If a bird lands on a tree, the verb {ngun:v} is used, and if on water, then {tlhot:v}.[2] The landing site (see {SaqDaq:n}) is marked with {-Daq:n:suff}.[4]</column>
+      <column name="notes_de"></column>
       <column name="notes_fa"></column>
-      <column name="notes_sv">Om en fågel landar på ett träd används verbet {ngun:v}, och om det är på vatten, då {tlhot:v}. [AUTOTRANSLATED]</column>
+      <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="notes_pt">Se um pássaro pousar em uma árvore, o verbo {ngun:v} será usado e, se estiver na água, {tlhot:v}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Jos lintu laskeutuu puuhun, käytetään verbiä {ngun:v} ja jos vedessä, niin {tlhot:v}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">Land "shark" from SNL.</column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes">Land "shark" from SNL.
+
+This was defined as "land" in {TKD:src}. The clarification was added based on {HQ 10.4:src}, which says "the verb {Saq:v:nolink} is used if the bird alights on the ground".</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {SaqtaHvIS toQDuj wa'vatlh loS vI' jav chorgh 'uj 'ab 'oH:sen:nolink} "Landing Formation Height: 36.46 M"[3]
@@ -1500,7 +1502,7 @@ Tätä sanaa ei käytetä lajittelujärjestykseen.[3] [AUTOTRANSLATED]</column>
       <column name="definition_fi">laskeutumispaikka</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{Saq:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1510,7 +1512,7 @@ Tätä sanaa ei käytetä lajittelujärjestykseen.[3] [AUTOTRANSLATED]</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Saq:v} or {Saq:n:hyp,nolink}, {Daq:n}</column>
+      <column name="components">{Saq:v:nolink} or {Saq:n:hyp,nolink}, {Daq:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -1619,14 +1621,14 @@ Tätä sanaa ei käytetä lajittelujärjestykseen.[3] [AUTOTRANSLATED]</column>
       <column name="_id"></column>
       <column name="entry_name">SaqSub</column>
       <column name="part_of_speech">n:place,fic</column>
-      <column name="definition">Saq'Sub</column>
-      <column name="definition_de">Saq'Sub</column>
-      <column name="definition_fa">Saq'Sub [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Saq'Sub [AUTOTRANSLATED]</column>
-      <column name="definition_ru">Saq'Sub [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">Saq'Sub [AUTOTRANSLATED]</column>
-      <column name="definition_pt">Saq'Sub</column>
-      <column name="definition_fi">Saq'Sub</column>
+      <column name="definition">Saq'sub</column>
+      <column name="definition_de">Saq'sub</column>
+      <column name="definition_fa">Saq'sub [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Saq'sub [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Saq'sub [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">Saq'sub [AUTOTRANSLATED]</column>
+      <column name="definition_pt">Saq'sub</column>
+      <column name="definition_fi">Saq'sub</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1638,7 +1640,7 @@ Tätä sanaa ei käytetä lajittelujärjestykseen.[3] [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi">Tämä on {qeylIS'e' lIjlaHbe'bogh vay':n:name}: n syntyperäinen alue {Qo'noS:n:place}: lla ja hänen omaisuutensa sijainti. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was apparently intended to mean "hero's land". The inventor of the word either made a mistake in looking up "land" (which, as a noun, should be {puH:n} rather than {Saq:v}), or simply preferred the look or sound of "Saq'sub".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -5907,7 +5909,7 @@ Jos työvälinettä käytetään tyypillisesti sormen suorittamaan toimintaan, v
       <column name="definition_fi">olla uniikki, ennenkuulumaton</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{chab chu':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
