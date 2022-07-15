@@ -1,4 +1,4 @@
-import requests
+import dictionary
 
 SELECTED_LOCALE = "en"
 
@@ -56,8 +56,7 @@ SECTIONS = [
 
 LETTERS = ["a", "b", "ch", "D", "e", "gh", "H", "I", "j", "l", "m", "n", "ng", "o", "p", "q", "Q", "r", "S", "t", "tlh", "u", "v", "w", "y", "'"]
 def make_query(query: str, sort: bool):
-    result = requests.get("https://klingonia.fi/api/dictionary", params={"q": query, "link_format": "latex", "lang": SELECTED_LOCALE}).json()
-    entries = result["result"]
+    entries = dictionary.dictionary_query(query=query, link_format="latex", lang=SELECTED_LOCALE)
     if sort:
         entries.sort(key=lambda x: (tuple(map(LETTERS.index, x["graphemes"])), x["simple_pos"], x.get("homonym", 0)))
     
