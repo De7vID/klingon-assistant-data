@@ -186,14 +186,14 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is the 8th rank of {yaS:n}.</column>
-      <column name="notes_de">Dies ist der 8. Rang von {yaS:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این رتبه هشتم {yaS:n} است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är den åttonde rankningen för {yaS:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это 8-й ранг {yaS:n}.</column>
-      <column name="notes_zh_HK">這是{yaS:n}的第8位。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Este é o 8º ranking do {yaS:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on upseeriston ({yaS:n}) kahdeksanneksi korkein sotilasarvo.</column>
+      <column name="notes">This is the 8th rank of {yaS:n}.[2]</column>
+      <column name="notes_de">Dies ist der 8. Rang von {yaS:n}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این رتبه هشتم {yaS:n} است.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är den åttonde rankningen för {yaS:n}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это 8-й ранг {yaS:n}.[2]</column>
+      <column name="notes_zh_HK">這是{yaS:n}的第8位。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Este é o 8º ranking do {yaS:n}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on upseeriston ({yaS:n}) kahdeksanneksi korkein sotilasarvo.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -212,7 +212,7 @@
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKDA:src}</column>
+      <column name="source">[1] {TKDA:src}, [2] {KGT p.52:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -1918,7 +1918,7 @@ This example shows how to use type-6 suffixes with a comparison:
       <column name="_id"></column>
       <column name="entry_name">la'</column>
       <column name="part_of_speech">n:being</column>
-      <column name="definition">commander</column>
+      <column name="definition">commander (specific rank)</column>
       <column name="definition_de">Commander</column>
       <column name="definition_fa">فرمانده [AUTOTRANSLATED]</column>
       <column name="definition_sv">kommendörkapten (rang)</column>
@@ -1929,14 +1929,16 @@ This example shows how to use type-6 suffixes with a comparison:
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is the 6th rank of {yaS:n}.</column>
-      <column name="notes_de">Dies ist der 6. Rang von {yaS:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این رتبه ششم {yaS:n} است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är sjätte rankningen av {yaS:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это 6-й ранг {yaS:n}.</column>
-      <column name="notes_zh_HK">這是{yaS:n}的第六名。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Este é o 6º ranking do {yaS:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on upseeriston ({yaS:n}) kuudenneksi korkein sotilasarvo.</column>
+      <column name="notes">This is the 6th rank of {yaS:n}.[2]
+
+Do not confuse this with {ra'wI':n}, which is also translated as "commander" in English, but has a different meaning.[2]</column>
+      <column name="notes_de">Dies ist der 6. Rang von {yaS:n}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این رتبه ششم {yaS:n} است.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är sjätte rankningen av {yaS:n}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это 6-й ранг {yaS:n}.[2]</column>
+      <column name="notes_zh_HK">這是{yaS:n}的第六名。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Este é o 6º ranking do {yaS:n}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on upseeriston ({yaS:n}) kuudenneksi korkein sotilasarvo.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1955,7 +1957,7 @@ This example shows how to use type-6 suffixes with a comparison:
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.52:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
