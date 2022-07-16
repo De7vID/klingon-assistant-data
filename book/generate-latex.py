@@ -68,7 +68,10 @@ def render_entry(entry):
         if set(deriv["boqwi_tags"]) & {"nodict", "extcan", "hyp"}: # exclude these from derived entries as well
             continue
 
-        print("\\deriv{%s}{%s}" % (deriv["rendered_link"], deriv["definition"]), end="")
+        if deriv["name"].startswith(entry["name"]):
+            continue
+
+        print("\\deriv{%s}{%s}{%s}" % (deriv["rendered_link"], LOCALE["poses"][deriv["simple_pos"]], deriv["definition"]), end="")
     
     print("}\n")
 
