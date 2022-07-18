@@ -1460,7 +1460,11 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This verb can be used to define a word (see {Sumlugh:n}) in the same language (not when translating). To say "X means Y", where X is a word and Y is its meaning or definition or gloss, one can use {ghaS:v:nolink}, sometimes with {mu':n} for clarity: {Y ghaS X (mu'):sen:nolink}.[2]
+
+A colloquial (or perhaps slang) way of doing this is to use {'ang:v} instead of {ghaS:v:nolink}: {Y 'ang X (mu'):sen:nolink}.[2]
+
+If X is a phrase, it can be followed by either {mu':n:nolink} or {mu'mey:n@@mu':n, -mey:n}, more frequently the former.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -1489,7 +1493,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {cha' monmey:src} ({Saarbrücken qepHom'a' 2020:src})</column>
+      <column name="source">[1] {cha' monmey:src} ({Saarbrücken qepHom'a' 2020:src}), [2] {to'qIpo'na paq chap:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6904,6 +6908,49 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7_rXiSTQm
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">ghom DIp</column>
+      <column name="part_of_speech">n:deriv</column>
+      <column name="definition">plural noun (grammar)</column>
+      <column name="definition_de">Plural Substantiv (Grammatik) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">اسم جمع (گرامر) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">plural substantiv (grammatik) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">существительное во множественном числе (грамматика) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">複數名詞（語法） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">substantivo plural (gramática) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">monikkosubstantiivi (kielioppi) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms">{Dol DIp:n}</column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{ghom:n}, {DIp:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {to'qIpo'na paq chap:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
