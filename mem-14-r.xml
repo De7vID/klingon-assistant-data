@@ -2268,7 +2268,7 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="_id"></column>
       <column name="entry_name">ra'wI'</column>
       <column name="part_of_speech">n:being,deriv</column>
-      <column name="definition">commander</column>
+      <column name="definition">commander (any officer of rank {Sogh:n:nolink} or higher)</column>
       <column name="definition_de">Kommandant, Befehlshaber</column>
       <column name="definition_fa">فرمانده [AUTOTRANSLATED]</column>
       <column name="definition_sv">befälhavare (person som ger order)</column>
@@ -2279,14 +2279,16 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yaS:n}</column>
-      <column name="notes">This refers to someone of rank {Sogh:n} or higher.</column>
-      <column name="notes_de">Dies bezieht sich auf jemanden mit dem Rang {Sogh:n} oder höher. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این مربوط به شخص درجه {Sogh:n} یا بالاتر می باشد. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta avser någon med rankning {Sogh:n} eller högre. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Относится к кому-то с рангом {Sogh:n} или выше.</column>
-      <column name="notes_zh_HK">這是指{Sogh:n}或更高級別的人。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Refere-se a alguém de classificação {Sogh:n} ou superior. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä viittaa henkilöön, jonka sotilasarvo on luutnantti ({Sogh:n}) tai korkeampi.</column>
+      <column name="notes">This refers to someone of rank {Sogh:n} or higher, and may be used either as a description or a title.[2]
+
+Do not confuse this with {la':n}, which is also translated as "commander" in English.[2]</column>
+      <column name="notes_de">Dies bezieht sich auf jemanden mit dem Rang {Sogh:n} oder höher.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این مربوط به شخص درجه {Sogh:n} یا بالاتر می باشد.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta avser någon med rankning {Sogh:n} eller högre.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Относится к кому-то с рангом {Sogh:n} или выше.[2]</column>
+      <column name="notes_zh_HK">這是指{Sogh:n}或更高級別的人。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Refere-se a alguém de classificação {Sogh:n} ou superior.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä viittaa henkilöön, jonka sotilasarvo on luutnantti ({Sogh:n}) tai korkeampi.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components">{ra':v:1}, {-wI':v}</column>
       <column name="examples"></column>
@@ -2305,7 +2307,7 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.52:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -4955,6 +4957,49 @@ Tämä on sama sana kuin verbi {ret:v}.[2][1] [AUTOTRANSLATED]</column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {qep'a' 28 (2021):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">re'chIv</column>
+      <column name="part_of_speech">n:body,extcan</column>
+      <column name="definition">organ, internal organ</column>
+      <column name="definition_de">Organ, inneres Organ [AUTOTRANSLATED]</column>
+      <column name="definition_fa">اندام، اندام داخلی [AUTOTRANSLATED]</column>
+      <column name="definition_sv">organ, inre organ [AUTOTRANSLATED]</column>
+      <column name="definition_ru">орган, внутренний орган [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">器官，內臟 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">órgão, órgão interno [AUTOTRANSLATED]</column>
+      <column name="definition_fi">elin, sisäelin [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{porgh:n}, {bIraqlul:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {to'qIpo'na paq chap:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
