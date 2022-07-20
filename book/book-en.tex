@@ -26,12 +26,12 @@
 \renewcommand{\footrulewidth}{1.4pt}
 \pagestyle{fancy}
 
-\newcommand{\entry}[3]{\textbf{#1}\ \markboth{#1}{#1}\textit{#2}\ {#3}}
-\newcommand{\deriv}[3]{\ $\bullet$\ \textbf{#1}\ \textit{#2}\ {#3}}
-
 % These could be used for formatting Klingon text more
 \newcommand{\klingonref}[2][]{{#2}} % This could be colored based on part of speech
-\newcommand{\klingontext}[1]{{#1}} % This could be eg. pIqaD
+\newcommand{\klingontext}[1]{{\textbf{#1}}} % This could be eg. pIqaD
+
+\newcommand{\entry}[3]{\leftskip 0.2cm \parindent -0.2cm \klingontext{#1}\ \markboth{#1}{#1}\textit{#2}\ {#3}}
+\newcommand{\deriv}[3]{\ $\bullet$\ \klingontext{#1}\ \textit{#2}\ {#3}}
 
 \newcolumntype{B}[0]{>{\bfseries}}
 \newcolumntype{I}[0]{>{\itshape}}
