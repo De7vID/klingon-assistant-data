@@ -65,7 +65,12 @@ def make_query(query: str, sort: bool):
     return entries
 
 def render_entry(entry):
-    print("\\entry{%s}{%s}{%s" % (entry["rendered_link"], LOCALE["poses"][entry["simple_pos"]], entry["definition"]), end="")
+    if entry["tags"]:
+        tags = "\\textit{(" + ", ".join(entry["tags"]) + ")} "
+    else:
+        tags = ""
+
+    print("\\entry{%s}{%s}{%s%s" % (entry["rendered_link"], LOCALE["poses"][entry["simple_pos"]], tags, entry["definition"]), end="")
     for deriv in entry.get("derived", []):
         if set(deriv["boqwi_tags"]) & {"nodict", "extcan", "hyp"}: # exclude these from derived entries as well
             continue
