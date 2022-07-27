@@ -178,6 +178,15 @@ then
     echo
 fi
 
+# Print any sources missing its type.
+MISSED_SOURCE_TYPE=$(grep "source\">.*{[^:]*}" $TMP_DIR/mem.xml)
+if [[ ! -z "$MISSED_SOURCE_TYPE" ]]
+then
+    echo "Missing source type:"
+    echo "$MISSED_SOURCE_TYPE"
+    echo
+fi
+
 # Print any new entries containing {ngh} or {ngH}. The "xifan hol" expansion
 # logic in the Android app needs to be updated if any such entries are added.
 NGH_DIFF=$(grep "entry_name\">.*ng[hH]" $TMP_DIR/mem.xml | diff - expected_ngh.txt)
