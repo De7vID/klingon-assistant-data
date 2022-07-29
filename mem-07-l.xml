@@ -1186,17 +1186,21 @@ In English slang, a "lat"rine is sometimes called a "shrine".</column>
       <column name="notes_zh_HK">這個單詞的複數形式的後綴取決於它是否用於指代具有語言能力的生物（請參閱{-pu':n:suff}），身體部位（請參見{-Du':n:suff}）或兩者都不是（請參見{-mey:n:suff}）。 [AUTOTRANSLATED]</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">The English translation of the sentence from {Star Trek Constellations:src} does not appear in the book, but in the author's annotations which was a separate document. The {'e':n:pro} was probably a mistake, but can be rationalized as a typo for {-'e':n:suff}.</column>
+      <column name="hidden_notes">The English translation of the sentence from {Star Trek Constellations:src} does not appear in the book, but in the author's annotations which was a separate document. The Klingon sentence was printed with a typo in the book, a space after {qIrq:n:name}. It's clear that {-'e':n:suff} was intended since the English translation fronts "Kirk": "Kirk I want alive" (as opposed to "I want Kirk alive").</column>
       <column name="components"></column>
       <column name="examples">
+▶ {latlh je:sen}
+▶ {latlh HIvje'Daq 'Iw HIq bIr yIqang!:sen}
 ▶ {reH latlh qabDaq qul tuj law' Hoch tuj puS.:sen}[2]
-▶ {yIntaH qIrq 'e' vIneH. DaSwIj bIngDaq latlhpu' vItap.:sen@@yIn:v, -taH:v, qIrq:n:name, -'e':n, vI-:v, neH:v, DaS:n, -wIj:n, bIng:n, -Daq:n, latlh:n, -pu':n, vI-:v, tap:v} "Kirk I want alive. The rest I will grind beneath my boot."[3]</column>
+▶ {yIntaH qIrq'e' vIneH. DaSwIj bIngDaq latlhpu' vItap.:sen@@yIn:v, -taH:v, qIrq:n:name, -'e':n, vI-:v, neH:v, DaS:n, -wIj:n, bIng:n, -Daq:n, latlh:n, -pu':n, vI-:v, tap:v} "Kirk I want alive. The rest I will grind beneath my boot."[3]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
+▶ {latlh je:sen}
+▶ {latlh HIvje'Daq 'Iw HIq bIr yIqang!:sen}
 ▶ {reH latlh qabDaq qul tuj law' Hoch tuj puS.:sen}[2]
-▶ {yIntaH qIrq 'e' vIneH. DaSwIj bIngDaq latlhpu' vItap.:sen@@yIn:v, -taH:v, qIrq:n:name, -'e':n, vI-:v, neH:v, DaS:n, -wIj:n, bIng:n, -Daq:n, latlh:n, -pu':n, vI-:v, tap:v} "Кирка я хочу взять живым. Остальных я разотру под своим ботинком."[3]</column>
+▶ {yIntaH qIrq'e' vIneH. DaSwIj bIngDaq latlhpu' vItap.:sen@@yIn:v, -taH:v, qIrq:n:name, -'e':n, vI-:v, neH:v, DaS:n, -wIj:n, bIng:n, -Daq:n, latlh:n, -pu':n, vI-:v, tap:v} "Кирка я хочу взять живым. Остальных я разотру под своим ботинком."[3]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -1620,7 +1624,7 @@ Käytä asioita, jotka ovat mitattavissa tai mitattavissa, mutta eivät välttä
       <column name="see_also">{law':v}, {puS:v:1}, {rap:v}, {nIb:v}</column>
       <column name="notes">This construction is used to form comparatives and superlatives. The two things being compared go into the two slots. To form the superlative, {Hoch:n} is used in the second slot.[1]
 
-Other antonym pairs may be substituted in place of {law':v} and {puS:v:1} as a form of word play.[2]
+Other antonym pairs may be substituted in place of {law':v} and {puS:v:1} as a form of word play, an example of intentional ungrammaticality. Such an advanced construction should be avoided unless one is very familiar with Klingon culture.[2]
 
 To say that something is not more {X:sen:nolink} than something else, {law'be':v:nolink} and {puSbe':v:nolink} are used instead of {law':v:nolink} and {puS:v:nolink}. To say that something is as {X:sen:nolink} as something else, {law':v:nolink} is used with {law':v:nolink} (if the quality or its possession is considered positive), or {puS:v:nolink} is used with {puS:v:nolink} (if the quality or its possession is considered negative), or {law':v:nolink} is used with {rap:v} or {nIb:v} (the latter of which implies the two things being compared are exactly the same in some way). It is also possible to use {puS:v:nolink} with {rap:v} or {nIb:v}, but that carries a connotation of disparagement. To say that something is not as {X:sen:nolink} as something else, {pIm:v} is used in place of the second verb in the pair.[3]
 
@@ -3139,49 +3143,49 @@ Katso sivulta {Dav:v:1} liikkuminen sivulle pyörimättä tai kiinnittämättä 
       <column name="search_tags_fi"></column>
       <column name="source">[1] {KLI mailing list 2019.03.01:src}, [2] {KLI mailing list 2019.03.02:src}</column>
     </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">lerchu'</column>
-      <column name="part_of_speech">v:i_c,deriv</column>
-      <column name="definition">oscillate</column>
-      <column name="definition_de">oszillieren</column>
-      <column name="definition_fa">نوسان [AUTOTRANSLATED]</column>
-      <column name="definition_sv">oscillera [AUTOTRANSLATED]</column>
-      <column name="definition_ru">осциллирует [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">擺動 [AUTOTRANSLATED]</column>
-      <column name="definition_pt">oscilar</column>
-      <column name="definition_fi">värähdellä</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This refers to the rhythmic back-and-forth motion of something fixed at one end, like a pendulum, whether the pivot is at the top, the bottom (like the inverted pendulum of a metronome), or somewhere else.</column>
-      <column name="notes_de">Dies bezieht sich auf die rhythmische Hin- und Herbewegung von etwas, das an einem Ende befestigt ist, wie ein Pendel, unabhängig davon, ob sich der Drehpunkt oben, unten (wie das umgekehrte Pendel eines Metronoms) oder irgendwo anders befindet. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این اشاره به حرکت عقب و جلو ریتمیک از چیزی که در یک انتها ثابت شده است ، مانند یک آونگ ، خواه محور در بالا ، پایین (مانند آونگ معکوس یک مترونوم) باشد ، یا جایی دیگر. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta hänvisar till den rytmiska fram och tillbaka rörelsen hos något som är fixerat i ena änden, som en pendel, om pivoten är längst upp, i botten (som den inverterade pendeln till en metronom) eller någon annanstans. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это относится к ритмичному движению вперед-назад чего-либо, зафиксированного на одном конце, например маятника, независимо от того, находится ли ось сверху, снизу (как перевернутый маятник метронома) или где-то еще. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這指的是固定在一端的物體（如擺錘）的有節奏的來回運動，無論樞軸位於頂部，底部（如節拍器的倒立擺錘）還是其他位置。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Isso se refere ao movimento rítmico de vaivém de algo fixo em uma extremidade, como um pêndulo, se o pivô está no topo, na parte inferior (como o pêndulo invertido de um metrônomo) ou em outro lugar. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä viittaa rytmiseen edestakaisen liikkeen kanssa, joka on kiinnitetty toiseen päähän, kuten heiluri, riippumatta siitä, onko kääntö yläosassa, alhaalla (kuten metronomin käänteinen heiluri) vai jossain muualla. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">For another example where {-chu':v} on a verb of motion indicates a rhythmic pattern, see {jaDchu':v}.</column>
-      <column name="components">{ler:v}, {-chu':v}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
-      <column name="source">[1] {KLI mailing list 2019.03.02:src}</column>
-    </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">lerchu'</column>
+          <column name="part_of_speech">v:i_c,deriv</column>
+          <column name="definition">oscillate</column>
+          <column name="definition_de">oszillieren</column>
+          <column name="definition_fa">نوسان [AUTOTRANSLATED]</column>
+          <column name="definition_sv">oscillera [AUTOTRANSLATED]</column>
+          <column name="definition_ru">осциллирует [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">擺動 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">oscilar</column>
+          <column name="definition_fi">värähdellä</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">This refers to the rhythmic back-and-forth motion of something fixed at one end, like a pendulum, whether the pivot is at the top, the bottom (like the inverted pendulum of a metronome), or somewhere else.</column>
+          <column name="notes_de">Dies bezieht sich auf die rhythmische Hin- und Herbewegung von etwas, das an einem Ende befestigt ist, wie ein Pendel, unabhängig davon, ob sich der Drehpunkt oben, unten (wie das umgekehrte Pendel eines Metronoms) oder irgendwo anders befindet. [AUTOTRANSLATED]</column>
+          <column name="notes_fa">این اشاره به حرکت عقب و جلو ریتمیک از چیزی که در یک انتها ثابت شده است ، مانند یک آونگ ، خواه محور در بالا ، پایین (مانند آونگ معکوس یک مترونوم) باشد ، یا جایی دیگر. [AUTOTRANSLATED]</column>
+          <column name="notes_sv">Detta hänvisar till den rytmiska fram och tillbaka rörelsen hos något som är fixerat i ena änden, som en pendel, om pivoten är längst upp, i botten (som den inverterade pendeln till en metronom) eller någon annanstans. [AUTOTRANSLATED]</column>
+          <column name="notes_ru">Это относится к ритмичному движению вперед-назад чего-либо, зафиксированного на одном конце, например маятника, независимо от того, находится ли ось сверху, снизу (как перевернутый маятник метронома) или где-то еще. [AUTOTRANSLATED]</column>
+          <column name="notes_zh_HK">這指的是固定在一端的物體（如擺錘）的有節奏的來回運動，無論樞軸位於頂部，底部（如節拍器的倒立擺錘）還是其他位置。 [AUTOTRANSLATED]</column>
+          <column name="notes_pt">Isso se refere ao movimento rítmico de vaivém de algo fixo em uma extremidade, como um pêndulo, se o pivô está no topo, na parte inferior (como o pêndulo invertido de um metrônomo) ou em outro lugar. [AUTOTRANSLATED]</column>
+          <column name="notes_fi">Tämä viittaa rytmiseen edestakaisen liikkeen kanssa, joka on kiinnitetty toiseen päähän, kuten heiluri, riippumatta siitä, onko kääntö yläosassa, alhaalla (kuten metronomin käänteinen heiluri) vai jossain muualla. [AUTOTRANSLATED]</column>
+          <column name="hidden_notes">For another example where {-chu':v} on a verb of motion indicates a rhythmic pattern, see {jaDchu':v}.</column>
+          <column name="components">{ler:v}, {-chu':v}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {KLI mailing list 2019.03.02:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lerup</column>
@@ -3798,6 +3802,49 @@ Tätä sanaa voidaan käyttää kuvaannollisesti. On idioomi {let mInDu'Daj; Sep
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">lew</column>
+      <column name="part_of_speech">v:i</column>
+      <column name="definition">bloom</column>
+      <column name="definition_de">blühen [AUTOTRANSLATED]</column>
+      <column name="definition_fa">شکوفه [AUTOTRANSLATED]</column>
+      <column name="definition_sv">blomma [AUTOTRANSLATED]</column>
+      <column name="definition_ru">цвести [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">盛開 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">florescer [AUTOTRANSLATED]</column>
+      <column name="definition_fi">kukinta [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{'InSong:n}, {por:n}</column>
+      <column name="notes">This is used for flowers, but can also be used for leaves.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {qep'a' 29 (2022):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -9836,6 +9883,49 @@ This word was suggested by Marc Okrand to translate "asylum" (in the sense of "r
       <column name="search_tags_fi"></column>
       <column name="source">[1] {qep'a' 28 (2021):src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">lunglIH Duj</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">helicopter</column>
+          <column name="definition_de">Hubschrauber [AUTOTRANSLATED]</column>
+          <column name="definition_fa">بالگرد [AUTOTRANSLATED]</column>
+          <column name="definition_sv">helikopter [AUTOTRANSLATED]</column>
+          <column name="definition_ru">вертолет [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">直升機 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">helicóptero [AUTOTRANSLATED]</column>
+          <column name="definition_fi">helikopteri [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">This is the most technical term, but there are also the slang expressions {ghew Duj:n} and {jIrwI' Duj:n}.[1]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{lunglIH:n}, {Duj:n:1}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {qep'a' 29 (2022):src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lup</column>

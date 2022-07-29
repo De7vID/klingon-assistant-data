@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import dictionary
 
 SELECTED_LOCALE = "en"
@@ -59,11 +61,16 @@ def make_query(query: str, sort: bool):
     entries = dictionary.dictionary_query(query=query, link_format="latex", lang=SELECTED_LOCALE)
     if sort:
         entries.sort(key=lambda x: (tuple(map(LETTERS.index, x["graphemes"])), x["simple_pos"], x.get("homonym", 0)))
-    
+
     return entries
 
 def render_entry(entry):
-    print("\\entry{%s}{%s}{%s" % (entry["rendered_link"], LOCALE["poses"][entry["simple_pos"]], entry["definition"]), end="")
+    if entry["tags"]:
+        tags = "\\textit{(" + ", ".join(entry["tags"]) + ")} "
+    else:
+        tags = ""
+
+    print("\\entry{%s}{%s}{%s%s" % (entry["rendered_link"], LOCALE["poses"][entry["simple_pos"]], tags, entry["definition"]), end="")
     for deriv in entry.get("derived", []):
         if set(deriv["boqwi_tags"]) & {"nodict", "extcan", "hyp"}: # exclude these from derived entries as well
             continue
@@ -72,7 +79,7 @@ def render_entry(entry):
             continue
 
         print("\\deriv{%s}{%s}{%s}" % (deriv["rendered_link"], LOCALE["poses"][deriv["simple_pos"]], deriv["definition"]), end="")
-    
+
     print("}\n")
 
 for section in SECTIONS:
@@ -93,5 +100,5 @@ for section in SECTIONS:
         print("\\begin{multicols}{2}")
         for entry in entries:
             render_entry(entry)
-        
+
         print("\\end{multicols}")

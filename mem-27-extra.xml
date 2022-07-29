@@ -8,7 +8,7 @@
          dialogue specific to a scene) should be placed here, while quotations of proverbs and such
          can remain in the main section. (The deciding factor is whether such a sentence would
          normally be found or be useful to look up in a phrasebook. For example, "Activate the
-         transport beam!" or "Help us!" are phrases one might look up, whereas "Gunner, target
+         transporter beam!" or "Help us!" are phrases one might look up, whereas "Gunner, target
          engine only" or "They have betrayed us!" are specific to the scene.)
 
          Note that some Trek canon falls into "non-canon" by the definition of "canon" used by
@@ -4647,7 +4647,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'aqaD</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Akkad</column>
       <column name="definition_de">Akkad</column>
       <column name="definition_fa">آکاد [AUTOTRANSLATED]</column>
@@ -4690,7 +4690,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">'aqaDyan Hol</column>
-          <column name="part_of_speech">n:deriv</column>
+          <column name="part_of_speech">n:deriv,terran</column>
           <column name="definition">Akkadian language</column>
           <column name="definition_de">Akkadisch</column>
           <column name="definition_fa">زبان اکدی [AUTOTRANSLATED]</column>
@@ -4733,7 +4733,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bambu'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">bamboo</column>
       <column name="definition_de">Bambus</column>
       <column name="definition_fa">بامبو</column>
@@ -4776,7 +4776,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">barbara' ma'rIch</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,terran</column>
       <column name="definition">Barbara March</column>
       <column name="definition_de">Barbara March</column>
       <column name="definition_fa">باربارا مارچ</column>
@@ -4819,7 +4819,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">balgharya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Bulgaria</column>
       <column name="definition_de">Bulgarien</column>
       <column name="definition_fa">بلغارستان</column>
@@ -4862,7 +4862,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bama Hol</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">Burmese language</column>
       <column name="definition_de">Birmanische Sprache</column>
       <column name="definition_fa">زبان برمه</column>
@@ -4905,7 +4905,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">banan naH</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">banana</column>
       <column name="definition_de">Banane</column>
       <column name="definition_fa">موز</column>
@@ -4948,7 +4948,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">barat</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">India</column>
       <column name="definition_de">Indien</column>
       <column name="definition_fa">هندوستان</column>
@@ -4991,7 +4991,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">baStan</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Boston</column>
       <column name="definition_de">Boston</column>
       <column name="definition_fa">بوستون</column>
@@ -5034,7 +5034,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">belghIya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Belgium</column>
       <column name="definition_de">Belgien</column>
       <column name="definition_fa">بلژیک</column>
@@ -5077,7 +5077,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">berlIn</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Berlin</column>
       <column name="definition_de">Berlin</column>
       <column name="definition_fa">برلین</column>
@@ -5120,7 +5120,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bewbeb</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">Baobab (a Terran tree)</column>
       <column name="definition_de">Affenbrotbaum</column>
       <column name="definition_fa">آدانسونیا</column>
@@ -5163,7 +5163,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bIl jo'rIj</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,terran</column>
       <column name="definition">Bill George</column>
       <column name="definition_de">Bill George</column>
       <column name="definition_fa">بیل جورج</column>
@@ -5208,7 +5208,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bIraSIw</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Brazil</column>
       <column name="definition_de">Brasilien</column>
       <column name="definition_fa">برزیل</column>
@@ -5251,7 +5251,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bIrI'tIS qolambIya</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">British Columbia</column>
       <column name="definition_de">Britisch-Kolumbien</column>
       <column name="definition_fa">بریتیش کلمبیا</column>
@@ -5294,7 +5294,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">boSporoS</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Bosporus</column>
       <column name="definition_de">Bosporus</column>
       <column name="definition_fa">بسفر</column>
@@ -5337,7 +5337,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">cheSqa'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Czech Republic</column>
       <column name="definition_de">Tschechien</column>
       <column name="definition_fa">جمهوری چک</column>
@@ -5380,7 +5380,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">choSan</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Korea</column>
       <column name="definition_de">Korea</column>
       <column name="definition_fa">کشور کره [AUTOTRANSLATED]</column>
@@ -5423,7 +5423,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Da'lar</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">dollar</column>
       <column name="definition_de">Dollar</column>
       <column name="definition_fa">دلار</column>
@@ -5466,7 +5466,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Denmargh</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Denmark</column>
       <column name="definition_de">Dänemark</column>
       <column name="definition_fa">دانمارک</column>
@@ -5509,7 +5509,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DIreS'en</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Dresden</column>
       <column name="definition_de">Dresden</column>
       <column name="definition_fa">درسدن [AUTOTRANSLATED]</column>
@@ -5552,7 +5552,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DItroy'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Detroit</column>
       <column name="definition_de">Detroit</column>
       <column name="definition_fa">دیترویت</column>
@@ -5595,7 +5595,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DoyIchlan</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Germany</column>
       <column name="definition_de">Deutschland</column>
       <column name="definition_fa">آلمان</column>
@@ -5638,7 +5638,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">DoyIchlan Hol</column>
-      <column name="part_of_speech">n:deriv</column>
+      <column name="part_of_speech">n:deriv,terran</column>
       <column name="definition">German (language)</column>
       <column name="definition_de">Deutsch (Sprache)</column>
       <column name="definition_fa">زبان آلمانی</column>
@@ -5681,7 +5681,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">gharlIq 'oQqar</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">garlic</column>
       <column name="definition_de">Knoblauch</column>
       <column name="definition_fa">سیر</column>
@@ -5724,7 +5724,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghenlan</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Greenland</column>
       <column name="definition_de">Grönland</column>
       <column name="definition_fa">گرینلند</column>
@@ -5767,7 +5767,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghIrep naH</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">grape</column>
       <column name="definition_de">Traube</column>
       <column name="definition_fa">انگور</column>
@@ -5810,7 +5810,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghI'neS</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,terran</column>
       <column name="definition">Guinness</column>
       <column name="definition_de">Guinness</column>
       <column name="definition_fa">گینس [AUTOTRANSLATED]</column>
@@ -5853,7 +5853,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghI'van</column>
-      <column name="part_of_speech">n:anim,fic</column>
+      <column name="part_of_speech">n:anim,fic,terran</column>
       <column name="definition">gryphon</column>
       <column name="definition_de">Greif</column>
       <column name="definition_fa">gryphon [AUTOTRANSLATED]</column>
@@ -5895,8 +5895,51 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">gho'lIv</column>
+      <column name="part_of_speech">n:terran</column>
+      <column name="definition">golf (Terran game)</column>
+      <column name="definition_de">Golf (Terranerspiel) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">گلف (بازی Terran) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">golf (Terran spel) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">гольф (терранская игра) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">高爾夫（人族遊戲） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">golfe (jogo terrano) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">golf (Terran peli) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{cha'DaSvI':n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {qep'a' 29 (2022):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">ghuwan</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Rouen</column>
       <column name="definition_de">Rouen</column>
       <column name="definition_fa">روئن [AUTOTRANSLATED]</column>
@@ -5939,7 +5982,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghuwI'nItlh wa'lIS</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,terran</column>
       <column name="definition">Gwynyth Walsh</column>
       <column name="definition_de">Gwynyth Walsh</column>
       <column name="definition_fa">گوئینیث والش</column>
@@ -5982,7 +6025,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hamburgh</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Hamburg</column>
       <column name="definition_de">Hamburg</column>
       <column name="definition_fa">هامبورگ</column>
@@ -6025,7 +6068,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hanghuq</column>
-      <column name="part_of_speech">n:place,alt</column>
+      <column name="part_of_speech">n:place,alt,terran</column>
       <column name="definition">{choSan:n}</column>
       <column name="definition_de">{choSan:n}</column>
       <column name="definition_fa">{choSan:n}</column>
@@ -6068,7 +6111,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jan qalI'qoS</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,terran</column>
       <column name="definition">John Colicos</column>
       <column name="definition_de">John Colicos</column>
       <column name="definition_fa">جان کالیکوس</column>
@@ -6111,7 +6154,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jeS QoQ</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">jazz (music)</column>
       <column name="definition_de">Jazz (Musik)</column>
       <column name="definition_fa">موسیقی (جاز) [AUTOTRANSLATED]</column>
@@ -6154,7 +6197,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jorja</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Georgia (US state)</column>
       <column name="definition_de">Georgia (US-Bundesstaat)</column>
       <column name="definition_fa">جورجیا (ایالت ایالات متحده) [AUTOTRANSLATED]</column>
@@ -6197,7 +6240,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jungwoq</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">China</column>
       <column name="definition_de">China</column>
       <column name="definition_fa">چين</column>
@@ -6240,7 +6283,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ju'pIter</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Jupiter</column>
       <column name="definition_de">Jupiter</column>
       <column name="definition_fa">سیاره مشتری [AUTOTRANSLATED]</column>
@@ -6283,7 +6326,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lanDan</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">London</column>
       <column name="definition_de">London</column>
       <column name="definition_fa">لندن</column>
@@ -6326,7 +6369,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">laS veghaS</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Las Vegas</column>
       <column name="definition_de">Las Vegas</column>
       <column name="definition_fa">لاس وگاس</column>
@@ -6369,7 +6412,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">la'avghe</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Le Havre</column>
       <column name="definition_de">Le Havre</column>
       <column name="definition_fa">لو هاور [AUTOTRANSLATED]</column>
@@ -6412,7 +6455,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">letSeburgh</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Luxembourg</column>
       <column name="definition_de">Luxemburg</column>
       <column name="definition_fa">لوکزامبورگ</column>
@@ -6455,7 +6498,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lIHtentay'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Liechtenstein</column>
       <column name="definition_de">Liechtenstein</column>
       <column name="definition_fa">لیختن‌اشتاین</column>
@@ -6498,7 +6541,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lIbya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Libya</column>
       <column name="definition_de">Libyen</column>
       <column name="definition_fa">لیبی</column>
@@ -6541,7 +6584,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lIyenIn</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,terran</column>
       <column name="definition">Lenin</column>
       <column name="definition_de">Lenin</column>
       <column name="definition_fa">لنین</column>
@@ -6584,7 +6627,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lI'lIy</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">lily</column>
       <column name="definition_de">Lilie</column>
       <column name="definition_fa">زنبق [AUTOTRANSLATED]</column>
@@ -6627,7 +6670,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">maDyar</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Hungary</column>
       <column name="definition_de">Ungarn</column>
       <column name="definition_fa">مجارستان</column>
@@ -6670,7 +6713,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">maghrIb</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Morocco</column>
       <column name="definition_de">Marokko</column>
       <column name="definition_fa">مراکش</column>
@@ -6713,7 +6756,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">maleSya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Malaysia</column>
       <column name="definition_de">Malaysia</column>
       <column name="definition_fa">مالزی</column>
@@ -6756,7 +6799,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mangtay</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Thailand</column>
       <column name="definition_de">Thailand</column>
       <column name="definition_fa">تایلند [AUTOTRANSLATED]</column>
@@ -6799,7 +6842,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">maqIy</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">Maquis (Resistance)</column>
       <column name="definition_de">Maquis (Widerstand)</column>
       <column name="definition_fa">Maquis (Resistance) [AUTOTRANSLATED]</column>
@@ -6842,7 +6885,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">marIS</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Mars</column>
       <column name="definition_de">Mars</column>
       <column name="definition_fa">مریخ [AUTOTRANSLATED]</column>
@@ -6885,7 +6928,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">maSIr</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Egypt</column>
       <column name="definition_de">Ägypten</column>
       <column name="definition_fa">مصر</column>
@@ -6928,7 +6971,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">maSquwa'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Moscow</column>
       <column name="definition_de">Moskau</column>
       <column name="definition_fa">مسکو</column>
@@ -6971,7 +7014,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">maw</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,terran</column>
       <column name="definition">Mao</column>
       <column name="definition_de">Mao</column>
       <column name="definition_fa">مائو [AUTOTRANSLATED]</column>
@@ -7014,7 +7057,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mayqel Do'rIn</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,terran</column>
       <column name="definition">Michael Dorn</column>
       <column name="definition_de">Michael Dorn</column>
       <column name="definition_fa">مایکل دورن</column>
@@ -7057,7 +7100,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mayqel 'anSara'</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,terran</column>
       <column name="definition">Michael Ansara</column>
       <column name="definition_de">Michael Ansara</column>
       <column name="definition_fa">مایکل آنسارا</column>
@@ -7100,7 +7143,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">menggho' naH</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">mango</column>
       <column name="definition_de">Mango</column>
       <column name="definition_fa">انبه</column>
@@ -7143,7 +7186,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mIyama</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Burma/Myanmar</column>
       <column name="definition_de">Birma/Myanmar</column>
       <column name="definition_fa">برمه/میانمار</column>
@@ -7186,7 +7229,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mongghol 'uluS</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Mongolia</column>
       <column name="definition_de">Mongolei</column>
       <column name="definition_fa">مغولستان</column>
@@ -7229,7 +7272,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mu'neqo</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Monaco</column>
       <column name="definition_de">Monaco</column>
       <column name="definition_fa">موناکو</column>
@@ -7272,7 +7315,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nayeghra</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Niagara</column>
       <column name="definition_de">Niagara</column>
       <column name="definition_fa">نیاگارا</column>
@@ -7315,7 +7358,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nayjerya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Nigeria</column>
       <column name="definition_de">Nigeria</column>
       <column name="definition_fa">نیجریه</column>
@@ -7358,7 +7401,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nIve'Da'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Nevada</column>
       <column name="definition_de">Nevada</column>
       <column name="definition_fa">نوادا</column>
@@ -7401,7 +7444,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nIylo roDIS</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,terran</column>
       <column name="definition">Nilo Rodis</column>
       <column name="definition_de">Nilo Rodis</column>
       <column name="definition_fa">نیلو رودیس</column>
@@ -7446,7 +7489,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">noghmanDIy</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Normandy</column>
       <column name="definition_de">Normandie</column>
       <column name="definition_fa">نرماندی [AUTOTRANSLATED]</column>
@@ -7489,7 +7532,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nuyorgh</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">New York</column>
       <column name="definition_de">New York</column>
       <column name="definition_fa">نیویورک</column>
@@ -7532,7 +7575,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">nu'SIylan</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">New Zealand</column>
       <column name="definition_de">Neuseeland</column>
       <column name="definition_fa">نیوزلند</column>
@@ -7575,7 +7618,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">parIy</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Paris</column>
       <column name="definition_de">Paris</column>
       <column name="definition_fa">پاریس</column>
@@ -7618,7 +7661,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">paSta'</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">pasta, noodles, spaghetti</column>
       <column name="definition_de">Nudeln, Spaghetti</column>
       <column name="definition_fa">ماکارونی ، رشته فرنگی ، ماکارونی [AUTOTRANSLATED]</column>
@@ -7661,7 +7704,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pa'raghway</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Paraguay</column>
       <column name="definition_de">Paraguay</column>
       <column name="definition_fa">پاراگوئه</column>
@@ -7704,7 +7747,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">penSIlvenya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Pennsylvania</column>
       <column name="definition_de">Pennsylvania</column>
       <column name="definition_fa">پنسیلوانیا</column>
@@ -7747,7 +7790,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">per naH</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">pear</column>
       <column name="definition_de">Birne</column>
       <column name="definition_fa">گلابی</column>
@@ -7790,7 +7833,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pe'ru'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Peru</column>
       <column name="definition_de">Peru</column>
       <column name="definition_fa">پرو</column>
@@ -7833,7 +7876,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pIlam naH</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">plum</column>
       <column name="definition_de">Pflaume</column>
       <column name="definition_fa">آلو</column>
@@ -7876,7 +7919,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pIlIpIynaS</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">the Philippines</column>
       <column name="definition_de">Die Philippinen</column>
       <column name="definition_fa">فیلیپین</column>
@@ -7919,7 +7962,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pIra'Ha</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Prague</column>
       <column name="definition_de">Prag</column>
       <column name="definition_fa">پراگ</column>
@@ -7962,7 +8005,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pItSa' chab</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">pizza</column>
       <column name="definition_de">Pizza</column>
       <column name="definition_fa">پیتزا</column>
@@ -8005,7 +8048,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">pItlhbergh</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Pittsburgh</column>
       <column name="definition_de">Pittsburgh</column>
       <column name="definition_fa">پیتسبورگ</column>
@@ -8048,7 +8091,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">portughal</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Portugal</column>
       <column name="definition_de">Portugal</column>
       <column name="definition_fa">پرتغال</column>
@@ -8091,7 +8134,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">po'lISqa'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Poland</column>
       <column name="definition_de">Polen</column>
       <column name="definition_fa">لهستان</column>
@@ -8134,7 +8177,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qalIvornIya</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">California</column>
       <column name="definition_de">Kalifornien</column>
       <column name="definition_fa">کالیفرنیا</column>
@@ -8177,7 +8220,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qamerun</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Cameroon</column>
       <column name="definition_de">Kamerun</column>
       <column name="definition_fa">کامرون</column>
@@ -8220,7 +8263,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qa'mel</column>
-      <column name="part_of_speech">n:anim</column>
+      <column name="part_of_speech">n:anim,terran</column>
       <column name="definition">camel</column>
       <column name="definition_de">Kamel</column>
       <column name="definition_fa">camel [AUTOTRANSLATED]</column>
@@ -8263,7 +8306,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qa'nabIS</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">cannabis</column>
       <column name="definition_de">Hanf, Cannabis</column>
       <column name="definition_fa">شاه‌دانه [AUTOTRANSLATED]</column>
@@ -8306,7 +8349,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qa'naDa'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Canada</column>
       <column name="definition_de">Kanada</column>
       <column name="definition_fa">کانادا</column>
@@ -8355,7 +8398,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qebeq</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Quebec</column>
       <column name="definition_de">Quebec</column>
       <column name="definition_fa">کبک</column>
@@ -8398,7 +8441,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qebeq veng</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Quebec City</column>
       <column name="definition_de">Quebec City</column>
       <column name="definition_fa">شهر کبک</column>
@@ -8441,7 +8484,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qenSaS</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Kansas</column>
       <column name="definition_de">Kansas</column>
       <column name="definition_fa">کانزاس</column>
@@ -8484,7 +8527,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qenya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Kenya</column>
       <column name="definition_de">Kenia</column>
       <column name="definition_fa">کنیا</column>
@@ -8527,7 +8570,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qo'qa' qo'la'</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">Coca Cola</column>
       <column name="definition_de">Coca Cola</column>
       <column name="definition_fa">کوکاکولا</column>
@@ -8570,7 +8613,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qoro'na javtIm</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">coronavirus</column>
       <column name="definition_de">Coronavirus</column>
       <column name="definition_fa">ویروس کرونا [AUTOTRANSLATED]</column>
@@ -8613,7 +8656,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qo'qo</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">coconut</column>
       <column name="definition_de">Kokosnuss</column>
       <column name="definition_fa">نارگیل</column>
@@ -8656,7 +8699,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qo'vID wa'maH Hut</column>
-      <column name="part_of_speech">n:alt,noanki</column>
+      <column name="part_of_speech">n:alt,noanki,terran</column>
       <column name="definition">{qoro'na javtIm:n}</column>
       <column name="definition_de">{qoro'na javtIm:n}</column>
       <column name="definition_fa">{qoro'na javtIm:n}</column>
@@ -8699,7 +8742,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">quba'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Cuba</column>
       <column name="definition_de">Kuba</column>
       <column name="definition_fa">کوبا</column>
@@ -8742,7 +8785,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">rabe'rIt 'o'raylIy</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,terran</column>
       <column name="definition">Robert O'Reilly</column>
       <column name="definition_de">Robert O'Reilly</column>
       <column name="definition_fa">رابرت اورایلی</column>
@@ -8785,7 +8828,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">raqSan bIQ-DawSon</column>
-      <column name="part_of_speech">n:name</column>
+      <column name="part_of_speech">n:name,terran</column>
       <column name="definition">Roxann Biggs-Dawson</column>
       <column name="definition_de">Roxann Biggs-Dawson</column>
       <column name="definition_fa">روکسان بیگز داوسن</column>
@@ -8828,7 +8871,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">raSber naH</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">raspberry</column>
       <column name="definition_de">Himbeere</column>
       <column name="definition_fa">تمشک</column>
@@ -8871,7 +8914,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">raSya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Russia</column>
       <column name="definition_de">Russland</column>
       <column name="definition_fa">روسیه</column>
@@ -8914,7 +8957,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ra'yIn</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Rhine</column>
       <column name="definition_de">Rhein</column>
       <column name="definition_fa">راین [AUTOTRANSLATED]</column>
@@ -8957,7 +9000,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">romanI'ya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Romania</column>
       <column name="definition_de">Rumänien</column>
       <column name="definition_fa">رومانی</column>
@@ -9000,7 +9043,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">roma'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Rome</column>
       <column name="definition_de">Rom</column>
       <column name="definition_fa">رم [AUTOTRANSLATED]</column>
@@ -9043,7 +9086,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ro'Sa'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">rose (a Terran flower)</column>
       <column name="definition_de">Rose</column>
       <column name="definition_fa">گل رز</column>
@@ -9086,7 +9129,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SaHa'ra'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Sahara (Earth desert)</column>
       <column name="definition_de">Sahara Wüste</column>
       <column name="definition_fa">بیابان صحرا</column>
@@ -9129,7 +9172,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Sam</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">shawm</column>
       <column name="definition_de">Schalmei</column>
       <column name="definition_fa">شال [AUTOTRANSLATED]</column>
@@ -9172,7 +9215,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SaQatvelo'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Georgia</column>
       <column name="definition_de">Georgien</column>
       <column name="definition_fa">گرجستان</column>
@@ -9215,7 +9258,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Sarbruqen</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Saarbrücken (Germany)</column>
       <column name="definition_de">Saarbrücken</column>
       <column name="definition_fa">ساربروکن (آلمان) [AUTOTRANSLATED]</column>
@@ -9259,7 +9302,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
       <!-- https://twitter.com/CassiniSaturn/status/350659797164625922 -->
       <column name="_id"></column>
       <column name="entry_name">Saturn</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Saturn</column>
       <column name="definition_de">Saturn</column>
       <column name="definition_fa">زحل</column>
@@ -9302,7 +9345,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Sen</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Seine</column>
       <column name="definition_de">Seine</column>
       <column name="definition_fa">سن [AUTOTRANSLATED]</column>
@@ -9345,7 +9388,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SIlovenISqa'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Slovakia</column>
       <column name="definition_de">Slowakei</column>
       <column name="definition_fa">اسلواکی</column>
@@ -9388,7 +9431,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SIqenDInavya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Scandinavia</column>
       <column name="definition_de">Scandinavia</column>
       <column name="definition_fa">اسکاندیناوی</column>
@@ -9431,7 +9474,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SIqotlan</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Scotland</column>
       <column name="definition_de">Schottland</column>
       <column name="definition_fa">اسکاتلند</column>
@@ -9474,7 +9517,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Sol</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Sun (scientific name for Earth's sun)</column>
       <column name="definition_de">Sonne (wissenschaftlicher Name für die Sonne der Erde)</column>
       <column name="definition_fa">خورشید (نام علمی خورشید زمین) [AUTOTRANSLATED]</column>
@@ -9527,7 +9570,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Surya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Syria</column>
       <column name="definition_de">Syrien</column>
       <column name="definition_fa">سوریه</column>
@@ -9570,7 +9613,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Sutra'ber naH</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">strawberry</column>
       <column name="definition_de">Erdbeere</column>
       <column name="definition_fa">توت فرنگی</column>
@@ -9613,7 +9656,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SurIna'ma</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Suriname</column>
       <column name="definition_de">Surinam</column>
       <column name="definition_fa">سورینام [AUTOTRANSLATED]</column>
@@ -9656,7 +9699,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Suverya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Sweden</column>
       <column name="definition_de">Schweden</column>
       <column name="definition_fa">سوئد</column>
@@ -9699,7 +9742,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SuwISya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Switzerland</column>
       <column name="definition_de">Schweiz</column>
       <column name="definition_fa">سوئیس</column>
@@ -9742,7 +9785,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">SuwomIy</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Finland</column>
       <column name="definition_de">Finnland</column>
       <column name="definition_fa">فنلاند</column>
@@ -9785,7 +9828,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tanje'rIn</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">tangerine</column>
       <column name="definition_de">Mandarine</column>
       <column name="definition_fa">نارنگی [AUTOTRANSLATED]</column>
@@ -9828,7 +9871,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">teqSaS</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Texas</column>
       <column name="definition_de">Texas</column>
       <column name="definition_fa">تگزاس</column>
@@ -9871,7 +9914,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tera' rop bIr</column>
-      <column name="part_of_speech">n:deriv</column>
+      <column name="part_of_speech">n:deriv,terran</column>
       <column name="definition">common cold (mistranslation)</column>
       <column name="definition_de">Erkältung (Fehlübersetzung)</column>
       <column name="definition_fa">سرماخوردگی (ترجمه غلط) [AUTOTRANSLATED]</column>
@@ -9914,7 +9957,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tomat naH</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">tomato</column>
       <column name="definition_de">Tomate</column>
       <column name="definition_fa">گوجه فرنگی</column>
@@ -9957,7 +10000,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">toba'qo</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">tobacco</column>
       <column name="definition_de">Tabak</column>
       <column name="definition_fa">تنباکو [AUTOTRANSLATED]</column>
@@ -10000,7 +10043,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">turIqya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Turkey</column>
       <column name="definition_de">Türkei</column>
       <column name="definition_fa">ترکیه</column>
@@ -10043,7 +10086,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">veneSwe'la'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Venezuela</column>
       <column name="definition_de">Venezuela</column>
       <column name="definition_fa">ونزوئلا</column>
@@ -10086,7 +10129,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vIlaDelvIya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Philadelphia</column>
       <column name="definition_de">Philadelphia</column>
       <column name="definition_fa">فیلادلفیا</column>
@@ -10129,7 +10172,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vIraS</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">France</column>
       <column name="definition_de">Frankreich</column>
       <column name="definition_fa">فرانسه</column>
@@ -10172,7 +10215,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">vIyetnam</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Vietnam</column>
       <column name="definition_de">Vietnam</column>
       <column name="definition_fa">ویتنام</column>
@@ -10215,7 +10258,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">wa'SIngtanDIySIy</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Washington, DC</column>
       <column name="definition_de">Washington, DC</column>
       <column name="definition_fa">ایالت واشنگتن [AUTOTRANSLATED]</column>
@@ -10258,7 +10301,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">we'lIS</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Wales</column>
       <column name="definition_de">Wales</column>
       <column name="definition_fa">ولز [AUTOTRANSLATED]</column>
@@ -10301,7 +10344,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yeru'Sala'yIm</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Jerusalem</column>
       <column name="definition_de">Jerusalem</column>
       <column name="definition_fa">اورشلیم</column>
@@ -10344,7 +10387,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">yISra'el</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Israel</column>
       <column name="definition_de">Israel</column>
       <column name="definition_fa">اسرائيل</column>
@@ -10387,7 +10430,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'amerI'qa' SepjIjQa'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">United States of America</column>
       <column name="definition_de">Vereinigte Staaten von Amerika</column>
       <column name="definition_fa">ایالات متحده آمریکا</column>
@@ -10430,7 +10473,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'amerI'qa' tIng chan tIng</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">South America</column>
       <column name="definition_de">Südamerika</column>
       <column name="definition_fa">آمریکای جنوبی</column>
@@ -10473,7 +10516,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'amerI'qa' 'ev chan 'ev</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">North America</column>
       <column name="definition_de">Nordamerika</column>
       <column name="definition_fa">آمریکای شمالی</column>
@@ -10516,7 +10559,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'anDo'ra'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Andorra</column>
       <column name="definition_de">Andorra</column>
       <column name="definition_fa">آندورا</column>
@@ -10559,7 +10602,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'antartIq</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Antarctica</column>
       <column name="definition_de">Antarktis</column>
       <column name="definition_fa">جنوبگان</column>
@@ -10602,7 +10645,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'arab Hol</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">Arabic language</column>
       <column name="definition_de">arabische Sprache</column>
       <column name="definition_fa">زبان عربی</column>
@@ -10645,7 +10688,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'arHentInya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Argentina</column>
       <column name="definition_de">Argentinien</column>
       <column name="definition_fa">آرژانتین</column>
@@ -10688,7 +10731,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'aS</column>
-      <column name="part_of_speech">n:name,fic</column>
+      <column name="part_of_speech">n:name,fic,terran</column>
       <column name="definition">Oz</column>
       <column name="definition_de">Oz</column>
       <column name="definition_fa">اوز [AUTOTRANSLATED]</column>
@@ -10731,7 +10774,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'aSralya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Australia</column>
       <column name="definition_de">Australien</column>
       <column name="definition_fa">استرالیا</column>
@@ -10774,7 +10817,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'aSya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Asia</column>
       <column name="definition_de">Asien</column>
       <column name="definition_fa">آسیا</column>
@@ -10817,7 +10860,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'atlantIq bIQ'a'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Atlantic Ocean</column>
       <column name="definition_de">Atlantischer Ozean, Atlantik</column>
       <column name="definition_fa">اقیانوس اطلس</column>
@@ -10860,7 +10903,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'avghanIStan</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Afghanistan</column>
       <column name="definition_de">Afghanistan</column>
       <column name="definition_fa">افغانستان</column>
@@ -10903,7 +10946,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'avrI'qa'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Africa</column>
       <column name="definition_de">Afrika</column>
       <column name="definition_fa">آفریقا</column>
@@ -10946,7 +10989,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'ayItI</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Haiti</column>
       <column name="definition_de">Haiti</column>
       <column name="definition_fa">هائیتی</column>
@@ -10989,7 +11032,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'a'leghen'I'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Allegheny</column>
       <column name="definition_de">Allegheny</column>
       <column name="definition_fa">الگینی</column>
@@ -11032,7 +11075,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'elaDya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Greece</column>
       <column name="definition_de">Griechenland</column>
       <column name="definition_fa">یونان</column>
@@ -11075,7 +11118,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'epIl naH</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">apple</column>
       <column name="definition_de">Apfel</column>
       <column name="definition_fa">سیب</column>
@@ -11118,7 +11161,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'eqwaDor</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Ecuador</column>
       <column name="definition_de">Ecuador</column>
       <column name="definition_fa">اکوادور</column>
@@ -11161,7 +11204,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'eSpanya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Spain</column>
       <column name="definition_de">Spanien</column>
       <column name="definition_fa">اسپانیا</column>
@@ -11203,8 +11246,51 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">'eSperanto Hol</column>
+      <column name="part_of_speech">n:terran</column>
+      <column name="definition">Esperanto (language)</column>
+      <column name="definition_de">Esperanto (Sprache) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">اسپرانتو (زبان) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Esperanto (språk) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Эсперанто (язык) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">世界語（語言） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">Esperanto (idioma) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">esperanto (kieli) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes">Informally, people had been using {tulwI' Hol:n@@tul:v, -wI':v, Hol:n}, based on its literal meaning.</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {qep'a' 29 (2022):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">'eSpeD</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">spade (card suit)</column>
       <column name="definition_de">Pik, Schaufel (Kartenspielfarbe)</column>
       <column name="definition_fa">بیل (کت و شلوار) [AUTOTRANSLATED]</column>
@@ -11247,7 +11333,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'eStIy</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Estonia</column>
       <column name="definition_de">Estland</column>
       <column name="definition_fa">استونی</column>
@@ -11290,7 +11376,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'ewro</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">Euro</column>
       <column name="definition_de">Euro</column>
       <column name="definition_fa">یورو</column>
@@ -11333,7 +11419,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'ewrop</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Europe</column>
       <column name="definition_de">Europa</column>
       <column name="definition_fa">اروپا</column>
@@ -11376,7 +11462,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'eyawaDIy</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Irrawaddy</column>
       <column name="definition_de">Irrawaddy</column>
       <column name="definition_fa">ایراوادی [AUTOTRANSLATED]</column>
@@ -11419,7 +11505,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'eyre'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Ireland</column>
       <column name="definition_de">Irland</column>
       <column name="definition_fa">ایرلند</column>
@@ -11462,7 +11548,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'e'levan</column>
-      <column name="part_of_speech">n:anim</column>
+      <column name="part_of_speech">n:anim,terran</column>
       <column name="definition">elephant</column>
       <column name="definition_de">Elefant</column>
       <column name="definition_fa">فیل</column>
@@ -11505,7 +11591,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'InDIye'na'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Indiana</column>
       <column name="definition_de">Indiana</column>
       <column name="definition_fa">ایندیانا</column>
@@ -11548,7 +11634,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'InDIyene'palIS</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Indianapolis</column>
       <column name="definition_de">Indianapolis</column>
       <column name="definition_fa">ایندیاناپلیس [AUTOTRANSLATED]</column>
@@ -11591,7 +11677,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'Inglan</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">England</column>
       <column name="definition_de">England</column>
       <column name="definition_fa">انگلستان</column>
@@ -11634,7 +11720,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'ISlan</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Iceland</column>
       <column name="definition_de">Island</column>
       <column name="definition_fa">ایسلند</column>
@@ -11677,7 +11763,7 @@ The scientific name for each planet is {Sol:n:nolink} followed by a name, e.g., 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'Italya'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Italy</column>
       <column name="definition_de">Italien</column>
       <column name="definition_fa">ایتالیا</column>
@@ -11736,7 +11822,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'onteryo</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Ontario</column>
       <column name="definition_de">Ontario</column>
       <column name="definition_fa">انتاریو</column>
@@ -11779,7 +11865,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'oSteray'</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Austria</column>
       <column name="definition_de">Österreich</column>
       <column name="definition_fa">اتریش</column>
@@ -11822,7 +11908,7 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">'oStIn</column>
-      <column name="part_of_speech">n:place</column>
+      <column name="part_of_speech">n:place,terran</column>
       <column name="definition">Austin</column>
       <column name="definition_de">Austin</column>
       <column name="definition_fa">آستین</column>
@@ -12826,7 +12912,7 @@ It's likely that these sentences were made up by a writer who consulted {TKD:src
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">boQwI'</column>
-      <column name="part_of_speech">n:deriv</column>
+      <column name="part_of_speech">n:deriv,nodict</column>
       <column name="definition">assistant (this program)</column>
       <column name="definition_de">Assistent (diese App)</column>
       <column name="definition_fa">دستیار (این برنامه)</column>
@@ -13327,7 +13413,7 @@ Erityiset kiitokset Marc Okrandille ({marq 'oqranD:n:name}) klingonin kielen luo
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Doq 'ej SuD</column>
-      <column name="part_of_speech">sen:phr</column>
+      <column name="part_of_speech">sen:phr,nodict</column>
       <column name="definition">violet, purple (not used in Klingon)</column>
       <column name="definition_de">violett, lila (nicht auf Klingonisch verwendet)</column>
       <column name="definition_fa">بنفش ، بنفش (در کلینگون استفاده نمی شود) [AUTOTRANSLATED]</column>
@@ -15798,7 +15884,7 @@ The three arms of the {tIq'ghob:n:nolink} are said to represent honor, loyalty, 
       <column name="definition_fi">eräs suitsuke, adanji</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{pIw rebmugh:n}</column>
       <column name="notes">This is used in the {ma'to'vor:n} ritual. It must be real and not replicated.[1]</column>
       <column name="notes_de">Dies wird im {ma'to'vor:n}-Ritual verwendet. Es muss real sein und darf nicht repliziert werden.[1] [AUTOTRANSLATED]</column>
       <column name="notes_fa">این در مراسم {ma'to'vor:n} استفاده می شود. این باید واقعی باشد و بدون تکرار باشد.[1] [AUTOTRANSLATED]</column>

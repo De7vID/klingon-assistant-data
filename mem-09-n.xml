@@ -838,14 +838,14 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tlhIl:v}, {tlhIl:n}, {qut:n}</column>
-      <column name="notes">Known types of gemstones include {qevaS:n}, {Separ:n}, {DItlhon:n}, and {patmor:n}.</column>
-      <column name="notes_de">Bekannte Arten von Edelsteinen sind {qevaS:n}, {Separ:n}, {DItlhon:n} und {patmor:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">انواع سنگهای قیمتی مشهور عبارتند از {qevaS:n} ، {Separ:n} ، {DItlhon:n} و {patmor:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Kända typer av ädelstenar inkluderar {qevaS:n}, {Separ:n}, {DItlhon:n} och {patmor:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Известные типы драгоценных камней включают {qevaS:n}, {Separ:n}, {DItlhon:n} и {patmor:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">已知的寶石類型包括{qevaS:n}，{Separ:n}，{DItlhon:n}和{patmor:n}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Os tipos conhecidos de pedras preciosas incluem {qevaS:n}, {Separ:n}, {DItlhon:n} e {patmor:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tunnettuja jalokivityyppejä ovat {qevaS:n}, {Separ:n}, {DItlhon:n} ja {patmor:n}. [AUTOTRANSLATED]</column>
+      <column name="notes">Known types of gemstones include {chamon:n}, {qevaS:n}, {Separ:n}, {DItlhon:n}, and {patmor:n}.</column>
+      <column name="notes_de">Bekannte Arten von Edelsteinen sind {chamon:n}, {qevaS:n}, {Separ:n}, {DItlhon:n} und {patmor:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">انواع سنگهای قیمتی مشهور عبارتند از {chamon:n}, {qevaS:n} ، {Separ:n} ، {DItlhon:n} و {patmor:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Kända typer av ädelstenar inkluderar {chamon:n}, {qevaS:n}, {Separ:n}, {DItlhon:n} och {patmor:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Известные типы драгоценных камней включают {chamon:n}, {qevaS:n}, {Separ:n}, {DItlhon:n} и {patmor:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">已知的寶石類型包括{chamon:n}, {qevaS:n}，{Separ:n}，{DItlhon:n}和{patmor:n}。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Os tipos conhecidos de pedras preciosas incluem {chamon:n}, {qevaS:n}, {Separ:n}, {DItlhon:n} e {patmor:n}. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tunnettuja jalokivityyppejä ovat {chamon:n}, {qevaS:n}, {Separ:n}, {DItlhon:n} ja {patmor:n}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components">{nagh:n}, {boch:v}</column>
       <column name="examples"></column>
@@ -4996,7 +4996,7 @@ Note that the Klingon number-forming element for "ten thousand" is independent o
       <column name="notes_zh_HK">這是{yaS:n}的第9位。[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é o nono ranking do {yaS:n}.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä on upseeriston ({yaS:n}) yhdeksäs eli alin sotilasarvo.[2]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">In {QelIS boqHarmey:src}, this was used for the "Jack" in a deck of cards.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -5006,7 +5006,7 @@ Note that the Klingon number-forming element for "ten thousand" is independent o
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">jack</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -5014,7 +5014,7 @@ Note that the Klingon number-forming element for "ten thousand" is independent o
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT p.52:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.52:src}, [3] {QelIS boqHarmey:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7562,7 +7562,7 @@ Katso selitys näiden sormiverbien käytöstä kohdasta {SIq:v}. [AUTOTRANSLATED
       <column name="definition_fi">kostaa, maksaa takaisin samalla mitalla</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{bortaS:n}</column>
+      <column name="see_also">{bortaS:n}, {DItlh:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
