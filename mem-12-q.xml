@@ -1332,7 +1332,7 @@ On {KGT p.81:src}, it is claimed that there is no noun meaning "color", but this
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qam Do Duj</column>
-      <column name="part_of_speech">n:deriv</column>
+      <column name="part_of_speech">n:deriv,terran</column>
       <column name="definition">bicycle</column>
       <column name="definition_de">Fahrrad</column>
       <column name="definition_fa">دوچرخه</column>
@@ -5483,7 +5483,7 @@ Samankaltaisuus "Kapteeni Kangin" ({qeng HoD:n@@qeng:n, HoD:n}) kanssa on sattum
       <!-- Don't annotate as "deriv" because the bad grammar breaks the parser. -->
       <column name="_id"></column>
       <column name="entry_name">qepHom'a'</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">annual meeting of Klingon speakers in Germany</column>
       <column name="definition_de">jährlicher Klingonischkurs Saarbrücken</column>
       <column name="definition_fa">نشست سالانه سخنرانان کلینگان در آلمان [AUTOTRANSLATED]</column>
@@ -7054,7 +7054,7 @@ Hänen paluunsa on ennustettu Lupauksen tarinassa, jossa todetaan seuraavaa:
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qe'rot 'oQqar</column>
-      <column name="part_of_speech">n:food</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">carrot</column>
       <column name="definition_de">Karotte, Möhre</column>
       <column name="definition_fa">هویج [AUTOTRANSLATED]</column>
