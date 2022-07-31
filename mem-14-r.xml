@@ -1824,7 +1824,7 @@ Tämän sanan ensimmäinen osa on {rav:n:1} "lattia", mutta toinen osa ei liity 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ray' tIr</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">rice</column>
       <column name="definition_de">Reis</column>
       <column name="definition_fa">برنج [AUTOTRANSLATED]</column>
@@ -8395,9 +8395,52 @@ Sanan käsite voidaan ilmaista muodossa {puq lut:n@@puq:n, lut:n} tai {lut rorgh
       <column name="search_tags_fi"></column>
       <column name="source">[1] {HQ 10.2, Jun. 2001:src}</column>
     </table>
-    <!-- Not marked "deriv" because {roS:v:3} is hypothetical. -->
-    <!-- Note: {roS:v:3} is in the "extra" section. -->
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">roSbe'</column>
+          <column name="part_of_speech">v:i_c,slang</column>
+          <column name="definition">be libidinous</column>
+          <column name="definition_de">triebhaft sein [AUTOTRANSLATED]</column>
+          <column name="definition_fa">میل جنسی باشد [AUTOTRANSLATED]</column>
+          <column name="definition_sv">vara libidinös [AUTOTRANSLATED]</column>
+          <column name="definition_ru">быть страстным [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">性慾旺盛 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">ser libidinoso [AUTOTRANSLATED]</column>
+          <column name="definition_fi">olla libidinen [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">This is a slang term based on {roS:v:1} or {roS:v:2} meaning {qIS:v}.[1]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components"></column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags">randy, horny</column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {qep'a' 29 (2022):src}</column>
+        </table>
     <table name="mem">
+      <!-- Not marked "deriv" because {roS:v:3} is hypothetical. -->
+      <!-- Note: {roS:v:3} is in the "extra" section. -->
       <column name="_id"></column>
       <column name="entry_name">roSHa'moH</column>
       <column name="part_of_speech">v:t_c</column>

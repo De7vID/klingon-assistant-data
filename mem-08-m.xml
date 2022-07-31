@@ -5673,7 +5673,7 @@ Ruoanlaiton yhteydessä verbiä käytetään voi käyttää transitiivisessa mer
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">meyIS tIr</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:food,terran</column>
       <column name="definition">sweet corn</column>
       <column name="definition_de">Mais</column>
       <column name="definition_fa">ذرت شیرین [AUTOTRANSLATED]</column>
@@ -6391,7 +6391,7 @@ Tämä sana voi viitata myös "timanttipukuun" pelikorttipakassa (katso {Degh:n:
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
-          <column name="notes">This refers to animation only, and not to printed cartoons in the newspaper.[1] Even though {qol:n:2h} refers to a multitude of things, they are being treated as a collection, so one would say {qolmey:n@@qol:n:2h, -mey:n} for multiple cartoons.[2]
+          <column name="notes">This refers to animation only, and not to printed cartoons in the newspaper.[1] Even though {qol:n:1h} refers to a multitude of things, they are being treated as a collection, so one would say {qolmey:n@@qol:n:1h, -mey:n} for multiple cartoons.[2]
 
 To refer to a non-animated cartoon, see {mIllogh mIr:n} and {mIllogh meyrI':n}.</column>
           <column name="notes_de"></column>
@@ -6401,8 +6401,8 @@ To refer to a non-animated cartoon, see {mIllogh mIr:n} and {mIllogh meyrI':n}.<
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="hidden_notes">At the Q &amp; A session at {Saarbrücken qepHom'a' 2021:src}, it was explained that {qol:n:2h,nolink} is a noun, but its meaning was not revealed then. The meaning was subsequently revealed in the booklet, which was published later.[2]</column>
-          <column name="components">{mIllogh:n}, {qol:n:2h}</column>
+          <column name="hidden_notes">At the Q &amp; A session at {Saarbrücken qepHom'a' 2021:src}, it was explained that {qol:n:1h,nolink} is a noun, but its meaning was not revealed then. The meaning was subsequently revealed in the booklet, which was published later.[2]</column>
+          <column name="components">{mIllogh:n}, {qol:n:1h}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -7460,7 +7460,7 @@ This was clarified to mean "mental confusion" at {qep'a' 24 (2017):src}.</column
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">mIStaq</column>
-      <column name="part_of_speech">n:name,fic</column>
+      <column name="part_of_speech">n:name,fic,nodict</column>
       <column name="definition">?Mishtak</column>
       <column name="definition_de">?Mischtak</column>
       <column name="definition_fa">؟ میستک [AUTOTRANSLATED]</column>
@@ -11252,7 +11252,7 @@ Tätä verbiä käytetään myös musiikissa ({much:v:2}) ja taistelulajeissa ({
           <column name="_id"></column>
           <column name="entry_name">much jech</column>
           <column name="part_of_speech">n:deriv</column>
-          <column name="definition">costume</column>
+          <column name="definition">costume (e.g., for a stage play)</column>
           <column name="definition_de">Kostüm</column>
           <column name="definition_fa">لباس [AUTOTRANSLATED]</column>
           <column name="definition_sv">kostym [AUTOTRANSLATED]</column>
