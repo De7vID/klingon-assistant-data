@@ -160,6 +160,42 @@ then
     echo
 fi
 
+# Print any junk that accidentally added to the XML file at the beginning of a line.
+BOL_JUNK=$(grep "^\s*[^ ]\+\s*<\(table\|column\)" $TMP_DIR/mem.xml)
+if [[ ! -z "$BOL_JUNK" ]]
+then
+    echo "Junk at beginning of line:"
+    echo "$BOL_JUNK"
+    echo
+fi
+
+# Print any full-line examples which were accidentally indented.
+BADLY_INDENTED_EXAMPLES=$(grep "^\s\+▶" $TMP_DIR/mem.xml)
+if [[ ! -z "$BADLY_INDENTED_EXAMPLES" ]]
+then
+    echo "Full-line examples which are badly indented:"
+    echo "$BADLY_INDENTED_EXAMPLES"
+    echo
+fi
+
+# Print badly indented lines.
+BADLY_INDENTED_TABLES=$(grep -A2 "^\(\s\{0,3\}\|\s\{5,7\}\|\s\{9,12\}\)<table" $TMP_DIR/mem.xml)
+if [[ ! -z "$BADLY_INDENTED_TABLES" ]]
+then
+    echo "Badly indented lines:"
+    echo "$BADLY_INDENTED_TABLES"
+    echo
+fi
+
+# Print more badly indented lines.
+BADLY_INDENTED_COLUMNS=$(grep -A2 "^\(\s\{0,5\}\|\s\{7,9\}\|\s\{11,13\}\)<column" $TMP_DIR/mem.xml)
+if [[ ! -z "$BADLY_INDENTED_COLUMNS" ]]
+then
+    echo "Badly indented lines:"
+    echo "$BADLY_INDENTED_COLUMNS"
+    echo
+fi
+
 # Print any broken references.
 BROKEN_REFERENCES=$(./xml2json.py 2> >(sort|uniq) > /dev/null)
 if [[ ! -z "$BROKEN_REFERENCES" ]]
@@ -208,7 +244,7 @@ then
 fi
 
 # Pause (in case of error).
-if [[ ! $NONINTERACTIVE && (! -z "$POS_DEFINITION_MIXUP" || ! -z "$MISSING_DE" || ! -z "$MISSING_PT" || ! -z "$BROKEN_REFERENCES") ]]
+if [[ ! $NONINTERACTIVE ]]
 then
     read -n1 -r -p "Press any key to continue..."
     echo
