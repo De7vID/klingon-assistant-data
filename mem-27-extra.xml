@@ -1,19 +1,20 @@
-    <!-- This file is for entries which need to be pushed to the end for some reason even though
-         they do come from Marc Okrand, or whose provenance is uncertain or known not to be from
-         Marc Okrand. For example, words which have been transliterated from Federation Standard by
-         Marc Okrand (and which are not accepted as native Klingon words) should be placed here.
-         There are subsections for sentences from the audiotapes, movie DVD cases, TV series (ENT
-         and DSC), and movies, followed by a subsection for borrowings and a subsection for other
-         entries. Sentences from the audiotapes, TV series, and movies which are incidental (e.g.,
-         dialogue specific to a scene) should be placed here, while quotations of proverbs and such
-         can remain in the main section. (The deciding factor is whether such a sentence would
-         normally be found or be useful to look up in a phrasebook. For example, "Activate the
-         transporter beam!" or "Help us!" are phrases one might look up, whereas "Gunner, target
-         engine only" or "They have betrayed us!" are specific to the scene.)
+    <!--
+        This file is for entries which need to be pushed to the end for some reason even though
+        they do come from Marc Okrand, or whose provenance is uncertain or known not to be from
+        Marc Okrand. For example, words which have been transliterated from Federation Standard by
+        Marc Okrand (and which are not accepted as native Klingon words) should be placed here.
+        There are subsections for sentences from the audiotapes, movie DVD cases, TV series (ENT
+        and DSC), and movies, followed by a subsection for borrowings and a subsection for other
+        entries. Sentences from the audiotapes, TV series, and movies which are incidental (e.g.,
+        dialogue specific to a scene) should be placed here, while quotations of proverbs and such
+        can remain in the main section. (The deciding factor is whether such a sentence would
+        normally be found or be useful to look up in a phrasebook. For example, "Activate the
+        transporter beam!" or "Help us!" are phrases one might look up, whereas "Gunner, target
+        engine only" or "They have betrayed us!" are specific to the scene.)
 
-         Note that some Trek canon falls into "non-canon" by the definition of "canon" used by
-         Klingonists. -->
-
+        Note that some Trek canon falls into "non-canon" by the definition of "canon" used by
+        Klingonists.
+    -->
     <!-- Section: Dialogue sentences from CK and PK. -->
     <!-- These were written by Marc Okrand. -->
     <table name="mem">
@@ -616,7 +617,6 @@ Katso video tästä vitsistä: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</
       <column name="search_tags_fi"></column>
       <column name="source">[1] {PK:src}</column>
     </table>
-
     <!-- Section: Example sentences from KCD. -->
     <!-- These were written by Marc Okrand. -->
     <table name="mem">
@@ -662,7 +662,6 @@ Katso video tästä vitsistä: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</
       <column name="search_tags_fi"></column>
       <column name="source">[1] {KCD:src}</column>
     </table>
-
     <!-- Section: Sentences from Star Trek III -->
     <!-- These were written by Marc Okrand. -->
     <table name="mem">
@@ -1184,7 +1183,6 @@ Katso video tästä vitsistä: {YouTube video:url:http://youtu.be/HciuEJSpPq0}</
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Star Trek III:src}</column>
     </table>
-
     <!-- Section: Sentences from Star Trek V -->
     <!-- These were written by Marc Okrand. -->
     <table name="mem">
@@ -2437,7 +2435,6 @@ The original line was to have been {logh veQDaq bachchugh, yoH 'e' toblaHbe' Suv
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Star Trek V:src}</column>
     </table>
-
     <!-- Section: Sentences from Star Trek VI -->
     <!-- These were written by Marc Okrand. -->
     <table name="mem">
@@ -3015,7 +3012,6 @@ Alaotsikko oli "Mitä hän tekee?" mutta kirjaimellisempi käännös on "Miksi h
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Star Trek VI:src}</column>
     </table>
-
     <!-- Section: Sentences from Star Trek Into Darkness -->
     <!-- These were written by Marc Okrand. -->
     <table name="mem">
@@ -3147,7 +3143,6 @@ Alaotsikko oli "Mitä hän tekee?" mutta kirjaimellisempi käännös on "Miksi h
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Star Trek Into Darkness:src}, [2] {KLI mailing list 2020.05.22:src}</column>
     </table>
-
     <!-- Section: Sentences from movie DVD cases -->
     <!-- These were written by Marc Okrand. -->
     <table name="mem">
@@ -3451,7 +3446,6 @@ Alaotsikko oli "Mitä hän tekee?" mutta kirjaimellisempi käännös on "Miksi h
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Star Trek V Special Edition - That Klingon Couple:src}</column>
     </table>
-
     <!-- Section: Sentences from ENT -->
     <!-- These were written by Marc Okrand. -->
     <table name="mem">
@@ -3890,7 +3884,6 @@ To address a single person, say {qatlh choneH?:sen@@qatlh:ques, cho-:v, neH:v}</
       <column name="search_tags_fi"></column>
       <column name="source">[1] {ENT - Affliction:src}</column>
     </table>
-
     <!-- Section: Sentences from DSC -->
     <!-- These were NOT written by Marc Okrand, but by other expert Klingonists and thus are of generally high quality. -->
     <table name="mem">
@@ -3943,7 +3936,7 @@ To address a single person, say {qatlh choneH?:sen@@qatlh:ques, cho-:v, neH:v}</
       <column name="definition">Light the Fire.</column>
       <column name="definition_de">Entzündet das Feuer.</column>
       <column name="definition_fa">نور آتش را روشن کردن [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Tänd elden. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Tänd elden.</column>
       <column name="definition_ru">Зажечь огонь. [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">點燃火。</column>
       <column name="definition_pt">Ascenda o fogo.</column>
@@ -3997,7 +3990,7 @@ To address a single person, say {qatlh choneH?:sen@@qatlh:ques, cho-:v, neH:v}</
       <column name="notes">This is part of the Story of the Promise, which tells of the departure (and prophesies the return) of {qeylIS'e' lIjlaHbe'bogh vay':n:name}.</column>
       <column name="notes_de">Dies ist Teil der Geschichte der Verheißung, die von der Abreise (und Prophezeiung der Rückkehr) von {qeylIS'e' lIjlaHbe'bogh vay':n:name} erzählt. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این بخشی از داستان وعده است که از عزیمت (و پیشگویی بازگشت) {qeylIS'e' lIjlaHbe'bogh vay':n:name} خبر می دهد. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är en del av berättelsens berättelse, som berättar om {qeylIS'e' lIjlaHbe'bogh vay':n:name}: s avgång (och profeterar återkomsten). [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Det här är en del av berättelsen Historien om löftet, som berättar om {qeylIS'e' lIjlaHbe'bogh vay':n:name} avfärd (och profeserar om hans återkomst).</column>
       <column name="notes_ru">Это часть Истории Обещания, которая рассказывает об уходе (и предсказывает возвращение) {qeylIS'e' lIjlaHbe'bogh vay':n:name}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是「諾言故事」的一部分，該故事講述了{qeylIS'e' lIjlaHbe'bogh vay':n:name}的離開（並預言了返回）。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso faz parte da história da promessa, que fala da partida (e profetiza o retorno) do {qeylIS'e' lIjlaHbe'bogh vay':n:name}. [AUTOTRANSLATED]</column>
@@ -4208,7 +4201,6 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
       <column name="search_tags_fi"></column>
       <column name="source">[1] {DSC - Battle at the Binary Stars:src}, [2] {DSC - Despite Yourself:src}, [3] {DSC - The Wolf Inside:src}</column>
     </table>
-
     <!-- Section: Sentences and words from the paq'batlh -->
     <!-- These were written by Marc Okrand. In the case of some {no' Hol} words, they were invented by someone else but approved by Okrand. -->
     <table name="mem">
@@ -4641,7 +4633,6 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
       <column name="search_tags_fi"></column>
       <column name="source">[1] {paq'batlh 2ed p.31,35,195:src}</column>
     </table>
-
     <!-- Section: Borrowings from Federation Standard -->
     <!-- These were generally created by Marc Okrand. -->
     <table name="mem">
@@ -4687,49 +4678,49 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2019:src}</column>
     </table>
-        <table name="mem">
-          <column name="_id"></column>
-          <column name="entry_name">'aqaDyan Hol</column>
-          <column name="part_of_speech">n:deriv,terran</column>
-          <column name="definition">Akkadian language</column>
-          <column name="definition_de">Akkadisch</column>
-          <column name="definition_fa">زبان اکدی [AUTOTRANSLATED]</column>
-          <column name="definition_sv">Akkadiska språket [AUTOTRANSLATED]</column>
-          <column name="definition_ru">Аккадский язык [AUTOTRANSLATED]</column>
-          <column name="definition_zh_HK">阿卡德語 [AUTOTRANSLATED]</column>
-          <column name="definition_pt">Língua acadiana</column>
-          <column name="definition_fi">akkadin kieli</column>
-          <column name="synonyms"></column>
-          <column name="antonyms"></column>
-          <column name="see_also">{'aqaD:n}, {Hol:n}</column>
-          <column name="notes"></column>
-          <column name="notes_de"></column>
-          <column name="notes_fa"></column>
-          <column name="notes_sv"></column>
-          <column name="notes_ru"></column>
-          <column name="notes_zh_HK"></column>
-          <column name="notes_pt"></column>
-          <column name="notes_fi"></column>
-          <column name="hidden_notes">This is a borrowing from Federation Standard, so it isn't {'aqaD:n} plus {ngan:n}.</column>
-          <column name="components">{'aqaD:n}, {Hol:n}</column>
-          <column name="examples"></column>
-          <column name="examples_de"></column>
-          <column name="examples_fa"></column>
-          <column name="examples_sv"></column>
-          <column name="examples_ru"></column>
-          <column name="examples_zh_HK"></column>
-          <column name="examples_pt"></column>
-          <column name="examples_fi"></column>
-          <column name="search_tags"></column>
-          <column name="search_tags_de"></column>
-          <column name="search_tags_fa"></column>
-          <column name="search_tags_sv"></column>
-          <column name="search_tags_ru"></column>
-          <column name="search_tags_zh_HK"></column>
-          <column name="search_tags_pt"></column>
-          <column name="search_tags_fi"></column>
-          <column name="source">[1] {Saarbrücken qepHom'a' 2019:src}</column>
-        </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">'aqaDyan Hol</column>
+      <column name="part_of_speech">n:deriv,terran</column>
+      <column name="definition">Akkadian language</column>
+      <column name="definition_de">Akkadisch</column>
+      <column name="definition_fa">زبان اکدی [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Akkadiska språket [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Аккадский язык [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">阿卡德語 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">Língua acadiana</column>
+      <column name="definition_fi">akkadin kieli</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{'aqaD:n}, {Hol:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes">This is a borrowing from Federation Standard, so it isn't {'aqaD:n} plus {ngan:n}.</column>
+      <column name="components">{'aqaD:n}, {Hol:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2019:src}</column>
+    </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bambu'</column>
@@ -11991,7 +11982,6 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Sepqep wa'DIch:src} ({KLI mailing list 2019.11.10:src})</column>
     </table>
-
     <!-- Section: Hamlet -->
     <!-- These were borrowed/stolen from Klingon into Federation Standard. They are not marked "extcan" because Marc Okrand has said he would be consistent with these if he were to use them. -->
     <table name="mem">
@@ -12817,7 +12807,6 @@ Kursivoidun kirjasimen kuvaamiseen voidaan käyttää {chongHa':v@@chong:v:1, -H
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Hamlet:src}</column>
     </table>
-
     <!-- Section: Other -->
     <!-- These are generally not from Marc Okrand, but TV scriptwriters and other Star Trek authors. (Hypothetical word elements listed here may form parts of words invented by Okrand.) -->
     <table name="mem">
