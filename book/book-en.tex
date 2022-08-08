@@ -29,8 +29,11 @@
 \newcommand{\klingonref}[2][]{{#2}} % This could be colored based on part of speech
 \newcommand{\klingontext}[1]{{\textbf{#1}}} % This could be eg. pIqaD
 
+% Used in the word lists.
 \newcommand{\entry}[3]{\leftskip 0.2cm \parindent -0.2cm \klingontext{#1}\ \markboth{#1}{#1}\textit{#2}\ {#3}}
-\newcommand{\deriv}[3]{\ $\bullet$\ \klingontext{#1}\ \textit{#2}\ {#3}}
+\newcommand{\deriv}[3]{\ $\bullet$\ \textbf{#1}\ \textit{#2}\ {#3}}
+\newcommand{\derivsubentry}[3]{{\color{green}{\ $\bullet$\ \textbf{#1}\ \textit{#2}\ {#3}}}}
+\newcommand{\reverseentry}[4][]{\leftskip 0.2cm \parindent -0.2cm {#2}\ \markboth{#2}{#2}\textit{#3}\ {#4}}
 
 \newcolumntype{B}[0]{>{\bfseries}}
 \newcolumntype{I}[0]{>{\itshape}}
