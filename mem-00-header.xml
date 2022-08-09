@@ -88,8 +88,10 @@
                        SkyBox - SkyBox card
                        BoP - Bird of Prey poster
                        msn - MSN expert forum
-                             msn.onstage.startrek.expert.okrand (discontinued late 1997)
-                       s.e - startrek.expertforum (replaced msn newsgroup in Jan. 1998)
+                             msn.onstage.startrek.expert.okrand (discontinued
+                             late 1997)
+                       s.e - startrek.expertforum (replaced msn newsgroup in
+                             Jan. 1998)
                        s.k - startrek.klingon newsgroup (starting Feb. 1998)
                        FTG - Federation Travel Guide
 
@@ -135,7 +137,8 @@
 
     definition     = the definition in English of the entry
                      - if "hyp", and meaning is uncertain, end with "?"
-                     - if "alt", then the definition is the primary entry_name in {}
+                     - if "alt", then the definition is the primary entry_name
+                       in {}
 
     synonyms       = synonymous entries in Klingon
     antonyms       = antonymous entries in Klingon
@@ -145,21 +148,28 @@
     hidden_notes   = notes which are displayed in a smaller font, and which may
                      optionally be hidden
                      (use XML comments for *really* invisible notes)
-    components     = if entry is constructed, list components here
-    examples       = list examples; long examples should be placed on multiple lines, like this:
+    components     = if entry is constructed, list components here; components
+                     should consist of entries which are themselves
+                     constructed, rather than their components, if appropriate,
+                     e.g., {SuvwI':n} rather than {Suv:v} + {-wI':n}.
+    examples       = list examples; long examples should be placed on multiple
+                     lines, like this (starting on new line):
 ▶ {example}
 
-    Klingon words and phrases must be in brackets, like this: {tlhIngan Hol}. Part of speech may
-    be specified with ":", like this: {tlhIngan Hol:n}. This will cause the part of speech to be
-    displayed, e.g., "(n)", where appropriate in the app. Also, links will go to such an entry
-    directly, instead of attempting to analyse its components. Components may be explicitly
-    specified by using "@@", like this: {tlhIngan Hol:n@@tlhIngan:n, Hol:n}. If part of speech
-    is not specified, links will behave the same as if the user had typed in the query (so that
-    for example the user can edit the search query). Homophones which are the same part of speech
-    can be identified by a number, like {ghIt:n:1} and {ghIt:n:2}. The number "0" can be used to
-    return all matching homophones belonging to the same part of speech. A "h" after the number
-    suppresses the display of that number, e.g., {jIH:n:1} will display as "jIH (def'n 1)" whereas
-    {jIH:n:1h} will display as "jIH".
+    Klingon words and phrases must be in brackets, like this: {tlhIngan Hol}.
+    Part of speech may be specified with ":", like this: {tlhIngan Hol:n}. This
+    will cause the part of speech to be displayed, e.g., "(n)", where
+    appropriate in the app. Also, links will go to such an entry directly,
+    instead of attempting to analyse its components. Components may be
+    explicitly specified by using "@@", like this: {tlhIngan Hol:n@@tlhIngan:n,
+    Hol:n}. If part of speech is not specified, links will behave the same as
+    if the user had typed in the query (so that for example the user can edit
+    the search query). Homophones which are the same part of speech can be
+    identified by a number, like {ghIt:n:1} and {ghIt:n:2}. The number "0" can
+    be used to return all matching homophones belonging to the same part of
+    speech. A "h" after the number suppresses the display of that number, e.g.,
+    {jIH:n:1} will display as "jIH (def'n 1)" whereas {jIH:n:1h} will display
+    as "jIH".
 
     Note: Be careful to use American spellings, e.g., "honor", "color",
           "-ization". Canadian spellings should be added under "search_tags".
