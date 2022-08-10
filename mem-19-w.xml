@@ -16,7 +16,7 @@
       <column name="notes">This refers to the sound, and not to any letter or glyph.</column>
       <column name="notes_de">Dies bezieht sich auf den Ton und nicht auf Buchstaben oder Glyphen. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این به صدا اشاره دارد و به هیچ حرف یا حروف گلی اشاره نمی کند. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta hänvisar till ljudet och inte till någon bokstav eller tecken. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Namnet på ett ljud, inte en skriven bokstav eller glyf.</column>
       <column name="notes_ru">Это относится к звуку, а не к букве или глифу. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是指聲音，而不是任何字母或字形。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso se refere ao som, e não a qualquer letra ou glifo. [AUTOTRANSLATED]</column>
@@ -135,7 +135,7 @@
       <column name="definition">radio transmitter</column>
       <column name="definition_de">Rundfunksender</column>
       <column name="definition_fa">فرستنده رادیویی [AUTOTRANSLATED]</column>
-      <column name="definition_sv">radiosändare [AUTOTRANSLATED]</column>
+      <column name="definition_sv">radiosändare</column>
       <column name="definition_ru">радиопередатчик [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">無線電發射器 [AUTOTRANSLATED]</column>
       <column name="definition_pt">transmissor de rádio</column>
@@ -178,7 +178,7 @@
       <column name="definition">vowel</column>
       <column name="definition_de">Vokal</column>
       <column name="definition_fa">حرف صدادار [AUTOTRANSLATED]</column>
-      <column name="definition_sv">vokal [AUTOTRANSLATED]</column>
+      <column name="definition_sv">vokal</column>
       <column name="definition_ru">гласная буква [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">元音 [AUTOTRANSLATED]</column>
       <column name="definition_pt">vogal</column>
@@ -221,7 +221,7 @@
       <column name="definition">consonant</column>
       <column name="definition_de">Konsonant</column>
       <column name="definition_fa">صامت [AUTOTRANSLATED]</column>
-      <column name="definition_sv">konsonant [AUTOTRANSLATED]</column>
+      <column name="definition_sv">konsonant</column>
       <column name="definition_ru">согласный [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">輔音 [AUTOTRANSLATED]</column>
       <column name="definition_pt">consoante</column>
@@ -307,7 +307,7 @@
       <column name="definition">audio, sound record</column>
       <column name="definition_de">Audiodatei, Tonaufnahme</column>
       <column name="definition_fa">صوتی، ضبط صدا [AUTOTRANSLATED]</column>
-      <column name="definition_sv">ljud, ljudinspelning [AUTOTRANSLATED]</column>
+      <column name="definition_sv">ljudinspelning</column>
       <column name="definition_ru">аудио, звукозапись [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">音頻、錄音 [AUTOTRANSLATED]</column>
       <column name="definition_pt">áudio, gravação de som</column>
@@ -350,7 +350,7 @@
       <column name="definition">Mach number</column>
       <column name="definition_de">Mach (Einheit)</column>
       <column name="definition_fa">ماخ [AUTOTRANSLATED]</column>
-      <column name="definition_sv">mach [AUTOTRANSLATED]</column>
+      <column name="definition_sv">machtal (vid ljudhastighet)</column>
       <column name="definition_ru">Мах [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">馬赫 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Mach (unidade)</column>
@@ -361,7 +361,7 @@
       <column name="notes">As a spelling convention, {wab Do:n:nolink} "speed of sound" is written as two words. When used as a measurement term ("Mach"), it is written as one word ({wabDo:n:nolink}). The pronunciation (and, for that matter, the meaning) is the same.[2]</column>
       <column name="notes_de">Als Rechtschreibkonvention wird {wab Do:n:nolink} "Schallgeschwindigkeit" als zwei Wörter geschrieben. Wenn es als Messbegriff ("Mach") verwendet wird, wird es als ein Wort geschrieben ({wabDo:n:nolink}). Die Aussprache (und im Übrigen die Bedeutung) ist dieselbe.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fa"></column>
-      <column name="notes_sv">Som stavningskonvention skrivs {wab Do:n:nolink} "ljudets hastighet" som två ord. När den används som en mätterm ("Mach") skrivs det som ett ord ({wabDo:n:nolink}). Uttalet (och, för den delen, betydelsen) är detsamma.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Som stavningskonvention skrivs {wab Do:n:nolink} "ljudhastigheten" som två ord. När den används som en mätterm ("Mach") skrivs det som ett ord ({wabDo:n:nolink}). Uttalet (och, för den delen, betydelsen) är detsamma.[2]</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
@@ -537,7 +537,7 @@ Não confunda isso com {mum:v}, que significa "gosto" no sentido de perceber sab
       <column name="definition">vibrate, be in a state of vibration</column>
       <column name="definition_de">vibrieren</column>
       <column name="definition_fa">ارتعاش، در حالت ارتعاش باشد [AUTOTRANSLATED]</column>
-      <column name="definition_sv">vibrera, vara i ett vibrationstillstånd [AUTOTRANSLATED]</column>
+      <column name="definition_sv">vibrera, vara i ett tillstånd av vibration</column>
       <column name="definition_ru">вибрировать, быть в состоянии вибрации [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">顫動</column>
       <column name="definition_pt">vibrar, estar em um estado de vibração</column>
@@ -752,7 +752,7 @@ Não confunda isso com {mum:v}, que significa "gosto" no sentido de perceber sab
       <column name="definition">wam, type of serpent</column>
       <column name="definition_de">Wam, eine Art Schlange</column>
       <column name="definition_fa">وام، نوع مار [AUTOTRANSLATED]</column>
-      <column name="definition_sv">WAM, typ av orm [AUTOTRANSLATED]</column>
+      <column name="definition_sv">wam, en typ av orm</column>
       <column name="definition_ru">вам, тип змеи [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">wam、蛇的類型 [AUTOTRANSLATED]</column>
       <column name="definition_pt">tipo de serpente</column>
