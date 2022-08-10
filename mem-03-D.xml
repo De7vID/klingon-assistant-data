@@ -16,7 +16,7 @@
       <column name="notes">This refers to the sound, and not to any letter or glyph.</column>
       <column name="notes_de">Dies bezieht sich auf den Ton und nicht auf Buchstaben oder Glyphen. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این به صدا اشاره دارد و به هیچ حرف یا حروف گلی اشاره نمی کند. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta hänvisar till ljudet och inte till någon bokstav eller tecken. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Namnet på ett ljud, inte en skriven bokstav eller glyf.</column>
       <column name="notes_ru">Это относится к звуку, а не к букве или глифу. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是指聲音，而不是任何字母或字形。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso se refere ao som, e não a qualquer letra ou glifo. [AUTOTRANSLATED]</column>
@@ -213,7 +213,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
       <column name="definition">mud, clay, putty</column>
       <column name="definition_de">Schlamm, Lehm, Kitt</column>
       <column name="definition_fa">گل، خاک رس، بتونه [AUTOTRANSLATED]</column>
-      <column name="definition_sv">lera, lera, kitt [AUTOTRANSLATED]</column>
+      <column name="definition_sv">gegga, gyttja, lera, kitt, spackel</column>
       <column name="definition_ru">грязь, глина, шпатлевка [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">泥、粘土、膩子 [AUTOTRANSLATED]</column>
       <column name="definition_pt">lama, argila, massa de vidraceiro</column>
@@ -256,7 +256,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
       <column name="definition">When threatened, fight.</column>
       <column name="definition_de">Wenn du bedroht wirst, dann kämpfe.</column>
       <column name="definition_fa">هنگامی که تهدید می شود، مبارزه کنید. [AUTOTRANSLATED]</column>
-      <column name="definition_sv">När hotas, slåss. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">När du är hotad, slåss.</column>
       <column name="definition_ru">Когда тебе угрожают, дерись.</column>
       <column name="definition_zh_HK">受到威脅時，要打架。 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Quando ameaçado, lute.</column>
@@ -385,7 +385,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
       <column name="definition">House of D'Ghor</column>
       <column name="definition_de">Haus von D'Ghor</column>
       <column name="definition_fa">خانه دقور [AUTOTRANSLATED]</column>
-      <column name="definition_sv">House of D'Ghor [AUTOTRANSLATED]</column>
+      <column name="definition_sv">ätten D'Ghor</column>
       <column name="definition_ru">Дом ДэГора</column>
       <column name="definition_zh_HK">D'Ghor之家 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Casa de D'Ghor</column>
@@ -396,7 +396,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
       <column name="notes">This is the House of {DennaS:n:name}.</column>
       <column name="notes_de">Dies ist das Haus der {DennaS:n:name}. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این خانه {DennaS:n:name} است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är House of {DennaS:n:name}. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">{DennaS:n:name} tillhör den här ätten.</column>
       <column name="notes_ru">Это Дом {DennaS:n:name}. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是{DennaS:n:name}的房子。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esta é a casa do {DennaS:n:name}. [AUTOTRANSLATED]</column>
@@ -562,7 +562,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
       <column name="definition">I must wash my hair now.</column>
       <column name="definition_de">Ich muss mir jetzt die Haare waschen.</column>
       <column name="definition_fa">من باید موهایم را بشورم. [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Jag måste tvätta mitt hår nu. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Jag måste tvätta håret nu.</column>
       <column name="definition_ru">Я должен вымыть свои волосы сейчас. [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">我現在必須洗頭髮。</column>
       <column name="definition_pt">Eu devo lavar meu cabelo agora.</column>
@@ -605,7 +605,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
       <column name="definition">Pay now!</column>
       <column name="definition_de">Bezahle jetzt!</column>
       <column name="definition_fa">الان پرداخت کن! [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Betala nu! [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Betala nu!</column>
       <column name="definition_ru">Плати сейчас же!</column>
       <column name="definition_zh_HK">即刻畀錢！</column>
       <column name="definition_pt">Pague agora!</column>
@@ -762,7 +762,7 @@ Aikaelementtinä {DaHjaj:n} edeltää kaikkia adverbaaleja.[2][2][2][1, sec. 6.7
       <column name="definition">Today I am a warrior.</column>
       <column name="definition_de">Heute bin ich ein Krieger.</column>
       <column name="definition_fa">امروز من یک جنگجو هستم [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Idag är jag en krigare. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Idag är jag en krigare.</column>
       <column name="definition_ru">Сегодня я воин.</column>
       <column name="definition_zh_HK">我今天成為戰士。</column>
       <column name="definition_pt">Hoje eu sou um guerreiro.</column>
@@ -805,7 +805,7 @@ Aikaelementtinä {DaHjaj:n} edeltää kaikkia adverbaaleja.[2][2][2][1, sec. 6.7
       <column name="definition">Today you are a warrior.</column>
       <column name="definition_de">Heute bist du ein Krieger.</column>
       <column name="definition_fa">امروز شما یک جنگجو هستید [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Idag är du en krigare. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Idag är du en krigare.</column>
       <column name="definition_ru">Сегодня ты воин.</column>
       <column name="definition_zh_HK">你今天成為戰士。</column>
       <column name="definition_pt">Hoje você é um guerreiro.</column>
@@ -978,7 +978,7 @@ Aikaelementtinä {DaHjaj:n} edeltää kaikkia adverbaaleja.[2][2][2][1, sec. 6.7
       <column name="definition">May you die before you are captured.</column>
       <column name="definition_de">Mögest du sterben bevor du gefangen genommen wirst.</column>
       <column name="definition_fa">شاید قبل از اینکه اسیر شوید میمیری [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Måste du dö innan du fångas. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Må du dö innan du blir fångad.</column>
       <column name="definition_ru">Желаю тебе умереть до того, как тебя схватят.</column>
       <column name="definition_zh_HK">願你在被俘之前先死。</column>
       <column name="definition_pt">Que você morra antes de ser capturado.</column>
@@ -1110,7 +1110,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="definition">regard as, view as, consider (treat somebody like)</column>
       <column name="definition_de">betrachten als, sehen als (jmd. als ... behandeln)</column>
       <column name="definition_fa">در نظر بگیرید ، به عنوان نظر ، در نظر بگیرید (با شخصی مانند رفتار کنید) [AUTOTRANSLATED]</column>
-      <column name="definition_sv">betrakta som, se som, överväga (behandla någon som) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">betrakta som, se som, anse som (behandla någon som)</column>
       <column name="definition_ru">рассматривать как, рассматривать как, рассматривать (относиться к кому-то, как) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">視為，視為，考慮（對待某人） [AUTOTRANSLATED]</column>
       <column name="definition_pt">considerar como, ver como (tratar isso. como ...)</column>
@@ -1155,7 +1155,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="definition">hippopotamus, hippo</column>
       <column name="definition_de">Nilpferd</column>
       <column name="definition_fa">اسب آبی ، اسب آبی [AUTOTRANSLATED]</column>
-      <column name="definition_sv">flodhäst, flodhäst [AUTOTRANSLATED]</column>
+      <column name="definition_sv">flodhäst</column>
       <column name="definition_ru">бегемот, бегемот [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">河馬，河馬 [AUTOTRANSLATED]</column>
       <column name="definition_pt">hipopótamo</column>
@@ -1198,7 +1198,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="definition">crease</column>
       <column name="definition_de">Falte (im Papier)</column>
       <column name="definition_fa">چرت زدن [AUTOTRANSLATED]</column>
-      <column name="definition_sv">veck [AUTOTRANSLATED]</column>
+      <column name="definition_sv">veck, skrynkla, rynka</column>
       <column name="definition_ru">складка [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">皺 [AUTOTRANSLATED]</column>
       <column name="definition_pt">dobra (em papel)</column>
@@ -1284,7 +1284,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="definition">headphones</column>
       <column name="definition_de">Kopfhörer</column>
       <column name="definition_fa">هدفون [AUTOTRANSLATED]</column>
-      <column name="definition_sv">hörlurar [AUTOTRANSLATED]</column>
+      <column name="definition_sv">hörlurar</column>
       <column name="definition_ru">наушники [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">頭戴式耳機</column>
       <column name="definition_pt">fones de ouvido</column>
@@ -1327,7 +1327,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="definition">focus</column>
       <column name="definition_de">scharfstellen, fokussieren</column>
       <column name="definition_fa">تمرکز [AUTOTRANSLATED]</column>
-      <column name="definition_sv">fokus [AUTOTRANSLATED]</column>
+      <column name="definition_sv">fokus</column>
       <column name="definition_ru">фокус [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">重點 [AUTOTRANSLATED]</column>
       <column name="definition_pt">focar</column>
@@ -1636,7 +1636,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="definition">I'm lost.</column>
       <column name="definition_de">Ich weiß nicht wo ich bin.</column>
       <column name="definition_fa">من گم شده ام. [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Jag är vilse. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Jag är vilse.</column>
       <column name="definition_ru">Я заблудился.</column>
       <column name="definition_zh_HK">我迷路了。 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Estou perdido.</column>
@@ -1679,7 +1679,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="definition">Where do you live?</column>
       <column name="definition_de">Wo wohnst du?</column>
       <column name="definition_fa">کجا زندگی می‌کنی؟</column>
-      <column name="definition_sv">Var bor du? [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Var bor du?</column>
       <column name="definition_ru">Где ты живешь?</column>
       <column name="definition_zh_HK">你住在哪裡？</column>
       <column name="definition_pt">Onde você mora?</column>
@@ -1737,7 +1737,7 @@ Hyväksyttävä tapa muotoilla tämä vaatimus kysymykseksi on {nuq DaDab?:sen:n
       <column name="definition">bay, inlet, cove</column>
       <column name="definition_de">Bucht</column>
       <column name="definition_fa">خلیج</column>
-      <column name="definition_sv">vik, inlopp, vik [AUTOTRANSLATED]</column>
+      <column name="definition_sv">vik, bukt, inlopp, fjärd</column>
       <column name="definition_ru">залив, залив, бухта [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">海灣、澳</column>
       <column name="definition_pt">baía, entrada, enseada</column>
@@ -1780,7 +1780,7 @@ Hyväksyttävä tapa muotoilla tämä vaatimus kysymykseksi on {nuq DaDab?:sen:n
       <column name="definition">well</column>
       <column name="definition_de">Brunnen (Grundwasserbrunnen)</column>
       <column name="definition_fa">چاه</column>
-      <column name="definition_sv">väl [AUTOTRANSLATED]</column>
+      <column name="definition_sv">brunn</column>
       <column name="definition_ru">хорошо [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">井</column>
       <column name="definition_pt">poço (Poços de água subterrânea)</column>
@@ -1866,7 +1866,7 @@ Hyväksyttävä tapa muotoilla tämä vaatimus kysymykseksi on {nuq DaDab?:sen:n
       <column name="definition">d'akturak, "ice man"</column>
       <column name="definition_de">D'akturak, "Eismann"</column>
       <column name="definition_fa">d'akturak ، "مرد یخی" [AUTOTRANSLATED]</column>
-      <column name="definition_sv">d'akturak [AUTOTRANSLATED]</column>
+      <column name="definition_sv">d'akturak, "isman"</column>
       <column name="definition_ru">Д'актурак (ледяной человек)</column>
       <column name="definition_zh_HK">d'akturak，「冰人」 [AUTOTRANSLATED]</column>
       <column name="definition_pt">D'akturak, "homem de gelo" (ice man)</column>
@@ -1877,7 +1877,7 @@ Hyväksyttävä tapa muotoilla tämä vaatimus kysymykseksi on {nuq DaDab?:sen:n
       <column name="notes">This refers to a person with an "icy" demeanor, especially a tough negotiator. It is not clear whether this is a native Klingon word or a borrowed Trill or Kriosian word or phrase meaning "ice man," but, in any case, this is the Klingon pronunciation.[1]</column>
       <column name="notes_de">Dies bezieht sich auf eine Person mit einem "eisigen" Verhalten, insbesondere auf einen harten Verhandlungsführer. Es ist nicht klar, ob dies ein einheimisches klingonisches Wort oder ein geliehenes Trill- oder Kriosianisches Wort oder eine Phrase ist, die "Eismann" bedeutet, aber auf jeden Fall ist dies die klingonische Aussprache.[1] [AUTOTRANSLATED]</column>
       <column name="notes_fa">این موضوع به شخصی که دارای رفتار "یخی" باشد ، خصوصاً یک مذاکره کننده سخت است. هنوز مشخص نیست که آیا این یک کلمه بومی کلینگون است یا یک کلمه یا اصطلاح قرض گرفته شده تریل یا کریزیایی به معنای "مرد یخی" ، اما به هر حال ، این تلفظ کلینگون است.[1] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta avser en person med ett "isigt" beteende, särskilt en tuff förhandlare. Det är inte klart om detta är ett infödda Klingon-ord eller ett lånat Trill eller kriosiskt ord eller fras som betyder "isman", men i vilket fall som helst är detta Klingon-uttalet.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Ordet avser en person med ett "isigt" beteende, särskilt en hård förhandlare. Det är inte klart om det här är ett inhemskt klingonskt ord eller om det är inlånat trillskt eller kriosiskt ord med betydelsen "isman", men oavsett så är det här det klingonska uttalet.[1]</column>
       <column name="notes_ru">Это относится к людям с «ледяной» манерой поведения, особенно к жестким переговорщикам. Неясно, является ли это местным клингонским словом или заимствованным трилловским или криозианским словом или фразой, означающей «ледяной человек», но, в любом случае, это клингонское произношение.[1] [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這指的是一個舉止「冰冷」的人，尤其是一個強硬的談判者。目前尚不清楚這是本地克林崗語單詞還是藉來的Trill或Kriosian單詞或短語，意思是「冰人」，但是無論如何，這就是克林貢語發音。[1] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso se refere a uma pessoa com uma atitude "fria", especialmente um negociador duro. Não está claro se esta é uma palavra Klingon nativa ou uma palavra ou frase emprestada de Trill ou Kriosian que significa "homem de gelo", mas, em qualquer caso, esta é a pronúncia Klingon.[1] [AUTOTRANSLATED]</column>
@@ -1997,7 +1997,7 @@ Hyväksyttävä tapa muotoilla tämä vaatimus kysymykseksi on {nuq DaDab?:sen:n
       <column name="definition">sour tea</column>
       <column name="definition_de">Sauertee</column>
       <column name="definition_fa">چای ترش</column>
-      <column name="definition_sv">surt te [AUTOTRANSLATED]</column>
+      <column name="definition_sv">surt te</column>
       <column name="definition_ru">кислый чай [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">酸茶</column>
       <column name="definition_pt">chá azedo</column>
@@ -2170,7 +2170,7 @@ Hyväksyttävä tapa muotoilla tämä vaatimus kysymykseksi on {nuq DaDab?:sen:n
       <column name="definition">pinch</column>
       <column name="definition_de">kneifen, zwicken</column>
       <column name="definition_fa">خرج کردن [AUTOTRANSLATED]</column>
-      <column name="definition_sv">nypa [AUTOTRANSLATED]</column>
+      <column name="definition_sv">nypa</column>
       <column name="definition_ru">зажимать [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">捏 [AUTOTRANSLATED]</column>
       <column name="definition_pt">fazer movimento de pinça com os dedos</column>
@@ -2213,7 +2213,7 @@ Hyväksyttävä tapa muotoilla tämä vaatimus kysymykseksi on {nuq DaDab?:sen:n
       <column name="definition">Monday</column>
       <column name="definition_de">Montag</column>
       <column name="definition_fa">دوشنبه</column>
-      <column name="definition_sv">måndag [AUTOTRANSLATED]</column>
+      <column name="definition_sv">måndag</column>
       <column name="definition_ru">Понедельник</column>
       <column name="definition_zh_HK">星期一</column>
       <column name="definition_pt">Segunda-feira</column>
@@ -2344,7 +2344,7 @@ Hyväksyttävä tapa muotoilla tämä vaatimus kysymykseksi on {nuq DaDab?:sen:n
       <column name="definition">sidestep, sway</column>
       <column name="definition_de">schwanken, zur Seite treten</column>
       <column name="definition_fa">پهلو ، نوسان [AUTOTRANSLATED]</column>
-      <column name="definition_sv">sidesteg, svaja [AUTOTRANSLATED]</column>
+      <column name="definition_sv">kliva åt sidan, röra sig i sidled</column>
       <column name="definition_ru">обходить стороной [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">避開，搖擺 [AUTOTRANSLATED]</column>
       <column name="definition_pt">desviar, balançar</column>
@@ -2367,11 +2367,11 @@ Dieses Verb kann auf Flugzeuge angewendet werden, für die siehe {Dav:v:2}. [1] 
 در صورتی که پاهای فرد در جای خود قرار بگیرد ، استفاده نمی شود ، اما بدن به چپ یا راست تکیه می کند ، که به آن مراجعه کنید {ler:v}.
 
 این فعل را می توان در هواپیما استفاده کرد ، که برای آن مراجعه کنید {Dav:v:2}. [1] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta gäller för rörelse av hela kroppen eller saken till vänster eller höger.
+      <column name="notes_sv">Används för rörelse av en hel kropp eller sak till vänster eller höger.
 
-Det används inte om en persons fötter håller sig stilla men kroppen lutar sig åt vänster eller höger, se {ler:v}.
+Det används inte om en persons fötter står stilla och kroppen lutar åt vänster eller höger, se {ler:v}.
 
-Detta verb kan tillämpas på flygplan, för vilka se {Dav:v:2}. [1] [AUTOTRANSLATED]</column>
+Ordet kan också användas om flygplan, se {Dav:v:2}. [1]</column>
       <column name="notes_ru">Это касается движения всего тела или предмета влево или вправо.
 
 Он не используется, если ноги человека остаются на месте, но тело наклоняется влево или вправо, для чего см. {ler:v}.
@@ -2506,7 +2506,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Dav:v:2}.[1] [AUTOTR
       <column name="definition">actor, actress</column>
       <column name="definition_de">Schauspieler</column>
       <column name="definition_fa">بازیگر، هنرپیشه</column>
-      <column name="definition_sv">skådespelare skådespelerska [AUTOTRANSLATED]</column>
+      <column name="definition_sv">skådespelare, skådespelerska</column>
       <column name="definition_ru">актер актриса [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">演員、女演員 [AUTOTRANSLATED]</column>
       <column name="definition_pt">ator, atriz</column>
@@ -2636,7 +2636,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Dav:v:2}.[1] [AUTOTR
       <column name="definition">testicle</column>
       <column name="definition_de">Hoden</column>
       <column name="definition_fa">خایه‌، بیضه‌، خصیه‌، تخم‌</column>
-      <column name="definition_sv">testikel [AUTOTRANSLATED]</column>
+      <column name="definition_sv">testikel</column>
       <column name="definition_ru">яичко [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">睾丸 [AUTOTRANSLATED]</column>
       <column name="definition_pt">testículo</column>
@@ -2679,7 +2679,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Dav:v:2}.[1] [AUTOTR
       <column name="definition">honey</column>
       <column name="definition_de">Honig</column>
       <column name="definition_fa">عسل [AUTOTRANSLATED]</column>
-      <column name="definition_sv">honung [AUTOTRANSLATED]</column>
+      <column name="definition_sv">honung</column>
       <column name="definition_ru">медовый [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">蜜糖 [AUTOTRANSLATED]</column>
       <column name="definition_pt">mel</column>
@@ -2808,7 +2808,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Dav:v:2}.[1] [AUTOTR
       <column name="definition">Dahar Master</column>
       <column name="definition_de">Dahar-Meister</column>
       <column name="definition_fa">استاد دهر [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Dahar Master [AUTOTRANSLATED]</column>
+      <column name="definition_sv">daharmästare</column>
       <column name="definition_ru">Мастер Дахара</column>
       <column name="definition_zh_HK">達哈爾大師 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Mestre Dahar</column>
@@ -3292,7 +3292,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Dav:v:2}.[1] [AUTOTR
       <column name="definition">Your face looks like a collapsed star!</column>
       <column name="definition_de">Dein Gesicht sieht aus wie ein kollabierter Stern!</column>
       <column name="definition_fa">صورت شما به نظر می رسد ستاره فرو می ریزد! [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Ditt ansikte ser ut som en kollapsad stjärna! [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Ditt ansikte ser ut som en kollapsad stjärna!</column>
       <column name="definition_ru">Ваше лицо выглядит как свернутая звезда! [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">你的臉看起來像一個倒塌的明星！ [AUTOTRANSLATED]</column>
       <column name="definition_pt">Seu rosto parece uma estrela em colapso!</column>
@@ -3378,7 +3378,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Dav:v:2}.[1] [AUTOTR
       <column name="definition">"take your stations"</column>
       <column name="definition_de">"Alle Stationen besetzen"</column>
       <column name="definition_fa">"ایستگاه های خود را" [AUTOTRANSLATED]</column>
-      <column name="definition_sv">"ta dina stationer" [AUTOTRANSLATED]</column>
+      <column name="definition_sv">"anta era stationer"</column>
       <column name="definition_ru">"Возьми свои станции" [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">「帶上你的車站」 [AUTOTRANSLATED]</column>
       <column name="definition_pt">"pegue suas estações" (assumir todos os postos)</column>
@@ -3389,7 +3389,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Dav:v:2}.[1] [AUTOTR
       <column name="notes">This is a {no' Hol:n} expression used by a captain upon taking command of a ship.</column>
       <column name="notes_de">Dies ist ein {no' Hol:n}-Ausdruck, der von einem Kapitän verwendet wird, wenn er das Kommando über ein Schiff übernimmt. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این یک عبارت {no' Hol:n} است که یک کاپیتان پس از فرماندهی یک کشتی از آن استفاده می کند. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är ett {no' Hol:n}-uttryck som används av en kapten när han kommit över ett fartyg. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Det här är ett {no' Hol:n}-uttryck som används av en kapten då han tar kommandot över ett skepp.</column>
       <column name="notes_ru">Это выражение {no' Hol:n}, используемое капитаном при принятии командования кораблем. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是船長在接管船隻時使用的{no' Hol:n}表達式。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esta é uma expressão {no' Hol:n} usada por um capitão ao assumir o comando de um navio. [AUTOTRANSLATED]</column>
@@ -3421,7 +3421,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Dav:v:2}.[1] [AUTOTR
       <column name="definition">be clear, transparent, colourless</column>
       <column name="definition_de">klar sein, transparent sein, farblos sein</column>
       <column name="definition_fa">روشن، شفاف، بی رنگ باشد [AUTOTRANSLATED]</column>
-      <column name="definition_sv">vara klar, transparent, färglös [AUTOTRANSLATED]</column>
+      <column name="definition_sv">vara klar, vara genomskinlig, vara transparent, vara färglös</column>
       <column name="definition_ru">быть ясным, прозрачным, бесцветным [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">清澈透明無色 [AUTOTRANSLATED]</column>
       <column name="definition_pt">ser claro, transparente, incolor</column>
@@ -3744,7 +3744,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7qXuTn9Hp
       <column name="definition">Dennas</column>
       <column name="definition_de">Dennas</column>
       <column name="definition_fa">دنس</column>
-      <column name="definition_sv">Dennas [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Dennas</column>
       <column name="definition_ru">Деннас</column>
       <column name="definition_zh_HK">Dennas [AUTOTRANSLATED]</column>
       <column name="definition_pt">Dennas</column>
@@ -3755,7 +3755,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7qXuTn9Hp
       <column name="notes">She is a member of the House of D'Ghor ({Daghor tuq:n:name}).</column>
       <column name="notes_de">Sie ist Mitglied des Hauses D'Ghor ({Daghor tuq:n:name}). [AUTOTRANSLATED]</column>
       <column name="notes_fa">او عضو خانه D'Ghor ({Daghor tuq:n:name}) است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Hon är medlem i House of D'Ghor ({Daghor tuq:n:name}). [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Hon är en del av ätten D'Ghor ({Daghor tuq:n:name}).</column>
       <column name="notes_ru">Она член дома ДэГора ({Daghor tuq:n:name}).</column>
       <column name="notes_zh_HK">她是D'Ghor之家（{Daghor tuq:n:name}）的成員。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Ela é membro da Casa de D'Ghor ({Daghor tuq:n:name}). [AUTOTRANSLATED]</column>
@@ -3832,7 +3832,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7qXuTn9Hp
       <column name="definition">(be) erstwhile, former, prior, ex-</column>
       <column name="definition_de">ehemalig, vorheriger, ex-</column>
       <column name="definition_fa">(ب) پیشین، پیشین، پیشین، [AUTOTRANSLATED]</column>
-      <column name="definition_sv">(var) tidigare, tidigare, tidigare, ex- [AUTOTRANSLATED]</column>
+      <column name="definition_sv">vara tidigare, vara föregående, vara före detta, ex-</column>
       <column name="definition_ru">(быть) бывший, бывший, бывший [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">（以前）、前者、先前、前 [AUTOTRANSLATED]</column>
       <column name="definition_pt">ex, anterior, ex-</column>
@@ -3843,7 +3843,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/7qXuTn9Hp
       <column name="notes">This verb is also used idiomatically, so that for example {Deq SuvwI'@@Deq:v, SuvwI':n} is similar to the English expression "That warrior is history".</column>
       <column name="notes_de">Dieses Verb wird auch idiomatisch verwendet, so dass beispielsweise {Deq SuvwI'@@Deq:v, SuvwI':n} dem englischen Ausdruck "Dieser Krieger ist Geschichte" ähnlich ist. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این فعل همچنین به اصطلاح بکار رفته است ، به عنوان مثال برای مثال {Deq SuvwI'@@Deq:v, SuvwI':n} با اصطلاح انگلیسی "این جنگجو تاریخ است" شبیه است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta verb används också idiomatiskt, så att till exempel {Deq SuvwI'@@Deq:v, SuvwI':n} liknar det engelska uttrycket "That warrior is history". [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta verb används också idiomatiskt, till exempel har {Deq SuvwI'@@Deq:v, SuvwI':n} en betydelse i stil med "Den där krigaren är historia".</column>
       <column name="notes_ru">Этот глагол также используется идиоматически, так что, например, {Deq SuvwI'@@Deq:v, SuvwI':n} похож на английское выражение «Этот воин - история». [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">該動詞也被慣用，因此例如{Deq SuvwI'@@Deq:v, SuvwI':n}與英語表達「 That warrior is history」類似。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este verbo também é usado idiomaticamente, de modo que, por exemplo, {Deq SuvwI'@@Deq:v, SuvwI':n} é semelhante à expressão em inglês "That warrior is history". [AUTOTRANSLATED]</column>
@@ -4020,7 +4020,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="definition">trunk, chest, crate</column>
       <column name="definition_de">Truhe</column>
       <column name="definition_fa">صندوق، جعبه</column>
-      <column name="definition_sv">bagage, bröstkorg, kista [AUTOTRANSLATED]</column>
+      <column name="definition_sv">koffert, kista, låda, back</column>
       <column name="definition_ru">сундук, сундук, ящик [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">箱</column>
       <column name="definition_pt">tronco, peito</column>
@@ -4063,7 +4063,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="definition">program, agenda, schedule</column>
       <column name="definition_de">Programm, Tagesordnung, Zeitplan</column>
       <column name="definition_fa">برنامه، دستور کار، برنامه [AUTOTRANSLATED]</column>
-      <column name="definition_sv">program, agenda, schema [AUTOTRANSLATED]</column>
+      <column name="definition_sv">program, agenda, dagordning, schema, kalendarium, tidsplan</column>
       <column name="definition_ru">программа, повестка дня, расписание [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">程序、議程、時間表 [AUTOTRANSLATED]</column>
       <column name="definition_pt">programa, agenda</column>
@@ -4235,7 +4235,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="definition">closet, cupboard, cabinet, fixed storage device</column>
       <column name="definition_de">Schrank, Kommode</column>
       <column name="definition_fa">گنجه، کابینت، کابینت، دستگاه ذخیره سازی ثابت [AUTOTRANSLATED]</column>
-      <column name="definition_sv">garderob, skåp, skåp, fast lagringsenhet [AUTOTRANSLATED]</column>
+      <column name="definition_sv">garderob, skåp, kabinett, fast lagringsenhet</column>
       <column name="definition_ru">шкаф, шкаф, шкаф, стационарное устройство хранения [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">壁櫥、櫥櫃、櫃子、固定存儲設備 [AUTOTRANSLATED]</column>
       <column name="definition_pt">armário, cômoda, dispositivo de armazenamento fixo</column>
@@ -4365,7 +4365,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="definition">guide book</column>
       <column name="definition_de">Führer (z.B. Reiseführer)</column>
       <column name="definition_fa">راهنمای کتاب [AUTOTRANSLATED]</column>
-      <column name="definition_sv">guidebok [AUTOTRANSLATED]</column>
+      <column name="definition_sv">guidebok, handbok</column>
       <column name="definition_ru">руководство(книга)</column>
       <column name="definition_zh_HK">指導書</column>
       <column name="definition_pt">livro guia</column>
@@ -5017,7 +5017,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="definition">computer system</column>
       <column name="definition_de">Computersystem</column>
       <column name="definition_fa">سیستم کامپیوتری</column>
-      <column name="definition_sv">datorsystem [AUTOTRANSLATED]</column>
+      <column name="definition_sv">datorsystem</column>
       <column name="definition_ru">компьютерная система [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">電腦系統</column>
       <column name="definition_pt">sistema de computador</column>
@@ -5060,7 +5060,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="definition">computer research lab</column>
       <column name="definition_de">Computer-Forschungslabor</column>
       <column name="definition_fa">آزمایشگاه تحقیق کامپیوتری [AUTOTRANSLATED]</column>
-      <column name="definition_sv">datorforskningslaboratorium [AUTOTRANSLATED]</column>
+      <column name="definition_sv">datorforskningslaboratorium, datorforskningslabb</column>
       <column name="definition_ru">лаборатория компьютерных исследований [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">電腦研究室</column>
       <column name="definition_pt">laboratório de pesquisa em computação</column>
@@ -5103,7 +5103,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="definition">main computer core</column>
       <column name="definition_de">Hauptcomputerkern</column>
       <column name="definition_fa">هسته کامپیوتر اصلی [AUTOTRANSLATED]</column>
-      <column name="definition_sv">huvudkärnan [AUTOTRANSLATED]</column>
+      <column name="definition_sv">primär datorkärna</column>
       <column name="definition_ru">главное ядро компьютера</column>
       <column name="definition_zh_HK">主要計算機核心 [AUTOTRANSLATED]</column>
       <column name="definition_pt">núcleo do computador principal</column>
@@ -5189,7 +5189,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="definition">computer server</column>
       <column name="definition_de">Server</column>
       <column name="definition_fa">سرور کامپیوتر [AUTOTRANSLATED]</column>
-      <column name="definition_sv">datorserver [AUTOTRANSLATED]</column>
+      <column name="definition_sv">datorserver</column>
       <column name="definition_ru">Компьютерный сервер</column>
       <column name="definition_zh_HK">電腦伺服器</column>
       <column name="definition_pt">servidor de computador</column>
@@ -5275,7 +5275,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="definition">laptop computer</column>
       <column name="definition_de">Laptop</column>
       <column name="definition_fa">لپتاپ</column>
-      <column name="definition_sv">bärbar dator [AUTOTRANSLATED]</column>
+      <column name="definition_sv">bärbar dator, laptop</column>
       <column name="definition_ru">ноутбук [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">膝上型電腦、筆記本電腦</column>
       <column name="definition_pt">notebook</column>
@@ -5493,7 +5493,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="definition">ordinal number (suffix)</column>
       <column name="definition_de">Ordinalzahl-Suffix</column>
       <column name="definition_fa">شماره پیوندی (پسوند) [AUTOTRANSLATED]</column>
-      <column name="definition_sv">ordinalt tal (suffix) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">ordinatal (suffix)</column>
       <column name="definition_ru">порядковый номер (суффикс)</column>
       <column name="definition_zh_HK">序數（後綴）</column>
       <column name="definition_pt">número ordinal (sufixo)</column>
@@ -5538,7 +5538,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="definition">undertake, deal with</column>
       <column name="definition_de">unternehmen, machen</column>
       <column name="definition_fa">انجام، مقابله با [AUTOTRANSLATED]</column>
-      <column name="definition_sv">åta sig, ta itu med [AUTOTRANSLATED]</column>
+      <column name="definition_sv">åta sig, ta itu med</column>
       <column name="definition_ru">предпринимать, вести с кем-то дела</column>
       <column name="definition_zh_HK">承擔、處理 [AUTOTRANSLATED]</column>
       <column name="definition_pt">empreender, lidar com</column>
@@ -5625,7 +5625,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="definition">digna leaf</column>
       <column name="definition_de">Dignablatt</column>
       <column name="definition_fa">برگ شریف [AUTOTRANSLATED]</column>
-      <column name="definition_sv">digna blad [AUTOTRANSLATED]</column>
+      <column name="definition_sv">dignablad, dignalöv</column>
       <column name="definition_ru">лист Дигна [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">digna葉 [AUTOTRANSLATED]</column>
       <column name="definition_pt">folha de digna</column>
@@ -5636,7 +5636,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="notes">This is deep-fried (see {mIQ:v}) and eaten.[1, p.94]</column>
       <column name="notes_de">Dies wird frittiert (siehe {mIQ:v}) und gegessen.[1, p.94] [AUTOTRANSLATED]</column>
       <column name="notes_fa">این سرخ شده است (به {mIQ:v} مراجعه کنید) و خورده شده است. [1, p.94] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Denna är friterad (se {mIQ:v}) och äts. [1, p.94] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">De här friteras (se {mIQ:v}) och äts. [1, p.94]</column>
       <column name="notes_ru">Это во фритюре (см. {mIQ:v}) и съел.[1, p.94] [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">這是油炸的（請參閱{mIQ:v}）並已吃掉。[1, p.94] [AUTOTRANSLATED]</column>
       <column name="notes_pt">Isso é frito (consulte {mIQ:v}) e comido.[1, p.94] [AUTOTRANSLATED]</column>
@@ -5786,7 +5786,7 @@ Tätä verbiä käytetään myös muunlaisesta piirtämisestä kuin maalitikulla
       <column name="definition">artist, painter</column>
       <column name="definition_de">Künstler, Maler</column>
       <column name="definition_fa">هنرمند، نقاش</column>
-      <column name="definition_sv">konstnär, målare [AUTOTRANSLATED]</column>
+      <column name="definition_sv">konstnär, målare</column>
       <column name="definition_ru">художник, художник [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">藝術家、畫家</column>
       <column name="definition_pt">artista, pintor</column>
@@ -5876,7 +5876,7 @@ Tätä verbiä käytetään myös muunlaisesta piirtämisestä kuin maalitikulla
       <column name="definition">price</column>
       <column name="definition_de">Preis (zu bezahlender Betrag)</column>
       <column name="definition_fa">قیمت</column>
-      <column name="definition_sv">pris [AUTOTRANSLATED]</column>
+      <column name="definition_sv">pris</column>
       <column name="definition_ru">цена</column>
       <column name="definition_zh_HK">價錢</column>
       <column name="definition_pt">preço</column>
@@ -5920,7 +5920,7 @@ Tätä verbiä käytetään myös muunlaisesta piirtämisestä kuin maalitikulla
       <column name="definition">saltpeter</column>
       <column name="definition_de">Salpeter</column>
       <column name="definition_fa">نیترات [AUTOTRANSLATED]</column>
-      <column name="definition_sv">salpeter [AUTOTRANSLATED]</column>
+      <column name="definition_sv">salpeter</column>
       <column name="definition_ru">селитра [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">硝 [AUTOTRANSLATED]</column>
       <column name="definition_pt">salitre</column>
@@ -6094,7 +6094,7 @@ The description originally given in the {KLI:src} New Klingon Words list says th
       <column name="definition">noun</column>
       <column name="definition_de">Nomen, Substantiv</column>
       <column name="definition_fa">اسم [AUTOTRANSLATED]</column>
-      <column name="definition_sv">substantiv</column>
+      <column name="definition_sv">substantiv (grammatisk term)</column>
       <column name="definition_ru">имя существительное</column>
       <column name="definition_zh_HK">名詞</column>
       <column name="definition_pt">substantivo</column>
@@ -6327,7 +6327,7 @@ Liitetyyppi 5: sijamuodot
       <column name="definition">kilt-like garment</column>
       <column name="definition_de">Kilt-ähnliche Kleidung</column>
       <column name="definition_fa">شلوار جین [AUTOTRANSLATED]</column>
-      <column name="definition_sv">kiltliknande plagg [AUTOTRANSLATED]</column>
+      <column name="definition_sv">kiltliknande plagg</column>
       <column name="definition_ru">килтоподобная одежда [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">短裙式服裝 [AUTOTRANSLATED]</column>
       <column name="definition_pt">roupa tipo kilt</column>
@@ -6413,7 +6413,7 @@ Liitetyyppi 5: sijamuodot
       <column name="definition">type of skin disease</column>
       <column name="definition_de">Hautkrankheit</column>
       <column name="definition_fa">یک نوع بیماری پوستی است [AUTOTRANSLATED]</column>
-      <column name="definition_sv">en typ av hudsjukdom [AUTOTRANSLATED]</column>
+      <column name="definition_sv">en slags hudsjukdom</column>
       <column name="definition_ru">тип кожного заболевания</column>
       <column name="definition_zh_HK">一種皮膚病 [AUTOTRANSLATED]</column>
       <column name="definition_pt">um tipo de doença de pele</column>
@@ -6457,7 +6457,7 @@ Liitetyyppi 5: sijamuodot
       <column name="definition">tattoo</column>
       <column name="definition_de">Tätowierung</column>
       <column name="definition_fa">خال کوبی [AUTOTRANSLATED]</column>
-      <column name="definition_sv">tatuering [AUTOTRANSLATED]</column>
+      <column name="definition_sv">tatuering</column>
       <column name="definition_ru">тату [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">黥 [AUTOTRANSLATED]</column>
       <column name="definition_pt">tatuagem</column>
@@ -6717,7 +6717,7 @@ Liitetyyppi 5: sijamuodot
       <column name="definition">New Year</column>
       <column name="definition_de">Neujahr</column>
       <column name="definition_fa">سال نو</column>
-      <column name="definition_sv">Nyår [AUTOTRANSLATED]</column>
+      <column name="definition_sv">nyår</column>
       <column name="definition_ru">Новый год</column>
       <column name="definition_zh_HK">新年</column>
       <column name="definition_pt">Ano Novo</column>
@@ -6760,7 +6760,7 @@ Liitetyyppi 5: sijamuodot
       <column name="definition">anniversary</column>
       <column name="definition_de">Jahrestag</column>
       <column name="definition_fa">سالگرد</column>
-      <column name="definition_sv">årsdag [AUTOTRANSLATED]</column>
+      <column name="definition_sv">årsdag</column>
       <column name="definition_ru">Годовщина [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">週年（每年紀念日）</column>
       <column name="definition_pt">aniversário</column>
@@ -6835,7 +6835,7 @@ Sekä kardinaalinumerot ({DISjaj wa':n@@DISjaj:n, wa':n:num}) että järjestysnu
       <column name="definition">Discovery</column>
       <column name="definition_de">Discovery</column>
       <column name="definition_fa">کشف [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Upptäckt [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Discovery (namn på rymdskepp)</column>
       <column name="definition_ru">Дискавери</column>
       <column name="definition_zh_HK">發現號（星艦）</column>
       <column name="definition_pt">Descoberta</column>
@@ -6846,7 +6846,7 @@ Sekä kardinaalinumerot ({DISjaj wa':n@@DISjaj:n, wa':n:num}) että järjestysnu
       <column name="notes">This is the name of a Federation starship.</column>
       <column name="notes_de">Dies ist der Name eines Raumschiffs der Föderation. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این نام یک ستاره دریایی فدراسیون است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är namnet på ett Federation-rymdskepp. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Det här är namnet på ett Federationsskepp.</column>
       <column name="notes_ru">Это название корабля Федерации.</column>
       <column name="notes_zh_HK">這是聯邦星艦的名稱。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é o nome de uma nave estelar da Federação. [AUTOTRANSLATED]</column>
@@ -6878,7 +6878,7 @@ Sekä kardinaalinumerot ({DISjaj wa':n@@DISjaj:n, wa':n:num}) että järjestysnu
       <column name="definition">be unavenged</column>
       <column name="definition_de">ungerächt sein</column>
       <column name="definition_fa">بی انتقام باشد [AUTOTRANSLATED]</column>
-      <column name="definition_sv">vara ohävd [AUTOTRANSLATED]</column>
+      <column name="definition_sv">vara ohämnad</column>
       <column name="definition_ru">быть неотомщенным [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">不報仇 [AUTOTRANSLATED]</column>
       <column name="definition_pt">não ser vingado [AUTOTRANSLATED]</column>
@@ -6964,7 +6964,7 @@ Sekä kardinaalinumerot ({DISjaj wa':n@@DISjaj:n, wa':n:num}) että järjestysnu
       <column name="definition">ruby</column>
       <column name="definition_de">Rubin</column>
       <column name="definition_fa">یاقوت [AUTOTRANSLATED]</column>
-      <column name="definition_sv">rubin [AUTOTRANSLATED]</column>
+      <column name="definition_sv">rubin (ädelsten)</column>
       <column name="definition_ru">Рубин [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">紅寶石 [AUTOTRANSLATED]</column>
       <column name="definition_pt">rubi</column>
@@ -7109,7 +7109,7 @@ Sattumalta tai ei, nämä sanat kuulostavat samanlaisilta kuin {DI vI':n:nolink}
       <column name="definition">Federation Standard, English (language)</column>
       <column name="definition_de">Englisch (Sprache)</column>
       <column name="definition_fa">زبان انگلیسی</column>
-      <column name="definition_sv">Federation Standard, engelska (språk) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">federationsstandard, engelska (språk)</column>
       <column name="definition_ru">Стандарт Федерации(языковой), Английский язык</column>
       <column name="definition_zh_HK">英文、英語</column>
       <column name="definition_pt">Padrão da Federação, Inglês (idioma)</column>
@@ -7152,7 +7152,7 @@ Sattumalta tai ei, nämä sanat kuulostavat samanlaisilta kuin {DI vI':n:nolink}
       <column name="definition">Do you speak Federation Standard?</column>
       <column name="definition_de">Sprichst du Föderations-Standard?</column>
       <column name="definition_fa">آیا شما فدراسیون استاندارد صحبت می کنید؟ [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Pratar du Federation Standard? [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Pratar du federationsstandard?</column>
       <column name="definition_ru">Ты говоришь по английски? Ты говоришь на языке Федерации?</column>
       <column name="definition_zh_HK">你說聯邦標準語（英語）嗎？</column>
       <column name="definition_pt">Você fala Padrão da Federação?</column>
@@ -7238,7 +7238,7 @@ Sattumalta tai ei, nämä sanat kuulostavat samanlaisilta kuin {DI vI':n:nolink}
       <column name="definition">be stuck (physically won't budge)</column>
       <column name="definition_de">klemmen, feststecken, sich nicht mehr bewegen</column>
       <column name="definition_fa">گیر کرده (از لحاظ جسمی حرکت نمی کند) [AUTOTRANSLATED]</column>
-      <column name="definition_sv">fastna (fysiskt kommer inte att springa) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">vara fast, vara fastnad (fysiskt oförmögen att röra sig)</column>
       <column name="definition_ru">застрять (физически не сдвинется с места) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">陷入困境（實際上不會讓步） [AUTOTRANSLATED]</column>
       <column name="definition_pt">ficar preso (fisicamente não se mexe)</column>
@@ -7283,7 +7283,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">edit, revise, correct, modify</column>
       <column name="definition_de">überarbeiten, korrigieren, lektorieren</column>
       <column name="definition_fa">ویرایش ، اصلاح ، اصلاح ، اصلاح [AUTOTRANSLATED]</column>
-      <column name="definition_sv">redigera, revidera, korrigera, modifiera [AUTOTRANSLATED]</column>
+      <column name="definition_sv">redigera, revidera, korrigera, modifiera</column>
       <column name="definition_ru">редактировать, исправлять, исправлять, изменять [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">編輯，修改，更正，修改 [AUTOTRANSLATED]</column>
       <column name="definition_pt">editar, revisar, corrigir, modificar</column>
@@ -7326,7 +7326,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">characteristic, trait</column>
       <column name="definition_de">Charakterzug, Eigenart</column>
       <column name="definition_fa">مشخصه، صفت [AUTOTRANSLATED]</column>
-      <column name="definition_sv">karakteristisk egenskap [AUTOTRANSLATED]</column>
+      <column name="definition_sv">kännetecken, karaktärsdrag, egenskap, utmärkande drag</column>
       <column name="definition_ru">характеристика, черта [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">特徵</column>
       <column name="definition_pt">característica, traço</column>
@@ -7370,7 +7370,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">sheep</column>
       <column name="definition_de">Schaf</column>
       <column name="definition_fa">گوسفند</column>
-      <column name="definition_sv">får [AUTOTRANSLATED]</column>
+      <column name="definition_sv">får (djur)</column>
       <column name="definition_ru">овец [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">羊</column>
       <column name="definition_pt">ovelha</column>
@@ -7413,7 +7413,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">reality</column>
       <column name="definition_de">Realität</column>
       <column name="definition_fa">واقعیت</column>
-      <column name="definition_sv">verklighet [AUTOTRANSLATED]</column>
+      <column name="definition_sv">verklighet</column>
       <column name="definition_ru">реальность [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">現實 [AUTOTRANSLATED]</column>
       <column name="definition_pt">realidade</column>
@@ -7499,7 +7499,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">virtual reality</column>
       <column name="definition_de">Virtuelle Realität</column>
       <column name="definition_fa">واقعیت مجازی [AUTOTRANSLATED]</column>
-      <column name="definition_sv">virtuell verklighet [AUTOTRANSLATED]</column>
+      <column name="definition_sv">virtuell verklighet, VR</column>
       <column name="definition_ru">виртуальная реальность [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">虛擬現實 [AUTOTRANSLATED]</column>
       <column name="definition_pt">realidade virtual</column>
@@ -7629,7 +7629,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">race (contest of speed)</column>
       <column name="definition_de">Wettrennen (Geschwindigkeitskampf)</column>
       <column name="definition_fa">نژاد (مسابقه سرعت) [AUTOTRANSLATED]</column>
-      <column name="definition_sv">tävling (tävling av fart) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">lopp, kapplopp (hastighetstävling)</column>
       <column name="definition_ru">гонка (соревнование скорости) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">比賽（速度比賽）</column>
       <column name="definition_pt">corrida (competição de velocidade)</column>
@@ -7715,7 +7715,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">be polite, civil, courteous</column>
       <column name="definition_de">höflich sein, freundlich sein</column>
       <column name="definition_fa">مودبانه، مدنی، مودب باشید [AUTOTRANSLATED]</column>
-      <column name="definition_sv">vara artig, civil, artig [AUTOTRANSLATED]</column>
+      <column name="definition_sv">vara artig, vara hövlig, vara belevad</column>
       <column name="definition_ru">быть вежливым, быть воспитанным, быть учтивым</column>
       <column name="definition_zh_HK">禮貌、文明、有禮貌 [AUTOTRANSLATED]</column>
       <column name="definition_pt">ser educado, civilizado, cortês</column>
@@ -7844,7 +7844,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">How much do you want for that?</column>
       <column name="definition_de">Wieviel willst du dafür?</column>
       <column name="definition_fa">برای چی چقدر میخوای؟ [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Hur mycket vill du ha för det? [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Hur mycket vill du ha för den?</column>
       <column name="definition_ru">Сколько ты хочешь за это?</column>
       <column name="definition_zh_HK">你想要多少錢？ [AUTOTRANSLATED]</column>
       <column name="definition_pt">Quanto você quer por isso?</column>
@@ -7887,7 +7887,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">I can't eat that.</column>
       <column name="definition_de">Das kann ich nicht essen.</column>
       <column name="definition_fa">من نمی توانم آن را بخورم. [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Jag kan inte äta det. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Jag kan inte äta den där.</column>
       <column name="definition_ru">Я не могу это есть.</column>
       <column name="definition_zh_HK">我不能吃那個。 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Eu não posso comer isso.</column>
@@ -7930,7 +7930,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="definition">I can't drink that.</column>
       <column name="definition_de">Das kann ich nicht trinken.</column>
       <column name="definition_fa">من نمی توانم آن را بنوشم [AUTOTRANSLATED]</column>
-      <column name="definition_sv">Jag kan inte dricka det. [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Jag kan inte dricka det där.</column>
       <column name="definition_ru">Я не могу это пить.</column>
       <column name="definition_zh_HK">我不能喝那個。 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Eu não posso beber isso.</column>
@@ -8730,7 +8730,7 @@ This was defined as "side". The clarification "direction, face" was added to dif
       <column name="definition">be negative (used in math)</column>
       <column name="definition_de">negativ sein (wörtlich "das Gegenteil sein")</column>
       <column name="definition_fa">منفی باشد (در ریاضی استفاده می شود) [AUTOTRANSLATED]</column>
-      <column name="definition_sv">vara negativ (används i matematik) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">vara negativ (i matematik)</column>
       <column name="definition_ru">быть отрицательным (используется в математике) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">為負（用於數學） [AUTOTRANSLATED]</column>
       <column name="definition_pt">ser negativo (usado em matemática)</column>
