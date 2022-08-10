@@ -143,7 +143,7 @@ then
 fi
 
 # Print any untranslated entries.
-MISSED_TRANSLATE=$(grep ">TRANSLATE<" $TMP_DIR/mem.xml)
+MISSED_TRANSLATE=$(grep ">\(AUTO\)\?TRANSLATE" $TMP_DIR/mem.xml)
 if [[ ! -z "$MISSED_TRANSLATE" ]]
 then
     echo "Missing translations:"
