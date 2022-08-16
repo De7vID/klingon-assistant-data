@@ -245,7 +245,7 @@ def get_src_tag(data):
       if source_matches:
         return src_to_tag[src]
 
-    for year in range(1994, 2023):
+    for year in range(1994, 2094):
       ordinal = year - 1993
       source_matches = re.findall(r"\[\d\] {{qep'a' {} \({}\):src}}".format(ordinal, year), source)
       if source_matches:
