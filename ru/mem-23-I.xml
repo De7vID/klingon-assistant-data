@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixins>
+  <mixin target="705a0858-20ce-475b-998f-1c4d90f62856">
+    <!-- (G) entry_name: 'It -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">буква {I:sen:nolink}</column>
+    <column name="notes_ru">Это относится к звуку, а не к букве или глифу. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="a2b861ff-0332-49c7-865c-4c64bf8b29b0">
+    <!-- (G) entry_name: 'Ib -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">ванна [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Это квадратная или прямоугольная ванна, используемая для хранения пищи во время брожения. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="3d58d536-846b-4cac-a639-56597163a880">
+    <!-- (G) entry_name: 'Ich -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_ru">быть скользким [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="dda1fd91-0d21-463c-8963-e620ca6f102a">
+    <!-- (G) entry_name: 'IDnar -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">магия, волшебство [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="6512ee40-b489-4731-b4b2-c17298481345">
+    <!-- (G) entry_name: 'IDnar lIl -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_ru">выполнять магию [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="43072d75-b3e3-4366-b128-cef2b1b57e78">
+    <!-- (G) entry_name: 'IDnar lIlwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_ru">волшебник [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="ed68eb46-f000-417d-bb15-e3ec3253b660">
+    <!-- (G) entry_name: 'IDnar pIn'a' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_ru">волшебник, колдун [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Это относится к настоящему волшебнику или колдуну. Для мага, см. {mIn yuqwI':n}. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="65249d1a-f832-48f8-a1f3-a56ffa47d798">
+    <!-- (G) entry_name: 'Igh -->
+    <!-- (G) part_of_speech: v:is,slang -->
+    <column name="definition_ru">будь проклят [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Это слово имеет негативную коннотацию и считается довольно оскорбительным применительно к человеку. [1, p.167] [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="d025d9c6-45c2-4da2-80ba-2401b8074659">
+    <!-- (G) entry_name: 'IghvaH -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_ru">вид животного, игва [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="fa880480-bddf-400b-89cf-cb19e69f5500">
+    <!-- (G) entry_name: 'IghvaH chej chatlh -->
+    <!-- (G) part_of_speech: n:deriv,reg -->
+    <column name="definition_ru">суп из печени игвы [AUTOTRANSLATED]</column>
+    <column name="notes_ru">В {voSpegh Sep:n} это используется вместо {ghaw':n:1}. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="51d1ff0f-4462-4d2b-a5c6-0ac6aa9de526">
+    <!-- (G) entry_name: 'Igh'aDmegh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">антитело [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="28137308-f382-48ff-861e-9ae1f22d4569">
+    <!-- (G) entry_name: 'IH -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_ru">быть красивой</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="bdba6dd3-866a-41d3-83db-1d69b49e7e5e">
+    <!-- (G) entry_name: 'Ij -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_ru">слушать</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="88cc3781-8bcf-4693-8db3-a6a7cb6a5791">
+    <!-- (G) entry_name: 'Il -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_ru">быть искренним</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="5e11971d-8110-4c4a-aa26-3e56747c485d">
+    <!-- (G) entry_name: 'IlHa' -->
+    <!-- (G) part_of_speech: v:is,deriv -->
+    <column name="definition_ru">быть неискренним [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="12f315bd-5cbd-4968-a651-72df004d08fb">
+    <!-- (G) entry_name: 'Im -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_ru">сделать, варить (жир) [AUTOTRANSLATED]</column>
+    <column name="notes_ru">В то время как общее слово для «кипения» - {pub:v}, глагол, используемый специально для обозначения кипения жира - {'Im:v:nolink}.[1, p.94] [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="99504dcb-5581-4095-ab74-27f7d5da7b1f">
+    <!-- (G) entry_name: 'Impey' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">пирамида (геометрия) [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Пирамида с трехсторонним основанием называется {qu'vu':n}. Пирамида с n-сторонним основанием является {n reD 'Impey':n:nolink} для n&gt; 3. Например: {loS reD 'Impey':n@@loS:n:1,num, reD:n:2, 'Impey':n}, {vagh reD 'Impey':n@@vagh:n:1,num, reD:n:2, 'Impey':n}. Конус {gho 'Impey':n}. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="878f2898-11fc-4fbf-b1cf-1a26a35a04a9">
+    <!-- (G) entry_name: 'ImSIng -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">сточная труба [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Это относится ко всей канализационной системе: туннели, трубопроводы, клапаны и т. Д. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="4b826858-be40-472c-a51a-36fa07a89d88">
+    <!-- (G) entry_name: 'ImtIy -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_ru">cameloid animal without hump [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="12f3a64a-1e13-4aa6-a671-8698a33d7b64">
+    <!-- (G) entry_name: 'Imyagh -->
+    <!-- (G) part_of_speech: excl -->
+    <column name="definition_ru">звук, издаваемый {vIghro':n} или {ghISnar:n} [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="86a907ab-4a7a-4007-8645-536f89a7f4df">
+    <!-- (G) entry_name: 'In -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">ударный инструмент (барабан, звонок) [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Определенный ударный инструмент можно ударить ладонью ({toch:n}; глагол - {weq:v}), кулаком ({ro':n}; глагол - {tlhaw':v}) или палкой ({mupwI'Hom:n}, если он напоминает маленький молоток, {naQHom:n}, если он напоминает палку; такое {moq:v}) .[1] [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="9cd1b565-fb0b-486b-bcb6-4e8b9746dbda">
+    <!-- (G) entry_name: 'InDogh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">слог [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="f8fc8224-a1d4-4636-90a0-fea6d277418f">
+    <!-- (G) entry_name: 'InSep -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_ru">пенис [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="ced09dd6-cfb0-48de-bd56-c8220376fe24">
+    <!-- (G) entry_name: 'InSong -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">цветок [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Это относится к яркой части растения. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="964dc168-af80-4e4f-a0a8-aa9287a7a4aa">
+    <!-- (G) entry_name: 'Internet -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">интернет [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Мальц настаивал на том, что это правильное клингонское слово.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="5af5095e-cabd-4c4c-8d07-1ba421ac4f60">
+    <!-- (G) entry_name: 'Inyam -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">эго, личность [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="b75243cf-c3c6-4ee8-9cbb-ebfbf733bf31">
+    <!-- (G) entry_name: 'Ing -->
+    <!-- (G) part_of_speech: v:i_c -->
+    <column name="definition_ru">двигаться по часовой стрелке [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="aab32ab6-e8d7-4f54-9c95-ccf0955c740a">
+    <!-- (G) entry_name: 'IngSav -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">мелодия [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="d3b18c99-df5c-45c5-89e9-ec3bdec3168c">
+    <!-- (G) entry_name: 'Ip -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_ru">обет, клятва</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="69014f0b-bbd7-45c7-81a9-da316f34bee9">
+    <!-- (G) entry_name: 'Ip -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_ru">давать обет, клясться</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="27a12b4c-6d8f-42c6-9a01-daed9ceb4be2">
+    <!-- (G) entry_name: 'Ipnal -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_ru">супруга (гендерно-нейтральный термин) [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="d0d0d6de-81d5-45ef-8db1-3d18c800a07d">
+    <!-- (G) entry_name: 'Iptay -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_ru">эпетаи (ранг) [AUTOTRANSLATED]</column>
+    <column name="notes_ru">От низшего к высшему эти ранги: {tay:n:3}, {Sutay:n}, {veStay:n}, {Santay:n}, {'Iptay:n:nolink}. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="d59356b1-546c-4b6c-a3d9-3cd5386127a5">
+    <!-- (G) entry_name: 'Iq -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_ru">быть слишком много, быть слишком много [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="c984edcc-9869-4799-a117-a6981c7d1d30">
+    <!-- (G) entry_name: 'IqnaH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">слизь [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="afe0b8c4-9bef-42ea-aba3-a2c1450f753e">
+    <!-- (G) entry_name: 'IqnaH QaD -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_ru">сухая слизь, бугер [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="e9a5c4c3-ff93-4681-b30e-545eb9e0af34">
+    <!-- (G) entry_name: 'IqngIl -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">спираль, пружина [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="db12ce04-4da8-4a07-9bc3-3e54225287ca">
+    <!-- (G) entry_name: 'IQ -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_ru">быть грустным</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="45c54c21-46e8-4003-8039-042f464ce886">
+    <!-- (G) entry_name: 'Ir -->
+    <!-- (G) part_of_speech: v:1,t_c -->
+    <column name="definition_ru">угадай, предположим, представь [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="07c94733-0c14-4dec-bc94-1b1c28ed742c">
+    <!-- (G) entry_name: 'Ir -->
+    <!-- (G) part_of_speech: v:2,is -->
+    <column name="definition_ru">быть сливочным, пастообразным [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Это означает «сливочный» в смысле зубной пасты. Это описывает гладкие, густые жидкости или подобные жидкости вещи. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="6c6b8961-740f-455b-9d69-79df999385f1">
+    <!-- (G) entry_name: 'Irgh -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_ru">задирать, запугивать, придираться, беспокоить [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Это слово используется не только для детей, но и для взрослых.[3] [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="41fb2a2f-f79e-4bc5-a54b-bb50d55f90b2">
+    <!-- (G) entry_name: 'IrmeD -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">вихрь (воздух) [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Это относится к движению воздуха. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="2aa60388-c45b-4d2c-a745-8bc922432663">
+    <!-- (G) entry_name: 'IrneH -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_ru">дядя (брат матери) [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Дитя {'IrneH:n:nolink} является {lor:n:1}. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="034b3269-6036-48b2-8c36-34887353cce2">
+    <!-- (G) entry_name: 'IrneHnal -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_ru">дядя (муж сестры мамы) [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="c513acce-212f-4582-b8ab-9d14e3f664be">
+    <!-- (G) entry_name: 'ISjaH -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_ru">календарь</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="0bf28f34-bf51-416d-a935-5b830b69f076">
+    <!-- (G) entry_name: 'ISQIm -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">гармония [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Это касается только музыки, а не людей, живущих вместе. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="014ea4f9-9e4f-4296-9c99-1a0830c2ad8e">
+    <!-- (G) entry_name: 'ISyar -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">наследие [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Это что-то унаследованное от предшественника, или то, что осталось от исторической фигуры. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="32655c52-3e33-49f3-ac2e-7235d841bc30">
+    <!-- (G) entry_name: 'It -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_ru">быть подавленным</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="4756cbc0-ef4c-4c87-a70e-b3a113be1a45">
+    <!-- (G) entry_name: 'Itlh -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_ru">быть передовым</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="51ffca31-2e6c-437b-b930-9587f5654b3f">
+    <!-- (G) entry_name: 'Iv -->
+    <!-- (G) part_of_speech: ques:1 -->
+    <column name="definition_ru">кто?</column>
+    <column name="notes_ru">Это слово вписывается в предложение в том месте, которое будет занято ответом.[1] Он работает как местоимение в вопросах с «быть» в английских переводах.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="4f1eba86-0c53-4396-b00e-0ce67ac781ac">
+    <!-- (G) entry_name: 'Iv -->
+    <!-- (G) part_of_speech: n:2 -->
+    <column name="definition_ru">высота</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="1fdba72d-f458-4e4f-a87c-8e9c9b21ecdb">
+    <!-- (G) entry_name: 'IventoH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">ананасоподобный фрукт [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="bd379a01-34de-4151-9b17-e822a0f0ec22">
+    <!-- (G) entry_name: 'IvtIH -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_ru">тазобедренный [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="d065df1e-66b0-47ae-a4d0-1965e297abb2">
+    <!-- (G) entry_name: 'Iv SoH? -->
+    <!-- (G) part_of_speech: sen:alt -->
+    <column name="definition_ru">{SoH 'Iv?:sen}</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="13bd19ec-7891-4e07-880f-ccea22fb0ee3">
+    <!-- (G) entry_name: 'Iw -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_ru">кровь</column>
+    <column name="notes_ru">Существует идиома {HoS; 'Iw rur:sen@@HoS:v, 'Iw:n, rur:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="476fe4c4-d4c3-4026-89b3-295f802c0763">
+    <!-- (G) entry_name: 'Iw bIQtIqDaq jIjaH. -->
+    <!-- (G) part_of_speech: sen:nt -->
+    <column name="definition_ru">Путушествую по реке крови.</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="d789f96c-5aa4-4667-b42d-c3f0f853742e">
+    <!-- (G) entry_name: 'Iw bIQtIqDaq bIlengjaj. -->
+    <!-- (G) part_of_speech: sen:nt -->
+    <column name="definition_ru">Пусть ты путешествуешь по реке крови.</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="5a3083ea-6916-4385-b987-3562b4dba902">
+    <!-- (G) entry_name: 'Iw Doy' -->
+    <!-- (G) part_of_speech: n:alt,deriv -->
+    <column name="definition_ru">{lotregh:n}</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="33a01284-2a75-43ee-bd41-1e2b6de6a9a8">
+    <!-- (G) entry_name: 'Iw HIq -->
+    <!-- (G) part_of_speech: n:deriv,fic,food -->
+    <column name="definition_ru">кровавое вино [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="728b09fd-f205-4909-a745-f7220bffe9d6">
+    <!-- (G) entry_name: 'Iw HIq yap tu'lu'be'. -->
+    <!-- (G) part_of_speech: sen:sp -->
+    <column name="definition_ru">Достаточного кровяного вина не существует. [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="89eb117b-dd73-4995-b526-5f4675edb822">
+    <!-- (G) entry_name: 'Iw puj -->
+    <!-- (G) part_of_speech: n:deriv,food -->
+    <column name="definition_ru">разбавленная кровь [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Это используется в подготовке {qagh:n}. [1, p.87] [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="ab9de5ef-cd6b-4977-8cfa-42b240997c12">
+    <!-- (G) entry_name: 'Iw remwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_ru">вампир [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="00835856-8483-45a0-8ab3-f8d9079d2e3b">
+    <!-- (G) entry_name: 'Iw 'Ip ghomey -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_ru">Круги клятвы крови [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Это название статуи скульптора {mIStaq:n:name}. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="57a38ed6-fe68-4aef-adac-ec728b67d199">
+    <!-- (G) entry_name: 'Iwghargh -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_ru">мотыль [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="eb170dbf-a219-486f-8c8c-eb112afedd94">
+    <!-- (G) entry_name: 'IwlIj ghogh yIQoy. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_ru">Слушай голос своей крови. [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="8ecaaea2-aa5e-4d1b-be0b-419415c82fb4">
+    <!-- (G) entry_name: 'IwlIj jachjaj! -->
+    <!-- (G) part_of_speech: sen:toast -->
+    <column name="definition_ru">Пусть твоя кровь кричит! [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Посмотрите урок на этом тосте: {YouTube video:url:http://youtu.be/_mHUA5QKSG0} [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="f6051e5a-aad4-4001-a3f6-a36cc4e66dd0">
+    <!-- (G) entry_name: 'IwwIj jeD law' 'IwlIj jeD puS. -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_ru">Моя кровь гуще твоей. [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Эта идиоматическая фраза несет в себе значение: «Я намного сильнее тебя». [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="4fb28b68-fb10-4bc1-a10a-805c5e5b4a57">
+    <!-- (G) entry_name: 'I' -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_ru">подмышка [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="a80b3811-24de-4bdb-96e7-fee326feed44">
+    <!-- (G) entry_name: 'I' ghew -->
+    <!-- (G) part_of_speech: n:anim,deriv -->
+    <column name="definition_ru">ошибка, которая напоминает жука [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="3261935b-0c35-4875-9977-1313a0b362aa">
+    <!-- (G) entry_name: 'I'SeghIm -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_ru">скряга [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Это не точный перевод, но {'I'SeghIm:n:nolink} является ближайшим клингонским эквивалентом английского слова "curmudgeon" .[1] [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+</mixins>

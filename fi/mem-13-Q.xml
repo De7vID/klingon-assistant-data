@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixins>
+  <mixin target="3df6eddf-ff16-4f1d-b96b-0838bce80cfe">
+    <!-- (G) entry_name: Qay -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">konsonantti {Q:sen:nolink}</column>
+    <column name="notes_fi">Tämä viittaa ääneen eikä mihinkään kirjaimeen tai kuvioon. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="23a16800-9397-4829-a77c-0edd6e76a381">
+    <!-- (G) entry_name: Qa -->
+    <!-- (G) part_of_speech: v:i_c -->
+    <column name="definition_fi">kasvaa (koossa)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi">suurentua, suureta, paisua, pidentyä, pidetä, laajentua, laajeta</column>
+  </mixin>
+  <mixin target="64dc7c26-0147-4bbb-b3e5-4edd480918e9">
+    <!-- (G) entry_name: QaHa' -->
+    <!-- (G) part_of_speech: v:i_c,deriv -->
+    <column name="definition_fi">kutistua takaisin alkuperäiseen kokoon</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="8491bbdf-f3bb-4117-bac5-ba155d113626">
+    <!-- (G) entry_name: Qab -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">terageeni</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="41faad77-c7e2-42a4-84f1-551ef5005fc3">
+    <!-- (G) entry_name: Qach -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">kantaa tai heiluttaa (asetta)</column>
+    <column name="notes_fi">Tätä verbiä käytetään kirvesen, keppiä tai vastaavien heiluttamiseen tai heiluttamiseen.[1, p.64] Sitä voidaan käyttää myös {betleH:n}[2]- tai whip[3]-piikkeihin. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="fc22a86e-33fc-42cc-b1dc-67cdab1cffd5">
+    <!-- (G) entry_name: QaD -->
+    <!-- (G) part_of_speech: v:1,is,klcp1 -->
+    <column name="definition_fi">olla kuiva, olla kuivunut</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="7d9e8ff2-ccf5-41cb-9cfb-723820e9128c">
+    <!-- (G) entry_name: QaD -->
+    <!-- (G) part_of_speech: v:2,is,slang -->
+    <column name="definition_fi">olla turvallinen, olla suojattu</column>
+    <column name="notes_fi">Tämä tunne {QaD:v:2,nolink} tulee sen samankaltaisuudesta {Qan:v}: n kanssa. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="d1cf16e6-f454-44e0-9fad-b5df9c994788">
+    <!-- (G) entry_name: QaDmoHwI' DIr -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">pyyhe</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="2a80ec08-699c-43c0-ace3-a27f2f1b642a">
+    <!-- (G) entry_name: Qagh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">virhe, erehdys</column>
+    <column name="notes_fi">Tätä voidaan käyttää myös viittaamaan ohjelmistovirheeseen .[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="caa3f82d-7e3a-4200-8878-a877cb2e4f0d">
+    <!-- (G) entry_name: Qagh -->
+    <!-- (G) part_of_speech: v:i,klcp1 -->
+    <column name="definition_fi">erehtyä, tehdä virhe</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="75c7eb06-6648-48e8-b6d4-55a08b824ac9">
+    <!-- (G) entry_name: QaghmeylIj tIchID, yIyoH. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_fi">Ole rohkea ja myönnä virheesi!</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="ceb4bc6c-5222-4d58-8e1a-ab897ed4ec5a">
+    <!-- (G) entry_name: QaH -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_fi">auttaa</column>
+    <column name="notes_fi">Tätä käytettäisiin tilanteissa, joissa apua tarvitseva henkilö ei voi tehdä mitä tarvitsee tehdä ilman apua, toisin kuin {boQ:v}. {QaH:v:nolink}-objekti ei voi suorittaa tehtävää yksin, joten vastuu kuuluu aiheeseen (tai se on jaettu). {QaH:v:nolink}: n pyytämisessä ei ole mitään heikkoa, kun se on perusteltua, mutta tarjous {QaH:v:nolink}: lle, kun {boQ:v:nolink}: ää odotetaan, voi joskus olla lievästi loukkaavaa.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="8afeed13-de44-41fc-af9a-18e166145fd9">
+    <!-- (G) entry_name: QaH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">apu</column>
+    <column name="notes_fi">Lisätietoja tämän ohjelman käytöstä on kohdassa {boQwI':n}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="e3ac00fd-ad2f-4d26-a3b7-cfed6b7085dd">
+    <!-- (G) entry_name: Qaj -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_fi">eräs eläin, kradge</column>
+    <column name="notes_fi">Kradge on ruskeat huulet. Ilmaisua {Doq 'ej Qaj wuS rur:sen} käytetään kuvaamaan kohdetta, joka on tietty ruskea sävy (katso {Doq 'ej wovbe':sen}).
+
+Älä sekoita tätä vastaavasti nimettyyn {qa'raj:n}: ään.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="4f21faf6-ee61-4787-9619-d17231779b70">
+    <!-- (G) entry_name: Qaj tlhuQ -->
+    <!-- (G) part_of_speech: n:fic,food -->
+    <column name="definition_fi">eräs ruokalaji, kradgen häntä</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="34fe55fe-1719-4c92-94a7-9b52a8113fe4">
+    <!-- (G) entry_name: Qal -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_fi">uida</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="6be5409f-e4d1-4f15-b84f-231d0f348f79">
+    <!-- (G) entry_name: QalmeH DoQmIv'a' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">uima-allas</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="0a057458-fc44-432e-add5-9da1cd8f2f68">
+    <!-- (G) entry_name: Qam -->
+    <!-- (G) part_of_speech: v:i,klcp1 -->
+    <column name="definition_fi">seistä</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="443d8d11-4ced-406e-b9d6-dc3df30a1a91">
+    <!-- (G) entry_name: QamvIS Hegh qaq law' torvIS yIn qaq puS. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_fi">On parempi kuolla seisten kuin elää polvillaan.</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="719d054a-7057-49c4-9188-372f948dc5d4">
+    <!-- (G) entry_name: Qan -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_fi">suojella</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="3bdd2ea2-7725-478e-950f-4681eeb6f7dc">
+    <!-- (G) entry_name: Qang -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_fi">kansleri</column>
+    <column name="notes_fi">Tämä on Klingonin imperiumin johtajan titteli, kun sitä ei hallitse keisari. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="7a6d898b-1a67-4bae-85f0-e222aa4a5070">
+    <!-- (G) entry_name: Qap -->
+    <!-- (G) part_of_speech: v:1,t_c,klcp1 -->
+    <column name="definition_fi">toimia (laitteesta tms.); onnistua, menestyä, voittaa</column>
+    <column name="notes_fi">Kilpailun "voittaminen" on {Qap:v:nolink}. Jos voitto on ratkaiseva tai erityisen ilahduttava, käytetään ilmaisua {Qapchu':v:nolink}, vaikka se olisikin hieman tarpeeton.[4] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="9fe0b8df-1f00-4217-b1d1-121c094e5596">
+    <!-- (G) entry_name: Qap -->
+    <!-- (G) part_of_speech: v:2,i_c -->
+    <column name="definition_fi">olla toiminnassa, olla käytössä</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="4b95327f-3b1c-41a5-baf0-6e86ae07dcee">
+    <!-- (G) entry_name: Qap tlham. -->
+    <!-- (G) part_of_speech: sen:rp -->
+    <column name="definition_fi">Painovoima toimii.</column>
+    <column name="notes_fi">Tämä tarkoittaa sitä, että painovoima tekee työnsä, mitä tahansa painovoiman pitäisi tehdä. Toisin sanoen se ilmaisee jotain sellaista kuin "sen piti tapahtua". [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="772fe087-493a-4eab-8812-fc89fe273d99">
+    <!-- (G) entry_name: Qapchu'meH chuq -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">toimintasäde</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="bdc1aeeb-a4ac-4cd5-85a3-0c97e4ca4db5">
+    <!-- (G) entry_name: QapwI' mIr -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">voittoputki</column>
+    <column name="notes_fi">Tämä on harvinaisempi tapa sanoa tämä. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="ef7deb21-20c5-44ab-a6c1-ec4fb25ca23f">
+    <!-- (G) entry_name: Qapla' -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_fi">menestys</column>
+    <column name="notes_fi">Tätä sanaa käytetään onnentoivotuksena jollekulle, joka on lähdössä suorittamaan tehtävää. Katso {Qapla'!:sen}.</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="41e8fd16-4ae2-443b-b1a0-4cd1f371ccce">
+    <!-- (G) entry_name: Qapla'! -->
+    <!-- (G) part_of_speech: sen:bc -->
+    <column name="definition_fi">Menestystä!</column>
+    <column name="notes_fi">Tämä on yksi Klingonin yleisimmin käytettyjä huutomerkkejä, jonka tunnistaa myös monet ei-puhuvat. Ole varovainen oikeinkirjoituksen suhteen, koska muut kuin klingonit sekoittavat sen usein.
+
+Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/ZdNqwDxEyiU}
+
+Katso oppitunti tästä sanasta: {YouTube video:url:http://youtu.be/auqS6FR_RDE} [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="66ab3fc9-8c2b-4a79-838e-6b4fe07dba63">
+    <!-- (G) entry_name: QaplaStep -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">rulla, kerä, käämi, kehrä, puola</column>
+    <column name="notes_fi">Tämä tarkoittaa laitetta, jonka ympärille kierre tai lanka kierretään. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="b47f8c8d-f8cd-43bd-bd85-5b2db4cb57fa">
+    <!-- (G) entry_name: Qaq -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_fi">käyttäytyä valheellisesti kunnioitettavasti, teeskennellä kunnioitettavaa käytöstä?</column>
+    <column name="notes_fi">Tämän verbin käyttö merkitsee petosta. Se eroaa kuitenkin {toj:v}: stä siinä, että petokseen liittyy jollain tavalla kunnia tai sosiaalinen asema. Esimerkiksi tätä verbiä voidaan käyttää sellaisen henkilön kohdalla, joka väitti olevansa arvoltaan, jota hän ei ollut saavuttanut, tai olevan sellaisen talon tai perheen jäsen, johon hän ei kuulunut. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="64c30e16-8454-4ef0-b015-90c2435a4cb8">
+    <!-- (G) entry_name: QaQ -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_fi">olla hyvä</column>
+    <column name="notes_fi">Tämä on verbi (tai adjektiivi), joka tarkoittaa "olla hyvä". Esimerkkien perusteella se on mieluummin toivottavan laadun kuin siinä mielessä, ettei ole paha (ks.{mIgh:v}).
+
+Katso "hyvä" tyydytystä osoittavana huutomerkkinä artikkelista {maj:excl}.
+
+Jos haluat kuvailla nautittavaa ruokaa tai musiikkia, katso {'ey:v} ja {DuQ:v:2}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="4ae9c579-c991-41e3-a7be-2b220d749a66">
+    <!-- (G) entry_name: Qargh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">halkeama</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="cbf07196-f5af-4dee-91fd-417feea46d64">
+    <!-- (G) entry_name: QaS -->
+    <!-- (G) part_of_speech: n:being,inhpl,1h -->
+    <column name="definition_fi">(sota)joukot; miehistö (ei-upseerit)</column>
+    <column name="notes_fi">Tämän sanan merkitys on kuin {negh:n}, mutta se sulkee pois upseerit ({yaS:n}). {QaS:n:1h,nolink}: n korkeimmat rivit ovat:
+▶ {bu':n} "kersantti"
+▶ {Da':n} "korpraali"
+
+On mahdollista, että tätä sanaa voidaan käyttää viittaamaan yhteen joukkojen jäseneen.[2, p.51]
+
+Kohdassa {Klingon Monopoly:src} {tlhIngan QaS:n:nolink} on pelissä käytetty rahayksikkö. Tästä pelistä meillä on esimerkkejä {"GO" DajuSDI' cha'vatlh QaS yItlhap:sen:nolink} ja {wa'vatlh QaS yItlhap:sen:nolink}. Huomaa, että yksikön etuliitettä {yI-:v} käytetään, vaikka {QaS:n:1h,nolink} on luonnostaan ​​monikko-substantiivi, jonka jäseniä lasketaan.[3] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi">sotajoukot, joukot</column>
+  </mixin>
+  <mixin target="a68be090-2c59-4a9a-beb4-939d92097572">
+    <!-- (G) entry_name: QaS -->
+    <!-- (G) part_of_speech: n:2,name,fic -->
+    <column name="definition_fi">Kras</column>
+    <column name="notes_fi">Hän esiintyi jaksossa {TOS - Friday's Child:src}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="7afa76d7-e688-4df1-ae7b-5f89886e7082">
+    <!-- (G) entry_name: Qat -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_fi">olla suosittu</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="85b1be92-f799-4d47-82e6-f1dfca279321">
+    <!-- (G) entry_name: Qatlh -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_fi">olla vaikea, olla monimutkainen</column>
+    <column name="notes_fi">Katso "kova (ei pehmeä)" kohdasta {let:v}. Katso myös {ngem Sarghmey tlha':sen:idiom} vaikeuksiin tai monimutkaisuuteen liittyvästä idiomasta. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="129455f2-da01-479c-8d6e-1698dc89bf4c">
+    <!-- (G) entry_name: Qav -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_fi">olla lopullinen, viimeinen</column>
+    <column name="notes_fi">Toisin kuin englanninkielinen sana "last", tämä tarkoittaa "lopullista" eikä tarkoita "edellistä" (joka on {vorgh:v}) tai "viimeisintä" (joka on {ret:v}).[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="b1482cc3-c724-4256-997d-b7e65a7355af">
+    <!-- (G) entry_name: Qaw' -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_fi">tuhota</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="18e65ac1-bc1f-4198-a124-3ef55d7f22e3">
+    <!-- (G) entry_name: Qay -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">siirtää</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="14fe4fb9-d782-47db-b4b3-cb58bf4a9b93">
+    <!-- (G) entry_name: Qay' -->
+    <!-- (G) part_of_speech: v:1,i -->
+    <column name="definition_fi">menettää malttinsa</column>
+    <column name="notes_fi">Katso aiheeseen liittyvä idiomaattinen ilme kohdasta {Qay':v:2}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="f5cce767-56fb-473c-b2d3-5f9a57152649">
+    <!-- (G) entry_name: Qay' -->
+    <!-- (G) part_of_speech: v:2,t_c -->
+    <column name="definition_fi">käyttää pikkuvarvasta</column>
+    <column name="notes_fi">On olemassa idiomaattinen ilmaus {'oy'qu' Qay'wI'wIj.:sen} Tämä tarkoittaa kirjaimellisesti "pieni varpaani kipeästi paljon", mutta sillä on idiomaattinen merkitys "olen erittäin vihainen". Ilmaisu syntyi epäilemättä {Qay':v:2,nolink}: n "käytä pientä varvasta" ja "{Qay':v:1}" "puhaltaa huipun" välillä olevan homofonian vuoksi. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="73747d5b-7295-48c0-9219-ff13c278b576">
+    <!-- (G) entry_name: Qay'wI' -->
+    <!-- (G) part_of_speech: n:body,deriv -->
+    <column name="definition_fi">pikkuvarvas</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="e74ed551-1414-4296-98ee-fffefbd605d6">
+    <!-- (G) entry_name: Qay'mol -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">palapeli</column>
+    <column name="notes_fi">Tämä viittaa fyysiseen palapeliin, kuten palapeliin tai metallivanteisiin, jotka on purettava. Toisin sanoen tällaisessa palapelissä on oltava fyysinen esine tai esineitä, joita on käsiteltävä. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="948c0c9a-7ed5-4e66-89e6-b670da7e5e08">
+    <!-- (G) entry_name: Qay'mol teSra' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">palapelin pala</column>
+    <column name="notes_fi">Tämä viittaa palapelin palaan. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="e5bd354a-2a8f-4d61-a2b3-c2e4acd41fa2">
+    <!-- (G) entry_name: Qa' -->
+    <!-- (G) part_of_speech: n:1,anim -->
+    <column name="definition_fi">eräs eläin</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="a1ec3bbf-6925-471a-946b-f641f56ea0dc">
+    <!-- (G) entry_name: Qa'Da' -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_fi">eräs eläin, krada</column>
+    <column name="notes_fi">Krada-jalat ovat suosittu klingoniruoka, joka on valmistettu kradan ääripäistä. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="d9e18241-b4c4-4b17-aa89-6591e37176d8">
+    <!-- (G) entry_name: Qa'Hom -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_fi">eräs siiliä muistuttava eläin, pieni mitätön eläin</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="66220c38-d0bd-42c4-97e8-7671c95d8131">
+    <!-- (G) entry_name: Qa'raj -->
+    <!-- (G) part_of_speech: n:alt -->
+    <column name="definition_fi">{qa'raj:n}</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="246718d8-37b7-46d4-a91b-b55769fa18e5">
+    <!-- (G) entry_name: Qa'taq -->
+    <!-- (G) part_of_speech: n:name,fic -->
+    <column name="definition_fi">K'Ratak</column>
+    <column name="notes_fi">Tämä on kirjoittaja {qul naj:n}, joka kirjoitti myös kommentin {qeS'a':n}: een. Hän on M'Lindin poika (ks.{mI'lInnID:n:name}). [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="4262c37e-e7d7-4b71-b71d-32ec44ef060f">
+    <!-- (G) entry_name: Qeb -->
+    <!-- (G) part_of_speech: n:1 -->
+    <column name="definition_fi">sormus</column>
+    <column name="notes_fi">Tätä sanaa voidaan käyttää myös muun tyyppisiin (samankaltaisiin) koruihin, kuten varpaisiin (vaikka se todennäköisesti olisi {yaD Qeb:n@@yaD:n:1, Qeb:n:1} tai tarkempi, kuten {Qay'wI' Qeb:n@@Qay'wI':n, Qeb:n:1}). Tätä ei käytetä ketjun lenkkiin, paitsi jos ketju koostuu (korujen kaltaisista) renkaista.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="f9b91be1-c0d0-488f-b4ec-d7b0b3008b13">
+    <!-- (G) entry_name: Qeb -->
+    <!-- (G) part_of_speech: n:2,slang -->
+    <column name="definition_fi">ponnari</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="2101c49a-e6f9-4f97-9b37-49d0a48ba017">
+    <!-- (G) entry_name: Qechjem -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">(kasvin) varsi, ruoti, kanta</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="790df95f-1dbc-4622-b13e-3d568e0a777e">
+    <!-- (G) entry_name: Qechjem'a' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">(puun) runko</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="33539982-f760-4c64-9c99-edc53266a0e6">
+    <!-- (G) entry_name: QeD -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_fi">tiede</column>
+    <column name="notes_fi">Klingonin kielessä on seuraavia tieteitä:
+▶ {DI'ruj QeD:n}
+▶ {HapQeD:n}
+▶ {HolQeD:n}
+▶ {HovQeD:n}
+▶ {HuchQeD:n}
+▶ {mI'QeD:n}
+▶ {nughQeD:n}
+▶ {no'QeD:n}
+▶ {rayQeD:n}
+▶ {roSqa'QeD:n}
+▶ {qunQeD:n}
+▶ {porghQeD:n}
+▶ {tamlerQeD:n}
+▶ {yuQQeD:n}
+▶ {'an'orQeD:n}
+▶ {'otlhQeD:n}
+
+Jokaiselle {QeD:n:nolink}:lle on vastaava {tej:n}.</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="183b9c6a-a09b-4220-8828-df298209ab46">
+    <!-- (G) entry_name: QeD pat -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">tiedejärjestelmä</column>
+    <column name="notes_fi">Tämä esiintyy nimellä {QeD patmey noch patmey je:n:nolink} "tiede ja kaukokartoitusjärjestelmät". [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="f6f11f4c-7cbf-4b11-8773-dcd91b9cfe6b">
+    <!-- (G) entry_name: QeD SeHlaw -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">tiedekonsoli</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="ac1df947-e87d-4969-b04e-a9472c463fbe">
+    <!-- (G) entry_name: QeDpIn -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_fi">tiedeupseeri</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="a2ced21c-0203-41e8-b5f1-f7b71efab830">
+    <!-- (G) entry_name: QeH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">viha, raivo</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="4cc5c760-0d8d-4564-b003-02bae4f9c39e">
+    <!-- (G) entry_name: QeH -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_fi">olla vihainen</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="c2a55b66-9aee-42d5-8dfb-4458709e329b">
+    <!-- (G) entry_name: Qej -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">arvostaa, pitää jotain arvossa; vaalia, helliä, hoivata?</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="29fee19c-fb57-43b6-80dc-b7bec30e7a08">
+    <!-- (G) entry_name: Qel -->
+    <!-- (G) part_of_speech: n:1h,klcp1 -->
+    <column name="definition_fi">lääkäri</column>
+    <column name="notes_fi">Tämä on yleinen sana "lääkäri" tai "lääkäri". Leikkauksen suorittava lääkäri on {HaqwI':n}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="88ae3f3f-1bde-4b20-b7af-01c10e14fa50">
+    <!-- (G) entry_name: Qel -->
+    <!-- (G) part_of_speech: n:2,name,fic -->
+    <column name="definition_fi">Krell</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="1e9d4f98-aabd-4bc9-81a4-8425910c1cb4">
+    <!-- (G) entry_name: Qem -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">panna (ase, työkalu tms.) tuppeen tai koteloon</column>
+    <column name="notes_fi">Tämä sana ei rajoitu aseisiin. Esimerkiksi sitä voidaan käyttää työkalun asettamiseen työkaluvyöhön. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="916290ba-5c95-4894-acc3-c57eb10f1533">
+    <!-- (G) entry_name: QemjIq -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">kuoppa, kolo</column>
+    <column name="notes_fi">Tätä voidaan käyttää reikään maahan, onttoon puuhun ja niin edelleen. Ero {QemjIq:n:nolink}: n ja {qung:n}: n välillä on se, että edellinen voidaan täyttää ({teb:v}) .[1] (Toisin sanoen {QemjIq:n:nolink} on ontelo tai syvennys, kun taas {qung:n:nolink} on puhkaisu tai reikä.) [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi">reikä, aukko</column>
+  </mixin>
+  <mixin target="b83929d0-d526-4f26-b7be-586d2c42bbd8">
+    <!-- (G) entry_name: Qen -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_fi">olla alaston</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="dda1a691-59f0-4c12-bf04-903d8f756fa4">
+    <!-- (G) entry_name: Qenno' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">hedelmän ydin, sisus, malto, hedelmäliha</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="01e8393c-cde3-4a2f-b71c-4b6b137e020f">
+    <!-- (G) entry_name: Qenvob -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">jauhettu, kuivattu tee teen keittämistä varten</column>
+    <column name="notes_fi">Tämä tarkoittaa kuivattua teetä, joka sisältää kasveja tai eläinosia. Katso tästä valmistettu juoma kohdasta {Dargh:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="a9e981e3-b056-4e3d-a298-44a29f0d4a64">
+    <!-- (G) entry_name: Qep -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">olla ahdistunut, huolestunut jostain</column>
+    <column name="notes_fi">Kohde, jos sellainen on, on asia, josta kohde on huolissaan.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="76474905-405c-4ca2-9be6-eb1b1d1b4069">
+    <!-- (G) entry_name: Qep'It -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">ruumiin tuottama kaasu (röyhtäys, pieru tms.)</column>
+    <column name="notes_fi">Sekä tätä että {ruq:v}: tä voidaan käyttää kaasusta, joka tulee suolistasi ja suustasi, ja myös kaasuun, joka laskee suolistasi ja ulos muulla tavalla. Erottaaksesi eri aukoista peräisin olevat kaasut, käytä ilmausta {nuj:n}, {Hugh:n} tai {Sa'Hut:n:1}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="cabb1e9e-4bee-4f40-b30e-e7769731ac36">
+    <!-- (G) entry_name: Qeq -->
+    <!-- (G) part_of_speech: v:1,t_c -->
+    <column name="definition_fi">tähdätä jollakin</column>
+    <column name="notes_fi">Objekti on ammus tai ase ja tähtäyksen kohde ilmaistaan {-Daq:n:suff}-muodolla (katso {bach:v}).
+
+Tätä verbiä voidaan myös käyttää ilmaisemaan, että subjekti on kääntynyt jotakin kohti (katso {Qeq:v:2})</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="b27fe250-9c0f-4bd8-95f3-cb054438a983">
+    <!-- (G) entry_name: Qeq -->
+    <!-- (G) part_of_speech: v:2,t_c -->
+    <column name="definition_fi">olla kääntyneenä tai kääntyä jotakin kohti</column>
+    <column name="notes_fi">Tämä on vain {Qeq:v:1}-sovellus. Kohde on joku tai jokin suuntautunut, ja kohtaamasi asia tai henkilö on merkitty {-Daq:n:suff}-merkinnällä. Tällä merkityksellä tätä verbiä käytetään usein {-'egh:v:suff}- tai {-chuq:v:suff}-tiedostojen kanssa.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="b70b5bdd-bb45-4c51-99a1-423145698902">
+    <!-- (G) entry_name: Qev -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">hauduttaa, muhentaa</column>
+    <column name="notes_fi">Tämä tarkoittaa lihan lämmittämistä eläimen veressä ja mausteissa. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="2ac232ca-f80e-438d-a12e-9df67723dd82">
+    <!-- (G) entry_name: Qey -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_fi">olla tiukka</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="6c6b4ffd-71fa-4670-ba93-14bd0f5595b9">
+    <!-- (G) entry_name: QeyHa' -->
+    <!-- (G) part_of_speech: v:is,deriv -->
+    <column name="definition_fi">olla löysä</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="9a1025cd-fc47-4ce8-a10b-9912efe9107a">
+    <!-- (G) entry_name: QeyHa'moH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_fi">löysätä</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="f2ba1dff-ac07-46e1-9186-5cf8b8fbfdcd">
+    <!-- (G) entry_name: QeymoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_fi">tiukentaa</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="a97d0aec-281b-4e53-8fd5-dc84567920c3">
+    <!-- (G) entry_name: Qey' -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_fi">olla viileä</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="87fad173-9455-4e25-a7ba-4adeeff4e493">
+    <!-- (G) entry_name: Qe' -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_fi">ravintola</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="4d45e70b-4bd0-47f6-a820-963b3d673145">
+    <!-- (G) entry_name: Qe' much -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">kabaree-esitys</column>
+    <column name="notes_fi">Tämä on {much Qe':n}-esitys. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="d9a4777d-6ac9-4cb5-8d28-986459fa3a98">
+    <!-- (G) entry_name: QI -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">silta</column>
+    <column name="notes_fi">Käytä {vech:v} sanomaan, että silta ulottuu johonkin (joki, laakso ja niin edelleen).
+
+Aluksen komentokannen sana (jota kutsutaan myös englanniksi "sillaksi") on {meH:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="3a79b52d-43c1-430e-ad1d-224209d82327">
+    <!-- (G) entry_name: QIb -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">varjo</column>
+    <column name="notes_fi">Varjon heittämisen / heittämisen / tekemisen ilmaisemista varten {QIb:n:nolink}: tä voitaisiin käyttää {nIS:v}: n aiheena. Objekti, jos se on määritelty, olisi pinta, jolle varjo heitetään.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="2ed367a4-29be-4d61-a8cc-1d5bd4ba34d6">
+    <!-- (G) entry_name: QIb -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">suodattaa, seuloa, siivilöidä</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="c865dc46-ed55-4202-a8a2-d31580adbe55">
+    <!-- (G) entry_name: QIch -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">puhe (ääntely, ei esitys)</column>
+    <column name="notes_fi">Tämä viittaa puheen ilmiöön. Katso puheäänet kohdasta {QIch wab:n}. Ääntämistä varten katso {QIch wab Ho'DoS:n}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="f5189669-6cd0-4c20-a8f4-0becbe496127">
+    <!-- (G) entry_name: QIch wab -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">äänne, foneemi</column>
+    <column name="notes_fi">Yksittäinen puheääni on {QIch wab:n:nolink}. Puheäänet yhdessä ovat {QIch wabmey:n@@QIch wab:n, -mey:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="124b6e4d-8481-4880-b1e1-23f9e3f22536">
+    <!-- (G) entry_name: QIch wab Ho'DoS -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">ääntäminen</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="b0c34ef0-7e39-4b75-abc2-e92608f0ea63">
+    <!-- (G) entry_name: QIch wab Ho'DoS Sar -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">aksentti</column>
+    <column name="notes_fi">"Alueellinen aksentti" olisi {Sep QIch wab Ho'DoS:n:nolink}, {Sep QIch wab Sar:n:nolink} tai {Sep QIch wab Ho'DoS Sar:n:nolink}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="89a09d85-d5b2-4a22-b760-02e1295bc2a6">
+    <!-- (G) entry_name: QIch wab Sar -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">allofoni</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="fd09bf2d-566a-4777-9789-2371df055cae">
+    <!-- (G) entry_name: QID -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_fi">haavoittaa</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="425c0a59-7ecb-47b6-85f4-f9e812cb7366">
+    <!-- (G) entry_name: QIghpej -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">eräs klingonien kidutuslaite</column>
+    <column name="notes_fi">Tämä on kädessä pidettävä laite, joka on painettu vastustajaa vasten. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="6f59e42b-1fdc-4cfb-b1d4-d5ced8ab9ea8">
+    <!-- (G) entry_name: QIH -->
+    <!-- (G) part_of_speech: v:1,t_c -->
+    <column name="definition_fi">vahingoittaa, aiheuttaa vahinkoa</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="8a81de6b-14b7-447d-9972-27385a992b7f">
+    <!-- (G) entry_name: QIH -->
+    <!-- (G) part_of_speech: v:2,t_c -->
+    <column name="definition_fi">tehdä vääryyttä jollekulle, kohdella epäoikeudenmukaisesti</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="21e3893b-954d-48cf-8c58-ef18fc1b0c50">
+    <!-- (G) entry_name: QIH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">vahinko, tuho</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="cec8b77c-8e8b-4bd9-ba2f-8b258097e98b">
+    <!-- (G) entry_name: QIj -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_fi">selittää</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="023d43c9-4980-4427-912e-357a8a970b20">
+    <!-- (G) entry_name: QIl -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_fi">olla epätoivoinen</column>
+    <column name="notes_fi">Tätä käytetään, kun ei ole ulospääsyä tai jos ei ole mitään menetettävää. Se sisältää ideoita, kuten "viimeinen oja, tee tai kuole, toivoton, tuomittu" .[1]
+
+Tätä sanaa ei käytetä tarkoittavan "haluaa, kaipaa, kaipaa sitä, sitä todella tarvitsee, jolla on suuri halu" ja niin edelleen. Näiden ajatusten ilmaisemiseksi voidaan käyttää {-nIS:v} {-qu':v}: n kanssa tai ehkä {neHqu':sen@@neH:v, -qu':v}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="d2f74722-6330-4517-a825-fcdc4651711e">
+    <!-- (G) entry_name: QIm -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">muna</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="df2c62cb-92b5-4053-83d1-6507f27e9779">
+    <!-- (G) entry_name: QImHal -->
+    <!-- (G) part_of_speech: n:body,deriv -->
+    <column name="definition_fi">munasarja</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="9641a91c-92a9-46a0-b9d9-ca6a110a0e14">
+    <!-- (G) entry_name: QIm julHom -->
+    <!-- (G) part_of_speech: n:alt,deriv -->
+    <column name="definition_fi">{Sotlhqel:n}</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="f0d340e9-1ae2-43dc-8543-6525f682d8bb">
+    <!-- (G) entry_name: QIn -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">ruiskuttaa, piikittää</column>
+    <column name="notes_fi">Tämä voi ottaa kohteeksi {watrIn:n} tai {'onroS:n}.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="808e3e9f-3fe6-4b6e-9a39-9420473195a5">
+    <!-- (G) entry_name: QIn -->
+    <!-- (G) part_of_speech: n:1 -->
+    <column name="definition_fi">viesti</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi">sähköposti</column>
+  </mixin>
+  <mixin target="bc17c2c8-5b36-4b4c-bfbd-960ed016b929">
+    <!-- (G) entry_name: QIn -->
+    <!-- (G) part_of_speech: n:2,weap -->
+    <column name="definition_fi">keihäänkärki</column>
+    <column name="notes_fi">Tämä sana viittaa myös lyijykynän teroitettuun päähän. Se viittaa todennäköisesti minkä tahansa tikkumaisen esineen terävään päähän.[2]
+
+Sitä käytetään viittaamaan (geometrisen) tähden pisteeseen ({DujtlhuQ:n}).[3] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="915687f9-6980-4121-bb42-c2fe2da8fdd1">
+    <!-- (G) entry_name: QIn pup -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">eräs sileä keihäänkärki, jossa on yksi piikki</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="03738f5c-3c47-485f-9e00-a835df9e2b57">
+    <!-- (G) entry_name: QIn tum -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">posti (laitos)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="f8b37bb2-8bb6-4a0d-9427-7ff2a5d5d721">
+    <!-- (G) entry_name: QIn tum qach -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">postitoimisto (rakennus)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="48c8340c-c785-47ac-b902-e19d896c4406">
+    <!-- (G) entry_name: QIn vagh -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">eräs keihäänkärki, jossa on useita piikkejä</column>
+    <column name="notes_fi">Sillä voi olla mikä tahansa määrä pisteitä, ei vain viisi. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="10b5b9b2-14d2-44ee-9bd6-9ca06256940d">
+    <!-- (G) entry_name: QIn 'echletHom -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">postikortti</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="54ac7812-90b2-4bee-8969-e454bbb0e9b4">
+    <!-- (G) entry_name: QIncha' -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_fi">eräs eläin, krincha</column>
+    <column name="notes_fi">Myös kirjoitettu "Krencha", tämä on matelijaeläin, joka on kotoisin {Qo'noS:n}: stä. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="d5cb5da6-d107-42b5-ac8c-41bb653ffb7d">
+    <!-- (G) entry_name: QIngheb -->
+    <!-- (G) part_of_speech: n:deriv,fic,weap -->
+    <column name="definition_fi">eräs keihästyyppi</column>
+    <column name="notes_fi">Tämä on samanlainen kuin {ghIntaq:n:1}, paitsi että kahva on pidempi, terä on paljon leveämpi ja alaspäin kaareva sarvi työntyy terän pohjasta.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="357c4fad-39f6-42c3-9565-5ef152039a66">
+    <!-- (G) entry_name: QIp -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_fi">olla tyhmä</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="33187687-4338-4344-a0c5-c8f275d2a210">
+    <!-- (G) entry_name: QIq -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">vetää (ase, työkalu tms.) esiin</column>
+    <column name="notes_fi">Tämä sana ei rajoitu aseisiin. Sitä voidaan käyttää esimerkiksi työkalun poistamiseen työkaluhihnasta. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="44543d17-fb6f-4e8c-9458-cb26900dbd11">
+    <!-- (G) entry_name: QIS -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">ommella, kursia</column>
+    <column name="notes_fi">Kohde on ommeltu tai ommeltu asia. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="268a4ba5-b9b2-42c2-821d-e5d1d30e0355">
+    <!-- (G) entry_name: QIS -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">eräs veitsi, jossa on aaltoileva terä</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="3ffeb7a6-4705-4b0b-bd8b-ef0c682cc60c">
+    <!-- (G) entry_name: QISmaS -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">joulu</column>
+    <column name="notes_fi">Tämä on Terran-loman nimi.
+
+Ei ole perinteistä klingonilaista tapaa sanoa jotain "hyvää joulua". Lauseke, kuten {wornagh yItlhutlh!}, saattaa olla sopivampi.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="fe9662b5-c761-41e3-b565-32e83042afe9">
+    <!-- (G) entry_name: QIStaq -->
+    <!-- (G) part_of_speech: n:place,fic -->
+    <column name="definition_fi">Kri'stak</column>
+    <column name="notes_fi">Tämä on tulivuoren nimi ({qulHuD:n}) {Qo'noS:n} -laitteessa, jossa legenda kertoo {qeylIS'e' lIjlaHbe'bogh vay':n:name} kastanut hiuslukon väärentämään ensimmäistä {betleH:n}-levyä. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="d4b89d41-e475-44a3-aa29-c94f218085c5">
+    <!-- (G) entry_name: QIt -->
+    <!-- (G) part_of_speech: adv -->
+    <column name="definition_fi">hitaasti</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="69e1f8c1-47de-4c33-9f83-2ebb7fab906f">
+    <!-- (G) entry_name: QIv -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_fi">olla huonompi</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="22a0f25e-1b9a-4679-af89-71c779dd293a">
+    <!-- (G) entry_name: QI' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">armeija, sotaväki</column>
+    <column name="notes_fi">Tämä viittaa mihin tahansa sotilaalliseen organisaatioon. Virallinen Klingon {QI':n} on {tlhIngan Hubbeq:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="75a93940-fd1b-472f-b0b2-c2ce33c5a955">
+    <!-- (G) entry_name: QI'lop -->
+    <!-- (G) part_of_speech: n:deriv,fic -->
+    <column name="definition_fi">eräs juhla</column>
+    <column name="notes_fi">Michael Dorn lausuu tämän {PK:src}:ssa muodossa {Qetlop:sen:nolink}.</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="bcd6fbf3-8f1a-4721-970c-0989870ea1f1">
+    <!-- (G) entry_name: QI'tomer -->
+    <!-- (G) part_of_speech: n:place,fic -->
+    <column name="definition_fi">Khitomer</column>
+    <column name="notes_fi">Tämä on Klinonin imperiumin etuvartion nimi lähellä Romulanin rajaa, jossa federaation kanssa allekirjoitettiin tärkeä rauhansopimus.[3] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="f74a6695-f01a-4f23-b849-96e7850902ce">
+    <!-- (G) entry_name: QI'tomerDaq Heghpu' Hoch. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_fi">Kukaan ei selviytynyt Khitomeristä.</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="3f95290b-512f-4c0d-a8ff-4999d779c91a">
+    <!-- (G) entry_name: QI'tu' -->
+    <!-- (G) part_of_speech: n:place,fic -->
+    <column name="definition_fi">eräs myyttinen paikka, Paratiisi (luomisen paikka klingonien mytologiassa)</column>
+    <column name="notes_fi">{QI'tu':n:nolink}: een liittyy kaksi idiomia, jotka molemmat liittyvät sen ikään: {ngo'; QI'tu' rur@@ngo':v, QI'tu':n, rur:v} ja {qan; QI'tu' rur@@qan:v:1, QI'tu':n, rur:v}. Ensimmäistä voidaan soveltaa esineeseen tai ideaan, joka on hyvin vanha, kun taas toista voidaan soveltaa vanhaan ihmiseen.[3] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="d1763b86-548f-42f6-b992-0bd3643ce6fe">
+    <!-- (G) entry_name: QI'yaH -->
+    <!-- (G) part_of_speech: excl -->
+    <column name="definition_fi">eräs kirosana</column>
+    <column name="notes_fi">Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/IWW3uAXvOeM} [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="bf6f7f51-db5c-42cd-b844-15727f07a7f5">
+    <!-- (G) entry_name: QI'yoS wa' -->
+    <!-- (G) part_of_speech: n:place,fic -->
+    <column name="definition_fi">Krios I</column>
+    <column name="notes_fi">Klingonin imperiumin planeetta, jossa Klingonit asuttivat yhdessä vaiheessa. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="03bcf79e-d127-435f-85e7-c297396f6b30">
+    <!-- (G) entry_name: Qo -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">taipumus, alttius (jonkin tekemiseen)</column>
+    <column name="notes_fi">Laajennusta {-meH:v} ja verbiä {chIw:v} käytetään tämän kanssa ilmaisemaan taipumusta tehdä jotain. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="b73c4aef-5463-471a-982e-776f7b9d3b55">
+    <!-- (G) entry_name: Qob -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_fi">olla vaarallinen</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="5d1c7a19-0bdd-4170-94db-9dc7361d6dbb">
+    <!-- (G) entry_name: Qob -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_fi">vaara</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="ae939141-c10f-46b6-8411-0db98a140e12">
+    <!-- (G) entry_name: Qoch -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_fi">olla eri mieltä</column>
+    <column name="notes_fi">Erimielisyydet ilmaistaan ​​myös idiomaattisella ilmaisulla {cha' DoSmey DIqIp.:sen:idiom}
+
+Tämä verbi voi ottaa objektiksi {'e':n:pro}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="2a0abb19-77fd-49ee-9196-0c369920d15f">
+    <!-- (G) entry_name: Qochbe' -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_fi">olla samaa mieltä</column>
+    <column name="notes_fi">Tämä on yksinkertaisesti verbi {Qoch:v} plus pääte {-be':v}.[2]
+
+{Qochbe':v:nolink} tarkoittaa erimielisyyksien puuttumista, kun taas {QochHa':v:nolink} tarkoittaa, että erimielisyydet on väärin sijoitettu tai kumottu.
+
+Sopimus ilmaistaan ​​myös idiomaattisella ilmaisulla {wa' DoS wIqIp.:sen:idiom}[3] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="55202c07-6eae-40ff-b63d-d4770fe68d6e">
+    <!-- (G) entry_name: QoD -->
+    <!-- (G) part_of_speech: v:t -->
+    <column name="definition_fi">ohjata varovaisesti tai pujotella</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="24b0d639-98e2-400d-9cc4-ad087276d57a">
+    <!-- (G) entry_name: Qogh -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_fi">eräs eläin</column>
+    <column name="notes_fi">Tätä eläintä pidetään lemmikkinä. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="ec8c0177-3518-47c1-b8da-db5229b91c14">
+    <!-- (G) entry_name: QoghIj -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_fi">aivot (elin)</column>
+    <column name="notes_fi">Tämä sana viittaa urkuun. Katso mielen merkitys kohdasta {yab:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="9cca4dc1-d6a6-4f93-b741-7d81bb3319cb">
+    <!-- (G) entry_name: Qoghogh -->
+    <!-- (G) part_of_speech: v:i_c -->
+    <column name="definition_fi">tuhahtaa</column>
+    <column name="notes_fi">Tämä on kuin mitä sika tekee, mutta se ei rajoitu sioihin tai targiin. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="d18b598b-b3a1-41e9-9dc0-0d92fa61549c">
+    <!-- (G) entry_name: QoH -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">naputtaa</column>
+    <column name="notes_fi">Tämä tarkoittaa koskettaa sormia varovasti johonkin, yleensä muutaman kerran. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="376ae35c-8a50-4985-b82c-db7098608261">
+    <!-- (G) entry_name: Qoj -->
+    <!-- (G) part_of_speech: v:t -->
+    <column name="definition_fi">aloittaa sota</column>
+    <column name="notes_fi">Tämä verbi viittaa sodan ajatukseen. Katso konkreettiset taistelut kohdasta {ghob:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="32d26858-52b3-44ac-9e46-564ff363e0d8">
+    <!-- (G) entry_name: Qol -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">siirtää pois (siirtimellä)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="f9e3ca81-9b29-4eee-a68e-72cdaa3c87b4">
+    <!-- (G) entry_name: Qom -->
+    <!-- (G) part_of_speech: v:1,t -->
+    <column name="definition_fi">kokea maanjäristys</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="20fcca27-7137-4b7e-8906-9ab07b22f2e3">
+    <!-- (G) entry_name: Qom -->
+    <!-- (G) part_of_speech: v:2,t,slang -->
+    <column name="definition_fi">olla vaarallinen, petollinen, epäluotettava</column>
+    <column name="notes_fi">Määritelmästään huolimatta tapa, jolla tätä verbiä käytetään kieliopillisesti, perustuu sen kirjaimelliseen merkitykseen, ja tätä ei ole kieliopillisesti käyttää adjektiivisesti.[1, p.163] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="5c5b2dd3-3eac-4dc7-bc6e-d6ca6eefd784">
+    <!-- (G) entry_name: QonoS -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">päiväkirja, loki</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="7c4e0564-4c7a-45f9-b6ef-5a4cb35ad358">
+    <!-- (G) entry_name: Qong -->
+    <!-- (G) part_of_speech: v:i,klcp1 -->
+    <column name="definition_fi">nukkua</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="6355dcd2-ad28-423f-b480-cdb0f070f63a">
+    <!-- (G) entry_name: QongmoH -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">nukuttaa</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="0161f0ac-b93d-4026-aea6-c164406ca7df">
+    <!-- (G) entry_name: QongDaq -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">sänky</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="a869fa7e-db1f-4295-b819-9313a737b7f9">
+    <!-- (G) entry_name: QongDaqDaq Qotbe' tlhInganpu'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_fi">Klingonit eivät makaa sängyssä.</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="194b9395-cef6-4505-a296-52330a656337">
+    <!-- (G) entry_name: QongDaq buq -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">tyyny, päänalunen?, makuupussi</column>
+    <column name="notes_fi">Maltz sanoi, että tämä tarkoittaa "sängyn pussi", ja ehkä makuupussi on {QongDaq buq'a':n:nolink} ja tyyny {QongDaq buqHom:n:nolink}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="a278797f-738d-4da0-ba94-f0f7c96280e2">
+    <!-- (G) entry_name: QongDaq 'echlet tun -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">patja</column>
+    <column name="notes_fi">Tämä on hyvin ei-klingonilainen käsite. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="c9bf9cb9-ca7f-4e87-b290-ba6c174268ee">
+    <!-- (G) entry_name: Qop -->
+    <!-- (G) part_of_speech: v:1,is -->
+    <column name="definition_fi">olla loppuun kulunut</column>
+    <column name="notes_fi">Tätä käytetään yleensä vanhoissa aseissa, työkaluissa, mekaanisissa laitteissa ja niin edelleen[2, p.163] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="6f7845ff-4735-4de1-a517-6c1b93e4261b">
+    <!-- (G) entry_name: Qop -->
+    <!-- (G) part_of_speech: v:2,is,slang -->
+    <column name="definition_fi">olla kuollut (ruoasta)</column>
+    <column name="notes_fi">Tätä käytetään vain viittaamaan ruokiin, joiden oletetaan syövän elävinä, kuten {qagh:n}.[1, p.163] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="d7178555-7f11-41d8-ad43-14b0a64a9537">
+    <!-- (G) entry_name: QopmoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_fi">kuluttaa loppuun</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="f1c736bc-df1e-48ef-8fd0-76b601cf7d2b">
+    <!-- (G) entry_name: QoQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">musiikki</column>
+    <column name="notes_fi">Klingons sanoo musiikin sanoille {jaqmoH:v}, {SeymoH:v}, {tungHa':v} tai {pIlmoH:v}.
+
+Tämä viittaa mihin tahansa musiikkiin, niin laulu-, instrumentaali- kuin molempiinkin[1][2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="23b4ea63-87e4-44b4-b49e-bedaffc69680">
+    <!-- (G) entry_name: QoQ ghom -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">musiikkiryhmä, yhtye</column>
+    <column name="notes_fi">Tämä on yleisempi termi musiikkia soittavalle ryhmälle (kaikenkokoisille) verrattuna {ghenraq:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="0d04e42b-163d-46e9-a2ed-f7cff5acb2a5">
+    <!-- (G) entry_name: QoQ jan -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">musiikkisoitin</column>
+    <column name="notes_fi">Tämä voidaan lyhentää vain {jan:n:2}-muotoon, jos asiayhteys on selvästi musikaali, mutta näin tehdään harvoin.
+
+Klingonin soittimien tyyppejä ovat: lyömäsoittimet ({'In:n}), tuuli (ei yleistä termiä), tuulipussi tai palkeet ({SuSDeq:n}) ja joustavat ({HurDagh:n} ja {ngItHel:n}). Puhallinsoittimiin kuuluvat {Dov'agh:n}, {gheb:n} ja {meSchuS:n}.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="56be6006-309f-4cce-9ded-99415259ae09">
+    <!-- (G) entry_name: Qor -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">taistella (hyvin vähäisessä taistelussa)</column>
+    <column name="notes_fi">Armeijan nousevassa järjestyksessä sotilaallisia yhteenottoja kuvaavia verbejä ovat: {Qor:v:nolink}, {tlhaS:v}, {vay:v}, {lul:v}, {Hargh:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="8f2bd2fa-7988-4a9f-abaf-57b5f25c868b">
+    <!-- (G) entry_name: Qorgh -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">huolehtia jostakusta, hoitaa</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="832073c8-63e4-4680-9886-418b836a7d84">
+    <!-- (G) entry_name: Qorwagh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">ikkuna</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="034b4175-84e7-464e-9e9c-07e10659be3f">
+    <!-- (G) entry_name: QoS -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_fi">olla pahoillaan</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="93df4716-a5a5-41a4-928a-aef3f3b24815">
+    <!-- (G) entry_name: Qot -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_fi">maata, loikoa</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi">loikoilla</column>
+  </mixin>
+  <mixin target="d3d9da4c-f09b-4678-9530-8a156ee2569b">
+    <!-- (G) entry_name: QotDI' gheD tlhejbe' wamwI'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_fi">Metsästäjä ei käy makaamaan saaliin kanssa.</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="7e803a89-4f38-4fd8-87d5-75626f788076">
+    <!-- (G) entry_name: Qotmagh -->
+    <!-- (G) part_of_speech: n:name,fic -->
+    <column name="definition_fi">Krotmag</column>
+    <column name="notes_fi">Tämä on johtajan nimi, joka valloitti alueensa naapurialueet. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="963bb21e-c9e6-4548-a487-2c24db5a8c8c">
+    <!-- (G) entry_name: Qotmagh Sep -->
+    <!-- (G) part_of_speech: n:place,fic -->
+    <column name="definition_fi">Krotmagin alue</column>
+    <column name="notes_fi">Tämä alue on nimetty Krotmagin ({Qotmagh:n:name}) mukaan.
+
+Krotmagin alueella kaiuttimet korvaavat {b:sen:nolink}: n {m:sen:nolink}: lla ja {D:sen:nolink}: n {N:sen:nolink}: lla.[1, p.21] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="d0c4864c-b9b5-4f15-98af-e716fb8ca30f">
+    <!-- (G) entry_name: Qotlh -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">vammauttaa, tehdä toimintakyvyttömäksi</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="13582cdc-a0e6-44ce-8763-b68323e260f7">
+    <!-- (G) entry_name: Qovpatlh -->
+    <!-- (G) part_of_speech: excl:epithet -->
+    <column name="definition_fi">eräs haukkumasana</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="ab613bd1-141e-4117-8e56-d4360e9565db">
+    <!-- (G) entry_name: Qoy -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_fi">kuulla, kuunnella</column>
+    <column name="notes_fi">Tämä tarkoittaa "kuule" eikä vain "kuuntele". Kuulijan on todella havaittava ja ymmärrettävä mitä sanotaan[2, p.31] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="4160d341-b802-4761-8e6f-6a697ce0fc9d">
+    <!-- (G) entry_name: QoymoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_fi">antaa jonkun kuulla jotain</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="92cf48c1-66a4-4656-b77f-5bf13b6ae0a6">
+    <!-- (G) entry_name: Qoy qeylIS puqloD -->
+    <!-- (G) part_of_speech: sen:lyr -->
+    <column name="definition_fi">Kulkaa, Kahlessin pojat! (hymni)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="805fc9dc-bcd5-4e7d-b8e3-c742b8af9e06">
+    <!-- (G) entry_name: Qoyje' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">todistus (asiakirja)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="b80542e9-16fb-434e-9019-9e3e814d75af">
+    <!-- (G) entry_name: Qoylu'taH -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_fi">kello käy</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="0e3b331d-6de8-480f-95ca-c90fc7e0ccfc">
+    <!-- (G) entry_name: Qoy' -->
+    <!-- (G) part_of_speech: v:i_c -->
+    <column name="definition_fi">läikyttää</column>
+    <column name="notes_fi">Tätä käytetään, kun neste putoaa sen säiliön päälle tai pois. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="eb5b15e9-4313-420c-ac20-63b43756f630">
+    <!-- (G) entry_name: Qo' -->
+    <!-- (G) part_of_speech: excl:klcp1 -->
+    <column name="definition_fi">ei, en, kieltäydyn, olen eri mieltä</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="694472ea-f356-4bc6-9d8f-acd1bf1aab17">
+    <!-- (G) entry_name: Qo'noS -->
+    <!-- (G) part_of_speech: n:place,fic -->
+    <column name="definition_fi">Kronos</column>
+    <column name="notes_fi">Tämä on Klingonin kotimaailman nimi. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="5278d8b0-0506-4f3b-9b6a-e36b135e7862">
+    <!-- (G) entry_name: Qu -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">valaa (metallia)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="53ebd584-edfc-4896-a81e-8b2b53426c6f">
+    <!-- (G) entry_name: QumeH ngaSwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">muotti (metallin valua varten)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="26ad6ed5-27de-4c31-ac8b-a4684f1520d8">
+    <!-- (G) entry_name: Qub -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_fi">ajatella; olla jotain mieltä, luulla</column>
+    <column name="notes_fi">Tämä verbi voi ottaa objektiksi {'e':n:pro}.[2]
+
+{chong:v:2,slang}: n slangimerkitys, kun sitä sovelletaan henkilöön, vastaa {Qubchu'}: n "ajattele selkeästi".[3] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="900fe81a-eb0b-4259-8973-fb2172ae1907">
+    <!-- (G) entry_name: Quch -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_fi">olla iloinen, onnellinen</column>
+    <column name="notes_fi">Huomaa, että englanninkielisellä ilmaisulla "(pidä a) hyvää lomaa" (jossa loma voi korvata loman todellisen nimen) ei ole järkeä, kun se kirjaimellisesti käännetään klingoniksi. Käännä tällainen lauseke harkitsemalla sen sijaan {tIv:v}. (Katso esimerkki {qoSlIj DatIvjaj!:sen}.) [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="6c94d69a-fe3e-4590-b0b5-c7d2a8ecebc1">
+    <!-- (G) entry_name: Quch -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_fi">otsa</column>
+    <column name="notes_fi">Otsan alueellisia sanoja ovat: {boD:n}, {jargh:n}, {mIQ:n}, {'aQlo':n}, {Huy'Dung:n}, {tuqvol:n} ja {no''och:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="67298884-73d1-47eb-8d27-62c31675212a">
+    <!-- (G) entry_name: QuchHa' -->
+    <!-- (G) part_of_speech: v:is,deriv -->
+    <column name="definition_fi">olla onneton</column>
+    <column name="notes_fi">Tämä ei tarkoita tarkalleen samaa kuin {'IQ:v}, koska se merkitsee muutosta onnellisuudesta olemattomaksi.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="ebd901d0-be4a-4b40-8171-507a79b109f3">
+    <!-- (G) entry_name: QuD -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">kapina, kansannousu</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="651f51fb-5e1d-493d-9249-995f7ae04ed4">
+    <!-- (G) entry_name: Qugh -->
+    <!-- (G) part_of_speech: n:1h -->
+    <column name="definition_fi">katastrofi</column>
+    <column name="notes_fi">Tämä sana ja {lot:n:nolink} ovat enimmäkseen vaihdettavissa. {lot:n:nolink} on parempi viitata johonkin, josta todennäköisesti ei voi toipua (kuten {pIraqSIS:n}: n menetys).[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="9a16f87f-03d2-4b84-9ff5-f9f5da774497">
+    <!-- (G) entry_name: Qugh -->
+    <!-- (G) part_of_speech: n:2,name,fic -->
+    <column name="definition_fi">Kruge</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="a36db0ad-0f19-498a-b42e-91866f8e0c72">
+    <!-- (G) entry_name: Quj -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">peli</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="8c3caee2-2fa8-4e2a-b054-888c6b933111">
+    <!-- (G) entry_name: Quj -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">pelata</column>
+    <column name="notes_fi">Tämän ja {reH:v}: n ero on siinä, että tämä viittaa jäsenneltyyn peliin, kun taas {reH:v:nolink} viittaa strukturoimattomaan peliin. Tämä verbi ei pidä {'e':n:pro}: ta objektina.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="50fe9aef-e99b-43a2-acad-151dc066753c">
+    <!-- (G) entry_name: QujmeH moQ -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">(pallopelin) pallo</column>
+    <column name="notes_fi">Tämä sana tarkoittaa "palloa" pallomaisen esineen merkityksessä. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="14385916-c803-44ab-ac41-dafad91137dc">
+    <!-- (G) entry_name: QujwI' lIw -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">pelimerkki, nappula</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="8350cd1a-a197-453f-b3a9-4b341dd39f67">
+    <!-- (G) entry_name: Quj 'echlet -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">pelilauta</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="1388aec1-a0f8-4d2b-bd2a-f0d5b45f157a">
+    <!-- (G) entry_name: Qul -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">tutkia, tehdä tutkimusta</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="3ce5329e-0ed4-49a5-9afd-eaa7a88fbd83">
+    <!-- (G) entry_name: Qulpa' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">tutkimuslaboratorio</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="b35cf281-82e3-43bb-96ef-21cc0875873a">
+    <!-- (G) entry_name: Qum -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_fi">viestiä, kommunikoida</column>
+    <column name="notes_fi">Yhdisteiden, kuten {QumpIn:n}, ulkopuolella {Qum:sen:nolink} löytyy vain verbinä. Tämä viittaa siihen, että substantiivi {Qum:n:archaic} oli olemassa jonkin aikaa aiemmin.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="b2d20a36-d3a8-466a-b3b3-caaee0e85ab0">
+    <!-- (G) entry_name: Qum -->
+    <!-- (G) part_of_speech: n:archaic -->
+    <column name="definition_fi">viestintä, viestintätekniikka</column>
+    <column name="notes_fi">{Qum:sen:nolink}: n olemassaolo substantiivina menneisyydessä on todistettu sanoilla kuten {QumpIn:n}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="65f7a929-6362-45ea-8458-d79727a29940">
+    <!-- (G) entry_name: Qum De'wI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">viestintätietokone</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="98b27d50-d5f7-40a1-8829-5cc076c90fad">
+    <!-- (G) entry_name: Qum pat -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">viestintäjärjestelmä</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="ca1b0314-6d4e-4496-ad87-14631bb0836f">
+    <!-- (G) entry_name: Qum SeHlaw -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">viestintäkonsoli</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="8eca0b51-0a21-4f74-bdb9-c606cf1e2a6b">
+    <!-- (G) entry_name: QumpIn -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_fi">viestintäupseeri</column>
+    <column name="notes_fi">Tämän sanan ensimmäinen osa, {Qum:sen:nolink}, löytyy muualla vain verbinä. Tämä viittaa siihen, että substantiivi {Qum:n:archaic} oli olemassa aikaisemmin.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="ca256def-f250-4906-9164-b444230be454">
+    <!-- (G) entry_name: QumwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">kommunikaattori, viestintälaite</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="6ddc0553-0556-48ef-b9ee-f5093cee099c">
+    <!-- (G) entry_name: QumwI'wIj vItu'laHbe'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_fi">En löydä kommunikaattoriani.</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="a9ec61e0-0939-4c0a-96db-2a2f972371f5">
+    <!-- (G) entry_name: Qumran -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">käärö</column>
+    <column name="notes_fi">Tätä sanaa käytetään vieritykseen, jonka oletetaan olevan tärkeä, pyhä tai muinainen (vaikka se ei välttämättä ole kaikkia kolmea). Mikä tahansa {Qumran:n:nolink} on {tetlh:n}, mutta kaikki {tetlh:n:nolink} eivät ole {Qumran:n:nolink}. Kun rullaa käytetään seremoniassa, siihen viitataan tyypillisesti nimellä {Qumran:n:nolink}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="03e2cf0b-e2fc-4ba6-bbbe-3d2edfe4f5c0">
+    <!-- (G) entry_name: Qun -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_fi">jumala, yliluonnollinen olento</column>
+    <column name="notes_fi">Klingonin jumalista tiedetään vähän, paitsi että näyttää siltä, ​​että he toimivat kollektiivisesti, eikä yksikään yksilö eronnut heidän joukostaan. {Qun'a':n:nolink} saattaa olla sopiva käännös monoteistisen uskonnon korkeimmalle jumaluudelle, koska {Qun'a':n:nolink} olisi silti yksi monien joukosta.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="34ea7651-ced8-4100-a262-7e339f2b7a0b">
+    <!-- (G) entry_name: Qung -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_fi">olla pyöristetty, tylsä (ei terävä)</column>
+    <column name="notes_fi">Tämä voi viitata esimerkiksi taulukon kulmaan, joka ei ole terävä kulma. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="2972607b-77b2-4128-a81a-e263e7abff77">
+    <!-- (G) entry_name: Qup -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_fi">olla nuori</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="07966bcd-1314-4724-9270-9ccbf060e189">
+    <!-- (G) entry_name: QuQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">moottori</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="1c35a746-8814-4937-acd7-ec46f88e6c56">
+    <!-- (G) entry_name: Qur -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">rakenne, järjestys, asettelu; (eläimen) anatomia</column>
+    <column name="notes_fi">Tämä ei tarkoita rakennusta ({qach:n}) tai kokoelmaa ihmisiä tai valtioita ({DIvI':n}, {tlham:n:2}), vaan pikemminkin tapaa, jolla asiat sopivat yhteen, tai jonkin suuremman osan järjestelyä. Sitä voidaan käyttää tarkoittamaan "anatomiaa" viitattaessa eläimiin. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="18ef40b9-4d05-4285-8dc6-ff1f4d27fb29">
+    <!-- (G) entry_name: QuS -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">salaliitto</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="0c4ecaea-576a-47cd-8989-32ba5e3c5cc6">
+    <!-- (G) entry_name: QuS -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_fi">vehkeillä, tehdä salaliitto</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="ad75f44c-9120-4547-a1b7-37d2c3015ca3">
+    <!-- (G) entry_name: Qut -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_fi">olla mauton (teosta tms., ei mausta)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="60e01288-7ee1-4b0f-9b79-14356bca8453">
+    <!-- (G) entry_name: Qutlh -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_fi">kannatella, tukea (fyysisesti)</column>
+    <column name="notes_fi">Tämä voi viitata vain jonkin fyysiseen tukemiseen. Sitä ei voida käyttää psykologiseen tai muuhun ei-fyysiseen tukeen. Sanaa {ghaq:v} käytetään rahalliseen tukeen.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="9f9ac1fb-7bec-450c-82c9-8d6c69dbbfee">
+    <!-- (G) entry_name: Quv -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_fi">koordinaatit</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="3699e285-5348-4226-9bf6-0204d8f2a953">
+    <!-- (G) entry_name: QuvlIjDaq yIH tu'be'lu'jaj! -->
+    <!-- (G) part_of_speech: sen:toast -->
+    <column name="definition_fi">Olkoot koordinaattisi vapaita tribbleistä!</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="7ead8c89-654a-4ca6-bb09-ca24a5d2701f">
+    <!-- (G) entry_name: Qu' -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_fi">tehtävä, työtehtävä, komennus, askare</column>
+    <column name="notes_fi">{per yuD:n} päättyy yleensä kohtaan {Qu':n:nolink}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="24abdd01-b947-4966-851a-b5168efd91fe">
+    <!-- (G) entry_name: Qu'Hom -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">asia, askare (pieni tehtävä)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="25656018-8307-48aa-84ee-c688f77f3a2a">
+    <!-- (G) entry_name: Qu' buSHa'chugh SuvwI', batlhHa' vangchugh, qoj matlhHa'chugh, pagh ghaH SuvwI''e'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_fi">Jos soturi ei noudata velvollisuuksiaan, toimii kunniattomasti tai on epälojaali, hän ei ole mitään.</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="c2f4cb58-a2d2-46e6-81f3-a2d12ef660b6">
+    <!-- (G) entry_name: Qu' DataghDI' 'aqtu' mellota' je tIqaw. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_fi">Kun aloitat tehtävän, muista Aktuh ja Melota.</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="849d2729-078c-4a01-8c03-bc49e1c4d09e">
+    <!-- (G) entry_name: Qu' poH -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">työvuoro</column>
+    <column name="notes_fi">Klingon-aluksella on kolme vuoroa:
+▶ {Qu' poH wa'DIch:n:nolink} "työvuoro"
+▶ {Qu' poH cha'DIch:n:nolink} "vapaa-aika"
+▶ {Qu' poH wejDIch:n:nolink} "unenvaihto" [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="e0f4a1fe-ed46-433b-9a81-0abf99d28493">
+    <!-- (G) entry_name: Qu' vu'wI' yaH -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_fi">tehtävänjohdon työpiste</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="e3daa28d-d996-439c-9463-b77f3ffdfadc">
+    <!-- (G) entry_name: Qu'Daj ta'taHvIS Hegh 'e' tul Hoch tlhIngan. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_fi">Jokainen klingon toivoo kuolevansa suorittaessaan velvollisuuksiaan.</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="07020f2f-b7c7-4686-ac01-359e29b48f60">
+    <!-- (G) entry_name: Qu'vatlh -->
+    <!-- (G) part_of_speech: excl -->
+    <column name="definition_fi">eräs kirosana (jota käytetään kun on äärimmäisen vihainen)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+</mixins>

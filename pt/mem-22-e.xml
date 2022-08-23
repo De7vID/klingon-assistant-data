@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixins>
+  <mixin target="9c7b3952-8613-4037-9bc8-fc7c466bdcd9">
+    <!-- (G) entry_name: 'et -->
+    <!-- (G) part_of_speech: n:1 -->
+    <column name="definition_pt">a vogal {e:sen:nolink}</column>
+    <column name="notes_pt">Isso se refere ao som, e não a qualquer letra ou glifo. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="dcf4395b-b72e-4db9-9729-91a047e91153">
+    <!-- (G) entry_name: 'eb -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_pt">oportunidade, chance, abertura</column>
+    <column name="notes_pt">Diz-se que uma oportunidade foi capturada ({jon:v}), e se alguém perder uma oportunidade, diz-se que escapou ({nargh:v:2}) .[3] "matar o tempo" é {'ebmey jonHa':sen}.[5]
+
+Em um bar Klingon, o barman ({chom:n}) grita {'eb Qav:n} para "última chamada" .[4] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="9f7b9b63-af80-41ae-92a4-59dcae1690ef">
+    <!-- (G) entry_name: 'eb Qav -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">última chamada</column>
+    <column name="notes_pt">Isso é gritado pelo barman ({chom:n}) em um bar Klingon ({tach:n}) antes que as bebidas alcoólicas deixem de ser servidas. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5417f2f8-2a79-49b4-be71-4bdd9f723890">
+    <!-- (G) entry_name: 'ebmey jonHa' -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_pt">matar o tempo</column>
+    <column name="notes_pt">Isso significa literalmente "liberar (ou capturar) oportunidades". [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="156475dd-9467-4677-8722-3a7d59863b47">
+    <!-- (G) entry_name: 'ebHIv -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">aparelho para destilar {HIq:n}</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="47433990-1f49-4858-ae75-c2240b15cf1f">
+    <!-- (G) entry_name: 'ebHIv pa' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">destilaria (sala)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="8c09311c-372e-4ef7-bbe5-4a96b036e001">
+    <!-- (G) entry_name: 'ebHIv qach -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">destilaria (edifício)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="941061d0-9728-41a7-9660-4b088690e31d">
+    <!-- (G) entry_name: 'ebraH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">clímax (sexual)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6e11c660-4ee2-4bd4-8406-e0fae5670c49">
+    <!-- (G) entry_name: 'ech -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_pt">brigadeiro</column>
+    <column name="notes_pt">Este é o 4º ranking do {yaS:n}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="256facf3-1b32-4d78-b151-15cead8b7a9f">
+    <!-- (G) entry_name: 'echlet -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">tabuleiro</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="9796b4d7-53f0-40a4-b864-04233a21ea76">
+    <!-- (G) entry_name: 'echlet Hab -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">touchpad</column>
+    <column name="notes_pt">Refere-se a um dispositivo de entrada do computador. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="40001400-7a5b-4625-9cd7-19849053378f">
+    <!-- (G) entry_name: 'echletHom -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">cartão</column>
+    <column name="notes_pt">Em {Klingon Monopoly:src}, {'echletHom:n:nolink} é usado para os vários tipos de cartas de jogo. Em {TNK:src}, {QIn 'echletHom:n} é usado para significar "cartão postal".
+
+Os naipes em um baralho de cartas são chamados de {Degh:n:1}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="c9376876-2efa-476d-938b-d64946bad327">
+    <!-- (G) entry_name: 'echletHom vey -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">deck de cartas</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="b614a47f-be4d-4668-969d-dee3dc6359e4">
+    <!-- (G) entry_name: 'eD -->
+    <!-- (G) part_of_speech: v:1,i_c -->
+    <column name="definition_pt">rastejar</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6807a842-acaf-4c7f-866e-3822b32f75f9">
+    <!-- (G) entry_name: 'eDjen -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">uma pessoa arrogante ou altiva</column>
+    <column name="notes_pt">Refere-se a uma pessoa que é {nguq:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="f81a6930-145f-4ef5-a8b4-0055bd9f1c0c">
+    <!-- (G) entry_name: 'eDSeHcha -->
+    <!-- (G) part_of_speech: n:inhpl -->
+    <column name="definition_pt">propulsores de decolagem/pouso</column>
+    <column name="notes_pt">Esta palavra é plural. Sua forma singular é desconhecida. Parece consistir nos elementos {SeH:n:archaic,hyp} e {cha:n} (ou um seu homofone) e um elemento que é {'eD:v:1} ou um homófono cujo significado é desconhecido. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="85266e62-bf8b-4535-9199-9de8875a4595">
+    <!-- (G) entry_name: 'egh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">terceiro tom da escala musical não-atônica</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="cf6d3192-a7de-4a24-adbe-67b9a0e5c13d">
+    <!-- (G) entry_name: 'eH -->
+    <!-- (G) part_of_speech: excl:klcp1 -->
+    <column name="definition_pt">Atenção! Pronto!</column>
+    <column name="notes_pt">Esta expressão indica que o falante está prestes a dar um comando. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="38df21bb-dd49-4839-9399-56b33ae14843">
+    <!-- (G) entry_name: 'ej -->
+    <!-- (G) part_of_speech: conj:klcp1 -->
+    <column name="definition_pt">e (juntando sentenças)</column>
+    <column name="notes_pt">A conjunção {'ej:conj} não tem quaisquer implicações temporais ou sequenciais.[2] Para expressar esses significados, use {ghIq:adv} ou {ngugh:adv}.
+
+Ao conectar várias frases, apenas a conjunção final é necessária. Veja o exemplo em {qoj:conj}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="1b3fb8c0-14ec-403a-ad6d-ae0eaed9a0db">
+    <!-- (G) entry_name: 'ej De' vIchel -->
+    <!-- (G) part_of_speech: adv:deriv -->
+    <column name="definition_pt">a propósito, entre parênteses</column>
+    <column name="notes_pt">Isso vem no início de uma frase. Este é o formulário completo. Na conversa cotidiana, {'ej:conj} e / ou {De':n} (e até {vI-:v:pref}) são frequentemente omitidos. Os gramáticos de Klingon discutem se o {De'chel:adv} resultante deve ser considerado um adverbial por si só.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="99fb306b-262e-4b50-9a79-74bc184c17f4">
+    <!-- (G) entry_name: 'ejDo' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">nave estelar</column>
+    <column name="notes_pt">É provável que {Do':n:archaic,hyp} seja uma palavra arcaica para o moderno {Duj:n:1}.[1, p.20] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="3f1ebe85-95c1-4e3b-8d44-65b8d352d086">
+    <!-- (G) entry_name: 'ejvoH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">listra, faixa</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="37be5a84-e6d4-4978-b192-7724b2731a97">
+    <!-- (G) entry_name: 'ejtlhal -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">tumor</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="a50b006f-5746-4dfe-b4be-c260f963772a">
+    <!-- (G) entry_name: 'ejyaH -->
+    <!-- (G) part_of_speech: n:num -->
+    <column name="definition_pt">infinito</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="3fe3ff70-37f9-4ce7-9e50-cc1eeb3573eb">
+    <!-- (G) entry_name: 'ejyo' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">Frota Estelar</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="87988506-e828-4d8c-9940-4f070b94c556">
+    <!-- (G) entry_name: 'ejyo' ra'ghomquv -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">Comando da Frota Estelar</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6f95655b-d467-4fc3-9b4b-fea16c929e7f">
+    <!-- (G) entry_name: 'ejyo'SeH yaHnIv -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">Comando de Operações da Frota Estelar</column>
+    <column name="notes_pt">Isso é o que o equivalente da Starfleet ao {yo'SeH yaHnIv:n} seria chamado teoricamente. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="d0fd57aa-8241-43df-b435-e7adb790b42a">
+    <!-- (G) entry_name: 'ejyo'waw' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">Base estelar</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="9a7a7e04-98c4-4043-97a7-ec869e6a65de">
+    <!-- (G) entry_name: 'ej HumtaH 'ej DechtaH 'Iw -->
+    <!-- (G) part_of_speech: sen:lyr -->
+    <column name="definition_pt">E o sangue estava no tornozelo (canção para beber)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6f013dfa-4e24-46c8-a590-bb52cd4aadf0">
+    <!-- (G) entry_name: 'el -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_pt">entrar</column>
+    <column name="notes_pt">O objeto é a coisa que está sendo inserida. {-Daq:n:suff} é desnecessário.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="513425b9-75ad-47bf-8d27-ff012df6b8f5">
+    <!-- (G) entry_name: 'elaS -->
+    <!-- (G) part_of_speech: n:place,fic -->
+    <column name="definition_pt">Elas</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="39d8897e-ce12-4da6-8f01-75b6da9aca4c">
+    <!-- (G) entry_name: 'elmeH chaw' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">bilhete, passe de entrada</column>
+    <column name="notes_pt">Observe que este é especificamente um ingresso para entrada. Para outros tipos de tickets, considere outro verbo no lugar de {'el:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="97e5f1aa-7eec-4eb7-898f-82f5fd093c15">
+    <!-- (G) entry_name: 'elI'jaH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">visitante inesperado</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="3e9635fd-5513-410e-bd5a-7856b0d2eaea">
+    <!-- (G) entry_name: 'elpI' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">servir bandeja</column>
+    <column name="notes_pt">Isso geralmente é feito de metal. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="e1cc9778-83eb-4292-a8fe-f2ffce16c754">
+    <!-- (G) entry_name: 'em -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">atrás, área atrás</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="29fee9a2-2995-4c03-ab41-36db92239285">
+    <!-- (G) entry_name: 'em -->
+    <!-- (G) part_of_speech: v:t -->
+    <column name="definition_pt">vomitar</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="cdbcaab4-94c0-499b-82dc-d3f8662c3ea0">
+    <!-- (G) entry_name: 'emrIgh -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_pt">antepassado</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="8ea7abfb-0d90-4c8a-b04a-a94ff7812060">
+    <!-- (G) entry_name: 'emvI' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">pino (reto)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6d8c7949-9ab1-4e97-99a8-296c1e5c97e8">
+    <!-- (G) entry_name: 'emvI' ngaQ -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">pino de segurança</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="05e0d1f0-27b3-4ad3-ad45-064e4f4f3697">
+    <!-- (G) entry_name: 'en -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">não ser algo, não-</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="83e6e538-0095-477d-99e6-55927d9eeeac">
+    <!-- (G) entry_name: 'enDeq -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_pt">bexiga</column>
+    <column name="notes_pt">Isso se refere à anatomia, mas pode ser usado metaforicamente em outros contextos.
+
+Leva o sufixo {-Du':n} mesmo quando usado metaforicamente.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="c933cb40-3f46-4952-be7d-f338ba45fbb3">
+    <!-- (G) entry_name: 'enno -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">lente</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6f5c6fd0-131f-4c7e-abb9-0fe571c2181c">
+    <!-- (G) entry_name: 'enteD -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">medicamento</column>
+    <column name="notes_pt">A maioria do {'enteDmey:n@@'enteD:n, -mey:n} é usada ritualisticamente, mas o uso recreativo não é inédito (como no álcool). Esta palavra não abrange medicamentos, que são {Hergh:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5d407683-2ca0-4d16-bd73-9773fa5379ba">
+    <!-- (G) entry_name: 'entepray' -->
+    <!-- (G) part_of_speech: n:name,fic -->
+    <column name="definition_pt">Empreendimento</column>
+    <column name="notes_pt">Este é o nome de uma série de naves estelares da Federação. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="9600da2e-2e72-46c5-b16f-7c063f9bb36d">
+    <!-- (G) entry_name: 'eng -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_pt">nuvem</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="35b270e7-ce37-4976-8279-80890c1c6069">
+    <!-- (G) entry_name: 'ep -->
+    <!-- (G) part_of_speech: v:1,t_c -->
+    <column name="definition_pt">consumir sopa</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="dd599ab0-e13b-4e12-a89d-c9677d2021ad">
+    <!-- (G) entry_name: 'ep -->
+    <!-- (G) part_of_speech: v:2,t_c,slang -->
+    <column name="definition_pt">beijo em estilo humano</column>
+    <column name="notes_pt">Esta é uma expressão gíria não padrão para beijos no estilo humano. Beijar ao estilo Klingon seria {chop:v}.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="bf5add29-6866-4f3f-95c9-82ae4c363077">
+    <!-- (G) entry_name: 'epIn -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">pêssego</column>
+    <column name="notes_pt">Uma fruta klingon semelhante a um pêssego, ameixa ou damasco. Quando for necessário esclarecimento, para os frutos da Terra, anteceda o {tera':n}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="302412b0-381a-409c-a252-d886bafcb6ea">
+    <!-- (G) entry_name: 'eQ -->
+    <!-- (G) part_of_speech: adv -->
+    <column name="definition_pt">agora mesmo, apenas alguns segundos ou minutos atrás, um momento atrás</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="4a748398-d06d-43af-a054-d50ac47d972b">
+    <!-- (G) entry_name: 'eQway -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_pt">umbigo</column>
+    <column name="notes_pt">Esta palavra não deve ser confundida com {'eQway':n}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="b5ba933a-f8b2-40db-9278-1d14545b3e86">
+    <!-- (G) entry_name: 'eQway' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">mouse (dispositivo de computador)</column>
+    <column name="notes_pt">Isso se refere a um dispositivo de entrada do computador. Normalmente tem dois botões (chamados {leQ:n}): um {poS leQ:n@@poS:n, leQ:n} e um {nIH leQ:n@@nIH:n, leQ:n}.
+
+Esta palavra não deve ser confundida com {'eQway:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="1ffb39cc-dbc9-4282-afe6-0b5ad6fdc58e">
+    <!-- (G) entry_name: 'eQway' 'echlet -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">tapete de mouse</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="f6859655-47b7-41ee-b1d5-9ffcaf325382">
+    <!-- (G) entry_name: 'eq -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser cedo</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7240ed17-3516-44fa-b8e9-ecae59fbe2d0">
+    <!-- (G) entry_name: 'er -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_pt">tipo de animal</column>
+    <column name="notes_pt">Este animal é mantido como animal de estimação. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="2a7f2a8d-77ff-4abf-96dd-49bac36ba533">
+    <!-- (G) entry_name: 'ergh -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">alucinar</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7fec2558-2a6e-4ddf-94a6-a3ebb09ec80b">
+    <!-- (G) entry_name: 'erwI'Daq -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">telepatia</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7fcea22b-4b7b-4ec9-aa0d-0dde9f89837b">
+    <!-- (G) entry_name: 'er'In -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">fim (de vara, corda, etc.), outro fim de {megh'an:n}</column>
+    <column name="notes_pt">Isso pode se referir a qualquer extremidade da corda, stick ou qualquer outra coisa, mas uma vez que você escolhe arbitrariamente um final para chamar {'er'In:n:nolink}, o outro lado é chamado {megh'an:n:nolink}. Antes de fazer essa referência inicial, qualquer extremidade pode ser chamada {'er'In:n:nolink} ou {megh'an:n:nolink}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="f8840e2c-0357-4085-9381-99e2968e25aa">
+    <!-- (G) entry_name: 'eS -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">abaixo</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5915612c-5ef0-486d-a8e4-5c43de6535f5">
+    <!-- (G) entry_name: 'eSqa' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">roupa religiosa, o roupão usado por um juiz</column>
+    <column name="notes_pt">Esta é uma palavra antiga que se refere a roupas especializadas ou rituais (embora não seja uniforme). [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="da623e70-ee06-491c-b809-9dd78601218a">
+    <!-- (G) entry_name: 'eSreH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">orvalho</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="e1f7391e-02d6-4f90-9fca-fd438a7c8337">
+    <!-- (G) entry_name: 'et -->
+    <!-- (G) part_of_speech: v:i_c -->
+    <column name="definition_pt">salto, rebote, ricochete</column>
+    <column name="notes_pt">A coisa da qual o assunto ricocheteia é marcada com {-vo':n}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="ce5102ff-d74b-4439-937d-49c0a93d7cf0">
+    <!-- (G) entry_name: 'et -->
+    <!-- (G) part_of_speech: n:2 -->
+    <column name="definition_pt">à frente, à proa</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5533096d-b028-414e-9093-f6ebf17dcc6e">
+    <!-- (G) entry_name: 'etlh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">espada, lâmina</column>
+    <column name="notes_pt">Isso pode se referir à lâmina de uma faca ou lança. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6f2fee11-5e81-41d4-99b8-7aee57768f90">
+    <!-- (G) entry_name: 'etlh QorghHa'lu'chugh ragh 'etlh nIvqu' 'ej jejHa'choH. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_pt">Até a melhor lâmina enferruja e fica sem brilho, a menos que seja cuidada.</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="4b3e6de8-04ea-43ab-a5bc-a673da19f089">
+    <!-- (G) entry_name: 'ev -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">área para noroeste, área em direção ao noroeste</column>
+    <column name="notes_pt">Isso é aproximadamente 320 graus em uma bússola terráquea, se o norte for 0 e os graus forem contados no sentido horário. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="91edc8cb-7300-4494-87aa-0c3d9b0ae63c">
+    <!-- (G) entry_name: 'ev tIng -->
+    <!-- (G) part_of_speech: n:alt -->
+    <column name="definition_pt">{tIng 'ev:n}</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="60171dcf-a5d0-4c17-af8c-c9a278699e34">
+    <!-- (G) entry_name: 'ev -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_pt">aplaudir</column>
+    <column name="notes_pt">Isso se aplica a tudo o que os klingons fazem para aplaudir ou mostrar aprovação / apreciação. A maneira mais comum de se referir às palmas que os humanos fazem é pela frase {toch yo:sen@@toch:n, yo:v} "palma (s) de tapa". [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="ac594371-28d8-4197-9fdf-9b9c28209248">
+    <!-- (G) entry_name: 'evnagh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">subespaço</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="f107c9a9-f62f-4606-8f51-0b0102b9d431">
+    <!-- (G) entry_name: 'evnagh Se' HablI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">rádio subespacial</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="d89bbde1-f711-4770-a19e-15907138126e">
+    <!-- (G) entry_name: 'evta' -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_pt">animal semelhante a um tritão ou salamandra</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="65f54e9f-f632-4b3e-acdd-cbc676befc8e">
+    <!-- (G) entry_name: 'evtlhev -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">base (química)</column>
+    <column name="notes_pt">Isso se refere a uma classificação de substâncias em química. Não é o mesmo que "álcali", mas inclui álcalis. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="e3de317d-1aaa-4b66-bd0d-75e297b14867">
+    <!-- (G) entry_name: 'ey -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser bom, ser delicioso, ser gostoso, ser harmonioso</column>
+    <column name="notes_pt">Esta palavra é aplicada à comida e música. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="0dcce5f8-d0ba-449f-88d2-4d60a6e89920">
+    <!-- (G) entry_name: 'eyHa' -->
+    <!-- (G) part_of_speech: v:is,deriv -->
+    <column name="definition_pt">ser indesejável, ser não delicioso</column>
+    <column name="notes_pt">Isso é usado para alimentos que foram mal preparados.[1, p.84] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="b724a767-b9ef-4649-8f43-229438e41fef">
+    <!-- (G) entry_name: 'e' -->
+    <!-- (G) part_of_speech: n:pro -->
+    <column name="definition_pt">aquele, que (tópico anterior)</column>
+    <column name="notes_pt">Este pronome é usado como o objeto da segunda frase em uma construção frase-como-objeto. Refere-se à frase anterior como um todo. Em tal construção, a segunda frase nunca assume um sufixo de aspecto.
+
+Normalmente, {net:n:pro} é usado quando o sujeito do verbo é indefinido (ou seja, {X net Y:sen:nolink} é usado em vez de {X 'e' Y-lu':sen:nolink}). No entanto, nem sempre é esse o caso. Veja {net:n:pro} para exemplos.
+
+Não confunda este pronome com o sufixo {-'e':n:suff}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5ac0312e-7f03-42f9-ad48-409feae0903a">
+    <!-- (G) entry_name: 'e' qa' -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_pt">ao invés de</column>
+    <column name="notes_pt">Quando usado em sintagmas nominais, o {'e':n:pro} não é necessário gramaticalmente, mas devido ao uso comum da construção {'e' qa':sen:nolink}, às vezes é ouvido de qualquer maneira. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="8a919661-ed8e-4e90-a29c-dd16d0afd0c1">
+    <!-- (G) entry_name: 'e'mam -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_pt">tia (irmã do pai)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="04b9111b-c171-450b-8658-37e6575b11a3">
+    <!-- (G) entry_name: 'e'mamnal -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_pt">tia (esposa do irmão do pai)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="9a57ac4f-bcf7-48cc-bc99-fda7e2156556">
+    <!-- (G) entry_name: 'e'nal -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_pt">alguém que se casou com a família</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+</mixins>

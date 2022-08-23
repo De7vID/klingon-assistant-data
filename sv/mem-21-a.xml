@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixins>
+  <mixin target="9eba5693-ebeb-4ddf-a7a7-31478d69d3cb">
+    <!-- (G) entry_name: 'at -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">klingonskans {a:sen:nolink}-ljud</column>
+    <column name="notes_sv">Namnet på ett ljud, inte en skriven bokstav eller glyf.</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="b7899da5-afca-4355-a79b-3e8deaf7012d">
+    <!-- (G) entry_name: 'a -->
+    <!-- (G) part_of_speech: conj:alt -->
+    <column name="definition_sv">{'ach:conj}</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="0394df9c-33a1-448a-a473-0aa67353a1d4">
+    <!-- (G) entry_name: 'ab -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">ha en längd/höjd av</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="df2c66e2-37ac-45eb-825e-3b1d2aa3ee79">
+    <!-- (G) entry_name: 'ach -->
+    <!-- (G) part_of_speech: conj -->
+    <column name="definition_sv">men, ändå, dock, trots allt, emellertid</column>
+    <column name="notes_sv">Ibland förkortas detta till {'a:conj:nolink}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d5f9a1de-b56b-4c3f-894a-7ce770b55e33">
+    <!-- (G) entry_name: 'achghej -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">tomhet [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="f7094315-af6b-4234-8bd2-6bba7d9a4c2d">
+    <!-- (G) entry_name: 'achler -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_sv">nacke, scruff, nacken bak [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="abe0a792-fec0-4c92-85a9-11c8233ca086">
+    <!-- (G) entry_name: 'aD -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_sv">ven, blodåder</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7c883426-546e-4872-87b4-582100f560b2">
+    <!-- (G) entry_name: 'aDHom -->
+    <!-- (G) part_of_speech: n:body,deriv -->
+    <column name="definition_sv">kapillär [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ad9dd023-95f0-4fca-ab9c-f0e22477acf8">
+    <!-- (G) entry_name: 'aD -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">ha en längd av, mäta</column>
+    <column name="notes_sv">Både {'aD:v:nolink} och {'ab:v} betyder "har en längd på", men de används något annorlunda. För platta objekt som bordsskivor används {'aD:v:nolink} för en dimension medan {juch:v} används för den andra. För långa föremål och för höjd används istället {'ab:v:nolink}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="cf9276de-1e65-460a-ab48-b0051a3f7f0f">
+    <!-- (G) entry_name: 'agh -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">visa, demonstrera, förevisa, visa upp</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="093e0b5c-59c4-48ad-b4aa-fa89e4378273">
+    <!-- (G) entry_name: 'aH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">grejor, tillbehör, attiraljer</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="b0f52729-5ee9-4de8-94a9-752ec1a14ddd">
+    <!-- (G) entry_name: 'aHDuH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">prototyp [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="f17091ff-ee30-44ad-ac11-965427ff1c96">
+    <!-- (G) entry_name: 'aHra' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">sele [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="e18a1654-34c6-4da4-a374-f94cb4d98690">
+    <!-- (G) entry_name: 'aj -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_sv">amiral (rang)</column>
+    <column name="notes_sv">Detta är den första rankingen av {yaS:n}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7a954697-5d62-4a2e-9afc-2cda99c3c1dd">
+    <!-- (G) entry_name: 'al -->
+    <!-- (G) part_of_speech: v:1,i -->
+    <column name="definition_sv">flyta (in / på luft) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ae71e965-66e0-4908-8ec9-cdc8949f564a">
+    <!-- (G) entry_name: 'al -->
+    <!-- (G) part_of_speech: v:2,is -->
+    <column name="definition_sv">vara slumpmässig (om siffra)</column>
+    <column name="notes_sv">Det här är bara verbet {'al:v:1} använt på siffror.</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="c6c472d2-dbbb-4176-ad7d-f89c6ec205ba">
+    <!-- (G) entry_name: 'alghuQ -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_sv">jävla, oäkta barn [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="b42c084b-425b-4de2-a870-0c182f8185fc">
+    <!-- (G) entry_name: 'alnIl -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">bältesspänne [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="29d1476e-7648-41d9-a4de-a80ca29ad57e">
+    <!-- (G) entry_name: 'alnum -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_sv">fräkne [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="fe520b5b-99c7-415e-a588-9e7c954fc581">
+    <!-- (G) entry_name: 'alngegh -->
+    <!-- (G) part_of_speech: n:weap -->
+    <column name="definition_sv">yxa med med spets i änden</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="639b679f-c815-4afd-9510-620868baf4f2">
+    <!-- (G) entry_name: 'alwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">fallskärm [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="f713c55d-7a8f-4716-9f0f-f1fa47cca5ce">
+    <!-- (G) entry_name: 'al'on -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">glas (material) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5f05d435-2898-43c9-a19f-8fb90cf40450">
+    <!-- (G) entry_name: 'ambay -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">ö [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="3b6722d3-431a-4158-8ac4-5f7a4e4bd247">
+    <!-- (G) entry_name: 'ampaS -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">akademi, skola</column>
+    <column name="notes_sv">Detta är en specialskola.[2] (För {DuSaQ:n} för det mest allmänna ordet för en plats för lärande). [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6da656fe-3f55-4955-910b-6868b1fe7109">
+    <!-- (G) entry_name: 'amrI' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">balkong, veranda</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="cf8aea7f-0bc8-45f1-bc95-abe3d91c042e">
+    <!-- (G) entry_name: 'an -->
+    <!-- (G) part_of_speech: v:1,i_c -->
+    <column name="definition_sv">avfall [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta kan användas när någon offrar styrkor för ett visst mål eller bara slösar bort sina resurser.[1]
+
+De flesta lexikografer från Klingon betraktar detta och {'an:v:2} som två homofona ord, men historiskt sett betyder "vara ett slöseri" betydelse som utvecklats utifrån "bli förstenad" betydelse, kanske för att något förlorar den ursprungliga användningen som det kan ha haft om det förvandlas till sten .[3] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="875986bf-2fb1-4dd0-8c6d-cefe0b019617">
+    <!-- (G) entry_name: 'anmoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_sv">offra [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="1b0a3dea-8f7d-4111-982d-4e9b43a357fe">
+    <!-- (G) entry_name: 'an -->
+    <!-- (G) part_of_speech: v:2,i_c -->
+    <column name="definition_sv">bli förstenad [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta används för att prata om fossil. De flesta lexikografer från Klingon anser att detta och {'an:v:1} är två homofona ord, men historiskt sett betyder "vara ett slöseri" betydelse utvecklad av "förstenad" betydelse, kanske för att något förlorar någon ursprunglig användning det kan ha haft om det vändes till sten .
+
+När den tillämpas på människor kan det bara betyda bokstavlig vändning till sten. (Det betyder inte "riktigt rädd" som "förstenad" gör på engelska.) [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="adcb473f-84ab-4dea-b3f6-d619b0fe2ddb">
+    <!-- (G) entry_name: 'anDor -->
+    <!-- (G) part_of_speech: n:place,fic -->
+    <column name="definition_sv">Andor (planet)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="69b1d8f7-33c4-4207-865f-2a34d816d013">
+    <!-- (G) entry_name: 'anDorya' -->
+    <!-- (G) part_of_speech: n:place,alt,fic -->
+    <column name="definition_sv">{'anDor:n}</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="4c51b263-3268-42bc-ab15-8d57548f7404">
+    <!-- (G) entry_name: 'anDorngan -->
+    <!-- (G) part_of_speech: n:being,alt,deriv,fic -->
+    <column name="definition_sv">{'anDorya'ngan:n}</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="41ce458b-4239-42b3-8b2d-1e5e62b5abef">
+    <!-- (G) entry_name: 'anDorya'ngan -->
+    <!-- (G) part_of_speech: n:being,deriv,fic -->
+    <column name="definition_sv">Andorian [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="02ac5656-df31-4a16-ac7d-f99abf29f436">
+    <!-- (G) entry_name: 'anISyum -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">anicium [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är en kemisk förening som reagerar för att skapa en explosion när den kombineras med {yuryum:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9994a17d-655b-4095-b35c-57072996b717">
+    <!-- (G) entry_name: 'antonI' -->
+    <!-- (G) part_of_speech: n:name,fic -->
+    <column name="definition_sv">Antonius</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="bda6b966-a3d9-483e-b21c-84efd2cccccf">
+    <!-- (G) entry_name: 'anyan 'oQqar -->
+    <!-- (G) part_of_speech: n:food,terran -->
+    <column name="definition_sv">lök</column>
+    <column name="notes_sv">Det här är vad Klingons skulle kalla Terran-grönsaken. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="0c0a7bec-f730-4982-a331-23a690ecdf47">
+    <!-- (G) entry_name: 'an'or -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">fossil [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Samma ord används för fossil av växter, ben osv. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="76a61bc6-79d6-4e68-918a-a731b0235a14">
+    <!-- (G) entry_name: 'an'orQeD -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">paleontologi [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9fc31fd2-fd54-447a-b1be-31eb82dc0dea">
+    <!-- (G) entry_name: 'an'ortej -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">paleontolog [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="4a52fec1-c4f0-4c63-8c24-e77728d2a922">
+    <!-- (G) entry_name: 'ang -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_sv">visa, exponera, röja, avslöja</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="bdf16f9e-9bb0-4ca1-8b6d-38967b92252b">
+    <!-- (G) entry_name: 'ang'eghQo' quv Hutlhbogh jagh neH ghobtaHvIS ghaH. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_sv">Endast en fiende utan ära vägrar att visa sig i strid. [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="86fcd946-3cac-4b8f-87ca-1d6cfccadd84">
+    <!-- (G) entry_name: 'angweD -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">museum [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="f1cb99fc-9ea0-427d-bd8a-7cfd6c989a51">
+    <!-- (G) entry_name: 'angwIl -->
+    <!-- (G) part_of_speech: n:inhps,anim -->
+    <column name="definition_sv">Kos'Karii (singel) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6b8d7de7-14d4-43c2-a615-3f41c0dd910d">
+    <!-- (G) entry_name: 'ap -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">dövas [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="2f7b8624-79ba-43b2-9c60-a00f30bfddf1">
+    <!-- (G) entry_name: 'apmoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_sv">buckla [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="05ab0990-f04f-45cf-9693-2648885001ea">
+    <!-- (G) entry_name: 'ap -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">avgifter, vägtull [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6e0e87c9-3efc-42e0-bb09-fb679ae948bd">
+    <!-- (G) entry_name: 'aplom -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">pellet [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="b2e00d64-7946-47f2-9cf5-0e5ead394887">
+    <!-- (G) entry_name: 'aplom chuch -->
+    <!-- (G) part_of_speech: n:alt -->
+    <column name="definition_sv">{chuch 'aplom:n}</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="c0539099-81f6-4d80-9757-dbdf33a0b10a">
+    <!-- (G) entry_name: 'aplo' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">fodral, ask, behållare, låda</column>
+    <column name="notes_sv">Detta är den allmänna termen för en liten behållare.[3] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="4a130cc0-9988-4698-b277-ae87b8cf7bf5">
+    <!-- (G) entry_name: 'apraQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">kalcium [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är det metalliska kemiska elementet med symbolen Ca och atomnummer 20. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="e8cbb707-3c83-4502-8132-cb5abe4407b5">
+    <!-- (G) entry_name: 'apuStoQ -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_sv">en hökliknande fågel [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är en viss typ av {toQ:n} som flyger särskilt snabbt. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="84607542-0b29-44df-abb7-854882da1231">
+    <!-- (G) entry_name: 'aq -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">förutsäga, prognosticera [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5f4ba569-f765-4ffb-98ab-74f1bc66135d">
+    <!-- (G) entry_name: 'aqleH -->
+    <!-- (G) part_of_speech: n:fic,weap -->
+    <column name="definition_sv">ett slags vapen (hälften yxa, hälften bat'leth)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5fec22d7-406a-4d37-8b02-8ee7b2effc31">
+    <!-- (G) entry_name: 'aqnaw -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">ett slags kniv (allmän användning)</column>
+    <column name="notes_sv">Detta är en kniv med allmänna ändamål som verkar kunna klippa igenom vad som helst. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ede34256-6cb1-459f-acd1-024fb695f469">
+    <!-- (G) entry_name: 'aqroS -->
+    <!-- (G) part_of_speech: n:1 -->
+    <column name="definition_sv">överdel (under- eller insidan av överdelen)</column>
+    <column name="notes_sv">Det andra ansiktet på ett objekts {'aqroS:n:1,nolink} är dess {yor:n}.[1]
+
+Detta ord kan användas för att hänvisa till ett tak, men termerna {pa' beb:n} och {rav'eq:n} (som beror på om det finns några golv ovanför) är vanligare.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="2ec23a06-0551-4b0b-85fe-33b0d1f58060">
+    <!-- (G) entry_name: 'aqroS -->
+    <!-- (G) part_of_speech: n:2 -->
+    <column name="definition_sv">maximum</column>
+    <column name="notes_sv">Detta ord används för att ange en gräns eller begränsning.
+
+Överväg i andra sammanhang att använda verbetsuffix {-qu':v}. Till exempel: {nom yIghoSqu'!:sen} [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="de108aaa-8536-40b4-b418-3038552f0b5c">
+    <!-- (G) entry_name: 'aqroS qughDo -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">maximal fartshastighet [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="cb539b1e-2b28-45be-95be-aad0cdf9187e">
+    <!-- (G) entry_name: 'aqroS ... -->
+    <!-- (G) part_of_speech: sen:alt,noanki,nodict -->
+    <column name="definition_sv">{rav ... 'aqroS ...:sen}</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="58a6eb62-09fc-4d1d-8f8b-0d055f0d7dae">
+    <!-- (G) entry_name: 'aqtu' -->
+    <!-- (G) part_of_speech: n:name,fic -->
+    <column name="definition_sv">Aktuh</column>
+    <column name="notes_sv">En roll i en känd klingonsk opera.</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="68bd7b23-05a2-41ac-94f5-bd6dc77b08f3">
+    <!-- (G) entry_name: 'aquta' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">kalebass, squash, pumpa [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta avser släp- eller klättringsanläggningen själv. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="40439ae6-b188-4ab2-97fc-de7d74829901">
+    <!-- (G) entry_name: 'aQlo' -->
+    <!-- (G) part_of_speech: n:body,reg -->
+    <column name="definition_sv">panna</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="068b9c85-883b-4050-9174-ece12f9de7b9">
+    <!-- (G) entry_name: 'aQvoH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">agera att titta över en fallen krigare kropp [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är en gammal tradition där kamraterna till en krigare som hade dött i striden stannade med kroppen för att hålla undan rovdjur, vilket gjorde det möjligt för andan ({qa':n}) att lämna kroppen när den var redo för resan till Sto-Vo-Kor ( {Suto'vo'qor:n}). [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="cf71d16d-b880-4829-a932-ce7db2aa8e7b">
+    <!-- (G) entry_name: 'ar -->
+    <!-- (G) part_of_speech: ques:klcp1 -->
+    <column name="definition_sv">hur många?, hur mycket?</column>
+    <column name="notes_sv">Detta frågeford följer det substantiv som det hänvisar till, som aldrig har ett pluralsuffix.[1]
+
+Grammatiskt används ett flertalsprefix om det ifrågasatta substantivet kan vara singular eller plural och översättningen är "hur många?" Ett singulärt prefix används om det ifrågasatta substantivet är något som inte kan räknas och översättningen är "hur mycket?" [2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="b05896b7-4b87-452d-9c03-29477351b99d">
+    <!-- (G) entry_name: 'arDeH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">murgrönaliknande växt [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="8028d8c0-9f2a-4678-9453-73181e9b6310">
+    <!-- (G) entry_name: 'argh -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_sv">förvärra</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a13d3826-8dae-4adb-87e4-c39f0f9261e0">
+    <!-- (G) entry_name: 'arlogh -->
+    <!-- (G) part_of_speech: ques:deriv -->
+    <column name="definition_sv">hur många gånger?</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="629ed1dc-6ffa-4f3c-a8aa-6b162c56e373">
+    <!-- (G) entry_name: 'arlogh Qoylu'pu'? -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_sv">Vad är klockan? [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="2fbab581-b6bc-4606-9a29-2b52d6ca9cbc">
+    <!-- (G) entry_name: 'at -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">ärva [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta hänvisar till arv i den meningen att om en far dör, arver hans son sina ägodelar. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="23f40216-7be4-4d7f-b3a4-20ef44c13c63">
+    <!-- (G) entry_name: 'atray -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">belägring [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="972999cf-e93d-4640-94ad-1723bb789507">
+    <!-- (G) entry_name: 'atrom -->
+    <!-- (G) part_of_speech: n:name,fic -->
+    <column name="definition_sv">A'trom</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="272cc4a3-1a5b-422c-ae19-7d89f91713d7">
+    <!-- (G) entry_name: 'atlhqam -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">ett slags svamp</column>
+    <column name="notes_sv">Detta finns vanligtvis på fötter på ett slags Klingon-djur eller på Klingon-träd. I icke-vetenskapliga vardagliga tal verkar detta fungera som en allmän term för "svamp".[2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a98ef23f-5454-482e-8003-2cb5830ec57e">
+    <!-- (G) entry_name: 'atlhqam tun -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">en typ av mögel [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta betyder bokstavligen "mjuk svamp". [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="4191605c-4cf1-45d7-a24b-348ea0d28f70">
+    <!-- (G) entry_name: 'av -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_sv">vakta</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="041e025c-7c1b-4221-8627-b91c3e240558">
+    <!-- (G) entry_name: 'avwI' -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_sv">vakt</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="2503376e-53a0-48d4-b831-7a46d456f6f6">
+    <!-- (G) entry_name: 'avwI' nejDI' narghta'bogh qama' reH 'avwI' Sambej. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_sv">När en flyktig fångare letar efter en vakt finner han alltid en. [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d334a65a-740e-4f59-a3ae-395cd006bdd5">
+    <!-- (G) entry_name: 'aw -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">gå igenom, gå igenom (materia) [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta hänför sig till att passera genom materien, som spöken, fasformade livsformer eller partiklar kan göra. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="e00fd2d9-47ab-47d6-a539-91e25981a06a">
+    <!-- (G) entry_name: 'awje' -->
+    <!-- (G) part_of_speech: n:food -->
+    <column name="definition_sv">ett slags dryck (root beer)</column>
+    <column name="notes_sv">Detta är en typ av dryck tillverkad av (bland annat) {melchoQ:n} av en {teghbat:n}. Det har en ytlig likhet med Terran rotöl. [1, p.95]
+
+Detta ord hänvisar inte till en specifik drink, utan till en smal klass relaterade drycker. [2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="23593513-a919-4901-a748-9fe4756d96fb">
+    <!-- (G) entry_name: 'aw' -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">sticka, stinga, svida, göra ont</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="18f4e242-37b3-4db0-b040-d00cb873964d">
+    <!-- (G) entry_name: 'ay -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">flyta (in / på vätska) [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta betyder att flyta i / på vatten eller andra vätskor. För {rIjHa':v} för något som flyter fritt i rymden. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7250e95f-7018-4564-829e-aa11de56bba2">
+    <!-- (G) entry_name: 'ayIvlaS -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">mossa [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ebf50673-ec5e-458b-bffc-16d07c4570ab">
+    <!-- (G) entry_name: 'ay' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">sektion, del, komponent, bit, stycke</column>
+    <column name="notes_sv">Detta kan användas för alla typer av byggnadselement, konstruktionsdelar eller till och med Lego-bitar.[3] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a2ed6205-756f-4a01-9b36-9924b83382e3">
+    <!-- (G) entry_name: 'a'ghen -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_sv">masterlärare, professor [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="c597dc9d-6907-4bbc-8bb1-64cf3afa0aaf">
+    <!-- (G) entry_name: 'a'Setbur -->
+    <!-- (G) part_of_speech: n:name,fic -->
+    <column name="definition_sv">Azetbur</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+</mixins>

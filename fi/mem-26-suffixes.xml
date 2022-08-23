@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixins>
+  <mixin target="1bd2d0bf-e09d-4750-b63b-e39adc571902">
+    <!-- (G) entry_name: 0 -->
+    <!-- (G) part_of_speech: v:pref,klcp1 -->
+    <column name="definition_fi">hän/se-ei mitään, hän/se-häntä/sitä/heitä/niitä, he/ne-ei mitään, he/ne-heitä/niitä</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="d037e5d9-9162-41b4-bb0f-a1c3d211c137">
+    <!-- (G) entry_name: -'a' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">augmentatiivi (substantiiviliite 1)</column>
+    <column name="notes_fi">{-'a':n:suff,nolink}: llä muodostettu substantiivi viittaa johonkin, joka on isompi, tärkeämpi tai voimakkaampi kuin substantiivi ilman loppuliitettä.
+
+Huomaa, että {-'a':n:suff,nolink}-substantiivin ei tarvitse olla kaikin tavoin parempi kuin paljas substantiivi, vain yhdellä tavalla, joka on merkittävä tälle substantiiville. Esimerkiksi {mIv'a':n} ei ole välttämättä kooltaan suurempi kuin {mIv:n:1}, ja {toy'wI''a':n} on todennäköisesti huonommassa asemassa monin tavoin verrattuna {toy'wI':n}: een. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="08b14b05-7976-422a-9e0f-62421d3afb2c">
+    <!-- (G) entry_name: -Hom -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">vähättelevä diminutiivi (substantiiviliite 1)</column>
+    <column name="notes_fi">{-Hom:n:suff,nolink}: llä muodostettu substantiivi viittaa johonkin, joka on pienempi, vähemmän tärkeä tai vähemmän voimakas kuin substantiivi ilman loppuliitettä. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="0db44b93-218a-4af9-bb34-4fea9881a1b1">
+    <!-- (G) entry_name: -oy -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_fi">hellittelevä diminutiivi (substantiiviliite 1)</column>
+    <column name="notes_fi">Tämä on harvoin käytetty loppuliite, jota käytetään osoittamaan mielihyvää. Se liitetään yleensä sukulaisen tai joskus eläimen, kuten lemmikin, sanaan.
+
+Epäillään, että {qaghwI':n} lisätään ennen tätä loppuliitettä, jos substantiivi päättyy vokaaliin, mutta esimerkkejä ei tunneta. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="a9065228-9ac1-492e-851f-9a219886eb04">
+    <!-- (G) entry_name: -pu' -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_fi">monikko (henkilöt, kielenkäyttäjät) (substantiiviliite 2)</column>
+    <column name="notes_fi">Tämä pääte on liitetty substantiiviin, joka viittaa olentoja, jotka pystyvät puhumaan kieliä, kun tällaisia ​​olentoja on enemmän kuin yksi.
+
+Huomaa, että {-pu':n:suff,nolink}: n käyttö on substantiivi, eikä välttämättä niiden asioiden ominaisuus, joihin se viittaa. Esimerkiksi ryhmään klingoneita, jotka eivät pysty puhumaan, tai ryhmään klingonilaisia, jotka ovat liian nuoria ymmärtämään kieltä, kutsutaan edelleen nimellä {tlhInganpu':n:nolink}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="0ae7ba39-349e-4a37-be87-78210ef62f86">
+    <!-- (G) entry_name: -Du' -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_fi">monikko (ruumiinosat) (substantiiviliite 2)</column>
+    <column name="notes_fi">Tätä loppuliitettä käytetään muodostamaan useita kehon osia riippumatta siitä, kuuluvatko ne kielitaitoisiin olentoihin tai mihin tahansa muuhun eläimeen. Kuitenkin, jos ruumiinosa erottuu olennosta ja muuttuu sellaiseksi, joka ei enää ole ensisijaisesti ruumiinosa, käytetään sen sijaan {-mey:n:suff,nolink}. Esimerkiksi monikko {veDDIr:n} "pelt" on {veDDIrmey:n:nolink} eikä {veDDIrDu':n:nolink}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="5d0916a8-9c02-4e0c-b694-8f4abfbcbfef">
+    <!-- (G) entry_name: -mey -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_fi">monikko (yleinen) (substantiiviliite 2)</column>
+    <column name="notes_fi">Kun tätä päätettä käytetään olentoja varten, jotka pystyvät käyttämään kieltä (katso {-pu':n}), se lisää merkitykseen käsitteen "hajallaan kaikesta". Tätä loppuliitettä ei voida käyttää ruumiinosiin (katso {-Du':n}), mutta runoilijat rikkovat joskus tätä sääntöä.
+
+Jotkut substantiivit ovat luonnostaan ​​monikkomerkityksisiä, ja yksikkömuodot ovat täysin erillisiä. Näitä luontaisesti monikkomuotoja käsitellään kieliopillisesti yksikköinä, koska niissä käytetään yksikköpronomineja ja verbi-etuliitteitä. Kun liitettä {-mey:n:nolink} käytetään näiden substantiivien yksikkömuodoihin, tuloksena oleva monikkosana sisältää merkityksen "hajallaan kaikesta". [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="740167f5-c159-47ed-a4dc-796232657b15">
+    <!-- (G) entry_name: -qoq -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">niin sanottu (substantiiviliite 3)</column>
+    <column name="notes_fi">Tämä loppuliite osoittaa, että substantiivia käytetään väärällä tai ironisella tavalla. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="c3c3a65d-4581-48e4-84de-0264a6013684">
+    <!-- (G) entry_name: -Hey -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">ilmeisesti (substantiiviliite 3)</column>
+    <column name="notes_fi">Tämä loppuliite osoittaa, että puhuja ajattelee, että substantiivin viittaama kohde on kuvattu tarkasti, mutta hänellä on epäilyksiä. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="f5527fd3-53ac-45d9-9273-b5f4857a1a91">
+    <!-- (G) entry_name: -na' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">selvästi (substantiiviliite 3)</column>
+    <column name="notes_fi">Tämä loppuliite osoittaa, että puhujalla ei ole epäilystäkään siitä, että substantiivilla tarkoitettu objekti on kuvattu tarkasti. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="7d2a105e-dac7-4b29-8516-f28dcf06b9b9">
+    <!-- (G) entry_name: -wIj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">minun, -ni (substantiiviliite 4)</column>
+    <column name="notes_fi">Tämän jälkiliitteen käyttämistä pidetään halveksivana substantiivissa, joka viittaa kielitaitoon. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="e8d93ad0-c11c-48f7-8deb-21595f54da3f">
+    <!-- (G) entry_name: -wI' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">minun, -ni (henkilöstä, kielenkäyttäjästä) (substantiiviliite 4)</column>
+    <column name="notes_fi">Katso {-pu':n:suff}-osiosta selitys siitä, milloin substantiivi luokitellaan kielikykyksi. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="d2fbde8d-746d-483c-badc-5fc4b7dfaefe">
+    <!-- (G) entry_name: -maj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">meidän, -mme (substantiiviliite 4)</column>
+    <column name="notes_fi">Tämän päätteen käyttämistä pidetään halveksivana substantiivissa, joka viittaa kykyyn puhua. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="87180953-e86c-448e-99fa-9fb121e88881">
+    <!-- (G) entry_name: -ma' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">meidän, -mme (henkilöstä, kielenkäyttäjästä) (substantiiviliite 4)</column>
+    <column name="notes_fi">Katso {-pu':n:suff}-osiosta selitys siitä, milloin substantiivi luokitellaan kielikykyksi. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="07b83933-35cc-4388-9094-6156c1f264be">
+    <!-- (G) entry_name: -lIj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">sinun, -si (substantiiviliite 4)</column>
+    <column name="notes_fi">Tämän päätteen käyttämistä pidetään halveksivana substantiivissa, joka viittaa kykyyn puhua. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="dc4c0c3d-2915-4a9f-b40c-c1abbf74f965">
+    <!-- (G) entry_name: -lI' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">sinun, -si (henkilöstä, kielenkäyttäjästä) (substantiiviliite 4)</column>
+    <column name="notes_fi">Katso {-pu':n:suff}-osiosta selitys siitä, milloin substantiivi luokitellaan kielikykyksi. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="c960720e-ccb2-4de9-bbd1-97444b852df5">
+    <!-- (G) entry_name: -raj -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_fi">teidän, -nne (substantiiviliite 4)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="67b22a62-61b0-440a-a179-1fce903a2cb2">
+    <!-- (G) entry_name: -ra' -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_fi">teidän, -nne (henkilöstä, kielenkäyttäjästä) (substantiiviliite 4)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="209c5049-6f80-46a2-878c-895bcdd40dc3">
+    <!-- (G) entry_name: -Daj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">hänen, sen, -nsa/-nsä (substantiiviliite 4)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="e2f023da-83a1-402b-ae14-00c07edf445b">
+    <!-- (G) entry_name: -chaj -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_fi">heidän, -nsa/-nsä (substantiiviliite 4)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="e7fc3fcc-0e9f-49dc-90f7-4507595a2c83">
+    <!-- (G) entry_name: -vam -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">tämä, nämä (substantiiviliite 4)</column>
+    <column name="notes_fi">Tämä tarkoittaa, että substantiivi viittaa esineeseen, joka on lähellä tai joka on keskustelun aihe.
+
+Suurimmalle osalle kiinteää ajanjaksoa osoittavista sanoista tämä pääte osoittaa nykyisen ajanjakson: {DISvam:n:nolink} "kuluva vuosi", {jarvam:n:nolink} "kuluva kuukausi", {Hoghvam:n:nolink} "kuluva kuukausi" jne. {jajvam:n} "nykyinen päivä" on kuitenkin ei ole täysin vaihdettavissa {DaHjaj:n}: n kanssa "tänään" .[2][1] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="995c5d15-ddd9-4415-b2f5-cbafab8629eb">
+    <!-- (G) entry_name: -vetlh -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">tuo, nuo (substantiiviliite 4)</column>
+    <column name="notes_fi">Tämä osoittaa, että substantiivi viittaa esineeseen, joka ei ole lähellä tai joka otetaan uudelleen esiin keskustelun aiheena. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="330de4ec-e4bd-4d70-bb25-641cb1ddadd2">
+    <!-- (G) entry_name: -Daq -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">lokatiivi, -ssa/-ssä, -:n (substantiiviliite 5)</column>
+    <column name="notes_fi">Tämä pääte ilmaisee, että toiminto tapahtuu (tai on tapahtunut tai tulee tapahtumaan) sen substantiivin läheisyydessä, johon se on liitetty.[1] Sitä voidaan tyypillisesti käyttää vain fyysisiin sijainteihin.
+
+Joidenkin verbien merkitykset ovat paikannuskäsitteitä, ja {-Daq:n:suff,nolink}: n käyttämisessä tällaisten verbien kanssa on oltava varovainen. Katso lisätietoja kohdista {ghoS:v:1} ja {jaH:v}. Ammunta-verbeillä, kuten {baH:v} ja {bach:v}, {-Daq:n:suff,nolink} merkitsee kohteen.
+
+Kun verbiä käytetään adjektiivisesti, tämä pääte ja muut tyypin 5 substantiiviliitteet liitetään verbiin substantiivin sijaan.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="01ea6f46-8a6c-41d0-8754-8eba34467dde">
+    <!-- (G) entry_name: -vo' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">elatiivi, -sta/-stä (substantiiviliite 5)</column>
+    <column name="notes_fi">Tätä loppuliitettä käytetään, kun toiminto on suunnassa, joka on poispäin substantiivista, johon se on liitetty.[1][2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="6df9a9d5-28e2-4e31-b3f7-f15b00a21b2e">
+    <!-- (G) entry_name: -mo' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">kausatiivi, koska, vuoksi (substantiiviliite 5)</column>
+    <column name="notes_fi">On verbiliite {-mo':v}, jolla on sama merkitys. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="385f86e9-b948-4ab9-b16b-f6fe3e7c0a22">
+    <!-- (G) entry_name: -vaD -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_fi">datiivi, -lle (substantiiviliite 5)</column>
+    <column name="notes_fi">Tämä loppuliite osoittaa, että substantiivi, johon se on liitetty, on toiminnan edunsaaja.
+
+Sitä käytetään osoittamaan epäsuora esine, kun kohde on toiminnan vastaanottaja. ({TKDA 6.8:src})
+
+Kohdasta {qawmoH:v} on selitys siitä, miten tätä päätettä käytetään verbiliitteellä {-moH:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="57d92955-cba4-4a57-9dbe-3e8ce70ced3c">
+    <!-- (G) entry_name: -'e' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_fi">aiheellistin (substantiiviliite 5)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="b3154201-c4f5-4095-b1f1-6f9026bdf64d">
+    <!-- (G) entry_name: -'egh -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">itseään (verbipääte 1)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="beca67f2-ba6f-4e00-ad00-07d6dd56b73c">
+    <!-- (G) entry_name: -chuq -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">toisiaan (verbipääte 1)</column>
+    <column name="notes_fi">Tätä päätettä käytetään vain monikkomuotojen kanssa. Kun tätä pääteosaa käytetään, verbin etuliitteen on ilmoitettava "ei objektia". [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="5a98fdfb-9cd9-4b61-b3af-46c024b8d060">
+    <!-- (G) entry_name: -nIS -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">tarve (verbipääte 2)</column>
+    <column name="notes_fi">Tämä loppuliite osoittaa, että kohteen on tehtävä toimenpide. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="7520ae2a-e057-4338-935e-7164e6c2be1d">
+    <!-- (G) entry_name: -qang -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">halukas (verbipääte 2)</column>
+    <column name="notes_fi">Tämä loppuliite osoittaa, että kohde on halukas suorittamaan toiminnon. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="b001e2cc-e64f-471e-a75f-8c177badc9db">
+    <!-- (G) entry_name: -rup -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">valmis (henkilöstä) (verbipääte 2)</column>
+    <column name="notes_fi">Verbi {ghuS:v:0} ei koskaan ota loppuliitettä {-rup:v:suff,nolink}. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="5c4cb4bb-076f-47f8-b875-b2b3ae3084d7">
+    <!-- (G) entry_name: -beH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">valmis (asiasta) (verbipääte 2)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="6efc0bcd-a1c4-4a11-8fe3-c43a0e79ce31">
+    <!-- (G) entry_name: -vIp -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">pelokas (verbipääte 2)</column>
+    <column name="notes_fi">Tätä päätettä käytetään harvoin ensimmäisen persoonan aiheissa, koska se on kulttuurisesti tabu.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="6da421e7-bb00-4790-9c8a-a38ac479a182">
+    <!-- (G) entry_name: -choH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">alkaa tehdä, muuttua (tilassa, suunnassa) (verbipääte 3)</column>
+    <column name="notes_fi">Tämä jälkiliite osoittaa, että verbin kuvaamaan toimintaan liittyy muutos tilanteesta, joka oli olemassa ennen toiminnan tapahtumista. Tämän jälkiliitteen englanninkielinen käännös voi olla "tullut" tai "alkanut". [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="e291014f-6935-4259-92f0-a36a2642a339">
+    <!-- (G) entry_name: -qa' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">jatkaa, tehdä uudestaan (verbipääte 3)</column>
+    <column name="notes_fi">Tämä pääte tarkoittaa, että toiminta oli ollut käynnissä, sitten pysähtynyt ja sitten aloitettu uudelleen. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="920247fc-3fba-4bf7-9de6-0f717b776bef">
+    <!-- (G) entry_name: -moH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">aiheuttaa, -taa (verbipääte 4)</column>
+    <column name="notes_fi">Katso {qawmoH:v}-esimerkki siitä, miten tätä käytetään objektin ottavan verbin kanssa. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="089202b4-d2fe-4acb-8cea-b6084d3d53c3">
+    <!-- (G) entry_name: -lu' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">määrittelemätön tekijä (verbipääte 5)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="71e52111-e3d5-43a9-8d9e-ea853692881c">
+    <!-- (G) entry_name: -laH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">voida, osata (verbipääte 5)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="92266cf4-a4e4-4fe3-b54a-b52a74cc88fa">
+    <!-- (G) entry_name: -luH -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">osataan, voidaan (verbipääte 5, kieliopin vastainen)</column>
+    <column name="notes_fi">Jotkut puhujat käyttävät tätä yhdistämään {-lu':v} ja {-laH:v} yhdeksi loppuliitteeksi ilmaisemaan sekä määrittelemätön aihe että kyky samanaikaisesti. Kukaan ei hyväksy tätä rakennetta kieliopiksi, mutta sen epäasianmukaisuus antaa sille äänestysmahdollisuuden. Sitä tulisi välttää, ellei joku ole kovin tyytyväinen Klingon-tyylin vivahteisiin. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="77892f81-d6ff-4c08-af93-7f8e7aaff43c">
+    <!-- (G) entry_name: -la' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">osataan, voidaan (verbipääte 5, kieliopin vastainen)</column>
+    <column name="notes_fi">Jotkut puhujat käyttävät tätä yhdistämään {-lu':v} ja {-laH:v} yhdeksi loppuliitteeksi ilmaisemaan sekä määrittelemätön aihe että kyky samanaikaisesti. Kukaan ei hyväksy tätä rakennetta kieliopiksi, mutta sen epäasianmukaisuus antaa sille äänestysmahdollisuuden. Sitä tulisi välttää, ellei joku ole kovin tyytyväinen Klingon-tyylin vivahteisiin. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="3e2195d8-6f54-433f-9798-e218885a5ab6">
+    <!-- (G) entry_name: -chu' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">täydellisesti (verbipääte 6)</column>
+    <column name="notes_fi">Kun sitä käytetään joidenkin taisteluverbien kanssa, tämä pääte tarkoittaa, että taistelut johtavat kuolemaan (katso {Suvchu':v}, {Hay'chu':v}).
+
+Kun sitä käytetään {chuH:v:1}: n kanssa, se tarkoittaa, että heitetty keihäs osuu kohteeseen.[2, p.49][2, p.64] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="fc30d55a-4159-4e78-85bc-cca0c6475aea">
+    <!-- (G) entry_name: -bej -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">varmasti, kiistatta (verbipääte 6)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="acea9a47-1d58-4b0e-9f86-53171e405f99">
+    <!-- (G) entry_name: -ba' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">selvästi (verbipääte 6)</column>
+    <column name="notes_fi">Tämä loppuliite kertoo puhujan mielestä väitteen olevan ilmeinen kuuntelijalle. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="2299c1e1-c3ec-49ec-baae-172d13f854c3">
+    <!-- (G) entry_name: -law' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">ilmeisesti (verbipääte 6)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="ff833fec-5e39-43cd-a832-bb3bf364477e">
+    <!-- (G) entry_name: -pu' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">perfektiivi (verbipääte 7)</column>
+    <column name="notes_fi">Tämä loppuliite osoittaa, että toiminto on valmis. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="c15cb192-2c75-443e-94e9-967719727de9">
+    <!-- (G) entry_name: -ta' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">suoritettu, tehty (intentionaali) (verbipääte 7)</column>
+    <column name="notes_fi">Tämä loppuliite osoittaa, että toiminto on saatu päätökseen ja että toiminta on tarkoituksella suoritettu.
+
+On olemassa erityinen sanallinen rakenne, {rIntaH:v}, joka merkitsee samanlaista merkitystä, mutta jolla on vielä lopullisen merkitys. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="f1681551-eb95-4bd2-b82b-c72496cee862">
+    <!-- (G) entry_name: -taH -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">imperfektiivi, jatkuva tekeminen (verbipääte 7)</column>
+    <column name="notes_fi">Tämä pääte osoittaa, että toiminto on käynnissä.
+
+Kun pronominia käytetään olemaan "olemaan" -rakenne jonkin sijainnin tunnistamiseksi, on yleisempää käyttää {-taH:v:nolink} puhuttaessa asioista, jotka ovat melko liikkuvia ja jättävät sen pois puhuessaan asioista, jotka ovat yleensä liikkumattomia tai harvoin liikkuvia, mutta tämä on vain taipumus eikä sääntö.[3] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="5841a40a-d75c-4ff6-b8e8-ec10b4b96b62">
+    <!-- (G) entry_name: -lI' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">progressiivi, edistyminen (verbipääte 7)</column>
+    <column name="notes_fi">Tämä loppuliite osoittaa, että toiminta on käynnissä ja etenee kohti tunnettua tavoitetta tai pysähdyskohtaa. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="754a5ac9-b42a-45f0-86fd-4278aadb24b2">
+    <!-- (G) entry_name: -neS -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">kunnioitus (verbipääte 8)</column>
+    <column name="notes_fi">Klingonit käyttävät tätä päätettä harvoin. Se ilmaisee yleensä äärimmäistä kohteliaisuutta tai kunnioitusta, ja sitä käytetään vain ylivoimaisen puheenvuoroon.
+
+Tätä loppuliitettä käytetään myös joidenkin taisteluverbien kanssa osoittaakseen, että verbi viittaa itsemurhayritykseen. Esimerkiksi {HIvneS:v} tarkoittaa, että itsemurha on osa hyökkäyssuunnitelmaa, ja vastaavasti {HubneS:v} tarkoittaa, että itsemurha on osa puolustussuunnitelmaa.[1][2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="1ea3d6b5-d2e2-41e3-afe6-fd12f596b27e">
+    <!-- (G) entry_name: -DI' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">heti kun (verbipääte 9)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="7c979f6e-ace7-4f09-a6d9-b074cb2ffdee">
+    <!-- (G) entry_name: -chugh -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">jos (verbipääte 9)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="bbe20a18-fe95-4874-914a-0387448ba382">
+    <!-- (G) entry_name: -pa' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">ennen kun (verbipääte 9)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="ffd3ce4c-12ae-435e-ab10-cc970e2a906d">
+    <!-- (G) entry_name: -vIS -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">kun, -en, -essa (verbipääte 9)</column>
+    <column name="notes_fi">Tätä käytetään aina tyypin 7 loppuliitteen {-taH:v} kanssa. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="91aae7eb-f00e-4bbf-b59f-c8b4ff3fac96">
+    <!-- (G) entry_name: -mo' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">koska (verbipääte 9)</column>
+    <column name="notes_fi">On substantiiviliite {-mo':n}, jolla on sama merkitys. [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="93eaf83a-9832-4df4-ac97-cf54fd65dfc3">
+    <!-- (G) entry_name: -bogh -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">joka (verbipääte 9)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="7ed8ffb0-8fd9-4651-b9ce-b1b67cdda85e">
+    <!-- (G) entry_name: -meH -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">jotta, -ksi (verbipääte 9)</column>
+    <column name="notes_fi">Tarkoituslauseke edeltää aina substantiivia tai verbiä, jonka tarkoitusta se kuvaa.[1]
+
+{HQ 7.3:src}-artikkelissa on artikkeli, jossa tarkastellaan {-meH:v:suff,nolink}-lauseita, jotka muuttavat substantiiveja.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="018cdda3-057c-4318-8050-5b68f44ac9ab">
+    <!-- (G) entry_name: -'a' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">interrogatiivi (verbipääte 9)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="58118f75-62a2-4627-b305-e4fdc63fa247">
+    <!-- (G) entry_name: -jaj -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">jussiivi, -koon/-koot (verbipääte 9)</column>
+    <column name="notes_fi">Tämä pääte ilmaisee puhujan toiveen tai toiveen siitä, että jotain tapahtuu tulevaisuudessa.
+
+Tämä pääte on liitetty paahtoleivän verbiin, joka tulee aina viimeiseksi paitsi {Sa'Qej Sep:n}- ja {noHva'Dut Sep:n}-murteissa.[1][2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="f49d5b68-16ef-489c-9433-3f5c38a1998b">
+    <!-- (G) entry_name: -wI' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">joka tekee, -ja/-jä (verbipääte 9)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="c51bb125-b4bd-4236-9468-ebfe4fbc2778">
+    <!-- (G) entry_name: -ghach -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">substantivisoija, -uus/-yys (verbipääte 9)</column>
+    <column name="notes_fi">Tämän päätteen kanssa pitää käyttää ainakin yhtä toista päätettä, eikä verbissä tällöin saa olla etuliitettä. Se vastaa suomen -uus/-yys-päätettä tai -minen-päätettä.</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="847c0599-a5dc-415a-b220-e809948b2b93">
+    <!-- (G) entry_name: -be' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">ei (seikkailija)</column>
+    <column name="notes_fi">Tämä seuraa käsitystä, jonka se hylkää. Sitä ei voida käyttää muodostamaan negatiivisia vaatimuksia, toisin sanoen sitä ei voida käyttää merkitsemään "älä" (johon käytetään {-Qo':v} sen sijaan) [1; 3]. Komento, kuten {HIleghbe'moH:sen:nolink}, on kuitenkin mahdollista.[3; 4] Tätä jälkiliitettä voidaan soveltaa verbeihin, joita käytetään adjektiivina.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="afaf4843-ec5a-4f82-b7d0-89e1e28a62e0">
+    <!-- (G) entry_name: -Qo' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">kieltäytyminen (seikkailija)</column>
+    <column name="notes_fi"></column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="c1dbf660-c1aa-4c1d-90d6-e3bd1194e4f3">
+    <!-- (G) entry_name: -Ha' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_fi">vastakohta, tehdä väärin (seikkailija)</column>
+    <column name="notes_fi">Tämä loppuliite osoittaa, että jokin aiemmin tehdyistä on nyt kumottu tai että jotain on tehty väärin. Huolimatta siitä, että se luokitellaan kuljettajaksi, tämä pääte esiintyy välittömästi verbin jälkeen, ennen muita päätteitä.[1]
+
+Tätä loppuliitettä voidaan käyttää joihinkin adverbeihin, mutta ei kaikkiin.[2; 3]{Duj ngaDHa':n}[4] [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+  <mixin target="8a9673b1-d79c-4ee1-b6b4-c2b3e224b953">
+    <!-- (G) entry_name: -qu' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_fi">erittäin, hyvin, korostaja (seikkailija)</column>
+    <column name="notes_fi">Tämä pääte korostaa mitä tahansa välittömästi sitä edeltävää.
+
+Se voi seurata adjektiivisesti käytettyjä verbejä, jolloin se tarkoittaa "hyvin". [AUTOTRANSLATED]</column>
+    <column name="examples_fi"></column>
+    <column name="search_tags_fi"></column>
+  </mixin>
+</mixins>

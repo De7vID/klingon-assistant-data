@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixins>
+  <mixin target="1bd2d0bf-e09d-4750-b63b-e39adc571902">
+    <!-- (G) entry_name: 0 -->
+    <!-- (G) part_of_speech: v:pref,klcp1 -->
+    <column name="definition_zh_HK">他、它：無、他、它、他們、它們；他們、它們：無、他們、它們</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d037e5d9-9162-41b4-bb0f-a1c3d211c137">
+    <!-- (G) entry_name: -'a' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">增補（第一類名詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="08b14b05-7976-422a-9e0f-62421d3afb2c">
+    <!-- (G) entry_name: -Hom -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">減小（第一類名詞後綴）</column>
+    <column name="notes_zh_HK">由{-Hom:n:suff,nolink}構成的名詞是指比沒有後綴的名詞更小，更重要或更不強大的事物。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="0db44b93-218a-4af9-bb34-4fea9881a1b1">
+    <!-- (G) entry_name: -oy -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_zh_HK">愛稱（第一類名詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="a9065228-9ac1-492e-851f-9a219886eb04">
+    <!-- (G) entry_name: -pu' -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_zh_HK">複數、們（能用語言）（第二類名詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="0ae7ba39-349e-4a37-be87-78210ef62f86">
+    <!-- (G) entry_name: -Du' -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_zh_HK">複數（身體部分）（第二類名詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="5d0916a8-9c02-4e0c-b694-8f4abfbcbfef">
+    <!-- (G) entry_name: -mey -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_zh_HK">複數（一般）（第二類名詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="740167f5-c159-47ed-a4dc-796232657b15">
+    <!-- (G) entry_name: -qoq -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">所謂（第三類名詞後綴）</column>
+    <column name="notes_zh_HK">此後綴表示該名詞是以虛假或諷刺的方式使用的。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c3c3a65d-4581-48e4-84de-0264a6013684">
+    <!-- (G) entry_name: -Hey -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">似乎（第三類名詞後綴）</column>
+    <column name="notes_zh_HK">該後綴表明說話者認為名詞所指的對像已被其準確地描述了，但存在一些疑問。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="f5527fd3-53ac-45d9-9273-b5f4857a1a91">
+    <!-- (G) entry_name: -na' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">確定（第三類名詞後綴）</column>
+    <column name="notes_zh_HK">此後綴表明，說話者毫無疑問會正確地描述名詞所指的對象。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="7d2a105e-dac7-4b29-8516-f28dcf06b9b9">
+    <!-- (G) entry_name: -wIj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">我的（第四類名詞後綴）</column>
+    <column name="notes_zh_HK">在帶有語言能力的名詞上使用此後綴是貶義的。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e8d93ad0-c11c-48f7-8deb-21595f54da3f">
+    <!-- (G) entry_name: -wI' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">我的（能用語言）（第四類名詞後綴）</column>
+    <column name="notes_zh_HK">有關名詞何時具有語言能力的說明，請參見{-pu':n:suff}下的說明。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d2fbde8d-746d-483c-badc-5fc4b7dfaefe">
+    <!-- (G) entry_name: -maj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">我們（第四類名詞後綴）</column>
+    <column name="notes_zh_HK">在帶有語言能力的名詞上使用此後綴是貶義的。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="87180953-e86c-448e-99fa-9fb121e88881">
+    <!-- (G) entry_name: -ma' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">我們（能用語言）（第四類名詞後綴）</column>
+    <column name="notes_zh_HK">有關名詞何時具有語言能力的說明，請參見{-pu':n:suff}下的說明。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="07b83933-35cc-4388-9094-6156c1f264be">
+    <!-- (G) entry_name: -lIj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">你的（第四類名詞後綴）</column>
+    <column name="notes_zh_HK">在帶有語言能力的名詞上使用此後綴是貶義的。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="dc4c0c3d-2915-4a9f-b40c-c1abbf74f965">
+    <!-- (G) entry_name: -lI' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">你的（能用語言）（第四類名詞後綴）</column>
+    <column name="notes_zh_HK">有關名詞何時具有語言能力的說明，請參見{-pu':n:suff}下的說明。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c960720e-ccb2-4de9-bbd1-97444b852df5">
+    <!-- (G) entry_name: -raj -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_zh_HK">你們的（第四類名詞後綴）</column>
+    <column name="notes_zh_HK">在帶有語言能力的名詞上使用此後綴是貶義的。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="67b22a62-61b0-440a-a179-1fce903a2cb2">
+    <!-- (G) entry_name: -ra' -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_zh_HK">你們的（能用語言）（第四類名詞後綴）</column>
+    <column name="notes_zh_HK">有關名詞何時具有語言能力的說明，請參見{-pu':n:suff}下的說明。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="209c5049-6f80-46a2-878c-895bcdd40dc3">
+    <!-- (G) entry_name: -Daj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">他的、她的、它的（第四類名詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e2f023da-83a1-402b-ae14-00c07edf445b">
+    <!-- (G) entry_name: -chaj -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_zh_HK">他們的、她們的、它們的（第四類名詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e7fc3fcc-0e9f-49dc-90f7-4507595a2c83">
+    <!-- (G) entry_name: -vam -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">這（第四類名詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="995c5d15-ddd9-4415-b2f5-cbafab8629eb">
+    <!-- (G) entry_name: -vetlh -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">那（第四類名詞後綴）</column>
+    <column name="notes_zh_HK">這表明該名詞指的是不在附近的物體，或者該物體再次被帶出作為對話的主題。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="330de4ec-e4bd-4d70-bb25-641cb1ddadd2">
+    <!-- (G) entry_name: -Daq -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">在地方（第五類名詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="01ea6f46-8a6c-41d0-8754-8eba34467dde">
+    <!-- (G) entry_name: -vo' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">從、來自（第五類名詞後綴）</column>
+    <column name="notes_zh_HK">當動作的方向遠離它所附加的名詞時，將使用此後綴。[1]它通常只能用於物理位置。[2] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="6df9a9d5-28e2-4e31-b3f7-f15b00a21b2e">
+    <!-- (G) entry_name: -mo' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">因為（第五類名詞後綴）</column>
+    <column name="notes_zh_HK">動詞後綴{-mo':v}具有相同的含義。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="385f86e9-b948-4ab9-b16b-f6fe3e7c0a22">
+    <!-- (G) entry_name: -vaD -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_zh_HK">為、對（第五類名詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="57d92955-cba4-4a57-9dbe-3e8ce70ced3c">
+    <!-- (G) entry_name: -'e' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_zh_HK">主題（第五類名詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b3154201-c4f5-4095-b1f1-6f9026bdf64d">
+    <!-- (G) entry_name: -'egh -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">自己（第一類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="beca67f2-ba6f-4e00-ad00-07d6dd56b73c">
+    <!-- (G) entry_name: -chuq -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">彼此（第一類動詞後綴）</column>
+    <column name="notes_zh_HK">此後綴僅適用於多個主題。使用此後綴時，動詞前綴必須指示「無對象」。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="5a98fdfb-9cd9-4b61-b3af-46c024b8d060">
+    <!-- (G) entry_name: -nIS -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">需要（第二類動詞後綴）</column>
+    <column name="notes_zh_HK">此後綴指示對象需要執行操作。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="7520ae2a-e057-4338-935e-7164e6c2be1d">
+    <!-- (G) entry_name: -qang -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">願意（第二類動詞後綴）</column>
+    <column name="notes_zh_HK">此後綴表示對象願意執行該操作。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b001e2cc-e64f-471e-a75f-8c177badc9db">
+    <!-- (G) entry_name: -rup -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">準備好（生物）（第二類動詞後綴）</column>
+    <column name="notes_zh_HK">動詞{ghuS:v:0}絕不帶有後綴{-rup:v:suff,nolink}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="5c4cb4bb-076f-47f8-b875-b2b3ae3084d7">
+    <!-- (G) entry_name: -beH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">準備好、設置好（設備）（第二類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="6efc0bcd-a1c4-4a11-8fe3-c43a0e79ce31">
+    <!-- (G) entry_name: -vIp -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">害怕（第二類動詞後綴）</column>
+    <column name="notes_zh_HK">此後綴很少用於第一人稱主題，因為它在文化上是忌諱的。[1] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="6da421e7-bb00-4790-9c8a-a38ac479a182">
+    <!-- (G) entry_name: -choH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">改變狀態、改變方向（第三類動詞後綴）</column>
+    <column name="notes_zh_HK">該後綴表明，動詞描述的動作涉及到事態發生變化，而事態發生在動作發生之前。此後綴的英文翻譯可能是「 become」或「 begin to」。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e291014f-6935-4259-92f0-a36a2642a339">
+    <!-- (G) entry_name: -qa' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">恢復、重複、再做（第三類動詞後綴）</column>
+    <column name="notes_zh_HK">此後綴表示該操作已發生，然後停止，然後再次開始。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="920247fc-3fba-4bf7-9de6-0f717b776bef">
+    <!-- (G) entry_name: -moH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">引起、導致（第四類動詞後綴）</column>
+    <column name="notes_zh_HK">有關如何將其與帶有對象的動詞一起使用的示例，請參見{qawmoH:v}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="089202b4-d2fe-4acb-8cea-b6084d3d53c3">
+    <!-- (G) entry_name: -lu' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">不定主語（第五類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="71e52111-e3d5-43a9-8d9e-ea853692881c">
+    <!-- (G) entry_name: -laH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">可以、有能力、有本事（第五類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="92266cf4-a4e4-4fe3-b54a-b52a74cc88fa">
+    <!-- (G) entry_name: -luH -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">一罐（動詞類型5-不合語法） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">一些發言者使用此功能將{-lu':v}和{-laH:v}合併為一個後綴，以同時表達不確定的主題和能力。沒有人接受這種語法上的解釋，但它的不恰當之處在於它具有雄辯的影響力。除非人們對克林崗風格的細微差別感到非常滿意，否則應避免這樣做。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="77892f81-d6ff-4c08-af93-7f8e7aaff43c">
+    <!-- (G) entry_name: -la' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">一罐（動詞類型5-不合語法） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">一些發言者使用此功能將{-lu':v}和{-laH:v}合併為一個後綴，以同時表達不確定的主題和能力。沒有人接受這種語法上的解釋，但它的不恰當之處在於它具有雄辯的影響力。除非人們對克林崗風格的細微差別感到非常滿意，否則應避免這樣做。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="3e2195d8-6f54-433f-9798-e218885a5ab6">
+    <!-- (G) entry_name: -chu' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">完美、無瑕（第六類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="fc30d55a-4159-4e78-85bc-cca0c6475aea">
+    <!-- (G) entry_name: -bej -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">當然、一定（第六類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="acea9a47-1d58-4b0e-9f86-53171e405f99">
+    <!-- (G) entry_name: -ba' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">顯然（第六類動詞後綴）</column>
+    <column name="notes_zh_HK">此後綴表示講話者認為斷言對於聽眾是顯而易見的。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="2299c1e1-c3ec-49ec-baae-172d13f854c3">
+    <!-- (G) entry_name: -law' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">似乎、貌似（第六類動詞後綴）</column>
+    <column name="notes_zh_HK">此後綴表示發言人的不確定性。它可能被翻譯為「我認為」或「我懷疑」。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="ff833fec-5e39-43cd-a832-bb3bf364477e">
+    <!-- (G) entry_name: -pu' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">完成（第七類動詞後綴）</column>
+    <column name="notes_zh_HK">此後綴表示操作已完成。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c15cb192-2c75-443e-94e9-967719727de9">
+    <!-- (G) entry_name: -ta' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">故意完成（第7類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="f1681551-eb95-4bd2-b82b-c72496cee862">
+    <!-- (G) entry_name: -taH -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">連續（第七類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="5841a40a-d75c-4ff6-b8e8-ec10b4b96b62">
+    <!-- (G) entry_name: -lI' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">進行（第七類動詞後綴）</column>
+    <column name="notes_zh_HK">此後綴表示該操作正在進行中，並且正在朝著已知目標或停止點前進。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="754a5ac9-b42a-45f0-86fd-4278aadb24b2">
+    <!-- (G) entry_name: -neS -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">敬意（第八類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="1ea3d6b5-d2e2-41e3-afe6-fd12f596b27e">
+    <!-- (G) entry_name: -DI' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">一經、就（第九類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="7c979f6e-ace7-4f09-a6d9-b074cb2ffdee">
+    <!-- (G) entry_name: -chugh -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">如果（第九類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="bbe20a18-fe95-4874-914a-0387448ba382">
+    <!-- (G) entry_name: -pa' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">之前（第九類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="ffd3ce4c-12ae-435e-ab10-cc970e2a906d">
+    <!-- (G) entry_name: -vIS -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">當中（第九類動詞後綴）</column>
+    <column name="notes_zh_HK">始終與類型7後綴{-taH:v}一起使用。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="91aae7eb-f00e-4bbf-b59f-c8b4ff3fac96">
+    <!-- (G) entry_name: -mo' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">因為（第九類動詞後綴）</column>
+    <column name="notes_zh_HK">有一個名詞後綴{-mo':n}含義相同。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="93eaf83a-9832-4df4-ac97-cf54fd65dfc3">
+    <!-- (G) entry_name: -bogh -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">嘅（第九類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="7ed8ffb0-8fd9-4651-b9ce-b1b67cdda85e">
+    <!-- (G) entry_name: -meH -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">為了（第九類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="018cdda3-057c-4318-8050-5b68f44ac9ab">
+    <!-- (G) entry_name: -'a' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">疑問句（第九類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="58118f75-62a2-4627-b305-e4fdc63fa247">
+    <!-- (G) entry_name: -jaj -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">願、祝（第九類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="f49d5b68-16ef-489c-9433-3f5c38a1998b">
+    <!-- (G) entry_name: -wI' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">者、器；做或是的人或事物（第九類動詞後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c51bb125-b4bd-4236-9468-ebfe4fbc2778">
+    <!-- (G) entry_name: -ghach -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">名詞化器（第九類動詞後綴）</column>
+    <column name="notes_zh_HK">該後綴通常不用於沒有另一個後綴的動詞或帶前綴的動詞。當它附加到一個謂詞動詞上時，其含義為「 -ness」，而在一個主動動詞上則表示「 -tion」。[2] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="847c0599-a5dc-415a-b220-e809948b2b93">
+    <!-- (G) entry_name: -be' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">不、沒（動詞流浪後綴）</column>
+    <column name="notes_zh_HK">這遵循其否定的概念。它不能用於形成否定命令，即不能用於表示「不要」（為此使用{-Qo':v}代替）[1; 3]。但是，可以使用諸如{HIleghbe'moH:sen:nolink}之類的命令。[3; 4]該後綴可以應用於用作形容詞的動詞。[2] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="afaf4843-ec5a-4f82-b7d0-89e1e28a62e0">
+    <!-- (G) entry_name: -Qo' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">不要！、不會！（動詞流浪後綴）</column>
+    <column name="notes_zh_HK">此後綴用於表示拒絕。它也用於命令中。它總是最後發生，除非後面跟著9型後綴。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c1dbf660-c1aa-4c1d-90d6-e3bd1194e4f3">
+    <!-- (G) entry_name: -Ha' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_zh_HK">撤消、做錯（動詞流浪後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="8a9673b1-d79c-4ee1-b6b4-c2b3e224b953">
+    <!-- (G) entry_name: -qu' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_zh_HK">強調（動詞流浪後綴）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+</mixins>

@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixins>
+  <mixin target="9c7b3952-8613-4037-9bc8-fc7c466bdcd9">
+    <!-- (G) entry_name: 'et -->
+    <!-- (G) part_of_speech: n:1 -->
+    <column name="definition_sv">klingonskans {e:sen:nolink}-ljud</column>
+    <column name="notes_sv">Namnet på ett ljud, inte en skriven bokstav eller glyf.</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="dcf4395b-b72e-4db9-9729-91a047e91153">
+    <!-- (G) entry_name: 'eb -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_sv">möjlighet, chans, öppning</column>
+    <column name="notes_sv">En möjlighet sägs fångas ({jon:v}), och om man missar en möjlighet sägs den ha rymt ({nargh:v:2}).[3] Att "kill time" är att {'ebmey jonHa':sen}.[5]
+
+I en Klingon-bar ropar bartendern ({chom:n}) {'eb Qav:n} för "senaste samtal" .[4] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9f7b9b63-af80-41ae-92a4-59dcae1690ef">
+    <!-- (G) entry_name: 'eb Qav -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">sista chansen [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5417f2f8-2a79-49b4-be71-4bdd9f723890">
+    <!-- (G) entry_name: 'ebmey jonHa' -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_sv">döda tid [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta betyder bokstavligen att "släppa (eller ta bort) möjligheter". [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="156475dd-9467-4677-8722-3a7d59863b47">
+    <!-- (G) entry_name: 'ebHIv -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">apparater för destillering {HIq:n} [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="47433990-1f49-4858-ae75-c2240b15cf1f">
+    <!-- (G) entry_name: 'ebHIv pa' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">destilleri (rum) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="8c09311c-372e-4ef7-bbe5-4a96b036e001">
+    <!-- (G) entry_name: 'ebHIv qach -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">destilleri (byggnad) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="941061d0-9728-41a7-9660-4b088690e31d">
+    <!-- (G) entry_name: 'ebraH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">klimax (sexuell) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6e11c660-4ee2-4bd4-8406-e0fae5670c49">
+    <!-- (G) entry_name: 'ech -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_sv">överste (rang)</column>
+    <column name="notes_sv">Detta är den fjärde rankingen av {yaS:n}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="256facf3-1b32-4d78-b151-15cead8b7a9f">
+    <!-- (G) entry_name: 'echlet -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">bräde</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9796b4d7-53f0-40a4-b864-04233a21ea76">
+    <!-- (G) entry_name: 'echlet Hab -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">pekplatta [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta avser en datorinmatningsenhet. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="40001400-7a5b-4625-9cd7-19849053378f">
+    <!-- (G) entry_name: 'echletHom -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">kort</column>
+    <column name="notes_sv">I {Klingon Monopoly:src} används {'echletHom:n:nolink} för olika typer av spelkort. I {TNK:src} används {QIn 'echletHom:n} för "vykort".
+
+Kostymerna i ett kortlek med kort kallas {Degh:n:1}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="c9376876-2efa-476d-938b-d64946bad327">
+    <!-- (G) entry_name: 'echletHom vey -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">kortlek [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="b614a47f-be4d-4668-969d-dee3dc6359e4">
+    <!-- (G) entry_name: 'eD -->
+    <!-- (G) part_of_speech: v:1,i_c -->
+    <column name="definition_sv">krypa [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6807a842-acaf-4c7f-866e-3822b32f75f9">
+    <!-- (G) entry_name: 'eDjen -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">arrogant person, inbilsk person, högfärdig person</column>
+    <column name="notes_sv">Detta avser en person som är {nguq:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="f81a6930-145f-4ef5-a8b4-0055bd9f1c0c">
+    <!-- (G) entry_name: 'eDSeHcha -->
+    <!-- (G) part_of_speech: n:inhpl -->
+    <column name="definition_sv">start-/landningsraketer (pluralform)</column>
+    <column name="notes_sv">Detta ord är flertal. Dess singularform är okänd. Det verkar bestå av elementen {SeH:n:archaic,hyp} och {cha:n} (eller en homofon därav) och ett element som antingen är {'eD:v:1} eller en homofon vars betydelse är okänd. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="85266e62-bf8b-4535-9199-9de8875a4595">
+    <!-- (G) entry_name: 'egh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">tredje tonen på den nonatoniska skalan</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="cf6d3192-a7de-4a24-adbe-67b9a0e5c13d">
+    <!-- (G) entry_name: 'eH -->
+    <!-- (G) part_of_speech: excl:klcp1 -->
+    <column name="definition_sv">Var redo!</column>
+    <column name="notes_sv">Detta uttryck indikerar att talaren är på väg att ge ett kommando. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="38df21bb-dd49-4839-9399-56b33ae14843">
+    <!-- (G) entry_name: 'ej -->
+    <!-- (G) part_of_speech: conj:klcp1 -->
+    <column name="definition_sv">och</column>
+    <column name="notes_sv">Konjunktionen {'ej:conj} har inga temporära eller sekventiella konsekvenser.[2] För att uttrycka dessa betydelser, använd {ghIq:adv} eller {ngugh:adv}.
+
+Vid anslutning av flera meningar behövs endast den slutliga konjunktionen. Se exemplet under {qoj:conj}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="1b3fb8c0-14ec-403a-ad6d-ae0eaed9a0db">
+    <!-- (G) entry_name: 'ej De' vIchel -->
+    <!-- (G) part_of_speech: adv:deriv -->
+    <column name="definition_sv">förresten, parentetiskt [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta kommer i början av en mening. Detta är den fullständiga formen. I vardagliga konversationer utelämnas ofta {'ej:conj} och / eller {De':n} (och till och med {vI-:v:pref}). Klingons grammatikare argumenterar om huruvida den resulterande {De'chel:adv} bör betraktas som ett adverbial i sig.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="99fb306b-262e-4b50-9a79-74bc184c17f4">
+    <!-- (G) entry_name: 'ejDo' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">stjärnskepp, stjärnskeppsklass</column>
+    <column name="notes_sv">Det är troligt att {Do':n:archaic,hyp} är ett arkaiskt ord för det moderna {Duj:n:1}.[1, p.20] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="3f1ebe85-95c1-4e3b-8d44-65b8d352d086">
+    <!-- (G) entry_name: 'ejvoH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">rand [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="37be5a84-e6d4-4978-b192-7724b2731a97">
+    <!-- (G) entry_name: 'ejtlhal -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">tumör [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a50b006f-5746-4dfe-b4be-c260f963772a">
+    <!-- (G) entry_name: 'ejyaH -->
+    <!-- (G) part_of_speech: n:num -->
+    <column name="definition_sv">oändlighet [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="3fe3ff70-37f9-4ce7-9e50-cc1eeb3573eb">
+    <!-- (G) entry_name: 'ejyo' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">Stjärnflottan (Starfleet)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="87988506-e828-4d8c-9940-4f070b94c556">
+    <!-- (G) entry_name: 'ejyo' ra'ghomquv -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">Starfleet Command [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6f95655b-d467-4fc3-9b4b-fea16c929e7f">
+    <!-- (G) entry_name: 'ejyo'SeH yaHnIv -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">Starfleet Operations Command [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är vad Starfleet-ekvivalenten för {yo'SeH yaHnIv:n} teoretiskt skulle kallas. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d0fd57aa-8241-43df-b435-e7adb790b42a">
+    <!-- (G) entry_name: 'ejyo'waw' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">stjärnbas, rymdstation</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9a7a7e04-98c4-4043-97a7-ec869e6a65de">
+    <!-- (G) entry_name: 'ej HumtaH 'ej DechtaH 'Iw -->
+    <!-- (G) part_of_speech: sen:lyr -->
+    <column name="definition_sv">Och blodet var fotled djupt (dricka sång) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6f013dfa-4e24-46c8-a590-bb52cd4aadf0">
+    <!-- (G) entry_name: 'el -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_sv">göra entré, gå in i, komma in</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="513425b9-75ad-47bf-8d27-ff012df6b8f5">
+    <!-- (G) entry_name: 'elaS -->
+    <!-- (G) part_of_speech: n:place,fic -->
+    <column name="definition_sv">Elas (planet)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="39d8897e-ce12-4da6-8f01-75b6da9aca4c">
+    <!-- (G) entry_name: 'elmeH chaw' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">biljett, entrépass [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Observera att detta specifikt är en biljett för inresa. För andra typer av biljetter, överväg ett annat verb i stället för {'el:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="97e5f1aa-7eec-4eb7-898f-82f5fd093c15">
+    <!-- (G) entry_name: 'elI'jaH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">oväntad besökare, oinbjuden gäst</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="3e9635fd-5513-410e-bd5a-7856b0d2eaea">
+    <!-- (G) entry_name: 'elpI' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">serveringsfat, uppläggsfat</column>
+    <column name="notes_sv">Detta är vanligtvis tillverkat av metall. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="e1cc9778-83eb-4292-a8fe-f2ffce16c754">
+    <!-- (G) entry_name: 'em -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">bakom, område bakom</column>
+    <column name="notes_sv">Se {'o':n} för den bakre delen av ett objekt. Se även {lurgh:n} för andra ord relaterade till rumsliga riktningar. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="29fee9a2-2995-4c03-ab41-36db92239285">
+    <!-- (G) entry_name: 'em -->
+    <!-- (G) part_of_speech: v:t -->
+    <column name="definition_sv">kräkas, spy</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="cdbcaab4-94c0-499b-82dc-d3f8662c3ea0">
+    <!-- (G) entry_name: 'emrIgh -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_sv">förfader [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="8ea7abfb-0d90-4c8a-b04a-a94ff7812060">
+    <!-- (G) entry_name: 'emvI' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">stift (rak) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6d8c7949-9ab1-4e97-99a8-296c1e5c97e8">
+    <!-- (G) entry_name: 'emvI' ngaQ -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">säkerhetsnål [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="05e0d1f0-27b3-4ad3-ad45-064e4f4f3697">
+    <!-- (G) entry_name: 'en -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara inte något, inte- [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="83e6e538-0095-477d-99e6-55927d9eeeac">
+    <!-- (G) entry_name: 'enDeq -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_sv">blåsa [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta avser anatomi, men kan användas metaforiskt i andra sammanhang.
+
+Det tar suffixet {-Du':n} även om det används metaforiskt. [2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="c933cb40-3f46-4952-be7d-f338ba45fbb3">
+    <!-- (G) entry_name: 'enno -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">lins [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6f5c6fd0-131f-4c7e-abb9-0fe571c2181c">
+    <!-- (G) entry_name: 'enteD -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">läkemedel [AUTOTRANSLATED]</column>
+    <column name="notes_sv">De flesta {'enteDmey:n@@'enteD:n, -mey:n} används ritualistiskt, men fritidsanvändning är inte ovanligt (som med alkohol). Detta ord täcker inte medicinska läkemedel, som är {Hergh:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5d407683-2ca0-4d16-bd73-9773fa5379ba">
+    <!-- (G) entry_name: 'entepray' -->
+    <!-- (G) part_of_speech: n:name,fic -->
+    <column name="definition_sv">Enterprise (ett skepp)</column>
+    <column name="notes_sv">Detta är namnet på en serie Federations-rymdskepp. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9600da2e-2e72-46c5-b16f-7c063f9bb36d">
+    <!-- (G) entry_name: 'eng -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_sv">moln</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="35b270e7-ce37-4976-8279-80890c1c6069">
+    <!-- (G) entry_name: 'ep -->
+    <!-- (G) part_of_speech: v:1,t_c -->
+    <column name="definition_sv">konsumera soppa, äta gryta</column>
+    <column name="notes_sv">Detta verb hänvisar till en handling som ligger mellan {Sop:v} och {tlhutlh:v}. I synnerhet hänvisar det till att konsumera {chatlh:n:1}, som innehåller mindre vätska än vad en Terran kan identifiera som soppa. [1, p.206] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="dd599ab0-e13b-4e12-a89d-c9677d2021ad">
+    <!-- (G) entry_name: 'ep -->
+    <!-- (G) part_of_speech: v:2,t_c,slang -->
+    <column name="definition_sv">mänsklig stil kyss [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är ett icke-standard, slangigt uttryck för mänsklig stilkyss. Att kyssa Klingon-stil skulle vara till {chop:v}.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="bf5add29-6866-4f3f-95c9-82ae4c363077">
+    <!-- (G) entry_name: 'epIn -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">persika [AUTOTRANSLATED]</column>
+    <column name="notes_sv">En Klingon-frukt som liknar en persika, plommon eller aprikos. När klargöring krävs för jordfrukten föregås med {tera':n}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="302412b0-381a-409c-a252-d886bafcb6ea">
+    <!-- (G) entry_name: 'eQ -->
+    <!-- (G) part_of_speech: adv -->
+    <column name="definition_sv">precis nu, bara för några sekunder eller minuter sedan, för ett ögonblick sedan [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="4a748398-d06d-43af-a054-d50ac47d972b">
+    <!-- (G) entry_name: 'eQway -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_sv">navel</column>
+    <column name="notes_sv">Detta ord bör inte förväxlas med {'eQway':n}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="b5ba933a-f8b2-40db-9278-1d14545b3e86">
+    <!-- (G) entry_name: 'eQway' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">mus (datortillbehör)</column>
+    <column name="notes_sv">Detta avser en datorinmatningsenhet. Den har vanligtvis två knappar (kallad {leQ:n}): en {poS leQ:n@@poS:n, leQ:n} och en {nIH leQ:n@@nIH:n, leQ:n}.
+
+Detta ord bör inte förväxlas med {'eQway:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="1ffb39cc-dbc9-4282-afe6-0b5ad6fdc58e">
+    <!-- (G) entry_name: 'eQway' 'echlet -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">musmatta [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="f6859655-47b7-41ee-b1d5-9ffcaf325382">
+    <!-- (G) entry_name: 'eq -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara tidig</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7240ed17-3516-44fa-b8e9-ecae59fbe2d0">
+    <!-- (G) entry_name: 'er -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_sv">ett slags djur</column>
+    <column name="notes_sv">Detta djur hålls som ett husdjur. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="2a7f2a8d-77ff-4abf-96dd-49bac36ba533">
+    <!-- (G) entry_name: 'ergh -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">hallucinate [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7fec2558-2a6e-4ddf-94a6-a3ebb09ec80b">
+    <!-- (G) entry_name: 'erwI'Daq -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">telepati [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7fcea22b-4b7b-4ec9-aa0d-0dde9f89837b">
+    <!-- (G) entry_name: 'er'In -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">ände (på pinne, tråd etc.; motsatt {megh'an:n})</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="f8840e2c-0357-4085-9381-99e2968e25aa">
+    <!-- (G) entry_name: 'eS -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara låg</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5915612c-5ef0-486d-a8e4-5c43de6535f5">
+    <!-- (G) entry_name: 'eSqa' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">religiöst plagg, manteln som bärs av en domare [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är ett gammalt ord som hänvisar till specialiserade eller rituella kläder (men inte en uniform). [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="da623e70-ee06-491c-b809-9dd78601218a">
+    <!-- (G) entry_name: 'eSreH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">dagg [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="e1f7391e-02d6-4f90-9fca-fd438a7c8337">
+    <!-- (G) entry_name: 'et -->
+    <!-- (G) part_of_speech: v:i_c -->
+    <column name="definition_sv">studsa, rebound, ricochet [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Det som ämnet hoppar av är markerat med {-vo':n}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ce5102ff-d74b-4439-937d-49c0a93d7cf0">
+    <!-- (G) entry_name: 'et -->
+    <!-- (G) part_of_speech: n:2 -->
+    <column name="definition_sv">för (ej akter)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5533096d-b028-414e-9093-f6ebf17dcc6e">
+    <!-- (G) entry_name: 'etlh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">svärd, klinga</column>
+    <column name="notes_sv">Detta kan hänvisa till kniven på en kniv eller spjut. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6f2fee11-5e81-41d4-99b8-7aee57768f90">
+    <!-- (G) entry_name: 'etlh QorghHa'lu'chugh ragh 'etlh nIvqu' 'ej jejHa'choH. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_sv">Även det bästa bladet kommer att rosta och växa tråkigt om det inte bryts om. [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="4b3e6de8-04ea-43ab-a5bc-a673da19f089">
+    <!-- (G) entry_name: 'ev -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">område nordvästerut, område i nordväst</column>
+    <column name="notes_sv">Detta är ungefär 320 grader på en Terran kompass, om norr är 0 och grader räknas medsols. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="91edc8cb-7300-4494-87aa-0c3d9b0ae63c">
+    <!-- (G) entry_name: 'ev tIng -->
+    <!-- (G) part_of_speech: n:alt -->
+    <column name="definition_sv">{tIng 'ev:n}</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="60171dcf-a5d0-4c17-af8c-c9a278699e34">
+    <!-- (G) entry_name: 'ev -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_sv">applådera [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta gäller vad som helst som Klingons gör för att applådera eller visa godkännande / uppskattning. Det vanligaste sättet att hänvisa till klappningen som människor gör är med frasen {toch yo:sen@@toch:n, yo:v} "slap palm (s)." [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ac594371-28d8-4197-9fdf-9b9c28209248">
+    <!-- (G) entry_name: 'evnagh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">subrymd, underrymd</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="f107c9a9-f62f-4606-8f51-0b0102b9d431">
+    <!-- (G) entry_name: 'evnagh Se' HablI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">subspace radio [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d89bbde1-f711-4770-a19e-15907138126e">
+    <!-- (G) entry_name: 'evta' -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_sv">djur som liknar en newt eller salamander [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="65f54e9f-f632-4b3e-acdd-cbc676befc8e">
+    <!-- (G) entry_name: 'evtlhev -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">bas (kemi) [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta avser en klassificering av ämnen i kemi. Det är inte detsamma som "alkali", men inkluderar alkalier. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="e3de317d-1aaa-4b66-bd0d-75e297b14867">
+    <!-- (G) entry_name: 'ey -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara god, vara delikat, vara välsmakande, vara harmonisk</column>
+    <column name="notes_sv">Detta ord används på mat och musik. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="0dcce5f8-d0ba-449f-88d2-4d60a6e89920">
+    <!-- (G) entry_name: 'eyHa' -->
+    <!-- (G) part_of_speech: v:is,deriv -->
+    <column name="definition_sv">vara otrevlig [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta används för livsmedel som är tillagade dåligt. [1, p.84] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="b724a767-b9ef-4649-8f43-229438e41fef">
+    <!-- (G) entry_name: 'e' -->
+    <!-- (G) part_of_speech: n:pro -->
+    <column name="definition_sv">det (föregående ämne)</column>
+    <column name="notes_sv">Detta pronomen används som objektet för den andra meningen i en mening som objekt. Den hänvisar till föregående mening som helhet. I en sådan konstruktion tar den andra meningen aldrig ett aspektfix.
+
+Normalt används {net:n:pro} när ämnet för verbet är obestämd (det vill säga {X net Y:sen:nolink} används istället för {X 'e' Y-lu':sen:nolink}). Detta är dock inte alltid fallet. Se {net:n:pro} för exempel.
+
+Förväxla inte detta pronomen med suffixet {-'e':n:suff}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5ac0312e-7f03-42f9-ad48-409feae0903a">
+    <!-- (G) entry_name: 'e' qa' -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_sv">istället för [AUTOTRANSLATED]</column>
+    <column name="notes_sv">När {'e':n:pro} används på substantivfraser behövs det inte grammatiskt, men på grund av den vanliga användningen av {'e' qa':sen:nolink}-konstruktionen hörs det ibland ändå. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="8a919661-ed8e-4e90-a29c-dd16d0afd0c1">
+    <!-- (G) entry_name: 'e'mam -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_sv">faster (fars syster)</column>
+    <column name="notes_sv">Barnet till en {'e'mam:n:nolink} är en {lor:n:1}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="04b9111b-c171-450b-8658-37e6575b11a3">
+    <!-- (G) entry_name: 'e'mamnal -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_sv">faster (fars brors hustru)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9a57ac4f-bcf7-48cc-bc99-fda7e2156556">
+    <!-- (G) entry_name: 'e'nal -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_sv">ingift person, någon som gift in sig i familjen</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+</mixins>

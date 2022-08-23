@@ -1,0 +1,2223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixins>
+  <mixin target="4bedddcf-364b-4829-b6ea-70229750cbb4">
+    <!-- (G) entry_name: pay -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">輔音{p:sen:nolink}</column>
+    <column name="notes_zh_HK">這是指聲音，而不是任何字母或字形。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b7e61ba1-5b55-4c02-8953-50341246918c">
+    <!-- (G) entry_name: pab -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_zh_HK">遵循（規則） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="1650108b-695e-4177-bfda-106a930d4a35">
+    <!-- (G) entry_name: pabHa' -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_zh_HK">誤入歧途[規則]、錯誤地遵循[規則] [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這描述了語法規則的明顯蓄意的輕微彎曲，這是構造{mu'mey ru':n}的常見方法。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c5f5512d-12b9-4312-949b-30e97a9f853f">
+    <!-- (G) entry_name: pab -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_zh_HK">語法</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="cb43e209-b67f-43de-8c21-5e104d270781">
+    <!-- (G) entry_name: pab buv -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">詞類</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="9a40606a-44d0-4804-b589-611b821f5266">
+    <!-- (G) entry_name: pach -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_zh_HK">爪</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="f6ec42ea-57d9-4ce3-8da3-5f4e4d9d169c">
+    <!-- (G) entry_name: pach moQ -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">高閣槌 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="143a3763-467c-4e1c-8e10-9b944cd061e3">
+    <!-- (G) entry_name: pagh -->
+    <!-- (G) part_of_speech: n:1,klcp1 -->
+    <column name="definition_zh_HK">沒有、沒有、沒有人 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="02c10fd6-8991-4ca1-a97f-96413bee02a7">
+    <!-- (G) entry_name: pagh -->
+    <!-- (G) part_of_speech: n:2,num -->
+    <column name="definition_zh_HK">零</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="012257b3-158a-4e96-8efc-5b0af609ad12">
+    <!-- (G) entry_name: paghDIch -->
+    <!-- (G) part_of_speech: n:num,deriv -->
+    <column name="definition_zh_HK">零 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這用於描述預期發生或可能想到但未發生的事情。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="3e9ab846-87c7-42e8-90db-4b1ad630a6f6">
+    <!-- (G) entry_name: paghlogh -->
+    <!-- (G) part_of_speech: adv:deriv -->
+    <column name="definition_zh_HK">決不 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是{not:adv}的重要替代方案。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="8336ba19-d8c7-4397-8935-1800c7dde80f">
+    <!-- (G) entry_name: pagh -->
+    <!-- (G) part_of_speech: conj:klcp1 -->
+    <column name="definition_zh_HK">或者、或者（加入句子） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">在克林崗語中，不能使用連詞{pagh:conj}向某人提供兩個選項，例如「投降」。 {bIjegh pagh bIHegh:sen:nolink}的意思是「您正在投降或正在死亡」（好像說話者不確定發生了什麼）。取而代之的是，該句子必須改寫為「如果您不投降，就會死」。有關更多信息，請參見{bIjeghbe'chugh vaj bIHegh!:sen}。
+
+連接多個句子時，僅需要最後一個連詞。請參閱{qoj:conj}下的示例。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="2ea553f2-4063-4aab-9c43-ce4f8c356e42">
+    <!-- (G) entry_name: paghur -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_zh_HK">隱士，隱士 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="3e0453c3-9862-43ae-8c54-e032e41350d6">
+    <!-- (G) entry_name: paH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">禮服、連衣裙 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="9e093305-3773-4d71-81cb-bf369f09d9a3">
+    <!-- (G) entry_name: paH bID -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">短裙 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="502e5450-ac6f-45ce-81b0-a41bb81cda35">
+    <!-- (G) entry_name: paj -->
+    <!-- (G) part_of_speech: v:t -->
+    <column name="definition_zh_HK">辭職 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="9c7c9765-3924-414b-8fee-286ca6c487cc">
+    <!-- (G) entry_name: pal'ar -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_zh_HK">親屬，家庭成員 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="0e736d5e-b5da-4f27-8260-9faceda759c1">
+    <!-- (G) entry_name: pan -->
+    <!-- (G) part_of_speech: v:1,t -->
+    <column name="definition_zh_HK">火花、發出火花 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="43ba49dc-cd47-4da0-9a52-6567120df4d0">
+    <!-- (G) entry_name: pan -->
+    <!-- (G) part_of_speech: v:2,t_c -->
+    <column name="definition_zh_HK">解決 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這意味著確定對{ngajrun:n}，{poymar:n}，{Qay'mol:n}等的解決方案。說這句話的語是{SIHHa'moH:v}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="55501c0f-8fbc-46bd-a335-2e93f5ef5671">
+    <!-- (G) entry_name: pang -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_zh_HK">採（弦樂器） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="728d76db-cfcb-43fc-9e6d-75fd67fbc231">
+    <!-- (G) entry_name: paq -->
+    <!-- (G) part_of_speech: n:1h,klcp1 -->
+    <column name="definition_zh_HK">書</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="94bcf1a5-9219-4272-8be4-459a5e36c838">
+    <!-- (G) entry_name: paq -->
+    <!-- (G) part_of_speech: n:2,name,fic -->
+    <column name="definition_zh_HK">學 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">Torghn的兒子（{torghen:n:name}），以及{KCD:src}中的Holodeck模擬的主要角色。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="10df9a8e-ef2c-426f-b642-1a3c5f5b2be2">
+    <!-- (G) entry_name: paq Duj -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">流動圖書館 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="5a021be0-0fbd-4a40-ad4d-02c48e01e813">
+    <!-- (G) entry_name: paq nojwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">圖書管理員 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="164718e6-3b88-4b95-8a21-936d41e83868">
+    <!-- (G) entry_name: paq nojwI' qach -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">圖書館（建築） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="2438edeb-a872-4927-b1d7-8cf2f4d3375e">
+    <!-- (G) entry_name: paq nojwI' tum -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">圖書館（公共） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d1e747ac-8359-4c87-b8ed-dd721151468c">
+    <!-- (G) entry_name: paq 'ay'mey -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">內容，目錄（一本書的） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="9e386276-eea2-4714-8940-3f92ce3e2e4c">
+    <!-- (G) entry_name: paq'batlh -->
+    <!-- (G) part_of_speech: n:archaic,deriv -->
+    <column name="definition_zh_HK">榮譽經</column>
+    <column name="notes_zh_HK">這是一本講述{qeylIS'e' lIjlaHbe'bogh vay':n:name}傳奇生活和事蹟的書的名稱。請注意，這本書的名稱在{no' Hol:n}中，而在現代標準克林崗語「榮譽書」中則是{batlh paq:n:nolink}；撇號表示可能缺少解釋轉換的語法元素.[1]
+
+{paq'batlh:n:nolink}分為三個主要部分，分別命名為{paq'yav:n}「 Ground Book」，{paq'raD:n}「 Force Book」和{paq'QIH:n}「 Impact Book」。
+
+假設相似的語法構造，另請參見{tIq'ghob:n:hyp}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="679e94be-6bbe-49e0-b463-affa9e12a39e">
+    <!-- (G) entry_name: paQ -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_zh_HK">冥想（on）、cogitate（about）、反思（on）、思考 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這個詞可以（但不是必須）帶一個對象，該對象指示正在冥想或思考的事物。它並不表示「 entreat」，因此「 pray」可能不是適當的翻譯。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="ba40574e-51bb-4f2d-b75a-96718e156be1">
+    <!-- (G) entry_name: paQDI'norgh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">教導 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="545ed773-31a1-4960-84e9-4b7250ffead8">
+    <!-- (G) entry_name: par -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_zh_HK">反感、討厭</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="ea73edd8-d348-4095-bc8b-605482917cb0">
+    <!-- (G) entry_name: parbIng -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_zh_HK">一種中等大小的鳥、顏色特別鮮豔（至少從克林崗的觀點來看） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="febef0e9-0fdd-4267-9088-3ee6c7926867">
+    <!-- (G) entry_name: parchech -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">石膏粉 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是一種由水合硫酸鈣組成的礦物，具有許多用途，包括作為石膏的前體。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="6a0f3cd5-9636-48d5-81ee-6b370a782066">
+    <!-- (G) entry_name: pargh -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_zh_HK">是合成的、人造的 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d47ebfec-cc87-4b9d-89f0-458bef1c2fde">
+    <!-- (G) entry_name: parHa' -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_zh_HK">喜歡 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="8a7df226-8a42-4713-9a2e-b514e38a5e84">
+    <!-- (G) entry_name: parmaq -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">愛情、浪漫 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這個概念比翻譯所暗示的具有更加激進和強烈的內涵。[1; 2] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="66b26fa0-74fa-47c7-b630-2e0990b496f5">
+    <!-- (G) entry_name: parmaqqay -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_zh_HK">浪漫伴侶、情人</column>
+    <column name="notes_zh_HK">這個詞很少在直接地址中使用。而是由{bang pong:n}.[1, p.199]互相呼叫 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="bbf3bf1d-abb7-4d1d-9ab2-5701a0ea6563">
+    <!-- (G) entry_name: parmaq qep -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">日期 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是指浪漫或求愛的日子。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b19ba02a-1f59-41cf-87c8-589484b89f9f">
+    <!-- (G) entry_name: paS -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_zh_HK">遲到 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c1bdae8c-9a8c-4476-82a3-fc71e3248c3f">
+    <!-- (G) entry_name: paSjav -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">肉桂樣克林崗植物 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">{paSjav:n:nolink}是一棵克林崗樹，其樹皮被切成條狀並與某些食物一起食用，或者被碾碎（例如{ngat:n:2}）並添加到其他種類的食物中。 （它偶爾會從樹上剝下來，然後在那兒吃。）吃了過多{paSjav:n:nolink}的非克林貢人開始咳嗽。克林貢斯人認為這很有趣，而且從未厭倦。 {tera' paSjav:n@@tera':n, paSjav:n}是指肉桂的一種方式。[1] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="0a6c7613-de56-45a9-a1bd-78d42049056b">
+    <!-- (G) entry_name: paSlogh -->
+    <!-- (G) part_of_speech: n:inhpl -->
+    <column name="definition_zh_HK">襪（眾數）</column>
+    <column name="notes_zh_HK">說「一雙襪子」的通常方法是{paSlogh chang'eng:n@@paSlogh:n, chang'eng:n}； {tu'mI' chang'eng:n@@tu'mI':n, chang'eng:n}很奇怪，但是可以理解。[3] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="a0d5f351-5c08-4fcb-883e-19d02872d03e">
+    <!-- (G) entry_name: paSlogh tuQ DaS -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_zh_HK">內外兼修 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b7855b20-27f1-4ca6-973c-99ad5b73fc41">
+    <!-- (G) entry_name: paSrIq -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">地毯和地毯用織物 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這不適用於用於服裝的面料，請參見{weSjech:n}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="a4369335-4937-49a1-9bea-ee507fd1192e">
+    <!-- (G) entry_name: pat -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_zh_HK">系統</column>
+    <column name="notes_zh_HK">這是指物理（或類似物理）意義上的系統，而不是方法論，即{Ho'DoS:n}.[2]
+
+注意，星系的克林崗術語是{Hovtay':n}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b4c32e3b-1d42-4cc8-8b70-1708a8690208">
+    <!-- (G) entry_name: patat 'oQqar -->
+    <!-- (G) part_of_speech: n:food,terran -->
+    <column name="definition_zh_HK">土豆 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這就是克林崗人所說的人族蔬菜。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="39cba35a-65e9-47de-8c44-870f69c899cb">
+    <!-- (G) entry_name: patmor -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">翠 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c2a1081f-67c1-450f-8445-667580143c4c">
+    <!-- (G) entry_name: patlh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">等級（軍事、政府）、等級、層次、地位 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">見{yaS:n}下的軍銜。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c5d932df-5498-450f-86a9-c39646dcb49e">
+    <!-- (G) entry_name: patlh -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_zh_HK">被評定、有地位、被評分;被分類 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">要按字母順序對英語單詞列表進行排序，請使用諸如{wa'DIch a, HochDIch z:sen:nolink}（或{wa'DIch z, HochDIch a:sen:nolink}為相反順序）之類的構造。對於克林崗語，請使用{wa'DIch bay, HochDIch qaghwI':sen:nolink}或{wa'DIch qaghwI', HochDIch bay:sen:nolink}。要反轉列表，請使用{DopmoH:v}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="51122e2b-d55c-4a70-84e0-8ca6ba44fad3">
+    <!-- (G) entry_name: patlhmoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_zh_HK">評價分類</column>
+    <column name="notes_zh_HK">當對像是單數時，這表示「等級」，即「等級」。[2]
+
+當使用「比較」的含義時，動詞的賓語必須是複數。含義是事物之間的排名是相互比較的。[1]當用來表示「排序」時，對像不是列表（整體上），而是列表中的事物，即要進行排名或排序的事物。[3] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b995e0ea-8eff-45fa-99fe-9f9cfb534a0c">
+    <!-- (G) entry_name: pav -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_zh_HK">緊急 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="f661df5e-75b0-464f-9e29-2fe063a44f3e">
+    <!-- (G) entry_name: paw -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_zh_HK">到達 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">{paw:v:nolink}的工作方式類似於{jaH:v}.[2]
+
+不要將此與{paw':v:1}混淆。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="daf97014-031d-4771-be9e-2ca5624e453d">
+    <!-- (G) entry_name: paw' -->
+    <!-- (G) part_of_speech: v:1,i -->
+    <column name="definition_zh_HK">衝撞</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="48c0a246-cce3-4aa0-8fbd-eef70f72b00b">
+    <!-- (G) entry_name: paw' -->
+    <!-- (G) part_of_speech: v:2,i,slang -->
+    <column name="definition_zh_HK">對接頭 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">與該動詞的字面用法（請參閱{paw':v:1}）一樣，當以其lang語含義使用時，它也包含多個主語，在這種情況下，是撞頭的人。要說兩個人發生碰撞而並不意味著他們在撞頭，可以將{ngeQ:v}與{-chuq:v:suff}.[1]一起使用。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="3fc9dd5c-accd-4af0-90e3-0b6f8b46700b">
+    <!-- (G) entry_name: paw'aD -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_zh_HK">靜脈 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">隨著時間的推移，從{pawmeH 'aD:n@@paw:v, -meH:v, 'aD:n}開始縮短了時間。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e675b493-56a1-487e-9626-a364370bef8e">
+    <!-- (G) entry_name: pay -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_zh_HK">後悔 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="fdb8d162-5ec9-4acd-991b-c773f42d3a98">
+    <!-- (G) entry_name: pay' -->
+    <!-- (G) part_of_speech: adv -->
+    <column name="definition_zh_HK">突然 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="1c173f4d-1bde-4abc-b94d-0ad866fbce02">
+    <!-- (G) entry_name: pay'an -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">粒子</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d7946fcc-2b1d-4c01-9c3c-2f5671eefa35">
+    <!-- (G) entry_name: pay'rIn -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">考古遺址 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c1d0b988-da63-497b-97aa-32381df4c36c">
+    <!-- (G) entry_name: pa' -->
+    <!-- (G) part_of_speech: n:1,klcp1 -->
+    <column name="definition_zh_HK">房間、封閉區域、房間 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這個詞與{pa':n:2}諧音。但是，{pa'Daq:n:nolink}明確表示「在房間裡」。
+
+{pa':n:1h,nolink}的{bIS'ub:n}是其{rav:n:1}，其{'aqroS:n:1}是其{rav'eq:n}。如果{pa':n:1h,nolink}位於{qach:n}的頂層，則其{rav'eq:n}稱為{pa' beb:n}。 {pa':n:1h,nolink}的牆是{tlhoy':n}；如果牆的另一側是{Hur:n}，則該牆也稱為{pa' reD:n}。 {tlhoy':n}這個詞可以指房間的任何一側；故事之間的天花板/地板稱為{tlhoy' SaS:n}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="be231e52-064b-44aa-85a1-e3ea16ce26d6">
+    <!-- (G) entry_name: pa' -->
+    <!-- (G) part_of_speech: n:2,klcp1 -->
+    <column name="definition_zh_HK">那裡、那邊</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="9933bd42-e9e7-4ce5-b811-ad96ea1719dc">
+    <!-- (G) entry_name: pa' beb -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">頂樓故事室的天花板 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是指位於建築物頂層（或僅頂層）的房間的天花板（{'aqroS:n:1}）。如果上方有房間，則為{rav'eq:n}.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="2a19235f-121e-4bb6-9a7d-895ed1c7ab48">
+    <!-- (G) entry_name: pa' jIHpu'be'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">我不在那裡。 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="1bdcf5c0-8d03-4b41-80fa-437e3eeef8e5">
+    <!-- (G) entry_name: pa' reD -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">外牆的內部面 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b67711ff-e526-401c-aa10-6c5804732c5f">
+    <!-- (G) entry_name: pa'jaH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">韻 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="41c50270-15bc-49ad-8bba-dbcc45bb4b7a">
+    <!-- (G) entry_name: pa'logh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">過去（整體而言） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">相比之下，{'op ret:n}的意思是「過去的某個時候」。[1] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="701bdf0f-165f-48f7-a1b8-c8e6923792e7">
+    <!-- (G) entry_name: pa'vo -->
+    <!-- (G) part_of_speech: n:place,fic -->
+    <column name="definition_zh_HK">Pahvo [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="de17385a-f1b0-4b19-924c-4799d044a032">
+    <!-- (G) entry_name: pa'vongan -->
+    <!-- (G) part_of_speech: n:being,deriv,fic -->
+    <column name="definition_zh_HK">Pahvan [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="88ee245f-4e2a-494c-ab61-bf4afd740f93">
+    <!-- (G) entry_name: pa'vo' yIjaH! -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">離開這個房間！ [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="0694b9dc-729e-4d79-addf-6863230fcba8">
+    <!-- (G) entry_name: pe- -->
+    <!-- (G) part_of_speech: v:pref -->
+    <column name="definition_zh_HK">（命令）你們：無</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="6d3e506d-61bb-42c7-8889-16847128b484">
+    <!-- (G) entry_name: peb'ot -->
+    <!-- (G) part_of_speech: n:food -->
+    <column name="definition_zh_HK">水果類型 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">將其浸泡在{chanDoq:n}中並食用。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="fe05992d-7b10-48c0-bf0a-0f1930ecb2c8">
+    <!-- (G) entry_name: peD -->
+    <!-- (G) part_of_speech: v:i_c -->
+    <column name="definition_zh_HK">落雪、慢慢地飄落來（像雪一樣）</column>
+    <column name="notes_zh_HK">暴雪沒有已知的名詞或動詞，但可以說{peDqu':sen@@peD:v, -qu':v}，{pe'vIl peD:sen@@pe'vIl:adv, peD:v}甚至{pe'vIl peDqu':sen@@pe'vIl:adv, peD:v, -qu':v}.[2]
+
+此動詞還可用於下落運動類似於降雪的其他事物，例如麵包屑，五彩紙屑或灰燼。墜落的事物是主題。[3] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e98d8973-6eee-46f7-9b5b-0fd01919b466">
+    <!-- (G) entry_name: pegh -->
+    <!-- (G) part_of_speech: v:1,t_c,klcp1 -->
+    <column name="definition_zh_HK">保守秘密 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">該動詞也可以不帶賓語使用。參見{pegh:v:2}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="6fa875a2-e7c4-4c72-bacf-261caa35bfd4">
+    <!-- (G) entry_name: pegh -->
+    <!-- (G) part_of_speech: v:2,is -->
+    <column name="definition_zh_HK">保密 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">有關如何談論機密信息的示例，請參見{rav:n:2}。
+
+該動詞也可以與對像一起使用。參見{pegh:v:1}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="4c99bf7f-fa79-42ab-bd68-7da6265785c7">
+    <!-- (G) entry_name: pegh -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_zh_HK">秘密 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="98903b0a-2625-4861-9b82-1f55ddffe2e4">
+    <!-- (G) entry_name: peghmey vIttlhegh -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">保密諺語</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="a48817eb-6ef8-4fc8-910f-cdec975202d8">
+    <!-- (G) entry_name: peHghep -->
+    <!-- (G) part_of_speech: n:fic -->
+    <column name="definition_zh_HK">包容時代 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d0e07680-d25e-4249-bab0-92befafb809d">
+    <!-- (G) entry_name: pej -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_zh_HK">拆除 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="58c42bf9-83ba-4272-97c8-8abad5a0eebd">
+    <!-- (G) entry_name: pel'aQ -->
+    <!-- (G) part_of_speech: n:1 -->
+    <column name="definition_zh_HK">蛋殼 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">有一個慣用的表達方式{pel'aQDaj ghorpa':sen:idiom}「在它破殼之前」，意思是「在為時已晚之前」或「還有時間」。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="be63efa8-f456-42bb-a8d3-c6a8f910ca0d">
+    <!-- (G) entry_name: pel'aQ -->
+    <!-- (G) part_of_speech: n:2 -->
+    <column name="definition_zh_HK">棺材 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="3a03c73c-b065-4610-965e-80a69f8745ca">
+    <!-- (G) entry_name: pel'aQDaj ghorpa' -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_zh_HK">在為時已晚之前 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這字面意思是「在破殼之前」，作為慣用語，它的意思是「在為時已晚之前」或「在有時間的時候」。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="a41ae129-2407-4ba7-8446-b64f41e7de55">
+    <!-- (G) entry_name: pem -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">白天 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="825f533c-3c41-4102-a886-41fe24d8275e">
+    <!-- (G) entry_name: pemjep -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">正午</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="6409b216-cf22-4cc4-858e-daa293bb37d4">
+    <!-- (G) entry_name: pentatlh wej -->
+    <!-- (G) part_of_speech: n:place,fic -->
+    <column name="definition_zh_HK">Pentath III [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">Cardassian Union中的一顆行星。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="06e5bf50-b72e-48a6-afe0-82741339c9f5">
+    <!-- (G) entry_name: peng -->
+    <!-- (G) part_of_speech: n:inhps -->
+    <column name="definition_zh_HK">魚雷（單數）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="336fd12b-cf94-482b-8b21-7785f80a095d">
+    <!-- (G) entry_name: peng baHjan tuj ghImwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">魚雷發射器的熱量排放 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="0ca5d7bf-d843-4ee4-a0a5-977786e6d2f2">
+    <!-- (G) entry_name: pep -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_zh_HK">提高</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="55224ba9-850f-4358-9639-f2fb87152fab">
+    <!-- (G) entry_name: pep'en -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">當前 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是指空氣或水的運動。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="75737998-5c82-4d90-83ca-04951ed607c0">
+    <!-- (G) entry_name: peq -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_zh_HK">屠宰 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這個詞意指針對特定受害者的意圖。[1] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="2337c428-513a-4503-8aa0-5a8b7126d147">
+    <!-- (G) entry_name: peQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">磁性</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="de473eef-5199-403c-9620-d743f7a3dce9">
+    <!-- (G) entry_name: peQchem -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">磁場</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="14a5ce87-1fe2-4236-90dd-1018a985ff7a">
+    <!-- (G) entry_name: peQnagh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">磁石</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="ef08c365-f0c0-4bd3-8db4-1f2d5a03f674">
+    <!-- (G) entry_name: per -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">標籤 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b4f81837-a858-49f6-8f3e-7c0b0b862a2f">
+    <!-- (G) entry_name: per -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_zh_HK">標籤、確定、指定 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">動詞{per:v:nolink}通常表示「向其分配名稱」，但也可以用於「確定，指定，固定」這樣的概念。要求時間的一種方法是{rep yIper!:sen}，字面意思是「標註時間！」[2] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="65d142bf-cc3d-4326-842d-849ff23d74f4">
+    <!-- (G) entry_name: per yuD -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">代號</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="8ef56da7-c527-44d6-af91-4de9c131deb8">
+    <!-- (G) entry_name: perletlh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">樹樁 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這適用於樹木等，不適用於身體部位。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="2baf6bed-c745-4784-bc4d-d86d2f66e8ee">
+    <!-- (G) entry_name: peS -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_zh_HK">供應、提供、提供、分配 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這個動詞的賓語是發出的東西。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="998e1807-04ed-4deb-9980-fb219e595adf">
+    <!-- (G) entry_name: pet -->
+    <!-- (G) part_of_speech: v:i_c -->
+    <column name="definition_zh_HK">焊接（一起） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="850cefa9-fd51-4d77-9e68-9cb7df53ef3e">
+    <!-- (G) entry_name: petaQ -->
+    <!-- (G) part_of_speech: excl:epithet -->
+    <column name="definition_zh_HK">稱號 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="6aa06e21-51e1-4d2e-b64b-8de6659eeef2">
+    <!-- (G) entry_name: petqaD -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">骨粘合劑 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是{HaqwI':n}用來將折斷的骨頭粘合到位的裝置或物質。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="95756baa-d056-4312-a0ce-168ae18d13f1">
+    <!-- (G) entry_name: pevang! -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">採取行動！做吧！這樣做！ [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">在與多個人聯繫時使用。要向一個人講話，請說{yIvang!:sen@@yI-:v, vang:v}
+
+觀看Gowron這樣說：{YouTube video:url:http://youtu.be/QAd6OugYyxw} [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="9513246b-50c9-49cc-b725-b1140cdfe883">
+    <!-- (G) entry_name: pey -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">酸 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="ade015ac-bc3e-44e3-98b7-3dd1ce95e3b6">
+    <!-- (G) entry_name: pe' -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_zh_HK">切 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="dbb615f8-64ac-43e6-8431-1d2c1084b968">
+    <!-- (G) entry_name: pe'meH taj -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">切刀 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是指工具刀，而不是武器刀。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="55901bc4-8938-4e7c-83f9-8d8a43b1d6f8">
+    <!-- (G) entry_name: pe'meH 'echlet -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">切菜板 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="dbf01f22-b824-4703-9b82-2032cb3f8213">
+    <!-- (G) entry_name: pe'bIl -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">閃電 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b282cb64-ddcf-4f8b-af2c-7eab22efddad">
+    <!-- (G) entry_name: pe'vIl -->
+    <!-- (G) part_of_speech: adv -->
+    <column name="definition_zh_HK">強行、武力 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c012d19a-be7e-4abc-896d-63221c9dc558">
+    <!-- (G) entry_name: pe'vIlHa' -->
+    <!-- (G) part_of_speech: adv -->
+    <column name="definition_zh_HK">平緩 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="ba584b9c-f3e0-45f8-a7c2-908401c4307a">
+    <!-- (G) entry_name: pe'vIl bI'chu' -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_zh_HK">作為一個單一事件、一次做一些事情 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這種慣用語的字面意思是「強行掃除」。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="fd6aa3cb-0bbe-4bd6-9f9a-baefbf5ffbf8">
+    <!-- (G) entry_name: pe'vIl mu'qaDmey tIbach. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">詛咒好！ [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="32d96d9b-3780-445e-a48f-5295886c02fe">
+    <!-- (G) entry_name: pe'vIl roS -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_zh_HK">強有力地使用第三個腳趾 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這種慣用語表達了一個想法，即某人特別敏捷，敏捷或敏捷。
+
+動詞{roS:v:2}的意思是「使用第三隻腳趾」。它也與動詞{roS:v:1}諧音，意思是「舔」。但是，此動詞實際上可能是其他未知或古老的動詞{roS:v:3,hyp}，意思是「要敏捷」。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c2e492d1-efb4-406b-a4ff-ff5166d86792">
+    <!-- (G) entry_name: pe'vIl Supaw'jaj! -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">歡迎！</column>
+    <column name="notes_zh_HK">這是克林崗語的問候，用於歡迎團體參加活動。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="119c5989-44ae-496e-baf4-7d4488ad9cff">
+    <!-- (G) entry_name: pe''egh -->
+    <!-- (G) part_of_speech: v:i_c,deriv -->
+    <column name="definition_zh_HK">保持得分 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">單詞{mIvwa'mey:n@@mIvwa':n, -mey:n}用於保持提示或得分。要說「出」，請使用類似{loSlogh pe''egh; vaghlogh nID:sen@@loS:n:1,num, -logh:n:num, pe''egh:v, vagh:n:1,num, -logh:n, nID:v}的結構（即5分中的4分）。即使此人在四點之後停下來並且沒有試圖獲得第五分，也將使用此方法.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="9d0f984a-28fe-41b8-965d-16cacfb3134c">
+    <!-- (G) entry_name: pI- -->
+    <!-- (G) part_of_speech: v:pref -->
+    <column name="definition_zh_HK">我們：你</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="60fadb51-ae2e-471a-95f0-87db21585cdd">
+    <!-- (G) entry_name: pIch -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_zh_HK">怪罪、責備</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="41f1e74d-26ce-42dd-985e-ec7d3a7bf7fb">
+    <!-- (G) entry_name: pIch -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">罪、責</column>
+    <column name="notes_zh_HK">請注意，{ghaj:v}與該名詞一起使用來表示過錯或非議。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="1f1fd0d1-c8f4-4c10-a083-6e9ad8c41031">
+    <!-- (G) entry_name: pIch vIghajbe'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">這不是我的錯。 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="09436f8b-47e6-43c6-904d-e63871f938b3">
+    <!-- (G) entry_name: pIchSIv -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">尖酸刻薄 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="6a3fe92f-23a4-4dac-a9c3-dfe42ac11ff2">
+    <!-- (G) entry_name: pID -->
+    <!-- (G) part_of_speech: v:1,t_c -->
+    <column name="definition_zh_HK">帶有草藥混合物的外套（食物） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="85a1dd7c-0005-49e9-98a6-0b7196255fdd">
+    <!-- (G) entry_name: pID -->
+    <!-- (G) part_of_speech: v:2,t_c,alt,slang -->
+    <column name="definition_zh_HK">{laS:v}</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="1acb1a65-eb01-4c9a-b6e7-0ff9ffe8e03a">
+    <!-- (G) entry_name: pIgh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">廢墟 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c695b323-8ac8-44d4-b12c-193d5fc0766b">
+    <!-- (G) entry_name: pIH -->
+    <!-- (G) part_of_speech: v:1,t_c,klcp1 -->
+    <column name="definition_zh_HK">期望 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="8c7cb941-00a1-45e1-a2ef-119190ec0743">
+    <!-- (G) entry_name: pIH -->
+    <!-- (G) part_of_speech: v:2,is -->
+    <column name="definition_zh_HK">可疑</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="11d557b7-51be-4a5b-a1bb-b35b407f46f4">
+    <!-- (G) entry_name: pIj -->
+    <!-- (G) part_of_speech: adv -->
+    <column name="definition_zh_HK">經常、頻繁</column>
+    <column name="notes_zh_HK">強調的另一種表達方式是近距表達：{V 'ej V-qa' ('ej V-qa'...):sen:nolink}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c00fad24-0ccb-4f5a-be1f-162f7e41698d">
+    <!-- (G) entry_name: pIj monchugh vay' yIvoqQo'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">唔好相信經常微笑嘅人。</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e5aa1ee0-0096-435f-a96f-b4bdfabea470">
+    <!-- (G) entry_name: pIj tay'taH Doch pIm -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">無限組合中的無限多樣性 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是瓦肯哲學的基本宗旨，這個想法笨拙地翻譯成克林崗語。翻譯的意思是「不同的事物始終保持在一起」。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="2ddbdccb-c882-451a-b47a-925a8e14cae6">
+    <!-- (G) entry_name: pIjHa' -->
+    <!-- (G) part_of_speech: adv -->
+    <column name="definition_zh_HK">不常、少有、很少</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="3282c1da-e485-498b-9974-cfb2b8312a49">
+    <!-- (G) entry_name: pIl -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_zh_HK">受到激勵、受到啟發、受到激勵 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">與{vaw:v}相比，這是指外部來源的動力。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="15cbe0be-3d24-44cb-b5fa-ed138a7194f3">
+    <!-- (G) entry_name: pIlHa' -->
+    <!-- (G) part_of_speech: v:is,deriv -->
+    <column name="definition_zh_HK">沒有動力 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="196f6e9a-981f-4f50-a9bc-6f92d9c99c4a">
+    <!-- (G) entry_name: pIlmoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_zh_HK">刺激、激勵、激勵 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這可以應用於音樂。[1, p.71] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="3ab18a2e-3a84-46a9-a228-365f56483cd5">
+    <!-- (G) entry_name: pIlghIm -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">桅杆、旗桿 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="2acb4504-df56-4495-97f9-28ff69b9c10b">
+    <!-- (G) entry_name: pIm -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_zh_HK">與眾不同 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="6a761d14-3a00-41f6-a0ee-23d6dcddee81">
+    <!-- (G) entry_name: pIn -->
+    <!-- (G) part_of_speech: n:1,being,klcp1 -->
+    <column name="definition_zh_HK">上頭、老闆</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d26f17a2-3f68-45f1-9ece-595e751c633d">
+    <!-- (G) entry_name: pIn -->
+    <!-- (G) part_of_speech: n:2,being,slang -->
+    <column name="definition_zh_HK">專家、權威人士</column>
+    <column name="notes_zh_HK">從這個語的意義上講，{pIn:n:nolink}絕不會單獨使用，而始終是名詞名詞構造中的第二個名詞。 「專家」的非s語術語是{po'wI':n}.[1, p.158] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="9eb6b6c5-4f14-4f80-a150-70d88cdf29c5">
+    <!-- (G) entry_name: pIn tlhoy' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">領土牆（例如柏林牆） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="87a386c0-ebb8-44ae-b4ad-6922a9a21b8a">
+    <!-- (G) entry_name: pInHom -->
+    <!-- (G) part_of_speech: n:deriv,slang -->
+    <column name="definition_zh_HK">圍裙（衣服） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這個語可以在非正式場合使用，但絕不能在科學實驗室或重型車間使用。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d8c7b47c-a7d9-4e84-a3b8-c3d9ee74dfff">
+    <!-- (G) entry_name: pIn'a' -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_zh_HK">主 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="81283e26-be51-40bc-a327-b1586e69ebe2">
+    <!-- (G) entry_name: pInaDqu' tuqlIj wInaDqu' je. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">榮耀你和你的房子。 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是在{muvtay:n}期間說的一種禮節性用語。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="7462f781-3da8-423d-ad76-f9acced61ff2">
+    <!-- (G) entry_name: pIp -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_zh_HK">椎骨、脊柱、背脊骨</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="bb4bbfba-e913-4a4c-8b31-0017977331d6">
+    <!-- (G) entry_name: pIpyuS -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">pipius [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">它的爪子用作食物，需要打碎。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="077c16c3-8fca-4531-a168-a93762fbe6be">
+    <!-- (G) entry_name: pIpyuS pach -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">琵琶爪（食物） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b357819c-cb06-471c-8050-1101a55b6842">
+    <!-- (G) entry_name: pIpyuS pach DaSop DaneHchugh pIpyuS puS DaghornIS. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">如果你想吃琵琶爪，你將不得不打破一些pipiuses。 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="0a9a7ec9-8d3f-4ff8-8812-0592c457050e">
+    <!-- (G) entry_name: pIpyuS yIghor! -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">打破p！！ [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是一種表達，告訴某人（通常是孩子）開始某些事情或為項目投入更多的精力。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="70f60b06-025c-42e1-92fc-35d038dc54dc">
+    <!-- (G) entry_name: pIq -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">從現在開始的時間段（未來） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="df180677-91d6-4e3e-af38-f74f8224b5a0">
+    <!-- (G) entry_name: pIqaD -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">克林崗書寫系統 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="67730b78-8e78-4d30-9638-ca7256a80288">
+    <!-- (G) entry_name: pIqarD -->
+    <!-- (G) part_of_speech: n:name,alt,fic,noanki -->
+    <column name="definition_zh_HK">{janluq pIqarD:n:name}</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="66125a8e-18b7-41e6-9b17-0fa847c52398">
+    <!-- (G) entry_name: pIqcho' -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_zh_HK">運動員 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這可以指一個人或一個動物，並可以採用多個後綴。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="3ac8db57-1d7e-4184-9506-c681d407683e">
+    <!-- (G) entry_name: pIqcho' qaD -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">體育比賽 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="bb2e1450-a5fe-43a8-85c1-1c6bbec89258">
+    <!-- (G) entry_name: pIqcho' Quj -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">體育比賽 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c322c922-7264-444c-82f0-42a9b11a3dae">
+    <!-- (G) entry_name: pIQ -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_zh_HK">直接的 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="902d9829-b437-4d66-aa48-4ba96c0fe87b">
+    <!-- (G) entry_name: pIQHa' -->
+    <!-- (G) part_of_speech: v:is,deriv -->
+    <column name="definition_zh_HK">是間接的、是迂迴的、是狡猾的 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="1c216f11-b1d7-4857-aec3-bbb79c441569">
+    <!-- (G) entry_name: pIr -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_zh_HK">肥沃 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這可以應用於土地，動物和人以及許多其他事物。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="9f6c228f-548d-4023-89a2-6ab42a08fa4d">
+    <!-- (G) entry_name: pIraqSIS -->
+    <!-- (G) part_of_speech: n:place,fic -->
+    <column name="definition_zh_HK">普拉西斯（克林崗衛星）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d4f17819-f769-4385-abcd-61baf9c5625a">
+    <!-- (G) entry_name: pIrmuS -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">底部（外）</column>
+    <column name="notes_zh_HK">這是指對象的底面，而不是其內部底部（即其{bIS'ub:n}）。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="9c665fa2-4e2a-447a-991d-18fcd0ee8862">
+    <!-- (G) entry_name: pItlh -->
+    <!-- (G) part_of_speech: excl:klcp1 -->
+    <column name="definition_zh_HK">完成（在完成任務時發出） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e0ce1c54-4e60-45d0-931b-026c212e29fa">
+    <!-- (G) entry_name: pIv -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_zh_HK">健康 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="1ed1f70b-998d-4bfe-9a30-e5ac9b108785">
+    <!-- (G) entry_name: pIvchem -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">經線場 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="8e817f1f-e0df-4791-b36f-64b8bf9bed47">
+    <!-- (G) entry_name: pIvchem lIngwI' DaH -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">warp字段生成數組 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="7b856c01-81db-442e-a124-aa6cc8c39e70">
+    <!-- (G) entry_name: pIvchem SeHwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">經線場控制器 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="94f53a50-5380-4f8e-899d-9412bb71c09c">
+    <!-- (G) entry_name: pIvghor -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">曲速引擎、曲速驅動</column>
+    <column name="notes_zh_HK">觀看Gowron這樣說：{YouTube video:url:http://youtu.be/uf77DXNXSFY} [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="5e871cb0-7ac8-452e-b868-390be747d01b">
+    <!-- (G) entry_name: pIvghor lIngwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">扭曲發生器 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e99cde35-f2ff-457e-a99f-645ed49197e5">
+    <!-- (G) entry_name: pIvghor lIngwI' DaH -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">warp生成數組 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d7d9f10f-1b34-4fbf-a29b-8b4502158ebe">
+    <!-- (G) entry_name: pIvghor pat -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">變形驅動系統 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="43e7f93e-d2e7-4281-8e16-5717f8f6b048">
+    <!-- (G) entry_name: pIvlob -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">扭曲因子 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="2576abba-84b7-4ea5-8924-d3722c51d63a">
+    <!-- (G) entry_name: pIvyoch -->
+    <!-- (G) part_of_speech: n:food -->
+    <column name="definition_zh_HK">小費 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是一種特殊的辛辣克林崗飲料。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="be69f291-afdc-4ad8-8809-9ae03ab86dbb">
+    <!-- (G) entry_name: pIw -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">氣味 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e80cf83c-b809-4903-8c84-2f3480745406">
+    <!-- (G) entry_name: pIw rebmugh -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">香 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="759c592f-649e-4047-b6d9-5623642a2f1b">
+    <!-- (G) entry_name: pI' -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_zh_HK">發胖 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">該動詞不包含由於身體脂肪等引起的體積感，有關細節請參見{ror:v}.[2]
+
+它也可以在印刷術中用來描述「粗體」字體。參見{ngutlh tu'qom:n}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b3a08e51-a77f-42bb-b5f2-0772933051fb">
+    <!-- (G) entry_name: po -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_zh_HK">早上</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="71820922-7304-43bb-bdbb-c3a614922226">
+    <!-- (G) entry_name: po Ha'DIbaH -->
+    <!-- (G) part_of_speech: n:anim,deriv -->
+    <column name="definition_zh_HK">在黎明時發出噪音的動物 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是{'uSgheb:n}或{jajlo' Qa':n}的文學名稱。它通常用於歌劇和戲劇中，但很少用於日常演講中。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="ce22647d-1e96-4ece-9f8f-466bbfad914e">
+    <!-- (G) entry_name: pob -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_zh_HK">體毛</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="da115022-c8ef-4eea-b579-5c4f9c90449d">
+    <!-- (G) entry_name: poch -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_zh_HK">廠 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="ea1a5a57-f2c4-40c3-a3f5-60695babfede">
+    <!-- (G) entry_name: poD -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_zh_HK">被修剪 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="98b6f6fe-1976-423e-b7ea-a501fa6b51c8">
+    <!-- (G) entry_name: poDmoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_zh_HK">夾 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="5a0e1a2e-321d-4bfc-a570-26fd0082cb7b">
+    <!-- (G) entry_name: pogh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">手套</column>
+    <column name="notes_zh_HK">有關{pogh:n:nolink}的慣用法，請參見{mIvDaq pogh cha':sen}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="4c52f72d-38c5-4862-8c6a-04f0aa7f44d6">
+    <!-- (G) entry_name: poH -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_zh_HK">一段的時間 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e9bd324e-f240-47b9-9b3e-e6f3563e006b">
+    <!-- (G) entry_name: poH -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_zh_HK">計時</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c3a3d63d-6036-4753-9908-acb78a5db261">
+    <!-- (G) entry_name: poH qut -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">時間水晶 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是在{bo'retlh:n}的神聖星球上發現的稀有和危險的資源。觸摸一個人會激發對未來的願景，而刪除一個人則需要付出巨大的犧牲。它可以用作時間旅行技術中的動力源。
+
+對於{bo'retlh:n}以外的克林崗人來說，時間晶體是一個神話，是Kahless的象徵，也是{Qo'noS:n}的同名產品。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="ae9bd7d7-014f-4321-9357-7e341fe0a673">
+    <!-- (G) entry_name: poj -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">分析</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="8122c040-9f31-4bdc-b108-b6c10b7ae85d">
+    <!-- (G) entry_name: poj -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_zh_HK">分析、解析</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="dd222047-7736-4c11-ab57-f2b84840a1e8">
+    <!-- (G) entry_name: pol -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_zh_HK">收藏、保存</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e76e3e6f-ed77-46b8-a9eb-34f5a5c132b2">
+    <!-- (G) entry_name: polHa' -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_zh_HK">丟棄 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="810e9347-a69e-4924-b698-da34559533b9">
+    <!-- (G) entry_name: pollaH pagh polHa'laH -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_zh_HK">這件事並不重要、它沒有任何區別 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這種慣用語的字面意思是某人「可以保留它或丟棄它」。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="8e33c98f-39cb-48f8-a4d6-d0dc20efb69b">
+    <!-- (G) entry_name: pom -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">痢疾</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="66953ea9-56dd-4e14-938d-69192e27bf3f">
+    <!-- (G) entry_name: pomtut -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">攻城槌 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="8f0ac3ea-9656-4639-8f20-ec3c46b2adb9">
+    <!-- (G) entry_name: pon -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_zh_HK">勸說、說服</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="05637067-473e-4d6c-a344-1adcc0892626">
+    <!-- (G) entry_name: pong -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_zh_HK">名稱</column>
+    <column name="notes_zh_HK">為了表達以某人的名義做某事的概念，請考慮將{DoQ:v}與{woQ:n}結合使用。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b20980d8-8bee-4bd9-b115-f7774a387708">
+    <!-- (G) entry_name: ... 'oH pongwIj'e'. -->
+    <!-- (G) part_of_speech: sen:bc -->
+    <column name="definition_zh_HK">我的名字是……。</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="a912802e-628d-4148-b59a-c80302152095">
+    <!-- (G) entry_name: pong -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_zh_HK">姓名、電話 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e2c590fc-86a6-47ee-9a13-c26af082d494">
+    <!-- (G) entry_name: pop -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">獎勵、榮譽、尊重的象徵 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">對一項或多項成就的任何形式上的認可。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="524c2b65-36af-4f47-9b18-94f8d6c1aa8d">
+    <!-- (G) entry_name: pop 'oH ghob'e'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">美德是獎勵。 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="dbc4eb51-907c-46d9-b276-d8851f8b70ab">
+    <!-- (G) entry_name: popSop -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">鈉 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是化學元素，符號為Na，原子序數為11。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e10b3410-6884-41f3-9bab-6cce0aa771bc">
+    <!-- (G) entry_name: poq -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">消化不良 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="de8d28e4-7ebc-41bb-b426-9a6a5fa80058">
+    <!-- (G) entry_name: poQ -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_zh_HK">需求、要求</column>
+    <column name="notes_zh_HK">此動詞還用於描述對決進行質詢的行為（請參閱{Hay':v}）。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="f261f9a6-c9dc-4fd6-8093-068256d767fe">
+    <!-- (G) entry_name: por -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">葉（植物）</column>
+    <column name="notes_zh_HK">此單詞還可以指一副撲克牌中的「心臟」套裝（請參閱{Degh:n:1}）。[2] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="f7cd5fcc-c8e3-43b8-af50-173cb805d421">
+    <!-- (G) entry_name: por pur -->
+    <!-- (G) part_of_speech: sen:phrase -->
+    <column name="definition_zh_HK">吸氣葉 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這可能比{por tlhIch pur:sen@@por:n, tlhIch:n, pur:v}縮短了。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d2fb928f-1830-4499-a910-cb3799e67217">
+    <!-- (G) entry_name: porgh -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_zh_HK">身體 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="93a13265-a9d7-4eed-92e2-3281bee16750">
+    <!-- (G) entry_name: porgh Hat -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">體溫 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是食用血的最佳溫度。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="93870fb6-b5fc-4607-ba9b-2bccd337a57f">
+    <!-- (G) entry_name: porgh mIw -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">身體機能 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">Maltz很難思考包含該短語的日常句子。[1] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="63adcde3-8f57-44ae-900a-bb62b5ca5f91">
+    <!-- (G) entry_name: porghQeD -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">身體機能的科學研究 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">Klingons並沒有過多地討論作為一個整體的身體功能，但是他們確實在談論特定的身體功能（請參閱{porgh mIw:n}）。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="88411091-3dc7-48a7-a795-f1d3d39a1b38">
+    <!-- (G) entry_name: porghtej -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_zh_HK">研究身體功能的科學家 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="77f2c067-20b5-4ca4-9fb9-6a983ce755d8">
+    <!-- (G) entry_name: poS -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_zh_HK">開</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="6e6dba5a-6970-4c29-9f64-332b7439a66a">
+    <!-- (G) entry_name: poS -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">左邊</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="23bcd64c-462a-485d-aa7c-4ebf5366ff15">
+    <!-- (G) entry_name: poSmoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_zh_HK">打開</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="6e850e5b-2ffc-493e-be8a-4e5704f12970">
+    <!-- (G) entry_name: potlh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">重要的事物、重要的事情</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="24d7c991-cc0c-4c4e-b959-6b38935d949d">
+    <!-- (G) entry_name: potlh -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_zh_HK">重要</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b899432e-0c00-4ab0-8dd4-cd301f03cb37">
+    <!-- (G) entry_name: potlh De' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">優先訊息 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="ee6fd699-6361-4482-ab27-e85094146fd9">
+    <!-- (G) entry_name: potlhbe'chugh yay qatlh pe''eghlu'? -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">如果獲勝不重要、那麼為什麼要保持得分呢？ [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="70da6a47-4705-4095-af0a-c87ba2c3a30b">
+    <!-- (G) entry_name: pov -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_zh_HK">下午</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="12c585dd-54b6-42e7-8751-0ea0eec739d5">
+    <!-- (G) entry_name: pov -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_zh_HK">高超、非常好</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="fbb221b4-c22d-4804-aa28-317c8359e4ab">
+    <!-- (G) entry_name: povjaj -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">星期二</column>
+    <column name="notes_zh_HK">這個單詞與{povjaj!:excl}同音只是一個巧合 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="1c40e5c7-d886-444d-9401-fe0697f8e70a">
+    <!-- (G) entry_name: povjaj! -->
+    <!-- (G) part_of_speech: excl -->
+    <column name="definition_zh_HK">願它好極了！ [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">該表達用於表達希望事情好轉的願望。它與工作日{povjaj:n}的名稱諧音只是一個巧合。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="10e37767-ca26-45ef-ba97-31f40c34cd69">
+    <!-- (G) entry_name: poymar -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">神秘 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是一個真正的謎，使人感到困惑。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="bf0ece2d-ddc9-4946-bd70-3b16e74d59f5">
+    <!-- (G) entry_name: po' -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_zh_HK">要專業、熟練 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="92ab7da8-af93-4a74-af42-60c382f58c86">
+    <!-- (G) entry_name: po'wI' -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_zh_HK">專家 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="9bdfa1aa-924e-49b7-9772-572665a81eb0">
+    <!-- (G) entry_name: po'oH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">街角、一張紙的一角 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e262f7b0-e610-4cc5-9984-b5fe517636c2">
+    <!-- (G) entry_name: pub -->
+    <!-- (G) part_of_speech: v:i_c -->
+    <column name="definition_zh_HK">熬 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="8fb8d47f-39db-4676-9dd5-e9bca34e20df">
+    <!-- (G) entry_name: pubtaHbogh ghargh HIq -->
+    <!-- (G) part_of_speech: n:deriv,food -->
+    <column name="definition_zh_HK">煮沸的酒 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">儘管這沒有{romuluS HIq:n}的影響，但仍然令人印象深刻。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="258e8c4c-4cc7-4695-91ce-084580f9e41a">
+    <!-- (G) entry_name: puch -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">廁所 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">sometimes語{qIvon belmoH:sen}有時也用於上廁所。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e45cde31-eb19-416d-a5ac-7bd5db3b6169">
+    <!-- (G) entry_name: puchpa' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">洗手間、浴室 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="919f4245-31dc-4c81-bdde-1e6399fc7839">
+    <!-- (G) entry_name: pugh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">渣 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="9c4ed42c-27c9-4070-8bb0-fd658cc1ea32">
+    <!-- (G) entry_name: puH -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">土地</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="0f069866-90ad-4f2c-866b-a1bb9b006278">
+    <!-- (G) entry_name: puH beQ -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">平原</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="dfd3684a-6fb6-40d1-8525-935b4b8a85dd">
+    <!-- (G) entry_name: puH Duj -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">汽車</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="564d55a6-33ed-48b4-815b-9fe273d17a3f">
+    <!-- (G) entry_name: puH nIl -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">草原</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e6a0abd2-4257-47bd-b0fc-a5b06b199ae7">
+    <!-- (G) entry_name: puH taD -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">苔原 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="af2b2f17-3275-4acc-8ecb-bb299c5d080a">
+    <!-- (G) entry_name: puH yIQ -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">沼澤、濕地</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c1caf1ab-ef3f-4373-ae8c-e19e1021c217">
+    <!-- (G) entry_name: puHley' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">開普角 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這是一個地理術語。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b1f69db1-c9ee-4082-b30e-64b6c10cb934">
+    <!-- (G) entry_name: puj -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_zh_HK">要軟弱 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">此動詞也用於斜角三角形。[2] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="bf4c8387-4466-4215-847b-374cca59ecd7">
+    <!-- (G) entry_name: puj -->
+    <!-- (G) part_of_speech: n:1 -->
+    <column name="definition_zh_HK">弱點 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b1e2838c-cc20-4542-833b-0fd47314c4fb">
+    <!-- (G) entry_name: pujmoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_zh_HK">削弱 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這只是{puj:v}加上{-moH:v}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="1656ac3b-0425-45dc-b9ee-f20069cdded9">
+    <!-- (G) entry_name: pujwI' -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_zh_HK">弱者</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="05e490ea-332b-40dd-b652-b98b0ac0e355">
+    <!-- (G) entry_name: pujwI' HIvlu'chugh quvbe'lu'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">攻擊弱者沒有榮譽。</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="6c980485-a2c5-4001-8bf4-05b20e251ed2">
+    <!-- (G) entry_name: pul -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_zh_HK">被打磨 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="9ea33353-1fcb-4783-9057-a96fccd38d1d">
+    <!-- (G) entry_name: pun -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_zh_HK">低（間距） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這可能表示聲音很深或音樂中的聲音較低。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="60427e3e-1848-4c83-97b2-a94e6645190a">
+    <!-- (G) entry_name: pum -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">指控 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="7cde3a56-8af1-4f6f-a968-e46961c16b66">
+    <!-- (G) entry_name: pum -->
+    <!-- (G) part_of_speech: v:1,t_c -->
+    <column name="definition_zh_HK">告 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d319dbe5-4daa-4bb0-aa4e-4feddd9fbd04">
+    <!-- (G) entry_name: pum -->
+    <!-- (G) part_of_speech: v:2,i_c,klcp1 -->
+    <column name="definition_zh_HK">跌</column>
+    <column name="notes_zh_HK">如果是像徵性跌倒（即失去身份），請參閱{lu:v}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="be7627ba-6236-4b2b-95ca-be41243ad4d3">
+    <!-- (G) entry_name: pumDI' -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_zh_HK">到那個時候、（某事）發生的時候 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這種慣用語的字面意思是「跌倒時」。在沒有主題的情況下通常會聽到它，但是在指定主題時，最常見的是{'etlh:n}。可以將另一個單詞選作單詞遊戲的形式，只要它可以掉下來（例如{DaS:n}，{'obmaQ:n}，{nagh:n}，{rutlh:n}）。習慣用法時，{pumDI':sen:nolink}始終在主子句之前。[1] [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="be51e5a3-4fc8-48ff-85d9-c5f1660f8c05">
+    <!-- (G) entry_name: pumnuj -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">手銬，手銬 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="505f11ba-3765-458d-8894-83203c65ec33">
+    <!-- (G) entry_name: pung -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">憐憫 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="4400d814-7202-4afe-8bc8-013d1b17c847">
+    <!-- (G) entry_name: pung ghap HoS. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_zh_HK">憐憫或力量。 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">請注意，連接詞{ghap:conj}通常跟隨其連接的名詞。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="40baa5eb-30d5-4e8a-98d9-fec59d0cd1f8">
+    <!-- (G) entry_name: pup -->
+    <!-- (G) part_of_speech: v:1,is -->
+    <column name="definition_zh_HK">完美、準確 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="4ce5e6a6-0a2b-45a2-ac2b-b682c4a9c02a">
+    <!-- (G) entry_name: pup -->
+    <!-- (G) part_of_speech: v:2,is -->
+    <column name="definition_zh_HK">高分辨率 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="2ae80e28-1314-4ecf-910d-ddc08bf3bb0c">
+    <!-- (G) entry_name: pup -->
+    <!-- (G) part_of_speech: v:3,t -->
+    <column name="definition_zh_HK">踢 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b6f5ef73-cbee-40e8-8df5-25139e64923c">
+    <!-- (G) entry_name: pupHa' -->
+    <!-- (G) part_of_speech: v:is,deriv -->
+    <column name="definition_zh_HK">大概 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="7d77cb38-bf30-473a-9804-5a4aaa68b9fe">
+    <!-- (G) entry_name: pupqa' -->
+    <!-- (G) part_of_speech: v:deriv,slang -->
+    <column name="definition_zh_HK">賄賂 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="018007fd-d398-4038-b263-d22fe625a1fc">
+    <!-- (G) entry_name: puq -->
+    <!-- (G) part_of_speech: n:being,klcp1 -->
+    <column name="definition_zh_HK">細路、孩子、後代</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="772a7f76-a8bf-44e9-a6a1-c37e9de40338">
+    <!-- (G) entry_name: puq chonnaQ -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">叉</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="57a609af-aeae-4b66-a040-16a8e8bc6ed3">
+    <!-- (G) entry_name: puq Hol -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">孩子的語言、「臊蝦語言」</column>
+    <column name="notes_zh_HK">僅在與幼兒或寵物說話時使用。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="fe44a51b-dc21-43a7-9631-155716616723">
+    <!-- (G) entry_name: puq poH -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_zh_HK">代</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="07d5e480-7599-4b6f-a9cc-1f0eedff290e">
+    <!-- (G) entry_name: puqbe' -->
+    <!-- (G) part_of_speech: n:being,deriv,klcp1 -->
+    <column name="definition_zh_HK">女兒</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="98cfea50-c218-454c-8bfc-8866a84bb3e5">
+    <!-- (G) entry_name: puqloD -->
+    <!-- (G) part_of_speech: n:being,deriv,klcp1 -->
+    <column name="definition_zh_HK">男兒</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="659e5db1-ddc4-4758-8202-8bfd0fab6305">
+    <!-- (G) entry_name: puqnI' -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_zh_HK">孫</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="efc5577f-ae63-44ff-a77a-0111945e7057">
+    <!-- (G) entry_name: puqnI'be' -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_zh_HK">孫女</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b6800241-4cd9-4b56-9d0e-cdef6965b00c">
+    <!-- (G) entry_name: puqnI'loD -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_zh_HK">孫子</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="3e32afa1-8933-4b5b-b189-a4e1fcebaf68">
+    <!-- (G) entry_name: puQ -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_zh_HK">受夠了 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="505db53a-286f-4d82-8dbb-11e6fa95f6f6">
+    <!-- (G) entry_name: pur -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_zh_HK">吸入 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">要說「吸煙」（例如從燃燒{toba'qo:n}吸入尼古丁），請使用{tlhIch pur:sen@@tlhIch:n, pur:v}.[2]。也可以說{por pur:sen}從其他種類的植物中吸取煙氣。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d87853ee-32b9-41e1-9279-77cc6d9f969f">
+    <!-- (G) entry_name: puS -->
+    <!-- (G) part_of_speech: v:1,is,klcp1 -->
+    <column name="definition_zh_HK">很少、幾個、少數 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="41fb80b5-cdf0-4833-9a36-c404a877539e">
+    <!-- (G) entry_name: ... puS -->
+    <!-- (G) part_of_speech: sen:alt,noanki,nodict -->
+    <column name="definition_zh_HK">{... X law' ... X puS:sen}</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="efbd4ead-3c50-4bbe-8265-46f07fa77506">
+    <!-- (G) entry_name: puS -->
+    <!-- (G) part_of_speech: v:2,t -->
+    <column name="definition_zh_HK">視線（帶瞄準具） [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="3de4610f-a895-4f3e-bf06-f1fd410a223e">
+    <!-- (G) entry_name: puv -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_zh_HK">飛</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="dd0264a7-d911-4c56-8680-fc8d6f5843c5">
+    <!-- (G) entry_name: puy -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_zh_HK">破壞 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="deb3d166-7c35-4127-a569-b77d4576397e">
+    <!-- (G) entry_name: puyjaq -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">新星 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="8f0da781-b970-43bd-a7a3-cb135ce997d1">
+    <!-- (G) entry_name: pu' -->
+    <!-- (G) part_of_speech: n:1,fic,weap -->
+    <column name="definition_zh_HK">移相器 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">該詞源於「 spike」（{pu':n:2}）的古語。
+
+相當於移相器的克林崗語是{nISwI':n}。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e9fd14eb-5fdd-4509-8e66-a74ae9150131">
+    <!-- (G) entry_name: pu' -->
+    <!-- (G) part_of_speech: n:2 -->
+    <column name="definition_zh_HK">穗、靴子穗 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d6c93fb8-1538-4923-aa98-ac1870db281b">
+    <!-- (G) entry_name: pu' -->
+    <!-- (G) part_of_speech: n:3,body -->
+    <column name="definition_zh_HK">角（牛角）</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="b6b58d10-f0df-4503-a3fb-e30a0b1bff1d">
+    <!-- (G) entry_name: pu'beH -->
+    <!-- (G) part_of_speech: n:deriv,fic,weap -->
+    <column name="definition_zh_HK">移相器步槍 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="c83bba2e-00e9-4a67-9232-6494f9811b19">
+    <!-- (G) entry_name: pu'beq -->
+    <!-- (G) part_of_speech: n:deriv,fic,weap -->
+    <column name="definition_zh_HK">相位工作人員 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="2799be65-8c7e-4d9d-8f30-4bff0fe54842">
+    <!-- (G) entry_name: pu'DaH -->
+    <!-- (G) part_of_speech: n:deriv,fic,weap -->
+    <column name="definition_zh_HK">移相銀行 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="2c8226d3-f0bb-4cd9-a11b-c0d6dfa3c352">
+    <!-- (G) entry_name: pu'HIch -->
+    <!-- (G) part_of_speech: n:deriv,fic,weap -->
+    <column name="definition_zh_HK">移相器手槍 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="84da08a1-fa10-4c73-9545-b7c04b3dc90a">
+    <!-- (G) entry_name: pu'jIn -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">地圖、計劃（如在建築計劃中）、藍圖 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK">這個詞指的是物理對象的計劃，而不是指事件的過程或計劃（可能是{nab:n}）。 [AUTOTRANSLATED]</column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="f2924b36-5eb8-4f63-b04b-cedef595746f">
+    <!-- (G) entry_name: pu'porgh 'oQqar -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">生薑 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="d092edf1-29bd-4499-9e1a-680e3a2dbf83">
+    <!-- (G) entry_name: pu'veng -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_zh_HK">枝條 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+  <mixin target="e7c0c2dd-dcea-4283-9379-9964d2370b86">
+    <!-- (G) entry_name: pu'vengmey -->
+    <!-- (G) part_of_speech: n:plural,deriv -->
+    <column name="definition_zh_HK">貓的鬍鬚，昆蟲的觸角 [AUTOTRANSLATED]</column>
+    <column name="notes_zh_HK"></column>
+    <column name="examples_zh_HK"></column>
+    <column name="search_tags_zh_HK"></column>
+  </mixin>
+</mixins>

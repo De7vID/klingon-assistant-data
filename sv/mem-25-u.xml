@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixins>
+  <mixin target="b09d9de2-4572-454c-a9a6-9954333c6829">
+    <!-- (G) entry_name: 'ut -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">klingonskans {u:sen:nolink}-ljud</column>
+    <column name="notes_sv">Namnet på ett ljud, inte en skriven bokstav eller glyf.</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="38ced37a-68a9-4b93-a69f-9eef281df159">
+    <!-- (G) entry_name: 'ub -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara ensam [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta hänvisar till känslorna, inte till det faktiska tillståndet att vara ensam. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6e8401a9-cfd3-4f74-ac69-658aa541a874">
+    <!-- (G) entry_name: 'uch -->
+    <!-- (G) part_of_speech: v:1,t_c -->
+    <column name="definition_sv">hålla (i), gripa (om)</column>
+    <column name="notes_sv">När det används på vapensystem används detta för att låsas på ett mål. Se {'uch:v:2}.
+
+När objektet för detta verb är {'olQan:n} kan det ofta översättas "ockupera" eller "ta upp". [2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="dbecb806-16f8-40f4-baf0-caca2d44555d">
+    <!-- (G) entry_name: 'uch -->
+    <!-- (G) part_of_speech: v:2,t_c -->
+    <column name="definition_sv">lås på (ett mål) [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är en applikation av {'uch:v:1} i ett vapensystem-sammanhang. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="aa00f8f9-bdc8-47fb-946b-5dbbf795f9eb">
+    <!-- (G) entry_name: 'uch -->
+    <!-- (G) part_of_speech: v:3,t_c,slang -->
+    <column name="definition_sv">omfatta, bestå av, bestå av [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta används för att prata om kemi. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5fc8f2a0-e1de-49c3-9697-53ae4624fd14">
+    <!-- (G) entry_name: 'uchHa' -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_sv">släppa</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="3d7fef6a-0578-4530-9d90-268f82bd90c7">
+    <!-- (G) entry_name: 'uchgha' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">RNA [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="1028d179-f72c-49bb-8ee7-093bb2edd900">
+    <!-- (G) entry_name: 'uD -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">laser</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="c4fc3cbb-66ff-4cf9-ac47-590c2c08d5c6">
+    <!-- (G) entry_name: 'uD Haqtaj -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">laserskalpell</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="3d9a9727-e6ed-4cda-a76d-0f6cb2530c55">
+    <!-- (G) entry_name: 'ugh -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_sv">vara tung</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d8c6a0dd-0e19-428a-984e-091f8feeb094">
+    <!-- (G) entry_name: 'ughDuq ghargh -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_sv">larv [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Det här är en liten squirmy sak som somehows förvandlas till en {Su'wan ghew:n}. Det används inte för att skapa {qagh:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="71e43f20-e5ad-4d5f-a2f8-c9f8664f7fb6">
+    <!-- (G) entry_name: 'uH -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_sv">ha baksmälla, vara bakfull</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5325bd37-cf1d-4651-8e29-efd7643a7d61">
+    <!-- (G) entry_name: 'uj -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">uj (längdenhet)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="aa2e1eb2-c61f-4ecb-83b3-85c5a103cd6e">
+    <!-- (G) entry_name: 'uj'a' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">stor uj (längdenhet)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="bd3ec420-74ad-49bb-924f-4b2010982c06">
+    <!-- (G) entry_name: 'uj'IllI' -->
+    <!-- (G) part_of_speech: n:name,fic -->
+    <column name="definition_sv">Ujilli [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Han är medlem i House of Mo'Kai ({mo'qay tuq:n:name}). [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="060b5946-abcc-473d-bef0-a6d93cfaa4d4">
+    <!-- (G) entry_name: 'ul -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">elektricitet</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="3f4eb1c3-7fab-4e6d-860a-3328f5457fec">
+    <!-- (G) entry_name: 'ul gho -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">krets [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5ef4fb0f-a871-4fd2-8ed2-5f7420b94b2c">
+    <!-- (G) entry_name: 'ul ghom'oH -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">eluttag [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="24933174-336e-4013-b2e6-c4fffef60bd3">
+    <!-- (G) entry_name: 'ul pat mutlhwI' -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_sv">elektriker</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="44e15de5-b46f-4e52-9b5b-c0bd9594ba1e">
+    <!-- (G) entry_name: 'ul rarwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">elektrisk plugg [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="2358ceed-ad84-4ba3-842c-03a8c16b6205">
+    <!-- (G) entry_name: 'ul Sech -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">ficklampa</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d7b87eec-daf6-4f6f-88db-fda9e643abb2">
+    <!-- (G) entry_name: 'ul 'aplo' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">batteri (som lagrar ström)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="36b2cf3a-a8a0-4e3a-a2ae-371fa27d6fb9">
+    <!-- (G) entry_name: 'um -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_sv">vara kvalificerad</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="85731241-cad7-4273-bf47-9a82fd0ae398">
+    <!-- (G) entry_name: 'umHa' -->
+    <!-- (G) part_of_speech: v:is,deriv -->
+    <column name="definition_sv">vara okvalificerad [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="4a6adc2b-2cd8-4021-972e-302bca89c94f">
+    <!-- (G) entry_name: 'uma' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">kronblad [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="8714f358-ba94-4a6d-952f-a16ff3c80a20">
+    <!-- (G) entry_name: 'umber -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">ekosystem, miljö [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="53167bb9-f468-46b0-ac08-028360ca6f38">
+    <!-- (G) entry_name: 'umyotlh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">vinst (pengar) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="783dfe0c-6cf3-4c3f-bb39-77b7a3b9b58c">
+    <!-- (G) entry_name: 'un -->
+    <!-- (G) part_of_speech: n:food -->
+    <column name="definition_sv">skål (för matberedning, generell term)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6a4faa4e-71ba-4215-b7d4-8bd21eea2519">
+    <!-- (G) entry_name: 'un naQ -->
+    <!-- (G) part_of_speech: n:deriv,food -->
+    <column name="definition_sv">blandningskäpp, omrörningspinne, käpp/pinne för omrörning</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="590c6d2f-f71f-4e42-adad-eeba76de150c">
+    <!-- (G) entry_name: 'un quD -->
+    <!-- (G) part_of_speech: n:deriv,fic,food -->
+    <column name="definition_sv">artificiellt framställd {quD:n:nolink}</column>
+    <column name="notes_sv">Detta är {quD:n} producerat med kemikalier. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="e68fbd93-006e-4c81-90d0-4e660e3c79b9">
+    <!-- (G) entry_name: 'unwat -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">korg [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är en vävd behållare för att bära saker. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="afb3c852-58f0-438c-82b0-86eaeaa92a9c">
+    <!-- (G) entry_name: 'ung -->
+    <!-- (G) part_of_speech: v:i_c -->
+    <column name="definition_sv">huka (sig) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a813135b-3c17-4f45-a948-87957981465b">
+    <!-- (G) entry_name: 'up -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara smaklös, vara äcklig, vara frånstötande, vara avskyvärd,</column>
+    <column name="notes_sv">Det finns ett formspråk, {'up; yIH rur@@'up:v, yIH:n, rur:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9afb080a-2408-4958-a031-22cd7cb9aacd">
+    <!-- (G) entry_name: 'uq -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">vissla [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Om det finns ett objekt är det saken som visslas. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6c69658f-863b-4255-bfe9-74f67d306e5b">
+    <!-- (G) entry_name: 'uQ -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_sv">kvällsmat, middag</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="c7ff00c6-c131-4c9d-8841-ca2a72c2c2a1">
+    <!-- (G) entry_name: 'uQ'a' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">bankett, fest</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="307db8f4-56f6-454c-84a0-b7dccb62fc8f">
+    <!-- (G) entry_name: 'uQ pa' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">matsal, matsal [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="87c597eb-9f26-4970-a7d0-5ff8a882e63c">
+    <!-- (G) entry_name: 'ur -->
+    <!-- (G) part_of_speech: v:t -->
+    <column name="definition_sv">förråda, begå förräderi</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="82508437-4bf0-49c1-8a6b-24e944f1dd66">
+    <!-- (G) entry_name: 'urwI' -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_sv">förrädare</column>
+    <column name="notes_sv">Det här är en person som begår förräderi. För {maghwI':n} för en person som förråder någon. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="2a716092-7149-4ed0-a9a7-22717312ee81">
+    <!-- (G) entry_name: 'urgh -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">Jab, poke [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ce7cdff4-2653-407d-9938-a5c7fbfc0198">
+    <!-- (G) entry_name: 'urgh neH -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_sv">knåpa [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="cf60992e-6c39-405a-b84c-0808533c57f6">
+    <!-- (G) entry_name: 'urghwI' -->
+    <!-- (G) part_of_speech: n:deriv,terran -->
+    <column name="definition_sv">Poker (kortspel) [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Maltz hänvisade till Federations kortspel "Poker" som {'urghwI':n:nolink}, även om andra Klingons förmodligen inte skulle förstå detta.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="dbe42f83-5352-4a7c-98b7-1e91ad4e9a81">
+    <!-- (G) entry_name: 'urmang -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">förräderi</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="282ae42c-3157-406d-abc6-af5adcdce6e1">
+    <!-- (G) entry_name: 'uS -->
+    <!-- (G) part_of_speech: n:body,klcp1 -->
+    <column name="definition_sv">ben (som man går på)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="8b56d121-2b09-4597-8381-7a7f96acef02">
+    <!-- (G) entry_name: 'uSgheb -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_sv">en slags fågel (för oljud i gryningen, vildsintare än en tupp)</column>
+    <column name="notes_sv">Detta är en bullrig fågel som är känd för att göra en ruckus i gryningen, som har jämförts med en tupp (men är mycket hårdare än en tupp). [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="3b54a7c1-1c2d-4197-aa9f-3ff95ae29ae0">
+    <!-- (G) entry_name: 'uSqan -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">järn (element) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d98c8ef7-c361-4240-a2c3-7556155aa2ff">
+    <!-- (G) entry_name: 'uSu' -->
+    <!-- (G) part_of_speech: n:food -->
+    <column name="definition_sv">sås till gladst</column>
+    <column name="notes_sv">{'uSu':n:nolink} är infödd till de ursprungliga invånarna på planeten Tanganika.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7d9d5fe4-787d-49df-80b9-ba472486e458">
+    <!-- (G) entry_name: 'ut -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_sv">vara väsentlig, vara nödvändig</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="75f9a471-2c02-417f-b1e2-651f84c32936">
+    <!-- (G) entry_name: 'utbe' -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara nonessential, onödig [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7c965ade-44f5-48e0-a19f-4aa7e0905362">
+    <!-- (G) entry_name: 'utbe' bel. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_sv">Njutning är nonessential. [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="09364b35-8c64-4273-b731-39312930d56a">
+    <!-- (G) entry_name: 'ut'at -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">byrå [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta avser en byrå oavsett om det faktiskt finns lådor i det för tillfället. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="f61c37cf-474c-46c8-92b8-a8a3fada687b">
+    <!-- (G) entry_name: 'utlh -->
+    <!-- (G) part_of_speech: n:being -->
+    <column name="definition_sv">officer emeritus, pensionerad officer</column>
+    <column name="notes_sv">Detta hänvisar till en tjänsteman som avslutade tjänsten i pension.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="0d70d9e4-83ad-4a72-89a7-2c7fac09b7aa">
+    <!-- (G) entry_name: 'uy -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_sv">trycka ned, trycka på</column>
+    <column name="notes_sv">Detta verb används för att klicka på en datormusknapp (även om åtgärden faktiskt är att trycka ner och sedan släppa). För att klicka på en hyperlänk används verbet {wIv:v} snarare än {'uy:v:nolink}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="42431512-51ac-4ebf-98b7-5de32ac68e8b">
+    <!-- (G) entry_name: 'uy' -->
+    <!-- (G) part_of_speech: n:num -->
+    <column name="definition_sv">miljon (nummerbildande element)</column>
+    <column name="notes_sv">För tiotals miljoner kunde man kombinera {maH:n:2,num} med {'uy':n:num,nolink} eller {vatlh:n:num} med {bIp:n:num}.[2]
+
+För hundratals miljoner är de nummerbildande elementen {vatlh'uy':n:num@@vatlh:n, 'uy':n} eller {SaDbIp:n:num@@SaD:n, bIp:n} eller {SanIDbIp:n:num@@SanID:n, bIp:n} möjliga. [3] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="dc330b35-0ef2-4fcd-be83-a558e5901e55">
+    <!-- (G) entry_name: 'u' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">universum</column>
+    <column name="notes_sv">Detta är också namnet på en opera, som berättar många av samma händelser som finns i {paq'batlh:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9ff25ac7-a89d-49b5-9b61-e127b5cd91be">
+    <!-- (G) entry_name: 'u' Dop -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">spegel universum [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="586da9c4-fa7b-40c8-b9e9-4fcc3da58113">
+    <!-- (G) entry_name: 'u' quq -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">parallellt universum [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+</mixins>

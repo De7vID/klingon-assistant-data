@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixins>
+  <mixin target="1bd2d0bf-e09d-4750-b63b-e39adc571902">
+    <!-- (G) entry_name: 0 -->
+    <!-- (G) part_of_speech: v:pref,klcp1 -->
+    <column name="definition_ru">он/она/оно-нет, он/она/оно-он/она/оно, он/она/оно-они, они-нет, они-они</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="d037e5d9-9162-41b4-bb0f-a1c3d211c137">
+    <!-- (G) entry_name: -'a' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">увеличение (сущ. тип 1)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="08b14b05-7976-422a-9e0f-62421d3afb2c">
+    <!-- (G) entry_name: -Hom -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">уменьшение (сущ. тип 1)</column>
+    <column name="notes_ru">Существительное, образованное с помощью {-Hom:n:suff,nolink}, относится к чему-то, что меньше, менее важно или менее сильно, чем существительное без суффикса. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="0db44b93-218a-4af9-bb34-4fea9881a1b1">
+    <!-- (G) entry_name: -oy -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_ru">привязанность (сущ. тип 1)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="a9065228-9ac1-492e-851f-9a219886eb04">
+    <!-- (G) entry_name: -pu' -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_ru">множественное число (для существ, способных использовать речь) (сущ. тип 2)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="0ae7ba39-349e-4a37-be87-78210ef62f86">
+    <!-- (G) entry_name: -Du' -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_ru">множественное число (для частей тела) (сущ. тип 2)</column>
+    <column name="notes_ru">Этот суффикс используется для формирования множественного числа частей тела, независимо от того, принадлежат ли они существам, способным говорить, или любому другому животному. Однако, если часть тела становится отделенной от существа и превращается во что-то, что больше не является частью тела, вместо этого используется {-mey:n:suff,nolink}. Например, множественное число «pelt» {veDDIr:n} является {veDDIrmey:n:nolink}, а не {veDDIrDu':n:nolink}. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="5d0916a8-9c02-4e0c-b694-8f4abfbcbfef">
+    <!-- (G) entry_name: -mey -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_ru">множественное число (в общем) (сущ. тип 2)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="740167f5-c159-47ed-a4dc-796232657b15">
+    <!-- (G) entry_name: -qoq -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">так называемый (сущ. тип 3)</column>
+    <column name="notes_ru">Этот суффикс указывает, что существительное используется в ложной или иронической манере. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="c3c3a65d-4581-48e4-84de-0264a6013684">
+    <!-- (G) entry_name: -Hey -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">по-видимому (сущ. тип 3)</column>
+    <column name="notes_ru">Этот суффикс указывает, что говорящий думает, что объект, на который ссылается существительное, точно описан им, но имеет некоторые сомнения. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="f5527fd3-53ac-45d9-9273-b5f4857a1a91">
+    <!-- (G) entry_name: -na' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">определенно (сущ. тип 3)</column>
+    <column name="notes_ru">Этот суффикс указывает, что говорящий не сомневается в том, что объект, на который ссылается существительное, точно описан им. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="7d2a105e-dac7-4b29-8516-f28dcf06b9b9">
+    <!-- (G) entry_name: -wIj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">мой, мои (сущ. тип 4)</column>
+    <column name="notes_ru">Считается унизительным использование этого суффикса в существительном, означающем существо, способное к языку. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="e8d93ad0-c11c-48f7-8deb-21595f54da3f">
+    <!-- (G) entry_name: -wI' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">мой, мои (для существ, способных использовать речь) (сущ. тип 4)</column>
+    <column name="notes_ru">Смотрите в {-pu':n:suff} объяснение, когда существительное квалифицируется как существо, способное к языку. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="d2fbde8d-746d-483c-badc-5fc4b7dfaefe">
+    <!-- (G) entry_name: -maj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">наш, наши (сущ. тип 4)</column>
+    <column name="notes_ru">Считается унизительным использование этого суффикса в существительном, означающем существо, способное к языку. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="87180953-e86c-448e-99fa-9fb121e88881">
+    <!-- (G) entry_name: -ma' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">наш, наши (для существ, способных использовать речь) (сущ. тип 4)</column>
+    <column name="notes_ru">Смотрите в {-pu':n:suff} объяснение, когда существительное квалифицируется как существо, способное к языку. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="07b83933-35cc-4388-9094-6156c1f264be">
+    <!-- (G) entry_name: -lIj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">твой, твои (сущ. тип 4)</column>
+    <column name="notes_ru">Считается унизительным использование этого суффикса в существительном, означающем существо, способное к языку. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="dc4c0c3d-2915-4a9f-b40c-c1abbf74f965">
+    <!-- (G) entry_name: -lI' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">твой, твои (для существ, способных использовать речь) (сущ. тип 4)</column>
+    <column name="notes_ru">Смотрите в {-pu':n:suff} объяснение, когда существительное квалифицируется как существо, способное к языку. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="c960720e-ccb2-4de9-bbd1-97444b852df5">
+    <!-- (G) entry_name: -raj -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_ru">ваш, ваши (сущ. тип 4)</column>
+    <column name="notes_ru">Считается унизительным использование этого суффикса в существительном, означающем существо, способное к языку. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="67b22a62-61b0-440a-a179-1fce903a2cb2">
+    <!-- (G) entry_name: -ra' -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_ru">ваш, ваши (для существ, способных использовать речь) (сущ. тип 4)</column>
+    <column name="notes_ru">Смотрите в {-pu':n:suff} объяснение, когда существительное квалифицируется как существо, способное к языку. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="209c5049-6f80-46a2-878c-895bcdd40dc3">
+    <!-- (G) entry_name: -Daj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">его, ее (сущ. тип 4)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="e2f023da-83a1-402b-ae14-00c07edf445b">
+    <!-- (G) entry_name: -chaj -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_ru">их (сущ. тип 4)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="e7fc3fcc-0e9f-49dc-90f7-4507595a2c83">
+    <!-- (G) entry_name: -vam -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">этот (сущ. тип 4)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="995c5d15-ddd9-4415-b2f5-cbafab8629eb">
+    <!-- (G) entry_name: -vetlh -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">тот (сущ. тип 4)</column>
+    <column name="notes_ru">Это указывает на то, что существительное относится к объекту, которого нет рядом или который снова упоминается как тема разговора. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="330de4ec-e4bd-4d70-bb25-641cb1ddadd2">
+    <!-- (G) entry_name: -Daq -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">местоположение (сущ. тип 5)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="01ea6f46-8a6c-41d0-8754-8eba34467dde">
+    <!-- (G) entry_name: -vo' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">из (сущ. тип 5)</column>
+    <column name="notes_ru">Этот суффикс используется, когда действие идет в направлении от существительного, к которому оно прикреплено.[1] Обычно его можно использовать только для физических мест.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="6df9a9d5-28e2-4e31-b3f7-f15b00a21b2e">
+    <!-- (G) entry_name: -mo' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">из-за, потому что, благодаря (сущ. тип 5)</column>
+    <column name="notes_ru">Существует суффикс глагола {-mo':v} с тем же значением. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="385f86e9-b948-4ab9-b16b-f6fe3e7c0a22">
+    <!-- (G) entry_name: -vaD -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_ru">для (сущ. тип 5)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="57d92955-cba4-4a57-9dbe-3e8ce70ced3c">
+    <!-- (G) entry_name: -'e' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_ru">тема (сущ. тип 5)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="b3154201-c4f5-4095-b1f1-6f9026bdf64d">
+    <!-- (G) entry_name: -'egh -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">сам себя (глагол тип 1)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="beca67f2-ba6f-4e00-ad00-07d6dd56b73c">
+    <!-- (G) entry_name: -chuq -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">один другого, друг друга (глагол тип 1)</column>
+    <column name="notes_ru">Этот суффикс используется только во множественном числе. Когда этот суффикс используется, префикс глагола должен указывать «нет объекта». [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="5a98fdfb-9cd9-4b61-b3af-46c024b8d060">
+    <!-- (G) entry_name: -nIS -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">нужно (глагол тип 2)</column>
+    <column name="notes_ru">Этот суффикс указывает, что субъект должен выполнить действие. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="7520ae2a-e057-4338-935e-7164e6c2be1d">
+    <!-- (G) entry_name: -qang -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">добровольно готов (глагол тип 2)</column>
+    <column name="notes_ru">Этот суффикс указывает, что субъект готов выполнить действие. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="b001e2cc-e64f-471e-a75f-8c177badc9db">
+    <!-- (G) entry_name: -rup -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">готов (для существ) (глагол тип 2)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="5c4cb4bb-076f-47f8-b875-b2b3ae3084d7">
+    <!-- (G) entry_name: -beH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">готов (для устройств) (глагол тип 2)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="6efc0bcd-a1c4-4a11-8fe3-c43a0e79ce31">
+    <!-- (G) entry_name: -vIp -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">бояться (глагол тип 2)</column>
+    <column name="notes_ru">Этот суффикс редко используется с предметом от первого лица, поскольку это культурно табу.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="6da421e7-bb00-4790-9c8a-a38ac479a182">
+    <!-- (G) entry_name: -choH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">изменение в состоянии, изменение в направлении (глагол тип 3)</column>
+    <column name="notes_ru">Этот суффикс указывает, что действие, описываемое глаголом, включает в себя изменение положения дел, которое существовало до того, как действие имело место. Английский перевод этого суффикса может быть "стать" или "начать". [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="e291014f-6935-4259-92f0-a36a2642a339">
+    <!-- (G) entry_name: -qa' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">продолжать, возобновлять (глагол тип 3)</column>
+    <column name="notes_ru">Этот суффикс означает, что действие имело место, затем прекратилось, а затем началось снова. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="920247fc-3fba-4bf7-9de6-0f717b776bef">
+    <!-- (G) entry_name: -moH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">причинять, быть причиной (глагол тип 4)</column>
+    <column name="notes_ru">Посмотрите {qawmoH:v} для примера того, как использовать это с глаголом, который берет объект. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="089202b4-d2fe-4acb-8cea-b6084d3d53c3">
+    <!-- (G) entry_name: -lu' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">неопределенное дополнение (глагол тип 5)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="71e52111-e3d5-43a9-8d9e-ea853692881c">
+    <!-- (G) entry_name: -laH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">мочь, быть способным (глагол тип 5)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="92266cf4-a4e4-4fe3-b54a-b52a74cc88fa">
+    <!-- (G) entry_name: -luH -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">можно (глагол типа 5 - неграмотно) [AUTOTRANSLATED]</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="77892f81-d6ff-4c08-af93-7f8e7aaff43c">
+    <!-- (G) entry_name: -la' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">можно (глагол типа 5 - неграмотно) [AUTOTRANSLATED]</column>
+    <column name="notes_ru">Некоторые ораторы используют это для объединения {-lu':v} и {-laH:v} в один суффикс, чтобы выразить одновременно неопределенный субъект и способность. Никто не принимает эту конструкцию как грамматическую, но ее неуместность - вот что дает ей красноречивое влияние. Этого следует избегать, если только вы не очень довольны нюансами стиля клингон. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="3e2195d8-6f54-433f-9798-e218885a5ab6">
+    <!-- (G) entry_name: -chu' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">идеально, совершенно (глагол тип 6)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="fc30d55a-4159-4e78-85bc-cca0c6475aea">
+    <!-- (G) entry_name: -bej -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">определенно, без сомнений (глагол тип 6)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="acea9a47-1d58-4b0e-9f86-53171e405f99">
+    <!-- (G) entry_name: -ba' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">очевидно (глагол тип 6)</column>
+    <column name="notes_ru">Этот суффикс указывает, что говорящий считает, что утверждение очевидно для слушателя. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="2299c1e1-c3ec-49ec-baae-172d13f854c3">
+    <!-- (G) entry_name: -law' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">по-видимому (глагол тип 6)</column>
+    <column name="notes_ru">Этот суффикс выражает неопределенность со стороны говорящего. Это может быть переведено как «я думаю» или «я подозреваю». [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="ff833fec-5e39-43cd-a832-bb3bf364477e">
+    <!-- (G) entry_name: -pu' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">законченность действия (глагол тип 7)</column>
+    <column name="notes_ru">Этот суффикс указывает, что действие завершено. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="c15cb192-2c75-443e-94e9-967719727de9">
+    <!-- (G) entry_name: -ta' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">выполнено, готово (глагол тип 7)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="f1681551-eb95-4bd2-b82b-c72496cee862">
+    <!-- (G) entry_name: -taH -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">длительность действия (глагол тип 7)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="5841a40a-d75c-4ff6-b8e8-ec10b4b96b62">
+    <!-- (G) entry_name: -lI' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">прогресс (глагол тип 7)</column>
+    <column name="notes_ru">Этот суффикс указывает, что действие продолжается и идет к известной цели или точке остановки. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="754a5ac9-b42a-45f0-86fd-4278aadb24b2">
+    <!-- (G) entry_name: -neS -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">выражение почтения (глагол тип 8)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="1ea3d6b5-d2e2-41e3-afe6-fd12f596b27e">
+    <!-- (G) entry_name: -DI' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">когда, как только (глагол тип 9)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="7c979f6e-ace7-4f09-a6d9-b074cb2ffdee">
+    <!-- (G) entry_name: -chugh -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">если (глагол тип 9)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="bbe20a18-fe95-4874-914a-0387448ba382">
+    <!-- (G) entry_name: -pa' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">до, прежде (глагол тип 9)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="ffd3ce4c-12ae-435e-ab10-cc970e2a906d">
+    <!-- (G) entry_name: -vIS -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">пока, в то время как (глагол тип 9)</column>
+    <column name="notes_ru">Это всегда используется с суффиксом типа 7 {-taH:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="91aae7eb-f00e-4bbf-b59f-c8b4ff3fac96">
+    <!-- (G) entry_name: -mo' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">из-за, потому что, благодаря (глагол тип 9)</column>
+    <column name="notes_ru">Существует суффикс существительного {-mo':n} с тем же значением. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="93eaf83a-9832-4df4-ac97-cf54fd65dfc3">
+    <!-- (G) entry_name: -bogh -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">который (глагол тип 9)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="7ed8ffb0-8fd9-4651-b9ce-b1b67cdda85e">
+    <!-- (G) entry_name: -meH -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">для (глагол тип 9)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="018cdda3-057c-4318-8050-5b68f44ac9ab">
+    <!-- (G) entry_name: -'a' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">вопрос (глагол тип 9)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="58118f75-62a2-4627-b305-e4fdc63fa247">
+    <!-- (G) entry_name: -jaj -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">да будет (глагол тип 9)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="f49d5b68-16ef-489c-9433-3f5c38a1998b">
+    <!-- (G) entry_name: -wI' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">тот, кто делает /то, которое делает (глагол тип 9)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="c51bb125-b4bd-4236-9468-ebfe4fbc2778">
+    <!-- (G) entry_name: -ghach -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">существительное (глагол тип 9)</column>
+    <column name="notes_ru">Этот суффикс обычно не используется для глагола без другого суффикса или для глагола с префиксом. Когда он прикреплен к глаголу состояния, он дает значение, подобное «-ness», а на активном глаголе - что-то вроде «-tion».[2] [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="847c0599-a5dc-415a-b220-e809948b2b93">
+    <!-- (G) entry_name: -be' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">не (глагол тип R)</column>
+    <column name="notes_ru">Это следует концепции, которая отрицает. Его нельзя использовать для формирования отрицательных императивов, то есть его нельзя использовать для обозначения «не» (для которого вместо этого используется {-Qo':v}) [1; 3]. Однако такая команда, как {HIleghbe'moH:sen:nolink}, возможна.[3; 4] Этот суффикс можно применять к глаголам, используемым в качестве прилагательных.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="afaf4843-ec5a-4f82-b7d0-89e1e28a62e0">
+    <!-- (G) entry_name: -Qo' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">не буду! (глагол тип R)</column>
+    <column name="notes_ru">Этот суффикс используется для обозначения отказа. Это также используется в императивах. Это всегда происходит последним, если за ним не следует суффикс типа 9. [AUTOTRANSLATED]</column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="c1dbf660-c1aa-4c1d-90d6-e3bd1194e4f3">
+    <!-- (G) entry_name: -Ha' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_ru">отменить, сделать неправильно (глагол тип R)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+  <mixin target="8a9673b1-d79c-4ee1-b6b4-c2b3e224b953">
+    <!-- (G) entry_name: -qu' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_ru">очень (глагол тип R)</column>
+    <column name="notes_ru"></column>
+    <column name="examples_ru"></column>
+    <column name="search_tags_ru"></column>
+  </mixin>
+</mixins>

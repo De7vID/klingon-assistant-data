@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixins>
+  <mixin target="095b7ae9-9c7a-4223-af5d-ffe1ae128764">
+    <!-- (G) entry_name: way -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">klingonskans {w:sen:nolink}-ljud</column>
+    <column name="notes_sv">Namnet på ett ljud, inte en skriven bokstav eller glyf.</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="8a8343b6-43c1-4102-99fc-77a87ee06283">
+    <!-- (G) entry_name: wab -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">ljud, oljud</column>
+    <column name="notes_sv">Se under {QIch wab Ho'DoS:n} för namnen på Klingon-konsonanter och vokaler. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9f738499-f44f-4552-a551-76c3b40ef9fa">
+    <!-- (G) entry_name: wab HevwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">radio</column>
+    <column name="notes_sv">Detta avser en enhet som tar emot (men inte skickar) en ljudsignal. För {Se' HablI':n} för den enhet som används för tvåvägskommunikation. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a977c8d4-1436-4caf-99d7-eb880cfdc2f3">
+    <!-- (G) entry_name: wab labwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">radiosändare</column>
+    <column name="notes_sv">Detta används för en sändare, radiotjänst osv. Det kan också användas för enheten som sänder. Om en åtskillnad måste göras är enheten {wab labwI' jan:n@@wab labwI':n, jan:n:1}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6276bdf0-dd02-45aa-b7bd-3fa79f9def9d">
+    <!-- (G) entry_name: wab naQ -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">vokal</column>
+    <column name="notes_sv">Detta avser ljud, inte bokstäver eller glyfer. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="e9fb6b1c-5796-485a-a572-1fd5fc2abca4">
+    <!-- (G) entry_name: wab poD -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">konsonant</column>
+    <column name="notes_sv">Detta avser ljud, inte bokstäver eller glyfer. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="da116c32-e32e-41e6-af2a-519946f1f011">
+    <!-- (G) entry_name: wab qoSta' 'aplo' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">kassett, band</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7a600c79-3d50-4c09-999d-17b3dd484683">
+    <!-- (G) entry_name: wab ta -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">ljudinspelning</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="38989127-5ca1-40e2-8e90-0230a9656d42">
+    <!-- (G) entry_name: wabDo -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">machtal (vid ljudhastighet)</column>
+    <column name="notes_sv">Som stavningskonvention skrivs {wab Do:n:nolink} "ljudhastigheten" som två ord. När den används som en mätterm ("Mach") skrivs det som ett ord ({wabDo:n:nolink}). Uttalet (och, för den delen, betydelsen) är detsamma.[2]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ffa44478-d630-407b-919f-8bded9738694">
+    <!-- (G) entry_name: wagh -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara dyr</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9cb28468-df35-4198-9cb1-24c7d46b4abf">
+    <!-- (G) entry_name: waH -->
+    <!-- (G) part_of_speech: v:1,t_c -->
+    <column name="definition_sv">pröva, testa, använda på försök</column>
+    <column name="notes_sv">Detta är en mer allmän betydelse av {waH:v:2}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="4b5bbc11-5bdf-4c32-8431-e6b2d3671346">
+    <!-- (G) entry_name: waH -->
+    <!-- (G) part_of_speech: v:2,t_c -->
+    <column name="definition_sv">smaka, prova (mat)</column>
+    <column name="notes_sv">Detta är en specialiserad betydelse av {waH:v:1}. Det betyder att prova mat för att se om det är ordentligt förberett eller för att avgöra om man gillar det.[2]
+
+Förväxla inte detta med {mum:v}, vilket betyder "smak" i den meningen att man uppfattar smaker. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d74b3a52-bc2d-4a36-af4a-0ed62da5063b">
+    <!-- (G) entry_name: wal -->
+    <!-- (G) part_of_speech: v:i_c -->
+    <column name="definition_sv">vibrera, vara i ett tillstånd av vibration</column>
+    <column name="notes_sv">Detta betyder att röra sig på ett snabbt repetitivt sätt, som en gitarrsträng. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="bdecc458-eefb-4996-a3d1-f0f9ccb067ab">
+    <!-- (G) entry_name: wam -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_sv">jaga</column>
+    <column name="notes_sv">Detta används också för fiske.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9e645250-56c3-47ad-8f66-64905b11ed21">
+    <!-- (G) entry_name: wamtaH -->
+    <!-- (G) part_of_speech: sen:slang -->
+    <column name="definition_sv">vara libidinös [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d971a875-6163-4b82-85b5-967d3de9744d">
+    <!-- (G) entry_name: wamwI' -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_sv">jägare</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="45dcb384-cca2-4f52-857c-41dd5228e738">
+    <!-- (G) entry_name: wamwI' Ha'DIbaH -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">jägarens kött [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är kött tillagat med {ngat:n:2}. Ordet för det specifika köttet ersätter ordet {Ha'DIbaH:n:1}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="4ec0912b-7cbb-4cd4-a8d6-bb994469a523">
+    <!-- (G) entry_name: wam -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_sv">wam, en typ av orm</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="bfd7b3f7-859b-4c38-9d32-f0adaa5eace3">
+    <!-- (G) entry_name: wan -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara rak</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ae6380dd-6184-4f37-8f0d-efb226ca9afe">
+    <!-- (G) entry_name: wanHa' -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara böjd, vara krokig</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="2c3affd7-e25c-4651-9182-9e4a7983fb1a">
+    <!-- (G) entry_name: wanI' -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_sv">fenomen, händelse, tilldragelse, upplevelse</column>
+    <column name="notes_sv">För att uttrycka naturfenomen följs namnet på effekten av ordet {wanI':n:nolink}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="4c1265da-fd40-4163-a58e-6ddfab8e9d26">
+    <!-- (G) entry_name: wanI' SubmaH -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">frekvens, förekomstförhållande [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a7bef590-9028-4bde-b012-2ef6d677e9e2">
+    <!-- (G) entry_name: wang -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_sv">blinkning [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är en frivillig rörelse för att stänga och öppna ett öga. Använd {tu:v} för en ofrivillig blinkning. Använd {jergh:v} "spasm" för ryckningar. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6e2a368d-eb07-48be-93bf-17cb96c376b1">
+    <!-- (G) entry_name: waq -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_sv">sko</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5a006816-dc59-40db-8e0d-ca462523f89d">
+    <!-- (G) entry_name: waqboch -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_sv">en slags fågel (med en väldigt lång näbb)</column>
+    <column name="notes_sv">Detta är en fågel med en mycket lång näbb. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="0d977daf-dd30-4b99-877c-9eb47cf50a21">
+    <!-- (G) entry_name: waQ -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">hindra, vara i vägen för</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="3676df1c-beca-468e-be30-99169fd49ef6">
+    <!-- (G) entry_name: waQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">om ... månader</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9e38f160-26f5-47b5-afdc-26427857ea7a">
+    <!-- (G) entry_name: war -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">kolumn (i en tabell eller ett kalkylblad) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7080d90d-c45b-461c-bd6c-f513582587dd">
+    <!-- (G) entry_name: warjun -->
+    <!-- (G) part_of_speech: n:food -->
+    <column name="definition_sv">ett slags kniv (används vid matberedning)</column>
+    <column name="notes_sv">Detta är stort, vass och fyrkantigt, nästan som en {'obmaQ:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6d785d0e-9128-4342-97bb-b1960f2fc2de">
+    <!-- (G) entry_name: waS -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara fel, dålig [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Observera att detta betyder "vara fel, fel" (något har gått fel eller inte visat sig enligt plan), i motsats till {muj:v} "vara felaktigt, faktiskt fel". [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ce20eb24-ff75-4d05-8961-318351b78b7b">
+    <!-- (G) entry_name: watrIn -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">smörjmedel (allmän term) [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta avser generellt smörjmedel och inte till en specifik typ av smörjmedel. Verbetet {lo':v} kan användas för att applicera smörjmedel, eller beroende på hur det appliceras kan {lIch:v}, {ngoH:v:1}, {vev:v}, {ghay:v} eller kanske {QIn:v} användas. Ordet {'onroS:n} kan också inkluderas.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="fae46443-6bcd-4989-8a9f-aa0138ce72e9">
+    <!-- (G) entry_name: watlh -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara ren, vara oblandad</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="85b183f7-bd88-428f-9ab4-53ac66829b94">
+    <!-- (G) entry_name: wav -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">dela (upp), dela ut, fördela, dividera</column>
+    <column name="notes_sv">För matematisk funktion av division, se {boqHa''egh:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="1934bd4d-dac8-4b3a-80a0-500d9d6faaa2">
+    <!-- (G) entry_name: waw' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">bas (militär term)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="f350c69e-1f4b-4be1-8eb4-6a50901ffe41">
+    <!-- (G) entry_name: way -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara randig [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="612df0ab-662e-4827-be9c-fc296d882a9d">
+    <!-- (G) entry_name: way' -->
+    <!-- (G) part_of_speech: v:t_c,weap -->
+    <column name="definition_sv">parera, avleda en stöt</column>
+    <column name="notes_sv">Detta används också för argument (se {jop 'ej way':sen}). [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="41408838-30ca-4fb4-b836-36ce34e7a667">
+    <!-- (G) entry_name: way'ar -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">kaos [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta hänvisar till en situation med desorganisering. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="109e7a27-f102-4e2a-b100-a77ceb30af78">
+    <!-- (G) entry_name: wa' -->
+    <!-- (G) part_of_speech: n:num -->
+    <column name="definition_sv">ett</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="65dc9062-5569-46c7-b3b9-f4c310e65aa8">
+    <!-- (G) entry_name: wa'DIch -->
+    <!-- (G) part_of_speech: n:num,deriv -->
+    <column name="definition_sv">första, början, start, original, ursprunglig</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="78c8cbe4-584f-4b35-a2e7-bd1df684a73c">
+    <!-- (G) entry_name: wa'Hu' -->
+    <!-- (G) part_of_speech: n:deriv,klcp1 -->
+    <column name="definition_sv">igår</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ff1767d9-dff3-4faf-9425-0a3f6c4cfe01">
+    <!-- (G) entry_name: wa'leS -->
+    <!-- (G) part_of_speech: n:deriv,klcp1 -->
+    <column name="definition_sv">imorgon</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a0893657-b81e-45da-bd4d-9e187d754936">
+    <!-- (G) entry_name: wa'logh -->
+    <!-- (G) part_of_speech: adv:deriv -->
+    <column name="definition_sv">en gång</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="32a20e23-ca99-4105-9c1d-9321c5c7b94f">
+    <!-- (G) entry_name: wa'maH -->
+    <!-- (G) part_of_speech: n:num,deriv -->
+    <column name="definition_sv">tio</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9920e43a-168d-49be-8a96-1f05d9e2966c">
+    <!-- (G) entry_name: wa'maHDIch -->
+    <!-- (G) part_of_speech: n:num,deriv -->
+    <column name="definition_sv">tionde</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="1909a56d-9ca3-4f9d-87bb-dd86399a0f58">
+    <!-- (G) entry_name: wa' Dol nIvDaq matay'DI' maQap. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_sv">Vi lyckas tillsammans i en större helhet. [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="984535aa-2026-4622-a4db-8b7e8b6a1301">
+    <!-- (G) entry_name: wa' DoS neH yIbuS. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_sv">Fokusera på men ett mål. [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="12f06614-048f-448d-970b-a7e1d7074d88">
+    <!-- (G) entry_name: wa' DoS wIqIp. -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_sv">Vi instämmer. [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta betyder bokstavligen "vi träffar ett mål". Det kan förkortas till bara {DoS wIqIp.:sen:nolink} [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="456efacf-024e-4ab9-bc7f-e02418721a04">
+    <!-- (G) entry_name: wa' jaj 'etlh 'uchchoHlaH tlhIngan puqloD; jajvetlh loD nen moj. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_sv">Klingons son är en man dagen han först kan hålla ett blad. [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="11e3447f-615f-4ee6-8b4f-92aa3ad63b6c">
+    <!-- (G) entry_name: wa' Qu'vaD wa' DevwI' tu'lu'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_sv">För ett uppdrag finns en ledare. [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9c991871-a9eb-4e72-bc23-85e8421ab204">
+    <!-- (G) entry_name: wa' rutlh qam Do Duj -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">enhjuling [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a3c52b91-423a-4ff3-82ff-fd03e8f574dd">
+    <!-- (G) entry_name: wa' SuvwI' muHlu'DI', tuHchoH Hoch SuvwI'pu'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_sv">Utförandet av en enda krigare ger skam till alla. [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="8a3b4676-11ad-4085-a120-4948b0963cf2">
+    <!-- (G) entry_name: wa' wa' wa'. -->
+    <!-- (G) part_of_speech: sen:slang -->
+    <column name="definition_sv">Det är komplicerat. [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Maltz sa att om en elev svarade på en lärares fråga genom att säga detta i skolan skulle studenten troligt bli disciplinerad (såvida det inte var det rätta svaret). Han utarbetade inte ytterligare.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="439524d8-7a91-4d5c-9dc8-5292e3762f22">
+    <!-- (G) entry_name: wa'maH cha' pemmey wa'maH cha' rammey je -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_sv">en lång tid [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta idiomatiska uttryck hänvisar till en händelse i livet för {qeylIS'e' lIjlaHbe'bogh vay':n:name}, då han kämpade med sin bror {moratlh:n:name} i tolv dagar och tolv nätter (som berättats i {paq'batlh:src}). Uttrycket betyder inte bara att händelsens längd är lång, utan också att händelsen är en viktig, värdig att ta så mycket tid. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7060c0c7-faf5-4199-81f5-21c3f5d74e0e">
+    <!-- (G) entry_name: wa'maH wej. -->
+    <!-- (G) part_of_speech: sen:slang -->
+    <column name="definition_sv">Det är komplicerat. [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Klingons anser att numret 13 är speciellt på grund av hur de brukade räkna. Talstalet 12 uttrycktes tidigare som 3 × 3 + 3, och sedan blev systemet komplicerat. Denna förening förblev även efter att Klingons bytte till decimaltalssystemet. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="fceb811d-eaaf-400c-abe8-3fdf0028d1ae">
+    <!-- (G) entry_name: wa'chaw -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">kalkylblad, tabell [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="bb91ff5f-a4d5-44d1-ad31-410a4a4b2576">
+    <!-- (G) entry_name: wa'lay -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">massa (fysikbegrepp) [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta skiljer sig från ett objekts vikt, som är beroende av gravitation. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="0dffd79f-3771-4489-8959-febe41e7466e">
+    <!-- (G) entry_name: wa'ngoQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">mangan</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6aa5b8fd-e9d4-40da-98b5-10d2f6987d4a">
+    <!-- (G) entry_name: wa'jo''a' -->
+    <!-- (G) part_of_speech: n:name,fic,nodict -->
+    <column name="definition_sv">Wa'Joh'a' [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Enligt {The Klingon Art of War:src} är detta namnet på den första Klingon-guden.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="50e68b0a-1b18-46c5-912d-b8d5addb7818">
+    <!-- (G) entry_name: web -->
+    <!-- (G) part_of_speech: v:1,is -->
+    <column name="definition_sv">vara i onåd, vara oönskad, vara utstött</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ccf1f8d9-49e0-403d-ad9c-2ae45375c070">
+    <!-- (G) entry_name: web -->
+    <!-- (G) part_of_speech: v:2,is,slang -->
+    <column name="definition_sv">vara kaotisk, oorganiserad [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är en slangbetydelse av {web:v:1} tillämpad på en situation eller uppdrag eller liknande. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="2538d5ac-ccf4-4e2a-86e3-808bb73dbc7b">
+    <!-- (G) entry_name: wech -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">servera jäst mat när den är som bäst</column>
+    <column name="notes_sv">Detta är mat blandad med {'atlhqam:n}, jäsad och serverad. [1, p.92] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="fff4c733-24b7-450f-abb7-84bdb7376405">
+    <!-- (G) entry_name: wegh -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">fängsla, spärra in, stänga in</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="fe7dc68e-9c33-4fca-b31b-fee48779308c">
+    <!-- (G) entry_name: weH -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">plundra, göra en räd (mot)</column>
+    <column name="notes_sv">Detta ord är som {yot:v}, men med konnotationen överraskning eller hastighet.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="c5217126-c9a2-4548-af52-db651af098e7">
+    <!-- (G) entry_name: wej -->
+    <!-- (G) part_of_speech: adv -->
+    <column name="definition_sv">inte än</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="82ee4f0d-bc34-40f0-87f0-ec8d17f15df6">
+    <!-- (G) entry_name: wejHa' -->
+    <!-- (G) part_of_speech: adv:deriv -->
+    <column name="definition_sv">redan, innan nu, från och med nu [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="2387f76f-0b26-49d5-8f98-4c4f032d1634">
+    <!-- (G) entry_name: wej -->
+    <!-- (G) part_of_speech: n:num -->
+    <column name="definition_sv">tre</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5711e0dc-f445-4082-950f-9dcc9554f1b3">
+    <!-- (G) entry_name: wejDIch -->
+    <!-- (G) part_of_speech: n:num,deriv -->
+    <column name="definition_sv">tredje</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="74c19db3-bbc7-4d42-ae0c-fd7ce1aaf6a5">
+    <!-- (G) entry_name: wejmaH -->
+    <!-- (G) part_of_speech: n:num,deriv -->
+    <column name="definition_sv">trettio [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="73aab0f7-6ea4-4c2b-badb-868e0403832b">
+    <!-- (G) entry_name: wejbe' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">nitrat (kemi term) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="44ac02a3-b13c-46bb-96e9-495dff5f11de">
+    <!-- (G) entry_name: wejwa' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">smak</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d6ff0bd6-34c8-4059-993f-68ec76f80d97">
+    <!-- (G) entry_name: wej Heghchugh vay', SuvtaH SuvwI'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_sv">En krigare kämpar mot döden. [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="da5933a9-7aba-4c3f-b397-3ec91840743c">
+    <!-- (G) entry_name: wejpuH -->
+    <!-- (G) part_of_speech: excl:klcp1 -->
+    <column name="definition_sv">charmerande, just snyggt, vackert (används endast ironiskt)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a17de50d-a5ed-4dba-8867-c65f367f515a">
+    <!-- (G) entry_name: wel -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">stå i skuld till (någon)</column>
+    <column name="notes_sv">Antingen är den skyldiga saken eller personen som något är skyldigt kan vara föremålet. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="91d75fa4-a819-46f2-a6dd-c34c751a5d3d">
+    <!-- (G) entry_name: welwelwel -->
+    <!-- (G) part_of_speech: excl -->
+    <column name="definition_sv">ljud gjord av en {targh:n} [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Den stereotypa {targh:n:nolink} gör ett ljud som konventionellt återges {welwelwel:sen:nolink} (där antalet repetitioner är varierande). [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="0bee4f49-2f55-4158-a9a7-05ba8c565e0a">
+    <!-- (G) entry_name: wem -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_sv">kränka, bryta emot, överträda, störa, skända</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="c90fe91f-ca55-4f60-8280-093cd2fb6dc8">
+    <!-- (G) entry_name: wem -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_sv">kränkning, brott, överträdelse, skändning</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="75d06dea-ad29-442b-b053-c4a4227410e8">
+    <!-- (G) entry_name: wen -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">för ... månader sedan</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d127fc4e-8866-44fa-96fb-a14924628a5c">
+    <!-- (G) entry_name: wep -->
+    <!-- (G) part_of_speech: n:1,klcp1 -->
+    <column name="definition_sv">jacka, rock</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="0f40d8ca-db0d-4aa8-8e90-c450dbb8f7dd">
+    <!-- (G) entry_name: wep -->
+    <!-- (G) part_of_speech: n:2,reg -->
+    <column name="definition_sv">skjorta med ärmar</column>
+    <column name="notes_sv">Detta ord har denna betydelse i {voSpegh Sep:n}-dialekten. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="00e8bce6-59d3-4355-9d65-599ba42faae3">
+    <!-- (G) entry_name: weq -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">slå (på slaginstrument) med handflata</column>
+    <column name="notes_sv">Jämför med {moq:v} och {tlhaw':v}. För att slå något med handflatan i ett icke-musikaliskt sammanhang, överväg {yo:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="e0a8fbcc-ea96-4cd2-a20b-b344defc3073">
+    <!-- (G) entry_name: weQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">ljus (stearinljus o.dyl.)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="010e5f0d-d649-400e-b58d-02d84a30f8a2">
+    <!-- (G) entry_name: weQmoQnaQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">webben</column>
+    <column name="notes_sv">Det här är det närmaste Klingons har "World Wide Web". [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="b33f30f5-e484-4dc3-9c9d-c0fe2011cb76">
+    <!-- (G) entry_name: wer -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">bli veckad, vara skrynklig [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="339eeba9-e21e-46e9-a321-c9762571caa5">
+    <!-- (G) entry_name: wermoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_sv">veck, rynkor [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="f1c193b4-d00e-4f91-a9d3-48e7e6f5a489">
+    <!-- (G) entry_name: weS -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">förlora, genomgå en minskning av, drabbas av en minskning av [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta används för att uttrycka saker som "vi har tappat många soldater" eller "han förlorat mycket blod". För att säga att någon har dött, använd bara {Hegh:v}. Till exempel "hon tappade sin man" skulle bara vara {Heghpu' loDnalDaj:sen@@Hegh:v, -pu':v, loDnal:n, -Daj:n}. För "vi har förlorat många krigare" i den meningen att de dog, använd {Heghpu' SuvwI'pu'ma':sen@@Hegh:v, -pu':v, SuvwI':n, -pu':n, -ma':n}. Man kan säga {SuvwI'pu' DIweSpu':sen@@SuvwI':n, -pu':n, DI-:v, weS:v, -pu':v}, men det innebär att krigarna är förlorade i den meningen att de är borta eller saknade, eller allvarligt skadade och inte förväntas komma tillbaka (eller att återvända när som helst snart), men inte nödvändigtvis döda.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="739cbd80-213c-416b-99d9-de807c872c0e">
+    <!-- (G) entry_name: weSjech -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">tyg, tyg, textil [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta kan användas för textilier eller tyg i kläder, lakan, handdukar och så vidare, men i allmänhet inte för mattor eller mattor (utom för tunna kläder).[1] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="0c912f98-7e83-4143-9925-49322829c324">
+    <!-- (G) entry_name: weSjech ba'Suq Duj -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">luftballong [AUTOTRANSLATED]</column>
+    <column name="notes_sv">En {weSjech ba'Suq:n@@weSjech:n, ba'Suq:n} är en viss typ av ballong. När en korg (en {'unwat:n}, eller i detta fall en {'unwat'a':n@@'unwat:n, -'a':n}) är ansluten till den, kan det hela kallas {weSjech ba'Suq Duj:n:nolink}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="3dda643b-b9bb-420c-9004-593f8b726fb1">
+    <!-- (G) entry_name: wev -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">rad (i en tabell eller ett kalkylblad) [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Förutom att det används för en rad i ett rutnät (som i ett kalkylblad eller annan grafisk representation), kan detta också användas för fysiska saker om den totala konfigurationen är (eller kan vara) rutnätliknande och det finns (eller kan vara) andra rader, inte bara en. Till exempel skulle detta användas för rader med majs eller rader av träd som växer i ett fält på en gård. Det kan fortfarande användas om det bara finns en rad i en situation där det vanligtvis finns fler (eller det skulle inte vara förvånande om det fanns fler). Om det är oklart i en situation om mer än en rad förväntas eller är typisk, är {wIyqap:n:nolink} förmodligen det rätta valet.
+
+Ordet {mIr:n:1} kan användas som slangtermer för detta, om saker är tydliga. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="3aaab36b-3bca-46ae-9cd7-8ec0dfa90e5a">
+    <!-- (G) entry_name: wev -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">skiss, klotter [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Objektet är den bild som ritas. Uppfattningen är att det är en snabb ritning, inte en försiktig.
+
+Detta ord har inte en konnotation av det engelska ordet "doodle" att den som gör doodling inte uppmärksammar vad som ritas eller skissas.
+
+Om resultatet av klottningen inte är lätt att identifiera eller namnge, kan "bilden" kallas {yay:n:3}.
+
+Även om det implementerade används kan vara vad som helst, är det inte vanligt att använda detta verb med en {rItlh naQ:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="2c176f2c-d9f0-4279-9cf0-b9860481652c">
+    <!-- (G) entry_name: wew -->
+    <!-- (G) part_of_speech: v:i,klcp1 -->
+    <column name="definition_sv">glöda</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ab25a2be-92c9-482b-8f04-86e7222796a6">
+    <!-- (G) entry_name: wey -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">kompani</column>
+    <column name="notes_sv">Detta är ett fartygs kompletta antal personal, besättning ({beq:n}) plus befäl ({yaS:n}). [1, p.50] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7e3cb1ed-5e24-409c-a5bc-48ad81857509">
+    <!-- (G) entry_name: wey jolpat -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">personaltransporter [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="3f4200ba-d0b8-4581-9678-be41b2a0230a">
+    <!-- (G) entry_name: wI- -->
+    <!-- (G) part_of_speech: v:pref -->
+    <column name="definition_sv">vi-honom/henne/det</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5f128491-5d94-4955-8e61-8b7d8fb6003c">
+    <!-- (G) entry_name: wIb -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_sv">vara sur, vara bitter, vara besk, vara syrlig</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="fc6539c9-f336-4de9-85b7-2740dc84b297">
+    <!-- (G) entry_name: wIch -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">myt</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="b2496865-56b9-4faa-8347-368e7633d5f2">
+    <!-- (G) entry_name: wID -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">massaker [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Det här ordet betecknar oskräckligt dödande. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="050ec189-9360-4164-9631-9ab35c050d96">
+    <!-- (G) entry_name: wIgh -->
+    <!-- (G) part_of_speech: n:being,klcp1 -->
+    <column name="definition_sv">geni</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ca496607-1089-435e-a13e-4ab98234734f">
+    <!-- (G) entry_name: wIH -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara hänsynslös</column>
+    <column name="notes_sv">Det finns ett formspråk, {wIH; Hur'Iqngan rur@@wIH:v, Hur'Iqngan:n, rur:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="892a6026-aba6-43b2-b2e9-5455780516a5">
+    <!-- (G) entry_name: wIj -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">bruka, odla, driva jordbruk</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6e5a2930-1d56-43bb-8819-1426188d29f7">
+    <!-- (G) entry_name: wIjwI' jan -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">plog [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5c0ef54a-3eba-4740-9355-28f7775c96f5">
+    <!-- (G) entry_name: wIjwI' ngeb -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">scarecrow [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är ett fast uttryck, och skulle inte förstås som en riktig person som poserar som jordbrukare. Klingons använder inte sådana saker längre. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="896784f0-7865-4f4b-9da5-56a6d897d618">
+    <!-- (G) entry_name: wIj jup -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_sv">"vän min" [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är ett uttryck som används mellan nära vänner i de högre sociala klasserna. Det bör undvikas om möjligt, såvida inte ens sociala ställning är helt klar. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="19e53f10-fc49-4688-bed8-ed735d083076">
+    <!-- (G) entry_name: wIl -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">pigg, spets</column>
+    <column name="notes_sv">Detta hänvisar till en fristående topp som t.ex. en insats. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="97bb5eec-3ebb-442b-8212-8c452d4463b5">
+    <!-- (G) entry_name: wIlHay -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">gångjärn, rygg (av bok) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="8224aa8b-13d7-4746-9107-dc9fce84ecb0">
+    <!-- (G) entry_name: wIlle' -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_sv">gemensam [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="948bdece-ef0c-4ccc-95c3-3f73619b1ecf">
+    <!-- (G) entry_name: wIllul -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">ett spel som liknar bowling [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="1c489e0d-4550-4a5e-883b-b8738f68bf7e">
+    <!-- (G) entry_name: wIlpuq -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">pudding</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="b44cf3bd-1fea-4eb7-9f93-7a76b067a7c0">
+    <!-- (G) entry_name: wItte' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">matematisk ekvation [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="cd960d04-4f18-41c1-8a1b-07ac40859d45">
+    <!-- (G) entry_name: wItlh -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">bryta av (något)</column>
+    <column name="notes_sv">Detta verb kan användas för att beskriva hur man bryter av en del mat för att överföra från en serveringsfat ({'elpI':n}) till ens tallrik ({jengva':n}).[1, p.99] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="093d24d5-4e4a-4bed-8ac8-99084ee77908">
+    <!-- (G) entry_name: wIv -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">val, alternativ</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="24f458e4-99ce-4196-9b77-d1a5a88b2ab7">
+    <!-- (G) entry_name: wIv -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_sv">välja</column>
+    <column name="notes_sv">Detta verb används också för att klicka på en hyperlänk på en dator.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="26ed941a-2b15-41a5-a722-2b5736c11c09">
+    <!-- (G) entry_name: wIy -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">taktisk skärm (på monitor)</column>
+    <column name="notes_sv">Detta hänvisar till ett abstrakt schema över ett slagfält, som visas på en {jIH:n:2}. Kontrast detta med {HaSta:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="79016e02-8911-406e-baf7-50bd532c4bb5">
+    <!-- (G) entry_name: wIy yIcha'! -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_sv">Visa den taktiska displayen! [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Se Gowron säga detta: {YouTube video:url:http://youtu.be/ooFuTPjRtEM}
+
+Den klippta Klingon-formen för detta kommando skulle vara {wIy cha'!:sen@@wIy:n, cha':v} [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="c4644587-933c-483a-8109-0550221d2d50">
+    <!-- (G) entry_name: wIyqap -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">rad eller rad (av människor eller saker som inte förväntas vara i rörelse) [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta kan användas för en polisuppställning. Beståndsdelarna i en {wIyqap:n:nolink} förväntas inte flytta (i motsats till de i en {lanSoy:n:nolink}). Detta ord används även om människorna eller sakerna är samlade. Det används också om det finns mer än en rad, när det vanligtvis bara finns en, så att i en polisuppställning med två rader är vardera fortfarande en {wIyqap:n:nolink} (och inte en {wev:n:nolink}). [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="1791e0f9-2dc2-49bb-9505-cd5b6fad2b06">
+    <!-- (G) entry_name: wI'qIy -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">wiki [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är inte ett Klingon-ord, utan Klingon-uttalet av ett Federation Standard-ord som hänvisar till en samarbetsredigerad webbplats eller databas. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a3f6ead7-a1ff-409f-8a81-397bab45ccbb">
+    <!-- (G) entry_name: wob -->
+    <!-- (G) part_of_speech: v:t_c,weap -->
+    <column name="definition_sv">kasta spjut med en {chetvI':n:2}</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7cabafdb-eee1-4feb-a0b0-54ca2e171cda">
+    <!-- (G) entry_name: woch -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara lång, vara reslig (om person)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="144f63fa-f488-4358-b027-a71a7ca6010f">
+    <!-- (G) entry_name: woD -->
+    <!-- (G) part_of_speech: v:1,t_c,klcp1 -->
+    <column name="definition_sv">kasta bort, kassera</column>
+    <column name="notes_sv">Det är beklagligt när detta appliceras på mat.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="1f0bc440-7241-4ab0-a246-c0258f7a010a">
+    <!-- (G) entry_name: woD -->
+    <!-- (G) part_of_speech: v:2,is -->
+    <column name="definition_sv">vara ihålig [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="31678c46-4940-46b8-a73a-92cc8ecd0fb3">
+    <!-- (G) entry_name: wogh -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_sv">överträda, göra mer än vad som är acceptabelt, gå för långt</column>
+    <column name="notes_sv">{bIwogh:sen:nolink} översätts antagligen bäst idiomatiskt som "Du går för långt."[1] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9050c135-ad5b-463c-b2bb-710148b825d7">
+    <!-- (G) entry_name: woH -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">ta upp, plocka upp, lyfta upp</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="1c20fadc-21f9-4f4a-aaeb-ec42021194e9">
+    <!-- (G) entry_name: woj -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">strålning</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="593cc472-f671-4b2d-86d0-abbe4fde6d17">
+    <!-- (G) entry_name: woj -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">sterilisera</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="462bd58c-805c-4fcd-a6c3-f9a498d85413">
+    <!-- (G) entry_name: woj choHwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">reaktor</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="e2ca59a3-84d0-4bc3-ad99-ac32dcdb64e6">
+    <!-- (G) entry_name: wol -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">veckas, vikas [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="bef25466-eccc-4261-9b28-05a11618b772">
+    <!-- (G) entry_name: wolmoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_sv">veck, vik [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="e0373396-9bcb-42bc-9bd4-2def957463d9">
+    <!-- (G) entry_name: wom -->
+    <!-- (G) part_of_speech: v:t -->
+    <column name="definition_sv">picka, hacka (på/i) (med näbb)</column>
+    <column name="notes_sv">Detta ord används både för att äta och attackera genom att haka. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="3770dd02-75b3-4e5d-9a39-f7df1feb12ce">
+    <!-- (G) entry_name: wonmugh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">gränd [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta är vanligtvis en smal väg eller väg mellan eller bakom byggnader. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a9574c05-46e6-4e20-bfad-e3262048ccef">
+    <!-- (G) entry_name: wontoy -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">idealisk [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="92ab1423-f24e-4127-9715-ba0bf71e3da3">
+    <!-- (G) entry_name: woq -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_sv">bekräfta, underbygga, bekräfta [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a69ef833-e678-4ad3-8380-a3095bca0a9f">
+    <!-- (G) entry_name: woQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">auktoritet, politisk makt</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="91bc3be7-19ae-409c-86aa-722d8be2442d">
+    <!-- (G) entry_name: wornagh -->
+    <!-- (G) part_of_speech: n:food -->
+    <column name="definition_sv">warnog, klingonskt öl</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="2ce50ac2-74b2-44c7-8399-4f31f0284f59">
+    <!-- (G) entry_name: woS -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_sv">haka</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="15f73f5c-398c-46e0-8764-7867a785533f">
+    <!-- (G) entry_name: woSwa' -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_sv">bältdjursliknande djur [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d067e73c-fde3-407f-8342-eae468d04bd3">
+    <!-- (G) entry_name: woSwa' ghew -->
+    <!-- (G) part_of_speech: n:anim,deriv -->
+    <column name="definition_sv">rullande bugg [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="eb39cf47-997b-4851-bc85-1c1aec573cdf">
+    <!-- (G) entry_name: wot -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_sv">verb</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d27eadb7-c817-48ec-8341-541160bdd7b2">
+    <!-- (G) entry_name: wot chuS -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">icke-stativt verb [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a7d017d0-49f2-49a1-97f5-e3067ab3debb">
+    <!-- (G) entry_name: wot tam -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">stativt verb [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="f70e9a67-b98d-44dd-b4cc-bfc2db02fdf1">
+    <!-- (G) entry_name: wov -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_sv">vara ljus</column>
+    <column name="notes_sv">Det finns ett formspråk, {wov; ghI'boj Sech rur}.
+
+Detta verb används också för att beskriva en solig dag.[2]
+
+Om ens ögon är "känsliga för ljus" kan de vara känsliga för {wovtaHghach:n@@wov:v, -taH:v, -ghach:v}.[3] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="f36f1b7a-9332-4f15-b286-3f009582ec37">
+    <!-- (G) entry_name: wovmoHbogh jan -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">ljus (enhet) [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Se Hallmark-reklamen där detta ord visas: {YouTube video:url:http://youtu.be/9eM1OSNGLwI} [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="c35faf0a-06cc-488d-b97c-a171b898f2a6">
+    <!-- (G) entry_name: wovmoHwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">strålkastare, belysning</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="91d399ea-8a79-4411-98b3-09db896cd9bf">
+    <!-- (G) entry_name: wovmoHwI' moQ -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">glödlampa</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ea2cde39-9e50-468c-bfbc-89285683e9d5">
+    <!-- (G) entry_name: wov'on -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">minne (minne) [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta hänvisar till specifika minnen eller erinrelser, och skiljer sig från "minne" i betydelsen förmågan att komma ihåg eller återkalla kraften, för vilka se {qaw:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d91073a0-4cfc-4cac-b3a6-97e69de9f6ab">
+    <!-- (G) entry_name: wo' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">imperium</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="ef57618f-4d05-4089-891c-854e2c8645e2">
+    <!-- (G) entry_name: wo' tay' -->
+    <!-- (G) part_of_speech: n:place,deriv -->
+    <column name="definition_sv">Storbritannien</column>
+    <column name="notes_sv">{wo' tay':n:nolink} är ett äldre namn än {tuqjIjQa':n}. Klingonerna som gav landet detta namn kanske tänkte på det brittiska imperiet.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="663a3861-74a6-4497-9744-2411c0ba993c">
+    <!-- (G) entry_name: wo' toy'taHvIS Hegh 'e' tul Hoch tlhIngan. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_sv">Att dö medan du tjänar imperiet är hoppet på varje Klingon. [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="71b0d89a-1cec-42fb-a78a-ebebdc20d81f">
+    <!-- (G) entry_name: wo'rIv -->
+    <!-- (G) part_of_speech: n:name,fic -->
+    <column name="definition_sv">Worf</column>
+    <column name="notes_sv">Son till Mogh ({mogh:n:name}) och den första Klingon-tjänstemannen som tjänade i Starfleet. Han framställs av skådespelaren {mayqel Do'rIn:n:name}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="82ed570c-d56e-4f37-9d52-5fc41209b697">
+    <!-- (G) entry_name: wuD -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_sv">snarka</column>
+    <column name="notes_sv">Andas bullrare än {jev:v:2}. [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7c0671f8-67fc-4093-bf58-72c21ae465b9">
+    <!-- (G) entry_name: wun -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara oskyddad, vara sårbar, vara utsatt</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d3e0886c-85e7-4780-8e5c-0de0f7a27bee">
+    <!-- (G) entry_name: wup -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_sv">brista ut i sång</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="d83e9a64-9917-4f2e-b2c0-dd30d4041fd9">
+    <!-- (G) entry_name: wuq -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_sv">besluta (sig för), bestämma (sig för)</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="7d2d858e-3cc8-4bdb-804b-fe126e6fbd82">
+    <!-- (G) entry_name: wuqHa' -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_sv">pendla (en rättslig mening) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="1330b039-17eb-4f37-ac79-64def9ce6bfe">
+    <!-- (G) entry_name: wuqwI' -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_sv">jurymedlem [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="45a658bd-6582-4ec7-9281-bb30f5815d55">
+    <!-- (G) entry_name: wuqwI' ghom -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">jury [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="5769abe4-bc9e-4e72-a3fc-e7b5f46947d9">
+    <!-- (G) entry_name: wuQ -->
+    <!-- (G) part_of_speech: v:i,klcp1 -->
+    <column name="definition_sv">ha huvudvärk, ha ont i huvudet</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="9ea3a9d9-88bb-4189-8492-54b11e106b15">
+    <!-- (G) entry_name: wuS -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_sv">läpp</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="0f18b6cb-653e-4c0c-b417-dfdb2f1af5f1">
+    <!-- (G) entry_name: wuS rItlh naQ -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">läppstift</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="0cf8a46b-942d-40cd-b196-ed04f3cb25d9">
+    <!-- (G) entry_name: wutlh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">underjorden</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="6e49cb54-dced-457e-9178-80d818cf383b">
+    <!-- (G) entry_name: wutlh pa' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_sv">fängelsehåla [AUTOTRANSLATED]</column>
+    <column name="notes_sv">Detta betyder bokstavligen bara "underjordiskt rum". [AUTOTRANSLATED]</column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="4cbb67fb-4fc2-4c4d-b604-fa25ae93e6d6">
+    <!-- (G) entry_name: wuv -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_sv">förlita sig på, vara beroende av, vara hänvisad till</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="4605282b-0fbe-45e4-94dc-7c48aa32a8c4">
+    <!-- (G) entry_name: wuvchuq -->
+    <!-- (G) part_of_speech: v:i_c,deriv -->
+    <column name="definition_sv">bli intrasslad (kvantfysik) [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="a65bca7e-d582-43fe-8e40-611c9eeaa7c4">
+    <!-- (G) entry_name: wu' -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_sv">vara mystisk, vara esoterisk, vara ockult [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+  <mixin target="66992bf4-2ff8-4429-b8c4-108b359e61db">
+    <!-- (G) entry_name: wu'tIbIS -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_sv">vidskepelse [AUTOTRANSLATED]</column>
+    <column name="notes_sv"></column>
+    <column name="examples_sv"></column>
+    <column name="search_tags_sv"></column>
+  </mixin>
+</mixins>

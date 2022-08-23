@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixins>
+  <mixin target="1bd2d0bf-e09d-4750-b63b-e39adc571902">
+    <!-- (G) entry_name: 0 -->
+    <!-- (G) part_of_speech: v:pref,klcp1 -->
+    <column name="definition_pt">ele/ela-nenhum, ele/ela-ele/ela, ele/ela-eles, eles-nenhum, eles-eles</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="d037e5d9-9162-41b4-bb0f-a1c3d211c137">
+    <!-- (G) entry_name: -'a' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">aumentativo (substantivo tipo 1)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="08b14b05-7976-422a-9e0f-62421d3afb2c">
+    <!-- (G) entry_name: -Hom -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">diminutivo (substantivo tipo 1)</column>
+    <column name="notes_pt">O substantivo formado com {-Hom:n:suff,nolink} refere-se a algo menor, menos importante ou menos poderoso que o substantivo sem o sufixo. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="0db44b93-218a-4af9-bb34-4fea9881a1b1">
+    <!-- (G) entry_name: -oy -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_pt">carinho (substantivo tipo 1)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="a9065228-9ac1-492e-851f-9a219886eb04">
+    <!-- (G) entry_name: -pu' -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_pt">plural (seres capazes de usar a linguagem) (substantivo tipo 2)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="0ae7ba39-349e-4a37-be87-78210ef62f86">
+    <!-- (G) entry_name: -Du' -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_pt">plural (parte do corpo) (substantivo tipo 2)</column>
+    <column name="notes_pt">Esse sufixo é usado para formar o plural de partes do corpo, sejam elas de seres capazes de linguagem ou de qualquer outro animal. No entanto, se uma parte do corpo se separa de um ser e é transformada em algo que não é mais principalmente uma parte do corpo, então {-mey:n:suff,nolink} é usado. Por exemplo, o plural de {veDDIr:n} "pelt" é {veDDIrmey:n:nolink} em vez de {veDDIrDu':n:nolink}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5d0916a8-9c02-4e0c-b694-8f4abfbcbfef">
+    <!-- (G) entry_name: -mey -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_pt">plural (geral) (substantivo tipo 2)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="740167f5-c159-47ed-a4dc-796232657b15">
+    <!-- (G) entry_name: -qoq -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">assim chamado (substantivo tipo 3)</column>
+    <column name="notes_pt">Esse sufixo indica que o substantivo está sendo usado de maneira falsa ou irônica. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="c3c3a65d-4581-48e4-84de-0264a6013684">
+    <!-- (G) entry_name: -Hey -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">aparente (substantivo tipo 3)</column>
+    <column name="notes_pt">Esse sufixo indica que o falante acha que o objeto referido pelo substantivo é descrito com precisão por ele, mas tem algumas dúvidas. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="f5527fd3-53ac-45d9-9273-b5f4857a1a91">
+    <!-- (G) entry_name: -na' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">definitivo (substantivo tipo 3)</column>
+    <column name="notes_pt">Esse sufixo indica que o falante não tem dúvida de que o objeto referido pelo substantivo é descrito com precisão por ele. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7d2a105e-dac7-4b29-8516-f28dcf06b9b9">
+    <!-- (G) entry_name: -wIj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">meu (substantivo tipo 4)</column>
+    <column name="notes_pt">É considerado depreciativo usar esse sufixo em um substantivo referente a um ser capaz de linguagem. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="e8d93ad0-c11c-48f7-8deb-21595f54da3f">
+    <!-- (G) entry_name: -wI' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">meu (substantivo capaz de usar a linguagem) (substantivo tipo 4)</column>
+    <column name="notes_pt">Veja em {-pu':n:suff} para obter uma explicação de quando um substantivo se qualifica como um ser capaz de linguagem. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="d2fbde8d-746d-483c-badc-5fc4b7dfaefe">
+    <!-- (G) entry_name: -maj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">nosso (substantivo type 4)</column>
+    <column name="notes_pt">É considerado depreciativo usar esse sufixo em um substantivo referente a um ser capaz de linguagem. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="87180953-e86c-448e-99fa-9fb121e88881">
+    <!-- (G) entry_name: -ma' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">nosso (substantivo capaz de usar a linguagem) (substantivo tipo 4)</column>
+    <column name="notes_pt">Veja em {-pu':n:suff} para obter uma explicação de quando um substantivo se qualifica como um ser capaz de linguagem. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="07b83933-35cc-4388-9094-6156c1f264be">
+    <!-- (G) entry_name: -lIj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">seu/teu (substantivo tipo 4)</column>
+    <column name="notes_pt">É considerado depreciativo usar esse sufixo em um substantivo referente a um ser capaz de linguagem. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="dc4c0c3d-2915-4a9f-b40c-c1abbf74f965">
+    <!-- (G) entry_name: -lI' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">seu/teu (substantivo capaz de usar a linguagem) (substantivo tipo 4)</column>
+    <column name="notes_pt">Veja em {-pu':n:suff} para obter uma explicação de quando um substantivo se qualifica como um ser capaz de linguagem. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="c960720e-ccb2-4de9-bbd1-97444b852df5">
+    <!-- (G) entry_name: -raj -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_pt">seus/vosso (plural) (substantivo tipo 4)</column>
+    <column name="notes_pt">É considerado depreciativo usar esse sufixo em um substantivo referente a um ser capaz de linguagem. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="67b22a62-61b0-440a-a179-1fce903a2cb2">
+    <!-- (G) entry_name: -ra' -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_pt">seus/vosso (plural) (substantivo capaz de usar o idioma) (substantivo tipo 4)</column>
+    <column name="notes_pt">Veja em {-pu':n:suff} para obter uma explicação de quando um substantivo se qualifica como um ser capaz de linguagem. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="209c5049-6f80-46a2-878c-895bcdd40dc3">
+    <!-- (G) entry_name: -Daj -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">dele, dela (substantivo tipo 4)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="e2f023da-83a1-402b-ae14-00c07edf445b">
+    <!-- (G) entry_name: -chaj -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_pt">deles / delas (substantivo tipo 4)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="e7fc3fcc-0e9f-49dc-90f7-4507595a2c83">
+    <!-- (G) entry_name: -vam -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">esse (substantivo tipo 4)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="995c5d15-ddd9-4415-b2f5-cbafab8629eb">
+    <!-- (G) entry_name: -vetlh -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">aquele (substantivo tipo 4)</column>
+    <column name="notes_pt">Isso indica que o substantivo se refere a um objeto que não está próximo ou que é trazido novamente como o tópico da conversa. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="330de4ec-e4bd-4d70-bb25-641cb1ddadd2">
+    <!-- (G) entry_name: -Daq -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">locativo (substantivo tipo 5)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="01ea6f46-8a6c-41d0-8754-8eba34467dde">
+    <!-- (G) entry_name: -vo' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">de (substantivo tipo 5)</column>
+    <column name="notes_pt">Esse sufixo é usado quando a ação está em uma direção distante do substantivo ao qual está anexada.[1] Geralmente, pode ser usado apenas para locais físicos.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6df9a9d5-28e2-4e31-b3f7-f15b00a21b2e">
+    <!-- (G) entry_name: -mo' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">porque, devido a (substantivo tipo 5)</column>
+    <column name="notes_pt">Existe um sufixo verbal {-mo':v} com o mesmo significado. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="385f86e9-b948-4ab9-b16b-f6fe3e7c0a22">
+    <!-- (G) entry_name: -vaD -->
+    <!-- (G) part_of_speech: n:suff -->
+    <column name="definition_pt">para (substantivo tipo 5)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="57d92955-cba4-4a57-9dbe-3e8ce70ced3c">
+    <!-- (G) entry_name: -'e' -->
+    <!-- (G) part_of_speech: n:suff,klcp1 -->
+    <column name="definition_pt">tópico (substantivo tipo 5)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="b3154201-c4f5-4095-b1f1-6f9026bdf64d">
+    <!-- (G) entry_name: -'egh -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">si mesmo (verbal tipo 1)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="beca67f2-ba6f-4e00-ad00-07d6dd56b73c">
+    <!-- (G) entry_name: -chuq -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">um ao outro (verbal tipo 1)</column>
+    <column name="notes_pt">Esse sufixo é usado apenas com assuntos do plural. Quando esse sufixo é usado, o prefixo do verbo deve indicar "nenhum objeto". [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5a98fdfb-9cd9-4b61-b3af-46c024b8d060">
+    <!-- (G) entry_name: -nIS -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">necessidade (verbal tipo 2)</column>
+    <column name="notes_pt">Esse sufixo indica que o sujeito precisa executar a ação. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7520ae2a-e057-4338-935e-7164e6c2be1d">
+    <!-- (G) entry_name: -qang -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">querendo (verbal tipo 2)</column>
+    <column name="notes_pt">Esse sufixo indica que o sujeito está disposto a executar a ação. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="b001e2cc-e64f-471e-a75f-8c177badc9db">
+    <!-- (G) entry_name: -rup -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">pronto, preparado (referente aos seres) (verbal tipo 2)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5c4cb4bb-076f-47f8-b875-b2b3ae3084d7">
+    <!-- (G) entry_name: -beH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">pronto, preparado (referindo a dispositivos) (verbal tipo 2)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6efc0bcd-a1c4-4a11-8fe3-c43a0e79ce31">
+    <!-- (G) entry_name: -vIp -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">com medo (verbal tipo 2)</column>
+    <column name="notes_pt">Este sufixo raramente é usado com um sujeito de primeira pessoa, pois é culturalmente um tabu.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6da421e7-bb00-4790-9c8a-a38ac479a182">
+    <!-- (G) entry_name: -choH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">mudança de estado, mudança de direção (verbal tipo 3)</column>
+    <column name="notes_pt">Esse sufixo indica que a ação descrita pelo verbo envolve uma mudança do estado de coisas como existia antes da ação ocorrer. A tradução para o inglês deste sufixo pode ser "tornar-se" ou "começar a". [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="e291014f-6935-4259-92f0-a36a2642a339">
+    <!-- (G) entry_name: -qa' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">resumir, fazer novamente (verbal tipo 3)</column>
+    <column name="notes_pt">Esse sufixo implica que a ação estava ocorrendo, depois parou e começou novamente. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="920247fc-3fba-4bf7-9de6-0f717b776bef">
+    <!-- (G) entry_name: -moH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">causa (verbal tipo 4)</column>
+    <column name="notes_pt">Consulte {qawmoH:v} para obter um exemplo de como usar isso com um verbo que aceita um objeto. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="089202b4-d2fe-4acb-8cea-b6084d3d53c3">
+    <!-- (G) entry_name: -lu' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">sujeito indefinido (verbal tipo 5)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="71e52111-e3d5-43a9-8d9e-ea853692881c">
+    <!-- (G) entry_name: -laH -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">capaz, poder (verbal tipo 5)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="92266cf4-a4e4-4fe3-b54a-b52a74cc88fa">
+    <!-- (G) entry_name: -luH -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">pode-se (verbal tipo 5 - não gramatical)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="77892f81-d6ff-4c08-af93-7f8e7aaff43c">
+    <!-- (G) entry_name: -la' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">pode-se (verbal tipo 5 - não gramatical)</column>
+    <column name="notes_pt">Alguns alto-falantes usam isso para combinar {-lu':v} e {-laH:v} em um sufixo, para expressar assunto e capacidade indefinidos simultaneamente. Ninguém aceita essa construção como gramatical, mas sua inadequação é o que lhe confere influência elocucionária. Deve ser evitado a menos que se sinta muito confortável com as nuances do estilo klingon. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="3e2195d8-6f54-433f-9798-e218885a5ab6">
+    <!-- (G) entry_name: -chu' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">claramente, perfeitamente (verbal tipo 6)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="fc30d55a-4159-4e78-85bc-cca0c6475aea">
+    <!-- (G) entry_name: -bej -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">certamente, sem dúvida (verbal tipo 6)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="acea9a47-1d58-4b0e-9f86-53171e405f99">
+    <!-- (G) entry_name: -ba' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">obviamente (verbal tipo 6)</column>
+    <column name="notes_pt">Esse sufixo indica que o falante acha que a afirmação é óbvia para o ouvinte. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="2299c1e1-c3ec-49ec-baae-172d13f854c3">
+    <!-- (G) entry_name: -law' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">aparentemente (verbal tipo 6)</column>
+    <column name="notes_pt">Esse sufixo expressa incerteza por parte do falante. Pode ser traduzido como "eu acho" ou "eu suspeito". [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="ff833fec-5e39-43cd-a832-bb3bf364477e">
+    <!-- (G) entry_name: -pu' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">perfeito (verbal tipo 7)</column>
+    <column name="notes_pt">Esse sufixo indica que uma ação foi concluída. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="c15cb192-2c75-443e-94e9-967719727de9">
+    <!-- (G) entry_name: -ta' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">concluído, feito (verbal tipo 7)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="f1681551-eb95-4bd2-b82b-c72496cee862">
+    <!-- (G) entry_name: -taH -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">contínuo (verbal tipo 7)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5841a40a-d75c-4ff6-b8e8-ec10b4b96b62">
+    <!-- (G) entry_name: -lI' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">progresso (verbal tipo 7)</column>
+    <column name="notes_pt">Esse sufixo indica que a ação está em andamento e está avançando em direção a um objetivo ou ponto de parada conhecido. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="754a5ac9-b42a-45f0-86fd-4278aadb24b2">
+    <!-- (G) entry_name: -neS -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">honorífico (verbal tipo 8)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="1ea3d6b5-d2e2-41e3-afe6-fd12f596b27e">
+    <!-- (G) entry_name: -DI' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">quando, assim que (verbal tipo 9)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7c979f6e-ace7-4f09-a6d9-b074cb2ffdee">
+    <!-- (G) entry_name: -chugh -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">se (verbal tipo 9)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="bbe20a18-fe95-4874-914a-0387448ba382">
+    <!-- (G) entry_name: -pa' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">antes de (verbal tipo 9)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="ffd3ce4c-12ae-435e-ab10-cc970e2a906d">
+    <!-- (G) entry_name: -vIS -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">enquanto (verbal tipo 9)</column>
+    <column name="notes_pt">Isso é sempre usado com o sufixo tipo 7 {-taH:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="91aae7eb-f00e-4bbf-b59f-c8b4ff3fac96">
+    <!-- (G) entry_name: -mo' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">devido a, por causa de (verbal tipo 9)</column>
+    <column name="notes_pt">Existe um sufixo substantivo {-mo':n} com o mesmo significado. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="93eaf83a-9832-4df4-ac97-cf54fd65dfc3">
+    <!-- (G) entry_name: -bogh -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">o qual (verbal tipo 9)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7ed8ffb0-8fd9-4651-b9ce-b1b67cdda85e">
+    <!-- (G) entry_name: -meH -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">para, com a finalidade de, a fim de (verbal tipo 9)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="018cdda3-057c-4318-8050-5b68f44ac9ab">
+    <!-- (G) entry_name: -'a' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">interrogativo (verbal tipo 9)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="58118f75-62a2-4627-b305-e4fdc63fa247">
+    <!-- (G) entry_name: -jaj -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">que (desejo) (verbal tipo 9)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="f49d5b68-16ef-489c-9433-3f5c38a1998b">
+    <!-- (G) entry_name: -wI' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">quem faz, coisa que faz (verbal tipo 9)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="c51bb125-b4bd-4236-9468-ebfe4fbc2778">
+    <!-- (G) entry_name: -ghach -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">nominalizador (verbal tipo 9)</column>
+    <column name="notes_pt">Esse sufixo geralmente não é usado em um verbo sem outro sufixo ou em um com prefixo. Quando é anexado a um verbo estático, dá um significado como "-ness", enquanto em um verbo ativo significa algo como "-tion".[2] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="847c0599-a5dc-415a-b220-e809948b2b93">
+    <!-- (G) entry_name: -be' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">não (verbal tipo R)</column>
+    <column name="notes_pt">Isso segue o conceito que nega. Ele não pode ser usado para formar imperativos negativos, ou seja, não pode ser usado para significar "não" (para o qual, em vez disso, use {-Qo':v}) [1; 3]. No entanto, um comando como {HIleghbe'moH:sen:nolink} é possível.[3; 4] Esse sufixo pode ser aplicado aos verbos usados ​​como adjetivos.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="afaf4843-ec5a-4f82-b7d0-89e1e28a62e0">
+    <!-- (G) entry_name: -Qo' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">não !, não vou! (verbal tipo R)</column>
+    <column name="notes_pt">Esse sufixo é usado para denotar recusa. Também é usado em imperativos. Sempre ocorre por último, a menos que seja seguido por um sufixo do tipo 9. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="c1dbf660-c1aa-4c1d-90d6-e3bd1194e4f3">
+    <!-- (G) entry_name: -Ha' -->
+    <!-- (G) part_of_speech: v:suff -->
+    <column name="definition_pt">desfazer, fazer de forma incorreta (verbal type R)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="8a9673b1-d79c-4ee1-b6b4-c2b3e224b953">
+    <!-- (G) entry_name: -qu' -->
+    <!-- (G) part_of_speech: v:suff,klcp1 -->
+    <column name="definition_pt">enfático (verbal tipo R)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+</mixins>

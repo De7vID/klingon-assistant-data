@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mixins>
+  <mixin target="095b7ae9-9c7a-4223-af5d-ffe1ae128764">
+    <!-- (G) entry_name: way -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">a consoante {w:sen:nolink}</column>
+    <column name="notes_pt">Isso se refere ao som, e não a qualquer letra ou glifo. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="8a8343b6-43c1-4102-99fc-77a87ee06283">
+    <!-- (G) entry_name: wab -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">som, barulho</column>
+    <column name="notes_pt">Veja em {QIch wab Ho'DoS:n} os nomes das consoantes e vogais klingon. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="9f738499-f44f-4552-a551-76c3b40ef9fa">
+    <!-- (G) entry_name: wab HevwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">radio</column>
+    <column name="notes_pt">Refere-se a um dispositivo que recebe (mas não envia) um sinal de áudio. Para o dispositivo usado para comunicação bidirecional, consulte {Se' HablI':n}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="a977c8d4-1436-4caf-99d7-eb880cfdc2f3">
+    <!-- (G) entry_name: wab labwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">transmissor de rádio</column>
+    <column name="notes_pt">É usado para uma emissora, serviço de rádio, etc. Também pode ser usado para o dispositivo que transmite. Se for necessário fazer uma distinção, o dispositivo é {wab labwI' jan:n@@wab labwI':n, jan:n:1}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6276bdf0-dd02-45aa-b7bd-3fa79f9def9d">
+    <!-- (G) entry_name: wab naQ -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">vogal</column>
+    <column name="notes_pt">Isso se refere a sons, não a letras ou glifos. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="e9fb6b1c-5796-485a-a572-1fd5fc2abca4">
+    <!-- (G) entry_name: wab poD -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">consoante</column>
+    <column name="notes_pt">Isso se refere a sons, não a letras ou glifos. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="da116c32-e32e-41e6-af2a-519946f1f011">
+    <!-- (G) entry_name: wab qoSta' 'aplo' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">cassete</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7a600c79-3d50-4c09-999d-17b3dd484683">
+    <!-- (G) entry_name: wab ta -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">áudio, gravação de som</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="38989127-5ca1-40e2-8e90-0230a9656d42">
+    <!-- (G) entry_name: wabDo -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">Mach (unidade)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="ffa44478-d630-407b-919f-8bded9738694">
+    <!-- (G) entry_name: wagh -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser caro</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="9cb28468-df35-4198-9cb1-24c7d46b4abf">
+    <!-- (G) entry_name: waH -->
+    <!-- (G) part_of_speech: v:1,t_c -->
+    <column name="definition_pt">experimentar, testar, usar experimentalmente</column>
+    <column name="notes_pt">Este é um significado mais geral de {waH:v:2}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="4b5bbc11-5bdf-4c32-8431-e6b2d3671346">
+    <!-- (G) entry_name: waH -->
+    <!-- (G) part_of_speech: v:2,t_c -->
+    <column name="definition_pt">provar, experimentar (comida)</column>
+    <column name="notes_pt">Este é um significado especializado de {waH:v:1}. Significa experimentar a comida para ver se ela foi preparada corretamente ou para determinar se alguém gosta dela.[2]
+
+Não confunda isso com {mum:v}, que significa "gosto" no sentido de perceber sabores. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="d74b3a52-bc2d-4a36-af4a-0ed62da5063b">
+    <!-- (G) entry_name: wal -->
+    <!-- (G) part_of_speech: v:i_c -->
+    <column name="definition_pt">vibrar, estar em um estado de vibração</column>
+    <column name="notes_pt">Isso significa mover-se de uma maneira rápida e repetitiva, como uma corda de violão. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="bdecc458-eefb-4996-a3d1-f0f9ccb067ab">
+    <!-- (G) entry_name: wam -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_pt">caçar</column>
+    <column name="notes_pt">Isso também é usado para a pesca.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="9e645250-56c3-47ad-8f66-64905b11ed21">
+    <!-- (G) entry_name: wamtaH -->
+    <!-- (G) part_of_speech: sen:slang -->
+    <column name="definition_pt">ser libidinoso [AUTOTRANSLATED]</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="d971a875-6163-4b82-85b5-967d3de9744d">
+    <!-- (G) entry_name: wamwI' -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_pt">caçador</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="45dcb384-cca2-4f52-857c-41dd5228e738">
+    <!-- (G) entry_name: wamwI' Ha'DIbaH -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">carne de caçador</column>
+    <column name="notes_pt">Esta é a carne preparada com {ngat:n:2}. A palavra para a carne específica substitui a palavra {Ha'DIbaH:n:1}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="4ec0912b-7cbb-4cd4-a8d6-bb994469a523">
+    <!-- (G) entry_name: wam -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_pt">tipo de serpente</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="bfd7b3f7-859b-4c38-9d32-f0adaa5eace3">
+    <!-- (G) entry_name: wan -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser reto (não torto)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="ae6380dd-6184-4f37-8f0d-efb226ca9afe">
+    <!-- (G) entry_name: wanHa' -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser torto, ser dobrado</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="2c3affd7-e25c-4651-9182-9e4a7983fb1a">
+    <!-- (G) entry_name: wanI' -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_pt">fenômeno, evento, ocorrência, efeito</column>
+    <column name="notes_pt">Para expressar fenômenos naturais, o nome do efeito é seguido pela palavra {wanI':n:nolink}.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="4c1265da-fd40-4163-a58e-6ddfab8e9d26">
+    <!-- (G) entry_name: wanI' SubmaH -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">frequência, índice de ocorrência</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="a7bef590-9028-4bde-b012-2ef6d677e9e2">
+    <!-- (G) entry_name: wang -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_pt">piscar o olho</column>
+    <column name="notes_pt">Este é um movimento voluntário para fechar e abrir um olho. Para um piscar involuntário, use {tu:v}. Para contração, use {jergh:v} "espasmo". [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6e2a368d-eb07-48be-93bf-17cb96c376b1">
+    <!-- (G) entry_name: waq -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_pt">sapato</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5a006816-dc59-40db-8e0d-ca462523f89d">
+    <!-- (G) entry_name: waqboch -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_pt">uma espécie de pássaro</column>
+    <column name="notes_pt">Este é um pássaro com bico muito longo. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="0d977daf-dd30-4b99-877c-9eb47cf50a21">
+    <!-- (G) entry_name: waQ -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">obstruir</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="3676df1c-beca-468e-be30-99169fd49ef6">
+    <!-- (G) entry_name: waQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">meses a partir de agora</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="9e38f160-26f5-47b5-afdc-26427857ea7a">
+    <!-- (G) entry_name: war -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">coluna (em uma tabela ou planilha)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7080d90d-c45b-461c-bd6c-f513582587dd">
+    <!-- (G) entry_name: warjun -->
+    <!-- (G) part_of_speech: n:food -->
+    <column name="definition_pt">tipo de faca (usada para preparação de alimentos)</column>
+    <column name="notes_pt">É grande, afiado e de lâmina quadrada, quase como um {'obmaQ:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6d785d0e-9128-4342-97bb-b1960f2fc2de">
+    <!-- (G) entry_name: waS -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser errado, distorcido</column>
+    <column name="notes_pt">Observe que isso significa "esteja errado, errado" (algo deu errado ou não deu certo de acordo com o plano), em oposição a {muj:v} "esteja incorreto, factualmente errado". [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="ce20eb24-ff75-4d05-8961-318351b78b7b">
+    <!-- (G) entry_name: watrIn -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">lubricante (termo genérico)</column>
+    <column name="notes_pt">Isso se refere ao lubrificante em geral, e não a um tipo específico de lubrificante. O verbo {lo':v} pode ser usado para aplicar lubrificante ou, dependendo de como ele é aplicado, {lIch:v}, {ngoH:v:1}, {vev:v}, {ghay:v} ou talvez {QIn:v} possa ser usado. A palavra {'onroS:n} também pode ser incluída.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="fae46443-6bcd-4989-8a9f-aa0138ce72e9">
+    <!-- (G) entry_name: watlh -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser puro</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="85b183f7-bd88-428f-9ab4-53ac66829b94">
+    <!-- (G) entry_name: wav -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">dividir</column>
+    <column name="notes_pt">Para a operação matemática da divisão, consulte {boqHa''egh:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="1934bd4d-dac8-4b3a-80a0-500d9d6faaa2">
+    <!-- (G) entry_name: waw' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">base (termo militar)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="f350c69e-1f4b-4be1-8eb4-6a50901ffe41">
+    <!-- (G) entry_name: way -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser listrado</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="612df0ab-662e-4827-be9c-fc296d882a9d">
+    <!-- (G) entry_name: way' -->
+    <!-- (G) part_of_speech: v:t_c,weap -->
+    <column name="definition_pt">parrear, afasta-te de um golpe</column>
+    <column name="notes_pt">Isso também é usado para argumentos (consulte {jop 'ej way':sen}). [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="41408838-30ca-4fb4-b836-36ce34e7a667">
+    <!-- (G) entry_name: way'ar -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">caos</column>
+    <column name="notes_pt">Isso se refere a uma situação de desorganização. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="109e7a27-f102-4e2a-b100-a77ceb30af78">
+    <!-- (G) entry_name: wa' -->
+    <!-- (G) part_of_speech: n:num -->
+    <column name="definition_pt">um</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="65dc9062-5569-46c7-b3b9-f4c310e65aa8">
+    <!-- (G) entry_name: wa'DIch -->
+    <!-- (G) part_of_speech: n:num,deriv -->
+    <column name="definition_pt">primeiro</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="78c8cbe4-584f-4b35-a2e7-bd1df684a73c">
+    <!-- (G) entry_name: wa'Hu' -->
+    <!-- (G) part_of_speech: n:deriv,klcp1 -->
+    <column name="definition_pt">ontem</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="ff1767d9-dff3-4faf-9425-0a3f6c4cfe01">
+    <!-- (G) entry_name: wa'leS -->
+    <!-- (G) part_of_speech: n:deriv,klcp1 -->
+    <column name="definition_pt">amanhã</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="a0893657-b81e-45da-bd4d-9e187d754936">
+    <!-- (G) entry_name: wa'logh -->
+    <!-- (G) part_of_speech: adv:deriv -->
+    <column name="definition_pt">uma vez</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="32a20e23-ca99-4105-9c1d-9321c5c7b94f">
+    <!-- (G) entry_name: wa'maH -->
+    <!-- (G) part_of_speech: n:num,deriv -->
+    <column name="definition_pt">dez</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="9920e43a-168d-49be-8a96-1f05d9e2966c">
+    <!-- (G) entry_name: wa'maHDIch -->
+    <!-- (G) part_of_speech: n:num,deriv -->
+    <column name="definition_pt">décimo</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="1909a56d-9ca3-4f9d-87bb-dd86399a0f58">
+    <!-- (G) entry_name: wa' Dol nIvDaq matay'DI' maQap. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_pt">Conseguimos juntos um todo maior.</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="984535aa-2026-4622-a4db-8b7e8b6a1301">
+    <!-- (G) entry_name: wa' DoS neH yIbuS. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_pt">Concentre-se apenas em um alvo.</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="12f06614-048f-448d-970b-a7e1d7074d88">
+    <!-- (G) entry_name: wa' DoS wIqIp. -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_pt">Nós concordamos.</column>
+    <column name="notes_pt">Isso significa literalmente "atingimos um alvo". Pode ser reduzido para apenas {DoS wIqIp.:sen:nolink}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="456efacf-024e-4ab9-bc7f-e02418721a04">
+    <!-- (G) entry_name: wa' jaj 'etlh 'uchchoHlaH tlhIngan puqloD; jajvetlh loD nen moj. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_pt">O filho de um klingon é um homem no dia em que pode segurar uma lâmina pela primeira vez.</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="11e3447f-615f-4ee6-8b4f-92aa3ad63b6c">
+    <!-- (G) entry_name: wa' Qu'vaD wa' DevwI' tu'lu'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_pt">Para uma missão, há um líder.</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="9c991871-a9eb-4e72-bc23-85e8421ab204">
+    <!-- (G) entry_name: wa' rutlh qam Do Duj -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">monociclo</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="a3c52b91-423a-4ff3-82ff-fd03e8f574dd">
+    <!-- (G) entry_name: wa' SuvwI' muHlu'DI', tuHchoH Hoch SuvwI'pu'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_pt">A execução de apenas um guerreiro traz vergonha a todos.</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="8a3b4676-11ad-4085-a120-4948b0963cf2">
+    <!-- (G) entry_name: wa' wa' wa'. -->
+    <!-- (G) part_of_speech: sen:slang -->
+    <column name="definition_pt">Isso é complicado.</column>
+    <column name="notes_pt">Maltz disse que se, na escola, um aluno responder à pergunta de um professor dizendo isso, é provável que ele seja disciplinado (a menos que essa seja realmente a resposta correta). Ele não deu mais detalhes.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="439524d8-7a91-4d5c-9dc8-5292e3762f22">
+    <!-- (G) entry_name: wa'maH cha' pemmey wa'maH cha' rammey je -->
+    <!-- (G) part_of_speech: sen:idiom -->
+    <column name="definition_pt">a muito tempo</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7060c0c7-faf5-4199-81f5-21c3f5d74e0e">
+    <!-- (G) entry_name: wa'maH wej. -->
+    <!-- (G) part_of_speech: sen:slang -->
+    <column name="definition_pt">É complicado.</column>
+    <column name="notes_pt">Os klingons consideram o número 13 especial por causa do modo como costumavam contar. O número decimal 12 costumava ser expresso como 3 × 3 + 3, e então o sistema ficou complicado. Essa associação permaneceu mesmo depois que os klingons passaram para o sistema de números decimais. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="fceb811d-eaaf-400c-abe8-3fdf0028d1ae">
+    <!-- (G) entry_name: wa'chaw -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">planilha, tabela</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="bb91ff5f-a4d5-44d1-ad31-410a4a4b2576">
+    <!-- (G) entry_name: wa'lay -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">massa (conceito de física)</column>
+    <column name="notes_pt">Isso é diferente do peso de um objeto, que depende da gravitação. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="0dffd79f-3771-4489-8959-febe41e7466e">
+    <!-- (G) entry_name: wa'ngoQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">manganês</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6aa5b8fd-e9d4-40da-98b5-10d2f6987d4a">
+    <!-- (G) entry_name: wa'jo''a' -->
+    <!-- (G) part_of_speech: n:name,fic,nodict -->
+    <column name="definition_pt">Wa'Joh'a'</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="50e68b0a-1b18-46c5-912d-b8d5addb7818">
+    <!-- (G) entry_name: web -->
+    <!-- (G) part_of_speech: v:1,is -->
+    <column name="definition_pt">ser desgraçado</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="ccf1f8d9-49e0-403d-ad9c-2ae45375c070">
+    <!-- (G) entry_name: web -->
+    <!-- (G) part_of_speech: v:2,is,slang -->
+    <column name="definition_pt">ser caótico, desorganizado</column>
+    <column name="notes_pt">Este é um significado de gíria de {web:v:1} aplicado a uma situação, missão ou algo semelhante. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="2538d5ac-ccf4-4e2a-86e3-808bb73dbc7b">
+    <!-- (G) entry_name: wech -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">servir comida fermentada no tempo certo</column>
+    <column name="notes_pt">Este é um alimento misturado com {'atlhqam:n}, fermentado e servido.[1, p.92] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="fff4c733-24b7-450f-abb7-84bdb7376405">
+    <!-- (G) entry_name: wegh -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">limitar</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="fe7dc68e-9c33-4fca-b31b-fee48779308c">
+    <!-- (G) entry_name: weH -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">Incursão</column>
+    <column name="notes_pt">Esta palavra é como {yot:v}, mas com a conotação de surpresa ou velocidade.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="c5217126-c9a2-4548-af52-db651af098e7">
+    <!-- (G) entry_name: wej -->
+    <!-- (G) part_of_speech: adv -->
+    <column name="definition_pt">ainda não</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="82ee4f0d-bc34-40f0-87f0-ec8d17f15df6">
+    <!-- (G) entry_name: wejHa' -->
+    <!-- (G) part_of_speech: adv:deriv -->
+    <column name="definition_pt">já, antes de agora, a partir de agora</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="2387f76f-0b26-49d5-8f98-4c4f032d1634">
+    <!-- (G) entry_name: wej -->
+    <!-- (G) part_of_speech: n:num -->
+    <column name="definition_pt">três</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5711e0dc-f445-4082-950f-9dcc9554f1b3">
+    <!-- (G) entry_name: wejDIch -->
+    <!-- (G) part_of_speech: n:num,deriv -->
+    <column name="definition_pt">terceiro</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="74c19db3-bbc7-4d42-ae0c-fd7ce1aaf6a5">
+    <!-- (G) entry_name: wejmaH -->
+    <!-- (G) part_of_speech: n:num,deriv -->
+    <column name="definition_pt">trinta</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="73aab0f7-6ea4-4c2b-badb-868e0403832b">
+    <!-- (G) entry_name: wejbe' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">nitrato (termo químico)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="44ac02a3-b13c-46bb-96e9-495dff5f11de">
+    <!-- (G) entry_name: wejwa' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">sabor, gosto</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="d6ff0bd6-34c8-4059-993f-68ec76f80d97">
+    <!-- (G) entry_name: wej Heghchugh vay', SuvtaH SuvwI'. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_pt">Um guerreiro luta até a morte.</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="da5933a9-7aba-4c3f-b397-3ec91840743c">
+    <!-- (G) entry_name: wejpuH -->
+    <!-- (G) part_of_speech: excl:klcp1 -->
+    <column name="definition_pt">encantador (usado apenas ironicamente)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="a17de50d-a5ed-4dba-8867-c65f367f515a">
+    <!-- (G) entry_name: wel -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">dever</column>
+    <column name="notes_pt">Ou a coisa devida, ou a pessoa a quem algo é devido, pode ser o objeto. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="91d75fa4-a819-46f2-a6dd-c34c751a5d3d">
+    <!-- (G) entry_name: welwelwel -->
+    <!-- (G) part_of_speech: excl -->
+    <column name="definition_pt">som produzido por um {targh:n}</column>
+    <column name="notes_pt">O {targh:n:nolink} estereotipado emite um som convencionalmente {welwelwel:sen:nolink} (onde o número de repetições é variável). [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="0bee4f49-2f55-4158-a9a7-05ba8c565e0a">
+    <!-- (G) entry_name: wem -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_pt">violar</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="c90fe91f-ca55-4f60-8280-093cd2fb6dc8">
+    <!-- (G) entry_name: wem -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_pt">violação</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="75d06dea-ad29-442b-b053-c4a4227410e8">
+    <!-- (G) entry_name: wen -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">meses atrás</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="d127fc4e-8866-44fa-96fb-a14924628a5c">
+    <!-- (G) entry_name: wep -->
+    <!-- (G) part_of_speech: n:1,klcp1 -->
+    <column name="definition_pt">casaco</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="0f40d8ca-db0d-4aa8-8e90-c450dbb8f7dd">
+    <!-- (G) entry_name: wep -->
+    <!-- (G) part_of_speech: n:2,reg -->
+    <column name="definition_pt">camisa com mangas</column>
+    <column name="notes_pt">Esta palavra tem esse significado no dialeto {voSpegh Sep:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="00e8bce6-59d3-4355-9d65-599ba42faae3">
+    <!-- (G) entry_name: weq -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">golpear (instrumento de percussão) com a palma da mão</column>
+    <column name="notes_pt">Compare com {moq:v} e {tlhaw':v}. Para bater em algo com a palma da mão em um contexto não musical, considere {yo:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="e0a8fbcc-ea96-4cd2-a20b-b344defc3073">
+    <!-- (G) entry_name: weQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">vela</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="010e5f0d-d649-400e-b58d-02d84a30f8a2">
+    <!-- (G) entry_name: weQmoQnaQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">Rede mundial de computadores</column>
+    <column name="notes_pt">Esta é a coisa mais próxima que os klingons têm da "World Wide Web". [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="b33f30f5-e484-4dc3-9c9d-c0fe2011cb76">
+    <!-- (G) entry_name: wer -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser vincado, ser enrugado</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="339eeba9-e21e-46e9-a321-c9762571caa5">
+    <!-- (G) entry_name: wermoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_pt">vinco, rugas</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="f1c193b4-d00e-4f91-a9d3-48e7e6f5a489">
+    <!-- (G) entry_name: weS -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">perder, sofrer uma redução de, sofrer uma redução de</column>
+    <column name="notes_pt">Ele é usado para expressar coisas como "perdemos muitos soldados" ou "ele perdeu muito sangue". Para dizer que alguém morreu, basta usar {Hegh:v}. Por exemplo, "ela perdeu o marido" seria apenas {Heghpu' loDnalDaj:sen@@Hegh:v, -pu':v, loDnal:n, -Daj:n}. Para "perdemos muitos guerreiros" no sentido de que morreram, use {Heghpu' SuvwI'pu'ma':sen@@Hegh:v, -pu':v, SuvwI':n, -pu':n, -ma':n}. Pode-se dizer {SuvwI'pu' DIweSpu':sen@@SuvwI':n, -pu':n, DI-:v, weS:v, -pu':v}, mas isso implica que os guerreiros estão perdidos no sentido de que se foram ou estão desaparecidos, ou gravemente feridos e não se espera que retornem (ou retornem em breve), mas não necessariamente mortos.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="739cbd80-213c-416b-99d9-de807c872c0e">
+    <!-- (G) entry_name: weSjech -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">tecido</column>
+    <column name="notes_pt">Isso pode ser usado para tecidos ou tecidos em roupas, lençóis, toalhas e assim por diante, mas geralmente não para tapetes ou tapetes (exceto os finos).[1] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="0c912f98-7e83-4143-9925-49322829c324">
+    <!-- (G) entry_name: weSjech ba'Suq Duj -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">balão de ar quente</column>
+    <column name="notes_pt">Um {weSjech ba'Suq:n@@weSjech:n, ba'Suq:n} é um tipo específico de balão. Depois que uma cesta (um {'unwat:n} ou, neste caso, um {'unwat'a':n@@'unwat:n, -'a':n}) for anexada, tudo poderá ser chamado de {weSjech ba'Suq Duj:n:nolink}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="3dda643b-b9bb-420c-9004-593f8b726fb1">
+    <!-- (G) entry_name: wev -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">linha (em uma tabela ou planilha de cálculo)</column>
+    <column name="notes_pt">Além de ser usado para uma linha em uma grade (como em uma planilha ou outra representação gráfica), isso também pode ser usado para coisas físicas se a configuração geral for (ou puder ser) semelhante a uma grade e houver (ou possa haver) outros linhas, não apenas uma. Por exemplo, isso seria usado para fileiras de milho ou fileiras de árvores crescendo em um campo em uma fazenda. Ele ainda pode ser usado se houver apenas uma linha em uma situação em que normalmente há mais (ou não seria surpreendente se houvesse mais). Se não estiver claro em uma situação se mais de uma linha é esperada ou típica, {wIyqap:n:nolink} é provavelmente a escolha certa.
+
+A palavra {mIr:n:1} pode ser usada como uma gíria para isso, se as coisas estiverem claras. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="3aaab36b-3bca-46ae-9cd7-8ec0dfa90e5a">
+    <!-- (G) entry_name: wev -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">esboço, rabisco</column>
+    <column name="notes_pt">O objeto é a imagem desenhada. A ideia é que é um desenho rápido, não cuidadoso.
+
+Esta palavra não tem a conotação da palavra inglesa "doodle" de que a pessoa que faz o rabisco não está prestando atenção ao que está sendo desenhado ou esboçado.
+
+Se o resultado do rabisco não for facilmente identificável ou nominável, a "imagem" pode ser chamada de {yay:n:3}.
+
+Embora o implementado usado possa ser qualquer coisa, não é comum usar esse verbo com um {rItlh naQ:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="2c176f2c-d9f0-4279-9cf0-b9860481652c">
+    <!-- (G) entry_name: wew -->
+    <!-- (G) part_of_speech: v:i,klcp1 -->
+    <column name="definition_pt">brilhar</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="ab25a2be-92c9-482b-8f04-86e7222796a6">
+    <!-- (G) entry_name: wey -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">companhia (unidade militar)</column>
+    <column name="notes_pt">Este é o complemento total de pessoal, tripulação ({beq:n}) mais oficiais ({yaS:n}) .[1, p.50] de um navio. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7e3cb1ed-5e24-409c-a5bc-48ad81857509">
+    <!-- (G) entry_name: wey jolpat -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">transportador de pessoal</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="3f4200ba-d0b8-4581-9678-be41b2a0230a">
+    <!-- (G) entry_name: wI- -->
+    <!-- (G) part_of_speech: v:pref -->
+    <column name="definition_pt">nós-ele/ela</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5f128491-5d94-4955-8e61-8b7d8fb6003c">
+    <!-- (G) entry_name: wIb -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_pt">ser azedo, ser amargo</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="fc6539c9-f336-4de9-85b7-2740dc84b297">
+    <!-- (G) entry_name: wIch -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">mito</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="b2496865-56b9-4faa-8347-368e7633d5f2">
+    <!-- (G) entry_name: wID -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">massacrar</column>
+    <column name="notes_pt">Esta palavra denota assassinato indiscriminado.[1] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="050ec189-9360-4164-9631-9ab35c050d96">
+    <!-- (G) entry_name: wIgh -->
+    <!-- (G) part_of_speech: n:being,klcp1 -->
+    <column name="definition_pt">gênio</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="ca496607-1089-435e-a13e-4ab98234734f">
+    <!-- (G) entry_name: wIH -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser impiedoso</column>
+    <column name="notes_pt">Existe um idioma, {wIH; Hur'Iqngan rur@@wIH:v, Hur'Iqngan:n, rur:v}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="892a6026-aba6-43b2-b2e9-5455780516a5">
+    <!-- (G) entry_name: wIj -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">fazenda</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6e5a2930-1d56-43bb-8819-1426188d29f7">
+    <!-- (G) entry_name: wIjwI' jan -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">arado</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5c0ef54a-3eba-4740-9355-28f7775c96f5">
+    <!-- (G) entry_name: wIjwI' ngeb -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">espantalho</column>
+    <column name="notes_pt">Esta é uma expressão definida e não seria entendida como uma pessoa real se passando por um agricultor. Os klingons não usam mais essas coisas. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="896784f0-7865-4f4b-9da5-56a6d897d618">
+    <!-- (G) entry_name: wIj jup -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_pt">"amigo meu"</column>
+    <column name="notes_pt">Esta é uma expressão usada entre amigos íntimos nas classes sociais mais altas. Deve ser evitado, se possível, a menos que a posição social de alguém seja absolutamente clara. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="19e53f10-fc49-4688-bed8-ed735d083076">
+    <!-- (G) entry_name: wIl -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">Espinho</column>
+    <column name="notes_pt">Refere-se a um pico independente, como uma estaca. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="97bb5eec-3ebb-442b-8212-8c452d4463b5">
+    <!-- (G) entry_name: wIlHay -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">dobradiça, lombada (de livro)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="8224aa8b-13d7-4746-9107-dc9fce84ecb0">
+    <!-- (G) entry_name: wIlle' -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_pt">articulação</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="948bdece-ef0c-4ccc-95c3-3f73619b1ecf">
+    <!-- (G) entry_name: wIllul -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">um jogo um pouco semelhante ao boliche [AUTOTRANSLATED]</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="1c489e0d-4550-4a5e-883b-b8738f68bf7e">
+    <!-- (G) entry_name: wIlpuq -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">pudim</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="b44cf3bd-1fea-4eb7-9f93-7a76b067a7c0">
+    <!-- (G) entry_name: wItte' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">equação matemática</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="cd960d04-4f18-41c1-8a1b-07ac40859d45">
+    <!-- (G) entry_name: wItlh -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">quebrar (algo)</column>
+    <column name="notes_pt">Este verbo pode ser usado para descrever a ação de quebrar uma porção de comida para transferir de uma travessa ({'elpI':n}) para o prato ({jengva':n}) .[1, p.99] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="093d24d5-4e4a-4bed-8ac8-99084ee77908">
+    <!-- (G) entry_name: wIv -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">escolha</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="24f458e4-99ce-4196-9b77-d1a5a88b2ab7">
+    <!-- (G) entry_name: wIv -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_pt">escolher, selecionar</column>
+    <column name="notes_pt">Este verbo também é usado para clicar em um hiperlink em um computador.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="26ed941a-2b15-41a5-a722-2b5736c11c09">
+    <!-- (G) entry_name: wIy -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">display tático</column>
+    <column name="notes_pt">Isso se refere a um esquema abstrato de um campo de batalha, exibido em um {jIH:n:2}. Compare isso com {HaSta:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="79016e02-8911-406e-baf7-50bd532c4bb5">
+    <!-- (G) entry_name: wIy yIcha'! -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_pt">Mostre a exibição tática!</column>
+    <column name="notes_pt">Veja Gowron dizer o seguinte: {YouTube video:url:http://youtu.be/ooFuTPjRtEM}
+
+A forma Klingon recortada deste comando seria {wIy cha'!:sen@@wIy:n, cha':v} [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="c4644587-933c-483a-8109-0550221d2d50">
+    <!-- (G) entry_name: wIyqap -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">fila ou linha (de pessoas ou coisas que não se espera que estejam em movimento)</column>
+    <column name="notes_pt">Isso pode ser usado para uma formação policial. Não se espera que os constituintes de um {wIyqap:n:nolink} se movam (em contraste com os de um {lanSoy:n:nolink}). Esta palavra é usada mesmo se as pessoas ou coisas estiverem agrupadas. Também é usada se houver mais de uma linha, quando normalmente há apenas uma, de modo que em uma fila policial com duas linhas, cada uma ainda é uma {wIyqap:n:nolink} (e não uma {wev:n:nolink}). [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="1791e0f9-2dc2-49bb-9505-cd5b6fad2b06">
+    <!-- (G) entry_name: wI'qIy -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">wiki</column>
+    <column name="notes_pt">Esta não é uma palavra klingon, mas a pronúncia klingon de uma palavra Standard da Federação, referente a um site ou banco de dados editado em colaboração. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="a3f6ead7-a1ff-409f-8a81-397bab45ccbb">
+    <!-- (G) entry_name: wob -->
+    <!-- (G) part_of_speech: v:t_c,weap -->
+    <column name="definition_pt">arremessar uma lança por meio de um {chetvI':n:2}</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7cabafdb-eee1-4feb-a0b0-54ca2e171cda">
+    <!-- (G) entry_name: woch -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser alto</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="144f63fa-f488-4358-b027-a71a7ca6010f">
+    <!-- (G) entry_name: woD -->
+    <!-- (G) part_of_speech: v:1,t_c,klcp1 -->
+    <column name="definition_pt">jogar fora, descartar</column>
+    <column name="notes_pt">É lamentável quando isso é aplicado aos alimentos.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="1f0bc440-7241-4ab0-a246-c0258f7a010a">
+    <!-- (G) entry_name: woD -->
+    <!-- (G) part_of_speech: v:2,is -->
+    <column name="definition_pt">ser oco</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="31678c46-4940-46b8-a73a-92cc8ecd0fb3">
+    <!-- (G) entry_name: wogh -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_pt">transgredir, fazer mais do que é aceitável</column>
+    <column name="notes_pt">{bIwogh:sen:nolink} provavelmente é melhor traduzido idiomicamente como "Você foi longe demais".[1] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="9050c135-ad5b-463c-b2bb-710148b825d7">
+    <!-- (G) entry_name: woH -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">pegar</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="1c20fadc-21f9-4f4a-aaeb-ec42021194e9">
+    <!-- (G) entry_name: woj -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">radiação</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="593cc472-f671-4b2d-86d0-abbe4fde6d17">
+    <!-- (G) entry_name: woj -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">esterilizar</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="462bd58c-805c-4fcd-a6c3-f9a498d85413">
+    <!-- (G) entry_name: woj choHwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">reator</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="e2ca59a3-84d0-4bc3-ad99-ac32dcdb64e6">
+    <!-- (G) entry_name: wol -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser dobrado</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="bef25466-eccc-4261-9b28-05a11618b772">
+    <!-- (G) entry_name: wolmoH -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_pt">vinco, dobra</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="e0373396-9bcb-42bc-9bd4-2def957463d9">
+    <!-- (G) entry_name: wom -->
+    <!-- (G) part_of_speech: v:t -->
+    <column name="definition_pt">bicar</column>
+    <column name="notes_pt">Esta palavra é usada para comer e atacar por bicar. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="3770dd02-75b3-4e5d-9a39-f7df1feb12ce">
+    <!-- (G) entry_name: wonmugh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">beco</column>
+    <column name="notes_pt">Geralmente, é uma estrada ou caminho estreito entre ou atrás dos prédios. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="a9574c05-46e6-4e20-bfad-e3262048ccef">
+    <!-- (G) entry_name: wontoy -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">ideal</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="92ab1423-f24e-4127-9715-ba0bf71e3da3">
+    <!-- (G) entry_name: woq -->
+    <!-- (G) part_of_speech: v:t_c -->
+    <column name="definition_pt">confirmar, fundamentar, corroborar</column>
+    <column name="notes_pt">Observe que {'ol:v} é usado para verificar um fato, enquanto {woq:v:nolink} é usado para confirmá-lo. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="a69ef833-e678-4ad3-8380-a3095bca0a9f">
+    <!-- (G) entry_name: woQ -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">autoridade, poder político</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="91bc3be7-19ae-409c-86aa-722d8be2442d">
+    <!-- (G) entry_name: wornagh -->
+    <!-- (G) part_of_speech: n:food -->
+    <column name="definition_pt">warnog, Ale Klingon</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="2ce50ac2-74b2-44c7-8399-4f31f0284f59">
+    <!-- (G) entry_name: woS -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_pt">queixo</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="15f73f5c-398c-46e0-8764-7867a785533f">
+    <!-- (G) entry_name: woSwa' -->
+    <!-- (G) part_of_speech: n:anim -->
+    <column name="definition_pt">animal parecido com tatu</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="d067e73c-fde3-407f-8342-eae468d04bd3">
+    <!-- (G) entry_name: woSwa' ghew -->
+    <!-- (G) part_of_speech: n:anim,deriv -->
+    <column name="definition_pt">inseto rolante</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="eb39cf47-997b-4851-bc85-1c1aec573cdf">
+    <!-- (G) entry_name: wot -->
+    <!-- (G) part_of_speech: n:klcp1 -->
+    <column name="definition_pt">verbo</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="d27eadb7-c817-48ec-8341-541160bdd7b2">
+    <!-- (G) entry_name: wot chuS -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">verbo não estativo [AUTOTRANSLATED]</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="a7d017d0-49f2-49a1-97f5-e3067ab3debb">
+    <!-- (G) entry_name: wot tam -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">verbo estativo [AUTOTRANSLATED]</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="f70e9a67-b98d-44dd-b4cc-bfc2db02fdf1">
+    <!-- (G) entry_name: wov -->
+    <!-- (G) part_of_speech: v:is,klcp1 -->
+    <column name="definition_pt">ser luz, brilhante</column>
+    <column name="notes_pt">Existe um idioma, {wov; ghI'boj Sech rur}.
+
+Este verbo também é usado para descrever um dia ensolarado.[2]
+
+Se os olhos são "sensíveis à luz", eles podem ser sensíveis a {wovtaHghach:n@@wov:v, -taH:v, -ghach:v}.[3] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="f36f1b7a-9332-4f15-b286-3f009582ec37">
+    <!-- (G) entry_name: wovmoHbogh jan -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">luz (dispositivo)</column>
+    <column name="notes_pt">Assista ao comercial da Hallmark em que esta palavra aparece: {YouTube video:url:http://youtu.be/9eM1OSNGLwI} [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="c35faf0a-06cc-488d-b97c-a171b898f2a6">
+    <!-- (G) entry_name: wovmoHwI' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">luz (lâmpada)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="91d399ea-8a79-4411-98b3-09db896cd9bf">
+    <!-- (G) entry_name: wovmoHwI' moQ -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">lâmpada</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="ea2cde39-9e50-468c-bfbc-89285683e9d5">
+    <!-- (G) entry_name: wov'on -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">memória (lembrança)</column>
+    <column name="notes_pt">Refere-se a memórias ou lembranças específicas e é diferente de "memória" no sentido da capacidade de lembrar ou do poder de recordar, para o qual ver {qaw:n}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="d91073a0-4cfc-4cac-b3a6-97e69de9f6ab">
+    <!-- (G) entry_name: wo' -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">Império</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="ef57618f-4d05-4089-891c-854e2c8645e2">
+    <!-- (G) entry_name: wo' tay' -->
+    <!-- (G) part_of_speech: n:place,deriv -->
+    <column name="definition_pt">Reino Unido</column>
+    <column name="notes_pt">{wo' tay':n:nolink} é um nome mais antigo que {tuqjIjQa':n}. Os Klingons que deram ao país esse nome podem ter pensado no Império Britânico.[2] [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="663a3861-74a6-4497-9744-2411c0ba993c">
+    <!-- (G) entry_name: wo' toy'taHvIS Hegh 'e' tul Hoch tlhIngan. -->
+    <!-- (G) part_of_speech: sen:phr -->
+    <column name="definition_pt">Morrer enquanto servia ao Império é a esperança de todo Klingon.</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="71b0d89a-1cec-42fb-a78a-ebebdc20d81f">
+    <!-- (G) entry_name: wo'rIv -->
+    <!-- (G) part_of_speech: n:name,fic -->
+    <column name="definition_pt">Worf</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="82ed570c-d56e-4f37-9d52-5fc41209b697">
+    <!-- (G) entry_name: wuD -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_pt">roncar</column>
+    <column name="notes_pt">Respire mais ruidosamente que o {jev:v:2}. [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7c0671f8-67fc-4093-bf58-72c21ae465b9">
+    <!-- (G) entry_name: wun -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser desprotegido, ser vulnerável</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="d3e0886c-85e7-4780-8e5c-0de0f7a27bee">
+    <!-- (G) entry_name: wup -->
+    <!-- (G) part_of_speech: v:i -->
+    <column name="definition_pt">explodir em música</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="d83e9a64-9917-4f2e-b2c0-dd30d4041fd9">
+    <!-- (G) entry_name: wuq -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_pt">decidir</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="7d2d858e-3cc8-4bdb-804b-fe126e6fbd82">
+    <!-- (G) entry_name: wuqHa' -->
+    <!-- (G) part_of_speech: v:t_c,deriv -->
+    <column name="definition_pt">comutar (uma sentença judicial)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="1330b039-17eb-4f37-ac79-64def9ce6bfe">
+    <!-- (G) entry_name: wuqwI' -->
+    <!-- (G) part_of_speech: n:being,deriv -->
+    <column name="definition_pt">membro do júri, jurado</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="45a658bd-6582-4ec7-9281-bb30f5815d55">
+    <!-- (G) entry_name: wuqwI' ghom -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">júri</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="5769abe4-bc9e-4e72-a3fc-e7b5f46947d9">
+    <!-- (G) entry_name: wuQ -->
+    <!-- (G) part_of_speech: v:i,klcp1 -->
+    <column name="definition_pt">ter uma dor de cabeça</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="9ea3a9d9-88bb-4189-8492-54b11e106b15">
+    <!-- (G) entry_name: wuS -->
+    <!-- (G) part_of_speech: n:body -->
+    <column name="definition_pt">lábio</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="0f18b6cb-653e-4c0c-b417-dfdb2f1af5f1">
+    <!-- (G) entry_name: wuS rItlh naQ -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">batom</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="0cf8a46b-942d-40cd-b196-ed04f3cb25d9">
+    <!-- (G) entry_name: wutlh -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">subterrâneo</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="6e49cb54-dced-457e-9178-80d818cf383b">
+    <!-- (G) entry_name: wutlh pa' -->
+    <!-- (G) part_of_speech: n:deriv -->
+    <column name="definition_pt">masmorra</column>
+    <column name="notes_pt">Isso literalmente significa apenas "sala subterrânea". [AUTOTRANSLATED]</column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="4cbb67fb-4fc2-4c4d-b604-fa25ae93e6d6">
+    <!-- (G) entry_name: wuv -->
+    <!-- (G) part_of_speech: v:t_c,klcp1 -->
+    <column name="definition_pt">depender de , contar com</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="4605282b-0fbe-45e4-94dc-7c48aa32a8c4">
+    <!-- (G) entry_name: wuvchuq -->
+    <!-- (G) part_of_speech: v:i_c,deriv -->
+    <column name="definition_pt">ser entrelaçado (física quântica)</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="a65bca7e-d582-43fe-8e40-611c9eeaa7c4">
+    <!-- (G) entry_name: wu' -->
+    <!-- (G) part_of_speech: v:is -->
+    <column name="definition_pt">ser místico, ser esotérico, ser oculto</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+  <mixin target="66992bf4-2ff8-4429-b8c4-108b359e61db">
+    <!-- (G) entry_name: wu'tIbIS -->
+    <!-- (G) part_of_speech: n -->
+    <column name="definition_pt">superstição</column>
+    <column name="notes_pt"></column>
+    <column name="examples_pt"></column>
+    <column name="search_tags_pt"></column>
+  </mixin>
+</mixins>
