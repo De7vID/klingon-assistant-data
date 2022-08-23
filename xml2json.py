@@ -88,6 +88,8 @@ import re
 import unicodedata
 from collections import OrderedDict
 
+import merge_translations
+
 # A single entry parsed from the XML tree
 class EntryNode:
     # Constructor from XML node
@@ -217,22 +219,7 @@ def validatelinks(root, node):
 
                     sys.stderr.write('no entry for {' + tag + '}' + hom + '.\n')
 
-# Section names of the individual XML fragments that make up the database
-memparts = ['header', 'b', 'ch', 'D', 'gh', 'H', 'j', 'l', 'm', 'n', 'ng', 'p',
-            'q', 'Q', 'r', 'S' ,'t', 'tlh', 'v', 'w', 'y', 'a', 'e', 'I', 'o',
-            'u', 'suffixes', 'extra', 'examples', 'footer']
-filenames = []
-concat=''
 sdir = os.path.dirname(os.path.realpath(sys.argv[0]))
-
-for i, part in enumerate(memparts):
-    filenames.append(os.path.join(sdir,'mem-{0:02d}-{1}.xml'.format(i, part)))
-
-# Concatenate the individual files into a single database string
-mem = fileinput.FileInput(files=filenames)
-for line in mem:
-    concat += line
-mem.close()
 
 # Read the database version from the version file
 ver = fileinput.FileInput(files=(os.path.join(sdir,'VERSION')))
@@ -240,7 +227,7 @@ version = next(iter(ver)).strip()
 ver.close()
 
 # Parse the database XML tree and store the parsed entries in a dict
-xmltree = ET.fromstring(concat)
+xmltree = merge_translations.merge()
 qawHaq = OrderedDict()
 for child in xmltree[0]:
     node = EntryNode(child)
