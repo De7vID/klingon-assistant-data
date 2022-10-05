@@ -266,7 +266,7 @@ ret['locales']['ru'] = 'Русский язык'
 ret['locales']['sv'] = 'Svenska'
 ret['locales']['zh_HK'] = '中文 (香港)'
 ret['locales']['pt'] = 'Português'
-ret['locales']['fi'] = 'Finnish'
+ret['locales']['fi'] = 'Suomi'
 
 ret['supported_locales'] = [
   'de',
