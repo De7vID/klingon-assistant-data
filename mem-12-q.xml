@@ -447,6 +447,49 @@ Katso {qach:n}-osat {qoD:n}-osasta kohdasta {pa':n:1}. [AUTOTRANSLATED]</column>
         </table>
         <table name="mem">
           <column name="_id"></column>
+          <column name="entry_name">qach DIS</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">basement</column>
+          <column name="definition_de">Untergeschoss [AUTOTRANSLATED]</column>
+          <column name="definition_fa">زیر زمین [AUTOTRANSLATED]</column>
+          <column name="definition_sv">källare [AUTOTRANSLATED]</column>
+          <column name="definition_ru">подвал [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">地下室 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">porão [AUTOTRANSLATED]</column>
+          <column name="definition_fi">kellari [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also">{Su'roq:n}</column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{qach:n}, {DIS:n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2022:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
           <column name="entry_name">qach noy</column>
           <column name="part_of_speech">n:deriv</column>
           <column name="definition">landmark (building)</column>
@@ -952,7 +995,7 @@ On idioomi {ghung; qagh rur@@ghung:v, qagh:n, rur:v}. [AUTOTRANSLATED]</column>
       <column name="definition_fi">eräs kastike gaghille</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ghevI':n}, {Se'tu':n}</column>
+      <column name="see_also">{ghevI':n}, {Se'tu':n}, {po'lIgh:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -1333,7 +1376,7 @@ On {KGT p.81:src}, it is claimed that there is no noun meaning "color", but this
       <column name="_id"></column>
       <column name="entry_name">qam Do Duj</column>
       <column name="part_of_speech">n:deriv,terran</column>
-      <column name="definition">bicycle</column>
+      <column name="definition">bicycle (Terran vehicle)</column>
       <column name="definition_de">Fahrrad</column>
       <column name="definition_fa">دوچرخه</column>
       <column name="definition_sv">cykel</column>
@@ -6181,7 +6224,7 @@ Kuuluisa kirjailija {Qa'taq:n:name} kirjoitti kommentin tähän teokseen. [AUTOT
       <column name="definition_fi">eräs sakeutetusta marinadista valmistettu kastike</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Se'tu':n}</column>
+      <column name="see_also">{Se'tu':n}, {po'lIgh:n}</column>
       <column name="notes">This is sauce prepared by thickening {chanDoq:n}.</column>
       <column name="notes_de">Dies ist eine Sauce, die durch Eindicken von {chanDoq:n} zubereitet wird. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این سس توسط ضخیم شدن {chanDoq:n} تهیه شده است. [AUTOTRANSLATED]</column>
@@ -7056,49 +7099,6 @@ Hänen paluunsa on ennustettu Lupauksen tarinassa, jossa todetaan seuraavaa:
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">qe'rot 'oQqar</column>
-      <column name="part_of_speech">n:food,terran</column>
-      <column name="definition">carrot</column>
-      <column name="definition_de">Karotte, Möhre</column>
-      <column name="definition_fa">هویج [AUTOTRANSLATED]</column>
-      <column name="definition_sv">morot</column>
-      <column name="definition_ru">морковь</column>
-      <column name="definition_zh_HK">胡蘿蔔 [AUTOTRANSLATED]</column>
-      <column name="definition_pt">cenoura</column>
-      <column name="definition_fi">porkkana</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{'oQqar:n}</column>
-      <column name="notes">This is what Klingons would call the Terran vegetable.</column>
-      <column name="notes_de">Dies ist, was Klingonen das terranische Gemüse nennen würden. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این چیزی است که کلینگون ها آن را سبزیجات Terran می نامند. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Det här är vad Klingons skulle kalla Terran-grönsaken. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это то, что Клингоны называют земным овощем</column>
-      <column name="notes_zh_HK">這就是克林崗人所說的人族蔬菜。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Isso é o que os klingons chamariam de vegetal terráqueo. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tätä Klingons kutsuisi Terran-vihannekseksi. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
-      <column name="source">[1] {TNK:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
       <column name="entry_name">qIb</column>
       <column name="part_of_speech">n</column>
       <column name="definition">galaxy</column>
@@ -7240,7 +7240,7 @@ Hänen paluunsa on ennustettu Lupauksen tarinassa, jossa todetaan seuraavaa:
       <column name="definition_fi">vitsi</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qID:v}, {tlhaQ:v}</column>
+      <column name="see_also">{qID:v}, {tlhaQ:v}, {lut tlhaQ:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7283,20 +7283,22 @@ Hänen paluunsa on ennustettu Lupauksen tarinassa, jossa todetaan seuraavaa:
       <column name="definition_fi">vitsailla, kertoa vitsi</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Sagh:v}, {tlhaQ:v}, {chem:v}, {qID:n}</column>
-      <column name="notes">This verb normally doesn't take an object (unless one is playing word games or something).[2]</column>
-      <column name="notes_de">Dieses Verb nimmt normalerweise kein Objekt (es sei denn, man spielt Wortspiele oder so).[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این فعل معمولاً از یک شیء استفاده نمی کند (مگر اینکه کسی در حال بازی با کلمات یا چیزی باشد).[2] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta verb tar normalt inte ett objekt (såvida man inte spelar ordspel eller något).[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Этот глагол обычно не берет предмет (если только он не играет в игры в слова или что-то в этом роде).[2] [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這個動詞通常不會帶任何賓語（除非有人在玩文字遊戲或其他東西）。[2] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Esse verbo normalmente não aceita um objeto (a menos que alguém esteja jogando jogos de palavras ou algo assim).[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä verbi ei yleensä ota esinettä (ellei joku pelaa sanapelejä tai jotain muuta) .[2] [AUTOTRANSLATED]</column>
+      <column name="see_also">{Sagh:v}, {tlhaQ:v}, {qID:n}</column>
+      <column name="notes">This verb normally doesn't take an object (unless one is playing word games or something). To state the joke, {jatlh:v} would normally be used.[2]
+
+To play a practical joke on someone isn't {qID:v:nolink}, but {chem:v}.[3]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
       <column name="hidden_notes">In English slang, to "kid" is to joke.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {qID. jatlh:sen:nolink}: {qoH SoH.:sen:nolink}[2]
-▶ {jatlh:sen:nolink}: {qoH SoH. qID.:sen:nolink}[2]</column>
+▶ {qID. jatlh:sen:nolink}: {qoH SoH.:sen:nolink} "He/she jokes. He/she says, 'You are a fool.'"[2]
+▶ {jatlh:sen:nolink}: {qoH SoH. qID.:sen:nolink} "He/she says, 'You are a fool.' He/she is joking."[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -7312,7 +7314,7 @@ Hänen paluunsa on ennustettu Lupauksen tarinassa, jossa todetaan seuraavaa:
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {KGT:src}, [2] {Saarbrücken qepHom'a' 2019:src}</column>
+      <column name="source">[1] {KGT:src}, [2] {Saarbrücken qepHom'a' 2019:src}, [3] {Saarbrücken qepHom'a' 2022:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

@@ -1402,7 +1402,7 @@ Val Kilmer portrayed Batman in the movie "Batman Forever".</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is a planet in the Klingon Empire in which native languages have survived alongside Klingon.</column>
+      <column name="notes">This is a planet in the Klingon Empire in which native languages have survived alongside Klingon.[1]</column>
       <column name="notes_de">Dies ist ein Planet im klingonischen Reich, auf dem neben Klingonisch auch Muttersprachen überlebt haben. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این سیاره ای در امپراتوری کلینگون است که در آن زبان های بومی در کنار کلینگون زنده مانده اند. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta är en planet i Klingon Empire där infödda språk har överlevt tillsammans med Klingon. [AUTOTRANSLATED]</column>
@@ -1410,7 +1410,7 @@ Val Kilmer portrayed Batman in the movie "Batman Forever".</column>
       <column name="notes_zh_HK">這是克林崗帝國的一個星球，當地語言與克林崗並存。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é um planeta no Império Klingon, no qual línguas nativas sobreviveram ao lado de Klingon. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä on Klingonin imperiumin planeetta, jolla äidinkielet ovat säilyneet Klingonin rinnalla. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">This word appears only in the body of {KGT:src}, and in English, but the original Klingon name is obvious.</column>
+      <column name="hidden_notes">This word appears only in the body of {KGT:src} in English. The obvious Klingon spelling was subsequently confirmed at {Saarbrücken qepHom'a' 2022:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -1428,7 +1428,7 @@ Val Kilmer portrayed Batman in the movie "Batman Forever".</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {KGT p.18:src}</column>
+      <column name="source">[1] {KGT p.18:src}, [2] {Saarbrücken qepHom'a' 2022:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6392,8 +6392,8 @@ Katso idioomaattinen ilmaisu, jota käytetään käskemään jotakuta liikkumaan
       <column name="definition_fi">(hedelmän tms.) mehu</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{rebmugh:n}</column>
-      <column name="notes">This is any liquid from a plant. In some regional dialects, this word is used for any liquid accompanying food.</column>
+      <column name="see_also">{rebmugh:n}, {po'lIgh:n}</column>
+      <column name="notes">This is any liquid from a plant. In some regional dialects, this word is used for any liquid accompanying food, as if a general term for sauce.[1, p.27]</column>
       <column name="notes_de">Dies ist jede Flüssigkeit aus einer Pflanze. In einigen regionalen Dialekten wird dieses Wort für alle flüssigen Lebensmittel verwendet. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این مایع از گیاه است. در بعضی از گویش های منطقه ای ، این کلمه برای هر ماده غذایی همراهی مایع استفاده می شود. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta är vilken vätska som helst från en växt. I vissa regionala dialekter används detta ord för alla vätskor som följer mat. [AUTOTRANSLATED]</column>
@@ -6411,7 +6411,7 @@ Katso idioomaattinen ilmaisu, jota käytetään käskemään jotakuta liikkumaan
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">sauce</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -6551,6 +6551,49 @@ Katso idioomaattinen ilmaisu, jota käytetään käskemään jotakuta liikkumaan
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">vI'</column>
+      <column name="part_of_speech">n:3</column>
+      <column name="definition">point (geometry)</column>
+      <column name="definition_de">Punkt (Geometrie) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">نقطه (هندسه) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">punkt (geometri) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">точка (геометрия) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">點（幾何） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">ponto (geometria) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">piste (geometria) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2022:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
