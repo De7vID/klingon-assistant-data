@@ -547,7 +547,7 @@
       <column name="definition_fi">eräs lumikon kaltainen eläin</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{wu'DIy:n}</column>
       <column name="notes">This is an animal found on {Qo'noS:n} that's sort of weasel-like.</column>
       <column name="notes_de">Dies ist ein Tier auf {Qo'noS:n}, das wie ein Wiesel aussieht. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این یک حیوان است که در {Qo'noS:n} یافت می شود که نوع آن از نوع قلاب است. [AUTOTRANSLATED]</column>
@@ -568,7 +568,7 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags">otter, wolverine, musteloid</column>
+      <column name="search_tags">otter, wolverine, musteloid, badger</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -2635,7 +2635,7 @@ This was defined as "animal" in {TKD:src}, but as "meat, animal" in {TKDA:src}.<
       <column name="_id"></column>
       <column name="entry_name">Ha'DIbaH ghIH tIr ngogh je</column>
       <column name="part_of_speech">n:deriv,food,terran</column>
-      <column name="definition">burger, hamburger</column>
+      <column name="definition">burger, hamburger (Terran food)</column>
       <column name="definition_de">Hamburger (Speise)</column>
       <column name="definition_fa">برگر، همبرگر [AUTOTRANSLATED]</column>
       <column name="definition_sv">hamburgare</column>
@@ -2802,11 +2802,15 @@ Tällaisen laitteen käyttämiseksi voi {qIp:v}, {'uy:v} tai {ngaH:v} sen tietys
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
+▶ {mong Ha'quj:n}
+▶ {nach Ha'quj:n}
 ▶ {qorDu'Daj tuq 'oS Ha'quj'e' tuQbogh wo'rIv. tuQtaHvIS Hem. ghaHvaD quHDaj qawmoH.:sen:nolink} "The sash that Worf wears is a symbol of his family's house. He wears it proudly as a reminder of his heritage."[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
+▶ {mong Ha'quj:n}
+▶ {nach Ha'quj:n}
 ▶ {qorDu'Daj tuq 'oS Ha'quj'e' tuQbogh wo'rIv. tuQtaHvIS Hem. ghaHvaD quHDaj qawmoH.:sen:nolink} "Перевязь, которую носит Ворф, является символом его семьи. Он носит её гордо, как  напоминание о его наследии."[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
@@ -10479,6 +10483,49 @@ Tätä verbiä käytetään myös tavallisille monikulmioille ja polyhedeille.[2
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {KLI mailing list 2018.02.17:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">Ho'latbeD</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">raison d'être, "ikigai", main or principle purpose (for something or of someone)</column>
+      <column name="definition_de">raison d'être, "ikigai", Haupt- oder Hauptzweck (für etwas oder von jemandem) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">دلیل وجود، "ikigai"، هدف اصلی یا اصلی (برای چیزی یا کسی) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">raison d'être, "ikigai", huvudsakligt eller huvudsakligt syfte (för något eller för någon) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">raison d'être, «ikigai», основная или основная цель (для чего-то или кого-то) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">raison d'être，“ikigai”，主要或主要目的（為了某事或某人） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">raison d'être, "ikigai", finalidade principal ou principal (para algo ou de alguém) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">raison d'être, "ikigai", pää- tai päätarkoitus (jollekin tai jollekin) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is not the same thing as {ngoQ:n}.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags">raison d'etre</column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2022:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

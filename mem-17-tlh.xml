@@ -258,49 +258,6 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">tlhagh patat 'oQqar naQHom</column>
-      <column name="part_of_speech">n:deriv,terran</column>
-      <column name="definition">fry, French fry</column>
-      <column name="definition_de">Pommes Frites</column>
-      <column name="definition_fa">سرخ شده، سرخ شده فرانسوی [AUTOTRANSLATED]</column>
-      <column name="definition_sv">pomme frite</column>
-      <column name="definition_ru">фри, картофель фри [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">炸薯條</column>
-      <column name="definition_pt">batata frita</column>
-      <column name="definition_fi">ranskanperuna</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also"></column>
-      <column name="notes">This was used in the plural ({tlhagh patat 'oQqar naQHommey:n:nolink}) to translate "fries" (as in "French fries").</column>
-      <column name="notes_de">Dies wurde im Plural ({tlhagh patat 'oQqar naQHommey:n:nolink}) verwendet, um "Pommes" (wie in "Pommes") zu übersetzen. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این در جمع ({tlhagh patat 'oQqar naQHommey:n:nolink}) برای ترجمه "سیب زمینی سرخ شده" (مانند "سیب زمینی سرخ کرده") استفاده شد. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta användes i plural ({tlhagh patat 'oQqar naQHommey:n:nolink}) för att översätta "pommes frites" (som i "pommes frites"). [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это использовалось во множественном числе ({tlhagh patat 'oQqar naQHommey:n:nolink}), чтобы перевести «картофель фри» (как в «картофель фри»). [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">它用於復數形式（{tlhagh patat 'oQqar naQHommey:n:nolink}）來翻譯「炸薯條」（如「炸薯條」）。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Isso foi usado no plural ({tlhagh patat 'oQqar naQHommey:n:nolink}) para traduzir "batatas fritas" (como em "batatas fritas"). [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tätä käytettiin monikkomuodossa ({tlhagh patat 'oQqar naQHommey:n:nolink}) kääntämään "perunat" (kuten "ranskalaiset"). [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
-      <column name="components">{tlhagh:n}, {patat 'oQqar:n}, {naQ:n:1}, {-Hom:n}</column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
-      <column name="search_tags">fries, French fries</column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
-      <column name="source">[1] {TNK:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
       <column name="entry_name">tlhaghnay</column>
       <column name="part_of_speech">n</column>
       <column name="definition">Throgni</column>
@@ -1725,6 +1682,53 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">tlheb</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">urge, should, ought</column>
+      <column name="definition_de">drängen, sollen, sollen [AUTOTRANSLATED]</column>
+      <column name="definition_fa">اصرار، باید، باید [AUTOTRANSLATED]</column>
+      <column name="definition_sv">uppmana, borde, borde [AUTOTRANSLATED]</column>
+      <column name="definition_ru">понуждать, следует, следует [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">敦促，應該，應當 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">exortar, deveria, deveria [AUTOTRANSLATED]</column>
+      <column name="definition_fi">kehottaa, pitäisi, pitäisi [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{-nIS:v:suff}</column>
+      <column name="notes">The object of this verb is the activity being urged, not the person being urged. The construction is always {S 'e' tlheb:sen:nolink}  or {S net tlheb:sen:nolink}, where {S:sen:nolink} is a sentence whose subject ought to do whatever the verb is referring to. The subject of {tlheb:v:nolink} is almost always "I" or "you" (when it's not {net tlheb:sen:nolink}), though a third person subject is possible.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+{qagh vISop net tlheb:sen:nolink} "I should eat gagh."[1]
+{qagh DaSop 'e' vItlheb:sen:nolink} "You should eat gagh (in my opinion)." (I urge you to eat qagh.)[1]
+{qagh vISop 'e' vItlheb:sen:nolink} "I should eat gagh." (I urge me to eat qagh.)[1]
+</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2022:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">tlheD</column>
       <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">depart</column>
@@ -1780,7 +1784,7 @@
       <column name="definition_fi">naru, köysi</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{SIrgh:n}, {yamtaw:n}</column>
+      <column name="see_also">{SIrgh:n}, {yamtaw:n}, {ma'lI':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>

@@ -130,6 +130,49 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">lachvoH</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">hive, beehive</column>
+      <column name="definition_de">Bienenstock, Bienenstock [AUTOTRANSLATED]</column>
+      <column name="definition_fa">کندو، کندو [AUTOTRANSLATED]</column>
+      <column name="definition_sv">kupa, bikupa [AUTOTRANSLATED]</column>
+      <column name="definition_ru">улей, улей [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">蜂巢，蜂箱 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">colmeia, colmeia [AUTOTRANSLATED]</column>
+      <column name="definition_fi">pesä, mehiläispesä [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is sometimes preceded by {maqSung:n}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags">bee hive</column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2022:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">laD</column>
       <column name="part_of_speech">v:t_c,klcp1</column>
       <column name="definition">read</column>
@@ -10665,12 +10708,12 @@ Kolmen pääsuunnan välissä olevat pisteet ovat {tIng chan:n:nolink}, {'ev cha
       <column name="hidden_notes">The translations for "fairy tales" are suggestions only. In particular, it was noted that {SIqnaSwaq:n} would probably not be used to translate this term.[3]</column>
       <column name="components"></column>
       <column name="examples">
-▶ {meb, lut tlhaQ DaSov'a'?} "Guest, do you know any funny stories?"[2]</column>
+▶ {meb, lut tlhaQ DaSov'a'?:sen@@meb:n, lut tlhaQ:n, Da-:v, Sov:v, -'a':v} "Guest, do you know any funny stories?"[2]</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
-▶ {meb, lut tlhaQ DaSov'a'?} "Гость, ты знаешь какие-то забавные истории?"[2]</column>
+▶ {meb, lut tlhaQ DaSov'a'?:sen@@meb:n, lut tlhaQ:n, Da-:v, Sov:v, -'a':v} "Гость, ты знаешь какие-то забавные истории?"[2]</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
@@ -10726,6 +10769,49 @@ Kolmen pääsuunnan välissä olevat pisteet ovat {tIng chan:n:nolink}, {'ev cha
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
           <column name="source">[1] {Saarbrücken qepHom'a' 2017:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">lut tlhaQ</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">funny story</column>
+          <column name="definition_de">Lustige Geschichte [AUTOTRANSLATED]</column>
+          <column name="definition_fa">داستان خنده دار [AUTOTRANSLATED]</column>
+          <column name="definition_sv">rolig historia [AUTOTRANSLATED]</column>
+          <column name="definition_ru">смешная история [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">好笑的故事 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">estória engraçada [AUTOTRANSLATED]</column>
+          <column name="definition_fi">hauska tarina [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">This is a kind of {qID:n} which is a narrative that's funny, at least sporadically, throughout.[2]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{lut:n}, {tlhaQ:v}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {PK:src}, [2] {Saarbrücken qepHom'a' 2022:src}</column>
         </table>
     <table name="mem">
       <column name="_id"></column>
