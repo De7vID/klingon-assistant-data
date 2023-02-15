@@ -4656,6 +4656,7 @@ Voidaan sanoa joko {B tlhogh A:sen:nolink} "{A:sen:nolink} naimisiin {B:sen:noli
       <column name="source">[1] {KGT:src}</column>
     </table>
     <table name="mem">
+      <!-- The "public area" explanation is given in this video from 2019: http://youtu.be/xh5vM-jDFRs -->
       <column name="_id"></column>
       <column name="entry_name">tlhop</column>
       <column name="part_of_speech">n:2</column>
@@ -4786,8 +4787,8 @@ The request that resulted in this word specified that a favor is "an act done ou
       <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
-    <!-- {tlhoqo':n} KLI slang for "misanthrope, jerk, idiot". -->
     <table name="mem">
+      <!-- {tlhoqo':n} KLI slang for "misanthrope, jerk, idiot". -->
       <column name="_id"></column>
       <column name="entry_name">tlhorgh</column>
       <column name="part_of_speech">v:is</column>
