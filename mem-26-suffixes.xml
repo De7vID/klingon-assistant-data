@@ -331,7 +331,9 @@ Huomaa, että {-pu':n:suff,nolink}: n käyttö on substantiivi, eikä välttäm�
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-pu':n}, {-Du':n}</column>
-      <column name="notes">When this suffix is used for beings capable of using language (see {-pu':n}), it adds the notion of "scattered all about" to the meaning. This suffix cannot be used for body parts (see {-Du':n}), but this rule is sometimes violated by poets.
+      <column name="notes">This is the general suffix for a noun which is neither a being capable of language nor a body part.
+
+When this suffix is used for beings capable of using language (instead of {-pu':n:nolink}), it adds the notion of "scattered all about" to the meaning. This suffix cannot be used for body parts (see {-Du':n:nolink}), but this rule is sometimes violated by poets.
 
 Some nouns are inherently plural in meaning, with singular forms which are utterly distinct. These inherently plural nouns are treated as grammatically singular, in that singular pronouns and verb prefixes are used for them. When the suffix {-mey:n:nolink} is applied to the singular forms of these nouns, the resulting plural word carries the connotation of "scattered all about".</column>
       <column name="notes_de"></column>
@@ -346,10 +348,11 @@ Jotkut substantiivit ovat luonnostaan ​​monikkomerkityksisiä, ja yksikkömu
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
+▶ {yuQmey:n:nolink} "planets"
 ▶ {pu'HIchmey:n:nolink} "phasers"
-▶ {puqmey:n:nolink} "children all over the place"
-▶ {jatmey:n:nolink} "scattered tongues"
-▶ {DoSmey:n:nolink} "targets scattered all about"</column>
+▶ {puqmey:n:nolink} "children all over the place" (cf. {puqpu':n:nolink})
+▶ {jatmey:n:nolink} "scattered tongues" (cf. {jatDu':n:nolink})
+▶ {DoSmey:n:nolink} "targets scattered all about" (cf. {ray':n:nolink})</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -1555,7 +1558,7 @@ For machines, mechanical devices, automatic doors, etc., this suffix can indicat
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This suffix is rarely used with a first-person subject, as it's culturally taboo.[1]</column>
-      <column name="notes_de">Dieses Suffix wird bei einem Thema aus der ersten Person selten verwendet, da es kulturell tabu ist.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_de">Dieses Suffix wird bei einem Subjekt aus der ersten Person selten verwendet, da es kulturell tabu ist.[1] [AUTOTRANSLATED]</column>
       <column name="notes_fa">این پسوند به ندرت با موضوع اول شخص استفاده می شود ، زیرا از نظر فرهنگی تابو است.[1] [AUTOTRANSLATED]</column>
       <column name="notes_sv">Det här suffixet används sällan med ett förstapersonsämne, eftersom det är kulturellt tabu.[1] [AUTOTRANSLATED]</column>
       <column name="notes_ru">Этот суффикс редко используется с предметом от первого лица, поскольку это культурно табу.[1] [AUTOTRANSLATED]</column>
@@ -1823,7 +1826,7 @@ Multiple uses of {-lu'} in a complex sentence refer back to the same indefinite 
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">Some speakers use this to combine {-lu':v} and {-laH:v} into one suffix, to express both indefinite subject and ability simultaneously. No one accepts this construction as grammatical, but its inappropriateness is what gives it elocutionary clout. It should be avoided unless one is very comfortable with the nuances of Klingon style.</column>
-      <column name="notes_de">Einige Sprecher verwenden dies, um {-lu':v} und {-laH:v} in einem Suffix zu kombinieren, um sowohl unbestimmtes Thema als auch Fähigkeit gleichzeitig auszudrücken. Niemand akzeptiert diese Konstruktion als grammatikalisch, aber ihre Unangemessenheit verleiht ihr elokutionären Einfluss. Es sollte vermieden werden, es sei denn, man ist mit den Nuancen des klingonischen Stils sehr vertraut. [AUTOTRANSLATED]</column>
+      <column name="notes_de">Einige Sprecher verwenden dies, um {-lu':v} und {-laH:v} in einem Suffix zu kombinieren, um sowohl unbestimmtes Subjekt als auch Fähigkeit gleichzeitig auszudrücken. Niemand akzeptiert diese Konstruktion als grammatikalisch, aber ihre Unangemessenheit verleiht ihr elokutionären Einfluss. Es sollte vermieden werden, es sei denn, man ist mit den Nuancen des klingonischen Stils sehr vertraut. [AUTOTRANSLATED]</column>
       <column name="notes_fa">برخی از بلندگوها از این ترکیب برای ترکیب {-lu':v} و {-laH:v} در یک پسوند استفاده می کنند تا هم موضوع و توانایی نامشخص را به طور هم زمان بیان کنند. هیچ کس این ساخت و ساز را به عنوان دستوری نمی پذیرد ، اما نامناسب بودن آن چیزی است که به آن قدرت توجه می دهد. باید از آن پرهیز کرد مگر اینکه کسی با تفاوت های ظریف سبک کلینگون بسیار راحت باشد. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Vissa högtalare använder detta för att kombinera {-lu':v} och {-laH:v} till ett efterföljd för att uttrycka både obestämd ämne och förmåga samtidigt. Ingen accepterar denna konstruktion som grammatisk, men dess olämplighet är det som ger den elocutionary clout. Det bör undvikas såvida man inte är mycket bekväm med nyanserna i Klingon-stil. [AUTOTRANSLATED]</column>
       <column name="notes_ru"></column>
@@ -1866,7 +1869,7 @@ Multiple uses of {-lu'} in a complex sentence refer back to the same indefinite 
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">Some speakers use this to combine {-lu':v} and {-laH:v} into one suffix, to express both indefinite subject and ability simultaneously. No one accepts this construction as grammatical, but its inappropriateness is what gives it elocutionary clout. It should be avoided unless one is very comfortable with the nuances of Klingon style.</column>
-      <column name="notes_de">Einige Sprecher verwenden dies, um {-lu':v} und {-laH:v} in einem Suffix zu kombinieren, um sowohl unbestimmtes Thema als auch Fähigkeit gleichzeitig auszudrücken. Niemand akzeptiert diese Konstruktion als grammatikalisch, aber ihre Unangemessenheit verleiht ihr elokutionären Einfluss. Es sollte vermieden werden, es sei denn, man ist mit den Nuancen des klingonischen Stils sehr vertraut. [AUTOTRANSLATED]</column>
+      <column name="notes_de">Einige Sprecher verwenden dies, um {-lu':v} und {-laH:v} in einem Suffix zu kombinieren, um sowohl unbestimmtes Subjekt als auch Fähigkeit gleichzeitig auszudrücken. Niemand akzeptiert diese Konstruktion als grammatikalisch, aber ihre Unangemessenheit verleiht ihr elokutionären Einfluss. Es sollte vermieden werden, es sei denn, man ist mit den Nuancen des klingonischen Stils sehr vertraut. [AUTOTRANSLATED]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">Vissa högtalare använder detta för att kombinera {-lu':v} och {-laH:v} till ett efterföljd för att uttrycka både obestämd ämne och förmåga samtidigt. Ingen accepterar denna konstruktion som grammatisk, men dess olämplighet är det som ger den elocutionary clout. Det bör undvikas såvida man inte är mycket bekväm med nyanserna i Klingon-stil. [AUTOTRANSLATED]</column>
       <column name="notes_ru">Некоторые ораторы используют это для объединения {-lu':v} и {-laH:v} в один суффикс, чтобы выразить одновременно неопределенный субъект и способность. Никто не принимает эту конструкцию как грамматическую, но ее неуместность - вот что дает ей красноречивое влияние. Этого следует избегать, если только вы не очень довольны нюансами стиля клингон. [AUTOTRANSLATED]</column>
