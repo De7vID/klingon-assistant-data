@@ -846,7 +846,7 @@
       <column name="notes_fi"></column>
       <column name="hidden_notes">This was revealed to provide Klingon subtitles for the 50th anniversary of the German children's TV show "Die Sendung mit der Maus".
 
-Val Kilmer portrayed Batman in the movie "Batman Forever". ({qe':sen:nolink} was used to transliterate the letter K also in {'oqe:n}.)</column>
+Val Kilmer portrayed Batman in the movie "Batman Forever". ({qe':sen:nolink} was used to transliterate the letter K also in {'oqe':n}.)</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3251,7 +3251,7 @@ Tätä verbiä käytetään kuvaamaan maton asettamista. Henkilöä, joka asetta
       <column name="definition_fi">herätä</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Qong:v}, {Hu':v}, {vemmoH:v}</column>
+      <column name="see_also">{Qong:v}, {Hu':v}, {vemmoH:v:1}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -3283,7 +3283,7 @@ Tätä verbiä käytetään kuvaamaan maton asettamista. Henkilöä, joka asetta
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">vemmoH</column>
-          <column name="part_of_speech">v:t_c,deriv</column>
+          <column name="part_of_speech">v:1,t_c,deriv</column>
           <column name="definition">wake (someone) up</column>
           <column name="definition_de">jmd. wecken, aufwecken</column>
           <column name="definition_fa">بیدار شدن (کسی) [AUTOTRANSLATED]</column>
@@ -3293,9 +3293,9 @@ Tätä verbiä käytetään kuvaamaan maton asettamista. Henkilöä, joka asetta
           <column name="definition_pt">acordar (alguém)</column>
           <column name="definition_fi">herättää joku</column>
           <column name="synonyms"></column>
-          <column name="antonyms">{QongmoH:v}</column>
+          <column name="antonyms">{QongmoH:v:1}</column>
           <column name="see_also"></column>
-          <column name="notes">This is also used for igniting fires (see {qul:n}).[2]</column>
+          <column name="notes"></column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
@@ -3321,7 +3321,50 @@ Tätä verbiä käytetään kuvaamaan maton asettamista. Henkilöä, joka asetta
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
-          <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2020:src}</column>
+          <column name="source">[1] {TKD:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">vemmoH</column>
+          <column name="part_of_speech">v:2,t_c,deriv</column>
+          <column name="definition">ignite (a fire)</column>
+          <column name="definition_de">TRANSLATE</column>
+          <column name="definition_fa">TRANSLATE</column>
+          <column name="definition_sv">TRANSLATE</column>
+          <column name="definition_ru">TRANSLATE</column>
+          <column name="definition_zh_HK">TRANSLATE</column>
+          <column name="definition_pt">TRANSLATE</column>
+          <column name="definition_fi">TRANSLATE</column>
+          <column name="synonyms"></column>
+          <column name="antonyms">{QongmoH:v:2}</column>
+          <column name="see_also"></column>
+          <column name="notes">A common way to express this is with {chenmoH:v}.[1]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{vem:v}, {-moH:v}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2020:src}</column>
         </table>
     <table name="mem">
       <column name="_id"></column>
