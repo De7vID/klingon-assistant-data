@@ -3433,7 +3433,7 @@ The first part of this word is {qaw:n}, but the second part has nothing to do wi
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
           <column name="hidden_notes">This is defined as "memory banks" in {TKD:src} and as "data banks (singular)" in {TKDA:src}.</column>
-          <column name="components">{qaw:n}, {Haq:n:hyp,nolink}</column>
+          <column name="components">{qaw:n}, {Haq:n:2,hyp,nolink}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -4986,7 +4986,7 @@ Tämä verbi viittaa vain liikkeeseen, ei siihen, mitä tällainen liike voi tai
       <column name="_id"></column>
       <column name="entry_name">qelHay'ya</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">Kal'Hyah</column>
+      <column name="definition">Kal'Hyah (ritual undertaken by groom before marriage)</column>
       <column name="definition_de">Kal'Hyah</column>
       <column name="definition_fa">کالههه [AUTOTRANSLATED]</column>
       <column name="definition_sv">Kal'Hyah [AUTOTRANSLATED]</column>
@@ -5529,7 +5529,7 @@ Samankaltaisuus "Kapteeni Kangin" ({qeng HoD:n@@qeng:n, HoD:n}) kanssa on sattum
       <!-- Don't annotate as "deriv" because the bad grammar breaks the parser. -->
       <column name="_id"></column>
       <column name="entry_name">qepHom'a'</column>
-      <column name="part_of_speech">n:terran</column>
+      <column name="part_of_speech">n:nodict,terran</column>
       <column name="definition">annual meeting of Klingon speakers in Germany</column>
       <column name="definition_de">jährlicher Klingonischkurs Saarbrücken</column>
       <column name="definition_fa">نشست سالانه سخنرانان کلینگان در آلمان [AUTOTRANSLATED]</column>
@@ -5578,7 +5578,7 @@ Klingonin kieli-instituutin virallinen vuosikonferenssi tunnetaan nimellä {qep'
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qep'a'</column>
-      <column name="part_of_speech">n:deriv</column>
+      <column name="part_of_speech">n:deriv,nodict,terran</column>
       <column name="definition">KLI annual conference</column>
       <column name="definition_de">Jahreshauptversammlung des KLI</column>
       <column name="definition_fa">کنفرانس سالانه KLI [AUTOTRANSLATED]</column>
@@ -8749,7 +8749,7 @@ Maltz näytti haluttomalta puhua mitä tämä oikein on[3][2] [AUTOTRANSLATED]</
       <column name="_id"></column>
       <column name="entry_name">qoch'uq</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">rubber</column>
+      <column name="definition">rubber (material)</column>
       <column name="definition_de">Gummi (Material)</column>
       <column name="definition_fa">لاستیک [AUTOTRANSLATED]</column>
       <column name="definition_sv">sudd [AUTOTRANSLATED]</column>
@@ -10279,7 +10279,7 @@ Sitä voidaan käyttää myös laitteeseen, jota jotkut ihmiset käyttävät vau
       <column name="_id"></column>
       <column name="entry_name">qoSqa'rIy</column>
       <column name="part_of_speech">n:inhpl,anim</column>
-      <column name="definition">Kos'Karii</column>
+      <column name="definition">Kos'Karii (a group of mythological creatures)</column>
       <column name="definition_de">Kos'Karii</column>
       <column name="definition_fa">Kos'Karii [AUTOTRANSLATED]</column>
       <column name="definition_sv">Kos'Karii [AUTOTRANSLATED]</column>
@@ -10499,7 +10499,7 @@ Sitä voidaan käyttää myös laitteeseen, jota jotkut ihmiset käyttävät vau
       <column name="_id"></column>
       <column name="entry_name">qovDa'</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">exponent</column>
+      <column name="definition">exponent (math)</column>
       <column name="definition_de">Exponent</column>
       <column name="definition_fa">نماینده [AUTOTRANSLATED]</column>
       <column name="definition_sv">exponent [AUTOTRANSLATED]</column>
@@ -13220,7 +13220,7 @@ Tätä sanaa ei voida käyttää maassa olevaan reikään (josta katso {QemjIq:n
       <column name="_id"></column>
       <column name="entry_name">quSDI'</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">batch</column>
+      <column name="definition">batch (quantity of anything produced at one iteration of an operation)</column>
       <column name="definition_de">Charge, Ladung</column>
       <column name="definition_fa">دسته ای [AUTOTRANSLATED]</column>
       <column name="definition_sv">omgång [AUTOTRANSLATED]</column>
@@ -13890,7 +13890,7 @@ Huomaa, että {ghaj:v}: ta ja {Hutlh:v}: ää voidaan käyttää tämän substan
           <column name="_id"></column>
           <column name="entry_name">quv bey'</column>
           <column name="part_of_speech">n:deriv,fic,weap</column>
-          <column name="definition">honor display</column>
+          <column name="definition">Honor Display (type of ceremonial weapons display)</column>
           <column name="definition_de">Ehrenanzeige</column>
           <column name="definition_fa">نماز افتخار [AUTOTRANSLATED]</column>
           <column name="definition_sv">hedersställ</column>
@@ -13976,7 +13976,7 @@ Huomaa, että {ghaj:v}: ta ja {Hutlh:v}: ää voidaan käyttää tämän substan
       <column name="_id"></column>
       <column name="entry_name">quvamaq</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">Kuvah'magh</column>
+      <column name="definition">Kuvah'magh (religious figure)</column>
       <column name="definition_de">Kuvah'magh</column>
       <column name="definition_fa">کواوهماغ [AUTOTRANSLATED]</column>
       <column name="definition_sv">Kuvah'magh [AUTOTRANSLATED]</column>
