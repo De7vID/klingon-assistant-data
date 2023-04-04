@@ -1471,6 +1471,7 @@ Jos haluat kuvailla nautittavaa ruokaa tai musiikkia, katso {'ey:v} ja {DuQ:v:2}
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- This word is its own singular form, so the components have to be left blank. Arguably it could have been {mang:n}, but that's already paired with {negh:n} -->
       <column name="_id"></column>
       <column name="entry_name">QaS</column>
       <column name="part_of_speech">n:being,inhpl,1h</column>
@@ -1536,7 +1537,7 @@ On mahdollista, että tätä sanaa voidaan käyttää viittaamaan yhteen joukkoj
 
 Kohdassa {Klingon Monopoly:src} {tlhIngan QaS:n:nolink} on pelissä käytetty rahayksikkö. Tästä pelistä meillä on esimerkkejä {"GO" DajuSDI' cha'vatlh QaS yItlhap:sen:nolink} ja {wa'vatlh QaS yItlhap:sen:nolink}. Huomaa, että yksikön etuliitettä {yI-:v} käytetään, vaikka {QaS:n:1h,nolink} on luonnostaan ​​monikko-substantiivi, jonka jäseniä lasketaan.[3] [AUTOTRANSLATED]</column>
       <column name="hidden_notes">This was defined as "troops" in {TKD:src}. It is glossed as "troop member" in passing on {KGT p.51:src}.</column>
-      <column name="components">{mang:n}</column>
+      <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -9029,13 +9030,13 @@ In the example, {polmeH QujwI' lIw:n:nolink} is not a fixed construction, even t
       <column name="entry_name">Qur</column>
       <column name="part_of_speech">n:2</column>
       <column name="definition">anatomy (referring to animals)</column>
-      <column name="definition_de">TRANSLATE</column>
-      <column name="definition_fa">TRANSLATE</column>
-      <column name="definition_sv">TRANSLATE</column>
-      <column name="definition_ru">TRANSLATE</column>
-      <column name="definition_zh_HK">TRANSLATE</column>
-      <column name="definition_pt">TRANSLATE</column>
-      <column name="definition_fi">TRANSLATE</column>
+      <column name="definition_de">Anatomie</column>
+      <column name="definition_fa">آناتومی [AUTOTRANSLATED]</column>
+      <column name="definition_sv">anatomi</column>
+      <column name="definition_ru">анатомию</column>
+      <column name="definition_zh_HK">解剖 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">anatomia</column>
+      <column name="definition_fi">anatomiaa</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{porghQeD:n}</column>

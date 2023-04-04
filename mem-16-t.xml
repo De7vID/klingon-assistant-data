@@ -3227,7 +3227,7 @@ Marc Okrand noted that he can't answer yet the question of whether an airlane (a
       <column name="_id"></column>
       <column name="entry_name">tawI'yan</column>
       <column name="part_of_speech">n:being</column>
-      <column name="definition">Tawi'Yan</column>
+      <column name="definition">Tawi'Yan (the "best man" at a Klingon wedding)</column>
       <column name="definition_de">Trauzeuge </column>
       <column name="definition_fa">توویان [AUTOTRANSLATED]</column>
       <column name="definition_sv">Tawi'Yan [AUTOTRANSLATED]</column>
@@ -6139,7 +6139,7 @@ Terran-kuukaudet ovat:
       <column name="_id"></column>
       <column name="entry_name">tet</column>
       <column name="part_of_speech">v:t_c,klcp1</column>
-      <column name="definition">melt</column>
+      <column name="definition">melt (something)</column>
       <column name="definition_de">schmelzen</column>
       <column name="definition_fa">ذوب شدن [AUTOTRANSLATED]</column>
       <column name="definition_sv">smälta</column>
@@ -6150,7 +6150,7 @@ Terran-kuukaudet ovat:
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{pub:v}</column>
-      <column name="notes">The object is the thing which is melted.</column>
+      <column name="notes">The object is the thing which is melted.[2]</column>
       <column name="notes_de">Das Objekt ist das, was geschmolzen ist. [AUTOTRANSLATED]</column>
       <column name="notes_fa">جسم چیزی است که ذوب می شود. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Objektet är det som smälts. [AUTOTRANSLATED]</column>
@@ -6158,7 +6158,7 @@ Terran-kuukaudet ovat:
       <column name="notes_zh_HK">對像是被融化的東西。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">O objeto é a coisa que é derretida. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Kohde on sulanut asia. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as just "melt" in {TKD:src}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {tujqu'choHmo' QeHchaj:sen:nolink}
@@ -7621,7 +7621,7 @@ MO has said that this is not a reference to the Stan Laurel and Oliver Hardy mov
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <!-- Note that since this is "inhpl" with no singular form, we have to leave components blank. -->
+      <!-- Note that since this is "inhpl" with no singular form, or which is its own singular form, we have to leave components blank. -->
       <column name="entry_name">tIpqan</column>
       <column name="part_of_speech">n:inhpl</column>
       <column name="definition">ash, ashes</column>
