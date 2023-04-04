@@ -4217,7 +4217,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
       <column name="_id"></column>
       <column name="entry_name">cha'ang</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">chorus style</column>
+      <column name="definition">chorus style (type of literary style)</column>
       <column name="definition_de">Chor-Stil</column>
       <column name="definition_fa">سبک کر [AUTOTRANSLATED]</column>
       <column name="definition_sv">körstil [AUTOTRANSLATED]</column>
@@ -4303,7 +4303,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
       <column name="_id"></column>
       <column name="entry_name">Huy'reH</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">aria style</column>
+      <column name="definition">aria style (type of literary style)</column>
       <column name="definition_de">Arie-Stil</column>
       <column name="definition_fa">سبک آریا [AUTOTRANSLATED]</column>
       <column name="definition_sv">aria stil [AUTOTRANSLATED]</column>
@@ -4604,7 +4604,7 @@ Even though the line spoken by {tIquvma:n:name} means "Give me light to go", it 
       <column name="_id"></column>
       <column name="entry_name">QIch'lut</column>
       <column name="part_of_speech">n:archaic,deriv</column>
-      <column name="definition">Qich'lut, narrator style</column>
+      <column name="definition">Qich'lut, narrator style (type of literary style)</column>
       <column name="definition_de">Erzähler-Stil</column>
       <column name="definition_fa">سبک راوی [AUTOTRANSLATED]</column>
       <column name="definition_sv">berättarstil [AUTOTRANSLATED]</column>
@@ -5301,7 +5301,7 @@ The reason that the language is {bama Hol:n:nolink} while the country is {mIyama
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">bIqIynIy</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">bikini (Terran clothing)</column>
       <column name="definition_de">Bikini (Terranerkleidung)</column>
       <column name="definition_fa">بیکینی (لباس ترن) [AUTOTRANSLATED]</column>
@@ -9306,6 +9306,63 @@ The reason that the language is {bama Hol:n:nolink} while the country is {mIyama
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">QISmaS</column>
+      <column name="part_of_speech">n:terran</column>
+      <column name="definition">Christmas</column>
+      <column name="definition_de">Weihnachten</column>
+      <column name="definition_fa">کریسمس [AUTOTRANSLATED]</column>
+      <column name="definition_sv">jul [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Рождество</column>
+      <column name="definition_zh_HK">聖誕</column>
+      <column name="definition_pt">Natal</column>
+      <column name="definition_fi">joulu</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{DIS chu':n}</column>
+      <column name="notes">This is the name of a Terran holiday.
+
+There is no traditional Klingon way to say something like "Merry Christmas". An expression such as {wornagh yItlhutlh!} might be more appropriate.[1]</column>
+      <column name="notes_de">Dies ist der Name eines terranischen Feiertags.
+
+Es gibt keine traditionelle klingonische Art, etwas wie "Frohe Weihnachten" zu sagen. Ein Ausdruck wie {wornagh yItlhutlh!} ist möglicherweise besser geeignet. [1] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این نام یک تعطیلات Terran است.
+
+روش سنتی کلینگون برای گفتن چیزی مانند "کریسمس مبارک" وجود ندارد. ممکن است عباراتی مانند {wornagh yItlhutlh!} مناسب تر باشد. [1] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är namnet på en Terran-semester.
+
+Det finns inget traditionellt Klingon-sätt att säga något som "god jul". Ett uttryck som {wornagh yItlhutlh!} kan vara mer lämpligt.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это название земного праздника.
+
+Не существует традиционного способ сказать что-то типа "Счастливого рождества". Выражение типа {wornagh yItlhutlh!} может быть наиболее соответствующим для этого.[1]</column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt">Este é o nome de um feriado terráqueo.
+
+Não existe uma maneira tradicional Klingon de dizer algo como "Feliz Natal". Uma expressão como {wornagh yItlhutlh!} pode ser mais apropriada.[1] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on Terran-loman nimi.
+
+Ei ole perinteistä klingonilaista tapaa sanoa jotain "hyvää joulua". Lauseke, kuten {wornagh yItlhutlh!}, saattaa olla sopivampi.[1] [AUTOTRANSLATED]</column>
+      <column name="hidden_notes">Maltz thought "Merry Christmas" and "Happy New Year" were silly things to say.[1]</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {KLI mailing list 2013.12.13:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -15060,13 +15117,13 @@ You say "bye" to someone who is doing the action of {DoH:v}, and when you ask a 
       <column name="entry_name">mInHor</column>
       <column name="part_of_speech">n:anim,extcan</column>
       <column name="definition">type of animal, minn'hor</column>
-      <column name="definition_de">TRANSLATE</column>
-      <column name="definition_fa">TRANSLATE</column>
-      <column name="definition_sv">TRANSLATE</column>
-      <column name="definition_ru">TRANSLATE</column>
-      <column name="definition_zh_HK">TRANSLATE</column>
-      <column name="definition_pt">TRANSLATE</column>
-      <column name="definition_fi">TRANSLATE</column>
+      <column name="definition_de">Tierart, Minn'hor [AUTOTRANSLATED]</column>
+      <column name="definition_fa">نوع حیوان، minn'hor [AUTOTRANSLATED]</column>
+      <column name="definition_sv">typ av djur, minn'hor [AUTOTRANSLATED]</column>
+      <column name="definition_ru">вид животного, минн'хор [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">動物類型，minn'hor [AUTOTRANSLATED]</column>
+      <column name="definition_pt">tipo de animal, minn'hor [AUTOTRANSLATED]</column>
+      <column name="definition_fi">eläintyyppi, minn'hor [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
