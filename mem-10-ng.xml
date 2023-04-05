@@ -745,7 +745,7 @@ Begreppet "jungfru" kan uttryckas genom att bokstavligen säga vad en jungfru ä
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ngap</column>
-      <column name="part_of_speech">v</column>
+      <column name="part_of_speech">v:is</column>
       <column name="definition">be consonant</column>
       <column name="definition_de">konsonant, harmonisch sein</column>
       <column name="definition_fa">همخوان باشد [AUTOTRANSLATED]</column>
@@ -788,8 +788,8 @@ Begreppet "jungfru" kan uttryckas genom att bokstavligen säga vad en jungfru ä
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">ngapHa'</column>
-          <column name="part_of_speech">v:deriv</column>
-          <column name="definition">be discordant, dissonant</column>
+          <column name="part_of_speech">v:is,deriv</column>
+          <column name="definition">be discordant, be dissonant</column>
           <column name="definition_de">dissonant, unharmonisch sein</column>
           <column name="definition_fa">ناسازگار، ناسازگار باشد [AUTOTRANSLATED]</column>
           <column name="definition_sv">vara disharmonisk, dissonant [AUTOTRANSLATED]</column>
@@ -1210,7 +1210,7 @@ Voidaan sanoa {mab ngaQmoH:sen@@mab:n:2, ngaQmoH:v:2} ja niin edelleen, mutta t�
       <column name="_id"></column>
       <column name="entry_name">ngar</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be miraculous, supernatural, wondrous</column>
+      <column name="definition">be miraculous, be supernatural, be wondrous</column>
       <column name="definition_de">wundersam, übernatürlich, wunderlich sein</column>
       <column name="definition_fa">معجزه آسا، فوقالعاده، شگفت انگیز باشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara mirakulös, övernaturlig, underbar [AUTOTRANSLATED]</column>
@@ -1820,7 +1820,7 @@ In comparison, the table of contents of a book would be labeled {paq 'ay'mey:n}.
       <column name="_id"></column>
       <column name="entry_name">ngeb</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be counterfeit, false, fake</column>
+      <column name="definition">be counterfeit, be false, be fake</column>
       <column name="definition_de">unecht, gefälscht sein</column>
       <column name="definition_fa">تقلبی، دروغ، جعلی بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara förfalskad, vara falsk, vara oäkta</column>
@@ -3111,7 +3111,7 @@ Kohdassa {TNK:src} "Missä kauppa on?" käännetään nimellä {nuqDaq ghaH ngev
       <column name="_id"></column>
       <column name="entry_name">ngIbvay</column>
       <column name="part_of_speech">n:anim,fic</column>
-      <column name="definition">weird animal found on {Qo'noS:n} that looks like a rock</column>
+      <column name="definition">type of animal (weird animal found on {Qo'noS:n} that looks like a rock)</column>
       <column name="definition_de">seltsames Tier, das auf {Qo'noS:n} vorkommt und wie ein Stein aussieht</column>
       <column name="definition_fa">حیوان عجیبی در {Qo'noS:n} پیدا شد که شبیه سنگ است [AUTOTRANSLATED]</column>
       <column name="definition_sv">konstigt djur hittat på {Qo'noS:n} som ser ut som en sten [AUTOTRANSLATED]</column>
@@ -3197,7 +3197,7 @@ Kohdassa {TNK:src} "Missä kauppa on?" käännetään nimellä {nuqDaq ghaH ngev
       <column name="_id"></column>
       <column name="entry_name">ngIj</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be rowdy, unruly</column>
+      <column name="definition">be rowdy, be unruly</column>
       <column name="definition_de">rauflustig, ungestüm sein</column>
       <column name="definition_fa">خجالت بکش [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara bråkig, vara stökig, vara oregerlig, vara bångstyrig</column>
@@ -4126,7 +4126,7 @@ One of these was used in the production of the opera {'u':src}.</column>
       <column name="_id"></column>
       <column name="entry_name">ngogh tun</column>
       <column name="part_of_speech">n:deriv</column>
-      <column name="definition">pillow</column>
+      <column name="definition">pillow (soft head support not used by Klingons)</column>
       <column name="definition_de">Kissen</column>
       <column name="definition_fa">بالش</column>
       <column name="definition_sv">kudde</column>
@@ -4566,7 +4566,7 @@ One of these was used in the production of the opera {'u':src}.</column>
       <column name="definition_fi">koe, testi, kokeilu</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ngong:v}, {QeD:n}, {bInglan:n}, {nger:n}, {Qulpa':n}</column>
+      <column name="see_also">{ngong:v}, {QeD:n}, {bInglan:n}, {nger:n}, {Qulpa':n}, {'aHDuH:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5578,7 +5578,7 @@ Huomaa, että "silloin" tarkoittaa "myöhemmin" on {ghIq:adv}.[1][1] [AUTOTRANSL
       <column name="_id"></column>
       <column name="entry_name">nguq</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be arrogant, haughty, conceited</column>
+      <column name="definition">be arrogant, be haughty, be conceited</column>
       <column name="definition_de">arrogant, hochmütig, eingebildet sein</column>
       <column name="definition_fa">متکبر، متکبر، متکبر [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara arrogant, vara inbilsk, vara högfärdig, vara egenkär</column>

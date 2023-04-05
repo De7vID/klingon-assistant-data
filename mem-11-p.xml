@@ -1522,7 +1522,7 @@ Katso myös hypoteettinen samanlainen kieliopillinen rakenne kohdasta {tIq'ghob:
       <column name="_id"></column>
       <column name="entry_name">pargh</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be synthetic, artificial</column>
+      <column name="definition">be synthetic, be artificial</column>
       <column name="definition_de">synthetisch, künstlich sein</column>
       <column name="definition_fa">مصنوعی، مصنوعی باشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara syntetisk, artificiell [AUTOTRANSLATED]</column>
@@ -2120,7 +2120,7 @@ Huomaa, että tähtijärjestelmän Klingon-termi on {Hovtay':n}. [AUTOTRANSLATED
       <column name="_id"></column>
       <column name="entry_name">patlh</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be ranked, have a status, be graded; be sorted</column>
+      <column name="definition">be ranked, have a status, be graded, be sorted</column>
       <column name="definition_de">eingestuft, eingeordnet, einen Rang haben</column>
       <column name="definition_fa">رتبه بندی شود، وضعیت داشته باشد، درجه بندی شود مرتب شود [AUTOTRANSLATED]</column>
       <column name="definition_sv">rankas, ha status, betygsättas sorteras [AUTOTRANSLATED]</column>
@@ -2139,7 +2139,7 @@ Huomaa, että tähtijärjestelmän Klingon-termi on {Hovtay':n}. [AUTOTRANSLATED
       <column name="notes_zh_HK">要按字母順序對英語單詞列表進行排序，請使用諸如{wa'DIch a, HochDIch z:sen:nolink}（或{wa'DIch z, HochDIch a:sen:nolink}為相反順序）之類的構造。對於克林崗語，請使用{wa'DIch bay, HochDIch qaghwI':sen:nolink}或{wa'DIch qaghwI', HochDIch bay:sen:nolink}。要反轉列表，請使用{DopmoH:v}.[2] [AUTOTRANSLATED]</column>
       <column name="notes_pt"></column>
       <column name="notes_fi">Voit lajitella luettelon englanninkielisistä sanoista aakkosjärjestyksessä käyttämällä rakennetta kuten {wa'DIch a, HochDIch z:sen:nolink} (tai {wa'DIch z, HochDIch a:sen:nolink} päinvastaisessa järjestyksessä). Käytä Klingon-sanoja varten {wa'DIch bay, HochDIch qaghwI':sen:nolink} tai {wa'DIch qaghwI', HochDIch bay:sen:nolink}. Voit kääntää luettelon kääntämällä {DopmoH:v}.[2] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as "be ranked, have a status, be graded" in [1], then defined additionally as "be sorted" in [2].</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2163,7 +2163,7 @@ Huomaa, että tähtijärjestelmän Klingon-termi on {Hovtay':n}. [AUTOTRANSLATED
       <column name="_id"></column>
       <column name="entry_name">patlhmoH</column>
       <column name="part_of_speech">v:t_c,deriv</column>
-      <column name="definition">rank, assign status, sort; compare</column>
+      <column name="definition">rank, assign status, sort, compare</column>
       <column name="definition_de">einstufen, einordnen; gegenüberstellen, vergleichen</column>
       <column name="definition_fa">رتبه، اختصاص وضعیت، مرتب سازی بر اساس؛ مقایسه کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">rang, tilldel status, sortera; jämföra [AUTOTRANSLATED]</column>
@@ -2196,7 +2196,9 @@ Quando usado com o significado de "comparar", o objeto do verbo deve estar no pl
       <column name="notes_fi">Kun kohde on yksikkö, se tarkoittaa "sijoitus" merkityksessä "arvosana" .[2]
 
 Verbi-merkinnän kanssa käytettynä verbiobjektin on oltava monikko. Tarkoituksena on, että asiat luokitellaan toisiinsa nähden.[1][3] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">The example sentence was suggested to Okrand in Klingon, who provided the English translation.</column>
+      <column name="hidden_notes">This was defined as "rank, assign status, sort" in [1], and also as "compare" in the same message. The "compare" usage was further explained in subsequent messages.
+
+The example sentence was suggested to Okrand in Klingon, who provided the English translation.</column>
       <column name="components">{patlh:v}, {-moH:v}</column>
       <column name="examples">
 ▶ {wo'rIv patlhmoH HoD.:sen:nolink} "The captain ranked Worf." (This means the captain made a judgment about Worf relative to someone else or a group.)</column>
@@ -6024,7 +6026,7 @@ The homophony with {pIH:v:1} might indicate that they are the same word, and tha
           <column name="_id"></column>
           <column name="entry_name">pIn tlhoy'</column>
           <column name="part_of_speech">n:deriv</column>
-          <column name="definition">territorial wall (e.g. Berlin Wall)</column>
+          <column name="definition">territorial wall (e.g., Berlin Wall)</column>
           <column name="definition_de">Begrenzungsmauer (z.B. Berliner Mauer)</column>
           <column name="definition_fa">دیوار حائل (به عنوان مثال دیوار برلین) [AUTOTRANSLATED]</column>
           <column name="definition_sv">territorialmur (t.ex. Berlinmuren)</column>
@@ -7311,7 +7313,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/4gCJJiBXa
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is missing from the E-K side of {TKD:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7566,7 +7568,7 @@ Sitä voidaan käyttää myös typografiassa "lihavoidun" fontin kuvaamiseen. Ka
       <column name="_id"></column>
       <column name="entry_name">po Ha'DIbaH</column>
       <column name="part_of_speech">n:anim,deriv</column>
-      <column name="definition">animal that makes noise at dawn</column>
+      <column name="definition">animal that makes noise at dawn (literary name {'uSgheb:n} or {jajlo' Qa':n})</column>
       <column name="definition_de">Tier, welches Morgens laut ist</column>
       <column name="definition_fa">حیوان که سر و صدا در صبح می کشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">djur som gör brus vid gryningen [AUTOTRANSLATED]</column>
@@ -8957,7 +8959,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
       <column name="definition_fi">ruumiintoimintojen tieteellinen tutkimus, biologia, anatomia</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Qur:n}, {porgh:n}, {porghtej:n}</column>
+      <column name="see_also">{Qur:n:2}, {porgh:n}, {porghtej:n}, {Qur:n:2}</column>
       <column name="notes">Klingons don't talk all that much about bodily functions as a group, but they certainly do talk about specific bodily functions (see {porgh mIw:n}).</column>
       <column name="notes_de">Klingonen sprechen nicht so viel über Körperfunktionen als Gruppe, aber sie sprechen sicherlich über bestimmte Körperfunktionen (siehe {porgh mIw:n}). [AUTOTRANSLATED]</column>
       <column name="notes_fa">کلینگونها در مورد عملکردهای بدن به عنوان یک گروه زیاد صحبت نمی کنند ، اما مطمئناً در مورد عملکردهای بدن خاص صحبت می کنند (نگاه کنید به {porgh mIw:n}). [AUTOTRANSLATED]</column>
@@ -9033,7 +9035,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
       <column name="_id"></column>
       <column name="entry_name">poS</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be open, opened</column>
+      <column name="definition">be open, be opened</column>
       <column name="definition_de">offen, geöffnet sein</column>
       <column name="definition_fa">باز شود، باز شود [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara öppen, vara öppnad</column>
@@ -9551,7 +9553,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
       <column name="_id"></column>
       <column name="entry_name">po'</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be expert, skilled</column>
+      <column name="definition">be expert, be skilled</column>
       <column name="definition_de">erfahren, gewandt, geschickt sein</column>
       <column name="definition_fa">متخصص، ماهر باشید [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara expert, vara kunnig, vara duktig, vara skicklig</column>
@@ -10875,7 +10877,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
       <column name="_id"></column>
       <column name="entry_name">pup</column>
       <column name="part_of_speech">v:1,is</column>
-      <column name="definition">be perfect, exact</column>
+      <column name="definition">be perfect, be exact</column>
       <column name="definition_de">perfekt, exakt sein</column>
       <column name="definition_fa">کامل، دقیق [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara perfekt, vara exakt</column>
@@ -12306,7 +12308,7 @@ The 2009 {Star Trek:src} movie has a deleted scene with the line: {buqmeylIjDaq 
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components"></column>
+      <column name="components">{pu'veng:n}, {-mey:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>

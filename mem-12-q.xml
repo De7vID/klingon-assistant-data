@@ -2217,7 +2217,7 @@ Tätä sanaa käytetään ihmisiin ja eläimiin[2] [AUTOTRANSLATED]</column>
       <column name="_id"></column>
       <column name="entry_name">qaq naH</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">watermelon</column>
+      <column name="definition">watermelon (Klingon equivalent)</column>
       <column name="definition_de">Wassermelone</column>
       <column name="definition_fa">هندوانه [AUTOTRANSLATED]</column>
       <column name="definition_sv">vattenmelon [AUTOTRANSLATED]</column>
@@ -2522,7 +2522,7 @@ For "oh, yeah?" as an expression of disbelief or defiance, see {bItaHrup'a'?:sen
       <column name="_id"></column>
       <column name="entry_name">qargh</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be bulky, thick</column>
+      <column name="definition">be bulky, be thick</column>
       <column name="definition_de">wuchtig sein, dick sein</column>
       <column name="definition_fa">ضخیم</column>
       <column name="definition_sv">vara tjock, tjock [AUTOTRANSLATED]</column>
@@ -3433,7 +3433,7 @@ The first part of this word is {qaw:n}, but the second part has nothing to do wi
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
           <column name="hidden_notes">This is defined as "memory banks" in {TKD:src} and as "data banks (singular)" in {TKDA:src}.</column>
-          <column name="components">{qaw:n}, {Haq:n:hyp,nolink}</column>
+          <column name="components">{qaw:n}, {Haq:n:2,hyp,nolink}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -4835,7 +4835,7 @@ Sana itsessään tarkoittaa "kaiken alkuperää" tai "kaiken alkua" tai vastaava
       <column name="_id"></column>
       <column name="entry_name">qej</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be grouchy, mean</column>
+      <column name="definition">be grouchy, be mean</column>
       <column name="definition_de">bösartig, gemein, sauer</column>
       <column name="definition_fa">پر زرق و برق، متوسط [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara vresig, vara grinig, vara elak, vara tarvlig</column>
@@ -4986,7 +4986,7 @@ Tämä verbi viittaa vain liikkeeseen, ei siihen, mitä tällainen liike voi tai
       <column name="_id"></column>
       <column name="entry_name">qelHay'ya</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">Kal'Hyah</column>
+      <column name="definition">Kal'Hyah (ritual undertaken by groom before marriage)</column>
       <column name="definition_de">Kal'Hyah</column>
       <column name="definition_fa">کالههه [AUTOTRANSLATED]</column>
       <column name="definition_sv">Kal'Hyah [AUTOTRANSLATED]</column>
@@ -5204,7 +5204,7 @@ The information about the length comes from {The Star Trek Encyclopedia, 4th ed.
       <column name="_id"></column>
       <column name="entry_name">qempa'</column>
       <column name="part_of_speech">n:being,inhps</column>
-      <column name="definition">ancestor</column>
+      <column name="definition">ancestor, forebearer (cultural or societal)</column>
       <column name="definition_de">Vorfahre</column>
       <column name="definition_fa">اجداد [AUTOTRANSLATED]</column>
       <column name="definition_sv">förfader</column>
@@ -5223,7 +5223,9 @@ The information about the length comes from {The Star Trek Encyclopedia, 4th ed.
       <column name="notes_zh_HK">這是指文化或社會的祖先或先輩（不一定與血緣關係）。有關直接祖先的信息，請參閱{'emrIgh:n}。</column>
       <column name="notes_pt">Refere-se a um ancestral ou antepassado cultural ou social (que não está necessariamente relacionado ao sangue). Para um ancestral direto, consulte {'emrIgh:n}.</column>
       <column name="notes_fi">Tämä viittaa kulttuuriseen tai yhteiskunnalliseen esi-isään tai esivanhempaan (joka ei välttämättä ole verisukulainen). Katso suoraa esi-isää kohdasta {'emrIgh:n}.</column>
-      <column name="hidden_notes">"Forebear" (see {qem:v} and {-pa':v}).</column>
+      <column name="hidden_notes">This was defined as just "ancestor" in {TKD:src}. The definition was later clarified.
+
+"Forebear" (see {qem:v} and {-pa':v}).</column>
       <column name="components">{no':n:inhpl}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -5529,7 +5531,7 @@ Samankaltaisuus "Kapteeni Kangin" ({qeng HoD:n@@qeng:n, HoD:n}) kanssa on sattum
       <!-- Don't annotate as "deriv" because the bad grammar breaks the parser. -->
       <column name="_id"></column>
       <column name="entry_name">qepHom'a'</column>
-      <column name="part_of_speech">n:terran</column>
+      <column name="part_of_speech">n:nodict,terran</column>
       <column name="definition">annual meeting of Klingon speakers in Germany</column>
       <column name="definition_de">jährlicher Klingonischkurs Saarbrücken</column>
       <column name="definition_fa">نشست سالانه سخنرانان کلینگان در آلمان [AUTOTRANSLATED]</column>
@@ -5578,7 +5580,7 @@ Klingonin kieli-instituutin virallinen vuosikonferenssi tunnetaan nimellä {qep'
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qep'a'</column>
-      <column name="part_of_speech">n:deriv</column>
+      <column name="part_of_speech">n:deriv,nodict,terran</column>
       <column name="definition">KLI annual conference</column>
       <column name="definition_de">Jahreshauptversammlung des KLI</column>
       <column name="definition_fa">کنفرانس سالانه KLI [AUTOTRANSLATED]</column>
@@ -6300,7 +6302,7 @@ Kuuluisa kirjailija {Qa'taq:n:name} kirjoitti kommentin tähän teokseen. [AUTOT
       <column name="_id"></column>
       <column name="entry_name">qetlh</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be dull, uninteresting</column>
+      <column name="definition">be dull, be uninteresting</column>
       <column name="definition_de">stumpf, fade, uninteressant sein</column>
       <column name="definition_fa">خسته کننده و بی علاقه باشید [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara tråkig, vara ointressant</column>
@@ -6601,7 +6603,7 @@ Kuuluisa kirjailija {Qa'taq:n:name} kirjoitti kommentin tähän teokseen. [AUTOT
       <column name="_id"></column>
       <column name="entry_name">qey</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be in vain, futile</column>
+      <column name="definition">be in vain, be futile</column>
       <column name="definition_de">vergeblich sein</column>
       <column name="definition_fa">بیهوده، بیهوده [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara förgäves, meningslös [AUTOTRANSLATED]</column>
@@ -8749,7 +8751,7 @@ Maltz näytti haluttomalta puhua mitä tämä oikein on[3][2] [AUTOTRANSLATED]</
       <column name="_id"></column>
       <column name="entry_name">qoch'uq</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">rubber</column>
+      <column name="definition">rubber (material)</column>
       <column name="definition_de">Gummi (Material)</column>
       <column name="definition_fa">لاستیک [AUTOTRANSLATED]</column>
       <column name="definition_sv">sudd [AUTOTRANSLATED]</column>
@@ -9385,7 +9387,7 @@ The unusual suffix placement ({tuQmoHHa':v:nolink} rather than {tuQHa'moH:v}) oc
       <column name="_id"></column>
       <column name="entry_name">qolqoS</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">core, essence</column>
+      <column name="definition">core, essence (e.g., main members of a group of people)</column>
       <column name="definition_de">Essenz, Kern </column>
       <column name="definition_fa">هسته، ذات [AUTOTRANSLATED]</column>
       <column name="definition_sv">kärna, essens, väsentlig del av något</column>
@@ -10279,7 +10281,7 @@ Sitä voidaan käyttää myös laitteeseen, jota jotkut ihmiset käyttävät vau
       <column name="_id"></column>
       <column name="entry_name">qoSqa'rIy</column>
       <column name="part_of_speech">n:inhpl,anim</column>
-      <column name="definition">Kos'Karii</column>
+      <column name="definition">Kos'Karii (a group of mythological creatures)</column>
       <column name="definition_de">Kos'Karii</column>
       <column name="definition_fa">Kos'Karii [AUTOTRANSLATED]</column>
       <column name="definition_sv">Kos'Karii [AUTOTRANSLATED]</column>
@@ -10499,7 +10501,7 @@ Sitä voidaan käyttää myös laitteeseen, jota jotkut ihmiset käyttävät vau
       <column name="_id"></column>
       <column name="entry_name">qovDa'</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">exponent</column>
+      <column name="definition">exponent (math)</column>
       <column name="definition_de">Exponent</column>
       <column name="definition_fa">نماینده [AUTOTRANSLATED]</column>
       <column name="definition_sv">exponent [AUTOTRANSLATED]</column>
@@ -11484,9 +11486,9 @@ Voit ilmaista ajatuksen jostakin alueen pään välisestä pisteestä (ehkä tun
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tlhIch:n}, {meQ:v:1}, {qerjIq:n}, {tIpqan:n}</column>
-      <column name="notes">A common way to express lighting or starting a fire is with {chenmoH:v}. Another way to express igniting and extinguishing a fire is with {vemmoH:v} "wake up, cause to wake up" and {QongmoH:v} "put to sleep, cause to sleep". In the Klingon way of thinking, fire is sort of there all the time, but it's normally sleeping or dormant. Spontaneous combustion would also be described by making use of {vem:v}.[2]
+      <column name="notes">A common way to express lighting or starting a fire is with {chenmoH:v}. Another way to express igniting and extinguishing a fire is with {vemmoH:v:0} "wake up, cause to wake up" and {QongmoH:v:0} "put to sleep, cause to sleep". In the Klingon way of thinking, fire is sort of there all the time, but it's normally sleeping or dormant. Spontaneous combustion would also be described by making use of {vem:v}.[2]
 
-There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire fighter, fire warrior", {qul qaDwI':n} "fire challenger", and (though less frequent) {qul tlhay'moHwI':n} "fire tamer". It's also possible to say {qul QongmoHwI':n@@qul:n, QongmoH:v, -wI':v} "one who puts fires to sleep", but that's usually not applied until the fire is actually out.[2]</column>
+There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire fighter, fire warrior", {qul qaDwI':n} "fire challenger", and (though less frequent) {qul tlhay'moHwI':n} "fire tamer". It's also possible to say {qul QongmoHwI':n} "one who puts fires to sleep", but that's usually not applied until the fire is actually out.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -11739,7 +11741,7 @@ There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire 
           <column name="_id"></column>
           <column name="entry_name">qul naj</column>
           <column name="part_of_speech">n:deriv,fic</column>
-          <column name="definition">The Dream of the Fire</column>
+          <column name="definition">The Dream of the Fire (famous novel)</column>
           <column name="definition_de">Der Traum des Feuers</column>
           <column name="definition_fa">رویای آتش [AUTOTRANSLATED]</column>
           <column name="definition_sv">Eldens dröm [AUTOTRANSLATED]</column>
@@ -11874,7 +11876,7 @@ There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire 
           <column name="_id"></column>
           <column name="entry_name">qul qaDwI'</column>
           <column name="part_of_speech">n:being,deriv</column>
-          <column name="definition">fire challenger</column>
+          <column name="definition">fire challenger (someone who puts out fires)</column>
           <column name="definition_de">Feuer-Herausforderer</column>
           <column name="definition_fa">چالشگر آتش [AUTOTRANSLATED]</column>
           <column name="definition_sv">eldutmanare [AUTOTRANSLATED]</column>
@@ -11915,9 +11917,52 @@ There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire 
         </table>
         <table name="mem">
           <column name="_id"></column>
+          <column name="entry_name">qul QongmoHwI'</column>
+          <column name="part_of_speech">n:being,deriv</column>
+          <column name="definition">someone who puts out fires (usually not applied until the fire is out)</column>
+          <column name="definition_de">jemand, der Feuer löscht (wird normalerweise nicht angewendet, bis das Feuer gelöscht ist) [AUTOTRANSLATED]</column>
+          <column name="definition_fa">کسی که آتش را خاموش می کند (معمولاً تا زمانی که آتش خاموش نشود اعمال نمی شود) [AUTOTRANSLATED]</column>
+          <column name="definition_sv">någon som släcker bränder (vanligtvis inte förrän elden är släckt) [AUTOTRANSLATED]</column>
+          <column name="definition_ru">тот, кто тушит пожары (обычно не применяется, пока огонь не потухнет) [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">滅火的人（通常在火熄滅之前不使用） [AUTOTRANSLATED]</column>
+          <column name="definition_pt">alguém que apaga incêndios (geralmente não aplicado até que o fogo esteja extinto) [AUTOTRANSLATED]</column>
+          <column name="definition_fi">joku, joka sammuttaa tulipaloja (yleensä ei käytetä ennen kuin tuli sammuu) [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">This literally means "one who puts fires to sleep". It's applied to a person, but usually not until the fire it out.[1]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{qul:n}, {QongmoH:v:0}, {-wI':v}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2020:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
           <column name="entry_name">qul SuvwI'</column>
           <column name="part_of_speech">n:being,deriv</column>
-          <column name="definition">fire warrior, fire fighter</column>
+          <column name="definition">fire warrior, fire fighter (someone who puts out fires)</column>
           <column name="definition_de">Feuer-Krieger</column>
           <column name="definition_fa">جنگجوی آتش نشانی ، آتش نشان [AUTOTRANSLATED]</column>
           <column name="definition_sv">brand krigare, brandman [AUTOTRANSLATED]</column>
@@ -11960,7 +12005,7 @@ There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire 
           <column name="_id"></column>
           <column name="entry_name">qul tuq</column>
           <column name="part_of_speech">n:name,deriv,fic</column>
-          <column name="definition">House of Fire, name of an opera</column>
+          <column name="definition">House of Fire (name of an opera)</column>
           <column name="definition_de">Haus des Feuers, Name einer Oper</column>
           <column name="definition_fa">خانه آتش، نام اپرا [AUTOTRANSLATED]</column>
           <column name="definition_sv">Eldssläktet (en opera)</column>
@@ -12003,7 +12048,7 @@ There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire 
           <column name="_id"></column>
           <column name="entry_name">qul tlhay'moHwI'</column>
           <column name="part_of_speech">n:being,deriv</column>
-          <column name="definition">fire tamer</column>
+          <column name="definition">fire tamer (a less common term for someone who puts out fires)</column>
           <column name="definition_de">Feuer-Zähmer</column>
           <column name="definition_fa">رام کننده آتش [AUTOTRANSLATED]</column>
           <column name="definition_sv">eldtamer [AUTOTRANSLATED]</column>
@@ -12851,7 +12896,7 @@ Tätä sanaa ei voida käyttää maassa olevaan reikään (josta katso {QemjIq:n
       <column name="notes_pt">Este é alegadamente o termo morskan para um arquiteto. O termo {ta' Hol:n} é {renwI':n}. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämän väitetään olevan Morskan-termi arkkitehdille. {ta' Hol:n}-termi on {renwI':n}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes">This word was suggested by {Quvar:n:name} to MO as a new word for the {Saarbrücken qepHom'a' 2011:src}. It's based on the name of the Swiss-born French architect Le Corbusier.</column>
-      <column name="components">{qurbuS:v:hyp,nolink} (possibly from {Qur:n} and {buS:v}), {-wI':v}</column>
+      <column name="components">{qurbuS:v:hyp,nolink} (possibly from {Qur:n:1} and {buS:v}), {-wI':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -13220,7 +13265,7 @@ Tätä sanaa ei voida käyttää maassa olevaan reikään (josta katso {QemjIq:n
       <column name="_id"></column>
       <column name="entry_name">quSDI'</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">batch</column>
+      <column name="definition">batch (quantity of anything produced at one iteration of an operation)</column>
       <column name="definition_de">Charge, Ladung</column>
       <column name="definition_fa">دسته ای [AUTOTRANSLATED]</column>
       <column name="definition_sv">omgång [AUTOTRANSLATED]</column>
@@ -13890,7 +13935,7 @@ Huomaa, että {ghaj:v}: ta ja {Hutlh:v}: ää voidaan käyttää tämän substan
           <column name="_id"></column>
           <column name="entry_name">quv bey'</column>
           <column name="part_of_speech">n:deriv,fic,weap</column>
-          <column name="definition">honor display</column>
+          <column name="definition">Honor Display (type of ceremonial weapons display)</column>
           <column name="definition_de">Ehrenanzeige</column>
           <column name="definition_fa">نماز افتخار [AUTOTRANSLATED]</column>
           <column name="definition_sv">hedersställ</column>
@@ -13976,7 +14021,7 @@ Huomaa, että {ghaj:v}: ta ja {Hutlh:v}: ää voidaan käyttää tämän substan
       <column name="_id"></column>
       <column name="entry_name">quvamaq</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">Kuvah'magh</column>
+      <column name="definition">Kuvah'magh (religious figure)</column>
       <column name="definition_de">Kuvah'magh</column>
       <column name="definition_fa">کواوهماغ [AUTOTRANSLATED]</column>
       <column name="definition_sv">Kuvah'magh [AUTOTRANSLATED]</column>

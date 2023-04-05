@@ -222,7 +222,7 @@
       <column name="_id"></column>
       <column name="entry_name">Sach</column>
       <column name="part_of_speech">v:2,is</column>
-      <column name="definition">be amplified, fleshed out, elaborated, increased in scope, etc.</column>
+      <column name="definition">be amplified, be fleshed out, be elaborated, be increased in scope, etc.</column>
       <column name="definition_de">verstärkt, verfeinert, ausgearbeitet sein</column>
       <column name="definition_fa">تقویت شود، پیچیده شود، مشخص شود، در دامنه افزایش یابد، و غیره [AUTOTRANSLATED]</column>
       <column name="definition_sv">förstärkas, flaskas ut, utarbetas, ökas i omfattning etc. [AUTOTRANSLATED]</column>
@@ -1621,7 +1621,7 @@ This was defined as "land" in {TKD:src}. The clarification was added based on {H
       <column name="_id"></column>
       <column name="entry_name">SaqSub</column>
       <column name="part_of_speech">n:place,fic</column>
-      <column name="definition">Saq'sub</column>
+      <column name="definition">Saq'sub (home region of Kahless)</column>
       <column name="definition_de">Saq'sub</column>
       <column name="definition_fa">Saq'sub [AUTOTRANSLATED]</column>
       <column name="definition_sv">Saq'sub [AUTOTRANSLATED]</column>
@@ -1707,7 +1707,7 @@ This was defined as "land" in {TKD:src}. The clarification was added based on {H
       <column name="_id"></column>
       <column name="entry_name">Sar</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be varied, various</column>
+      <column name="definition">be varied, be various</column>
       <column name="definition_de">vielfältig sein</column>
       <column name="definition_fa">متفاوت باشند، متفاوت باشند [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara omväxlande, vara varierande, vara skiftande</column>
@@ -1800,7 +1800,7 @@ This was defined as "land" in {TKD:src}. The clarification was added based on {H
       <column name="_id"></column>
       <column name="entry_name">Sargh</column>
       <column name="part_of_speech">n:anim</column>
-      <column name="definition">sark</column>
+      <column name="definition">sark, type of animal (horse-like Klingon animal)</column>
       <column name="definition_de">Schark</column>
       <column name="definition_fa">سرخ [AUTOTRANSLATED]</column>
       <column name="definition_sv">ett slags djur, sark</column>
@@ -1888,7 +1888,7 @@ This was defined as "land" in {TKD:src}. The clarification was added based on {H
       <column name="_id"></column>
       <column name="entry_name">SaS</column>
       <column name="part_of_speech">v:2,is,slang</column>
-      <column name="definition">be shallow, be superficial, be uncritical; be unfortunate, be not good</column>
+      <column name="definition">be shallow, be superficial, be uncritical, be unfortunate, be not good</column>
       <column name="definition_de">oberflächlich, unkritisch, unglücklich sein</column>
       <column name="definition_fa">کم عمق، سطحی باشد، غیر کلاسیک باشد مایه تاسف است، خوب نیست [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara ytlig, vara okritisk, vara oturlig, vara icke-bra</column>
@@ -1907,7 +1907,7 @@ This was defined as "land" in {TKD:src}. The clarification was added based on {H
       <column name="notes_zh_HK">這個詞是用來貶低他或她的智力的。與{Do'Ha'.:sen}[1, p.164]類似，它本身也被用作不贊成的表達 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esta palavra é aplicada a uma pessoa para depreciar seu intelecto. Também é usado por si só como uma expressão de desaprovação, semelhante a {Do'Ha'.:sen}[1, p.164] [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tätä sanaa käytetään henkilöön halveksimaan älyä. Sitä käytetään myös itsessään hylkäämisen ilmaisuna, samanlainen kuin {Do'Ha'.:sen}[1, p.164] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is given two separate sets of definitions "be shallow, be superficial, be uncritical" and "be unfortunate, be not good", which have been combined.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3134,8 +3134,8 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">SenwI' rIlwI' je</column>
-          <column name="part_of_speech">n:deriv</column>
-          <column name="definition">everybody (idiomatic phrase)</column>
+          <column name="part_of_speech">n:idiom,deriv</column>
+          <column name="definition">everybody</column>
           <column name="definition_de">Jedermann (idiomatischer Ausdruck)</column>
           <column name="definition_fa">همه (عبارت اصطلاحات) [AUTOTRANSLATED]</column>
           <column name="definition_sv">alla (idiomatisk fras) [AUTOTRANSLATED]</column>
@@ -5340,7 +5340,7 @@ Jotkut vertailulämpötilat {SImyon:sen:nolink}-asteikolle (vasen) vs. Celsius (
       <column name="_id"></column>
       <column name="entry_name">SIntlher</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">ancient (extinct) animal, dinosaur</column>
+      <column name="definition">ancient (extinct) animal, dinosaur, type of animal</column>
       <column name="definition_de">altes (ausgestorbenes) Tier, Dinosaurier</column>
       <column name="definition_fa">حیوان باستانی (منقرض شده) ، دایناسور [AUTOTRANSLATED]</column>
       <column name="definition_sv">forntida (utdöd) djur, dinosaurie [AUTOTRANSLATED]</column>
@@ -7884,7 +7884,7 @@ The {SkyBox 21:src} example appears to be missing a conjunction.</column>
       <column name="_id"></column>
       <column name="entry_name">SoQ</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be closed, shut</column>
+      <column name="definition">be closed, be shut</column>
       <column name="definition_de">geschlossen</column>
       <column name="definition_fa">بسته شود، بسته شود [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara stängd</column>
@@ -9336,7 +9336,7 @@ The example {nuqDaq So'taH yaS?:sen:nolink} on {TKD p.69:src} is in error. As wr
       <column name="_id"></column>
       <column name="entry_name">So'chIm</column>
       <column name="part_of_speech">n:being</column>
-      <column name="definition">soh-chim</column>
+      <column name="definition">"soh-chim", surrogate parent, godparent</column>
       <column name="definition_de">Soh-Chim</column>
       <column name="definition_fa">سوهیم [AUTOTRANSLATED]</column>
       <column name="definition_sv">soh-chim [AUTOTRANSLATED]</column>
@@ -9727,7 +9727,7 @@ This term is gender-neutral and "godparent" is a good approximation. If a gender
       <column name="_id"></column>
       <column name="entry_name">SuD</column>
       <column name="part_of_speech">v:1,is,klcp1</column>
-      <column name="definition">be green, blue, yellow</column>
+      <column name="definition">be green, be blue, be yellow</column>
       <column name="definition_de">grün, blau, gelb sein</column>
       <column name="definition_fa">سبز، آبی، زرد باشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara grön, vara blå, vara gul</column>
@@ -10450,7 +10450,7 @@ In a message to the {KLI mailing list 2021.02.28:src}, Maltz even said the Kling
       <column name="_id"></column>
       <column name="entry_name">Suqqa'</column>
       <column name="part_of_speech">v:t_c,deriv</column>
-      <column name="definition">prepare kud in a specific way</column>
+      <column name="definition">prepare {quD:n} in a specific way</column>
       <column name="definition_de">Kud auf besondere Weise herstellen</column>
       <column name="definition_fa">kud را به روش خاصی آماده کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">bereda qud på ett särskilt sätt</column>
@@ -10493,7 +10493,7 @@ In a message to the {KLI mailing list 2021.02.28:src}, Maltz even said the Kling
       <column name="_id"></column>
       <column name="entry_name">SuqSIv</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">core</column>
+      <column name="definition">core (e.g., of apple, planet, or star)</column>
       <column name="definition_de">Kern</column>
       <column name="definition_fa">هسته [AUTOTRANSLATED]</column>
       <column name="definition_sv">kärna [AUTOTRANSLATED]</column>
@@ -11976,7 +11976,7 @@ Seuraavissa esimerkeissä voidaan käyttää tiettyä sormen tai varpaan nimeä 
       <column name="_id"></column>
       <column name="entry_name">Su'roq</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">floor, level, storey</column>
+      <column name="definition">floor, level, story</column>
       <column name="definition_de">Boden, Ebene, Geschoss</column>
       <column name="definition_fa">طبقه، سطح، طبقه [AUTOTRANSLATED]</column>
       <column name="definition_sv">våning, plan, våning [AUTOTRANSLATED]</column>
@@ -11987,7 +11987,7 @@ Seuraavissa esimerkeissä voidaan käyttää tiettyä sormen tai varpaan nimeä 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This refers to a floor or level in a building, or the level of a platform, and so on. The ground floor is {Su'roq wa'DIch:n@@Su'roq:n, wa'DIch:n:num}, followed by {Su'roq cha'DIch:n@@Su'roq:n, cha'DIch:n:1,num}, and so on. The basement is {qach DIS:n}.[1]</column>
+      <column name="notes">This refers to a floor or level in a building, or the level of a platform, and so on. The ground floor is {Su'roq wa'DIch:n}, followed by {Su'roq cha'DIch:n@@Su'roq:n, cha'DIch:n:1,num}, and so on. The basement is {qach DIS:n}.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -11997,7 +11997,7 @@ Seuraavissa esimerkeissä voidaan käyttää tiettyä sormen tai varpaan nimeä 
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">{Su'roq wa'DIch:n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -12005,7 +12005,7 @@ Seuraavissa esimerkeissä voidaan käyttää tiettyä sormen tai varpaan nimeä 
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">storey</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -12015,6 +12015,49 @@ Seuraavissa esimerkeissä voidaan käyttää tiettyä sormen tai varpaan nimeä 
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2022:src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">Su'roq wa'DIch</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">ground floor</column>
+          <column name="definition_de">Erdgeschoss</column>
+          <column name="definition_fa">طبقه همکف [AUTOTRANSLATED]</column>
+          <column name="definition_sv">bottenvåning [AUTOTRANSLATED]</column>
+          <column name="definition_ru">первый этаж [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">地面層</column>
+          <column name="definition_pt">térreo [AUTOTRANSLATED]</column>
+          <column name="definition_fi">maantaso [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{Su'roq:n}, {wa'DIch:n:num}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2022:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Su'wan ghew</column>
