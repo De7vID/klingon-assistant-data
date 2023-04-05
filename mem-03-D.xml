@@ -425,7 +425,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
       <column name="_id"></column>
       <column name="entry_name">Daghtuj</column>
       <column name="part_of_speech">n:food</column>
-      <column name="definition">mixture of animal parts</column>
+      <column name="definition">mixture of animal parts, animal parts mixed together</column>
       <column name="definition_de">Gemisch von Tierteilen</column>
       <column name="definition_fa">مخلوط قطعات حیوانی [AUTOTRANSLATED]</column>
       <column name="definition_sv">blandning av djurdelar, ihopblandade djurdelar</column>
@@ -444,7 +444,9 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">Since {tuj:v} means "hot", this is a "hotdog".</column>
+      <column name="hidden_notes">This is defined as "mixture of animal parts" in both sides, and additionally as "animal parts mixed together" in the E-K side.
+
+Since {tuj:v} means "hot", this is a "hotdog".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -11454,7 +11456,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="_id"></column>
       <column name="entry_name">Duq</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be stunned</column>
+      <column name="definition">be stunned (like {yay':v:nolink} but stronger)</column>
       <column name="definition_de">schockiert sein, erstaunt sein</column>
       <column name="definition_fa">خشمگین شو [AUTOTRANSLATED]</column>
       <column name="definition_sv">bli bedövas [AUTOTRANSLATED]</column>
