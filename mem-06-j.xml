@@ -950,7 +950,7 @@ Katso "päivät sitten" ja "päivät nyt" kohdat {Hu':n} ja {leS:n}. [AUTOTRANSL
       <column name="_id"></column>
       <column name="entry_name">jajlo' Qa'</column>
       <column name="part_of_speech">n:anim,deriv</column>
-      <column name="definition">a noisy animal (not a bird) known for making a ruckus at dawn, like a Terran rooster.</column>
+      <column name="definition">a noisy animal (not a bird) known for making a ruckus at dawn (like a Terran rooster), type of animal</column>
       <column name="definition_de">ein lautes Tier (kein Vogel) bekannt für sein Krähen wie ein Hahn in der Morgendämmerung</column>
       <column name="definition_fa">یک حیوان پر سر و صدا (نه یک پرنده) شناخته شده برای ساختن پرتقال در سحر است، مانند یک خروس Terran. [AUTOTRANSLATED]</column>
       <column name="definition_sv">ett slags djur (för oljud i gryningen)</column>
@@ -1315,14 +1315,14 @@ Klingonissa otsikot ovat yleensä nimen perässä, joten "kapteeni Jean-Luc Pica
       <column name="_id"></column>
       <column name="entry_name">jantor</column>
       <column name="part_of_speech">n:being</column>
-      <column name="definition">witness</column>
+      <column name="definition">witness (observer of an event)</column>
       <column name="definition_de">Zeuge</column>
       <column name="definition_fa">شاهد [AUTOTRANSLATED]</column>
       <column name="definition_sv">bevittna [AUTOTRANSLATED]</column>
       <column name="definition_ru">свидетель [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">見證人 [AUTOTRANSLATED]</column>
       <column name="definition_pt">testemunha</column>
-      <column name="definition_fi">todistaja</column>
+      <column name="definition_fi">silminnäkijä, todistaja</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{nguHwI':n}</column>
@@ -2601,16 +2601,16 @@ In the {msn:src} newsgroup message, it says only that the verb prefix indicating
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">jaw</column>
-      <column name="part_of_speech">n</column>
-      <column name="definition">lord, lady</column>
-      <column name="definition_de">Lord, Herr, Herrin</column>
-      <column name="definition_fa">لرد، خانم [AUTOTRANSLATED]</column>
-      <column name="definition_sv">herre</column>
-      <column name="definition_ru">господин, леди [AUTOTRANSLATED]</column>
-      <column name="definition_zh_HK">主、女士 [AUTOTRANSLATED]</column>
-      <column name="definition_pt">senhor, senhora</column>
-      <column name="definition_fi">herra, rouva</column>
-      <column name="synonyms">{joH:n}</column>
+      <column name="part_of_speech">n:alt</column>
+      <column name="definition">{joH:n}</column>
+      <column name="definition_de">{joH:n}</column>
+      <column name="definition_fa">{joH:n}</column>
+      <column name="definition_sv">{joH:n}</column>
+      <column name="definition_ru">{joH:n}</column>
+      <column name="definition_zh_HK">{joH:n}</column>
+      <column name="definition_pt">{joH:n}</column>
+      <column name="definition_fi">{joH:n}</column>
+      <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">It is unknown whether there is any difference between this word and {joH:n}.[2, p.41]</column>
@@ -3677,7 +3677,7 @@ Huomaa, että {jemS:n:nolink} ja {qIrq:n:nolink} eivät noudata oikeaa klingonif
       <column name="_id"></column>
       <column name="entry_name">jentu'</column>
       <column name="part_of_speech">n:anim</column>
-      <column name="definition">flightless aquatic bird</column>
+      <column name="definition">a flightless aquatic bird</column>
       <column name="definition_de">flugunfähiger Wasservogel</column>
       <column name="definition_fa">پرنده آبزی پرنده [AUTOTRANSLATED]</column>
       <column name="definition_sv">flyglös vattenlevande fågel [AUTOTRANSLATED]</column>
@@ -5418,7 +5418,7 @@ Tätä verbiä voidaan soveltaa myös lentokoneisiin, joista ks. {jIm:v:2}. [AUT
       <column name="definition_ru">желание [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">願望</column>
       <column name="definition_pt">desejar</column>
-      <column name="definition_fi">toivoa</column>
+      <column name="definition_fi">toivoa (jotakin epätodennäköistä tai mahdotonta)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chabal:n}</column>
@@ -5456,7 +5456,8 @@ Jos haluat ilmaista toiveesi tapahtumisesta, katso {-jaj:v}. [AUTOTRANSLATED]</c
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
+      <column name="examples_fi">
+▶ {tlhIngan jIH 'e' vIjIn.@@tlhIngan:n, jIH:n:1, 'e':n, vI-:v, jIn:v} "Haluaisin olla klingoni."</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -5521,7 +5522,7 @@ Jos haluat ilmaista toiveesi tapahtumisesta, katso {-jaj:v}. [AUTOTRANSLATED]</c
       <column name="definition_ru">Дж'наи (планета) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">吉奈（行星） [AUTOTRANSLATED]</column>
       <column name="definition_pt">J'naii (planeta)</column>
-      <column name="definition_fi">J'naii (planeetta)</column>
+      <column name="definition_fi">eräs planeetta, J'naii</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{jInay'ngan:n}</column>
@@ -5619,7 +5620,7 @@ Jos haluat ilmaista toiveesi tapahtumisesta, katso {-jaj:v}. [AUTOTRANSLATED]</c
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">Jimmy "Jimbo" Wales is a co-founder of Wikipedia, about which there have been many discussions of various biases.</column>
+      <column name="hidden_notes">{'ob:sen:nolink} + {nIj:v} "leak" = "oblique", which is a way to describe something which is "biased" (e.g., in geometry).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6420,7 +6421,7 @@ Jos haluat ilmaista toiveesi tapahtumisesta, katso {-jaj:v}. [AUTOTRANSLATED]</c
       <column name="_id"></column>
       <column name="entry_name">jIy</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be umami, savory, earthy</column>
+      <column name="definition">be umami, be savory, be earthy</column>
       <column name="definition_de">umami, herzhaft, erdig sein</column>
       <column name="definition_fa">امامی ، زرنگ ، خاکی باشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara umami, velsmakande, jordnära [AUTOTRANSLATED]</column>
@@ -6856,7 +6857,7 @@ Jos haluat ilmaista toiveesi tapahtumisesta, katso {-jaj:v}. [AUTOTRANSLATED]</c
       <column name="definition_fa">ربع [AUTOTRANSLATED]</column>
       <column name="definition_sv">kvadrant</column>
       <column name="definition_ru">квадрант</column>
-      <column name="definition_zh_HK">象限儀</column>
+      <column name="definition_zh_HK">象限角</column>
       <column name="definition_pt">quadrante</column>
       <column name="definition_fi">kvadrantti</column>
       <column name="synonyms"></column>
@@ -6902,7 +6903,7 @@ Jos haluat ilmaista toiveesi tapahtumisesta, katso {-jaj:v}. [AUTOTRANSLATED]</c
       <column name="definition_zh_HK">女士、主（房子頭銜） [AUTOTRANSLATED]</column>
       <column name="definition_pt">Senhora, Senhor (título do chefe da casa)</column>
       <column name="definition_fi">lady, lordi (huoneen/suvun johtajan titteli)</column>
-      <column name="synonyms">{jaw:n}</column>
+      <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qaH:n}, {tuq:n}, {chuQun:n}</column>
       <column name="notes">In Klingon, titles go after the name.</column>

@@ -1471,10 +1471,11 @@ Jos haluat kuvailla nautittavaa ruokaa tai musiikkia, katso {'ey:v} ja {DuQ:v:2}
       <column name="source">[1] {TKD:src}</column>
     </table>
     <table name="mem">
+      <!-- This word is its own singular form, so the components have to be left blank. Arguably it could have been {mang:n}, but that's already paired with {negh:n} -->
       <column name="_id"></column>
       <column name="entry_name">QaS</column>
       <column name="part_of_speech">n:being,inhpl,1h</column>
-      <column name="definition">troops</column>
+      <column name="definition">troops, troop member</column>
       <column name="definition_de">Truppen</column>
       <column name="definition_fa">نیروهای [AUTOTRANSLATED]</column>
       <column name="definition_sv">trupper</column>
@@ -1535,8 +1536,8 @@ Em {Klingon Monopoly:src}, {tlhIngan QaS:n:nolink} é a unidade monetária usada
 On mahdollista, että tätä sanaa voidaan käyttää viittaamaan yhteen joukkojen jäseneen.[2, p.51]
 
 Kohdassa {Klingon Monopoly:src} {tlhIngan QaS:n:nolink} on pelissä käytetty rahayksikkö. Tästä pelistä meillä on esimerkkejä {"GO" DajuSDI' cha'vatlh QaS yItlhap:sen:nolink} ja {wa'vatlh QaS yItlhap:sen:nolink}. Huomaa, että yksikön etuliitettä {yI-:v} käytetään, vaikka {QaS:n:1h,nolink} on luonnostaan ​​monikko-substantiivi, jonka jäseniä lasketaan.[3] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
-      <column name="components">{mang:n}</column>
+      <column name="hidden_notes">This was defined as "troops" in {TKD:src}. It is glossed as "troop member" in passing on {KGT p.51:src}.</column>
+      <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -1694,7 +1695,7 @@ Kohdassa {Klingon Monopoly:src} {tlhIngan QaS:n:nolink} on pelissä käytetty ra
       <column name="_id"></column>
       <column name="entry_name">Qav</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be final, last</column>
+      <column name="definition">be final, be last</column>
       <column name="definition_de">letzter sein</column>
       <column name="definition_fa">آخر، آخرین [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara sist, vara slutgiltig</column>
@@ -2133,7 +2134,7 @@ Kohdassa {Klingon Monopoly:src} {tlhIngan QaS:n:nolink} on pelissä käytetty ra
       <column name="_id"></column>
       <column name="entry_name">Qa'Hom</column>
       <column name="part_of_speech">n:anim</column>
-      <column name="definition">type of animal (similar to {Qa':n:1}, but smaller)</column>
+      <column name="definition">type of animal (cowardly animal similar to {Qa':n:1} but smaller, mistaken for a bird by some)</column>
       <column name="definition_de">Tiersorte (ähnlich {Qa':n:1}, aber kleiner)</column>
       <column name="definition_fa">نوع حیوان (مشابه {Qa':n:1}، اما کوچکتر) [AUTOTRANSLATED]</column>
       <column name="definition_sv">ett slags djur (snarlik en Qa', men mindre)</column>
@@ -2146,7 +2147,7 @@ Kohdassa {Klingon Monopoly:src} {tlhIngan QaS:n:nolink} on pelissä käytetty ra
       <column name="see_also"></column>
       <column name="notes">This literally means "little {Qa':n:1,nolink}", though a {Qa'Hom:n:nolink} is not a young {Qa':n:1,nolink}, which is a larger, more dangerous animal. However, it does bear a vague resemblance. This word is also used as an epithet to denote someone who is weak and scared easily, and whom there is no honour in killing.[2]
 
-This animal does not make a ruckus at dawn, unlike the {jajlo' Qa':n}. It is mistaken for a bird by some.[3] 
+This animal does not make a ruckus at dawn, unlike the {jajlo' Qa':n}. It is mistaken for a bird by some.[3]
 
 Watch Gowron say this: {YouTube video:url:http://youtu.be/SIpF7Zak6CY}</column>
       <column name="notes_de"></column>
@@ -2696,7 +2697,7 @@ Jokaiselle {QeD:n:nolink}:lle on vastaava {tej:n}.</column>
       <column name="_id"></column>
       <column name="entry_name">QeH</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be angry, mad</column>
+      <column name="definition">be angry, be mad</column>
       <column name="definition_de">wütend, verärgert sein</column>
       <column name="definition_fa">عصبانی بودن</column>
       <column name="definition_sv">vara vred, vara arg</column>
@@ -2958,7 +2959,7 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
       <column name="_id"></column>
       <column name="entry_name">Qen</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be naked, nude</column>
+      <column name="definition">be naked, be nude</column>
       <column name="definition_de">nackt, unbekleidet</column>
       <column name="definition_fa">برهنه باش، برهنه [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara naken, naken [AUTOTRANSLATED]</column>
@@ -4857,7 +4858,7 @@ Sitä käytetään viittaamaan (geometrisen) tähden pisteeseen ({DujtlhuQ:n}).[
       <column name="_id"></column>
       <column name="entry_name">QIncha'</column>
       <column name="part_of_speech">n:anim</column>
-      <column name="definition">Krincha, type of animal</column>
+      <column name="definition">krencha, type of animal (reptilian)</column>
       <column name="definition_de">Tiersorte: Krintscha</column>
       <column name="definition_fa">Krincha، نوع حیوان [AUTOTRANSLATED]</column>
       <column name="definition_sv">ett slags djur, krincha</column>
@@ -4868,7 +4869,7 @@ Sitä käytetään viittaamaan (geometrisen) tähden pisteeseen ({DujtlhuQ:n}).[
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{lung:n}</column>
-      <column name="notes">Also spelled "Krencha", this is a reptilian animal native to {Qo'noS:n}.</column>
+      <column name="notes">This is a reptilian animal native to {Qo'noS:n}.</column>
       <column name="notes_de">Auch "Krencha" geschrieben, ist dies ein Reptilien-Tier, das in {Qo'noS:n} beheimatet ist. [AUTOTRANSLATED]</column>
       <column name="notes_fa">همچنین "Krencha" هجی می شود ، این حیوان خزندگان است بومی {Qo'noS:n}. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Stavas också "Krencha", detta är ett reptilianskt djur som är infött i {Qo'noS:n}. [AUTOTRANSLATED]</column>
@@ -5115,63 +5116,6 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">QISmaS</column>
-      <column name="part_of_speech">n</column>
-      <column name="definition">Christmas</column>
-      <column name="definition_de">Weihnachten</column>
-      <column name="definition_fa">کریسمس [AUTOTRANSLATED]</column>
-      <column name="definition_sv">jul [AUTOTRANSLATED]</column>
-      <column name="definition_ru">Рождество</column>
-      <column name="definition_zh_HK">聖誕</column>
-      <column name="definition_pt">Natal</column>
-      <column name="definition_fi">joulu</column>
-      <column name="synonyms"></column>
-      <column name="antonyms"></column>
-      <column name="see_also">{DIS chu':n}</column>
-      <column name="notes">This is the name of a Terran holiday.
-
-There is no traditional Klingon way to say something like "Merry Christmas". An expression such as {wornagh yItlhutlh!} might be more appropriate.[1]</column>
-      <column name="notes_de">Dies ist der Name eines terranischen Feiertags.
-
-Es gibt keine traditionelle klingonische Art, etwas wie "Frohe Weihnachten" zu sagen. Ein Ausdruck wie {wornagh yItlhutlh!} ist möglicherweise besser geeignet. [1] [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این نام یک تعطیلات Terran است.
-
-روش سنتی کلینگون برای گفتن چیزی مانند "کریسمس مبارک" وجود ندارد. ممکن است عباراتی مانند {wornagh yItlhutlh!} مناسب تر باشد. [1] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är namnet på en Terran-semester.
-
-Det finns inget traditionellt Klingon-sätt att säga något som "god jul". Ett uttryck som {wornagh yItlhutlh!} kan vara mer lämpligt.[1] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это название земного праздника.
-
-Не существует традиционного способ сказать что-то типа "Счастливого рождества". Выражение типа {wornagh yItlhutlh!} может быть наиболее соответствующим для этого.[1]</column>
-      <column name="notes_zh_HK"></column>
-      <column name="notes_pt">Este é o nome de um feriado terráqueo.
-
-Não existe uma maneira tradicional Klingon de dizer algo como "Feliz Natal". Uma expressão como {wornagh yItlhutlh!} pode ser mais apropriada.[1] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on Terran-loman nimi.
-
-Ei ole perinteistä klingonilaista tapaa sanoa jotain "hyvää joulua". Lauseke, kuten {wornagh yItlhutlh!}, saattaa olla sopivampi.[1] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">Maltz thought "Merry Christmas" and "Happy New Year" were silly things to say.[1]</column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
-      <column name="search_tags"></column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru"></column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
-      <column name="source">[1] {KLI mailing list 2013.12.13:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
       <column name="entry_name">QIStaq</column>
       <column name="part_of_speech">n:place,fic</column>
       <column name="definition">Kri'stak</column>
@@ -5346,7 +5290,7 @@ Ei ole perinteistä klingonilaista tapaa sanoa jotain "hyvää joulua". Lauseke,
       <column name="_id"></column>
       <column name="entry_name">QI'lop</column>
       <column name="part_of_speech">n:deriv,fic</column>
-      <column name="definition">name of a holiday</column>
+      <column name="definition">holiday (name of a specific holiday)</column>
       <column name="definition_de">Name eines Feiertags</column>
       <column name="definition_fa">نام تعطیلات [AUTOTRANSLATED]</column>
       <column name="definition_sv">en traditionell högtid</column>
@@ -5568,7 +5512,7 @@ Ei ole perinteistä klingonilaista tapaa sanoa jotain "hyvää joulua". Lauseke,
       <column name="definition_ru">Криос Прайм</column>
       <column name="definition_zh_HK">Krios Prime [AUTOTRANSLATED]</column>
       <column name="definition_pt">Krios Prime</column>
-      <column name="definition_fi">Krios I</column>
+      <column name="definition_fi">eräs planeetta, Krios I</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -5969,7 +5913,7 @@ Sopimus ilmaistaan ​​myös idiomaattisella ilmaisulla {wa' DoS wIqIp.:sen:id
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This word refers to the organ. For the sense of "mind", see {yab:n}.</column>
+      <column name="notes">This word refers to the organ. It can be used in reference to food. For the sense of "mind", see {yab:n}.</column>
       <column name="notes_de">Dieses Wort bezieht sich auf die Orgel. Für den Sinn des "Geistes" siehe {yab:n}. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این کلمه به ارگان اشاره دارد. برای احساس "ذهن" ، به {yab:n} مراجعه کنید. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta ord hänvisar till orgelet. För känslan av "sinne", se {yab:n}. [AUTOTRANSLATED]</column>
@@ -6366,7 +6310,7 @@ Sopimus ilmaistaan ​​myös idiomaattisella ilmaisulla {wa' DoS wIqIp.:sen:id
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">QongmoH</column>
-          <column name="part_of_speech">v:t_c</column>
+          <column name="part_of_speech">v:1,t_c</column>
           <column name="definition">put to sleep, cause to sleep</column>
           <column name="definition_de">einschläfern</column>
           <column name="definition_fa">خوابیدن ، باعث خوابیدن [AUTOTRANSLATED]</column>
@@ -6376,9 +6320,52 @@ Sopimus ilmaistaan ​​myös idiomaattisella ilmaisulla {wa' DoS wIqIp.:sen:id
           <column name="definition_pt">colocar para dormir, fazer dormir</column>
           <column name="definition_fi">nukuttaa</column>
           <column name="synonyms"></column>
-          <column name="antonyms">{vemmoH:v}</column>
+          <column name="antonyms">{vemmoH:v:1}</column>
           <column name="see_also"></column>
-          <column name="notes">This is also used for extinguishing fires (see {qul:n}).[1]</column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components"></column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2020:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">QongmoH</column>
+          <column name="part_of_speech">v:2,t_c</column>
+          <column name="definition">extinguish (a fire)</column>
+          <column name="definition_de">löschen (ein Feuer)</column>
+          <column name="definition_fa">خاموش کردن (آتش سوزی) [AUTOTRANSLATED]</column>
+          <column name="definition_sv">släcka (en brand) [AUTOTRANSLATED]</column>
+          <column name="definition_ru">тушить (пожар) [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">熄滅（火） [AUTOTRANSLATED]</column>
+          <column name="definition_pt">extinguir (um incêndio) [AUTOTRANSLATED]</column>
+          <column name="definition_fi">sammuttaa (tuli)</column>
+          <column name="synonyms"></column>
+          <column name="antonyms">{vemmoH:v:2}</column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
@@ -6496,7 +6483,7 @@ Sopimus ilmaistaan ​​myös idiomaattisella ilmaisulla {wa' DoS wIqIp.:sen:id
           <column name="_id"></column>
           <column name="entry_name">QongDaq buq</column>
           <column name="part_of_speech">n:deriv</column>
-          <column name="definition">pillow, sleeping bag</column>
+          <column name="definition">pillow, sleeping bag, "bed pouch"</column>
           <column name="definition_de">Kissen, Schlafsack</column>
           <column name="definition_fa">بالش، کیسه خواب [AUTOTRANSLATED]</column>
           <column name="definition_sv">kudde, sängpåse</column>
@@ -6539,7 +6526,7 @@ Sopimus ilmaistaan ​​myös idiomaattisella ilmaisulla {wa' DoS wIqIp.:sen:id
           <column name="_id"></column>
           <column name="entry_name">QongDaq 'echlet tun</column>
           <column name="part_of_speech">n:deriv</column>
-          <column name="definition">mattress</column>
+          <column name="definition">mattress (non-Klingon concept)</column>
           <column name="definition_de">Matratze</column>
           <column name="definition_fa">تشک [AUTOTRANSLATED]</column>
           <column name="definition_sv">madrass [AUTOTRANSLATED]</column>
@@ -8782,7 +8769,7 @@ In the example, {polmeH QujwI' lIw:n:nolink} is not a fixed construction, even t
       <column name="_id"></column>
       <column name="entry_name">Qumran</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">scroll</column>
+      <column name="definition">scroll (important, sacred, ancient, ceremonial)</column>
       <column name="definition_de">Schriftrolle</column>
       <column name="definition_fa">طومار [AUTOTRANSLATED]</column>
       <column name="definition_sv">skrolla [AUTOTRANSLATED]</column>
@@ -8998,8 +8985,8 @@ In the example, {polmeH QujwI' lIw:n:nolink} is not a fixed construction, even t
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qur</column>
-      <column name="part_of_speech">n</column>
-      <column name="definition">structure, organization</column>
+      <column name="part_of_speech">n:1</column>
+      <column name="definition">structure, organization (the way things fit together; the arrangement of the parts of something bigger)</column>
       <column name="definition_de">Struktur, Organisation</column>
       <column name="definition_fa">ساختار، سازمان [AUTOTRANSLATED]</column>
       <column name="definition_sv">struktur, upplägg, anatomi</column>
@@ -9010,7 +8997,7 @@ In the example, {polmeH QujwI' lIw:n:nolink} is not a fixed construction, even t
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{porghQeD:n}</column>
-      <column name="notes">This does not mean a building ({qach:n}) or a collection of people or states ({DIvI':n}, {tlham:n:2}), but rather the way things fit together or the arrangement of the parts of something bigger. It can be used to mean "anatomy" when referring to animals.</column>
+      <column name="notes">This does not mean a building ({qach:n}) or a collection of people or states ({DIvI':n}, {tlham:n:2}), but rather the way things fit together or the arrangement of the parts of something bigger. It can be used to mean "anatomy" when referring to animals (see {Qur:n:2}).</column>
       <column name="notes_de">Dies bedeutet nicht ein Gebäude ({qach:n}) oder eine Ansammlung von Personen oder Staaten ({DIvI':n}, {tlham:n:2}), sondern die Art und Weise, wie Dinge zusammenpassen oder die Anordnung der Teile von etwas Größerem. Es kann verwendet werden, um "Anatomie" zu bedeuten, wenn auf Tiere Bezug genommen wird. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این به معنای ساختمان ({qach:n}) یا مجموعه ای از مردم یا ایالات ({DIvI':n} ، {tlham:n:2}) نیست ، بلکه به معنای چگونگی قرار گرفتن کارها در کنار یکدیگر و یا ترتیب قسمت های چیزهای بزرگتر است. در هنگام مراجعه به حیوانات می توان از آن به معنای "آناتومی" استفاده کرد. [AUTOTRANSLATED]</column>
       <column name="notes_sv"></column>
@@ -9028,7 +9015,50 @@ In the example, {polmeH QujwI' lIw:n:nolink} is not a fixed construction, even t
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags">organisation, anatomy</column>
+      <column name="search_tags">organisation</column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2011:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">Qur</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">anatomy (referring to animals)</column>
+      <column name="definition_de">Anatomie</column>
+      <column name="definition_fa">آناتومی [AUTOTRANSLATED]</column>
+      <column name="definition_sv">anatomi</column>
+      <column name="definition_ru">анатомию</column>
+      <column name="definition_zh_HK">解剖 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">anatomia</column>
+      <column name="definition_fi">anatomiaa</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{porghQeD:n}</column>
+      <column name="notes">This is just an application of {Qur:n:1} to animals.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -9171,7 +9201,7 @@ In the example, {polmeH QujwI' lIw:n:nolink} is not a fixed construction, even t
       <column name="_id"></column>
       <column name="entry_name">Qutlh</column>
       <column name="part_of_speech">v:t_c</column>
-      <column name="definition">support</column>
+      <column name="definition">support (physically)</column>
       <column name="definition_de">tragen, stützen</column>
       <column name="definition_fa">حمایت کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">stödja, stötta, bära</column>

@@ -370,7 +370,7 @@
       <column name="components"></column>
       <column name="examples">
 ▶ {beq may' ta vIlajpu':sen}
-▶ {ghopDu'wIjDaq yInmeyraj vIlaj:sen}
+▶ {ghopDu'wIjDaq yInmeyraj vIlaj.:sen}
 ▶ {ghu' Dachupbogh vIlaj.:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -605,6 +605,50 @@
       <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
+        <table name="mem">
+          <!-- Is this plural? -->
+          <column name="_id"></column>
+          <column name="entry_name">lam Ho'Du'</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">rake</column>
+          <column name="definition_de">Rechen [AUTOTRANSLATED]</column>
+          <column name="definition_fa">شن کش [AUTOTRANSLATED]</column>
+          <column name="definition_sv">räfsa [AUTOTRANSLATED]</column>
+          <column name="definition_ru">грабли [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">耙 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">ancinho [AUTOTRANSLATED]</column>
+          <column name="definition_fi">harava [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{lam:n}, {Ho':n:1}, {-Du':n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {The Tale of Peter Rabbit:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">lan</column>
@@ -932,7 +976,7 @@ This was defined as "be thin" in {TKD:src} and expanded to include "be narrow" a
       <column name="_id"></column>
       <column name="entry_name">laQ</column>
       <column name="part_of_speech">v:t_c</column>
-      <column name="definition">fire, energize (e.g. thrusters)</column>
+      <column name="definition">fire, energize (e.g., thrusters)</column>
       <column name="definition_de">(Triebwerke) feuern, zünden</column>
       <column name="definition_fa">آتش سوزی، انرژی (به عنوان مثال رانندگان) [AUTOTRANSLATED]</column>
       <column name="definition_sv">tända, aktivera, starta (t.ex. raketmotorer)</column>
@@ -2017,7 +2061,7 @@ Do not confuse this with {ra'wI':n}, which is also translated as "commander" in 
       <column name="definition_ru">Лаппа 4(планета)</column>
       <column name="definition_zh_HK">「拉帕」四星</column>
       <column name="definition_pt">Lappa IV</column>
-      <column name="definition_fi">Lappa IV</column>
+      <column name="definition_fi">eräs planeetta, Lappa IV</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -2028,7 +2072,7 @@ Do not confuse this with {ra'wI':n}, which is also translated as "commander" in 
       <column name="notes_ru">Планета в составе Альянса Ференги</column>
       <column name="notes_zh_HK">Ferengi聯盟中的一顆行星。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Um planeta na Aliança Ferengi. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Planeeta Ferengi-allianssissa. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Eräs planeetta Ferengien liittoumassa.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2063,15 +2107,15 @@ Do not confuse this with {ra'wI':n}, which is also translated as "commander" in 
       <column name="definition_fi">ylipäällikkö</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Qang:n}</column>
-      <column name="notes">The {la'quv:n:nolink} is head of the Klingon High Council, and the highest ranked {yaS:n}.</column>
-      <column name="notes_de">Der {la'quv:n:nolink} ist Leiter des Klingonischen Hohen Rates und der {yaS:n} mit dem höchsten Rang. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">{la'quv:n:nolink} رئیس شورای عالی کلینگون و بالاترین رتبه {yaS:n} است. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">{la'quv:n:nolink} är chef för Klingon High Council och den högst rankade {yaS:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">{la'quv:n:nolink} является главой Высшего совета клингонов и занимает первое место в рейтинге {yaS:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">{la'quv:n:nolink}是克林崗高級議會的主席，也是排名最高的{yaS:n}。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">O {la'quv:n:nolink} é o chefe do Alto Conselho Klingon e o {yaS:n} com melhor classificação. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Klingonien korkeimman neuvoston johtaja on armeijan ylipäällikkö ({la'quv:n:nolink}) eli korkea-arvoisin upseeri ({yaS:n})</column>
+      <column name="see_also">{Qang:n}, {ra'ghomquv:n}</column>
+      <column name="notes">The {la'quv:n:nolink} is head of the Klingon High Command, and the highest ranked {yaS:n}.[2]</column>
+      <column name="notes_de">Der {la'quv:n:nolink} ist Leiter des Klingonischen Hohen Rates und der {yaS:n} mit dem höchsten Rang.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">{la'quv:n:nolink} رئیس شورای عالی کلینگون و بالاترین رتبه {yaS:n} است.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">{la'quv:n:nolink} är chef för Klingon High Council och den högst rankade {yaS:n}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">{la'quv:n:nolink} является главой Высшего совета клингонов и занимает первое место в рейтинге {yaS:n}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">{la'quv:n:nolink}是克林崗高級議會的主席，也是排名最高的{yaS:n}。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">O {la'quv:n:nolink} é o chefe do Alto Conselho Klingon e o {yaS:n} com melhor classificação.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Klingonien korkeimman neuvoston johtaja on armeijan ylipäällikkö ({la'quv:n:nolink}) eli korkea-arvoisin upseeri ({yaS:n})[2]</column>
       <column name="hidden_notes"></column>
       <column name="components">{la':n}, {quv:v}</column>
       <column name="examples"></column>
@@ -2090,7 +2134,7 @@ Do not confuse this with {ra'wI':n}, which is also translated as "commander" in 
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKDA:src}</column>
+      <column name="source">[1] {TKDA:src}, [2] {KGT p.52:src}</column>
     </table>
     <table name="mem">
       <!-- This may be a reference to Klingonist {lay'tel SIvten:n:name,nolink}, or {lay'SIv:n:name} for short. -->
@@ -3936,7 +3980,7 @@ Tätä sanaa voidaan käyttää kuvaannollisesti. On idioomi {let mInDu'Daj; Sep
       <column name="_id"></column>
       <column name="entry_name">le'</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be special, exceptional</column>
+      <column name="definition">be special, be exceptional</column>
       <column name="definition_de">besonders, außergewöhnlich sein</column>
       <column name="definition_fa">مخصوص، استثنایی</column>
       <column name="definition_sv">vara speciell, vara exceptionell, vara särskild</column>
@@ -4178,7 +4222,7 @@ Tätä sanaa voidaan käyttää kuvaannollisesti. On idioomi {let mInDu'Daj; Sep
       <column name="_id"></column>
       <column name="entry_name">lIb</column>
       <column name="part_of_speech">v:i_c</column>
-      <column name="definition">be impending, imminent, loom</column>
+      <column name="definition">be impending, be imminent, loom</column>
       <column name="definition_de">bevorstehend, latent, drohend sein</column>
       <column name="definition_fa">قریب الوقوع، قریب الوقوع، دامن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara överhängande, överhängande, väv [AUTOTRANSLATED]</column>
@@ -7569,7 +7613,8 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="notes_fi"></column>
       <column name="hidden_notes">Left a"lone".</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">
+▶ {may'Daq jaHDI' SuvwI' juppu'Daj lonbe'.:sen}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -7681,7 +7726,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags">holiday</column>
+      <column name="search_tags">party, holiday</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -7910,7 +7955,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="_id"></column>
       <column name="entry_name">lor</column>
       <column name="part_of_speech">n:1,being</column>
-      <column name="definition">cousin (child of {'IrneH:n} or {'e'mam:n})</column>
+      <column name="definition">cousin (cross-cousin; child of {'IrneH:n} or {'e'mam:n})</column>
       <column name="definition_de">Cousin</column>
       <column name="definition_fa">عموزاده (فرزند {'IrneH:n} یا {'e'mam:n}) [AUTOTRANSLATED]</column>
       <column name="definition_sv">kusin (mors brors ({'IrneH:n}s) barn eller fars systers ({'e'mam:n}s) barn)</column>
@@ -7921,7 +7966,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tey':n:0}, {vIn:n}, {yur:n}, {lor:n:2}</column>
-      <column name="notes">This word refers to one's mother's brother's child or one's father's sister's child (i.e., "cross-cousins").</column>
+      <column name="notes">This word refers to one's mother's brother's child or one's father's sister's child (i.e., "cross-cousin").</column>
       <column name="notes_de">Dieses Wort bezieht sich auf das Kind des Bruders der Mutter oder des Kindes der Schwester des Vaters (d. H. "Cross-Cousins"). [AUTOTRANSLATED]</column>
       <column name="notes_fa">این کلمه به فرزند برادر مادر یا فرزند خواهر پدر (یعنی "پسر عموی") اشاره دارد. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta ord hänför sig till mammas brors barn eller ens fars systerbarn (dvs. "kors-kusiner"). [AUTOTRANSLATED]</column>
@@ -7929,7 +7974,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="notes_zh_HK">這個詞是指一個人的母親的兄弟孩子或一個人的父親的姐妹孩子（即「跨表兄弟」）。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Esta palavra refere-se ao filho do irmão da mãe ou ao filho da irmã do pai (ou seja, "primos cruzados"). [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä sana viittaa äitinsä veljen lapseen tai isänsä sisaren lapseen (eli "ristiserkkuihin"). [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The "(cross cousin)" was added to the definition for clarity.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7953,7 +7998,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="_id"></column>
       <column name="entry_name">lor</column>
       <column name="part_of_speech">n:2,being</column>
-      <column name="definition">nephew, niece</column>
+      <column name="definition">nephew, niece (cross-nibling)</column>
       <column name="definition_de">Nichte oder Neffe</column>
       <column name="definition_fa">برادرزاده، خواهرزاده [AUTOTRANSLATED]</column>
       <column name="definition_sv">systerbarn (en mans systers barn), brorsbarn (en kvinnas brors barn)</column>
@@ -7972,7 +8017,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="notes_zh_HK">對於一個男人來說，這個詞指的是他姐姐的孩子。對於一個女人來說，這個詞指的是她哥哥的孩子。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Para um homem, essa palavra se refere a um filho de sua irmã. Para uma mulher, essa palavra se refere a um filho de seu irmão. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Miehelle tämä sana viittaa sisarensa lapseen. Naiselle tämä sana viittaa veljensä lapseen. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The "(cross-nibling)" was added to the definition for clarity.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7996,7 +8041,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="_id"></column>
       <column name="entry_name">lorbe'</column>
       <column name="part_of_speech">n:being</column>
-      <column name="definition">female cousin, niece</column>
+      <column name="definition">female cousin, niece (cross)</column>
       <column name="definition_de">Cousine, Nichte</column>
       <column name="definition_fa">پسر عموی دختر، خواهرزاده [AUTOTRANSLATED]</column>
       <column name="definition_sv">kvinnlig kusin (mors brors dotter eller fars systers dotter),</column>
@@ -8039,7 +8084,7 @@ Joillakin verbiliitteillä on tarkka merkitys käytettäessä tätä verbiä, ku
       <column name="_id"></column>
       <column name="entry_name">lorloD</column>
       <column name="part_of_speech">n:being</column>
-      <column name="definition">male cousin, nephew</column>
+      <column name="definition">male cousin, nephew (cross)</column>
       <column name="definition_de">Cousin, Neffe</column>
       <column name="definition_fa">پسر عموی پسر، برادرزاده [AUTOTRANSLATED]</column>
       <column name="definition_sv">manlig kusin (mors brors son eller fars systers son), systerson (en mans systers son), brorson (en kvinnas brors son)</column>
@@ -8693,7 +8738,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="definition_ru">Ловал</column>
       <column name="definition_zh_HK">Loval [AUTOTRANSLATED]</column>
       <column name="definition_pt">Loval</column>
-      <column name="definition_fi">Loval</column>
+      <column name="definition_fi">eräs planeetta, Loval</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -8704,7 +8749,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="notes_ru">Планета в составе Кардассианского союза</column>
       <column name="notes_zh_HK">Cardassian Union中的一顆行星。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Um planeta na União Cardassiana. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Planeetta Cardassian Unionissa. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Eräs planeetta Cardassian unionissa.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -9325,14 +9370,14 @@ Tämä etuliite pudotetaan joskus tuntemattomista syistä. Vaikka virhe onkin, t
       <column name="_id"></column>
       <column name="entry_name">lugh</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be right, correct</column>
+      <column name="definition">be right, be correct</column>
       <column name="definition_de">richtig, korrekt sein</column>
       <column name="definition_fa">درست است، درست است [AUTOTRANSLATED]</column>
       <column name="definition_sv">ha rätt, vara rätt, vara korrekt</column>
       <column name="definition_ru">быть корректным, быть правым в чем-то</column>
       <column name="definition_zh_HK">是對的、正確的 [AUTOTRANSLATED]</column>
       <column name="definition_pt">ser certo, correto</column>
-      <column name="definition_fi">olla oikein, olla oikeassa</column>
+      <column name="definition_fi">olla oikeassa, olla oikein (faktuaalisesti)</column>
       <column name="synonyms"></column>
       <column name="antonyms">{muj:v}</column>
       <column name="see_also">{Sor:n}, {qar:v}, {teH:v}, {vIt:v}, {lugh:v}</column>
@@ -9361,7 +9406,7 @@ Tämä etuliite pudotetaan joskus tuntemattomista syistä. Vaikka virhe onkin, t
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">totta, tosi</column>
       <column name="source">[1] {TKD:src}, [2] {KGT p.133:src}</column>
     </table>
     <table name="mem">
@@ -10228,6 +10273,7 @@ This word was suggested by Marc Okrand to translate "asylum" (in the sense of "r
       <column name="search_tags_fi"></column>
       <column name="source">[1] {TNK:src}</column>
     </table>
+    <!-- Gowron says {luq, ratlh}: http://youtu.be/86MOuHE90jg -->
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">luq</column>
@@ -10271,7 +10317,6 @@ This word was suggested by Marc Okrand to translate "asylum" (in the sense of "r
       <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
-    <!-- Gowron says {luq, ratlh}: http://youtu.be/86MOuHE90jg -->
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">luqara'</column>
@@ -10598,7 +10643,7 @@ Kolmen pääsuunnan välissä olevat pisteet ovat {tIng chan:n:nolink}, {'ev cha
       <column name="_id"></column>
       <column name="entry_name">luS</column>
       <column name="part_of_speech">v:t_c</column>
-      <column name="definition">be submerged in, immersed in, surrounded by</column>
+      <column name="definition">be submerged in, be immersed in, be surrounded by</column>
       <column name="definition_de">von etwas umgeben</column>
       <column name="definition_fa">غرق در، غوطه ور در، احاطه شده توسط [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara nedsänkt i, nedsänkt i, omgiven av [AUTOTRANSLATED]</column>
@@ -10686,7 +10731,7 @@ Kolmen pääsuunnan välissä olevat pisteet ovat {tIng chan:n:nolink}, {'ev cha
       <column name="_id"></column>
       <column name="entry_name">lut</column>
       <column name="part_of_speech">n:klcp1</column>
-      <column name="definition">story</column>
+      <column name="definition">story, tale</column>
       <column name="definition_de">Geschichte</column>
       <column name="definition_fa">داستان</column>
       <column name="definition_sv">historia, berättelse, saga</column>
@@ -10705,7 +10750,9 @@ Kolmen pääsuunnan välissä olevat pisteet ovat {tIng chan:n:nolink}, {'ev cha
       <column name="notes_zh_HK">「童話」的概念可以表示為{puq lut:n@@puq:n, lut:n}或{lut rorgh:n@@lut:n, rorgh:v}或{puq lut rorgh:n@@puq:n, lut:n, rorgh:v}.[3] [AUTOTRANSLATED]</column>
       <column name="notes_pt"></column>
       <column name="notes_fi">Sanan käsite voidaan ilmaista muodossa {puq lut:n@@puq:n, lut:n} tai {lut rorgh:n@@lut:n, rorgh:v} tai {puq lut rorgh:n@@puq:n, lut:n, rorgh:v}.[3] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">The translations for "fairy tales" are suggestions only. In particular, it was noted that {SIqnaSwaq:n} would probably not be used to translate this term.[3]</column>
+      <column name="hidden_notes">This was defined as just "story" in {TKD:src}.
+
+The translations for "fairy tales" are suggestions only. In particular, it was noted that {SIqnaSwaq:n} would probably not be used to translate this term.[3]</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {meb, lut tlhaQ DaSov'a'?:sen@@meb:n, lut tlhaQ:n, Da-:v, Sov:v, -'a':v} "Guest, do you know any funny stories?"[2]</column>
@@ -10717,7 +10764,7 @@ Kolmen pääsuunnan välissä olevat pisteet ovat {tIng chan:n:nolink}, {'ev cha
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags">fairy tale, tale</column>
+      <column name="search_tags">fairy tale</column>
       <column name="search_tags_de">Kindergeschichte, Märchen</column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>

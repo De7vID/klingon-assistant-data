@@ -537,7 +537,7 @@
       <column name="_id"></column>
       <column name="entry_name">Hajvav</column>
       <column name="part_of_speech">n:anim</column>
-      <column name="definition">weasel-like animal</column>
+      <column name="definition">type of animal, weasel-like Klingon creature</column>
       <column name="definition_de">wieselähnliches Tier</column>
       <column name="definition_fa">حیوان شبیه حیوان [AUTOTRANSLATED]</column>
       <column name="definition_sv">weasel-liknande djur [AUTOTRANSLATED]</column>
@@ -883,7 +883,7 @@ The request was for a musteloid (otter-like or wolverine-like animal).</column>
       <column name="_id"></column>
       <column name="entry_name">Han</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be learned, scholarly, erudite</column>
+      <column name="definition">be learned, be scholarly, be erudite</column>
       <column name="definition_de">gelehrt, gebildet, kultiviert sein</column>
       <column name="definition_fa">آموخته، علمی، متواضع [AUTOTRANSLATED]</column>
       <column name="definition_sv">bli lärd, vetenskaplig, erudit [AUTOTRANSLATED]</column>
@@ -2142,7 +2142,7 @@ This resembles the actual etymology of "pixel", which is shortened from "picture
       <column name="_id"></column>
       <column name="entry_name">Haw</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be random, arbitrary, unpredictable, fortuitous</column>
+      <column name="definition">be random, be arbitrary, be unpredictable, be fortuitous</column>
       <column name="definition_de">zufällig, willkürlich, unvorhersehbar sein</column>
       <column name="definition_fa">تصادفی ، دلخواه ، غیرقابل پیش بینی ، سرنوشت باشید [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara slumpartad, vara godtycklig, vara oförutsägbar, vara oplanerad</column>
@@ -6486,7 +6486,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/KArQlviVX
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">HIvje'He</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:terran</column>
       <column name="definition">piano in a piano bar</column>
       <column name="definition_de">Klavier in einer Pianobar</column>
       <column name="definition_fa">پیانو در یک نوار پیانو [AUTOTRANSLATED]</column>
@@ -6799,7 +6799,9 @@ Jos {Hoch:n:nolink} seuraa substantiivia, se tarkoittaa "koko X".[4] Huomaa, ett
       <column name="synonyms"></column>
       <column name="antonyms">{wa'DIch:n}</column>
       <column name="see_also">{paghDIch:n}, {Qav:v}</column>
-      <column name="notes">The first item in a list of words (for example) would be {mu' wa'DIch:n@@mu':n, wa'DIch:n}, while one could say {mu' HochDIch:n@@mu':n, HochDIch:n} for the last word in the list, or use a special term for the end of a list, {natlIS:n}.[2]</column>
+      <column name="notes">This is an intentionally ungrammatical word.
+
+The first item in a list of words (for example) would be {mu' wa'DIch:n@@mu':n, wa'DIch:n}, while one could say {mu' HochDIch:n@@mu':n, HochDIch:n} for the last word in the list, or use a special term for the end of a list, {natlIS:n}.[2]</column>
       <column name="notes_de">Das erste Element in einer Liste von Wörtern wäre (zum Beispiel) {mu' wa'DIch:n@@mu':n, wa'DIch:n}, während man für das letzte Wort in der Liste {mu' HochDIch:n@@mu':n, HochDIch:n} sagen oder für das Ende einer Liste einen speziellen Begriff verwenden könnte, {natlIS:n}.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fa">اولین مورد در لیست کلمات (به عنوان مثال) {mu' wa'DIch:n@@mu':n, wa'DIch:n} خواهد بود ، در حالی که می توان {mu' HochDIch:n@@mu':n, HochDIch:n} را برای آخرین کلمه در لیست گفت ، یا از یک اصطلاح ویژه برای پایان لیست استفاده کرد ، {natlIS:n}.[2] [AUTOTRANSLATED]</column>
       <column name="notes_sv"></column>
@@ -6889,7 +6891,7 @@ Jos {Hoch:n:nolink} seuraa substantiivia, se tarkoittaa "koko X".[4] Huomaa, ett
       <column name="synonyms">{reH:adv}</column>
       <column name="antonyms">{paghlogh:adv}</column>
       <column name="see_also"></column>
-      <column name="notes">This is an emphatic alternative for {reH:adv}.</column>
+      <column name="notes">This intentionally ungrammatical word is an emphatic alternative for {reH:adv}.</column>
       <column name="notes_de">Dies ist eine nachdrückliche Alternative für {reH:adv}. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این یک جایگزین مهم برای {reH:adv} است. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta är ett eftertryckt alternativ för {reH:adv}. [AUTOTRANSLATED]</column>
@@ -8279,7 +8281,7 @@ Tunniste on yleensä maa, alue tai jonkinlainen poliittinen yksikkö. Esimerkiks
       <column name="_id"></column>
       <column name="entry_name">Hop</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be remote, far</column>
+      <column name="definition">be remote, be far</column>
       <column name="definition_de">weit, entfernt, auf Distanz sein</column>
       <column name="definition_fa">دور، دور [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara avlägsen, vara långt bort</column>
@@ -9480,7 +9482,7 @@ Tätä verbiä käytetään myös tavallisille monikulmioille ja polyhedeille.[2
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">Hov leng</column>
-          <column name="part_of_speech">n:deriv</column>
+          <column name="part_of_speech">n:deriv,nodict</column>
           <column name="definition">Star Trek</column>
           <column name="definition_de">Star Trek</column>
           <column name="definition_fa">پیشتازان فضا</column>
@@ -9537,7 +9539,7 @@ Tätä verbiä käytetään myös tavallisille monikulmioille ja polyhedeille.[2
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">Hov leng QeD</column>
-          <column name="part_of_speech">n:deriv</column>
+          <column name="part_of_speech">n:deriv,nodict</column>
           <column name="definition">Treknology</column>
           <column name="definition_de">Treknologie</column>
           <column name="definition_fa">تراکنولوژی [AUTOTRANSLATED]</column>
@@ -10357,7 +10359,7 @@ Tätä verbiä käytetään myös tavallisille monikulmioille ja polyhedeille.[2
       <column name="_id"></column>
       <column name="entry_name">Ho'Du'lIjDaq to'baj 'uSHom lughoDlu'bogh tu'lu'.</column>
       <column name="part_of_speech">sen:Ql</column>
-      <column name="definition">You have some stuffed to'baj leg in your teeth.</column>
+      <column name="definition">You have some stuffed tobbaj leg in your teeth.</column>
       <column name="definition_de">Du hast etwas gestopftes Tobbajbein zwischen den Zähnen.</column>
       <column name="definition_fa">شما بعضی از دندان ها را در دندان های خود قرار داده اید. [AUTOTRANSLATED]</column>
       <column name="definition_sv">Du har lite fyllt to'baj ben i dina tänder. [AUTOTRANSLATED]</column>
@@ -11308,14 +11310,14 @@ Tätä verbiä käytetään myös tavallisille monikulmioille ja polyhedeille.[2
       <column name="_id"></column>
       <column name="entry_name">HuDyuQ</column>
       <column name="part_of_speech">n:place,deriv,fic</column>
-      <column name="definition">HuDyuQ (planet)</column>
+      <column name="definition">HuDyuQ (name of planet)</column>
       <column name="definition_de">Bergplanet</column>
       <column name="definition_fa">HuDyuQ (سیاره) [AUTOTRANSLATED]</column>
       <column name="definition_sv">HuDyuQ (planet)</column>
       <column name="definition_ru">HuDyuQ (планета) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">山星（星球）</column>
       <column name="definition_pt">HuDyuQ (planeta)</column>
-      <column name="definition_fi">HuDyuQ (planeetta)</column>
+      <column name="definition_fi">eräs vuoristoinen planeetta</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{taD:n:place}</column>
@@ -11326,7 +11328,7 @@ Tätä verbiä käytetään myös tavallisille monikulmioille ja polyhedeille.[2
       <column name="notes_ru">Название горной планеты. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK">山區星球的名稱。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">O nome de um planeta montanhoso. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Vuoristoisen planeetan nimi. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Erään vuoristoisen planeetan nimi.</column>
       <column name="hidden_notes"></column>
       <column name="components">{HuD:n:1}, {yuQ:n}</column>
       <column name="examples"></column>
@@ -11756,7 +11758,7 @@ Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/tAK-hgXMH
       <column name="_id"></column>
       <column name="entry_name">Hun</column>
       <column name="part_of_speech">n:anim</column>
-      <column name="definition">Khrun, type of animal</column>
+      <column name="definition">khrun, type of animal (used for riding)</column>
       <column name="definition_de">Khrun (Tiersorte)</column>
       <column name="definition_fa">Khrun، نوع حیوانات [AUTOTRANSLATED]</column>
       <column name="definition_sv">ett slags djur, khrun</column>
@@ -13095,7 +13097,7 @@ Tätä ei käytetä tarkoittamaan "suorita ripustamalla", mikä on {jIb:v}. [AUT
       <column name="_id"></column>
       <column name="entry_name">Huv</column>
       <column name="part_of_speech">v:1,is</column>
-      <column name="definition">be clear, not obstructed</column>
+      <column name="definition">be clear, be not obstructed</column>
       <column name="definition_de">klar, nicht trübe sein</column>
       <column name="definition_fa">روشن شود، مانع شود [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara klar, vara icke-skymd</column>
@@ -13224,7 +13226,7 @@ Tätä ei käytetä tarkoittamaan "suorita ripustamalla", mikä on {jIb:v}. [AUT
       <column name="_id"></column>
       <column name="entry_name">Huy</column>
       <column name="part_of_speech">v:2,is</column>
-      <column name="definition">be spicy, piquant, hot</column>
+      <column name="definition">be spicy, be piquant, be hot</column>
       <column name="definition_de">scharf sein, pikant sein</column>
       <column name="definition_fa">گرم ، تند ، مضراب ، گرم باشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">var kryddig, pikant, het [AUTOTRANSLATED]</column>

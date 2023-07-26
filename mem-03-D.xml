@@ -425,7 +425,7 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
       <column name="_id"></column>
       <column name="entry_name">Daghtuj</column>
       <column name="part_of_speech">n:food</column>
-      <column name="definition">mixture of animal parts</column>
+      <column name="definition">mixture of animal parts, animal parts mixed together</column>
       <column name="definition_de">Gemisch von Tierteilen</column>
       <column name="definition_fa">مخلوط قطعات حیوانی [AUTOTRANSLATED]</column>
       <column name="definition_sv">blandning av djurdelar, ihopblandade djurdelar</column>
@@ -444,7 +444,9 @@ Kun sitä käytetään {-lu':v}: n kanssa, tämä etuliite tarkoittaa "Joku (mä
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">Since {tuj:v} means "hot", this is a "hotdog".</column>
+      <column name="hidden_notes">This is defined as "mixture of animal parts" in both sides, and additionally as "animal parts mixed together" in the E-K side.
+
+Since {tuj:v} means "hot", this is a "hotdog".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -1152,7 +1154,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="_id"></column>
       <column name="entry_name">DamSayrotlh</column>
       <column name="part_of_speech">n:anim</column>
-      <column name="definition">hippopotamus, hippo</column>
+      <column name="definition">type of animal, hippopotamus (hippo-like Klingon animal)</column>
       <column name="definition_de">Nilpferd</column>
       <column name="definition_fa">اسب آبی ، اسب آبی [AUTOTRANSLATED]</column>
       <column name="definition_sv">flodhäst</column>
@@ -1671,64 +1673,6 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {PK:src}</column>
-    </table>
-    <table name="mem">
-      <column name="_id"></column>
-      <column name="entry_name">Daq DaDabbogh yIngu'!</column>
-      <column name="part_of_speech">sen:bc</column>
-      <column name="definition">Where do you live?</column>
-      <column name="definition_de">Wo wohnst du?</column>
-      <column name="definition_fa">کجا زندگی می‌کنی؟</column>
-      <column name="definition_sv">Var bor du?</column>
-      <column name="definition_ru">Где ты живешь?</column>
-      <column name="definition_zh_HK">你住在哪裡？</column>
-      <column name="definition_pt">Onde você mora?</column>
-      <column name="definition_fi">Missä asut?</column>
-      <column name="synonyms">
-▶ {nuqDaq 'oH juHlIj'e'?:sen}</column>
-      <column name="antonyms"></column>
-      <column name="see_also">{ngu':v}, {Dab:v}</column>
-      <column name="notes">In Klingon, this is a command rather than a question. It literally means, "Identify the place where you live!"[1]
-
-An acceptable way to phrase this demand as a question is {nuq DaDab?:sen:nolink}[1]</column>
-      <column name="notes_de">Auf Klingonisch ist dies eher ein Befehl als eine Frage. Es bedeutet wörtlich: "Identifiziere den Ort, an dem du lebst!"[1]
-
-Eine akzeptable Möglichkeit, diese Forderung als Frage zu formulieren, ist {nuq DaDab?:sen:nolink}[1] [AUTOTRANSLATED]</column>
-      <column name="notes_fa"></column>
-      <column name="notes_sv">I Klingon är detta ett kommando snarare än en fråga. Det betyder bokstavligen, "Identifiera platsen där du bor!"[2]
-
-Ett godtagbart sätt att uttrycka denna efterfrågan som en fråga är {nuq DaDab?:sen:nolink} [1] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">В Клингонском, это скорее команда, чем вопрос. Дословно это означает, "Идентифицируй место, где ты живешь!"[1]
-
-Приемлемый способ использовать это, как вопрос {nuq DaDab?:sen:nolink}[1]</column>
-      <column name="notes_zh_HK">在克林崗語中，這是命令而不是問題。它的字面意思是「確定您的居住地！」[1]
-
-將這種需求表達為問題的可接受方法是{nuq DaDab?:sen:nolink} [1] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Em Klingon, isso é mais uma ordem do que uma pergunta. Literalmente significa: "Identifique o lugar onde você mora!"[1]
-
-Uma maneira aceitável de expressar essa demanda como uma pergunta é {nuq DaDab?:sen:nolink} [1] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Klingonissa tämä on pikemminkin komento kuin kysymys. Se tarkoittaa kirjaimellisesti: "Tunnista asuinpaikkasi!"[1]
-
-Hyväksyttävä tapa muotoilla tämä vaatimus kysymykseksi on {nuq DaDab?:sen:nolink} [1] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
-      <column name="components"></column>
-      <column name="examples"></column>
-      <column name="examples_de"></column>
-      <column name="examples_fa"></column>
-      <column name="examples_sv"></column>
-      <column name="examples_ru"></column>
-      <column name="examples_zh_HK"></column>
-      <column name="examples_pt"></column>
-      <column name="examples_fi"></column>
-      <column name="search_tags">address</column>
-      <column name="search_tags_de"></column>
-      <column name="search_tags_fa"></column>
-      <column name="search_tags_sv"></column>
-      <column name="search_tags_ru">адрес</column>
-      <column name="search_tags_zh_HK"></column>
-      <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
-      <column name="source">[1] {KLI mailing list 1999.07.19:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3418,7 +3362,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Dav:v:2}.[1] [AUTOTR
       <column name="_id"></column>
       <column name="entry_name">Dem</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be clear, transparent, colourless</column>
+      <column name="definition">be clear, be transparent, be colourless</column>
       <column name="definition_de">klar sein, transparent sein, farblos sein</column>
       <column name="definition_fa">روشن، شفاف، بی رنگ باشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara klar, vara genomskinlig, vara transparent, vara färglös</column>
@@ -5272,7 +5216,7 @@ Tätä verbiä voidaan soveltaa lentokoneisiin, joista ks. {Der:v:2}.[1] [AUTOTR
       <column name="_id"></column>
       <column name="entry_name">De'wI'Hom</column>
       <column name="part_of_speech">n:deriv</column>
-      <column name="definition">laptop computer</column>
+      <column name="definition">laptop computer, mobile computer</column>
       <column name="definition_de">Laptop</column>
       <column name="definition_fa">لپتاپ</column>
       <column name="definition_sv">bärbar dator, laptop</column>
@@ -7367,7 +7311,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="_id"></column>
       <column name="entry_name">DI'raq</column>
       <column name="part_of_speech">n:anim</column>
-      <column name="definition">sheep</column>
+      <column name="definition">type of animal, sheep (fluffy, woolly, shaggy Klingon animal)</column>
       <column name="definition_de">Schaf</column>
       <column name="definition_fa">گوسفند</column>
       <column name="definition_sv">får (djur)</column>
@@ -7712,7 +7656,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="_id"></column>
       <column name="entry_name">DochHa'</column>
       <column name="part_of_speech">v:is,deriv</column>
-      <column name="definition">be polite, civil, courteous</column>
+      <column name="definition">be polite, be civil, be courteous</column>
       <column name="definition_de">höflich sein, freundlich sein</column>
       <column name="definition_fa">مودبانه، مدنی، مودب باشید [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara artig, vara hövlig, vara belevad</column>
@@ -8018,7 +7962,7 @@ This was defined as "be stuck" with an explanation, along with a bunch of other 
       <column name="_id"></column>
       <column name="entry_name">Dogh</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be foolish, silly</column>
+      <column name="definition">be foolish, be silly</column>
       <column name="definition_de">albern sein</column>
       <column name="definition_fa">احمقانه، احمقانه بودن [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara fånig, vara löjlig</column>
@@ -8683,7 +8627,7 @@ This was defined as "side". The clarification "direction, face" was added to dif
       <column name="_id"></column>
       <column name="entry_name">Dop</column>
       <column name="part_of_speech">v:1,is</column>
-      <column name="definition">be opposite, antithetical, contradictory</column>
+      <column name="definition">be opposite, be antithetical, be contradictory</column>
       <column name="definition_de">gegenteilig sein, entgegengesetzt sein, umgekehrt sein</column>
       <column name="definition_fa">مخالف، ضد تطبیقی، متناقض است [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara motsatta, antitetiska, motsägelsefulla [AUTOTRANSLATED]</column>
@@ -8857,7 +8801,7 @@ This was defined as "side". The clarification "direction, face" was added to dif
       <column name="_id"></column>
       <column name="entry_name">Doq</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be orange, red</column>
+      <column name="definition">be orange, be red</column>
       <column name="definition_de">orange sein, rot sein</column>
       <column name="definition_fa">نارنجی، قرمز بودن</column>
       <column name="definition_sv">vara orange, vara röd</column>
@@ -9706,7 +9650,7 @@ This was defined as "side". The clarification "direction, face" was added to dif
       <column name="_id"></column>
       <column name="entry_name">Do'</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be fortunate, lucky</column>
+      <column name="definition">be fortunate, be lucky</column>
       <column name="definition_de">Glück haben</column>
       <column name="definition_fa">خوش شانس، خوش شانس [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara tursam, vara lyckosam, ha tur, ha lycka</column>
@@ -10668,7 +10612,7 @@ Tätä verbiä käytetään parantamaan abstraktimpaa luonnetta, kuten tila, tai
       <column name="_id"></column>
       <column name="entry_name">DuHSum</column>
       <column name="part_of_speech">n:anim</column>
-      <column name="definition">lobster-like animal</column>
+      <column name="definition">type of animal, lobster (Klingon animal found in water with a huge claw)</column>
       <column name="definition_de">Hummer, hummerähnliches Tier</column>
       <column name="definition_fa">حیوان خرچنگ مانند [AUTOTRANSLATED]</column>
       <column name="definition_sv">hummerliknande djur [AUTOTRANSLATED]</column>
@@ -10858,7 +10802,7 @@ Klingonin alusten tunnettuja luokkia ovat {neghvar:n}, {vorcha':n}, {qItI'nga':n
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">A standard verb which is close in meaning to this is {ngIj:v}.[1, p.150]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -11237,7 +11181,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="_id"></column>
       <column name="entry_name">Dun</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be wonderful, great</column>
+      <column name="definition">be wonderful, be great</column>
       <column name="definition_de">wunderbar sein, großartig sein</column>
       <column name="definition_fa">فوق العاده، فوق العاده است [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara underbar, vara storslagen</column>
@@ -11454,7 +11398,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="_id"></column>
       <column name="entry_name">Duq</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be stunned</column>
+      <column name="definition">be stunned (like {yay':v:nolink} but stronger)</column>
       <column name="definition_de">schockiert sein, erstaunt sein</column>
       <column name="definition_fa">خشمگین شو [AUTOTRANSLATED]</column>
       <column name="definition_sv">bli bedövas [AUTOTRANSLATED]</column>
@@ -11584,7 +11528,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="_id"></column>
       <column name="entry_name">DuQwI'</column>
       <column name="part_of_speech">n:deriv,weap</column>
-      <column name="definition">spike</column>
+      <column name="definition">spike (attached to something)</column>
       <column name="definition_de">Dorn</column>
       <column name="definition_fa">سنبله [AUTOTRANSLATED]</column>
       <column name="definition_sv">tagg, pigg</column>
@@ -11619,7 +11563,7 @@ Para um pico independente, como uma estaca, consulte {wIl:n}. [AUTOTRANSLATED]</
       <column name="notes_fi">Tätä käytetään viittaamaan piikkeihin, jotka on liitetty {pogh:n}-, {ghanjaq:n}-, {'alngegh:n}- ja niin edelleen.
 
 Katso erillinen piikki, kuten panos, kohdasta {wIl:n}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as just "spike" in {KGT:src}.</column>
       <column name="components">{DuQ:v:1}, {-wI':v}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>

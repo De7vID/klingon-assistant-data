@@ -607,8 +607,8 @@
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ramjep</column>
-      <column name="part_of_speech">n:2,anim</column>
-      <column name="definition">ramjep bird</column>
+      <column name="part_of_speech">n:2,anim,food</column>
+      <column name="definition">ramjep bird (sometimes served as food)</column>
       <column name="definition_de">ein nacht-aktiver Vogel auf Kronos</column>
       <column name="definition_fa">پرنده رامجپ [AUTOTRANSLATED]</column>
       <column name="definition_sv">ramjep, ett slags fågel</column>
@@ -798,7 +798,7 @@ Tätä verbiä voidaan käyttää myös ilmaisemaan käsite, että kahdella asia
       <column name="_id"></column>
       <column name="entry_name">raq</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be repetitive/redundant</column>
+      <column name="definition">be repetitive, be redundant</column>
       <column name="definition_de">überflüssig sein, sich wiederholen</column>
       <column name="definition_fa">تکراری / زائد باشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara upprepade / redundanta [AUTOTRANSLATED]</column>
@@ -1145,7 +1145,7 @@ In contrast to {ruQ:v:nolink}, which is more likely to be used when the handling
       <column name="_id"></column>
       <column name="entry_name">raS De'wI'</column>
       <column name="part_of_speech">n:deriv</column>
-      <column name="definition">desktop computer</column>
+      <column name="definition">desktop computer, stationary computer</column>
       <column name="definition_de">Desktop Computer</column>
       <column name="definition_fa">کامپیوتر رومیزی [AUTOTRANSLATED]</column>
       <column name="definition_sv">stationär dator</column>
@@ -1510,7 +1510,7 @@ On olemassa klingonin idioomi {'IQ; rav rur@@'IQ:v, rav:n:1, rur:v}.[2] [AUTOTRA
       <column name="_id"></column>
       <column name="entry_name">rav'eq</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">ceiling</column>
+      <column name="definition">ceiling (not of top story room)</column>
       <column name="definition_de">Decke</column>
       <column name="definition_fa">سقف [AUTOTRANSLATED]</column>
       <column name="definition_sv">innertak (i ett rum med ett rum till ovanför)</column>
@@ -2149,7 +2149,7 @@ Muille monikulmioille, joilla on yhtäläiset sivut / kulmat, {HoS:v}: ää käy
       <column name="definition_fi">Ylin johtoesikunta</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'ejyo' ra'ghomquv:n}</column>
+      <column name="see_also">{la'quv:n}, {'ejyo' ra'ghomquv:n}</column>
       <column name="notes">The High Command runs the {tlhIngan Hubbeq:n}.</column>
       <column name="notes_de">Das Oberkommando führt die {tlhIngan Hubbeq:n} aus. [AUTOTRANSLATED]</column>
       <column name="notes_fa">فرماندهی عالی {tlhIngan Hubbeq:n} را اجرا می کند. [AUTOTRANSLATED]</column>
@@ -2755,7 +2755,7 @@ This was defined as "side". The clarification "exterior surface" was added based
       <column name="definition_ru">М-113 (планета)</column>
       <column name="definition_zh_HK">M-113、軒轅八世 [AUTOTRANSLATED]</column>
       <column name="definition_pt">M-113, Regulus VIII</column>
-      <column name="definition_fi">M-113, Regulus VIII</column>
+      <column name="definition_fi">eräs planeetta, M-113, Regulus VIII</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{reghuluSngan:n}, {reghuluS:n}</column>
@@ -2766,7 +2766,7 @@ This was defined as "side". The clarification "exterior surface" was added based
       <column name="notes_ru">Планета в составе Ромуланской звездной империи.</column>
       <column name="notes_zh_HK">羅慕蘭星空帝國中的一顆行星。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Um planeta no Império Estelar Romulano. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Planeetta Romulan-tähtien imperiumissa. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Planeetta Romuluksen tähti-imperiumissa.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3723,7 +3723,7 @@ This was defined as "side". The clarification "exterior surface" was added based
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is missing from the E-K side of {TKD:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3876,7 +3876,7 @@ This was defined as "side". The clarification "exterior surface" was added based
       <column name="_id"></column>
       <column name="entry_name">rem</column>
       <column name="part_of_speech">v:t_c</column>
-      <column name="definition">suck (e.g. through straw)</column>
+      <column name="definition">suck (e.g., through straw)</column>
       <column name="definition_de">saugen (z.B. durch Strohhalm)</column>
       <column name="definition_fa">خوردن (از طریق کاه) [AUTOTRANSLATED]</column>
       <column name="definition_sv">suga (t ex genom sugrör)</column>
@@ -3973,7 +3973,7 @@ This was defined as "side". The clarification "exterior surface" was added based
       <column name="definition_fi">suunnitella (esine tai rakennus)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{pu'jIn:n}, {Qur:n}, {renwI':n}</column>
+      <column name="see_also">{pu'jIn:n}, {Qur:n:1}, {renwI':n}</column>
       <column name="notes">This word is used to describe the design of a physical object of some sort; it would not be used in the sense of making a plan to do something (which would be {nab:v}). It differs from {'ogh:v}, which implies the creation of something which has not been created before.</column>
       <column name="notes_de">Dieses Wort wird verwendet, um das Design eines physischen Objekts zu beschreiben. Es würde nicht in dem Sinne verwendet werden, einen Plan zu erstellen, um etwas zu tun (was {nab:v} wäre). Es unterscheidet sich von {'ogh:v}, was die Erstellung von etwas impliziert, das zuvor noch nicht erstellt wurde. [AUTOTRANSLATED]</column>
       <column name="notes_fa"></column>
@@ -4223,7 +4223,7 @@ This was defined as "side". The clarification "exterior surface" was added based
       <column name="_id"></column>
       <column name="entry_name">reqwer</column>
       <column name="part_of_speech">n:anim</column>
-      <column name="definition">shrimp-like animal</column>
+      <column name="definition">shrimp-like creature, a type of animal</column>
       <column name="definition_de">garnelenartiges Tier</column>
       <column name="definition_fa">حیوانی شبیه میگو [AUTOTRANSLATED]</column>
       <column name="definition_sv">räkliknande djur [AUTOTRANSLATED]</column>
@@ -4309,7 +4309,7 @@ This was defined as "side". The clarification "exterior surface" was added based
           <column name="_id"></column>
           <column name="entry_name">reS</column>
           <column name="part_of_speech">v:2,t_c</column>
-          <column name="definition">grow (flowers/plant/vegetables)</column>
+          <column name="definition">grow (e.g., flowers, plant, vegetables)</column>
           <column name="definition_de">züchten (Pflanzen, Blumen, Gemüse)</column>
           <column name="definition_fa">رشد (گل/گیاه/سبزیجات) [AUTOTRANSLATED]</column>
           <column name="definition_sv">växa (blommor/växter/grönsaker) [AUTOTRANSLATED]</column>
@@ -5007,7 +5007,7 @@ Tämä on sama sana kuin verbi {ret:v}.[2][1] [AUTOTRANSLATED]</column>
       <column name="_id"></column>
       <column name="entry_name">rIb</column>
       <column name="part_of_speech">v:is</column>
-      <column name="definition">be spread, spread out</column>
+      <column name="definition">be spread, be spread out</column>
       <column name="definition_de">verstreut, verteilt sein</column>
       <column name="definition_fa">پخش شود ، پخش شود [AUTOTRANSLATED]</column>
       <column name="definition_sv">spridas, spridas [AUTOTRANSLATED]</column>
@@ -5585,7 +5585,7 @@ Tämän verbin refleksiivisellä muodolla on erityinen merkitys. Katso selitys a
       <column name="_id"></column>
       <column name="entry_name">rIn</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be accomplished, finished</column>
+      <column name="definition">be accomplished, be finished</column>
       <column name="definition_de">fertig, abgeschlossen</column>
       <column name="definition_fa">انجام شود، به پایان رسید [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara åstadkommen, vara färdig</column>
@@ -5708,7 +5708,7 @@ Itse asiassa {rIn:v:nolink}: tä käytetään radiolähetyksissä osoittamaan l�
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is missing from the E-K side of {TKD:src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -5794,7 +5794,7 @@ Itse asiassa {rIn:v:nolink}: tä käytetään radiolähetyksissä osoittamaan l�
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">The sentence from {Klingon Monopoly:src} implies that this can mean "be damaged", when applied to non-living things.</column>
+      <column name="hidden_notes">The sentence from {Klingon Monopoly:src} implies that this can be translated "be damaged" through metonymy (it is referring to a player's ships, which are non-living things, but the player is the actual subject).</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {Dumer DIvI' QaS 'ej DuHIv, vaj bIwunchoH 'ej bIrIQchoH.:sen:nolink} "Surprise attack by Federation leaves you unprotected and damaged."[2]</column>
@@ -5863,7 +5863,7 @@ Itse asiassa {rIn:v:nolink}: tä käytetään radiolähetyksissä osoittamaan l�
       <column name="_id"></column>
       <column name="entry_name">rIS</column>
       <column name="part_of_speech">v:t_c</column>
-      <column name="definition">make a cracking, snapping, or clicking sound, emit a signal</column>
+      <column name="definition">make a cracking, snapping, or clicking sound; emit a signal (could be sound, radiation, smell, etc.)</column>
       <column name="definition_de">ein knackendes oder klickendes Geräusch machen, ein Signal aussenden</column>
       <column name="definition_fa">صدای ترک خوردن یا تکان دادن را ایجاد کنید، یک سیگنال را منتشر کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">göra ett knäppande eller snäppande ljud, avge en signal [AUTOTRANSLATED]</column>
@@ -6784,7 +6784,7 @@ One of the tracks on the Robin Williams comedy album "Reality... What a Concept"
       <column name="_id"></column>
       <column name="entry_name">roDSer</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">dimension</column>
+      <column name="definition">dimension (within a coordinate system)</column>
       <column name="definition_de">Dimension</column>
       <column name="definition_fa">بعد، ابعاد، اندازه [AUTOTRANSLATED]</column>
       <column name="definition_sv">dimensionera [AUTOTRANSLATED]</column>
@@ -7767,7 +7767,7 @@ Tällä on täsmällinen merkitys lentokoneista puhuttaessa, ks. {ron:v:2}.</col
       <column name="_id"></column>
       <column name="entry_name">rop</column>
       <column name="part_of_speech">v:is,klcp1</column>
-      <column name="definition">be sick, ill</column>
+      <column name="definition">be sick, be ill</column>
       <column name="definition_de">krank, übel sein</column>
       <column name="definition_fa">بیمار باشد، بیمار باشد [AUTOTRANSLATED]</column>
       <column name="definition_sv">vara sjuk, vara illamående</column>
@@ -8367,7 +8367,7 @@ Sanan käsite voidaan ilmaista muodossa {puq lut:n@@puq:n, lut:n} tai {lut rorgh
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
-          <column name="notes">This is a slang term based on {roS:v:1} or {roS:v:2} meaning {qIS:v}.[1]</column>
+          <column name="notes">This is a slang term based on {roS:v:1} or {roS:v:2}, and meaning {qIS:v}.[1]</column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
@@ -9511,7 +9511,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
           <column name="hidden_notes"></column>
-          <column name="components"></column>
+          <column name="components">{ruq:v}, {-wI':v}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -9711,7 +9711,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
       <column name="definition_ru">Рура Пенте</column>
       <column name="definition_zh_HK">儒拉·彭提</column>
       <column name="definition_pt">Rura Penthe</column>
-      <column name="definition_fi">Rura Penthe</column>
+      <column name="definition_fi">eräs planeetta, Rura Penthe</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -9790,7 +9790,7 @@ This was used for "Ok" (while {qIl:v} was used for "Cancel") in Klingon Blockly.
       <column name="_id"></column>
       <column name="entry_name">ruryuD</column>
       <column name="part_of_speech">n:anim</column>
-      <column name="definition">rhinoceros-like animal</column>
+      <column name="definition">rhinoceros-like creature, a type of animal</column>
       <column name="definition_de">Nashorn-ähnliches</column>
       <column name="definition_fa">حیوانی شبیه کرگدن [AUTOTRANSLATED]</column>
       <column name="definition_sv">noshörningsliknande djur [AUTOTRANSLATED]</column>
