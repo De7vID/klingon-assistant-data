@@ -530,29 +530,29 @@
       <column name="definition_fi">maistaa, kokeilla (ruokaa)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mum:v}</column>
+      <column name="see_also">{mum:v:1}</column>
       <column name="notes">This is a specialized meaning of {waH:v:1}. It means to try out food to see if it's been properly prepared or to determine if one likes it.[2]
 
-Do not confuse this with {mum:v}, which means "taste" in the sense of perceiving flavors.</column>
+Do not confuse this with {mum:v:1}, which means "taste" in the sense of perceiving flavors.</column>
       <column name="notes_de">Dies ist eine spezielle Bedeutung von {waH:v:1}. Es bedeutet, Essen auszuprobieren, um zu sehen, ob es richtig zubereitet wurde, oder um festzustellen, ob es einem gefällt.[2]
 
-Verwechseln Sie dies nicht mit {mum:v}, was "Geschmack" im Sinne der Wahrnehmung von Aromen bedeutet. [AUTOTRANSLATED]</column>
+Verwechseln Sie dies nicht mit {mum:v:1}, was "Geschmack" im Sinne der Wahrnehmung von Aromen bedeutet. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این یک معنی خاص از {waH:v:1} است. این به معنای امتحان کردن غذا برای دیدن اینکه آیا آن به درستی تهیه شده است یا مشخص شده که شخصی آن را دوست دارد یا خیر.[2]
 
-این را با {mum:v} اشتباه نگیرید ، که به معنی درک طعم دهنده ها "طعم" است. [AUTOTRANSLATED]</column>
+این را با {mum:v:1} اشتباه نگیرید ، که به معنی درک طعم دهنده ها "طعم" است. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta är en specialiserad betydelse av {waH:v:1}. Det betyder att prova mat för att se om det är ordentligt förberett eller för att avgöra om man gillar det.[2]
 
-Förväxla inte detta med {mum:v}, vilket betyder "smak" i den meningen att man uppfattar smaker. [AUTOTRANSLATED]</column>
+Förväxla inte detta med {mum:v:1}, vilket betyder "smak" i den meningen att man uppfattar smaker. [AUTOTRANSLATED]</column>
       <column name="notes_ru">Это специальное значение {waH:v:1}. Это означает пробовать еду, чтобы увидеть, правильно ли она приготовлена ​​или нравится ли она кому-то.[2]
 
-Не путайте это с {mum:v}, что означает «вкус» в смысле восприятия ароматов. [AUTOTRANSLATED]</column>
+Не путайте это с {mum:v:1}, что означает «вкус» в смысле восприятия ароматов. [AUTOTRANSLATED]</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt">Este é um significado especializado de {waH:v:1}. Significa experimentar a comida para ver se ela foi preparada corretamente ou para determinar se alguém gosta dela.[2]
 
-Não confunda isso com {mum:v}, que significa "gosto" no sentido de perceber sabores. [AUTOTRANSLATED]</column>
+Não confunda isso com {mum:v:1}, que significa "gosto" no sentido de perceber sabores. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä on {waH:v:1}: n erityinen merkitys. Se tarkoittaa kokeilla ruokaa nähdäksesi, onko se valmistettu oikein, tai selvittää, pidetäänkö siitä.
 
-Älä sekoita tätä {mum:v}: een, joka tarkoittaa "makua" makujen havaitsemisessa.[2] [AUTOTRANSLATED]</column>
+Älä sekoita tätä {mum:v:1}: een, joka tarkoittaa "makua" makujen havaitsemisessa.[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1490,6 +1490,49 @@ Obi-Wan Kenobi is a character in Star Wars.</column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">wavre'</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">pulsar</column>
+      <column name="definition_de">Pulsar [AUTOTRANSLATED]</column>
+      <column name="definition_fa">تپاختر [AUTOTRANSLATED]</column>
+      <column name="definition_sv">pulsar [AUTOTRANSLATED]</column>
+      <column name="definition_ru">пульсар [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">脈衝星 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">pulsar [AUTOTRANSLATED]</column>
+      <column name="definition_fi">pulsar [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">Klingon astronomers sometimes refer to this as a {barwI':n}.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {qep'a' 30 (2023):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -3062,7 +3105,7 @@ Obi-Wan Kenobi is a character in Star Wars.</column>
       <column name="definition_fi">maku</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'ey:v}, {tlhorgh:v}, {mum:v}</column>
+      <column name="see_also">{'ey:v}, {tlhorgh:v}, {mum:v:1}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5191,7 +5234,7 @@ Tämän komennon leikattu klingonimuoto olisi {wIy cha'!:sen@@wIy:n, cha':v} [AU
       <column name="definition_fi">olla korkea, (henkilöstä) olla pitkä</column>
       <column name="synonyms"></column>
       <column name="antonyms">{run:v}</column>
-      <column name="see_also">{'ab:v}, {jen:v}, {tIq:v}, {'uj:n}</column>
+      <column name="see_also">{'ab:v:1}, {jen:v}, {tIq:v}, {'uj:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -6727,6 +6770,49 @@ Jos ihmisen silmät ovat "herkkiä valolle", ne voivat olla herkkiä {wovtaHghac
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {HQ 12.4, Dec. 2003:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">wuH</column>
+      <column name="part_of_speech">v:i</column>
+      <column name="definition">skim, glide, skate, skid</column>
+      <column name="definition_de">gleiten, gleiten, skaten, rutschen [AUTOTRANSLATED]</column>
+      <column name="definition_fa">سر خوردن، سر خوردن، اسکیت کردن، سر خوردن [AUTOTRANSLATED]</column>
+      <column name="definition_sv">skumma, glida, åka skridskor, sladda [AUTOTRANSLATED]</column>
+      <column name="definition_ru">скользить, скользить, кататься, скользить [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">撇去、滑行、溜冰、滑行 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">deslizar, deslizar, patinar, derrapar [AUTOTRANSLATED]</column>
+      <column name="definition_fi">luistaa, liukua, luistella, luistella [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {qep'a' 30 (2023):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
