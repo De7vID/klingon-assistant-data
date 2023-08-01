@@ -47,7 +47,7 @@ for xmlfile in xmlfiles:
                 entry_comment = line.strip()
 
             elif len(definitions) > 0:
-                if "TRANSLATE" in definitions[args.lang]:
+                if "TRANSLATE" in definitions[args.lang] or len(definitions[args.lang]) == 0:
                     print(f"--- {entry_name} ({part_of_speech}) ---", file=stdout)
                     for lang in ["en"] + langs:
                         if len(definitions[lang]) > 0 and "TRANSLATE" not in definitions[lang]:
