@@ -1080,6 +1080,49 @@ Katso "päivät sitten" ja "päivät nyt" kohdat {Hu':n} ja {leS:n}. [AUTOTRANSL
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">jamjuD</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">bounty</column>
+      <column name="definition_de">Kopfgeld [AUTOTRANSLATED]</column>
+      <column name="definition_fa">فضل [AUTOTRANSLATED]</column>
+      <column name="definition_sv">frikostighet [AUTOTRANSLATED]</column>
+      <column name="definition_ru">награда [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">賞金 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">recompensa [AUTOTRANSLATED]</column>
+      <column name="definition_fi">palkkio [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{pop:n}, {tev:n}</column>
+      <column name="notes">A reward offered for the completion of a challenging task.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {qep'a' 30 (2023):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">jan</column>
       <column name="part_of_speech">n:1</column>
       <column name="definition">device</column>
@@ -1892,7 +1935,7 @@ Huomaa, että Klingonissa "syvää avaruutta" kutsutaan {logh Hop:n}, kirjaimell
       <column name="definition_fi">kieli (anatomiassa)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{nuj:n}, {mum:v}, {roS:v:1}</column>
+      <column name="see_also">{nuj:n}, {mum:v:1}, {roS:v:1}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -3642,7 +3685,7 @@ Huomaa, että {jemS:n:nolink} ja {qIrq:n:nolink} eivät noudata oikeaa klingonif
       <column name="definition_fi">olla korkea</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'eS:v}</column>
-      <column name="see_also">{woch:v}, {'ab:v}, {'Iv:n:2h}</column>
+      <column name="see_also">{woch:v}, {'ab:v:1}, {'Iv:n:2h}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -6431,7 +6474,7 @@ Jos haluat ilmaista toiveesi tapahtumisesta, katso {-jaj:v}. [AUTOTRANSLATED]</c
       <column name="definition_fi">olla umaminmakuinen, olla suolainen, olla multainen?</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mum:v}</column>
+      <column name="see_also">{mum:v:1}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7698,7 +7741,7 @@ The term "transport beam" is used throughout {TKD:src}, but this has been change
       <column name="definition_fi">moottori</column>
       <column name="synonyms">{QuQ:n}</column>
       <column name="antonyms"></column>
-      <column name="see_also">{nguSDI':n}, {QoD:v}</column>
+      <column name="see_also">{nguSDI':n}, {QoD:v}, {ghunglItlh:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -9355,7 +9398,7 @@ Jos käytetään {-Daq:n}, se tarkoittaa epäonnistumista: ilmaa puhallettiin ko
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">juch</column>
-      <column name="part_of_speech">v:t_c</column>
+      <column name="part_of_speech">v:1,t_c</column>
       <column name="definition">have a width of</column>
       <column name="definition_de">breit sein, eine Breite von ... haben</column>
       <column name="definition_fa">عرض یک [AUTOTRANSLATED]</column>
@@ -9366,15 +9409,15 @@ Jos käytetään {-Daq:n}, se tarkoittaa epäonnistumista: ilmaa puhallettiin ko
       <column name="definition_fi">olla leveä, olla leveydeltään jotakin</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'uj:n}, {lang:v}, {pI':v}, {ror:v}, {vaS:v}, {'ab:v}, {'aD:v}, {Saw':v}, {juv:v}, {men:v}</column>
-      <column name="notes">For measuring a flat object such as a tabletop, {juch:v:nolink} and {'aD:v} are used for the two dimensions.[1] For a circle, this measures the diameter.[2]</column>
-      <column name="notes_de">Zum Messen eines flachen Objekts wie einer Tischplatte werden {juch:v:nolink} und {'aD:v} für die beiden Dimensionen verwendet.[1] Bei einem Kreis misst dies den Durchmesser.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fa">برای اندازه گیری یک شیء مسطح مانند یک رومیزی ، از {juch:v:nolink} و {'aD:v} برای دو بعد استفاده می شود.[1] برای یک دایره ، این قطر را اندازه گیری می کند.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">För mätning av ett plant föremål såsom en bordsskiva används {juch:v:nolink} och {'aD:v} för de två dimensionerna.[1] För en cirkel mäter detta diametern.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Для измерения плоского объекта, такого как столешница, {juch:v:nolink} и {'aD:v} используются для двух измерений.[1] Для круга это измеряет диаметр.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">{juch:v:nolink}和{'aD:v}用於測量平面等平面物體的二維尺寸.[1]對於圓形，則用於測量直徑。[2] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Para medir um objeto plano como um tampo de mesa, {juch:v:nolink} e {'aD:v} são usados ​​para as duas dimensões.[1] Para um círculo, mede o diâmetro.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tasaisen esineen, kuten pöydän, mittaamiseen käytetään {juch:v:nolink} ja {'aD:v} kahta ulottuvuutta.[1][2] [AUTOTRANSLATED]</column>
+      <column name="see_also">{'uj:n}, {lang:v}, {pI':v}, {ror:v}, {vaS:v}, {'ab:v:1}, {'aD:v}, {Saw':v}, {juv:v}, {men:v}</column>
+      <column name="notes">For measuring a flat object such as a tabletop, {juch:v:1,nolink} and {'aD:v} are used for the two dimensions.[1] For a circle, this measures the diameter.[2]</column>
+      <column name="notes_de">Zum Messen eines flachen Objekts wie einer Tischplatte werden {juch:v:1,nolink} und {'aD:v} für die beiden Dimensionen verwendet.[1] Bei einem Kreis misst dies den Durchmesser.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">برای اندازه گیری یک شیء مسطح مانند یک رومیزی ، از {juch:v:1,nolink} و {'aD:v} برای دو بعد استفاده می شود.[1] برای یک دایره ، این قطر را اندازه گیری می کند.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">För mätning av ett plant föremål såsom en bordsskiva används {juch:v:1,nolink} och {'aD:v} för de två dimensionerna.[1] För en cirkel mäter detta diametern.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Для измерения плоского объекта, такого как столешница, {juch:v:1,nolink} и {'aD:v} используются для двух измерений.[1] Для круга это измеряет диаметр.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">{juch:v:1,nolink}和{'aD:v}用於測量平面等平面物體的二維尺寸.[1]對於圓形，則用於測量直徑。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Para medir um objeto plano como um tampo de mesa, {juch:v:1,nolink} e {'aD:v} são usados ​​para as duas dimensões.[1] Para um círculo, mede o diâmetro.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tasaisen esineen, kuten pöydän, mittaamiseen käytetään {juch:v:1,nolink} ja {'aD:v} kahta ulottuvuutta.[1][2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -9394,6 +9437,49 @@ Jos käytetään {-Daq:n}, se tarkoittaa epäonnistumista: ilmaa puhallettiin ko
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {msn 1997.10.22:src}, [2] {qep'a' 27 (2020):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">juch</column>
+      <column name="part_of_speech">v:2,t_c</column>
+      <column name="definition">be at a longitude</column>
+      <column name="definition_de">auf einem Längengrad liegen [AUTOTRANSLATED]</column>
+      <column name="definition_fa">در طول جغرافیایی باشد [AUTOTRANSLATED]</column>
+      <column name="definition_sv">vara på en longitud [AUTOTRANSLATED]</column>
+      <column name="definition_ru">быть на долготе [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">位於經度 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">estar em uma longitude [AUTOTRANSLATED]</column>
+      <column name="definition_fi">olla pituusasteella [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{lungrI':n}</column>
+      <column name="notes">When used to specify location (as opposed to linear dimension), the object of this verb is expressed in {lawrI'(mey):n@@lawrI':n}, so {X juch:sen:nolink} could be translated as "be at longitude X".[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {qep'a' 30 (2023):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -9923,7 +10009,7 @@ Jos käytetään {-Daq:n}, se tarkoittaa epäonnistumista: ilmaa puhallettiin ko
       <column name="see_also"></column>
       <column name="notes">This is the general verb for measurement. The subject of this verb is taking the measurement of the object.[2]
 
-To indicate the length, width, and depth of an object, see {'aD:v}, {juch:v}, and {Saw':v}, respectively. For objects which are much longer or taller than they are wide, use {'ab:v} instead of {'aD:v}. The Klingon unit of linear measure is the {'uj:n}.
+To indicate the length, width, and depth of an object, see {'aD:v}, {juch:v:1}, and {Saw':v}, respectively. For objects which are much longer or taller than they are wide, use {'ab:v:1} instead of {'aD:v}. The Klingon unit of linear measure is the {'uj:n}.
 
 Distances can be described using {chuq:n}, {Sum:v}, and {Hop:v}. For large distances, use {qelI'qam:n}; for even larger (e.g., interstellar) distances, use {loghqam:n}.
 
@@ -9939,7 +10025,7 @@ To express a temperature, use {gheH:v}. See {SImyon:n} for a unit of temperature
       <column name="notes_sv"></column>
       <column name="notes_ru">Это общий глагол для описания измерения. Субъект этого глагола принимает замер объекта.[2]
 
-Чтобы указать на длину, ширину и глубину объекта, смотрите {'aD:v}, {juch:v}, и {Saw':v}, соответственно. Для объектов, у которых длинп или высота больше, чем ширина, используйте {'ab:v} вместо {'aD:v}. Клингонская единица для линейной меры будет {'uj:n}.
+Чтобы указать на длину, ширину и глубину объекта, смотрите {'aD:v}, {juch:v:1}, и {Saw':v}, соответственно. Для объектов, у которых длинп или высота больше, чем ширина, используйте {'ab:v:1} вместо {'aD:v}. Клингонская единица для линейной меры будет {'uj:n}.
 
 Расстояния могут быть описаны, используя {chuq:n}, {Sum:v}, и {Hop:v}. Для больших расстояний используйте {qelI'qam:n}; для очень больших расстояний, используйте {loghqam:n}.
 
@@ -9952,7 +10038,7 @@ To express an area, use {men:v}. See also {morgh:n} for a unit of area.
       <column name="notes_pt"></column>
       <column name="notes_fi">Tämä on yleinen verbi mittaamiseen. Tämän verbin aihe suorittaa objektin mittauksen.[2]
 
-Kohteen {'aD:v}, {juch:v} ja {Saw':v} osoittavat kohteen pituus, leveys ja syvyys. Käytä esineitä, jotka ovat paljon pitempiä tai pitempiä kuin leveät, käytä {'ab:v} {'aD:v}: n sijaan. Klingonin lineaarinen mittayksikkö on {'uj:n}.
+Kohteen {'aD:v}, {juch:v:1} ja {Saw':v} osoittavat kohteen pituus, leveys ja syvyys. Käytä esineitä, jotka ovat paljon pitempiä tai pitempiä kuin leveät, käytä {'ab:v:1} {'aD:v}: n sijaan. Klingonin lineaarinen mittayksikkö on {'uj:n}.
 
 Etäisyydet voidaan kuvata käyttämällä {chuq:n}, {Sum:v} ja {Hop:v}. Käytä pitkiä matkoja {qelI'qam:n}; Käytä vielä suurempia (esim. tähtienvälisiä) etäisyyksiä {loghqam:n}.
 
