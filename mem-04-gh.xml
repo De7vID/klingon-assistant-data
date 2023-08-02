@@ -753,7 +753,7 @@ Pakollinen verbin etuliite, kun kohde on {ghaH:n:nolink}, on {yI-:v:pref}. [AUTO
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghanjaq</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:weap</column>
       <column name="definition">mace (stick, club)</column>
       <column name="definition_de">Keule, Amtsstab, Stab</column>
       <column name="definition_fa">موز (چوب، باشگاه) [AUTOTRANSLATED]</column>
@@ -793,6 +793,49 @@ Pakollinen verbin etuliite, kun kohde on {ghaH:n:nolink}, on {yI-:v:pref}. [AUTO
       <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT:src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">ghanjaq chuS</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">rattle (baby toy)</column>
+          <column name="definition_de">Rassel (Babyspielzeug) [AUTOTRANSLATED]</column>
+          <column name="definition_fa">جغجغه (اسباب بازی کودک) [AUTOTRANSLATED]</column>
+          <column name="definition_sv">skallra (babyleksak) [AUTOTRANSLATED]</column>
+          <column name="definition_ru">погремушка (детская игрушка) [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">撥浪鼓（嬰兒玩具） [AUTOTRANSLATED]</column>
+          <column name="definition_pt">chocalho (brinquedo de bebê) [AUTOTRANSLATED]</column>
+          <column name="definition_fi">helistin (vauvan lelu) [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also">{Qajnav:n}</column>
+          <column name="notes">This is what a baby rattle might be referred to in everyday speech. The full form is {ghu ghanjaq chuS:n@@ghu:n, ghanjaq chuS:n}.[1]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{ghanjaq:n}, {chuS:v}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {KLI mailing list 2023.03.01:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghanroq</column>
@@ -1595,7 +1638,7 @@ If X is a phrase, it can be followed by either {mu':n:nolink} or {mu'mey:n@@mu':
       <column name="definition_fi">hiili</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tamler:n}, {namchIl:n}</column>
+      <column name="see_also">{tamler:n}, {namchIl:n}, {nIl'atrogh:n}, {rISlIw:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -8151,7 +8194,7 @@ Yksi hänen legendaarisista edeltäjistään nimettiin myös "Gorkoniksi", mutta
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{jaH:v}, {chol:v}, {tlha':v}, {Duv:v}, {HeD:v}, {ghoS:v:2}</column>
-      <column name="notes">This can mean either "approach" or "go away from" depending on the presence of nouns with the suffixes {-Daq:n} and {-vo':n}. The way to use {ghoS:v:nolink} and other verbs of movement are described in {HQ 7.4:src}[2]. See {jaH:v} for details.</column>
+      <column name="notes">This verb refers to following a course. Thus, it can be interpreted to mean either "approach" or "go away from", depending on the presence of nouns with the suffixes {-Daq:n} and {-vo':n}. The way to use {ghoS:v:nolink} and other verbs of movement are described in {HQ 7.4:src}[2]. See {jaH:v} for details.</column>
       <column name="notes_de">Dies kann je nach Vorhandensein von Substantiven mit den Suffixen {-Daq:n} und {-vo':n} entweder "Annäherung" oder "Weggehen von" bedeuten. Die Verwendung von {ghoS:v:nolink} und anderen Bewegungsverben ist in {HQ 7.4:src}[2] beschrieben. Siehe {jaH:v} für Details. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این می تواند به معنی "رویکرد" یا "دور شدن از" بسته به حضور اسامی با پسوندهای {-Daq:n} و {-vo':n} باشد. روش استفاده از {ghoS:v:nolink} و سایر افعال حرکتی در {HQ 7.4:src}[2] شرح داده شده است. برای جزئیات بیشتر به {jaH:v} مراجعه کنید. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta kan betyda antingen "tillvägagångssätt" eller "försvinna från" beroende på förekomsten av substantiv med suffikterna {-Daq:n} och {-vo':n}. Sättet att använda {ghoS:v:nolink} och andra rörelser verb beskrivs i {HQ 7.4:src}[2]. Se {jaH:v} för mer information. [AUTOTRANSLATED]</column>
@@ -8889,7 +8932,8 @@ Tämä sana on alkuperältään vieras. Syy siihen, miksi Klingonit käyttävät
 ▶ {HoDpu' ghuD:n@@HoD:n, -pu':n, ghuD:v} "co-captains", "fellow captains"
 ▶ {ghuD HoDpu'.:sen:nolink} (The captains share the same status, and perhaps work together.)
 ▶ {ghojwI' ghuD:n@@ghojwI':n, ghuD:v} "a fellow student"
-▶ {puqpu' ghuD:n@@puq:n, -pu':n, ghuD:v} (This might refer to children who are growing up together, whether related or not.)</column>
+▶ {puqpu' ghuD:n@@puq:n, -pu':n, ghuD:v} (This might refer to children who are growing up together, whether related or not.)
+▶ {SenDeqpu' ghuD:n@@SenDeq:n, -pu':n, ghuD:v} "identical twins"</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -9461,7 +9505,7 @@ The example also makes clear that "be warm" refers to temperature, and not to pe
       <column name="definition_fi">mäntä</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{QuQ:n}, {jonta':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>

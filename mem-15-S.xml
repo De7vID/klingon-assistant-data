@@ -2168,7 +2168,7 @@ Maltz ei tiennyt yleistä verbiä tälle[1] [AUTOTRANSLATED]</column>
       <column name="definition_fi">kimpale, pala, möykky</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also"></column>
+      <column name="see_also">{Doj:n}</column>
       <column name="notes">There is some overlap with {ngogh:n}. A {ngogh:n:nolink} has a more-or-less defined shape, whereas a {Sawqe':n:nolink} probably doesn't have a defined or even easily describable one (though it may come close or sort of resemble one). {Sawqe':n:nolink} is generally used for smaller objects, but there is not clear-cut dividing line about size. Certain items tend to always be referred to by one or the other.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -2254,7 +2254,7 @@ Maltz ei tiennyt yleistä verbiä tälle[1] [AUTOTRANSLATED]</column>
       <column name="definition_fi">olla puhdas</column>
       <column name="synonyms"></column>
       <column name="antonyms">{lam:v}</column>
-      <column name="see_also">{lam:n}, {Say'qu'moH:v}, {nIt:v}, {watlh:v}</column>
+      <column name="see_also">{lam:n}, {Say'qu'moH:v}, {nIt:v}, {watlh:v}, {qIrbI':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -3274,7 +3274,7 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
       <column name="definition_fi">kaksonen</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Sonme':n}</column>
+      <column name="see_also">{Sonme':n}, {chang'eng:n}</column>
       <column name="notes">Identical twins are {SenDeqpu' ghuD:n@@SenDeq:n, -pu':n, ghuD:v}; non-identical twins are {SenDeqpu' tlhIn:n@@SenDeq:n, -pu':n, tlhIn:v}.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5140,6 +5140,49 @@ The existence of the homophonous noun {Sev:n} may suggest that Klingons view the
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">SIl</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">divert</column>
+      <column name="definition_de">umleiten, ableiten</column>
+      <column name="definition_fa">منحرف کردن [AUTOTRANSLATED]</column>
+      <column name="definition_sv">avleda [AUTOTRANSLATED]</column>
+      <column name="definition_ru">отвлечь [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">轉移 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">desviar</column>
+      <column name="definition_fi">ohjata pois, ohjata ohitusreitille</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{'et:v}, {Qay:v}, {meqHoD:n:extcan}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes">This word only appears in {SIlwI' tat noch:n:nolink} "Diverter Ion Sensor". It was confirmed to have come from Maltz at {qep'a' 30 (2023):src}.[2]</column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Star Trek Picard - Season 3 credits:src}, [2] {qep'a' 30 (2023):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">SIla'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">large mirror</column>
@@ -6437,7 +6480,9 @@ Jos työvälinettä käytetään tyypillisesti sormen suorittamaan toimintaan, v
       <column name="notes_fi">Tämä verbi voi ottaa objektin. Sen aihe on yleensä ilmoittamaton.[2] [AUTOTRANSLATED]</column>
       <column name="hidden_notes">It's the sound of rain falling.
 
-The sentence {chaHDaq SIStaHvIS negh 'Iw:sen:nolink} "[While they were] showered with the soldiers' blood" appeared in {paq'batlh 1ed p.136-137:src}, but this sentence was replaced in the 2ed with one which uses {ghay:v:nolink} instead.</column>
+The sentence {chaHDaq SIStaHvIS negh 'Iw:sen:nolink} "[While they were] showered with the soldiers' blood" appeared in {paq'batlh 1ed p.136-137:src}, but this sentence was replaced in the 2ed with one which uses {ghay:v:nolink} instead.
+
+At {qep'a' 30 (2023):src}, it was confirmed that the subject of {SIS:v:nolink} (and other weather words) was the thing that generated the weather: clouds, the atmosphere, and the ceiling were all good subjects. In particular, {SIS pa'beb:sen:nolink} "the ceiling rained" could be used for a leaking ceiling.[3]</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6455,7 +6500,7 @@ The sentence {chaHDaq SIStaHvIS negh 'Iw:sen:nolink} "[While they were] showered
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {KLI mailing list 1998.05.28:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KLI mailing list 1998.05.28:src}, [3] {qep'a' 30 (2023):src}</column>
     </table>
     <table name="mem">
       <!-- Not "deriv" because {SIS:n:hyp} is hypothetical. -->
@@ -10980,7 +11025,7 @@ In a message to the {KLI mailing list 2021.02.28:src}, Maltz even said the Kling
       <column name="definition_fi">voima (fysiikka)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Surmen:n}, {wa'lay:n}</column>
+      <column name="see_also">{Surmen:n}, {wa'lay:n}, {yalwoD:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>

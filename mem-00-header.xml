@@ -21,7 +21,8 @@
     Fields:
     _id            = Must be unique and in ascending order; use renumber.py to
                      automatically assign.
-                     (Sort order has space before any letter; however,
+                     (Sort order has space before any letter, and vowels where
+                     they would be in English alphabetical order; however,
                      suffixed words should be grouped with their stem, and
                      non-canon or extended canon entries may be put last.)
     entry_name     = tlhIngan Hol word or sentence; or, a source
