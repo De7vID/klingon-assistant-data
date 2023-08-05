@@ -4500,7 +4500,7 @@ This would normally take the suffix {-pu':n}. Using the suffix {-mey:n} adds an 
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
-      <column name="search_tags_fi"></column>
+      <column name="search_tags_fi">mätkähdys</column>
       <column name="source">[1] {qep'a' 30 (2023):src}</column>
     </table>
     <table name="mem">
@@ -5947,7 +5947,8 @@ The homophony with {pIH:v:1} might indicate that they are the same word, and tha
       <column name="definition_ru">быть различным, быть отличающимся от, быть другим, быть непохожим</column>
       <column name="definition_zh_HK">與眾不同 [AUTOTRANSLATED]</column>
       <column name="definition_pt">ser diferente</column>
-      <column name="definition_fi">olla erilainen</column>
+      <column name="definition_fi">olla erilainen; olla eri</column>
+      <!-- This fi definition was confirmed to be accurate by Okrand at qep'a' 30 (2023) -->
       <column name="synonyms"></column>
       <column name="antonyms">{nIb:v}, {rap:v}</column>
       <column name="see_also">{jaS:adv}, {Sar:v}</column>
