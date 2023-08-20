@@ -1496,10 +1496,11 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="search_tags_fi"></column>
       <column name="source">[1] {TKD:src}, [2] {Klingon Monopoly:src}</column>
     </table>
+    <!-- Note that {Daq:n:2} is in the "extra" section. -->
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Daq</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">site, location</column>
       <column name="definition_de">Ort, Platz, Bereich</column>
       <column name="definition_fa">سایت، محل [AUTOTRANSLATED]</column>
@@ -1567,8 +1568,8 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="hidden_notes">This word has appeared only in a deleted scene from the 2009 {Star Trek:src} movie. In the released edit of the deleted scene, the actor clearly says {Daq'a':n:nolink}, but there is no official transcript of the line in Klingon. Its meaning comes from context, but it is really just the noun {Daq:n} plus the suffix {-'a':n:suff}.</column>
-          <column name="components">{Daq:n}, {-'a':n}</column>
+          <column name="hidden_notes">This word has appeared only in a deleted scene from the 2009 {Star Trek:src} movie. In the released edit of the deleted scene, the actor clearly says {Daq'a':n:nolink}, but there is no official transcript of the line in Klingon. Its meaning comes from context, but it is really just the noun {Daq:n:1} plus the suffix {-'a':n:suff}.</column>
+          <column name="components">{Daq:n:1}, {-'a':n}</column>
           <column name="examples">
 ▶ {tlhIngan wo' Daq'a' bo'elpu'!:sen}</column>
           <column name="examples_de"></column>
@@ -1612,7 +1613,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
           <column name="hidden_notes"></column>
-          <column name="components">{Daq:n}, {noy:v}</column>
+          <column name="components">{Daq:n:1}, {noy:v}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
