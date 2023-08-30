@@ -1278,7 +1278,7 @@ Katso tämä {Brian Rivera:url:http://www.imdb.com/name/nm2092459/}n esittämän
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">tal</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">cannon</column>
       <column name="definition_de">Kanone</column>
       <column name="definition_fa">توپ [AUTOTRANSLATED]</column>
@@ -1342,7 +1342,7 @@ Katso tämä {Brian Rivera:url:http://www.imdb.com/name/nm2092459/}n esittämän
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
           <column name="hidden_notes"></column>
-          <column name="components">{tal:n}, {jo':n}</column>
+          <column name="components">{tal:n:1}, {jo':n}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -1385,7 +1385,7 @@ Katso tämä {Brian Rivera:url:http://www.imdb.com/name/nm2092459/}n esittämän
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
           <column name="hidden_notes"></column>
-          <column name="components">{tal:n}, {Qan:v}, {-wI':v}</column>
+          <column name="components">{tal:n:1}, {Qan:v}, {-wI':v}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -1428,7 +1428,7 @@ Katso tämä {Brian Rivera:url:http://www.imdb.com/name/nm2092459/}n esittämän
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
           <column name="hidden_notes"></column>
-          <column name="components">{tal:n}, {SeH:v}, {-wI':v}, {nguSDI':n}</column>
+          <column name="components">{tal:n:1}, {SeH:v}, {-wI':v}, {nguSDI':n}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -4527,7 +4527,7 @@ This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-me
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes">This appears to violate the rule in {TKD:src} that the first noun in a noun-noun construction cannot take a type 5 noun suffix. There are several possible ways to explain this: there may be an exception for "list items", this is a "clipped" form and something was dropped (e.g., {tu'lu'bogh:sen:nolink}), or {telDaq:n:nolink} is a compound of {tel:n} and {Daq:n} meaning "wing-location".</column>
+      <column name="hidden_notes">This appears to violate the rule in {TKD:src} that the first noun in a noun-noun construction cannot take a type 5 noun suffix. There are several possible ways to explain this: there may be an exception for "list items", this is a "clipped" form and something was dropped (e.g., {tu'lu'bogh:sen:nolink}), or {telDaq:n:nolink} is a compound of {tel:n} and {Daq:n:1} meaning "wing-location".</column>
       <column name="components">{tel:n}, {-Daq:n}, {wovmoHwI':n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
