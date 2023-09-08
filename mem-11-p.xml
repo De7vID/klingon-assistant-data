@@ -3686,7 +3686,7 @@ Tämä lyhennetään harvoin myös muotoon {pegh vIttlhegh:n:nolink}.[1][2] [AUT
       <column name="definition_fi">päiväsaika, valoisan aika</column>
       <column name="synonyms"></column>
       <column name="antonyms">{ram:n}</column>
-      <column name="see_also">{jaj:n}, {jajlo':n}, {po:n}, {pov:n}, {pemjep:n}</column>
+      <column name="see_also">{jaj:n}, {jajlo':n}, {po:n:1h}, {pov:n}, {pemjep:n}</column>
       <column name="notes">This refers to the part of the day when it is light out (as opposed to {ram:n}).[2]</column>
       <column name="notes_de">Dies bezieht sich auf den Teil des Tages, an dem es hell ist (im Gegensatz zu {ram:n}) .[2] [AUTOTRANSLATED]</column>
       <column name="notes_fa">این مربوط به بخشی از روز روشنایی است (بر خلاف {ram:n}) .[2] [AUTOTRANSLATED]</column>
@@ -7568,7 +7568,7 @@ Sitä voidaan käyttää myös typografiassa "lihavoidun" fontin kuvaamiseen. Ka
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">po</column>
-      <column name="part_of_speech">n:klcp1</column>
+      <column name="part_of_speech">n:1h,klcp1</column>
       <column name="definition">morning</column>
       <column name="definition_de">Morgen</column>
       <column name="definition_fa">صبح</column>
@@ -7632,7 +7632,7 @@ Sitä voidaan käyttää myös typografiassa "lihavoidun" fontin kuvaamiseen. Ka
       <column name="notes_pt">Este é o nome literário para um {'uSgheb:n} ou um {jajlo' Qa':n}. É comumente usado em óperas e peças de teatro, mas raramente no discurso cotidiano. [AUTOTRANSLATED]</column>
       <column name="notes_fi">Tämä on kirjallinen nimi tuotteelle {'uSgheb:n} tai {jajlo' Qa':n}. Sitä käytetään yleisesti oopperoissa ja näytelmissä, mutta harvoin jokapäiväisessä puheessa. [AUTOTRANSLATED]</column>
       <column name="hidden_notes"></column>
-      <column name="components">{po:n}, {Ha'DIbaH:n:1}</column>
+      <column name="components">{po:n:1h}, {Ha'DIbaH:n:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
