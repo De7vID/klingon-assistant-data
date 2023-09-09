@@ -242,8 +242,13 @@ ver.close()
 # Parse the database XML tree and store the parsed entries in a dict
 xmltree = ET.fromstring(concat)
 qawHaq = OrderedDict()
+overwritten = 0
 for child in xmltree[0]:
     node = EntryNode(child)
+
+    if node.searchName() in qawHaq:
+        sys.stderr.write(node.searchName() + ' overwrites an existing entry\n')
+        overwritten += 1
 
     # Every entry should have a definition
     if 'definition' in node.data:
@@ -277,3 +282,8 @@ ret['qawHaq'] = qawHaq
 
 # Dump the database as JSON
 print(json.dumps(ret))
+
+if (overwritten):
+    sys.stderr.write('\n*** yIqImqu\' jay\'! ***\n\n')
+    sys.stderr.write(str(overwritten) + ' entries overwritten by duplicates!\n')
+    sys.exit(1)
