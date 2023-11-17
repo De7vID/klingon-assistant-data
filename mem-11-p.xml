@@ -2082,14 +2082,14 @@ Huomaa, että tähtijärjestelmän Klingon-termi on {Hovtay':n}. [AUTOTRANSLATED
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qutluch patlh:n}, {num:v}, {patlh:v}</column>
-      <column name="notes">See under {yaS:n} for the ranks of officers.</column>
-      <column name="notes_de">Siehe unter {yaS:n} für die Reihen der Offiziere. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">برای صفوف افسران به زیر {yaS:n} مراجعه کنید. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Se under {yaS:n} för tjänstemänens rang. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Смотрите под {yaS:n} для рядов офицеров. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">見{yaS:n}下的軍銜。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Veja em {yaS:n} as fileiras de oficiais. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Katso upseerien rivejä kohdasta {yaS:n}. [AUTOTRANSLATED]</column>
+      <column name="notes">See under {yaS:n:1h} for the ranks of officers.</column>
+      <column name="notes_de">Siehe unter {yaS:n:1h} für die Reihen der Offiziere. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">برای صفوف افسران به زیر {yaS:n:1h} مراجعه کنید. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Se under {yaS:n:1h} för tjänstemänens rang. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Смотрите под {yaS:n:1h} для рядов офицеров. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">見{yaS:n:1h}下的軍銜。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Veja em {yaS:n:1h} as fileiras de oficiais. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Katso upseerien rivejä kohdasta {yaS:n:1h}. [AUTOTRANSLATED]</column>
       <column name="hidden_notes">"Patch".</column>
       <column name="components"></column>
       <column name="examples">
@@ -9650,7 +9650,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
       <column name="definition_fi">olla taitava, etevä</column>
       <column name="synonyms"></column>
       <column name="antonyms">{tlhIb:v}</column>
-      <column name="see_also">{'um:v}, {Han:v}, {Doj:v}, {po'wI':n}, {re'lIng:n}</column>
+      <column name="see_also">{'um:v}, {Han:v}, {Doj:v}, {po'wI':n}, {re'lIng:n}, {'ovjeq'IS:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -9677,7 +9677,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags">competent</column>
+      <column name="search_tags">competent, professional</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -9685,7 +9685,7 @@ Klingonsille {bo'retlh:n}: n ulkopuolella aikakiteet olivat myytti, Kahlessin sy
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}, [2] {SkyBox 7:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {SkyBox 7:src}, [3] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
         <table name="mem">
           <column name="_id"></column>
