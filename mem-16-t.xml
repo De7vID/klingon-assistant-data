@@ -4895,7 +4895,7 @@ This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-me
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ten</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:i_c</column>
       <column name="definition">embark</column>
       <column name="definition_de">einschiffen</column>
       <column name="definition_fa">سوار شدن [AUTOTRANSLATED]</column>
@@ -4906,8 +4906,8 @@ This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-me
       <column name="definition_fi">nousta (alukseen)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lIt:v}</column>
-      <column name="notes"></column>
+      <column name="see_also">{lIt:v}, {tIj:v}</column>
+      <column name="notes">This refers to boarding a vessel. It does not take an object.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -4933,7 +4933,7 @@ This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-me
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7500,7 +7500,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="definition_fi">nousta (alukseen), entrata</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lIt:v}</column>
+      <column name="see_also">{lIt:v}, {ten:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
