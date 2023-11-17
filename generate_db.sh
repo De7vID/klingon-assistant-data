@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Get the directory with the original data.
+cd "$(dirname "$0")"
 SOURCE_DIR=$PWD
 
 # Sanity check that the export to Anki script isn't broken.
@@ -59,7 +60,7 @@ fi
 
 # Copy files into temporary directory, renumber, and concatenate data into one
 # xml file.
-TMP_DIR=$(mktemp -d "${TMPDIR:-/tmp/}klingon-assistant-data.XXXXXXXX")
+TMP_DIR=$(mktemp -d "${TMPDIR:-/tmp}/klingon-assistant-data.XXXXXXXX")
 cp $SOURCE_DIR/mem-*.xml $TMP_DIR
 cp $SOURCE_DIR/clear_autotranslated_notes.sh $TMP_DIR
 cp $SOURCE_DIR/renumber.py $TMP_DIR
