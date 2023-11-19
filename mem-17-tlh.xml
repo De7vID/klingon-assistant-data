@@ -1727,7 +1727,7 @@
       <column name="_id"></column>
       <column name="entry_name">tlheb</column>
       <column name="part_of_speech">v:t_c</column>
-      <column name="definition">urge, should, ought</column>
+      <column name="definition">urge, advocate, endorse, should, ought</column>
       <column name="definition_de">zu etwas drängen, sollen</column>
       <column name="definition_fa">اصرار، باید، باید [AUTOTRANSLATED]</column>
       <column name="definition_sv">uppmana, borde, borde [AUTOTRANSLATED]</column>
@@ -1738,15 +1738,23 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{-nIS:v:suff}</column>
-      <column name="notes">The object of this verb is the activity being urged, not the person being urged. The construction is always {S 'e' tlheb:sen:nolink}  or {S net tlheb:sen:nolink}, where {S:sen:nolink} is a sentence whose subject ought to do whatever the verb is referring to. The subject of {tlheb:v:nolink} is almost always "I" or "you" (when it's not {net tlheb:sen:nolink}), though a third person subject is possible.[1] This verb isn't used for something like "I repaired the computer; it should work now," which is a different kind of "should". This verb implies decision, so it would not be used in a phrase like "it should rain".[2]</column>
+      <column name="notes">The object of this verb is the activity being urged, not the person being urged. The construction is always {S 'e' tlheb:sen:nolink}  or {S net tlheb:sen:nolink}, where {S:sen:nolink} is a sentence whose subject ought to do whatever the verb is referring to. The subject of {tlheb:v:nolink} is almost always "I" or "you" (when it's not {net tlheb:sen:nolink}), though a third person subject is possible.[1]
+
+This verb isn't used for something like "I repaired the computer; it should work now," which is a different kind of "should". This verb implies decision, so it would not be used in a phrase like "it should rain".[2]
+
+The use of this verb does not imply communication of the activity or position being urged or advocated to the person who would perform this action or take this position.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
-      <column name="notes_pt">O objeto deste verbo é a atividade que está sendo incentivada, não a pessoa que está sendo incentivada. A construção é sempre {S 'e' tlheb:sen:nolink} ou {S net tlheb:sen:nolink}, onde {S:sen:nolink} é uma sentença cujo sujeito deve fazer o que quer que o verbo se refira. O sujeito de {tlheb:v:nolink} é quase sempre "eu" ou "você" (quando não é {net tlheb:sen:nolink}), embora um sujeito de terceira pessoa seja possível.[1] Este verbo não é usado para algo como "eu consertei o computador; ele deve funcionar agora", que é um tipo diferente de "deve". Este verbo implica decisão, portanto não seria usado em uma frase como "deve chover"[2].</column>
+      <column name="notes_pt">O objeto deste verbo é a atividade que está sendo incentivada, não a pessoa que está sendo incentivada. A construção é sempre {S 'e' tlheb:sen:nolink} ou {S net tlheb:sen:nolink}, onde {S:sen:nolink} é uma sentença cujo sujeito deve fazer o que quer que o verbo se refira. O sujeito de {tlheb:v:nolink} é quase sempre "eu" ou "você" (quando não é {net tlheb:sen:nolink}), embora um sujeito de terceira pessoa seja possível.[1]
+
+Este verbo não é usado para algo como "eu consertei o computador; ele deve funcionar agora", que é um tipo diferente de "deve". Este verbo implica decisão, portanto não seria usado em uma frase como "deve chover"[2].
+
+The use of this verb does not imply communication of the activity or position being urged or advocated to the person who would perform this action or take this position.[3]</column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was originally defined at {Saarbrücken qepHom'a' 2022:src} as "urge", with an explanation of how it is used to express "should" and "ought". The "advocate" and "endorse" definitions were added at {Saarbrücken qepHom'a' 2023:src}, where it was also clarified that English doesn't have an exact equivalent for this word..</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {qagh vISop net tlheb:sen:nolink} "I should eat gagh."[1]
@@ -1767,7 +1775,7 @@
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {Saarbrücken qepHom'a' 2022:src}, [2] {KLI mailing list 2022.11.21:src}</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2022:src}, [2] {KLI mailing list 2022.11.21:src}, [3] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2522,7 +2530,9 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yuvtlhe':n}</column>
-      <column name="notes"></column>
+      <column name="notes">The subject is changing direction or orientation or swinging around.[1]
+
+For turning the pages of a book, {qaw'moH:v} is used.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2548,7 +2558,7 @@
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2564,7 +2574,7 @@
       <column name="definition_fi">olla epäpätevä</column>
       <column name="synonyms"></column>
       <column name="antonyms">{po':v}</column>
-      <column name="see_also">{toppa':n}</column>
+      <column name="see_also">{toppa':n}, {Sutlhne':n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -2583,7 +2593,7 @@
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">amateur</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -2591,7 +2601,7 @@
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

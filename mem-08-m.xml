@@ -3606,7 +3606,7 @@ It's unclear what sense of "fair" is meant by this word.</column>
       <column name="_id"></column>
       <column name="entry_name">may'morgh</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">battle array</column>
+      <column name="definition">battle array (set of equipment)</column>
       <column name="definition_de">Schlachtordnung</column>
       <column name="definition_fa">آرایه نبرد [AUTOTRANSLATED]</column>
       <column name="definition_sv">slagordning, krigsuppställning, stridsgruppering</column>
@@ -3617,7 +3617,7 @@ It's unclear what sense of "fair" is meant by this word.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{DaH:n}, {chen tu'qom:sen}</column>
-      <column name="notes"></column>
+      <column name="notes">This refers to a set of equipment (perhaps also including uniforms), not a formation of soldiers.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3625,7 +3625,7 @@ It's unclear what sense of "fair" is meant by this word.</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">A well-known announcer's test, which is a standard text given to someone wanting to be a radio or television announcer, has a line which says "seven thousand Macedonians in full battle array".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3635,7 +3635,7 @@ It's unclear what sense of "fair" is meant by this word.</column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="search_tags">formation</column>
+      <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -3643,7 +3643,7 @@ It's unclear what sense of "fair" is meant by this word.</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5799,6 +5799,52 @@ Ruoanlaiton yhteydessä verbiä käytetään voi käyttää transitiivisessa mer
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT p.113:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">mew'</column>
+      <column name="part_of_speech">v:t_c</column>
+      <column name="definition">cope (with), deal well (with), handle (a difficulty or challenge)</column>
+      <column name="definition_de">(mit) zurechtkommen, gut (mit) zurechtkommen, (mit einer Schwierigkeit oder Herausforderung) umgehen [AUTOTRANSLATED]</column>
+      <column name="definition_fa">کنار آمدن (با)، به خوبی کنار آمدن (با)، رسیدگی به (یک مشکل یا چالش) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">klara (med), hantera bra (med), hantera (en svårighet eller utmaning) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">справиться (с), справиться (с), справиться (с трудностью или вызовом) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">應對（處理），處理好（處理），處理（困難或挑戰） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">lidar (com), lidar bem (com), lidar (uma dificuldade ou desafio) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">selviytyä, käsitellä hyvin (ongelmia), käsitellä (vaikeus tai haaste) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">When used with an object, it could be a person, a thing, an activity, or an event. The object can also be {'e':n:pro}. This verb is used when the subject is considered to be mentally or emotionally able to deal with an object felt to be undesirable, difficult, challenging, daunting, stressful, or unpleasant.[1]
+
+Though appropriate in some circumstances and grammatically fine, when this verb is negated, Klingons are unlikely to use it with a first-person subject.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {qagh Qop DaSop 'e' Damew'laH'a'?:sen@@qagh:n, Qop:v:2, Da-:v, Sop:v, 'e':n, Da-:v, mew':v, -laH:v, -'a':v} "Can you cope with eating dead gagh?"</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags">tolerate</column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -12217,7 +12263,7 @@ Tätä verbiä käytetään myös musiikissa ({much:v:2}) ja taistelulajeissa ({
       <column name="synonyms"></column>
       <column name="antonyms">{lugh:v}</column>
       <column name="see_also">{Qagh:v}, {bIQ ngaS HIvje'.:sen}</column>
-      <column name="notes">Note that this means "be incorrect, factually wrong", as opposed to {waS:v} "be amiss, awry".</column>
+      <column name="notes">Note that this means "be incorrect, factually wrong", as opposed to {waS:v} "be amiss, awry".[2] When referring to behaviour, {lughbe':sen@@lugh:v, -be':v} is more common than {muj:v:nolink}.[3]</column>
       <column name="notes_de">Beachten Sie, dass dies "falsch, sachlich falsch" bedeutet, im Gegensatz zu {waS:v} "falsch, schief". [AUTOTRANSLATED]</column>
       <column name="notes_fa">توجه داشته باشید که این بدان معناست که "نادرست باشید ، در واقع اشتباه" ، بر خلاف {waS:v} "اشتباه ، بیدار". [AUTOTRANSLATED]</column>
       <column name="notes_sv">Observera att detta betyder "vara felaktig, faktiskt fel", i motsats till {waS:v} "vara fel, fel". [AUTOTRANSLATED]</column>
@@ -12243,7 +12289,7 @@ Tätä verbiä käytetään myös musiikissa ({much:v:2}) ja taistelulajeissa ({
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi">epätosi</column>
-      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2016:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2016:src}, [3] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -13854,3 +13900,46 @@ Kun sitä levitetään {tlhIm:n}: lle, {mutlh:v:nolink} tarkoittaa maton kokoami
           <column name="search_tags_fi">kappale</column>
           <column name="source">[1] {qep'a' 28 (2021):src}</column>
         </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">mu'vIb</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">whistle (hand-held device)</column>
+      <column name="definition_de">Pfeife (Handgerät) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">سوت (دستگاه دستی) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">visselpipa (handhållen enhet) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">свисток (ручное устройство) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">口哨（手持設備） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">apito (dispositivo portátil) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">pilli (kädessä pidettävä laite) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{'uq:v}, {yItram:n}, {Su'wIn:n}, {la'qab:n}</column>
+      <column name="notes">This refers to a hand-held device with a shrill sound used, for example, to give warnings and the like. It does not refer to a musical instrument (except in the most avant-garde of compositions).[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2023:src}</column>
+    </table>

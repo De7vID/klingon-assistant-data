@@ -1034,7 +1034,7 @@ This is the "cornerstone" ({qor:sen:nolink}-{nagh:n}) of something.</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{ghan'Iq:n}, {yaS:n}</column>
+      <column name="components">{ghan'Iq:n}, {yaS:n:1h}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -3057,7 +3057,7 @@ Yleisempi termi musiikkia soittavalle ryhmälle (kaikenkokoisille) on {QoQ ghom:
       <column name="definition_fi">hyönteinen, ötökkä</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chop:v}, {ngej:v}, {vetlh:n}, {'orgh:v}, {pu'vengmey:n}</column>
+      <column name="see_also">{chop:v}, {ngej:v}, {vetlh:n}, {je'wagh'en:n}, {'orgh:v}, {pu'vengmey:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5142,7 +5142,7 @@ On myös alueellinen sana {ley':n}, joka tarkoittaa "nenä". [AUTOTRANSLATED]</c
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Se'vIr:n}, {paq:n:1h}</column>
-      <column name="notes"></column>
+      <column name="notes">This originally referred to the marks made by engravings or carvings or chiseling or the like, and it can still be used in this way. Later, the word also came to be used for a handwritten document, and then a draft (in any format) of a document (or book), i.e., a "manuscript".[4]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5152,7 +5152,7 @@ On myös alueellinen sana {ley':n}, joka tarkoittaa "nenä". [AUTOTRANSLATED]</c
       <column name="notes_fi"></column>
       <column name="hidden_notes">The word {ghItlhHom:n:nolink} was used for the "string" variable type in Klingon Blockly.[2]
 
-At {qep'a' 30 (2023):src}, Okrand clarified that {ghItlh:n:nolink} refers to physical markings on a surface and not to the text contents of a document. It is not used to refer to books, though the physical pages of a book do technically contain {ghItlh:n:nolink}. He was unsure whether digital letters on a screen counted as {ghItlh:n:nolink}.[3]</column>
+At {qep'a' 30 (2023):src}, Okrand clarified that {ghItlh:n:nolink} refers to physical markings on a surface and not to the text contents of a document. It is not used to refer to books, though the physical pages of a book do technically contain {ghItlh:n:nolink}. He was unsure whether digital letters on a screen counted as {ghItlh:n:nolink}.[3] It was further explained at {Saarbrücken qepHom'a' 2023:src} how the word evolved to its current meaning.[4]</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {ghItlh vIghItlhta'bogh DalaD'a'?:sen:nolink} "Will you read my manuscript?"[1, p.172]</column>
@@ -5171,7 +5171,7 @@ At {qep'a' 30 (2023):src}, Okrand clarified that {ghItlh:n:nolink} refers to phy
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi">teksti, raapustus, käsikirjoitus</column>
-      <column name="source">[1] {TKD:src}, [2] {KLI mailing list 2014.11.26:src}, [3] {qep'a' 30 (2023):src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KLI mailing list 2014.11.26:src}, [3] {qep'a' 30 (2023):src}, [4] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -8231,7 +8231,7 @@ Yksi hänen legendaarisista edeltäjistään nimettiin myös "Gorkoniksi", mutta
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ghoS</column>
-      <column name="part_of_speech">v:2,t</column>
+      <column name="part_of_speech">v:2,t_c</column>
       <column name="definition">thrust</column>
       <column name="definition_de">vorstoßen</column>
       <column name="definition_fa">محور [AUTOTRANSLATED]</column>
@@ -8242,8 +8242,8 @@ Yksi hänen legendaarisista edeltäjistään nimettiin myös "Gorkoniksi", mutta
       <column name="definition_fi">työntää (alusta) eteenpäin?</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ghoS:v:1}</column>
-      <column name="notes"></column>
+      <column name="see_also">{ghoS:v:1}, {vo':v}</column>
+      <column name="notes">This involves pushing something at or into something else, such as thrusting a knife into someone's chest. The object is the thing that is thrust by the subject.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -8269,7 +8269,7 @@ Yksi hänen legendaarisista edeltäjistään nimettiin myös "Gorkoniksi", mutta
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

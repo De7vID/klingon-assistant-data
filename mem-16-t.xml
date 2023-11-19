@@ -1788,6 +1788,7 @@ Hämärä valo olisi {tamghay wovHa':n@@tamghay:n, wov:v, -Ha':v} (kun taas {tam
 ▶ {bIQSIp:n}
 ▶ {butnat:n}
 ▶ {ghav:n}
+▶ {jamtlhach:n}
 ▶ {jelwaS:n}
 ▶ {jey':n}
 ▶ {julSIp:n}
@@ -1796,11 +1797,13 @@ Hämärä valo olisi {tamghay wovHa':n@@tamghay:n, wov:v, -Ha':v} (kun taas {tam
 ▶ {ngIDvoS:n}
 ▶ {popSop:n}
 ▶ {qol'om:n}
+▶ {reDlIgh:n}
 ▶ {SIrlIy:n}
 ▶ {Sorpuq:n}
 ▶ {tallIt:n}
 ▶ {targho'nI':n}
 ▶ {tarngeb:n}
+▶ {tI'yap:n}
 ▶ {velSo':n}
 ▶ {wa'ngoQ:n}
 ▶ {voQSIp:n}
@@ -1819,6 +1822,7 @@ Hämärä valo olisi {tamghay wovHa':n@@tamghay:n, wov:v, -Ha':v} (kun taas {tam
 ▶ {bIQSIp:n}
 ▶ {butnat:n}
 ▶ {ghav:n}
+▶ {jamtlhach:n}
 ▶ {jelwaS:n}
 ▶ {jey':n}
 ▶ {julSIp:n}
@@ -1827,11 +1831,13 @@ Hämärä valo olisi {tamghay wovHa':n@@tamghay:n, wov:v, -Ha':v} (kun taas {tam
 ▶ {ngIDvoS:n}
 ▶ {popSop:n}
 ▶ {qol'om:n}
+▶ {reDlIgh:n}
 ▶ {SIrlIy:n}
 ▶ {Sorpuq:n}
 ▶ {tallIt:n}
 ▶ {targho'nI':n}
 ▶ {tarngeb:n}
+▶ {tI'yap:n}
 ▶ {velSo':n}
 ▶ {wa'ngoQ:n}
 ▶ {voQSIp:n}
@@ -3177,6 +3183,49 @@ The fact that this looks like {tar:n} "poison" and {ngeb:v} "fake" might just be
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
           <column name="source">[1] {Saarbrücken qepHom'a' 2021:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">tavwI'</column>
+          <column name="part_of_speech">n:being,slang</column>
+          <column name="definition">amateur</column>
+          <column name="definition_de">Amateur [AUTOTRANSLATED]</column>
+          <column name="definition_fa">آماتور [AUTOTRANSLATED]</column>
+          <column name="definition_sv">amatör [AUTOTRANSLATED]</column>
+          <column name="definition_ru">любитель [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">業餘 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">amador [AUTOTRANSLATED]</column>
+          <column name="definition_fi">amatööri [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">This is a slang term for {Sutlhne':n}, based on the expression {tav neH:sen}.[1]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="hidden_notes"></column>
+          <column name="components"></column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2023:src}</column>
         </table>
     <table name="mem">
       <column name="_id"></column>
@@ -4852,7 +4901,7 @@ This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-me
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">ten</column>
-      <column name="part_of_speech">v:t</column>
+      <column name="part_of_speech">v:i_c</column>
       <column name="definition">embark</column>
       <column name="definition_de">einschiffen</column>
       <column name="definition_fa">سوار شدن [AUTOTRANSLATED]</column>
@@ -4863,8 +4912,8 @@ This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-me
       <column name="definition_fi">nousta (alukseen)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lIt:v}</column>
-      <column name="notes"></column>
+      <column name="see_also">{lIt:v}, {tIj:v}</column>
+      <column name="notes">This refers to boarding a vessel. It does not take an object.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -4890,7 +4939,7 @@ This word takes the suffix {-Du':n:suff} when it refers to a body part, and {-me
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -5492,6 +5541,92 @@ Huomaa, että ihminen ({Human:n}) on tärkeimpien maan alkuperäiskielen kykenev
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">tera' majaj tIy</column>
+      <column name="part_of_speech">n:deriv,food,terran</column>
+      <column name="definition">kale</column>
+      <column name="definition_de">Grünkohl [AUTOTRANSLATED]</column>
+      <column name="definition_fa">کلم پیچ [AUTOTRANSLATED]</column>
+      <column name="definition_sv">grönkål [AUTOTRANSLATED]</column>
+      <column name="definition_ru">капуста [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">羽衣甘藍 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">couve [AUTOTRANSLATED]</column>
+      <column name="definition_fi">lehtikaali [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{tera':n}, {majaj:n}, {tIy:v}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2023:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">tera' majajHom</column>
+      <column name="part_of_speech">n:deriv,food,terran</column>
+      <column name="definition">Brussels sprouts (Terran vegetable)</column>
+      <column name="definition_de">Rosenkohl (terranisches Gemüse) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">کلم بروکسل (سبزیجات تران) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">Brysselkål (Terran grönsak) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">Брюссельская капуста (терранский овощ) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">球芽甘藍（地球蔬菜） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">Couve de Bruxelas (vegetal terráqueo) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">ruusukaali (terran kasvis) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{tera':n}, {majaj:n}, {-Hom:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2023:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">tera' nagh DIr charwI'</column>
       <column name="part_of_speech">n:anim,deriv,terran</column>
       <column name="definition">snail</column>
@@ -6047,6 +6182,92 @@ Terran-kuukaudet ovat:
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">tera' 'InSong majaj</column>
+      <column name="part_of_speech">n:deriv,food,terran</column>
+      <column name="definition">cauliflower (Terran vegetable)</column>
+      <column name="definition_de">Blumenkohl (terranisches Gemüse) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">گل کلم (سبزیجات تران) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">blomkål (Terran grönsak) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">цветная капуста (терранский овощ) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">花椰菜（人類蔬菜） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">couve-flor (vegetal terráqueo) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">kukkakaalia (Terran kasvis) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{bIroqlIy majaj:n}, {tera' majajHom:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{tera':n}, {'InSong:n}, {majaj:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2023:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">tera' 'oQqar qIj</column>
+      <column name="part_of_speech">n:deriv,food,terran</column>
+      <column name="definition">licorice (Terran candy)</column>
+      <column name="definition_de">Lakritze (terranische Süßigkeit) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">شیرین بیان (تران آب نبات) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">lakrits (Terran godis) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">солодка (терранские конфеты) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">甘草（人族糖果） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">alcaçuz (doce terráqueo) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">lakritsi (Terran karkkia) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">It is called this because of its similarity to {'oQqar qIj:n}.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -7285,7 +7506,7 @@ This word was used for the "list" variable type in Klingon Blockly.[4]</column>
       <column name="definition_fi">nousta (alukseen), entrata</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{lIt:v}</column>
+      <column name="see_also">{lIt:v}, {ten:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -7721,9 +7942,11 @@ MO has said that this is not a reference to the Stan Laurel and Oliver Hardy mov
       <column name="definition_pt">ser longo, comprimento (de um objeto)</column>
       <column name="definition_fi">olla pitkä (esineestä tms., ei ihmisestä)</column>
       <column name="synonyms"></column>
-      <column name="antonyms">{run:v}</column>
+      <column name="antonyms">{run:v}, {wIl:v}</column>
       <column name="see_also">{woch:v}, {'ab:v:1}, {'aD:v}</column>
-      <column name="notes">Don't confuse this word with {nI':v}.</column>
+      <column name="notes">The real opposite of this word is {wIl:v:nolink}, though {run:v:nolink} is often used in referring to short hair (see {jIb:n}) and occasionally other things.[2]
+
+Don't confuse this word with {nI':v}.</column>
       <column name="notes_de">Verwechseln Sie dieses Wort nicht mit {nI':v}. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این کلمه را با {nI':v} اشتباه نگیرید. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Förväxla inte detta ord med {nI':v}. [AUTOTRANSLATED]</column>
@@ -7749,7 +7972,7 @@ MO has said that this is not a reference to the Stan Laurel and Oliver Hardy mov
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -8255,7 +8478,7 @@ Hänen kannattajansa ovat {lIr'el:n:name} ja {voq:n:name}. Hänen lippulaivansa 
       <column name="definition_fi">jyvä, vilja</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{loSpev:n}, {ngat:n:2}, {raS'IS:n}, {naH:n}, {tI:n}, {poch:v}, {yob:v}</column>
+      <column name="see_also">{loSpev:n}, {wevpev:n}, {ngat:n:2}, {raS'IS:n}, {naH:n}, {tI:n}, {poch:v}, {yob:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -8958,6 +9181,49 @@ Tätä verbiä voidaan käyttää refleksiivisesti tarkoittamaan "nauti", "pidä
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="source">[1] {KGT p.182:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">tI'yap</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">magnesium</column>
+      <column name="definition_de">Magnesium [AUTOTRANSLATED]</column>
+      <column name="definition_fa">منیزیم [AUTOTRANSLATED]</column>
+      <column name="definition_sv">magnesium [AUTOTRANSLATED]</column>
+      <column name="definition_ru">магний [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">鎂 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">magnésio [AUTOTRANSLATED]</column>
+      <column name="definition_fi">magnesium [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes">This is the metallic chemical element with the symbol Mg and atomic number 12.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -10526,14 +10792,14 @@ Nousu alaspäin ilmaistaan ​​negatiivisella kulmalla (katso {taH:v:2}). [AUT
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is the 3rd rank of {yaS:n}.[2]</column>
-      <column name="notes_de">Dies ist der 3. Rang von {yaS:n}.[2]</column>
-      <column name="notes_fa">این رتبه سوم {yaS:n} است.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är den tredje rankningen av {yaS:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это 3-й ранг {yaS:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這是{yaS:n}的第三等級。[2] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Este é o terceiro ranking do {yaS:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on upseeriston ({yaS:n}) kolmanneksi korkein sotilasarvo.[2]</column>
+      <column name="notes">This is the 3rd rank of {yaS:n:1h}.[2]</column>
+      <column name="notes_de">Dies ist der 3. Rang von {yaS:n:1h}.[2]</column>
+      <column name="notes_fa">این رتبه سوم {yaS:n:1h} است.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är den tredje rankningen av {yaS:n:1h}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это 3-й ранг {yaS:n:1h}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是{yaS:n:1h}的第三等級。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Este é o terceiro ranking do {yaS:n:1h}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on upseeriston ({yaS:n:1h}) kolmanneksi korkein sotilasarvo.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>

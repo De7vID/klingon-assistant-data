@@ -229,14 +229,14 @@
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is the 8th rank of {yaS:n}.[2]</column>
-      <column name="notes_de">Dies ist der 8. Rang von {yaS:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این رتبه هشتم {yaS:n} است.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är den åttonde rankningen för {yaS:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это 8-й ранг {yaS:n}.[2]</column>
-      <column name="notes_zh_HK">這是{yaS:n}的第8位。[2] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Este é o 8º ranking do {yaS:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on upseeriston ({yaS:n}) kahdeksanneksi korkein sotilasarvo.[2]</column>
+      <column name="notes">This is the 8th rank of {yaS:n:1h}.[2]</column>
+      <column name="notes_de">Dies ist der 8. Rang von {yaS:n:1h}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این رتبه هشتم {yaS:n:1h} است.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är den åttonde rankningen för {yaS:n:1h}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это 8-й ранг {yaS:n:1h}.[2]</column>
+      <column name="notes_zh_HK">這是{yaS:n:1h}的第8位。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Este é o 8º ranking do {yaS:n:1h}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on upseeriston ({yaS:n:1h}) kahdeksanneksi korkein sotilasarvo.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -610,7 +610,7 @@
           <column name="_id"></column>
           <column name="entry_name">lam Ho'Du'</column>
           <column name="part_of_speech">n:deriv</column>
-          <column name="definition">rake</column>
+          <column name="definition">rake (for loosening soil)</column>
           <column name="definition_de">Rechen</column>
           <column name="definition_fa">شن کش [AUTOTRANSLATED]</column>
           <column name="definition_sv">räfsa [AUTOTRANSLATED]</column>
@@ -620,8 +620,8 @@
           <column name="definition_fi">harava</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
-          <column name="see_also"></column>
-          <column name="notes"></column>
+          <column name="see_also">{por Ho'Du':n}, {rutneD:n}</column>
+          <column name="notes">This is the kind of rake used for loosening the soil or smoothing the ground.[2]</column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
@@ -647,7 +647,7 @@
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
-          <column name="source">[1] {The Tale of Peter Rabbit:src}</column>
+          <column name="source">[1] {The Tale of Peter Rabbit:src}, [2] {Saarbrücken qepHom'a' 2023:src}</column>
         </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2020,16 +2020,16 @@ This example shows how to use type-6 suffixes with a comparison:
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This is the 6th rank of {yaS:n}.[2]
+      <column name="notes">This is the 6th rank of {yaS:n:1h}.[2]
 
 Do not confuse this with {ra'wI':n}, which is also translated as "commander" in English, but has a different meaning.[2]</column>
-      <column name="notes_de">Dies ist der 6. Rang von {yaS:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این رتبه ششم {yaS:n} است.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta är sjätte rankningen av {yaS:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это 6-й ранг {yaS:n}.[2]</column>
-      <column name="notes_zh_HK">這是{yaS:n}的第六名。[2] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Este é o 6º ranking do {yaS:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on upseeriston ({yaS:n}) kuudenneksi korkein sotilasarvo.[2]</column>
+      <column name="notes_de">Dies ist der 6. Rang von {yaS:n:1h}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این رتبه ششم {yaS:n:1h} است.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta är sjätte rankningen av {yaS:n:1h}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это 6-й ранг {yaS:n:1h}.[2]</column>
+      <column name="notes_zh_HK">這是{yaS:n:1h}的第六名。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Este é o 6º ranking do {yaS:n:1h}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on upseeriston ({yaS:n:1h}) kuudenneksi korkein sotilasarvo.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2095,6 +2095,49 @@ Do not confuse this with {ra'wI':n}, which is also translated as "commander" in 
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">la'qab</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">whistling sound (produced without using device)</column>
+      <column name="definition_de">Pfeifton (erzeugt ohne Verwendung des Geräts) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">صدای سوت (تولید شده بدون استفاده از دستگاه) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">visslande ljud (producerat utan att använda enheten) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">свистящий звук (издается без использования устройства) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">口哨聲（不使用設備時產生） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">som de assobio (produzido sem usar o dispositivo) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">viheltävä ääni (tuotettu ilman laitetta) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{'uq:v}, {mu'vIb:n}, {yItram:n}, {Su'wIn:n}</column>
+      <column name="notes">This refers to a whistling sound produced by using one's mouth and lips (and perhaps fingers, but no device).[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2023:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">la'quv</column>
       <column name="part_of_speech">n:being,deriv</column>
       <column name="definition">Supreme Commander</column>
@@ -2108,14 +2151,14 @@ Do not confuse this with {ra'wI':n}, which is also translated as "commander" in 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Qang:n}, {ra'ghomquv:n}</column>
-      <column name="notes">The {la'quv:n:nolink} is head of the Klingon High Command, and the highest ranked {yaS:n}.[2]</column>
-      <column name="notes_de">Der {la'quv:n:nolink} ist Leiter des Klingonischen Hohen Rates und der {yaS:n} mit dem höchsten Rang.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fa">{la'quv:n:nolink} رئیس شورای عالی کلینگون و بالاترین رتبه {yaS:n} است.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_sv">{la'quv:n:nolink} är chef för Klingon High Council och den högst rankade {yaS:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_ru">{la'quv:n:nolink} является главой Высшего совета клингонов и занимает первое место в рейтинге {yaS:n}.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">{la'quv:n:nolink}是克林崗高級議會的主席，也是排名最高的{yaS:n}。[2] [AUTOTRANSLATED]</column>
-      <column name="notes_pt">O {la'quv:n:nolink} é o chefe do Alto Conselho Klingon e o {yaS:n} com melhor classificação.[2] [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Klingonien korkeimman neuvoston johtaja on armeijan ylipäällikkö ({la'quv:n:nolink}) eli korkea-arvoisin upseeri ({yaS:n})[2]</column>
+      <column name="notes">The {la'quv:n:nolink} is head of the Klingon High Command, and the highest ranked {yaS:n:1h}.[2]</column>
+      <column name="notes_de">Der {la'quv:n:nolink} ist Leiter des Klingonischen Hohen Rates und der {yaS:n:1h} mit dem höchsten Rang.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fa">{la'quv:n:nolink} رئیس شورای عالی کلینگون و بالاترین رتبه {yaS:n:1h} است.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_sv">{la'quv:n:nolink} är chef för Klingon High Council och den högst rankade {yaS:n:1h}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_ru">{la'quv:n:nolink} является главой Высшего совета клингонов и занимает первое место в рейтинге {yaS:n:1h}.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">{la'quv:n:nolink}是克林崗高級議會的主席，也是排名最高的{yaS:n:1h}。[2] [AUTOTRANSLATED]</column>
+      <column name="notes_pt">O {la'quv:n:nolink} é o chefe do Alto Conselho Klingon e o {yaS:n:1h} com melhor classificação.[2] [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Klingonien korkeimman neuvoston johtaja on armeijan ylipäällikkö ({la'quv:n:nolink}) eli korkea-arvoisin upseeri ({yaS:n:1h})[2]</column>
       <column name="hidden_notes"></column>
       <column name="components">{la':n}, {quv:v}</column>
       <column name="examples"></column>
@@ -5122,7 +5165,7 @@ The definition was not given. It's just explained that going online would use th
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{lIngwI':n}</column>
-      <column name="notes"></column>
+      <column name="notes">While this can apply to fires, it is more common to use {chenmoH:v} or {vemmoH:v:2} in that case.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -5148,7 +5191,7 @@ The definition was not given. It's just explained that going online would use th
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="source">[1] {TKD:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -8530,7 +8573,7 @@ Marc Okrand has said that he prefers to call the puns or "Easter Eggs" in the Kl
       <column name="definition_fi">neliruisvehnä</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tIr:n}</column>
+      <column name="see_also">{tIr:n}, {wevpev:n}</column>
       <column name="notes">Quadrotriticale is a four-lobed hybridization of wheat (genus Triticum) and rye (genus Secale).</column>
       <column name="notes_de">Quadrotriticale ist eine vierlappige Hybridisierung von Weizen (Gattung Triticum) und Roggen (Gattung Secale). [AUTOTRANSLATED]</column>
       <column name="notes_fa">Quadrotriticale یک هیبریداسیون چهار لوب گندم (جنس Triticum) و چاودار (جنس Secale) است. [AUTOTRANSLATED]</column>
@@ -9514,7 +9557,9 @@ Tämä etuliite pudotetaan joskus tuntemattomista syistä. Vaikka virhe onkin, t
       <column name="synonyms"></column>
       <column name="antonyms">{muj:v}</column>
       <column name="see_also">{Sor:n}, {qar:v}, {teH:v}, {vIt:v}, {lugh:v}</column>
-      <column name="notes">There is an idiom, {lugh; Sor rur}.[2]</column>
+      <column name="notes">There is an idiom, {lugh; Sor rur}.[2]
+
+This is used for someone who makes a correct statement, or does something which is proper, appropriate, justified, or acceptable. That is, it means "factually correct" or "morally correct". It isn't used, for example, for a switch which is doing what it's supposed to do, for which see {mIt:v}. It also isn't used for a truthful fact or statement itself, for which see {teH:v} and {qar:v}.[3]</column>
       <column name="notes_de">Es gibt eine Redewendung, {lugh; Sor rur}.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fa">یک اصطلاح ، {lugh; Sor rur} وجود دارد.[2] [AUTOTRANSLATED]</column>
       <column name="notes_sv">Det finns ett formspråk, {lugh; Sor rur}.[2] [AUTOTRANSLATED]</column>
@@ -9540,7 +9585,7 @@ Tämä etuliite pudotetaan joskus tuntemattomista syistä. Vaikka virhe onkin, t
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi">totta, tosi</column>
-      <column name="source">[1] {TKD:src}, [2] {KGT p.133:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT p.133:src}, [3] {Saarbrücken qepHom'a' 2023:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -9642,7 +9687,7 @@ Tämä etuliite pudotetaan joskus tuntemattomista syistä. Vaikka virhe onkin, t
       <column name="definition_fi">suolisto</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{burgh:n}, {chor:n:1}</column>
+      <column name="see_also">{remloS:n}, {burgh:n}, {chor:n:1}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
