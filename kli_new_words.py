@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Script to extract new words from https://www.kli.org/activities/qepmey/qepa-chamah-sochdich/new-words/.
+# Script to extract new words from, e.g., https://www.kli.org/activities/qepmey/qepa-chamah-sochdich/new-words/.
 
 import pandas as pd
 
@@ -19,6 +19,8 @@ def print_entry(entry_name, part_of_speech, definition, notes):
   print("      <column name=\"definition_ru\">TRANSLATE</column>")
   print("      <column name=\"definition_zh_HK\">TRANSLATE</column>")
   print("      <column name=\"definition_pt\">TRANSLATE</column>")
+  print("      <column name=\"definition_fi\">TRANSLATE</column>")
+  print("      <column name=\"definition_fr\">TRANSLATE</column>")
   print("      <column name=\"synonyms\"></column>")
   print("      <column name=\"antonyms\"></column>")
   print("      <column name=\"see_also\"></column>")
@@ -29,6 +31,8 @@ def print_entry(entry_name, part_of_speech, definition, notes):
   print("      <column name=\"notes_ru\"></column>")
   print("      <column name=\"notes_zh_HK\"></column>")
   print("      <column name=\"notes_pt\"></column>")
+  print("      <column name=\"notes_fi\"></column>")
+  print("      <column name=\"notes_fr\"></column>")
   print("      <column name=\"hidden_notes\"></column>")
   print("      <column name=\"components\"></column>")
   print("      <column name=\"examples\"></column>")
@@ -38,6 +42,8 @@ def print_entry(entry_name, part_of_speech, definition, notes):
   print("      <column name=\"examples_ru\"></column>")
   print("      <column name=\"examples_zh_HK\"></column>")
   print("      <column name=\"examples_pt\"></column>")
+  print("      <column name=\"examples_fi\"></column>")
+  print("      <column name=\"examples_fr\"></column>")
   print("      <column name=\"search_tags\"></column>")
   print("      <column name=\"search_tags_de\"></column>")
   print("      <column name=\"search_tags_fa\"></column>")
@@ -45,7 +51,9 @@ def print_entry(entry_name, part_of_speech, definition, notes):
   print("      <column name=\"search_tags_ru\"></column>")
   print("      <column name=\"search_tags_zh_HK\"></column>")
   print("      <column name=\"search_tags_pt\"></column>")
-  print("      <column name=\"source\">[1] {qep'a' 27 (2020):src}</column>")
+  print("      <column name=\"search_tags_fi\"></column>")
+  print("      <column name=\"search_tags_fr\"></column>")
+  print("      <column name=\"source\">[1] {qep'a' 30 (2023):src}</column>")
   print("    </table>")
   print("")
 

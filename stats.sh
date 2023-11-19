@@ -12,6 +12,7 @@ SV_COUNT=$(get_count "sv")
 ZH_HK_COUNT=$(get_count "zh_HK")
 PT_COUNT=$(get_count "pt")
 FI_COUNT=$(get_count "fi")
+FR_COUNT=$(get_count "fr")
 
 # Note: These are sorted in (approximate) order of completeness.
 echo "Remaining entries:"
@@ -22,3 +23,4 @@ echo "sv: $SV_COUNT"
 echo "ru: $RU_COUNT"
 echo "zh-HK: $ZH_HK_COUNT"
 echo "fa: $FA_COUNT"
+echo "fr: $FR_COUNT"

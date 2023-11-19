@@ -4,7 +4,7 @@ from pathlib import Path
 import fileinput
 import sys
 
-langs = ["de", "fa", "sv", "ru", "zh_HK", "pt", "fi"]
+langs = ["de", "fa", "sv", "ru", "zh_HK", "pt", "fi", "fr"]
 
 parser = argparse.ArgumentParser()
 parser.add_argument("lang", choices=langs)
