@@ -9,7 +9,7 @@
 
 # Commands to add the required fields for a new language with language code "xx":
 # sed -i $"s/\(\s*\)\(<column name=\"synonyms\">\)/\1<column name=\"definition_xx\">TRANSLATE<\/column>\\n\1\2/g" mem-*.xml
-# sed -i $"s/\(\s*\)\(<column name=\"hidden_notes\">\)/\1<column name=\"notes_xx\">TRANSLATE<\/column>\\n\1\2/g" mem-*.xml
+# sed -i $"s/\(\s*\)\(<column name=\"hidden_notes\">\)/\1<column name=\"notes_xx\"><\/column>\\n\1\2/g" mem-*.xml
 # sed -i $"s/\(\s*\)\(<column name=\"search_tags\">\)/\1<column name=\"examples_xx\"><\/column>\\n\1\2/g" mem-*.xml
 # sed -i $"s/\(\s*\)\(<column name=\"source\">\)/\1<column name=\"search_tags_xx\"><\/column>\\n\1\2/g" mem-*.xml
 
@@ -57,6 +57,7 @@ supported_languages_map = {
   "zh-HK": "zh-TW",
   "pt": "pt",
   "fi": "fi",
+  "fr": "fr",
 }
 
 # Check for balanced brackets.
