@@ -21,10 +21,13 @@ for xmlfile in xmlfiles:
 
     with fileinput.FileInput(xmlfile, inplace=True) as file:
         definitions = {}
+        definition_comments = {}
         entry_name = ""
         entry_comment = ""
         part_of_speech = ""
+        part_of_speech_comment = ""
         indent = ""
+        last_lang = ""
         for line in file:
             if quitting:
                 print(line, end="")
@@ -32,9 +35,11 @@ for xmlfile in xmlfiles:
 
             if m := re.search(r"^(\s*)<[^>]*definition\">(.*)<", line):
                 definitions["en"] = m.group(2)
+                last_lang = "en"
 
             elif m := re.search(r"^(\s*)<[^>]*definition_(.*)\">(.*)<", line):
                 definitions[m.group(2)] = m.group(3)
+                last_lang = m.group(2)
 
             elif m := re.search(r"^(\s*)<[^>]*entry_name\">(.*)<", line):
                 entry_name = m.group(2)
@@ -46,10 +51,22 @@ for xmlfile in xmlfiles:
             elif line.strip().startswith("<!--") and entry_name and not part_of_speech:
                 entry_comment = line.strip()
 
+            elif line.strip().startswith("<!--") and entry_name and part_of_speech and last_lang == "":
+                part_of_speech_comment = line.strip()
+
+            elif line.strip().startswith("<!--") and entry_name and part_of_speech and last_lang:
+                definition_comments[last_lang] = line.strip()
+
             elif len(definitions) > 0:
+                if args.lang not in definitions:
+                    print(f"{args.lang} definition is missing", file=stdout)
+                    definitions[args.lang] = ""
                 if "TRANSLATE" in definitions[args.lang] or len(definitions[args.lang]) == 0:
                     print(f"--- {entry_name} ({part_of_speech}) ---", file=stdout)
                     for lang in ["en"] + langs:
+                        if lang not in definitions:
+                            print(f"{lang} definition is missing", file=stdout)
+                            continue
                         if len(definitions[lang]) > 0 and "TRANSLATE" not in definitions[lang]:
                             print(lang.upper() + ": " + definitions[lang], file=stdout)
 
@@ -76,14 +93,21 @@ for xmlfile in xmlfiles:
                     print(indent + entry_comment)
 
                 print(indent + f'<column name="part_of_speech">{part_of_speech}</column>')
+                if part_of_speech_comment:
+                    print(indent + part_of_speech_comment)
+
                 print(indent + f'<column name="definition">{definitions["en"]}</column>')
                 for lang in langs:
-                    print(indent + f'<column name="definition_{lang}">{definitions[lang]}</column>')
-                
+                    print(indent + f'<column name="definition_{lang}">{definitions.get(lang, "")}</column>')
+                    if lang in definition_comments:
+                        print(indent + definition_comments[lang])
+
                 entry_name = ""
                 entry_comment = ""
                 part_of_speech = ""
+                part_of_speech_comment = ""
                 definitions = {}
+                definition_comments = {}
                 print(line, end="")
 
             else:
