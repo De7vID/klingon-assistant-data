@@ -103,7 +103,7 @@ reviewed. Pull requests of large translation commits should typically be merged
 using the "Squash and merge" option.
 
 There is a script `review_changes.sh` which takes in a language code and an
-optional commit (which defaults to `upstream/master` if omitted). This should
+optional commit (which defaults to `upstream/main` if omitted). This should
 be used by translators to check translations before a pull request is made.
 
 After changes to the database, it is important to run the `write_db.sh` script
