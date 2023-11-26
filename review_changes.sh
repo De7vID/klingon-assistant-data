@@ -4,7 +4,7 @@
 if [[ $# -eq 0 ]]
 then
     echo "Usage: `basename $0` language [commit]"
-    echo "If commit is omitted, will default to upstream/master."
+    echo "If commit is omitted, will default to upstream/main."
     exit
 fi
 if [[ ! "$1" =~ ^(de|fa|sv|ru|zh_HK|pt|fi)$ ]]
@@ -15,8 +15,8 @@ fi
 LANGUAGE=$1
 if [[ "$2" = "" ]]
 then
-    echo "Comparing changes against upstream/master."
-    COMMIT=$(git rev-parse upstream/master)
+    echo "Comparing changes against upstream/main."
+    COMMIT=$(git rev-parse upstream/main)
 else
     echo "Comparing changes against commit $2"
     COMMIT=$2
