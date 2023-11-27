@@ -1915,8 +1915,59 @@ Ce verbe serait réservé uniquement aux situations se rapprochant d'Armageddon.
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">HaSta</column>
-      <column name="part_of_speech">n</column>
-      <column name="definition">visual display, video</column>
+      <column name="part_of_speech">n:1</column>
+      <column name="definition">video (moving images)</column>
+      <column name="definition_de">Video (bewegte Bilder) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">ویدئو (تصاویر متحرک) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">video (rörliga bilder) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">видео (движущиеся изображения) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">影片（移動影像） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">vídeo (imagens em movimento) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">video (liikkuvat kuvat) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">vidéo (images animées) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{HaSta jIH:n}, {cha':v}</column>
+      <column name="notes">This word actually means "video" (i.e., moving visual images). When used by itself on a ship, as part of ship's jargon, however, it refers to the "visual display" mode of a viewing screen (see {HaSta:n:2}).[2]
+
+Note that {jIH:n:2} refers to the device, while {HaSta:n:1,nolink} refers to the visual information displayed on it.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi">This word actually means "video" (i.e., moving visual images). When used by itself on a ship, as part of ship's jargon, however, it refers to the "visual display" mode of a viewing screen (see {HaSta:n:2}).[2]
+
+Aluksen näytöllä ({jIH:n:2}) voi näkyä valokuvaa aluksen ulkopuolelta ({HaSta:n:1,nolink}) tai taktinen kaavio taistelukentästä ({wIy:n:1}). [AUTOTRANSLATED]</column>
+      <column name="notes_fr"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="examples_fr"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="search_tags_fr"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2023:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">HaSta</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">visual display (mode)</column>
       <column name="definition_de">visuelle Anzeige</column>
       <column name="definition_fa">نمایش بصری [AUTOTRANSLATED]</column>
       <column name="definition_sv">bildskärm (på monitor)</column>
@@ -1927,21 +1978,21 @@ Ce verbe serait réservé uniquement aux situations se rapprochant d'Armageddon.
       <column name="definition_fr">affichage visuel, vidéo [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{HaSta jIH:n}, {cha':v}, {wIy:n}</column>
-      <column name="notes">Note that {jIH:n:2} refers to the device, while {HaSta:n:nolink} refers to the visual information displayed on it. Also contrast this with {wIy:n}, which can also be displayed on a {jIH:n:2}.
+      <column name="see_also">{wIy:n:2}</column>
+      <column name="notes">This is actually the word "video" (see {HaSta:n:1}) which, when used by itself on a ship, as part of ship's jargon, refers to the "visual display" mode of a viewing screen.[2]
 
-This word actually means "video" (i.e., moving visual images). When used by itself on a ship, as part of ship's jargon, however, it refers to the "visual display" mode of a viewing screen.[2]</column>
-      <column name="notes_de">Beachten Sie, dass sich {jIH:n:2} auf das Gerät bezieht, während sich {HaSta:n:nolink} auf die darauf angezeigten visuellen Informationen bezieht. Vergleichen Sie dies auch mit {wIy:n}, das auch auf einem {jIH:n:2} angezeigt werden kann. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">توجه داشته باشید که {jIH:n:2} به دستگاه اشاره دارد ، در حالی که {HaSta:n:nolink} به اطلاعات تصویری نمایش داده شده روی آن اشاره دارد. همچنین این را با {wIy:n} ، که می تواند در {jIH:n:2} نمایش داده شود ، در تضاد قرار دهید. [AUTOTRANSLATED]</column>
+Contrast this with {wIy:n:2,nolink}, which is another display mode of a {jIH:n:2,nolink}.</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
-      <column name="notes_zh_HK">請注意，{jIH:n:2}是指設備，而{HaSta:n:nolink}是指顯示在其上的視覺信息。還要與{wIy:n}進行對比，也可以在{jIH:n:2}上顯示它。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Observe que {jIH:n:2} se refere ao dispositivo, enquanto {HaSta:n:nolink} se refere às informações visuais exibidas nele. Compare isso também com {wIy:n}, que também pode ser exibido em um {jIH:n:2}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Aluksen näytöllä ({jIH:n:2}) voi näkyä valokuvaa aluksen ulkopuolelta ({HaSta:n:nolink}) tai taktinen kaavio taistelukentästä ({wIy:n}).</column>
-      <column name="notes_fr">Notez que {jIH:n:2} fait référence à l'appareil, tandis que {HaSta:n:nolink} fait référence aux informations visuelles qui y sont affichées. Comparez également cela avec {wIy:n}, qui peut également être affiché sur un {jIH:n:2}.
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="notes_fr"></column>
+      <column name="hidden_notes">This was defined as just "visual display" in {TKD:src}.[1] Its exact meaning was clarified at {Saarbrücken qepHom'a' 2023:src}.[2]
 
-Ce mot signifie en fait « vidéo » (c'est-à-dire des images visuelles en mouvement). Cependant, lorsqu'il est utilisé seul sur un navire, dans le jargon du navire, il fait référence au mode « affichage visuel » d'un écran de visualisation.[broken link: 5][2] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">Interesting coincidence: in the Spanish phrase "Hasta la vista" ("see you later"), "la vista" means "the view".</column>
+Interesting coincidence: in the Spanish phrase "Hasta la vista" ("see you later"), "la vista" means "the view".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -1990,7 +2041,7 @@ Ce mot signifie en fait « vidéo » (c'est-à-dire des images visuelles en mouv
           <column name="notes_fi"></column>
           <column name="notes_fr">Il s'agit littéralement d'un « écran de visualisation vidéo ».[2] [AUTOTRANSLATED]</column>
           <column name="hidden_notes"></column>
-          <column name="components">{HaSta:n}, {jIH:n:2}</column>
+          <column name="components">{HaSta:n:1}, {jIH:n:2}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -2084,7 +2135,7 @@ Ce mot signifie en fait « vidéo » (c'est-à-dire des images visuelles en mouv
           <column name="notes_fi"></column>
           <column name="notes_fr">Ceci est l'abréviation de {HaSta jIH much:n}[1] et fait référence au contenu présenté sur un écran de télévision.[2] [AUTOTRANSLATED]</column>
           <column name="hidden_notes"></column>
-          <column name="components">{HaSta:n}, {much:n}</column>
+          <column name="components">{HaSta:n:1}, {much:n}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -2121,7 +2172,7 @@ Ce mot signifie en fait « vidéo » (c'est-à-dire des images visuelles en mouv
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{wab ta:n}</column>
-          <column name="notes"></column>
+          <column name="notes">This refers to a specific video file.[2]</column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
@@ -2131,7 +2182,7 @@ Ce mot signifie en fait « vidéo » (c'est-à-dire des images visuelles en mouv
           <column name="notes_fi"></column>
           <column name="notes_fr"></column>
           <column name="hidden_notes"></column>
-          <column name="components">{HaSta:n}, {ta:n}</column>
+          <column name="components">{HaSta:n:1}, {ta:n}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -2150,7 +2201,7 @@ Ce mot signifie en fait « vidéo » (c'est-à-dire des images visuelles en mouv
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi">kuvatallenne, videotallenne</column>
           <column name="search_tags_fr"></column>
-          <column name="source">[1] {KLI mailing list 2018.02.25:src}</column>
+          <column name="source">[1] {KLI mailing list 2018.02.25:src}, [2] {Saarbrücken qepHom'a' 2023:src}</column>
         </table>
     <table name="mem">
       <column name="_id"></column>
@@ -2177,7 +2228,7 @@ Ce mot signifie en fait « vidéo » (c'est-à-dire des images visuelles en mouv
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes">Maltz had a hunch this was shortened at some point from {HaSta 'ay':n@@HaSta:n, 'ay':n}, but that may be a folk etymology.[1]
+      <column name="hidden_notes">Maltz had a hunch this was shortened at some point from {HaSta 'ay':n@@HaSta:n:2, 'ay':n}, but that may be a folk etymology.[1]
 
 This resembles the actual etymology of "pixel", which is shortened from "picture element".</column>
       <column name="components"></column>

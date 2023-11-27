@@ -5598,8 +5598,55 @@ Le pluriel de ceci est {wIjwI'pu' ngeb:n@@wIjwI' ngeb:n, -pu':n:suff}.[2] [AUTOT
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">wIy</column>
-      <column name="part_of_speech">n</column>
-      <column name="definition">tactical display, schematic, graphic representation</column>
+      <column name="part_of_speech">n:1</column>
+      <column name="definition">schematic, graphic representation</column>
+      <column name="definition_de">schematische, grafische Darstellung [AUTOTRANSLATED]</column>
+      <column name="definition_fa">شماتیک، نمایش گرافیکی [AUTOTRANSLATED]</column>
+      <column name="definition_sv">schematisk, grafisk framställning [AUTOTRANSLATED]</column>
+      <column name="definition_ru">схематическое, графическое изображение [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">示意圖、圖形表示 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">representação esquemática e gráfica [AUTOTRANSLATED]</column>
+      <column name="definition_fi">kaavamainen, graafinen esitys [AUTOTRANSLATED]</column>
+      <column name="definition_fr">représentation schématique et graphique [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{pu'jIn:n}, {ren:v}</column>
+      <column name="notes">This word might be translated as "schematic" or "graphic representation" or the like, and in military contexts it is used to refer to an abstract schematic of a battlefield. Used as ship's jargon, it refers to the "tactical display" mode of a {jIH:n:2,nolink} (see {wIy:n:2}).[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="notes_fr"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="examples_fr"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="search_tags_fr"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2023:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">wIy</column>
+      <column name="part_of_speech">n:2</column>
+      <column name="definition">tactical display (mode)</column>
       <column name="definition_de">taktische Anzeige</column>
       <column name="definition_fa">نمایش تاکتیکی [AUTOTRANSLATED]</column>
       <column name="definition_sv">taktisk skärm (på monitor)</column>
@@ -5610,21 +5657,21 @@ Le pluriel de ceci est {wIjwI'pu' ngeb:n@@wIjwI' ngeb:n, -pu':n:suff}.[2] [AUTOT
       <column name="definition_fr">affichage tactique, schématique, représentation graphique [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{cha':v}, {HaSta:n}, {tlhat:n}</column>
-      <column name="notes">This refers to an abstract schematic of a battlefield, which is displayed on a {jIH:n:2}. Contrast this with {HaSta:n}.
+      <column name="see_also">{cha':v}, {HaSta:n:2}, {tlhat:n}</column>
+      <column name="notes">This is actually the word for "schematic" (see {wIy:n:1}) which, when used as ship's jargon, refers to the "tactical display" mode of a {jIH:n:2,nolink}.[4]
 
-This is used as ship's jargon for the "tactical display" mode of a {jIH:n:2,nolink}. When used otherwise, it might be translated as "schematic" or "graphic representation" or the like.[4]</column>
-      <column name="notes_de">Dies bezieht sich auf ein abstraktes Schema eines Schlachtfeldes, das auf einem {jIH:n:2} angezeigt wird. Vergleichen Sie dies mit {HaSta:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fa">این به طرحواره انتزاعی یک میدان نبرد اشاره دارد که در {jIH:n:2} نمایش داده می شود. این مورد را با {HaSta:n} در تضاد کنید. [AUTOTRANSLATED]</column>
-      <column name="notes_sv">Detta hänvisar till ett abstrakt schema över ett slagfält, som visas på en {jIH:n:2}. Kontrast detta med {HaSta:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_ru">Это относится к абстрактной схеме поля битвы, которая отображается на {jIH:n:2}. Сравните это с {HaSta:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_zh_HK">這是指戰場的抽象示意圖，該示意圖顯示在{jIH:n:2}上。將此與{HaSta:n}進行對比。 [AUTOTRANSLATED]</column>
-      <column name="notes_pt">Isso se refere a um esquema abstrato de um campo de batalha, exibido em um {jIH:n:2}. Compare isso com {HaSta:n}. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Aluksen näytöllä ({jIH:n:2}) voi näkyä valokuvaa aluksen ulkopuolelta ({HaSta:n}) tai taktinen kaavio taistelukentästä ({wIy:n:nolink}).</column>
-      <column name="notes_fr">Il s'agit d'un schéma abstrait d'un champ de bataille, affiché sur un {jIH:n:2}. Comparez cela avec {HaSta:n}.
+Contrast this with {HaSta:n:2,nolink}, which is another display mode of a {jIH:n:2,nolink}.</column>
+      <column name="notes_de">Dies bezieht sich auf ein abstraktes Schema eines Schlachtfeldes, das auf einem {jIH:n:2} angezeigt wird. Vergleichen Sie dies mit {HaSta:n:2,nolink}. [AUTOTRANSLATED]</column>
+      <column name="notes_fa">این به طرحواره انتزاعی یک میدان نبرد اشاره دارد که در {jIH:n:2} نمایش داده می شود. این مورد را با {HaSta:n:2,nolink} در تضاد کنید. [AUTOTRANSLATED]</column>
+      <column name="notes_sv">Detta hänvisar till ett abstrakt schema över ett slagfält, som visas på en {jIH:n:2}. Kontrast detta med {HaSta:n:2,nolink}. [AUTOTRANSLATED]</column>
+      <column name="notes_ru">Это относится к абстрактной схеме поля битвы, которая отображается на {jIH:n:2}. Сравните это с {HaSta:n:2,nolink}. [AUTOTRANSLATED]</column>
+      <column name="notes_zh_HK">這是指戰場的抽象示意圖，該示意圖顯示在{jIH:n:2}上。將此與{HaSta:n:2,nolink}進行對比。 [AUTOTRANSLATED]</column>
+      <column name="notes_pt">Isso se refere a um esquema abstrato de um campo de batalha, exibido em um {jIH:n:2}. Compare isso com {HaSta:n:2,nolink}. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Aluksen näytöllä ({jIH:n:2}) voi näkyä valokuvaa aluksen ulkopuolelta ({HaSta:n:2,nolink}) tai taktinen kaavio taistelukentästä ({wIy:n:1,nolink}).</column>
+      <column name="notes_fr">Il s'agit d'un schéma abstrait d'un champ de bataille, affiché sur un {jIH:n:2}. Comparez cela avec {HaSta:n:2,nolink}.
 
 Ceci est utilisé comme jargon du navire pour le mode "affichage tactique" d'un {jIH:n:2,nolink}. Lorsqu'il est utilisé autrement, il peut être traduit par « schéma » ou « représentation graphique » ou autre.[4] [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">The first ever line of Klingon spoken on-screen was {wIy cha':sen@@wIy:n, cha':v}, in {Star Trek I:src}.</column>
+      <column name="hidden_notes">The first ever line of Klingon spoken on-screen was {wIy cha':sen@@wIy:n:2, cha':v}, in {Star Trek I:src}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {wIy yIcha'!:sen}
@@ -5669,33 +5716,33 @@ Ceci est utilisé comme jargon du navire pour le mode "affichage tactique" d'un 
           <column name="see_also"></column>
           <column name="notes">Watch Gowron say this: {YouTube video:url:http://youtu.be/ooFuTPjRtEM}
 
-The clipped Klingon form of this command would be {wIy cha'!:sen@@wIy:n, cha':v}</column>
+The clipped Klingon form of this command would be {wIy cha'!:sen@@wIy:n:2, cha':v}</column>
           <column name="notes_de">Beobachten Sie, wie Gowron Folgendes sagt: {YouTube video:url:http://youtu.be/ooFuTPjRtEM}
 
-Die abgeschnittene klingonische Form dieses Befehls wäre {wIy cha'!:sen@@wIy:n, cha':v} [AUTOTRANSLATED]</column>
+Die abgeschnittene klingonische Form dieses Befehls wäre {wIy cha'!:sen@@wIy:n:2, cha':v} [AUTOTRANSLATED]</column>
           <column name="notes_fa">تماشا کنید Gowron این را می گوید: {YouTube video:url:http://youtu.be/ooFuTPjRtEM}
 
-فرم کلینگون کلیپ شده این دستور {wIy cha'!:sen@@wIy:n, cha':v} خواهد بود [AUTOTRANSLATED]</column>
+فرم کلینگون کلیپ شده این دستور {wIy cha'!:sen@@wIy:n:2, cha':v} خواهد بود [AUTOTRANSLATED]</column>
           <column name="notes_sv">Se Gowron säga detta: {YouTube video:url:http://youtu.be/ooFuTPjRtEM}
 
-Den klippta Klingon-formen för detta kommando skulle vara {wIy cha'!:sen@@wIy:n, cha':v} [AUTOTRANSLATED]</column>
+Den klippta Klingon-formen för detta kommando skulle vara {wIy cha'!:sen@@wIy:n:2, cha':v} [AUTOTRANSLATED]</column>
           <column name="notes_ru">Посмотрите, как Гоурон скажет это: {YouTube video:url:http://youtu.be/ooFuTPjRtEM}
 
-Обрезанная клингонская форма этой команды будет {wIy cha'!:sen@@wIy:n, cha':v}. [AUTOTRANSLATED]</column>
+Обрезанная клингонская форма этой команды будет {wIy cha'!:sen@@wIy:n:2, cha':v}. [AUTOTRANSLATED]</column>
           <column name="notes_zh_HK">觀看Gowron這樣說：{YouTube video:url:http://youtu.be/ooFuTPjRtEM}
 
-該命令的裁剪的Klingon形式為{wIy cha'!:sen@@wIy:n, cha':v} [AUTOTRANSLATED]</column>
+該命令的裁剪的Klingon形式為{wIy cha'!:sen@@wIy:n:2, cha':v} [AUTOTRANSLATED]</column>
           <column name="notes_pt">Veja Gowron dizer o seguinte: {YouTube video:url:http://youtu.be/ooFuTPjRtEM}
 
-A forma Klingon recortada deste comando seria {wIy cha'!:sen@@wIy:n, cha':v} [AUTOTRANSLATED]</column>
+A forma Klingon recortada deste comando seria {wIy cha'!:sen@@wIy:n:2, cha':v} [AUTOTRANSLATED]</column>
           <column name="notes_fi">Katso, kuinka Gowron sanoo tämän: {YouTube video:url:http://youtu.be/ooFuTPjRtEM}
 
-Tämän komennon leikattu klingonimuoto olisi {wIy cha'!:sen@@wIy:n, cha':v} [AUTOTRANSLATED]</column>
+Tämän komennon leikattu klingonimuoto olisi {wIy cha'!:sen@@wIy:n:2, cha':v} [AUTOTRANSLATED]</column>
           <column name="notes_fr">Regardez Gowron dire ceci : {YouTube video:url:http://youtu.be/ooFuTPjRtEM}
 
-La forme Klingon découpée de cette commande serait {wIy cha'!:sen@@wIy:n, cha':v} [AUTOTRANSLATED]</column>
-          <column name="hidden_notes">The first ever line of Klingon spoken on-screen was {wIy cha':sen:nolink}, in {Star Trek I:src}.</column>
-          <column name="components">{wIy:n}, {yI-:v}, {cha':v}</column>
+La forme Klingon découpée de cette commande serait {wIy cha'!:sen@@wIy:n:2, cha':v} [AUTOTRANSLATED]</column>
+          <column name="hidden_notes">The first ever line of Klingon spoken on-screen was {wIy cha':sen@@wIy:n:2, cha':v}, in {Star Trek I:src}.</column>
+          <column name="components">{wIy:n:2}, {yI-:v}, {cha':v}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
