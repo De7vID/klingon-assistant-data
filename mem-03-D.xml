@@ -4987,6 +4987,53 @@ Ce verbe peut être appliqué aux avions, pour lesquels voir {Der:v:2}.[1] [AUTO
         </table>
         <table name="mem">
           <column name="_id"></column>
+          <column name="entry_name">DeS Do'ghI'</column>
+          <column name="part_of_speech">n:body,deriv</column>
+          <column name="definition">forearm (inner side)</column>
+          <column name="definition_de">Unterarm (Innenseite) [AUTOTRANSLATED]</column>
+          <column name="definition_fa">ساعد (سمت داخلی) [AUTOTRANSLATED]</column>
+          <column name="definition_sv">underarm (innersida) [AUTOTRANSLATED]</column>
+          <column name="definition_ru">предплечье (внутренняя сторона) [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">前臂（內側） [AUTOTRANSLATED]</column>
+          <column name="definition_pt">antebraço (lado interno) [AUTOTRANSLATED]</column>
+          <column name="definition_fi">kyynärvarsi (sisäpuoli) [AUTOTRANSLATED]</column>
+          <column name="definition_fr">avant-bras (côté intérieur) [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also">{DeS reStav:n}</column>
+          <column name="notes">This refers to the inner part of the forearm, which extends from the palm to the elbow pit ({DeS tutren:n}).[1]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="notes_fr"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{DeS:n:1}, {Do'ghI':n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="examples_fr"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="search_tags_fr"></column>
+          <column name="source">[1] {KLI mailing list 2023.12.29:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
           <column name="entry_name">DeS nev'ob</column>
           <column name="part_of_speech">n:body,deriv</column>
           <column name="definition">upper arm</column>
@@ -5001,7 +5048,7 @@ Ce verbe peut être appliqué aux avions, pour lesquels voir {Der:v:2}.[1] [AUTO
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
-          <column name="notes"></column>
+          <column name="notes">This refers to the entire upper part of the arm. Unless specificity is called for, {DeS:n:nolink} is generally left out of {DeS nev'ob:n:nolink}.[2]</column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
@@ -5030,13 +5077,13 @@ Ce verbe peut être appliqué aux avions, pour lesquels voir {Der:v:2}.[1] [AUTO
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
           <column name="search_tags_fr"></column>
-          <column name="source">[1] {KLI mailing list 2020.03.30:src}</column>
+          <column name="source">[1] {KLI mailing list 2020.03.30:src}, [2] {KLI mailing list 2023.12.29:src}</column>
         </table>
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">DeS reStav</column>
           <column name="part_of_speech">n:body,deriv</column>
-          <column name="definition">forearm (one side)</column>
+          <column name="definition">forearm (outer side)</column>
           <column name="definition_de">Unterarm (eine Seite)</column>
           <column name="definition_fa">ساعد (زیر دست) [AUTOTRANSLATED]</column>
           <column name="definition_sv">underarm (undersida) [AUTOTRANSLATED]</column>
@@ -5047,8 +5094,8 @@ Ce verbe peut être appliqué aux avions, pour lesquels voir {Der:v:2}.[1] [AUTO
           <column name="definition_fr">avant-bras (un côté) [AUTOTRANSLATED]</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
-          <column name="see_also"></column>
-          <column name="notes">This seems to refer to one side of the forearm (as {'uS reStav:n} refers to the shin), but it's not clear which. In comparison, {cha'neH:n} refers to the entire lower arm.</column>
+          <column name="see_also">{DeS Do'ghI':n}</column>
+          <column name="notes">This refers to the outer part of the forearm, which extends from the back of the hand to the outer part of the elbow. The other side is the {DeS Do'ghI':n}, while the entire forearm is the {cha'neH:n}. Unless specificity is called for, {DeS:n:nolink} is generally left out of {DeS reStav:n:nolink}.[2]</column>
           <column name="notes_de"></column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
@@ -5056,7 +5103,7 @@ Ce verbe peut être appliqué aux avions, pour lesquels voir {Der:v:2}.[1] [AUTO
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="notes_fr">Cela semble faire référence à un côté de l'avant-bras (comme {'uS reStav:n} fait référence au tibia), mais on ne sait pas lequel. En comparaison, {cha'neH:n} fait référence à l’ensemble de l’avant-bras. [AUTOTRANSLATED]</column>
+          <column name="notes_fr"></column>
           <column name="hidden_notes"></column>
           <column name="components">{DeS:n:1}, {reStav:n}</column>
           <column name="examples"></column>
@@ -5077,7 +5124,7 @@ Ce verbe peut être appliqué aux avions, pour lesquels voir {Der:v:2}.[1] [AUTO
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
           <column name="search_tags_fr"></column>
-          <column name="source">[1] {KLI mailing list 2020.03.30:src}</column>
+          <column name="source">[1] {KLI mailing list 2020.03.30:src}, [2] {KLI mailing list 2023.12.29:src}</column>
         </table>
         <table name="mem">
           <column name="_id"></column>
@@ -11521,7 +11568,7 @@ This was defined as "side". The clarification "direction, face" was added to dif
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'uS:n}, {cha'neH:n}, {reStav:n}</column>
-      <column name="notes">This means the back of the lower leg.</column>
+      <column name="notes">This means the back of the lower leg. It's possible to say {'uS Do'ghI':n:nolink}, but {'uS:n:nolink} tends to be used only if a distinction or comparison is being made with {DeS Do'ghI':n}.[2]</column>
       <column name="notes_de">Dies bedeutet die Rückseite des Unterschenkels. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این به معنی قسمت پایینی پا است. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta betyder bakbenet på underbenet. [AUTOTRANSLATED]</column>
@@ -11550,7 +11597,7 @@ This was defined as "side". The clarification "direction, face" was added to dif
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="search_tags_fr"></column>
-      <column name="source">[1] {KLI mailing list 2020.03.30:src}</column>
+      <column name="source">[1] {KLI mailing list 2020.03.30:src}, [2] {KLI mailing list 2023.12.29:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>

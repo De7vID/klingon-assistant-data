@@ -2735,7 +2735,6 @@ Une autre façon de faire référence au croissant de lune est {maS'e' loQHa' So
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes"></column>
-      <!-- This may be a mispronunciation and backfit of {matlh:n:name}. -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -2744,7 +2743,7 @@ Une autre façon de faire référence au croissant de lune est {maS'e' loQHa' So
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This is likely a mispronunciation and backfit for {matlh:n:name}, which suggests that Maltz was originally supposed to be the gunner who is killed for accidentally destroying the USS Grissom.</column>
       <column name="components"></column>
       <column name="examples">{matHa', DoS jonta' neH.:sen}</column>
       <column name="examples_de"></column>
@@ -15240,7 +15239,7 @@ Lorsqu'il est appliqué à {tlhIm:n}, {mutlh:v:nolink} signifie assembler le tap
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'uq:v}, {yItram:n}, {Su'wIn:n}, {la'qab:n}</column>
-      <column name="notes">This refers to a hand-held device with a shrill sound used, for example, to give warnings and the like. It does not refer to a musical instrument (except in the most avant-garde of compositions).[1]</column>
+      <column name="notes">This refers to a hand-held device with a shrill sound used, for example, to give warnings and the like. It does not refer to a musical instrument (except in the most avant-garde of compositions).[1] The verb to use with this is {SuS:v} (not {'uq:v}).[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -15269,5 +15268,5 @@ Lorsqu'il est appliqué à {tlhIm:n}, {mutlh:v:nolink} signifie assembler le tap
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="search_tags_fr"></column>
-      <column name="source">[1] {Saarbrücken qepHom'a' 2023:src}</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2023:src}, [2] {KLI mailing list 2023.12.15:src}</column>
     </table>
