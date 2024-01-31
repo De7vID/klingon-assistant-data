@@ -52,7 +52,7 @@ for filename in filenames:
 
           # Do an in-place substitution for the submitted translation.
           # (If multiple matching submissions exist, only the last one is used.)
-          line = re.sub(r">(.*)<", ">%s<" % used_submission.definition_translation, line)
+          line = re.sub(r">(.*)<", ">%s<" % used_submission.definition_translation.strip(), line)
 
           # Mark submission as used by removing it.
           submissions = [s for s in submissions if s != used_submission]
