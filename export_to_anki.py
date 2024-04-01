@@ -158,6 +158,7 @@ lang_to_deck_guid = {
   'de': 1699081434,
   'pt': 1407434471,
   'fi': 1255797072,
+  'fr': 2078716461,
 }
 
 # Parse arguments.
