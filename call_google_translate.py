@@ -37,11 +37,12 @@
 # sed -i "s/\(notes_.*\) \(\[[1-9]\]\)/\1\2/g" mem-*.xml
 
 from googletrans import Translator
-from googletrans.models import Translated
+# import translators as ts
 
 import fileinput
 import functools
 import re
+import sys
 import time
 
 # TODO: Refactor this and also use in renumber.py.
@@ -59,6 +60,19 @@ supported_languages_map = {
   "fi": "fi",
   "fr": "fr",
 }
+
+# Wrapper for translator call.
+translator = Translator()
+def translate(text, target_lang):
+  # Possible engines are: ts.google(), ts.deepl(), and ts.baidu().
+  try:
+    translation = translator.translate(text, src='en', dest=target_lang)
+    translation_text = translation.text
+    # translation_text = ts.deepl(text, from_language='en', to_language=target_lang)
+    # print("Translating: \"{}\", result: \"{}\".".format(text, translation_text), file=sys.stderr)
+    return translation_text
+  except Exception:
+    return ""
 
 # Check for balanced brackets.
 def balanced_brackets(line):
@@ -96,12 +110,13 @@ def compare_attrs(x, y):
   else:
     return 1
 
-translator = Translator()
 num_errors = 0
 multiline_notes = ""
 for filename in filenames:
   print("Translating file: {}".format(filename))
+  # Possible bug: This seems not to fail silently to read the entire file when the file is beyond a certain size!
   with fileinput.FileInput(filename, inplace=True) as file:
+    # Note: print statements below this point are written to file.
     definition = ""
     notes = ""
     in_comment = False
@@ -113,15 +128,18 @@ for filename in filenames:
       if not in_comment:
         definition_match = re.search(r"definition\">(.*)<", line)
         definition_translation_match = re.search(r"definition_(.+)\">TRANSLATE(?:: (.*))?<", line)
+        # print(line, end="", file=sys.stderr)
 
         # Get the source (English) text to translate.
         if (definition_match):
           definition = definition_match.group(1)
+          # print("Matched definition: {}".format(definition), file=sys.stderr)
           if not definition:
             print("<!-- ERROR: Missing definition. -->")
             num_errors += 1
 
         if (definition and definition_translation_match):
+          # print("Matched group: {}".format(definition_translation_match.group(1)), file=sys.stderr)
           language = supported_languages_map.get(definition_translation_match.group(1).replace('_','-'), "")
           if language != "":
             # Check for an override like "TRANSLATE: rocket launcher".
@@ -132,10 +150,10 @@ for filename in filenames:
             if definition.startswith('{') and definition.endswith('}'):
               line = re.sub(r">(.*)<", ">{}<".format(definition), line)
             else:
-              try:
-                translation = translator.translate(definition, src='en', dest=language)
-                line = re.sub(r">(.*)<", ">{} [AUTOTRANSLATED]<".format(translation.text), line)
-              except Exception:
+              translation_text = translate(definition, language)
+              if translation_text:
+                line = re.sub(r">(.*)<", ">{} [AUTOTRANSLATED]<".format(translation_text), line)
+              else:
                 line = re.sub(r">(.*)<", ">TRANSLATE<", line)
 
               # Rate-limit calls to Google Translate.
@@ -180,13 +198,8 @@ for filename in filenames:
         if (notes and notes_translation_match):
           language = supported_languages_map.get(notes_translation_match.group(1).replace('_','-'), "")
           if language != "":
-            try:
-              translation = translator.translate(notes, src='en', dest=language)
-            except Exception:
-              translation = Translated(src = "", dest = "", origin = "", text = notes, pronunciation = "")
-            # Note that Google Translate returns the original text if translation fails for some reason.
-            if translation.text != notes:
-              translation_text = translation.text
+            translation_text = translate(notes, language)
+            if translation_text:
               # Restore the links and references.
               link_number = 1
               missing_links = ""
