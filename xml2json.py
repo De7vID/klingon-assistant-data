@@ -272,6 +272,7 @@ ret['locales']['sv'] = 'Svenska'
 ret['locales']['zh_HK'] = '中文 (香港)'
 ret['locales']['pt'] = 'Português'
 ret['locales']['fi'] = 'Suomi'
+ret['locales']['fr'] = 'Français'
 
 ret['supported_locales'] = [
   'de',
