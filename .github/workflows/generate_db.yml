@@ -18,10 +18,15 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: ${{ matrix.python-version }}
+    - name: Install Perl dependencies
+      uses: perl-actions/install-with-cpanm@stable
+      with:
+        cpanfile: "cpanfile"
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Generate database
       run: |
-        generate_db.sh --noninteractive
+        chmod +x ./generate_db.sh
+        ./generate_db.sh --noninteractive

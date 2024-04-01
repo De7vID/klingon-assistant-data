@@ -10,7 +10,7 @@ SOURCE_DIR=$PWD
 ./export_to_anki.py --test > /dev/null
 if [[ ! $? = 0 ]]; then
     echo "Anki export is broken."
-    exit
+    exit 1
 fi
 
 # Check for non-interactive mode flag.
@@ -92,7 +92,7 @@ if [[ ! -z "$MISSING_IDS" ]]
 then
     echo "Missing IDs: run renumber.py."
     echo
-    exit
+    exit 1
 fi
 
 # Write database version number.
@@ -285,6 +285,9 @@ then
     echo "Sanity check failed, entries possibly missing or out of order:"
     echo "$IN_OUT_DIFF"
     echo
+    echo "Temporary files: $TMP_DIR"
+    echo
+    exit 1
 fi
 
 # Pause (in case of error).
