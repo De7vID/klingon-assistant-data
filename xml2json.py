@@ -190,10 +190,8 @@ def validatelinks(root, node):
 
             if len(tagsplit) > 1:
                 # The second field identifies the text type: don't bother
-                # validating url links, src attributions, or sentences.
-                if tagsplit[1] == 'url' or \
-                    tagsplit[1] == 'src' or \
-                    tagsplit[1] == 'sen':
+                # validating url links or src attributions.
+                if tagsplit[1] == 'url' or tagsplit[1] == 'src':
                     continue
                 # Check the flags in the third field and ignore text tagged
                 # with the "nolink" flag.
