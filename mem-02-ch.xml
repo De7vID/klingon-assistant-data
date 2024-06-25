@@ -627,7 +627,7 @@
       <column name="definition_de">sie (pl.) (sprachfähige Lebewesen)</column>
       <column name="definition_fa">آنها، آنها (قادر به استفاده از زبان) [AUTOTRANSLATED]</column>
       <column name="definition_sv">de, dem (förmögna till språk)</column>
-      <column name="definition_ru">Они, им (допустимо к использованию в языке)</column>
+      <column name="definition_ru">они (для говорящих существ)</column>
       <column name="definition_zh_HK">他們、她們</column>
       <column name="definition_pt">eles, elas (capazes de usar a linguagem)</column>
       <column name="definition_fi">he</column>
@@ -657,7 +657,25 @@ The imperative verb prefix when {chaH:n:nolink} is the object is {tI-:v:pref}.</
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
-      <column name="notes_ru"></column>
+      <column name="notes_ru">Единственное число этого местоимения — {ghaH:n:pro}.
+
+Глагольные префиксы, когда {chaH:n:nolink} является подлежащим:
+▶ {chaH:n:nolink}:{pagh:n:1h} = {0:v:pref}
+▶ {chaH:n:nolink}:{jIH:n:1h} = {mu-:v:pref}
+▶ {chaH:n:nolink}:{maH:n:1h} = {nu-:v:pref}
+▶ {chaH:n:nolink}:{SoH:n} = {nI-:v:pref}
+▶ {chaH:n:nolink}:{tlhIH:n} = {lI-:v:pref}
+▶ {chaH:n:nolink}:{ghaH:n}/{'oH:n} = {lu-:v:pref}
+▶ {chaH:n:nolink}:{chaH:n:nolink}/{bIH:n} = {0:v:pref}
+
+Глагольные префиксы, когда {chaH:n:nolink} является дополнением:
+▶ {jIH:n:1h}:{chaH:n:nolink} = {vI-:v:pref}
+▶ {maH:n:1h}:{chaH:n:nolink} = {DI-:v:pref}
+▶ {SoH:n}:{chaH:n:nolink} = {Da-:v:pref}
+▶ {tlhIH:n}:{chaH:n:nolink} = {bo-:v:pref}
+▶ {ghaH:n}/{'oH:n}/{chaH:n:nolink}/{bIH:n}:{chaH:n:nolink} = {0:v:pref}
+
+Глагольный префикс повелительного наклонения, когда {chaH:n:nolink} является дополнением: {tI-:v:pref}.</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi">Tämä on monikko {ghaH:n:pro}.
