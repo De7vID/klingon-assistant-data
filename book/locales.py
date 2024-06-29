@@ -1,67 +1,12 @@
 #!/usr/bin/env python3
 
-FI = {
-    "id": "fi",
-
-    "english": "Englanti",
-    "finnish": "Suomi",
-    "german": "Saksa",
-
-    "dictionary": "Sanakirja",
-    "proofreader": "Kielentarkistin",
-    "corpus": "Korpus",
-    "check": "Tarkista",
-    "no_errors": "Virheitä ei löytynyt.",
-    "errors_marked": "Löydetyt virheet on merkitty alla olevaan tekstiin.",
-
-    "unknown": "tuntematon",
-    "adjective": "adjektiivi",
-    "transitive verb": "tr. verbi",
-    "possibly transitive verb": "todn. tr. verbi",
-    "intransitive verb": "itr. verbi",
-    "possibly intransitive verb": "todn. itr. verbi",
-    "verb prefix": "etuliite",
-    "verb suffix": "pääte",
-    "verb": "verbi",
-    "noun suffix": "liite",
-    "noun": "substantiivi",
-    "question word": "kysymyssana",
-    "adverb": "adverbi",
-    "conjunction": "konjunktio",
-    "exclamation": "huudahdus",
-    "sentence": "esimerkkilause",
-
-    "plural": "monikko",
-    "singular": "yksikkö",
-
-    "slang": "slangia",
-    "regional": "alueell.",
-    "archaic": "vanh.",
-    "hypothetical": "hyp.",
-    "extracanonical": "ekstrakan.",
-
-    "examples": "Esimerkkejä",
-    "components": "Osat",
-    "derived": "Johdetut sanat",
-    "synonyms": "Synonyymi",
-    "antonyms": "Antonyymi",
-    "see_also": "Katso myös",
-    "source": "Lähteet",
-    "hidden_notes": "Lisätietoja",
-
-    "wiki": "Etsi Klingon Wikin sanakirjasta",
-    "klingonska": "Etsi Klingonskan kaanonin arkistosta",
-
-    "dictionary_info": "Tietoa sanakirjasta",
-    "search": "Hae",
-}
-
 EN = {
     "id": "en",
 
     "english": "English",
     "finnish": "Finnish",
     "german": "German",
+    "russian": "Russian",
 
     "dictionary": "Dictionary",
     "proofreader": "Proofreader",
@@ -112,12 +57,70 @@ EN = {
     "search": "Search",
 }
 
+FI = {
+    "id": "fi",
+
+    "english": "Englanti",
+    "finnish": "Suomi",
+    "german": "Saksa",
+    "russian": "Venäjä",
+
+    "dictionary": "Sanakirja",
+    "proofreader": "Kielentarkistin",
+    "corpus": "Korpus",
+    "check": "Tarkista",
+    "no_errors": "Virheitä ei löytynyt.",
+    "errors_marked": "Löydetyt virheet on merkitty alla olevaan tekstiin.",
+
+    "unknown": "tuntematon",
+    "adjective": "adjektiivi",
+    "transitive verb": "tr. verbi",
+    "possibly transitive verb": "todn. tr. verbi",
+    "intransitive verb": "itr. verbi",
+    "possibly intransitive verb": "todn. itr. verbi",
+    "verb prefix": "etuliite",
+    "verb suffix": "pääte",
+    "verb": "verbi",
+    "noun suffix": "liite",
+    "noun": "substantiivi",
+    "question word": "kysymyssana",
+    "adverb": "adverbi",
+    "conjunction": "konjunktio",
+    "exclamation": "huudahdus",
+    "sentence": "esimerkkilause",
+
+    "plural": "monikko",
+    "singular": "yksikkö",
+
+    "slang": "slangia",
+    "regional": "alueell.",
+    "archaic": "vanh.",
+    "hypothetical": "hyp.",
+    "extracanonical": "ekstrakan.",
+
+    "examples": "Esimerkkejä",
+    "components": "Osat",
+    "derived": "Johdetut sanat",
+    "synonyms": "Synonyymi",
+    "antonyms": "Antonyymi",
+    "see_also": "Katso myös",
+    "source": "Lähteet",
+    "hidden_notes": "Lisätietoja",
+
+    "wiki": "Etsi Klingon Wikin sanakirjasta",
+    "klingonska": "Etsi Klingonskan kaanonin arkistosta",
+
+    "dictionary_info": "Tietoa sanakirjasta",
+    "search": "Hae",
+}
+
 DE = {
     "id": "de",
 
     "english": "Englisch",
     "finnish": "Finnisch",
     "german": "Deutsch",
+    "russian": "Russisch",
 
     "dictionary": "Wörterbuch",
     "proofreader": "Sprachprüfer",
@@ -168,10 +171,66 @@ DE = {
     "search": "Suchen",
 }
 
+RU = {
+    "id": "ru",
 
+    "english": "английский",
+    "finnish": "финский",
+    "german": "немецкий",
+    "russian": "русский",
+
+    "dictionary": "Словарь",
+    "proofreader": "Корректор",
+    "corpus": "Текстовый корпус",
+    "check": "Проверить",
+    "no_errors": "Ошибок не найдено.",
+    "errors_marked": "Обнаруженные ошибки отмечены в тексте ниже.",
+
+    "unknown": "неизвестно",
+    "adjective": "прилагательное",
+    "transitive verb": "перех. гл.",
+    "possibly transitive verb": "возможно перех. гл.",
+    "intransitive verb": "неперех. гл.",
+    "possibly intransitive verb": "возможно неперех. гл.",
+    "verb prefix": "префикс гл.",
+    "verb suffix": "суффикс гл.",
+    "verb": "глагол",
+    "noun suffix": "суффикс сущ.",
+    "noun": "существительное",
+    "question word": "вопросительное сл.",
+    "adverb": "наречие",
+    "conjunction": "союз",
+    "exclamation": "восклицание",
+    "sentence": "пример предлж.",
+
+    "plural": "множественное число",
+    "singular": "единственное число",
+
+    "slang": "сленг",
+    "regional": "региональный",
+    "archaic": "устаревший",
+    "hypothetical": "гипотетический",
+    "extracanonical": "внеканонический",
+
+    "examples": "Примеры",
+    "components": "Компоненты",
+    "derived": "Производные слова",
+    "synonyms": "Синонимы",
+    "antonyms": "Антонимы",
+    "see_also": "См. также",
+    "source": "Источники",
+    "hidden_notes": "Скрытые заметки",
+
+    "wiki": "Искать в словаре современного клингона (Klingon Wiki)",
+    "klingonska": "Искать в архиве канона Klingonska",
+
+    "dictionary_info": "О словаре",
+    "search": "Поиск",
+}
 
 locale_map = {
     "en": EN,
     "fi": FI,
     "de": DE,
+    "ru": RU,
 }
