@@ -22,6 +22,7 @@ dictionary = yajwiz.boqwiz.BoqwizDictionary.from_json(json.loads(json_string))
 
 derived_index = DefaultDict[str, List[BoqwizEntry]](list)
 
+
 def make_derived_index():
     global derived_index
     for entry in dictionary.entries.values():
@@ -45,16 +46,21 @@ QUERY_OPERATORS: Dict[str, Callable[[BoqwizEntry, str], Any]] = {
     "see": lambda entry, arg: re.search(fix_xifan(arg), entry.see_also or ""),
 }
 
+
 def add_operators(language: str):
-    QUERY_OPERATORS[language] = lambda entry, arg: (re.search(arg, entry.definition[language]) or arg in entry.search_tags.get(language, []))
+    QUERY_OPERATORS[language] = lambda entry, arg: (re.search(arg, entry.definition[language]) or
+                                                    arg in entry.search_tags.get(language, []))
     QUERY_OPERATORS[language+"notes"] = lambda entry, arg: re.search(arg, entry.notes.get(language, ""))
     QUERY_OPERATORS[language+"ex"] = lambda entry, arg: re.search(arg, entry.examples.get(language, ""))
+
 
 def init_operators():
     for language in dictionary.locales:
         add_operators(language)
 
+
 init_operators()
+
 
 def get_wiki_name(name: str) -> str:
     name = name.replace(" ", "")
@@ -70,6 +76,7 @@ def get_wiki_name(name: str) -> str:
             ans += letter
 
     return ans.capitalize()
+
 
 class DictionaryQuery:
     def __init__(self, query: str, language: str, link_format: Literal["html", "latex"] = "html"):
@@ -157,7 +164,7 @@ class DictionaryQuery:
             try:
                 f = query_function(entry)
 
-            except:
+            except Exception:
                 logger.exception("Error during executing query", exc_info=sys.exc_info())
                 f = False
 
@@ -199,7 +206,8 @@ class DictionaryQuery:
         part = parts.pop(0)
         if part == "(":
             r = self.parse_or(parts)
-            if parts: parts.pop(0) # )
+            if parts:
+                parts.pop(0)  # )
             return r
 
         if part in {"NOT", "EI"}:
@@ -240,7 +248,8 @@ class DictionaryQuery:
             "syllables": yajwiz.split_to_syllables(entry.name),
             "morphemes": list(map(list, yajwiz.split_to_morphemes(entry.name))),
             "pos": self.locale_strings["unknown"],
-            "simple_pos": "affix" if entry.name.startswith("-") or entry.name.endswith("-") or entry.name == "0" else entry.simple_pos,
+            "simple_pos": "affix" if entry.name.startswith("-") or entry.name.endswith("-") or entry.name == "0"
+                          else entry.simple_pos,
             "boqwi_tags": list(entry.tags),
             "tags": [],
             "rendered_link": self.link_renderer.render_link(entry.name, entry.simple_pos, entry.tags),
@@ -379,6 +388,7 @@ class DictionaryQuery:
         ans += text
         return ans.replace("\n", "<br>")
 
+
 class LinkRenderer:
     def __init__(self, query: DictionaryQuery):
         self.query = query
@@ -429,6 +439,7 @@ class LinkRenderer:
 
         return f"<a href=\"?q=tlh:&quot;^{link_text.replace(' ', '+')}$&quot;{pos}{hom_pos}\" class=\"pos-{style}\"{defn}>{hyp}<span okrand>{link_text}</span>{hom}</a>"
 
+
 class LinkRendererLatex(LinkRenderer):
     def fix_link(self, link: str) -> str:
         link_text, link_type, tags, parts1, parts2 = parse_link(link)
@@ -444,7 +455,7 @@ class LinkRendererLatex(LinkRenderer):
             return "\\klingonref[src]{" + link_text + "}"
 
         elif link_type == "url":
-            addr = parts2[2]
+            # addr = parts2[2]
             return "\\klingonref[url]{" + link_text + "}"
 
         elif len(parts1) == 2:
@@ -474,15 +485,19 @@ class LinkRendererLatex(LinkRenderer):
 
         return "\\klingonref[%s]{%s\\klingontext{%s}%s}" % (style, hyp, link_text, hom)
 
+
 def dictionary_query(query: str, lang: str, link_format: Literal["html", "latex"]):
     return DictionaryQuery(query=query, language=lang, link_format=link_format).execute_query()
+
 
 def any_word_starts_with(word: str, words: List[str]):
     return any([part.lower().startswith(word.lower()) for part in words])
 
+
 def get_id(link_text: str, link_type: str, tags: Collection[str]) -> str:
     homonyms = [tag.strip("h") for tag in tags if re.fullmatch(r"\d+h?", tag)]
     return link_text + ":" + ":".join([link_type] + homonyms)
+
 
 def get_links(text: str) -> List[str]:
     ids = []
@@ -496,6 +511,7 @@ def get_links(text: str) -> List[str]:
 
     return ids
 
+
 def parse_link(link: str):
     parts1 = link.split("@@")
     parts2 = parts1[0].split(":")
@@ -503,6 +519,7 @@ def parse_link(link: str):
     link_type = parts2[1] if len(parts2) > 1 else ""
     tags = parts2[2].split(",") if len(parts2) > 2 else []
     return link_text, link_type, tags, parts1, parts2
+
 
 def fix_xifan(query: str) -> str:
     query = re.sub(r"i", "I", query)
@@ -514,5 +531,6 @@ def fix_xifan(query: str) -> str:
     query = re.sub(r"c(?!h)", "ch", query)
     query = re.sub(r"(?<!n)g(?!h)", "gh", query)
     return query
+
 
 make_derived_index()
