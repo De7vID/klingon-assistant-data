@@ -227,10 +227,9 @@ for i, part in enumerate(memparts):
     filenames.append(os.path.join(sdir,'mem-{0:02d}-{1}.xml'.format(i, part)))
 
 # Concatenate the individual files into a single database string
-mem = fileinput.FileInput(files=filenames)
-for line in mem:
-    concat += line
-mem.close()
+for file in filenames:
+    with open(file) as fh:
+        concat += fh.read()
 
 # Read the database version from the version file
 ver = fileinput.FileInput(files=(os.path.join(sdir,'VERSION')))

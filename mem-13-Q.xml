@@ -769,7 +769,7 @@ Ne confondez pas cela avec le nom similaire {qa'raj:n}. [AUTOTRANSLATED]</column
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qal</column>
-      <column name="part_of_speech">v:i</column>
+      <column name="part_of_speech">v:1,i</column>
       <column name="definition">swim</column>
       <column name="definition_de">schwimmen</column>
       <column name="definition_fa">شنا کردن</column>
@@ -813,22 +813,69 @@ Ne confondez pas cela avec le nom similaire {qa'raj:n}. [AUTOTRANSLATED]</column
       <column name="search_tags_fr"></column>
       <column name="source">[1] {TNK:src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">QalmeH DoQmIv'a'</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">swimming pool</column>
+          <column name="definition_de">Schwimmbecken</column>
+          <column name="definition_fa">استخر</column>
+          <column name="definition_sv">simbassäng [AUTOTRANSLATED]</column>
+          <column name="definition_ru">плавательный бассеин</column>
+          <column name="definition_zh_HK">游泳池</column>
+          <column name="definition_pt">piscina</column>
+          <column name="definition_fi">uima-allas</column>
+          <column name="definition_fr">piscine [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also">{Say'moHmeH DoQmIv'a':n}</column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="notes_fr"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{Qal:v:1}, {-meH:v}, {DoQmIv'a':n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="examples_fr"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="search_tags_fr"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
-      <column name="entry_name">QalmeH DoQmIv'a'</column>
-      <column name="part_of_speech">n:deriv</column>
-      <column name="definition">swimming pool</column>
-      <column name="definition_de">Schwimmbecken</column>
-      <column name="definition_fa">استخر</column>
-      <column name="definition_sv">simbassäng [AUTOTRANSLATED]</column>
-      <column name="definition_ru">плавательный бассеин</column>
-      <column name="definition_zh_HK">游泳池</column>
-      <column name="definition_pt">piscina</column>
-      <column name="definition_fi">uima-allas</column>
-      <column name="definition_fr">piscine [AUTOTRANSLATED]</column>
+      <column name="entry_name">Qal</column>
+      <column name="part_of_speech">v:2,is,slang</column>
+      <column name="definition">be flirty</column>
+      <column name="definition_de">kokett sein</column>
+      <column name="definition_fa">معاشقه باشد [AUTOTRANSLATED]</column>
+      <column name="definition_sv">var flirtig [AUTOTRANSLATED]</column>
+      <column name="definition_ru">быть кокетливым [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">調情 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">seja sedutor [AUTOTRANSLATED]</column>
+      <column name="definition_fi">olla flirttaileva</column>
+      <column name="definition_fr">être affectueux [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{Say'moHmeH DoQmIv'a':n}</column>
+      <column name="see_also">{yar:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -839,7 +886,7 @@ Ne confondez pas cela avec le nom similaire {qa'raj:n}. [AUTOTRANSLATED]</column
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{Qal:v}, {-meH:v}, {DoQmIv'a':n}</column>
+      <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -858,7 +905,7 @@ Ne confondez pas cela avec le nom similaire {qa'raj:n}. [AUTOTRANSLATED]</column
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="search_tags_fr"></column>
-      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+      <column name="source">[1] {qep'a' 31 (2024):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -1288,6 +1335,53 @@ Ne confondez pas cela avec le nom similaire {qa'raj:n}. [AUTOTRANSLATED]</column
           <column name="search_tags_fr"></column>
           <column name="source">[1] {qep'a' 25 (2018):src}</column>
         </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">QapmIw</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">career</column>
+      <column name="definition_de">Karriere</column>
+      <column name="definition_fa">حرفه [AUTOTRANSLATED]</column>
+      <column name="definition_sv">karriär [AUTOTRANSLATED]</column>
+      <column name="definition_ru">карьера [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">職業 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">carreira [AUTOTRANSLATED]</column>
+      <column name="definition_fi">(ammatti)ura</column>
+      <column name="definition_fr">carrière</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{Qu':n}, {ghIgh:n:2}, {vum:v}, {baj:v}, {'aSteD:n}</column>
+      <column name="notes">This is not the same as {'aSteD:n:nolink}.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="notes_fr"></column>
+      <column name="hidden_notes"></column>
+      <column name="components">{Qap:v:1}, {mIw:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="examples_fr"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi">ammattiura, ura, työura</column>
+      <column name="search_tags_fr"></column>
+      <column name="source">[1] {qep'a' 31 (2024):src}</column>
+    </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Qapla'</column>
@@ -4132,7 +4226,7 @@ Aluksen komentokannen sana (jota kutsutaan myös englanniksi "sillaksi") on {meH
       <column name="notes_fr">Pour dire qu'un pont enjambe quelque chose (une rivière, une vallée, etc.), utilisez {vech:v}.
 
 Le mot désignant le pont de commandement d'un navire (également appelé « pont » en anglais) est {meH:n}. [AUTOTRANSLATED]</column>
-      <column name="hidden_notes">This is a reference to the novel "The Bridge over the River Kwai" ("Le Pont de la Rivière Kwai") by Pierre Boulle.</column>
+      <column name="hidden_notes">This might be a reference to the novel "The Bridge over the River Kwai" ("Le Pont de la Rivière Kwai") by Pierre Boulle, or to the Francis Scott Key Bridge, or both.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4434,7 +4528,7 @@ The names of the Klingon consonants consist of the sound followed by {ay:sen:nol
 
 Дифтонги {aw:sen:nolink}, {ew:sen:nolink}, {Iw:sen:nolink}, {ay:sen:nolink}, {ey:sen:nolink}, {Iy:sen:nolink}, {oy:sen:nolink}, и {uy:sen:nolink} также возможны, и звучат также естественно, как и их компоненты. Заметьте, что {ay:sen:nolink} рифмуется со словом "край", в то время, как {ey:sen:nolink} рифмуется с "клей" или "Мэй"(Ванесса Мей).
 
-Названия Клингонских согласных состоят  из звуков, которые следуют за {ay:sen:nolink}, и названий гласных состоящих из звуков, которым предшествует {':sen:nolink} и следующих за {t:sen:nolink}. Гортанная смычка является исключением, названная {qaghwI':n}.[4]</column>
+Названия Клингонских согласных состоят из звуков, которые следуют за {ay:sen:nolink}, и названий гласных состоящих из звуков, которым предшествует {':sen:nolink} и следующих за {t:sen:nolink}. Гортанная смычка является исключением, названная {qaghwI':n}.[4]</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
@@ -5764,7 +5858,7 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
       <column name="definition_ru">Криштак</column>
       <column name="definition_zh_HK">Kri'stak [AUTOTRANSLATED]</column>
       <column name="definition_pt">Kri'stak</column>
-      <column name="definition_fi">Kri'stak</column>
+      <column name="definition_fi">eräs tulivuori, Kri'stak</column>
       <column name="definition_fr">Kri'stak [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5999,7 +6093,7 @@ This word was awarded to {janSIy:n:name,nolink} as a Friend of Maltz.</column>
       <column name="definition_ru">Хитомер</column>
       <column name="definition_zh_HK">「凱托摩爾」</column>
       <column name="definition_pt">Khitomer</column>
-      <column name="definition_fi">Khitomer</column>
+      <column name="definition_fi">eräs planeetta, Khitomer</column>
       <column name="definition_fr">Khitomère [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7437,7 +7531,7 @@ L’accord est également exprimé par l’expression idiomatique {wa' DoS wIqIp
       <column name="entry_name">QopmoH</column>
       <column name="part_of_speech">v:t_c,deriv</column>
       <column name="definition">wear out</column>
-      <column name="definition_de">abnutzen </column>
+      <column name="definition_de">abnutzen</column>
       <column name="definition_fa">از بین میرود [AUTOTRANSLATED]</column>
       <column name="definition_sv">slita ut</column>
       <column name="definition_ru">изнашивать, состаривать, истощать, истрепать</column>
@@ -8038,7 +8132,7 @@ Ce verbe pourrait être approprié si les Klingons se livraient au shadowboxing.
       <column name="definition_ru">Регион Кротмаг</column>
       <column name="definition_zh_HK">Krotmag州 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Região de Krotmag</column>
-      <column name="definition_fi">Krotmagin alue</column>
+      <column name="definition_fi">eräs Kronoksen alue, Krotmagin alue</column>
       <column name="definition_fr">Région du Krotmag [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8501,7 +8595,7 @@ Os klingons consideram os títulos de propriedade ({yer ghajwI' chaw':n}) como u
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qang:v:1}, {lIch:v}, {teb:v}, {buy':v}</column>
-      <column name="notes">This is used when the liquid slops over or out of whatever container it was in. </column>
+      <column name="notes">This is used when the liquid slops over or out of whatever container it was in.</column>
       <column name="notes_de">Dies wird verwendet, wenn die Flüssigkeit über oder aus dem Behälter tropft, in dem sie sich befand. [AUTOTRANSLATED]</column>
       <column name="notes_fa">این مورد زمانی استفاده می شود که مایع بیش از هر ظرفی که داخل آن باشد ، خارج یا خارج شود. [AUTOTRANSLATED]</column>
       <column name="notes_sv">Detta används när vätskan hoppar över eller ut ur vilken behållare den var i. [AUTOTRANSLATED]</column>
@@ -8591,7 +8685,7 @@ Os klingons consideram os títulos de propriedade ({yer ghajwI' chaw':n}) como u
       <column name="definition_ru">Кронос</column>
       <column name="definition_zh_HK">「克洛诺斯」星</column>
       <column name="definition_pt">Kronos</column>
-      <column name="definition_fi">Kronos</column>
+      <column name="definition_fi">eräs planeetta, Kronos</column>
       <column name="definition_fr">Cronos [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8603,7 +8697,7 @@ Os klingons consideram os títulos de propriedade ({yer ghajwI' chaw':n}) como u
       <column name="notes_ru">Это название Клингонского родного мира</column>
       <column name="notes_zh_HK">這是克林崗家庭世界的名稱。 [AUTOTRANSLATED]</column>
       <column name="notes_pt">Este é o nome do mundo dos Klingon. [AUTOTRANSLATED]</column>
-      <column name="notes_fi">Tämä on Klingonin kotimaailman nimi. [AUTOTRANSLATED]</column>
+      <column name="notes_fi">Tämä on klingonien kotimaailman nimi.</column>
       <column name="notes_fr"></column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
@@ -8850,7 +8944,7 @@ O significado da gíria de {chong:v:2,slang}, quando aplicado a uma pessoa, é e
       <column name="definition_fr">front [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{vIl:v:1}, {vIlHom:n}, {Sep Hol Sar:n}</column>
+      <column name="see_also">{vIl:v:1}, {vIlHom:n}, {vItlhpach:n}, {Sep Hol Sar:n}</column>
       <column name="notes">Regional words for forehead include: {boD:n}, {jargh:n}, {mIQ:n}, {'aQlo':n}, {Huy'Dung:n}, {tuqvol:n}, and {no''och:n}.</column>
       <column name="notes_de">Regionale Wörter für die Stirn umfassen: {boD:n}, {jargh:n}, {mIQ:n}, {'aQlo':n}, {Huy'Dung:n}, {tuqvol:n} und {no''och:n}. [AUTOTRANSLATED]</column>
       <column name="notes_fa">کلمات منطقه ای پیشانی عبارتند از: {boD:n} ، {jargh:n} ، {mIQ:n} ، {'aQlo':n} ، {Huy'Dung:n} ، {tuqvol:n} و {no''och:n}. [AUTOTRANSLATED]</column>
@@ -9847,7 +9941,7 @@ In the example, {polmeH QujwI' lIw:n:nolink} is not a fixed construction, even t
       <column name="definition_fr">Dieu, être surnaturel [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{chuQun:n}, {qa':n}</column>
+      <column name="see_also">{chuQun:n}, {qa':n}, {ye:v}</column>
       <column name="notes">Little is known about the Klingon gods, except that it seems they acted collectively, and no single individual stood out from among them. {Qun'a':n:nolink} may or may not be an appropriate translation for the supreme deity of a monotheistic religion, since the {Qun'a':n:nolink} would still be one among many.[1]</column>
       <column name="notes_de">Über die klingonischen Götter ist wenig bekannt, außer dass sie anscheinend gemeinsam gehandelt haben und sich kein Einzelner von ihnen abhob. {Qun'a':n:nolink} kann eine geeignete Übersetzung für die höchste Gottheit einer monotheistischen Religion sein oder auch nicht, da {Qun'a':n:nolink} immer noch eine von vielen wäre.[1] [AUTOTRANSLATED]</column>
       <column name="notes_fa">در مورد خدایان کلینگون چیزهای کمی شناخته شده است ، با این تفاوت که به نظر می رسد آنها به طور جمعی عمل می کردند و هیچ فردی مجزا از میان آنها نمی ایستاد. {Qun'a':n:nolink} ممکن است ترجمه ای مناسب برای خدای متعال یک دین توحیدی باشد ، زیرا ممکن است {Qun'a':n:nolink} یکی از بسیاری از افراد باشد.[1] [AUTOTRANSLATED]</column>
@@ -10415,7 +10509,7 @@ In the example, {polmeH QujwI' lIw:n:nolink} is not a fixed construction, even t
       <column name="definition_fr">devoir, quête, mission, tâche, corvée [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{baj:v}, {vum:v}, {tur:v}, {ghIgh:n:2}, {yaH:n}, {Hoq:n}, {tuH:n}, {bel Qu':n}, {Qu'Hom:n}</column>
+      <column name="see_also">{baj:v}, {vum:v}, {tur:v}, {QapmIw:n}, {ghIgh:n:2}, {yaH:n}, {Hoq:n}, {tuH:n}, {bel Qu':n}, {Qu'Hom:n}</column>
       <column name="notes">A {per yuD:n} usually ends in {Qu':n:nolink}.[2]</column>
       <column name="notes_de">Ein {per yuD:n} endet normalerweise mit {Qu':n:nolink}.[2] [AUTOTRANSLATED]</column>
       <column name="notes_fa"></column>

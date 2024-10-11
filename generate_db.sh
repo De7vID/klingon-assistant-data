@@ -161,6 +161,15 @@ then
     echo
 fi
 
+# Print any field beginning in a space, or ending in a space or comma.
+MISPLACED_SPACE_OR_COMMA=$(grep "> \|>.*  \|[^ >]\+  .*<\|>.*[ ,]<" $TMP_DIR/mem.xml)
+if [[ ! -z "$MISPLACED_SPACE_OR_COMMA" ]]
+then
+    echo "Misplaced space or comma:"
+    echo "$MISPLACED_SPACE_OR_COMMA"
+    echo
+fi
+
 # Print any junk that accidentally added to the XML file at the beginning of a line.
 BOL_JUNK=$(grep "^\s*[^ ]\+\s*<\(table\|column\)" $TMP_DIR/mem.xml)
 if [[ ! -z "$BOL_JUNK" ]]
