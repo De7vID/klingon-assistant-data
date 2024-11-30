@@ -3099,6 +3099,53 @@ In British English, this word refers to what would be called a "trapezium".</col
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">qaStaHvIS wa' rep</column>
+      <column name="part_of_speech">sen:idiom</column>
+      <column name="definition">per hour (e.g., distance per hour)</column>
+      <column name="definition_de">pro Stunde (z. B. Entfernung pro Stunde) [AUTOTRANSLATED]</column>
+      <column name="definition_fa">در هر ساعت (به عنوان مثال، مسافت در ساعت) [AUTOTRANSLATED]</column>
+      <column name="definition_sv">per timme (t.ex. distans per timme) [AUTOTRANSLATED]</column>
+      <column name="definition_ru">в час (например, расстояние в час) [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">每小時（例如每小時的距離） [AUTOTRANSLATED]</column>
+      <column name="definition_pt">por hora (por exemplo, distância por hora) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">tunnissa (esim. etäisyys tunnissa) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">par heure (par exemple, distance par heure) [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="notes_fr"></column>
+      <column name="hidden_notes">This was defined as "[distance] per hour", but clearly the "[distance]" part is an example and not part of the definition.</column>
+      <column name="components">{qaS:v}, {-taH:v}, {-vIS:v}, {wa':n:num}, {rep:n}</column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="examples_fr"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="search_tags_fr"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2024:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">qaStaHvIS wej puq poHmey vav puqloDpu' puqloDpu'chaj je quvHa'moH vav quvHa'ghach.</column>
       <column name="part_of_speech">sen:phr</column>
       <column name="definition">The dishonor of the father dishonors his sons and their sons for three generations.</column>
@@ -4365,7 +4412,9 @@ This is confirmed as intransitive since {qaw'moH:v} was also glossed as "make so
       <column name="see_also">{tam:v:2}, {mech:v}, {'e' qa':sen}</column>
       <column name="notes">The subject does the replacing, and the object is replaced.
 
-This verb seems to have been derived from {qa'meH:n}, possibly through misinterpretation of what was originally the suffix {-qa':v}.</column>
+This verb seems to have been derived from {qa'meH:n}, possibly through misinterpretation of what was originally the suffix {-qa':v}.
+
+This verb is used with {ngutlh:n:nolink} (see {ngutlhmey qa':sen}) to express the concept of transliteration.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -4402,7 +4451,7 @@ Tämä verbi näyttäisi olevan johdettu {qa'meH:n}:sta, mahdollisesti tulkitsem
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="search_tags_fr"></column>
-      <column name="source">[1] {Klingon Monopoly:src}</column>
+      <column name="source">[1] {Klingon Monopoly:src}, [2] {Saarbrücken qepHom'a' 2024:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
