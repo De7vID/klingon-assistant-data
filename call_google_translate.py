@@ -192,7 +192,7 @@ for filename in filenames:
           link_matches = re.findall(r"({[^{}]*}|\[[^\[\]]*\])", notes)
           link_number = 1
           for link_match in link_matches:
-            notes = re.sub(link_match.replace("[", "\[").replace("]", "\]"), "DONOTTRANSLATE{}".format(link_number), notes, 1)
+            notes = re.sub(link_match.replace("[", r"\[").replace("]", r"\]"), "DONOTTRANSLATE{}".format(link_number), notes, 1)
             link_number += 1
 
         if (notes and notes_translation_match):
