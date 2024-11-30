@@ -4564,7 +4564,7 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
       <column name="_id"></column>
       <column name="entry_name">Hergh</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">medicine</column>
+      <column name="definition">medicine (substance)</column>
       <column name="definition_de">Medizin</column>
       <column name="definition_fa">دارو</column>
       <column name="definition_sv">medicin</column>
@@ -4575,7 +4575,7 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
       <column name="definition_fr">médecine [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{vor:v}, {Qel:n:1h}, {tar:n}, {ngej:v}, {Sev:n}, {Hergh QaywI':n}, {'enteD:n}</column>
+      <column name="see_also">{vor:v}, {Qel:n:1h}, {tar:n}, {ngej:v}, {Sev:n}, {Hergh QaywI':n}, {'enteD:n}, {'on'aS:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -4585,7 +4585,7 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as just "medicine". The "(substance)" was added to distinguish this from {'on'aS:n:nolink}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {Hergh ngevwI':n}
@@ -4752,6 +4752,53 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
           <column name="search_tags_fi"></column>
           <column name="search_tags_fr"></column>
           <column name="source">[1] {TKDA:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">HerghQeD</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">pharmacology</column>
+          <column name="definition_de">Pharmakologie [AUTOTRANSLATED]</column>
+          <column name="definition_fa">فارماکولوژی [AUTOTRANSLATED]</column>
+          <column name="definition_sv">farmakologi [AUTOTRANSLATED]</column>
+          <column name="definition_ru">фармакология [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">藥理 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">farmacologia [AUTOTRANSLATED]</column>
+          <column name="definition_fi">farmakologia [AUTOTRANSLATED]</column>
+          <column name="definition_fr">pharmacologie [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also">{'on'aSQeD:n}</column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="notes_fr"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{Hergh:n}, {QeD:n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="examples_fr"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="search_tags_fr"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2024:src}</column>
         </table>
         <table name="mem">
           <column name="_id"></column>
@@ -7574,7 +7621,7 @@ The first item in a list of words (for example) would be {mu' wa'DIch:n@@mu':n, 
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'op:n}, {bID:n}</column>
-      <column name="notes"></column>
+      <column name="notes">{HochHom:n:nolink} works mostly like {Hoch:n}, but unlike {Hoch:n}, explicit plural marking on the noun following {HochHom:n:nolink} is irrelevant.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -7607,7 +7654,7 @@ The first item in a list of words (for example) would be {mu' wa'DIch:n@@mu':n, 
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="search_tags_fr"></column>
-      <column name="source">[1] {KGT:src}, [2] {SkyBox S15:src} (reprinted in {HQ 4.3, p.4-5, Sep. 1995:src})</column>
+      <column name="source">[1] {KGT:src}, [2] {SkyBox S15:src} (reprinted in {HQ 4.3, p.4-5, Sep. 1995:src}), [3] {Saarbrücken qepHom'a' 2024:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
