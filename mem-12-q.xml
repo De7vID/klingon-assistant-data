@@ -12428,7 +12428,7 @@ Ricardo Montalbán (Khan Noonien Singh) appeared in a series of Chrysler commerc
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">qubbID</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:1</column>
       <column name="definition">span, run, stretch (between)</column>
       <column name="definition_de">Abstand, Strecke, Ausdehnung</column>
       <column name="definition_fa">دهانه ، اجرا ، کشش (بین) [AUTOTRANSLATED]</column>
@@ -12443,9 +12443,9 @@ Ricardo Montalbán (Khan Noonien Singh) appeared in a series of Chrysler commerc
       <column name="see_also">{SIch:v}, {joj:n}</column>
       <column name="notes">This refers to the full stretch of time or distance or whatever between the two ends of a range.[1]
 
-To express the idea of some point (perhaps unknown) between the two ends of a range, use {rav ... 'aqroS ...:sen}.[2]
+To express the idea of some point (perhaps unknown) between the two ends of a range, use {rav ... 'aqroS ...:sen}.[1]
 
-This word is also used in mathematics as a short form of {ra'Duch leD qubbID:n}.[2]</column>
+This word is also used in mathematics as a short form of {ra'Duch leD qubbID:n} (see {qubbID:n:2}).[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -12457,8 +12457,8 @@ This word is also used in mathematics as a short form of {ra'Duch leD qubbID:n}.
       <column name="hidden_notes">The cubit and span are ancient units of length, with a span being equal to half ({bID:n}) a cubit.</column>
       <column name="components"></column>
       <column name="examples">
-▶ {DaSjaj buqjaj (je) qubbID maleng:sen@@DaSjaj:n, buqjaj:n, je:conj, qubbID:n, ma-:v, leng:v} "we travel Monday to Friday", "we travel between Monday and Friday"
-▶ {DaSjaj buqjaj (je) qubbID maghom:sen@@DaSjaj:n, buqjaj:n, je:conj, qubbID:n, ma-:v, ghom:v} "we meet between Monday and Friday", "we meet Monday to Friday"
+▶ {DaSjaj buqjaj (je) qubbID maleng:sen@@DaSjaj:n, buqjaj:n, je:conj, qubbID:n:1, ma-:v, leng:v} "we travel Monday to Friday", "we travel between Monday and Friday"
+▶ {DaSjaj buqjaj (je) qubbID maghom:sen@@DaSjaj:n, buqjaj:n, je:conj, qubbID:n:1, ma-:v, ghom:v} "we meet between Monday and Friday", "we meet Monday to Friday"
 ▶ {rav DaSjaj 'aqroS buqjaj maghom:sen@@rav:n:2, DaSjaj:n, 'aqroS:n:2, buqjaj:n, ma-:v, ghom:v} "we meet between Monday and Friday", "we meet at some point between Monday and Friday"</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -12478,6 +12478,53 @@ This word is also used in mathematics as a short form of {ra'Duch leD qubbID:n}.
       <column name="search_tags_fi"></column>
       <column name="search_tags_fr"></column>
       <column name="source">[1] {qep'a' 26 (2019):src}, [2] {Saarbrücken qepHom'a' 2024:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">qubbID</column>
+      <column name="part_of_speech">n:2,alt</column>
+      <column name="definition">{ra'Duch leD qubbID:n}</column>
+      <column name="definition_de">{ra'Duch leD qubbID:n}</column>
+      <column name="definition_fa">{ra'Duch leD qubbID:n}</column>
+      <column name="definition_sv">{ra'Duch leD qubbID:n}</column>
+      <column name="definition_ru">{ra'Duch leD qubbID:n}</column>
+      <column name="definition_zh_HK">{ra'Duch leD qubbID:n}</column>
+      <column name="definition_pt">{ra'Duch leD qubbID:n}</column>
+      <column name="definition_fi">{ra'Duch leD qubbID:n}</column>
+      <column name="definition_fr">{ra'Duch leD qubbID:n}</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="notes_fr"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="examples_fr"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="search_tags_fr"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2024:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
