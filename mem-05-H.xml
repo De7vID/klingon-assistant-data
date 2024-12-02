@@ -4775,7 +4775,7 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes">This was defined as just "medicine". The "(substance)" was added to distinguish this from {'on'aS:n:nolink}.</column>
+      <column name="hidden_notes">This was defined as just "medicine". The "(substance)" was added to distinguish this from {'on'aSQeD:n}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {Hergh ngevwI':n}
@@ -10023,7 +10023,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">HoSchem</column>
-          <column name="part_of_speech">n</column>
+          <column name="part_of_speech">n:deriv</column>
           <column name="definition">energy field</column>
           <column name="definition_de">Energiefeld</column>
           <column name="definition_fa">میدان انرژی [AUTOTRANSLATED]</column>
@@ -10046,7 +10046,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
           <column name="notes_fi"></column>
           <column name="notes_fr"></column>
           <column name="hidden_notes"></column>
-          <column name="components">{HoS:n:1}, {chem:n:hyp}</column>
+          <column name="components">{HoS:n:1}, {chem:n}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>

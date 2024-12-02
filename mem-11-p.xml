@@ -4323,7 +4323,7 @@ This is also infrequently shortened to {pegh vIttlhegh:n:nolink}.[1]</column>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">peQchem</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:deriv</column>
       <column name="definition">magnetic field</column>
       <column name="definition_de">Magnetfeld</column>
       <column name="definition_fa">میدان مغناطیسی [AUTOTRANSLATED]</column>
@@ -4345,8 +4345,8 @@ This is also infrequently shortened to {pegh vIttlhegh:n:nolink}.[1]</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes">This is written as {peQ chem:n:nolink} (with a space) in {TKDA:src}. The space has been removed for consistency with the other terms ending in {chem:n:hyp}, with MO's approval.</column>
-      <column name="components">{peQ:n}, {chem:n:hyp}</column>
+      <column name="hidden_notes">This is written as {peQ chem:n:nolink} (with a space) in {TKDA:src}. The space has been removed for consistency with the other terms ending in {chem:n}, with MO's approval.</column>
+      <column name="components">{peQ:n}, {chem:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
@@ -7644,7 +7644,7 @@ Siehe wie Gowron dies sagt: {YouTube video:url:http://youtu.be/4gCJJiBXaE4}</col
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
       <column name="hidden_notes"></column>
-      <column name="components">{pIv:n:hyp}, {chem:n:hyp}</column>
+      <column name="components">{pIv:n:hyp}, {chem:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
