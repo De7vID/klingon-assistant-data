@@ -4775,7 +4775,7 @@ See under {nItlh:n} for the verbs associated with each of the fingers.</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes">This was defined as just "medicine". The "(substance)" was added to distinguish this from {'on'aS:n:nolink}.</column>
+      <column name="hidden_notes">This was defined as just "medicine". The "(substance)" was added to distinguish this from {'on'aSQeD:n}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {Hergh ngevwI':n}
@@ -6391,8 +6391,10 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/KArQlviVXMk}</column>
       <column name="definition_fr">instructions étape par étape [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mIw:n}, {qurme':n}</column>
-      <column name="notes">This is singular. {HIl'aDmey:n@@HIl'aD:n, -mey:n} would mean several sets of instructions.</column>
+      <column name="see_also">{mIw:n}, {qurme':n}, {'IStegh:n}</column>
+      <column name="notes">This is singular. {HIl'aDmey:n@@HIl'aD:n, -mey:n} would mean several sets of instructions.[1]
+
+A {HIl'aD:n:nolink} is a set of {'ISteghmey:n@@'IStegh:n, -mey:n}.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6421,7 +6423,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/KArQlviVXMk}</column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi">resepti</column>
       <column name="search_tags_fr"></column>
-      <column name="source">[1] {qep'a' 26 (2019):src}</column>
+      <column name="source">[1] {qep'a' 26 (2019):src}, [2] {Saarbrücken qepHom'a' 2024:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -6485,7 +6487,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/KArQlviVXMk}</column>
       <column name="definition_fr">liqueur, bière, bière, vin [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qegh:n}, {chech:v}, {'uH:v}, {pIchSIv:n}, {'enteD:n}, {bewSom:n}, {'ebHIv:n}</column>
+      <column name="see_also">{qegh:n}, {chech:v}, {'uH:v}, {pIchSIv:n}, {'enteD:n}, {bewSom:n}, {'ebHIv:n}, {HIq'aD:n}</column>
       <column name="notes">Types of {HIq:n} include {baqghol:n}, {chechtlhutlh:n}, and {wornagh:n}.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -6664,6 +6666,53 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/KArQlviVXMk}</column>
       <column name="search_tags_fi"></column>
       <column name="search_tags_fr"></column>
       <column name="source">[1] {TKW p.181:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
+      <column name="entry_name">HIq'aD</column>
+      <column name="part_of_speech">n:being</column>
+      <column name="definition">drunkard, drunk person</column>
+      <column name="definition_de">Trunkenbold, betrunkener Mensch [AUTOTRANSLATED]</column>
+      <column name="definition_fa">مست، فرد مست [AUTOTRANSLATED]</column>
+      <column name="definition_sv">fyllare, berusad person [AUTOTRANSLATED]</column>
+      <column name="definition_ru">пьяница, пьяный человек [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">酒鬼，醉酒的人 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">bêbado, pessoa bêbada [AUTOTRANSLATED]</column>
+      <column name="definition_fi">juoppo, humalainen ihminen [AUTOTRANSLATED]</column>
+      <column name="definition_fr">ivrogne, personne ivre [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{HIq:n}</column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="notes_fr"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="examples_fr"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="search_tags_fr"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2024:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -10023,7 +10072,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
         <table name="mem">
           <column name="_id"></column>
           <column name="entry_name">HoSchem</column>
-          <column name="part_of_speech">n</column>
+          <column name="part_of_speech">n:deriv</column>
           <column name="definition">energy field</column>
           <column name="definition_de">Energiefeld</column>
           <column name="definition_fa">میدان انرژی [AUTOTRANSLATED]</column>
@@ -10046,7 +10095,7 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
           <column name="notes_fi"></column>
           <column name="notes_fr"></column>
           <column name="hidden_notes"></column>
-          <column name="components">{HoS:n:1}, {chem:n:hyp}</column>
+          <column name="components">{HoS:n:1}, {chem:n}</column>
           <column name="examples"></column>
           <column name="examples_de"></column>
           <column name="examples_fa"></column>
@@ -11161,6 +11210,53 @@ This verb is also used for regular polygons and polyhedra.[2]</column>
       <column name="search_tags_fr"></column>
       <column name="source">[1] {qep'a' 26 (2019):src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">HoyHa'</column>
+          <column name="part_of_speech">v:is,deriv,slang</column>
+          <column name="definition">{nurgh:v}</column>
+          <column name="definition_de">{nurgh:v}</column>
+          <column name="definition_fa">{nurgh:v}</column>
+          <column name="definition_sv">{nurgh:v}</column>
+          <column name="definition_ru">{nurgh:v}</column>
+          <column name="definition_zh_HK">{nurgh:v}</column>
+          <column name="definition_pt">{nurgh:v}</column>
+          <column name="definition_fi">{nurgh:v}</column>
+          <column name="definition_fr">{nurgh:v}</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes"></column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="notes_fr"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{Hoy:v}, {-Ha':v}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="examples_fr"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="search_tags_fr"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2024:src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">Hoy'</column>
