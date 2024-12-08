@@ -6879,8 +6879,8 @@ This verb can be used for misplacing your keys, but also for things like losing 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">choj</column>
-      <column name="part_of_speech">v:t_c</column>
-      <column name="definition">train, coach</column>
+      <column name="part_of_speech">v:t</column>
+      <column name="definition">train (coaching)</column>
       <column name="definition_de">Zug, Trainer [AUTOTRANSLATED]</column>
       <column name="definition_fa">قطار، مربی [AUTOTRANSLATED]</column>
       <column name="definition_sv">träna, tränare [AUTOTRANSLATED]</column>
@@ -6891,8 +6891,8 @@ This verb can be used for misplacing your keys, but also for things like losing 
       <column name="definition_fr">entraîner, entraîner [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{qeq:v}</column>
-      <column name="notes"></column>
+      <column name="see_also">{qeq:v}, {mI':v}</column>
+      <column name="notes">This is limited to physical activities, such as lifting weights or running.[1]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -6901,11 +6901,11 @@ This verb can be used for misplacing your keys, but also for things like losing 
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes">It seems this actually means "receive training/coaching (in)", where the object is the sport, but this isn't clear at the moment.
+      <column name="hidden_notes">This was incorrectly defined as "train, coach", when it seems it actually means "receive training/coaching (in)", where the object is the sport, but this isn't clear at the moment.
 
 Reverse of {joch:v}.</column>
       <column name="components"></column>
-      <column name="examples"></column>
+      <column name="examples">{pIqcho' chojmoHwI':n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -6914,7 +6914,7 @@ Reverse of {joch:v}.</column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
       <column name="examples_fr"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">practice</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
