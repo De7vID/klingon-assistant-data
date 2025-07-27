@@ -10,19 +10,19 @@
       <column name="definition_zh_HK">元音{e:sen:nolink}</column>
       <column name="definition_pt">a vogal {e:sen:nolink}</column>
       <column name="definition_fi">vokaali {e:sen:nolink}</column>
-      <column name="definition_fr">la voyelle {e:sen:nolink} [AUTOTRANSLATED]</column>
+      <column name="definition_fr">la voyelle {e:sen:nolink}</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This refers to the sound, and not to any letter or glyph.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich auf den Laut, nicht den Buchstaben oder das Zeichen.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">Namnet på ett ljud, inte en skriven bokstav eller glyf.</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci se réfère au son, pas à la lettre ou au glyphe.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -57,35 +57,45 @@
       <column name="definition_zh_HK">機會、機會、開放 [AUTOTRANSLATED]</column>
       <column name="definition_pt">oportunidade, chance, abertura</column>
       <column name="definition_fi">mahdollisuus, tilaisuus</column>
-      <column name="definition_fr">opportunité, chance, ouverture [AUTOTRANSLATED]</column>
+      <column name="definition_fr">opportunité, chance, occasion, possibilité</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{jon:v}, {nargh:v:2}, {pel'aQDaj ghorpa':sen:idiom}, {'eq:v}, {paS:v}</column>
       <column name="notes">An opportunity is said to be captured ({jon:v}), and if one misses an opportunity, it is said to have escaped ({nargh:v:2}).[3] To "kill time" is to {'ebmey jonHa':sen}.[5]
 
 In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Man sagt, dass eine Gelegenheit eingefangen ({jon:v}) wird, und wenn man eine Gelegenheit verpasst, sagt man, dass sie entkommen ({nargh:v:2}) ist.[3] "Zeit totschlagen" ist {'ebmey jonHa':sen}.[5]
+
+In einer klingonischen Bar ruft der Barmann ({chom:n}) {'eb Qav:n} für "letzte Runde".[4]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">On dit qu'une opportunité est capturée ({jon:v}), et si l'on rate une opportunité, on dit qu'elle se serait échappée ({nargh:v:2}).[3] "Tuer le temps" est {'ebmey jonHa':sen}.[5]
+
+Dans un bar klingon, le barman ({chom:n}) crie {'eb Qav:n} pour "dernière tournée".[4]</column>
       <column name="hidden_notes">This was defined as "opportunity" in {TKD:src} and as "chance, opening" in {KGT:src}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {jIpaSqu'mo' narghpu' qaSuchmeH 'eb.:sen:nolink} "Because I'm very late, the opportunity to visit you has escaped."[3]
 ▶ {qaSuch vIneH 'ach narghpu' 'eb. jIpaSqu'.:sen:nolink} "I want to visit you, but the opportunity has escaped. I am very late."[3]
 ▶ {qaSuchlaHbe'. jIpaSqu' vaj narghpu' 'eb.:sen:nolink} "I cannot visit you. I am very late, thus the opportunity has escaped."[3]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {jIpaSqu'mo' narghpu' qaSuchmeH 'eb.:sen:nolink} "Weil ich sehr spät bin, ist die Gelegenheit entkommen, dich zu besuchen."[3]
+▶ {qaSuch vIneH 'ach narghpu' 'eb. jIpaSqu'.:sen:nolink} "Ich will dich besuchen, aber die Gelegenheit ist entkommen. Ich bin sehr spät."[3]
+▶ {qaSuchlaHbe'. jIpaSqu' vaj narghpu' 'eb.:sen:nolink} "Ich kann dich nicht besuchen. Ich bin sehr spät, daher ist die Gelegenheit entkommen."[3]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="examples_fr"></column>
+      <column name="examples_fr">
+▶ {jIpaSqu'mo' narghpu' qaSuchmeH 'eb.:sen:nolink} "Parce que je suis très tard, l'opportunité de te visiter s'est échappée."[3]
+▶ {qaSuch vIneH 'ach narghpu' 'eb. jIpaSqu'.:sen:nolink} "Je veux te visiter, mais l'opportunité s'est échappée. Je suis très tard."[3]
+▶ {qaSuchlaHbe'. jIpaSqu' vaj narghpu' 'eb.:sen:nolink} "Je ne peux pas te visiter. Je suis très tard, donc l'opportunité s'est échappée."[3]</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -102,26 +112,26 @@ In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4
           <column name="entry_name">'eb Qav</column>
           <column name="part_of_speech">n:deriv</column>
           <column name="definition">last call</column>
-          <column name="definition_de">letzter Aufruf</column>
+          <column name="definition_de">letzter Aufruf, letzte Runde</column>
           <column name="definition_fa">تماس اخر [AUTOTRANSLATED]</column>
           <column name="definition_sv">sista chansen [AUTOTRANSLATED]</column>
           <column name="definition_ru">последний звонок [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">最後機會</column>
           <column name="definition_pt">última chamada</column>
           <column name="definition_fi">viimeinen kuulutus, viimeiset hetket (tilata)</column>
-          <column name="definition_fr">dernier appel [AUTOTRANSLATED]</column>
+          <column name="definition_fr">dernière tournée, dernier service</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
           <column name="notes">This is shouted by the bartender ({chom:n}) at a Klingon bar ({tach:n}) before alcoholic beverages cease to be served.</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Die ruft der Barmann ({chom:n}) in einer klingonischen Bar ({tach:n}) bevor alkoholische Getränke nicht mehr ausgeschenkt werden.</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="notes_fr"></column>
+          <column name="notes_fr">Ceci est crié par le barman ({chom:n}) dans un bar ({tach:n}) klingon avant qu'on arrête le service des boissons alcooliques.</column>
           <column name="hidden_notes"></column>
           <column name="components">{'eb:n}, {Qav:v}</column>
           <column name="examples"></column>
@@ -156,20 +166,20 @@ In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4
           <column name="definition_zh_HK">消磨時間 [AUTOTRANSLATED]</column>
           <column name="definition_pt">matar o tempo</column>
           <column name="definition_fi">tappaa aikaa</column>
-          <column name="definition_fr">tuer le temps [AUTOTRANSLATED]</column>
+          <column name="definition_fr">tuer le temps</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">
 ▶ {Hoch 'ebmey tIjon.:sen}</column>
           <column name="notes">This literally means to "release (or un-capture) opportunities".</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Dies bedeutet wörtlich "Gelegenheiten frei lassen (oder ent-fangen)".</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="notes_fr"></column>
+          <column name="notes_fr">Ceci signifie littéralement "relâcher (ou dé-capturer) des opportunités".</column>
           <column name="hidden_notes"></column>
           <column name="components">{'eb:n}, {-mey:n}, {jonHa':v}</column>
           <column name="examples"></column>
@@ -204,19 +214,19 @@ In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4
       <column name="definition_zh_HK">蒸餾裝置{HIq:n} [AUTOTRANSLATED]</column>
       <column name="definition_pt">aparelho para destilar {HIq:n}</column>
       <column name="definition_fi">{HIq:n}in tislauslaite</column>
-      <column name="definition_fr">appareil pour distiller {HIq:n} [AUTOTRANSLATED]</column>
+      <column name="definition_fr">appareil pour distiller {HIq:n}</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'ebHIv pa':n}, {'ebHIv qach:n}</column>
       <column name="notes">This is the apparatus that is used to distill various concoctions into an acceptable form of {HIq:n}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist der Apparat, der benutzt wird, um verschiedene Mischungen in akzeptable Formen von {HIq:n} zu distillieren.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci est l'appareil, qui s'utilise pour distiller des mixtures différentes pour donner des formes acceptables de {HIq:n}.[1]</column>
       <column name="hidden_notes">To not move ({vIHbe':sen@@vIH:v, -be':v}) is to be "still" (which is also a noun referring to an apparatus for distilling alcohol).</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -251,7 +261,7 @@ In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4
           <column name="definition_zh_HK">釀酒廠（房間） [AUTOTRANSLATED]</column>
           <column name="definition_pt">destilaria (sala)</column>
           <column name="definition_fi">tislaamo (huone)</column>
-          <column name="definition_fr">distillerie (salle) [AUTOTRANSLATED]</column>
+          <column name="definition_fr">distillerie (salle)</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{'ebHIv qach:n}</column>
@@ -298,7 +308,7 @@ In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4
           <column name="definition_zh_HK">釀酒廠（建築） [AUTOTRANSLATED]</column>
           <column name="definition_pt">destilaria (edifício)</column>
           <column name="definition_fi">tislaamo (rakennus)</column>
-          <column name="definition_fr">distillerie (bâtiment) [AUTOTRANSLATED]</column>
+          <column name="definition_fr">distillerie (bâtiment)</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{'ebHIv pa':n}</column>
@@ -345,19 +355,19 @@ In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4
       <column name="definition_zh_HK">高潮（性） [AUTOTRANSLATED]</column>
       <column name="definition_pt">clímax (sexual)</column>
       <column name="definition_fi">orgasmi</column>
-      <column name="definition_fr">point culminant (sexuel) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">orgasme (sexuel)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ghuch:v}</column>
       <column name="notes">There's also a slang term, {HutmaH:n:2}, literally "ninety", used in the slang expression {HutmaH chav:sen@@HutmaH:n:2, chav:v}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Es gibt auch ein umgangssprachliches Wort, {HutmaH:n:2}, wörtlich "neunzig", das in dem umgangssprachlichen Ausdruck {HutmaH chav:sen@@HutmaH:n:2, chav:v} benutzt wird.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Il y a aussi un mot familier, {HutmaH:n:2}, littéralement "quatre-vingt-dix", utilisé dans la locution familière {HutmaH chav:sen@@HutmaH:n:2, chav:v}.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -392,19 +402,19 @@ In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4
       <column name="definition_zh_HK">準將 [AUTOTRANSLATED]</column>
       <column name="definition_pt">brigadeiro</column>
       <column name="definition_fi">prikaatikenraali</column>
-      <column name="definition_fr">brigadier [AUTOTRANSLATED]</column>
+      <column name="definition_fr">brigadier</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is the 4th rank of {yaS:n:1h}.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist der 4. Rang eines {yaS:n:1h}.[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi">Tämä on upseeriston ({yaS:n:1h}) neljänneksi korkein sotilasarvo.[2]</column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci est le 4e rang des {yaS:n:1h}.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -439,7 +449,7 @@ In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4
       <column name="definition_zh_HK">板</column>
       <column name="definition_pt">tabuleiro</column>
       <column name="definition_fi">lauta</column>
-      <column name="definition_fr">conseil [AUTOTRANSLATED]</column>
+      <column name="definition_fr">planche</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'echletHom:n}</column>
@@ -490,7 +500,7 @@ In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4
           <column name="definition_zh_HK">觸摸板 [AUTOTRANSLATED]</column>
           <column name="definition_pt">touchpad</column>
           <column name="definition_fi">kosketuslevy</column>
-          <column name="definition_fr">pavé tactile [AUTOTRANSLATED]</column>
+          <column name="definition_fr">pavé tactile, touchpad</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{nItlh 'echlet:n}, {'eQway':n}</column>
@@ -515,14 +525,14 @@ In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4
           <column name="examples_fi"></column>
           <column name="examples_fr"></column>
           <column name="search_tags"></column>
-          <column name="search_tags_de"></column>
+          <column name="search_tags_de">Trackpad</column>
           <column name="search_tags_fa"></column>
           <column name="search_tags_sv"></column>
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
           <column name="search_tags_fi"></column>
-          <column name="search_tags_fr"></column>
+          <column name="search_tags_fr">trackpad</column>
           <column name="source">[1] {Saarbrücken qepHom'a' 2014:src}</column>
         </table>
         <table name="mem">
@@ -537,34 +547,42 @@ In a Klingon bar, the bartender ({chom:n}) shouts {'eb Qav:n} for "last call".[4
           <column name="definition_zh_HK">卡片、紙牌</column>
           <column name="definition_pt">cartão</column>
           <column name="definition_fi">kortti</column>
-          <column name="definition_fr">carte [AUTOTRANSLATED]</column>
+          <column name="definition_fr">carte</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{nav:n}, {qoS:n}, {rIb:v}</column>
           <column name="notes">In {Klingon Monopoly:src}, {'echletHom:n:nolink} is used for the various kinds of game cards. In {TNK:src}, {QIn 'echletHom:n} is used to mean "postcard".
 
 The suits in a deck of playing cards are called {Degh:n:1}.</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Im klingonischen Monopoly, wird {'echletHom:n:nolink} für die verschiedenen Arten von Karten im Spiel verwendet.[1] In {TNK:src}, wird {QIn 'echletHom:n} für "Postkarte" verwendet.
+
+Die Farben in einem Kartenspiel heißen {Degh:n:1}.</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="notes_fr"></column>
+          <column name="notes_fr"Dans le Monopoly klingon, {'echletHom:n:nolink} s'utilise pour les différents types de carte dans le jeu.[1] Dans {TNK:src}, {QIn 'echletHom:n} s'utilise pour dire "carte postale".
+
+Les couleurs dans un jeu de cartes s'appellent {Degh:n:1}.></column>
           <column name="hidden_notes"></column>
           <column name="components">{'echlet:n}, {-Hom:n}</column>
           <column name="examples">
 ▶ {Chance 'echletHommey Community Chest 'echletHommey je qa' quv 'echletHommey vIq 'echletHommey je:sen:nolink} "COMBAT and HONOR cards replace Chance and Community Chest cards"[1]
 ▶ {'echletHom Dopvam yIcha':sen:nolink} "card must be turned this side up"[1]</column>
-          <column name="examples_de"></column>
+          <column name="examples_de">
+▶ {Chance 'echletHommey Community Chest 'echletHommey je qa' quv 'echletHommey vIq 'echletHommey je:sen:nolink} "KAMPF- und EHREN-Karten ersetzen Ereignis- und Gemeinschaftskarten"[1]
+▶ {'echletHom Dopvam yIcha':sen:nolink} "Zeige diese Seite der Karte"[1]</column>
           <column name="examples_fa"></column>
           <column name="examples_sv"></column>
           <column name="examples_ru"></column>
           <column name="examples_zh_HK"></column>
           <column name="examples_pt"></column>
           <column name="examples_fi"></column>
-          <column name="examples_fr"></column>
+          <column name="examples_fr">
+▶ {Chance 'echletHommey Community Chest 'echletHommey je qa' quv 'echletHommey vIq 'echletHommey je:sen:nolink} "Les cartes COMBAT et HONNEUR remplacent les cartes Chance et Caisse de Communité"[1]
+▶ {'echletHom Dopvam yIcha':sen:nolink} "Montre ce côté de la carte"[1]</column>
           <column name="search_tags"></column>
           <column name="search_tags_de"></column>
           <column name="search_tags_fa"></column>
@@ -588,19 +606,19 @@ The suits in a deck of playing cards are called {Degh:n:1}.</column>
           <column name="definition_zh_HK">一副牌</column>
           <column name="definition_pt">deck de cartas</column>
           <column name="definition_fi">korttipakka</column>
-          <column name="definition_fr">paquet de cartes [AUTOTRANSLATED]</column>
+          <column name="definition_fr">paquet de cartes, jeu de cartes</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
           <column name="notes">If the cards were organized by suit, and within each suit the cards were in numerical order, then not only would one have an {'echletHom vey:n:nolink}, one would also have four {'echletHom qolmey:n@@'echletHom:n, qol:n:1h, -mey:n}.[2]</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Wenn die Karten nach Farbe und die einzelnen Karten innerhalb einer Farbe nach Wert sortiert sind, dann hätte man nicht nur ein {'echletHom vey:n:nolink}, man hätte auch vier {'echletHom qolmey:n@@'echletHom:n, qol:n:1h, -mey:n}.[2]</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="notes_fr"></column>
+          <column name="notes_fr">Si les cartes sont rangées par couleur et chaque couleur est organisé en ordre de valeurs, on n'a pas seulement un {'echletHom vey:n:nolink}, mais aussi quatre {'echletHom qolmey:n@@'echletHom:n, qol:n:1h, -mey:n}.[2]</column>
           <column name="hidden_notes"></column>
           <column name="components">{'echletHom:n}, {vey:n}</column>
           <column name="examples"></column>
@@ -635,7 +653,7 @@ The suits in a deck of playing cards are called {Degh:n:1}.</column>
       <column name="definition_zh_HK">爬行</column>
       <column name="definition_pt">rastejar</column>
       <column name="definition_fi">ryömiä</column>
-      <column name="definition_fr">crawl [AUTOTRANSLATED]</column>
+      <column name="definition_fr">ramper, marcher à quatre pattes</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qIv:n}, {tor:v:1}, {ngov:v}</column>
@@ -682,19 +700,19 @@ The suits in a deck of playing cards are called {Degh:n:1}.</column>
       <column name="definition_zh_HK">傲慢或傲慢的人 [AUTOTRANSLATED]</column>
       <column name="definition_pt">uma pessoa arrogante ou altiva</column>
       <column name="definition_fi">ylimielinen tai kopea henkilö</column>
-      <column name="definition_fr">une personne arrogante ou hautaine [AUTOTRANSLATED]</column>
+      <column name="definition_fr">une personne arrogante ou hautaine</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mIy:v}, {votlh:v}</column>
       <column name="notes">This refers to a person who is {nguq:v}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist eine Person, die {nguq:v} ist.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci se réfère à une personne qui est {nguq:v}.</column>
       <column name="hidden_notes">Mister Ed is a famous horse from television, and {jen:v} means "high". An arrogant person is said to be sitting on a "high horse". Since {'eD:v:1} means "crawl", perhaps this refers to a person who thinks they are high up when they are actually crawling.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -729,19 +747,19 @@ The suits in a deck of playing cards are called {Degh:n:1}.</column>
       <column name="definition_zh_HK">起飛/降落推進器 [AUTOTRANSLATED]</column>
       <column name="definition_pt">propulsores de decolagem/pouso</column>
       <column name="definition_fi">lentoonlähtö- ja laskeutumismoottorit</column>
-      <column name="definition_fr">propulseurs de décollage/atterrissage [AUTOTRANSLATED]</column>
+      <column name="definition_fr">propulseurs de décollage/atterrissage</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chuyDaH:n}, {lolSeHcha:n}, {muDDaq 'eDSeHcha lulaQlu'bogh:n}</column>
       <column name="notes">This word is plural. Its singular form is unknown. It appears to consist of the elements {SeH:n:archaic,hyp} and {cha:n} (or a homophone thereof), and an element which is either {'eD:v:1} or a homophone whose meaning is unknown.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieses Wort is Plural. Seine Einzahl ist unbekannt. Es scheint sich aus den Elementen {SeH:n:archaic,hyp} und {cha:n} (oder einem Homonym) zusammenzusetzen, sowie einem Element, das entweder {'eD:v:1} oder ein Homonym unbekannter Bedeutung ist.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ce mot est pluriel. Sa forme singulière est inconnue. Il semble consister des éléments {SeH:n:archaic,hyp} et {cha:n} (où un homophone), et un élément qui est ou {'eD:v:1} ou un homonyme de signification inconnue.</column>
       <column name="hidden_notes">Some information was revealed about {SeH:n:archaic,hyp,nolink} at {qep'a' 27 (2020):src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -776,19 +794,19 @@ The suits in a deck of playing cards are called {Degh:n:1}.</column>
       <column name="definition_zh_HK">非音階音階的第三音 [AUTOTRANSLATED]</column>
       <column name="definition_pt">terceiro tom da escala musical não-atônica</column>
       <column name="definition_fi">yhdeksänsävelisen musiikkiasteikon kolmas sävel</column>
-      <column name="definition_fr">troisième ton d'une gamme musicale non atonique [AUTOTRANSLATED]</column>
+      <column name="definition_fr">troisième note de la gamme musicale nonatonique</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">The tones of the Klingon musical scale (see {yutlhegh:n}) are: {yu:n}, {bIm:n}, {'egh:n:nolink}, {loS:n:2}, {vagh:n:2}, {jav:n:2}, {Soch:n:2}, {chorgh:n:2}, {yu:n:nolink}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Die Töne der klingonischen Tonleiter (siehe {yutlhegh:n}) sind: {yu:n:nolink}, {bIm:n}, {'egh:n}, {loS:n:2}, {vagh:n:2}, {jav:n:2}, {Soch:n:2}, {chorgh:n:2}, {yu:n:nolink}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Les tons de la gamme musicale klingonne (voir {yutlhegh:n}) sont: {yu:n:nolink}, {bIm:n}, {'egh:n}, {loS:n:2}, {vagh:n:2}, {jav:n:2}, {Soch:n:2}, {chorgh:n:2}, {yu:n:nolink}.</column>
       <column name="hidden_notes">The third tone of the musical scale is "me", and {-'egh:v:suff} is the "self" suffix.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -823,19 +841,19 @@ The suits in a deck of playing cards are called {Degh:n:1}.</column>
       <column name="definition_zh_HK">準備！</column>
       <column name="definition_pt">Atenção! Pronto!</column>
       <column name="definition_fi">Valmiina!</column>
-      <column name="definition_fr">Prêt! [AUTOTRANSLATED]</column>
+      <column name="definition_fr">Prêt!</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{SuH:excl}</column>
       <column name="notes">This expression indicates that the speaker is about to give a command.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieser Ausdruck zeigt, dass der Sprecher gleich einen Befehl geben wird.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Cette expression montre, que le locuteur va donner un ordre.</column>
       <column name="hidden_notes">This is written "Ready!" in {TKD 5.5:src}, but as "ready" in the word lists.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -870,21 +888,25 @@ The suits in a deck of playing cards are called {Degh:n:1}.</column>
       <column name="definition_zh_HK">和（加入句子） [AUTOTRANSLATED]</column>
       <column name="definition_pt">e (juntando sentenças)</column>
       <column name="definition_fi">ja (yhdistää lauseita, verbejä)</column>
-      <column name="definition_fr">et (joindre des phrases) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">et (entre phrases)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qoj:conj}, {je:conj}</column>
       <column name="notes">The conjunction {'ej:conj} does not have any temporal or sequential implications.[2] To express those meanings, use {ghIq:adv} or {ngugh:adv}.
 
 When connecting multiple sentences, only the final conjunction is needed. See the example under {qoj:conj}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Die Konjunktion {'ej:conj} hat keine zeitlichen oder sequentiellen Konnotationen.[2] Um diese Bedeutungen auszudrücken nutzt man {ghIq:adv} oder {ngugh:adv}.
+
+Wenn mehrere Sätze verbunden werden, wird nur die letzte Konjunktion gebraucht. Siehe das Beispiel unter {qoj:conj}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">La conjonction {'ej:conj} n'a pas d'implications temporaires ou séquentielles.[2] Pour exprimer ces significations on utilise {ghIq:adv} ou {ngugh:adv}.
+
+Quand on relie plusieures phrases, seulement la conjonction finale est nécessaire. Voir l'exemple à {qoj:conj}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -919,19 +941,19 @@ When connecting multiple sentences, only the final conjunction is needed. See th
       <column name="definition_zh_HK">順便說一句 [AUTOTRANSLATED]</column>
       <column name="definition_pt">a propósito, entre parênteses</column>
       <column name="definition_fi">muuten</column>
-      <column name="definition_fr">au fait, entre parenthèses [AUTOTRANSLATED]</column>
+      <column name="definition_fr">d'ailleurs, au fait, entre parenthèses</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This comes at the beginning of a sentence. This is the full form. In everyday conversation, {'ej:conj} and/or {De':n} (and even {vI-:v:pref}) are often omitted. Klingon grammarians argue about whether the resulting {De'chel:adv} should be considered an adverbial in its own right.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies steht am Anfang eines Satzes. Dies hier ist die vollständige Form. In Alltagsgesprächen werden {'ej:conj} und/oder {De':n} (und sogar {vI-:v:pref}) oft weggelassen. Klingonische Grammatiker diskutieren, ob das entstehende {De'chel:adv} als eigenständiges Adverbial gelten sollte.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci va au commencement de la phrase. Ici est la forme complète. Dans les conversations de tous les jours, {'ej:conj} et/ou {De':n} (et même {vI-:v:pref}) sont souvent omis. Les grammariens klingons discutent si le {De'chel:adv} résultant devrait être considéré un adverbial à part entière.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components">{'ej:conj}, {De':n}, {vI-:v}, {chel:v}</column>
       <column name="examples"></column>
@@ -966,19 +988,19 @@ When connecting multiple sentences, only the final conjunction is needed. See th
       <column name="definition_zh_HK">星艦、星艦級</column>
       <column name="definition_pt">nave estelar</column>
       <column name="definition_fi">tähtilaiva, tähtilaivaluokka</column>
-      <column name="definition_fr">vaisseau spatial, classe de vaisseau spatial [AUTOTRANSLATED]</column>
+      <column name="definition_fr">vaisseau spatial, classe de vaisseau spatial</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">It's likely that {Do':n:archaic,hyp} is an archaic word for the modern {Duj:n:1}.[1, p.20]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Es ist wahrscheinlich, dass {Do':n:archaic,hyp} ein archaisches Wort für das moderne {Duj:n:1} ist.[1, p.20]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Il est probable, que {Do':n:archaic,hyp} est un mot archaïque pour le mot moderne {Duj:n:1}.[1, p.20]</column>
       <column name="hidden_notes"></column>
       <column name="components">{'ej:n:hyp}, {Do':n:hyp}</column>
       <column name="examples"></column>
@@ -1013,7 +1035,7 @@ When connecting multiple sentences, only the final conjunction is needed. See th
       <column name="definition_zh_HK">條紋 [AUTOTRANSLATED]</column>
       <column name="definition_pt">listra, faixa</column>
       <column name="definition_fi">raita</column>
-      <column name="definition_fr">Bande [AUTOTRANSLATED]</column>
+      <column name="definition_fr">raie, rayure</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{DujtlhuQ:n}, {way:v}</column>
@@ -1060,7 +1082,7 @@ When connecting multiple sentences, only the final conjunction is needed. See th
       <column name="definition_zh_HK">瘤 [AUTOTRANSLATED]</column>
       <column name="definition_pt">tumor</column>
       <column name="definition_fi">kasvain</column>
-      <column name="definition_fr">tumeur [AUTOTRANSLATED]</column>
+      <column name="definition_fr">tumeur</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1109,19 +1131,19 @@ The request which resulted in this word was categorised as a body part question 
       <column name="definition_zh_HK">無窮 [AUTOTRANSLATED]</column>
       <column name="definition_pt">infinito</column>
       <column name="definition_fi">ääretön</column>
-      <column name="definition_fr">infini [AUTOTRANSLATED]</column>
+      <column name="definition_fr">infini</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This can be used anywhere a number is used.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies kann überall benutzt werden, wo eine Zahl benutzt wird.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci peut s'utiliser partout, où un nombre s'utilise.[1]</column>
       <column name="hidden_notes">Backwards of {Hay je:sen@@Hay:n:2, je:conj}. "To infinity and beyond" is the catchphrase of Buzz Lightyear in the Toy Story films.
 
 The example {'ejyaHlogh:adv:nolink} was given during the Q &amp; A session.</column>
@@ -1159,7 +1181,7 @@ The example {'ejyaHlogh:adv:nolink} was given during the Q &amp; A session.</col
       <column name="definition_zh_HK">星際艦隊</column>
       <column name="definition_pt">Frota Estelar</column>
       <column name="definition_fi">Tähtilaivasto</column>
-      <column name="definition_fr">Starfleet [AUTOTRANSLATED]</column>
+      <column name="definition_fr">Starfleet</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1206,7 +1228,7 @@ The example {'ejyaHlogh:adv:nolink} was given during the Q &amp; A session.</col
       <column name="definition_zh_HK">星際艦隊司令部</column>
       <column name="definition_pt">Comando da Frota Estelar</column>
       <column name="definition_fi">Tähtilaivaston johto</column>
-      <column name="definition_fr">Commandement Starfleet [AUTOTRANSLATED]</column>
+      <column name="definition_fr">Starfleet Command, commandement de la flotte</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'ejyo'SeH yaHnIv:n}</column>
@@ -1246,26 +1268,26 @@ The example {'ejyaHlogh:adv:nolink} was given during the Q &amp; A session.</col
       <column name="entry_name">'ejyo'SeH yaHnIv</column>
       <column name="part_of_speech">n</column>
       <column name="definition">Starfleet Operations Command</column>
-      <column name="definition_de">Sternflotten Oberstes Kommando</column>
+      <column name="definition_de">Kommando der Einsatzplanung der Sternenflotte</column>
       <column name="definition_fa">فرماندهی عملیات ستارگان [AUTOTRANSLATED]</column>
       <column name="definition_sv">Starfleet Operations Command [AUTOTRANSLATED]</column>
       <column name="definition_ru">Командование операций Звездного Флота [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">星際艦隊作戰司令部 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Comando de Operações da Frota Estelar</column>
       <column name="definition_fi">Tähtilaivaston laivaston johto</column>
-      <column name="definition_fr">Commandement des opérations de Starfleet [AUTOTRANSLATED]</column>
+      <column name="definition_fr">Starfleet Operations Command, commandement de Starfleet Operations</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{'ejyo' ra'ghomquv:n}</column>
       <column name="notes">This is what the Starfleet equivalent of {yo'SeH yaHnIv:n} would theoretically be called.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist was das Sternenflotten-Äquivalent der {yo'SeH yaHnIv:n} theoretisch genannt würde.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci est ce que l'équivalent de Starfleet du {yo'SeH yaHnIv:n} serait appelé théoriquement.</column>
       <column name="hidden_notes"></column>
       <column name="components">{'ejyo':n}, {SeH:v} or {SeH:n:hyp,nolink}, {yaH:n}, {nIv:v}</column>
       <column name="examples"></column>
@@ -1300,7 +1322,7 @@ The example {'ejyaHlogh:adv:nolink} was given during the Q &amp; A session.</col
       <column name="definition_zh_HK">星空基地</column>
       <column name="definition_pt">Base estelar</column>
       <column name="definition_fi">tähtiasema, Tähtilaivaston avaruusasema</column>
-      <column name="definition_fr">base stellaire [AUTOTRANSLATED]</column>
+      <column name="definition_fr">base stellaire</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tengchaH:n}</column>
@@ -1348,7 +1370,7 @@ The example {'ejyaHlogh:adv:nolink} was given during the Q &amp; A session.</col
       <column name="definition_zh_HK">踝深的血（飲酒歌）</column>
       <column name="definition_pt">E o sangue estava no tornozelo (canção para beber)</column>
       <column name="definition_fi">eräs juomalaulu, Ja veri ulottui nilkkoihin</column>
-      <column name="definition_fr">Et le sang était jusqu'aux chevilles (chanson à boire) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">On avait du sang jusqu'aux chevilles (chanson à boire)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{SIqral bIQtIq:n}</column>
@@ -1361,14 +1383,30 @@ The example {'ejyaHlogh:adv:nolink} was given during the Q &amp; A session.</col
    And the River Skral ran crimson red
    On the day above all days
    When Kahless slew evil Molor dead!"</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist die erste Zeile eines Trinklieds. Die Texte sind auf {no' Hol:n}, und daher in modernem Standardklingonisch nicht grammatikalisch korrekt:
+▶ {'ej HumtaH 'ej DechtaH 'Iw:sen:nolink}
+   {'ej Doq SoDtaH ghoSpa' SIqral bIQtIq:sen:nolink}
+   {'e' pa' jaj law' mo' jaj puS:sen:nolink}
+   {jaj qeylIS molor mIgh HoHchu'qu':sen:nolink}
+  "Und das Blut stand knöcheltief
+   Und der Fluss Skral färbte sich purpurrot
+   Am Tag aller Tage 
+   Als Kahless den teuflischen Molor erschlug!"</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci est la première ligne d'une chanson à boire. Les textes sont en {no' Hol:n}, et donc grammaticalement incorrects en klingon standard moderne:
+▶ {'ej HumtaH 'ej DechtaH 'Iw:sen:nolink}
+   {'ej Doq SoDtaH ghoSpa' SIqral bIQtIq:sen:nolink}
+   {'e' pa' jaj law' mo' jaj puS:sen:nolink}
+   {jaj qeylIS molor mIgh HoHchu'qu':sen:nolink}
+  "On avait du sang jusqu'aux chevilles
+   La rivière Skral est devenue rouge vif
+   Le jour de tous les jours
+   Quand Kahless tua le vilain Molor!"</column>
       <column name="hidden_notes">These lyrics were presumably made up by the writers of the episode, who did a much better job than usual with the Klingon language. The Klingon translation contains most of the words one would expect to find to express the ideas in the English lyrics, even if the grammar is a bit strange. This was explained (or explained away) in {KGT:src}, which notes that many songs are in some form of {no' Hol:n:nolink}.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1403,34 +1441,42 @@ The example {'ejyaHlogh:adv:nolink} was given during the Q &amp; A session.</col
       <column name="definition_zh_HK">進入、進去</column>
       <column name="definition_pt">entrar</column>
       <column name="definition_fi">mennä tai tulla sisään johonkin, astua sisään</column>
-      <column name="definition_fr">entrez, entrez [AUTOTRANSLATED]</column>
+      <column name="definition_fr">entrer, rentrer</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'elHa':v}</column>
       <column name="see_also">{lIt:v}, {yong:v}</column>
       <column name="notes">The object is the thing being entered. {-Daq:n:suff} is unnecessary.[2]
 
 The sign at an entrance door would simply say {'el:v:nolink}, which is shortened (for sign purposes) from {'elmeH He:n@@'el:v, -meH:v, He:n}.[4]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Das Objekt ist das Ding, das man betritt. {-Daq:n:suff} ist unnötig.[2]
+
+Auf dem Schild an einem Eingang steht einfach nur {'el:v:nolink}, was von {'elmeH He:n@@'el:v, -meH:v, He:n} abgekürzt ist.[4]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi">Kohde on asia, jonka sisään mennään. {-Daq:n:suff} on tarpeeton.[2]</column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">L'objet est la chose qu'on entre. {-Daq:n:suff} n'est pas nécessaire.[2]
+
+Sur le panneau sur une porte d'entrée est écrit simplement {'el:v:nolink}, qui est abbrégé de {'elmeH He:n@@'el:v, -meH:v, He:n}.[4]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
 ▶ {HIq DaSammeH tach yI'el.:sen}
 ▶ {neHmaH Da'el net tu':sen:nolink} "Caught breaching the Neutral Zone."[3]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {HIq DaSammeH tach yI'el.:sen}
+▶ {neHmaH Da'el net tu':sen:nolink} "Beim Betreten der Neutralen Zone entdeckt."[3]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="examples_fr"></column>
+      <column name="examples_fr">
+▶ {HIq DaSammeH tach yI'el.:sen}
+▶ {neHmaH Da'el net tu':sen:nolink} "Découvert en entrant la Zone Neutre."[3]</column>
       <column name="search_tags">entrance</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -1454,19 +1500,19 @@ The sign at an entrance door would simply say {'el:v:nolink}, which is shortened
           <column name="definition_zh_HK">出口 [AUTOTRANSLATED]</column>
           <column name="definition_pt">saída [AUTOTRANSLATED]</column>
           <column name="definition_fi">poistua</column>
-          <column name="definition_fr">sortie [AUTOTRANSLATED]</column>
+          <column name="definition_fr">sortir</column>
           <column name="synonyms"></column>
           <column name="antonyms">{'el:v}</column>
           <column name="see_also"></column>
           <column name="notes">The sign at an exit door would simply say {'elHa':v:nolink}, which is shortened (for sign purposes) from {'elHa'meH He:n@@'elHa':v, -meH:v, He:n}.[1]</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Auf dem Schild an einem Ausgang steht einfach nur {'elHa':v:nolink}, was von {'elHa'meH He:n@@'elHa':v, -meH:v, He:n} abgekürzt ist.[1]</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="notes_fr"></column>
+          <column name="notes_fr">Sur le panneau sur une porte de sortie est écrit simplement {'elHa':v:nolink}, qui est abbrégé de {'elHa'meH He:n@@'elHa':v, -meH:v, He:n}.[1]</column>
           <column name="hidden_notes"></column>
           <column name="components">{'el:v}, {-Ha':v}</column>
           <column name="examples"></column>
@@ -1501,7 +1547,7 @@ The sign at an entrance door would simply say {'el:v:nolink}, which is shortened
       <column name="definition_zh_HK">ELAS [AUTOTRANSLATED]</column>
       <column name="definition_pt">Elas</column>
       <column name="definition_fi">eräs planeetta, Elas</column>
-      <column name="definition_fr">Élas [AUTOTRANSLATED]</column>
+      <column name="definition_fr">Elas</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Doy'yuS:n}, {telun Hovtay':n}</column>
@@ -1548,7 +1594,7 @@ The sign at an entrance door would simply say {'el:v:nolink}, which is shortened
       <column name="definition_zh_HK">血清素 [AUTOTRANSLATED]</column>
       <column name="definition_pt">serotonina [AUTOTRANSLATED]</column>
       <column name="definition_fi">serotoniini</column>
-      <column name="definition_fr">sérotonine [AUTOTRANSLATED]</column>
+      <column name="definition_fr">sérotonine</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1595,19 +1641,19 @@ The sign at an entrance door would simply say {'el:v:nolink}, which is shortened
       <column name="definition_zh_HK">門票、入場飛</column>
       <column name="definition_pt">bilhete, passe de entrada</column>
       <column name="definition_fi">pääsylippu</column>
-      <column name="definition_fr">billet, carte d'entrée [AUTOTRANSLATED]</column>
+      <column name="definition_fr">billet, carte d'entrée, ticket</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">Note that this is specifically a ticket for entry. For other types of tickets, consider another verb in place of {'el:v}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Merke, dass dies speziell eine "Eintritts"karte ist. Für andere Arten von Tickets ziehe man ein anderes Verb als {'el:v} in Betracht.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">À noter que ceci est spécifiquement un billet "d'entrée". Pour autres types de tickets, il faut considérer un autre verbe au lieu de {'el:v}.</column>
       <column name="hidden_notes">At "By Any Other Name: An Evening of Shakespeare in Klingon", put on by the Washington Shakespeare company, the sign on the will-call tickets window said {'elmeH chaw'mey je'lu'ta'bogh:n:nolink}. This translation was supplied by MO.</column>
       <column name="components">{'el:v}, {-meH:v}, {chaw':n}</column>
       <column name="examples"></column>
@@ -1642,7 +1688,7 @@ The sign at an entrance door would simply say {'el:v:nolink}, which is shortened
       <column name="definition_zh_HK">意外的訪客 [AUTOTRANSLATED]</column>
       <column name="definition_pt">visitante inesperado</column>
       <column name="definition_fi">yllätysvieras</column>
-      <column name="definition_fr">visiteur inattendu [AUTOTRANSLATED]</column>
+      <column name="definition_fr">visiteur inattendu</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{meb:n}</column>
@@ -1669,7 +1715,7 @@ This was revealed to a small group in 2006 at {qep'a' 13:src}, but only posted t
       <column name="examples_fi"></column>
       <column name="examples_fr"></column>
       <column name="search_tags">unexpected guest, uninvited guest</column>
-      <column name="search_tags_de"></column>
+      <column name="search_tags_de">unerwarteter Besucher</column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
@@ -1691,19 +1737,19 @@ This was revealed to a small group in 2006 at {qep'a' 13:src}, but only posted t
       <column name="definition_zh_HK">服務拼盤 [AUTOTRANSLATED]</column>
       <column name="definition_pt">servir bandeja</column>
       <column name="definition_fi">tarjoiluvati tai -lautanen</column>
-      <column name="definition_fr">Plateau de service [AUTOTRANSLATED]</column>
+      <column name="definition_fr">plat de service</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is usually made of metal.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist üblicherweise aus Metall.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci est typiquement fait de métal.</column>
       <column name="hidden_notes">The platter is the spinning surface of a turntable on which an "LP" (long-playing music record) is placed.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1738,19 +1784,19 @@ This was revealed to a small group in 2006 at {qep'a' 13:src}, but only posted t
       <column name="definition_zh_HK">後面、後方</column>
       <column name="definition_pt">atrás, área atrás</column>
       <column name="definition_fi">takana, alue takana</column>
-      <column name="definition_fr">derrière, zone derrière [AUTOTRANSLATED]</column>
+      <column name="definition_fr">derrière, zone derrière</column>
       <column name="synonyms"></column>
       <column name="antonyms">{tlhop:n:1}</column>
       <column name="see_also">{bIng:n}, {Dung:n}, {joj:n}, {retlh:n}, {poS:n}, {nIH:n}, {'o':n}</column>
       <column name="notes">For the rear section of an object, see {'o':n}. See also {lurgh:n} for other words related to spatial directions.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Für die hinteren Teil eines Objekts, siehe {'o':n}. Siehe auch {lurgh:n} für andere Wörter über Richtungen.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Pour la partie arrière d'un objet, voir {'o':n}. Voir aussi {lurgh:n} pour autres mots sur les directions spatiales.</column>
       <column name="hidden_notes">The explanation for {tlhop:n:2} seems to imply that {'em:n:nolink} could be used to mean "private area" (of a property), but this isn't explicitly stated.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1785,7 +1831,7 @@ This was revealed to a small group in 2006 at {qep'a' 13:src}, but only posted t
       <column name="definition_zh_HK">嘔吐 [AUTOTRANSLATED]</column>
       <column name="definition_pt">vomitar</column>
       <column name="definition_fi">oksentaa</column>
-      <column name="definition_fr">vomir [AUTOTRANSLATED]</column>
+      <column name="definition_fr">vomir</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{quy'Ip:n}</column>
@@ -1825,26 +1871,26 @@ This was revealed to a small group in 2006 at {qep'a' 13:src}, but only posted t
       <column name="entry_name">'emrIgh</column>
       <column name="part_of_speech">n:being</column>
       <column name="definition">ancestor (from which one is descended by bloodline)</column>
-      <column name="definition_de">Vorfahre, Ahne</column>
+      <column name="definition_de">Vorfahre, Ahne (von dem man in direkter Linie abstammt)</column>
       <column name="definition_fa">اجداد [AUTOTRANSLATED]</column>
       <column name="definition_sv">förfader [AUTOTRANSLATED]</column>
       <column name="definition_ru">предок [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">祖先 [AUTOTRANSLATED]</column>
       <column name="definition_pt">antepassado</column>
       <column name="definition_fi">esivanhempi, esi-isä</column>
-      <column name="definition_fr">ancêtre (dont on descend par la lignée) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">ancêtre (dont on descend en ligne directe)</column>
       <column name="synonyms"></column>
       <column name="antonyms">{nortlham:n}</column>
       <column name="see_also">{SoS:n}, {vav:n}, {SoSnI':n}, {vavnI':n}, {'ISyar:n}</column>
       <column name="notes">This refers to a direct ancestor from which one is descended by bloodline, whereas {qempa':n} ({no':n}) are not necessarily blood-related and refer more to cultural or societal ancestors, like forebearers or forefathers.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich auf einen direkten Vorfahren, von dem man in direkter Linie abstammt, während {qempa':n} ({no':n}) nicht notwendigerweise blutsverwandt sind und sich mehr auf kulturelle oder gesellschaftliche Vorfahren oder Ahnen bezieht.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci se réfère à un ancêtre direct dont en est descendu en lignée, tandis que {qempa':n} ({no':n}) ne sont pas nécessairement liés par le sang et se réfèrent plutôt aux ancêtres culturels ou sociétals.[1]</column>
       <column name="hidden_notes">Backwards of {ghIr:v} "descend" + {me':n} "aunt" = "descendent".</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1879,7 +1925,7 @@ This was revealed to a small group in 2006 at {qep'a' 13:src}, but only posted t
       <column name="definition_zh_HK">針（直的）</column>
       <column name="definition_pt">pino (reto)</column>
       <column name="definition_fi">nuppineula</column>
-      <column name="definition_fr">épingle (droite) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">épingle (droite)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{vev:v}</column>
@@ -1926,19 +1972,19 @@ This was revealed to a small group in 2006 at {qep'a' 13:src}, but only posted t
           <column name="definition_zh_HK">安全別針 [AUTOTRANSLATED]</column>
           <column name="definition_pt">pino de segurança</column>
           <column name="definition_fi">hakaneula</column>
-          <column name="definition_fr">épingle de sûreté [AUTOTRANSLATED]</column>
+          <column name="definition_fr">épingle de sûreté, épingle à nourrice</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
           <column name="notes">This refers to an item which is a very weird concept for a Klingon.[1]</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Dies bezieht sich auf einen Gegenstand, der ein sehr seltsames Konzept für Klingonen ist.[1]</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="notes_fr"></column>
+          <column name="notes_fr">Ceci se réfère à un objet qui est un objet très bizarre pour les klingons.[1]</column>
           <column name="hidden_notes"></column>
           <column name="components">{'emvI':n}, {ngaQ:v}</column>
           <column name="examples"></column>
@@ -1973,7 +2019,7 @@ This was revealed to a small group in 2006 at {qep'a' 13:src}, but only posted t
       <column name="definition_zh_HK">不是什麼，非 [AUTOTRANSLATED]</column>
       <column name="definition_pt">não ser algo, não-</column>
       <column name="definition_fi">ei olla (jotain), ei-</column>
-      <column name="definition_fr">ne soit pas quelque chose, non- [AUTOTRANSLATED]</column>
+      <column name="definition_fr">ne pas être quelque chose, non-</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Deq:v}</column>
@@ -2021,21 +2067,25 @@ This was revealed to a small group in 2006 at {qep'a' 13:src}, but only posted t
       <column name="definition_zh_HK">膀胱 [AUTOTRANSLATED]</column>
       <column name="definition_pt">bexiga</column>
       <column name="definition_fi">virtsarakko</column>
-      <column name="definition_fr">vessie [AUTOTRANSLATED]</column>
+      <column name="definition_fr">vessie</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{HuH:n}</column>
       <column name="notes">This refers to anatomy, but can be used metaphorically in other contexts.
 
 It takes the suffix {-Du':n} even when used metaphorically.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich auf das Organ, aber kann in anderen Zusammenhängen metaphorisch benutzt werden.
+
+Es nimmt das Suffix {-Du':n} selbst wenn es metaphorisch benutzt wird.[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci se réfère à l'organe, mais peut aussi être utilisé métaphoriquement dans d'autres contextes.
+
+Il prend le suffixe {-Du':n} même quand il s'utilise métaphoriquement.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -2071,7 +2121,7 @@ It takes the suffix {-Du':n} even when used metaphorically.[2]</column>
       <column name="definition_zh_HK">鏡片 [AUTOTRANSLATED]</column>
       <column name="definition_pt">lente</column>
       <column name="definition_fi">linssi</column>
-      <column name="definition_fr">lentille [AUTOTRANSLATED]</column>
+      <column name="definition_fr">lentille</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{jo':v:2}, {jo'Ha':v}, {'al'on:n}</column>
@@ -2103,7 +2153,7 @@ It takes the suffix {-Du':n} even when used metaphorically.[2]</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="search_tags_fr"></column>
+      <column name="search_tags_fr">cristallin, objectif, verre</column>
       <column name="source">[1] {qep'a' 28 (2021):src}</column>
     </table>
     <table name="mem">
@@ -2118,19 +2168,19 @@ It takes the suffix {-Du':n} even when used metaphorically.[2]</column>
       <column name="definition_zh_HK">藥品 [AUTOTRANSLATED]</column>
       <column name="definition_pt">medicamento</column>
       <column name="definition_fi">huume</column>
-      <column name="definition_fr">médicament [AUTOTRANSLATED]</column>
+      <column name="definition_fr">drogue, stupéfiant</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{HIq:n}</column>
       <column name="notes">Most {'enteDmey:n@@'enteD:n, -mey:n} are used ritualistically, but recreational use is not unheard of (as with alcohol). This word does not cover medicinal drugs, which are {Hergh:n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Die meisten {'enteDmey:n@@'enteD:n, -mey:n} werden rituell benutzt, aber Freizeitgebrauch ist nicht unbekannt (so wie mit Alkohol). Dieses Wort bezieht sich nicht auf Medizin, dafür siehe {Hergh:n}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">La plupart des {'enteDmey:n@@'enteD:n, -mey:n} sont d'usage rituelle, mais l'usage récréatif (comme l'alcool). Ce mot ne s'utilise pas pour la médécine, voir {Hergh:n}.</column>
       <column name="hidden_notes">"Bill &amp; Ted".
 
 It was clarified during the Q &amp; A session that this word and {Hergh:n:nolink} do not overlap.</column>
@@ -2167,19 +2217,19 @@ It was clarified during the Q &amp; A session that this word and {Hergh:n:nolink
       <column name="definition_zh_HK">企業號（星艦）</column>
       <column name="definition_pt">Empreendimento</column>
       <column name="definition_fi">Enterprise</column>
-      <column name="definition_fr">Entreprise [AUTOTRANSLATED]</column>
+      <column name="definition_fr">Enterprise</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Hov leng:n}</column>
       <column name="notes">This is the name of a series of Federation starships.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist der Name einer Reihe von Raumschiffen der Föderation.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">C'est le nom d'une série de vaisseaux spatiaux de la Fédération.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -2215,7 +2265,7 @@ It was clarified during the Q &amp; A session that this word and {Hergh:n:nolink
       <column name="definition_zh_HK">雲</column>
       <column name="definition_pt">nuvem</column>
       <column name="definition_fi">pilvi</column>
-      <column name="definition_fr">nuage [AUTOTRANSLATED]</column>
+      <column name="definition_fr">nuage</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chal:n}, {tlhoD:v}, {vI'laS:n}, {SIS:v}, {muD Dotlh:n}</column>
@@ -2233,14 +2283,18 @@ It was clarified during the Q &amp; A session that this word and {Hergh:n:nolink
       <column name="examples">
 ▶ {jul So' 'eng.:sen@@jul:n, So':v:1, 'eng:n} (it's pretty cloudy)[2]
 ▶ {jul tlhoDmoH 'eng.:sen@@jul:n, tlhoD:v, -moH:v, 'eng:n} (it's sort of cloudy)[2]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {jul So' 'eng.:sen@@jul:n, So':v:1, 'eng:n} (es ist ziemlich bewölkt)[2]
+▶ {jul tlhoDmoH 'eng.:sen@@jul:n, tlhoD:v, -moH:v, 'eng:n} (es ist etwas bewölkt)[2]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="examples_fr"></column>
+      <column name="examples_fr">
+▶ {jul So' 'eng.:sen@@jul:n, So':v:1, 'eng:n} (Le ciel est assez couvert)[2]
+▶ {jul tlhoDmoH 'eng.:sen@@jul:n, tlhoD:v, -moH:v, 'eng:n} (Le ciel est un peu couvert)[2]</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -2264,7 +2318,7 @@ It was clarified during the Q &amp; A session that this word and {Hergh:n:nolink
       <column name="definition_zh_HK">皮瓣 [AUTOTRANSLATED]</column>
       <column name="definition_pt">aba [AUTOTRANSLATED]</column>
       <column name="definition_fi">läppä</column>
-      <column name="definition_fr">rabat [AUTOTRANSLATED]</column>
+      <column name="definition_fr">rabat</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tel:n}</column>
@@ -2313,19 +2367,19 @@ In English, the sound of "D" ({Day:n}) is often pronounced as a flap.</column>
       <column name="definition_zh_HK">喝湯 [AUTOTRANSLATED]</column>
       <column name="definition_pt">consumir sopa</column>
       <column name="definition_fi">syödä keittoa</column>
-      <column name="definition_fr">consommer de la soupe [AUTOTRANSLATED]</column>
+      <column name="definition_fr">consommer de la soupe</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{je':v:2}</column>
       <column name="notes">This verb refers to an action which is between {Sop:v} and {tlhutlh:v}. In particular, it refers to consuming {chatlh:n:1}, which contains less liquid than what a Terran might identify as soup.[1, p.206]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieses Verb bezieht sich auf einen Handlung zwischen {Sop:v} und {tlhutlh:v}. Im Besondered bezieht es sich auf das Essen von {chatlh:n:1}, was weniger Flüssigkeit enthält als das, was Terraner als Suppe identifizieren würden.[1, p.206]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ce verbe se réfère à une action entre {Sop:v} et {tlhutlh:v}. En particulier, il se réfère au fait de consommer {chatlh:n:1}, qui contient moins liquide que ce qu'un terrien appellerait "soupe".[1, p.206]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2353,26 +2407,26 @@ In English, the sound of "D" ({Day:n}) is often pronounced as a flap.</column>
       <column name="entry_name">'ep</column>
       <column name="part_of_speech">v:2,t_c,slang</column>
       <column name="definition">human-style kiss</column>
-      <column name="definition_de">menschliches küssen</column>
+      <column name="definition_de">küssen auf menschliche Art</column>
       <column name="definition_fa">بوسه به سبک انسان [AUTOTRANSLATED]</column>
       <column name="definition_sv">mänsklig stil kyss [AUTOTRANSLATED]</column>
       <column name="definition_ru">поцелуй в человеческом стиле [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">人性之吻 [AUTOTRANSLATED]</column>
       <column name="definition_pt">beijo em estilo humano</column>
       <column name="definition_fi">suudella (kuten ihmiset suutelevat)</column>
-      <column name="definition_fr">baiser à la manière humaine [AUTOTRANSLATED]</column>
+      <column name="definition_fr">s'embrasser, donner un baiser à la manière humaine</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chop:v}</column>
       <column name="notes">This is a non-standard, slangy expression for human-style kissing. To kiss Klingon-style would be to {chop:v}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist ein nicht-hochsprachlicher, umgangssprachlicher Ausdruck für Küssen, wie Menschen es tun. Auf klingonische Art küssen wäre {chop:v}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci est une expression non standard, familiére pour s'embrasser à la manière humaine. Pour s'embrasser à la manière klingonne serait {chop:v}.[1]</column>
       <column name="hidden_notes">The expression {qab rem:sen@@qab:n, rem:v} would not be considered good Klingon, not even good slang.[1]</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2407,19 +2461,19 @@ In English, the sound of "D" ({Day:n}) is often pronounced as a flap.</column>
       <column name="definition_zh_HK">桃子 [AUTOTRANSLATED]</column>
       <column name="definition_pt">pêssego</column>
       <column name="definition_fi">eräs persikkaa muistuttava hedelmä</column>
-      <column name="definition_fr">pêche [AUTOTRANSLATED]</column>
+      <column name="definition_fr">pêche</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">A Klingon fruit similar to a peach, plum, or apricot. When clarification is needed, for the Earth fruit, precede with {tera':n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Eine klingonische Frucht, ähnlich einem Pfirsich, einer Pflaume oder Aprikose. Wenn Klarstellung nötig ist, kann für die irdische Frucht {tera':n} davorgestellt werden.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Un fruit klingon similaire à une pêche, une prune ou un abricot. Si une clarification est nécessaire pour le fruit terrien, on peut préceder avec {tera':n}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2432,14 +2486,14 @@ In English, the sound of "D" ({Day:n}) is often pronounced as a flap.</column>
       <column name="examples_fi"></column>
       <column name="examples_fr"></column>
       <column name="search_tags">plum, apricot</column>
-      <column name="search_tags_de"></column>
+      <column name="search_tags_de">Pflaume, Zwetschge, Quetsche, Aprikose, Marille</column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="search_tags_fr"></column>
+      <column name="search_tags_fr">prune, quetsche, abricot</column>
       <column name="source">[1] {qep'a' 27 (2020):src}</column>
     </table>
     <table name="mem">
@@ -2454,7 +2508,7 @@ In English, the sound of "D" ({Day:n}) is often pronounced as a flap.</column>
       <column name="definition_zh_HK">就在幾秒鐘或幾分鐘前 [AUTOTRANSLATED]</column>
       <column name="definition_pt">agora mesmo, apenas alguns segundos ou minutos atrás, um momento atrás</column>
       <column name="definition_fi">juuri nyt, aivan äsken, hetki sitten</column>
-      <column name="definition_fr">tout à l'heure, il y a quelques secondes ou quelques minutes, il y a un instant [AUTOTRANSLATED]</column>
+      <column name="definition_fr">tout à l'heure, il y a quelques secondes ou quelques minutes, il y a un instant, juste, venir de fair qch</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -2472,14 +2526,15 @@ In English, the sound of "D" ({Day:n}) is often pronounced as a flap.</column>
       <column name="examples">
 ▶ {'eQ qagh vISop:sen:nolink} "I just ate gagh" (meaning "I ate gagh a moment ago")</column>
       <column name="examples_de">
-▶ {'eQ qagh vISop:sen:nolink} "Ich habe eben Gagh gegessen"</column>
+▶ {'eQ qagh vISop:sen:nolink} "Ich habe (gerade) eben Gagh gegessen"</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="examples_fr"></column>
+      <column name="examples_fr">
+▶ {'eQ qagh vISop:sen:nolink} "Je viens de manger du gagh."</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -2503,19 +2558,19 @@ In English, the sound of "D" ({Day:n}) is often pronounced as a flap.</column>
       <column name="definition_zh_HK">阿丘！阿呼！ （打噴嚏的聲音） [AUTOTRANSLATED]</column>
       <column name="definition_pt">Atchoo! Acho! (som de espirro) [AUTOTRANSLATED]</column>
       <column name="definition_fi">Ätsii! (aivastuksen ääni)</column>
-      <column name="definition_fr">Atchoo! Achou! (bruit d'un éternuement) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">Atchoum ! (bruit d'éternuement)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This isn't really a word, but a quite standard term for transcribing the sound of a sneeze. Other made-up sounds might be acceptable if context is clear.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist nicht wirklich ein Wort, sondern ein recht üblicher Ausdruck, um das Geräusch des Niesens zu umschreiben. Andere erfundene Geräusche können akzeptabel sein, wenn der Kontext klar ist.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci n'est pas vraiment un mot, mais une manière assez ordinaire pour transcrire le bruit d'un éternuement. Autres sons inventés peuvent être acceptables, si le contexte est clair.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2550,19 +2605,19 @@ In English, the sound of "D" ({Day:n}) is often pronounced as a flap.</column>
       <column name="definition_zh_HK">肚臍窿</column>
       <column name="definition_pt">umbigo</column>
       <column name="definition_fi">napa</column>
-      <column name="definition_fr">nombril [AUTOTRANSLATED]</column>
+      <column name="definition_fr">nombril</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{chor:n:1}</column>
       <column name="notes">This word should not be confused with {'eQway':n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Nicht zu verwechseln mit {'eQway':n}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ne pas confondre avec {'eQway':n}.</column>
       <column name="hidden_notes">"Kyle XY" was an American TV show the title character of which lacks this body part.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2597,21 +2652,25 @@ In English, the sound of "D" ({Day:n}) is often pronounced as a flap.</column>
       <column name="definition_zh_HK">滑鼠</column>
       <column name="definition_pt">mouse (dispositivo de computador)</column>
       <column name="definition_fi">hiiri (tietokonelaite)</column>
-      <column name="definition_fr">souris (appareil informatique) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">souris (d'ordinateur)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{nItlh 'echlet:n}, {'echlet Hab:n}</column>
       <column name="notes">This refers to a computer input device. It typically has two buttons (called {leQ:n}): a {poS leQ:n@@poS:n, leQ:n} and a {nIH leQ:n@@nIH:n, leQ:n}.
 
 This word should not be confused with {'eQway:n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich auf das Computereingabegerät. Es hat normalerweise zwei Tasten ({leQ:n} genannt): ein {poS leQ:n@@poS:n, leQ:n} und ein {nIH leQ:n@@nIH:n, leQ:n}.
+
+Dieses Wort sollte nicht mit {'eQway:n} verwechselt werden.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci se réfère à un périphérique d'entree d'un ordinateur. Elle a typiquement deux boutons (appelés {leQ:n}): un {poS leQ:n@@poS:n, leQ:n} et un {nIH leQ:n@@nIH:n, leQ:n}.
+
+Ce mot ne devrait pas être confondu avec {'eQway:n}.</column>
       <column name="hidden_notes">A computer mouse is used to choose the (X,Y) coordinate on a computer screen.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2646,7 +2705,7 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="definition_zh_HK">鼠標墊 [AUTOTRANSLATED]</column>
       <column name="definition_pt">tapete de mouse</column>
       <column name="definition_fi">hiirimatto</column>
-      <column name="definition_fr">tapis de souris [AUTOTRANSLATED]</column>
+      <column name="definition_fr">tapis de souris</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -2693,7 +2752,7 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="definition_zh_HK">要早點 [AUTOTRANSLATED]</column>
       <column name="definition_pt">ser cedo</column>
       <column name="definition_fi">olla etuajassa</column>
-      <column name="definition_fr">être en avance [AUTOTRANSLATED]</column>
+      <column name="definition_fr">être tôt</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{paS:v}, {vem'eq:n}</column>
@@ -2733,26 +2792,26 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="entry_name">'er</column>
       <column name="part_of_speech">n:anim</column>
       <column name="definition">type of animal</column>
-      <column name="definition_de">Tiersorte</column>
+      <column name="definition_de">Tierart</column>
       <column name="definition_fa">نوع حیوانات [AUTOTRANSLATED]</column>
       <column name="definition_sv">ett slags djur</column>
       <column name="definition_ru">тип животного</column>
       <column name="definition_zh_HK">動物的類型 [AUTOTRANSLATED]</column>
       <column name="definition_pt">tipo de animal</column>
       <column name="definition_fi">eräs eläin</column>
-      <column name="definition_fr">type d'animal [AUTOTRANSLATED]</column>
+      <column name="definition_fr">type d'animal</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{naQ 'er:n}, {Saj:n}</column>
       <column name="notes">This animal is kept as a pet.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieses Tier wird als Haustier gehalten.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Cet animal se garde comme animal de compagnie.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2787,7 +2846,7 @@ This word should not be confused with {'eQway:n}.</column>
       <column name="definition_zh_HK">幻覺的 [AUTOTRANSLATED]</column>
       <column name="definition_pt">alucinar</column>
       <column name="definition_fi">hallusinoida, nähdä harhanäkyjä jostain</column>
-      <column name="definition_fr">halluciner [AUTOTRANSLATED]</column>
+      <column name="definition_fr">halluciner</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Suchtuv:n}, {jal:v}, {naj:v}</column>
@@ -2836,19 +2895,19 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">心靈感應 [AUTOTRANSLATED]</column>
       <column name="definition_pt">telepatia</column>
       <column name="definition_fi">telepatia</column>
-      <column name="definition_fr">la télépathie [AUTOTRANSLATED]</column>
+      <column name="definition_fr">télépathie</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{tova'Daq:n}, {relleghDaq:n}</column>
       <column name="notes">This could be used to translated "ESP". The usual term for psychic ability (or abilities) in general is {renyarDaq:n}.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies kann benutzt werden, um "außersinnliche Warhnehmung" zu übersetzen. Der übliche Begriff für psychische Fähigkeiten im Allgemeinen ist {renyarDaq:n}.[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci peut s'utiliser pour traduire "perception extrasensorielle". Le terme normal pour les pouvoirs psychiques en général est {renyarDaq:n}.[2]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2883,19 +2942,19 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">結束（棍棒、繩索等）、另一端來自{megh'an:n} [AUTOTRANSLATED]</column>
       <column name="definition_pt">fim (de vara, corda, etc.), outro fim de {megh'an:n}</column>
       <column name="definition_fi">(kepin, köyden tms.) pää (vastakkainen pää on {megh'an:n})</column>
-      <column name="definition_fr">extrémité (du bâton, de la corde, etc.), autre extrémité de {megh'an:n} [AUTOTRANSLATED]</column>
+      <column name="definition_fr">extrémité (d'un bâton, une corde, etc.), autre extrémité de {megh'an:n}</column>
       <column name="synonyms">{megh'an:n}</column>
       <column name="antonyms"></column>
       <column name="see_also">{DIn:n}, {qa'rI':n}</column>
       <column name="notes">This can refer to either end of the rope, stick or whatever, but once you arbitrarily choose an end to call {'er'In:n:nolink}, the other end is called {megh'an:n:nolink}. Before you make this initial reference, either end can be called either {'er'In:n:nolink} or {megh'an:n:nolink}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies kann eins von beiden Enden eines Seils, Stocks etc. sein, aber sobald man willkürlich ein Ende gewählt und {'er'In:n:nolink} genannt hat, wird das andere Ende {megh'an:n:nolink} genannt. Bevor dieser erste Bezug gemacht wird, kann jedes Ende sowohl {'er'In:n:nolink} oder {megh'an:n:nolink} sein.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci peut être ou l'une ou l'autre extremité d'une corde, d'un bâton etc., mais le moment où l'on choisit arbitrairement une extrémité pour l'appeller {'er'In:n:nolink}, l'autre extrémité s'appelle {megh'an:n:nolink}. Avant qu'on fait cette première référence, chaque extrémité peut être ou {'er'In:n:nolink} ou {megh'an:n:nolink}.</column>
       <column name="hidden_notes">This is a private joke referring to a specific person.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -2931,7 +2990,7 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">要低 [AUTOTRANSLATED]</column>
       <column name="definition_pt">abaixo</column>
       <column name="definition_fi">olla matala</column>
-      <column name="definition_fr">être bas (en hauteur) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">être bas (en hauteur)</column>
       <column name="synonyms"></column>
       <column name="antonyms">{jen:v}</column>
       <column name="see_also">{run:v}, {'ab:v:1}, {joD:v}</column>
@@ -2978,19 +3037,19 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">宗教服裝，法官穿的長袍 [AUTOTRANSLATED]</column>
       <column name="definition_pt">roupa religiosa, o roupão usado por um juiz</column>
       <column name="definition_fi">uskonnollinen tai muulla tavoin rituaalinen vaate</column>
-      <column name="definition_fr">vêtement religieux, la robe portée par un juge [AUTOTRANSLATED]</column>
+      <column name="definition_fr">vêtement religieux, robe portée par un juge</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yIn 'eSqa':n}, {mop:n}</column>
       <column name="notes">This is an old word referring to specialized or ritual clothing (though not a uniform).</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist ein altes Wort für spezialisierte oder rituelle Kleidung (aber keine Uniform).</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci est un vieux mot pour les vêtements spécialisés ou rituels (mais pas pour un uniforme).</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3020,12 +3079,12 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition">dew</column>
       <column name="definition_de">Tau (Tauwasser)</column>
       <column name="definition_fa">شبنم [AUTOTRANSLATED]</column>
-      <column name="definition_sv">dagg [AUTOTRANSLATED]</column>
+      <column name="definition_sv">dagg</column>
       <column name="definition_ru">роса [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">露 [AUTOTRANSLATED]</column>
       <column name="definition_pt">orvalho</column>
       <column name="definition_fi">kaste</column>
-      <column name="definition_fr">rosée [AUTOTRANSLATED]</column>
+      <column name="definition_fr">rosée</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{po:n:1h}, {magh:n}</column>
@@ -3072,19 +3131,19 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">彈跳、反彈</column>
       <column name="definition_pt">saltar, rebotear, ricochetear</column>
       <column name="definition_fi">kimmota</column>
-      <column name="definition_fr">rebondir, rebondir, ricocher [AUTOTRANSLATED]</column>
+      <column name="definition_fr">rebondir, ricocher</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{ya'rIS:n}, {nar:v}, {SIl:v:extcan}</column>
       <column name="notes">The thing which the subject bounces off of is marked with {-vo':n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Das Ding, von dem das Subjekt abprallt wird mit {-vo':n} markiert.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">La chose dont le sujet rebondit est marqué de {-vo':n}.</column>
       <column name="hidden_notes">{'et:n:1} is the letter "e", which corresponds to "echo" in Greek.</column>
       <column name="components"></column>
       <column name="examples">
@@ -3100,14 +3159,38 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
   "When the eyes of death are upon him,
    Light reflects off the bat'leth
    Into Fek'lhr's evil eyes."[2, p.104-105]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {qeylIS betleH bochvo':sen:nolink}
+   {'et Duj wovmoHwI'mey:sen:nolink}
+   {tugh nab 'ogh qeylIS:sen:nolink}
+  "Die Lichter des Schiffes
+   Spiegeln auf seinem Bat'leth,
+   Bald schmiedet Kahless einen Plan."[2, S.102-103]
+▶ {lubejtaHvIS Heghna' mInDu':sen:nolink}
+   {betleHvo' veqlargh mInDu' mIghDaq:sen:nolink}
+   {'et tamghay:sen:nolink}
+  "Als die Augen sich auf ihn richten,
+   Spiegelt sich das Licht im Bat'leth
+   In Fek'lhrs böse Augen."[2, S.104-105]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="examples_fr"></column>
+      <column name="examples_fr">
+▶ {qeylIS betleH bochvo':sen:nolink}
+   {'et Duj wovmoHwI'mey:sen:nolink}
+   {tugh nab 'ogh qeylIS:sen:nolink}
+  "Les lumières du bâteau
+   Réfléchissent de son bat'leth,
+   Bientôt Kahless va mûrir un plan."[2, p.102-103]
+▶ {lubejtaHvIS Heghna' mInDu':sen:nolink}
+   {betleHvo' veqlargh mInDu' mIghDaq:sen:nolink}
+   {'et tamghay:sen:nolink}
+  "Quand les yeux de la mort sont sur lui,
+   La lumière réfléchit du bat'leth
+   Dans les yeux mäechants du Fek'lhr."[2, p.104-105]</column>
       <column name="search_tags">echo, reflect</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -3131,7 +3214,7 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
           <column name="definition_zh_HK">彈跳床 [AUTOTRANSLATED]</column>
           <column name="definition_pt">trampolim [AUTOTRANSLATED]</column>
           <column name="definition_fi">trampoliini</column>
-          <column name="definition_fr">trampoline [AUTOTRANSLATED]</column>
+          <column name="definition_fr">trampoline</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
@@ -3178,19 +3261,19 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">前面 [AUTOTRANSLATED]</column>
       <column name="definition_pt">à frente, à proa</column>
       <column name="definition_fi">keula, etuosa</column>
-      <column name="definition_fr">avant [AUTOTRANSLATED]</column>
+      <column name="definition_fr">avant, proue</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'o':n}</column>
       <column name="see_also">{poS:n}, {nIH:n}, {tlhop:n:1}</column>
       <column name="notes">For the front of an object, see {logh'ob:n:2}, For the area in front of an object, see {tlhop:n:1}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Für die Vorderseite eines Objekts, siehe {logh'ob:n:2}, Für den Bereich vor einem Object, siehe {tlhop:n:1}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Pour le côté de devant d'un objet, voir {logh'ob:n:2}, Pour la zone devant un objet, voir {tlhop:n:1}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3225,19 +3308,19 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">劍、刃</column>
       <column name="definition_pt">espada, lâmina</column>
       <column name="definition_fi">miekka, terä</column>
-      <column name="definition_fr">Lame d'épée [AUTOTRANSLATED]</column>
+      <column name="definition_fr">lame, épée, sabre</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{yan:n}, {tIqleH:n}</column>
       <column name="notes">This could refer to the blade of a knife or spear.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies kann sich auch auf die Klinge eines Messer oder Speers beziehen.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci peut aussi se référer à la lame d'un couteau ou d'une lance.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3272,7 +3355,7 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">即使是最好的刀片也會生鏽，並且除非得到照顧，否則會變鈍。 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Até a melhor lâmina enferruja e fica sem brilho, a menos que seja cuidada.</column>
       <column name="definition_fi">Paraskin terä ruostuu ja tylsyy, ellei sitä hoideta.</column>
-      <column name="definition_fr">Même la meilleure lame rouillera et s’émoussera si elle n’est pas entretenue. [AUTOTRANSLATED]</column>
+      <column name="definition_fr">Même la meilleure lame rouillera et s'émoussera si elle n'est pas entretenue.</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -3319,7 +3402,7 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">溜冰鞋 [AUTOTRANSLATED]</column>
       <column name="definition_pt">patinar no gelo [AUTOTRANSLATED]</column>
       <column name="definition_fi">luistin</column>
-      <column name="definition_fr">patin à glace [AUTOTRANSLATED]</column>
+      <column name="definition_fr">patin à glace</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -3368,19 +3451,19 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">西北面、西北方</column>
       <column name="definition_pt">área para noroeste, área em direção ao noroeste</column>
       <column name="definition_fi">alue luoteessa</column>
-      <column name="definition_fr">zone vers le nord-ouest, zone vers le nord-ouest [AUTOTRANSLATED]</column>
+      <column name="definition_fr">zone nord-ouest, zone vers le nord-ouest</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{lurgh:n}, {chan:n}, {tIng:n}, {SInan:n}</column>
       <column name="notes">This is approximately 320 degrees on a Terran compass, if north is 0 and degrees are counted clockwise.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist ungefähr 320 Grad auf einem irdischen Kompass, wenn Norden 0° ist und im Uhrzeigersinn gezählt wird.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci est environ 320 degrées sur une boussole terrienne, si le nord est 0° et les degrées sont comptés dans le sens des aiguilles d'une montre.</column>
       <column name="hidden_notes">Eva Saint Marie played the character of Eve Kendall in Alfred Hitchcock's "North-by-Northwest".</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3462,19 +3545,19 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">鼓掌 [AUTOTRANSLATED]</column>
       <column name="definition_pt">aplaudir</column>
       <column name="definition_fi">osoittaa suosiota</column>
-      <column name="definition_fr">applaudir [AUTOTRANSLATED]</column>
+      <column name="definition_fr">applaudir</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Hoy':v}</column>
       <column name="notes">This applies to whatever it is that Klingons do to applaud or show approval/appreciation. The most common way to refer to the clapping that Humans do is by the phrase {toch yo:sen@@toch:n, yo:v} "slap palm(s)."</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich auf was auch immer Klingonen tun, um zu applaudieren oder Zustimmung/Anerkennung zu zeigen. Die häufigste Art, um das menschliche Klatschen zu bezeichnen, ist die Phrase {toch yo:sen@@toch:n, yo:v} "Handfläche(n) (aufeinander)schlagen".</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci s'applique sur quoi que ça soit que les klingons font pour applaudir ou montrer approbation/admiration. La manière la plus commune de se référer à l'applaudissement que font les humains est la phrase {toch yo:sen@@toch:n, yo:v} "battre la paume/les paumes".</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3509,7 +3592,7 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">子空間</column>
       <column name="definition_pt">subespaço</column>
       <column name="definition_fi">aliavaruus</column>
-      <column name="definition_fr">sous-espace [AUTOTRANSLATED]</column>
+      <column name="definition_fr">subespace</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{logh:n}, {tlhey'at:n}</column>
@@ -3527,14 +3610,18 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="examples">
 ▶ {labmeH 'evnagh Se' lo' tlhIngan QumwI'. janmey ngo' lulo'lu'DI' pIj jabbI'ID nISpu' woj.:sen:nolink}
   "A Klingon communicator sends a signal through subspace radio. Older models were susceptible to radiation."[2]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {labmeH 'evnagh Se' lo' tlhIngan QumwI'. janmey ngo' lulo'lu'DI' pIj jabbI'ID nISpu' woj.:sen:nolink}
+  "Ein klingonischer Kommunikator sendet ein Signal via Subraumradio. Ältere Modelle waren anfällig für Strahlung."[2]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="examples_fr"></column>
+      <column name="examples_fr">
+▶ {labmeH 'evnagh Se' lo' tlhIngan QumwI'. janmey ngo' lulo'lu'DI' pIj jabbI'ID nISpu' woj.:sen:nolink}
+  "Un communicateur klingon envoie un signal par radio de subespace. Les modèles plus vieux étaient susceptibles à la radiation."[2]</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -3558,7 +3645,7 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">子空通訊</column>
       <column name="definition_pt">rádio subespacial</column>
       <column name="definition_fi">aliavaruusradio</column>
-      <column name="definition_fr">radio subspatiale [AUTOTRANSLATED]</column>
+      <column name="definition_fr">radio de subespace</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -3605,7 +3692,7 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">類似於蠑螈或蠑螈的動物 [AUTOTRANSLATED]</column>
       <column name="definition_pt">animal semelhante a um tritão ou salamandra</column>
       <column name="definition_fi">eräs vesiliskon tai salamanterin kaltainen eläin</column>
-      <column name="definition_fr">triton, salamandre, type d'animal (créature ressemblant à une salamandre Klingon) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">triton, salamandre, type d'animal (créature klingonne ressemblant à une salamandre)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{lung:n}</column>
@@ -3652,19 +3739,19 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">基礎（化學） [AUTOTRANSLATED]</column>
       <column name="definition_pt">base (química)</column>
       <column name="definition_fi">emäs</column>
-      <column name="definition_fr">base (chimie) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">base (chimie)</column>
       <column name="synonyms"></column>
       <column name="antonyms">{pey:n}</column>
       <column name="see_also"></column>
       <column name="notes">This refers to a classification of substances in chemistry. It is not the same as "alkali", but includes alkalis.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist eine Klassifizierung von Substanzen in der Chemie. Es ist nicht das selbe wie "Alkalien", aber beinhaltet Alkalien.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci se réfère à une classification de substances en chimie. Il n#est pas la même chose qu'"alcali", mais inclue les alcais.</column>
       <column name="hidden_notes">This was defined as "base" with an explanation. The word "chemistry" was added for clarification.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3699,19 +3786,19 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">好吃、好聽</column>
       <column name="definition_pt">ser bom, ser delicioso, ser gostoso, ser harmonioso</column>
       <column name="definition_fi">olla hyvän makuinen, herkullinen, maukas; olla hyvältä kuulostava, sopusointuinen</column>
-      <column name="definition_fr">être bon, être délicieux, être savoureux, être harmonieux [AUTOTRANSLATED]</column>
+      <column name="definition_fr">être bon, être délicieux, être savoureux, être harmonieux</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'eyHa':v}</column>
       <column name="see_also">{jej:v}, {wejwa':n}, {DuQ:v:2}, {tlhorgh:v}, {mum:v:1}, {tIv:v}</column>
       <column name="notes">This word is applied to food and music.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieses Wort wird für Essen und Musik verwendet.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ce mot s'utilise pour nourriture et musique.</column>
       <column name="hidden_notes">In English slang, "ey!" is an expression of satisfaction.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3746,19 +3833,19 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">不好吃</column>
       <column name="definition_pt">ser indesejável, ser não delicioso</column>
       <column name="definition_fi">olla pahan makuinen</column>
-      <column name="definition_fr">être peu délicieux [AUTOTRANSLATED]</column>
+      <column name="definition_fr">être peu délicieux</column>
       <column name="synonyms"></column>
       <column name="antonyms">{'ey:v}</column>
       <column name="see_also">{jejHa':v}, {'up:v}, {ngIm:v}, {ragh:v}, {natlh:v:2}, {Qop:v:2}</column>
       <column name="notes">This is used for food that has been prepared poorly.[1, p.84]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies wird für Essen benutzt, dass schlecht zubereitet ist.[1, p.84]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci s'utilise pour la nourriture mal préparée.[1, p.84]</column>
       <column name="hidden_notes"></column>
       <column name="components">{'ey:v}, {-Ha':v}</column>
       <column name="examples"></column>
@@ -3793,7 +3880,7 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_zh_HK">（上一個主題） [AUTOTRANSLATED]</column>
       <column name="definition_pt">aquele, que (tópico anterior)</column>
       <column name="definition_fi">se, että (edelliseen lauseeseen tai aiheeseen viittaava pronomini)</column>
-      <column name="definition_fr">ça (sujet précédent) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">ça (sujet précédent)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -3802,27 +3889,39 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
 Normally, {net:n:pro} is used when the subject of the verb is indefinite (that is, {X net Y:sen:nolink} is used instead of {X 'e' Y-lu':sen:nolink}). However, this is not always the case. See {net:n:pro} for examples.
 
 Do not confuse this pronoun with the suffix {-'e':n:suff}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieses Pronomen wird als Objekt des zweiten Satzes in einer Satz-als-Objekt-Konstruktion verwendet. Es bezieht sich auf den vorherigen Satz als Ganzes. In einer solchen Konstruktion, nimmt der zweite Satz niemals ein Aspektsuffix.
+
+Normalerweise wird {net:n:pro} benutzt, wenn das Subjekt des zweiten Verbs unbestimmt ist, (also {X net Y:sen:nolink} statt {X 'e' Y-lu':sen:nolink}). Dies ist allerdings nicht immer der Fall. Siehe {net:n:pro} für Beispiele.
+        
+Dieses Pronomen darf nicht mit dem Suffix {-'e':n:suff} verwechselt werden.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ce pronom est utilisé comme l'objet de la deuxième phrase dans la construction phrase-comme-objet. Il se réfère à la phrase précédente entière. Dans cette construction, la deuxième phrase ne prend jamais un suffixe d'aspect.
+
+Normalement, {net:n:pro} s'utilise quand le sujet du verbe est indéfini, (c.a.d., {X net Y:sen:nolink} s'utilise au lieu de {X 'e' Y-lu':sen:nolink}). Cependant, ce n'est pas toujours le cas. Voir {net:n:pro} pour exemples.
+        
+Ne pas confondre ce pronom avec le suffixe {-'e':n:suff}.</column>
       <column name="hidden_notes">The rule that the second sentence never takes an aspect suffix was due to the backfitting of {qama'pu' jonta' neH.:sen} This rule is violated by the text on {SkyBox S25:src} and {SkyBox S26:src}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {qama'pu' DIHoH 'e' luSov:sen:nolink} "They know we kill prisoners."[1]
 ▶ {yaS qIppu' 'e' vIlegh:sen:nolink} "I saw him/her hit the officers."[1]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {qama'pu' DIHoH 'e' luSov:sen:nolink} "Sie wissen, dass wir Gefangene töten."[1]
+▶ {yaS qIppu' 'e' vIlegh:sen:nolink} "Ich habe gesehen, dass er/sie den Offizier geschlagen hat."[1]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="examples_fr"></column>
+      <column name="examples_fr">
+▶ {qama'pu' DIHoH 'e' luSov:sen:nolink} "Ils savent que nous tuons les prisonniers."[1]
+▶ {yaS qIppu' 'e' vIlegh:sen:nolink} "Je l'ai vu frapper l'officier."[1]</column>
       <column name="search_tags"></column>
       <column name="search_tags_de">dass</column>
       <column name="search_tags_fa"></column>
@@ -3846,19 +3945,19 @@ Do not confuse this pronoun with the suffix {-'e':n:suff}.</column>
       <column name="definition_zh_HK">代替</column>
       <column name="definition_pt">ao invés de</column>
       <column name="definition_fi">(jonkin) sijasta</column>
-      <column name="definition_fr">au lieu de [AUTOTRANSLATED]</column>
+      <column name="definition_fr">au lieu de</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{SetqIn:adv}</column>
       <column name="notes">When used on noun phrases the {'e':n:pro} is not needed grammatically, but because of the common use of the {'e' qa':sen:nolink} construction, it is sometimes heard anyway.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Wenn es auf Nominalphrasen angewendet wird ist {'e':n:pro} grammatikalisch unnötig, aber aufgrund der Häufigkeit der {'e' qa':sen:nolink}-Konstruktion, wird es manchmal trotzdem benutzt.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Quand on l'utilise pour les phrases nominales, {'e':n:pro} n'est pas nécessaire grammaticalement, mais à cause de l'usage commune de la construction {'e' qa':sen:nolink}, on l'entend parfois quand même.</column>
       <column name="hidden_notes"></column>
       <column name="components">{'e':n:pro, qa':v}</column>
       <column name="examples">
@@ -3866,7 +3965,11 @@ Do not confuse this pronoun with the suffix {-'e':n:suff}.</column>
 ▶ {jIQam; jIba' 'e' qa':sen:nolink} "I stand rather than sit" or "I'll stand instead of sitting" (literally: "I stand; it replaces that I sit")
 ▶ {'awje' vItlhutlh; HIq ('e') qa':sen:nolink} "I drink root beer instead of liquor" (literally: "I drink root beer; it replaces liquor")
 ▶ {'awje'; HIq ('e') qa':sen:nolink} "root beer instead of liquor" (literally: "root beer; it replaces liquor") might be a response to the question {HIq Datlhutlh DaneH'a'?:sen:nolink}</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {'awje' vItlhutlh; HIq vItlhutlh 'e' qa':sen:nolink} "Ich trinke Malzbier statt Alkohol" (wörtlich: "Ich trinke Malzbier; es ersetzt, dass ich Alkohol trinke")
+▶ {jIQam; jIba' 'e' qa':sen:nolink} "Ich stehe lieber als zu sitzen" oder "Ich stehe statt zu sitzen" (wörtlich: "Ich stehe; es ersetzt, dass ich sitze")
+▶ {'awje' vItlhutlh; HIq ('e') qa':sen:nolink} "Ich trinke Malzbier statt Alkohol" (wörtlich: "I trinke Malzbier; es ersetzt Alkohol")
+▶ {'awje'; HIq ('e') qa':sen:nolink} "Malzbier statt Alkohol" (wörtlich: "Malzbier; es ersetzt Alkohol") könnte eine Antwort auf die Frage {HIq Datlhutlh DaneH'a'?:sen:nolink} sein</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
@@ -3882,7 +3985,11 @@ Do not confuse this pronoun with the suffix {-'e':n:suff}.</column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="search_tags_fr"></column>
+      <column name="search_tags_fr">
+▶ {'awje' vItlhutlh; HIq vItlhutlh 'e' qa':sen:nolink} "Je bois de la racinette au lieu d'une boisson alcoolisée" (littéralement: "Je bois de la racinette; il remplace que je bois une boisson alcoolisée")
+▶ {jIQam; jIba' 'e' qa':sen:nolink} "Je suis debout au lieu d'être assis" ou "Je suis debout au lieu de m'asseoir" (littéralement: "Je suis debout; il remplace que je suis assis")
+▶ {'awje' vItlhutlh; HIq ('e') qa':sen:nolink} "Je bois de la racinette au lieu d'une boisson alcoolisée" (littéralement: "Je bois de la racinette; ellel remplace une boisson alcoolisée")
+▶ {'awje'; HIq ('e') qa':sen:nolink} "racinette au lieu d'une boisson alcoolisée" (littéralement: "racinette; elle remplace une boisson alcoolisée") pourrait être une réponse à la question {HIq Datlhutlh DaneH'a'?:sen:nolink}</column>
       <column name="source">[1] {qep'a' 25 (2018):src}</column>
     </table>
     <table name="mem">
@@ -3897,19 +4004,19 @@ Do not confuse this pronoun with the suffix {-'e':n:suff}.</column>
       <column name="definition_zh_HK">阿姨（父親的妹妹） [AUTOTRANSLATED]</column>
       <column name="definition_pt">tia (irmã do pai)</column>
       <column name="definition_fi">täti (isän sisar)</column>
-      <column name="definition_fr">tante (soeur du père) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">tante (soeur du père)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{vav:n}, {tennuS:n}</column>
       <column name="notes">The child of an {'e'mam:n:nolink} is a {lor:n:1}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Das Kind einer {'e'mam:n:nolink} ist ein {lor:n:1}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">L'enfant d'une {'e'mam:n:nolink} est un {lor:n:1}.</column>
       <column name="hidden_notes">This is a reference to "Auntie Mame", a broadway play.</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3944,7 +4051,7 @@ Do not confuse this pronoun with the suffix {-'e':n:suff}.</column>
       <column name="definition_zh_HK">阿姨（父親的兄弟的妻子） [AUTOTRANSLATED]</column>
       <column name="definition_pt">tia (esposa do irmão do pai)</column>
       <column name="definition_fi">isän veljen vaimo</column>
-      <column name="definition_fr">tante (épouse du frère du père) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">tante (épouse du frère du père)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{vav:n}, {tennuS:n}</column>
@@ -3991,7 +4098,7 @@ Do not confuse this pronoun with the suffix {-'e':n:suff}.</column>
       <column name="definition_zh_HK">與家人結婚的人 [AUTOTRANSLATED]</column>
       <column name="definition_pt">alguém que se casou com a família</column>
       <column name="definition_fi">sukulainen avioliiton kautta</column>
-      <column name="definition_fr">quelqu'un qui s'est marié dans la famille [AUTOTRANSLATED]</column>
+      <column name="definition_fr">quelqu'un qui s'est marié dans la famille</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{loDnal:n}, {be'nal:n}, {'e'mamnal:n}, {tennuSnal:n}, {me'nal:n}, {'IrneHnal:n}</column>
@@ -4016,14 +4123,14 @@ Do not confuse this pronoun with the suffix {-'e':n:suff}.</column>
       <column name="examples_fi"></column>
       <column name="examples_fr"></column>
       <column name="search_tags">inlaw, in-law</column>
-      <column name="search_tags_de"></column>
+      <column name="search_tags_de">Schwieger</column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
       <column name="search_tags_ru"></column>
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="search_tags_fr"></column>
+      <column name="search_tags_fr">belle-famille</column>
       <column name="source">[1] {HQ 9.3, Sep. 2000:src}</column>
     </table>
     <table name="mem">
@@ -4038,19 +4145,19 @@ Do not confuse this pronoun with the suffix {-'e':n:suff}.</column>
       <column name="definition_zh_HK">沙沙聲 [AUTOTRANSLATED]</column>
       <column name="definition_pt">som farfalhante [AUTOTRANSLATED]</column>
       <column name="definition_fi">kahina, rapina</column>
-      <column name="definition_fr">bruissement [AUTOTRANSLATED]</column>
+      <column name="definition_fr">bruissement, froissement</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{por:n}</column>
       <column name="notes">To "make a rustling sound" or "rustle" would be {'e'qIn tlhen:sen:nolink}, using the verb {tlhen:v}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">"Ein raschelndes Geräusch machen" oder "rascheln" wäre {'e'qIn tlhen:sen:nolink}, mit dem Verb {tlhen:v}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">"Faire un frissement" ou "froisser, fire bruire" serait {'e'qIn tlhen:sen:nolink}, usant le verbe {tlhen:v}.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>

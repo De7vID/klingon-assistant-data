@@ -10,19 +10,19 @@
       <column name="definition_zh_HK">輔音{n:sen:nolink}</column>
       <column name="definition_pt">a consoante {n:sen:nolink}</column>
       <column name="definition_fi">konsonantti {n:sen:nolink}</column>
-      <column name="definition_fr">la consonne {n:sen:nolink} [AUTOTRANSLATED]</column>
+      <column name="definition_fr">la consonne {n:sen:nolink}]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This refers to the sound, and not to any letter or glyph.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich auf den Laut, nicht den Buchstaben oder das Zeichen.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">Namnet på ett ljud, inte en skriven bokstav eller glyf.</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci se réfère au son, pas à la lettre ou au glyphe.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -5530,28 +5530,32 @@ Sometimes, {'e':n:pro} with {-lu':v} is used instead of {net:n:pro,nolink}, beca
       <column name="entry_name">netlh</column>
       <column name="part_of_speech">n:num</column>
       <column name="definition">ten thousand (number-forming element)</column>
-      <column name="definition_de">zehntausend</column>
+      <column name="definition_de">zehntausend (Zahlenbildungsmorphem)</column>
       <column name="definition_fa">ده هزار</column>
       <column name="definition_sv">tiotusen (nummerbildande element)</column>
       <column name="definition_ru">Десять тысяч</column>
       <column name="definition_zh_HK">萬</column>
       <column name="definition_pt">dez mil</column>
       <column name="definition_fi">kymmenentuhatta</column>
-      <column name="definition_fr">dix mille (élément formant un nombre)</column>
+      <column name="definition_fr">dix mille (morphème formant un nombre)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mI':n}, {SaD:n:num}, {bIp:n:num}</column>
       <column name="notes">This is a number-forming element, and not itself a number. The number 10,000 (ten thousand) is {wa'netlh:n:num,nolink}, literally "one ten thousand", in Klingon.
 
 Note that the Klingon number-forming element for "ten thousand" is independent of the words for "ten" ({maH:n:2,num}) and "thousand" ({SaD:n:num,nolink}).</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist ein zahlenbildendes Morphem oder Element und nicht eine Zahl an sich. Die Zahl 10.000 (zehntausend) ist {wa'netlh:n:num,nolink}, wörtlich "ein zehntausend", auf klingonisch.
+
+Merke, dass das klingonische Zahlenbildungsmorphem für "zehntausend" unabhängig von den Wörtern für "zehn" ({maH:n:2,num}) und "tausend" ({SaD:n:num}) ist.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci est un morphème formant un nombre et pas un nombre en soi. Le nombre 10 000 (dix mille) est {wa'netlh:n:num,nolink}, littéralement "un dix mille", en klingon.
+
+        À noter que l'élément formant le nombre "dix mille" est indépendent des morphèmes pour "dix" ({maH:n:2,num}) et "mille" ({SaD:n:num}). </column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -5626,14 +5630,14 @@ Note that the Klingon number-forming element for "ten thousand" is independent o
           <column name="entry_name">netlh'uy'</column>
           <column name="part_of_speech">n:num,deriv</column>
           <column name="definition">ten billion (number-forming element)</column>
-          <column name="definition_de">zehn Milliarden (zahlenbildendes Element)</column>
+          <column name="definition_de">zehn Milliarden (Zahlenbildungsmorphem)</column>
           <column name="definition_fa">ده میلیارد (عنصر تشکیل دهنده اعداد) [AUTOTRANSLATED]</column>
           <column name="definition_sv">tio miljarder (nummerbildande element)</column>
           <column name="definition_ru">десять миллиардов (числообразующий элемент) [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">100億（數字形成元素） [AUTOTRANSLATED]</column>
           <column name="definition_pt">dez bilhões (elemento formador de número)</column>
           <column name="definition_fi">kymmenen miljardia</column>
-          <column name="definition_fr">dix milliards (élément formant un nombre)</column>
+          <column name="definition_fr">dix milliards (morphème formant un nombre)</column>
           <column name="synonyms">{maHSaghan:n}</column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
@@ -7212,7 +7216,7 @@ Maltz wasn't sure, but he thought that {nIq:n:nolink} was shortened from {nIqwI'
       <column name="definition_zh_HK">破壞者 [AUTOTRANSLATED]</column>
       <column name="definition_pt">disruptor</column>
       <column name="definition_fi">eräs ampuma-ase, häiritsin</column>
-      <column name="definition_fr">perturbateur [AUTOTRANSLATED]</column>
+      <column name="definition_fr">disrupteur</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bach:v}, {nISwI' beH:n}</column>
