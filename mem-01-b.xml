@@ -2107,7 +2107,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="definition_fr">honneur (concept général, philosophique, associé à l'intégrité)</column>
       <column name="synonyms"></column>
       <column name="antonyms">{DavHam:n}, {chIvo':n}</column>
-      <column name="see_also">{quv:v}</column>
+      <column name="see_also">{batlh:adv}, {quv:v}</column>
       <column name="notes">This word refers to a grander, more general, philosophical concept, in comparison to {quv:n}. It is associated with integrity, rectitude, scruples, and principles.[2]</column>
       <column name="notes_de">Dieses Wort bezeichnet ein größeres, allgemeineres, philosophisches Konzept, im Vergleich zu {quv:n}. Es wird mit Integrität, Rechtschaffenheit, Skrupel und Prinzipien assoziiert.[2]</column>
       <column name="notes_fa"></column>
@@ -2154,7 +2154,7 @@ In Japanese, "baka" means "fool" or "idiot".</column>
       <column name="definition_fr">honoré, avec honneur, honorablement</column>
       <column name="synonyms"></column>
       <column name="antonyms">{batlhHa':adv}</column>
-      <column name="see_also">{quv:n}, {quv:v}</column>
+      <column name="see_also">{batlh:n}, {quv:n}, {quv:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5798,7 +5798,14 @@ Le {betleH:n:nolink} est aussi appellé {betleH quv:n:nolink} pour le distinguer
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="examples_fr"></column>
+      <column name="examples_fr">
+▶ {DIr paH bID:n}
+▶ {paH bID:n}
+▶ {rejghun yopwaH bID:n@@rejghun:n, yopwaH bID:n}
+▶ {yopwaH bID:n}
+▶ {moQbID:n}
+▶ {molor 'etlh bID wItlh qeylIS.:sen}
+▶ {cha' choQmey naQ tu'lu' 'ej tep choQ bIngDaq lo' law' bID choQ tu'lu':sen:nolink} "Il y a deux ponts entiers et un demi-pont polyvalent sous le pont de chargement."[2]</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -5807,14 +5814,7 @@ Le {betleH:n:nolink} est aussi appellé {betleH quv:n:nolink} pour le distinguer
       <column name="search_tags_zh_HK"></column>
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
-      <column name="search_tags_fr">
-▶ {DIr paH bID:n}
-▶ {paH bID:n}
-▶ {rejghun yopwaH bID:n@@rejghun:n, yopwaH bID:n}
-▶ {yopwaH bID:n}
-▶ {moQbID:n}
-▶ {molor 'etlh bID wItlh qeylIS.:sen}
-▶ {cha' choQmey naQ tu'lu' 'ej tep choQ bIngDaq lo' law' bID choQ tu'lu':sen:nolink} "Il y a deux ponts entiers et un demi-pont polyvalent sous le pont de chargement."[2]</column>
+      <column name="search_tags_fr"></column>
       <column name="source">[1] {TKD:src}, [2] {BoP:src}</column>
     </table>
     <table name="mem">
@@ -11156,7 +11156,7 @@ Reverse of {nob:v}. This was apparently not intentional.</column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr">Le choix de suffixe de pluriel dépent du type de symbiote. Pour les symbiotes Trill (voir  {tI'rIlngan:n}), le suffixe {-pu':n:suff} est utilisé. Quand il s'agit d'un parasite, on utilise {-mey:n:suff}.</column>
+      <column name="notes_fr">Le choix de suffixe de pluriel dépent du type de symbiote. Pour les symbiotes Trill (voir {tI'rIlngan:n}), le suffixe {-pu':n:suff} est utilisé. Quand il s'agit d'un parasite, on utilise {-mey:n:suff}.</column>
       <column name="hidden_notes">The plural suffix this word takes was clarified during the Q &amp; A session.</column>
       <column name="components">{boq:n:1}, {yIn:n}</column>
       <column name="examples"></column>
@@ -12684,7 +12684,7 @@ Ce mot s'utilise dans les locutions {bo'Dagh'a' lo':sen} et {bo'DaghHom lo':sen}
           <column name="definition_zh_HK">訴訟案件</column>
           <column name="definition_pt">ação judicial</column>
           <column name="definition_fi">oikeusjuttu</column>
-          <column name="definition_fr">procès, action en justice/column>
+          <column name="definition_fr">procès, action en justice</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{mIwba':n}</column>
