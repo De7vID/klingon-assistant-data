@@ -11344,8 +11344,8 @@ This word refers to something which is not capable of language (even though its 
       <column name="definition_fr">arrête, remplis un trou [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{ghoD:v}, {teb:v}, {qung:n}</column>
-      <column name="notes">Unlike {teb:v}, this indicates stopping up an opening, but not filling up the inside.</column>
+      <column name="see_also">{ghoD:v}, {teb:v:1}, {qung:n}</column>
+      <column name="notes">Unlike {teb:v:1}, this indicates stopping up an opening, but not filling up the inside.</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -11391,7 +11391,7 @@ This word refers to something which is not capable of language (even though its 
           <column name="definition_fr">liège, tétine [AUTOTRANSLATED]</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
-          <column name="see_also">{yuvtlhe':n}, {bal:n}</column>
+          <column name="see_also">{yuvtlhe':n}, {bal:n}, {SIr'am:n}</column>
           <column name="notes">This word refers to the cork or stopper of a bottle, such as a wine bottle.[1]
 
 It can also be used for the device some Humans use to keep their babies quiet (which is not a Klingon custom).[2]</column>
@@ -12009,7 +12009,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="definition_fr">monde, royaume [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{'umber:n}</column>
+      <column name="see_also">{'umber:n:1}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -13436,6 +13436,53 @@ There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire 
         </table>
         <table name="mem">
           <column name="_id"></column>
+          <column name="entry_name">qul pugh</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">embers</column>
+          <column name="definition_de">Glut [AUTOTRANSLATED]</column>
+          <column name="definition_fa">غربال [AUTOTRANSLATED]</column>
+          <column name="definition_sv">glöd [AUTOTRANSLATED]</column>
+          <column name="definition_ru">угли [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">餘燼 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">brasas [AUTOTRANSLATED]</column>
+          <column name="definition_fi">hiillos [AUTOTRANSLATED]</column>
+          <column name="definition_fr">braise [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also">{qul Sawqe':n}</column>
+          <column name="notes">This refers to the glowing remains of coal, wood, or other burning material that constituted fuel for a fire.[1]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="notes_fr"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{qul:n}, {pugh:n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="examples_fr"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="search_tags_fr"></column>
+          <column name="source">[1] {qep'a' 32 (2025):src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
           <column name="entry_name">qul qaDwI'</column>
           <column name="part_of_speech">n:being,deriv</column>
           <column name="definition">fire challenger (someone who puts out fires)</column>
@@ -13527,6 +13574,53 @@ There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire 
           <column name="search_tags_fi"></column>
           <column name="search_tags_fr"></column>
           <column name="source">[1] {Saarbrücken qepHom'a' 2020:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">qul Sawqe'</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">ember, hot coal</column>
+          <column name="definition_de">Ember, heiße Kohle [AUTOTRANSLATED]</column>
+          <column name="definition_fa">Ember ، زغال سنگ داغ [AUTOTRANSLATED]</column>
+          <column name="definition_sv">Ember, varmt kol [AUTOTRANSLATED]</column>
+          <column name="definition_ru">Эмбер, горячий уголь [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">Ember，熱煤 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">Ember, carvão quente [AUTOTRANSLATED]</column>
+          <column name="definition_fi">Ember, kuuma hiili [AUTOTRANSLATED]</column>
+          <column name="definition_fr">Habar [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also">{qul pugh:n}</column>
+          <column name="notes">This refers to a piece of glowing coal, wood, or other burning material that constitutes fuel for a fire.[1]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="notes_fr"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{qul:n}, {Sawqe':n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="examples_fr"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="search_tags_fr"></column>
+          <column name="source">[1] {qep'a' 32 (2025):src}</column>
         </table>
         <table name="mem">
           <column name="_id"></column>
@@ -14260,7 +14354,7 @@ There is no one way to say "firefighter". Some options are {qul SuvwI':n} "fire 
       <column name="see_also">{Heng:v}, {QemjIq:n}, {'och:n}, {qorgh:v}</column>
       <column name="notes">Based on the explanation in {HQ 10.2:src}, this seems to refer to a hole used to change pitch in a wind instrument, and apparently not to a soundhole for a stringed instrument. However, this is not explicitly stated.[1]
 
-This word can't be used for a hole in the ground (for which see {QemjIq:n}), but it can be used for a bullet hole, a hole in a shirt (including buttonholes, moth holes, accidental rips, etc.), or a hole in the roof. The difference between a {QemjIq:n} and a {qung:n:nolink} is that the former can be filled ({teb:v}).[2] (In other words, a {qung:n:nolink} is a puncture or perforation, while a {QemjIq:n:nolink} is a cavity or depression.)</column>
+This word can't be used for a hole in the ground (for which see {QemjIq:n}), but it can be used for a bullet hole, a hole in a shirt (including buttonholes, moth holes, accidental rips, etc.), or a hole in the roof. The difference between a {QemjIq:n} and a {qung:n:nolink} is that the former can be filled ({teb:v:1}).[2] (In other words, a {qung:n:nolink} is a puncture or perforation, while a {QemjIq:n:nolink} is a cavity or depression.)</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
