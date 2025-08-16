@@ -212,6 +212,53 @@
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">'abcheD</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">vitamin</column>
+      <column name="definition_de">Vitamin [AUTOTRANSLATED]</column>
+      <column name="definition_fa">ویتامین [AUTOTRANSLATED]</column>
+      <column name="definition_sv">vitamin [AUTOTRANSLATED]</column>
+      <column name="definition_ru">витамин [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">維他命 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">Vitamina [AUTOTRANSLATED]</column>
+      <column name="definition_fi">vitamiini [AUTOTRANSLATED]</column>
+      <column name="definition_fr">vitamine [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="notes_fr"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="examples_fr"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="search_tags_fr"></column>
+      <column name="source">[1] {qep'a' 32 (2025):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">'ach</column>
       <column name="part_of_speech">conj</column>
       <column name="definition">but, nevertheless, even so, however, whereas</column>
@@ -3511,7 +3558,7 @@ Grammaticalement, un préfix au pluriel s'utilise quand le nom auqel il se réf�
       <column name="_id"></column>
       <column name="entry_name">'arDeH</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">ivy-like plant</column>
+      <column name="definition">vine, vine-like plant</column>
       <column name="definition_de">Efeu-ähnliche Pflanze</column>
       <column name="definition_fa">گیاه آبی مانند [AUTOTRANSLATED]</column>
       <column name="definition_sv">murgrönaliknande växt [AUTOTRANSLATED]</column>
@@ -3523,7 +3570,7 @@ Grammaticalement, un préfix au pluriel s'utilise quand le nom auqel il se réf�
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes"></column>
+      <column name="notes">This refers to vine-like plants, including ivy-like plants.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3532,7 +3579,9 @@ Grammaticalement, un préfix au pluriel s'utilise quand le nom auqel il se réf�
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes">The ivy belongs to the genus "Hedera".</column>
+      <column name="hidden_notes">The ivy belongs to the genus "Hedera".
+
+This was originally defined as "ivy-like plant"[1], but was subsequently expanded to include all "vine-like" plants.[2]</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3543,7 +3592,7 @@ Grammaticalement, un préfix au pluriel s'utilise quand le nom auqel il se réf�
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
       <column name="examples_fr"></column>
-      <column name="search_tags"></column>
+      <column name="search_tags">ivy</column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
       <column name="search_tags_sv"></column>
@@ -3552,7 +3601,7 @@ Grammaticalement, un préfix au pluriel s'utilise quand le nom auqel il se réf�
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="search_tags_fr"></column>
-      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}</column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2016:src}, [2] {qep'a' 32 (2025):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
