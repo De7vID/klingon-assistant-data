@@ -8756,7 +8756,7 @@ This word can also be used for animals to refer to their body hair or fur.[3]</c
       <column name="_id"></column>
       <column name="entry_name">poH</column>
       <column name="part_of_speech">n:klcp1</column>
-      <column name="definition">period of time</column>
+      <column name="definition">period of time, session, shift</column>
       <column name="definition_de">Zeitabschnitt</column>
       <column name="definition_fa">دوره زمانی [AUTOTRANSLATED]</column>
       <column name="definition_sv">tid, tidsperiod</column>
@@ -8768,7 +8768,9 @@ This word can also be used for animals to refer to their body hair or fur.[3]</c
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{bov:n}, {HovpoH:n}, {poH:v}, {qImroq:n}, {tlhey'at:n}</column>
-      <column name="notes">To indicate "period of time ago" or "period of time from now", {ret:n} and {pIq:n} are used in place of {poH:n}, respectively.[2]</column>
+      <column name="notes">To indicate "period of time ago" or "period of time from now", {ret:n} and {pIq:n} are used in place of {poH:n}, respectively.[2]
+
+In the sense of "session, shift", this word is found in constructions such as {Qu' poH:n:nolink}, {HaSghon poH:n:nolink}, etc.[3]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -8777,13 +8779,15 @@ This word can also be used for animals to refer to their body hair or fur.[3]</c
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined a "period of time" in {TKD:src}. Its definition was expanded to include "session, shift" at {qep'a' 32 (2025):src}.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {vatlh DIS poH:n}
 ▶ {SaD DIS poH:n}
 ▶ {netlh DIS poH:n}
-▶ {tera' poH:n}</column>
+▶ {tera' poH:n}
+▶ {Qu' poH:n}
+▶ {HaSghon poH:n}</column>
       <column name="examples_de"></column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
@@ -8801,7 +8805,7 @@ This word can also be used for animals to refer to their body hair or fur.[3]</c
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="search_tags_fr"></column>
-      <column name="source">[1] {TKD:src}, [2] {HQ 8.3, p.3, Sep. 1999:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {HQ 8.3, p.3, Sep. 1999:src}, [3] {qep'a' 32 (2025):src}</column>
     </table>
         <table name="mem">
           <column name="_id"></column>
@@ -11290,6 +11294,53 @@ To Klingons outside of {bo'retlh:n}, time crystals were a myth, a symbol of Kahl
       <column name="search_tags_fr"></column>
       <column name="source">[1] {TKD:src}</column>
     </table>
+        <table name="mem">
+          <column name="_id"></column>
+          <column name="entry_name">pugh qegh</column>
+          <column name="part_of_speech">n:deriv,slang</column>
+          <column name="definition">a place that is disgusting, dirty, unpleasant, rundown, etc.</column>
+          <column name="definition_de">Ein Ort, der ekelhaft, schmutzig, unangenehm, heruntergekommen ist, usw. [AUTOTRANSLATED]</column>
+          <column name="definition_fa">مکانی که منزجر کننده ، کثیف ، ناخوشایند ، فرسودگی و غیره باشد. [AUTOTRANSLATED]</column>
+          <column name="definition_sv">En plats som är motbjudande, smutsig, obehaglig, sammanfattning etc. [AUTOTRANSLATED]</column>
+          <column name="definition_ru">Место, которое является отвратительным, грязным, неприятным, кратким и т. Д. [AUTOTRANSLATED]</column>
+          <column name="definition_zh_HK">一個令人噁心，骯髒，不愉快，衰敗等的地方。 [AUTOTRANSLATED]</column>
+          <column name="definition_pt">Um lugar que é nojento, sujo, desagradável, degradado, etc. [AUTOTRANSLATED]</column>
+          <column name="definition_fi">Paikka, joka on inhottava, likainen, epämiellyttävä, pilaantunut jne. [AUTOTRANSLATED]</column>
+          <column name="definition_fr">Un endroit dégoûtant, sale, désagréable, délabré, etc. [AUTOTRANSLATED]</column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also"></column>
+          <column name="notes">This is a slang term.[1]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="notes_fr"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{pugh:n}, {qegh:n}</column>
+          <column name="examples"></column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="examples_fr"></column>
+          <column name="search_tags"></column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="search_tags_fr"></column>
+          <column name="source">[1] {qep'a' 32 (2025):src}</column>
+        </table>
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">puH</column>
