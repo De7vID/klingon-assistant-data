@@ -2958,7 +2958,7 @@ In the list of vocabulary used in {KCD:src} which was given to the KLI in advanc
       <column name="definition_fr">poser (une question), demander</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{tlhob:v}, {yu':v}, {jang:v}</column>
+      <column name="see_also">{tlhob:v}, {yu':v}, {jang:v:1}</column>
       <column name="notes">This verb is used to ask a question, whereas {tlhob:v} is used for making a request.[2]</column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
@@ -5343,6 +5343,53 @@ There is also a regional word {ley':n} which means "nose".</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">ghIqIr</column>
+      <column name="part_of_speech">n</column>
+      <column name="definition">redshift</column>
+      <column name="definition_de">Rotverschiebung [AUTOTRANSLATED]</column>
+      <column name="definition_fa">تغییر شکل مجدد [AUTOTRANSLATED]</column>
+      <column name="definition_sv">rödbrun [AUTOTRANSLATED]</column>
+      <column name="definition_ru">красное смещение [AUTOTRANSLATED]</column>
+      <column name="definition_zh_HK">紅移 [AUTOTRANSLATED]</column>
+      <column name="definition_pt">desvio para o vermelho [AUTOTRANSLATED]</column>
+      <column name="definition_fi">punasiirto [AUTOTRANSLATED]</column>
+      <column name="definition_fr">décalage vers le rouge [AUTOTRANSLATED]</column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also"></column>
+      <column name="notes"></column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="notes_fr"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples"></column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="examples_fr"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="search_tags_fr"></column>
+      <column name="source">[1] {qep'a' 32 (2025):src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">ghIqtal</column>
       <column name="part_of_speech">excl:archaic</column>
       <column name="definition">to the death</column>
@@ -6414,7 +6461,7 @@ In {TNK:src}, {ghItlhwI':n:nolink} is used for "pen" and {ghojmeH ghItlhwI':n:no
       <column name="definition_fr">cercle, cerceau [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{meyrI':n}, {rutlh:n}, {rutlh:v}, {qa'vaQ:n}, {yergho:n}</column>
+      <column name="see_also">{meyrI':n}, {rutlh:n}, {rutlh:v}, {qa'vaQ:n}, {yergho:n}, {DIS:n:3}</column>
       <column name="notes">There is an idiom, {vIHtaH gho:sen}.
 
 There are 243 {lawmey:n:nolink} in a {gho:n:nolink}, or 360 {lawrI'mey:n:nolink}. (See {law:n} and {lawrI':n}.)</column>

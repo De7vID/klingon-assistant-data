@@ -521,7 +521,7 @@
       <column name="_id"></column>
       <column name="entry_name">vaH</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">holster, sheath, knife case</column>
+      <column name="definition">holster, sheath, knife case, quiver</column>
       <column name="definition_de">Scheide, Hülle, Halfter</column>
       <column name="definition_fa">کلاه گیس، غلاف، مورد چاقو [AUTOTRANSLATED]</column>
       <column name="definition_sv">hölster, slida, knivfodral</column>
@@ -542,7 +542,7 @@
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">This was defined as "holster" in {TKD:src}, explained to include sheaths for knives in {KGT:src}, and expanded to be more general at {Saarbrücken qepHom'a' 2015:src}. The definition "quiver" was given in the context of storing arrows at {qep'a' 32 (2025):src}.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -562,7 +562,7 @@
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="search_tags_fr"></column>
-      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {Saarbrücken qepHom'a' 2015:src}</column>
+      <column name="source">[1] {TKD:src}, [2] {KGT:src}, [3] {Saarbrücken qepHom'a' 2015:src}, [4] {qep'a' 32 (2025):src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
@@ -865,7 +865,7 @@
       <column name="definition_fr">iris (de l'oeil) [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
-      <column name="see_also">{mIn:n}, {lur:n}</column>
+      <column name="see_also">{mIn:n}, {lur:n}, {Darnoq:n}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
