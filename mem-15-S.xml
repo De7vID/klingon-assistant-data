@@ -10,19 +10,19 @@
       <column name="definition_zh_HK">輔音{S:sen:nolink}</column>
       <column name="definition_pt">a consoante {S:sen:nolink}</column>
       <column name="definition_fi">konsonantti {S:sen:nolink}</column>
-      <column name="definition_fr">la consonne {S:sen:nolink} [AUTOTRANSLATED]</column>
+      <column name="definition_fr">la consonne {S:sen:nolink}</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This refers to the sound, and not to any letter or glyph.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich auf den Laut, nicht den Buchstaben oder das Zeichen.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">Namnet på ett ljud, inte en skriven bokstav eller glyf.</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ceci se réfère au son, pas à la lettre ou au glyphe.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -295,14 +295,14 @@ In the context of zooming (see {jo':v:2}), this can be used for "be magnified".[
       <column name="entry_name">SaD</column>
       <column name="part_of_speech">n:num</column>
       <column name="definition">thousand (number-forming element)</column>
-      <column name="definition_de">Tausend</column>
+      <column name="definition_de">Tausend (Zahlenbildungsmorphem)</column>
       <column name="definition_fa">هزار</column>
       <column name="definition_sv">tusen (nummerbildande element)</column>
       <column name="definition_ru">тысяча [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">千</column>
       <column name="definition_pt">mil</column>
       <column name="definition_fi">tuhat</column>
-      <column name="definition_fr">mille (élément formant un nombre) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">mille (morphème formant un nombre)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mI':n}, {vatlh:n:num}, {netlh:n:num}</column>
@@ -313,14 +313,26 @@ This is a number-forming element, and not itself a number. The number 1000 (one 
 Note that Klingon has number-forming elements for "ten thousand" ({netlh:n:num}) and "hundred thousand" ({bIp:n:num}) which are independent of the word for "thousand".
 
 While {SaD law':n:nolink} is a grammatical expression, {SaDmey:n:nolink} is not.[3]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Eine andere Variante dieses Worts, die mit recht gleicher Häufigkeit verwendet wird, ist {SanID:n:num,nolink}.
+
+Dies ist ein zahlenbildendes Morphem oder Element und nicht eine Zahl an sich. Die Zahl 1000 (eintausend) ist {wa'SaD:n:num,nolink} auf klingonisch.
+                
+Merke, dass die klingonischen zahlenbildenden Elemente für "zehntausend" ({netlh:n:num}) und "hunderttausend" ({bIp:n:num}) unabhängig von dem Wort für "tausend" sind.
+                
+Während {SaD law':n:nolink} ein grammatikalisch korrekter Ausdruck ist, ist {SaDmey:n:nolink} es nicht.[3]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Une autre variante de ce mot, utilisé avec fréquence assez similaire, est {SanID:n:num,nolink}.
+
+Ceci est un morphème formant un nombre et pas un nombre en soi. Le nombre 1000 (mille) est {wa'SaD:n:num,nolink} en klingon.
+                
+À noter que les éléments formants les nombres "dix mille" ({netlh:n:num}) et "cent mille" ({bIp:n:num}) sont indépendents du mot pour "mille".
+                
+Tandis que {SaD law':n:nolink} est une expression grammaticalement correcte, {SaDmey:n:nolink} ne l'est pas.[3]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples">
@@ -336,14 +348,38 @@ While {SaD law':n:nolink} is a grammatical expression, {SaDmey:n:nolink} is not.
   "Thousands followed him
    To the edge of the city,
    To bid him farewell."[2, p.176-177]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {ngIq tonSaw' lo':sen:nolink}
+   {SaD law' San chenmoH qeylIS:sen:nolink}
+   {wej boghbogh nuvpu' San chenmoH:sen:nolink}
+  "In einer Bewegung,
+   Besiegelte Kahless das Schicksal
+   Von Tausenden und ihren Nachfahren."[2, p.166-167]
+▶ {tlheDDI' quvmoHmeH:sen:nolink}
+   {veng HeHDaq lutlha':sen:nolink}
+   {SaD law' nuvpu':sen:nolink}
+  "Tausende folgten ihm
+   Zum Rand der Stadt,
+   Um sich zu verabschieden."[2, p.176-177]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
-      <column name="examples_fr"></column>
+      <column name="examples_fr">
+▶ {ngIq tonSaw' lo':sen:nolink}
+   {SaD law' San chenmoH qeylIS:sen:nolink}
+   {wej boghbogh nuvpu' San chenmoH:sen:nolink}
+  "Dans un seul mouvement,
+   Kahless decida le sort
+   De milliers, et ceux à venir."[2, p.166-167]
+▶ {tlheDDI' quvmoHmeH:sen:nolink}
+   {veng HeHDaq lutlha':sen:nolink}
+   {SaD law' nuvpu':sen:nolink}
+  "Des milliers le suivèrent
+   Au bord de la ville,
+   Pour lui dire au revoir."[2, p.176-177]</column>
       <column name="search_tags"></column>
       <column name="search_tags_de"></column>
       <column name="search_tags_fa"></column>
@@ -414,7 +450,7 @@ While {SaD law':n:nolink} is a grammatical expression, {SaDmey:n:nolink} is not.
           <column name="definition_zh_HK">億（數字形成元素） [AUTOTRANSLATED]</column>
           <column name="definition_pt">cem milhões (elemento formador de número)</column>
           <column name="definition_fi">sata miljoonaa</column>
-          <column name="definition_fr">cent millions (élément formant un nombre) [AUTOTRANSLATED]</column>
+          <column name="definition_fr">cent millions (morphème formant un nombre)</column>
           <column name="synonyms">{SanIDbIp:n}, {vatlh'uy':n}</column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
@@ -461,19 +497,19 @@ While {SaD law':n:nolink} is a grammatical expression, {SaDmey:n:nolink} is not.
           <column name="definition_zh_HK">萬億（數字形成元素） [AUTOTRANSLATED]</column>
           <column name="definition_pt">trilhão (elemento formador de número)</column>
           <column name="definition_fi">tuhat miljardia</column>
-          <column name="definition_fr">trillion (élément formant un nombre) [AUTOTRANSLATED]</column>
+          <column name="definition_fr">billion (morphème formant un nombre)</column>
           <column name="synonyms">{SanIDSaghan:n}</column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
           <column name="notes"></column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Dies ist eine Billion in der langen Skala, wie sie im deutschsprachigen Raum üblich ist. In der kurzen Skala, wie das Englische sie benutzt, heißt diese Zahl bereits "Trillion".</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="notes_fr"></column>
+          <column name="notes_fr">Il s'agit d'une billion en échelle longue comme on l'utilise dans les pays froncophones. En échelle courte comme l'utilise l'anglais, ce nombre s'appelle déjà "trillion".</column>
           <column name="hidden_notes"></column>
           <column name="components">{SaD:n:num}, {Saghan:n:num}</column>
           <column name="examples"></column>
@@ -548,14 +584,14 @@ While {SaD law':n:nolink} is a grammatical expression, {SaDmey:n:nolink} is not.
       <column name="entry_name">Saghan</column>
       <column name="part_of_speech">n:num</column>
       <column name="definition">billion (number-forming element)</column>
-      <column name="definition_de">Milliarde</column>
+      <column name="definition_de">Milliarde (Zahlenbildungsmorphem)</column>
       <column name="definition_fa">میلیارد</column>
       <column name="definition_sv">miljard [AUTOTRANSLATED]</column>
       <column name="definition_ru">миллиард [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">十億 [AUTOTRANSLATED]</column>
       <column name="definition_pt">bilhão</column>
       <column name="definition_fi">miljardi</column>
-      <column name="definition_fr">milliard (élément formant un nombre) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">milliard (élément formant un nombre)</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{mI':n}, {'uy':n:num}</column>
@@ -566,14 +602,26 @@ For tens of billions, the number-forming elements {maHSaghan:n:num} or {netlh'uy
 For hundreds of billions, the number-forming elements {vatlhSaghan:n:num} or {bIp'uy':n:num} are possible.[2]
 
 For trillions, the number-forming elements {SaDSaghan:n:num} or {SanIDSaghan:n:num} are possible.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist eine Milliarde in der langen Skala (d.h., tausend Millionen), wie sie im deutschsprachigen Raum üblich ist. In der kurzen Skala, die u.a. im Englischen benutzt wird, heißt diese Zahl "Billion".[1]
+
+Für zehn Milliarden sind die Zahlenbildungselemente {maHSaghan:n:num} oder {netlh'uy':n:num} möglich.[2]
+                
+Für hundert Milliarden sind die Zahlenbildungselemente {vatlhSaghan:n:num} oder {bIp'uy':n:num} möglich.[2]
+                
+Für eine Billion (in der langen Skala) sind die Zahlenbildungselemente {SaDSaghan:n:num} oder {SanIDSaghan:n:num} möglich.[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Il s'agit d'un milliard en échelle longue (c.a.d., mille millions) comme on l'utilise dans les pays francophones, mais s'appelle "billion" en échelle courte, comme l'utilise l'anglais.[1]
+
+Pour des dizaines de milliards, les éléments {maHSaghan:n:num} ou {netlh'uy':n:num} sont possibles.[2]
+                
+Pour des centaines de milliards, les éléments {vatlhSaghan:n:num} ou {bIp'uy':n:num} sont possibles.[2]
+                
+Pour des billions (en échelle longue), les éléments {SaDSaghan:n:num} ou {SanIDSaghan:n:num} sont possibles.[2]</column>
       <column name="hidden_notes">The astronomer Carl Sagan was famous for saying "billions and billions".</column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -1051,7 +1099,7 @@ This word is not used for sort order.[3]</column>
       <column name="definition_zh_HK">億（數字形成元素） [AUTOTRANSLATED]</column>
       <column name="definition_pt">cem milhões (elemento formador de número)</column>
       <column name="definition_fi">sata miljoonaa</column>
-      <column name="definition_fr">cent millions (élément formant un nombre) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">cent millions (morphème formant un nombre)</column>
       <column name="synonyms">{SaDbIp:n}, {vatlh'uy':n}</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -1098,7 +1146,7 @@ This word is not used for sort order.[3]</column>
       <column name="definition_zh_HK">萬億（數字形成元素） [AUTOTRANSLATED]</column>
       <column name="definition_pt">trilhão (elemento formador de número)</column>
       <column name="definition_fi">tuhat miljardia</column>
-      <column name="definition_fr">trillion (élément formant un nombre) [AUTOTRANSLATED]</column>
+      <column name="definition_fr">trillion (morphème formant un nombre)</column>
       <column name="synonyms">{SaDSaghan:n}</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
@@ -3382,26 +3430,26 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
       <column name="entry_name">Selrach</column>
       <column name="part_of_speech">n</column>
       <column name="definition">ladder</column>
-      <column name="definition_de">Leiter [AUTOTRANSLATED]</column>
+      <column name="definition_de">Leiter</column>
       <column name="definition_fa">نردبان [AUTOTRANSLATED]</column>
-      <column name="definition_sv">stege [AUTOTRANSLATED]</column>
+      <column name="definition_sv">stege</column>
       <column name="definition_ru">лестница [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">梯子 [AUTOTRANSLATED]</column>
       <column name="definition_pt">escada [AUTOTRANSLATED]</column>
       <column name="definition_fi">tikapuut [AUTOTRANSLATED]</column>
-      <column name="definition_fr">échelle [AUTOTRANSLATED]</column>
+      <column name="definition_fr">échelle</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{choghvat:n:1}</column>
       <column name="notes">This is the general term for any type of ladder.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Allgemeiner Audruck für jede Art Leiter.[1]</column>
       <column name="notes_fa"></column>
-      <column name="notes_sv"></column>
+      <column name="notes_sv">Allmän ord för alla slags stegar.[1]</column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Terme général pour toute sort d'échelle.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -3429,14 +3477,14 @@ This word appears only in the body of {KGT:src} and not in the glossary.</column
           <column name="entry_name">Selrach vaD</column>
           <column name="part_of_speech">n:deriv</column>
           <column name="definition">rope ladder or similar</column>
-          <column name="definition_de">Seilleiter oder ähnlich [AUTOTRANSLATED]</column>
+          <column name="definition_de">Strickleiter oder ähnlich</column>
           <column name="definition_fa">نردبان طناب یا مشابه [AUTOTRANSLATED]</column>
-          <column name="definition_sv">repstege eller liknande [AUTOTRANSLATED]</column>
+          <column name="definition_sv">repstege eller liknande</column>
           <column name="definition_ru">веревочная лестница или аналогичная [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">繩子梯或類似 [AUTOTRANSLATED]</column>
           <column name="definition_pt">escada de corda ou similar [AUTOTRANSLATED]</column>
           <column name="definition_fi">köyden tikkaat tai vastaavat [AUTOTRANSLATED]</column>
-          <column name="definition_fr">Échelle de corde ou similaire [AUTOTRANSLATED]</column>
+          <column name="definition_fr">échelle de corde ou similaire</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
@@ -5750,19 +5798,19 @@ The existence of the homophonous noun {Sev:n} may suggest that Klingons view the
       <column name="definition_zh_HK">要有洞察力、要聰明 [AUTOTRANSLATED]</column>
       <column name="definition_pt">ser perspicaz, ser experto</column>
       <column name="definition_fi">olla oivaltava, älykäs, fiksu</column>
-      <column name="definition_fr">être perspicace, être intelligent [AUTOTRANSLATED]</column>
+      <column name="definition_fr">être perspicace, être intelligent</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{SIj:v:1}</column>
       <column name="notes">When used in the slang sense, this verb does not take an object.[1, p.164]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">In diesem umgangssprachlichen Sinne kann das Verb kein Objekt haben.[1, S.164]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Dans ce sens familier, le verbe ne prend pas d'objet.[1, p.164]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -5978,26 +6026,26 @@ The existence of the homophonous noun {Sev:n} may suggest that Klingons view the
       <column name="entry_name">SIller'It</column>
       <column name="part_of_speech">n</column>
       <column name="definition">scaffolding, exoskeleton</column>
-      <column name="definition_de">Gerüst, Exoskelett [AUTOTRANSLATED]</column>
+      <column name="definition_de">Gerüst, Exoskelett</column>
       <column name="definition_fa">داربست ، اسکلت اگزوز [AUTOTRANSLATED]</column>
-      <column name="definition_sv">byggnadsställningar, exoskelett [AUTOTRANSLATED]</column>
+      <column name="definition_sv">byggnadsställning, exoskelett</column>
       <column name="definition_ru">Строительные леса, экзоскелет [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">腳手架，外骨骼 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Andaimes, exoesqueleto [AUTOTRANSLATED]</column>
       <column name="definition_fi">rakennustelineet, eksoskeleton [AUTOTRANSLATED]</column>
-      <column name="definition_fr">échafaudage, exosquelette [AUTOTRANSLATED]</column>
+      <column name="definition_fr">échafaudage, exosquelette</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{qal'aq:n}</column>
       <column name="notes">Depending on referent, can be used with either {-mey:n} or {-Du':n}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Je nach Bezug kann dies sowohl mit {-mey:n} oder {-Du':n} benutzt werden.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Selon la référence, le pluriel peut se former ou avec {-mey:n} ou avec {-Du':n}.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -7416,27 +7464,27 @@ If an implement is used for an activity typically performed by a finger, a finge
       <column name="_id"></column>
       <column name="entry_name">SIr'am</column>
       <column name="part_of_speech">n</column>
-      <column name="definition">cork, phellum</column>
-      <column name="definition_de">Kork, Phellum [AUTOTRANSLATED]</column>
+      <column name="definition">cork, phellem</column>
+      <column name="definition_de">Kork, Phellem</column>
       <column name="definition_fa">چوب پنبه ، فلوم [AUTOTRANSLATED]</column>
-      <column name="definition_sv">kork, phellum [AUTOTRANSLATED]</column>
+      <column name="definition_sv">kork, fellem</column>
       <column name="definition_ru">Корк, Феллум [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">軟木，費勒姆 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Cork, Phellum [AUTOTRANSLATED]</column>
       <column name="definition_fi">korkki, phellum [AUTOTRANSLATED]</column>
-      <column name="definition_fr">Cork, Phellum [AUTOTRANSLATED]</column>
+      <column name="definition_fr">liège, phellème</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is what {qorghwI':n} are often made of on Earth.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Woraus {qorghwI':n} auf der Erde üblicherweise hergestellt werden.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Le matériau dont on fait typiquement les {qorghwI':n} sur Terre.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -7807,7 +7855,7 @@ At {qep'a' 30 (2023):src}, it was confirmed that the subject of {SIS:v:nolink} (
       <column name="definition_zh_HK">七</column>
       <column name="definition_pt">sete</column>
       <column name="definition_fi">seitsemän</column>
-      <column name="definition_fr">Sept [AUTOTRANSLATED]</column>
+      <column name="definition_fr">sept</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Soch:n:2} (musical tone)</column>
@@ -7854,7 +7902,7 @@ At {qep'a' 30 (2023):src}, it was confirmed that the subject of {SIS:v:nolink} (
           <column name="definition_zh_HK">第七</column>
           <column name="definition_pt">sétimo</column>
           <column name="definition_fi">seitsemäs</column>
-          <column name="definition_fr">septième [AUTOTRANSLATED]</column>
+          <column name="definition_fr">septième</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
@@ -7896,12 +7944,12 @@ At {qep'a' 30 (2023):src}, it was confirmed that the subject of {SIS:v:nolink} (
           <column name="definition">seventy</column>
           <column name="definition_de">siebzig</column>
           <column name="definition_fa">هفتاد [AUTOTRANSLATED]</column>
-          <column name="definition_sv">sjuttio [AUTOTRANSLATED]</column>
+          <column name="definition_sv">sjuttio</column>
           <column name="definition_ru">семьдесят [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">七十 [AUTOTRANSLATED]</column>
           <column name="definition_pt">setenta</column>
           <column name="definition_fi">seitsemänkymmentä</column>
-          <column name="definition_fr">soixante-dix [AUTOTRANSLATED]</column>
+          <column name="definition_fr">soixante-dix, septante</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
@@ -7948,19 +7996,19 @@ At {qep'a' 30 (2023):src}, it was confirmed that the subject of {SIS:v:nolink} (
       <column name="definition_zh_HK">非音階音階的第七音 [AUTOTRANSLATED]</column>
       <column name="definition_pt">sétimo tom da escala musical não-atônica</column>
       <column name="definition_fi">yhdeksänsävelisen musiikkiasteikon seitsemäs sävel</column>
-      <column name="definition_fr">septième ton d'une gamme musicale non atonique [AUTOTRANSLATED]</column>
+      <column name="definition_fr">septième note de la gamme musicale nonatonique</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{Soch:n:1} (number)</column>
       <column name="notes">The tones of the Klingon musical scale (see {yutlhegh:n}) are: {yu:n}, {bIm:n}, {'egh:n}, {loS:n:2}, {vagh:n:2}, {jav:n:2}, {Soch:n:2,nolink}, {chorgh:n:2}, {yu:n:nolink}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Die Töne der klingonischen Tonleiter (siehe {yutlhegh:n}) sind: {yu:n:nolink}, {bIm:n}, {'egh:n}, {loS:n:2}, {vagh:n:2}, {jav:n:2}, {Soch:n:2}, {chorgh:n:2}, {yu:n:nolink}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Les tons de la gamme musicale klingonne (voir {yutlhegh:n}) sont: {yu:n:nolink}, {bIm:n}, {'egh:n}, {loS:n:2}, {vagh:n:2}, {jav:n:2}, {Soch:n:2}, {chorgh:n:2}, {yu:n:nolink}.</column>
       <column name="hidden_notes"></column>
       <column name="components"></column>
       <column name="examples"></column>
@@ -12165,26 +12213,26 @@ In a message to the {KLI mailing list 2021.02.28:src}, Maltz even said the Kling
       <column name="entry_name">Sunpel</column>
       <column name="part_of_speech">n</column>
       <column name="definition">gymnastics, acrobatics</column>
-      <column name="definition_de">Gymnastik, Akrobatik [AUTOTRANSLATED]</column>
+      <column name="definition_de">Gymnastik, Akrobatik, Turnen</column>
       <column name="definition_fa">ژیمناستیک ، آکروباتیک [AUTOTRANSLATED]</column>
-      <column name="definition_sv">gymnastik, akrobatik [AUTOTRANSLATED]</column>
+      <column name="definition_sv">gymnastik, akrobatik</column>
       <column name="definition_ru">Гимнастика, акробатика [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">體操，雜技 [AUTOTRANSLATED]</column>
       <column name="definition_pt">Ginástica, acrobacias [AUTOTRANSLATED]</column>
       <column name="definition_fi">voimistelu, akrobatia [AUTOTRANSLATED]</column>
-      <column name="definition_fr">gymnastique, acrobatie [AUTOTRANSLATED]</column>
+      <column name="definition_fr">gymnastique, acrobatie</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also">{jeqpel:n}, {ngolpel:n}</column>
       <column name="notes">This word is often the object of the verb {mI':v}. It may be used with or without {-mey:n}. When clearly singular, it refers to a single activity or maneuver.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieses Wort ist oft das Objekt des Verbs {mI':v}. Es kann mit oder ohne {-mey:n} benutzt werden. Wenn es eindeutig im Singular ist, dann bezieht es sich auf eine einzelne Bewegung oder ein einzelnes Element.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr"></column>
+      <column name="notes_fr">Ce mot est souvent l'objet du verbe {mI':v}. Il peut s'utiliser avec ou sans {-mey:n}. Quand il est clairement au signulier, il se réfère à une seule activité ou un seul mouvement.[1]</column>
       <column name="hidden_notes"></column>
       <column name="components">{Sun:n}, {pel:n:hyp}</column>
       <column name="examples"></column>
