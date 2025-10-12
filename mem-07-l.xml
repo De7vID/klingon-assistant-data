@@ -1916,7 +1916,7 @@ This example shows how to use type-6 suffixes with a comparison:
       <column name="definition_ru">Инерция (физика) [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">慣性（物理） [AUTOTRANSLATED]</column>
       <column name="definition_pt">inércia (física) [AUTOTRANSLATED]</column>
-      <column name="definition_fi">hitaus (fysiikka) [AUTOTRANSLATED]</column>
+      <column name="definition_fi">hitaus, inertia (fysiikka)</column>
       <column name="definition_fr">inertie (physique) [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2057,7 +2057,7 @@ This example shows how to use type-6 suffixes with a comparison:
           <column name="definition_ru">Пробуждение (в воздухе) [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">喚醒（在空中） [AUTOTRANSLATED]</column>
           <column name="definition_pt">acordar (no ar) [AUTOTRANSLATED]</column>
-          <column name="definition_fi">Herää (ilmassa) [AUTOTRANSLATED]</column>
+          <column name="definition_fi">vana (ilmassa)</column>
           <column name="definition_fr">réveiller (dans l'air) [AUTOTRANSLATED]</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
@@ -2089,7 +2089,7 @@ This example shows how to use type-6 suffixes with a comparison:
           <column name="search_tags_ru"></column>
           <column name="search_tags_zh_HK"></column>
           <column name="search_tags_pt"></column>
-          <column name="search_tags_fi"></column>
+          <column name="search_tags_fi">turbulenssi</column>
           <column name="search_tags_fr"></column>
           <column name="source">[1] {qep'a' 32 (2025):src}</column>
         </table>
@@ -2487,7 +2487,7 @@ Do not confuse this with {ra'wI':n}, which is also translated as "commander" in 
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">la'tInum</column>
-      <column name="part_of_speech">n</column>
+      <column name="part_of_speech">n:fic</column>
       <column name="definition">latinum</column>
       <column name="definition_de">Latinum</column>
       <column name="definition_fa">لاتین [AUTOTRANSLATED]</column>
@@ -2495,7 +2495,7 @@ Do not confuse this with {ra'wI':n}, which is also translated as "commander" in 
       <column name="definition_ru">латиновый [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">拉丁人 [AUTOTRANSLATED]</column>
       <column name="definition_pt">latino [AUTOTRANSLATED]</column>
-      <column name="definition_fi">latinalainen [AUTOTRANSLATED]</column>
+      <column name="definition_fi">eräs arvokas aine, latinum</column>
       <column name="definition_fr">latinum [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4462,7 +4462,7 @@ This word can be used figuratively. There is an idiom, {let mInDu'Daj; Separmey 
       <column name="definition_ru">компенсировать, компенсировать [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">補償，彌補 [AUTOTRANSLATED]</column>
       <column name="definition_pt">compensar, compensar [AUTOTRANSLATED]</column>
-      <column name="definition_fi">kompensoi, korvaa [AUTOTRANSLATED]</column>
+      <column name="definition_fi">korvata, hyvittää, sovittaa (ei rahallisesti)</column>
       <column name="definition_fr">compenser, compenser [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -4603,7 +4603,7 @@ This word can be used figuratively. There is an idiom, {let mInDu'Daj; Separmey 
       <column name="definition_ru">бор [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">硼 [AUTOTRANSLATED]</column>
       <column name="definition_pt">boro [AUTOTRANSLATED]</column>
-      <column name="definition_fi">boori [AUTOTRANSLATED]</column>
+      <column name="definition_fi">boori</column>
       <column name="definition_fr">bore [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5481,7 +5481,7 @@ This word can be used figuratively. There is an idiom, {let mInDu'Daj; Separmey 
       <column name="definition_ru">плотность [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">密度 [AUTOTRANSLATED]</column>
       <column name="definition_pt">densidade [AUTOTRANSLATED]</column>
-      <column name="definition_fi">tiheys [AUTOTRANSLATED]</column>
+      <column name="definition_fi">tiheys</column>
       <column name="definition_fr">densité [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -7585,7 +7585,7 @@ If appropriate in a mathematical discussion, no prefix is used even if the denom
       <column name="definition_ru">туманность [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">星雲 [AUTOTRANSLATED]</column>
       <column name="definition_pt">nebulosa [AUTOTRANSLATED]</column>
-      <column name="definition_fi">tähtisumu [AUTOTRANSLATED]</column>
+      <column name="definition_fi">tähtisumu</column>
       <column name="definition_fr">nébuleuse [AUTOTRANSLATED]</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -8941,7 +8941,7 @@ Some of the verb suffixes have a precise meaning when used with this verb, when 
           <column name="definition_ru">костер [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">篝火 [AUTOTRANSLATED]</column>
           <column name="definition_pt">fogueira [AUTOTRANSLATED]</column>
-          <column name="definition_fi">kokko [AUTOTRANSLATED]</column>
+          <column name="definition_fi">kokko, rovio</column>
           <column name="definition_fr">feu [AUTOTRANSLATED]</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
