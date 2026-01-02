@@ -4,7 +4,7 @@ then
         echo "Usage: `basename $0` {letters}"
         exit
 fi
-EDITCMD="vim -p "
+EDITCMD="${EDITOR:-vim} -p "
 for letter in "$@"
 do
         EDITCMD="$EDITCMD mem-*-$letter.xml "
