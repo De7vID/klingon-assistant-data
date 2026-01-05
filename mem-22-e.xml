@@ -109,6 +109,55 @@ Dans un bar klingon, le barman ({chom:n}) crie {'eb Qav:n} pour "dernière tourn
     </table>
         <table name="mem">
           <column name="_id"></column>
+          <column name="entry_name">'eb patlh</column>
+          <column name="part_of_speech">n:deriv</column>
+          <column name="definition">risk level, chance, odds</column>
+          <column name="definition_de">Risikoniveau, Chance, Chancen [AUTOTRANSLATED]</column>
+          <column name="definition_fa"></column>
+          <column name="definition_sv"></column>
+          <column name="definition_ru"></column>
+          <column name="definition_zh_HK"></column>
+          <column name="definition_pt">nível de risco, chance, probabilidades [AUTOTRANSLATED]</column>
+          <column name="definition_fi"></column>
+          <column name="definition_fr"></column>
+          <column name="synonyms"></column>
+          <column name="antonyms"></column>
+          <column name="see_also">{bam:v}, {ghaytan:adv}, {chaq:adv}</column>
+          <column name="notes">Literally "opportunity level" or "chance level." The number is assumed to be a percentage unless specified otherwise, so {'eb patlh 20:n:nolink} means "20 percent chance." When not expressed as a percentage, the risk level is specified: {'eb patlh vagh loch wej:n:nolink} "risk level 3 out of 5" or "3 out of 5 chance". The {'eb patlh:n:nolink} phrase is the object of {bam:v} "face", following a clause or another sentence explaining what it applies to.[1]</column>
+          <column name="notes_de"></column>
+          <column name="notes_fa"></column>
+          <column name="notes_sv"></column>
+          <column name="notes_ru"></column>
+          <column name="notes_zh_HK"></column>
+          <column name="notes_pt"></column>
+          <column name="notes_fi"></column>
+          <column name="notes_fr"></column>
+          <column name="hidden_notes"></column>
+          <column name="components">{'eb:n}, {patlh:n:1}</column>
+          <column name="examples">
+▶ {bIHeghmeH 'eb patlh 20 (vatlhvI') Dabam.:sen:nolink} You face a 20% chance of dying.[1]
+▶ {chaq bIHegh. 'eb patlh wa' loch vagh Dabam.:sen:nolink} Perhaps you will die. The odds are one out of five.[1]</column>
+          <column name="examples_de"></column>
+          <column name="examples_fa"></column>
+          <column name="examples_sv"></column>
+          <column name="examples_ru"></column>
+          <column name="examples_zh_HK"></column>
+          <column name="examples_pt"></column>
+          <column name="examples_fi"></column>
+          <column name="examples_fr"></column>
+          <column name="search_tags">probability, risk</column>
+          <column name="search_tags_de"></column>
+          <column name="search_tags_fa"></column>
+          <column name="search_tags_sv"></column>
+          <column name="search_tags_ru"></column>
+          <column name="search_tags_zh_HK"></column>
+          <column name="search_tags_pt"></column>
+          <column name="search_tags_fi"></column>
+          <column name="search_tags_fr"></column>
+          <column name="source">[1] {Saarbrücken qepHom'a' 2025:src}</column>
+        </table>
+        <table name="mem">
+          <column name="_id"></column>
           <column name="entry_name">'eb Qav</column>
           <column name="part_of_speech">n:deriv</column>
           <column name="definition">last call</column>
@@ -213,7 +262,7 @@ Dans un bar klingon, le barman ({chom:n}) crie {'eb Qav:n} pour "dernière tourn
       <column name="definition_ru">бериллий [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">鈹 [AUTOTRANSLATED]</column>
       <column name="definition_pt">berílio [AUTOTRANSLATED]</column>
-      <column name="definition_fi">beryllium [AUTOTRANSLATED]</column>
+      <column name="definition_fi">beryllium</column>
       <column name="definition_fr">béryllium</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -401,7 +450,7 @@ Dans un bar klingon, le barman ({chom:n}) crie {'eb Qav:n} pour "dernière tourn
       <column name="definition_ru">хлор [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">氯 [AUTOTRANSLATED]</column>
       <column name="definition_pt">cloro [AUTOTRANSLATED]</column>
-      <column name="definition_fi">kloori [AUTOTRANSLATED]</column>
+      <column name="definition_fi">kloori</column>
       <column name="definition_fr">chlore</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -2988,7 +3037,7 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="definition_ru">фраза [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">短語 [AUTOTRANSLATED]</column>
       <column name="definition_pt">frase [AUTOTRANSLATED]</column>
-      <column name="definition_fi">lause [AUTOTRANSLATED]</column>
+      <column name="definition_fi">lauseke</column>
       <column name="definition_fr">expression</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -3035,7 +3084,7 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
           <column name="definition_ru">Идиома, идиоматическое выражение [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">成語，慣用表達 [AUTOTRANSLATED]</column>
           <column name="definition_pt">Idioma, expressão idiomática [AUTOTRANSLATED]</column>
-          <column name="definition_fi">idioom, idiomaattinen lauseke [AUTOTRANSLATED]</column>
+          <column name="definition_fi">idiomi, idiomaattinen ilmaus</column>
           <column name="definition_fr">idiome, locution, expression idiomatique</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
@@ -3082,11 +3131,11 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
           <column name="definition_ru">пункт [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">條款 [AUTOTRANSLATED]</column>
           <column name="definition_pt">cláusula [AUTOTRANSLATED]</column>
-          <column name="definition_fi">lause [AUTOTRANSLATED]</column>
+          <column name="definition_fi">lause (kielioppi)</column>
           <column name="definition_fr">proposition (grammaire)</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
-          <column name="see_also"></column>
+          <column name="see_also">{mu'tlhegh:n}</column>
           <column name="notes">This refers to a verb and its modifiers such as subjects, objects, and other arguments, which may be independent or dependent on other clauses.[1]</column>
           <column name="notes_de">Dies bezieht sich auf ein Verb und seine Attribute, wie Subjekte, Objekte und andere Argument, was unabhängig oder abhängig von anderen Teilsätzen sein kann.[1]</column>
           <column name="notes_fa"></column>
@@ -3181,7 +3230,9 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="synonyms">{megh'an:n}</column>
       <column name="antonyms"></column>
       <column name="see_also">{DIn:n}, {qa'rI':n}</column>
-      <column name="notes">This can refer to either end of the rope, stick or whatever, but once you arbitrarily choose an end to call {'er'In:n:nolink}, the other end is called {megh'an:n:nolink}. Before you make this initial reference, either end can be called either {'er'In:n:nolink} or {megh'an:n:nolink}.</column>
+      <column name="notes">This can refer to either end of the rope, stick or whatever, but once you arbitrarily choose an end to call {'er'In:n:nolink}, the other end is called {megh'an:n:nolink}. Before you make this initial reference, either end can be called either {'er'In:n:nolink} or {megh'an:n:nolink}.[1]
+
+This can informally be used to refer to one of the two poles of a planet (see {SIq'ang:n}).[2]</column>
       <column name="notes_de">Dies kann eins von beiden Enden eines Seils, Stocks etc. sein, aber sobald man willkürlich ein Ende gewählt und {'er'In:n:nolink} genannt hat, wird das andere Ende {megh'an:n:nolink} genannt. Bevor dieser erste Bezug gemacht wird, kann jedes Ende sowohl {'er'In:n:nolink} oder {megh'an:n:nolink} sein.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3210,7 +3261,7 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="search_tags_fr"></column>
-      <column name="source">[1] {HQ 12.2, Jun. 2003:src}</column>
+      <column name="source">[1] {HQ 12.2, Jun. 2003:src}, [2] {Saarbrücken qepHom'a' 2025:src}</column>
     </table>
     <table name="mem">
       <!-- "High and Low" is a famous lithograph by M.C. Escher, and an Akira Kurosawa film distributed by Janus ({jen:v} + {'eS:v}?) films. -->

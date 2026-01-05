@@ -4763,6 +4763,55 @@ Bien que l'instrument de dessin peut être n'importe quoi, il n'est pas courant 
     </table>
     <table name="mem">
       <column name="_id"></column>
+      <column name="entry_name">wey'</column>
+      <column name="part_of_speech">v:is</column>
+      <column name="definition">be at a distance of, lie at a distance of</column>
+      <column name="definition_de">in einem Abstand von sein, in einem Abstand von liegen [AUTOTRANSLATED]</column>
+      <column name="definition_fa"></column>
+      <column name="definition_sv"></column>
+      <column name="definition_ru"></column>
+      <column name="definition_zh_HK"></column>
+      <column name="definition_pt">estar a uma distância de, deitar a uma distância de [AUTOTRANSLATED]</column>
+      <column name="definition_fi"></column>
+      <column name="definition_fr"></column>
+      <column name="synonyms"></column>
+      <column name="antonyms"></column>
+      <column name="see_also">{juch:v:1}, {'aD:v}, {muq:v}</column>
+      <column name="notes">This verb always expresses the distance from where the speaker is to another place (unless the speaker constructs the sentence otherwise). If the location (the {-Daq:n:suff} place) isn't specified, it's assumed to be where the speaker is.[1]</column>
+      <column name="notes_de"></column>
+      <column name="notes_fa"></column>
+      <column name="notes_sv"></column>
+      <column name="notes_ru"></column>
+      <column name="notes_zh_HK"></column>
+      <column name="notes_pt"></column>
+      <column name="notes_fi"></column>
+      <column name="notes_fr"></column>
+      <column name="hidden_notes"></column>
+      <column name="components"></column>
+      <column name="examples">
+▶ {vagh qelI'qam wey' juHwIj:sen:nolink} My home is at a distance of five kellicams. My home is five kellicams (away) from here.[1]
+▶ {juHlIjDaq vagh qelI'qam wey' juHwIj:sen:nolink} My home is five kellicams from your home.[1]</column>
+      <column name="examples_de"></column>
+      <column name="examples_fa"></column>
+      <column name="examples_sv"></column>
+      <column name="examples_ru"></column>
+      <column name="examples_zh_HK"></column>
+      <column name="examples_pt"></column>
+      <column name="examples_fi"></column>
+      <column name="examples_fr"></column>
+      <column name="search_tags"></column>
+      <column name="search_tags_de"></column>
+      <column name="search_tags_fa"></column>
+      <column name="search_tags_sv"></column>
+      <column name="search_tags_ru"></column>
+      <column name="search_tags_zh_HK"></column>
+      <column name="search_tags_pt"></column>
+      <column name="search_tags_fi"></column>
+      <column name="search_tags_fr"></column>
+      <column name="source">[1] {Saarbrücken qepHom'a' 2025:src}</column>
+    </table>
+    <table name="mem">
+      <column name="_id"></column>
       <column name="entry_name">wI-</column>
       <column name="part_of_speech">v:pref</column>
       <column name="definition">we-him/her/it</column>
@@ -5408,7 +5457,7 @@ Le pluriel de ce mot est {wIjwI'pu' ngeb:n@@wIjwI' ngeb:n, -pu':n:suff}.[2]</col
           <column name="definition_ru">подвижная лестница с двумя ногами, образуя форму [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">一個帶有兩條腿形成A形狀的可移動梯子 [AUTOTRANSLATED]</column>
           <column name="definition_pt">uma escada móvel com duas pernas formando uma forma [AUTOTRANSLATED]</column>
-          <column name="definition_fi">Siirrettävä tikkaat, joissa kaksi jalkaa muodostavat muodon [AUTOTRANSLATED]</column>
+          <column name="definition_fi">A-tikkaat (siirrettävät A:n muotoiset tikkaat)</column>
           <column name="definition_fr">échelle de jardin, échelle mobile de deux parties formant un A</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
@@ -5691,7 +5740,7 @@ Le pluriel de ce mot est {wIjwI'pu' ngeb:n@@wIjwI' ngeb:n, -pu':n:suff}.[2]</col
       <column name="definition_ru">поднять, подтянуть, поднять [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">提升，拉起，抬起 [AUTOTRANSLATED]</column>
       <column name="definition_pt">içar, puxar para cima, levantar -se [AUTOTRANSLATED]</column>
-      <column name="definition_fi">Nosta, vedä ylös, nousee ylös [AUTOTRANSLATED]</column>
+      <column name="definition_fi">nostaa, vetää ylös</column>
       <column name="definition_fr">hisser, soulever</column>
       <column name="synonyms"></column>
       <column name="antonyms"></column>
@@ -5738,7 +5787,7 @@ Le pluriel de ce mot est {wIjwI'pu' ngeb:n@@wIjwI' ngeb:n, -pu':n:suff}.[2]</col
           <column name="definition_ru">Кран (машина) [AUTOTRANSLATED]</column>
           <column name="definition_zh_HK">起重機（機器） [AUTOTRANSLATED]</column>
           <column name="definition_pt">guindaste (máquina) [AUTOTRANSLATED]</column>
-          <column name="definition_fi">nosturi (kone) [AUTOTRANSLATED]</column>
+          <column name="definition_fi">nosturi, nostokurki</column>
           <column name="definition_fr">grue (engin)</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
@@ -6628,7 +6677,7 @@ En klingon abrégé, ce commandement est {wIy cha'!:sen@@wIy:n:2, cha':v}</colum
       <column name="definition_ru">беспилотник, беспилотник [AUTOTRANSLATED]</column>
       <column name="definition_zh_HK">無人機，無人機 [AUTOTRANSLATED]</column>
       <column name="definition_pt">drone, uav [AUTOTRANSLATED]</column>
-      <column name="definition_fi">drooni, UAV [AUTOTRANSLATED]</column>
+      <column name="definition_fi">miehittämätön alus, lennokki, drooni</column>
       <column name="definition_fr">drone, drône</column>
       <column name="synonyms">{Duj chIm:n}</column>
       <column name="antonyms"></column>
