@@ -273,7 +273,7 @@ then
         ${SED} -i -e "s/replace(//g" $TMP_DIR/old-mem.sql
         ${SED} -i -e "s/,'\\\\n',char(10))//g" $TMP_DIR/old-mem.sql
         ${SED} -i -e "s/\\\\n/\n/g" $TMP_DIR/old-mem.sql
-        vimdiff $TMP_DIR/old-mem.sql $TMP_DIR/mem.sql
+        ${EDITOR} -d $TMP_DIR/old-mem.sql $TMP_DIR/mem.sql
         read -n1 -r -p "Press any key to generate new db..."
         echo
     fi
