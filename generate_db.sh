@@ -187,6 +187,16 @@ then
     HAS_WARNINGS=true
 fi
 
+# Print any lines with trailing whitespace.
+EOL_WHITESPACE=$(grep -n "[[:space:]]$" $TMP_DIR/mem.xml)
+if [[ ! -z "$EOL_WHITESPACE" ]]
+then
+    echo "End-of-line whitespace:"
+    echo "$EOL_WHITESPACE"
+    echo
+    HAS_WARNINGS=true
+fi
+
 # Print any junk that accidentally added to the XML file at the beginning of a line.
 BOL_JUNK=$(grep "^\s*[^ ]\+\s*<\(table\|column\)" $TMP_DIR/mem.xml)
 if [[ ! -z "$BOL_JUNK" ]]
