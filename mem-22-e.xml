@@ -50,7 +50,7 @@
       <column name="entry_name">'eb</column>
       <column name="part_of_speech">n:klcp1</column>
       <column name="definition">opportunity, chance, opening</column>
-      <column name="definition_de">Möglichkeit, Gelegenheit</column>
+      <column name="definition_de">Möglichkeit, Gelegenheit, Chance</column>
       <column name="definition_fa">فرصت، فرصت، باز کردن [AUTOTRANSLATED]</column>
       <column name="definition_sv">möjlighet, chans, öppning</column>
       <column name="definition_ru">возможность, шанс, открытие [AUTOTRANSLATED]</column>
@@ -112,39 +112,44 @@ Dans un bar klingon, le barman ({chom:n}) crie {'eb Qav:n} pour "dernière tourn
           <column name="entry_name">'eb patlh</column>
           <column name="part_of_speech">n:deriv</column>
           <column name="definition">risk level, chance, odds</column>
-          <column name="definition_de">Risikoniveau, Chance, Chancen [AUTOTRANSLATED]</column>
+          <column name="definition_de">Risiko, Chance</column>
           <column name="definition_fa"></column>
           <column name="definition_sv"></column>
           <column name="definition_ru"></column>
           <column name="definition_zh_HK"></column>
           <column name="definition_pt">nível de risco, chance, probabilidades [AUTOTRANSLATED]</column>
           <column name="definition_fi"></column>
-          <column name="definition_fr"></column>
+          <column name="definition_fr">risque, chance</column>
           <column name="synonyms"></column>
           <column name="antonyms"></column>
           <column name="see_also">{bam:v}, {ghaytan:adv}, {chaq:adv}</column>
           <column name="notes">Literally "opportunity level" or "chance level." The number is assumed to be a percentage unless specified otherwise, so {'eb patlh 20:n:nolink} means "20 percent chance." When not expressed as a percentage, the risk level is specified: {'eb patlh vagh loch wej:n:nolink} "risk level 3 out of 5" or "3 out of 5 chance". The {'eb patlh:n:nolink} phrase is the object of {bam:v} "face", following a clause or another sentence explaining what it applies to.[1]</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Wörtlich "Möglichkeisniveau" oder "Chancenlevel". Die Zahl wird als Prozentzahl angenommen, außer wenn explizit etwas anderes gesagt wird, also bedeutet {'eb patlh 20:n:nolink} "20%-ige Chance". Wenn es nicht als Prozentzahl ausgedrückt wird, wird das Risikolevel spezifiziert: {'eb patlh vagh loch wej:n:nolink} "Risikolevel 3 in 5" oder "3 in 5 Chance". Die {'eb patlh:n:nolink}-Phrase ist das Objekt von {bam:v} "gegenüberstehen" und folgt einem anderen Satz oder Teilsatz, der erklärt, worauf sie sich bezieht.[1]</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
           <column name="notes_zh_HK"></column>
           <column name="notes_pt"></column>
           <column name="notes_fi"></column>
-          <column name="notes_fr"></column>
+          <column name="notes_fr">Littéralement "niveau d'opportunité" ou "niveau de chance." On assume que le numéro est un pourcentage sauf s'il est specifié autrement, donc {'eb patlh 20:n:nolink} signifie "chance de 20%." Si on ne l'exprime pas en pourcentage, on specifie le niveau de risque: {'eb patlh vagh loch wej:n:nolink} "niveau de risque 3 sur 5" ou "chance de 3 sur 5". L'expression avec {'eb patlh:n:nolink} est l'object de {bam:v} "faire face à", qui suit une proposition ou une autre phrase qui exprime à quoi il s'applique.[1]</column>
           <column name="hidden_notes"></column>
           <column name="components">{'eb:n}, {patlh:n:1}</column>
           <column name="examples">
 ▶ {bIHeghmeH 'eb patlh 20 (vatlhvI') Dabam.:sen:nolink} You face a 20% chance of dying.[1]
 ▶ {chaq bIHegh. 'eb patlh wa' loch vagh Dabam.:sen:nolink} Perhaps you will die. The odds are one out of five.[1]</column>
-          <column name="examples_de"></column>
+          <column name="examples_de">
+▶ {bIHeghmeH 'eb patlh 20 (vatlhvI') Dabam.:sen:nolink} Du hast eine 20%-ige Chance zu sterben.[1]
+▶ {chaq bIHegh. 'eb patlh wa' loch vagh Dabam.:sen:nolink} Vielleicht wirst du sterben. Die Chance ist eins in fünf.[1]
+          </column>
           <column name="examples_fa"></column>
           <column name="examples_sv"></column>
           <column name="examples_ru"></column>
           <column name="examples_zh_HK"></column>
           <column name="examples_pt"></column>
           <column name="examples_fi"></column>
-          <column name="examples_fr"></column>
+          <column name="examples_fr">
+▶ {bIHeghmeH 'eb patlh 20 (vatlhvI') Dabam.:sen:nolink} Tu as une chance de 20% de mourir.[1]
+▶ {chaq bIHegh. 'eb patlh wa' loch vagh Dabam.:sen:nolink} Peut-être tu vas mourir. La probabilité est un sur cinq.[1]</column>
           <column name="search_tags">probability, risk</column>
           <column name="search_tags_de"></column>
           <column name="search_tags_fa"></column>
@@ -3233,14 +3238,18 @@ This was rumoured to have been revealed at {qep'a' 26 (2019):src}, and was offic
       <column name="notes">This can refer to either end of the rope, stick or whatever, but once you arbitrarily choose an end to call {'er'In:n:nolink}, the other end is called {megh'an:n:nolink}. Before you make this initial reference, either end can be called either {'er'In:n:nolink} or {megh'an:n:nolink}.[1]
 
 This can informally be used to refer to one of the two poles of a planet (see {SIq'ang:n}).[2]</column>
-      <column name="notes_de">Dies kann eins von beiden Enden eines Seils, Stocks etc. sein, aber sobald man willkürlich ein Ende gewählt und {'er'In:n:nolink} genannt hat, wird das andere Ende {megh'an:n:nolink} genannt. Bevor dieser erste Bezug gemacht wird, kann jedes Ende sowohl {'er'In:n:nolink} oder {megh'an:n:nolink} sein.</column>
+      <column name="notes_de">Dies kann eins von beiden Enden eines Seils, Stocks etc. sein, aber sobald man willkürlich ein Ende gewählt und {'er'In:n:nolink} genannt hat, wird das andere Ende {megh'an:n:nolink} genannt. Bevor dieser erste Bezug gemacht wird, kann jedes Ende sowohl {'er'In:n:nolink} oder {megh'an:n:nolink} sein.
+
+Dies kann umgangssprachlich für einen der Pole eines Planeten benutzt werden (siehe {SIq'ang:n}).[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr">Ceci peut être ou l'une ou l'autre extremité d'une corde, d'un bâton etc., mais le moment où l'on choisit arbitrairement une extrémité pour l'appeler {'er'In:n:nolink}, l'autre extrémité s'appelle {megh'an:n:nolink}. Avant qu'on fait cette première référence, chaque extrémité peut être ou {'er'In:n:nolink} ou {megh'an:n:nolink}.</column>
+      <column name="notes_fr">Ceci peut être ou l'une ou l'autre extremité d'une corde, d'un bâton etc., mais le moment où l'on choisit arbitrairement une extrémité pour l'appeler {'er'In:n:nolink}, l'autre extrémité s'appelle {megh'an:n:nolink}. Avant qu'on fait cette première référence, chaque extrémité peut être ou {'er'In:n:nolink} ou {megh'an:n:nolink}.
+
+Ceci peut s'utiliser familièrement pour se référer à l'un des deux pôles d'une planète (voir {SIq'ang:n}).[2]</column>
       <column name="hidden_notes">This is a private joke referring to a specific person.</column>
       <column name="components"></column>
       <column name="examples"></column>
