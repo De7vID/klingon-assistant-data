@@ -177,12 +177,22 @@ then
     HAS_WARNINGS=true
 fi
 
-# Print any field beginning in a space, or ending in a space or comma.
-MISPLACED_SPACE_OR_COMMA=$(grep "> \|>.*  \|[^ >]\+  .*<\|>.*[ ,]<" $TMP_DIR/mem.xml)
+# Print any field beginning in a space, or ending in a space or comma (which is on one line).
+MISPLACED_SPACE_OR_COMMA=$(grep -n "> \|>.*  \|[^ >]\+  .*<\|>.*[ ,]<" $TMP_DIR/mem.xml)
 if [[ ! -z "$MISPLACED_SPACE_OR_COMMA" ]]
 then
     echo "Misplaced space or comma:"
     echo "$MISPLACED_SPACE_OR_COMMA"
+    echo
+    HAS_WARNINGS=true
+fi
+
+# Catch some multi-line cases missed by the above.
+MISPLACED_SPACE=$(grep -n "> \| <\/column>" $TMP_DIR/mem.xml)
+if [[ ! -z "$MISPLACED_SPACE" ]]
+then
+    echo "Misplaced space:"
+    echo "$MISPLACED_SPACE"
     echo
     HAS_WARNINGS=true
 fi
