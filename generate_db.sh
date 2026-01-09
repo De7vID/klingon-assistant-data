@@ -104,8 +104,18 @@ ${SED} -i -e "s/\[\[VERSION\]\]/$VERSION/" $TMP_DIR/mem.xml
 ./xml2sql.pl $TMP_DIR > $TMP_DIR/mem.sql
 ${SED} -i -e 's/INSERT INTO "mem"/INSERT INTO mem/g' $TMP_DIR/mem.sql
 
+# Track if any warnings are displayed.
+HAS_WARNINGS=
+
 # Print any entries with duplicate columns.
-grep "ARRAY" $TMP_DIR/mem.sql
+DUPLICATE_COLUMNS=$(grep "ARRAY" $TMP_DIR/mem.sql)
+if [[ ! -z "$DUPLICATE_COLUMNS" ]]
+then
+    echo "Entries with duplicate columns:"
+    echo "$DUPLICATE_COLUMNS"
+    echo
+    HAS_WARNINGS=true
+fi
 
 # Print any parts of speech accidentally entered into the definition.
 POS_DEFINITION_MIXUP=$(grep -B2 "definition\">\(v\|n\|adv\|conj\|ques\|sen\|excl\)[:<]" $TMP_DIR/mem.xml)
@@ -114,6 +124,7 @@ then
     echo "Part of speech information entered into definition:"
     echo "$POS_DEFINITION_MIXUP"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print any empty German definitions.
@@ -123,6 +134,7 @@ then
     echo "Missing German definitions:"
     echo "$MISSING_DE"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print any empty Portuguese definitions.
@@ -132,6 +144,7 @@ then
     echo "Missing Portuguese definitions:"
     echo "$MISSING_PT"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print any empty Finnish definitions.
@@ -141,6 +154,7 @@ then
     echo "Missing Finnish definitions:"
     echo "$MISSING_FI"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print any untranslated entries.
@@ -150,6 +164,7 @@ then
     echo "Missing translations:"
     echo "$MISSED_TRANSLATE"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print any mistyped colons.
@@ -159,6 +174,7 @@ then
     echo "Mistyped colon:"
     echo "$COLON_TYPO"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print any field beginning in a space, or ending in a space or comma.
@@ -168,6 +184,7 @@ then
     echo "Misplaced space or comma:"
     echo "$MISPLACED_SPACE_OR_COMMA"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print any junk that accidentally added to the XML file at the beginning of a line.
@@ -177,6 +194,7 @@ then
     echo "Junk at beginning of line:"
     echo "$BOL_JUNK"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print any full-line examples which were accidentally indented.
@@ -186,6 +204,7 @@ then
     echo "Full-line examples which are badly indented:"
     echo "$BADLY_INDENTED_EXAMPLES"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print badly indented lines.
@@ -195,6 +214,7 @@ then
     echo "Badly indented lines:"
     echo "$BADLY_INDENTED_TABLES"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print more badly indented lines.
@@ -204,6 +224,7 @@ then
     echo "Badly indented lines:"
     echo "$BADLY_INDENTED_COLUMNS"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print any broken references.
@@ -213,6 +234,7 @@ then
     echo "Broken references:"
     echo "$BROKEN_REFERENCES"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print any sources which are not empty but don't begin with "[".
@@ -222,6 +244,7 @@ then
     echo "Missing source index:"
     echo "$MISSED_SOURCE_BRACKET"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print any sources missing its type.
@@ -231,6 +254,7 @@ then
     echo "Missing source type:"
     echo "$MISSED_SOURCE_TYPE"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print any new entries containing {ngh} or {ngH}. The "xifan hol" expansion
@@ -241,6 +265,7 @@ then
     echo "Changed entries with {ngh} or {ngH}:"
     echo "$NGH_DIFF"
     echo
+    HAS_WARNINGS=true
 fi
 
 # Print any new 2-letter verbs. The parsing logic in the Android app needs to
@@ -251,6 +276,14 @@ then
     echo "Changed two-letter verbs:"
     echo "$TWO_LETTER_VERBS_DIFF"
     echo
+    HAS_WARNINGS=true
+fi
+
+# Exit with error if any warnings were displayed.
+if [[ $HAS_WARNINGS ]]
+then
+    echo "Warnings were found. Please fix the issues above."
+    exit 1
 fi
 
 # Pause (in case of error).
