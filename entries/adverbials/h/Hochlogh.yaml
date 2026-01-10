@@ -1,0 +1,46 @@
+entry:
+  entry_name: Hochlogh
+  slug: Hochlogh_adv
+  part_of_speech: adv:deriv
+  pos: adv
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: all times, always
+    parts:
+    - text: all times
+    - text: always
+  synonyms: '{reH:adv}'
+  antonyms: '{paghlogh:adv}'
+  notes: This intentionally ungrammatical word is an emphatic alternative for {reH:adv}.
+  components: '{Hoch:n}, {-logh:n:num,suff}'
+  examples: '
+
+    ▶ {Hochlogh no'' yIquvmoH.:sen:nolink} "Always honor your ancestors", literally,
+    "All times honor your ancestors".'
+  sources:
+    raw: '[1] {KGT p.178:src}'
+    citations:
+    - source: kgt
+      page_start: 178
+  translations:
+    de:
+      definition: immer, jedes mal
+    fa:
+      definition: همه زمان ها، همیشه [AUTOTRANSLATED]
+    sv:
+      definition: alla gånger, alltid (emfatiskt)
+    ru:
+      definition: всегда, всегда [AUTOTRANSLATED]
+    zh_HK:
+      definition: 總是如此 [AUTOTRANSLATED]
+    pt:
+      definition: todos as vezes, sempre
+    fi:
+      definition: aina, joka kerta
+    fr:
+      definition: tout le temps, toujours [AUTOTRANSLATED]
+  _original_id: 11261
+  _original_file: mem-05-H.xml

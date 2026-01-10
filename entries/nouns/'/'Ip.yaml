@@ -1,0 +1,61 @@
+entry:
+  entry_name: '''Ip'
+  slug: '''Ip_n'
+  part_of_speech: n:klcp1
+  pos: n
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: oath, promise
+    parts:
+    - text: oath
+    - text: promise
+  see_also: '{''Ip:v}'
+  notes: To make an {'Ip:n} is to {'Ip:v} or {lay':v}; to keep it is to {pab:v} the
+    {'Ip:n}.[2]
+  hidden_notes: This was defined as "oath" in {TKD:src}. The definition "promise"
+    was added based on its translation in the {paq'batlh:src}.
+  examples: '
+
+    ▶ {tugh ''Ipvetlh Dapab DaneH''a''?:sen:nolink} "How would you like to keep that
+    promise, very soon?"[2]'
+  sources:
+    raw: '[1] {TKD:src}, [2] {paq''batlh 2ed p.70-71:src}'
+    citations:
+    - source: tkd
+    - source: paqbatlh
+      page_start: 70
+      page_end: 71
+  translations:
+    de:
+      definition: Schwur, Versprechen
+      notes: Einen {'Ip:n} leisten ist {'Ip:v} oder {lay':v}; ihn halten ist den {'Ip:n}
+        zu {pab:v}.[2]
+      examples: '
+
+        ▶ {tugh ''Ipvetlh Dapab DaneH''a''?:sen:nolink} "Wie willst du dieses Versprechen
+        halten, sehr bald?"[2]'
+    fa:
+      definition: سوگند، وعده [AUTOTRANSLATED]
+    sv:
+      definition: ed, löfte
+    ru:
+      definition: обет, клятва
+    zh_HK:
+      definition: 誓言、承諾
+    pt:
+      definition: juramento, promessa
+    fi:
+      definition: vala, lupaus
+    fr:
+      definition: serment, promesse
+      notes: Faire un {'Ip:n} est {'Ip:v} ou {lay':v}; le tenir est de {pab:v} le
+        {'Ip:n}.[2]
+      examples: '
+
+        ▶ {tugh ''Ipvetlh Dapab DaneH''a''?:sen:nolink} "Comment est-ce que tu veux
+        tenir cette promesse, très bientôt?"[2]'
+  _original_id: 15487
+  _original_file: mem-23-I.xml

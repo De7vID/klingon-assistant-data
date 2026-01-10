@@ -1,0 +1,47 @@
+entry:
+  entry_name: -logh
+  slug: _logh_n
+  part_of_speech: n:num,suff
+  pos: n
+  pos_subtype: num
+  categories:
+  - suff
+  status: canonical
+  section: main
+  definition:
+    text: times, number of times (repetition suffix)
+    parts:
+    - text: times
+    - text: number of times (repetition suffix)
+  see_also: '{-DIch:n:num,suff}, {''arlogh:ques}, {boq''egh:v}'
+  notes: This is appended to a number to form an adverbial meaning that many times.
+    For example, {wa'logh:adv} "once, one time" from {wa':n:num} "one", {cha'logh:adv}
+    "twice, two times" from {cha':n:num} "two", and so on.
+  search_tags: repetition suffix
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: Vervielfältigungs-Suffix
+    fa:
+      definition: بار، تعداد دفعات (پیوست تکرار) [AUTOTRANSLATED]
+    sv:
+      definition: tider, antal gånger (repetitions suffix) [AUTOTRANSLATED]
+    ru:
+      definition: количество раз (суффикс повторения)
+      notes: Присоединяется к числу, чтобы сформировать обстоятельственное значение.
+        К примеру, {wa'logh:adv} "единожды, один раз" из {wa':n:num} "один", {cha'logh:adv}
+        "дважды, два раза" from {cha':n:num} "два", и так далее.
+      search_tags: суффикс повторения
+    zh_HK:
+      definition: 次數、重複（後綴）
+    pt:
+      definition: vezes, número de vezes (sufixo de repetição)
+    fi:
+      definition: '... kertaa (toistojohdin)'
+    fr:
+      definition: fois, nombre de fois (suffixe de répétition)
+  _original_id: 11806
+  _original_file: mem-07-l.xml

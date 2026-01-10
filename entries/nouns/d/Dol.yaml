@@ -1,0 +1,53 @@
+entry:
+  entry_name: Dol
+  slug: Dol_n
+  part_of_speech: n
+  pos: n
+  status: canonical
+  section: main
+  definition:
+    text: entity, whole
+    parts:
+    - text: entity
+    - text: whole
+  see_also: '{naQ:v}, {bID:n}'
+  hidden_notes: 'This is defined as "entity" in {TKD:src} and as "whole" in {TKW:src}.
+
+
+    The line from the {paq''batlh:src} was revised in the 2ed, and the word {Dol:n:nolink}
+    no longer appears in it.'
+  examples: '
+
+    ▶ {wa'' Dol nIvDaq matay''DI'' maQap.:sen}
+
+    ▶ {wa'' Dol bIH qa''''e'' porgh''e'' je.:sen@@wa'':n:num, Dol:n, bIH:n:pro, qa'':n,
+    -''e'':n, porgh:n, -''e'':n, je:conj} "Spirit and body are one."[3]'
+  search_tags: entirety
+  sources:
+    raw: '[1] {TKD:src}, [2] {TKW:src}, [3] {paq''batlh 1ed p.102-103:src}'
+    citations:
+    - source: tkd
+    - source: tkw
+    - source: paqbatlh
+      page_start: 102
+      page_end: 103
+  translations:
+    de:
+      definition: Einheit, das Ganze
+    fa:
+      definition: نهاد، کل [AUTOTRANSLATED]
+    sv:
+      definition: väsen, självständig helhet
+    ru:
+      definition: сущность, целый(как определение размера)
+      search_tags: целиком
+    zh_HK:
+      definition: 實體、整體 [AUTOTRANSLATED]
+    pt:
+      definition: unidade, todo
+    fi:
+      definition: kokonaisuus
+    fr:
+      definition: entité, entière [AUTOTRANSLATED]
+  _original_id: 10745
+  _original_file: mem-03-D.xml

@@ -1,0 +1,66 @@
+entry:
+  entry_name: Sum
+  slug: Sum_v
+  part_of_speech: v:is
+  pos: v
+  pos_subtype: is
+  status: canonical
+  section: main
+  definition:
+    text: be near, be nearby
+    parts:
+    - text: be near
+    - text: be nearby
+    dedup: true
+  antonyms: '{Hop:v}'
+  see_also: '{chol:v}, {chuq:n}'
+  notes: 'The use of this word involves the concept of deixis. It usually implies
+    the subject is near the speaker, unless the context is set up to indicate the
+    action is taking place somewhere else (for example, using {-Daq:n}). The suffix
+    {-chuq:v} is not used with this verb.[2]
+
+
+    The expression {jISum:sen:nolink} has an idiomatic philosophical meaning, "I''m
+    in touch with my inner self" (in a Klingon way).[2]'
+  hidden_notes: 'When you "zoom in" on something, it looks much closer.
+
+
+    In a message to the {KLI mailing list 2021.02.28:src}, Maltz even said the Klingon
+    pronunciation of the word "zoom" would be {Sum:sen:nolink}.'
+  examples: '
+
+    ▶ {jIHDaq Sum raS.:sen@@jIH:n:1, -Daq:n, Sum:v, raS:n} "The table is near me."[2]
+
+    ▶ {yuQ SumDaq cha''puj law'' Datu''.:sen@@yuQ:n, Sum:v, -Daq:n, cha''puj:n, law'':v,
+    Da-:v, tu'':v} "Detect large sums of dilithium on nearby planet."[3]'
+  search_tags: close
+  sources:
+    raw: '[1] {KGT:src}, [2] {HQ 7.4, p.9-10, Dec. 1998:src}, [3] {Klingon Monopoly:src}'
+    citations:
+    - source: kgt
+    - source: holqed
+      page_start: 9
+      page_end: 10
+      volume: 7
+      issue: 4
+      date: Dec. 1998
+    - source: klingon_monopoly
+  translations:
+    de:
+      definition: nah sein, in der Nähe sein
+    fa:
+      definition: در نزدیکی نزدیک بودن [AUTOTRANSLATED]
+    sv:
+      definition: vara nära, vara i närheten
+    ru:
+      definition: быть рядом, быть рядом [AUTOTRANSLATED]
+    zh_HK:
+      definition: 靠近、就在附近 [AUTOTRANSLATED]
+    pt:
+      definition: estar perto, estar próximo
+    fi:
+      definition: olla lähellä, olla läheinen
+    fr:
+      definition: être près, être à proximité [AUTOTRANSLATED]
+  _original_id: 14124
+  _original_file: mem-15-S.xml

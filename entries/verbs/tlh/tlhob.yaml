@@ -1,0 +1,86 @@
+entry:
+  entry_name: tlhob
+  slug: tlhob_v
+  part_of_speech: v:t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: request, ask, plead
+    parts:
+    - text: request
+    - text: ask
+    - text: plead
+  see_also: '{ghel:v}, {yu'':v}, {jang:v:1}, {qoy'':v}, {poQ:v}'
+  notes: This verb is used to make a request, whereas {ghel:v} is used for asking
+    a question.[3]
+  hidden_notes: 'This was defined as "ask" in {TKD:src}, but as "request, ask, plead"
+    in {TKDA:src}.
+
+
+    The examples show that the object of this verb can be the person of whom the request
+    is made, or {''e'':n:pro} referring to the action which is requested. The definition
+    suggests that a thing which is requested might be a possible object, but this
+    isn''t clear.'
+  examples: "\n▶ {lutlhob; naDevvo' vaS'a'Daq majaHlaH'a'?:sen@@lu-:v, tlhob:v, naDev:n,\
+    \ -vo':n, vaS'a':n, -Daq:n, ma-:v, jaH:v, -laH:v, -'a':v} \"They ask him, can\
+    \ we get to the Great Hall from here?\"[4]\n▶ {juDev 'ej Dujvam ra'wI' DagheS\
+    \ 'e' vItlhob.:sen}\n▶ {molor luSuvmeH:sen:nolink}\n   {nuHmeychaj Suq:sen:nolink}\n\
+    \   {'e' tlhob qeylIS:sen:nolink}\n  \"[To tell them that] Kahless asks them\n\
+    \   To take up their arms,\n   And fight against Molor.\"[5]"
+  sources:
+    raw: '[1] {TKD:src}, [2] {TKDA:src}, [3] {HQ 7.4, p.3-4, Dec. 1998:src}, [4] {PK:src},
+      [5] {paq''batlh 2ed p.118-119:src}'
+    citations:
+    - source: tkd
+    - source: tkda
+    - source: holqed
+      page_start: 3
+      page_end: 4
+      volume: 7
+      issue: 4
+      date: Dec. 1998
+    - source: pk
+    - source: paqbatlh
+      page_start: 118
+      page_end: 119
+  translations:
+    de:
+      definition: verlangen, bitten, fragen
+      notes: Mit diesem Verb äußert man eine Bitte, wobei {ghel:v} für das Stellen
+        einer Frage benutzt wird.[3]
+      examples: "\n▶ {lutlhob; naDevvo' vaS'a'Daq majaHlaH'a'?:sen@@lu-:v, tlhob:v,\
+        \ naDev:n, -vo':n, vaS'a':n, -Daq:n, ma-:v, jaH:v, -laH:v, -'a':v} \"Sie fragen\
+        \ ihn, können wir von hier zur großen Halle gehen?\"[4]\n▶ {juDev 'ej Dujvam\
+        \ ra'wI' DagheS 'e' vItlhob.:sen}\n▶ {molor luSuvmeH:sen:nolink}\n   {nuHmeychaj\
+        \ Suq:sen:nolink}\n   {'e' tlhob qeylIS:sen:nolink}\n  \"Um zu sagen dass\
+        \ Kahless aufgerufen hat,\n   Die Waffe zu erheben,\n   Und gegen Molor zu\
+        \ kämpfen.\"[5]"
+    fa:
+      definition: درخواست، بپرس [AUTOTRANSLATED]
+    sv:
+      definition: fråga efter, efterfråga, be om
+    ru:
+      definition: просить
+    zh_HK:
+      definition: 請求
+    pt:
+      definition: pedir, perguntar, implorar
+    fi:
+      definition: pyytää jotakin, vaatia, anoa
+    fr:
+      definition: demander, plaider
+      notes: Avec ce verbe on demande un favour, tandis que {ghel:v} s'utilise pour
+        poser une question.[3]
+      examples: "\n▶ {lutlhob; naDevvo' vaS'a'Daq majaHlaH'a'?:sen@@lu-:v, tlhob:v,\
+        \ naDev:n, -vo':n, vaS'a':n, -Daq:n, ma-:v, jaH:v, -laH:v, -'a':v} \"Ils le\
+        \ demandent, est-ce que nous pouvons aller au grand hall d'ici?\"[4]\n▶ {juDev\
+        \ 'ej Dujvam ra'wI' DagheS 'e' vItlhob.:sen}\n▶ {molor luSuvmeH:sen:nolink}\n\
+        \   {nuHmeychaj Suq:sen:nolink}\n   {'e' tlhob qeylIS:sen:nolink}\n  \"[Pour\
+        \ leur dire que] Kahless les demande\n   Qu'ils prennent leurs armes,\n  \
+        \ Et luttent contre Molor.\"[5]"
+  _original_id: 14608
+  _original_file: mem-17-tlh.xml

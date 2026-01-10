@@ -1,0 +1,39 @@
+entry:
+  entry_name: ta'mey Dun, bommey Dun.
+  slug: ta'mey_Dun,_bommey_Dun_sen
+  part_of_speech: sen:phr
+  pos: sen
+  pos_subtype: phr
+  status: canonical
+  section: main
+  definition:
+    text: Great deeds, great songs.
+    parts:
+    - text: Great deeds
+    - text: great songs.
+    dedup: true
+  components: '{ta'':n:1}, {-mey:n}, {Dun:v}, {bom:n}, {-mey:n}, {Dun:v}'
+  sources:
+    raw: '[1] {TKW p.15:src}'
+    citations:
+    - source: tkw
+      page_start: 15
+  translations:
+    de:
+      definition: Große Taten, große Lieder.
+    fa:
+      definition: اعمال بزرگ، آهنگ های عالی. [AUTOTRANSLATED]
+    sv:
+      definition: Stora gärningar, bra låtar. [AUTOTRANSLATED]
+    ru:
+      definition: Великие дела, великие песни.
+    zh_HK:
+      definition: 偉大的事蹟，偉大的歌曲。 [AUTOTRANSLATED]
+    pt:
+      definition: Grandes feitos, grandes canções.
+    fi:
+      definition: Hienoja tekoja, hienoja lauluja.
+    fr:
+      definition: De grandes actions, de grandes chansons. [AUTOTRANSLATED]
+  _original_id: 14273
+  _original_file: mem-16-t.xml

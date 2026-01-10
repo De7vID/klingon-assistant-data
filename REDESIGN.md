@@ -112,7 +112,222 @@ E-K lookups:
     travel with a purpose, for a specific reason; travel on a mission
     mission, travel on a mission; travel with a purpose, for a specific reason
 
-There might be other cases of `definition` data with commas, semicolons, and brackets which need special handling, which need to be determined by examining the data.
+The following additional cases have been identified by examining `book/generate-latex.py`:
+
+### Guard Cases (Definitions That Should NOT Generate Permutations)
+
+Some definitions contain commas but should NOT be split into parts for E-K permutation because the commas are part of descriptive phrases, not separators between alternative definitions.
+
+**Bird/creature descriptions:**
+```
+definition: a bird that swoops down, catches prey, and returns to perch
+  no_permute: true
+E-K lookups:
+    a bird that swoops down, catches prey, and returns to perch
+```
+
+**Exclamations/interjections:**
+```
+definition: good news, everyone!
+  no_permute: true
+definition: Stop, don't do that!
+  no_permute: true
+definition: uh, well...
+  no_permute: true
+```
+
+**Phrases with internal structure:**
+```
+definition: sink for cleaning hands, face, food, etc.
+  no_permute: true  # "hands, face, food" is an enumeration, not alternatives
+definition: end (of stick, rope, etc.)
+  no_permute: true  # internal comma in parenthetical
+```
+
+**Redundant permutation prevention:**
+```
+definition: have a tattoo, be tattooed
+  no_permute: true  # "have X, be X" generates redundant nearby entries
+definition: be positively charged, have positive charge
+  no_permute: true
+```
+
+### Deduplication Cases (Prevent Nearby Duplicate E-K Entries)
+
+Some two-part definitions would generate permutations that sort adjacently, which is undesirable. These should be merged into a single E-K entry.
+
+**Noun pairs with similar prefixes (first 3 chars match):**
+```
+definition: actor, actress
+  dedup: true  # "act" matches "act", so only generate one E-K entry
+E-K lookups:
+    actor, actress  # NOT: "actress, actor" (would be adjacent)
+
+definition: abbess, abbot
+  dedup: true
+```
+
+**Be-verb pairs with similar prefixes (first 7 chars match):**
+```
+definition: be allergic, be allergic to
+  dedup: true  # "be alle" matches
+definition: be near, be nearby
+  dedup: true  # "be near" matches
+```
+
+**Specific word pairs:**
+```
+definition: be cooperative, cooperate
+  dedup: true
+definition: die, dice with...
+  dedup: true
+```
+
+### Semicolon-Based Splitting
+
+Semicolons indicate stronger separation than commas, often for alternative phrasings.
+
+**Mixed positive/negative forms:**
+```
+definition: almost, nearly, virtually, not quite; barely (when used with a negated verb)
+  part: almost
+  part: nearly
+  part: virtually
+  part: not quite
+  part: barely (when used with a negated verb)
+    keyword: barely
+E-K lookups:
+    almost, nearly, virtually, not quite; barely (when used with a negated verb)
+    nearly, almost, virtually, not quite; barely (when used with a negated verb)
+    virtually, almost, nearly, not quite; barely (when used with a negated verb)
+    not quite, almost, nearly, virtually; barely (when used with a negated verb)
+    barely (when used with a negated verb)
+```
+
+### Suffix Handling
+
+**Definitions ending with ", etc.":**
+```
+definition: road, street, path, etc.
+  part: road
+  part: street
+  part: path
+  etc_suffix: true
+E-K lookups:
+    road, street, path, etc.
+    street, road, path, etc.
+    path, road, street, etc.
+```
+
+**Bracket applies only to last part:**
+```
+definition: hinge, spine (of book)
+  part: hinge
+  part: spine (of book)  # bracket is part-specific, not global
+E-K lookups:
+    hinge, spine (of book)
+    spine (of book), hinge
+```
+
+### Multi-Part Grouping Patterns
+
+Some definitions with 3, 4, or 5 comma-separated parts need specific grouping to produce sensible E-K lookups.
+
+**Three-part grouping (merge first two):**
+```
+definition: arts, the arts, culture
+  group: [0+1, 2]  # "arts, the arts" is one concept
+E-K lookups:
+    arts, the arts, culture
+    culture, arts, the arts
+```
+
+**Three-part grouping (merge last two):**
+```
+definition: food server, waiter, waitress
+  group: [0, 1+2]  # "waiter, waitress" is one concept
+E-K lookups:
+    food server, waiter, waitress
+    waiter, waitress, food server
+```
+
+**Four-part grouping:**
+```
+definition: somebody, something, anybody, anything
+  group: [0+1, 2+3]  # pair related concepts
+E-K lookups:
+    somebody, something, anybody, anything
+    anybody, anything, somebody, something
+
+definition: everyone, all, everything, each
+  group: [0+2, 1, 3]  # cross-pair: everyone/everything
+E-K lookups:
+    everyone, everything, all, each
+    all, everyone, everything, each
+    each, everyone, everything, all
+```
+
+**Five-part grouping:**
+```
+definition: teen, teenager, adolescent, youth, young adult
+  group: [0+1, 2, 3+4]
+E-K lookups:
+    teen, teenager, adolescent, youth, young adult
+    adolescent, teen, teenager, youth, young adult
+    youth, young adult, teen, teenager, adolescent
+```
+
+### Schema for Definition Parts
+
+The `definition` field should support these structured formats:
+
+```yaml
+# Simple multi-part definition
+definition:
+  text: "flap, flutter, wave"
+  parts:
+    - text: "flap"
+    - text: "flutter"
+    - text: "wave"
+
+# With global parenthetical
+definition:
+  text: "fire, energize (e.g., thrusters)"
+  parts:
+    - text: "fire"
+    - text: "energize"
+  global_parenthetical: "e.g., thrusters"
+
+# With sort keyword
+definition:
+  text: "travel with a purpose; travel on a mission"
+  parts:
+    - text: "travel with a purpose, for a specific reason"
+    - text: "travel on a mission"
+      sort_keyword: "mission"
+
+# Guard case (no permutation)
+definition:
+  text: "a bird that catches prey"
+  no_permute: true
+
+# Deduplication case
+definition:
+  text: "actor, actress"
+  parts:
+    - text: "actor"
+    - text: "actress"
+  dedup: true
+
+# With etc. suffix
+definition:
+  text: "road, street, path, etc."
+  parts:
+    - text: "road"
+    - text: "street"
+    - text: "path"
+  etc_suffix: true
+```
 
 The `synonyms`, `antonyms`, and `see_also` fields are straightforward pointers to other entries in the lexicon.
 

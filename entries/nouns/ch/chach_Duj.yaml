@@ -1,0 +1,38 @@
+entry:
+  entry_name: chach Duj
+  slug: chach_Duj_n
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: ambulance, emergency vehicle
+    parts:
+    - text: ambulance
+    - text: emergency vehicle
+  components: '{chach:n}, {Duj:n:1}'
+  sources:
+    raw: '[1] {TNK:src}'
+    citations:
+    - source: tnk
+  translations:
+    de:
+      definition: Krankenwagen
+    fa:
+      definition: آمبولانس، وسایل نقلیه اضطراری [AUTOTRANSLATED]
+    sv:
+      definition: ambulans
+    ru:
+      definition: скорая помощь, спасательный транспорт
+    zh_HK:
+      definition: 救護車、急救車
+    pt:
+      definition: ambulância, veículo de emergência
+    fi:
+      definition: ambulanssi, hälytysajoneuvo
+    fr:
+      definition: ambulance, véhicule d'urgence
+  _original_id: 10309
+  _original_file: mem-02-ch.xml

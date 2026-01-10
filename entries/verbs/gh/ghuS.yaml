@@ -1,0 +1,92 @@
+entries:
+- entry_name: ghuS
+  slug: ghuS_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: be prepared, be ready (to launch)
+    parts:
+    - text: be prepared
+    - text: be ready (to launch)
+  see_also: '{baH:v}, {cha:n}, {peng:n}, {qeq:v}, {ghuH:v}, {ghuS:v:2}'
+  notes: 'The object of this verb is the thing to be launched, usually torpedoes.
+    If the object is not specified either explicitly or by context, it is assumed
+    to be torpedoes. Besides torpedoes, this verb can be used for rockets, missiles,
+    energy beams, or anything else which goes from one point to another. It is also
+    used to describe the action of pulling back the elastic band of a slingshot, or
+    the lowering of a spear to a horizontal position to attack (see {ghuS:v:2}). This
+    verb never takes the suffix {-rup:v}. ({TKD 4.2.2:src})
+
+
+    See also the suffixes {-rup:v} and {-beH:v} for indicating preparation or readiness.'
+  hidden_notes: Even though the definition starts with "be", this is not a stative
+    verb. The subject is a person getting ready to use a device to launch something,
+    not the device itself.
+  examples: '
+
+    ▶ {cha yIghuS!:sen}[2]'
+  sources:
+    raw: '[1] {TKD:src}, [2] {Star Trek I:src}'
+    citations:
+    - source: tkd
+    - source: star_trek_i
+  translations:
+    de:
+      definition: feuerbereit sein, abschussbereit sein
+    fa:
+      definition: آماده، آماده (برای راه اندازی) [AUTOTRANSLATED]
+    sv:
+      definition: vara beredd, vara redo (att avfyra)
+    ru:
+      definition: быть готовым, готовиться к запуску
+    zh_HK:
+      definition: 準備（發射）
+    pt:
+      definition: esteja preparado, pronto (a lançar)
+    fi:
+      definition: valmistautua laukaisemaan
+    fr:
+      definition: être prêt, être prêt (à lancer) [AUTOTRANSLATED]
+  _original_id: 11079
+  _original_file: mem-04-gh.xml
+- entry_name: ghuS
+  slug: ghuS_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: lower (spear) to horizontal to attack
+  see_also: '{naQjej:n}, {moy''bI'':n}, {chuH:v:1}, {ghuS:v:1}'
+  notes: This verb can be used to describe the readying of any kind of projectile
+    weapon, such as pulling back the elastic band of a slingshot. On a starship, it's
+    used almost exclusively to refer to torpedoes (see {ghuS:v:1}).[1, p.64]
+  search_tags: spear, slingshot
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: den Speer zum Angriff horizontal senken
+    fa:
+      definition: پایین (کمان) به افقی برای حمله [AUTOTRANSLATED]
+    sv:
+      definition: sänka (spjut) till horisontellt läge inför attack
+    ru:
+      definition: ниже (копье) к горизонтали для атаки [AUTOTRANSLATED]
+    zh_HK:
+      definition: 降低（矛）到水平攻擊 [AUTOTRANSLATED]
+    pt:
+      definition: abaixar (lança) para horizontal para atacar
+    fi:
+      definition: laskea keihäs vaakasuoraan asentoon ennen hyökkäystä
+    fr:
+      definition: abaisser (lance) à l'horizontale pour attaquer [AUTOTRANSLATED]
+  _original_id: 11080
+  _original_file: mem-04-gh.xml

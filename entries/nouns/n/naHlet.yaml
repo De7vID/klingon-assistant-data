@@ -1,0 +1,41 @@
+entry:
+  entry_name: naHlet
+  slug: naHlet_n
+  part_of_speech: n:deriv,food
+  pos: n
+  categories:
+  - food
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: nut, nuts
+    parts:
+    - text: nut
+    - text: nuts
+    dedup: true
+  components: '{naH:n}, {let:v}'
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Nuss, Nüsse
+    fa:
+      definition: مهره، آجیل [AUTOTRANSLATED]
+    sv:
+      definition: nöt, nötter
+    ru:
+      definition: орех, орехи [AUTOTRANSLATED]
+    zh_HK:
+      definition: 堅果
+    pt:
+      definition: noz, nozes
+    fi:
+      definition: pähkinä
+    fr:
+      definition: noix, noix [AUTOTRANSLATED]
+  _original_id: 12288
+  _original_file: mem-09-n.xml

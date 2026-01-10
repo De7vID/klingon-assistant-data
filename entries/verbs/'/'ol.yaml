@@ -1,0 +1,53 @@
+entry:
+  entry_name: '''ol'
+  slug: '''ol_v'
+  part_of_speech: v:t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: verify, check if (something) is true, make sure that (something) is true
+    parts:
+    - text: verify
+    - text: check if (something) is true
+    - text: make sure that (something) is true
+  see_also: '{teH:v}, {ngeb:v}, {tob:v}, {Daj:v:2}, {waH:v:1}, {nuD:v}, {poj:v}'
+  notes: Note that {'ol:v:nolink} is used for checking a fact, while {woq:v} is used
+    for confirming it.
+  hidden_notes: The {TKD:src} definition says only "verify". This was expanded upon
+    at {Saarbrücken qepHom'a' 2017:src}.
+  sources:
+    raw: '[1] {TKD:src}, [2] {Saarbrücken qepHom''a'' 2017:src}'
+    citations:
+    - source: tkd
+    - source: qephom_2017
+      date: '2017'
+  translations:
+    de:
+      definition: überprüfen; prüfen, ob etwas wahr ist; sicherstellen, dass etwas
+        wahr ist
+      notes: Merke, dass {'ol:v:nolink} bedeutet einen Fakt zu überprüfen, während
+        {woq:v} benutzt wird, um ihn zu bestätigen.
+    fa:
+      definition: بررسی کنید، آیا (چیزی) درست است، مطمئن شوید که (چیزی) درست است [AUTOTRANSLATED]
+    sv:
+      definition: bekräfta, verifiera
+    ru:
+      definition: проверить
+    zh_HK:
+      definition: 驗證、檢查（某事）是否為真、確保（某事）是真的 [AUTOTRANSLATED]
+    pt:
+      definition: verificar, checar se (algo) é verdadeiro, verifique se (algo) é
+        verdadeiro
+    fi:
+      definition: tarkistaa, varmistaa, todentaa (jonkin totuudenmukaisuus)
+    fr:
+      definition: vérifier, confirmer, vérifier si qch est correct, assurer que qch
+        est vrai
+      notes: À noter que {'ol:v:nolink} s'utilise pour vérifier un fait, tandis que
+        {woq:v} s'utilise pour le confirmer.
+  _original_id: 15546
+  _original_file: mem-24-o.xml

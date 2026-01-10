@@ -1,0 +1,126 @@
+entries:
+- entry_name: DIS
+  slug: DIS_n_1
+  part_of_speech: n:1
+  pos: n
+  homophone: 1
+  status: canonical
+  section: main
+  definition: cave
+  see_also: '{De''lor:n}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: Höhle
+    fa:
+      definition: غار
+    sv:
+      definition: grotta
+    ru:
+      definition: пещера
+    zh_HK:
+      definition: 洞穴
+    pt:
+      definition: caverna
+    fi:
+      definition: luola
+    fr:
+      definition: grotte [AUTOTRANSLATED]
+  _original_id: 10701
+  _original_file: mem-03-D.xml
+- entry_name: DIS
+  slug: DIS_n_2
+  part_of_speech: n:2,klcp1
+  pos: n
+  homophone: 2
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition: year (Klingon)
+  see_also: '{jar:n}, {Hogh:n}, {jaj:n}, {''ISjaH:n}, {tera'' poH:n}'
+  notes: For "years ago" and "years from now", see {ben:n:1} and {nem:n}, respectively.
+    For "years old", see {ben:n:2}.
+  examples: '
+
+    ▶ {tera'' poH jaj wa'', jar wa'', jaj loSDIch, DIS wa''-Hut-Hut-chorgh. HovpoHvetlh
+    latlh nab yIHutlh.:sen:nolink} "Save this Stardate: Sunday, January 4, 1998"[2]'
+  sources:
+    raw: '[1] {TKD:src}, [2] {Star Trek The Exhibition:src} invitation'
+    citations:
+    - source: tkd
+    - source: star_trek_the_exhibition
+  translations:
+    de:
+      definition: Jahr
+      notes: Für "vor x Jahren" und "in x Jahren", siehe jeweils {ben:n:1} und {nem:n}.
+        Für "x Jahre alt", siehe {ben:n:2}.
+    fa:
+      definition: سال (تقویم کلینگانی)
+    sv:
+      definition: år (klingonskt)
+    ru:
+      definition: Год (клингонский)
+      notes: Для "X лет назаж" и "Х лет от текущего момента", см {ben:n:1} и {nem:n},
+        соответственно.
+    zh_HK:
+      definition: 年（克林崗日曆）
+    pt:
+      definition: ano (klingon)
+    fi:
+      definition: (klingonien) vuosi
+    fr:
+      definition: année (Klingon) [AUTOTRANSLATED]
+  _original_id: 10702
+  _original_file: mem-03-D.xml
+- entry_name: DIS
+  slug: DIS_n_3
+  part_of_speech: n:3
+  pos: n
+  homophone: 3
+  status: canonical
+  section: main
+  definition:
+    text: loop, circuit (non-electrical)
+    parts:
+    - text: loop
+    - text: circuit
+    global_parenthetical: non-electrical
+  see_also: '{gho:n}, {bav:v}'
+  notes: This can refer to any path or route with the same starting and ending point.
+    The path doesn't have to be circular, though it often is. Thus it can be used
+    for "orbit" or "lap (around a track)", for example.[1]
+  search_tags: orbit, lap
+  sources:
+    raw: '[1] {qep''a'' 32 (2025):src}'
+    citations:
+    - source: qepa_2025
+      date: '2025'
+  translations:
+    de:
+      definition: Schleife, Schlinge, Runde, (Kreis-)Bahn (nicht elektrisch)
+      notes: Kann sich auf einen Pfad oder eine Route beziehen, die den selben Anfangs-
+        und Enpunkt hat. Der Pfad muss nicht kreisrund sein, ist es aber oft. Es kann
+        daher für z.B. "Umlaufbahn" oder "Runde (auf einer Bahn)" benutzt werden.[1]
+    fa:
+      definition: حلقه ، مدار (غیر برقی) [AUTOTRANSLATED]
+    sv:
+      definition: loop, (circulär) bana, omlopp, krets (icke-elektrisk)
+    ru:
+      definition: петля, цепь (неэлектрическая) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 循環，電路（非電機） [AUTOTRANSLATED]
+    pt:
+      definition: Loop, circuito (não elétrico) [AUTOTRANSLATED]
+    fi:
+      definition: kierros, silmukka; kiertorata
+    fr:
+      definition: boucle, circuit, parcours (non électrique)
+      notes: Peut se référer à un chemin ou une route avec le même point de départ
+        et bout. La route n'est pas nécessairement circulaire, mais l'est souvent.
+        Il peut donc s'utiliser pour p.ex. "orbite" ou "tour (d'un circuit)".[1]
+  _original_id: 10705
+  _original_file: mem-03-D.xml

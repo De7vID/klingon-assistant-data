@@ -1,0 +1,111 @@
+entries:
+- entry_name: DeS
+  slug: DeS_n_1
+  part_of_speech: n:1,body,klcp1
+  pos: n
+  pos_subtype: body
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition: arm (body part)
+  see_also: '{ghop:n}, {ghIv:n}, {volchaH:n}, {DeSqIv:n}, {to''waQ:n}, {yeb:n:1},
+    {ghIt:n:1}, {reStav:n}, {tutren:n}, {DeS:n:2}'
+  hidden_notes: A writer's arm rests on his or her desk when writing.
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: Arm (Körperteil)
+    fa:
+      definition: دست، بازو
+    sv:
+      definition: arm
+    ru:
+      definition: рука(от кисти до плеча)
+    zh_HK:
+      definition: 手臂
+    pt:
+      definition: braço (parte do corpo)
+    fi:
+      definition: käsi, käsivarsi
+    fr:
+      definition: bras (partie du corps) [AUTOTRANSLATED]
+  _original_id: 10631
+  _original_file: mem-03-D.xml
+- entry_name: DeS
+  slug: DeS_n_2
+  part_of_speech: n:2
+  pos: n
+  homophone: 2
+  status: canonical
+  section: main
+  definition: ax handle
+  see_also: '{''obmaQ:n}, {ghIt:n:2}, {DeS:n:1}'
+  search_tags: axe handle
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Axtgriff
+    fa:
+      definition: دسته تبر
+    sv:
+      definition: skaft, yxskaft
+    ru:
+      definition: ручка топора [AUTOTRANSLATED]
+    zh_HK:
+      definition: 斧頭柄
+    pt:
+      definition: maçaneta
+    fi:
+      definition: kirveen varsi
+    fr:
+      definition: manche de hache [AUTOTRANSLATED]
+  _original_id: 10637
+  _original_file: mem-03-D.xml
+- entry_name: DeS
+  slug: DeS_n_3
+  part_of_speech: n:3
+  pos: n
+  homophone: 3
+  status: canonical
+  section: main
+  definition:
+    text: cathetus, shorter side of right-angled triangle
+    parts:
+    - text: cathetus
+    - text: shorter side of right-angled triangle
+  notes: The three sides of a right-triangle ({ra'Duch leD:n}), relative to a non-right
+    angle, are the {DeS Sum:n}, {DeS Hop:n}, and the {qubbID:n:2}.[1]
+  sources:
+    raw: '[1] {Saarbrücken qepHom''a'' 2024:src}'
+    citations:
+    - source: qephom_2024
+      date: '2024'
+  translations:
+    de:
+      definition: Kathete, eine der Seiten eines rechtwinkligen Dreiecks
+      notes: Die drei Seiten eines rechtwinkligen Dreiecks ({ra'Duch leD:n}) sind
+        {DeS Sum:n}, {DeS Hop:n} (Katheten) und die {qubbID:n:2} (Hypothenuse).[1]
+    fa:
+      definition: ضلع مثلث قائم الزاویه [AUTOTRANSLATED]
+    sv:
+      definition: sidan av en rätvinklig triangel [AUTOTRANSLATED]
+    ru:
+      definition: сторона прямоугольного треугольника [AUTOTRANSLATED]
+    zh_HK:
+      definition: 直角三角形的一邊 [AUTOTRANSLATED]
+    pt:
+      definition: lado de um triângulo retângulo [AUTOTRANSLATED]
+    fi:
+      definition: kateetti (suorakulmaisen kolmion sivu)
+    fr:
+      definition: côté d'un triangle rectangle [AUTOTRANSLATED]
+  _original_id: 10638
+  _original_file: mem-03-D.xml

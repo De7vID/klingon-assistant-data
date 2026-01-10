@@ -1,0 +1,89 @@
+entries:
+- entry_name: pan
+  slug: pan_v_1
+  part_of_speech: v:1,t
+  pos: v
+  pos_subtype: t
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: spark, emit sparks
+    parts:
+    - text: spark
+    - text: emit sparks
+  see_also: '{qulHom:n}, {bar:v}, {ghon:v}'
+  hidden_notes: A flash in the pan.
+  examples: '
+
+    ▶ {pan qeylIS betleH ''ej jach molor ''etlh HoS:sen:nolink} "Kahless''s bat''leth
+    sparks, And Molor''s mighty sword roars."[2]'
+  sources:
+    raw: '[1] {qep''a'' 18 (2011):src}, [2] {paq''batlh 2ed p.164-165:src}'
+    citations:
+    - source: qepa_2011
+      date: '2011'
+    - source: paqbatlh
+      page_start: 164
+      page_end: 165
+  translations:
+    de:
+      definition: Funken sprühen
+    fa:
+      definition: جرقه، سیلیکون [AUTOTRANSLATED]
+    sv:
+      definition: gnistra, avge gnistor
+    ru:
+      definition: искриться, искрить, давать искры, вспыхивать
+      examples: '
+
+        ▶ {pan qeylIS betleH ''ej jach molor ''etlh HoS:sen:nolink} "Батлет Кейлеса
+        искрится, и ревет могучий меч Молора."[2]'
+    zh_HK:
+      definition: 火花、發出火花 [AUTOTRANSLATED]
+    pt:
+      definition: faísca, emitir faíscas
+    fi:
+      definition: kipinöidä
+    fr:
+      definition: étincelle, émettre des étincelles [AUTOTRANSLATED]
+  _original_id: 12728
+  _original_file: mem-11-p.xml
+- entry_name: pan
+  slug: pan_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: solve
+  notes: This means to determine the solution to a {ngajrun:n}, {poymar:n}, {Qay'mol:n},
+    or so on. A slang way to say this is {SIHHa'moH:v}.
+  hidden_notes: A solution may come from a "spark" ({pan:v:1}) of insight.
+  sources:
+    raw: '[1] {qep''a'' 27 (2020):src}'
+    citations:
+    - source: qepa_2020
+      date: '2020'
+  translations:
+    de:
+      definition: lösen
+      notes: Dies bedeutet, die Lösung für ein {ngajrun:n}, {poymar:n}, {Qay'mol:n}
+        usw. zu finden. Eine umgangssprachliche Art, dies zu sagen, ist {SIHHa'moH:v}.
+    fa:
+      definition: حل [AUTOTRANSLATED]
+    sv:
+      definition: lösa [AUTOTRANSLATED]
+    ru:
+      definition: решить [AUTOTRANSLATED]
+    zh_HK:
+      definition: 解決 [AUTOTRANSLATED]
+    pt:
+      definition: resolver, solucionar
+    fi:
+      definition: ratkaista
+    fr:
+      definition: résoudre [AUTOTRANSLATED]
+  _original_id: 12729
+  _original_file: mem-11-p.xml

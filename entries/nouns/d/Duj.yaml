@@ -1,0 +1,125 @@
+entries:
+- entry_name: Duj
+  slug: Duj_n_1
+  part_of_speech: n:1,klcp1
+  pos: n
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: ship, vessel
+    parts:
+    - text: ship
+    - text: vessel
+  see_also: '{''ejDo'':n}, {Som:n}, {HanDogh:n}, {botjan:n}, {chIj:v}, {vergh:v},
+    {vergh:n}, {DoylI'':n}'
+  notes: 'This word can refer to any vehicle, not just spaceships, by specifying the
+    environment in which the vehicle travels. See {puH Duj:n}, {muD Duj:n}, {bIQ Duj:n}.
+
+
+    Some special terminology is used for the parts of a {Duj:n:1h,nolink}. The section
+    towards its {tlhop:n:1h} is called its {''et:n:2h}, while the section towards
+    its {''em:n} is called its {''o'':n}. To refer to a ship''s dorsal, ventral, port,
+    and starboard areas, see {Dung:n}, {bIng:n}, {poS:n}, and {nIH:n}, respectively.
+
+
+    For verbs related to ship movement, see under {''or:v}.
+
+
+    Known classes of Klingon ships include {neghvar:n}, {vorcha'':n}, {qItI''nga'':n},
+    {qISa''ruj:n}, and {toQDuj:n}.'
+  examples: '
+
+    ▶ {HIvmeH Duj So''lu''.:sen}
+
+    ▶ {vaj Duj chIj:sen:idiom}'
+  search_tags: vehicle, craft, boat, barge, spaceship, starship
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: Schiff, Fahrzeug
+      search_tags: Raumschiff
+    fa:
+      definition: کشتی، سفینه، وسیله نقلیه
+    sv:
+      definition: skepp, farkost
+    ru:
+      definition: корабль, судно
+      notes: 'Слово может относиться к любому транспортному средству, необязательно
+        к космическим кораблям, определением среды, в котором судно будет перемещаться.
+        Смотрите {puH Duj:n}, {muD Duj:n}, {bIQ Duj:n}.
+
+
+        Для глаголов, относящихся к движению корабля, смотрите {''or:v}.
+
+
+        Известные классы Клингонских кораблей включают {neghvar:n}, {vorcha'':n},
+        {qItI''nga'':n}, {qISa''ruj:n}, и {toQDuj:n}.'
+    zh_HK:
+      definition: 船輛、車輛、星艦
+    pt:
+      definition: navio, embarcação
+    fi:
+      definition: alus, ajoneuvo
+      search_tags: avaruusalus, laiva, vene, kulkuväline
+    fr:
+      definition: navire, vaisseau [AUTOTRANSLATED]
+  _original_id: 10803
+  _original_file: mem-03-D.xml
+- entry_name: Duj
+  slug: Duj_n_2
+  part_of_speech: n:2,inhpl,inhps
+  pos: n
+  pos_subtype: inhpl
+  homophone: 2
+  categories:
+  - inhps
+  status: canonical
+  section: main
+  definition:
+    text: instinct, instincts
+    parts:
+    - text: instinct
+    - text: instincts
+    dedup: true
+  see_also: '{vaj Duj:n}, {re''lIng:n}'
+  notes: It is grammatically correct to treat this word as singular (a bundle of instincts)
+    or plural (individual instincts).[2, p.27]
+  examples: '
+
+    ▶ {Duj tIvoqtaH.:sen}
+
+    ▶ {DujlIj yIvoq.:sen}
+
+    ▶ {vaj Duj chIj:sen:idiom}'
+  sources:
+    raw: '[1] {TKD:src}, [2] {TKW:src}'
+    citations:
+    - source: tkd
+    - source: tkw
+  translations:
+    de:
+      definition: Instinkte
+    fa:
+      definition: غریزه، غریزه [AUTOTRANSLATED]
+    sv:
+      definition: instinkter
+    ru:
+      definition: инстинкт, инстинкты
+      notes: Грамматически корректно рассматривать это слово в единственном числе(набор
+        инстинктов) или во множественном (индивидуальные инстинкты)
+    zh_HK:
+      definition: 本能
+    pt:
+      definition: instinto, instintos
+    fi:
+      definition: vaistot
+    fr:
+      definition: instinct, instinct [AUTOTRANSLATED]
+  _original_id: 10804
+  _original_file: mem-03-D.xml

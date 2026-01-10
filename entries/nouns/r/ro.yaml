@@ -1,0 +1,44 @@
+entry:
+  entry_name: ro
+  slug: ro_n
+  part_of_speech: n:body
+  pos: n
+  pos_subtype: body
+  status: canonical
+  section: main
+  definition:
+    text: trunk (of body), torso
+    parts:
+    - text: trunk (of body)
+    - text: torso
+  see_also: '{porgh:n}, {logh''ob:n:1}, {chor:n:1}, {Dub:n}, {joQ:n:1}, {DeS:n:1},
+    {''uS:n}, {volchaH:n}, {mong:n}, {nach:n}, {tIq:n}'
+  notes: Do not confuse this with {ro':n}.
+  hidden_notes: This is defined as "trunk (of body)" in {TKD:src} and glossed as "torso"
+    in the text of {KGT:src}.
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT p.195:src}'
+    citations:
+    - source: tkd
+    - source: kgt
+      page_start: 195
+  translations:
+    de:
+      definition: Rumpf (des Körpers), Oberkörper
+    fa:
+      definition: تنه (بدن)، لگن [AUTOTRANSLATED]
+    sv:
+      definition: bål (kroppsdel)
+    ru:
+      definition: торс, туловище
+      notes: Не путать с {ro':n}.
+    zh_HK:
+      definition: 軀幹（身體）、軀幹 [AUTOTRANSLATED]
+    pt:
+      definition: tronco (do corpo), torso
+    fi:
+      definition: ylävartalo, torso
+    fr:
+      definition: tronc (du corps), torse [AUTOTRANSLATED]
+  _original_id: 13765
+  _original_file: mem-14-r.xml

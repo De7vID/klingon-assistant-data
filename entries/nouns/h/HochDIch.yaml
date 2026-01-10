@@ -1,0 +1,52 @@
+entry:
+  entry_name: HochDIch
+  slug: HochDIch_n
+  part_of_speech: n:num,deriv
+  pos: n
+  pos_subtype: num
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: end, last item in a list
+    parts:
+    - text: end
+    - text: last item in a list
+  antonyms: '{wa''DIch:n}'
+  see_also: '{paghDIch:n}, {Qav:v}'
+  notes: 'This is an intentionally ungrammatical word.
+
+
+    The first item in a list of words (for example) would be {mu'' wa''DIch:n@@mu'':n,
+    wa''DIch:n}, while one could say {mu'' HochDIch:n@@mu'':n, HochDIch:n} for the
+    last word in the list, or use a special term for the end of a list, {natlIS:n}.[2]'
+  components: '{Hoch:n}, {-DIch:n:num,suff}'
+  sources:
+    raw: '[1] {KGT p.177:src}, [2] {HQ 12.2, Jun. 2003:src}'
+    citations:
+    - source: kgt
+      page_start: 177
+    - source: holqed
+      volume: 12
+      issue: 2
+      date: Jun. 2003
+  translations:
+    de:
+      definition: letzter
+    fa:
+      definition: پایان، آخرین مورد در یک لیست [AUTOTRANSLATED]
+    sv:
+      definition: allte, slutgiltiga, sista
+    ru:
+      definition: конец, окончание, завершение, граница, последний пункт списка
+    zh_HK:
+      definition: 結束、列表中的最後一項 [AUTOTRANSLATED]
+    pt:
+      definition: final, último item de uma lista
+    fi:
+      definition: luettelon viimeinen kohta
+    fr:
+      definition: fin, dernier élément d'une liste [AUTOTRANSLATED]
+  _original_id: 11259
+  _original_file: mem-05-H.xml

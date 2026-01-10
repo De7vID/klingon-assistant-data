@@ -1,0 +1,55 @@
+entry:
+  entry_name: muj
+  slug: muj_v
+  part_of_speech: v:is,klcp1
+  pos: v
+  pos_subtype: is
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: be wrong, be incorrect, be factually wrong
+    parts:
+    - text: be wrong
+    - text: be incorrect
+    - text: be factually wrong
+  antonyms: '{lugh:v}'
+  see_also: '{Qagh:v}, {bIQ ngaS HIvje''.:sen}'
+  notes: Note that this means "be incorrect, factually wrong", as opposed to {waS:v}
+    "be amiss, awry".[2] When referring to behaviour, {lughbe':sen@@lugh:v, -be':v}
+    is more common than {muj:v:nolink}.[3]
+  hidden_notes: This is missing from the E-K side of {TKD:src}, and is defined only
+    as "be wrong" in the K-E side.
+  search_tags: incorrect
+  sources:
+    raw: '[1] {TKD:src}, [2] {Saarbrücken qepHom''a'' 2016:src}, [3] {Saarbrücken
+      qepHom''a'' 2023:src}'
+    citations:
+    - source: tkd
+    - source: qephom_2016
+      date: '2016'
+    - source: qephom_2023
+      date: '2023'
+  translations:
+    de:
+      definition: inkorrekt sein, falsch sein, sachlich/faktisch falsch sein
+    fa:
+      definition: اشتباه
+    sv:
+      definition: ha fel, vara fel
+    ru:
+      definition: быть неверным, быть некорректным, быть неправильным
+      notes: Заметьте, что это значит "быть неверным, фактически неправильным", в
+        отличии от {waS:v} "что-то не так, идти наперекосяк".
+    zh_HK:
+      definition: 錯
+    pt:
+      definition: ser errado
+    fi:
+      definition: olla väärässä (faktuaalisesti tai moraalisesti)
+      search_tags: epätosi, väärin
+    fr:
+      definition: avoir tort, avoir tort, avoir tort sur les faits [AUTOTRANSLATED]
+  _original_id: 12216
+  _original_file: mem-08-m.xml

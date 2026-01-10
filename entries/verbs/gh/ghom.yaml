@@ -1,0 +1,62 @@
+entry:
+  entry_name: ghom
+  slug: ghom_v
+  part_of_speech: v:ambi,klcp1
+  pos: v
+  pos_subtype: ambi
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: meet, encounter, assemble, rendezvous
+    parts:
+    - text: meet
+    - text: encounter
+    - text: assemble
+    - text: rendezvous
+  antonyms: '{ghomHa'':v}'
+  see_also: '{neqjung:n}, {qIH:v}, {pIH:v:1}, {ghom:n}, {vaS:n}, {tlhop:n:2}'
+  notes: This verb can be used with or without an object. If there is an object, then
+    the subject is meeting the object. If there is no object, then the subjects are
+    assembling or meeting each other.[2]
+  examples: '
+
+    ▶ {bInajtaHvIS qeylIS Daghomjaj.:sen}
+
+    ▶ {rut yIHmey ghom Hoch.:sen}
+
+    ▶ {tachDaq maghom.:sen}'
+  search_tags: rendez-vous
+  sources:
+    raw: '[1] {TKD:src}, [2] {HQ 7.4, p.11, Dec. 1998:src}'
+    citations:
+    - source: tkd
+    - source: holqed
+      page_start: 11
+      volume: 7
+      issue: 4
+      date: Dec. 1998
+  translations:
+    de:
+      definition: treffen, begegnen
+    fa:
+      definition: ملاقات، برخورد، ملاقات، ملاقات [AUTOTRANSLATED]
+    sv:
+      definition: möta, träffa, samlas, stöta på
+    ru:
+      definition: встречать, сталкиваться, встретиться неожиданно, собираться
+      notes: Этот глагол может использоваться как с глаголом, так и без него. Если
+        есть объект, тогда субъект встречает объект. Если нет объекта, тогда субъекты
+        собираются или встречаются друг с другом.[2]
+      search_tags: рандеву
+    zh_HK:
+      definition: 相遇、相遇、聚會、約會 [AUTOTRANSLATED]
+    pt:
+      definition: reunir, encontrar
+    fi:
+      definition: tavata, kohdata, kokoontua
+    fr:
+      definition: rencontrer, rencontrer, assembler, rendez-vous [AUTOTRANSLATED]
+  _original_id: 11015
+  _original_file: mem-04-gh.xml

@@ -1,0 +1,138 @@
+entries:
+- entry_name: pu'
+  slug: pu'_n_1
+  part_of_speech: n:1,fic,weap
+  pos: n
+  homophone: 1
+  categories:
+  - weap
+  metadata_tags:
+  - fic
+  status: canonical
+  section: main
+  definition: phaser
+  see_also: '{DaSpu'':n}'
+  notes: 'This word is descended from the archaic word for "spike" ({pu'':n:2}).
+
+
+    The Klingon equivalent to a phaser is a {nISwI'':n}.'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: Phaser
+    fa:
+      definition: فاز [AUTOTRANSLATED]
+    sv:
+      definition: phaser
+    ru:
+      definition: Фазер
+      notes: 'Слово унаследовано от архаичного слова для обозначения "шипа" ({pu'':n:2}).
+
+
+        Клингонский эквивалент фазера будет {nISwI'':n}.'
+    zh_HK:
+      definition: 移相器 [AUTOTRANSLATED]
+    pt:
+      definition: faser
+    fi:
+      definition: eräs ampuma-ase, vaiheinen
+    fr:
+      definition: phaseur [AUTOTRANSLATED]
+  _original_id: 12996
+  _original_file: mem-11-p.xml
+- entry_name: pu'
+  slug: pu'_n_2
+  part_of_speech: n:2
+  pos: n
+  homophone: 2
+  status: canonical
+  section: main
+  definition:
+    text: spike, boot spike
+    parts:
+    - text: spike
+    - text: boot spike
+  see_also: '{DaSpu'':n}, {DuQwI'':n}, {pu'':n:1}'
+  notes: 'In modern Klingon, the spike on the toe of a boot is always called a {DaSpu'':n},
+    never just {pu'':n:2,nolink} alone.[1]
+
+
+    This word takes the plural suffix {-mey:n}, unlike when {pu'':n:3} refers to a
+    horn (animal body part).[2]'
+  sources:
+    raw: '[1] {KGT p.58:src}, [2] {KLI mailing list 2018.08.31:src}'
+    citations:
+    - source: kgt
+      page_start: 58
+    - source: kli_mailing_list
+      date: '2018-08-31'
+  translations:
+    de:
+      definition: Stiefelspitze
+    fa:
+      definition: سنبله، سنبله بوت [AUTOTRANSLATED]
+    sv:
+      definition: stövelspik, kängspik, tåspik
+    ru:
+      definition: шип, шип ботинка
+      notes: 'В современном Клингонском языке шип на носке ботинка всегда называется
+        {DaSpu'':n}, ни разу не {pu'':n:2,nolink}.[1]
+
+
+        Слово принимает суффикс множественного числа {-mey:n}, в противовес {pu'':n:3},
+        который относится к рогу животного.[2]'
+    zh_HK:
+      definition: 穗、靴子穗 [AUTOTRANSLATED]
+    pt:
+      definition: ponta da bota
+    fi:
+      definition: saappaan sarvi tai piikki
+    fr:
+      definition: pointe, pointe de botte [AUTOTRANSLATED]
+  _original_id: 12997
+  _original_file: mem-11-p.xml
+- entry_name: pu'
+  slug: pu'_n_3
+  part_of_speech: n:3,body
+  pos: n
+  pos_subtype: body
+  homophone: 3
+  status: canonical
+  section: main
+  definition: horn
+  notes: This refers to the horn of an animal. When it's necessary to distinguish
+    this from a spike (such as on a boot, see {pu':n:2}), one can say {Ha'DIbaH pu':n@@Ha'DIbaH:n:1,
+    pu':n:3} or {DI'raq loD pu':n@@DI'raq:n, loD:n, pu':n:3} and so on. It takes the
+    plural suffix {-Du':n}.
+  sources:
+    raw: '[1] {KLI mailing list 2018.08.31:src}, [2] {The Little Prince:src}'
+    citations:
+    - source: kli_mailing_list
+      date: '2018-08-31'
+    - source: the_little_prince
+  translations:
+    de:
+      definition: Horn
+    fa:
+      definition: شاخ
+    sv:
+      definition: horn [AUTOTRANSLATED]
+    ru:
+      definition: рог (часть тела)
+      notes: Относится к рогу животного. Когда необходимо выделить шип (например на
+        ботинке, смотрите {pu':n:2}), кто-то может сказать {Ha'DIbaH pu':n@@Ha'DIbaH:n:1,
+        pu':n:3} или {DI'raq loD pu':n@@DI'raq:n, loD:n, pu':n:3} и так далее. Принимает
+        суффикс для обозначения множественного числа для частей тела {-Du':n}.
+    zh_HK:
+      definition: 角（牛角）
+    pt:
+      definition: chifre
+    fi:
+      definition: sarvi
+    fr:
+      definition: corne [AUTOTRANSLATED]
+  _original_id: 12998
+  _original_file: mem-11-p.xml

@@ -1,0 +1,52 @@
+entry:
+  entry_name: wIj jup
+  slug: wIj_jup_sen
+  part_of_speech: sen:phr
+  pos: sen
+  pos_subtype: phr
+  status: canonical
+  section: main
+  definition: '"friend mine"'
+  see_also: '{jup:n}, {-wI'':n}, {-wIj:n}'
+  notes: This is an expression used between close friends in the higher social classes.
+    It should be avoided if possible, unless one's social standing is absolutely clear.
+  hidden_notes: The real reason {wIj jup:sen:nolink} has this meaning is because some
+    Star Trek writer looked up "my" and "friend" in {TKD:src}, found {-wIj:n} and
+    {jup:n}, and attached them to each other without any regard for grammar or correctness.
+    In standard Klingon, "my friend" (assuming said friend is a being capable of language)
+    is {jupwI':n:nolink} (from {jup:n} and {-wI':n}).
+  components: '{-wIj:n}, {jup:n}'
+  search_tags: friend mine, my friend
+  sources:
+    raw: '[1] {KGT p.40:src}, [2] {DS9 - Blood Oath:src}'
+    citations:
+    - source: kgt
+      page_start: 40
+    - source: ds9_blood_oath
+  translations:
+    de:
+      definition: '"Freund mein"'
+      notes: Dies ist ein Ausdruck, der zwischen nahen Freunden in den oberen sozialen
+        Schichten benutzt wird. Er sollte wenn möglich vermieden werden, außer wenn
+        die eigene soziale Stellung vollständig klar ist.
+      search_tags: mein Freund
+    fa:
+      definition: '"دوست من" [AUTOTRANSLATED]'
+    sv:
+      definition: '"vän min" [AUTOTRANSLATED]'
+    ru:
+      definition: '"мой друг" [AUTOTRANSLATED]'
+    zh_HK:
+      definition: 「我的朋友」 [AUTOTRANSLATED]
+    pt:
+      definition: '"amigo meu"'
+    fi:
+      definition: '"ni ystävä minun"'
+    fr:
+      definition: '"ami mon"'
+      notes: Ceci est un terme qui s'utilise entre amis proches dans les hautes classes
+        sociales. Il devrait être évité si possible, sauf si le propre statut social
+        est absolument clair.
+      search_tags: mon ami
+  _original_id: 14993
+  _original_file: mem-19-w.xml

@@ -1,0 +1,54 @@
+entry:
+  entry_name: teH
+  slug: teH_v
+  part_of_speech: v:is,klcp1
+  pos: v
+  pos_subtype: is
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition: be true
+  see_also: '{ngeb:v}, {''ol:v}, {vIt:v}, {vIt:n}, {lugh:v}, {qar:v}'
+  hidden_notes: The computer programming control flow concepts "if" and "while" were
+    translated as {teHchugh:sen:nolink} and {teHtaHvIS:sen:nolink}, respectively,
+    in Klingon Blockly. Setting a boolean variable to "true" was translated as {teHmoH:sen:nolink},
+    while setting one to "false" was translated as {teHbe'moH:sen:nolink}.[4]
+  examples: "\n▶ {parmaq choH pagh teHqu', choH tu'DI' lajDaj.:sen:nolink} \"Love\
+    \ is not love which alters when it alteration finds\" (from Shakespeare's Sonnet\
+    \ 116)[2]\n▶ {naDev Sughompu':sen:nolink}\n   {'ej Qo'noS SuvwI'pu' Hem tlhIH:sen:nolink}\n\
+    \   {qeylIS tIghmey'e':sen:nolink}\n  \"Hear now,\n   All of you here,\n   Proud\
+    \ warriors of Kronos\"\n  {DaH tIQoy:sen:nolink}\n   {teH tIghmey:sen:nolink}\n\
+    \   {'ej bIH bolIjlaHbe':sen:nolink}\n  \"The ways of Kahless,\n   For they are\
+    \ true\n   And unforgettable.\"[3]"
+  sources:
+    raw: '[1] {TKD:src}, [2] {KLI mailing list 2012.03.19:src}, [3] {paq''batlh 2ed
+      p.64-65:src}, [4] {KLI mailing list 2014.11.26:src}'
+    citations:
+    - source: tkd
+    - source: kli_mailing_list
+      date: '2012-03-19'
+    - source: paqbatlh
+      page_start: 64
+      page_end: 65
+    - source: kli_mailing_list
+      date: '2014-11-26'
+  translations:
+    de:
+      definition: wahr sein
+    fa:
+      definition: درست باشد [AUTOTRANSLATED]
+    sv:
+      definition: vara sann, vara äkta
+    ru:
+      definition: быть верным
+    zh_HK:
+      definition: 是真實的 [AUTOTRANSLATED]
+    pt:
+      definition: ser verdadeiro
+    fi:
+      definition: olla tosi, olla totta
+    fr:
+      definition: être vrai
+  _original_id: 14281
+  _original_file: mem-16-t.xml

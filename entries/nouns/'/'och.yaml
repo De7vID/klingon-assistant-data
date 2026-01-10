@@ -1,0 +1,46 @@
+entry:
+  entry_name: '''och'
+  slug: '''och_n'
+  part_of_speech: n
+  pos: n
+  status: canonical
+  section: main
+  definition:
+    text: tunnel, conduit
+    parts:
+    - text: tunnel
+    - text: conduit
+  see_also: '{chob:n}, {vegh:v}, {DIn:n}, {qa''rI'':n}, {qatlhDa'':n}, {qung:n}, {ghImwI'':n}'
+  hidden_notes: This was defined as just "tunnel" in {TKD:src}. The "conduit" definition
+    comes from the {BoP:src} poster.
+  examples: '
+
+    ▶ {HoS QaymeH ''och:n}
+
+    ▶ {nuH HoS ''och:n}'
+  search_tags: pipe
+  sources:
+    raw: '[1] {TKD:src}, [2] {BoP:src}'
+    citations:
+    - source: tkd
+    - source: bop
+  translations:
+    de:
+      definition: Tunnel
+    fa:
+      definition: تونل، کانال [AUTOTRANSLATED]
+    sv:
+      definition: tunnel, ledning, rör
+    ru:
+      definition: тоннель, трубопровод
+    zh_HK:
+      definition: 隧道、管路
+    pt:
+      definition: túnel, conduto
+    fi:
+      definition: tunneli, putki, kaapeli
+      search_tags: johto
+    fr:
+      definition: tunnel, conduit, tuyau
+  _original_id: 15538
+  _original_file: mem-24-o.xml

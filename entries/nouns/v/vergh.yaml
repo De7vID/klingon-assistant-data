@@ -1,0 +1,43 @@
+entry:
+  entry_name: vergh
+  slug: vergh_n
+  part_of_speech: n
+  pos: n
+  status: canonical
+  section: main
+  definition:
+    text: dock, port (seaport, airport, spaceport)
+    parts:
+    - text: dock
+    - text: port
+    global_parenthetical: seaport, airport, spaceport
+  see_also: '{vergh:v}, {''otHel:n}'
+  notes: This refers to a place with a structure to attach a vessel to, like a pier.[2]
+  hidden_notes: This was defined only as "dock" in {TKD:src}. The definition was expanded
+    at {qep'a' 25 (2018):src}.
+  search_tags: parking
+  sources:
+    raw: '[1] {TKD:src}, [2] {qep''a'' 25 (2018):src}'
+    citations:
+    - source: tkd
+    - source: qepa_2018
+      date: '2018'
+  translations:
+    de:
+      definition: Dock, Hafen (Seehafen, Flughafen, Raumhafen)
+    fa:
+      definition: اسکله، بندر (بندر، فرودگاه، فضاپورت) [AUTOTRANSLATED]
+    sv:
+      definition: docka (för skepp)
+    ru:
+      definition: док
+    zh_HK:
+      definition: 碼頭、停車場、機場
+    pt:
+      definition: doca, porto (porto, aeroporto, porto espacial)
+    fi:
+      definition: satama, telakka (merisatama, lentokenttä, avaruussatama jne.)
+    fr:
+      definition: quai, port (port maritime, aéroport, port spatial) [AUTOTRANSLATED]
+  _original_id: 14763
+  _original_file: mem-18-v.xml

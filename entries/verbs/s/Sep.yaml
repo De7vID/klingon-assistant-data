@@ -1,0 +1,81 @@
+entries:
+- entry_name: Sep
+  slug: Sep_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition: breed
+  see_also: '{ngagh:v}, {nga''chuq:v}'
+  notes: Klingons breed some small animals for food.[2]
+  hidden_notes: '"Shep"herds breed sheep.'
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT p.89:src}'
+    citations:
+    - source: tkd
+    - source: kgt
+      page_start: 89
+  translations:
+    de:
+      definition: züchten
+    fa:
+      definition: نژاد [AUTOTRANSLATED]
+    sv:
+      definition: föda upp, odla
+    ru:
+      definition: разводить [AUTOTRANSLATED]
+    zh_HK:
+      definition: 品種 [AUTOTRANSLATED]
+    pt:
+      definition: procriar
+    fi:
+      definition: kasvattaa (eläimiä), teettää poikasia tai pentuja
+    fr:
+      definition: élever, produire
+  _original_id: 13952
+  _original_file: mem-15-S.xml
+- entry_name: Sep
+  slug: Sep_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: exponentiate
+  antonyms: '{SepHa'':v}'
+  see_also: '{qovDa'':n}'
+  notes: This is an extension of {Sep:v:1} to mathematics.
+  hidden_notes: This word was not given an English definition, but in the definition
+    of {qovDa':n:nolink} it was explained that "the idea of raising a number to the
+    power of something is generally expressed by" using this verb.
+  examples: '
+
+    ▶ {wejlogh Sep''egh cha''; chen chorgh:sen:nolink} 2**3 = 8[1]'
+  sources:
+    raw: '[1] {qep''a'' 28 (2021):src}'
+    citations:
+    - source: qepa_2021
+      date: '2021'
+  translations:
+    de:
+      definition: potenzieren
+      notes: Dies ist eine Erweiterung von {Sep:v:1} im Bereich der Mathematik.
+    fa:
+      definition: نماینده [AUTOTRANSLATED]
+    sv:
+      definition: exponent [AUTOTRANSLATED]
+    ru:
+      definition: экспонента [AUTOTRANSLATED]
+    zh_HK:
+      definition: 指數 [AUTOTRANSLATED]
+    pt:
+      definition: expoente
+    fi:
+      definition: korottaa potenssiin
+    fr:
+      definition: élever à une puissance
+  _original_id: 13953
+  _original_file: mem-15-S.xml

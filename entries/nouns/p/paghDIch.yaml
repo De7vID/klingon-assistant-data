@@ -1,0 +1,43 @@
+entry:
+  entry_name: paghDIch
+  slug: paghDIch_n
+  part_of_speech: n:num,deriv
+  pos: n
+  pos_subtype: num
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition: zeroth
+  see_also: '{wa''DIch:n}, {HochDIch:n}'
+  notes: This intentionally ungrammatical word is used to describe something that
+    was expected to occur, or could conceivably occur, but has not.
+  components: '{pagh:n:2,num}, {-DIch:n:num,suff}'
+  examples: '
+
+    ▶ {pawpu'' ''avwI'' paghDIch:sen:nolink} "the zeroth guard has arrived" (no guard
+    has arrived even though one or more are expected)'
+  sources:
+    raw: '[1] {KGT p.177:src}'
+    citations:
+    - source: kgt
+      page_start: 177
+  translations:
+    de:
+      definition: nullte
+    fa:
+      definition: زرد [AUTOTRANSLATED]
+    sv:
+      definition: nollte (om något som inte har hänt)
+    ru:
+      definition: нулевое [AUTOTRANSLATED]
+    zh_HK:
+      definition: 零 [AUTOTRANSLATED]
+    pt:
+      definition: nulo
+    fi:
+      definition: '"nollas", "ei mikäännes" (jokin joka ei ole)'
+    fr:
+      definition: zéro [AUTOTRANSLATED]
+  _original_id: 12720
+  _original_file: mem-11-p.xml

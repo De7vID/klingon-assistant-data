@@ -1,0 +1,47 @@
+entry:
+  entry_name: pabHa'
+  slug: pabHa'_v
+  part_of_speech: v:t_c,deriv
+  pos: v
+  pos_subtype: t_c
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: misfollow [the rules], follow [the rules] wrongly
+    parts:
+    - text: misfollow [the rules]
+    - text: follow [the rules] wrongly
+  antonyms: '{pab:v}'
+  notes: This describes an obviously deliberate slight bending of grammatical rules,
+    a common way to construct {mu'mey ru':n}.
+  hidden_notes: The square brackets in the definition are as they appear on {KGT p.176:src}.
+  components: '{pab:v}, {-Ha'':v}'
+  sources:
+    raw: '[1] {KGT p.176:src}'
+    citations:
+    - source: kgt
+      page_start: 176
+  translations:
+    de:
+      definition: '[Regeln] brechen, falsch [Regeln] befolgen'
+    fa:
+      definition: اشتباه [قوانین]، [قوانین] را به اشتباه دنبال کردن [AUTOTRANSLATED]
+    sv:
+      definition: felanvända (regler), följa (regler) felaktigt
+    ru:
+      definition: не следовать правилам, не соблюдать правила, соблюдать правила неверно,
+        следовать правилам неверно
+      notes: Описывает явно преднамеренный, слегка извилистый, общий способ конструирования
+        {mu'mey ru':n}.
+    zh_HK:
+      definition: 誤入歧途[規則]、錯誤地遵循[規則] [AUTOTRANSLATED]
+    pt:
+      definition: deixar de seguir (as regras), seguir (as regras) incorretamente
+    fi:
+      definition: rikkoa (sääntöjä), noudattaa (sääntöjä) väärin
+    fr:
+      definition: suivre mal [les règles], suivre [les règles] à tort [AUTOTRANSLATED]
+  _original_id: 12713
+  _original_file: mem-11-p.xml

@@ -1,0 +1,65 @@
+entry:
+  entry_name: Hop
+  slug: Hop_v
+  part_of_speech: v:is,klcp1
+  pos: v
+  pos_subtype: is
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: be remote, be far
+    parts:
+    - text: be remote
+    - text: be far
+  antonyms: '{Sum:v}'
+  see_also: '{DoH:v}, {chuq:n}'
+  notes: 'This verb is used in the same way as {Sum:v} (it involves the concept of
+    deixis).[2]
+
+
+    In Klingon, "deep space" is called {logh Hop:n}, literally, "far space".[3]'
+  hidden_notes: It's just a "hop" away.
+  sources:
+    raw: '[1] {TKD:src}, [2] {HQ 7.4, p.9-10, Dec. 1998:src}, [3] {SkyBox 99:src}
+      (reprinted in {HQ 3.2, p.9, Jun. 1994:src})'
+    citations:
+    - source: tkd
+    - source: holqed
+      page_start: 9
+      page_end: 10
+      volume: 7
+      issue: 4
+      date: Dec. 1998
+    - source: skybox_99
+      reprinted_in:
+        source: holqed
+        page_start: 9
+        volume: 3
+        issue: 2
+        date: Jun. 1994
+  translations:
+    de:
+      definition: weit weg sein, entfernt sein
+    fa:
+      definition: دور، دور [AUTOTRANSLATED]
+    sv:
+      definition: vara avlägsen, vara långt bort
+    ru:
+      definition: быть удаленным, быть далёким
+      notes: 'Этот глагол используется, так же как и {Sum:v}.[2]
+
+
+        В Клингонском, "глубокий космос" будет {logh Hop:n}, что дословно значит,
+        "дальний космос".[3]'
+    zh_HK:
+      definition: 遠
+    pt:
+      definition: ser remoto, longe
+    fi:
+      definition: olla kaukainen, olla kaukana
+    fr:
+      definition: être éloigné, être loin
+  _original_id: 11292
+  _original_file: mem-05-H.xml

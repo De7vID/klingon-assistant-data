@@ -1,0 +1,44 @@
+entry:
+  entry_name: '''ejDo'''
+  slug: '''ejDo''_n'
+  part_of_speech: n
+  pos: n
+  status: canonical
+  section: main
+  definition:
+    text: starship, starship class
+    parts:
+    - text: starship
+    - text: starship class
+    dedup: true
+  notes: It's likely that {Do':n:2,archaic,hyp} is an archaic word for the modern
+    {Duj:n:1}.[1, p.20]
+  components: '{''ej:n:hyp}, {Do'':n:2,archaic,hyp}'
+  search_tags: spaceship
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: Raumschiff, Raumschiffklasse
+      notes: Es ist wahrscheinlich, dass {Do':n:2,archaic,hyp} ein archaisches Wort
+        für das moderne {Duj:n:1} ist.[1, p.20]
+    fa:
+      definition: فضاپیمای، کلاس فضانورد [AUTOTRANSLATED]
+    sv:
+      definition: stjärnskepp, stjärnskeppsklass
+    ru:
+      definition: звездолет
+    zh_HK:
+      definition: 星艦、星艦級
+    pt:
+      definition: nave estelar
+    fi:
+      definition: tähtilaiva, tähtilaivaluokka
+    fr:
+      definition: vaisseau spatial, classe de vaisseau spatial
+      notes: Il est probable, que {Do':n:2,archaic,hyp} est un mot archaïque pour
+        le mot moderne {Duj:n:1}.[1, p.20]
+  _original_id: 15389
+  _original_file: mem-22-e.xml

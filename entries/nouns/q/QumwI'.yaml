@@ -1,0 +1,53 @@
+entry:
+  entry_name: QumwI'
+  slug: QumwI'_n
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: communicator, communications device
+    parts:
+    - text: communicator
+    - text: communications device
+    dedup: true
+  components: '{Qum:v}, {-wI'':v}'
+  examples: "\n▶ {labmeH 'evnagh Se' lo' tlhIngan QumwI'. janmey ngo' lulo'lu'DI'\
+    \ pIj jabbI'ID nISpu' woj.:sen:nolink}\n  \"A Klingon communicator sends a signal\
+    \ through subspace radio. Older models were susceptible to radiation.\"[2]"
+  sources:
+    raw: '[1] {TKD:src}, [2] {SkyBox S19:src} (reprinted in {HQ 5.2, p.14, Jun. 1996:src})'
+    citations:
+    - source: tkd
+    - source: skybox_s19
+      reprinted_in:
+        source: holqed
+        page_start: 14
+        volume: 5
+        issue: 2
+        date: Jun. 1996
+  translations:
+    de:
+      definition: Kommunikator, Kommunikationsgerät
+    fa:
+      definition: ارتباط دهنده، دستگاه ارتباطی [AUTOTRANSLATED]
+    sv:
+      definition: kommunikator, kommunikationsapparat
+    ru:
+      definition: коммуникатор, устройство связи
+      examples: "\n▶ {labmeH 'evnagh Se' lo' tlhIngan QumwI'. janmey ngo' lulo'lu'DI'\
+        \ pIj jabbI'ID nISpu' woj.:sen:nolink}\n  \"Клингонский коммуникатор посылает\
+        \ сигнал сквозь подпространство. Более старые модели восприимчивы к радиации.\"\
+        [2]"
+    zh_HK:
+      definition: 通訊器、通訊設備 [AUTOTRANSLATED]
+    pt:
+      definition: comunicador, dispositivo de comunicação
+    fi:
+      definition: kommunikaattori, viestintälaite
+    fr:
+      definition: communicateur, appareil de communication
+  _original_id: 13558
+  _original_file: mem-13-Q.xml

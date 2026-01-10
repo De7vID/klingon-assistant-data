@@ -1,0 +1,99 @@
+entries:
+- entry_name: boq
+  slug: boq_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: ally with, form an alliance with
+    parts:
+    - text: ally with
+    - text: form an alliance with
+  see_also: '{boq:n:1}'
+  notes: This word is also used in mathematics for addition (see {boq:v:2}).
+  sources:
+    raw: '[1] {HQ 9.3, Sep. 2000:src}'
+    citations:
+    - source: holqed
+      volume: 9
+      issue: 3
+      date: Sep. 2000
+  translations:
+    de:
+      definition: sich verbünden mit, eine Allianz formen
+      notes: Diese Wort wird auch für Addition in der Mathematik benutzt (siehe {boq:v:2}).
+    fa:
+      definition: با آنها متحد شوید ، اتحاد کنید [AUTOTRANSLATED]
+    sv:
+      definition: alliera med, förena med, skapa en allians med
+    ru:
+      definition: Вступать в союз с, заключать альянс с
+    zh_HK:
+      definition: 結盟
+    pt:
+      definition: aliar com, formar uma aliança com
+    fi:
+      definition: liittoutua
+    fr:
+      definition: s'allier avec, former une alliance avec
+      notes: Ce mot s'utilise aussi pour l'addition en mathématiques (voir {boq:v:2}).
+  _original_id: 10220
+  _original_file: mem-01-b.xml
+- entry_name: boq
+  slug: boq_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: add (used in math)
+  see_also: '{boq:v:1}, {chen:v}, {chel:v}'
+  notes: 'The four basic arithmetic operations are: + {boq:v:2,nolink}, - {boqHa'':v},
+    × {boq''egh:v}, ÷ {boqHa''''egh:v}. In these operations, numbers are treated as
+    if they are grammatically singular.'
+  examples: '
+
+    ▶ {wej boq loS; chen Soch:sen:nolink} 4 + 3 = 7'
+  search_tags: plus, addition
+  sources:
+    raw: '[1] {HQ 9.3, Sep. 2000:src}'
+    citations:
+    - source: holqed
+      volume: 9
+      issue: 3
+      date: Sep. 2000
+  translations:
+    de:
+      definition: plus (in der Mathematik)
+      notes: 'Die vier Grundrechenarten sind: + {boq:v:2,nolink}, - {boqHa'':v}, ×
+        {boq''egh:v}, ÷ {boqHa''''egh:v}. Zahlen werden hier als grammatikalisch singular
+        behandelt.'
+      examples: Addition, Summe
+    fa:
+      definition: اضافه کردن (مورد استفاده در ریاضی) [AUTOTRANSLATED]
+    sv:
+      definition: addera (i matematik)
+    ru:
+      definition: добавлять(используется в математике)
+      notes: '4 базовые арифеметические операции: + {boq:v:2,nolink}, - {boqHa'':v},
+        × {boq''egh:v}, ÷ {boqHa''''egh:v}. В этих операциях числа трактуются так,
+        как если бы они были в единственном числе.'
+      search_tags: плюс, сложение
+    zh_HK:
+      definition: 加（數學）
+    pt:
+      definition: adicionar (usado em matemática)
+    fi:
+      definition: laskea yhteen
+    fr:
+      definition: plus (utilisé en mathématiques)
+      notes: 'Les quatre opérations d''arithmétique élémentaire sont: + {boq:v:2,nolink},
+        - {boqHa'':v}, × {boq''egh:v}, ÷ {boqHa''''egh:v}. Dans ces opérations, les
+        nombres sont traités comme étant grammaticalement singuliers.'
+      examples: somme, additiona
+  _original_id: 10221
+  _original_file: mem-01-b.xml

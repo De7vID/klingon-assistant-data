@@ -1,0 +1,86 @@
+entries:
+- entry_name: pIH
+  slug: pIH_v_1
+  part_of_speech: v:1,t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition: expect
+  see_also: '{qIH:v}, {ghom:v}'
+  examples: '
+
+    ▶ {pIpIH.:sen@@pI-:v, pIH:v:1} "We''re expecting you."[2]'
+  sources:
+    raw: '[1] {TKD:src}, [2] {CK:src}'
+    citations:
+    - source: tkd
+    - source: ck
+  translations:
+    de:
+      definition: erwarten
+    fa:
+      definition: انتظار [AUTOTRANSLATED]
+    sv:
+      definition: förvänta sig
+    ru:
+      definition: ожидать, рассчитывать, ждать
+      examples: '
+
+        ▶ {pIpIH.:sen@@pI-:v, pIH:v:1} "Мы ожидаем тебя."[2]'
+    zh_HK:
+      definition: 期望 [AUTOTRANSLATED]
+    pt:
+      definition: ter expectativa
+    fi:
+      definition: odottaa, olettaa
+    fr:
+      definition: attendre [AUTOTRANSLATED]
+  _original_id: 12835
+  _original_file: mem-11-p.xml
+- entry_name: pIH
+  slug: pIH_v_2
+  part_of_speech: v:2,is
+  pos: v
+  pos_subtype: is
+  homophone: 2
+  status: canonical
+  section: main
+  definition: be suspicious
+  see_also: '{nub:v}, {voqHa'':v}, {qagh Sopbe''!:sen}'
+  hidden_notes: 'It''s unclear whether this means the subject has a cautious distrust
+    of someone or something (as in "the Klingon was suspicious of others"), or if
+    the subject is causing a sense of cautious distrust (as in "a suspicious package").
+    That''s likely a deliberate joke (i.e., the definition of this word is itself
+    suspicious).
+
+
+    The homophony with {pIH:v:1} might indicate that they are the same word, and that
+    the subject is suspicious in the sense of expecting something unspecified. The
+    word {nub:v:nolink} also seems to cover the "causing suspicion" meaning.'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: misstrauisch sein
+    fa:
+      definition: مشکوک باشید [AUTOTRANSLATED]
+    sv:
+      definition: vara misstänksam
+    ru:
+      definition: быть подозрительным, быть сомнительным
+    zh_HK:
+      definition: 可疑
+    pt:
+      definition: desconfiar, ter suspeita
+    fi:
+      definition: olla epäilyttävä
+    fr:
+      definition: être méfiant [AUTOTRANSLATED]
+  _original_id: 12836
+  _original_file: mem-11-p.xml

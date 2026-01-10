@@ -1,0 +1,65 @@
+entry:
+  entry_name: '0'
+  slug: 0_v_pref
+  part_of_speech: v:pref,klcp1
+  pos: v
+  pos_subtype: pref
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: he/she/it-none, he/she/it-him/her/it, he/she/it-them, they-none, they-them
+    parts:
+    - text: he/she/it-none
+    - text: he/she/it-him/her/it
+    - text: he/she/it-them
+    - text: they-none
+    - text: they-them
+  see_also: '{lu-:v:pref}'
+  notes: 'This is the empty verb prefix. Following the notation in {TKD:src}, it is
+    denoted by {0:v:pref,nolink} here.
+
+
+    {ghaH:n}/{''oH:n}:{pagh:n:1h} = {0:v:pref,nolink}
+
+    {ghaH:n}/{''oH:n}:{ghaH:n}/{''oH:n} = {0:v:pref,nolink}
+
+    {ghaH:n}/{''oH:n}:{chaH:n}/{bIH:n} = {0:v:pref,nolink}
+
+    {chaH:n}/{bIH:n}:{pagh:n:1h} = {0:v:pref,nolink}
+
+    {chaH:n}/{bIH:n}:{chaH:n}/{bIH:n} = {0:v:pref,nolink}
+
+
+    Note that the prefix for "they-him/her/it" is {lu-:v:pref}.'
+  search_tags: he-none, she-none, it-none, he-him, he-her, he-it, she-him, she-her,
+    she-it, he-them, she-them, it-them
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: er/sie/es-kein, er/sie/es-ihn/sie/es, er/sie/es-sie (Pl.), sie (Pl.)-kein,
+        sie (Pl.)-sie (Pl.)
+    fa:
+      definition: او / او / آن-هیچ، او / او / او / او / او، او / او-آنها، آنها-هیچ،
+        آنها-آنها [AUTOTRANSLATED]
+    sv:
+      definition: han/hon/det-ingen/honom/henne/det/dem, de-ingen/dem
+    ru:
+      definition: он/она/оно-нет, он/она/оно-он/она/оно, он/она/оно-они, они-нет,
+        они-они
+    zh_HK:
+      definition: 他、它：無、他、它、他們、它們；他們、它們：無、他們、它們
+    pt:
+      definition: ele/ela-nenhum, ele/ela-ele/ela, ele/ela-eles, eles-nenhum, eles-eles
+    fi:
+      definition: hän/se-ei mitään, hän/se-häntä/sitä/heitä/niitä, he/ne-ei mitään,
+        he/ne-heitä/niitä
+    fr:
+      definition: il/elle-aucun, il/elle-lui/elle, il/elle-eux, ils-aucun, ils-eux
+        [AUTOTRANSLATED]
+  _original_id: 15688
+  _original_file: mem-26-suffixes.xml

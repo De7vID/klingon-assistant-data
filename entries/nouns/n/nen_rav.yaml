@@ -1,0 +1,39 @@
+entry:
+  entry_name: nen rav
+  slug: nen_rav_n
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: examples
+  definition: minimum age
+  hidden_notes: This is not explicitly defined, but its meaning is clear from the
+    example.
+  components: '{nen:n}, {rav:n:2}'
+  examples: '
+
+    ▶ {nen rav:sen:nolink}: {chorgh ben:sen:nolink} "Ages 8 to adult"[1]'
+  sources:
+    raw: '[1] {Klingon Monopoly:src}'
+    citations:
+    - source: klingon_monopoly
+  translations:
+    de:
+      definition: Mindestalter
+    fa:
+      definition: کمترین سن [AUTOTRANSLATED]
+    sv:
+      definition: lägsta ålder [AUTOTRANSLATED]
+    ru:
+      definition: минимальный возраст [AUTOTRANSLATED]
+    zh_HK:
+      definition: 最低年齡 [AUTOTRANSLATED]
+    pt:
+      definition: idade minima
+    fi:
+      definition: vähimmäisikä
+    fr:
+      definition: âge minimum [AUTOTRANSLATED]
+  _original_id: 16388
+  _original_file: mem-28-examples.xml

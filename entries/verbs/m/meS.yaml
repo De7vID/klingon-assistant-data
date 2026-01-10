@@ -1,0 +1,84 @@
+entries:
+- entry_name: meS
+  slug: meS_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: knot, tie a knot
+    parts:
+    - text: knot
+    - text: tie a knot
+  antonyms: '{meSHa'':v:1}'
+  see_also: '{meS:n}, {meS:v:2}, {nIq:v}, {bagh:v}'
+  hidden_notes: '"Mess" or "mesh".'
+  examples: '
+
+    ▶ {jImeS.:sen:nolink} "I make a knot."
+
+    ▶ {tlhegh vImeS.:sen:nolink} "I make a knot in the rope."'
+  sources:
+    raw: '[1] {Saarbrücken qepHom''a'' 2014:src}'
+    citations:
+    - source: qephom_2014
+      date: '2014'
+  translations:
+    de:
+      definition: knoten, verknoten
+    fa:
+      definition: گره، کراوات یک گره [AUTOTRANSLATED]
+    sv:
+      definition: knut, knyta en knut [AUTOTRANSLATED]
+    ru:
+      definition: узел, завязать узел [AUTOTRANSLATED]
+    zh_HK:
+      definition: 打結
+    pt:
+      definition: dar um nó
+    fi:
+      definition: solmia
+    fr:
+      definition: faire un nœud, faire un nœud [AUTOTRANSLATED]
+  _original_id: 12057
+  _original_file: mem-08-m.xml
+- entry_name: meS
+  slug: meS_v_2
+  part_of_speech: v:2,t_c,slang
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  categories:
+  - slang
+  status: canonical
+  section: main
+  definition: encrypt
+  synonyms: '{So'':v:2}'
+  antonyms: '{meSHa'':v:2}'
+  see_also: '{meS:v:1}'
+  sources:
+    raw: '[1] {Saarbrücken qepHom''a'' 2014:src}'
+    citations:
+    - source: qephom_2014
+      date: '2014'
+  translations:
+    de:
+      definition: verschlüsseln
+    fa:
+      definition: رمزگذاری [AUTOTRANSLATED]
+    sv:
+      definition: kryptera [AUTOTRANSLATED]
+    ru:
+      definition: шифровать [AUTOTRANSLATED]
+    zh_HK:
+      definition: 加密 [AUTOTRANSLATED]
+    pt:
+      definition: criptografar
+    fi:
+      definition: salata
+    fr:
+      definition: Crypter [AUTOTRANSLATED]
+  _original_id: 12058
+  _original_file: mem-08-m.xml

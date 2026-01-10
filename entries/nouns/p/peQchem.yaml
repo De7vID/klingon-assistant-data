@@ -1,0 +1,39 @@
+entry:
+  entry_name: peQchem
+  slug: peQchem_n
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition: magnetic field
+  see_also: '{HoSchem:n}, {pIvchem:n}, {Surchem:n}, {tlhamchem:n}'
+  hidden_notes: This is written as {peQ chem:n:nolink} (with a space) in {TKDA:src}.
+    The space has been removed for consistency with the other terms ending in {chem:n},
+    with MO's approval.
+  components: '{peQ:n}, {chem:n}'
+  search_tags: peQ chem
+  sources:
+    raw: '[1] {TKDA:src}'
+    citations:
+    - source: tkda
+  translations:
+    de:
+      definition: Magnetfeld
+    fa:
+      definition: میدان مغناطیسی [AUTOTRANSLATED]
+    sv:
+      definition: magnetfält
+    ru:
+      definition: магнитное поле
+    zh_HK:
+      definition: 磁場
+    pt:
+      definition: campo magnético
+    fi:
+      definition: magneettikenttä
+    fr:
+      definition: champ magnétique
+  _original_id: 12803
+  _original_file: mem-11-p.xml

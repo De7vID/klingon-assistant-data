@@ -76,22 +76,30 @@ The `generate_db.sh` script outputs warnings when entries matching these criteri
 - Use "Squash and merge" for large translation PRs
 - Run `review_changes.sh <lang>` before submitting PRs
 
-## E-K Dictionary Generation
+## Dictionary Generation
 
-The `build/` directory contains tools for generating English-to-Klingon dictionary entries:
+The `build/` directory contains tools for generating dictionary outputs:
 
 ```bash
-# Generate E-K dictionary from YAML entries
+# Generate E-K dictionary (Markdown/JSON)
 python3 build/ek_generator.py
+
+# Generate LaTeX dictionary (K-E and E-K sections)
+python3 build/latex_generator.py > build/dictionary.tex
 ```
 
-This produces:
+**E-K Generator** produces:
 - `build/ek_dictionary.md` - Markdown format for print dictionary
 - `build/ek_index.json` - JSON format for apps
 
+**LaTeX Generator** produces:
+- `build/dictionary.tex` - Complete K-E and E-K dictionary in LaTeX
+- Sections: base, ficnames (fictional names), loanwords, places
+
 Key files:
 - `build/definition_parser.py` - Parses definitions into structured parts
-- `build/ek_generator.py` - Generates E-K permutations
+- `build/ek_generator.py` - Generates E-K permutations (Markdown/JSON)
+- `build/latex_generator.py` - Generates LaTeX output from YAML
 
 Definition flags in YAML entries:
 - `no_permute: true` - Guard cases that should NOT be split (birds, exclamations)

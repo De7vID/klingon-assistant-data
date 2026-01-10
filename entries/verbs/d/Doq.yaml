@@ -1,0 +1,69 @@
+entry:
+  entry_name: Doq
+  slug: Doq_v
+  part_of_speech: v:is,klcp1
+  pos: v
+  pos_subtype: is
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: be orange, be red
+    parts:
+    - text: be orange
+    - text: be red
+  see_also: '{SuD:v:1}, {nguv:v}'
+  notes: This verb also covers colors which would be called "brown". To differentiate
+    a brown object from another object which could also be described using {Doq:v:nolink},
+    a phrase such as {Doq 'ej wovbe':sen@@Doq:v, 'ej:conj, wov:v, -be':v} is used.[2]
+    The word {Doqqu':v@@Doq:v, -qu':v} refers to a color more red than orange.[3]
+  hidden_notes: All natural languages found on Earth divide colours into "warm" and
+    "cool" in the same way. Klingon distinguishes between {Doq:v:nolink} and {SuD:v:1},
+    but it groups "yellow" with the "cool" colours rather than with the "warm" colours.
+  examples: '
+
+    ▶ {HIq Doqqu'':n@@HIq:n, Doq:v, -qu'':v} "red liquor"[3]
+
+    ▶ {Doq ''ej beqpuj rur:sen@@Doq:v, ''ej:conj, beqpuj:n, rur:v} (bright orange)[3]
+
+    ▶ {Doq ''ej wovbe'':sen@@Doq:v, ''ej:conj, wov:v, -be'':v} "brown"[2; 4]
+
+    ▶ {Doqqu'' ''ej wov:sen@@Doq:v, -qu'':v, ''ej:conj, wov:v} or {Doqqu'' ''ach wov:sen@@Doq:v,
+    -qu'':v, ''ach:conj, wov:v} "pink"[4]'
+  search_tags: brown, pink
+  sources:
+    raw: '[1] {TKD:src}, [2] {s.k 1998.02.21:src} (reprinted in {HQ 8.1, p.7, Mar.
+      1999:src}), [3] {KGT p.82:src}, [4] {TNK:src}'
+    citations:
+    - source: tkd
+    - source: startrek_klingon
+      date: '1998-02-21'
+      reprinted_in:
+        source: holqed
+        page_start: 7
+        volume: 8
+        issue: 1
+        date: Mar. 1999
+    - source: kgt
+      page_start: 82
+    - source: tnk
+  translations:
+    de:
+      definition: orange sein, rot sein
+    fa:
+      definition: نارنجی، قرمز بودن
+    sv:
+      definition: vara orange, vara röd
+    ru:
+      definition: быть оранжевым, быть красным
+    zh_HK:
+      definition: 橙色、紅色
+    pt:
+      definition: ser laranja, ser vermelho
+    fi:
+      definition: olla oranssi, punainen
+    fr:
+      definition: sois orange, sois rouge [AUTOTRANSLATED]
+  _original_id: 10757
+  _original_file: mem-03-D.xml

@@ -1,0 +1,80 @@
+entry:
+  entry_name: ghItlh
+  slug: ghItlh_v
+  part_of_speech: v:t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: engrave, incise, mark (upon), write
+    parts:
+    - text: engrave
+    - text: incise
+    - text: mark (upon)
+    - text: write
+  see_also: '{Hew:n}, {nan:v:1}, {tey:v:1}, {laD:v}, {ghItlh:n}'
+  notes: This verb is used to indicate the making of markings on a surface. It applies
+    not just to writing, but to any kind of marking. To "write" in this sense refers
+    to the physical act of writing, and not to the creation of compositions, for which
+    {qon:v} is used instead.[2; 3] Another verb, {gher:v}, is used for the compilation
+    of lists and the like.[4]
+  hidden_notes: This is defined in {TKD:src} as "write". In {KGT:src}, it was clarified
+    that this meant "engrave, incise, mark (upon)", that is, the phyiscal act of making
+    marks on a surface.
+  examples: '
+
+    ▶ {ghItlh vIghItlhta''bogh DalaD''a''?:sen:nolink} "Will you read my manuscript?"[1,
+    p.172]'
+  search_tags: etch
+  sources:
+    raw: '[1] {TKD:src}, [2] {HQ 2.4, p.18, Dec. 1993:src}, [3] {KGT p.79:src}, [4]
+      {s.k 1998.07.09:src} (reprinted in {HQ 8.1, p.8, Mar. 1999:src})'
+    citations:
+    - source: tkd
+    - source: holqed
+      page_start: 18
+      volume: 2
+      issue: 4
+      date: Dec. 1993
+    - source: kgt
+      page_start: 79
+    - source: startrek_klingon
+      date: '1998-07-09'
+      reprinted_in:
+        source: holqed
+        page_start: 8
+        volume: 8
+        issue: 1
+        date: Mar. 1999
+  translations:
+    de:
+      definition: schreiben, eingravieren, einritzen
+    fa:
+      definition: حکاکی کردن، برش دادن، علامت گذاری (بر)، نوشتن [AUTOTRANSLATED]
+    sv:
+      definition: skriva, gravera, rista in, skära in, märka
+    ru:
+      definition: гравировать, насекать, стаить отметку, расписывать
+      notes: Этот глагол используется, чтобы обозначить нанесение отметок на поверхности.
+        Применяется не просто для "написания", но для любых видов нанесения отметок.
+        Здесь идет речь, чтобы существлять физический процесс письма. Для создания
+        композиций используйте {qon:v}.[2; 3] Другой глагол, {gher:v}, используется
+        для создания списков и т.п[4]
+      examples: '
+
+        ▶ {ghItlh vIghItlhta''bogh DalaD''a''?:sen:nolink} "Ты прочтешь мою рукопись?"[1,
+        стр.172]'
+    zh_HK:
+      definition: 雕刻、切割、標記（上）、寫 [AUTOTRANSLATED]
+    pt:
+      definition: gravar, incisar, marcar (em cima), escrever
+    fi:
+      definition: kaivertaa, merkitä; kirjoittaa
+      search_tags: raapustaa
+    fr:
+      definition: graver, inciser, marquer (sur), écrire
+  _original_id: 10975
+  _original_file: mem-04-gh.xml

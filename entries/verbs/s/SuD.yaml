@@ -1,0 +1,109 @@
+entries:
+- entry_name: SuD
+  slug: SuD_v_1
+  part_of_speech: v:1,is,klcp1
+  pos: v
+  pos_subtype: is
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: be green, be blue, be yellow
+    parts:
+    - text: be green
+    - text: be blue
+    - text: be yellow
+  see_also: '{Doq:v}, {nguv:v}, {SuD:v:2}'
+  notes: The word {SuDqu':v@@SuD:v:1, -qu':v} would probably be described as "green".
+    {SuD 'ej wov:sen@@SuD:v:1, 'ej:conj, wov:v} refers to a yellowish tinge. ({SuD
+    'ach wov:sen@@SuD:v:1, 'ach:conj, wov:v} is also heard.)[2]
+  hidden_notes: All natural languages found on Earth divide colours into "warm" and
+    "cool" in the same way. Klingon distinguishes between {Doq:v} and {SuD:v:1,nolink},
+    but it groups "yellow" with the "cool" colours rather than with the "warm" colours.
+  examples: '
+
+    ▶ {SuD Dargh ''ej wov:sen@@SuD:v:1, Dargh:n, ''ej:conj, wov:v} "The tea is {SuD:v:1,nolink}
+    and light"[2]
+
+    ▶ {SuDbogh Dargh ''ej wovbogh:n@@SuD:v:1, -bogh:v, Dargh:n, ''ej:conj, wov:v,
+    -bogh:v} (yellow tea)[2]
+
+    ▶ {SuD ''ej wov:sen@@SuD:v:1, ''ej:conj, wov:v} or {SuD ''ach wov:sen@@SuD:v:1,
+    ''ach:conj, wov:v} "light blue"[3]
+
+    ▶ {SuD ''ej Hurgh:sen@@SuD:v:1, ''ej:conj, Hurgh:v} or {SuD ''ach Hurgh:sen@@SuD:v:1,
+    ''ach:conj, Hurgh:v} "dark blue"[3]'
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT p.82:src}, [3] {TNK:src}'
+    citations:
+    - source: tkd
+    - source: kgt
+      page_start: 82
+    - source: tnk
+  translations:
+    de:
+      definition: grün sein, blau sein, gelb sein
+    fa:
+      definition: سبز، آبی، زرد باشد [AUTOTRANSLATED]
+    sv:
+      definition: vara grön, vara blå, vara gul
+    ru:
+      definition: быть зеленым, синим, желтым [AUTOTRANSLATED]
+    zh_HK:
+      definition: 綠色、藍色、黃色
+    pt:
+      definition: ser verde, azul, amarelo
+    fi:
+      definition: olla vihreä, sininen, keltainen
+    fr:
+      definition: sois vert, sois bleu, sois jaune [AUTOTRANSLATED]
+  _original_id: 14118
+  _original_file: mem-15-S.xml
+- entry_name: SuD
+  slug: SuD_v_2
+  part_of_speech: v:2,t
+  pos: v
+  pos_subtype: t
+  homophone: 2
+  status: canonical
+  section: main
+  definition:
+    text: gamble, take a chance, take a risk
+    parts:
+    - text: gamble
+    - text: take a chance
+    - text: take a risk
+  see_also: '{mI'' nagh:n}, {SuD:v:1}, {Haw:v}, {''al:v:2}'
+  hidden_notes: The example was placed here deliberately rather than in the {SuD:v:1}
+    "be green" entry.
+  examples: '
+
+    ▶ {Doq''a'' SuvwI''pu''?:sen} {ghobe''. SuD.:sen:nolink}[2]'
+  search_tags: random
+  sources:
+    raw: '[1] {TKDA:src}, [2] {PK:src}'
+    citations:
+    - source: tkda
+    - source: pk
+  translations:
+    de:
+      definition: spekulieren, riskieren
+    fa:
+      definition: قمار، یک شانس، خطر را بگیرد [AUTOTRANSLATED]
+    sv:
+      definition: sätta på spel, chansa, riskera
+    ru:
+      definition: играть, рисковать, рисковать [AUTOTRANSLATED]
+    zh_HK:
+      definition: 賭博、抓住機會、冒險 [AUTOTRANSLATED]
+    pt:
+      definition: jogar, arriscar
+    fi:
+      definition: uhkapelata, ottaa riski
+      search_tags: pelata
+    fr:
+      definition: jouer, tenter sa chance, prendre un risque [AUTOTRANSLATED]
+  _original_id: 14119
+  _original_file: mem-15-S.xml

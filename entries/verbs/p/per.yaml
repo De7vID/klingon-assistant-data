@@ -1,0 +1,53 @@
+entry:
+  entry_name: per
+  slug: per_v
+  part_of_speech: v:t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: label, ascertain, specify
+    parts:
+    - text: label
+    - text: ascertain
+    - text: specify
+  see_also: '{ngu'':v}, {per:n}'
+  notes: The verb {per:v:nolink} usually means "to assign or attach a name to", but
+    it can also be used for such notions as "ascertain, specify, pin down". One way
+    to ask for the time is {rep yIper!:sen}, literally, "Label the hour!"[2]
+  hidden_notes: This was defined as just "label" in {TKD:src}. The additional meanings
+    come from a newsgroup post.[2]
+  search_tags: pin down
+  sources:
+    raw: '[1] {TKD:src}, [2] {s.k 1999.02.02:src}'
+    citations:
+    - source: tkd
+    - source: startrek_klingon
+      date: '1999-02-02'
+  translations:
+    de:
+      definition: beschriften bezeichnen, bestätigen, belegen, benennen, angeben
+    fa:
+      definition: برچسب، مشخص کردن [AUTOTRANSLATED]
+    sv:
+      definition: beteckna, fastställa, specificera, namnge, ge namn åt/till
+    ru:
+      definition: метить, помечать, наклеивать ярлыки, относить к какой-то категории,
+        устанавливать, выяснять, удостоверяться, уточнять
+      notes: Глагол {per:v:nolink} обычно означает "привязать или прикрепить имя к
+        чему-то", но может быть использован для понятия, типа "конкретизировать, указывать".
+        Один из способов спросить "который час" {rep yIper!:sen}, что дословно значит
+        "Отметь час!"[2]
+    zh_HK:
+      definition: 標籤、確定、指定 [AUTOTRANSLATED]
+    pt:
+      definition: rotular, verificar, especificar
+    fi:
+      definition: nimetä, nimikoida
+    fr:
+      definition: étiqueter, détermine, établir, préciser
+  _original_id: 12806
+  _original_file: mem-11-p.xml

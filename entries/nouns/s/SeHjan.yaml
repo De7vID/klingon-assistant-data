@@ -1,0 +1,42 @@
+entry:
+  entry_name: SeHjan
+  slug: SeHjan_n
+  part_of_speech: n
+  pos: n
+  status: canonical
+  section: main
+  definition:
+    text: control-device, controlling-device
+    parts:
+    - text: control-device
+    - text: controlling-device
+    dedup: true
+  notes: Usage of this outside of set, accepted expressions such as {bIQ SeHjan:n}
+    is considered odd.
+  components: '{SeH:n:archaic,hyp}, {jan:n:1}'
+  sources:
+    raw: '[1] {qep''a'' 27 (2020):src}'
+    citations:
+    - source: qepa_2020
+      date: '2020'
+  translations:
+    de:
+      definition: Steuergerät, Kontrollgerät
+      notes: Die Verwendung dieses Begriffes außerhalb von anerkannten Ausdrücken
+        wie {bIQ SeHjan:n} wird als ungewöhnlich angesehen.
+    fa:
+      definition: دستگاه کنترل ، دستگاه کنترل [AUTOTRANSLATED]
+    sv:
+      definition: styrenhet, styrenhet [AUTOTRANSLATED]
+    ru:
+      definition: устройство управления, устройство управления [AUTOTRANSLATED]
+    zh_HK:
+      definition: 控制裝置，控制裝置 [AUTOTRANSLATED]
+    pt:
+      definition: dispositivo de controle
+    fi:
+      definition: hallinta- tai ohjauslaite
+    fr:
+      definition: dispositif de contrôle, appareil de contrôle
+  _original_id: 13936
+  _original_file: mem-15-S.xml

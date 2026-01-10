@@ -1,0 +1,96 @@
+entries:
+- entry_name: taH
+  slug: taH_v_1
+  part_of_speech: v:1,i
+  pos: v
+  pos_subtype: i
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: continue, go on, endure, survive
+    parts:
+    - text: continue
+    - text: go on
+    - text: endure
+    - text: survive
+  see_also: '{SIQ:v}, {yIn:v}'
+  hidden_notes: This was defined as "continue, go on, survive" in {TKDA:src} and as
+    "survive" in {KGT:src}.
+  examples: '
+
+    ▶ {taH pagh taHbe''.:sen}
+
+    ▶ {mataHmeH maSachnIS.:sen}
+
+    ▶ {bItaHrup''a''?:sen}
+
+    ▶ {taHjaj wo'':sen:lyr}
+
+    ▶ {qaStaHvIS wa''maH tup taH much:sen:nolink} "The presentation lasts for 10 minutes"[3]'
+  search_tags: last
+  sources:
+    raw: '[1] {TKDA:src}, [2] {KGT:src}, [3] {qep''a'' 23 (2016):src}'
+    citations:
+    - source: tkda
+    - source: kgt
+    - source: qepa_2016
+      date: '2016'
+  translations:
+    de:
+      definition: weitergehen, andauern, fortbestehen, überleben
+    fa:
+      definition: ادامه دادن، ادامه دادن، تحمل، زنده ماندن [AUTOTRANSLATED]
+    sv:
+      definition: fortsätta, uthärda, överleva
+    ru:
+      definition: продолжать, длиться, выживать
+    zh_HK:
+      definition: 繼續、繼續、忍受、生存 [AUTOTRANSLATED]
+    pt:
+      definition: continuar, seguir em frente, suportar, sobreviver
+    fi:
+      definition: jatkua, kestää, säilyä, selviytyä
+    fr:
+      definition: continuer, continuer, endurer, survivre [AUTOTRANSLATED]
+  _original_id: 14192
+  _original_file: mem-16-t.xml
+- entry_name: taH
+  slug: taH_v_2
+  part_of_speech: v:2,is
+  pos: v
+  pos_subtype: is
+  homophone: 2
+  status: canonical
+  section: main
+  definition: be at a negative angle
+  see_also: '{tor:v:2}, {lol:v:2}, {tom:v}, {Dop:v:2}'
+  notes: This refers to a ship in space which has rotated its nose downwards. A rotation
+    through a negative angle of 90 degrees would mean that the ship's nose was pointed
+    straight down relative to its previous orientation.[2]
+  hidden_notes: The mailing list message refers to an explanation given at SerenityCon.
+  sources:
+    raw: '[1] {TKD:src}, [2] {KLI mailing list 2004.06.08:src}'
+    citations:
+    - source: tkd
+    - source: kli_mailing_list
+      date: '2004-06-08'
+  translations:
+    de:
+      definition: in einem negativen Winkel sein
+    fa:
+      definition: زاویه منفی باشد [AUTOTRANSLATED]
+    sv:
+      definition: vara i negativ vinkel
+    ru:
+      definition: быть под отрицательным углом
+    zh_HK:
+      definition: 處於負角度 [AUTOTRANSLATED]
+    pt:
+      definition: estar em um ângulo negativo
+    fi:
+      definition: olla negatiivisessa kulmassa
+    fr:
+      definition: être sous un angle négatif [AUTOTRANSLATED]
+  _original_id: 14193
+  _original_file: mem-16-t.xml

@@ -1,0 +1,57 @@
+entry:
+  entry_name: mI' nagh
+  slug: mI'_nagh_n
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: die, dice with numbers
+    parts:
+    - text: die
+    - text: dice with numbers
+    dedup: true
+  see_also: '{ngutlh nagh:n}, {SuD:v:2}, {qeylIS mInDu'':n}, {Haw:v}'
+  notes: 'In {Klingon Monopoly:src}, {mI'' naghmey:n:nolink} refers to the playing
+    dice. The verb {ronmoH:v@@ron:v:1, -moH:v} is used for the action of throwing
+    or rolling the dice.
+
+
+    The verb {''al:v:2} is used for random numbers ({mI'' ''al:n}).'
+  components: '{mI'':n}, {nagh:n}'
+  examples: '
+
+    ▶ {pIraqSIS HoS waw'' ghajlu''chugh, loSlogh boq''egh mI'' naghmey mI''; chen
+    qav''ap.:sen:nolink} "If Praxis Energy Facility is owned, rent is 4 times amount
+    shown on dice."
+
+    ▶ {HoSHal ghajchugh vay'', mI'' naghmey tIronmoH. wa''maHlogh boq''egh mI'' naghmey;
+    chen qav''ap. ghajwI''vaD qav''ap yIDIl.:sen:nolink} "If [energy source is] owned,
+    throw dice and pay owner a total ten times amount shown."'
+  sources:
+    raw: '[1] {Klingon Monopoly:src}'
+    citations:
+    - source: klingon_monopoly
+  translations:
+    de:
+      definition: Würfel (mit Zahlen)
+      search_tags: Spielwürfel
+    fa:
+      definition: تاس
+    sv:
+      definition: tärning
+    ru:
+      definition: умри, игра в кости с числами [AUTOTRANSLATED]
+    zh_HK:
+      definition: 骰子、色子
+    pt:
+      definition: dados, dados com números
+    fi:
+      definition: (numero)noppa
+      search_tags: numeronoppa, noppa
+    fr:
+      definition: mourir, dés avec des chiffres [AUTOTRANSLATED]
+  _original_id: 12128
+  _original_file: mem-08-m.xml

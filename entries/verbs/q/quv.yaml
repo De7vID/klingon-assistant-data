@@ -1,0 +1,70 @@
+entry:
+  entry_name: quv
+  slug: quv_v
+  part_of_speech: v:is,klcp1
+  pos: v
+  pos_subtype: is
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: be honored, be honorable
+    parts:
+    - text: be honored
+    - text: be honorable
+    dedup: true
+  antonyms: '{quvHa'':v}'
+  see_also: '{batlh:adv}, {mIl:v}, {HoQ:v}, {Qaq:v}, {quv:n}'
+  notes: Based on example usage, this word is also used in titles to indicate something
+    which is in a high (or the highest) position in its hierarchy. It is also used
+    in geometry for isosceles triangles.
+  hidden_notes: This was defined as "be honored" in {TKDA:src}. Its meaning was expanded
+    upon in {HQ 12.3:src}.
+  examples: '
+
+    ▶ {ghojmoHwI'' quv:n@@ghojmoHwI'':n, quv:v}[3]
+
+    ▶ {la''quv:n}
+
+    ▶ {ra''Duch quv:n}
+
+    ▶ {ra''ghomquv:n}
+
+    ▶ {vutwI'' quv:n}
+
+    ▶ {yejquv:n}
+
+    ▶ {pujwI'' HIvlu''chugh quvbe''lu''.:sen}'
+  search_tags: be honoured, be honourable, be revered
+  sources:
+    raw: '[1] {TKDA:src}, [2] {HQ 12.3, p.8, Sep. 2003:src}, [3] {Saarbrücken qepHom''a''
+      2016:src}'
+    citations:
+    - source: tkda
+    - source: holqed
+      page_start: 8
+      volume: 12
+      issue: 3
+      date: Sep. 2003
+    - source: qephom_2016
+      date: '2016'
+  translations:
+    de:
+      definition: geehrt sein, ehrenswert sein
+    fa:
+      definition: افتخار بزرگی است [AUTOTRANSLATED]
+    sv:
+      definition: vara ärad, vara hedrad
+    ru:
+      definition: быть почтенным, быть почитаемым
+    zh_HK:
+      definition: 榮幸、可敬
+    pt:
+      definition: ser honrado, ser honrável
+    fi:
+      definition: olla kunnioitettu, kunnioitettava, kunniallinen
+    fr:
+      definition: être honoré, être honorable [AUTOTRANSLATED]
+  _original_id: 13339
+  _original_file: mem-12-q.xml

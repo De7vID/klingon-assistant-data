@@ -1,0 +1,61 @@
+entry:
+  entry_name: bom
+  slug: bom_v
+  part_of_speech: v:t_c
+  pos: v
+  pos_subtype: t_c
+  status: canonical
+  section: main
+  definition:
+    text: sing, chant
+    parts:
+    - text: sing
+    - text: chant
+  see_also: '{bom:n}, {much:v:2}, {wup:v}, {QoQ:n}, {''uq:v}, {Huy:v:1}'
+  examples: '
+
+    ▶ {bomDI'' ''IwwIj qaqaw.:sen}
+
+    ▶ {bom; puq rur:sen@@bom:v, puq:n, rur:v} (sing falsetto)[3]'
+  search_tags: falsetto
+  sources:
+    raw: '[1] {KGT:src}, [2] {HQ 2.4, p.17, Dec. 1993:src}, [3] {qep''a'' 27 (2020):src}'
+    citations:
+    - source: kgt
+    - source: holqed
+      page_start: 17
+      volume: 2
+      issue: 4
+      date: Dec. 1993
+    - source: qepa_2020
+      date: '2020'
+  translations:
+    de:
+      definition: singen
+      examples: '
+
+        ▶ {bomDI'' ''IwwIj qaqaw.:sen}
+
+        ▶ {bom; puq rur:sen@@bom:v, puq:n, rur:v} (im Falsett singen)[3]'
+    fa:
+      definition: آواز خواندن
+    sv:
+      definition: sjunga, mässa
+    ru:
+      definition: Петь, воспевать
+    zh_HK:
+      definition: 唱歌、吟唱
+    pt:
+      definition: cantar
+    fi:
+      definition: laulaa
+    fr:
+      definition: chanter
+      examples: '
+
+        ▶ {bomDI'' ''IwwIj qaqaw.:sen}
+
+        ▶ {bom; puq rur:sen@@bom:v, puq:n, rur:v} (chanter falsetto, chanter avec
+        voix de fausset)[3]'
+  _original_id: 10210
+  _original_file: mem-01-b.xml

@@ -1,0 +1,66 @@
+entries:
+- entry_name: tal
+  slug: tal_n_1
+  part_of_speech: n:1
+  pos: n
+  homophone: 1
+  status: canonical
+  section: main
+  definition: cannon
+  synonyms: '{baHjan:n}'
+  search_tags: gun, launcher, missile
+  sources:
+    raw: '[1] {BoP:src}'
+    citations:
+    - source: bop
+  translations:
+    de:
+      definition: Kanone
+    fa:
+      definition: توپ [AUTOTRANSLATED]
+    sv:
+      definition: kanon
+    ru:
+      definition: пушка
+    zh_HK:
+      definition: 大砲 [AUTOTRANSLATED]
+    pt:
+      definition: canhão
+    fi:
+      definition: tykki
+    fr:
+      definition: canon [AUTOTRANSLATED]
+  _original_id: 14205
+  _original_file: mem-16-t.xml
+- entry_name: tal
+  slug: tal_n_2
+  part_of_speech: n:2,hyp
+  pos: n
+  homophone: 2
+  metadata_tags:
+  - hyp
+  status: hypothetical
+  section: extra
+  definition: map line?
+  notes: The element {tal:n:hyp,nolink} is not known to appear by itself, but is found
+    in the words {ghaptal:n}, {lechtal:n}, {lungtal:n}, {ngottal:n}, {lungrI'tal:n},
+    and {ngotrI'tal:n}.
+  translations:
+    de:
+      definition: Kartenlinie?
+    fa:
+      definition: خط نقشه؟ [AUTOTRANSLATED]
+    sv:
+      definition: kartlinje? [AUTOTRANSLATED]
+    ru:
+      definition: линия карты? [AUTOTRANSLATED]
+    zh_HK:
+      definition: 地圖線？ [AUTOTRANSLATED]
+    pt:
+      definition: linha do mapa? [AUTOTRANSLATED]
+    fi:
+      definition: (karttaviiva?)
+    fr:
+      definition: ligne de carte ? [AUTOTRANSLATED]
+  _original_id: 16200
+  _original_file: mem-27-extra.xml

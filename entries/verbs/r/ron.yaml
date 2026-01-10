@@ -1,0 +1,111 @@
+entries:
+- entry_name: ron
+  slug: ron_v_1
+  part_of_speech: v:1,i_c
+  pos: v
+  pos_subtype: i_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: roll, be rolling
+    parts:
+    - text: roll
+    - text: be rolling
+  notes: 'In the context of playing dice, this word refers to the action of the dice
+    as they are rolling. (To "throw" or "roll" the dice would be {ronmoH:v:nolink}.)[1]
+
+
+    When applied to a person, it means the person is rolling haphazardly. To perform
+    a somersault is {Hay:v}, and to roll down a hill (like a log) is {tetlh:v}.[2]
+
+
+    This verb can be applied to aircraft, for which see {ron:v:2}.'
+  examples: '
+
+    ▶ {mI'' naghmey tIronmoH:sen:nolink} "throw dice"[1]
+
+    ▶ {ron SuvwI''; chorgh ''ujmey lID:sen@@ron:v:1, SuvwI'':n, chorgh:n:1, ''uj:n,
+    -mey:n, lID:v} or {chorgh ''ujmey lID SuvwI''; ron:sen@@chorgh:n:1, ''uj:n, -mey:n,
+    lID:v, SuvwI'':n, ron:v:1} "the warrior rolled (haphazardly) for eight ujes"[2]'
+  sources:
+    raw: '[1] {Klingon Monopoly:src}, [2] {KLI mailing list 2019.03.01:src}'
+    citations:
+    - source: klingon_monopoly
+    - source: kli_mailing_list
+      date: '2019-03-01'
+  translations:
+    de:
+      definition: rollen
+    fa:
+      definition: رول نورد [AUTOTRANSLATED]
+    sv:
+      definition: rulla, rulla [AUTOTRANSLATED]
+    ru:
+      definition: катиться, катиться [AUTOTRANSLATED]
+    zh_HK:
+      definition: 轆、翻
+    pt:
+      definition: rolar, estar rolando
+    fi:
+      definition: kieriä tai vieriä epätasaisesti, poukkoilla
+      notes: 'Tätä käytetään nopista kun ne pyörivät heittämisen jälkeen (heittäminen
+        itsessään on {ronmoH:v:nolink}).[1]
+
+
+        Henkilön yhteydessä tämä viittaa sattumanvaraiseen kierimiseen tai vierimiseen
+        (kuperkeikasta sanotaan {Hay:v}, ja mäkeä alas vieriminen on {tetlh:v}).[2]
+
+
+        Tällä on täsmällinen merkitys lentokoneista puhuttaessa, ks. {ron:v:2}.'
+    fr:
+      definition: rouler, rouler [AUTOTRANSLATED]
+  _original_id: 13793
+  _original_file: mem-14-r.xml
+- entry_name: ron
+  slug: ron_v_2
+  part_of_speech: v:2,i_c
+  pos: v
+  pos_subtype: i_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: roll (aircraft wings tilt, one up, one down)
+  see_also: '{Dav:v:2}, {Der:v:2}, {jer:v}, {jIm:v:2}, {lol:v:2}, {tor:v:2}, {''or:v},
+    {mI'' nagh:n}'
+  notes: This is just the verb {ron:v:1} applied to aircraft. For a pilot to roll
+    an aircraft would be {ronmoH:v:nolink}.
+  hidden_notes: The aile"ron"s control the roll on an airplane.
+  examples: '
+
+    ▶ {ron muD Duj; javmaH lawrI''mey lID:sen@@ron:v:2, muD Duj:n, jav:n:1, maH:n:2,
+    lawrI'':n, -mey:n, lID:v} "the airplane rolled 60 degrees"'
+  sources:
+    raw: '[1] {HQ 11.2, Jun. 2002:src}'
+    citations:
+    - source: holqed
+      volume: 11
+      issue: 2
+      date: Jun. 2002
+  translations:
+    de:
+      definition: rollen (Flugzeugflügel neigen sich, einer nach oben, einer nach
+        unten)
+    fa:
+      definition: رول (بال هواپیما شیب ، یکی به بالا ، یکی به پایین) [AUTOTRANSLATED]
+    sv:
+      definition: vara bankande, vara rollande, vara krängande (flygmaskin roterar
+        runt sin ländaxel), vara rullande (om tärning)
+    ru:
+      definition: крен (наклон крыльев самолета, один вверх, один вниз) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 滾動（飛機機翼傾斜，一上一下） [AUTOTRANSLATED]
+    pt:
+      definition: rolar (asas da aeronave inclinadas, uma para cima, uma para baixo)
+    fi:
+      definition: kallistua (lentokoneen kääntyminen pituusakselin suhteen)
+    fr:
+      definition: rouler (les ailes de l'avion s'inclinent, une vers le haut, l'autre
+        vers le bas)
+  _original_id: 13794
+  _original_file: mem-14-r.xml

@@ -1,0 +1,73 @@
+entry:
+  entry_name: '''eb patlh'
+  slug: '''eb_patlh_n'
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: risk level, chance, odds
+    parts:
+    - text: risk level
+    - text: chance
+    - text: odds
+  see_also: '{bam:v}, {ghaytan:adv}, {chaq:adv}'
+  notes: 'Literally "opportunity level" or "chance level." The number is assumed to
+    be a percentage unless specified otherwise, so {''eb patlh 20:n:nolink} means
+    "20 percent chance." When not expressed as a percentage, the risk level is specified:
+    {''eb patlh vagh loch wej:n:nolink} "risk level 3 out of 5" or "3 out of 5 chance".
+    The {''eb patlh:n:nolink} phrase is the object of {bam:v} "face", following a
+    clause or another sentence explaining what it applies to.[1]'
+  components: '{''eb:n}, {patlh:n:1}'
+  examples: '
+
+    ▶ {bIHeghmeH ''eb patlh 20 (vatlhvI'') Dabam.:sen:nolink} You face a 20% chance
+    of dying.[1]
+
+    ▶ {chaq bIHegh. ''eb patlh wa'' loch vagh Dabam.:sen:nolink} Perhaps you will
+    die. The odds are one out of five.[1]'
+  search_tags: probability, risk
+  sources:
+    raw: '[1] {Saarbrücken qepHom''a'' 2025:src}'
+    citations:
+    - source: qephom_2025
+      date: '2025'
+  translations:
+    de:
+      definition: Risiko, Chance
+      notes: 'Wörtlich "Möglichkeisniveau" oder "Chancenlevel". Die Zahl wird als
+        Prozentzahl angenommen, außer wenn explizit etwas anderes gesagt wird, also
+        bedeutet {''eb patlh 20:n:nolink} "20%-ige Chance". Wenn es nicht als Prozentzahl
+        ausgedrückt wird, wird das Risikolevel spezifiziert: {''eb patlh vagh loch
+        wej:n:nolink} "Risikolevel 3 in 5" oder "3 in 5 Chance". Die {''eb patlh:n:nolink}-Phrase
+        ist das Objekt von {bam:v} "gegenüberstehen" und folgt einem anderen Satz
+        oder Teilsatz, der erklärt, worauf sie sich bezieht.[1]'
+      examples: '
+
+        ▶ {bIHeghmeH ''eb patlh 20 (vatlhvI'') Dabam.:sen:nolink} Du hast eine 20%-ige
+        Chance zu sterben.[1]
+
+        ▶ {chaq bIHegh. ''eb patlh wa'' loch vagh Dabam.:sen:nolink} Vielleicht wirst
+        du sterben. Die Chance ist eins in fünf.[1]'
+    pt:
+      definition: nível de risco, chance, probabilidades [AUTOTRANSLATED]
+    fr:
+      definition: risque, chance
+      notes: 'Littéralement "niveau d''opportunité" ou "niveau de chance." On assume
+        que le numéro est un pourcentage sauf s''il est specifié autrement, donc {''eb
+        patlh 20:n:nolink} signifie "chance de 20%." Si on ne l''exprime pas en pourcentage,
+        on specifie le niveau de risque: {''eb patlh vagh loch wej:n:nolink} "niveau
+        de risque 3 sur 5" ou "chance de 3 sur 5". L''expression avec {''eb patlh:n:nolink}
+        est l''object de {bam:v} "faire face à", qui suit une proposition ou une autre
+        phrase qui exprime à quoi il s''applique.[1]'
+      examples: '
+
+        ▶ {bIHeghmeH ''eb patlh 20 (vatlhvI'') Dabam.:sen:nolink} Tu as une chance
+        de 20% de mourir.[1]
+
+        ▶ {chaq bIHegh. ''eb patlh wa'' loch vagh Dabam.:sen:nolink} Peut-être tu
+        vas mourir. La probabilité est un sur cinq.[1]'
+  _original_id: 15368
+  _original_file: mem-22-e.xml

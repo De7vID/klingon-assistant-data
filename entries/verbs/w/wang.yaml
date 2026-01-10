@@ -1,0 +1,41 @@
+entry:
+  entry_name: wang
+  slug: wang_v
+  part_of_speech: v:i
+  pos: v
+  pos_subtype: i
+  status: canonical
+  section: main
+  definition: wink
+  notes: This is a voluntary movement to close and open one eye. For an involuntary
+    blink, use {tu:v}. For twitch, use {jergh:v} "spasm".
+  hidden_notes: '{wang tu:sen:nolink} "one two".'
+  sources:
+    raw: '[1] {qep''a'' 27 (2020):src}'
+    citations:
+    - source: qepa_2020
+      date: '2020'
+  translations:
+    de:
+      definition: zwinkern
+      notes: Dies ist eine bewusste Bewegung ein Auge zu schließen und zu öffnen.
+        Für ein unbewusstes Blinzeln nutzt man {tu:v}. Für ein Zucken nutzt man {jergh:v}.
+    fa:
+      definition: چشمک زن [AUTOTRANSLATED]
+    sv:
+      definition: blinkning [AUTOTRANSLATED]
+    ru:
+      definition: подмигивать [AUTOTRANSLATED]
+    zh_HK:
+      definition: 眨眼 [AUTOTRANSLATED]
+    pt:
+      definition: piscar o olho
+    fi:
+      definition: iskeä silmää
+    fr:
+      definition: ciller, cligner des yeux
+      notes: Il s'agit d'un mouvement volontaire de fermer et ouvrir un œuil. Pour
+        le mouvement involontaire, on dit {tu:v}. Pour un tressailement spasmodique,
+        on utilise {jergh:v}.
+  _original_id: 14909
+  _original_file: mem-19-w.xml

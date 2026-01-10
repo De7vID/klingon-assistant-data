@@ -1,0 +1,82 @@
+entries:
+- entry_name: nargh
+  slug: nargh_v_1
+  part_of_speech: v:1,i
+  pos: v
+  pos_subtype: i
+  homophone: 1
+  status: canonical
+  section: main
+  definition: appear
+  antonyms: '{ngab:v}'
+  see_also: '{nargh:v:2}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: erscheinen
+    fa:
+      definition: به نظر می رسد [AUTOTRANSLATED]
+    sv:
+      definition: dyka upp
+    ru:
+      definition: появляться, появиться, предстать, проявиться, проступать
+    zh_HK:
+      definition: 出現
+    pt:
+      definition: aparecer
+    fi:
+      definition: ilmestyä
+    fr:
+      definition: apparaître [AUTOTRANSLATED]
+  _original_id: 12319
+  _original_file: mem-09-n.xml
+- entry_name: nargh
+  slug: nargh_v_2
+  part_of_speech: v:2,i
+  pos: v
+  pos_subtype: i
+  homophone: 2
+  status: canonical
+  section: main
+  definition: escape
+  see_also: '{Haw'':v}, {jun:v}, {nargh:v:1}'
+  notes: This verb is used idiomatically with {'eb:n} to describe missed or lost opportunities.[4]
+  examples: '
+
+    ▶ {ghe''torvo'' narghDI'' qa''pu'':sen}[2]
+
+    ▶ {HeghDI'' SuvwI'' nargh SuvwI'' qa''.:sen}[3]'
+  sources:
+    raw: '[1] {TKDA:src}, [2] {KGT p.117:src}, [3] {TKW p.145:src}, [4] {s.e 1998.01.18:src}'
+    citations:
+    - source: tkda
+    - source: kgt
+      page_start: 117
+    - source: tkw
+      page_start: 145
+    - source: startrek_expertforum
+      date: '1998-01-18'
+  translations:
+    de:
+      definition: entkommen, entweichen
+    fa:
+      definition: در رفتن [AUTOTRANSLATED]
+    sv:
+      definition: fly, rymma
+    ru:
+      definition: совершать побег, совершать бегство
+      notes: Этот глагол использован идиоматически с {'eb:n} чтобы описать упущенные
+        или потерянные возможности.[4]
+    zh_HK:
+      definition: 逃逸、逃走
+    pt:
+      definition: escapar
+    fi:
+      definition: paeta, karata
+    fr:
+      definition: s'échapper [AUTOTRANSLATED]
+  _original_id: 12320
+  _original_file: mem-09-n.xml

@@ -1,0 +1,83 @@
+entries:
+- entry_name: teb
+  slug: teb_v_1
+  part_of_speech: v:1,t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition: fill
+  see_also: '{buy'':v}, {ghoD:v}, {lIch:v}, {ngaS:v}, {naQ:v}, {chIm:v}, {qorgh:v},
+    {Qoy'':v}, {tlhut:v}'
+  notes: This verb may be used for filling a hole ({QemjIq:n}), but not for merely
+    stopping up an opening ({qung:n}), which would be {qorgh:v}.[2]
+  examples: '{tebwI'':n}'
+  sources:
+    raw: '[1] {TKD:src}, [2] {Saarbrücken qepHom''a'' 2013:src}'
+    citations:
+    - source: tkd
+    - source: qephom_2013
+      date: '2013'
+  translations:
+    de:
+      definition: füllen, auffüllen
+    fa:
+      definition: پر کردن
+    sv:
+      definition: fylla
+    ru:
+      definition: заполнить
+    zh_HK:
+      definition: 填 [AUTOTRANSLATED]
+    pt:
+      definition: preencher
+    fi:
+      definition: täyttää
+    fr:
+      definition: remplir
+  _original_id: 14276
+  _original_file: mem-16-t.xml
+- entry_name: teb
+  slug: teb_v_2
+  part_of_speech: v:2,t_c,slang
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  categories:
+  - slang
+  status: canonical
+  section: main
+  definition: compensate (monetary)
+  notes: This is a slang usage of {teb:v:1:1}. For non-monetary compensation, see
+    {lev:v:1}.[1]
+  sources:
+    raw: '[1] {qep''a'' 32 (2025):src}'
+    citations:
+    - source: qepa_2025
+      date: '2025'
+  translations:
+    de:
+      definition: kompensieren, entschädigen (monetär)
+      notes: Dies ist eine umgangssprachliche Benutzung von {teb:v:1:1}. Für nicht-monetäre
+        Entschädigung, siehe {lev:v:1}.[1]
+    fa:
+      definition: جبران (پولی) [AUTOTRANSLATED]
+    sv:
+      definition: kompensera (monetär)
+    ru:
+      definition: компенсировать (денежную) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 補償（貨幣） [AUTOTRANSLATED]
+    pt:
+      definition: compensar (monetário) [AUTOTRANSLATED]
+    fi:
+      definition: hyvittää, korvata (rahallisesti)
+    fr:
+      definition: compenser, dédommager (monétaire)
+      notes: Ceci est une utilisation familiaire de {teb:v:1:1}. Pour une compensation
+        non-monétaire, voir {lev:v:1}.[1]
+  _original_id: 14277
+  _original_file: mem-16-t.xml

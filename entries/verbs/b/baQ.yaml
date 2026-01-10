@@ -1,0 +1,137 @@
+entries:
+- entry_name: baQ
+  slug: baQ_v_1
+  part_of_speech: v:1,t_c,weap
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  categories:
+  - weap
+  status: canonical
+  section: main
+  definition: toss bat'leth from one hand to the other
+  see_also: '{betleH:n}, {jop:v:1}, {way'':v}, {chaQ:v}, {ngol:v}, {lev:v:1}, {DIj:v:1},
+    {jIrmoH:v:1}'
+  notes: This is also used for taking turns (see {baQ:v:3}).
+  search_tags: throw
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: das Bat'leth von einer Hand in die andere werfen
+      notes: Dies wird auch für "sich abwechseln" benutzt (siehe {baQ:v:3}).
+    fa:
+      definition: از یک سو به طرف دیگر بتلاش کردن [AUTOTRANSLATED]
+    sv:
+      definition: kasta en bat'leth från den ena handen till den andra
+    ru:
+      definition: Перекидывать батлет из одной руки в другую
+      search_tags: бросать
+    zh_HK:
+      definition: 將bat'leth從一隻手扔向另一隻手 [AUTOTRANSLATED]
+    pt:
+      definition: atirar a bat'leth de uma mão para a outra
+    fi:
+      definition: vaihtaa bat'leth kädestä toiseen
+    fr:
+      definition: jeter un bat'leth d'une main à l'autre
+      notes: Ce mot s'utilise aussi pour dire "faire qch à tour de rôle" (voir {baQ:v:3}).
+  _original_id: 10023
+  _original_file: mem-01-b.xml
+- entry_name: baQ
+  slug: baQ_v_2
+  part_of_speech: v:2,is
+  pos: v
+  pos_subtype: is
+  homophone: 2
+  status: canonical
+  section: main
+  definition:
+    text: be fresh, be just picked (fruit, vegetable)
+    parts:
+    - text: be fresh
+    - text: be just picked (fruit, vegetable)
+  antonyms: '{DeH:v:is}'
+  see_also: '{naH:n}, {Du'' naH:n}, {non:v:is}'
+  notes: This is not preferred to {DeH:v:is}.
+  search_tags: unripe, raw, fruit
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: frisch sein, frisch geerntet sein (Obst oder Gemüse)
+      notes: Dies wird nicht {DeH:v:is} vorgezogen.
+    fa:
+      definition: تازه، فقط برداشت می شود (میوه، سبزیجات) [AUTOTRANSLATED]
+    sv:
+      definition: vara färsk, vara nyplockad (om frukt, grönsak)
+    ru:
+      definition: быть свежим, быть только что собранным (фрукт, овощ)
+      search_tags: незрелый, сырой, фрукт
+    zh_HK:
+      definition: 新鮮（水果、蔬菜）
+    pt:
+      definition: ser fresco, apenas colhido (frutas, vegetais)
+    fi:
+      definition: olla tuore, juuri poimittu (hedelmä, vihannes)
+    fr:
+      definition: être frais, être juste cueilli (fruits, légumes)
+      notes: Ceci n'est pas préféré à {DeH:v:is}.
+  _original_id: 10024
+  _original_file: mem-01-b.xml
+- entry_name: baQ
+  slug: baQ_v_3
+  part_of_speech: v:3,i_c
+  pos: v
+  pos_subtype: i_c
+  homophone: 3
+  status: canonical
+  section: main
+  definition: take turns
+  notes: This is an extension of {baQ:v:1} to gaming or other situations where players,
+    etc., act in a predefined order. To specify someone's turn, use {jop:v:2}.
+  examples: '
+
+    ▶ {mabaQ:sen@@ma-:v, baQ:v:3} "we take turns"[1]'
+  sources:
+    raw: '[1] {qep''a'' 26 (2019):src}, [2] {qep''a'' 27 (2020):src}'
+    citations:
+    - source: qepa_2019
+      date: '2019'
+    - source: qepa_2020
+      date: '2020'
+  translations:
+    de:
+      definition: abwechseln
+      notes: Dies ist eine Erweiterung von {baQ:v:1} auf Spiele oder andere Situationen,
+        in denen Spieler etc., in einer definierten Reihenfolge agieren. Um zu sagen,
+        dass jemand an der Reihe ist, nutzt man {jop:v:2}.
+      examples: '
+
+        ▶ {mabaQ:sen@@ma-:v, baQ:v:3} "Wir wechseln uns ab"[1]'
+    fa:
+      definition: نوبت می گیرند [AUTOTRANSLATED]
+    sv:
+      definition: turas om
+    ru:
+      definition: по очереди [AUTOTRANSLATED]
+    zh_HK:
+      definition: 輪流
+    pt:
+      definition: dar voltas
+    fi:
+      definition: vuorotella
+    fr:
+      definition: faire qch. à tour de rôle, se relayer
+      notes: Il s'agit d'une extension de {baQ:v:1} au jeux ou autres situations ou
+        des joueurs etc. agissent dans un ordre défini. Pour dire que c'est le tour
+        de quelqu'un, on utilise {jop:v:2}.
+      examples: '
+
+        ▶ {mabaQ:sen@@ma-:v, baQ:v:3} "Nous nous relayons"[1]'
+  _original_id: 10025
+  _original_file: mem-01-b.xml

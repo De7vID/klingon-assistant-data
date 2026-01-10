@@ -1,0 +1,66 @@
+entry:
+  entry_name: patlhmoH
+  slug: patlhmoH_v
+  part_of_speech: v:t_c,deriv
+  pos: v
+  pos_subtype: t_c
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: rank, assign status, sort, compare
+    parts:
+    - text: rank
+    - text: assign status
+    - text: sort
+    - text: compare
+  see_also: '{num:v}, {DopmoH:v}, {Day:v}'
+  notes: 'When the object is singular, this means "rank" in the sense of "grade".[2]
+
+
+    When used with the "compare" meaning, the object of the verb must be plural. The
+    implication is that the things are ranked in comparison to one another.[1] When
+    used to mean "sort", the object is not a list (as a whole) but the things in the
+    list, the things to be ranked or sorted.[3]'
+  hidden_notes: 'This was defined as "rank, assign status, sort" in [1], and also
+    as "compare" in the same message. The "compare" usage was further explained in
+    subsequent messages.
+
+
+    The example sentence was suggested to Okrand in Klingon, who provided the English
+    translation.'
+  components: '{patlh:v}, {-moH:v}'
+  examples: '
+
+    ▶ {wo''rIv patlhmoH HoD.:sen:nolink} "The captain ranked Worf." (This means the
+    captain made a judgment about Worf relative to someone else or a group.)'
+  sources:
+    raw: '[1] {KLI mailing list 2018.02.06:src}, [2] {KLI mailing list 2018.02.07:src},
+      [3] {KLI mailing list 2018.02.10:src}'
+    citations:
+    - source: kli_mailing_list
+      date: '2018-02-06'
+    - source: kli_mailing_list
+      date: '2018-02-07'
+    - source: kli_mailing_list
+      date: '2018-02-10'
+  translations:
+    de:
+      definition: einstufen, einordnen; gegenüberstellen, vergleichen
+    fa:
+      definition: رتبه، اختصاص وضعیت، مرتب سازی بر اساس؛ مقایسه کردن [AUTOTRANSLATED]
+    sv:
+      definition: rang, tilldel status, sortera; jämföra [AUTOTRANSLATED]
+    ru:
+      definition: ранг, присвоить статус, сортировать; сравнить [AUTOTRANSLATED]
+    zh_HK:
+      definition: 評價分類
+    pt:
+      definition: classificar, atribuir status, comparar
+    fi:
+      definition: sijoittaa, määrittää asema, järjestää, lajitella; vertailla
+    fr:
+      definition: classer, attribuer un statut, trier, comparer [AUTOTRANSLATED]
+  _original_id: 12761
+  _original_file: mem-11-p.xml

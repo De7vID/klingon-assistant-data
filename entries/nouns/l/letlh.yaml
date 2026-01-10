@@ -1,0 +1,76 @@
+entries:
+- entry_name: letlh
+  slug: letlh_n_1
+  part_of_speech: n:1
+  pos: n
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: stairs, stairway
+    parts:
+    - text: stairs
+    - text: stairway
+    dedup: true
+  notes: The stairway leading to door of a ship is referred to by a more specific
+    word, {choghvat:n:1}.
+  search_tags: steps, escalator
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Treppe, Stufen
+    fa:
+      definition: پله ها، راه پله [AUTOTRANSLATED]
+    sv:
+      definition: trappa, trappuppgång
+    ru:
+      definition: лестница, лестница [AUTOTRANSLATED]
+    zh_HK:
+      definition: 樓梯
+    pt:
+      definition: escada, escadaria
+    fi:
+      definition: portaat, portaikko
+    fr:
+      definition: escalier, escaliers
+  _original_id: 11741
+  _original_file: mem-07-l.xml
+- entry_name: letlh
+  slug: letlh_n_2
+  part_of_speech: n:2,reg
+  pos: n
+  homophone: 2
+  categories:
+  - reg
+  status: canonical
+  section: main
+  definition: stairway leading to door of a ship
+  see_also: '{ngep''oS:n}'
+  notes: In some {meqro'vaq Sep:n} dialects, this refers to what is elsewhere called
+    a {choghvat:n:1}.
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Steg zur Tür eines Schiffes
+    fa:
+      definition: راهآهن به سوی یک کشتی منتهی می شود [AUTOTRANSLATED]
+    sv:
+      definition: trappuppgång vid skeppsdörr
+    ru:
+      definition: лестница, ведущая к двери корабля [AUTOTRANSLATED]
+    zh_HK:
+      definition: 通往船門的樓梯 [AUTOTRANSLATED]
+    pt:
+      definition: escada que leva à porta de um navio
+    fi:
+      definition: aluksen ovelle johtavat portaat
+    fr:
+      definition: escalier menant à la porte d'un vaisseau
+  _original_id: 11742
+  _original_file: mem-07-l.xml

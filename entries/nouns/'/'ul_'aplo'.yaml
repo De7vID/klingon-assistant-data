@@ -1,0 +1,43 @@
+entry:
+  entry_name: '''ul ''aplo'''
+  slug: '''ul_''aplo''_n'
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: battery, electrochemical cell
+    parts:
+    - text: battery
+    - text: electrochemical cell
+  see_also: '{HoSHal:n}, {Huj:v:2}'
+  hidden_notes: This word appears in {TNK:src} only in the plural as {'ul 'aplo'mey:n:nolink}
+    "batteries". Historically, a single such container of electricity would be called
+    a "cell", and a "battery" would refer to an array (see {DaH:n}) of such cells.
+    However, the word "battery" has come to be used for a single cell in modern English.
+  components: '{''ul:n}, {''aplo'':n}'
+  sources:
+    raw: '[1] {TNK:src}'
+    citations:
+    - source: tnk
+  translations:
+    de:
+      definition: Batterie, Stromspeicher
+    fa:
+      definition: باتری، سلول الکتروشیمیایی [AUTOTRANSLATED]
+    sv:
+      definition: batteri (som lagrar ström)
+    ru:
+      definition: батарея, электрохимическая ячейка [AUTOTRANSLATED]
+    zh_HK:
+      definition: 電心、電池
+    pt:
+      definition: bateria, célula eletroquímica
+    fi:
+      definition: akku, paristo, sähkökemiallinen kenno
+    fr:
+      definition: batterie, cellule électrochimique
+  _original_id: 15644
+  _original_file: mem-25-u.xml

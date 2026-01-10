@@ -1,0 +1,53 @@
+entry:
+  entry_name: motlh
+  slug: motlh_v
+  part_of_speech: v:is
+  pos: v
+  pos_subtype: is
+  status: canonical
+  section: main
+  definition:
+    text: be usual, be standard, be normal
+    parts:
+    - text: be usual
+    - text: be standard
+    - text: be normal
+  antonyms: '{motlhbe'':v}, {qub:v}'
+  see_also: '{le'':v}, {le''be'':v}'
+  hidden_notes: In {TKD:src}, this is defined only as "be usual".[1] In {SkyBox S14:src},
+    {nISwI' HIch motlh:n:nolink} is translated as "standard hand held disruptor".[2]
+    In the {BoP:src} poster, {qughDo motlh:n:nolink} is translated as "normal cruising
+    speed".[3]
+  sources:
+    raw: '[1] {TKD:src}, [2] {SkyBox S14:src} (reprinted in {HQ 4.3, p.4-5, Sep. 1995:src}),
+      [3] {BoP:src}'
+    citations:
+    - source: tkd
+    - source: skybox_s14
+      reprinted_in:
+        source: holqed
+        page_start: 4
+        page_end: 5
+        volume: 4
+        issue: 3
+        date: Sep. 1995
+    - source: bop
+  translations:
+    de:
+      definition: gewöhnlich sein, herkömmlich sein, normal sein, Standard sein
+    fa:
+      definition: به طور معمول، استاندارد باشد، طبیعی باشد [AUTOTRANSLATED]
+    sv:
+      definition: vara vanlig, vara normal, vara standard
+    ru:
+      definition: быть обычным, быть стандартным, быть нормальным
+    zh_HK:
+      definition: 平常、標準、普通、正常
+    pt:
+      definition: ser habitual, ser no padrão, ser normal
+    fi:
+      definition: olla tavallinen, olla normaali, olla vakio-
+    fr:
+      definition: sois habituel, sois standard, sois normal [AUTOTRANSLATED]
+  _original_id: 12180
+  _original_file: mem-08-m.xml

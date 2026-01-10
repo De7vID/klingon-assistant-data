@@ -1,0 +1,57 @@
+entry:
+  entry_name: yer
+  slug: yer_n
+  part_of_speech: n
+  pos: n
+  status: canonical
+  section: main
+  definition:
+    text: domain, holdings, territory
+    parts:
+    - text: domain
+    - text: holdings
+    - text: territory
+  see_also: '{DoQ:v}, {yer ghajwI'' chaw'':n}, {yergho:n}, {teblaw'':n}, {Daq''a'':n}'
+  notes: This word is used in {Klingon Monopoly:src} to denote a game square, including
+    those corresponding to the four ship classes.
+  examples: '
+
+    ▶ {nom yer mechmeH Quj} "The Fast-Dealing Property Trading Game"[2]'
+  search_tags: property, game square
+  sources:
+    raw: '[1] {s.k 1998.12.07:src} (reprinted in {HQ 8.1, p.9, Mar. 1999:src}), [2]
+      {Klingon Monopoly:src}'
+    citations:
+    - source: startrek_klingon
+      date: '1998-12-07'
+      reprinted_in:
+        source: holqed
+        page_start: 9
+        volume: 8
+        issue: 1
+        date: Mar. 1999
+    - source: klingon_monopoly
+  translations:
+    de:
+      definition: Territorium, Grundbesitz
+      notes: Dieses Wort wird im klingonischen Monopoly für ein Spielfeld benutzt,
+        auch für die Felder für die vier Schiffsklassen.[2]
+    fa:
+      definition: دامنه، دارایی ها، قلمرو [AUTOTRANSLATED]
+    sv:
+      definition: domän, egendom, besittning, territorium
+    ru:
+      definition: владения, земля, территория
+    zh_HK:
+      definition: 領域、家當、領土
+    pt:
+      definition: domínio, explorações, território
+    fi:
+      definition: maa-alue, kiinteistö, omistus
+      search_tags: omaisuus
+    fr:
+      definition: domaine, terres, propriété, territoire
+      notes: Ce mot s'utilise dans le Monopoly klingon pour les cases, aussi ceux
+        qui correspondent aux quatre classes de vaisseau.[2]
+  _original_id: 15134
+  _original_file: mem-20-y.xml

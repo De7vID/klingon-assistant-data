@@ -1,0 +1,197 @@
+entries:
+- entry_name: meQ
+  slug: meQ_v_1
+  part_of_speech: v:1,i_c,klcp1
+  pos: v
+  pos_subtype: i_c
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: burn, be on fire
+    parts:
+    - text: burn
+    - text: be on fire
+  notes: 'In general usage, the meaning of this verb is that the subject is on fire.
+    {meQmoH:v@@meQ:v:1, -moH:v} would be used if the subject sets the object on fire.[4]
+
+
+    Due to the influence of {mIQ:v}, this verb is used differently in the context
+    of food preparation. There, the subject of this verb burns the object ({meQ:v:2}).
+    As well, it can be used adjectivally for something that is burnt ({meQ:v:3}).[4]'
+  hidden_notes: This was originally defined just as "burn" in {TKD:src}. Its definition
+    was clarified to "burn, be on fire", and its special usage in food preparation
+    contexts explained, in a message to the mailing list.[4]
+  examples: "\n▶ {meQtaHbogh qachDaq Suv qoH neH.:sen}[2]\n▶ {jIbDaj lumeQmoH:sen:nolink}\n\
+    \   {jIbDaj lumeQmoH:sen:nolink}\n   {qul bIQtIq qulHommey:sen:nolink}\n  \"Sparks\
+    \ from the fire river\n   Caught his hair,\n   Caught his hair.\"[3, p.92-93]\n\
+    ▶ {qeylIS Qaw' 'e' nIDmeH:sen:nolink}\n   {yerDaj weH molor:sen:nolink}\n   {'ej\
+    \ juH qachDaj meQmoH:sen:nolink}\n  \"Molor did not destroy Kahless\n   By burning\
+    \ his house\n   Or ravaging his lands.\"[3, p.120-121]"
+  search_tags: burnt
+  sources:
+    raw: '[1] {TKD:src}, [2] {TKW p.111:src}, [3] {paq''batlh 2ed:src}, [4] {KLI mailing
+      list 2022.06.10:src}'
+    citations:
+    - source: tkd
+    - source: tkw
+      page_start: 111
+    - source: paqbatlh
+    - source: kli_mailing_list
+      date: '2022-06-10'
+  translations:
+    de:
+      definition: brennen, verbrennen
+    fa:
+      definition: سوزاندن [AUTOTRANSLATED]
+    sv:
+      definition: brinna
+    ru:
+      definition: гореть, сжигать, обжечь, спалить, получить ожог
+    zh_HK:
+      definition: 燒
+    pt:
+      definition: queimar
+    fi:
+      definition: palaa
+      notes: '"Polttaa" on {meQmoH:v@@meQ:v:1, -moH:v} [4].
+
+
+        Ruoanlaiton yhteydessä verbiä käytetään voi käyttää transitiivisessa merkityksessä
+        "polttaa, kypsentää" (ks. {meQ:v:2}) tai adjektiivina "olla poltettu, kypsennetty"
+        (ks. {meQ:v:3}) johtuen verbin {mIQ:v} vaikutuksesta [4].'
+      search_tags: polttaa
+    fr:
+      definition: brûler, être en feu
+  _original_id: 12046
+  _original_file: mem-08-m.xml
+- entry_name: meQ
+  slug: meQ_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition:
+    text: burn, set on fire (food preparation)
+    parts:
+    - text: burn
+    - text: set on fire (food preparation)
+  notes: Due to the influence of {mIQ:v}, {meQ:v:1} is used differently in the context
+    of food preparation. In this context, the subject burns the object.[2]
+  examples: '
+
+    ▶ {to''waQ meQ vutwI''.:sen@@to''waQ:n, meQ:v:2, vutwI'':n}[1]'
+  sources:
+    raw: '[1] {KGT p.191:src}, [2] {KLI mailing list 2022.06.10:src}'
+    citations:
+    - source: kgt
+      page_start: 191
+    - source: kli_mailing_list
+      date: '2022-06-10'
+  translations:
+    de:
+      definition: verbrannt sein, angebrannt sein, anzünden (Zubereitung von Speisen)
+    fa:
+      definition: سوختن، آتش زدن (تهیه غذا) [AUTOTRANSLATED]
+    sv:
+      definition: bränna, sätta i brand (matlagning) [AUTOTRANSLATED]
+    ru:
+      definition: сжигать, поджигать (приготовление пищи) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 燃燒，著火（準備食物） [AUTOTRANSLATED]
+    pt:
+      definition: queimar, incendiar (preparação de alimentos)
+    fi:
+      definition: polttaa, kypsentää (ruokaa)
+      notes: Verbin {mIQ:v} vaikutuksesta johtuen {meQ:v:1} "palaa" tarkoittaa ruoanlaiton
+        yhteydessä "polttaa, kypsentää", eli subjekti ei pala, vaan polttaa objektia
+        [2].
+      search_tags: paistaa
+    fr:
+      definition: brûler, mettre le feu (préparation des aliments) [AUTOTRANSLATED]
+  _original_id: 12049
+  _original_file: mem-08-m.xml
+- entry_name: meQ
+  slug: meQ_v_3
+  part_of_speech: v:3,is
+  pos: v
+  pos_subtype: is
+  homophone: 3
+  status: canonical
+  section: main
+  definition: be burnt (food preparation)
+  notes: Due to the influence of {mIQ:v}, {meQ:v:1} is used differently in the context
+    of food preparation. In this context, it can be used adjectivally for something
+    that is burnt.[2]
+  examples: '
+
+    ▶ {Ha''DIbaHmey meQ Sop ''e'' tIv tera''nganpu''.:sen}[1]'
+  sources:
+    raw: '[1] {CK:src}, [2] {KLI mailing list 2022.06.10:src}'
+    citations:
+    - source: ck
+    - source: kli_mailing_list
+      date: '2022-06-10'
+  translations:
+    de:
+      definition: verbrannt werden (Zubereitung von Speisen)
+    fa:
+      definition: سوخته باشد (تهیه غذا) [AUTOTRANSLATED]
+    sv:
+      definition: bli bränd (matlagning) [AUTOTRANSLATED]
+    ru:
+      definition: сгореть (приготовление пищи) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 被燒毀（食物準備） [AUTOTRANSLATED]
+    pt:
+      definition: ser queimado (preparação de alimentos)
+    fi:
+      definition: olla poltettu, kypsennetty (ruoasta)
+      notes: Verbin {mIQ:v} vaikutuksesta johtuen {meQ:v:1} voi tarkoittaa ruoanlaiton
+        yhteyssä "polttaa, kypsentää" (ks. {meQ:v:2}). Tämän lisäksi sillä on adjektiivinen
+        merkitys "olla poltettu, kypsennetty". [2]
+      search_tags: paistettu
+    fr:
+      definition: être brûlé (préparation de la nourriture) [AUTOTRANSLATED]
+  _original_id: 12050
+  _original_file: mem-08-m.xml
+- entry_name: meQ
+  slug: meQ_v_4
+  part_of_speech: v:4,i_c,slang
+  pos: v
+  pos_subtype: i_c
+  homophone: 4
+  categories:
+  - slang
+  status: canonical
+  section: main
+  definition: climax (sexual)
+  synonyms: '{ghuch:v}'
+  search_tags: orgasm
+  sources:
+    raw: '[1] {cha'' monmey:src} ({Saarbrücken qepHom''a'' 2020:src})'
+    citations:
+    - source: cha_monmey
+  translations:
+    de:
+      definition: Höhepunkt erreichten (sexuell)
+    fa:
+      definition: اوج (جنسی) [AUTOTRANSLATED]
+    sv:
+      definition: klimax (sexuell) [AUTOTRANSLATED]
+    ru:
+      definition: климакс (сексуальный) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 高潮（性） [AUTOTRANSLATED]
+    pt:
+      definition: clímax (sexual)
+    fi:
+      definition: saada orgasmi
+    fr:
+      definition: point culminant (sexuel) [AUTOTRANSLATED]
+  _original_id: 12051
+  _original_file: mem-08-m.xml

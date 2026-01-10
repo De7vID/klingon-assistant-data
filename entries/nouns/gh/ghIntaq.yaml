@@ -1,0 +1,85 @@
+entries:
+- entry_name: ghIntaq
+  slug: ghIntaq_n_1
+  part_of_speech: n:1,weap
+  pos: n
+  homophone: 1
+  categories:
+  - weap
+  status: canonical
+  section: main
+  definition:
+    text: battle spear, Gin'tak
+    parts:
+    - text: battle spear
+    - text: Gin'tak
+  see_also: '{naQjej:n}, {ghIntaq:n:2,extcan}'
+  hidden_notes: In {TNG - Birthright, Part II:src}, Worf snatches this weapon out
+    of a young man's hand when he sees him tilling the soil with it.
+  sources:
+    raw: '[1] {KGT:src}, [2] {TNG - Birthright, Part II:src}'
+    citations:
+    - source: kgt
+    - source: tng_birthright_part_ii
+  translations:
+    de:
+      definition: Gin'tak, Kampfspeer
+    fa:
+      definition: نیزه جنگ ، گینتاک [AUTOTRANSLATED]
+    sv:
+      definition: stridsspjut, gin'tak
+    ru:
+      definition: Боевое копьё, Джинтак
+    zh_HK:
+      definition: 戰鬥矛、Gin'tak [AUTOTRANSLATED]
+    pt:
+      definition: lança de batalha, Gin'tak
+    fi:
+      definition: eräs taistelukeihäs, gin'tak
+    fr:
+      definition: lance de combat, Gin'tak
+  _original_id: 10957
+  _original_file: mem-04-gh.xml
+- entry_name: ghIntaq
+  slug: ghIntaq_n_2
+  part_of_speech: n:2,being,extcan
+  pos: n
+  pos_subtype: being
+  homophone: 2
+  metadata_tags:
+  - extcan
+  status: extended_canon
+  section: extra
+  definition:
+    text: gin'tak, trusted adviser of a Klingon House
+    parts:
+    - text: gin'tak
+    - text: trusted adviser of a Klingon House
+  see_also: '{ghIntaq:n:1}'
+  hidden_notes: In {TNG - Firstborn:src}, K'mtar is the gin'tak to the House of Mogh.[1]
+    In the glossary to {A Burning House:src}, it is claimed that this word and {ghIntaq:n:1}
+    are in fact the same word.[2]
+  sources:
+    raw: '[1] {TNG - Firstborn:src}, [2] {A Burning House:src}'
+    citations:
+    - source: tng_firstborn
+    - source: a_burning_house
+  translations:
+    de:
+      definition: Berater eines Klingonischen Hauses
+    fa:
+      definition: مشاور اعتماد یک خانه کلینگان [AUTOTRANSLATED]
+    sv:
+      definition: stridsspjut, gin'tak
+    ru:
+      definition: доверенный советник клингонского дома [AUTOTRANSLATED]
+    zh_HK:
+      definition: 克林崗之家值得信賴的顧問 [AUTOTRANSLATED]
+    pt:
+      definition: conselheiro de confiança de uma casa Klingon
+    fi:
+      definition: klingonisuvun luotettu neuvonantaja
+    fr:
+      definition: gin'tak, conseiller de confiance d'une maison Klingon [AUTOTRANSLATED]
+  _original_id: 16155
+  _original_file: mem-27-extra.xml

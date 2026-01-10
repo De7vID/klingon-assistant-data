@@ -1,0 +1,56 @@
+entry:
+  entry_name: DoD
+  slug: DoD_n
+  part_of_speech: n
+  pos: n
+  status: canonical
+  section: main
+  definition: mark (in coordinates)
+  see_also: '{Quv:n}, {vI'':n:2}'
+  notes: This refers to the separator used in specifying a set of coordinates, and
+    not to a specific coordinate point or location (for which see {Quv:n}).
+  examples: '
+
+    ▶ {He wej pagh Soch DoD cha'':sen:nolink} "course 3-0-7-mark-2"[2]
+
+    ▶ {He pagh-pagh-pagh-DoD-cha'' yInab!:sen}'
+  sources:
+    raw: '[1] {TKDA:src}, [2] {s.k 1999.11.21:src} (reprinted in {HQ 8.4, p.8, Dec.
+      1999:src}), [3] {Star Trek V:src}'
+    citations:
+    - source: tkda
+    - source: startrek_klingon
+      date: '1999-11-21'
+      reprinted_in:
+        source: holqed
+        page_start: 8
+        volume: 8
+        issue: 4
+        date: Dec. 1999
+    - source: star_trek_v
+  translations:
+    de:
+      definition: Komma, Strich (in Koordinaten)
+    fa:
+      definition: علامت (در مختصات) [AUTOTRANSLATED]
+    sv:
+      definition: mark, märke, punkt, komma, avskiljare (i koordinater)
+    ru:
+      definition: отметка (координаты)
+      notes: Это относится к разделителю, используемому, чтобы определить набор координат,
+        а не определенную координатную точку или локацию (для которой смотрите {Quv:n}).
+      examples: '
+
+        ▶ {He wej pagh Soch DoD cha'':sen:nolink} "Курс 3-0-7-отметка-2"[2]
+
+        ▶ {He pagh-pagh-pagh-DoD-cha'' yInab!:sen}'
+    zh_HK:
+      definition: 標記（坐標）
+    pt:
+      definition: marca, ponto (em coordenadas)
+    fi:
+      definition: erotin (koordinaateissa)
+    fr:
+      definition: marque (en coordonnées) [AUTOTRANSLATED]
+  _original_id: 10736
+  _original_file: mem-03-D.xml

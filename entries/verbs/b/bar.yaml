@@ -1,0 +1,41 @@
+entry:
+  entry_name: bar
+  slug: bar_v
+  part_of_speech: v:i
+  pos: v
+  pos_subtype: i
+  status: canonical
+  section: main
+  definition:
+    text: blink, flash
+    parts:
+    - text: blink
+    - text: flash
+  see_also: '{pan:v:1}, {ghon:v}'
+  notes: This means to light up briefly or repeatedly.
+  sources:
+    raw: '[1] {qep''a'' 25 (2018):src}'
+    citations:
+    - source: qepa_2018
+      date: '2018'
+  translations:
+    de:
+      definition: aufblitzen
+      notes: Dies bedeutet kurz oder wiederholt aufleuchten.
+    fa:
+      definition: چشمک زدن، برق زدن
+    sv:
+      definition: blinka (med lampa), lysa till
+    ru:
+      definition: мигать, мигать [AUTOTRANSLATED]
+    zh_HK:
+      definition: 眨、閃
+    pt:
+      definition: piscar
+    fi:
+      definition: vilkkua, välähtää
+    fr:
+      definition: clignoter
+      notes: Ceci signifie s'éclairer brièvement ou plusieurs fois.
+  _original_id: 10028
+  _original_file: mem-01-b.xml

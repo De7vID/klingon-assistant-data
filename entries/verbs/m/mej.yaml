@@ -1,0 +1,94 @@
+entry:
+  entry_name: mej
+  slug: mej_v
+  part_of_speech: v:t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: leave, depart
+    parts:
+    - text: leave
+    - text: depart
+  antonyms: '{paw:v}'
+  notes: 'While {mej:v:nolink} refers simply to leaving one''s current location, {tlheD:v}
+    generally implies setting out on a journey, with a goal or destination in mind.
+    In both cases, the object is the place you''re leaving or departing from.[3]
+
+
+    The suffix {-vo'':n:suff} (with the no-object prefix) is used when the place that
+    one is leaving is a starting point. Without the suffix (and with the prefix indicating
+    an object), it simply means that one is no longer at a place they''ve been. It''s
+    also possible to have both a starting point marked with {-vo''} and a place as
+    the object, in which case one is leaving the place from that starting point.[5]
+
+
+    If a Klingon had to say "goodbye", they might say {DaH jImej:sen@@DaH:adv, jI-:v,
+    mej:v}, literally "I''m leaving now".[2] Of course, in most situations a Klingon
+    would just leave, without superfluous niceties such as declaring his or her intention
+    to do so.
+
+
+    This would not normally be used of an inanimate object, for which see {ngab:v}
+    (or {loj:v} if something goes away gradually).[4]
+
+
+    To express leaving a person or object (rather than a location), consider {lon:v}.'
+  hidden_notes: 'The {TNK:src} software forces all languages to follow a template,
+    which includes expressions such as "hello", "goodbye", and colour words which
+    don''t have a natural translation in Klingon.
+
+
+    There are situations in which a Klingon might actually say {DaH jImej:sen:nolink}.
+    See the examples under {ghIm:v} and {qIvon belmoH:sen}.
+
+
+    The example sentences from the mailing list came out of a discussion about revisions
+    to the {paq''batlh:src}.'
+  examples: '
+
+    ▶ {bIghHa'' DamejDI'' pagh QaS yInob.:sen}
+
+    ▶ {chalqachlIjvo'' bImej:sen:nolink} (you leave, with your tower as a starting
+    point)[5]
+
+    ▶ {chalqachlIj Damej:sen:nolink} (you leave your tower, where you had previously
+    been)[5]
+
+    ▶ {lojmItmeyvo'' ghe''tor Damejta'':sen:nolink} (you left Gre''thor from the gates)[5]'
+  search_tags: bye, goodbye
+  sources:
+    raw: '[1] {TKDA:src}, [2] {TNK:src}, [3] {Saarbrücken qepHom''a'' 2019:src}, [4]
+      {QelIS boqHarmey:src}, [5] {KLI mailing list 2022.05.28:src}'
+    citations:
+    - source: tkda
+    - source: tnk
+    - source: qephom_2019
+      date: '2019'
+    - source: qelis_boqharmey
+    - source: kli_mailing_list
+      date: '2022-05-28'
+  translations:
+    de:
+      definition: verlassen, abfahren, weggehen
+      search_tags: abfahren, losfahren, losgehen, abfliegen, wegfliegen, losfliegen
+    fa:
+      definition: ترک، ترک [AUTOTRANSLATED]
+    sv:
+      definition: lämna, avvika, ge sig av, avlägsna sig
+    ru:
+      definition: уходить, покидать, отправляться
+      search_tags: прощай, досвидания
+    zh_HK:
+      definition: 走、離開
+    pt:
+      definition: sair, partir
+    fi:
+      definition: lähteä, mennä pois jostakin
+    fr:
+      definition: partir
+  _original_id: 12025
+  _original_file: mem-08-m.xml

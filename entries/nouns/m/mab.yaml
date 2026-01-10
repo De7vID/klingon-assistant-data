@@ -1,0 +1,86 @@
+entries:
+- entry_name: mab
+  slug: mab_n_1
+  part_of_speech: n:1
+  pos: n
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: treaty, agreement, contract, commitment
+    parts:
+    - text: treaty
+    - text: agreement
+    - text: contract
+    - text: commitment
+  see_also: '{qI'':v:1}, {Sutlh:v}'
+  notes: This word is also used when Klingons talk about an account that one signs
+    up for to use a service, such as a computer accounts. See {mab:n:2}.
+  hidden_notes: 'This is defined only as "treaty" in {TKD:src}. The additional definitions
+    come from {Saarbrücken qepHom''a'' 2016:src}.
+
+
+    Possibly a reference to the fairy Queen Mab in Romeo and Juliet, who is known
+    for making bargains with mortals.'
+  sources:
+    raw: '[1] {TKD:src}, [2] {Saarbrücken qepHom''a'' 2016:src}'
+    citations:
+    - source: tkd
+    - source: qephom_2016
+      date: '2016'
+  translations:
+    de:
+      definition: Vertrag, Abkommen, Verpflichtung, Zusage, Zusicherung
+    fa:
+      definition: پیمان، قرارداد، کنترات
+    sv:
+      definition: avtal
+    ru:
+      definition: соглашение, договорённость, контракт
+    zh_HK:
+      definition: 條約、合同、承諾、協議
+    pt:
+      definition: tratado, acordo, contrato, compromisso
+    fi:
+      definition: sopimus, sitoumus
+    fr:
+      definition: traité, accord, contrat, engagement [AUTOTRANSLATED]
+  _original_id: 11921
+  _original_file: mem-08-m.xml
+- entry_name: mab
+  slug: mab_n_2
+  part_of_speech: n:2
+  pos: n
+  homophone: 2
+  status: canonical
+  section: main
+  definition: account (for using a service)
+  notes: This is an extension of {mab:n:1} to mean an account that someone can sign
+    up for to use a service, such as a computer account. The verb to sign up for an
+    account is {qI':v:2}. To log in to an account is {ngaQHa'moH:v:2}, and to log
+    off is {ngaQmoH:v:2}.
+  hidden_notes: This was used in Netflix's Klingon language promotional material.
+  sources:
+    raw: '[1] {KLI mailing list 2018.02.17:src}'
+    citations:
+    - source: kli_mailing_list
+      date: '2018-02-17'
+  translations:
+    de:
+      definition: Account, Konto (z.B. Computerkonto)
+    fa:
+      definition: حساب (برای استفاده از یک سرویس) [AUTOTRANSLATED]
+    sv:
+      definition: konto (för att använda en tjänst) [AUTOTRANSLATED]
+    ru:
+      definition: аккаунта
+    zh_HK:
+      definition: 帳戶（用於使用服務） [AUTOTRANSLATED]
+    pt:
+      definition: conta (para usar um serviço)
+    fi:
+      definition: tili (palvelussa tms.)
+    fr:
+      definition: compte (pour utiliser un service) [AUTOTRANSLATED]
+  _original_id: 11922
+  _original_file: mem-08-m.xml

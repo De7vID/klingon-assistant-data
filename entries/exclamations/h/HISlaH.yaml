@@ -1,0 +1,43 @@
+entry:
+  entry_name: HISlaH
+  slug: HISlaH_excl
+  part_of_speech: excl:klcp1
+  pos: excl
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: yes, true (answer to yes/no question)
+    parts:
+    - text: 'yes'
+    - text: 'true'
+    global_parenthetical: answer to yes/no question
+  synonyms: '{HIja'':excl}'
+  antonyms: '{ghobe'':excl}'
+  see_also: '{-''a'':v:suff}, {lu'':excl}, {luq:excl}'
+  notes: This is a variant of {HIja':excl}.
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: ja, stimmt (Antwort auf ja/nein Frage)
+    fa:
+      definition: بله، درست (پاسخ به بله / بدون سوال) [AUTOTRANSLATED]
+    sv:
+      definition: ja (svar på ja/nej fråga)
+    ru:
+      definition: Да, верно (ответ на вопрос да\нет)
+      notes: Является разновидностью {HIja':excl}.
+    zh_HK:
+      definition: 是的、是的（回答是/否問題） [AUTOTRANSLATED]
+    pt:
+      definition: sim, verdadeiro (resposta à pergunta sim / não)
+    fi:
+      definition: kyllä (vastaus kyllä/ei-kysymykseen)
+    fr:
+      definition: oui, vrai (réponse à une question totale)
+  _original_id: 11242
+  _original_file: mem-05-H.xml

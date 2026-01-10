@@ -1,0 +1,80 @@
+entries:
+- entry_name: ngIb
+  slug: ngIb_n_1
+  part_of_speech: n:1,body
+  pos: n
+  pos_subtype: body
+  homophone: 1
+  status: canonical
+  section: main
+  definition: ankle
+  see_also: '{bem:n}, {qam:n}, {mov:n}, {yeb:n:1}, {''uS:n}, {wIlle'':n}'
+  notes: This is also a slang term of deprecation ({ngIb:n:2}).
+  hidden_notes: This is listed in the {KGT:src} word lists as "ankle (also a slang
+    term of deprecation)". The two meanings have been split into separate entries
+    for consistency with other slang terms.
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Fußknöchel
+      notes: Dies wird umgangssprachlich auch als abwertender Begriff verwendet ({ngIb:n:2}).
+    fa:
+      definition: مچ پا (همچنین یک اصطلاح عامیانه از تخلیه) [AUTOTRANSLATED]
+    sv:
+      definition: vrist, fotled (även slanguttryck för ogillande)
+    ru:
+      definition: лодыжка [AUTOTRANSLATED]
+    zh_HK:
+      definition: 腳踝
+    pt:
+      definition: tornozelo
+    fi:
+      definition: nilkka
+    fr:
+      definition: cheville
+      notes: Ceci s'utilise aussi comme terme argotique de dépréciation ({ngIb:n:2}).
+  _original_id: 12634
+  _original_file: mem-10-ng.xml
+- entry_name: ngIb
+  slug: ngIb_n_2
+  part_of_speech: n:2,slang
+  pos: n
+  homophone: 2
+  categories:
+  - slang
+  status: canonical
+  section: main
+  definition: slang term of deprecation
+  notes: This slang meaning was influenced by the Krotmag pronunciation of {ngIb:n:1},
+    which sounds like {ngIm:v}.
+  sources:
+    raw: '[1] {KGT p.166:src}'
+    citations:
+    - source: kgt
+      page_start: 166
+  translations:
+    de:
+      definition: umgangssprachlich als abwertender Begriff
+      notes: Diese umgangssprachliche Bedeutung ist von der Krotmag-Aussprache von
+        {ngIb:n:1} beeinflusst, in der es wie {ngIm:v} klingt.
+    fa:
+      definition: مدت زمان اصطلاح استهلاک [AUTOTRANSLATED]
+    sv:
+      definition: slang avskrivningstid [AUTOTRANSLATED]
+    ru:
+      definition: сленговый термин устаревания [AUTOTRANSLATED]
+    zh_HK:
+      definition: de貶詞 [AUTOTRANSLATED]
+    pt:
+      definition: gíria termo de depreciação
+    fi:
+      definition: puhekielinen sana paheksumiselle
+    fr:
+      definition: terme argotique de dépréciation
+      notes: Cette signification argotique est influencée par la prononciation de
+        {ngIb:n:1} du Krotmag, qui ressemble à {ngIm:v}.
+  _original_id: 12635
+  _original_file: mem-10-ng.xml

@@ -1,0 +1,83 @@
+entries:
+- entry_name: QIn
+  slug: QIn_n_1
+  part_of_speech: n:1
+  pos: n
+  homophone: 1
+  status: canonical
+  section: main
+  definition: message
+  see_also: '{jabbI''ID:n}, {nav QIn:n}'
+  hidden_notes: This word is often used to refer to email messages among Klingonists.
+  search_tags: mail, email, e-mail
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Nachricht
+    fa:
+      definition: پیام [AUTOTRANSLATED]
+    sv:
+      definition: meddelande
+    ru:
+      definition: Сообщение, послание, уведомление
+      search_tags: почта, электронное письмо
+    zh_HK:
+      definition: 信息 [AUTOTRANSLATED]
+    pt:
+      definition: mensagem
+    fi:
+      definition: viesti
+      search_tags: sähköposti
+    fr:
+      definition: message
+  _original_id: 13464
+  _original_file: mem-13-Q.xml
+- entry_name: QIn
+  slug: QIn_n_2
+  part_of_speech: n:2,weap
+  pos: n
+  homophone: 2
+  categories:
+  - weap
+  status: canonical
+  section: main
+  definition: spearhead
+  see_also: '{naQjej:n}, {QIn pup:n}, {QIn vagh:n}, {SeDveq:n}'
+  notes: 'This word also refers to the sharpened end of a pencil. It likely refers
+    to the sharp end of any stick-like object.[2]
+
+
+    It is used to refer to the point on a (geometric) star ({DujtlhuQ:n}).[3]'
+  sources:
+    raw: '[1] {KGT:src}, [2] {HQ 12.2, Jun. 2003:src}, [3] {Saarbrücken qepHom''a''
+      2014:src}'
+    citations:
+    - source: kgt
+    - source: holqed
+      volume: 12
+      issue: 2
+      date: Jun. 2003
+    - source: qephom_2014
+      date: '2014'
+  translations:
+    de:
+      definition: Speerspitze
+    fa:
+      definition: فرمانده [AUTOTRANSLATED]
+    sv:
+      definition: vass spets (t.ex. på penna), spjutspets
+    ru:
+      definition: наконечник копья [AUTOTRANSLATED]
+    zh_HK:
+      definition: 矛頭 [AUTOTRANSLATED]
+    pt:
+      definition: ponta de lança
+    fi:
+      definition: keihäänkärki
+    fr:
+      definition: fer de lance
+  _original_id: 13465
+  _original_file: mem-13-Q.xml

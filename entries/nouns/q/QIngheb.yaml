@@ -1,0 +1,49 @@
+entry:
+  entry_name: QIngheb
+  slug: QIngheb_n
+  part_of_speech: n:deriv,fic,weap
+  pos: n
+  categories:
+  - weap
+  metadata_tags:
+  - deriv
+  - fic
+  status: canonical
+  section: main
+  definition: type of spear
+  notes: This is similar to a {ghIntaq:n:1}, except that the handle is longer, the
+    blade is much wider, and a downward-curved horn protrudes from the bottom of the
+    blade. It is rarely used today.[1]
+  hidden_notes: This appears to have been the result of using Bing translator to translate
+    "spear with horn", without understanding that {gheb:n:nolink} means "horn" as
+    in the musical instrument, rather than a hooked point as in a weapon. This word
+    was retroactively "vetted" by Marc Okrand after the book's publication.[2]
+  components: '{QIn:n:2}, {gheb:n}'
+  sources:
+    raw: '[1] {The Klingon Art of War:src}, [2] {Saarbrücken qepHom''a'' 2014:src}'
+    citations:
+    - source: the_klingon_art_of_war
+    - source: qephom_2014
+      date: '2014'
+  translations:
+    de:
+      definition: eine Speersorte
+    fa:
+      definition: نوع کپی [AUTOTRANSLATED]
+    sv:
+      definition: typ av spjut [AUTOTRANSLATED]
+    ru:
+      definition: Тип копья
+      notes: Похож на {ghIntaq:n:1}, за исключением того, что ручка длинее, лезвие
+        шире, а загнутый вниз рог выступает снизу лезвия. Редко используется в наши
+        дни.[1]
+    zh_HK:
+      definition: 矛類型 [AUTOTRANSLATED]
+    pt:
+      definition: tipo de lança
+    fi:
+      definition: eräs keihästyyppi
+    fr:
+      definition: type de lance
+  _original_id: 13472
+  _original_file: mem-13-Q.xml

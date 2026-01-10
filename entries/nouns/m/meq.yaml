@@ -1,0 +1,64 @@
+entry:
+  entry_name: meq
+  slug: meq_n
+  part_of_speech: n:klcp1
+  pos: n
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: reason, motive, logical thinking, topic, subject, theme
+    parts:
+    - text: reason
+    - text: motive
+    - text: logical thinking
+    - text: topic
+    - text: subject
+    - text: theme
+  see_also: '{mo'':n:2}, {ngoQ:n}, {ghanroq:n}, {meq:v}, {pon:v}'
+  notes: This can be used to refer to the topic, subject, or theme of a conversation,
+    story, etc. (That is, it describes the "reason" or "motive" for the conversation
+    or story.)
+  hidden_notes: 'This is defined as "reason" in {TKD:src} and as "motive" in the word
+    lists in {KGT:src}. It is also glossed as "logical thinking" (in the sense of
+    "motive") in the body of {KGT:src} on p.154. At {qep''a'' 25 (2018):src}, its
+    definition was expanded to include "topic, subject, theme".
+
+
+    This was also used for the "logic" menu (instructions about program flow control)
+    in Klingon Blockly.[3]'
+  examples: '
+
+    ▶ {ram meqmey.:sen}'
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT:src}, [3] {KLI mailing list 2014.11.26:src}, [4]
+      {qep''a'' 25 (2018):src}'
+    citations:
+    - source: tkd
+    - source: kgt
+    - source: kli_mailing_list
+      date: '2014-11-26'
+    - source: qepa_2018
+      date: '2018'
+  translations:
+    de:
+      definition: Grund, Motiv, Anlass, Thema
+    fa:
+      definition: دلیل، انگیزه، تفکر منطقی، موضوع، موضوع، موضوع [AUTOTRANSLATED]
+    sv:
+      definition: orsak, motiv, anledning, skäl, tankesätt
+    ru:
+      definition: причина, мотив, логичное мышление, тема, субъект, предмет обсуждения
+      notes: Это может быть использовано, чтобы упомянуть о теме разговора, обсуждения,
+        разговора и т.д.
+    zh_HK:
+      definition: 理性、動機、邏輯思維、主題、主題、主題 [AUTOTRANSLATED]
+    pt:
+      definition: razão, motivo, pensamento lógico, tema, assunto, tópico
+    fi:
+      definition: syy, motiivi, järki; aihe, teema
+    fr:
+      definition: raison, motif, pensée logique, sujet, sujet, thème [AUTOTRANSLATED]
+  _original_id: 12035
+  _original_file: mem-08-m.xml

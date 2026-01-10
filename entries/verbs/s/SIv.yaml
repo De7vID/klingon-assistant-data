@@ -1,0 +1,58 @@
+entry:
+  entry_name: SIv
+  slug: SIv_v
+  part_of_speech: v:t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition: wonder
+  notes: This verb can take {'e':n:pro} as its object. When used as the second verb
+    in a sentence as object construction, it is usually translated as "wonder if".[2]
+  hidden_notes: This is missing from the E-K side of {TKD:src}, probably as a joke
+    to make us wonder if it was a mistake.
+  examples: '
+
+    ▶ {tlhIngan Hol Dajatlh ''e'' vISIv.:sen:nolink} "I wonder if you speak Klingon."
+    This means something like, "I am curious about whether you speak Klingon."[2]'
+  sources:
+    raw: '[1] {TKD:src}, [2] {msn 1997.07.01:src} (reprinted in {HQ 7.2, p.8, Jun.
+      1998:src})'
+    citations:
+    - source: tkd
+    - source: msn
+      date: '1997-07-01'
+      reprinted_in:
+        source: holqed
+        page_start: 8
+        volume: 7
+        issue: 2
+        date: Jun. 1998
+  translations:
+    de:
+      definition: sich fragen, sich wundern
+    fa:
+      definition: تعجب [AUTOTRANSLATED]
+    sv:
+      definition: undra, fråga sig, fundera
+    ru:
+      definition: задаваться вопросом [AUTOTRANSLATED]
+    zh_HK:
+      definition: 奇蹟 [AUTOTRANSLATED]
+    pt:
+      definition: se maravilhar
+    fi:
+      definition: pohtia, ihmetellä
+      notes: Tämän verbin objekti voi olla {'e':n:pro}. Tällöin se suomennetaan epäsuoralla
+        kysymyslauseella.
+      examples: '
+
+        ▶ {tlhIngan Hol Dajatlh ''e'' vISIv.:sen:nolink} "Pohdin, puhutko klingonia
+        (vai et)."[2]'
+      search_tags: kummastella
+    fr:
+      definition: se demander, s'étonner de
+  _original_id: 14032
+  _original_file: mem-15-S.xml

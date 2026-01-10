@@ -1,0 +1,69 @@
+entry:
+  entry_name: nIS
+  slug: nIS_v
+  part_of_speech: v:t_c
+  pos: v
+  pos_subtype: t_c
+  status: canonical
+  section: main
+  definition:
+    text: hinder, interfere (with), disrupt
+    parts:
+    - text: hinder
+    - text: interfere (with)
+    - text: disrupt
+  see_also: '{mun:v}, {Haq:v:2}'
+  notes: To express casting/throwing/making a shadow, {QIb:n} could be used as the
+    subject of this verb. The object, if specified, would be the surface onto which
+    the shadow is cast.[4]
+  hidden_notes: 'This is defined in {TKD:src} as "hinder, interfere" and in {TKDA:src}
+    as "disrupt, interfere (with)".
+
+
+    "Trespassing vessel" was translated as {nISbogh Duj:n:nolink} in a deleted scene
+    from the 2009 {Star Trek:src} movie.'
+  examples: "\n▶ {labmeH 'evnagh Se' lo' tlhIngan QumwI'. janmey ngo' lulo'lu'DI'\
+    \ pIj jabbI'ID nISpu' woj.:sen:nolink}\n  \"A Klingon communicator sends a signal\
+    \ through subspace radio. Older models were susceptible to radiation.\"[3]"
+  search_tags: trespass, shadow
+  sources:
+    raw: '[1] {TKD:src}, [2] {TKDA:src}, [3] {SkyBox S19:src} (reprinted in {HQ 5.2,
+      p.14, Jun. 1996:src}), [4] {qep''a'' 27 (2020):src}'
+    citations:
+    - source: tkd
+    - source: tkda
+    - source: skybox_s19
+      reprinted_in:
+        source: holqed
+        page_start: 14
+        volume: 5
+        issue: 2
+        date: Jun. 1996
+    - source: qepa_2020
+      date: '2020'
+  translations:
+    de:
+      definition: interferieren, stören, unterbrechen, hindern, behindern
+    fa:
+      definition: مانع، تداخل (با)، اختلال [AUTOTRANSLATED]
+    sv:
+      definition: hindra, störa, avbryta, lägga sig i
+    ru:
+      definition: препятствовать, мешать, быть помехой, вмешиваться куда-то, подрывать,
+        разрушать
+      examples: "\n▶ {labmeH 'evnagh Se' lo' tlhIngan QumwI'. janmey ngo' lulo'lu'DI'\
+        \ pIj jabbI'ID nISpu' woj.:sen:nolink}\n  \"Клингонский коммуникатор посылает\
+        \ сигнал через подпространственный приемник. Более старые модели были восприимчивы\
+        \ к радиации.\"[3]"
+      search_tags: посягательство
+    zh_HK:
+      definition: 阻礙、干擾（擾亂）、擾亂 [AUTOTRANSLATED]
+    pt:
+      definition: dificultar, interferir (com), perturbar
+    fi:
+      definition: estää, vaikeuttaa, haitata, häiritä; varjostaa
+      search_tags: varjo
+    fr:
+      definition: gêner, interférer (avec), perturber [AUTOTRANSLATED]
+  _original_id: 12415
+  _original_file: mem-09-n.xml

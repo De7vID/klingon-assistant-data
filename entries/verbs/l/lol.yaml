@@ -1,0 +1,109 @@
+entries:
+- entry_name: lol
+  slug: lol_v_1
+  part_of_speech: v:1,i_c
+  pos: v
+  pos_subtype: i_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: be in a stance, be in a pose (people, animals, or martial arts)
+    parts:
+    - text: be in a stance
+    - text: be in a pose (people, animals, or martial arts)
+    dedup: true
+  see_also: '{lol:n}, {moQbara'':n}, {lol:v:2}'
+  notes: The verb to use for striking a pose or stance is {much:v:3}.
+  hidden_notes: '"Lol about".'
+  examples: '
+
+    ▶ {lol SuvwI''; mIl''oD much:sen@@lol:v:1, SuvwI'':n, mIl''oD:n, much:v:3}'
+  sources:
+    raw: '[1] {HQ 11.2, Jun. 2002:src}, [2] {KLI mailing list 2019.03.01:src}'
+    citations:
+    - source: holqed
+      volume: 11
+      issue: 2
+      date: Jun. 2002
+    - source: kli_mailing_list
+      date: '2019-03-01'
+  translations:
+    de:
+      definition: in einer bestimmten Pose stehen (Personen, Tiere oder Kampfsport)
+    fa:
+      definition: در موقعیت قرار گیرید، در یک موقعیت قرار بگیرید (مردم، حیوانات، یا
+        هنرهای رزمی) [AUTOTRANSLATED]
+    sv:
+      definition: vara i en position, vara i ett läge, vara i en pose
+    ru:
+      definition: быть в стойке, быть в позе (люди, животные или боевые искусства)
+        [AUTOTRANSLATED]
+    zh_HK:
+      definition: 站立、姿勢（人、動物或武術） [AUTOTRANSLATED]
+    pt:
+      definition: estar em uma posição, em uma pose (pessoas, animais ou artes marciais)
+    fi:
+      definition: olla asennossa (ihmisistä, eläimistä, esim. taistelulajeissa)
+    fr:
+      definition: être dans une position, être dans une pose (personnes, animaux ou
+        arts martiaux) [AUTOTRANSLATED]
+  _original_id: 11826
+  _original_file: mem-07-l.xml
+- entry_name: lol
+  slug: lol_v_2
+  part_of_speech: v:2,i_c
+  pos: v
+  pos_subtype: i_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: be in an attitude (aircraft)
+  see_also: '{tor:v:2}, {ron:v:2}, {Dav:v:2}, {Der:v:2}, {jer:v}, {jIm:v:2}, {taH:v:2},
+    {''or:v}, {lol:v:1}'
+  notes: 'Note that there is a homophonous verb {lol:v:1} which can be applied to
+    people or animals.
+
+
+    Some of the verb suffixes have a precise meaning when used with this verb, when
+    it is applied to aircraft or spacecraft:
+
+    ▶ {lolchu'':v} "be in a correct attitude"
+
+    ▶ {lolchu''taH:v} "maintain a correct attitude"
+
+    ▶ {lolmoH:v} "maneuver (an aircraft) to be in an attitude"
+
+    ▶ {loltaH:v} "maintain an attitude"'
+  hidden_notes: 'In aviation, attitude refers to an aircraft''s orientation with respect
+    to the horizon. This should not be confused with altitude, or distance to the
+    ground.
+
+
+    It is unclear if this can be used adjectivally.'
+  sources:
+    raw: '[1] {HQ 11.2, Jun. 2002:src}'
+    citations:
+    - source: holqed
+      volume: 11
+      issue: 2
+      date: Jun. 2002
+  translations:
+    de:
+      definition: in einer Fluglage befinden (Flugzeug)
+    fa:
+      definition: در یک نگرش (هواپیما) [AUTOTRANSLATED]
+    sv:
+      definition: vara i en position, vara i ett läge, vara i en pose, vara i en
+    ru:
+      definition: быть в позиции [AUTOTRANSLATED]
+    zh_HK:
+      definition: 態度（飛機） [AUTOTRANSLATED]
+    pt:
+      definition: estar em uma altitude (aeronave)
+    fi:
+      definition: olla lentoasennossa (lentokoneesta)
+    fr:
+      definition: être dans une attitude (avion) [AUTOTRANSLATED]
+  _original_id: 11827
+  _original_file: mem-07-l.xml

@@ -1,0 +1,36 @@
+entry:
+  entry_name: '''opDIch'
+  slug: '''opDIch_n'
+  part_of_speech: n:num,deriv
+  pos: n
+  pos_subtype: num
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition: nth
+  components: '{''op:n}, {-DIch:n:num,suff}'
+  sources:
+    raw: '[1] {QelIS boqHarmey:src}'
+    citations:
+    - source: qelis_boqharmey
+  translations:
+    de:
+      definition: n-ter / n-te / n-tes
+    fa:
+      definition: نهمین [AUTOTRANSLATED]
+    sv:
+      definition: n-te
+    ru:
+      definition: nth [AUTOTRANSLATED]
+    zh_HK:
+      definition: 第 n 個 [AUTOTRANSLATED]
+    pt:
+      definition: enésimo
+    fi:
+      definition: '"n:s", mielivaltainen kohta sarjassa'
+      search_tags: ännäs, n:s, n.
+    fr:
+      definition: n-ième
+  _original_id: 15556
+  _original_file: mem-24-o.xml

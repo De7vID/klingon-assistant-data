@@ -1,0 +1,76 @@
+entries:
+- entry_name: bol
+  slug: bol_v_1
+  part_of_speech: v:1,i_c
+  pos: v
+  pos_subtype: i_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition: drool
+  see_also: '{tIl:v}, {tlhepQe'':n}, {bolwI'':n}, {bol:v:2}'
+  hidden_notes: It is explicitly stated on {KGT p.147:src} that the non-slang meaning
+    of this verb does not take an object.
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: sabbern
+    fa:
+      definition: خالی [AUTOTRANSLATED]
+    sv:
+      definition: dregla
+    ru:
+      definition: сочиться, течь
+    zh_HK:
+      definition: 流口水
+    pt:
+      definition: babar
+    fi:
+      definition: kuolata
+    fr:
+      definition: baver
+  _original_id: 10206
+  _original_file: mem-01-b.xml
+- entry_name: bol
+  slug: bol_v_2
+  part_of_speech: v:2,t_c,slang
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  categories:
+  - slang
+  status: canonical
+  section: main
+  definition: betray
+  synonyms: '{magh:v}'
+  see_also: '{bol:v:1}'
+  hidden_notes: The slang definition of this verb appears in the discussion on {bolwI':n}
+    on {KGT p.147:src}, but is not found in the word lists in that book. This is the
+    reverse of {lob:v}.
+  sources:
+    raw: '[1] {KGT p.147:src}'
+    citations:
+    - source: kgt
+      page_start: 147
+  translations:
+    de:
+      definition: verraten
+    fa:
+      definition: خیانت کردن [AUTOTRANSLATED]
+    sv:
+      definition: förråda
+    ru:
+      definition: Предавать
+    zh_HK:
+      definition: 背叛
+    pt:
+      definition: trair
+    fi:
+      definition: pettää
+    fr:
+      definition: trahir
+  _original_id: 10207
+  _original_file: mem-01-b.xml

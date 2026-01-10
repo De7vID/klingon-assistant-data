@@ -1,0 +1,42 @@
+entry:
+  entry_name: paghlogh
+  slug: paghlogh_adv
+  part_of_speech: adv:deriv
+  pos: adv
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition: never
+  synonyms: '{not:adv}, {ghe''torvo'' narghDI'' qa''pu'':sen}'
+  antonyms: '{Hochlogh:adv}'
+  notes: This intentionally ungrammatical word is an emphatic alternative for {not:adv}.
+  components: '{pagh:n:2}, {-logh:n:num,suff}'
+  examples: '
+
+    ▶ {paghlogh jegh tlhIngan SuvwI''.:sen:nolink}'
+  sources:
+    raw: '[1] {KGT p.178:src}'
+    citations:
+    - source: kgt
+      page_start: 178
+  translations:
+    de:
+      definition: niemals
+    fa:
+      definition: هرگز
+    sv:
+      definition: ingen gång, aldrig (emfatiskt)
+    ru:
+      definition: никогда
+      notes: Это более выразительная альтернатива для {not:adv}.
+    zh_HK:
+      definition: 決不 [AUTOTRANSLATED]
+    pt:
+      definition: nunca
+    fi:
+      definition: ei koskaan
+    fr:
+      definition: jamais [AUTOTRANSLATED]
+  _original_id: 12721
+  _original_file: mem-11-p.xml

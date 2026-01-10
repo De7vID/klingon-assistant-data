@@ -1,0 +1,87 @@
+entries:
+- entry_name: Dor
+  slug: Dor_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition: escort
+  see_also: '{tlhej:v}'
+  hidden_notes: '"Escort (someone) to the door."'
+  examples: '
+
+    ▶ {...-Daq qaDor.:sen}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: eskortieren, begleiten
+    fa:
+      definition: اسکورت [AUTOTRANSLATED]
+    sv:
+      definition: eskortera
+    ru:
+      definition: сопровождать, эскортировать
+    zh_HK:
+      definition: 護送
+    pt:
+      definition: escoltar, acompanhar
+    fi:
+      definition: saattaa
+    fr:
+      definition: escorte [AUTOTRANSLATED]
+  _original_id: 10764
+  _original_file: mem-03-D.xml
+- entry_name: Dor
+  slug: Dor_v_2
+  part_of_speech: v:2,i_c
+  pos: v
+  pos_subtype: i_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: end (of a period of time)
+  see_also: '{rIn:v}'
+  notes: The subject of this verb is a period or unit of time, such as a month. It
+    should not be an event the ending of which one has some control over (for which
+    see {van:v:2}, {ghang:v}).
+  examples: '
+
+    ▶ {tugh Dor qoSlIj. nom yIlop!@@tugh:adv, Dor:v:2, qoS:n, -lIj:n, nom:adv, yI-:v,
+    lop:v}[2]'
+  sources:
+    raw: '[1] {HQ 12.2, Jun. 2003:src}, [2] {KLI mailing list 2012.03.30:src}'
+    citations:
+    - source: holqed
+      volume: 12
+      issue: 2
+      date: Jun. 2003
+    - source: kli_mailing_list
+      date: '2012-03-30'
+  translations:
+    de:
+      definition: enden, zu ende gehen
+    fa:
+      definition: پایان (یک دوره زمانی) [AUTOTRANSLATED]
+    sv:
+      definition: ta slut (om tidsperiod, t.ex. månad, år)
+    ru:
+      definition: конец (периода времени) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 結束（一段時間） [AUTOTRANSLATED]
+    pt:
+      definition: terminar, ir para o fim (de um período de tempo)
+    fi:
+      definition: loppua (ajanjaksosta)
+      notes: Tämän verbin subjekti on ajanjakso (esim. kuukausi), joka loppuu itsestään.
+        Jos joku lopettaa ajanjakson tai tapahtuman, tämän verbin sijasta sanotaan
+        {van:v:2} tai {ghang:v}.
+      search_tags: päättyä
+    fr:
+      definition: fin (d'une période de temps) [AUTOTRANSLATED]
+  _original_id: 10765
+  _original_file: mem-03-D.xml

@@ -1,0 +1,44 @@
+entry:
+  entry_name: ngengroQ
+  slug: ngengroQ_n
+  part_of_speech: n:anim
+  pos: n
+  categories:
+  - anim
+  status: canonical
+  section: main
+  definition: type of sea creature
+  notes: This is a giant mythical creature which {qortar:n} fought for a day.[1]
+  hidden_notes: The origin of this word appears to be a mistranslation by Bing translator,
+    which turns "sea creature" into {ngeng roQ:sen:nolink} (with a space). This was
+    then retroactively "vetted" by Marc Okrand after the book's publication.[2]
+  components: '{ngeng:n}, {roQ:n:hyp,nolink}'
+  sources:
+    raw: '[1] {The Klingon Art of War:src}, [2] {Saarbrücken qepHom''a'' 2014:src}'
+    citations:
+    - source: the_klingon_art_of_war
+    - source: qephom_2014
+      date: '2014'
+  translations:
+    de:
+      definition: eine Art Meereskreatur
+      notes: Dies ist eine gigantische mythische Kreatur, gegen die {qortar:n} einen
+        Tag lang gekämpft hat.[1]
+    fa:
+      definition: نوع دریا موجود است [AUTOTRANSLATED]
+    sv:
+      definition: typ av havsdjur [AUTOTRANSLATED]
+    ru:
+      definition: вид морского существа [AUTOTRANSLATED]
+    zh_HK:
+      definition: 海洋生物的類型 [AUTOTRANSLATED]
+    pt:
+      definition: tipo de criatura marinha
+    fi:
+      definition: eräs vesieläin
+    fr:
+      definition: type de créature marine
+      notes: Ceci est une créature mythique et gigantesque contre qui {qortar:n} lutta
+        pour une journée.[1]
+  _original_id: 12616
+  _original_file: mem-10-ng.xml

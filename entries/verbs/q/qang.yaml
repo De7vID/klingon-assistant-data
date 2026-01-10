@@ -1,0 +1,82 @@
+entries:
+- entry_name: qang
+  slug: qang_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition: pour (from one container into another)
+  see_also: '{lIch:v}, {Qoy'':v}, {qang:v:2}'
+  examples: '
+
+    ▶ {latlh HIvje''Daq ''Iw HIq bIr yIqang!:sen}'
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: gießen (von einem Gefäß ins andere)
+    fa:
+      definition: پور (از یک ظرف به دیگری) [AUTOTRANSLATED]
+    sv:
+      definition: hälla (från en behållare till en annan)
+    ru:
+      definition: лить, подливать, переливать (из одной емкости в другую)
+    zh_HK:
+      definition: 斟、倒（於一個容器斟入另一個）
+    pt:
+      definition: verter (de um recipiente para outro)
+    fi:
+      definition: kaataa (astiasta toiseen)
+    fr:
+      definition: verser (d'un récipient dans un autre) [AUTOTRANSLATED]
+  _original_id: 13052
+  _original_file: mem-12-q.xml
+- entry_name: qang
+  slug: qang_v_2
+  part_of_speech: v:2,t_c,slang
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  categories:
+  - slang
+  status: canonical
+  section: main
+  definition:
+    text: always agree with, always cooperate with
+    parts:
+    - text: always agree with
+    - text: always cooperate with
+    dedup: true
+  see_also: '{Qoch:v}, {jIj:v}, {yeq:v}, {-qang:v}, {qang:v:1}'
+  examples: '
+
+    ▶ {jIHDaq Daqang.:sen:nolink} "You always agree with me, you always cooperate
+    with me."[1, p.159]'
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: immer zustimmen, zusammenarbeiten
+    fa:
+      definition: همیشه با هم همکاری کنید، همواره با هم همکاری کردن [AUTOTRANSLATED]
+    sv:
+      definition: alltid (eller rutinmässigt) hålla med eller samarbeta med
+    ru:
+      definition: всегда согласен с, всегда сотрудничаю с [AUTOTRANSLATED]
+    zh_HK:
+      definition: 永遠同意、永遠配合 [AUTOTRANSLATED]
+    pt:
+      definition: sempre concordar com, sempre cooperar com
+    fi:
+      definition: olla aina samaa mieltä, tehdä aina tai rutiininomaisesti yhteistyötä
+        jonkun kanssa
+    fr:
+      definition: toujours d'accord avec, toujours coopérer avec [AUTOTRANSLATED]
+  _original_id: 13053
+  _original_file: mem-12-q.xml

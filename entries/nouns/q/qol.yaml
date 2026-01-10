@@ -1,0 +1,89 @@
+entries:
+- entry_name: qol
+  slug: qol_n_1
+  part_of_speech: n:1h
+  pos: n
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: collection of segments that are joined together, collocation
+    parts:
+    - text: collection of segments that are joined together
+    - text: collocation
+    dedup: true
+  notes: This word refers to the entire collection of joined things, not to an individual
+    component. Its components don't have to be physically joined, but they have to
+    have a connection or be arranged as if they were or could be joined. The difference
+    between this word and {vey:n} is that a deck of playing cards (in any order) would
+    be an {'echletHom vey:n}, whereas if the cards were organized by suit, and within
+    each suit the cards were in numerical order, then not only would there be an {'echletHom
+    vey:n:nolink}, but there would be four {'echletHom qolmey:n@@'echletHom:n, qol:n:1h,
+    -mey:n}.[1]
+  examples: '
+
+    ▶ {Ho'' qol:n@@Ho'':n:1, qol:n:1h} (set of teeth in one''s mouth)[1]'
+  sources:
+    raw: '[1] {Saarbrücken qepHom''a'' 2021:src}'
+    citations:
+    - source: qephom_2021
+      date: '2021'
+  translations:
+    de:
+      definition: Anordnung von Elementen, die mit einander verbunden sind
+    fa:
+      definition: مجموعه ای از بخش هایی که به هم پیوسته اند، همنشینی [AUTOTRANSLATED]
+    sv:
+      definition: samling av segment som är sammanfogade, samlokalisering [AUTOTRANSLATED]
+    ru:
+      definition: совокупность сегментов, соединенных вместе, словосочетание [AUTOTRANSLATED]
+    zh_HK:
+      definition: 連接在一起的段的集合，搭配 [AUTOTRANSLATED]
+    pt:
+      definition: coleção de segmentos que são unidos
+    fi:
+      definition: sarja asioita, joilla on jonkinlainen järjestys
+    fr:
+      definition: ensemble de segments réunis, collocation [AUTOTRANSLATED]
+  _original_id: 13230
+  _original_file: mem-12-q.xml
+- entry_name: qol
+  slug: qol_n_2
+  part_of_speech: n:2,name,fic
+  pos: n
+  pos_subtype: name
+  homophone: 2
+  metadata_tags:
+  - fic
+  status: canonical
+  section: main
+  definition: Kol
+  notes: He is a member of the House of Kor ({qor tuq:n:name}).
+  sources:
+    raw: '[1] {DSC - Battle at the Binary Stars:src}, [2] {Saarbrücken qepHom''a''
+      2019:src}'
+    citations:
+    - source: dsc_battle_at_the_binary_stars
+    - source: qephom_2019
+      date: '2019'
+  translations:
+    de:
+      definition: Kol
+      notes: Er ist Mitglied des Haus von Kor ({qor tuq:n:name}).
+    fa:
+      definition: کول [AUTOTRANSLATED]
+    sv:
+      definition: Kol [AUTOTRANSLATED]
+    ru:
+      definition: Кол
+      notes: Является членом дома Кора ({qor tuq:n:name}).
+    zh_HK:
+      definition: 科爾 [AUTOTRANSLATED]
+    pt:
+      definition: Kol
+    fi:
+      definition: Kol
+    fr:
+      definition: Kol [AUTOTRANSLATED]
+  _original_id: 13231
+  _original_file: mem-12-q.xml

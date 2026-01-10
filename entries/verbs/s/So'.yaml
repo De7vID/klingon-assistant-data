@@ -1,0 +1,112 @@
+entries:
+- entry_name: So'
+  slug: So'_v_1
+  part_of_speech: v:1,t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: hide, cloak
+    parts:
+    - text: hide
+    - text: cloak
+  antonyms: '{So''Ha'':v:1}'
+  notes: 'The subject of this verb hides the object (or hides something in general,
+    if there''s no object).[3]
+
+
+    This verb is also used for the encryption of data (see {So'':v:2}).'
+  hidden_notes: '"Show".
+
+
+    The example {nuqDaq So''taH yaS?:sen:nolink} on {TKD p.69:src} is in error. As
+    written, it would mean "Where is the officer hiding [something]?"[3]'
+  examples: '
+
+    ▶ {Duj So'':sen:nolink} "He/she cloaks the ship"[2]
+
+    ▶ {Duj So''lu''pu'':sen:nolink} "The ship is cloaked"[2]
+
+    ▶ {ghach jIvvo'' naH. DaH pIghvamDaq So''''eghtaH.:sen}
+
+    ▶ {HIvmeH Duj So''lu''.:sen}
+
+    ▶ {maS''e'' loQ So''be''bogh QIb:n}
+
+    ▶ {maS''e'' So''bogh pagh:n}
+
+    ▶ {qabwIj vISo''be''.:sen}
+
+    ▶ {yISo''rup.:sen}
+
+    ▶ {yISo''Ha''rup, yIghuS.:sen}'
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT p.55:src}, [3] {KLI mailing list 2022.06.10:src}'
+    citations:
+    - source: tkd
+    - source: kgt
+      page_start: 55
+    - source: kli_mailing_list
+      date: '2022-06-10'
+  translations:
+    de:
+      definition: tarnen, verstecken
+    fa:
+      definition: پنهان ، پنهان [AUTOTRANSLATED]
+    sv:
+      definition: gömma, bemantla
+    ru:
+      definition: прятаться [AUTOTRANSLATED]
+    zh_HK:
+      definition: 隱藏，披風 [AUTOTRANSLATED]
+    pt:
+      definition: esconder, camuflar
+    fi:
+      definition: piilottaa
+      notes: Tätä verbiä voi soveltaa myös datan salaamiseen (ks. {So':v:2}).
+      search_tags: verhoutua, häive
+    fr:
+      definition: cacher, camoufler [AUTOTRANSLATED]
+  _original_id: 14097
+  _original_file: mem-15-S.xml
+- entry_name: So'
+  slug: So'_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: encrypt
+  antonyms: '{So''Ha'':v:2}'
+  see_also: '{meS:v:2}, {pegh:v:1}'
+  notes: This is just an application of {So':v:1} to data.
+  hidden_notes: '"Show".'
+  sources:
+    raw: '[1] {Saarbrücken qepHom''a'' 2014:src}'
+    citations:
+    - source: qephom_2014
+      date: '2014'
+  translations:
+    de:
+      definition: verschlüsseln
+    fa:
+      definition: رمزگذاری [AUTOTRANSLATED]
+    sv:
+      definition: kryptera [AUTOTRANSLATED]
+    ru:
+      definition: шифровать [AUTOTRANSLATED]
+    zh_HK:
+      definition: 加密 [AUTOTRANSLATED]
+    pt:
+      definition: criptografar
+    fi:
+      definition: salata (salausmenetelmällä)
+    fr:
+      definition: Crypter [AUTOTRANSLATED]
+  _original_id: 14098
+  _original_file: mem-15-S.xml

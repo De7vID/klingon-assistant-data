@@ -1,0 +1,37 @@
+entry:
+  entry_name: SoHvaD pagh vIjatlh, Human.
+  slug: SoHvaD_pagh_vIjatlh,_Human_sen
+  part_of_speech: sen:phr
+  pos: sen
+  pos_subtype: phr
+  status: canonical
+  section: extra
+  definition:
+    text: I have nothing to say to you, human.
+    parts:
+    - text: I have nothing to say to you
+    - text: human.
+  components: '{SoH:n}, {-vaD:n}, {pagh:n:1h}, {vI-:v}, {jatlh:v}, {Human:n}'
+  sources:
+    raw: '[1] {ENT - Affliction:src}'
+    citations:
+    - source: ent_affliction
+  translations:
+    de:
+      definition: Ich habe dir nichts zu sagen, Mensch.
+    fa:
+      definition: من چیزی برای گفتن به شما ندارم، انسان. [AUTOTRANSLATED]
+    sv:
+      definition: Jag har inget att säga till dig, människa. [AUTOTRANSLATED]
+    ru:
+      definition: Мне нечего вам сказать, человек. [AUTOTRANSLATED]
+    zh_HK:
+      definition: 我無話同你可說，智人。
+    pt:
+      definition: Não tenho nada para lhe dizer, humano.
+    fi:
+      definition: Minulla ei olla mitään sanottavaa sinulle, ihminen.
+    fr:
+      definition: Je n'ai rien à te dire, humain. [AUTOTRANSLATED]
+  _original_id: 15833
+  _original_file: mem-27-extra.xml

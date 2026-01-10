@@ -1,0 +1,36 @@
+entry:
+  entry_name: tlhamchem
+  slug: tlhamchem_n
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition: gravitational field
+  see_also: '{HoSchem:n}, {peQchem:n}, {pIvchem:n}, {Surchem:n}'
+  components: '{tlham:n:1}, {chem:n}'
+  sources:
+    raw: '[1] {Saarbrücken qepHom''a'' 2017:src}'
+    citations:
+    - source: qephom_2017
+      date: '2017'
+  translations:
+    de:
+      definition: Gravitationsfeld
+    fa:
+      definition: میدان گرانشی [AUTOTRANSLATED]
+    sv:
+      definition: gravitations fält [AUTOTRANSLATED]
+    ru:
+      definition: гравитационное поле [AUTOTRANSLATED]
+    zh_HK:
+      definition: 重力場
+    pt:
+      definition: campo gravitacional
+    fi:
+      definition: painovoimakenttä
+    fr:
+      definition: champ gravitationnel
+  _original_id: 14517
+  _original_file: mem-17-tlh.xml

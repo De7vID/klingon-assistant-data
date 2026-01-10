@@ -1,0 +1,82 @@
+entries:
+- entry_name: qat
+  slug: qat_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: wrap, encase
+    parts:
+    - text: wrap
+    - text: encase
+  see_also: '{tew:v}'
+  notes: The subject wraps or encases the object.[2, p.76]
+  hidden_notes: 'This word appeared with the definition "wrap" in the K-E word list
+    in {TKD:src}, but was missing from the E-K side. The definition "wrap, encase"
+    appeared on {KGT p.76:src}, and the word was listed with the definition "encase"
+    in both K-E and E-K word lists (separately from {qat:v:2}). The usage in the book
+    ("the players are sad to {qat:v:1,nolink} the song") confirms the verb is transitive.
+
+
+    Cats were mummified in ancient Egypt.'
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT:src}'
+    citations:
+    - source: tkd
+    - source: kgt
+  translations:
+    de:
+      definition: wickeln, umhüllen
+    fa:
+      definition: بسته بندی، بسته بندی [AUTOTRANSLATED]
+    sv:
+      definition: svepa in, omsvepa, innesluta
+    ru:
+      definition: обертывать, заворачивать, оборачивать, упаковывать, обрамлять
+    zh_HK:
+      definition: 包裹、包套
+    pt:
+      definition: embrulhar, envolver
+    fi:
+      definition: kääriä, kietoa, paketoida, koteloida
+    fr:
+      definition: envelopper, envelopper [AUTOTRANSLATED]
+  _original_id: 13075
+  _original_file: mem-12-q.xml
+- entry_name: qat
+  slug: qat_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: accompany (singing) with instrumental music
+  notes: Most Klingon music is vocal. When there is an instrumental component to a
+    song, the players are said to {qat:v:2,nolink} the song.[2, p.76]
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: (Gesang) instrumental begleiten
+    fa:
+      definition: همراه (آواز خواندن) با موسیقی سازنده [AUTOTRANSLATED]
+    sv:
+      definition: ackompanjera (sång) med instrumental musik
+    ru:
+      definition: Аккомпанимировать(петь) инструментальной музыке
+    zh_HK:
+      definition: 伴奏（唱歌）伴奏樂器 [AUTOTRANSLATED]
+    pt:
+      definition: acompanhar (cantar) com música instrumental
+    fi:
+      definition: säestää (laulua soittimilla)
+    fr:
+      definition: accompagner (chanter) avec de la musique instrumentale [AUTOTRANSLATED]
+  _original_id: 13076
+  _original_file: mem-12-q.xml
