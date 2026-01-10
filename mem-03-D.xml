@@ -140,7 +140,9 @@
       <column name="notes">{SoH:n}:{ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n} = {Da-:v:pref,nolink}
 
 When used with {-lu':v}, this prefix means "Someone (indefinite subject) does something to you".</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">{SoH:n}:{ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n} = {Da-:v:pref,nolink}
+
+Wenn es mit {-lu':v} benutzt wird, bedeutet dieses Präfix "Man (indefinites Subjekt) tut etwas mit dir".</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">{SoH:n}:{ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n} = {Da-:v:pref,nolink}
@@ -378,7 +380,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="antonyms"></column>
       <column name="see_also">{jeH:v}, {SaH:v:2}, {Dach:v:1}, {tab:v}</column>
       <column name="notes">This applies to a person who is not focused on the task at hand.[1, p.149]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich auf eine Person, die sich nicht auf die aktuelle Aufgabe konzentiert.[1, S.149]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Это применяют к человеку, кто не сфокусирован на задании.[1, стр.149]</column>
@@ -425,7 +427,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="antonyms"></column>
       <column name="see_also">{tuq:n}</column>
       <column name="notes">This is the House of {DennaS:n:name}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist das Haus des {DennaS:n:name}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">{DennaS:n:name} tillhör den här ätten.</column>
       <column name="notes_ru"></column>
@@ -620,7 +622,7 @@ Since {tuj:v} means "hot", this is a "hotdog".</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is something you might say to turn down someone's romantic overtures.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist etwas, was man sagen kann, um jemandem einen Korb zu geben.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -725,7 +727,17 @@ As the subject of a sentence, {jajvam:n:nolink} is more typically found, though 
 {DaHjaj:n:nolink} is also used with words indicating a time of day to refer to that portion of the current day. For example, {DaHjaj ram:n}, literally "today's night", means "tonight".[2] Other portions of the day, such as {pem:n}, {po:n:1h}, {pov:n}, and so on, are also possible. These can be shortened to {DaHram:n}, {DaHpem:n}, {DaHpo:n}, {DaHpov:n}, and so on.[3]
 
 As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Zwar bedeuten sowohl {DaHjaj:n:nolink} und {jajvam:n} "heute", aber sie sind nicht ganz austauschbar. {DaHjaj:n:nolink} (aber nicht {jajvam:n:nolink}) wird als Zeitadverbial in einem Satz benutzt: {DaHjaj romuluSngan vIHoHpu':sen:nolink} "Heute habe ich einen Romulaner getötet".[2]
+
+Als Subjekt eines Satzes ist {jajvam:n:nolink} üblicher, wobei {DaHjaj:n:nolink} Nicht unmöglich ist. Vergleiche:
+▶ {nI' jajvam:sen:nolink} "Dieser Tag ist lang"
+▶ {nI' DaHjaj:sen:nolink} "Heute ist lang"[2]
+
+{DaHjaj:n:nolink} kann auch als Nomen in Nomen-Nomen-Konstruktionen wie {DaHjaj gheD:n} "Beute von heute", ein Begriff, den man oft in klingonischen Restaurants hört, mit einer Bedeutung vergleichbar mit "Tagesfang".[2]
+
+{DaHjaj:n:nolink} wird auch mit Tageszeit-Wörtern benutzt, um über diese Tageszeit des aktuellen Tags zu sprechen. Zum Beispiel, {DaHjaj ram:n}, wörtlich "Nacht/Abend von heute", bedeutet "heute abend/nacht".[2] Andere Tageszeiten, wie {pem:n}, {po:n:1h}, {pov:n}, usw., sind auch möglich. Diese können zu {DaHram:n}, {DaHpem:n}, {DaHpo:n}, {DaHpov:n}, usw. abgekürzt werden.[3]
+
+Als Zeitadverbial steht {DaHjaj:n} vor anderen Adverbialen.[1, sec. 6.7]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Пока {DaHjaj:n:nolink} и {jajvam:n} означают "сегодня", они не совсем взаимозаменяемые. {DaHjaj:n:nolink} (но не {jajvam:n:nolink}) используется, как элемент времени в предложении: {DaHjaj romuluSngan vIHoHpu':sen:nolink} "сегодня я убил ромуланца".[2]
@@ -970,7 +982,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is short for {DaHjaj pem:n@@DaHjaj:n, pem:n}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist kurz für {DaHjaj pem:n@@DaHjaj:n, pem:n}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -1017,7 +1029,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is short for {DaHjaj po:n@@DaHjaj:n, po:n:1h}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist kurz für {DaHjaj po:n@@DaHjaj:n, po:n:1h}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -1064,7 +1076,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is short for {DaHjaj pov:n@@DaHjaj:n, pov:n}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist kurz für {DaHjaj pov:n@@DaHjaj:n, pov:n}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -1111,7 +1123,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is short for {DaHjaj ram:n}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist kurz für {DaHjaj ram:n}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -1446,7 +1458,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is the closest Klingon equivalent to a hippo.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist das einem Nilpferd ähnlichste klingonische Tier.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -1634,7 +1646,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This means to make (an image) less blurry.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bedeutet (ein Bild) weniger verschwommen zu machen.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2066,7 +2078,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{jentel:n}</column>
       <column name="notes">This refers to a bunch or collection of threads, grass, hair, etc., held or growing together at the base.[1] This is any collection of filament-like things, not restricted to living material. The brush part of a paintbrush is a {Daqba':n:nolink}.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bedeutet ein Büschel oder eine Sammlung von Fäden, Gras, Haare, etc., die an einer Seite zusammengehalten werden oder zusammengewachsen sind.[1] Dies ist jede Gruppe von Faden-ähnlichen Dingen und nicht auf lebendes Material beschränkt. Der Haarteil eines Pinsels ist ein {Daqba':n:nolink}.[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2160,7 +2172,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{bIQ:n}, {tlhegh jIrmoHwI':n}</column>
       <column name="notes">This normally refers to a water well, but could be for other substances. It refers to a well which is constructed (or dug), rather than naturally occurring. If clarity is needed, one can say {bIQ Daqrab:n@@bIQ:n, Daqrab:n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich normalerweise auf einen Wasserbrunnen, kann aber auch für andere Substanzen sein. Es bezieht sich auf einen Brunnen, der gebaut oder gegraben ist, nicht natürlich. Wenn Klarstellung nötig ist kann man {bIQ Daqrab:n@@bIQ:n, Daqrab:n} sagen.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2207,7 +2219,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{tajHom:n}, {ret'aq:n}, {moQ:n}, {DuQwI'Hom:n}, {taj:n}</column>
       <column name="notes">There is an idiom, {jej; Daqtagh rur}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Es gibt eine Redewendung: {jej; Daqtagh rur}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2254,7 +2266,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{qajunpaQ:n}</column>
       <column name="notes">This refers to a person with an "icy" demeanor, especially a tough negotiator. It is not clear whether this is a native Klingon word or a borrowed Trill or Kriosian word or phrase meaning "ice man," but, in any case, this is the Klingon pronunciation.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich auf eine Person mit einem "eisigen" Verhalten, im Besonderen ein harter Verhandler. Es ist unklar, ob dies ein ursprünglich klingonisches Wort ist, oder ein aus dem Trill oder Kriosianischen entlehntes Wort oder Phrase mit der Bedeutung "Eismann" ist, aber dies ist in jedem Fall die klingonische Aussprache.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">Ordet avser en person med ett "isigt" beteende, särskilt en hård förhandlare. Det är inte klart om det här är ett inhemskt klingonskt ord eller om det är inlånat trillskt eller kriosiskt ord med betydelsen "isman", men oavsett så är det här det klingonska uttalet.[1]</column>
       <column name="notes_ru"></column>
@@ -2348,7 +2360,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{voy:v}</column>
       <column name="notes">This is not the same as a {velqa':n}, as a clone is not a replica (copy, model, etc.). It's the same thing as the original, and is genetically identical to it.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist nicht dasselbe wie ein {velqa':n}, da ein Klon keine Nachbildung (Kopie, Modell, etc.) ist. Ein Klon ist das Gleiche wie das Original und genetisch identisch.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2395,7 +2407,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{Qenvob:n}, {bIQ na':n}, {runpI':n}, {Dargh wIb:n}</column>
       <column name="notes">This refers to the beverage only. For the dried-up mixture used to brew tea, see {Qenvob:n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich nur auf das Getränk. Für die getrocknete Mixtur, die zum Teemachen verwendet wird, siehe {Qenvob:n}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Упоминается только как напиток. Для высушенной смеси, использованной, чтобы заваривать чай, смотрите {Qenvob:n}.</column>
@@ -2407,7 +2419,8 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="components"></column>
       <column name="examples">
 ▶ {Hoch vor Dargh wIb.:sen:nolink} "Sour tea cures everything."[2]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {Hoch vor Dargh wIb.:sen:nolink} "Sauerer Tee heilt alles."[2]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
@@ -2456,7 +2469,8 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="components">{Dargh:n}, {wIb:v}</column>
       <column name="examples">
 ▶ {Hoch vor Dargh wIb.:sen:nolink} "Sour tea cures everything."[1]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {Hoch vor Dargh wIb.:sen:nolink} "Кислый чай лечит всё."[2]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
@@ -2492,7 +2506,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{tu'lum:n}</column>
       <column name="notes">In {TNK:src}, "cup and saucer" is translated as {Dargh HIvje' jengva' je:n@@Dargh HIvje':n, jengva':n, je:conj}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">In {TNK:src} wird "Tasse und Untertasse" mit {Dargh HIvje' jengva' je:n@@Dargh HIvje':n, jengva':n, je:conj} übersetzt.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2821,7 +2835,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{naDev:n}, {pa':n:2}, {vogh:n}, {tIngvo' 'evDaq chanDaq:sen:idiom}</column>
       <column name="notes">This word is never followed by the locative suffix {-Daq:n:suff}. ({TKD 3.3.5:src})</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">An dieses Wort wird nie das Lokativsuff {-Daq:n:suff} angehängt. ({TKD 3.3.5:src})</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Это слово никогда не следовало за суффиксом, определяющим местонахождение {-Daq:n:suff}. ({TKD 3.3.5:src})</column>
@@ -2833,7 +2847,8 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="components"></column>
       <column name="examples">
 ▶ {qatlh Dat DI tu'lu', tlhIngan?:sen:nolink} "Why is there rubble everywhere, Klingon?"[2]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {qatlh Dat DI tu'lu', tlhIngan?:sen:nolink} "Warum ist hier überall Schutt, Klingone?"[2]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
@@ -2874,7 +2889,11 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
 It's not used if a person's feet stay put but the body leans left or right, for which see {ler:v}.
 
 This verb can be applied to aircraft, for which see {Dav:v:2}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies wird benutzt für die Bewegung des ganzen Körpers oder Dings nach links oder rechts.
+
+Es wird nicht benutzt, wenn sich die Füße der Person nicht bewegen und der Körper nur nach links oder rechts gelehnt wird. Für Letzteres, siehe {ler:v}.
+
+Dieses Verb kann für Flugeuge benutzt werden, hierfür siehe {Dav:v:2}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">Används för rörelse av en hel kropp eller sak till vänster eller höger.
 
@@ -2925,7 +2944,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{Der:v:2}, {jer:v}, {jIm:v:2}, {lol:v:2}, {ron:v:2}, {tor:v:2}, {'or:v}, {nech:v}</column>
       <column name="notes">This is just the verb {Dav:v:1} applied to aircraft.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist nur das Verb {Dav:v:1} auf Flugzeuge angewandt.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2972,7 +2991,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{batlh:n}, {batlh:adv}, {quv:n}, {quv:v}, {chIvo':n}</column>
       <column name="notes">This word covers the same semantic ground as the verbs {HoQ:v} and {Qaq:v} (but not really {mIl:v}).</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieses Wort deckt das selbe semantische Feld ab wie die Verben {HoQ:v} und {Qaq:v} (aber nciht wirklich {mIl:v}).</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -3019,7 +3038,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{jo':v:1}, {SuS:v}</column>
       <column name="notes">This is what the wind does, so the subject is usually {SuS:n}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist was der Wind tut, also ist das Subjekt normalerweise {SuS:n}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -3209,7 +3228,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{patlhmoH:v}</column>
       <column name="notes">The object is always plural, frequently in the form {A B je:sen:nolink}. If the comparison is being made between two (or more) of the same thing, the noun's plural suffix is generally not used.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Das Objekt ist immer im Plural, oft in der Form {A B je:sen:nolink}. Wenn der Vergleich zwischen zwei (oder mehr) der gleichen Dinge gezogen wird, wird das Pluralsuffix des Nomens üblicherweise nicht benutzt.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -3221,7 +3240,8 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {targh vIDay.:sen:nolink} "I compare the targs (to each other)."[1]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {targh vIDay.:sen:nolink} "Ich vergleiche die Targs (miteinander)."[1]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
@@ -3304,7 +3324,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{jutngev:n}, {maqSung:n}</column>
       <column name="notes">This refers to the viscous, sweet fluid produced from plant nectar.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist die viskose, süße Flüssigkeit, die aus Pflanzennektar produziert aird.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -3351,7 +3371,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{tI:n}</column>
       <column name="notes">This is an ingredient in {ro'qegh'Iwchab:n}, which will turn out badly if the plant is overcooked.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist eine Zutat in {ro'qegh'Iwchab:n}, die nicht gut wird, wenn die Pflanze zu sehr gekocht wird.[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -3445,7 +3465,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{Hutvagh:n}</column>
       <column name="notes">This refers to vehicular traffic. For a "traffic jam", the term {Hutvagh:n:nolink} is used.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Gemeint ist Straßenverkehr. Für einen "Stau" wird der Ausdruck {Hutvagh:n:nolink} benutzt.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -3492,7 +3512,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is the second highest rank of {QaS:n:1h}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist der zweithöchste Dienstgrad der {QaS:n:1h}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Это второй высший ранг в {QaS:n:1h}.</column>
@@ -3539,7 +3559,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{qor:n:name}</column>
       <column name="notes">This is a title for a warrior who has attained legendary status in life.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist der Titel eines Kriegers, der zu Lebzeiten einen legendären Status erreicht hat.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Это титул для воина, кто достиг статуса ленегды при жизни</column>
@@ -3586,7 +3606,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{bo'Degh:n}</column>
       <column name="notes">This bird is similar to a {Da'vI':n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieser Vogel ähnelt einem {Da'vI':n}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -3633,7 +3653,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{bo'Degh:n}</column>
       <column name="notes">This is similar to a {Da'nal:n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieser Vogel ähnelt einem {Da'nal:n}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -3727,7 +3747,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{ngaS:v}, {Sev:v}, {luS:v}</column>
       <column name="notes">The object is the thing being surrounded. {-Daq:n:suff} is unnecessary.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Das Objekt ist das Ding, das umgeben ist. {-Daq:n:suff} ist unnötig.[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Объектом является вещь, которую окружают. Суффикс {-Daq:n:suff} необязателен.[2]</column>
@@ -3774,7 +3794,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{tuq Degh:n}, {ngutlh:n}, {pIqaD:n}, {joqwI':n}, {'oS:v}, {maQ:n}, {tIq'ghob:n:archaic,hyp}, {Degh:n:2}</column>
       <column name="notes">This can also refer to the suits in a deck of playing cards, for which see {meyrI':n}, {por:n}, {Sor:n}, and {'eSpeD:n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies kann für die Farben eines Kartenspiels benutzt werden. Dafür siehe auch {meyrI':n}, {por:n}, {Sor:n}, und {'eSpeD:n}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Это также может относится к "рубашкам" в колоде игральных карт, для которых смотрите {meyrI':n}, {por:n}, {Sor:n}, и {'eSpeD:n}.</column>
@@ -3876,7 +3896,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{Degh:n:2}, {nab:v}</column>
       <column name="notes">This expression may be based on {DeghwI':n}. In non-slang vocabulary, this idea can be expressed using a phrase such as {nab Hutlh 'ach vang:sen@@nab:n, Hutlh:v, 'ach:conj, vang:v}.[1, p.149]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieser Ausdruck könnte auf {DeghwI':n} basieren. Hochsprachlich kann dieses Konzept mit einer Phrase wie {nab Hutlh 'ach vang:sen@@nab:n, Hutlh:v, 'ach:conj, vang:v} ausgedrückt werden.[1, p.149]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -3924,7 +3944,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{Degh:n:2}, {Degh:v:slang}</column>
       <column name="notes">There seems to have been a verb {Degh:v:hyp,nolink} at one time with the meaning of "steer" which has fallen out of use.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Es scheint, dass es einmal das Verb {Degh:v:hyp,nolink} mit der Bedeutung "steuern" gab, das nicht mehr benutzt wird.[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -3971,7 +3991,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms">{baQ:v:2}</column>
       <column name="see_also">{naH:n}, {Du' naH:n}, {non:v}, {QaD:v:1}</column>
       <column name="notes">For Klingons, this is preferred to {baQ:v:2}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Klingonen ziehen dies {baQ:v:2} vor.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -4160,7 +4180,7 @@ Ordet kan också användas om flygplan, se {Dav:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{ghopDu'wIjDaq yInmeyraj vIlaj.:sen}, {Do':n:2,archaic,hyp}</column>
       <column name="notes">This is a {no' Hol:n} expression used by a captain upon taking command of a ship.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist ein {no' Hol:n} Ausdruck, den ein Kapitän benutzt, wenn er das Kommando eines Schiffs übernimmt.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">Det här är ett {no' Hol:n}-uttryck som används av en kapten då han tar kommandot över ett skepp.</column>
       <column name="notes_ru"></column>
@@ -4303,7 +4323,7 @@ Based on the request, "It forms a gradient to the closest minimum", this seems t
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is the chemical element with the symbol Mo and atomic number 42.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist das chemische Element mit dem Symbol Mo und der Atomzahl 42.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -4350,7 +4370,7 @@ Based on the request, "It forms a gradient to the closest minimum", this seems t
       <column name="antonyms">{chum:v}</column>
       <column name="see_also">{gha:v}</column>
       <column name="notes">Something which gradually vanishes (in terms of becoming less and less visible) may be said to {DemchoH:v@@Dem:v, -choH:v}. (Note that gradually does not necessarily mean slowly.) This might describe what people see when they are watching someone beaming away with a transporter beam. Once that person is gone, might use {ngab:v} to describe them. Using {loj:v} would be appropriate if one is focusing on the incremental disappearance of the person.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Etwas, das nach und nach verschwindet (im Sinne von weniger und weniger sichtbar werden), kann als {DemchoH:v@@Dem:v, -choH:v} beschrieben werden. (Merke, dass nach und nach nicht notwendigerweise langsam bedeuten muss.) Dies kann benutzt werden, um zu beschreiben, was man sieht wenn jemand mit dem Transporterstrahl weggebeamt wird. Sobald diese Person verschwunden ist, kann man sie als {ngab:v} beschreiben. {loj:v} kann passend sein, wenn man sich auf das stückchenweise Verschwinden der Person konzentriert.[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -4497,7 +4517,7 @@ When asked if this was a pun about democratic governments being more transparent
       <column name="antonyms"></column>
       <column name="see_also">{DenIbngan:n}</column>
       <column name="notes">This is also called {DenIbya':n:nolink}, typically by older speakers.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies wird auch {DenIbya':n:nolink} genannt, typischerweise von älteren Sprechern.[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -4593,7 +4613,9 @@ When asked if this was a pun about democratic governments being more transparent
       <column name="notes">This creature is also called {DenIbya' Qatlh:n:nolink}.
 
 Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieser Kreatur wird auch {DenIbya' Qatlh:n:nolink} genannt.
+
+Hör dir an, wie Gowron dies sagt: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Это существо также названо {DenIbya' Qatlh:n:nolink}.
@@ -4689,7 +4711,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="antonyms"></column>
       <column name="see_also">{DenIb:n}</column>
       <column name="notes">A Denebian is also called a {DenIbya'ngan:n:nolink}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Ein Denebianer wird auch {DenIbya'ngan:n:nolink} genannt.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Денебианец также называется {DenIbya'ngan:n:nolink}</column>
@@ -4783,7 +4805,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">She is a member of the House of D'Ghor ({Daghor tuq:n:name}).</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Sie ist Mitglied des Haus D'Ghor ({Daghor tuq:n:name}).</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">Hon är en del av ätten D'Ghor ({Daghor tuq:n:name}).</column>
       <column name="notes_ru">Она член дома ДэГора ({Daghor tuq:n:name}).</column>
@@ -4832,7 +4854,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="antonyms"></column>
       <column name="see_also">{yagh:n}, {ghot:n}, {nuv:n}, {yoq:n}, {namlIgh:n}, {bIQDep:n}</column>
       <column name="notes">The suffix for the plural of this word depends on whether it is used to refer to beings capable of using language (see {-pu':n:suff}) or beings incapable of using language (see {-mey:n:suff}).</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Das Pluralsuffix dieses Worts hängt davon ab, ob es für Wesen benutzt wird, die sprachfähig sind (siehe {-pu':n:suff}) oder nicht (siehe {-mey:n:suff}).</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -4879,7 +4901,7 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="antonyms"></column>
       <column name="see_also">{'utlh:n}, {mIl:v}, {nung:v}, {veb:v}, {'en:v}</column>
       <column name="notes">This verb is also used idiomatically, so that for example {Deq SuvwI'@@Deq:v, SuvwI':n} is similar to the English expression "That warrior is history".</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieses Verb wird auch idiomatisch benutzt wird, so dass z.B. {Deq SuvwI'@@Deq:v, SuvwI':n} dem deutschen Ausdruck "Der Krieger ist Vergangenheit/erledigt" ähnelt.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">Detta verb används också idiomatiskt, till exempel har {Deq SuvwI'@@Deq:v, SuvwI':n} en betydelse i stil med "Den där krigaren är historia".</column>
       <column name="notes_ru"></column>
@@ -4975,7 +4997,9 @@ Watch Gowron say this: {YouTube video:url:http://youtu.be/7qXuTn9HpP4}</column>
       <column name="notes">This means to change direction to the left or right while traveling or moving.
 
 This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bedeutet nach links oder rechts die Richtung zu ändern während man fährt, fliegt, geht etc.
+
+Dieses Verb kann für Flugzeuge verwendet werden, hierfür siehe {Der:v:2}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -5022,7 +5046,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{Dav:v:2}, {jer:v}, {jIm:v:2}, {lol:v:2}, {ron:v:2}, {tor:v:2}, {'or:v}</column>
       <column name="notes">This is just the verb {Der:v:1} applied to aircraft.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist einfach das Verb {Der:v:1} auf Flugzeuge angewandt.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -5257,7 +5281,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
           <column name="antonyms"></column>
           <column name="see_also">{DeS:n:1}, {wIlle':n}, {cha'neH:n}, {nev'ob:n}, {reStav:n}</column>
           <column name="notes">This word is used for both the body part and the handle of a {nevDagh:n}. Note that the suffix {-Du':n} is used even with the latter meaning.</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Dieses Wort wird sowohl für das Körperteil als auch den Henkel eines {nevDagh:n} benutzt. Merke, dass das Suffix {-Du':n} auch in der letzteren Bedeutung genutzt wird.</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
@@ -5304,7 +5328,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
           <column name="antonyms"></column>
           <column name="see_also">{DeS reStav:n}</column>
           <column name="notes">This refers to the inner part of the forearm, which extends from the palm to the elbow pit ({DeS tutren:n}).[1]</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Dies ist der innere Teil des Unterarms, vom Handteller bis zur Ellbogenbeuge ({DeS tutren:n}).[1]</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
@@ -5351,7 +5375,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
           <column name="notes">This refers to the entire upper part of the arm. Unless specificity is called for, {DeS:n:nolink} is generally left out of {DeS nev'ob:n:nolink}.[2]</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Dies ist der gesamte obere Teil des Arms. Außer wenn Klarheit nötig ist, wird {DeS:n:nolink} im Allgemeinen weggelassen.[2]</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
@@ -5398,7 +5422,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
           <column name="antonyms"></column>
           <column name="see_also">{DeS Do'ghI':n}</column>
           <column name="notes">This refers to the outer part of the forearm, which extends from the back of the hand to the outer part of the elbow. The other side is the {DeS Do'ghI':n}, while the entire forearm is the {cha'neH:n}. Unless specificity is called for, {DeS:n:nolink} is generally left out of {DeS reStav:n:nolink}.[2]</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Dies ist der äußere Teil des Unterarms, vom Handrücken bis zum Ellenbogen. Die andere Seite ist die {DeS Do'ghI':n}, während der ganze Unterarm {cha'neH:n} ist. Außer wenn Klarstellung nötig ist, wird {DeS:n:nolink} im Allgemeinen weggelassen.[2]</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
@@ -5539,7 +5563,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">The three sides of a right-triangle ({ra'Duch leD:n}), relative to a non-right angle, are the {DeS Sum:n}, {DeS Hop:n}, and the {qubbID:n:2}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Die drei Seiten eines rechtwinkligen Dreiecks ({ra'Duch leD:n}) sind {DeS Sum:n}, {DeS Hop:n} (Katheten) und die {qubbID:n:2} (Hypothenuse).[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -5680,7 +5704,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is a lever (with the fulcrum at one end) controlled by the foot, such as a pedal on a piano or organ. This is typically the object of the verb {ghujmoH:v@@ghuj:v, -moH:v}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Ein Hebel (mit dem Drehpunkt an einem Ende), der mit dem Fuß bedient wird, wie die Pedale eines Klaviers oder einer Orgel. Dies ist typischerweise das Objekt des Verbs {ghujmoH:v@@ghuj:v, -moH:v}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -5727,7 +5751,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is a pedal with the fulcrum in the middle (rather than at one end) that is typically pressed downward with either the front of the foot or the heel. The verb {ghujmoH:v@@ghuj:v, -moH:v} is used with this.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist ein Pedal mit dem Drehpunkt in der Mitte (statt an einem der Enden), das normalerweise entweder mit dem Vorderfuß oder der Ferse heruntergredrückt wird. Das Verb {ghujmoH:v@@ghuj:v, -moH:v} wird mit diesem Nomen verwendet.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -5774,7 +5798,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{bo'voD:n}, {'ut'at:n}, {yorgh:n}</column>
       <column name="notes">This does not necessarily have to be fixed in place.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies muss nicht notwendigerweise an einem Ort festgemacht sein.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -5821,7 +5845,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
           <column name="notes">This is not a Klingon device as Klingons prefer live food, but refers to something found in many Terran homes.</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Dies ist kein klingonisches Gerät, da Klingonen lebendes Essen vorziehen, aber es bezieht sich auf etwas, das in vielen terranischen Haushalten steht.</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
@@ -6439,7 +6463,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is a shortened form of {'ej De' vIchel:adv}. Klingon grammarians argue about whether the resulting {De'chel:adv} should be considered an adverbial in its own right.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist eine Kurzform von {'ej De' vIchel:adv}. Klingonische Grammatiker diskutieren, ob das resultierende {De'chel:adv} als eigenständiges Adverb gelten sollte.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -6486,7 +6510,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{DIS:n:1}, {'onroS:n}, {nagh:n}</column>
       <column name="notes">There is a single word for both stalactite and stalagmite. If a distinction is needed, one says {pa' beb De'lor:n@@pa' beb:n, De'lor:n} and {rav De'lor:n@@rav:n:1, De'lor:n}. One never says {rav'eq De'lor:n@@rav'eq:n, De'lor:n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Es gibt ein einziges Wort für Stalaktit und Stalagmit. Wenn die Unterscheidung notwendig ist, sagt man {pa' beb De'lor:n@@pa' beb:n, De'lor:n} and {rav De'lor:n@@rav:n:1, De'lor:n}. Man sagt niemals {rav'eq De'lor:n@@rav'eq:n, De'lor:n}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -6863,7 +6887,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{loHjan:n}</column>
       <column name="notes">This term is normally used only for fairly big (or powerful) computers.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieser Ausdruck wird normalerweise nur für ziemlich große (oder leistungsstarke) Computer benutzt.[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -7110,7 +7134,8 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {qatlh Dat DI tu'lu', tlhIngan?:sen:nolink} "Why is there rubble everywhere, Klingon?"[2]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {qatlh Dat DI tu'lu', tlhIngan?:sen:nolink} "Warum ist hier überall Schutt, Klingone?"[2]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
@@ -7147,7 +7172,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
           <column name="antonyms"></column>
           <column name="see_also"></column>
           <column name="notes">This is a component of a cloaking device. Note that it refers to a physical object and not a force field.</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Dies ist eine Komponente der Tarnvorrichtung. Merke, dass es sich auf einen Gegenstand bezieht und nicht auf ein Kraftfeld.</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
@@ -7336,7 +7361,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{-logh:n:num,suff}</column>
       <column name="notes">This suffix turns a cardinal number into an ordinal number. For example, {wa'DIch:n:num} "first" from {wa':n:num} "one", {cha'DIch:n:1,num} "second" from {cha':n:num} "two", and so on. Ordinal numbers follow the noun to which they apply.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieses Suffix macht aus einer Kardinalzahl eine Ordinalzahl. Zum Beispiel, {wa'DIch:n:num} "erste/r/s" von {wa':n:num} "eins", {cha'DIch:n:1,num} "zweite/r/s" von {cha':n:num} "zwei", usw. Ordinalzahlen folgen dem Nomen, auf das sie sich beziehen.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Этот суффикс превращает количественное числительное в порядковый номер. Например, {wa'DIch:n:num} "первый" из {wa':n:num} "один", {cha'DIch:n:1,num} "второй" из {cha':n:num} "два", и так далее. Порядковые номера следуют за именем существительным, к которым они применяются.</column>
@@ -7385,7 +7410,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{HeqqIv:n}</column>
       <column name="notes">The locution {DIDmoH:v@@DID:v, -moH:v} is used to mean "speak of or refer to (whatever the object of the verb is) in stereotypical terms".[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Der Ausdruck {DIDmoH:v@@DID:v, -moH:v} wird für "über (was auch immer das Objekt des Verbs ist) mit klischeehaften Ausdrücken sprechen" benutzt.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -7480,7 +7505,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{tI:n}</column>
       <column name="notes">Its leaf ({DIghna' por:n:nolink}) is fried (see {mIQ:v}) by experienced cooks.[1, p.94]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Sein Blatt ({DIghna' por:n:nolink}) wird von erfahrenen Köchen frittiert (siehe {mIQ:v}).[1, p.94]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -7527,7 +7552,7 @@ This verb can be applied to aircraft, for which see {Der:v:2}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is deep-fried (see {mIQ:v}) and eaten.[1, p.94]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies wird frittiert (siehe {mIQ:v} und gegessen.[1, p.94]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">De här friteras (se {mIQ:v}) och äts. [1, p.94]</column>
       <column name="notes_ru"></column>
@@ -7834,7 +7859,7 @@ Tätä verbiä käytetään myös muunlaisesta piirtämisestä kuin maalitikulla
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is one of three key ingredients neede to make {ngat:n:1}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist eine der drei Hauptzutaten für {ngat:n:1}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -7881,7 +7906,7 @@ Tätä verbiä käytetään myös muunlaisesta piirtämisestä kuin maalitikulla
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is a traded commodity, like {qevaS:n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist eine Handelsware wie {qevaS:n}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Это товар, которым можно торговать, подобно {qevaS:n}.</column>
@@ -8026,7 +8051,7 @@ The description originally given in the {KLI:src} New Klingon Words list says th
           <column name="antonyms"></column>
           <column name="see_also"></column>
           <column name="notes">This is a slang term for the device and the most common way to refer to it.[1]</column>
-          <column name="notes_de"></column>
+          <column name="notes_de">Dies ist ein umgangssprachlicher Ausdruck für das Gerät und die häufigste Art es zu benennen.[1]</column>
           <column name="notes_fa"></column>
           <column name="notes_sv"></column>
           <column name="notes_ru"></column>
@@ -8105,7 +8130,39 @@ Noun Type 5: Syntactic markers
 ▶ {-mo':n:suff}
 ▶ {-vaD:n:suff}
 ▶ {-'e':n:suff}</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Es gibt fünf Arten von Nomensuffixen im Klingonischen.
+
+Nomen Typ 1: Augmentativ/Diminutiv
+▶ {-'a':n:suff}
+▶ {-Hom:n:suff}
+▶ {-oy:n:suff}
+
+Nomen Typ 2: Numerus
+▶ {-pu':n:suff}
+▶ {-Du':n:suff}
+▶ {-mey:n:suff}
+
+Nomen Typ 3: Qualifizierung
+▶ {-qoq:n:suff}
+▶ {-Hey:n:suff}
+▶ {-na':n:suff}
+
+Nomen Typ 4: Besitz/Spezifizierung
+▶ {-wIj:n:suff} / {-wI':n:suff}
+▶ {-lIj:n:suff} / {-lI':n:suff}
+▶ {-Daj:n:suff}
+▶ {-maj:n:suff} / {-ma':n:suff}
+▶ {-raj:n:suff} / {-ra':n:suff}
+▶ {-chaj:n:suff}
+▶ {-vam:n:suff}
+▶ {-vetlh:n:suff}
+
+Nomen Typ 5: Syntaktische Marker
+▶ {-Daq:n:suff}
+▶ {-vo':n:suff}
+▶ {-mo':n:suff}
+▶ {-vaD:n:suff}
+▶ {-'e':n:suff}</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Есть пять типов суффиксов для имен существительных в Клингонском языке.
@@ -8217,7 +8274,7 @@ Liitetyyppi 5: sijamuodot
       <column name="antonyms"></column>
       <column name="see_also">{veD:n}, {ghISDen:n}, {quHvaj:n}, {veDDIr:n}, {Surgh:v}</column>
       <column name="notes">This word takes the suffix {-Du':n:suff} when it refers to skin still on the body, and {-mey:n:suff} otherwise.[2] (But see {nagh DIr:n} for how to form the plural when it is used to refer to an animal shell.)</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dieses Wort wird mit dem Suffix {-Du':n:suff} pluralisiert, wenn es sich auf Haut bezieht, die noch am Körper ist, sonst mit {-mey:n:suff}.[2] (Aber siehe {nagh DIr:n} für den Plural der Schale eines Tiers.)</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -8318,7 +8375,7 @@ Liitetyyppi 5: sijamuodot
       <column name="antonyms"></column>
       <column name="see_also">{paH bID:n}</column>
       <column name="notes">When the context is clear, this is sometimes shortened to {DIr bID:n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Wenn der Kontext klar ist, wird dies manchmal zu {DIr bID:n} verkürzt.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -8400,7 +8457,7 @@ Liitetyyppi 5: sijamuodot
       <column name="entry_name">DIr rop</column>
       <column name="part_of_speech">n:archaic,deriv</column>
       <column name="definition">type of skin disease</column>
-      <column name="definition_de">Hautkrankheit</column>
+      <column name="definition_de">Art Hautkrankheit</column>
       <column name="definition_fa">یک نوع بیماری پوستی است [AUTOTRANSLATED]</column>
       <column name="definition_sv">en slags hudsjukdom</column>
       <column name="definition_ru">тип кожного заболевания</column>
@@ -8412,7 +8469,7 @@ Liitetyyppi 5: sijamuodot
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is the name of a specific skin disease from the time of Kahless.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist der Name einer bestimmten Hautkrankheit zur Zeit des Kahless.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Это название специфичного кожного заболевания со времен Кейлеса</column>
@@ -8460,7 +8517,7 @@ Liitetyyppi 5: sijamuodot
       <column name="antonyms"></column>
       <column name="see_also">{tutlh:v:1}</column>
       <column name="notes">This can refer to one pattern/design, or to a whole lot of them taken together.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies kann sich sowohl auf eine Zeichnung beziehen als auch auf mehrere zusammengenommen.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -8508,7 +8565,7 @@ Liitetyyppi 5: sijamuodot
       <column name="antonyms"></column>
       <column name="see_also">{'In:n}</column>
       <column name="notes">This is a drum made with animal skin stretched over a cylinder, usually over only one end. If skin is stretched over both ends of a drum, it is an {'o'lav:n}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist eine Trommel, die aus Tierhaut besteht, die über einen Zylinder gespannt wurde, normalerweise über eines der Enden. Wenn Haut über beide Ende der Trommel gespannt ist, ist es eine {'o'lav:n}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -8555,7 +8612,7 @@ Liitetyyppi 5: sijamuodot
       <column name="antonyms"></column>
       <column name="see_also">{Heng:v}, {qeb:v}</column>
       <column name="notes">This is a type of {SuSDeq:n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist eine Art {SuSDeq:n}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -8696,7 +8753,7 @@ Liitetyyppi 5: sijamuodot
       <column name="antonyms"></column>
       <column name="see_also">{jar:n}, {Hogh:n}, {jaj:n}, {'ISjaH:n}, {tera' poH:n}</column>
       <column name="notes">For "years ago" and "years from now", see {ben:n:1} and {nem:n}, respectively. For "years old", see {ben:n:2}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Für "vor x Jahren" und "in x Jahren", siehe jeweils {ben:n:1} und {nem:n}. Für "x Jahre alt", siehe {ben:n:2}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Для "X лет назаж" и "Х лет от текущего момента", см {ben:n:1} и {nem:n}, соответственно.</column>
@@ -14303,7 +14360,7 @@ The logo of Star Alliance, the largest airline alliance on Earth, is often paint
       <column name="antonyms"></column>
       <column name="see_also">{mer:v}, {mot:v}, {rIng:v}</column>
       <column name="notes">This means in the sense of astonished, astounded, dumbfounded, shocked. It is stronger than {yay':v}.</column>
-      <column name="notes_de">Dies ist im sinne von erstaunt, umgeworfen, schockiert. Es ist stärker als {yay':v}.</column>
+      <column name="notes_de">Dies ist im Sinne von erstaunt, umgeworfen, schockiert. Es ist stärker als {yay':v}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Это употребляется в смысле изумленный, ошеломленный, шокированый. Это сильнее, чем {yay':v}.</column>
@@ -15244,7 +15301,7 @@ The distinction between a {DuS:n:nolink} and a {chetvI':n:1} has to do with how 
       <column name="entry_name">Duy'</column>
       <column name="part_of_speech">n</column>
       <column name="definition">defect</column>
-      <column name="definition_de">Defekt</column>
+      <column name="definition_de">Defekt, Fehler, Mangel</column>
       <column name="definition_fa">کاستی [AUTOTRANSLATED]</column>
       <column name="definition_sv">defekt, fel</column>
       <column name="definition_ru">Дефект</column>
