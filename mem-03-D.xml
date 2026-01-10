@@ -140,7 +140,9 @@
       <column name="notes">{SoH:n}:{ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n} = {Da-:v:pref,nolink}
 
 When used with {-lu':v}, this prefix means "Someone (indefinite subject) does something to you".</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">{SoH:n}:{ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n} = {Da-:v:pref,nolink}
+
+Wenn es mit {-lu':v} benutzt wird, bedeutet dieses Präfix "Man (indefinites Subjekt) tut etwas mit dir".</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">{SoH:n}:{ghaH:n}/{'oH:n}/{chaH:n}/{bIH:n} = {Da-:v:pref,nolink}
@@ -378,7 +380,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="antonyms"></column>
       <column name="see_also">{jeH:v}, {SaH:v:2}, {Dach:v:1}, {tab:v}</column>
       <column name="notes">This applies to a person who is not focused on the task at hand.[1, p.149]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich auf eine Person, die sich nicht auf die aktuelle Aufgabe konzentiert.[1, S.149]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Это применяют к человеку, кто не сфокусирован на задании.[1, стр.149]</column>
@@ -425,7 +427,7 @@ When used with {-lu':v}, this prefix means "Someone (indefinite subject) does so
       <column name="antonyms"></column>
       <column name="see_also">{tuq:n}</column>
       <column name="notes">This is the House of {DennaS:n:name}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist das Haus des {DennaS:n:name}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">{DennaS:n:name} tillhör den här ätten.</column>
       <column name="notes_ru"></column>
@@ -620,7 +622,7 @@ Since {tuj:v} means "hot", this is a "hotdog".</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is something you might say to turn down someone's romantic overtures.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist etwas, was man sagen kann, um jemandem einen Korb zu geben.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -725,7 +727,17 @@ As the subject of a sentence, {jajvam:n:nolink} is more typically found, though 
 {DaHjaj:n:nolink} is also used with words indicating a time of day to refer to that portion of the current day. For example, {DaHjaj ram:n}, literally "today's night", means "tonight".[2] Other portions of the day, such as {pem:n}, {po:n:1h}, {pov:n}, and so on, are also possible. These can be shortened to {DaHram:n}, {DaHpem:n}, {DaHpo:n}, {DaHpov:n}, and so on.[3]
 
 As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Zwar bedeuten sowohl {DaHjaj:n:nolink} und {jajvam:n} "heute", aber sie sind nicht ganz austauschbar. {DaHjaj:n:nolink} (aber nicht {jajvam:n:nolink}) wird als Zeitadverbial in einem Satz benutzt: {DaHjaj romuluSngan vIHoHpu':sen:nolink} "Heute habe ich einen Romulaner getötet".[2]
+
+Als Subjekt eines Satzes ist {jajvam:n:nolink} üblicher, wobei {DaHjaj:n:nolink} Nicht unmöglich ist. Vergleiche:
+▶ {nI' jajvam:sen:nolink} "Dieser Tag ist lang"
+▶ {nI' DaHjaj:sen:nolink} "Heute ist lang"[2]
+
+{DaHjaj:n:nolink} kann auch als Nomen in Nomen-Nomen-Konstruktionen wie {DaHjaj gheD:n} "Beute von heute", ein Begriff, den man oft in klingonischen Restaurants hört, mit einer Bedeutung vergleichbar mit "Tagesfang".[2]
+
+{DaHjaj:n:nolink} wird auch mit Tageszeit-Wörtern benutzt, um über diese Tageszeit des aktuellen Tags zu sprechen. Zum Beispiel, {DaHjaj ram:n}, wörtlich "Nacht/Abend von heute", bedeutet "heute abend/nacht".[2] Andere Tageszeiten, wie {pem:n}, {po:n:1h}, {pov:n}, usw., sind auch möglich. Diese können zu {DaHram:n}, {DaHpem:n}, {DaHpo:n}, {DaHpov:n}, usw. abgekürzt werden.[3]
+
+Als Zeitadverbial steht {DaHjaj:n} vor anderen Adverbialen.[1, sec. 6.7]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Пока {DaHjaj:n:nolink} и {jajvam:n} означают "сегодня", они не совсем взаимозаменяемые. {DaHjaj:n:nolink} (но не {jajvam:n:nolink}) используется, как элемент времени в предложении: {DaHjaj romuluSngan vIHoHpu':sen:nolink} "сегодня я убил ромуланца".[2]
@@ -970,7 +982,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is short for {DaHjaj pem:n@@DaHjaj:n, pem:n}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist kurz für {DaHjaj pem:n@@DaHjaj:n, pem:n}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -1017,7 +1029,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is short for {DaHjaj po:n@@DaHjaj:n, po:n:1h}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist kurz für {DaHjaj po:n@@DaHjaj:n, po:n:1h}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -1064,7 +1076,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is short for {DaHjaj pov:n@@DaHjaj:n, pov:n}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist kurz für {DaHjaj pov:n@@DaHjaj:n, pov:n}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -1111,7 +1123,7 @@ As a time element, {DaHjaj:n} precedes any adverbials.[1, sec. 6.7]</column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is short for {DaHjaj ram:n}.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist kurz für {DaHjaj ram:n}.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -1446,7 +1458,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This is the closest Klingon equivalent to a hippo.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist das einem Nilpferd ähnlichste klingonische Tier.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -1634,7 +1646,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also"></column>
       <column name="notes">This means to make (an image) less blurry.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bedeutet (ein Bild) weniger verschwommen zu machen.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2066,7 +2078,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{jentel:n}</column>
       <column name="notes">This refers to a bunch or collection of threads, grass, hair, etc., held or growing together at the base.[1] This is any collection of filament-like things, not restricted to living material. The brush part of a paintbrush is a {Daqba':n:nolink}.[2]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bedeutet ein Büschel oder eine Sammlung von Fäden, Gras, Haare, etc., die an einer Seite zusammengehalten werden oder zusammengewachsen sind.[1] Dies ist jede Gruppe von Faden-ähnlichen Dingen und nicht auf lebendes Material beschränkt. Der Haarteil eines Pinsels ist ein {Daqba':n:nolink}.[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2160,7 +2172,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{bIQ:n}, {tlhegh jIrmoHwI':n}</column>
       <column name="notes">This normally refers to a water well, but could be for other substances. It refers to a well which is constructed (or dug), rather than naturally occurring. If clarity is needed, one can say {bIQ Daqrab:n@@bIQ:n, Daqrab:n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich normalerweise auf einen Wasserbrunnen, kann aber auch für andere Substanzen sein. Es bezieht sich auf einen Brunnen, der gebaut oder gegraben ist, nicht natürlich. Wenn Klarstellung nötig ist kann man {bIQ Daqrab:n@@bIQ:n, Daqrab:n} sagen.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2207,7 +2219,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{tajHom:n}, {ret'aq:n}, {moQ:n}, {DuQwI'Hom:n}, {taj:n}</column>
       <column name="notes">There is an idiom, {jej; Daqtagh rur}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Es gibt eine Redewendung: {jej; Daqtagh rur}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2254,7 +2266,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{qajunpaQ:n}</column>
       <column name="notes">This refers to a person with an "icy" demeanor, especially a tough negotiator. It is not clear whether this is a native Klingon word or a borrowed Trill or Kriosian word or phrase meaning "ice man," but, in any case, this is the Klingon pronunciation.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich auf eine Person mit einem "eisigen" Verhalten, im Besonderen ein harter Verhandler. Es ist unklar, ob dies ein ursprünglich klingonisches Wort ist, oder ein aus dem Trill oder Kriosianischen entlehntes Wort oder Phrase mit der Bedeutung "Eismann" ist, aber dies ist in jedem Fall die klingonische Aussprache.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv">Ordet avser en person med ett "isigt" beteende, särskilt en hård förhandlare. Det är inte klart om det här är ett inhemskt klingonskt ord eller om det är inlånat trillskt eller kriosiskt ord med betydelsen "isman", men oavsett så är det här det klingonska uttalet.[1]</column>
       <column name="notes_ru"></column>
@@ -2348,7 +2360,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{voy:v}</column>
       <column name="notes">This is not the same as a {velqa':n}, as a clone is not a replica (copy, model, etc.). It's the same thing as the original, and is genetically identical to it.[1]</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies ist nicht dasselbe wie ein {velqa':n}, da ein Klon keine Nachbildung (Kopie, Modell, etc.) ist. Ein Klon ist das Gleiche wie das Original und genetisch identisch.[1]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -2395,7 +2407,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{Qenvob:n}, {bIQ na':n}, {runpI':n}, {Dargh wIb:n}</column>
       <column name="notes">This refers to the beverage only. For the dried-up mixture used to brew tea, see {Qenvob:n}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">Dies bezieht sich nur auf das Getränk. Für die getrocknete Mixtur, die zum Teemachen verwendet wird, siehe {Qenvob:n}.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru">Упоминается только как напиток. Для высушенной смеси, использованной, чтобы заваривать чай, смотрите {Qenvob:n}.</column>
@@ -2407,7 +2419,8 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="components"></column>
       <column name="examples">
 ▶ {Hoch vor Dargh wIb.:sen:nolink} "Sour tea cures everything."[2]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {Hoch vor Dargh wIb.:sen:nolink} "Sauerer Tee heilt alles."[2]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru">
@@ -2456,7 +2469,8 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="components">{Dargh:n}, {wIb:v}</column>
       <column name="examples">
 ▶ {Hoch vor Dargh wIb.:sen:nolink} "Sour tea cures everything."[1]</column>
-      <column name="examples_de"></column>
+      <column name="examples_de">
+▶ {Hoch vor Dargh wIb.:sen:nolink} "Кислый чай лечит всё."[2]</column>
       <column name="examples_fa"></column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
@@ -2492,7 +2506,7 @@ The sentence {tlhIngan yoH Daj verengan yoH qetlh:sen:nolink} on {KGT p.179:src}
       <column name="antonyms"></column>
       <column name="see_also">{tu'lum:n}</column>
       <column name="notes">In {TNK:src}, "cup and saucer" is translated as {Dargh HIvje' jengva' je:n@@Dargh HIvje':n, jengva':n, je:conj}.</column>
-      <column name="notes_de"></column>
+      <column name="notes_de">In {TNK:src} wird "Tasse und Untertasse" mit {Dargh HIvje' jengva' je:n@@Dargh HIvje':n, jengva':n, je:conj} übersetzt.</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
