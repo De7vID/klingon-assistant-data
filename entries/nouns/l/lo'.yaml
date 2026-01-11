@@ -1,0 +1,44 @@
+entry:
+  entry_name: lo'
+  slug: lo'_n
+  part_of_speech: n
+  pos: n
+  status: canonical
+  section: main
+  definition:
+    text: use, mode
+    parts:
+    - text: use
+    - text: mode
+  see_also: '{lo'':v}'
+  notes: This can be used for "mode" in the sense of a mode of usage. For example,
+    "night mode" (a mode in software to turn its user interface dark, for use at night)
+    would be {ram lo':n@@ram:n, lo':n}.[2]
+  hidden_notes: This was defined as "use" in {TKDA:src}. The "mode" meaning was explained
+    in a message to the {KLI mailing list:src}.
+  examples: '{lo'' law'':n}'
+  sources:
+    raw: '[1] {TKDA:src}, [2] {KLI mailing list 2018.02.17:src}'
+    citations:
+    - source: tkda
+    - source: kli_mailing_list
+      date: '2018-02-17'
+  translations:
+    de:
+      definition: Verwendung, Gebrauch, Betriebsmodus
+    fa:
+      definition: استفاده کنید، حالت [AUTOTRANSLATED]
+    sv:
+      definition: användning, bruk, funktion, nytta
+    ru:
+      definition: режим(относится к работе какого-то устройства), использование
+    zh_HK:
+      definition: 用法、用途
+    pt:
+      definition: uso, modo
+    fi:
+      definition: käyttö, hyöty, tila
+    fr:
+      definition: utilisation, mode [AUTOTRANSLATED]
+  _original_id: 11867
+  _original_file: mem-07-l.xml

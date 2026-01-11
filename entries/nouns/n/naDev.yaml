@@ -1,0 +1,55 @@
+entry:
+  entry_name: naDev
+  slug: naDev_n
+  part_of_speech: n
+  pos: n
+  status: canonical
+  section: main
+  definition:
+    text: here, hereabouts
+    parts:
+    - text: here
+    - text: hereabouts
+    dedup: true
+  see_also: '{pa'':n:2}, {Dat:n}, {vogh:n}'
+  notes: This word is never followed by the locative suffix {-Daq:n:suff}. ({TKD 3.3.5:src})
+  examples: '
+
+    ▶ {naDev Dochvetlh qem!:sen}
+
+    ▶ {naDev tlhInganpu'' tu''lu''.:sen}
+
+    ▶ {naDev qaS wanI'' ramqu''.:sen}
+
+    ▶ {naDev vay'' DaSov''a''?:sen}
+
+    ▶ {naDev vay'' vISovbe''.:sen}
+
+    ▶ {naDevvo'' jIleghlaHchu''be''.:sen}
+
+    ▶ {naDevvo'' yIghoS!:sen}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: hier
+    fa:
+      definition: اینجا
+    sv:
+      definition: här, häromkring
+    ru:
+      definition: здесь
+      notes: Это слово никогда не следует за локационным суффиксом {-Daq:n:suff}.
+        ({TKD 3.3.5:src})
+    zh_HK:
+      definition: 這裡、這邊
+    pt:
+      definition: aqui, por aqui
+    fi:
+      definition: täällä, täälläpäin
+    fr:
+      definition: ici, à peu près [AUTOTRANSLATED]
+  _original_id: 12267
+  _original_file: mem-09-n.xml

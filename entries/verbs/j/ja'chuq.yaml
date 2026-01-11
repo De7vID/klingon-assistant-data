@@ -1,0 +1,61 @@
+entry:
+  entry_name: ja'chuq
+  slug: ja'chuq_v
+  part_of_speech: v:t_c,deriv
+  pos: v
+  pos_subtype: t_c
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: discuss, confer
+    parts:
+    - text: discuss
+    - text: confer
+  see_also: '{rIch:v}'
+  notes: This verb is made up of {ja':v} plus the suffix {-chuq:v}[1, p.66].
+  hidden_notes: In {paq'batlh 1ed:src}, there was a line which read {quv HIja'chuqQo'!:sen:nolink}
+    "Don't speak to me of honor!" However, this was an error and the line has been
+    changed to {jIHvaD quv yIjatlhQo':sen:nolink} in {paq'batlh 2ed:src}.
+  components: '{ja'':v}, {-chuq:v}'
+  examples: '
+
+    ▶ {''uQ wISoppu''DI'' maja''chuq.:sen:nolink} "We will talk after dinner."[2]'
+  sources:
+    raw: '[1] {TKD:src}, [2] {PK:src}'
+    citations:
+    - source: tkd
+    - source: pk
+  translations:
+    de:
+      definition: diskutieren, besprechen, absprechen
+      notes: Dieses Verb besteht aus {ja':v} und dem Suffix {-chuq:v}[1, p.66].
+      examples: '
+
+        ▶ {''uQ wISoppu''DI'' maja''chuq.:sen:nolink} "Wir werden nach dem Abendessen
+        sprechen."[2]'
+    fa:
+      definition: بحث کن، موافقم [AUTOTRANSLATED]
+    sv:
+      definition: diskutera, konferera
+    ru:
+      definition: обсуждать, дискутировать, совещаться
+      notes: Глагол составлен из {ja':v} плюс суффикс {-chuq:v}[1, стр.66].
+      examples: '
+
+        ▶ {''uQ wISoppu''DI'' maja''chuq.:sen:nolink} "Мы поговори после ужина."[2]'
+    zh_HK:
+      definition: 討論、商量 [AUTOTRANSLATED]
+    pt:
+      definition: discutir, conferir
+    fi:
+      definition: keskustella, neuvotella
+    fr:
+      definition: discuter, conférer
+      notes: Ce verbe se compose de {ja':v} et le suffixe {-chuq:v}[1, p.66].
+      examples: '
+
+        ▶ {''uQ wISoppu''DI'' maja''chuq.:sen:nolink} "Nous allons parler après dîner."[2]'
+  _original_id: 11484
+  _original_file: mem-06-j.xml

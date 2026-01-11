@@ -1,0 +1,47 @@
+entry:
+  entry_name: luj
+  slug: luj_v
+  part_of_speech: v:t
+  pos: v
+  pos_subtype: t
+  status: canonical
+  section: main
+  definition:
+    text: fail, lose (not win)
+    parts:
+    - text: fail
+    - text: lose
+    global_parenthetical: not win
+  antonyms: '{Qap:v:1}'
+  see_also: '{''ov:v}, {vonlu'':v}, {bup:v}, {jegh:v}'
+  hidden_notes: This is defined as "fail" in {TKD:src}, and as "lose (not win)" in
+    {KGT:src}. In {HQ 2.4:src} it is explained that these are the same word.[3]
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT:src}, [3] {HQ 2.4, p.18, Dec. 1993:src}'
+    citations:
+    - source: tkd
+    - source: kgt
+    - source: holqed
+      page_start: 18
+      volume: 2
+      issue: 4
+      date: Dec. 1993
+  translations:
+    de:
+      definition: versagen, verlieren (nicht gewinnen)
+    fa:
+      definition: شکست خوردن (از دست دادن) [AUTOTRANSLATED]
+    sv:
+      definition: misslyckas, förlora
+    ru:
+      definition: проигрывать, терпеть поражение
+    zh_HK:
+      definition: 失敗、輸（不贏） [AUTOTRANSLATED]
+    pt:
+      definition: falhar, perder (não ganhar)
+    fi:
+      definition: hävitä, epäonnistua
+    fr:
+      definition: échouer, perdre (ne pas gagner)
+  _original_id: 11883
+  _original_file: mem-07-l.xml

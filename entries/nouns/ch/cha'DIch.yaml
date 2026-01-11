@@ -1,0 +1,85 @@
+entries:
+- entry_name: cha'DIch
+  slug: cha'DIch_n_1
+  part_of_speech: n:1,num,deriv
+  pos: n
+  pos_subtype: num
+  homophone: 1
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition: second (ordinal number)
+  see_also: '{cha''DIch:n:2}'
+  components: '{cha'':n:num}, {-DIch:n:num}'
+  search_tags: 2nd
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: zweite/r
+    fa:
+      definition: دومین
+    sv:
+      definition: andra
+    ru:
+      definition: второй
+    zh_HK:
+      definition: 第二
+    pt:
+      definition: segundo
+    fi:
+      definition: toinen
+    fr:
+      definition: second, deuxième (nombre ordinal)
+  _original_id: 10355
+  _original_file: mem-02-ch.xml
+- entry_name: cha'DIch
+  slug: cha'DIch_n_2
+  part_of_speech: n:2,being,deriv
+  pos: n
+  pos_subtype: being
+  homophone: 2
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: second, aide (role in Klingon legal system)
+    parts:
+    - text: second
+    - text: aide
+    global_parenthetical: role in Klingon legal system
+  see_also: '{boQ:n:1}, {cha''DIch:n:1}'
+  notes: During some legal proceedings, the accused must have a second to defend him
+    or her.
+  components: '{cha'':n:num}, {-DIch:n:num}'
+  sources:
+    raw: '[1] {TKW:src}'
+    citations:
+    - source: tkw
+  translations:
+    de:
+      definition: Sekundant, Berater
+      notes: Während einiger juristischer Verfahren muss der Angeklagte einen Berater
+        haben, der ihn oder sie verteidigt.
+    fa:
+      definition: دوم، کمک کننده [AUTOTRANSLATED]
+    sv:
+      definition: medhjälpare, sekond
+    ru:
+      definition: во-вторых, помощник [AUTOTRANSLATED]
+    zh_HK:
+      definition: 第二、助手 [AUTOTRANSLATED]
+    pt:
+      definition: segundo, assessor
+    fi:
+      definition: esitaistelija
+    fr:
+      definition: second, assistant (rôle dans le système juridique Klingon)
+      notes: Pendant certains procédés juridiques, l'accusé doit avoir un second pour
+        le défendre.
+  _original_id: 10356
+  _original_file: mem-02-ch.xml

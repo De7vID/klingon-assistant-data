@@ -1,0 +1,46 @@
+entry:
+  entry_name: chu'Ha'
+  slug: chu'Ha'_v
+  part_of_speech: v:t_c,deriv
+  pos: v
+  pos_subtype: t_c
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: disengage, deactivate (a device)
+    parts:
+    - text: disengage
+    - text: deactivate
+    global_parenthetical: a device
+  antonyms: '{chu'':v:2}'
+  hidden_notes: This word is not defined as such in canon, but appears in the bodies
+    of {TKD:src} and {KGT:src}[1; 2]. This entry is here for ease of reference only.
+  components: '{chu'':v:2}, {-Ha'':v}'
+  sources:
+    raw: '[1] {TKD p.48:src}, [2] {KGT p.54:src}'
+    citations:
+    - source: tkd
+      page_start: 48
+    - source: kgt
+      page_start: 54
+  translations:
+    de:
+      definition: (ein Gerät) ausschalten, deaktivieren
+    fa:
+      definition: قطع کردن، غیرفعال کردن (یک دستگاه) [AUTOTRANSLATED]
+    sv:
+      definition: slå av, stänga av, avaktivera (en enhet)
+    ru:
+      definition: выключить, отключить, деактивировать(устройство)
+    zh_HK:
+      definition: 脫離、停用（設備） [AUTOTRANSLATED]
+    pt:
+      definition: desligar, desativar (um dispositivo)
+    fi:
+      definition: sammuttaa, deaktivoida (laite)
+    fr:
+      definition: éteindre, désactiver (un appareil)
+  _original_id: 10520
+  _original_file: mem-02-ch.xml

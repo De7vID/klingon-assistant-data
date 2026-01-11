@@ -1,0 +1,56 @@
+entry:
+  entry_name: pumDI'
+  slug: pumDI'_sen
+  part_of_speech: sen:idiom
+  pos: sen
+  pos_subtype: idiom
+  status: canonical
+  section: main
+  definition:
+    text: by that time, by the time that (something) occurred
+    parts:
+    - text: by that time
+    - text: by the time that (something) occurred
+    dedup: true
+  see_also: '{ngugh:adv}'
+  notes: This idiomatic expression literally means "when it falls". It is most frequently
+    heard without a subject, but when a subject is specified, the most common is {'etlh:n}.
+    Another word may be chosen as the subject as a form of word play, as long as it
+    is something that can fall (e.g., {DaS:n}, {'obmaQ:n}, {nagh:n}, {rutlh:n}). When
+    used idiomatically, {pumDI':sen:nolink} always precedes the main clause.[1]
+  components: '{pum:v:2}, {-DI'':v}'
+  examples: '
+
+    ▶ {tagha'' pawpu'' meb ''ach pumDI'' Heghpu'' qagh.:sen:nolink} "The guest finally
+    arrived, but by then the gagh had died."[1]'
+  search_tags: by then
+  sources:
+    raw: '[1] {s.k 1999.11.05:src} (reprinted in {HQ 8.4, p.9, Dec. 1999:src})'
+    citations:
+    - source: startrek_klingon
+      date: '1999-11-05'
+      reprinted_in:
+        source: holqed
+        page_start: 9
+        volume: 8
+        issue: 4
+        date: Dec. 1999
+  translations:
+    de:
+      definition: in dem Moment
+    fa:
+      definition: توسط آن زمان، تا زمانی که (چیزی) رخ داده است [AUTOTRANSLATED]
+    sv:
+      definition: vid den tiden, när det (något) inträffade [AUTOTRANSLATED]
+    ru:
+      definition: к тому времени, к тому времени, когда (что-то) произошло [AUTOTRANSLATED]
+    zh_HK:
+      definition: 到那個時候、（某事）發生的時候 [AUTOTRANSLATED]
+    pt:
+      definition: naquele momento, no momento em que (algo) ocorreu
+    fi:
+      definition: sillä hetkellä
+    fr:
+      definition: à ce moment-là, au moment où (quelque chose) s'est produit [AUTOTRANSLATED]
+  _original_id: 12967
+  _original_file: mem-11-p.xml

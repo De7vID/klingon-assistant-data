@@ -1,0 +1,64 @@
+entry:
+  entry_name: Qatlh
+  slug: Qatlh_v
+  part_of_speech: v:is,klcp1
+  pos: v
+  pos_subtype: is
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: be difficult, be complex
+    parts:
+    - text: be difficult
+    - text: be complex
+  antonyms: '{ngeD:v}, {nap:v}'
+  notes: For "hard (not soft)", see {let:v}. See also {ngem Sarghmey tlha':sen:idiom}
+    for an idiom related to difficulty or complexity.
+  hidden_notes: This was defined as "be difficult" in {TKD:src} and as "be complex"
+    in {KGT:src}.
+  examples: "\n▶ {qIpmeH Qatlh'a'?:sen}\n▶ {motlh ray' luSamlaHmeH De' Qatlh cha'\
+    \ tlhIngan Duj jIH'a'. motlh pIm 'ejyo' Dujmey.:sen:nolink}\n  \"Unlike most Starfleet\
+    \ vessels, the main viewer on a Klingon ship is usually overlaid with a complex\
+    \ target acquisition grid.\"[3]"
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT:src}, [3] {SkyBox SP3:src} (reprinted in {HQ 3.4,
+      p.10-11, Dec. 1994:src})'
+    citations:
+    - source: tkd
+    - source: kgt
+    - source: skybox_sp3
+      reprinted_in:
+        source: holqed
+        page_start: 10
+        page_end: 11
+        volume: 3
+        issue: 4
+        date: Dec. 1994
+  translations:
+    de:
+      definition: schwierig sein, kompliziert sein
+    fa:
+      definition: دشوار است پیچیده شود [AUTOTRANSLATED]
+    sv:
+      definition: vara svår, vara komplex, vara komplicerad
+    ru:
+      definition: быть сложным, быть трудным, быть тяжелым, быть нелегким, быть затруднительным,
+        быть комплексным, быть составным, быть запутанным
+      notes: Для слова "твердый" смотрите {let:v}. Смотрите также {ngem Sarghmey tlha':sen:idiom}
+        для идиомы, которая отнесена к сложности или запутанности.
+      examples: "\n▶ {qIpmeH Qatlh'a'?:sen}\n▶ {motlh ray' luSamlaHmeH De' Qatlh cha'\
+        \ tlhIngan Duj jIH'a'. motlh pIm 'ejyo' Dujmey.:sen:nolink}\n  \"В отличие\
+        \ от большинства судов Звездного флота, главный экран на Клингонском корабле\
+        \ обычно покрыт сложной прицельной сеткой.\"[3]"
+    zh_HK:
+      definition: 很難、很複雜 [AUTOTRANSLATED]
+    pt:
+      definition: ser difícil, ser complexo
+    fi:
+      definition: olla vaikea, olla monimutkainen
+    fr:
+      definition: être difficile, être complexe [AUTOTRANSLATED]
+  _original_id: 13396
+  _original_file: mem-13-Q.xml

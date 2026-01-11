@@ -1,0 +1,51 @@
+entry:
+  entry_name: mev
+  slug: mev_v
+  part_of_speech: v:ambi,klcp1
+  pos: v
+  pos_subtype: ambi
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: stop, cease
+    no_permute: true
+  see_also: '{yev:v}, {vIH:v}, {bup:v}, {taD:v}'
+  notes: The command {yImev:sen@@yI-:v, mev:v} means to stop doing something. It would
+    not be used for stopping a device (such as an engine).[2]
+  hidden_notes: The only object this verb has taken in canon is {'e':n:pro}, and in
+    every case the subject of {mev:v:nolink} has been identical to the subject of
+    the sentence-as-object. It seems that the subject is what stops or ceases, even
+    when there is an object. It is notable that {mevmoH:v@@mev:v, -moH:v} appears
+    on {KGT p.154:src} as "cause [someone] to stop".
+  examples: '
+
+    ▶ {bIjatlh ''e'' yImev!:sen}
+
+    ▶ {not mev peghmey.:sen}'
+  sources:
+    raw: '[1] {TKD:src}, [2] {KCD:src}'
+    citations:
+    - source: tkd
+    - source: kcd
+  translations:
+    de:
+      definition: stoppen, aufhören
+    fa:
+      definition: توقف، متوقف [AUTOTRANSLATED]
+    sv:
+      definition: sluta, upphöra
+    ru:
+      definition: останавливаться, прекращать, прерывать, останавливать, пресекать
+    zh_HK:
+      definition: 停止
+    pt:
+      definition: parar, cessar
+    fi:
+      definition: lopettaa (jonkin tekeminen)
+      search_tags: lakata, tauota
+    fr:
+      definition: arrêter, cesser [AUTOTRANSLATED]
+  _original_id: 12063
+  _original_file: mem-08-m.xml

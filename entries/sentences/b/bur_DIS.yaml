@@ -1,0 +1,45 @@
+entry:
+  entry_name: bur DIS
+  slug: bur_DIS_sen
+  part_of_speech: sen:phrase
+  pos: sen
+  categories:
+  - phrase
+  status: canonical
+  section: main
+  definition: leap year
+  notes: To express the concept of a "leap year", just use the verb {bur:v} with {DIS:n:2}.
+  hidden_notes: This was revealed to provide Klingon subtitles for the 50th anniversary
+    of the German children's TV show "Die Sendung mit der Maus".
+  components: '{bur:v}, {DIS:n:2}'
+  examples: '
+
+    ▶ {qatlh bur ''op DISmey?:sen@@qatlh:ques, bur:v, ''op:n, DIS:n:2, -mey:n}[1]'
+  sources:
+    raw: '[1] {KLI mailing list 2021.03.07:src}'
+    citations:
+    - source: kli_mailing_list
+      date: '2021-03-07'
+  translations:
+    de:
+      definition: Schaltjahr
+      notes: Um das Konzept eines "Schaltjahres" auszudrücken, benutzt man das Verb
+        {bur:v} mit {DIS:n:2}.
+    fa:
+      definition: سال کبیسه
+    sv:
+      definition: skottår
+    ru:
+      definition: високосный год
+    zh_HK:
+      definition: 閏年
+    pt:
+      definition: ano bissexto
+    fi:
+      definition: karkausvuosi
+    fr:
+      definition: année bissextile
+      notes: Pour exprimer le concept d'une "année bissextile", on utilise simplement
+        le verbe {bur:v} avec {DIS:n:2}.
+  _original_id: 10283
+  _original_file: mem-01-b.xml

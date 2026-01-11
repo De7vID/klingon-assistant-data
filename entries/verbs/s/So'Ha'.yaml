@@ -1,0 +1,97 @@
+entries:
+- entry_name: So'Ha'
+  slug: So'Ha'_v_1
+  part_of_speech: v:1,t_c,deriv
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: unhide, decloak
+    parts:
+    - text: unhide
+    - text: decloak
+  antonyms: '{So'':v:1}'
+  see_also: '{So''wI'' yIchu''Ha''!:sen}'
+  notes: This verb is also used for the decryption of data (see {So'Ha':v:2}).
+  hidden_notes: This is not defined in canon, but is an obvious construction and is
+    spoken in {Star Trek III:src} and {Star Trek V:src}.
+  components: '{So'':v:1}, {-Ha'':v}'
+  examples: '
+
+    ▶ {yISo''Ha''rup, yIghuS.:sen}'
+  search_tags: uncloak
+  sources:
+    raw: '[1] {Star Trek III:src}'
+    citations:
+    - source: star_trek_iii
+  translations:
+    de:
+      definition: enttarnen
+    fa:
+      definition: از بین بردن ، رها کردن [AUTOTRANSLATED]
+    sv:
+      definition: oleda, avloppa [AUTOTRANSLATED]
+    ru:
+      definition: раскрывать, раскрыть, разкрыватся (выключая маскировочное устройство)
+      notes: Этот глагол также используется для расшифрования данных (см. {So'Ha':v:2}).
+    zh_HK:
+      definition: 取消隱藏，隱藏 [AUTOTRANSLATED]
+    pt:
+      definition: exibir, descamuflar
+    fi:
+      definition: paljastaa jokin (piilotettu)
+      search_tags: häive
+    fr:
+      definition: afficher, démasquer [AUTOTRANSLATED]
+  _original_id: 14102
+  _original_file: mem-15-S.xml
+- entry_name: So'Ha'
+  slug: So'Ha'_v_2
+  part_of_speech: v:2,t_c,deriv
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition: decrypt
+  antonyms: '{So'':v:2}'
+  see_also: '{baghHa'':v}, {meSHa'':v:2}'
+  notes: This is just an application of {So'Ha':v:1} to data. When this term is used
+    for the decryption of data, it implies that the decryption is authorized and the
+    way to do it is known.[1]
+  hidden_notes: Despite the English definition, it may be the case that the grammar
+    follows {So':v:1,nolink}, and that the subject is decrypted if there is no object.
+  components: '{So'':v:2}, {-Ha'':v}'
+  sources:
+    raw: '[1] {Saarbrücken qepHom''a'' 2014:src}'
+    citations:
+    - source: qephom_2014
+      date: '2014'
+  translations:
+    de:
+      definition: entschlüsseln
+    fa:
+      definition: رمزگشایی [AUTOTRANSLATED]
+    sv:
+      definition: Avkryptera [AUTOTRANSLATED]
+    ru:
+      definition: расшифровать
+      notes: Это всего лишь приложение глагола {So'Ha':v:1} к данным. Когда этот глагол
+        используется для расшифровки данных, это значет, что расшифрования разрешён,
+        и метод известен.[1]
+    zh_HK:
+      definition: 解密 [AUTOTRANSLATED]
+    pt:
+      definition: decifrar
+    fi:
+      definition: purkaa (salaus)
+    fr:
+      definition: décrypter [AUTOTRANSLATED]
+  _original_id: 14103
+  _original_file: mem-15-S.xml

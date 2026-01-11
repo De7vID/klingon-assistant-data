@@ -1,0 +1,49 @@
+entry:
+  entry_name: teybe'
+  slug: teybe'_v
+  part_of_speech: v:is,deriv
+  pos: v
+  pos_subtype: is
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: be comfortable, be not close, have wiggle room or leeway
+    parts:
+    - text: be comfortable
+    - text: be not close
+    - text: have wiggle room or leeway
+  antonyms: '{tey:v:2}'
+  components: '{tey:v:2}, {-be'':v}'
+  examples: '
+
+    ▶ {teybe'' yay:sen@@teybe'':v, yay:n:2h} "the victory didn''t scrape", "the victory
+    was comfortable"'
+  sources:
+    raw: '[1] {qep''a'' 24 (2017):src}'
+    citations:
+    - source: qepa_2017
+      date: '2017'
+  translations:
+    de:
+      definition: weit sein, bequem sein, sicher sein, mit Spielraum sein
+    fa:
+      definition: راحت باشید، نزدیک نباشید، اتاق را لرزاند یا آرام باشید [AUTOTRANSLATED]
+    sv:
+      definition: var bekväm, var inte nära, vinkla rum eller utrymme [AUTOTRANSLATED]
+    ru:
+      definition: быть удобным, не быть рядом, иметь пространство для маневра или
+        свободу действий [AUTOTRANSLATED]
+    zh_HK:
+      definition: 要舒服、不要靠近、有擺動的空間或迴旋餘地 [AUTOTRANSLATED]
+    pt:
+      definition: ser confortável, não estar perto, ter espaço de manobra ou margem
+        de manobra
+    fi:
+      definition: olla ei täpärä, olla liikkumavaraa
+    fr:
+      definition: être à l'aise, ne pas être à proximité, avoir une marge de manœuvre
+        [AUTOTRANSLATED]
+  _original_id: 14342
+  _original_file: mem-16-t.xml

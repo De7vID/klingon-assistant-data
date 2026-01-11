@@ -1,0 +1,88 @@
+entries:
+- entry_name: pum
+  slug: pum_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition: accuse
+  see_also: '{pum:n}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: anklagen, beschuldigen, anschuldigen
+      search_tags: vorwerfen
+    fa:
+      definition: متهم [AUTOTRANSLATED]
+    sv:
+      definition: anklaga
+    ru:
+      definition: обвинять
+    zh_HK:
+      definition: 告 [AUTOTRANSLATED]
+    pt:
+      definition: acusar
+    fi:
+      definition: syyttää, tehdä syytös
+    fr:
+      definition: accuser [AUTOTRANSLATED]
+  _original_id: 12965
+  _original_file: mem-11-p.xml
+- entry_name: pum
+  slug: pum_v_2
+  part_of_speech: v:2,i_c,klcp1
+  pos: v
+  pos_subtype: i_c
+  homophone: 2
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition: fall
+  see_also: '{peD:v}, {chagh:v}, {qaw'':v}'
+  notes: For a symbolic fall (i.e., loss of status), see {lu:v}.
+  hidden_notes: The definition in {TKD:src} just says "fall". In {s.k 1999.11.05:src}
+    this is glossed as "fall down or fall off of something".
+  examples: '
+
+    ▶ {Dubotchugh yIpummoH.:sen}'
+  sources:
+    raw: '[1] {TKD:src}, [2] {s.k 1999.11.05:src} (reprinted in {HQ 8.4, p.9, Dec.
+      1999:src})'
+    citations:
+    - source: tkd
+    - source: startrek_klingon
+      date: '1999-11-05'
+      reprinted_in:
+        source: holqed
+        page_start: 9
+        volume: 8
+        issue: 4
+        date: Dec. 1999
+  translations:
+    de:
+      definition: fallen (abwärts bewegen)
+    fa:
+      definition: سقوط [AUTOTRANSLATED]
+    sv:
+      definition: falla
+    ru:
+      definition: пасть, падать, терпеть крах
+      notes: Для описания символического падения (например потеря статуса), смотрите
+        {lu:v}.
+    zh_HK:
+      definition: 跌
+    pt:
+      definition: cair
+    fi:
+      definition: pudota
+      search_tags: kaataa, pudottaa
+    fr:
+      definition: automne [AUTOTRANSLATED]
+  _original_id: 12966
+  _original_file: mem-11-p.xml

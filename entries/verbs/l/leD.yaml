@@ -1,0 +1,51 @@
+entry:
+  entry_name: leD
+  slug: leD_v
+  part_of_speech: v:i_c
+  pos: v
+  pos_subtype: i_c
+  status: canonical
+  section: main
+  definition:
+    text: be perpendicular, be at a right angle
+    parts:
+    - text: be perpendicular
+    - text: be at a right angle
+  antonyms: '{Don:v}'
+  see_also: '{tajvaj leD:n}, {Dop:v:1}, {neq:v}, {ra''Duch leD:n}'
+  notes: This is normally used with a plural subject.
+  hidden_notes: A plumb bob is often made of lead. It's unclear if this can be used
+    adjectivally.
+  examples: '
+
+    ▶ {leD rav tlhoy'' je@@leD:v, rav:n:1, tlhoy'':n, je:conj} "The floor and the
+    wall are perpendicular (to each other)."[1]'
+  sources:
+    raw: '[1] {Saarbrücken qepHom''a'' 2014:src}'
+    citations:
+    - source: qephom_2014
+      date: '2014'
+  translations:
+    de:
+      definition: senkrecht zu etwas sein
+      examples: '
+
+        ▶ {leD rav tlhoy'' je@@leD:v, rav:n:1, tlhoy'':n, je:conj} "Der Boden und
+        die Wand sind rechtwinklig (zu einander)."[1]'
+    fa:
+      definition: عمود بر آن باشد، در یک زاویه راست قرار گیرید [AUTOTRANSLATED]
+    sv:
+      definition: vara vinkelrätt, vara i rätt vinkel [AUTOTRANSLATED]
+      notes: Detta används vanligtvis med ett subjekt i plural.
+    ru:
+      definition: быть перпендикулярно, быть под прямым углом [AUTOTRANSLATED]
+    zh_HK:
+      definition: 是垂直的、是一個直角 [AUTOTRANSLATED]
+    pt:
+      definition: ser perpendicular, estar em um ângulo reto
+    fi:
+      definition: olla kohtisuorassa, olla suorassa kulmassa
+    fr:
+      definition: être perpendiculaire, être à angle droit
+  _original_id: 11710
+  _original_file: mem-07-l.xml

@@ -1,0 +1,111 @@
+entries:
+- entry_name: pagh
+  slug: pagh_n_1
+  part_of_speech: n:1,klcp1
+  pos: n
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: nothing, none, no one
+    parts:
+    - text: nothing
+    - text: none
+    - text: no one
+  antonyms: '{Hoch:n}'
+  see_also: '{''op:n}, {pagh:n:2}, {''achghej:n}'
+  notes: 'Verb prefixes when {pagh:n:1h,nolink} is the object (i.e., there is no object):
+
+    ▶ {jIH:n:1h}:{pagh:n:1h,nolink} = {jI-:v:pref}
+
+    ▶ {maH:n:1h}:{pagh:n:1h,nolink} = {ma-:v:pref}
+
+    ▶ {SoH:n}:{pagh:n:1h,nolink} = {bI-:v:pref}
+
+    ▶ {tlhIH:n}:{pagh:n:1h,nolink} = {Su-:v:pref}
+
+    ▶ {ghaH:n}/{''oH:n}/{chaH:n}/{bIH:n}:{pagh:n:1h,nolink} = {0:v:pref}
+
+
+    The imperative verb prefix when {pagh:n:1h,nolink} is the object is {yI-:v:pref}
+    if the command is given to a single person, and {pe-:v:pref} if it is given to
+    multiple people.'
+  hidden_notes: This was defined as "nothing, none" in {TKD:src} and as "no one" in
+    {KGT:src}.
+  search_tags: nobody
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT:src}'
+    citations:
+    - source: tkd
+    - source: kgt
+  translations:
+    de:
+      definition: nichts, keine/r
+    fa:
+      definition: هیچ چیز، هیچکس، هیچکس [AUTOTRANSLATED]
+    sv:
+      definition: ingenting, inget, ingen
+    ru:
+      definition: ничего, ничто, ноль, никто, ни один
+      notes: 'Глагольные префиксы, когда {pagh:n:1h,nolink} является объектом (т.е,
+        объект отсутствует):
+
+        ▶ {jIH:n:1h}:{pagh:n:1h,nolink} = {jI-:v:pref}
+
+        ▶ {maH:n:1h}:{pagh:n:1h,nolink} = {ma-:v:pref}
+
+        ▶ {SoH:n}:{pagh:n:1h,nolink} = {bI-:v:pref}
+
+        ▶ {tlhIH:n}:{pagh:n:1h,nolink} = {Su-:v:pref}
+
+        ▶ {ghaH:n}/{''oH:n}/{chaH:n}/{bIH:n}:{pagh:n:1h,nolink} = {0:v:pref}
+
+
+        Глагольный префикс повелительного наклонения, когда {pagh:n:1h,nolink} является
+        объектом {yI-:v:pref}, есл команда отдана одному лицу, и {pe-:v:pref}, если
+        команда отдана множеству лиц.'
+    zh_HK:
+      definition: 沒有、沒有、沒有人 [AUTOTRANSLATED]
+    pt:
+      definition: nada, ninguém
+    fi:
+      definition: ei mitään, ei kukaan
+    fr:
+      definition: rien, personne, personne [AUTOTRANSLATED]
+  _original_id: 12718
+  _original_file: mem-11-p.xml
+- entry_name: pagh
+  slug: pagh_n_2
+  part_of_speech: n:2,num
+  pos: n
+  pos_subtype: num
+  homophone: 2
+  status: canonical
+  section: main
+  definition: zero
+  see_also: '{pagh:n:1}, {paghlogh:adv}, {paghDIch:n}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: 'null'
+    fa:
+      definition: صفر
+    sv:
+      definition: noll
+    ru:
+      definition: ноль
+    zh_HK:
+      definition: 零
+    pt:
+      definition: zero
+    fi:
+      definition: nolla
+    fr:
+      definition: zéro [AUTOTRANSLATED]
+  _original_id: 12719
+  _original_file: mem-11-p.xml

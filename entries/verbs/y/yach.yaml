@@ -1,0 +1,80 @@
+entries:
+- entry_name: yach
+  slug: yach_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: pet, stroke
+    parts:
+    - text: pet
+    - text: stroke
+  see_also: '{Saj:n}, {yach:v:2}'
+  notes: There is no Klingon word for "cuddle", but {yachchuq:v@@yach:v:1, -chuq:v}
+    gets the idea across.[2]
+  search_tags: brush, cuddle
+  sources:
+    raw: '[1] {TKD:src}, [2] {KLI mailing list 2018.01.09:src}'
+    citations:
+    - source: tkd
+    - source: kli_mailing_list
+      date: '2018-01-09'
+  translations:
+    de:
+      definition: streicheln
+      notes: Es gibt kein klingonisches Wort für "kuscheln", aber {yachchuq:v@@yach:v:1,
+        -chuq:v} vermittelt die Idee.[2]
+    fa:
+      definition: حیوان خانگی، سکته مغزی [AUTOTRANSLATED]
+    sv:
+      definition: klappa
+    ru:
+      definition: ласкать, погладить
+    zh_HK:
+      definition: 撫摸
+    pt:
+      definition: acariciar
+    fi:
+      definition: silittää, haroa, sukia
+    fr:
+      definition: caresser
+      notes: Il n'y a pas de mot klingon pour "se pelotonner, se blottir contre",
+        mais {yachchuq:v@@yach:v:1, -chuq:v} fait comprendre l'idée.[2]
+  _original_id: 15070
+  _original_file: mem-20-y.xml
+- entry_name: yach
+  slug: yach_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: strum (a stringed instrument)
+  see_also: '{HurDagh:n}, {pang:v}, {yach:v:1}'
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Saite anschlagen (bei einem Saiteninstrument)
+    fa:
+      definition: ریش (یک ابزار رشته ای) [AUTOTRANSLATED]
+    sv:
+      definition: knäppa på, slå på (ett stränginstrument)
+    ru:
+      definition: Струм (струнный инструмент) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 撥動
+    pt:
+      definition: dedilhado (um instrumento de cordas)
+    fi:
+      definition: soittaa, rämpyttää (kielisoitinta)
+    fr:
+      definition: gratter (un instrument à cordes)
+  _original_id: 15071
+  _original_file: mem-20-y.xml

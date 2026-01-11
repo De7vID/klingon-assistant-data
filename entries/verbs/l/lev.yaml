@@ -1,0 +1,82 @@
+entries:
+- entry_name: lev
+  slug: lev_v_1
+  part_of_speech: v:1,t_c,weap
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  categories:
+  - weap
+  status: canonical
+  section: main
+  definition: move bat'leth from vertical to horizontal orientation
+  antonyms: '{ngol:v}'
+  see_also: '{betleH:n}, {jop:v:1}, {baQ:v:1}, {way'':v}, {chaQ:v}, {jIrmoH:v:1},
+    {DIj:v:1}'
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: das Bat'leth von der Senkrechte in die Waagerechte bewegen
+    fa:
+      definition: حرکت بتال از جهت عمودی به افقی [AUTOTRANSLATED]
+    sv:
+      definition: förflytta en bat'leth från vertikal till horisontell position
+    ru:
+      definition: переместить летучую мышь из вертикальной в горизонтальную ориентацию
+        [AUTOTRANSLATED]
+    zh_HK:
+      definition: 將bat'leth從垂直方向移動到水平方向 [AUTOTRANSLATED]
+    pt:
+      definition: mover bat'leth da orientação vertical para a horizontal
+    fi:
+      definition: siirtää bat'leth pystyasennosta vaaka-asentoon
+    fr:
+      definition: passer bat'leth de la verticale à l'horizontale
+  _original_id: 11744
+  _original_file: mem-07-l.xml
+- entry_name: lev
+  slug: lev_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition:
+    text: compensate, make up for
+    parts:
+    - text: compensate
+    - text: make up for
+  notes: This is not used for monetary (or equivalent) compensation, for which see
+    {teb:v:2}.[1]
+  sources:
+    raw: '[1] {qep''a'' 32 (2025):src}'
+    citations:
+    - source: qepa_2025
+      date: '2025'
+  translations:
+    de:
+      definition: kompensieren, ausgleichen, wiedergutmachen
+      notes: Dies wird nicht für monetäre (oder äquivalente) Kompensation benutzt.
+        Hierfür siehe {teb:v:2}.[1]
+    fa:
+      definition: جبران ، جبران کنید [AUTOTRANSLATED]
+    sv:
+      definition: kompensera, kompensera för [AUTOTRANSLATED]
+    ru:
+      definition: компенсировать, компенсировать [AUTOTRANSLATED]
+    zh_HK:
+      definition: 補償，彌補 [AUTOTRANSLATED]
+    pt:
+      definition: compensar, compensar [AUTOTRANSLATED]
+    fi:
+      definition: korvata, hyvittää, sovittaa (ei rahallisesti)
+    fr:
+      definition: compenser, dédommager
+      notes: Ce mot ne s'utilise pas pour la compensation monétaire (ou équivalent).
+        Pour ce sens, voir {teb:v:2}.[1]
+  _original_id: 11745
+  _original_file: mem-07-l.xml

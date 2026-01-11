@@ -1,0 +1,48 @@
+entry:
+  entry_name: SeHlaw
+  slug: SeHlaw_n
+  part_of_speech: n
+  pos: n
+  status: canonical
+  section: main
+  definition: control panel
+  notes: This can be used for a "settings" or "preferences" page in software, but
+    not individual settings, which are {DuH:n}.[2]
+  hidden_notes: Some information was revealed about {SeH:n:archaic,hyp,nolink} at
+    {qep'a' 27 (2020):src}.
+  components: '{SeH:n:archaic,hyp}, {law:n:archaic} or {law:n:hyp,nolink}'
+  examples: '
+
+    ▶ {jol SeHlaw:n}
+
+    ▶ {QeD SeHlaw:n}
+
+    ▶ {Qum SeHlaw:n}'
+  search_tags: console, settings, preferences
+  sources:
+    raw: '[1] {TKD:src}, [2] {KLI mailing list 2018.02.17:src}, [3] {qep''a'' 27 (2020):src}'
+    citations:
+    - source: tkd
+    - source: kli_mailing_list
+      date: '2018-02-17'
+    - source: qepa_2020
+      date: '2020'
+  translations:
+    de:
+      definition: Kontrollkonsole
+    fa:
+      definition: صفحه کنترل [AUTOTRANSLATED]
+    sv:
+      definition: kontrollpanel
+    ru:
+      definition: панель управления [AUTOTRANSLATED]
+    zh_HK:
+      definition: 控制面板 [AUTOTRANSLATED]
+    pt:
+      definition: painel de controle
+    fi:
+      definition: ohjauspaneeli
+    fr:
+      definition: panneau de contrôle
+  _original_id: 13937
+  _original_file: mem-15-S.xml

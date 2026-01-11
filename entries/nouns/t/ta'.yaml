@@ -1,0 +1,79 @@
+entries:
+- entry_name: ta'
+  slug: ta'_n_1
+  part_of_speech: n:1,klcp1
+  pos: n
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: deed, accomplishment
+    parts:
+    - text: deed
+    - text: accomplishment
+  see_also: '{chav:n:1}'
+  hidden_notes: This was defined as "accomplishment" in {TKD:src}, but as "deed, accomplishment"
+    in {KGT:src}.
+  examples: '
+
+    ▶ {ta''mey Dun, bommey Dun.:sen}'
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT:src}'
+    citations:
+    - source: tkd
+    - source: kgt
+  translations:
+    de:
+      definition: Tat, Handlung, Vollendung, Erfüllung, Errungenschaft
+    fa:
+      definition: اعمال، دستاورد [AUTOTRANSLATED]
+    sv:
+      definition: resultat, utförande, dåd
+    ru:
+      definition: поступок, достижение
+    zh_HK:
+      definition: 行為、成就 [AUTOTRANSLATED]
+    pt:
+      definition: ação, realização
+    fi:
+      definition: teko, suoritus, saavutus
+    fr:
+      definition: acte, réalisation [AUTOTRANSLATED]
+  _original_id: 14269
+  _original_file: mem-16-t.xml
+- entry_name: ta'
+  slug: ta'_n_2
+  part_of_speech: n:2,being
+  pos: n
+  pos_subtype: being
+  homophone: 2
+  status: canonical
+  section: main
+  definition: emperor
+  synonyms: '{voDleH:n}'
+  see_also: '{ta''tuy:n}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: Kaiser, Imperator
+    fa:
+      definition: امپراتور
+    sv:
+      definition: kejsare
+    ru:
+      definition: император
+    zh_HK:
+      definition: 皇帝
+    pt:
+      definition: imperador
+    fi:
+      definition: keisari
+    fr:
+      definition: empereur [AUTOTRANSLATED]
+  _original_id: 14270
+  _original_file: mem-16-t.xml

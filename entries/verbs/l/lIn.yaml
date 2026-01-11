@@ -1,0 +1,93 @@
+entries:
+- entry_name: lIn
+  slug: lIn_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition: share
+  see_also: '{bon:v}, {lInchuq:sen}'
+  notes: 'When {A:sen:nolink} and {B:sen:nolink} share {C:sen:nolink} with each other,
+    the construction is {C lulIn A B je:sen:nolink} (or {C lIn A B je:sen:nolink}
+    if {C:sen:nolink} is plural). In this case, the speaker is non-committal about
+    whether {A:sen:nolink} or {B:sen:nolink} is the one who decided to do the sharing
+    with the other.[1]
+
+
+    When a computer (or computer system) is online, it''s said to be "sharing". See
+    {lIn:v:2}.'
+  sources:
+    raw: '[1] {Saarbrücken qepHom''a'' 2016:src}'
+    citations:
+    - source: qephom_2016
+      date: '2016'
+  translations:
+    de:
+      definition: teilen
+    fa:
+      definition: اشتراک گذاری [AUTOTRANSLATED]
+    sv:
+      definition: dela med sig [AUTOTRANSLATED]
+    ru:
+      definition: Поделиться [AUTOTRANSLATED]
+    zh_HK:
+      definition: 分享 [AUTOTRANSLATED]
+    pt:
+      definition: compartilhar
+    fi:
+      definition: jakaa (keskenään)
+      notes: 'Kun {A:sen:nolink} ja {B:sen:nolink} jakavat {C:sen:nolink}:n keskenään,
+        rakenne on {C lulIn A B je:sen:nolink} (tai {C lIn A B je:sen:nolink}, jos
+        {C:sen:nolink} on monikko). Puhuja ei ota kantaa siihen, jakaako {A:sen:nolink}
+        {B:sen:nolink}:lle vai toisin päin.
+
+
+        Kun tietokone (tai tietokonejärjestelmä) on verkossa, sanotaan että se "jakaa".
+        Katso {lIn:v:2}.[1]'
+    fr:
+      definition: partager
+  _original_id: 11770
+  _original_file: mem-07-l.xml
+- entry_name: lIn
+  slug: lIn_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: go online (connect to computer network)
+  antonyms: '{lInHa'':v}'
+  notes: This is just the application of {lIn:v:1} to a computer networking context.
+    Klingons think of a computer (or computer system) which is online as "sharing".
+  hidden_notes: 'On"lin"e.
+
+
+    The definition was not given. It''s just explained that going online would use
+    the verb {lIn:v:2,nolink}.'
+  sources:
+    raw: '[1] {KLI mailing list 2018.02.25:src}'
+    citations:
+    - source: kli_mailing_list
+      date: '2018-02-25'
+  translations:
+    de:
+      definition: online
+    fa:
+      definition: آنلاین شوید (به شبکه رایانه وصل شوید) [AUTOTRANSLATED]
+    sv:
+      definition: gå online (anslut till datornätverk) [AUTOTRANSLATED]
+    ru:
+      definition: выходить в интернет (подключиться к компьютерной сети) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 上網（連接到計算機網絡） [AUTOTRANSLATED]
+    pt:
+      definition: fique on-line (conecte-se à rede de computadores)
+    fi:
+      definition: muodostaa yhteys tietoverkkoon, siirtyä online-tilaan
+    fr:
+      definition: aller en ligne (se connecter au réseau informatique)
+  _original_id: 11771
+  _original_file: mem-07-l.xml

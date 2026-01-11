@@ -1,0 +1,103 @@
+entries:
+- entry_name: Qeq
+  slug: Qeq_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition: aim (at)
+  see_also: '{puS:v:2}'
+  notes: 'The object is the projectile or weapon, and the target is marked with {-Daq:n:suff}
+    (see {bach:v} for details).
+
+
+    This verb is also used to express the idea of "face" (orient towards) (see {Qeq:v:2}).'
+  hidden_notes: This was defined as "aim" in {KGT:src} and clarified to "aim (at)"
+    at {qep'a' 27 (2020):src}.
+  examples: '
+
+    ▶ {yIQeqQo'' neH. DoS yIqIp!:sen}[2]
+
+    ▶ {''ay''vamDaq nuHmey tIQeq.:sen}[3]'
+  sources:
+    raw: '[1] {KGT:src}, [2] {TKW p.191:src}, [3] {ENT - Affliction:src}, [4] {qep''a''
+      27 (2020):src}'
+    citations:
+    - source: kgt
+    - source: tkw
+      page_start: 191
+    - source: ent_affliction
+    - source: qepa_2020
+      date: '2020'
+  translations:
+    de:
+      definition: zielen (auf)
+    fa:
+      definition: هدف [AUTOTRANSLATED]
+    sv:
+      definition: rikta, sikta (med sikte)
+    ru:
+      definition: цель [AUTOTRANSLATED]
+    zh_HK:
+      definition: 目標 [AUTOTRANSLATED]
+    pt:
+      definition: apontar
+    fi:
+      definition: tähdätä jollakin
+      notes: 'Objekti on ammus tai ase ja tähtäyksen kohde ilmaistaan {-Daq:n:suff}-muodolla
+        (katso {bach:v}).
+
+
+        Tätä verbiä voidaan myös käyttää ilmaisemaan, että subjekti on kääntynyt jotakin
+        kohti (katso {Qeq:v:2})'
+    fr:
+      definition: viser, pointer/braquer (sur)
+  _original_id: 13431
+  _original_file: mem-13-Q.xml
+- entry_name: Qeq
+  slug: Qeq_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: face (orient towards)
+  notes: This is just an application of {Qeq:v:1}. The object is the one oriented
+    toward someone or something, and the thing or person being faced is marked with
+    {-Daq:n:suff}. With this meaning, this verb is often used with {-'egh:v:suff}
+    or {-chuq:v:suff}.[1]
+  hidden_notes: It's unclear how this would be used with {-chuq:v:nolink}. Dr. Okrand
+    said he would clarify this at a later time.
+  search_tags: orient towards
+  sources:
+    raw: '[1] {qep''a'' 27 (2020):src}'
+    citations:
+    - source: qepa_2020
+      date: '2020'
+  translations:
+    de:
+      definition: ausrichten, zu etw. hindrehen
+      notes: Dies ist nur eine Anwendung von {Qeq:v:1}. Das Subjekt des Verbes ist
+        die Person, die einen Gegenstand auf etwas ausrichtet. Das Objekt ist die
+        ausgerichtete Sache. Der Gegenstand oder die Person, auf die sie ausgerichtet
+        ist, wird mit {-Daq:n:suff} gekennzeichnet. In dieser Bedeutung wird dieses
+        Verb häufig mit {-'egh:v:suff} oder {-chuq:v:suff} verwendet.[1]
+    fa:
+      definition: چهره (جهت گیری به سمت) [AUTOTRANSLATED]
+    sv:
+      definition: ansikte (orientera mot) [AUTOTRANSLATED]
+    ru:
+      definition: лицо (ориентировано на) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 面對（面向） [AUTOTRANSLATED]
+    pt:
+      definition: face (orientar em direção)
+    fi:
+      definition: olla kääntyneenä tai kääntyä jotakin kohti
+    fr:
+      definition: faire face à, (s'orienter/se tourner vers)
+  _original_id: 13432
+  _original_file: mem-13-Q.xml

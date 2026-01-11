@@ -1,0 +1,42 @@
+entry:
+  entry_name: '''oy''be''lu''chugh Qapbe''lu''.'
+  slug: '''oy''be''lu''chugh_Qapbe''lu''_sen'
+  part_of_speech: sen:phr
+  pos: sen
+  pos_subtype: phr
+  status: canonical
+  section: main
+  definition:
+    text: No pain, no gain.
+    parts:
+    - text: No pain
+    - text: no gain.
+    dedup: true
+  components: '{''oy'':v}, {-be'':v}, {-lu'':v}, {-chugh:v}, {Qap:v:1}, {-be'':v},
+    {-lu'':v}'
+  sources:
+    raw: '[1] {TKW p.175:src}'
+    citations:
+    - source: tkw
+      page_start: 175
+  translations:
+    de:
+      definition: Ohne Fleiß, kein Preis
+      notes: 'Wörtlich: Wenn es nicht weh tut, gelingt es nicht.'
+    fa:
+      definition: نابرده رنج گنج میسر نمی شود. [AUTOTRANSLATED]
+    sv:
+      definition: Ingen smärta, ingen vinst. [AUTOTRANSLATED]
+    ru:
+      definition: Под лежачий камень вода на течет. [AUTOTRANSLATED]
+    zh_HK:
+      definition: 一分耕耘一分收穫。
+    pt:
+      definition: Sem dor sem ganho.
+    fi:
+      definition: Ei kipua ei hyötyä.
+    fr:
+      definition: On n'a rien sans rien.
+      notes: 'Littéralement: S''il ne fait pas mal, il ne va pas réussir.'
+  _original_id: 15601
+  _original_file: mem-24-o.xml

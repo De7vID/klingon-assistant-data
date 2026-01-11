@@ -1,0 +1,51 @@
+entry:
+  entry_name: chal bIQ
+  slug: chal_bIQ_n
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition: rain
+  see_also: '{SIS:v}'
+  notes: This would be used, for example, to refer to a puddle on the ground and it
+    was necessary to be clear that the puddle resulted from rain. Otherwise, the water
+    would just be {bIQ:n} (perhaps with some modifier or other).
+  components: '{chal:n}, {bIQ:n}'
+  search_tags: rainwater
+  sources:
+    raw: '[1] {qep''a'' 24 (2017):src}'
+    citations:
+    - source: qepa_2017
+      date: '2017'
+  translations:
+    de:
+      definition: Regen
+      notes: Damit könnte man das Wasser in einer Pfütze beschreiben, um deutlich
+        zu machen, dass es nicht etwas anderes ist. Ansonsten ist es einfach nur {bIQ:n}
+        (evtl. mit einem anderen Zusatz).
+      search_tags: Regenwasser
+    fa:
+      definition: باران
+    sv:
+      definition: regn
+    ru:
+      definition: Дождь
+      notes: Это может быть использовано, к примеру, чтобы сослаться на лужу на земле
+        и это было необходимо, чтобы пояснить, что лужа появилась из-за дождя. Тем
+        не менее вода будет просто {bIQ:n} (возможно с каким-то модификатором).
+    zh_HK:
+      definition: 雨
+    pt:
+      definition: chuva
+    fi:
+      definition: sade
+    fr:
+      definition: pluie
+      notes: Ce mot peut s'utiliser par exemple pour l'eau dans une flaque sur le
+        sol s'il faut clarifier qu'il s'agit de pluie et pas autre chose. Dans d'autres
+        cas, l'eau serait seulement {bIQ:n} (peut-être avec un autre modifiant).
+      search_tags: eau de pluie
+  _original_id: 10315
+  _original_file: mem-02-ch.xml

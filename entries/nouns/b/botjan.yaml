@@ -1,0 +1,50 @@
+entry:
+  entry_name: botjan
+  slug: botjan_n
+  part_of_speech: n:fic
+  pos: n
+  metadata_tags:
+  - fic
+  status: canonical
+  section: main
+  definition: shields (force field on ship)
+  synonyms: '{begh:n}, {begh botjan:n}'
+  see_also: '{Som:n}, {Duj:n:1}, {Surchem:n}, {chu'':v:2}'
+  notes: This word refers to the force field ({Surchem:n}) surrounding a spaceship.
+    For hand-held shields, see {yoD:n}.
+  hidden_notes: This word appears to be singular (and not inherently plural) in Klingon.
+  components: '{bot:n:hyp,nolink} or {bot:v:1}, {jan:n:1}'
+  examples: '
+
+    ▶ {botjan yIchu''!:sen}'
+  search_tags: force field
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Schutzschild (auf einem Raumschiff; bezeichnet die Technik, nicht
+        den Schild selbst)
+      notes: Dieses Wort beschreibt ein Kraftfeld ({Surchem:n}), das ein Schiff umgibt.
+        Für ein Schild in der Hand, siehe {yoD:n}.
+    fa:
+      definition: سپر (نیروی میدان در کشتی) [AUTOTRANSLATED]
+    sv:
+      definition: sköldar (kraftfält på skepp)
+    ru:
+      definition: щиты (силовое поле на корабле)
+      notes: Это слово относится к силовому полю ({Surchem:n}) окружающему корабль.
+        Для щитов, которые держат в руке, смотрите {yoD:n}.
+    zh_HK:
+      definition: 護盾、防護罩（力場）
+    pt:
+      definition: escudos (campo de força na nave)
+    fi:
+      definition: kilpi (alusta suojaava voimakenttä)
+    fr:
+      definition: boucliers déflecteurs (champ de force protégeant un vaisseau)
+      notes: Ce mot se réfère à un champ de force ({Surchem:n}) qui entoure un vaisseau
+        spatial. Pour un bouclier qu'on tient dans la main, voir {yoD:n}.
+  _original_id: 10250
+  _original_file: mem-01-b.xml

@@ -1,0 +1,62 @@
+entry:
+  entry_name: ngongmeH Duj
+  slug: ngongmeH_Duj_n
+  part_of_speech: n:deriv,nodict
+  pos: n
+  metadata_tags:
+  - deriv
+  - nodict
+  status: canonical
+  nodict: true
+  section: examples
+  definition: experimental ship
+  see_also: '{QongmeH Duj:n}'
+  notes: 'This is not a fixed construction, which is why the number {wa'':n:num} follows
+    {ngongmeH:v@@ngong:v, -meH:v} and precedes {Duj:n:1} in the example sentence.[2]
+
+
+    See the full example under {So''wI'':n}.'
+  hidden_notes: The example sentence did not have an English translation on the {SkyBox
+    S33:src} card itself, but an English translation was provided in the {Saarbrücken
+    qepHom'a' 2021:src} booklet. This entry is here for ease of reference only, as
+    it isn't a fixed construction.
+  components: '{ngong:v}, {-meH:v}, {Duj:n:1}'
+  examples: '
+
+    ▶ {ngongmeH wa'' DujDaq nuHmey nISbe''bogh So''wI'' jomlu''pu''.:sen:nolink} "A
+    cloaking device that doesn''t interfere with weapons has been installed on one
+    ship in order to experiment."[1; 2]'
+  search_tags: prototype
+  sources:
+    raw: '[1] {SkyBox S33:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src}), [2] {Saarbrücken
+      qepHom''a'' 2021:src}'
+    citations:
+    - source: skybox_s33
+      reprinted_in:
+        source: holqed
+        page_start: 9
+        volume: 6
+        issue: 2
+        date: Jun. 1997
+    - source: qephom_2021
+      date: '2021'
+  translations:
+    de:
+      definition: Experimentier-Schiff
+    fa:
+      definition: کشتی آزمایشی
+    sv:
+      definition: experimentellt skepp
+    ru:
+      definition: экспериментальный корабль
+      search_tags: прототип
+    zh_HK:
+      definition: 實驗艦
+    pt:
+      definition: navio experimental
+    fi:
+      definition: koealus
+    fr:
+      definition: navire expérimental [AUTOTRANSLATED]
+  _original_id: 16390
+  _original_file: mem-28-examples.xml

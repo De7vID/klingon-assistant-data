@@ -1,0 +1,49 @@
+entry:
+  entry_name: ngep
+  slug: ngep_v
+  part_of_speech: v:t_c
+  pos: v
+  pos_subtype: t_c
+  status: canonical
+  section: main
+  definition:
+    text: override, take/have priority
+    parts:
+    - text: override
+    - text: take/have priority
+  see_also: '{SeH:v}, {ra'':v:1}, {ruQ:v}'
+  notes: In particular, this can be used in the sense of a computer program taking
+    priority over another one.[2]
+  hidden_notes: This was defined as just "override" in {TKD:src}. Its definition was
+    explained to mean "take/have priority" at {Saarbrücken qepHom'a' 2024:src}.[2]
+  sources:
+    raw: '[1] {TKD:src}, [2] {Saarbrücken qepHom''a'' 2024:src}'
+    citations:
+    - source: tkd
+    - source: qephom_2024
+      date: '2024'
+  translations:
+    de:
+      definition: sich über etw. hinwegsetzen, übergehen, aufheben, überbrücken; Vorrang/Priorität
+        vor etw. haben/übernehmen
+      notes: Dies wird im Besonderen benutzt, um auszudrücken, dass ein Computerprogramm
+        Priorität vor einem anderen hat oder übernimmt.
+    fa:
+      definition: نادیده گرفتن [AUTOTRANSLATED]
+    sv:
+      definition: sätta sig över, överskrida, åsidosätta
+    ru:
+      definition: переопределять, отменять, отвергать, попирать, задавить, переехать
+        кого-то
+    zh_HK:
+      definition: 覆蓋 [AUTOTRANSLATED]
+    pt:
+      definition: anular
+    fi:
+      definition: kumota, ohittaa, sivuuttaa, syrjäyttää (päätös tms.) ?
+    fr:
+      definition: passer outre, annuler, avoir la priorité (surtout en informatique)
+      notes: Ceci s'utilise en particulier pour exprimer qu'un logiciel a la priorité
+        sur un autre.
+  _original_id: 12617
+  _original_file: mem-10-ng.xml

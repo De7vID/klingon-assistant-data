@@ -1,6 +1,11 @@
 klingon-assistant-data
 ======================
 
+**Note:** The database is undergoing a schema migration. The following applies to
+the current schema. There will be a period during which data will be in both
+formats, with automatic conversion between them. After the migration is
+complete, this README will be updated to reflect the new schema.
+
 Klingon language data files for **boQwI'** and associated apps.
 
 The `notes` fields are for typical users of the lexicon. An attempt should be

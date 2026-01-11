@@ -1,0 +1,81 @@
+entries:
+- entry_name: SaH
+  slug: SaH_v_1
+  part_of_speech: v:1,is,klcp1
+  pos: v
+  pos_subtype: is
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition: be present (not absent)
+  antonyms: '{Dach:v:1}'
+  see_also: '{SaH:v:2}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: anwesend sein
+    fa:
+      definition: بودن (وجود ندارد) [AUTOTRANSLATED]
+    sv:
+      definition: vara närvarande
+    ru:
+      definition: присутствовать (не отсутствовать) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 在場（不在場） [AUTOTRANSLATED]
+    pt:
+      definition: estar presente (não ausente)
+    fi:
+      definition: olla läsnä(oleva)
+    fr:
+      definition: être présent (pas absent) [AUTOTRANSLATED]
+  _original_id: 13882
+  _original_file: mem-15-S.xml
+- entry_name: SaH
+  slug: SaH_v_2
+  part_of_speech: v:2,t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: care (about), be concerned (about)
+    parts:
+    - text: care (about)
+    - text: be concerned (about)
+  antonyms: '{SaHHa'':v}'
+  see_also: '{Dach:v:2}, {SaH:v:1}'
+  examples: '
+
+    ▶ {ghojwI''pu''lI'' tISaH.:sen}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: wichtig finden, sich interessieren für, kümmern um, besorgt sein
+        um
+    fa:
+      definition: مراقبت (در مورد)، نگران (در مورد) [AUTOTRANSLATED]
+    sv:
+      definition: bry sig (om), vara bekymrad (över/om)
+    ru:
+      definition: заботиться (о), беспокоиться (о) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 關心、關注
+    pt:
+      definition: cuidar, se preocupar
+    fi:
+      definition: välittää jostain, olla huolissaan jostain
+    fr:
+      definition: se soucier (de), être préoccupé (de) [AUTOTRANSLATED]
+  _original_id: 13883
+  _original_file: mem-15-S.xml

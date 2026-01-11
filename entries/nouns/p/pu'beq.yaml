@@ -1,0 +1,37 @@
+entry:
+  entry_name: pu'beq
+  slug: pu'beq_n
+  part_of_speech: n:deriv,fic,weap
+  pos: n
+  categories:
+  - weap
+  metadata_tags:
+  - deriv
+  - fic
+  status: canonical
+  section: main
+  definition: phaser crew
+  components: '{pu'':n:1}, {beq:n}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: Phasermannschaft
+    fa:
+      definition: خدمه فازر [AUTOTRANSLATED]
+    sv:
+      definition: phaserbesättning, phasermanskap
+    ru:
+      definition: фазерный экипаж
+    zh_HK:
+      definition: 相位工作人員 [AUTOTRANSLATED]
+    pt:
+      definition: equipe do faser
+    fi:
+      definition: vaiheistiimi?
+    fr:
+      definition: équipage de phaseurs [AUTOTRANSLATED]
+  _original_id: 13000
+  _original_file: mem-11-p.xml

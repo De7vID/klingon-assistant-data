@@ -1,0 +1,107 @@
+entries:
+- entry_name: ghoS
+  slug: ghoS_v_1
+  part_of_speech: v:1,t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: approach, go away from, proceed, come, follow (a course)
+    parts:
+    - text: approach
+    - text: go away from
+    - text: proceed
+    - text: come
+    - text: follow
+    global_parenthetical: a course
+  see_also: '{jaH:v}, {chol:v}, {tlha'':v}, {Duv:v}, {HeD:v}, {ghoS:v:2}'
+  notes: This verb refers to following a course. Thus, it can be interpreted to mean
+    either "approach" or "go away from", depending on the presence of nouns with the
+    suffixes {-Daq:n} and {-vo':n}. The way to use {ghoS:v:nolink} and other verbs
+    of movement are described in {HQ 7.4:src}[2]. See {jaH:v} for details.
+  examples: '
+
+    ▶ {bIghHa''Daq yIghoS:sen:nolink} "Go to jail"[1, p.170]
+
+    ▶ {He chu'' ghoS, DIvI'' neHmaH.:sen}'
+  sources:
+    raw: '[1] {TKD:src}, [2] {HQ 7.4, p.2-12, Dec. 1998:src}'
+    citations:
+    - source: tkd
+    - source: holqed
+      page_start: 2
+      page_end: 12
+      volume: 7
+      issue: 4
+      date: Dec. 1998
+  translations:
+    de:
+      definition: sich etw. nähern, weggehen von, weitergehen, kommen, (einem Kurs/Weg)
+        folgen
+    fa:
+      definition: رویکرد، از بین برود، ادامه دهید، بیا، دنبال (یک دوره) [AUTOTRANSLATED]
+    sv:
+      definition: fortsätta framåt, nalkas, komma närmare, avlägsna sig ifrån
+    ru:
+      definition: приближаться, уходить от, приступать, идти, следовать (курсу)
+      notes: Это может означать как "приближение" так и "уходить от", в зависимости
+        от присутствия существительных с суффиксами {-Daq:n} и {-vo':n}. Способ использования
+        {ghoS:v:nolink} и других глаголов, описывающих движение, смотрите в {HQ 7.4:src}[2].
+        Смотрите {jaH:v} для более подробной информации.
+      examples: '
+
+        ▶ {bIghHa''Daq yIghoS:sen:nolink} "Отправляйся в тюрьму"[1, стр.170]
+
+        ▶ {He chu'' ghoS, DIvI'' neHmaH.:sen}'
+    zh_HK:
+      definition: 接近、離開、繼續、來、跟隨（一門課程） [AUTOTRANSLATED]
+    pt:
+      definition: aproximar-se, afastar-se, prosseguir, vir, seguir (um curso)
+    fi:
+      definition: lähestyä, tulla (lähemmäksi); etääntyä, mennä pois; jatkaa, seurata
+        (kurssia)
+    fr:
+      definition: approcher, s'éloigner, procéder, venir, suivre (un cours) [AUTOTRANSLATED]
+  _original_id: 11045
+  _original_file: mem-04-gh.xml
+- entry_name: ghoS
+  slug: ghoS_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: thrust
+  see_also: '{ghoS:v:1}, {vo'':v}'
+  notes: This involves pushing something at or into something else, such as thrusting
+    a knife into someone's chest. The object is the thing that is thrust by the subject.[1]
+  sources:
+    raw: '[1] {TKD:src}, [2] {Saarbrücken qepHom''a'' 2023:src}'
+    citations:
+    - source: tkd
+    - source: qephom_2023
+      date: '2023'
+  translations:
+    de:
+      definition: (kräftig) stoßen, stechen, stecken
+    fa:
+      definition: محور [AUTOTRANSLATED]
+    sv:
+      definition: köra, driva
+    ru:
+      definition: толкать, засовывать
+    zh_HK:
+      definition: 推力 [AUTOTRANSLATED]
+    pt:
+      definition: impulso
+    fi:
+      definition: työntää jokin (johonkin)
+    fr:
+      definition: poussée [AUTOTRANSLATED]
+  _original_id: 11046
+  _original_file: mem-04-gh.xml

@@ -1,0 +1,43 @@
+entry:
+  entry_name: vung
+  slug: vung_v
+  part_of_speech: v:i
+  pos: v
+  pos_subtype: i
+  status: canonical
+  section: main
+  definition:
+    text: cyclone, hurricane
+    parts:
+    - text: cyclone
+    - text: hurricane
+  see_also: '{cheq:v}, {SuS:n}, {jev:v:1}, {muD Dotlh:n}'
+  notes: Note that this is a verb in Klingon. In Klingon, one says "it hurricanes",
+    similar to how one says "it rains" in English.
+  hidden_notes: Cantonese Chinese for "wind" (風).
+  search_tags: typhoon
+  sources:
+    raw: '[1] {qep''a'' 24 (2017):src}'
+    citations:
+    - source: qepa_2017
+      date: '2017'
+  translations:
+    de:
+      definition: ein Zyklon, Hurricane findet statt
+    fa:
+      definition: سیکلون، طوفان [AUTOTRANSLATED]
+    sv:
+      definition: cyklon, orkan [AUTOTRANSLATED]
+    ru:
+      definition: циклон, ураган [AUTOTRANSLATED]
+    zh_HK:
+      definition: 龍捲風、颱風
+    pt:
+      definition: um ciclone ou furacão se inciam
+    fi:
+      definition: (tuulesta) pyöriä voimakkaasti hirmumyrskynä
+      search_tags: sykloni, hurrikaani, pyörremyrsky
+    fr:
+      definition: (y avoir un) cyclone, ouragan [verbe]
+  _original_id: 14869
+  _original_file: mem-18-v.xml

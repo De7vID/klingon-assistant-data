@@ -1,0 +1,43 @@
+entry:
+  entry_name: Hung buv rav
+  slug: Hung_buv_rav_n
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: examples
+  definition: minimum security classification
+  hidden_notes: This is not explicitly defined, but its meaning is clear from the
+    example.
+  components: '{Hung:n}, {buv:n}, {rav:n:2}'
+  examples: '
+
+    ▶ {Hung buv rav:sen:nolink}: {patlh Hut:sen:nolink} "Classified Level 9 and Above"[1]'
+  sources:
+    raw: '[1] {BoP:src}'
+    citations:
+    - source: bop
+  translations:
+    de:
+      definition: Mindestsicherheitsklassifizierung
+    fa:
+      definition: حداقل طبقه بندی امنیتی [AUTOTRANSLATED]
+    sv:
+      definition: lägsta säkerhetsklassificering [AUTOTRANSLATED]
+    ru:
+      definition: минимальная классификация безопасности [AUTOTRANSLATED]
+      examples: '
+
+        ▶ {Hung buv rav:sen:nolink}: {patlh Hut:sen:nolink} "Объявленный уровень от
+        9 и выше"[1]'
+    zh_HK:
+      definition: 最低安全等級 [AUTOTRANSLATED]
+    pt:
+      definition: classificação mínima de segurança
+    fi:
+      definition: vähimmäisturvaluokitus
+    fr:
+      definition: cote de sécurité minimale [AUTOTRANSLATED]
+  _original_id: 16383
+  _original_file: mem-28-examples.xml

@@ -1,0 +1,50 @@
+entry:
+  entry_name: Doq 'ej SuD
+  slug: Doq_'ej_SuD_sen
+  part_of_speech: sen:phr,nodict
+  pos: sen
+  pos_subtype: phr
+  metadata_tags:
+  - nodict
+  status: canonical
+  nodict: true
+  section: extra
+  definition:
+    text: violet, purple (not used in Klingon)
+    parts:
+    - text: violet
+    - text: purple
+    global_parenthetical: not used in Klingon
+  notes: Neither {SuD:v:1} nor {Doq:v} includes what is called "violet" or "purple".
+    This may be related to Klingon physiology.[2]
+  hidden_notes: Despite the statement in {KGT:src} that "violet" and "purple" are
+    not covered by the Klingon colour words, it was nevertheless included in {TNK:src}
+    as that software follows a fixed template which required a translation to label
+    such a colour.
+  components: '{Doq:v}, {''ej:conj}, {SuD:v:1}'
+  sources:
+    raw: '[1] {TNK:src}, [2] {KGT p.82-83:src}'
+    citations:
+    - source: tnk
+    - source: kgt
+      page_start: 82
+      page_end: 83
+  translations:
+    de:
+      definition: violett, lila (nicht auf Klingonisch verwendet)
+    fa:
+      definition: بنفش ، بنفش (در کلینگون استفاده نمی شود) [AUTOTRANSLATED]
+    sv:
+      definition: violett, lila (används inte i Klingon) [AUTOTRANSLATED]
+    ru:
+      definition: фиолетовый, фиолетовый (не используется в клингоне) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 紫色，紫色（在克林崗州不使用） [AUTOTRANSLATED]
+    pt:
+      definition: violeta, roxo (não usado em klingon)
+    fi:
+      definition: violetti, purppura (klingoneille vieras väri)
+    fr:
+      definition: violet, violet (non utilisé en Klingon) [AUTOTRANSLATED]
+  _original_id: 16150
+  _original_file: mem-27-extra.xml

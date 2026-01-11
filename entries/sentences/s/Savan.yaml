@@ -1,0 +1,36 @@
+entry:
+  entry_name: Savan!
+  slug: Savan_sen
+  part_of_speech: sen:phr
+  pos: sen
+  pos_subtype: phr
+  status: canonical
+  section: examples
+  definition:
+    text: I salute you, I salute you all!
+    parts:
+    - text: I salute you
+    - text: I salute you all!
+    dedup: true
+  notes: This is used when addressing multiple people. To salute one person, say {qavan!:sen}
+  components: '{Sa-:v:pref}, {van:v:1}'
+  translations:
+    de:
+      definition: Ich grüße euch!
+    fa:
+      definition: من به شما سلام می کنم، من همه شما را تبریک می گویم [AUTOTRANSLATED]
+    sv:
+      definition: Jag hälsar dig, jag hälsar er alla! [AUTOTRANSLATED]
+    ru:
+      definition: Я приветствую вас, я приветствую вас всех! [AUTOTRANSLATED]
+    zh_HK:
+      definition: 我向你們致敬！
+    pt:
+      definition: Eu vos saúdo, eu vos saúdo a todos!
+    fi:
+      definition: Tervehdin teitä!
+      notes: Yhtä henkilöä tervehditään sanomalla {qavan!:sen}
+    fr:
+      definition: Je vous salue, je vous salue tous ! [AUTOTRANSLATED]
+  _original_id: 16365
+  _original_file: mem-28-examples.xml

@@ -1,0 +1,41 @@
+entry:
+  entry_name: jol
+  slug: jol_n
+  part_of_speech: n
+  pos: n
+  status: canonical
+  section: main
+  definition: transporter beam
+  see_also: '{jol:v}, {Qol:v}'
+  hidden_notes: This is defined and translated consistently as "transport beam" throughout
+    {TKD:src}. However, it is more commonly known as the "transporter beam", and this
+    definition is given in the {KCD:src} Language Lab.
+  examples: '
+
+    ▶ {jol yIchu''!:sen}'
+  search_tags: transport beam
+  sources:
+    raw: '[1] {TKD:src}, [2] {KCD:src}'
+    citations:
+    - source: tkd
+    - source: kcd
+  translations:
+    de:
+      definition: Transporterstrahl
+    fa:
+      definition: پرتو حمل و نقل [AUTOTRANSLATED]
+    sv:
+      definition: transporterstråle
+    ru:
+      definition: транспортирующий луч, луч транспортера
+      search_tags: луч транспортера
+    zh_HK:
+      definition: 傳送光束
+    pt:
+      definition: feixe de teletransporte
+    fi:
+      definition: siirrinsäde
+    fr:
+      definition: faisceau téléporteur
+  _original_id: 11583
+  _original_file: mem-06-j.xml

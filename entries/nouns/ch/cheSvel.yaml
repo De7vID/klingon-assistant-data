@@ -1,0 +1,79 @@
+entries:
+- entry_name: cheSvel
+  slug: cheSvel_n_1
+  part_of_speech: n:1
+  pos: n
+  homophone: 1
+  status: canonical
+  section: main
+  definition: type of coat
+  see_also: '{cheSvel:n:2}'
+  hidden_notes: The "Chesterfield" coat is a type of overcoat.
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Art Mantel
+    fa:
+      definition: نوع کت [AUTOTRANSLATED]
+    sv:
+      definition: en slags rock
+    ru:
+      definition: тип пальто [AUTOTRANSLATED]
+    zh_HK:
+      definition: 外套類型
+    pt:
+      definition: tipo de casaco
+    fi:
+      definition: eräänlainen takki
+    fr:
+      definition: type de manteau
+  _original_id: 10408
+  _original_file: mem-02-ch.xml
+- entry_name: cheSvel
+  slug: cheSvel_n_2
+  part_of_speech: n:2,reg
+  pos: n
+  homophone: 2
+  categories:
+  - reg
+  status: canonical
+  section: main
+  definition:
+    text: coat, jacket
+    parts:
+    - text: coat
+    - text: jacket
+  see_also: '{cheSvel:n:1}, {wep:n:1}'
+  notes: In the dialect of {voSpegh Sep:n}, this refers to any coat or jacket (what
+    other Klingons would call a {wep:n:1}).
+  hidden_notes: The "Chesterfield" coat is a type of overcoat.
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Jacke, Mantel
+      notes: Im Dialekt von {voSpegh Sep:n} bezieht sich dies auf jeden Mantel oder
+        jede Jacke (was andere Klingonen als {wep:n:1} bezeichnen würden).
+    fa:
+      definition: کت، کت [AUTOTRANSLATED]
+    sv:
+      definition: rock, jacka (generell term)
+    ru:
+      definition: пальто, куртка [AUTOTRANSLATED]
+    zh_HK:
+      definition: 外套、上衣、夾克
+    pt:
+      definition: casaco, jaqueta
+    fi:
+      definition: takki
+    fr:
+      definition: veste, blouson, manteau
+      notes: Dans le dialecte de la {voSpegh Sep:n}, ceci se réfère à tout type de
+        manteau ou vest (ce que les autre klingons appelleraient un {wep:n:1}).
+  _original_id: 10409
+  _original_file: mem-02-ch.xml

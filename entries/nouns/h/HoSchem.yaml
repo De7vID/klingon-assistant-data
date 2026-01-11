@@ -1,0 +1,35 @@
+entry:
+  entry_name: HoSchem
+  slug: HoSchem_n
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition: energy field
+  see_also: '{ghe''chem:n}, {peQchem:n}, {pIvchem:n}, {Surchem:n}, {tlhamchem:n}'
+  components: '{HoS:n:1}, {chem:n}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: Energiefeld
+    fa:
+      definition: میدان انرژی [AUTOTRANSLATED]
+    sv:
+      definition: energifält
+    ru:
+      definition: энергетическое поле
+    zh_HK:
+      definition: 能量場
+    pt:
+      definition: campo de energia
+    fi:
+      definition: energiakenttä
+    fr:
+      definition: champ d'énergie [AUTOTRANSLATED]
+  _original_id: 11305
+  _original_file: mem-05-H.xml

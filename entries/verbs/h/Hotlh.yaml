@@ -1,0 +1,86 @@
+entries:
+- entry_name: Hotlh
+  slug: Hotlh_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: project, put on (screen)
+    parts:
+    - text: project
+    - text: put on (screen)
+  notes: The homophonous {Hotlh:v:2} suggests that this verb refers to the combined
+    act of both capturing and displaying an image.
+  examples: '
+
+    ▶ {yIHotlh!:sen:1}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: projizieren, auf den Schirm bringen
+      notes: Das gleich klingende Verb {Hotlh:v:2} legt nahe, dass sich dieses Verb
+        auf den kombinierten Vorgang des Erfassens und Anzeigens eines Bildes bezieht.
+    fa:
+      definition: پروژه (روی صفحه) [AUTOTRANSLATED]
+    sv:
+      definition: projicera, visa (på skärm)
+    ru:
+      definition: проектировать, отразить что-то(на экране)
+      notes: Имеется омофон {Hotlh:v:2} прпедполагающий, что глагол относится к совмещенному
+        действию захвата и показа изображения.
+    zh_HK:
+      definition: 項目、穿上（屏幕） [AUTOTRANSLATED]
+    pt:
+      definition: projetar, colocar em (tela)
+    fi:
+      definition: projisoida (näytölle), panna (näytölle)
+    fr:
+      definition: projet, mis sur (écran) [AUTOTRANSLATED]
+  _original_id: 11312
+  _original_file: mem-05-H.xml
+- entry_name: Hotlh
+  slug: Hotlh_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: scan
+  see_also: '{nuD:v}'
+  notes: The homophonous {Hotlh:v:1} suggests that this verb refers to the combined
+    act of both capturing and displaying an image.
+  examples: '
+
+    ▶ {nuHotlhpu''''a''?:sen}
+
+    ▶ {yIHotlh!:sen:2}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: scannen, abtasten
+    fa:
+      definition: اسکن کردن [AUTOTRANSLATED]
+    sv:
+      definition: avsöka, granska, undersöka
+    ru:
+      definition: сканировать, искать
+    zh_HK:
+      definition: 掃描 [AUTOTRANSLATED]
+    pt:
+      definition: escanear
+    fi:
+      definition: skannata, tutkata
+    fr:
+      definition: analyse [AUTOTRANSLATED]
+  _original_id: 11313
+  _original_file: mem-05-H.xml

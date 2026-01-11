@@ -1,0 +1,117 @@
+entries:
+- entry_name: QaS
+  slug: QaS_n_1
+  part_of_speech: n:being,inhpl,1h
+  pos: n
+  pos_subtype: being
+  homophone: 1
+  categories:
+  - inhpl
+  status: canonical
+  section: main
+  definition:
+    text: troops, troop member
+    parts:
+    - text: troops
+    - text: troop member
+    dedup: true
+  see_also: '{beq:n}, {negh:n}, {yaS:n:1h}'
+  notes: 'The meaning of this word is like {negh:n}, but it excludes officers ({yaS:n:1h}).
+    The highest ranks of {QaS:n:1h,nolink} are:
+
+    ▶ {bu'':n} "sergeant"
+
+    ▶ {Da'':n} "corporal"
+
+
+    It''s possible that this word can be used to refer to a single troop member.[2,
+    p.51]
+
+
+    In {Klingon Monopoly:src}, {tlhIngan QaS:n:nolink} is the unit of currency used
+    in the game. From this game, we have the examples {"GO" DajuSDI'' cha''vatlh QaS
+    yItlhap:sen:nolink} and {wa''vatlh QaS yItlhap:sen:nolink}. Note that the singular
+    prefix {yI-:v} is used even though {QaS:n:1h,nolink} is an inherently plural noun
+    whose members are being counted.[3]'
+  hidden_notes: This was defined as "troops" in {TKD:src}. It is glossed as "troop
+    member" in passing on {KGT p.51:src}.
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT:src}, [3] {Klingon Monopoly:src}'
+    citations:
+    - source: tkd
+    - source: kgt
+    - source: klingon_monopoly
+  translations:
+    de:
+      definition: Mannschaften (Soldaten ohne Offiziere), Mitglieder der Mannschaftsdienstgrade
+    fa:
+      definition: نیروهای [AUTOTRANSLATED]
+    sv:
+      definition: trupper
+    ru:
+      definition: Войска
+      notes: 'Значение данного слова подобно {negh:n}, но исключает офицеров ({yaS:n:1h}).
+        Высшие ранги {QaS:n:1h,nolink} это:
+
+        ▶ {bu'':n} "Сержант"
+
+        ▶ {Da'':n} "Прапорщик"
+
+
+        Возможно, что это слово может использоваться для упоминания одного члена из
+        войск.[2, p.51]
+
+
+        В {Klingon Monopoly:src}, {tlhIngan QaS:n:nolink} является единицей валюты,
+        используемой в игре. Из этой игры есть примеры {"Вперед!!!!" DajuSDI'' cha''vatlh
+        QaS yItlhap:sen:nolink} и {wa''vatlh QaS yItlhap:sen:nolink}. Заметьте, что
+        префикс {yI-:v} используется хотя {QaS:n:1h,nolink} в сущности является существительным
+        во множественном числе, чьи члены являются исчислимыми.[3]'
+    zh_HK:
+      definition: 軍隊 [AUTOTRANSLATED]
+    pt:
+      definition: tropas
+    fi:
+      definition: (sota)joukot; miehistö (ei-upseerit)
+      search_tags: sotajoukot, joukot
+    fr:
+      definition: troupes, membre de la troupe [AUTOTRANSLATED]
+  _original_id: 13393
+  _original_file: mem-13-Q.xml
+- entry_name: QaS
+  slug: QaS_n_2
+  part_of_speech: n:2,name,fic
+  pos: n
+  pos_subtype: name
+  homophone: 2
+  metadata_tags:
+  - fic
+  status: canonical
+  section: main
+  definition: Kras
+  notes: He appeared in the episode {TOS - Friday's Child:src}.
+  sources:
+    raw: '[1] {TKD 5.6:src}'
+    citations:
+    - source: tkd
+      section: '5.6'
+  translations:
+    de:
+      definition: Kras
+    fa:
+      definition: کراس [AUTOTRANSLATED]
+    sv:
+      definition: Kras
+    ru:
+      definition: Крас
+      notes: Он появился в эпизоде {TOS - Friday's Child:src}.
+    zh_HK:
+      definition: 「嘉仕」
+    pt:
+      definition: Kras
+    fi:
+      definition: Kras
+    fr:
+      definition: Kras [AUTOTRANSLATED]
+  _original_id: 13394
+  _original_file: mem-13-Q.xml

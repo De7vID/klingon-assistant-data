@@ -1,0 +1,44 @@
+entry:
+  entry_name: San
+  slug: San_n
+  part_of_speech: n
+  pos: n
+  status: canonical
+  section: main
+  definition:
+    text: fate, destiny
+    parts:
+    - text: fate
+    - text: destiny
+  notes: The verb {chenmoH:v} can be used with {San:n}.[2]
+  hidden_notes: This was defined as "fate" in {TKD:src}. It was explained in a {KLI
+    mailing list:src} message that "destiny" is another possible translation.
+  sources:
+    raw: '[1] {TKD:src}, [2] {paq''batlh 2ed p.166-167:src}, [3] {KLI mailing list
+      2018.01.08:src}'
+    citations:
+    - source: tkd
+    - source: paqbatlh
+      page_start: 166
+      page_end: 167
+    - source: kli_mailing_list
+      date: '2018-01-08'
+  translations:
+    de:
+      definition: Schicksal
+    fa:
+      definition: سرنوشت
+    sv:
+      definition: öde
+    ru:
+      definition: судьба, судьба [AUTOTRANSLATED]
+    zh_HK:
+      definition: 命運
+    pt:
+      definition: destino
+    fi:
+      definition: kohtalo
+    fr:
+      definition: destin, destin [AUTOTRANSLATED]
+  _original_id: 13888
+  _original_file: mem-15-S.xml

@@ -1,0 +1,82 @@
+entries:
+- entry_name: Dach
+  slug: Dach_v_1
+  part_of_speech: v:1,i,klcp1
+  pos: v
+  pos_subtype: i
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition: be absent
+  antonyms: '{SaH:v:1}'
+  see_also: '{Dach:v:2}'
+  search_tags: missing
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: abwesend sein
+    fa:
+      definition: غایب بودن [AUTOTRANSLATED]
+    sv:
+      definition: vara frånvarande
+    ru:
+      definition: отсутствовать
+    zh_HK:
+      definition: 缺席 [AUTOTRANSLATED]
+    pt:
+      definition: ser ausente
+    fi:
+      definition: olla poissaoleva
+    fr:
+      definition: être absent [AUTOTRANSLATED]
+  _original_id: 10529
+  _original_file: mem-03-D.xml
+- entry_name: Dach
+  slug: Dach_v_2
+  part_of_speech: v:2,i,slang
+  pos: v
+  pos_subtype: i
+  homophone: 2
+  categories:
+  - slang
+  status: canonical
+  section: main
+  definition:
+    text: be not attentive, be distracted, lack focus
+    parts:
+    - text: be not attentive
+    - text: be distracted
+    - text: lack focus
+  see_also: '{jeH:v}, {SaH:v:2}, {Dach:v:1}, {tab:v}'
+  notes: This applies to a person who is not focused on the task at hand.[1, p.149]
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: unaufmerksam sein, abgelenkt sein, unkonzentriert sein
+      notes: Dies bezieht sich auf eine Person, die sich nicht auf die aktuelle Aufgabe
+        konzentiert.[1, S.149]
+    fa:
+      definition: توجه نکنید، ناراحت نشوید، تمرکز کمتری دارید [AUTOTRANSLATED]
+    sv:
+      definition: vara ouppmärksam, vara distraherad, sakna koncentration
+    ru:
+      definition: быть невнимательным, быть отвлеченным, не уделять должного внимания
+      notes: Это применяют к человеку, кто не сфокусирован на задании.[1, стр.149]
+    zh_HK:
+      definition: 不注意、分心、缺乏專注 [AUTOTRANSLATED]
+    pt:
+      definition: não ser atento, distraído, falta de foco
+    fi:
+      definition: olla huolimaton, olla hajamielinen, olla keskittymätön
+    fr:
+      definition: ne pas être attentif, être distrait, manquer de concentration [AUTOTRANSLATED]
+  _original_id: 10530
+  _original_file: mem-03-D.xml

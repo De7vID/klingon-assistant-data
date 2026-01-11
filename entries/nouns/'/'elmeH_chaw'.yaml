@@ -1,0 +1,49 @@
+entry:
+  entry_name: '''elmeH chaw'''
+  slug: '''elmeH_chaw''_n'
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: ticket, entry pass
+    parts:
+    - text: ticket
+    - text: entry pass
+  notes: Note that this is specifically a ticket for entry. For other types of tickets,
+    consider another verb in place of {'el:v}.
+  hidden_notes: 'At "By Any Other Name: An Evening of Shakespeare in Klingon", put
+    on by the Washington Shakespeare company, the sign on the will-call tickets window
+    said {''elmeH chaw''mey je''lu''ta''bogh:n:nolink}. This translation was supplied
+    by MO.'
+  components: '{''el:v}, {-meH:v}, {chaw'':n}'
+  sources:
+    raw: '[1] {KLI mailing list 2011.09.30:src}'
+    citations:
+    - source: kli_mailing_list
+      date: '2011-09-30'
+  translations:
+    de:
+      definition: Ticket, Eintrittskarte
+      notes: Merke, dass dies speziell eine "Eintritts"karte ist. Für andere Arten
+        von Tickets ziehe man ein anderes Verb als {'el:v} in Betracht.
+    fa:
+      definition: بلیط، گذرگاه ورود [AUTOTRANSLATED]
+    sv:
+      definition: biljett, entrépass [AUTOTRANSLATED]
+    ru:
+      definition: билет, входной билет [AUTOTRANSLATED]
+    zh_HK:
+      definition: 門票、入場飛
+    pt:
+      definition: bilhete, passe de entrada
+    fi:
+      definition: pääsylippu
+    fr:
+      definition: billet, carte d'entrée, ticket
+      notes: À noter que ceci est spécifiquement un billet "d'entrée". Pour autres
+        types de tickets, il faut considérer un autre verbe au lieu de {'el:v}.
+  _original_id: 15402
+  _original_file: mem-22-e.xml

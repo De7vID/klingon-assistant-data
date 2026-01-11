@@ -1,0 +1,109 @@
+entries:
+- entry_name: bot
+  slug: bot_v_1
+  part_of_speech: v:1,t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: prevent, block, prohibit
+    parts:
+    - text: prevent
+    - text: block
+    - text: prohibit
+  synonyms: '{tuch:v}'
+  antonyms: '{chaw'':v}'
+  see_also: '{le''mIS:n}, {waQ:v}, {bot:v:2}'
+  hidden_notes: The German word for "forbidden" is ver"bot"en.
+  examples: '
+
+    ▶ {Dubotchugh yIpummoH.:sen}[2]
+
+    ▶ {qarDaSQa''Daq ruDelya'' rop''a'' Hergh qengbogh yo'' Dabot.} "Intercept Rudellian
+    plague relief convoy to Cardassian Union."[3]'
+  search_tags: intercept
+  sources:
+    raw: '[1] {TKD:src}, [2] {TKW:src}, [3] {Klingon Monopoly:src}'
+    citations:
+    - source: tkd
+    - source: tkw
+    - source: klingon_monopoly
+  translations:
+    de:
+      definition: hindern, abwehren, blockieren, verhindern, aufhalten, verbieten
+      examples: '
+
+        ▶ {Dubotchugh yIpummoH.:sen}[2]
+
+        ▶ {qarDaSQa''Daq ruDelya'' rop''a'' Hergh qengbogh yo'' Dabot.} "Du fängst
+        einen medizinischen Hilfskonvoi gegen die rudellianische Pest in die Cardassianische
+        Union ab."[3]'
+      search_tags: stoppen, abfangen
+    fa:
+      definition: جلوگیری، مسدود کردن، ممنوعیت [AUTOTRANSLATED]
+    sv:
+      definition: förhindra, blockera, hindra, hejda, stoppa
+    ru:
+      definition: предотвращать, блокировать, запрещать, препятствовать
+      search_tags: перехват
+    zh_HK:
+      definition: 防止、阻止、禁止
+    pt:
+      definition: impedir, bloquear, proibir
+    fi:
+      definition: estää, kieltää
+    fr:
+      definition: empêcher, bloquer, interdire
+      examples: '
+
+        ▶ {Dubotchugh yIpummoH.:sen}[2]
+
+        ▶ {qarDaSQa''Daq ruDelya'' rop''a'' Hergh qengbogh yo'' Dabot.} "Vous interceptez
+        un convoi de secours contre la peste rudellienne à l''Union Cardassienne."[3]'
+  _original_id: 10248
+  _original_file: mem-01-b.xml
+- entry_name: bot
+  slug: bot_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: insulate (heat, electricity)
+  notes: This is an extension of {bot:v:1} to specific applications, to mean making
+    a kind of barrier, as in heat insulation or an electrical insulator.[1]
+  sources:
+    raw: '[1] {Saarbrücken qepHom''a'' 2024:src}'
+    citations:
+    - source: qephom_2024
+      date: '2024'
+  translations:
+    de:
+      definition: isolieren (Wärme, Strom)
+      notes: Dies ist eine Erweiterung von {bot:v:1} auf bestimmte Anwendungen, um
+        auszudrücken, dass eine Art Barriere aufgebaut wird, wie in Wärmedämmung oder
+        elektrischer Isolation.[1]
+    fa:
+      definition: عایق (گرما، برق) [AUTOTRANSLATED]
+    sv:
+      definition: isolera (värme, el)
+    ru:
+      definition: изолировать (тепло, электричество) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 絕緣（熱、電） [AUTOTRANSLATED]
+    pt:
+      definition: isolar (calor, eletricidade) [AUTOTRANSLATED]
+    fi:
+      definition: eristää (lämpöä, sähköä, tms.)
+    fr:
+      definition: isoler (chaleur, électricité)
+      notes: Ceci est une extension de {bot:v:1} pour des applications spécifiques,
+        pour exprimer qu'on fait une sorte de barrière, comme dans l'isolation thermique
+        ou électrique.[1]
+  _original_id: 10249
+  _original_file: mem-01-b.xml

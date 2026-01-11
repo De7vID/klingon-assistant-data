@@ -1,0 +1,86 @@
+entries:
+- entry_name: QaD
+  slug: QaD_v_1
+  part_of_speech: v:1,is,klcp1
+  pos: v
+  pos_subtype: is
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: be dry, be dried out
+    parts:
+    - text: be dry
+    - text: be dried out
+  see_also: '{char:v}, {yIQ:v}, {DeH:v}, {QaD:v:2}'
+  hidden_notes: This is defined as "be dry" in {TKD:src}, while {KGT:src} extends
+    this with "be dried out".
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT:src}, [3] {qep''a'' 23 (2016):src}'
+    citations:
+    - source: tkd
+    - source: kgt
+    - source: qepa_2016
+      date: '2016'
+  translations:
+    de:
+      definition: trocken sein, ausgetrocknet sein
+    fa:
+      definition: خشک بودن
+    sv:
+      definition: vara torr, vara uttorkad
+    ru:
+      definition: быть сухим, быть высушенным, быть высохшим
+    zh_HK:
+      definition: 乾燥
+    pt:
+      definition: ser seco, secar
+    fi:
+      definition: olla kuiva, olla kuivunut
+    fr:
+      definition: être sec, être desséché [AUTOTRANSLATED]
+  _original_id: 13361
+  _original_file: mem-13-Q.xml
+- entry_name: QaD
+  slug: QaD_v_2
+  part_of_speech: v:2,is,slang
+  pos: v
+  pos_subtype: is
+  homophone: 2
+  categories:
+  - slang
+  status: canonical
+  section: main
+  definition:
+    text: be safe, be protected
+    parts:
+    - text: be safe
+    - text: be protected
+  antonyms: '{wun:v}'
+  see_also: '{QaD:v:1}, {lulIgh:n}'
+  notes: This sense of {QaD:v:2,nolink} comes from its similarity to {Qan:v}.
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: sicher sein, beschützt sein
+    fa:
+      definition: ایمن باشید، محافظت شود [AUTOTRANSLATED]
+    sv:
+      definition: vara säker, vara skyddad
+    ru:
+      definition: быть в безопасности, быть защищенным [AUTOTRANSLATED]
+    zh_HK:
+      definition: 安全、受到保護 [AUTOTRANSLATED]
+    pt:
+      definition: ser seguro, ser protegido
+    fi:
+      definition: olla turvallinen, olla suojattu
+    fr:
+      definition: être en sécurité, être protégé [AUTOTRANSLATED]
+  _original_id: 13362
+  _original_file: mem-13-Q.xml

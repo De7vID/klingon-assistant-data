@@ -1,0 +1,43 @@
+entry:
+  entry_name: mu-
+  slug: mu-_v_pref
+  part_of_speech: v:pref,klcp1
+  pos: v
+  pos_subtype: pref
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: he/she/it-me, they-me
+    parts:
+    - text: he/she/it-me
+    - text: they-me
+  antonyms: '{vI-:v:pref}'
+  see_also: '{nu-:v:pref}'
+  notes: '{ghaH:n}/{''oH:n}/{chaH:n}/{bIH:n}:{jIH:n:1h} = {mu-:v:pref,nolink}'
+  search_tags: he-me, she-me, it-me
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: er/sie/es-mich, sie(pl.)-mich
+    fa:
+      definition: او / او / آن-من، آنها-من [AUTOTRANSLATED]
+    sv:
+      definition: han/hon/det/de-mig
+    ru:
+      definition: он/она/оно/они(действие)-мне
+      search_tags: он-мне, она-мне, оно-мне
+    zh_HK:
+      definition: 他、它、他們、它們：我
+    pt:
+      definition: ele/ela-eu, eles-eu
+    fi:
+      definition: hän/se/he/ne-minua
+    fr:
+      definition: il/elle-moi, ils-moi [AUTOTRANSLATED]
+  _original_id: 12192
+  _original_file: mem-08-m.xml

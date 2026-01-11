@@ -1,0 +1,49 @@
+entry:
+  entry_name: rav ... 'aqroS ...
+  slug: rav_..._'aqroS_.._sen
+  part_of_speech: sen:phr
+  pos: sen
+  pos_subtype: phr
+  status: canonical
+  section: main
+  definition: between ... and ...
+  notes: This is used to express the idea of some (perhaps unknown) point between
+    two ends of a range. To express the full stretch of the entire range, use {qubbID:n:1}
+    instead.[1]
+  examples: '
+
+    ▶ {QujwI'' ghom rav:sen:nolink}: {cha''; ''aqroS:sen:nolink}: {jav:sen:nolink}
+    "2 to 6 players"[2]
+
+    ▶ {rav cha'' ''uj(mey) ''aqroS loS ''uj(mey) ''ab:sen@@rav ...:sen, cha'':n:num,
+    ''uj:n, -mey:n, ''aqroS ...:sen, loS:n:1,num, ''uj:n, -mey:n, ''ab:v:1} "has a
+    length between two and four ujes" (it''s at least two ujes and no more than four)[1]
+
+    ▶ {rav DaSjaj ''aqroS buqjaj maghom:sen@@rav:n:2, DaSjaj:n, ''aqroS:n:2, buqjaj:n,
+    ma-:v, ghom:v} "we meet between Monday and Friday", "we meet at some point between
+    Monday and Friday"[1]'
+  sources:
+    raw: '[1] {qep''a'' 26 (2019):src}, [2] {Klingon Monopoly:src}'
+    citations:
+    - source: qepa_2019
+      date: '2019'
+    - source: klingon_monopoly
+  translations:
+    de:
+      definition: zwischen ... und ...
+    fa:
+      definition: بین و ... [AUTOTRANSLATED]
+    sv:
+      definition: mellan och ... [AUTOTRANSLATED]
+    ru:
+      definition: между и ... [AUTOTRANSLATED]
+    zh_HK:
+      definition: 之間 ... [AUTOTRANSLATED]
+    pt:
+      definition: entre ... e ...
+    fi:
+      definition: välillä ...:sta ...:een, vähintään ... ja enintään ...
+    fr:
+      definition: Entre et ... [AUTOTRANSLATED]
+  _original_id: 13622
+  _original_file: mem-14-r.xml

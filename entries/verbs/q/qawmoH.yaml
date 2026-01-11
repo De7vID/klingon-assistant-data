@@ -1,0 +1,67 @@
+entry:
+  entry_name: qawmoH
+  slug: qawmoH_v
+  part_of_speech: v:t_c,deriv
+  pos: v
+  pos_subtype: t_c
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition: remind
+  notes: 'The subject does the reminding, the object is the thing remembered, and
+    the person who is reminded is marked with {-vaD:n}.
+
+
+    It seems that for some verbs {X:sen:nolink} which take an object, when {-moH:v}
+    is added to such a verb, the resulting bivalent verb {XmoH:sen:nolink} takes the
+    same object, while the original subject of {X:sen:nolink} becomes the beneficiary
+    of {XmoH:sen:nolink} and is marked with {-vaD:n}. However, this pattern does not
+    hold for all such verbs, and in particular does not hold for {tuQmoH:v}.[3]'
+  hidden_notes: Even though this is glossed as "remind", in the example of Worf and
+    his sash, it might be better interpreted as something along the lines of "bring
+    to mind".[3]
+  components: '{qaw:v}, {-moH:v}'
+  examples: '
+
+    ▶ {qorDu''Daj tuq ''oS Ha''quj''e'' tuQbogh wo''rIv. tuQtaHvIS Hem. ghaHvaD quHDaj
+    qawmoH.:sen:nolink} "The sash that Worf wears is a symbol of his family''s house.
+    He wears it proudly as a reminder of his heritage."[2]'
+  sources:
+    raw: '[1] {TKD:src}, [2] {SkyBox S20:src} (reprinted in {HQ 5.2, p.14, Jun. 1996:src}),
+      [3] {KLI mailing list 2022.05.20:src}'
+    citations:
+    - source: tkd
+    - source: skybox_s20
+      reprinted_in:
+        source: holqed
+        page_start: 14
+        volume: 5
+        issue: 2
+        date: Jun. 1996
+    - source: kli_mailing_list
+      date: '2022-05-20'
+  translations:
+    de:
+      definition: jemanden an etwas erinnern, ermahnen
+    fa:
+      definition: یادآوری کردن [AUTOTRANSLATED]
+    sv:
+      definition: påminna
+    ru:
+      definition: Напоминать
+      examples: '
+
+        ▶ {qorDu''Daj tuq ''oS Ha''quj''e'' tuQbogh wo''rIv. tuQtaHvIS Hem. ghaHvaD
+        quHDaj qawmoH.:sen:nolink} "Перевязь, которую носит Ворф, является символом
+        его семьи. Он носит её гордо, как напоминание о его наследии."[2]'
+    zh_HK:
+      definition: 提醒 [AUTOTRANSLATED]
+    pt:
+      definition: lembrar
+    fi:
+      definition: muistuttaa jostakin
+    fr:
+      definition: rappeler [AUTOTRANSLATED]
+  _original_id: 13088
+  _original_file: mem-12-q.xml

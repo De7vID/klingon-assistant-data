@@ -1,0 +1,85 @@
+entries:
+- entry_name: chab
+  slug: chab_n_1
+  part_of_speech: n:1
+  pos: n
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: pie, tart, dumpling
+    parts:
+    - text: pie
+    - text: tart
+    - text: dumpling
+  see_also: '{chab:n:2}, {chabHom:n}, {Su''roq chab:n}'
+  sources:
+    raw: '[1] {TKDA:src}'
+    citations:
+    - source: tkda
+  translations:
+    de:
+      definition: Torte, Kuchen, Pastete, Knödel
+    fa:
+      definition: پای، ترشی، دمبلنجس [AUTOTRANSLATED]
+    sv:
+      definition: paj, bakverk, kroppkaka
+    ru:
+      definition: пирог, фруктовое пирожное, торт, клецка
+    zh_HK:
+      definition: 餡餅、餡餅、餃子 [AUTOTRANSLATED]
+    pt:
+      definition: torta, bolo, bolinho de massa
+    fi:
+      definition: piirakka, pasteija
+      search_tags: piiras, kakku, torttu, myky, nyytti
+    fr:
+      definition: tarte, pâté, gâteau, boulette de pâte
+  _original_id: 10302
+  _original_file: mem-02-ch.xml
+- entry_name: chab
+  slug: chab_n_2
+  part_of_speech: n:2,slang
+  pos: n
+  homophone: 2
+  categories:
+  - slang
+  status: canonical
+  section: main
+  definition:
+    text: invention, innovation
+    parts:
+    - text: invention
+    - text: innovation
+  see_also: '{chab chu'':n}'
+  notes: This slang term derives from the similarity in the {Qotmagh Sep:n} dialect
+    of {chab:n:1} to {cham:n}.
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Erfindung, Innovation
+      notes: Dieser umgangssprachliche Ausdruck spielt mit der Ähnlichkeit von {chab:n:1}
+        und {cham:n} im Dialekt der {Qotmagh Sep:n}.
+    fa:
+      definition: اختراع، نوآوری [AUTOTRANSLATED]
+    sv:
+      definition: uppfinning, innovation
+    ru:
+      definition: Изобретение, инновация
+      notes: Этот сленговый термин происходит от подобного в {Qotmagh Sep:n} диалект
+        от {chab:n:1} к {cham:n}.
+    zh_HK:
+      definition: 發明、創新
+    pt:
+      definition: invenção, inovação
+    fi:
+      definition: keksintö, innovaatio
+    fr:
+      definition: invention, innovation
+      notes: Ce terme familier dérive de la similarité de {chab:n:1} à {cham:n} dans
+        le dialecte de {Qotmagh Sep:n}.
+  _original_id: 10303
+  _original_file: mem-02-ch.xml

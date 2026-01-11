@@ -1,0 +1,87 @@
+entries:
+- entry_name: tlhop
+  slug: tlhop_n_1
+  part_of_speech: n:1
+  pos: n
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: front, area in front of
+    parts:
+    - text: front
+    - text: area in front of
+  antonyms: '{''em:n}'
+  see_also: '{tlhop:n:2}, {bIng:n}, {Dung:n}, {joj:n}, {retlh:n}, {poS:n}, {nIH:n}'
+  notes: For the front section of an object, see {'et:n:2h}. See also {lurgh:n} for
+    other words related to spatial directions.
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Vorne, Bereich vor etwas
+      notes: Für den vorderen Teil eines Objekts, siehe {'et:n:2h}. Siehe auch {lurgh:n}
+        für andere Wörter über Richtungen im Raum.
+    fa:
+      definition: جلو، منطقه مقابل [AUTOTRANSLATED]
+    sv:
+      definition: framför, område framför
+    ru:
+      definition: спереди, площадь перед [AUTOTRANSLATED]
+    zh_HK:
+      definition: 前面、前方
+    pt:
+      definition: frente, área na frente de
+    fi:
+      definition: edessä, alue edessä
+    fr:
+      definition: devant, espace devant
+      notes: Pour la partie frontale d'un objet, voir {'et:n:2h}. Voir aussi {lurgh:n}
+        pour des mots sur les directions spatiales.
+  _original_id: 14622
+  _original_file: mem-17-tlh.xml
+- entry_name: tlhop
+  slug: tlhop_n_2
+  part_of_speech: n:2
+  pos: n
+  homophone: 2
+  status: canonical
+  section: main
+  definition: public area
+  see_also: '{tlhop:n:1}, {ghom:v}'
+  notes: This is just an extension of {tlhop:n:1} in a specific context. The idea
+    is that a public area would be in front of some barrier used to keep the public
+    out, while the private area would be on the other side.
+  sources:
+    raw: '[1] {Saarbrücken qepHom''a'' 2016:src}'
+    citations:
+    - source: qephom_2016
+      date: '2016'
+  translations:
+    de:
+      definition: Öffentlicher Platz
+      notes: Dies ist nur eine Erweiterung von {tlhop:n:1} in einem bestimmten Kontext.
+        Die Idee ist, dass sich ein öffentlicher Bereich vor einer Barriere befindet,
+        die dazu dient, die Öffentlichkeit fernzuhalten, während sich der private
+        Bereich auf der anderen Seite befindet.
+    fa:
+      definition: مکان عمومی [AUTOTRANSLATED]
+    sv:
+      definition: allmän plats [AUTOTRANSLATED]
+    ru:
+      definition: публичная зона [AUTOTRANSLATED]
+    zh_HK:
+      definition: 公共區域 [AUTOTRANSLATED]
+    pt:
+      definition: área publica
+    fi:
+      definition: yleinen alue
+    fr:
+      definition: espace public
+      notes: Ceci est juste une extension de {tlhop:n:1} dans un context spécifique.
+        L'idée est qu'une zone publique est devant une barrière qui empêche le public
+        d'entrer, tandis que la zone privée serait de l'autre côté.
+  _original_id: 14623
+  _original_file: mem-17-tlh.xml

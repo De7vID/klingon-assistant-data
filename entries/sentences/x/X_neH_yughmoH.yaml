@@ -1,0 +1,41 @@
+entry:
+  entry_name: X neH yughmoH
+  slug: X_neH_yughmoH_sen
+  part_of_speech: sen:phrase
+  pos: sen
+  categories:
+  - phrase
+  status: canonical
+  section: main
+  definition:
+    text: filter for X only, include X only
+    parts:
+    - text: filter for X only
+    - text: include X only
+  see_also: '{QIb:v}'
+  components: '{neH:adv}, {yugh:v}, {-moH:v}'
+  sources:
+    raw: '[1] {KLI mailing list 2018.02.17:src}'
+    citations:
+    - source: kli_mailing_list
+      date: '2018-02-17'
+  translations:
+    de:
+      definition: nur X einschließen
+    fa:
+      definition: فیلتر تنها برای X، شامل X فقط [AUTOTRANSLATED]
+    sv:
+      definition: filtrera endast för X, inkludera endast X [AUTOTRANSLATED]
+    ru:
+      definition: фильтр только для X, включая только X [AUTOTRANSLATED]
+    zh_HK:
+      definition: 僅限X過濾、僅包含X. [AUTOTRANSLATED]
+    pt:
+      definition: filtro apenas para X, incluir apenas X
+    fi:
+      definition: suodata muu kuin X, sisällytä vain X
+      search_tags: sisällyttää
+    fr:
+      definition: filtrer pour X uniquement, inclure X uniquement
+  _original_id: 15239
+  _original_file: mem-20-y.xml

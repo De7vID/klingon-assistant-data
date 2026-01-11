@@ -1,0 +1,41 @@
+entry:
+  entry_name: yobuch
+  slug: yobuch_n
+  part_of_speech: n
+  pos: n
+  status: canonical
+  section: main
+  definition:
+    text: thread, threading
+    parts:
+    - text: thread
+    - text: threading
+    dedup: true
+  notes: This refers to the threading, e.g., on a screw.[1]
+  sources:
+    raw: '[1] {qep''a'' 32 (2025):src}'
+    citations:
+    - source: qepa_2025
+      date: '2025'
+  translations:
+    de:
+      definition: Gewinde
+      notes: Dies ist das Gewinde z.B. einer Schraube.[1]
+    fa:
+      definition: نخ، نخ کشی [AUTOTRANSLATED]
+    sv:
+      definition: gänga
+      notes: Som på t.ex. en skruv.[1]
+    ru:
+      definition: нить, продевание нити [AUTOTRANSLATED]
+    zh_HK:
+      definition: 螺紋，穿線 [AUTOTRANSLATED]
+    pt:
+      definition: linha, enfiamento [AUTOTRANSLATED]
+    fi:
+      definition: kierteitys
+    fr:
+      definition: fil, filetage
+      notes: Ceci se réfère au filetage comme p.ex. sur une vis.[1]
+  _original_id: 15197
+  _original_file: mem-20-y.xml

@@ -1,0 +1,58 @@
+entry:
+  entry_name: lut
+  slug: lut_n
+  part_of_speech: n:klcp1
+  pos: n
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: story, tale
+    parts:
+    - text: story
+    - text: tale
+  see_also: '{torSIv:n}, {rorgh:v}'
+  notes: The concept of a "fairy tale" might be expressed as {puq lut:n@@puq:n, lut:n}
+    or {lut rorgh:n@@lut:n, rorgh:v} or {puq lut rorgh:n@@puq:n, lut:n, rorgh:v}.[3]
+  hidden_notes: 'This was defined as just "story" in {TKD:src}.
+
+
+    The translations for "fairy tales" are suggestions only. In particular, it was
+    noted that {SIqnaSwaq:n} would probably not be used to translate this term.[3]'
+  examples: '
+
+    ▶ {meb, lut tlhaQ DaSov''a''?:sen@@meb:n, lut tlhaQ:n, Da-:v, Sov:v, -''a'':v}
+    "Guest, do you know any funny stories?"[2]'
+  search_tags: fairy tale
+  sources:
+    raw: '[1] {TKD:src}, [2] {PK:src}, [3] {KLI mailing list 2020.04.21:src}'
+    citations:
+    - source: tkd
+    - source: pk
+    - source: kli_mailing_list
+      date: '2020-04-21'
+  translations:
+    de:
+      definition: Geschichte, Erzählung
+      search_tags: Kindergeschichte, Märchen
+    fa:
+      definition: داستان
+    sv:
+      definition: historia, berättelse, saga
+    ru:
+      definition: история, рассказ
+      examples: '
+
+        ▶ {meb, lut tlhaQ DaSov''a''?:sen@@meb:n, lut tlhaQ:n, Da-:v, Sov:v, -''a'':v}
+        "Гость, ты знаешь какие-то забавные истории?"[2]'
+    zh_HK:
+      definition: 故事
+    pt:
+      definition: história
+    fi:
+      definition: tarina, kertomus
+    fr:
+      definition: récit, histoire, conte
+  _original_id: 11912
+  _original_file: mem-07-l.xml

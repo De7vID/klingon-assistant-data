@@ -1,0 +1,44 @@
+entry:
+  entry_name: bom mu'
+  slug: bom_mu'_n
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: lyric, lyrics
+    parts:
+    - text: lyric
+    - text: lyrics
+    dedup: true
+  components: '{bom:n}, {mu'':n}'
+  sources:
+    raw: '[1] {KGT:src}, [2] {HQ 2.4, p.17, Dec. 1993:src}'
+    citations:
+    - source: kgt
+    - source: holqed
+      page_start: 17
+      volume: 2
+      issue: 4
+      date: Dec. 1993
+  translations:
+    de:
+      definition: Liedtext
+    fa:
+      definition: شعر
+    sv:
+      definition: sångtext, låttext
+    ru:
+      definition: Лирика, текст песни
+    zh_HK:
+      definition: 歌詞
+    pt:
+      definition: letra de música
+    fi:
+      definition: sanoitus, lyriikka
+    fr:
+      definition: paroles (de chanson)
+  _original_id: 10211
+  _original_file: mem-01-b.xml

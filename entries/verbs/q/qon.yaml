@@ -1,0 +1,71 @@
+entry:
+  entry_name: qon
+  slug: qon_v
+  part_of_speech: v:t_c
+  pos: v
+  pos_subtype: t_c
+  status: canonical
+  section: main
+  definition:
+    text: record, compose
+    parts:
+    - text: record
+    - text: compose
+  see_also: '{ghItlh:v}, {laD:v}'
+  notes: 'This word is used for the act of composing songs, stories, etc.[2, p.71]
+    Klingons consider songs as things which just exist, and the act of composition
+    is viewed as hunting down, trapping, and logging them.[3]
+
+
+    There is another verb, {gher:v}, which is used for compiling lists and the like,
+    and which, in contrast to {qon:v:nolink}, suggests that information is merely
+    passed along.[4]'
+  hidden_notes: This is defined as "record" in {TKD:src}, and as "compose" in {KGT:src}.[1;
+    2]
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT:src}, [3] {HQ 2.4, p.17, Dec. 1993:src}, [4] {s.k
+      1998.07.09:src} (reprinted in {HQ 8.1, p.8, Mar. 1999:src})'
+    citations:
+    - source: tkd
+    - source: kgt
+    - source: holqed
+      page_start: 17
+      volume: 2
+      issue: 4
+      date: Dec. 1993
+    - source: startrek_klingon
+      date: '1998-07-09'
+      reprinted_in:
+        source: holqed
+        page_start: 8
+        volume: 8
+        issue: 1
+        date: Mar. 1999
+  translations:
+    de:
+      definition: (Bild, Ton) aufnehmen, komponieren, verfassen
+    fa:
+      definition: ضبط، نوشتن [AUTOTRANSLATED]
+    sv:
+      definition: nedteckna, spela in (all slags inspelning och skrift), komponera
+    ru:
+      definition: записывать, сочинять, составлять
+      notes: 'Слово используется для описания акта сочинения и записи песен, историй
+        и так далее.[2, стр.71] Клингоны рассматривают песни, как вещи, которые просто
+        существуют, а действие в композиции рассматривается, как выслеживание, загон
+        в ловушку, и описание всего этого.[3]
+
+
+        Есть другой глагол, {gher:v}, который используется для составления списков
+        и тому подобных вещей, и который в противовес глаголу {qon:v:nolink}, предполагает,
+        что информация просто просочилась.[4]'
+    zh_HK:
+      definition: 記錄、撰寫 [AUTOTRANSLATED]
+    pt:
+      definition: gravar, compor
+    fi:
+      definition: kirjoittaa ylös, tallentaa, säveltää
+    fr:
+      definition: enregistrer, composer [AUTOTRANSLATED]
+  _original_id: 13236
+  _original_file: mem-12-q.xml

@@ -1,0 +1,86 @@
+entries:
+- entry_name: pegh
+  slug: pegh_v_1
+  part_of_speech: v:1,t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition: keep something secret
+  see_also: '{tey'':v}, {pegh:n}, {''ot:v}, {So'':v:2}'
+  notes: This verb can also be used without an object. See {pegh:v:2}.
+  hidden_notes: In {TKD:src}, this is defined in the K-E side as "keep something secret",
+    and in the E-K side as "secret, keep something secret".
+  examples: '
+
+    ▶ {ghoSmeH yIpegh.:sen}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: etwas geheim halten
+    fa:
+      definition: چیزی را مخفی نگه دارید [AUTOTRANSLATED]
+    sv:
+      definition: hålla något hemligt
+    ru:
+      definition: хранить что-то в секрете, хранить тайну
+      notes: Этот глагол также может использоваться без объекта. Смотрите {pegh:v:2}.
+    zh_HK:
+      definition: 保守秘密 [AUTOTRANSLATED]
+    pt:
+      definition: manter algo em segredo
+    fi:
+      definition: pitää jokin salassa
+    fr:
+      definition: tenir quelque chose secret
+  _original_id: 12785
+  _original_file: mem-11-p.xml
+- entry_name: pegh
+  slug: pegh_v_2
+  part_of_speech: v:2,is
+  pos: v
+  pos_subtype: is
+  homophone: 2
+  status: canonical
+  section: main
+  definition: be secret
+  see_also: '{pegh:n}'
+  notes: 'See {rav:n:2} for an example of how to talk about classified information.
+
+
+    This verb can also be used with an object. See {pegh:v:1}.'
+  examples: '
+
+    ▶ {pegh De''vetlh.@@pegh:v:2, De'':n, -vetlh:n} "That is classified information."[1]
+
+    ▶ {De'' pegh vIghaj.@@De'':n, pegh:v:2, vI-:v, ghaj:v} "I have secret information."[2]'
+  sources:
+    raw: '[1] {CK:src}, [2] {PK:src}'
+    citations:
+    - source: ck
+    - source: pk
+  translations:
+    de:
+      definition: geheim sein
+    fa:
+      definition: مخفی بودن [AUTOTRANSLATED]
+    sv:
+      definition: vara hemlig
+    ru:
+      definition: быть секретным [AUTOTRANSLATED]
+    zh_HK:
+      definition: 保密 [AUTOTRANSLATED]
+    pt:
+      definition: ser secreto
+    fi:
+      definition: olla salainen
+    fr:
+      definition: être secret
+  _original_id: 12786
+  _original_file: mem-11-p.xml

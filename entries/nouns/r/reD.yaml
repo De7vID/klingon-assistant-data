@@ -1,0 +1,131 @@
+entries:
+- entry_name: reD
+  slug: reD_n_1
+  part_of_speech: n:1
+  pos: n
+  homophone: 1
+  status: canonical
+  section: main
+  definition: exterior wall
+  see_also: '{pa'' reD:n}, {tlhoy'':n}, {Hur:n:1}'
+  sources:
+    raw: '[1] {s.k 1998.12.07:src} (reprinted in {HQ 8.1, p.9, Mar. 1999:src})'
+    citations:
+    - source: startrek_klingon
+      date: '1998-12-07'
+      reprinted_in:
+        source: holqed
+        page_start: 9
+        volume: 8
+        issue: 1
+        date: Mar. 1999
+  translations:
+    de:
+      definition: Außenwand
+    fa:
+      definition: دیوار بیرونی [AUTOTRANSLATED]
+    sv:
+      definition: yttervägg
+    ru:
+      definition: внешняя стена [AUTOTRANSLATED]
+    zh_HK:
+      definition: 外牆
+    pt:
+      definition: parede exterior
+    fi:
+      definition: ulkoseinä
+      search_tags: seinä
+    fr:
+      definition: mur extérieur [AUTOTRANSLATED]
+  _original_id: 13649
+  _original_file: mem-14-r.xml
+- entry_name: reD
+  slug: reD_n_2
+  part_of_speech: n:2
+  pos: n
+  homophone: 2
+  status: canonical
+  section: main
+  definition: side (geometry)
+  see_also: '{mey'':n}, {Dop:n}'
+  notes: In geometry, this word refers to the side of a polygon.[1]
+  hidden_notes: In the geometry usage, this word's only appearance in canon has been
+    between a number and one of {mey':n} or {'Impey':n}.
+  examples: '{loS reD mey'':n}, {vagh reD mey'':n}'
+  sources:
+    raw: '[1] {KLI mailing list 2014.01.27:src}, [2] {QelIS boqHarmey:src}'
+    citations:
+    - source: kli_mailing_list
+      date: '2014-01-27'
+    - source: qelis_boqharmey
+  translations:
+    de:
+      definition: Seite (Geometrie)
+    fa:
+      definition: طرف (هندسه) [AUTOTRANSLATED]
+    sv:
+      definition: sida (geometri)
+    ru:
+      definition: сторона (геометрия) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 側面（幾何） [AUTOTRANSLATED]
+    pt:
+      definition: lado (geometria)
+    fi:
+      definition: sivu (geometria)
+    fr:
+      definition: côté (géométrie) [AUTOTRANSLATED]
+  _original_id: 13650
+  _original_file: mem-14-r.xml
+- entry_name: reD
+  slug: reD_n_3
+  part_of_speech: n:3
+  pos: n
+  homophone: 3
+  status: canonical
+  section: main
+  definition: side (exterior surface)
+  notes: 'This is an extension of {reD:n:1} to refer to an object''s surface which
+    is not the top, bottom, front, or back. In this context, the front of the object
+    is its {logh''ob:n:2} and the back is its {Sa''Hut:n:2}.[1; 2]
+
+
+    Even when applied to a person or an animal, this doesn''t take the suffix {-Du'':n:suff},
+    because it refers to an area and not a specific body part. This word does not
+    mean "side" in the sense of one of two opposite directions such as "left" and
+    "right" or "top" and "bottom", for which see {Dop:n}.[3]'
+  hidden_notes: 'An explanation of {logh''ob:n:2,nolink}, {Sa''Hut:n:2,nolink}, and
+    {reD:n:3,nolink} was given during the Q & A session at {Saarbrücken qepHom''a''
+    2021:src}.
+
+
+    This was defined as "side". The clarification "exterior surface" was added based
+    on the explanation, and to differentiate it from {Dop:n:nolink}.'
+  sources:
+    raw: '[1] {QelIS boqHarmey:src}, [2] {KLI mailing list 2021.11.15:src}, [3] {Saarbrücken
+      qepHom''a'' 2021:src}'
+    citations:
+    - source: qelis_boqharmey
+    - source: kli_mailing_list
+      date: '2021-11-15'
+    - source: qephom_2021
+      date: '2021'
+  translations:
+    de:
+      definition: Seite, Außenseite
+    fa:
+      definition: طرف (چیزی) [AUTOTRANSLATED]
+    sv:
+      definition: sida (av något) [AUTOTRANSLATED]
+    ru:
+      definition: сторона (чего-то) [AUTOTRANSLATED]
+    zh_HK:
+      definition: （某物的）側面 [AUTOTRANSLATED]
+    pt:
+      definition: lado (de algo)
+    fi:
+      definition: sivupuoli
+    fr:
+      definition: côté (surface extérieure) [AUTOTRANSLATED]
+  _original_id: 13651
+  _original_file: mem-14-r.xml

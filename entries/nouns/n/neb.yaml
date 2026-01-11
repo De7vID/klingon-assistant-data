@@ -1,0 +1,83 @@
+entries:
+- entry_name: neb
+  slug: neb_n_1
+  part_of_speech: n:1,body
+  pos: n
+  pos_subtype: body
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: beak, bill
+    parts:
+    - text: beak
+    - text: bill
+  see_also: '{neb:n:2}, {bo''Degh:n}, {wom:v}'
+  hidden_notes: '"Neb" is an old English word for "nose", which is related to the
+    modern word "nib".'
+  sources:
+    raw: '[1] {HQ 10.4, Dec. 2001:src}'
+    citations:
+    - source: holqed
+      volume: 10
+      issue: 4
+      date: Dec. 2001
+  translations:
+    de:
+      definition: Schnabel, schnabelähnliche Schnauze
+    fa:
+      definition: لقاح، لایحه [AUTOTRANSLATED]
+    sv:
+      definition: näbb
+    ru:
+      definition: клюв
+    zh_HK:
+      definition: 鳥嘴
+    pt:
+      definition: bico, focinho
+    fi:
+      definition: nokka
+    fr:
+      definition: bec
+  _original_id: 12344
+  _original_file: mem-09-n.xml
+- entry_name: neb
+  slug: neb_n_2
+  part_of_speech: n:2
+  pos: n
+  homophone: 2
+  status: canonical
+  section: main
+  definition: nozzle
+  see_also: '{neb:n:1}'
+  notes: This word refers to nozzles on rockets, hoses, etc., and takes the plural
+    suffix {-mey:n}, as the connection to the body part has been lost.[1] (This is
+    an exception to the general pattern of words for body part retaining the suffix
+    {-Du':n} when they are used to refer to other things, as the non-body-part meaning
+    of this word has become lexicalized.[2])
+  sources:
+    raw: '[1] {qep''a'' 23 (2016):src}, [2] {Saarbrücken qepHom''a'' 2018:src}'
+    citations:
+    - source: qepa_2016
+      date: '2016'
+    - source: qephom_2018
+      date: '2018'
+  translations:
+    de:
+      definition: Düse
+    fa:
+      definition: نازل [AUTOTRANSLATED]
+    sv:
+      definition: munstycke [AUTOTRANSLATED]
+    ru:
+      definition: сопло [AUTOTRANSLATED]
+    zh_HK:
+      definition: 噴嘴 [AUTOTRANSLATED]
+    pt:
+      definition: bocal
+    fi:
+      definition: suutin
+    fr:
+      definition: embout, tuyère, ajutage
+  _original_id: 12345
+  _original_file: mem-09-n.xml

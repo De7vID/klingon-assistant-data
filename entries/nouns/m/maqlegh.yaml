@@ -1,0 +1,42 @@
+entry:
+  entry_name: maqlegh
+  slug: maqlegh_n
+  part_of_speech: n:being
+  pos: n
+  pos_subtype: being
+  status: canonical
+  section: main
+  definition:
+    text: priest, priestess
+    parts:
+    - text: priest
+    - text: priestess
+    dedup: true
+  see_also: '{lalDan:n}, {bulvar:n}'
+  notes: This word is gender-neutral. If a distinction is required, add {loD:n} or
+    {be':n}.
+  hidden_notes: This seems to consist of "proclaim" ({maq:v}) and "see" ({legh:v}).
+  sources:
+    raw: '[1] {qep''a'' 26 (2019):src}'
+    citations:
+    - source: qepa_2019
+      date: '2019'
+  translations:
+    de:
+      definition: Priester/in
+    fa:
+      definition: کشیش ، کشیش [AUTOTRANSLATED]
+    sv:
+      definition: präst, prästinna [AUTOTRANSLATED]
+    ru:
+      definition: священник, жрица [AUTOTRANSLATED]
+    zh_HK:
+      definition: 牧師，女祭司 [AUTOTRANSLATED]
+    pt:
+      definition: sacerdote, sacerdotisa
+    fi:
+      definition: pappi, papitar
+    fr:
+      definition: prêtre, prêtresse [AUTOTRANSLATED]
+  _original_id: 11958
+  _original_file: mem-08-m.xml

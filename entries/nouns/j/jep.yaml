@@ -1,0 +1,43 @@
+entry:
+  entry_name: jep
+  slug: jep_n
+  part_of_speech: n:hyp
+  pos: n
+  metadata_tags:
+  - hyp
+  status: hypothetical
+  section: extra
+  definition:
+    text: mid-, middle?
+    parts:
+    - text: mid-
+    - text: middle?
+    dedup: true
+  notes: This is a hypothetical component that is found in {pemjep:n} and {ramjep:n:1}.
+  hidden_notes: Maltz said he'd never heard {jarjep:n:nolink}, {DISjep:n:nolink},
+    {Hoghjep:n:nolink}, or the like, but would get the gist of what was meant if someone
+    said it.[1]
+  sources:
+    raw: '[1] {KLI mailing list 2015.03.22:src}'
+    citations:
+    - source: kli_mailing_list
+      date: '2015-03-22'
+  translations:
+    de:
+      definition: Mitt-, Mittel-?
+    fa:
+      definition: اواسط، وسط؟ [AUTOTRANSLATED]
+    sv:
+      definition: mitt i mitten [AUTOTRANSLATED]
+    ru:
+      definition: средний, средний? [AUTOTRANSLATED]
+    zh_HK:
+      definition: 中、中？ [AUTOTRANSLATED]
+    pt:
+      definition: meio, metade?
+    fi:
+      definition: (keski-?)
+    fr:
+      definition: milieu, milieu ? [AUTOTRANSLATED]
+  _original_id: 16161
+  _original_file: mem-27-extra.xml

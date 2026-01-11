@@ -1,0 +1,107 @@
+entries:
+- entry_name: qel
+  slug: qel_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: consider, take into account
+    parts:
+    - text: consider
+    - text: take into account
+  examples: '
+
+    ▶ {batlh qelDI'' tlhIngan, lumbe''.:sen}
+
+    ▶ {Hoch nuH qel:sen}'
+  search_tags: think
+  sources:
+    raw: '[1] {TKDA:src}'
+    citations:
+    - source: tkda
+  translations:
+    de:
+      definition: berücksichtigen, in Betracht ziehen, beachten
+    fa:
+      definition: در نظر بگیرید، در نظر بگیرید [AUTOTRANSLATED]
+    sv:
+      definition: tänka på, ta hänsyn till, beakta, överväga
+    ru:
+      definition: рассматривать, учитывать, считаться с чем-то, принимать во внимание
+    zh_HK:
+      definition: 考慮、考慮到 [AUTOTRANSLATED]
+    pt:
+      definition: considerar, levar em consideração
+    fi:
+      definition: ottaa huomioon
+    fr:
+      definition: considérer, prendre en compte [AUTOTRANSLATED]
+  _original_id: 13125
+  _original_file: mem-12-q.xml
+- entry_name: qel
+  slug: qel_v_2
+  part_of_speech: v:2,i_c
+  pos: v
+  pos_subtype: i_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition: nod
+  notes: 'This means lower the head slightly whether or not the head is again raised.
+    So, among other things, it can refer to nodding to the beat of music or nodding
+    off (falling asleep). The subject might be, for example, {nach:n} "head" (even
+    though this might be considered redundant) or the nodder. It does not take an
+    object.[1]
+
+
+    This verb refers only to the motion, not what such a motion may or may not indicate.
+    To express that the nodding means something, such as agreement, use {Qochbe'':v}
+    with this verb. In some cultures, nodding may indicate something other than agreement,
+    so one might use {yaj:v} with this verb. See the examples.[2]'
+  hidden_notes: That this refers to the motion, and not any particular meaning (such
+    as nodding to indicate "yes" in some cultures), was clarified at the {qep'a':src}
+    during the Q & A session.[1] Furthermore, example sentences were given in the
+    booklet for the {qepHom'a':src} that year.[2] Note that both of these events were
+    online only, due to {qo'vID wa'maH Hut:n}.
+  examples: '
+
+    ▶ {Qochbe'' vaj qel nachDaj:sen@@Qochbe'':v, vaj:adv, qel:v:2, nach:n, -Daj:n}
+    "He/she agrees so his/her head nods."[2]
+
+    ▶ {Qochbe'' ''e'' ghaSmeH qel nachDaj:sen@@Qochbe'':v, ''e'':n, ghaS:v, -meH:v,
+    qel:v:2, nach:n, -Daj:n} "His/her head nods in order to indicate that he/she agrees."[2]
+
+    ▶ {Qochbe'' ''e'' ghaSmeH qel ghaH:sen@@Qochbe'':v, ''e'':n, ghaS:v, -meH:v, qel:v:2,
+    ghaH:n} "He/she nods in order to indicate that he/she agrees."[2]
+
+    ▶ {yaj ''e'' ghaSmeH qel ghaH:sen@@yaj:v, ''e'':n, ghaS:v, -meH:v, qel:v:2, ghaH:n}
+    "He/she nods to signal that he/she understands."[2]'
+  sources:
+    raw: '[1] {qep''a'' 27 (2020):src}, [2] {Saarbrücken qepHom''a'' 2020:src}'
+    citations:
+    - source: qepa_2020
+      date: '2020'
+    - source: qephom_2020
+      date: '2020'
+  translations:
+    de:
+      definition: nicken
+    fa:
+      definition: گره زدن [AUTOTRANSLATED]
+    sv:
+      definition: nicka [AUTOTRANSLATED]
+    ru:
+      definition: кивать головой [AUTOTRANSLATED]
+    zh_HK:
+      definition: 點頭
+    pt:
+      definition: acenar com a cabeça
+    fi:
+      definition: nyökätä
+    fr:
+      definition: hocher la tête [AUTOTRANSLATED]
+  _original_id: 13126
+  _original_file: mem-12-q.xml

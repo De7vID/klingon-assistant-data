@@ -1,0 +1,45 @@
+entry:
+  entry_name: leng Soj
+  slug: leng_Soj_n
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: voyage food, fast food
+    parts:
+    - text: voyage food
+    - text: fast food
+  notes: This may be applied to any meal, e.g., {leng megh:n:nolink} "voyage lunch"
+    (see {megh:n}). See {KGT p.103:src} for a fuller explanation.
+  components: '{leng:n}, {Soj:n:1}'
+  search_tags: takeaway, take-away, take away, takeout, take-out, take out
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Fast Food
+    fa:
+      definition: غذای مسافرت، فست فود
+    sv:
+      definition: resa mat, snabbmat [AUTOTRANSLATED]
+    ru:
+      definition: фастфуд, дорожная еда
+      notes: Это может быть применено к любой пище, к примеру {leng megh:n:nolink}
+        "дорожный обед" (смотрите {megh:n}). Смотрите {KGT p.103:src} для более полного
+        объяснения.
+    zh_HK:
+      definition: 旅遊食品、快餐
+    pt:
+      definition: comida de viagem, fast food
+    fi:
+      definition: noutoruoka
+      search_tags: pikaruoka
+    fr:
+      definition: '"nourriture de voyage", fast-food'
+  _original_id: 11726
+  _original_file: mem-07-l.xml

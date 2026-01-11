@@ -1,0 +1,112 @@
+entries:
+- entry_name: natlh
+  slug: natlh_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: use up, consume, expend, drain
+    parts:
+    - text: use up
+    - text: consume
+    - text: expend
+    - text: drain
+  see_also: '{loj:v}, {natlh:v:2}'
+  hidden_notes: It is unclear if {tlhuch:v} "exhaust" means "to use something up completely".
+  examples: '
+
+    ▶ {nIn Hoch natlhlu''pu''.:sen}
+
+    ▶ {HoS law''qu'' natlhmo'' So''wI'' QaptaHvIS So''wI'' QaplaHbe'' nuHmey.:sen:nolink}
+    "Due to the tremendous energy drain of a cloaking device, weapons cannot be discharged
+    while the cloak is in operation."[2]'
+  search_tags: deplete
+  sources:
+    raw: '[1] {KGT:src}, [2] {SkyBox S33:src} (reprinted in {HQ 6.2, p.9, Jun. 1997:src})'
+    citations:
+    - source: kgt
+    - source: skybox_s33
+      reprinted_in:
+        source: holqed
+        page_start: 9
+        volume: 6
+        issue: 2
+        date: Jun. 1997
+  translations:
+    de:
+      definition: auf-, verbrauchen, konsumieren
+    fa:
+      definition: مصرف، مصرف، مصرف، تخلیه [AUTOTRANSLATED]
+    sv:
+      definition: sista posten i en lista, slutet på en lista
+    ru:
+      definition: использовать, потреблять, расходовать, истощать [AUTOTRANSLATED]
+    zh_HK:
+      definition: 用完、消耗
+    pt:
+      definition: usar, consumir, gastar, drenar
+    fi:
+      definition: kuluttaa
+    fr:
+      definition: épuiser, consommer, dépenser, drainer [AUTOTRANSLATED]
+  _original_id: 12325
+  _original_file: mem-09-n.xml
+- entry_name: natlh
+  slug: natlh_v_2
+  part_of_speech: v:2,is,slang
+  pos: v
+  pos_subtype: is
+  homophone: 2
+  categories:
+  - slang
+  status: canonical
+  section: main
+  definition:
+    text: be reprehensible, be disgusting, be contemptible
+    parts:
+    - text: be reprehensible
+    - text: be disgusting
+    - text: be contemptible
+  see_also: '{ngIm:v}, {''up:v}, {''eyHa'':v}, {SaS:v:2,slang}, {natlh:v:1}'
+  notes: In its slang meaning, this verb does not take an object, and the subject
+    is what is being disparaged. Often, it is used with no overt subject, as if an
+    exclamation.[1, p.155]
+  hidden_notes: Based on the grammar of the non-slang meaning of this verb, it may
+    be that this verb cannot be used adjectivally, in spite of the definition, but
+    this is unclear.
+  examples: '
+
+    ▶ {natlh ''Iw HIq:sen@@natlh:v:2, ''Iw HIq:n} "The bloodwine is disgusting"[1,
+    p.155]
+
+    ▶ {natlh romuluSnganpu'':sen@@natlh:v:2, romuluSngan:n, -pu'':n} "Romulans are
+    objectionable"[1, p.155]
+
+    ▶ {bInatlh:sen@@bI-:v, natlh:v:2} "You are contemptible"[1, p.155]'
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: widerlich sein, tadelnswert sein, verachtenswert sein, schändlich
+        sein, anstößig sein
+    fa:
+      definition: قابل تحسین، نفرت انگیز، تحقیر آمیز باشد [AUTOTRANSLATED]
+    sv:
+      definition: vara förkastlig, vara äcklig, vara vidrig, vara usel, vara
+    ru:
+      definition: быть предосудительным, быть отвратительным, быть презренным [AUTOTRANSLATED]
+    zh_HK:
+      definition: 應該受到譴責、噁心、卑鄙 [AUTOTRANSLATED]
+    pt:
+      definition: ser repreensível, ser nojento, ser desprezível
+    fi:
+      definition: olla tuomittava, halveksittava, inhottava
+    fr:
+      definition: être répréhensible, être dégoûtant, être méprisable [AUTOTRANSLATED]
+  _original_id: 12326
+  _original_file: mem-09-n.xml

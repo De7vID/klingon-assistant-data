@@ -1,0 +1,45 @@
+entry:
+  entry_name: '''uQ pa'''
+  slug: '''uQ_pa''_n'
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: dinner room, dining room
+    parts:
+    - text: dinner room
+    - text: dining room
+    dedup: true
+  see_also: '{SopmeH pa'':n}'
+  hidden_notes: This is just a regular noun-noun construction. It was used as an example
+    in a message on the {msn:src} newsgroup to show that the known vocabulary and
+    existing grammar can be used to say a lot of things which aren't explicitly spelled
+    out.
+  components: '{''uQ:n}, {pa'':n:1}'
+  sources:
+    raw: '[1] {msn 1997.06.18:src}'
+    citations:
+    - source: msn
+      date: '1997-06-18'
+  translations:
+    de:
+      definition: Speisesaal
+    fa:
+      definition: اتاق ناهار خوری
+    sv:
+      definition: matsal, matsal [AUTOTRANSLATED]
+    ru:
+      definition: столовая, столовая [AUTOTRANSLATED]
+    zh_HK:
+      definition: 飯廳
+    pt:
+      definition: sala de jantar
+    fi:
+      definition: ruokasali
+    fr:
+      definition: salle à manger
+  _original_id: 15663
+  _original_file: mem-25-u.xml

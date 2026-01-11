@@ -1,0 +1,60 @@
+entry:
+  entry_name: vatlh DIS poH
+  slug: vatlh_DIS_poH_n
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition: century
+  see_also: '{SaD DIS poH:n}, {netlh DIS poH:n}'
+  notes: To indicate "centuries ago" or "centuries from now", {ret:n} and {pIq:n}
+    are used in place of {poH:n}, respectively.[3]
+  hidden_notes: The sentence from {SkyBox S15:src} has the {wa'DIch:n} in the wrong
+    place. Also, the second occurrence of {vatlh DIS poH:n} is missing a space.
+  components: '{vatlh:n:num}, {DIS:n:2}, {poH:n}'
+  examples: "\n▶ {tlhIngan may'Duj, qItI'nga':sen:nolink}\n   {wa'DIch tlhIngan Dujmey\
+    \ luleghlu'pu'bogh rur qItI'nga' Duj. tera' vatlh DIS poH cha'maH wej HochHom\
+    \ lo'lu'taH. tera' vatlh DISpoH cha'maH loS bong QongmeH qItI'nga' Duj tI'ang\
+    \ ghompu' DIvI' 'ejDo' 'entepray'.:sen:nolink}\n  \"Klingon Battlecruiser, K'Tinga-Class\n\
+    \   Similar in configuration to the first Klingon vessels encountered, the K'Tinga-Class\
+    \ remained in use for most of the 23rd century. A sleeper ship of this class,\
+    \ the T'Ong, was encountered in the 24th century by the U.S.S. Enterprise.\"[2]"
+  sources:
+    raw: '[1] {KGT:src}, [2] {SkyBox S15:src} (reprinted in {HQ 4.3, p.4-5, Sep. 1995:src}),
+      [3] {HQ 8.3, p.3, Sep. 1999:src}'
+    citations:
+    - source: kgt
+    - source: skybox_s15
+      reprinted_in:
+        source: holqed
+        page_start: 4
+        page_end: 5
+        volume: 4
+        issue: 3
+        date: Sep. 1995
+    - source: holqed
+      page_start: 3
+      volume: 8
+      issue: 3
+      date: Sep. 1999
+  translations:
+    de:
+      definition: Jahrhundert
+    fa:
+      definition: قرن
+    sv:
+      definition: sekel
+    ru:
+      definition: века [AUTOTRANSLATED]
+    zh_HK:
+      definition: 世紀（百年）
+    pt:
+      definition: século
+    fi:
+      definition: vuosisata
+    fr:
+      definition: siècle
+  _original_id: 14705
+  _original_file: mem-18-v.xml

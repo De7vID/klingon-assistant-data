@@ -1,0 +1,36 @@
+entry:
+  entry_name: loSDIch
+  slug: loSDIch_n
+  part_of_speech: n:num,deriv
+  pos: n
+  pos_subtype: num
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition: fourth
+  components: '{loS:n:1,num}, {-DIch:n:num,suff}'
+  search_tags: 4th
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: vierte/r/s
+    fa:
+      definition: چهارمین
+    sv:
+      definition: fjärde
+    ru:
+      definition: четвертый
+    zh_HK:
+      definition: 第四
+    pt:
+      definition: quarto (numeral)
+    fi:
+      definition: neljäs
+    fr:
+      definition: quatrième
+  _original_id: 11850
+  _original_file: mem-07-l.xml

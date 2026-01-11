@@ -1,0 +1,114 @@
+entries:
+- entry_name: Qap
+  slug: Qap_v_1
+  part_of_speech: v:1,t_c,klcp1
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: work, function, succeed, win
+    parts:
+    - text: work
+    - text: function
+    - text: succeed
+    - text: win
+  antonyms: '{luj:v}'
+  see_also: '{vum:v}, {baj:v}, {yay:n:2}, {''ov:v}, {Qapla'':n}, {Qap:v:2}'
+  notes: '"To win" a competition is {Qap:v:nolink}. If the victory is decisive or
+    particularly gratifying, the expression {Qapchu'':v:nolink} is used, even if it''s
+    a bit redundant.[4]'
+  hidden_notes: This is defined in {TKD:src} as "work, function, succeed", and in
+    {KGT:src} as "win" and "operate, be in operation" (two separate entries). The
+    "succeed" and "win" meanings are elaborated upon in {TKW:src}. In {HQ 2.4:src},
+    it is explained that to Klingons, to win is to function perfectly.
+  examples: '
+
+    ▶ {tlhIngan ''IH qaD DaQap.:sen@@tlhIngan:n, ''IH:v, qaD:n, Da-:v, Qap:v:1} "Win
+    Klingon beauty contest."[5]
+
+    ▶ {qeylIS ''etlh Datlhapqa'' ''e'' DaQapbe''.:sen:nolink} "Fail to retrieve the
+    Sword of Kahless."[5]'
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT:src}, [3] {TKW:src}, [4] {HQ 2.4, p.18, Dec. 1993:src},
+      [5] {Klingon Monopoly:src}'
+    citations:
+    - source: tkd
+    - source: kgt
+    - source: tkw
+    - source: holqed
+      page_start: 18
+      volume: 2
+      issue: 4
+      date: Dec. 1993
+    - source: klingon_monopoly
+  translations:
+    de:
+      definition: funktionieren, gewinnen, Erfolg haben
+    fa:
+      definition: کار، عملکرد، موفقیت، پیروزی [AUTOTRANSLATED]
+    sv:
+      definition: arbeta, fungera, lyckas, vinna
+    ru:
+      definition: работать, трудиться, функционировать, выполнять функции, преуспеть,
+        победить, добиться успеха
+      notes: '"Чтобы победить" в соревновании, подойдет {Qap:v:nolink}. Если победа
+        решительна или частично удовлетворительна, то используется выражение {Qapchu'':v:nolink},
+        даже если оно немного избыточное.[4]'
+      examples: '
+
+        ▶ {tlhIngan ''IH qaD DaQap.:sen@@tlhIngan:n, ''IH:v, qaD:n, Da-:v, Qap:v:1}
+        "Победите в Клингонском конкурсе красоты."[5]
+
+        ▶ {qeylIS ''etlh Datlhapqa'' ''e'' DaQapbe''.:sen:nolink} "Потерпел неудачу
+        при попытке возврата Меча Кейлесса."[5]'
+    zh_HK:
+      definition: 工作、功能、成功、勝利
+    pt:
+      definition: trabalhar, funcionar, ter sucesso, ganhar
+    fi:
+      definition: toimia (laitteesta tms.); onnistua, menestyä, voittaa
+    fr:
+      definition: travailler, fonctionner, réussir, gagner [AUTOTRANSLATED]
+  _original_id: 13380
+  _original_file: mem-13-Q.xml
+- entry_name: Qap
+  slug: Qap_v_2
+  part_of_speech: v:2,i_c
+  pos: v
+  pos_subtype: i_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition:
+    text: operate, be in operation
+    parts:
+    - text: operate
+    - text: be in operation
+  see_also: '{Qap:v:1}'
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: laufen, funktionieren
+    fa:
+      definition: کار کند، در کار باشد [AUTOTRANSLATED]
+    sv:
+      definition: fungera, vara i drift [AUTOTRANSLATED]
+    ru:
+      definition: работать, быть в эксплуатации [AUTOTRANSLATED]
+    zh_HK:
+      definition: 操作、運作 [AUTOTRANSLATED]
+    pt:
+      definition: operar, estar em operação
+    fi:
+      definition: olla toiminnassa, olla käytössä
+    fr:
+      definition: fonctionner, être en opération [AUTOTRANSLATED]
+  _original_id: 13381
+  _original_file: mem-13-Q.xml

@@ -1,0 +1,86 @@
+entries:
+- entry_name: chatlh
+  slug: chatlh_n_1
+  part_of_speech: n:1
+  pos: n
+  homophone: 1
+  status: canonical
+  section: main
+  definition: soup (thick)
+  see_also: '{''ep:v:1}, {tlhIq:n}, {Qev:v}, {chatlh:n:2}'
+  notes: This contains less liquid than found in what a Terran might identify as soup.
+    It is served in a {maHpIn:n}, and eaten in a {Duq:n}.
+  hidden_notes: The fact that this is eaten in a {Duq:n:nolink} may be a reference
+    to the Marx Brothers film "Duck Soup".
+  search_tags: thick, stew
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Suppe (dickflüssig)
+      notes: Dies beinhaltet weniger Flüssigkeit als eine typische irdische Suppe.
+        Es wird in einer {maHpIn:n} serviert und in einer {Duq:n} gegessen.
+      search_tags: Eintopf
+    fa:
+      definition: سوپ (ضخیم) [AUTOTRANSLATED]
+    sv:
+      definition: gryta, soppa (tjock)
+    ru:
+      definition: суп (густой) [AUTOTRANSLATED]
+    zh_HK:
+      definition: 湯（厚） [AUTOTRANSLATED]
+    pt:
+      definition: sopa (grossa)
+    fi:
+      definition: keitto (paksu)
+    fr:
+      definition: soupe (épaisse)
+      notes: Ceci contient moins de liquide que ce que les terriens appeleraient généralement
+        une soupe. Il est servi dans un {maHpIn:n} et mangé dans un {Duq:n}
+      search_tags: ragoût, potée, pot-au-feu
+  _original_id: 10338
+  _original_file: mem-02-ch.xml
+- entry_name: chatlh
+  slug: chatlh_n_2
+  part_of_speech: n:2,slang
+  pos: n
+  homophone: 2
+  categories:
+  - slang
+  status: canonical
+  section: main
+  definition:
+    text: nonsense, balderdash
+    parts:
+    - text: nonsense
+    - text: balderdash
+  see_also: '{Dap:n}, {jat Hol:n}, {laq:v:2}, {laqlaq:n}, {chatlh:n:1}, {chatlh!:excl}'
+  hidden_notes: The slang meaning may be a reference to the Marx Brothers film "Duck
+    Soup".
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Unsinn, Quatsch
+      search_tags: Blödsinn, Schwachsinn
+    fa:
+      definition: مزخرف ، balderdash [AUTOTRANSLATED]
+    sv:
+      definition: nonsens, gallimatias
+    ru:
+      definition: ерунда, балдердаш [AUTOTRANSLATED]
+    zh_HK:
+      definition: 廢話、balderdash [AUTOTRANSLATED]
+    pt:
+      definition: sem sentido, absurdo
+    fi:
+      definition: hölynpöly, puppu
+    fr:
+      definition: bêtises, sottises, balivernes
+      search_tags: idioties, inepties, absurdités
+  _original_id: 10339
+  _original_file: mem-02-ch.xml

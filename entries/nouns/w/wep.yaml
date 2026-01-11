@@ -1,0 +1,84 @@
+entries:
+- entry_name: wep
+  slug: wep_n_1
+  part_of_speech: n:1,klcp1
+  pos: n
+  homophone: 1
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: jacket, coat
+    parts:
+    - text: jacket
+    - text: coat
+  see_also: '{cheSvel:n:2}'
+  hidden_notes: The {Saarbrücken qepHom'a' 2024:src} booklet says that this may be
+    used to translate "blouse", if appropriate.
+  search_tags: blouse
+  sources:
+    raw: '[1] {TKD:src}, [2] {TNK:src}, [3] {Saarbrücken qepHom''a'' 2024:src}'
+    citations:
+    - source: tkd
+    - source: tnk
+    - source: qephom_2024
+      date: '2024'
+  translations:
+    de:
+      definition: Jacke, Mantel
+    fa:
+      definition: ژاکت، کت [AUTOTRANSLATED]
+    sv:
+      definition: jacka, rock
+    ru:
+      definition: куртка, пальто
+    zh_HK:
+      definition: 上衣、外套、夾克
+    pt:
+      definition: casaco
+    fi:
+      definition: takki; (joskus myös) pusero
+      notes: '{Saarbrücken qepHom''a'' 2024:src}:n mukaan voidaan käyttää puserosta
+        joissakin tilanteista. Viittaa tällöin oletettavasti edestä avattavaan puseroon.'
+    fr:
+      definition: veste, blouse, manteau
+  _original_id: 14967
+  _original_file: mem-19-w.xml
+- entry_name: wep
+  slug: wep_n_2
+  part_of_speech: n:2,reg
+  pos: n
+  homophone: 2
+  categories:
+  - reg
+  status: canonical
+  section: main
+  definition: shirt with sleeves
+  see_also: '{wep:n:1}, {yIvbeH:n:2}, {tlhay:n:2h}'
+  notes: This word has this meaning in the {voSpegh Sep:n} dialect.
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Hemd mit Ärmeln
+      notes: Das Wort hat diese Bedeutung im {voSpegh Sep:n} Dialekt.
+    fa:
+      definition: پیراهن با آستین [AUTOTRANSLATED]
+    sv:
+      definition: skjorta med ärmar
+    ru:
+      definition: рубашка с рукавами [AUTOTRANSLATED]
+    zh_HK:
+      definition: 袖子襯衫 [AUTOTRANSLATED]
+    pt:
+      definition: camisa com mangas
+    fi:
+      definition: hihallinen paita
+    fr:
+      definition: chemise avec manches
+      notes: Le mot a cette signification dans le dialecte de la {voSpegh Sep:n}.
+  _original_id: 14968
+  _original_file: mem-19-w.xml

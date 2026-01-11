@@ -1,0 +1,80 @@
+entries:
+- entry_name: yeb
+  slug: yeb_n_1
+  part_of_speech: n:1,body
+  pos: n
+  pos_subtype: body
+  homophone: 1
+  status: canonical
+  section: main
+  definition: wrist
+  see_also: '{DeS:n:1}, {ghop:n}, {ngIb:n:1}, {wIlle'':n}'
+  notes: This is also a slang term of deprecation ({yeb:n:2}).
+  hidden_notes: This is listed in the {KGT:src} word lists as "wrist (also a slang
+    term of deprecation)". The two meanings have been split into separate entries
+    for consistency with other slang terms.
+  sources:
+    raw: '[1] {KGT:src}'
+    citations:
+    - source: kgt
+  translations:
+    de:
+      definition: Handgelenk
+      notes: Dies ist auch ein missbilligendes Slangwort ({yeb:n:2}).
+    fa:
+      definition: مچ دست (همچنین یک اصطلاح عامیانه از تخلیه) [AUTOTRANSLATED]
+    sv:
+      definition: handled (även slanguttryck för ogillande)
+    ru:
+      definition: запястье [AUTOTRANSLATED]
+    zh_HK:
+      definition: 手腕（也是俚語） [AUTOTRANSLATED]
+    pt:
+      definition: punho, pulso
+    fi:
+      definition: ranne
+    fr:
+      definition: poignet
+      notes: Ceci est aussi un mot argotique de dépréciation ({yeb:n:2}).
+  _original_id: 15116
+  _original_file: mem-20-y.xml
+- entry_name: yeb
+  slug: yeb_n_2
+  part_of_speech: n:2,slang
+  pos: n
+  homophone: 2
+  categories:
+  - slang
+  status: canonical
+  section: main
+  definition: slang term of deprecation
+  notes: This slang meaning was influenced by the Krotmag pronunciation of {yeb:n:1},
+    which sounds like {yem:v}.
+  sources:
+    raw: '[1] {KGT p.166:src}'
+    citations:
+    - source: kgt
+      page_start: 166
+  translations:
+    de:
+      definition: umgangssprachlich als abwertender Begriff
+      notes: Diese umgangssprachliche Bedeutung ist von der Aussprache des Worts {yeb:n:1}
+        im Krotmag-Dialekt, die wie {yem:v} klingt, beeinflusst.
+    fa:
+      definition: مدت زمان اصطلاح استهلاک [AUTOTRANSLATED]
+    sv:
+      definition: slang avskrivningstid [AUTOTRANSLATED]
+    ru:
+      definition: сленг срок амортизации [AUTOTRANSLATED]
+    zh_HK:
+      definition: de貶詞 [AUTOTRANSLATED]
+    pt:
+      definition: gíria termo de depreciação
+    fi:
+      definition: puhekielinen sana paheksumiselle
+    fr:
+      definition: terme argotique de dépréciation
+      notes: Cette signification argotique est influencé par la prononciation du mot
+        {yeb:n:1} dans le dialecte de Krotmag, qui ressemble à {yem:v}.
+  _original_id: 15117
+  _original_file: mem-20-y.xml

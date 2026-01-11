@@ -1,0 +1,48 @@
+entry:
+  entry_name: ghom
+  slug: ghom_n
+  part_of_speech: n:klcp1
+  pos: n
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: band, group, party
+    parts:
+    - text: band
+    - text: group
+    - text: party
+  see_also: '{ghom:v}, {tlhach:n}, {Hoq:n}, {boq:n:1}, {DIvI'':n}, {qev:n}, {DaH:n},
+    {ghom''a'':n}, {tlhoQ:n}'
+  notes: This is used only for groups of people. (The word {mu'ghom:n} is an exception.)[3]
+  hidden_notes: This was defined as "group, party" in {TKD:src} and as "band, group,
+    party" in {KGT:src}.
+  search_tags: team
+  sources:
+    raw: '[1] {TKD:src}, [2] {KGT:src}, [3] {Saarbrücken qepHom''a'' 2019:src}'
+    citations:
+    - source: tkd
+    - source: kgt
+    - source: qephom_2019
+      date: '2019'
+  translations:
+    de:
+      definition: Gruppe, Partei
+    fa:
+      definition: دسته، گروه، حزب
+    sv:
+      definition: grupp, samling, skara, gäng, liga
+    ru:
+      definition: банда, группа, отряд
+      search_tags: команда
+    zh_HK:
+      definition: 樂隊、團體、派對 [AUTOTRANSLATED]
+    pt:
+      definition: bando, grupo, partido
+    fi:
+      definition: ryhmä, joukko, seurue
+    fr:
+      definition: groupe, groupe, fête [AUTOTRANSLATED]
+  _original_id: 11014
+  _original_file: mem-04-gh.xml

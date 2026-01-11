@@ -1,0 +1,43 @@
+entry:
+  entry_name: mIS
+  slug: mIS_v
+  part_of_speech: v:is,klcp1
+  pos: v
+  pos_subtype: is
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition:
+    text: be confused, be mixed up
+    parts:
+    - text: be confused
+    - text: be mixed up
+  see_also: '{rel:v}, {mIS:n}, {mISmoH:v}, {DuD:v}'
+  notes: This refers to mental confusion.[2]
+  hidden_notes: '"Mish" mash.'
+  sources:
+    raw: '[1] {TKD:src}, [2] {qep''a'' 24 (2017):src}'
+    citations:
+    - source: tkd
+    - source: qepa_2017
+      date: '2017'
+  translations:
+    de:
+      definition: verwirrt sein, durcheinander sein, konfus sein
+    fa:
+      definition: اشتباه گرفته شود، مخلوط شود [AUTOTRANSLATED]
+    sv:
+      definition: vara förvirrad, vara ihopblandad
+    ru:
+      definition: быть смущенным, быть беспорядочным
+    zh_HK:
+      definition: 混淆、迷、一頭煙
+    pt:
+      definition: ser confuso
+    fi:
+      definition: olla hämmentynyt, olla ymmällään, olla sekava (henkilöstä)
+    fr:
+      definition: être confus, être mélangé [AUTOTRANSLATED]
+  _original_id: 12104
+  _original_file: mem-08-m.xml

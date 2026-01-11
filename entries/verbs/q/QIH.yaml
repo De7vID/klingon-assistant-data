@@ -1,0 +1,81 @@
+entries:
+- entry_name: QIH
+  slug: QIH_v_1
+  part_of_speech: v:1,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: damage, cause damage
+    parts:
+    - text: damage
+    - text: cause damage
+  see_also: '{rIQ:v}, {Qaw'':v}, {ghor:v}, {QID:v}, {joch:v}, {QIH:n}, {QIH:v:2}'
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: schaden, Schaden verursachen
+    fa:
+      definition: خسارت، آسیب رساندن [AUTOTRANSLATED]
+    sv:
+      definition: skada, orsaka skada
+    ru:
+      definition: повреждать, портить, наносить ущерб, являться причиной ущерба
+    zh_HK:
+      definition: 損壞、造成傷害 [AUTOTRANSLATED]
+    pt:
+      definition: danificar, causar dano
+    fi:
+      definition: vahingoittaa, aiheuttaa vahinkoa
+    fr:
+      definition: endommager, abîmer, causer des dommages
+  _original_id: 13455
+  _original_file: mem-13-Q.xml
+- entry_name: QIH
+  slug: QIH_v_2
+  part_of_speech: v:2,t_c
+  pos: v
+  pos_subtype: t_c
+  homophone: 2
+  status: canonical
+  section: main
+  definition:
+    text: wrong, treat unjustly
+    parts:
+    - text: wrong
+    - text: treat unjustly
+  see_also: '{QIH:v:1}'
+  examples: '
+
+    ▶ {cheqotlhchugh maHaghbe''''a''? cheDuQchugh mareghbe''''a''? cheQIHchugh manoDbe''''a''?:sen}'
+  search_tags: mistreat
+  sources:
+    raw: '[1] {KGT:src}, [2] {Saarbrücken qepHom''a'' 2016:src}'
+    citations:
+    - source: kgt
+    - source: qephom_2016
+      date: '2016'
+  translations:
+    de:
+      definition: ungerecht behandeln, misshandeln
+    fa:
+      definition: اشتباه، درمان ناعادلانه [AUTOTRANSLATED]
+    sv:
+      definition: göra orätt (mot), behandla oschyst, kränka
+    ru:
+      definition: неправильно, относиться несправедливо [AUTOTRANSLATED]
+    zh_HK:
+      definition: 錯了、不公正待人 [AUTOTRANSLATED]
+    pt:
+      definition: tratar injustamente, maltratar
+    fi:
+      definition: tehdä vääryyttä jollekulle, kohdella epäoikeudenmukaisesti
+    fr:
+      definition: maltraiter, traiter injustement
+  _original_id: 13456
+  _original_file: mem-13-Q.xml

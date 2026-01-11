@@ -1,0 +1,72 @@
+entry:
+  entry_name: tob
+  slug: tob_v
+  part_of_speech: v:t_c
+  pos: v
+  pos_subtype: t_c
+  status: canonical
+  section: main
+  definition:
+    text: test conclusively, prove
+    parts:
+    - text: test conclusively
+    - text: prove
+  antonyms: '{Daj:v:2}'
+  see_also: '{''ol:v}, {woq:v}, {waH:v:1}, {nuD:v}, {poj:v}'
+  notes: This verb can be used for proving one's honor ({quv tob:sen@@quv:n, tob:v}).
+    See {Hay':v}.
+  hidden_notes: 'In the {TKD:src} word list, this was defined as just "prove". In
+    the {TKDA:src} word list, this was clarified to "test conclusively, prove".
+
+
+    This word appears in a deleted line from {Star Trek V:src}: {logh veQDaq bachchugh,
+    yoH ''e'' toblaHbe'' SuvwI''.@@logh:n, veQ:n, -Daq:n, bach:v, -chugh:v, yoH:v,
+    ''e'':n, tob:v, -laH:v, -be'':v, SuvwI'':n} "Shooting space garbage is no test
+    of a warrior''s mettle." This line was changed to {vaj toDuj Daj ngeHbej DI vI''.:sen}
+    (while maintaining the original English subtitle) in the process of editing.'
+  examples: '
+
+    ▶ {SIQwI'' lu''oy''moHmeH juppu''Daj ''oy''naQmey lo'' chaH. SuvwI'' qa'' patlh
+    veb chavlaHmeH tlhIngan lo''chu'' chaH. toDujDaj toblu''.:sen:nolink} "The Painstik
+    is employed by friends of the recipent who use the devices to inflict pain in
+    a manner which will allow the Klingon to attain a higher state of spirituality
+    as a warrior, proving his mettle."[3]'
+  sources:
+    raw: '[1] {TKD:src}, [2] {TKDA:src}, [3] {SkyBox S32:src} (reprinted in {HQ 6.2,
+      p.9, Jun. 1997:src})'
+    citations:
+    - source: tkd
+    - source: tkda
+    - source: skybox_s32
+      reprinted_in:
+        source: holqed
+        page_start: 9
+        volume: 6
+        issue: 2
+        date: Jun. 1997
+  translations:
+    de:
+      definition: eindeutig nachweisen, beweisen
+    fa:
+      definition: تست قطعی، ثابت کردن [AUTOTRANSLATED]
+    sv:
+      definition: slutgiltigt pröva, testa (på ett avgörande sätt), bevisa
+    ru:
+      definition: проверять, доказывать
+      examples: '
+
+        ▶ {SIQwI'' lu''oy''moHmeH juppu''Daj ''oy''naQmey lo'' chaH. SuvwI'' qa''
+        patlh veb chavlaHmeH tlhIngan lo''chu'' chaH. toDujDaj toblu''.:sen:nolink}
+        "Посох боли употребляется друзьями посвящаемого, которые используют устройство,
+        чтобы причинить боль способом, который позволит Клингону достигнуть более
+        высокого духовного состояния, как воин, доказывая его храбрость."[3]'
+    zh_HK:
+      definition: 最後測試、證明 [AUTOTRANSLATED]
+    pt:
+      definition: testar conclusivamente, provar
+    fi:
+      definition: testata perusteellisesti, todistaa
+    fr:
+      definition: tester de manière concluante, prouver [AUTOTRANSLATED]
+  _original_id: 14402
+  _original_file: mem-16-t.xml

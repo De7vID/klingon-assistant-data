@@ -1,0 +1,79 @@
+entries:
+- entry_name: Daq
+  slug: Daq_n_1
+  part_of_speech: n:1
+  pos: n
+  homophone: 1
+  status: canonical
+  section: main
+  definition:
+    text: site, location
+    parts:
+    - text: site
+    - text: location
+  see_also: '{-Daq:n}'
+  examples: '
+
+    ▶ {chenmoHlu''meH Daq:n}
+
+    ▶ {wej Daqmey yIHeD.:sen:nolink} "Go back three spaces."[2]'
+  sources:
+    raw: '[1] {TKDA:src}, [2] {Klingon Monopoly:src}'
+    citations:
+    - source: tkda
+    - source: klingon_monopoly
+  translations:
+    de:
+      definition: Ort, Platz, Bereich
+    fa:
+      definition: سایت، محل [AUTOTRANSLATED]
+    sv:
+      definition: plats, ställe
+    ru:
+      definition: объект, местонахождение, локация
+      examples: '
+
+        ▶ {chenmoHlu''meH Daq:n}
+
+        ▶ {wej Daqmey yIHeD.:sen:nolink} "Возвращайся на 3 места назад."[2]'
+    zh_HK:
+      definition: 地點、地方
+    pt:
+      definition: localização, local, área
+    fi:
+      definition: paikka, sijainti
+    fr:
+      definition: l'emplacement du site [AUTOTRANSLATED]
+  _original_id: 10560
+  _original_file: mem-03-D.xml
+- entry_name: Daq
+  slug: Daq_n_2
+  part_of_speech: n:2,hyp
+  pos: n
+  homophone: 2
+  metadata_tags:
+  - hyp
+  status: hypothetical
+  section: extra
+  definition: psychic ability?
+  notes: The element {Daq:n:hyp,nolink} is not known to appear by itself, but is found
+    in the words {relleghDaq:n}, {renyarDaq:n}, {tova'Daq:n}, and {'erwI'Daq:n}.
+  translations:
+    de:
+      definition: psychische Fähigkeit?
+    fa:
+      definition: توانایی روانی؟ [AUTOTRANSLATED]
+    sv:
+      definition: psykisk förmåga? [AUTOTRANSLATED]
+    ru:
+      definition: экстрасенсорные способности? [AUTOTRANSLATED]
+    zh_HK:
+      definition: 心靈能力？ [AUTOTRANSLATED]
+    pt:
+      definition: habilidade psíquica? [AUTOTRANSLATED]
+    fi:
+      definition: (psyykkinen kyky?)
+    fr:
+      definition: capacité psychique ? [AUTOTRANSLATED]
+  _original_id: 16147
+  _original_file: mem-27-extra.xml

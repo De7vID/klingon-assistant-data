@@ -1,0 +1,47 @@
+entry:
+  entry_name: HeDchu'
+  slug: HeDchu'_v
+  part_of_speech: v:i,deriv
+  pos: v
+  pos_subtype: i
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: retreat perfectly, make a full withdrawal
+    parts:
+    - text: retreat perfectly
+    - text: make a full withdrawal
+  notes: This is just the verb {HeD:v} with the suffix {-chu':v}. While the suffix
+    {-chu':v} is used with some verbs of fighting to imply that the fight results
+    in death (see {Suvchu':v} and {Hay'chu':v}), there is no such implication with
+    {HeDchu':v:nolink}. Though death may occur as part of the retreat, it is not necessarily
+    implied.[1]
+  components: '{HeD:v}, {-chu'':v}'
+  search_tags: retreat
+  sources:
+    raw: '[1] {KGT p.49:src}'
+    citations:
+    - source: kgt
+      page_start: 49
+  translations:
+    de:
+      definition: perfekt zurückziehen
+    fa:
+      definition: عقب نشینی کنید، یک خروج کامل بگیرید [AUTOTRANSLATED]
+    sv:
+      definition: reträtt perfekt, gör en fullständig återkallelse [AUTOTRANSLATED]
+    ru:
+      definition: полностью отступить, осуществить полный вывод
+      search_tags: отступать
+    zh_HK:
+      definition: 完成撤退、完全退出
+    pt:
+      definition: recuar perfeitamente, fazer uma retirada completa
+    fi:
+      definition: vetäytyä kokonaan
+    fr:
+      definition: se replier parfaitement, faire une retraite complète
+  _original_id: 11167
+  _original_file: mem-05-H.xml
