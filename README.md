@@ -126,7 +126,9 @@ Conventions for translators
 ### German
 
 - All adjectivally used verbs should be translated as "[quality] sein", not
-  just the quality as an adjective.
+  just the quality as an adjective. If the English definition contains multiple
+  parts (e.g., "be X, be Y"), each part should follow this convention (e.g.,
+  "X sein, Y sein").
 
 - Any suggestions and recommendations ("for x, use y") should be written in a
   neutral form ("for x, y is used"). The autotranslated sentences use the very
@@ -140,6 +142,14 @@ Conventions for translators
   not "克林貢" which is used in Taiwanese Mandarin (and which is returned by
   Google Translate for "Traditional Chinese").
 
+- Adjectival verbs should be translated as "是[quality]的". If the English
+  definition contains multiple parts (e.g., "be X, be Y"), each part should
+  follow this convention (e.g., "是X的、是Y的").
+
+- Use full-width punctuation: "、" (enumeration comma) for separating
+  alternatives, "（）" (full-width parentheses) for clarifications, and "，"
+  (full-width comma) where a regular comma would be used.
+
 ### Finnish
 
 - Translations need not to be direct translations from TKD entries, but later
@@ -148,7 +158,13 @@ Conventions for translators
   they are not necessary to understand the translation. Parenthesized notes may
   be similarly removed if they are not necessary.
 
-- Adjectives are translated as "olla [adjektiivi]".
+- Adjectives are translated as "olla [adjektiivi]". If the English definition
+  contains multiple parts (e.g., "be X, be Y"), each part should follow this
+  convention (e.g., "olla X, olla Y").
+
+- Use semicolons to separate distinct senses of a word, and commas for synonyms
+  within a sense (e.g., "näyte; esimerkki" or "olla perusteellinen, olla
+  huolellinen; olla hyvä, olla erinomainen").
 
 - Fictive things (not including proper names) are translated as "eräs [X:ää]
   muistuttava [Y]" tai "eräs [Y]" where Y is eg. "eläin" (this includes all
@@ -162,6 +178,42 @@ Conventions for translators
 
 - Remember to use the correct transitivity (eg. pyöriä **jIr** vs. pyörittää
   **jIrmoH**).
+
+### Swedish
+
+- Adjectival verbs should be translated as "vara [adjective]". If the English
+  definition contains multiple parts (e.g., "be X, be Y"), each part should
+  follow this convention (e.g., "vara X, vara Y").
+
+### Portuguese
+
+- Adjectival verbs should be translated as "ser [adjective]" or "estar
+  [adjective]" as appropriate. If the English definition contains multiple
+  parts (e.g., "be X, be Y"), each part should follow this convention (e.g.,
+  "ser X, ser Y").
+
+### French
+
+- Adjectival verbs should be translated as "être [adjective]". If the English
+  definition contains multiple parts (e.g., "be X, be Y"), each part should
+  follow this convention (e.g., "être X, être Y").
+
+### Russian
+
+- Adjectival verbs should be translated as "быть [adjective]" (e.g., "быть
+  холодным" for "be cold"). If the English definition contains multiple parts
+  (e.g., "be X, be Y"), each part should follow this convention (e.g., "быть X,
+  быть Y").
+
+### Persian
+
+- Adjectival verbs should be translated as "[adjective] بودن" (e.g., "کثیف
+  بودن" for "be dirty"). If the English definition contains multiple parts
+  (e.g., "be X, be Y"), each part should follow this convention (e.g., "X
+  بودن، Y بودن").
+
+- Use the Arabic comma "،" for separating alternatives, not the Latin comma ",".
+
 
 Special logic in the Android parser
 -----------------------------------
