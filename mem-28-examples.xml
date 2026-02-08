@@ -216,7 +216,7 @@ Jos puhuttelet ylempääsi, harkitse {-neS:v:suff}-päätteen lisäämistä.</co
     <table name="mem">
       <column name="_id"></column>
       <column name="entry_name">...-Daq qaDor.</column>
-      <column name="part_of_speech">sen:bc</column>
+      <column name="part_of_speech">sen:bc,tmpl</column>
       <column name="definition">I will escort you to ... .</column>
       <column name="definition_de">Ich begleite dich zum ... .</column>
       <column name="definition_fa">من تو را به ... اسکورت می‌کنم ...</column>
@@ -478,7 +478,7 @@ Jos haluat vastata kieltävästi, sano {Qo':excl} "ei, kieltäydyn".</column>
       <!-- Explicit components are needed because the analyser won't pick up {-'e'} with no attached noun. -->
       <column name="_id"></column>
       <column name="entry_name">nuqDaq 'oH ...'e'?</column>
-      <column name="part_of_speech">sen:bc</column>
+      <column name="part_of_speech">sen:bc,tmpl</column>
       <column name="definition">Where is a/the ...?</column>
       <column name="definition_de">Wo ist der/die/ein ...?</column>
       <column name="definition_fa">... کجاست؟</column>
