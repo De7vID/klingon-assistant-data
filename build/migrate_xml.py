@@ -574,8 +574,8 @@ def infer_source_metadata(citation: SourceCitation) -> Dict:
 
 
 def write_sources_yaml(sources: Dict[str, Dict], output_path: Path):
-    """Write sources.yaml file."""
-    output = {'sources': sources}
+    """Write sources.yaml file, sorted by source id for stable output."""
+    output = {'sources': dict(sorted(sources.items()))}
 
     with open(output_path, 'w', encoding='utf-8') as f:
         yaml.safe_dump(output, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
