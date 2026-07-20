@@ -281,7 +281,8 @@ else:
     print('0')
 ")
 
-echo "$EXTRA_ID" > $SOURCE_DIR/EXTRA
+# Write without a trailing newline, matching renumber.py.
+printf '%s' "$EXTRA_ID" > $SOURCE_DIR/EXTRA
 echo "EXTRA set to $EXTRA_ID"
 
 # ==============================================================================
