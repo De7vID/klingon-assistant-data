@@ -1,0 +1,42 @@
+entry:
+  entry_name: bach
+  slug: bach_n
+  part_of_speech: n:klcp1,weap
+  pos: n
+  categories:
+  - weap
+  metadata_tags:
+  - klcp1
+  status: canonical
+  section: main
+  definition: shot
+  see_also: '{bach:v}'
+  hidden_notes: '"Botch".'
+  search_tags: beam, bullet, ray, target
+  sources:
+    raw: '[1] {TKD:src}'
+    citations:
+    - source: tkd
+  translations:
+    de:
+      definition: Schuss
+      search_tags: Strahl, Kugel
+    fa:
+      definition: گلوله
+    sv:
+      definition: skott
+    ru:
+      definition: Выстрел
+      search_tags: луч, пуля, цель
+    zh_HK:
+      definition: 射擊
+    pt:
+      definition: tiro
+      search_tags: feixe, bala, raio, alvo
+    fi:
+      definition: laukaus
+    fr:
+      definition: tir
+      search_tags: raye, balle
+  _original_id: 10004
+  _original_file: mem-01-b.xml

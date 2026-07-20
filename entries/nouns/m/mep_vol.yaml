@@ -1,0 +1,38 @@
+entry:
+  entry_name: mep vol
+  slug: mep_vol_n
+  part_of_speech: n:deriv
+  pos: n
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition:
+    text: plastic sheet, vinyl
+    parts:
+    - text: plastic sheet
+    - text: vinyl
+  components: '{mep:n}, {vol:n}'
+  sources:
+    raw: '[1] {Pittsburgh Art Tour:src}'
+    citations:
+    - source: pittsburgh_art_tour
+  translations:
+    de:
+      definition: Plastikfolie, Vinyl
+    fa:
+      definition: ورق پلاستیک ، وینیل
+    sv:
+      definition: plastplåt, vinyl
+    ru:
+      definition: пластиковый лист, винил
+    zh_HK:
+      definition: 塑料板、乙烯基
+    pt:
+      definition: folha de plástico, vinil
+    fi:
+      definition: muovilevy, vinyyli
+    fr:
+      definition: feuille de plastique, vinyle
+  _original_id: 12034
+  _original_file: mem-08-m.xml

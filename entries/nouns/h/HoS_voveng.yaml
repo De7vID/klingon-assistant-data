@@ -1,0 +1,36 @@
+entry:
+  entry_name: HoS voveng
+  slug: HoS_voveng_n
+  part_of_speech: n:body,deriv
+  pos: n
+  pos_subtype: body
+  metadata_tags:
+  - deriv
+  status: canonical
+  section: main
+  definition: thyroid
+  components: '{HoS:n:1}, {voveng:n}'
+  sources:
+    raw: '[1] {qep''a'' 27 (2020):src}'
+    citations:
+    - source: qepa_2020
+      date: '2020'
+  translations:
+    de:
+      definition: Schilddrüse
+    fa:
+      definition: تیروئید
+    sv:
+      definition: sköldkörtel
+    ru:
+      definition: щитовидная железа
+    zh_HK:
+      definition: 甲狀腺
+    pt:
+      definition: tireoide
+    fi:
+      definition: kilpirauhanen
+    fr:
+      definition: thyroïde
+  _original_id: 11303
+  _original_file: mem-05-H.xml

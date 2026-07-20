@@ -1,0 +1,46 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,columnsep=20pt]{geometry}
+\usepackage{fontspec}
+\usepackage[english]{babel}
+\usepackage{multicol}
+\usepackage{xcolor}
+
+% Klingon text formatting
+\newcommand{\klingon}[1]{\textbf{#1}}
+\newcommand{\klingonref}[2][]{\textbf{#2}}
+
+% K-E entry: \entry{klingon}{pos}{definition}
+\newcommand{\entry}[3]{%
+  \noindent\hangindent=0.3cm\hangafter=1%
+  \klingon{#1}\ \textit{#2}\ {#3}\par\smallskip%
+}
+
+% Derived entries
+\newcommand{\deriv}[3]{\ $\bullet$\ \klingon{#1}\ \textit{#2}\ {#3}}
+\newcommand{\derivsubentry}[3]{\ $\circ$\ \klingon{#1}\ \textit{#2}\ {#3}}
+
+% E-K entry: \reverseentryhead[sortkey]{definition}{pagemark} items
+\newcommand{\reverseentryhead}[3][]{%
+  \noindent\hangindent=0.3cm\hangafter=1%
+  \textit{#2} --- %
+}
+
+% E-K item: \reverseentryitem{pos}{klingon}
+\newcommand{\reverseentryitem}[2]{\textit{#1} \klingon{#2}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\title{Klingon Dictionary}
+\author{Generated from boQwI' database}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\input{dictionary.tex}
+
+\end{document}
