@@ -5898,16 +5898,22 @@ This was defined as "side". The clarification "exterior surface" was added based
       <column name="synonyms"></column>
       <column name="antonyms"></column>
       <column name="see_also"></column>
-      <column name="notes">This word can take an object, but cannot be used adjectivally. It means more than just wanting to know or learn: it generally implies some kind of active interest in the topic, or an underlying motivation for wanting to know something about it. It cannot be used to mean "strange".[1]</column>
-      <column name="notes_de">Dieses Wort bedeutet mehr als nur "wissen/erfahren wollen". Es impliziert im Allgemeinen irgendeine Art aktives Interesse an einem Thema oder eine zu Grunde liegende Motivation, etwas wissen zu wollen. Es ist kein "sein"-Verb und kann nicht adjektivisch verwendet werden.[1]</column>
+      <column name="notes">This word can take an object, but cannot be used adjectivally. It means more than just wanting to know or learn: it generally implies some kind of active interest in the topic, or an underlying motivation for wanting to know something about it. It cannot be used to mean "strange".[1]
+
+For example, {tlhIngan Hol rer:sen@@tlhIngan Hol:n, rer:v} means "he/she is curious about Klingon", and {rer tlhIngan:sen@@rer:v, tlhIngan:n} means "the Klingon is curious" (about a previously stated topic, or as a statement about the Klingon's nature), but {tlhIngan rer:sen:nolink} cannot be used to mean "the curious Klingon".[2]</column>
+      <column name="notes_de">Dieses Wort bedeutet mehr als nur "wissen/erfahren wollen". Es impliziert im Allgemeinen irgendeine Art aktives Interesse an einem Thema oder eine zu Grunde liegende Motivation, etwas wissen zu wollen. Es ist kein "sein"-Verb und kann nicht adjektivisch verwendet werden.[1]
+
+Zum Beispiel bedeutet {tlhIngan Hol rer:sen@@tlhIngan Hol:n, rer:v} "er/sie ist neugierig auf Klingonisch", und {rer tlhIngan:sen@@rer:v, tlhIngan:n} bedeutet "der Klingone ist neugierig" (bezüglich eines vorher genannten Themas, oder als Aussage über die Wesensart des Klingonen), aber {tlhIngan rer:sen:nolink} kann nicht "der neugierige Klingone" bedeuten.[2]</column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
       <column name="notes_zh_HK"></column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
-      <column name="notes_fr">Ce mot signifie plus que "vouloir savoir/apprendre". Il insinue généralement quelque type d'intérêt actif pour un sujet ou une motivation primaire pour vouloir savoir quelque chose. Il ne s'utilise pas pour dire "étrange, bizarre". Il n'est pas un verbe avec "être" et ne peut pas être utilisé comme adjectif.[1]</column>
-      <column name="hidden_notes"></column>
+      <column name="notes_fr">Ce mot signifie plus que "vouloir savoir/apprendre". Il insinue généralement quelque type d'intérêt actif pour un sujet ou une motivation primaire pour vouloir savoir quelque chose. Il ne s'utilise pas pour dire "étrange, bizarre". Il n'est pas un verbe avec "être" et ne peut pas être utilisé comme adjectif.[1]
+
+Par exemple, {tlhIngan Hol rer:sen@@tlhIngan Hol:n, rer:v} signifie "il/elle est curieux du klingon", et {rer tlhIngan:sen@@rer:v, tlhIngan:n} signifie "le Klingon est curieux" (à propos d'un sujet précédemment mentionné, ou en tant qu'énoncé sur la nature du Klingon), mais {tlhIngan rer:sen:nolink} ne peut pas être utilisé pour dire "le Klingon curieux".[2]</column>
+      <column name="hidden_notes">A "rarity" is a "curiosity".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -5927,7 +5933,7 @@ This was defined as "side". The clarification "exterior surface" was added based
       <column name="search_tags_pt"></column>
       <column name="search_tags_fi"></column>
       <column name="search_tags_fr"></column>
-      <column name="source">[1] {qep'a' 33 (2026):src}</column>
+      <column name="source">[1] {qep'a' 33 (2026):src}, [2] {KLI mailing list 2026.07.16:src}</column>
     </table>
     <table name="mem">
       <column name="_id"></column>
