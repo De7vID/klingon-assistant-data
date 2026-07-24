@@ -30,3 +30,7 @@ jobs:
       run: |
         chmod +x ./generate_db.sh
         ./generate_db.sh --noninteractive
+    - name: XML/YAML round-trip check
+      run: |
+        chmod +x ./generate_db_yaml.sh ./build/roundtrip_test.sh
+        ./build/roundtrip_test.sh
