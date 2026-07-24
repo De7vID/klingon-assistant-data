@@ -20,6 +20,9 @@ from pathlib import Path
 from typing import Dict, List, Any, Optional
 from collections import defaultdict
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from index_loader import load_index, slug_to_id, slug_to_file, entry_sort_key, entry_file
+
 
 # ==============================================================================
 # Constants
@@ -71,12 +74,14 @@ SECTION_TO_FILE = {
 # YAML Loading
 # ==============================================================================
 
-def load_yaml_entries(data_dir: Path) -> List[Dict]:
+def load_yaml_entries(data_dir: Path, id_map: Dict[str, int]) -> List[Dict]:
     """Load all YAML entries from the entries directory."""
     entries = []
     entries_dir = data_dir / 'entries'
 
     for yaml_file in entries_dir.rglob('*.yaml'):
+        if yaml_file.name == '_index.yaml':
+            continue
         try:
             with open(yaml_file, 'r', encoding='utf-8') as f:
                 content = yaml.safe_load(f)
@@ -92,8 +97,7 @@ def load_yaml_entries(data_dir: Path) -> List[Dict]:
         elif 'entries' in content:
             entries.extend(content['entries'])
 
-    # Sort by original ID to maintain order
-    entries.sort(key=lambda e: e.get('_original_id', 0))
+    entries.sort(key=lambda e: entry_sort_key(e, id_map))
 
     return entries
 
@@ -237,14 +241,13 @@ def is_suffix(entry: Dict) -> bool:
     return entry_name.startswith('-')
 
 
-def get_file_for_entry(entry: Dict) -> str:
+def get_file_for_entry(entry: Dict, file_map: Dict[str, str]) -> str:
     """Determine which XML file an entry belongs to.
 
-    Uses _original_file if available for exact round-trip fidelity.
+    Uses the index override if available for exact round-trip fidelity.
     Otherwise, infers the file based on section, suffix status, and first letter.
     """
-    # Use original file if available (for exact round-trip)
-    original_file = entry.get('_original_file', '')
+    original_file = entry_file(entry, file_map)
     if original_file:
         return original_file
 
@@ -265,21 +268,20 @@ def get_file_for_entry(entry: Dict) -> str:
     return LETTER_TO_FILE.get(first_letter, 'mem-21-a.xml')
 
 
-def group_entries_by_file(entries: List[Dict]) -> Dict[str, List[Dict]]:
+def group_entries_by_file(entries: List[Dict], file_map: Dict[str, str]) -> Dict[str, List[Dict]]:
     """Group entries by their target XML file."""
     groups = defaultdict(list)
 
     for entry in entries:
-        filename = get_file_for_entry(entry)
+        filename = get_file_for_entry(entry, file_map)
         groups[filename].append(entry)
 
     return dict(groups)
 
 
-def write_xml_file(entries: List[Dict], output_path: Path):
+def write_xml_file(entries: List[Dict], output_path: Path, id_map: Dict[str, int]):
     """Write entries to an XML file."""
-    # Sort entries by _original_id within the file
-    entries_sorted = sorted(entries, key=lambda e: e.get('_original_id', 0))
+    entries_sorted = sorted(entries, key=lambda e: entry_sort_key(e, id_map))
 
     with open(output_path, 'w', encoding='utf-8') as f:
         for entry in entries_sorted:
@@ -309,12 +311,16 @@ def main():
 
     print(f"Loading entries from {data_dir}/entries/...", file=sys.stderr)
 
+    index = load_index(data_dir)
+    id_map = slug_to_id(index)
+    file_map = slug_to_file(index)
+
     # Load all entries
-    entries = load_yaml_entries(data_dir)
+    entries = load_yaml_entries(data_dir, id_map)
     print(f"Loaded {len(entries)} entries", file=sys.stderr)
 
     # Group by target file
-    groups = group_entries_by_file(entries)
+    groups = group_entries_by_file(entries, file_map)
     print(f"Grouped into {len(groups)} files", file=sys.stderr)
 
     # Create output directory
@@ -323,7 +329,7 @@ def main():
     # Write each file
     for filename, file_entries in sorted(groups.items()):
         output_path = args.output_dir / filename
-        write_xml_file(file_entries, output_path)
+        write_xml_file(file_entries, output_path, id_map)
         print(f"Wrote {len(file_entries)} entries to {filename}", file=sys.stderr)
 
     print(f"Done! Generated {len(groups)} XML files", file=sys.stderr)

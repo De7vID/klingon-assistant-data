@@ -13,6 +13,9 @@ from pathlib import Path
 from dataclasses import dataclass
 from typing import Optional, List, Dict, Any
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from index_loader import load_index, slug_to_id, entry_sort_key, entry_id
+
 
 # ==============================================================================
 # Constants - Must match xml2sql.pl exactly
@@ -40,13 +43,15 @@ LANGUAGES = ['de', 'fa', 'sv', 'ru', 'zh_HK', 'pt', 'fi', 'fr']
 # YAML Loading
 # ==============================================================================
 
-def load_all_entries(data_dir: Path) -> List[Dict]:
+def load_all_entries(data_dir: Path, id_map: Dict[str, int]) -> List[Dict]:
     """Load all entries from YAML files."""
     entries = []
     entries_dir = data_dir / 'entries'
 
     # Walk through all YAML files
     for yaml_file in entries_dir.rglob('*.yaml'):
+        if yaml_file.name == '_index.yaml':
+            continue
         with open(yaml_file, 'r', encoding='utf-8') as f:
             try:
                 content = yaml.safe_load(f)
@@ -63,8 +68,7 @@ def load_all_entries(data_dir: Path) -> List[Dict]:
         elif 'entries' in content:
             entries.extend(content['entries'])
 
-    # Sort by _original_id
-    entries.sort(key=lambda e: e.get('_original_id', 0))
+    entries.sort(key=lambda e: entry_sort_key(e, id_map))
 
     return entries
 
@@ -109,12 +113,13 @@ def escape_sql(value: str) -> str:
     return str(value).replace("'", "''")
 
 
-def entry_to_columns(entry: Dict) -> Dict[str, str]:
+def entry_to_columns(entry: Dict, id_map: Dict[str, int]) -> Dict[str, str]:
     """Convert entry to column values dictionary."""
     columns = {}
 
     # Core fields
-    columns['_id'] = entry.get('_original_id', '')
+    resolved_id = entry_id(entry, id_map)
+    columns['_id'] = resolved_id if resolved_id is not None else ''
     columns['entry_name'] = entry.get('entry_name', '')
     # Use original part_of_speech string if available, otherwise reconstruct
     columns['part_of_speech'] = entry.get('part_of_speech', '') or reconstruct_part_of_speech(entry)
@@ -212,9 +217,9 @@ def generate_sql_header() -> str:
     )
 
 
-def generate_sql_row(entry: Dict) -> str:
+def generate_sql_row(entry: Dict, id_map: Dict[str, int]) -> str:
     """Generate INSERT statement for an entry."""
-    columns = entry_to_columns(entry)
+    columns = entry_to_columns(entry, id_map)
 
     values = []
     for col in COLUMN_ORDER:
@@ -258,8 +263,11 @@ def main():
     else:
         version = '0'
 
+    index = load_index(data_dir)
+    id_map = slug_to_id(index)
+
     # Load all entries
-    entries = load_all_entries(data_dir)
+    entries = load_all_entries(data_dir, id_map)
     print(f"Loaded {len(entries)} entries", file=sys.stderr)
 
     # NOTE: [[VERSION]] substitution is NOT done here to match xml2sql.pl behavior.
@@ -270,7 +278,7 @@ def main():
     print(generate_sql_header(), end='')
 
     for entry in entries:
-        print(generate_sql_row(entry), end='')
+        print(generate_sql_row(entry, id_map), end='')
 
     print(generate_sql_footer(), end='')
 
