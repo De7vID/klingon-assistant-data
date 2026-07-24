@@ -5,25 +5,41 @@ entry:
   pos: n
   status: canonical
   section: main
-  definition: step-by-step instructions
+  definition:
+    text: step-by-step instructions, algorithm
+    parts:
+    - text: step-by-step instructions
+    - text: algorithm
   see_also: '{mIw:n}, {qurme'':n}, {''IStegh:n}'
   notes: 'This is singular. {HIl''aDmey:n@@HIl''aD:n, -mey:n} would mean several sets
     of instructions.[1]
 
 
-    A {HIl''aD:n:nolink} is a set of {''ISteghmey:n@@''IStegh:n, -mey:n}.[2]'
-  hidden_notes: '{HIlaD:sen@@HI-:v, laD:v} means "read me!"'
+    A {HIl''aD:n:nolink} is a set of {''ISteghmey:n@@''IStegh:n, -mey:n}.[2]
+
+
+    It can be preceded by {De''wI'':n} or {mI''QeD:n} if need be.[3]'
+  hidden_notes: '{HIlaD:sen@@HI-:v, laD:v} means "read me!"
+
+
+    At {qep''a'' 26 (2019):src}, this was defined as "step-by-step instructions".[1]
+    At {qep''a'' 33 (2026):src}, this was expanded to include "algorithm".[3]'
   search_tags: formula, recipe
   sources:
-    raw: '[1] {qep''a'' 26 (2019):src}, [2] {Saarbrücken qepHom''a'' 2024:src}'
+    raw: '[1] {qep''a'' 26 (2019):src}, [2] {Saarbrücken qepHom''a'' 2024:src}, [3]
+      {qep''a'' 33 (2026):src}'
     citations:
     - source: qepa_2019
       date: '2019'
     - source: qephom_2024
       date: '2024'
+    - source: qepa_2026
+      date: '2026'
   translations:
     de:
-      definition: Anweisung (schrittweise)
+      definition: Anweisung (schrittweise), Algorithmus
+      notes: Man kann {De'wI':n} oder {mI'QeD:n} oder etwas anderes davor setzen,
+        wenn nötig.[3]
     fa:
       definition: دستورالعمل های مرحله به مرحله
     sv:
@@ -38,4 +54,5 @@ entry:
       definition: vaihe vaiheelta -ohjeet
       search_tags: resepti
     fr:
-      definition: instructions étape par étape
+      definition: instructions étape par étape, algorithme
+      notes: Peut être précédé par {De'wI':n} ou {mI'QeD:n} ou autre chose, si nécessaire.[3]

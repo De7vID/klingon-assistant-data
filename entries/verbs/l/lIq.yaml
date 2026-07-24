@@ -1,9 +1,10 @@
-entry:
-  entry_name: lIq
-  slug: lIq_v
-  part_of_speech: v:t_c
+entries:
+- entry_name: lIq
+  slug: lIq_v_1
+  part_of_speech: v:1,t_c
   pos: v
   pos_subtype: t_c
+  homophone: 1
   status: canonical
   section: main
   definition: round up
@@ -33,3 +34,43 @@ entry:
       definition: kerätä, koota yhteen
     fr:
       definition: rassembler, rameuter
+- entry_name: lIq
+  slug: lIq_v_2
+  part_of_speech: v:2,is
+  pos: v
+  pos_subtype: is
+  homophone: 2
+  status: canonical
+  section: main
+  definition:
+    text: be creative, be inventive, be resourceful
+    parts:
+    - text: be creative
+    - text: be inventive
+    - text: be resourceful
+  see_also: '{''ogh:v}'
+  notes: To be imaginative, innovative, original, or inspired; to generate novel ideas,
+    recognize patterns that are not obvious to others, or use existing things in non-traditional
+    ways.[1]
+  sources:
+    raw: '[1] {qep''a'' 33 (2026):src}'
+    citations:
+    - source: qepa_2026
+      date: '2026'
+  translations:
+    de:
+      definition: kreativ sein, erfinderisch sein, einfallsreich sein
+    fa:
+      definition: خلاق باشید، مبتکر باشید، مدبر باشید [AUTOTRANSLATED]
+    sv:
+      definition: vara kreativ, vara uppfinningsrik, vara påhittig [AUTOTRANSLATED]
+    ru:
+      definition: будь креативным, будь изобретательным, будь находчивым [AUTOTRANSLATED]
+    zh_HK:
+      definition: 要有創意，要有創造力，要有足智多謀 [AUTOTRANSLATED]
+    pt:
+      definition: seja criativo, seja inventivo, seja engenhoso [AUTOTRANSLATED]
+    fi:
+      definition: ole luova, kekseliäs, kekseliäs [AUTOTRANSLATED]
+    fr:
+      definition: être créatif, être inventif, être ingénieux

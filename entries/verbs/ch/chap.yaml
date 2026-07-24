@@ -1,9 +1,10 @@
-entry:
-  entry_name: chap
-  slug: chap_v
-  part_of_speech: v:is
+entries:
+- entry_name: chap
+  slug: chap_v_1
+  part_of_speech: v:1,is
   pos: v
   pos_subtype: is
+  homophone: 1
   status: canonical
   section: main
   definition:
@@ -38,3 +39,42 @@ entry:
       definition: olla virallinen, aito, valtuutettu, oikea
     fr:
       definition: être officiel, être authentifié, être autorisé, être légitime
+- entry_name: chap
+  slug: chap_v_2
+  part_of_speech: v:2,t
+  pos: v
+  pos_subtype: t
+  homophone: 2
+  status: canonical
+  section: main
+  definition: grasp
+  see_also: '{''uch:v:1}'
+  notes: This involves a change of state and describes the act of grabbing onto something
+    starting from the moment just before you grab it.[1]
+  hidden_notes: Reverse of {pach:n}.
+  sources:
+    raw: '[1] {qep''a'' 33 (2026):src}'
+    citations:
+    - source: qepa_2026
+      date: '2026'
+  translations:
+    de:
+      definition: fassen, greifen
+      notes: Dies beinhaltet eine Zustandsänderung und beschreibt den Vorgang des
+        Zugreifens, beginnend in dem Moment unmittelbar vor dem eigentlichen Zugriff.[1]
+    fa:
+      definition: درک کردن [AUTOTRANSLATED]
+    sv:
+      definition: grepp [AUTOTRANSLATED]
+    ru:
+      definition: понять [AUTOTRANSLATED]
+    zh_HK:
+      definition: 抓牢 [AUTOTRANSLATED]
+    pt:
+      definition: entender [AUTOTRANSLATED]
+    fi:
+      definition: ymmärtää [AUTOTRANSLATED]
+    fr:
+      definition: saisir, empoigner, agripper
+      notes: Ce mot suggère un changement d'état et décrit l'acte de saisir quelque
+        chose à partir du moment juste avant qu'on le saisisse.[1]

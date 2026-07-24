@@ -7,23 +7,28 @@ entry:
   status: canonical
   section: main
   definition:
-    text: be aggressive, be effective, be vigorous
+    text: be aggressive, be effective, be vigorous, be efficient
     parts:
     - text: be aggressive
     - text: be effective
     - text: be vigorous
+    - text: be efficient
   see_also: '{ral:v}'
   notes: This word was originally used in describing weapons, but is now also applied
     to people. It has strongly positive connotations in slang.[2]
+  hidden_notes: At {qep'a' 33 (2026):src}, the definition was expanded to include
+    "be efficient".[3]
   sources:
-    raw: '[1] {TKD:src}, [2] {KGT p.67:src}'
+    raw: '[1] {TKD:src}, [2] {KGT p.67:src}, [3] {qep''a'' 33 (2026):src}'
     citations:
     - source: tkd
     - source: kgt
       page_start: 67
+    - source: qepa_2026
+      date: '2026'
   translations:
     de:
-      definition: aggressiv sein, effektiv sein, energisch sein
+      definition: aggressiv sein, effektiv sein, energisch sein, effizient sein
     fa:
       definition: تهاجمی، موثر، قوی بودن
     sv:
@@ -38,4 +43,4 @@ entry:
       definition: (aseesta) olla voimakas, tehokas, hyvä; (henkilöstä) olla aggressiivinen,
         voimakas, tarmokas, tehokas
     fr:
-      definition: être agressif, être efficace, être vigoureux
+      definition: être agressif, être efficace, être vigoureux, être efficient
