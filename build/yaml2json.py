@@ -16,6 +16,9 @@ from pathlib import Path
 from collections import OrderedDict
 from typing import Dict, List, Any
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from index_loader import load_index, slug_to_id, entry_sort_key
+
 
 # ==============================================================================
 # Constants - Must match xml2json.py exactly
@@ -42,13 +45,13 @@ SUPPORTED_LOCALES = ['de', 'en', 'sv']
 # YAML Loading
 # ==============================================================================
 
-def load_all_entries(data_dir: Path, show_progress: bool = True) -> List[Dict]:
+def load_all_entries(data_dir: Path, id_map: Dict[str, int], show_progress: bool = True) -> List[Dict]:
     """Load all entries from YAML files."""
     entries = []
     entries_dir = data_dir / 'entries'
 
     # Collect all YAML files first for progress reporting
-    yaml_files = list(entries_dir.rglob('*.yaml'))
+    yaml_files = [f for f in entries_dir.rglob('*.yaml') if f.name != '_index.yaml']
     total_files = len(yaml_files)
 
     # Walk through all YAML files
@@ -72,10 +75,9 @@ def load_all_entries(data_dir: Path, show_progress: bool = True) -> List[Dict]:
         elif 'entries' in content:
             entries.extend(content['entries'])
 
-    # Sort by _original_id
     if show_progress:
         print(f"  Sorting {len(entries)} entries...", file=sys.stderr)
-    entries.sort(key=lambda e: e.get('_original_id', 0))
+    entries.sort(key=lambda e: entry_sort_key(e, id_map))
 
     return entries
 
@@ -270,8 +272,11 @@ def main():
 
     print(f"Loading entries from {data_dir}/entries/...", file=sys.stderr)
 
+    index = load_index(data_dir)
+    id_map = slug_to_id(index)
+
     # Load all entries
-    entries = load_all_entries(data_dir)
+    entries = load_all_entries(data_dir, id_map)
     print(f"Loaded {len(entries)} entries", file=sys.stderr)
 
     # Read version

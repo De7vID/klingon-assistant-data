@@ -27,6 +27,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from definition_parser import parse_definition, DefinitionPart
 from source_parser import SourceCitation, citations_to_yaml
+from index_loader import write_index
 
 # Ensure proper YAML output
 yaml.SafeDumper.ignore_aliases = lambda *args: True
@@ -730,10 +731,9 @@ def entry_to_yaml_dict(entry: Entry) -> Dict:
     if entry.translations:
         result['translations'] = entry.translations
 
-    # Original metadata (for verification and round-trip)
-    result['_original_id'] = entry.id
-    result['_original_file'] = entry._original_file
-
+    # Note: entry.id and entry._original_file are captured in the sidecar
+    # entries/_index.yaml (written by write_entry_files' caller), so they
+    # are intentionally NOT stored per-entry here.
     return result
 
 
@@ -863,6 +863,15 @@ def main():
 
     # Write entry files
     write_entry_files(groups, data_dir)
+
+    # Write the sidecar index that fixes SQL _id and the origin XML file
+    # per entry (see build/renumber_yaml.py).
+    index_records = sorted(
+        (({'slug': e.slug, 'file': e._original_file}, e.id) for e in entries),
+        key=lambda pair: pair[1],
+    )
+    write_index(data_dir, [item for item, _ in index_records])
+    print(f"Wrote index with {len(index_records)} entries")
 
     print("Migration complete!")
 

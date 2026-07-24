@@ -246,18 +246,24 @@ ${SED} -e "s/\[\[VERSION\]\]/$VERSION/g" $TMP_DIR/qawHaq.json > $SOURCE_DIR/qawH
 # ==============================================================================
 
 # The EXTRA file contains the ID of the first entry in the "extra" section.
-# This is computed from the YAML entries by finding the smallest _original_id
-# among entries with section: extra.
+# It is derived from entries/_index.yaml: walk the index (which fixes IDs)
+# and report the first slug whose YAML has section: extra.
 
 echo "Computing EXTRA..."
 EXTRA_ID=$(python3 -c "
-import yaml
+import sys
 from pathlib import Path
 
-entries_dir = Path('$SOURCE_DIR/entries')
-extra_ids = []
+sys.path.insert(0, '$SOURCE_DIR/build')
+import yaml
+from index_loader import load_index, BASE_ID
 
-for yaml_file in entries_dir.rglob('*.yaml'):
+data_dir = Path('$SOURCE_DIR')
+
+section_by_slug = {}
+for yaml_file in (data_dir / 'entries').rglob('*.yaml'):
+    if yaml_file.name == '_index.yaml':
+        continue
     try:
         with open(yaml_file, 'r', encoding='utf-8') as f:
             content = yaml.safe_load(f)
@@ -266,17 +272,18 @@ for yaml_file in entries_dir.rglob('*.yaml'):
     if not content:
         continue
 
-    entry = content.get('entry')
-    if entry and entry.get('section') == 'extra':
-        extra_ids.append(entry.get('_original_id', 0))
+    items = []
+    if 'entry' in content:
+        items.append(content['entry'])
+    if 'entries' in content:
+        items.extend(content['entries'])
+    for entry in items:
+        section_by_slug[entry.get('slug', '')] = entry.get('section', 'main')
 
-    entries_list = content.get('entries', [])
-    for entry in entries_list:
-        if entry.get('section') == 'extra':
-            extra_ids.append(entry.get('_original_id', 0))
-
-if extra_ids:
-    print(min(extra_ids))
+for i, item in enumerate(load_index(data_dir)):
+    if section_by_slug.get(item['slug']) == 'extra':
+        print(BASE_ID + i)
+        break
 else:
     print('0')
 ")
