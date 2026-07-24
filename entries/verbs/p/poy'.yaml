@@ -6,15 +6,24 @@ entry:
   pos_subtype: t_c
   status: canonical
   section: main
-  definition: confiscate
+  definition:
+    text: confiscate, take over, commandeer
+    parts:
+    - text: confiscate
+    - text: take over
+    - text: commandeer
+  hidden_notes: At {qep'a' 30 (2023):src}, this was defined as "confiscate".[1] At
+    {qep'a' 33 (2026):src}, this was expanded to include "take over, commandeer".[2]
   sources:
-    raw: '[1] {qep''a'' 30 (2023):src}'
+    raw: '[1] {qep''a'' 30 (2023):src}, [2] {qep''a'' 33 (2026):src}'
     citations:
     - source: qepa_2023
       date: '2023'
+    - source: qepa_2026
+      date: '2026'
   translations:
     de:
-      definition: beschlagnahmen, konfiszieren
+      definition: beschlagnahmen, konfiszieren, übernehmen, kapern
     fa:
       definition: مصادره کند
     sv:
@@ -28,4 +37,4 @@ entry:
     fi:
       definition: takavarikoida
     fr:
-      definition: confisquer
+      definition: confisquer, aborder, capturer, prendre le contrôle de
