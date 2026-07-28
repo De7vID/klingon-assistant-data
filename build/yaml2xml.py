@@ -14,6 +14,7 @@ If --output-dir is not specified, outputs to current directory.
 
 import argparse
 import html
+import re
 import sys
 import yaml
 from pathlib import Path
@@ -134,9 +135,14 @@ def get_source_text(entry: Dict) -> str:
     return sources
 
 
-def entry_to_xml(entry: Dict) -> str:
-    """Convert a single entry to XML table format."""
-    lines = ['    <table name="mem">']
+def entry_to_xml(entry: Dict, table_indent: str = '    ') -> str:
+    """Convert a single entry to XML table format.
+
+    `table_indent` is the leading whitespace for `<table>`/`</table>`;
+    `<column>` lines are indented two more spaces.
+    """
+    column_indent = table_indent + '  '
+    lines = [f'{table_indent}<table name="mem">']
 
     # Get translations
     translations = entry.get('translations', {})
@@ -190,9 +196,9 @@ def entry_to_xml(entry: Dict) -> str:
     # Generate XML lines
     for name, value in columns:
         escaped_value = escape_xml(str(value) if value else '')
-        lines.append(f'      <column name="{name}">{escaped_value}</column>')
+        lines.append(f'{column_indent}<column name="{name}">{escaped_value}</column>')
 
-    lines.append('    </table>')
+    lines.append(f'{table_indent}</table>')
     return '\n'.join(lines)
 
 
@@ -279,13 +285,62 @@ def group_entries_by_file(entries: List[Dict], file_map: Dict[str, str]) -> Dict
     return dict(groups)
 
 
-def write_xml_file(entries: List[Dict], output_path: Path, id_map: Dict[str, int]):
-    """Write entries to an XML file."""
+_TABLE_RE = re.compile(
+    r'^(?P<indent>[ \t]*)<table name="mem">.*?</table>',
+    re.DOTALL | re.MULTILINE,
+)
+_ENTRY_NAME_RE = re.compile(r'<column name="entry_name">([^<]*)</column>')
+_POS_RE = re.compile(r'<column name="part_of_speech">([^<]*)</column>')
+
+
+def _indent_key(entry_name: str, part_of_speech: str) -> str:
+    """Compose the lookup key used by the indent map (disambiguates homonyms)."""
+    return f'{entry_name}\x00{part_of_speech}'
+
+
+def load_indent_map(path: Path) -> Dict[str, str]:
+    """Return a `(entry_name, part_of_speech)` -> `<table>`-indent map read from `path`.
+
+    Used to preserve the original per-entry indentation of an existing XML file
+    when regenerating it, so the emitter does not flatten hand-authored
+    indentation on every run. Historically these files mix 4-space and 8-space
+    indented `<table>` blocks; keying by name plus part of speech disambiguates
+    homonyms. Returns an empty map if the file does not exist.
+    """
+    try:
+        content = path.read_text(encoding='utf-8')
+    except FileNotFoundError:
+        return {}
+    indent_map: Dict[str, str] = {}
+    for m in _TABLE_RE.finditer(content):
+        name_match = _ENTRY_NAME_RE.search(m.group(0))
+        pos_match = _POS_RE.search(m.group(0))
+        if name_match:
+            key = _indent_key(name_match.group(1), pos_match.group(1) if pos_match else '')
+            indent_map.setdefault(key, m.group('indent'))
+    return indent_map
+
+
+def write_xml_file(
+    entries: List[Dict],
+    output_path: Path,
+    id_map: Dict[str, int],
+    indent_map: Optional[Dict[str, str]] = None,
+    default_indent: str = '    ',
+):
+    """Write entries to an XML file, preserving per-entry indent when known."""
     entries_sorted = sorted(entries, key=lambda e: entry_sort_key(e, id_map))
 
     with open(output_path, 'w', encoding='utf-8') as f:
         for entry in entries_sorted:
-            f.write(entry_to_xml(entry))
+            indent = default_indent
+            if indent_map is not None:
+                key = _indent_key(
+                    entry.get('entry_name', ''),
+                    entry.get('part_of_speech', ''),
+                )
+                indent = indent_map.get(key, default_indent)
+            f.write(entry_to_xml(entry, table_indent=indent))
             f.write('\n')
 
 
@@ -329,7 +384,8 @@ def main():
     # Write each file
     for filename, file_entries in sorted(groups.items()):
         output_path = args.output_dir / filename
-        write_xml_file(file_entries, output_path, id_map)
+        indent_map = load_indent_map(output_path)
+        write_xml_file(file_entries, output_path, id_map, indent_map=indent_map)
         print(f"Wrote {len(file_entries)} entries to {filename}", file=sys.stderr)
 
     print(f"Done! Generated {len(groups)} XML files", file=sys.stderr)
