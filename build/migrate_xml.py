@@ -575,13 +575,37 @@ def infer_source_metadata(citation: SourceCitation) -> Dict:
 
 
 def write_sources_yaml(sources: Dict[str, Dict], output_path: Path):
-    """Write sources.yaml file, sorted by source id for stable output."""
-    output = {'sources': dict(sorted(sources.items()))}
+    """Write sources.yaml file, sorted by source id for stable output.
+
+    Preserves existing curated metadata: if a source already exists in the
+    target file, its stored fields (name, short_name, type, year, etc.) are
+    kept intact.
+    """
+    existing: Dict[str, Dict] = {}
+    if output_path.exists():
+        with open(output_path, 'r', encoding='utf-8') as f:
+            loaded = yaml.safe_load(f) or {}
+        existing = loaded.get('sources', {}) or {}
+
+    merged: Dict[str, Dict] = {}
+    for source_id, inferred in sources.items():
+        if source_id in existing:
+            merged[source_id] = existing[source_id]
+        else:
+            merged[source_id] = inferred
+
+    # Retain any curated sources that no entry currently references, so
+    # a run that misses a citation does not silently drop metadata.
+    for source_id, meta in existing.items():
+        if source_id not in merged:
+            merged[source_id] = meta
+
+    output = {'sources': dict(sorted(merged.items()))}
 
     with open(output_path, 'w', encoding='utf-8') as f:
         yaml.safe_dump(output, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
 
-    print(f"Wrote {len(sources)} sources to {output_path}")
+    print(f"Wrote {len(merged)} sources to {output_path}")
 
 
 # ==============================================================================
