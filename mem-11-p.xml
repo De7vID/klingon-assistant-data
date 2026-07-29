@@ -327,7 +327,7 @@ In the context of a vow or promise which has been made (see {'Ip:v} and {lay':v}
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Claw hammer and ball-peen are two types of hammers. This might just be a coincidence as the Klingon high court gavel is in fact just a ball in a claw.</column>
       <column name="components">{pach:n}, {moQ:n}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -3845,9 +3845,9 @@ This is also infrequently shortened to {pegh vIttlhegh:n:nolink}.[1]</column>
       <column name="source">[1] {HQ 5.1, Mar. 1996 p.10:src}, [2] {PK:src}</column>
     </table>
     <table name="mem">
+      <!-- Not deriv because components uncertain. -->
       <column name="_id"></column>
       <column name="entry_name">peHghep</column>
-      <!-- Not deriv because components uncertain. -->
       <column name="part_of_speech">n:fic</column>
       <column name="definition">Age of Inclusion</column>
       <column name="definition_de">Alter der Einbeziehung</column>
@@ -3956,7 +3956,6 @@ This is also infrequently shortened to {pegh vIttlhegh:n:nolink}.[1]</column>
       <column name="antonyms"></column>
       <column name="see_also">{QIm:n}, {nagh DIr:n}, {'eb:n}, {pel'aQ:n:2}</column>
       <column name="notes">There is an idiomatic expression {pel'aQDaj ghorpa':sen:idiom} "before it breaks its shell", meaning "before it's too late" or "while there's still time".</column>
-      <!-- "Pellicle"? -->
       <column name="notes_de"></column>
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
@@ -3965,7 +3964,7 @@ This is also infrequently shortened to {pegh vIttlhegh:n:nolink}.[1]</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">"Pellicle".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -5090,7 +5089,6 @@ Katso, kun Gowron sanoo tämän: {YouTube video:url:http://youtu.be/QAd6OugYyxw}
       <column name="source">[1] {KCD:src}</column>
     </table>
     <table name="mem">
-      <!-- The word "acid" is slang for LSD, so this might be a reference to "peyote", another psychodelic drug. -->
       <column name="_id"></column>
       <column name="entry_name">pey</column>
       <column name="part_of_speech">n</column>
@@ -5115,7 +5113,7 @@ Katso, kun Gowron sanoo tämän: {YouTube video:url:http://youtu.be/QAd6OugYyxw}
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes">This is almost how "pH" is pronounced in French.</column>
+      <column name="hidden_notes">This is almost how "pH" is pronounced in French. The word "acid" is slang for LSD, so this might be a reference to "peyote", another psychodelic drug.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -6525,6 +6523,7 @@ The homophony with {pIH:v:1} might indicate that they are the same word, and tha
       <column name="source">[1] {qep'a' 25 (2018):src}</column>
     </table>
     <table name="mem">
+      <!-- The fi definition was confirmed to be accurate by Okrand at qep'a' 30 (2023) -->
       <column name="_id"></column>
       <column name="entry_name">pIm</column>
       <column name="part_of_speech">v:is,klcp1</column>
@@ -6536,7 +6535,6 @@ The homophony with {pIH:v:1} might indicate that they are the same word, and tha
       <column name="definition_zh_HK">是與眾不同的</column>
       <column name="definition_pt">ser diferente</column>
       <column name="definition_fi">olla erilainen; olla eri</column>
-      <!-- This fi definition was confirmed to be accurate by Okrand at qep'a' 30 (2023) -->
       <column name="definition_fr">être différent</column>
       <column name="synonyms"></column>
       <column name="antonyms">{nIb:v}, {rap:v}</column>
@@ -9451,7 +9449,7 @@ To Klingons outside of {bo'retlh:n}, time crystals were a myth, a symbol of Kahl
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes">This appears to be made up of {pom:n} and {tut:n:1}. The {tut:n:1h,nolink} part makes sense, but it's unclear what {pom:n:nolink} is doing here.</column>
+      <column name="hidden_notes">This is a pommel ({pom:sen:nolink}) at the end of a column ({tut:n:1}).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -11981,7 +11979,7 @@ To Klingons outside of {bo'retlh:n}, time crystals were a myth, a symbol of Kahl
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">{puH:n} "land" + {ley':n} "nose".</column>
       <column name="components">{puH:n}, {ley':n} or a homophonous element</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -12604,7 +12602,6 @@ To Klingons outside of {bo'retlh:n}, time crystals were a myth, a symbol of Kahl
       <column name="see_also">{vup:v}</column>
       <column name="notes"></column>
       <column name="notes_de"></column>
-      <!-- Records ex"pung"ed? -->
       <column name="notes_fa"></column>
       <column name="notes_sv"></column>
       <column name="notes_ru"></column>
@@ -12612,7 +12609,7 @@ To Klingons outside of {bo'retlh:n}, time crystals were a myth, a symbol of Kahl
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Records ex"pung"ed.</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {pung ghap HoS.:sen}</column>

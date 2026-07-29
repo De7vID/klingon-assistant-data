@@ -1544,7 +1544,7 @@ On {KGT p.81:src}, it is claimed that there is no noun meaning "color", but this
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">A calque of "velocipede", the 19th-century name for the bicycle.</column>
       <column name="components">{qam:n}, {Do:n}, {Duj:n:1}</column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -2361,7 +2361,8 @@ This word is applied to people and animals.[2]</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes">This was defined as "foundation". The word "structure" was added to distinguish this from {ghanroq:n}.</column>
+      <column name="hidden_notes">This was defined as "foundation". The word "structure" was added to distinguish this from {ghanroq:n}.
+Reverse of "map" + {paq:n:1h} "book", i.e., "atlas". In mythology, Atlas holds up the sky. In architectural sculpture, an atlas is a support structure for a building sculpted in the form of a man.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -4619,7 +4620,9 @@ Tämä verbi näyttäisi olevan johdettu {qa'meH:n}:sta, mahdollisesti tulkitsem
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes">This is an acceptable word to use for "ghost", but there may be another (and better) unknown word for that concept.[2]</column>
+      <column name="hidden_notes">This is an acceptable word to use for "ghost", but there may be another (and better) unknown word for that concept.[2]
+
+The "ka" is an ancient Egyptian concept of a "soul".</column>
       <column name="components"></column>
       <column name="examples">
 ▶ {qa' wIje'meH maSuv.:sen}
@@ -5179,7 +5182,6 @@ Do not confuse this with the similarly named {Qaj:n}.</column>
       <column name="source">[1] {HQ 10.4, Dec. 2001:src}, [2] {paq'batlh 2ed p.72-73:src}</column>
     </table>
     <table name="mem">
-      <!-- Add to zh-HK notes: In the subtitles for {Star Trek III:src}, Project Genesis is translated as "創世計劃".[2] -->
       <column name="_id"></column>
       <column name="entry_name">qa'vam</column>
       <column name="part_of_speech">n</column>
@@ -5204,7 +5206,7 @@ The word itself means "origin of everything" or "start of it all" or the like, a
       <column name="notes_ru">Это Клингонское кодовое имя для исследовательского проекта оружия Федерации.[2]
 
 Слово само по себе означает "источник всего" или "начало начал" или что-то подобное, и относится к началу вселенной.[3]</column>
-      <column name="notes_zh_HK"></column>
+      <column name="notes_zh_HK">In the subtitles for {Star Trek III:src}, Project Genesis is translated as "創世計劃".[2]</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
@@ -7738,7 +7740,7 @@ The famous author {Qa'taq:n:name} wrote a commentary on this work.</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Reverse of {yeq:v} "cooperate"; possibly a nod to the Borg catchphrase "Resistance is futile".</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7762,6 +7764,7 @@ The famous author {Qa'taq:n:name} wrote a commentary on this work.</column>
     </table>
     <!-- {qeylIn:n:name,fic} is used by MO in a message {msn 1997.09.01:src}, but was not invented by MO and does not appear in Star Trek canon. -->
     <table name="mem">
+      <!-- Note: Vulgar search terms have been deliberately left out. -->
       <column name="_id"></column>
       <column name="entry_name">qey'Hav</column>
       <column name="part_of_speech">n:body</column>
@@ -7786,7 +7789,7 @@ The famous author {Qa'taq:n:name} wrote a commentary on this work.</column>
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">The reversed {vaH:n} "sheath" matches the Latin etymology of vagina (literally "sheath, scabbard"), but it's unclear what the other part is.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -7794,7 +7797,6 @@ The famous author {Qa'taq:n:name} wrote a commentary on this work.</column>
       <column name="examples_sv"></column>
       <column name="examples_ru"></column>
       <column name="examples_zh_HK"></column>
-      <!-- Note: Vulgar search terms have been deliberately left out. -->
       <column name="examples_pt"></column>
       <column name="examples_fi"></column>
       <column name="examples_fr"></column>
@@ -9406,7 +9408,7 @@ This was used for "Cancel" (while {ruch:v} was used for "Ok") in Klingon Blockly
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">An "ibrik" is a long-spouted water jug which might be used for ritual washing.</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
@@ -9619,9 +9621,9 @@ The English definitions of the slang terms were given as "be spicy, be piquant, 
       <column name="source">[1] {qep'a' 29 (2022):src}</column>
     </table>
     <table name="mem">
+      <!-- Not marked "anim" because referring to ship class here. -->
       <column name="_id"></column>
       <column name="entry_name">qISa'ruj</column>
-      <!-- Not marked "anim" because referring to ship class here. -->
       <column name="part_of_speech">n:fic</column>
       <column name="definition">Raptor (vessel)</column>
       <column name="definition_de">Raubvogel (Schiffstyp)</column>
@@ -12442,7 +12444,7 @@ It can also be used for the device some Humans use to keep their babies quiet (w
       <column name="notes_pt"></column>
       <column name="notes_fi"></column>
       <column name="notes_fr"></column>
-      <column name="hidden_notes"></column>
+      <column name="hidden_notes">Reverse of "advoc(ate)", which is the other English sense of "exponent" (one who advocates a cause).</column>
       <column name="components"></column>
       <column name="examples"></column>
       <column name="examples_de"></column>
